@@ -17,8 +17,35 @@ git clone --recursive https://github.com/JeffffffFu/RelGuard.git
 cd RelGuard
 conda env create -f environment.yml     # creates `relguard`: Python 3.10, every version pinned
 conda activate relguard
-cp .env.example .env                    # fill in OPENAI_API_KEY; OPENAI_BASE_URL for an OpenAI-compatible gateway
+cp .env.example .env                    # then add your API key, see below
 ```
+
+### API keys
+
+Every model in the pipeline is a hosted, closed model -- `gpt-4o-mini` for
+extraction, the victims' reader, the attacker and the judge; `gpt-5-mini` for
+the candidate pools; optionally other readers such as `gemini-2.5-flash` --
+and all of them are reached through the OpenAI client, so one key and one
+endpoint configure everything. No key is shipped; `.env` is gitignored and is
+the only place one is read from.
+
+Edit `.env` (copied from `.env.example`) with either:
+
+```bash
+# the OpenAI API directly
+OPENAI_API_KEY=sk-...
+```
+
+```bash
+# or an OpenAI-compatible gateway such as OpenRouter, which also serves the
+# non-OpenAI readers; model ids then follow the gateway's naming
+OPENAI_API_KEY=sk-or-v1-...
+OPENAI_BASE_URL=https://openrouter.ai/api/v1
+```
+
+The reported runs went through OpenRouter. Model ids are set in `config.py`
+(`EXTRACTOR`, `POOL_GENERATOR`, `READER`, `ATTACKER`) and on the command line
+(`--model`); rename them to whatever your endpoint calls the same models.
 
 `environment.yml` is a full `conda env export`, so the versions are the ones
 the reported numbers were produced with. Two things worth knowing:
