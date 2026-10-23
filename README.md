@@ -38,23 +38,23 @@ runs under.
 
 ## Datasets
 
-Two multi-hop QA benchmarks, in the form HippoRAG 2 publishes them (the
-1,000-question samples the graph-RAG papers report on, with their passage
-corpora):
+Two multi-hop QA benchmarks. The experiments use a fixed hundred-question
+subset of each, drawn proportionally across question types, and index the
+passages those hundred questions name:
 
-| Dataset | Questions | Passages |
-|---|---|---|
-| HotpotQA | 1,000 | 9,811 |
-| 2WikiMultiHopQA | 1,000 | 6,119 |
+| Dataset | Scope | Questions | Passages indexed |
+|---|---|---|---|
+| HotpotQA | `hotpotqa100` | 100 | 908 |
+| 2WikiMultiHopQA | `2wiki100` | 100 | 334 |
 
 ```bash
 python scripts/fetch_data.py
 ```
 
-copies both out of the `baselines/HippoRAG` submodule into `datasets/`, and
-puts the hundred-question subsets and the attack targets beside them. The
-experiments run on those hundred-question subsets, `2wiki100` and
-`hotpotqa100`.
+copies the two benchmarks out of the `baselines/HippoRAG` submodule (the
+1,000-question samples HippoRAG 2 publishes, with their passage corpora) into
+`datasets/`, and puts the hundred-question subsets and the attack targets
+beside them.
 
 ## Code structure
 
