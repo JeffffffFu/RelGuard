@@ -38,32 +38,23 @@ runs under.
 
 ## Datasets
 
-### Fetched automatically
+Two multi-hop QA benchmarks, in the form HippoRAG 2 publishes them (the
+1,000-question samples the graph-RAG papers report on, with their passage
+corpora):
+
+| Dataset | Questions | Passages |
+|---|---|---|
+| HotpotQA | 1,000 | 9,811 |
+| 2WikiMultiHopQA | 1,000 | 6,119 |
 
 ```bash
 python scripts/fetch_data.py
 ```
 
-| What | From | Lands in |
-|---|---|---|
-| HotpotQA, 1,000-question sample and its 9,811 passages | HippoRAG 2's reproduction set (the submodule) | `datasets/hotpotqa/` |
-| 2WikiMultiHopQA, 1,000 questions and 6,119 passages | the same | `datasets/2wiki/` |
-| the hundred-question subsets and the fifteen attack targets | `assets/subsets/` | `datasets/subsets/` |
-| the per-corpus artefacts of the method: extraction, candidate pools, verbalisations, predicate spans, frozen gold filter | `assets/<scope>/` | `workspace/dp_<scope>/` |
-
-The artefacts under `assets/` were produced by model calls and would not come
-back identical if regenerated; shipping them is what makes a run here
-comparable with the reported numbers. `extract` and `pools` (below) rebuild
-them from scratch for a new corpus.
-
-### Optional
-
-```bash
-python scripts/fetch_data.py --trex     # KILT T-REx parquet from the Hugging Face hub, ~550 MB
-```
-
-Only needed to rebuild the entity-type inventory (`dp.entity_types --build`,
-`dp.signature --build`); the files those produce are already in `assets/kilt/`.
+copies both out of the `baselines/HippoRAG` submodule into `datasets/`, and
+puts the hundred-question subsets and the attack targets beside them. The
+experiments run on those hundred-question subsets, `2wiki100` and
+`hotpotqa100`.
 
 ## Code structure
 
@@ -125,42 +116,17 @@ Runs the GRASP paper's defenses (Abstractive, Extractive, ID Alignment,
 Decoy) and GraphSteal's protective prompt on the same corpus and target
 model, three independent rounds, and prints the defense table.
 
-### Single stages
-
-```bash
-python main.py stage perturb --scope 2wiki100
-python main.py stage index   --scope 2wiki100 --model gpt-4o-mini --eps 1
-python main.py stage attack  --scope 2wiki100 --model gpt-4o-mini --eps 1
-```
-
-Stages: `extract pools perturb rewrite inject index attack defenses table`.
-Add `--dry` to any command to print what it would run without running it.
-Every stage resumes over what exists -- an index is built once, a scored
-target or a checkpointed attack is not repeated -- so an interrupted command
-is simply rerun.
-
-**Note:** do not run `extract` or `pools` when comparing against the reported
-numbers; they call a model and replace the shipped artefacts.
-
 ### Where the results land
 
 | File | Content |
 |---|---|
-| `runs/results_<scope>[_vm-<model>].json` | one entry per (victim, corpus): `grasp` and `graphsteal` as `{naive, rtype}` F1, `qa_f1`; `null` where not on disk |
-| `runs/results_<scope>[_vm-<model>].xlsx` | the same table as a sheet |
-| `runs/defense_3run_mean[_vm-<model>].xlsx` | the defense table: per victim and benchmark, six settings, both attacks' Naive/RType F1 and QA F1, mean of three rounds; a Runs sheet with every round |
+| `runs/results_<scope>.json`, `.xlsx` | our method: per victim, GRASP and GraphSteal Naive/RType F1 and QA F1 for `original`, `identity_inplace` and each `eps<e>_seed<s>_inplace` |
+| `runs/defense_3run_mean.xlsx` | the baseline defenses: per victim and benchmark, six settings, both attacks' F1 and QA F1, mean of three rounds |
 
-Corpora are named `original`, `identity_inplace` and `eps<e>_seed<s>_inplace`.
-Behind every number is its run:
-
-| Path | Content |
-|---|---|
-| `runs/_u_<scope>[_vm-<model>]/.../predictions_*.json` | one record per question: question, gold, the reader's answer, the retrieval context; `benchmark/score_hotpot.py <file>` scores it by question type |
-| `runs/_grasp/<scope>_<victim>_<corpus>[_vm-<model>]/` | `naive_rtype.json` (one row per target: P, R, F1, hits), `turns_<i>.jsonl` (every query and reply), `judge.json` |
-| `runs/_graphsteal/<scope>_<victim>_<corpus>[_vm-<model>]/` | the same, plus `state_*.json` (the recovered graph and frontier) |
-| `runs/_defense/sweep[_vm-<model>]/rep<r>/<cell>/`, `runs/_graphsteal/defense[_vm-<model>]/rep<r>/<cell>/` | the defense cells, laid out as above |
-| `workspace/dp_<scope>/perturbed/`, `sanitized/`, `inject/` | the mechanism's trace per fact, the rewritten corpus, the typed relations handed to each index |
-| `workspace/u_<scope>_<lr\|pr\|hp>_<corpus>/` | the victims' indexes |
+A different `--model` adds `_vm-<model>` to both names. The per-question
+predictions are under `runs/_u_<scope>/`, the attack runs under
+`runs/_grasp/` and `runs/_graphsteal/`, and the mechanism's traces and
+rewritten corpora under `workspace/dp_<scope>/`.
 
 ## Notes on defaults
 
