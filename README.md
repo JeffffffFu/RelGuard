@@ -56,24 +56,40 @@ candidate pools, their verbalisations, the predicate spans and the frozen gold
 filter. These were produced by model calls and would not come back identical
 if regenerated.
 
-## Quickstart
+## Running
 
-    python main.py all --dry        # every command the pipeline would run, nothing executed
-    python main.py perturb          # the mechanism: one trace per epsilon, deterministic given the seed
-    python main.py rewrite          # identity and every epsilon written back into the corpus
-    python main.py inject           # the typed relations each index should carry
-    python main.py index            # build the three victims' indexes, answer the hundred questions
-    python main.py attack           # GRASP and GraphSteal on identity and every epsilon
-    python main.py defenses         # the baseline defenses, three rounds
-    python main.py table            # the defense table, read back from the runs
+Two methods, each needing the corpus and the target model; everything else
+defaults from `config.py`.
 
-Every parameter is in `config.py`; `--set KEY=VALUE` overrides one for a
-single invocation (`python main.py index --set SCOPE=hotpotqa100`). `extract`
-and `pools` regenerate the shipped artefacts from scratch, for a new corpus.
+    python main.py ours      --scope 2wiki100 --model gpt-4o-mini --eps 1 5
+    python main.py baselines --scope 2wiki100 --model gpt-4o-mini
+
+`ours` runs the mechanism end to end at each epsilon -- perturb, rewrite,
+inject, build the three victims' indexes, answer the hundred questions, run
+GRASP and GraphSteal -- and prints the results: per victim, privacy F1 for
+identity (no DP) and each epsilon under both attacks, and QA F1 for the
+original corpus and each epsilon. `results` prints that table again from
+what is on disk. `baselines` runs the GRASP paper's defenses and GraphSteal's
+protective prompt on the same corpus and model, three independent rounds,
+and prints the defense table.
+
+`--model` is the victim's reader on the attack side and the QA side; the
+attacker and the judge stay at `config.ATTACKER`, so a delta between target
+models is attributable. Any config value can be overridden for one run with
+`--set KEY=VALUE`; `--dry` prints the commands without running them. Every
+stage resumes over what exists, so an interrupted command is rerun as is.
+
+Single stages, for a partial rerun:
+
+    python main.py stage perturb --scope 2wiki100
+    python main.py stage attack  --scope 2wiki100 --model gpt-4o-mini --eps 1
+
+`extract` and `pools` regenerate the shipped artefacts from scratch, for a new
+corpus; do not run them when comparing against the paper.
 
 ## Layout
 
-    main.py                  the pipeline, one stage per subcommand
+    main.py                  `ours`, `baselines`, `results`, and the single stages
     config.py                every parameter of a run
     scripts/fetch_data.py    datasets/ and workspace/ from the submodule and assets/
     assets/                  the artefacts a run must share with the paper (see Setup)

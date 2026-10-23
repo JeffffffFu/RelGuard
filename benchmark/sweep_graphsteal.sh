@@ -36,13 +36,16 @@ fi
 ROOT_OUT=runs/_graphsteal/defense$TAG
 LOGS=$ROOT_OUT/logs; mkdir -p "$LOGS"
 stamp() { date +%H:%M:%S; }
-SETTINGS="none:nosafe abstractive:safe extractive:safe id_align:safe decoy:safe protective:nosafe"
+# main.py passes SETTINGS, ROUNDS and DP_SCOPES from config.py; these are the defaults
+SETTINGS=${SETTINGS:-"none:nosafe abstractive:safe extractive:safe id_align:safe decoy:safe protective:nosafe"}
+ROUNDS=${ROUNDS:-3}
+DP_SCOPES=${DP_SCOPES:-"2wiki100 hotpotqa100"}
 
 # Two passes: the second only reaches cells the first left without a
 # result, which after a provider rate-limit is the usual way a cell fails.
 for pass in 1 2; do
-for r in 1 2 3; do
-  for ds in 2wiki100 hotpotqa100; do
+for r in $(seq 1 "$ROUNDS"); do
+  for ds in $DP_SCOPES; do
     for setting in $SETTINGS; do
       d=${setting%%:*}; safe=${setting##*:}
       # Project rule: the privacy baseline (`none`) is the identity rewrite,

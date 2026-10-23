@@ -4,12 +4,11 @@
     python benchmark/defense_table.py --out runs/defense_3run_mean.xlsx
     python benchmark/defense_table.py --victim_model gemini-2.5-flash
 
-With --victim_model, every cell comes from the `_vm-<model>` roots the two
-sweep scripts write for that reader, including the baseline row: the
-sweeps' own `none` cells, which attack the identity index, and their `none`
-utility runs on the original corpus -- the same rule as the default table,
-read from the sweep rather than from the privacy and utility tables, which
-hold gpt-4o-mini only.
+Every cell, the baseline row included, comes from the roots the two sweep
+scripts write for the reader named by --victim_model (`_vm-<model>`, nothing
+for gpt-4o-mini): the `none` cells attack the identity index, which is the
+privacy baseline, and the `none` utility runs answer from the original corpus,
+which is the utility baseline.
 
 Both metrics for both benchmarks, one block of rows per victim GraphRAG, means
 over three independent runs. Nothing is typed in: every number is read back
@@ -67,9 +66,6 @@ UTILITY_BASELINE = "original"
 VM_TAG = ""   # "_vm-<model>" when a non-default reader is being tabulated
 
 ATTACK = os.path.join(ROOT, "runs", "_defense")
-PRIVACY_TABLE = os.path.join(ROOT, "runs", "privacy_3run_mean.xlsx")
-GRASP_IDENTITY = os.path.join(ROOT, "runs", "_grasp")
-GS_IDENTITY = os.path.join(ROOT, "runs", "_graphsteal")
 GRAPHSTEAL = os.path.join(ROOT, "runs", "_graphsteal", "defense")
 """The second attack. benchmark/sweep_graphsteal.sh names every cell
 rep{r}/{ds}_{victim}_{mode}_{safe}, for all three victims alike, and
@@ -84,36 +80,12 @@ DATASETS = [("2wiki", "2WikiMultiHopQA"), ("hotpot", "HotpotQA")]
 
 DEFENSES = ["no-DP (identity)", "Abstractive", "Extractive",
             "ID Alignment", "Decoy", "Protective Sys. Prompt"]
-"""Row order. The first row is the baseline every delta is taken against, and
-it is the privacy table's no-DP row, not a defended-sweep cell: the identity
-rewrite, i.e. the corpus passed through the DP write-back with every relation
-released unchanged, attacked with no defense installed. That is what the DP
-rows in privacy_3run_mean.xlsx are measured against, so a baseline defense and
-an epsilon can be read off the same reference. Its three runs come from
-
-    GRASP        run 1 from runs/_grasp/atk_*_identity_inplace.json; runs 2
-                 and 3 exist only as the P and R the privacy table's Runs
-                 sheet records (its note: "Run 1 is the artefact on disk"),
-                 so they are read from that sheet
-    GraphSteal   runs/_graphsteal/{,rep2/,rep3/}*_identity_inplace
-    utility      the utility table's no-DP runs, which are the original
-                 corpus (the identity rewrite is the attack baseline, the
-                 original corpus the utility baseline; utility_3run_mean.xlsx
-                 says the same)
-
-The defended cells themselves were run on the original index. The deltas
-therefore include whatever the identity rewrite does to the attack on its
-own, which on LightRAG is not small (HotpotQA GRASP Naive: original 79 vs
-identity 95, run 1); the sweep's own original-corpus No defense cells remain
-under runs/_defense/sweep and runs/_graphsteal/defense for the other reading.
-
-Abstractive, Extractive, ID Alignment and Decoy all carry the project's
-appended safe prompt, per Section VII-C-1 of Song et al. (arXiv:2602.06495).
-Protective Sys. Prompt is run without it, being the same idea prepended, and
-stacking the two would confound which one acted. So those four deltas include
-the safe prompt's own effect and this table does not isolate it; measured on
-its own it was -1.61 Naive F1 and -5.30 RType F1 on 2Wiki/LightRAG.
-"""
+"""Row order. The first row is the baseline every delta is taken against:
+the identity rewrite attacked with no defense (privacy), and the original
+corpus answered with no defense (utility). Abstractive, Extractive, ID
+Alignment and Decoy carry the paper's safe prompt (Section VII-C-1 of Song et
+al.); Protective runs without it, being the same idea prepended, and
+stacking the two would confound which one acted."""
 
 VICTIMS = ["LightRAG", "PathRAG", "HippoRAG 2"]
 
@@ -134,15 +106,6 @@ _PH = "predictions_hotpotqa100-dp-delta_original_hybrid_top10"
 CELLS: dict[tuple[str, str, str], list[tuple[str, str]]] = {}
 
 
-def _lightrag(dataset: str, defense: str, attack_tag: str, rep_tag: str,
-              qa_suffix: str) -> None:
-    cell, pred = (_LR2, _P2) if dataset == "2wiki" else (_LRH, _PH)
-    stem = "2wiki100" if dataset == "2wiki" else "hotpotqa100"
-    CELLS[("LightRAG", dataset, defense)] = [
-        (f"{cell}_def-{attack_tag}_original", f"{pred}{qa_suffix}.json"),
-        (f"rep2/{stem}_{rep_tag}", f"defrep2/{pred}{qa_suffix}.json"),
-        (f"rep3/{stem}_{rep_tag}", f"defrep3/{pred}{qa_suffix}.json"),
-    ]
 
 
 # PathRAG and HippoRAG 2 came later, from benchmark/sweep_defenses.sh, which
@@ -153,17 +116,6 @@ _SETTINGS = [("no-DP (identity)", "none", "nosafe"), ("Abstractive", "abstractiv
              ("Decoy", "decoy", "safe"), ("Protective Sys. Prompt", "protective", "nosafe")]
 
 
-def _no_dp_utility(victim: str, ds: str) -> list[str]:
-    """The utility table's three no-DP runs: original corpus, one per rep."""
-    bm = "2wiki_dev" if ds == "2wiki" else "hotpotqa_dev"
-    stem = "2wiki100" if ds == "2wiki" else "hotpotqa100"
-    if victim == "LightRAG":
-        name = f"predictions_{stem}-dp-delta_original_hybrid_top10.json"
-        return [name, f"rep2/{name}", f"rep3/{name}"]
-    sub, tag = (("pr_original", "pathrag_top10") if victim == "PathRAG"
-                else ("hp_original", "hipporag2_top5"))
-    name = f"predictions_{bm}_{tag}.json"
-    return [f"{sub}/{name}", f"rep2/{sub}/{name}", f"rep3/{sub}/{name}"]
 
 
 def _swept(victim: str, short: str, pred_tag: str) -> None:
@@ -171,10 +123,6 @@ def _swept(victim: str, short: str, pred_tag: str) -> None:
         stem = "2wiki100" if ds == "2wiki" else "hotpotqa100"
         bm = "2wiki_dev" if ds == "2wiki" else "hotpotqa_dev"
         for defense, mode, safe in _SETTINGS:
-            if defense == DEFENSES[0] and not VM_TAG:
-                CELLS[(victim, ds, defense)] = [
-                    (None, pred) for pred in _no_dp_utility(victim, ds)]
-                continue
             if defense == DEFENSES[0]:
                 # the sweep's own baseline: identity attack cells, original
                 # utility, both under the reader's tagged roots
@@ -197,23 +145,9 @@ def _swept(victim: str, short: str, pred_tag: str) -> None:
 
 def build_cells() -> None:
     CELLS.clear()
+    _swept("LightRAG", "lightrag", ("lr", "hybrid_top10"))
     _swept("PathRAG", "pathrag", ("pr", "pathrag_top10"))
     _swept("HippoRAG 2", "hipporag", ("hp", "hipporag2_top5"))
-    if VM_TAG:
-        _swept("LightRAG", "lightrag", ("lr", "hybrid_top10"))
-        return
-    for _ds, _ in DATASETS:
-        CELLS[("LightRAG", _ds, DEFENSES[0])] = [
-            (None, pred) for pred in _no_dp_utility("LightRAG", _ds)]
-        _lightrag(_ds, "Abstractive", "abstractive", "abstractive_safe",
-                  "_def-abstractive_safe")
-        _lightrag(_ds, "Extractive", "extractive", "extractive_safe",
-                  "_def-extractive_safe")
-        _lightrag(_ds, "ID Alignment", "id_align", "id_align_safe",
-                  "_def-id_align_safe")
-        _lightrag(_ds, "Decoy", "decoy", "decoy_safe", "_def-decoy_safe")
-        _lightrag(_ds, "Protective Sys. Prompt", "protective_nosafe",
-                  "protective_nosafe", "_def-protective")
 
 
 build_cells()
@@ -228,68 +162,10 @@ def graphsteal_cell(victim: str, dataset: str, defense: str, run: int) -> str:
     return f"rep{run}/{stem}_{short}_{mode}_{safe}"
 
 
-_SHEET_CACHE: dict = {}
 
 
-def privacy_no_dp(victim: str, dataset: str, run: int) -> dict | None:
-    """The privacy table's no-DP row for one run: GRASP and GraphSteal P and R.
-
-    Read from the Runs sheet, which is the only place runs 2 and 3 of GRASP
-    exist. Values are as typed there, two decimals; run 1 agrees with the
-    per-target artefact to that precision.
-    """
-    if not _SHEET_CACHE:
-        import openpyxl
-        ws = openpyxl.load_workbook(PRIVACY_TABLE, data_only=True)["Runs"]
-        label = {"2WikiMultiHopQA": "2wiki", "HotpotQA": "hotpot"}
-        current = None
-        for row in ws.iter_rows(min_row=4, values_only=True):
-            if row[0] in label:
-                current = label[row[0]]
-            if row[2] != "no-DP" or row[1] not in VICTIMS:
-                continue
-            _SHEET_CACHE[(row[1], current, int(row[3]))] = {
-                "naive_p": float(row[4]), "naive_r": float(row[5]),
-                "rtype_p": float(row[6]), "rtype_r": float(row[7]),
-                "gs_naive_p": float(row[8]), "gs_naive_r": float(row[9]),
-                "gs_rtype_p": float(row[10]), "gs_rtype_r": float(row[11])}
-    return _SHEET_CACHE.get((victim, dataset, run))
 
 
-def identity_cells(victim: str, dataset: str, run: int) -> tuple[str, str]:
-    """(GRASP summary file, GraphSteal cell dir) for the identity rewrite."""
-    short = {"LightRAG": "lightrag", "PathRAG": "pathrag",
-             "HippoRAG 2": "hipporag"}[victim]
-    stem, schema = (("2wiki100", "s5_ee3d10b8") if dataset == "2wiki"
-                    else ("hotpotqa100", "s5_4f0b8bd3"))
-    grasp = os.path.join(GRASP_IDENTITY,
-                         f"atk_{stem}_{schema}_{short}_identity_inplace.json")
-    rep = "" if run == 1 else f"rep{run}/"
-    gs = os.path.join(GS_IDENTITY, f"{rep}{stem}_{short}_identity_inplace")
-    return grasp, gs
-
-
-def no_dp_scores(victim: str, dataset: str, run: int) -> dict | None:
-    """The baseline row's attack scores for one run: the privacy table's.
-
-    The sheet is read first and the artefacts only fill what it lacks, so
-    this row *is* the privacy table's no-DP row, to the two decimals typed
-    there. Checked against the artefacts: GRASP run 1 agrees exactly, and the
-    GraphSteal cells agree except LightRAG/2Wiki run 3, which scored 14 of 15
-    targets and which the sheet averages over the 14 (Naive P 82.02) where
-    this table's own cells pad to 15 (76.55). The sheet's value is kept, so
-    the row stays the privacy table's.
-    """
-    out = dict(privacy_no_dp(victim, dataset, run) or {})
-    grasp_file, gs_dir = identity_cells(victim, dataset, run)
-    if os.path.exists(grasp_file):
-        rows = json.load(open(grasp_file, encoding="utf-8"))
-        for k in ("naive_p", "naive_r", "rtype_p", "rtype_r"):
-            out.setdefault(k, sum(r[k] for r in rows) / N_TARGETS)
-    gs = attack_scores(os.path.basename(gs_dir), os.path.dirname(gs_dir))
-    for k, v in (gs or {}).items():
-        out.setdefault(f"gs_{k}", v)
-    return out or None
 
 
 def sweep_baseline(victim: str, dataset: str, run: int) -> dict | None:
@@ -338,8 +214,7 @@ def collect() -> tuple[dict, list[str]]:
         for i, (cell, predictions) in enumerate(triple, 1):
             utility = qa_f1(dataset, predictions)
             if cell is None:
-                base = (sweep_baseline(victim, dataset, i) if VM_TAG
-                        else no_dp_scores(victim, dataset, i))
+                base = sweep_baseline(victim, dataset, i)
                 if base is None:
                     missing.append(f"{victim}/{dataset}/{defense} run{i}: "
                                    f"no identity baseline")

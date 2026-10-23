@@ -1,28 +1,41 @@
-"""The pipeline, one stage per subcommand, every parameter from config.py.
+"""RelGuard: our method and the baseline defenses, from the command line.
 
-    python main.py extract                 # facts out of the corpus, once
-    python main.py pools                   # types, pools, verbalisations, spans
-    python main.py perturb                 # the mechanism, one trace per epsilon
-    python main.py rewrite                 # identity and every epsilon written back
-    python main.py inject                  # typed relations for each index
-    python main.py index                   # build every victim's indexes, answer QA
-    python main.py attack                  # GRASP and GraphSteal on identity and every epsilon
-    python main.py defenses                # the baseline defenses, three rounds
-    python main.py table                   # the defense table from the runs
-    python main.py all                     # the stages above, in order
+    python main.py ours      --scope 2wiki100 --model gpt-4o-mini --eps 1 5
+    python main.py baselines --scope 2wiki100 --model gpt-4o-mini
+    python main.py results   --scope 2wiki100 --model gpt-4o-mini
 
-    python main.py perturb --dry           # print the commands, run nothing
-    python main.py index --set SCOPE=hotpotqa100 --set READER=gemini-2.5-flash
+`ours` runs the mechanism end to end on one corpus and one target model:
+perturb, rewrite, inject, index, answer, attack, and prints the results --
+privacy F1 for identity (no DP) and each epsilon under GRASP and GraphSteal,
+QA F1 for the original corpus and each epsilon, for every victim. Epsilon is
+its parameter; everything else defaults from config.py.
+
+`baselines` runs the GRASP paper's defenses (and GraphSteal's protective
+prompt) on the same corpus and target model, three independent rounds, and
+prints the defense table. They need no epsilon.
+
+`--scope` (2wiki100 or hotpotqa100) and `--model` (the victim's reader, on
+both the attack side and the QA side) are required for both; the attacker,
+the judge, the seed, the budgets and every path are in config.py, and any of
+them can be overridden for one invocation with `--set KEY=VALUE`.
+
+Single stages, for debugging or a partial rerun:
+
+    python main.py stage perturb --scope 2wiki100
+    python main.py stage index   --scope 2wiki100 --model gpt-4o-mini --eps 1
+    python main.py stage attack  --scope 2wiki100 --model gpt-4o-mini --eps 1
+
+    stages: extract pools perturb rewrite inject index attack defenses table
 
 Nothing is computed here. Each stage assembles the command line its module
-already understands and runs it, so a stage can always be rerun by hand from
-the line this prints. Stages are resumable where their modules are: the
-mechanism and the rewrite overwrite their traces, indexes are built once and
-reused, and the attack and defense drivers skip cells whose result exists.
+already understands and runs it, and prints the line, so any step can be rerun
+by hand; `--dry` prints without running. Every stage resumes over what exists:
+an index is built once, a scored target or a checkpointed attack is not
+repeated, and the commands can be rerun after an interruption.
 
-Two baselines are fixed, and this file follows them: a privacy run attacks
-the identity rewrite as its "no DP" row, and a utility run reads the original
-corpus as its "no DP" row.
+Two baselines are fixed, and this file follows them: a privacy number's
+"no DP" row is the identity rewrite, a utility number's "no DP" row is the
+original corpus.
 """
 
 from __future__ import annotations
@@ -60,6 +73,26 @@ def py(module_or_path: str, *args) -> list[str]:
 
 def scope_env() -> dict:
     return {"DP_SCOPE": C.SCOPE, "DP_EMBEDDER_REVISION": C.EMBEDDER_REVISION}
+
+
+def reader_tag() -> str:
+    """"" for the default reader; "_vm-<model>" otherwise, so two target models
+    never share an output path."""
+    return "" if C.READER == "gpt-4o-mini" else "_vm-" + C.READER.replace("/", "-")
+
+
+def utility_file(victim: str, corpus: str) -> str:
+    spec, _, delta = C.CORPORA[C.SCOPE]
+    out = f"runs/_u_{C.SCOPE}{reader_tag()}"
+    if victim == "lightrag":
+        return f"{out}/predictions_{delta}_{corpus}_hybrid_top{C.TOP_K[victim]}.json"
+    bm = spec.replace(":", "_")
+    tag = "pathrag_top10" if victim == "pathrag" else f"hipporag2_top{C.TOP_K[victim]}"
+    return f"{out}/{C.SHORT[victim]}_{corpus}/predictions_{bm}_{tag}.json"
+
+
+def attack_dir(attack: str, victim: str, corpus: str) -> str:
+    return f"runs/_{attack}/{C.SCOPE}_{victim}_{corpus}{reader_tag()}"
 
 
 def corpus_names() -> list[str]:
@@ -128,7 +161,7 @@ def index(corpora: list[str] | None = None):
         typed = {"DP_TYPED_RELATIONS": f"workspace/dp_{C.SCOPE}/inject/{corpus}.json"}
         sanitized = ([] if corpus == "original" else
                      ["--sanitized", f"workspace/dp_{C.SCOPE}/sanitized/{corpus}.json"])
-        out = f"runs/_u_{C.SCOPE}"
+        out = f"runs/_u_{C.SCOPE}{reader_tag()}"
         for victim in C.VICTIMS:
             ws = f"workspace/u_{C.SCOPE}_{C.SHORT[victim]}_{corpus}"
             if victim == "lightrag":
@@ -165,14 +198,13 @@ def attack():
             idx = index_dir(victim, corpus)
             hippo = (["--benchmark", f"{delta}:{corpus}", "--index_model", C.INDEX_MODEL]
                      if victim == "hipporag" else [])
-            tag = f"{C.SCOPE}_{victim}_{corpus}"
             run(py("benchmark/attack_defended.py", "--victim", victim, "--index", idx,
                    "--defense", "none", "--no_safe_prompt", *src, *vm, *hippo,
                    "--queries", C.GRASP_QUERIES, "--judge_model", C.ATTACKER,
                    "--top_k", C.TOP_K[victim], "--seed", C.SEED,
-                   "--out_dir", f"runs/_grasp/{tag}"), scope_env())
+                   "--out_dir", attack_dir("grasp", victim, corpus)), scope_env())
             g = C.GRAPHSTEAL
-            out = f"runs/_graphsteal/{tag}"
+            out = attack_dir("graphsteal", victim, corpus)
             run(py("benchmark/graphsteal.py", "--victim", victim, "--index", idx,
                    "--targets", targets, "--turns", g["turns"], "--command", g["command"],
                    "--order", g["order"], "--top_k", g["top_k"], "--gold", g["gold"],
@@ -184,8 +216,14 @@ def attack():
 
 def defenses():
     """The two sweep drivers, one lane per victim, sequentially. Run the lanes
-    in parallel by hand (see the scripts) when wall-clock matters."""
-    env = {"VM": C.READER}
+    in parallel by hand (see the scripts) when wall-clock matters. The
+    defended cells attack the original index and the `none` cells the identity
+    index, so both are built first."""
+    index(["original", "identity_inplace"])
+    settings = " ".join(f"{d}:{'safe' if d in C.SAFE_PROMPT_WITH else 'nosafe'}"
+                        for d in C.DEFENSES)
+    env = {"VM": C.READER, "ROUNDS": str(C.ROUNDS), "SETTINGS": settings,
+           "DP_SCOPES": C.SCOPE}
     for victim in C.VICTIMS:
         run(["bash", "benchmark/sweep_defenses.sh", victim], env)
         run(["bash", "benchmark/sweep_graphsteal.sh", victim], env)
@@ -193,6 +231,88 @@ def defenses():
 
 def table():
     run(py("benchmark/defense_table.py", "--victim_model", C.READER))
+
+
+def results() -> dict:
+    """Privacy and utility of the method, read back from the runs on disk.
+
+    One block per victim. Privacy rows are identity (the no-DP baseline) and
+    each epsilon: Naive and RType F1 under GRASP and GraphSteal, macro over
+    the targets padded to the full list, as every table in this project.
+    Utility rows are the original corpus (the no-DP baseline) and each
+    epsilon: token F1 over the hundred questions. Missing cells print as "-".
+    """
+    import contextlib, io, json
+    sys.path.insert(0, os.path.join(ROOT, "benchmark"))
+    from score_hotpot import score
+
+    def macro(path):
+        p = os.path.join(ROOT, path, "naive_rtype.json")
+        if not os.path.exists(p):
+            return None
+        rows = json.load(open(p, encoding="utf-8"))
+        n = len(json.load(open(os.path.join(ROOT, C.TARGETS.format(scope=C.SCOPE))))["targets"])
+        f1 = lambda a, b: 2 * a * b / (a + b) if a + b else 0.0
+        avg = lambda k: sum(r[k] for r in rows) / n
+        return {"naive": f1(avg("naive_p"), avg("naive_r")),
+                "rtype": f1(avg("rtype_p"), avg("rtype_r"))}
+
+    def qa(path):
+        p = os.path.join(ROOT, path)
+        if not os.path.exists(p):
+            return None
+        with contextlib.redirect_stdout(io.StringIO()):
+            return score(p)["overall"]["f1"]
+
+    table = {}
+    print(f"\n== results  scope {C.SCOPE}  reader {C.READER}  seed {C.SEED}")
+    head = (f"{'':10}{'corpus':22}{'GRASP Naive':>12}{'GRASP RType':>12}"
+            f"{'GS Naive':>10}{'GS RType':>10}{'QA F1':>8}")
+    for victim in C.VICTIMS:
+        print(f"\n{victim}\n{head}")
+        for corpus in ["original"] + corpus_names():
+            g, s_, q = macro(attack_dir("grasp", victim, corpus)), \
+                       macro(attack_dir("graphsteal", victim, corpus)), \
+                       qa(utility_file(victim, corpus))
+            table[(victim, corpus)] = {"grasp": g, "graphsteal": s_, "qa_f1": q}
+            cell = lambda v: f"{v:.2f}" if v is not None else "-"
+            label = {"original": "original (QA baseline)",
+                     "identity_inplace": "identity (privacy baseline)"}.get(corpus, corpus)
+            print(f"{'':10}{label:22}{cell(g and g['naive']):>12}{cell(g and g['rtype']):>12}"
+                  f"{cell(s_ and s_['naive']):>10}{cell(s_ and s_['rtype']):>10}{cell(q):>8}")
+    out = os.path.join(ROOT, "runs", f"results_{C.SCOPE}{reader_tag()}.json")
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    json.dump({"scope": C.SCOPE, "reader": C.READER, "seed": C.SEED,
+               "epsilons": C.EPSILONS,
+               "cells": {f"{v}|{c}": r for (v, c), r in table.items()}},
+              open(out, "w", encoding="utf-8"), indent=2)
+    print(f"\n-> {out}")
+    return table
+
+
+def ours() -> None:
+    """Our method, end to end, for config.SCOPE, config.READER, config.EPSILONS.
+
+    The shipped artefacts (extraction, pools, verbalisations, spans) are the
+    starting point, so `extract` and `pools` are not run here: rerunning them
+    would call a model and produce different artefacts.
+    """
+    perturb()
+    rewrite()
+    inject()
+    index(["original"] + corpus_names())
+    attack()
+    results()
+
+
+def baselines() -> None:
+    """The baseline defenses on the same corpus and target model, then the table."""
+    inject_original = f"workspace/dp_{C.SCOPE}/inject/original.json"
+    if not os.path.exists(os.path.join(ROOT, inject_original)):
+        rewrite()
+        inject()
+    defenses()
+    table()
 
 
 STAGES = {"extract": extract, "pools": pools, "perturb": perturb, "rewrite": rewrite,
@@ -217,19 +337,49 @@ def main() -> None:
     global DRY
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("stage", choices=[*STAGES, "all"])
-    p.add_argument("--set", action="append", default=[], metavar="KEY=VALUE",
-                   help="override a config.py value for this run; the value is "
-                        "parsed as a Python literal when it is one")
-    p.add_argument("--dry", action="store_true", help="print the commands only")
+    sub = p.add_subparsers(dest="command", required=True)
+
+    def common(sp, scope_required):
+        sp.add_argument("--scope", required=scope_required, metavar="CORPUS",
+                        choices=sorted(C.CORPORA),
+                        help="the corpus: " + " or ".join(sorted(C.CORPORA)))
+        sp.add_argument("--model", required=scope_required, metavar="READER",
+                        help="the target model: the victim's reader on the attack "
+                             "side and the QA side; the attacker and the judge stay "
+                             "fixed (config.ATTACKER)")
+        sp.add_argument("--set", action="append", default=[], metavar="KEY=VALUE",
+                        help="override any config.py value for this run")
+        sp.add_argument("--dry", action="store_true", help="print the commands only")
+
+    o = sub.add_parser("ours", help="our method: the mechanism at each epsilon, "
+                                    "attacked and answered, then the results table")
+    common(o, True)
+    o.add_argument("--eps", type=float, nargs="+", metavar="E", default=None,
+                   help=f"epsilons to run (default {C.EPSILONS})")
+    b = sub.add_parser("baselines", help="the baseline defenses on the same corpus "
+                                         "and target model, then the defense table")
+    common(b, True)
+    r = sub.add_parser("results", help="print our method's results again, from disk")
+    common(r, True)
+    r.add_argument("--eps", type=float, nargs="+", metavar="E", default=None)
+    st = sub.add_parser("stage", help="one stage of the pipeline")
+    st.add_argument("name", choices=list(STAGES))
+    common(st, False)
+    st.add_argument("--eps", type=float, nargs="+", metavar="E", default=None)
+
     args = p.parse_args()
     DRY = args.dry
+    if args.scope:
+        C.SCOPE = args.scope
+    if args.model:
+        C.READER = args.model
+    if getattr(args, "eps", None):
+        C.EPSILONS = args.eps
     apply_overrides(args.set)
-    if C.SCOPE not in C.CORPORA:
-        raise SystemExit(f"SCOPE {C.SCOPE!r} is not in config.CORPORA")
-    for name in (list(STAGES) if args.stage == "all" else [args.stage]):
-        print(f"\n== {name}  (scope {C.SCOPE}, reader {C.READER})")
-        STAGES[name]()
+    print(f"== {args.command}{' ' + args.name if args.command == 'stage' else ''}"
+          f"  scope {C.SCOPE}  reader {C.READER}  eps {C.EPSILONS}  seed {C.SEED}")
+    {"ours": ours, "baselines": baselines, "results": results,
+     "stage": lambda: STAGES[args.name]()}[args.command]()
 
 
 if __name__ == "__main__":
