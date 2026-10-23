@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Linda Linda Linda": "WORK_OF_ART",
+    "Nobuhiro Yamashita": "PERSON",
+    "Bae Doona": "PERSON",
+    "Aki Maeda": "PERSON",
+    "Yu Kashii": "PERSON",
+    "Shiori Sekine": "PERSON",
+    "Base Ball Bear": "ORG",
+    "the Blue Hearts": "ORG",
+    "Paranmaum": "ORG",
+    "Japan": "GPE",
+    "Korea": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Linda Linda Linda",
+      "relation": "directed_by",
+      "object": "Nobuhiro Yamashita",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Nobuhiro Yamashita"
+        }
+      ]
+    },
+    {
+      "subject": "Linda Linda Linda",
+      "relation": "stars",
+      "object": "Bae Doona",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars Bae Doona"
+        }
+      ]
+    },
+    {
+      "subject": "Shiori Sekine",
+      "relation": "part_of",
+      "object": "Base Ball Bear",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of the band Base Ball Bear"
+        }
+      ]
+    },
+    {
+      "subject": "Paranmaum",
+      "relation": "released_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released a CD single in Japan"
+        }
+      ]
+    },
+    {
+      "subject": "the Blue Hearts",
+      "relation": "covered_by",
+      "object": "Paranmaum",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "form a band to cover songs by the Japanese punk rock band the Blue Hearts"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Linda Linda Linda",
+        "stars",
+        "Aki Maeda"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Linda Linda Linda",
+        "stars",
+        "Yu Kashii"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Linda Linda Linda",
+        "stars",
+        "Shiori Sekine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Paranmaum",
+        "released_in",
+        "Korea"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Linda Linda Linda\nLinda Linda Linda (リンダ リンダ リンダ ) is a 2005 Japanese film directed by Nobuhiro Yamashita. It stars Bae Doona, Aki Maeda, Yu Kashii, and Shiori Sekine (of the band Base Ball Bear) as teenagers who form a band to cover songs by the Japanese punk rock band the Blue Hearts; the film's title comes from the hit Blue Hearts song \"\"Linda Linda\"\". A subtitled DVD was released on May 8, 2007. The band, Paranmaum (Korean for \"the Blue Hearts\"), released a CD single in Japan and Korea titled \"We Are Paranmaum\"."
+}

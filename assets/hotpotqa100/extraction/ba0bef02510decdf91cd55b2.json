@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Baron Burnham": "title",
+    "Sir Edward Levy-Lawson": "person",
+    "Daily Telegraph": "publication",
+    "Joseph Moses Levy": "person",
+    "Hall Barn": "location",
+    "Beaconsfield": "location",
+    "Buckingham": "location"
+  },
+  "triples": [
+    {
+      "subject": "Joseph Moses Levy",
+      "relation": "son_of",
+      "object": "Sir Edward Levy-Lawson",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Levy-Lawson was the son of Joseph Moses Levy"
+        }
+      ]
+    },
+    {
+      "subject": "Hall Barn",
+      "relation": "located_in",
+      "object": "Beaconsfield",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of Hall Barn in the Parish of Beaconsfield"
+        }
+      ]
+    },
+    {
+      "subject": "Beaconsfield",
+      "relation": "located_in",
+      "object": "Buckingham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the County of Buckingham"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Baron Burnham",
+        "created_in",
+        "1903"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sir Edward Levy-Lawson",
+        "works_for",
+        "Daily Telegraph"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sir Edward Levy-Lawson",
+        "created_as",
+        "Baronet"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Joseph Moses Levy",
+        "acquired",
+        "Daily Telegraph"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Baron Burnham\nBaron Burnham, of Hall Barn in the Parish of Beaconsfield in the County of Buckingham, is a title in the Peerage of the United Kingdom. It was created in 1903 for the influential newspaper magnate Sir Edward Levy-Lawson, 1st Baronet, owner of the \"Daily Telegraph\". He had already been created a Baronet, of Hall Barn in The Parish of Beaconsfield in the County of Buckingham, in the Baronetage of the United Kingdom in 1892. Levy-Lawson was the son of Joseph Moses Levy, who acquired the \"Daily Telegraph\" only months after its founding."
+}

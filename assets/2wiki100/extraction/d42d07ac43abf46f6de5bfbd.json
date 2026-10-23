@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Shirin Farhad": "film",
+    "J.J. Madan": "person",
+    "Nissar": "person",
+    "Jehanara Kajjan": "person",
+    "Alam Ara": "film",
+    "Shahnameh": "literary_work",
+    "Farhad": "character",
+    "Shirin": "character",
+    "Nizami Ganjavi": "person"
+  },
+  "triples": [
+    {
+      "subject": "Shirin Farhad",
+      "relation": "directed_by",
+      "object": "J.J. Madan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The film was directed by J.J. Madan"
+        }
+      ]
+    },
+    {
+      "subject": "Shirin Farhad",
+      "relation": "starred",
+      "object": "Nissar",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and starred Nissar and Jehanara Kajjan."
+        }
+      ]
+    },
+    {
+      "subject": "Shirin Farhad",
+      "relation": "starred",
+      "object": "Jehanara Kajjan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and starred Nissar and Jehanara Kajjan."
+        }
+      ]
+    },
+    {
+      "subject": "Alam Ara",
+      "relation": "released_earlier_than",
+      "object": "Shirin Farhad",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "\" Alam Ara\" was released earlier the same year"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Shirin Farhad",
+        "is_a",
+        "film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Shirin Farhad",
+        "based_on",
+        "Shahnameh"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alam Ara",
+        "is_a",
+        "film"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Shirin Farhad (1931 film)\nShirin Farhad is a 1931 Hindi language musical film. It was the second Indian film with sound. It was based on the love story from the\" Shahnameh\" of Farhad and Shirin by Nizami Ganjavi. The film was directed by J.J. Madan and starred Nissar and Jehanara Kajjan. \" Alam Ara\" was released earlier the same year and was the first Indian film with sound."
+}

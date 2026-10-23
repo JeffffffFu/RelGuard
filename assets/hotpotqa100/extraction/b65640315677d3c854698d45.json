@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Office of the Prime Minister (Canada)": "ORG",
+    "Canada": "GPE",
+    "Parliament Hill": "FAC",
+    "Ottawa": "GPE",
+    "Privy Council Office (PCO)": "ORG",
+    "prime minister": "PERSON",
+    "PCO": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Office of the Prime Minister (Canada)",
+      "relation": "located_in",
+      "object": "Ottawa",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in the Office of the Prime Minister and Privy Council, facing Parliament Hill, in Ottawa"
+        }
+      ]
+    },
+    {
+      "subject": "Office of the Prime Minister (Canada)",
+      "relation": "part_of",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "In Canada, the Office of the Prime Minister"
+        }
+      ]
+    },
+    {
+      "subject": "Office of the Prime Minister (Canada)",
+      "relation": "advises",
+      "object": "prime minister",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who are charged with advising the prime minister on decisions"
+        }
+      ]
+    },
+    {
+      "subject": "PCO",
+      "relation": "non_partisan",
+      "object": "PCO",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is expressly non-partisan"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Privy Council Office (PCO)",
+        "controls",
+        "civil service"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Office of the Prime Minister (Canada)",
+        "concerned_with",
+        "policy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "PCO",
+        "concerned_with",
+        "policy decisions"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Office of the Prime Minister (Canada)\nIn Canada, the Office of the Prime Minister (more commonly referred to as the Prime Minister's Office and abbreviated as PMO), located in the Office of the Prime Minister and Privy Council, facing Parliament Hill, in Ottawa, is one of the most powerful parts of the government. It is made up of the prime minister and his or her top political staff, who are charged with advising the prime minister on decisions, making the office a wholly partisan body. It should not be confused with the Privy Council Office (PCO), which is the top office that controls the civil service and is expressly non-partisan. The PMO is concerned with making policy whereas the PCO is concerned with executing the policy decisions decided by the government."
+}

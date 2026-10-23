@@ -1,0 +1,65 @@
+{
+  "entities": {
+    "Georges Méliès": "PERSON",
+    "A Trip to the Moon": "WORK_OF_ART",
+    "The Impossible Voyage": "WORK_OF_ART",
+    "Jules Verne": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "A Trip to the Moon",
+      "relation": "inspired_by",
+      "object": "Jules Verne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "involving strange, surreal journeys somewhat in the style of Jules Verne"
+        }
+      ]
+    },
+    {
+      "subject": "The Impossible Voyage",
+      "relation": "inspired_by",
+      "object": "Jules Verne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "involving strange, surreal journeys somewhat in the style of Jules Verne"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "France (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Georges Méliès",
+        "nationality",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Georges Méliès",
+        "directed",
+        "A Trip to the Moon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Georges Méliès",
+        "directed",
+        "The Impossible Voyage"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Georges Méliès\nMarie- Georges- Jean Méliès( 8 December 1861 – 21 January 1938), was a French illusionist and film director who led many technical and narrative developments in the earliest days of cinema. Méliès was well- known for the use of special effects, popularizing such techniques as substitution splices, multiple exposures, time- lapse photography, dissolves, and hand- painted colour. He was also one of the first filmmakers to use storyboards. His films include\" A Trip to the Moon\"( 1902) and\" The Impossible Voyage\"( 1904), both involving strange, surreal journeys somewhat in the style of Jules Verne, and are considered among the most important early science fiction films, though their approach is closer to fantasy."
+}

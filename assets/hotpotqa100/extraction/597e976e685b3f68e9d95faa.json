@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Simba": "PERSON",
+    "Disney": "ORG",
+    "The Lion King": "WORK_OF_ART",
+    "The Lion King 1½": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Simba",
+      "relation": "appears_in",
+      "object": "The Lion King",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who appears in Disney's \"The Lion King\" franchise"
+        }
+      ]
+    },
+    {
+      "subject": "The Lion King",
+      "relation": "founded_by",
+      "object": "Disney",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Disney's \"The Lion King\" franchise"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Simba",
+        "appears_in",
+        "The Lion King 1½"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Simba\nSimba is a fictional character who appears in Disney's \"The Lion King\" franchise. Introduced in Walt Disney Animation's 32nd animated feature film \"The Lion King\" (1994), the character subsequently appears in its sequels \"\" (1998) and \"The Lion King 1½\" (2004)."
+}

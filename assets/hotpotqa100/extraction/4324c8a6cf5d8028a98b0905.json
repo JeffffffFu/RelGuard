@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "I Need You": "WORK_OF_ART",
+    "LeAnn Rimes": "PERSON",
+    "Curb Records": "ORG",
+    "Light the Fire Within": "WORK_OF_ART",
+    "Blue": "WORK_OF_ART",
+    "American": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "I Need You",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "I Need You",
+        "works_for",
+        "LeAnn Rimes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "I Need You",
+        "released_by",
+        "Curb Records"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "I Need You",
+        "contains",
+        "Light the Fire Within"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "I Need You",
+        "packaged_with",
+        "Blue"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "I Need You (album)\nI Need You is the third compilation album from American recording artist LeAnn Rimes. The album was first released on January 30, 2001, through Curb Records to help satisfy Rimes' recording contract obligations during litigation with the label and her management. Rimes publicly disowned the album just days after its release, causing it to be discontinued. The album was then officially released by Rimes on March 26, 2002, with four additional tracks and a new recording: \"Light the Fire Within\". In 2008, the album was released as a package with Rimes' debut album, \"Blue\" (1996).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"I Need You\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"LeAnn Rimes\", \"type\": \"PERSON\"},\n    {\"name\": \"Curb Records\", \"type\": \"ORG\"},\n    {\"name\": \"Light the Fire Within\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Blue\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"I Need You\",\n      \"relation\": \"is_a\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"I Need You (album)\"}\n      ]\n    },\n    {\n      \"subject\": \"I Need You\",\n      \"relation\": \"works_for\",\n      \"object\": \"LeAnn Rimes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from American recording artist LeAnn Rimes\"}\n      ]\n    },\n    {\n      \"subject\": \"I Need You\",\n      \"relation\": \"released_by\",\n      \"object\": \"Curb Records\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"through Curb Records\"}\n      ]\n    },\n    {\n      \"subject\": \"LeAnn Rimes\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American recording artist\"}\n      ]\n    },\n    {\n      \"subject\": \"I Need You\",\n      \"relation\": \"contains\",\n      \"object\": \"Light the Fire Within\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"a new recording: \\\"Light the Fire Within\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"I Need You\",\n      \"relation\": \"packaged_with\",\n      \"object\": \"Blue\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"released as a package with Rimes' debut album, \\\"Blue\\\" (1996)\"}\n      ]\n    }\n  ]\n}"
+}

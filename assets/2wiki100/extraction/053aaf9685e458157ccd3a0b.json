@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Olav Aaraas": "PERSON",
+    "Norwegian Museum of Cultural History": "ORG",
+    "Sogn Folk Museum": "ORG",
+    "Maihaugen": "ORG",
+    "Fredrikstad": "GPE",
+    "Royal Norwegian Order of St. Olav": "ORG",
+    "Norwegian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Olav Aaraas",
+      "relation": "born_in",
+      "object": "Fredrikstad",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born in",
+          "line_start": 81,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "was born in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Olav Aaraas",
+      "relation": "decorated_with",
+      "object": "Royal Norwegian Order of St. Olav",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was decorated with",
+          "line_start": 311,
+          "char_start": 323,
+          "ambiguous": false,
+          "relation_mention": "was decorated with",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Olav Aaraas",
+        "nationality",
+        "Norwegian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Olav Aaraas",
+        "was_director_of",
+        "Sogn Folk Museum"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Olav Aaraas",
+        "was_director_of",
+        "Maihaugen"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Olav Aaraas",
+        "has_been_director_of",
+        "Norwegian Museum of Cultural History"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Olav Aaraas\nOlav Aaraas( born 10 July 1950) is a Norwegian historian and museum director. He was born in Fredrikstad. From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History. In 2010 he was decorated with the Royal Norwegian Order of St. Olav.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Olav Aaraas\", \"type\": \"PERSON\"},\n    {\"name\": \"Norwegian Museum of Cultural History\", \"type\": \"ORG\"},\n    {\"name\": \"Sogn Folk Museum\", \"type\": \"ORG\"},\n    {\"name\": \"Maihaugen\", \"type\": \"ORG\"},\n    {\"name\": \"Fredrikstad\", \"type\": \"GPE\"},\n    {\"name\": \"Royal Norwegian Order of St. Olav\", \"type\": \"ORG\"},\n    {\"name\": \"Norwegian\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Olav Aaraas\",\n      \"relation\": \"born_in\",\n      \"object\": \"Fredrikstad\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Olav Aaraas\",\n      \"relation\": \"nationality\",\n      \"object\": \"Norwegian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Norwegian\"}\n      ]\n    },\n    {\n      \"subject\": \"Olav Aaraas\",\n      \"relation\": \"was_director_of\",\n      \"object\": \"Sogn Folk Museum\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the director of\"}\n      ]\n    },\n    {\n      \"subject\": \"Olav Aaraas\",\n      \"relation\": \"was_director_of\",\n      \"object\": \"Maihaugen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the director of\"}\n      ]\n    },\n    {\n      \"subject\": \"Olav Aaraas\",\n      \"relation\": \"has_been_director_of\",\n      \"object\": \"Norwegian Museum of Cultural History\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has been the director of\"}\n      ]\n    },\n    {\n      \"subject\": \"Olav Aaraas\",\n      \"relation\": \"decorated_with\",\n      \"object\": \"Royal Norwegian Order of St. Olav\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was decorated with\"}\n      ]\n    }\n  ]\n}"
+}

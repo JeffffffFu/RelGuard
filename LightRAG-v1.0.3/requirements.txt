@@ -1,0 +1,23 @@
+# Minimal dependency set for reproducing the LightRAG paper (arXiv 2410.05779).
+# The upstream v1.0.3 list is kept in requirements-full.txt.orig; it pulls
+# torch/transformers/oracledb/pymilvus/neo4j/graspologic, none of which the
+# paper pipeline touches. Those backends are now imported lazily, so they only
+# need installing if you actually select them.
+
+# core
+aiohttp
+nano-vectordb      # vector store
+networkx           # knowledge graph
+numpy<2
+tenacity
+tiktoken           # chunking / token counting
+tqdm
+xxhash
+
+# LLM (also covers any OpenAI-compatible endpoint, e.g. vLLM)
+openai
+pydantic
+
+# reproduce/: Step_2 query generation (GPT2Tokenizer) and batch_eval judge
+transformers
+jsonlines

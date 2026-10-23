@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "My Boy Jack": "WORK_OF_ART",
+    "David Haig": "PERSON",
+    "Daniel Radcliffe": "PERSON",
+    "Rudyard Kipling": "PERSON",
+    "John Kipling": "PERSON",
+    "My Boy Jack (poem)": "WORK_OF_ART",
+    "PBS": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "My Boy Jack",
+      "relation": "based_on",
+      "object": "David Haig",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 39,
+          "char_start": 58,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "My Boy Jack",
+      "relation": "starred",
+      "object": "David Haig",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "with Haig as",
+          "line_start": 119,
+          "char_start": 138,
+          "ambiguous": false,
+          "relation_mention": "with Haig as",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "My Boy Jack",
+      "relation": "starred",
+      "object": "Daniel Radcliffe",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and Daniel Radcliffe as",
+          "line_start": 148,
+          "char_start": 167,
+          "ambiguous": false,
+          "relation_mention": "and Daniel Radcliffe as",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "David Haig",
+      "relation": "portrayed",
+      "object": "Rudyard Kipling",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "as Rudyard Kipling",
+          "line_start": 129,
+          "char_start": 148,
+          "ambiguous": false,
+          "relation_mention": "as Rudyard Kipling",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Daniel Radcliffe",
+      "relation": "portrayed",
+      "object": "John Kipling",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "as John Kipling",
+          "line_start": 169,
+          "char_start": 188,
+          "ambiguous": false,
+          "relation_mention": "as John Kipling",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "My Boy Jack",
+      "relation": "features",
+      "object": "My Boy Jack (poem)",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "reciting the poem \"My Boy Jack\"",
+          "line_start": 297,
+          "char_start": 316,
+          "ambiguous": false,
+          "relation_mention": "reciting the poem \"My Boy Jack\"",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "My Boy Jack",
+      "relation": "premiered_on",
+      "object": "PBS",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "on PBS",
+          "line_start": 384,
+          "char_start": 403,
+          "ambiguous": false,
+          "relation_mention": "on PBS",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United Kingdom (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "My Boy Jack",
+        "broadcast_in",
+        "United Kingdom"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "My Boy Jack (film)\nMy Boy Jack is a 2007 television drama based on David Haig's 1997 play of the same name. It was filmed in August 2007, with Haig as Rudyard Kipling and Daniel Radcliffe as John Kipling. It does not include act three of the play, which extended to the 1920s and 1930s: instead it ends with Kipling reciting the poem \"My Boy Jack\". The American television premiere was on 20 April 2008 on PBS, with primetime rebroadcast on 27 March 2011. The film attracted about 5.7 million viewers on its original broadcast in the UK on Remembrance Day, 11 November 2007."
+}

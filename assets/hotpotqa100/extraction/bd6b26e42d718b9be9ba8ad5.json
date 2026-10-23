@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Forthmann Carriage House": "FAC",
+    "Los Angeles": "GPE",
+    "Angelino Heights": "LOC",
+    "California": "GPE",
+    "Burgess J. Reeve": "PERSON",
+    "Barbara Behm": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Barbara Behm",
+      "relation": "restored",
+      "object": "Forthmann Carriage House",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "restored many properties in Angeleno Heights",
+          "line_start": 512,
+          "char_start": 537,
+          "ambiguous": false,
+          "relation_mention": "restored many properties in Angeleno Heights",
+          "sentence_id": 10
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Forthmann Carriage House",
+        "located_in",
+        "Angelino Heights"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Forthmann Carriage House",
+        "located_in",
+        "Los Angeles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Forthmann Carriage House",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Forthmann Carriage House",
+        "designed_by",
+        "Burgess J. Reeve"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Forthmann Carriage House",
+        "relocated_from",
+        "Los Angeles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Forthmann Carriage House\nThe Forthmann Carriage House, is a Los Angeles Historic-Cultural Monument (No. 103) located in Angelino Heights, Los Angeles, California. It is a 1,000 sq. ft. Victorian style carriage house built 1882, designed by Burgess J. Reeve. It was relocated in March 2006 from its original location at 629 West 18th Street. Los Angeles, California to its current location at 812 E Edgeware Rd. Los Angeles, California. The relocation was made possible thanks to the efforts of Barbara Behm, an independent developer who restored many properties in Angeleno Heights.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Forthmann Carriage House\", \"type\": \"FAC\"},\n    {\"name\": \"Los Angeles\", \"type\": \"GPE\"},\n    {\"name\": \"Angelino Heights\", \"type\": \"LOC\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"Burgess J. Reeve\", \"type\": \"PERSON\"},\n    {\"name\": \"Barbara Behm\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Forthmann Carriage House\",\n      \"relation\": \"located_in\",\n      \"object\": \"Angelino Heights\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Angelino Heights\"}\n      ]\n    },\n    {\n      \"subject\": \"Forthmann Carriage House\",\n      \"relation\": \"located_in\",\n      \"object\": \"Los Angeles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Angelino Heights, Los Angeles\"}\n      ]\n    },\n    {\n      \"subject\": \"Forthmann Carriage House\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Angelino Heights, Los Angeles, California\"}\n      ]\n    },\n    {\n      \"subject\": \"Forthmann Carriage House\",\n      \"relation\": \"designed_by\",\n      \"object\": \"Burgess J. Reeve\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designed by Burgess J. Reeve\"}\n      ]\n    },\n    {\n      \"subject\": \"Forthmann Carriage House\",\n      \"relation\": \"relocated_from\",\n      \"object\": \"Los Angeles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"relocated in March 2006 from its original location at 629 West 18th Street. Los Angeles, California to its current location at 812 E Edgeware Rd. Los Angeles, California\"}\n      ]\n    },\n    {\n      \"subject\": \"Barbara Behm\",\n      \"relation\": \"restored\",\n      \"object\": \"Forthmann Carriage House\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"restored many properties in Angeleno Heights\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Lawrence Huntington": "Person",
+    "London": "Location",
+    "After Many Years": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Lawrence Huntington",
+      "relation": "born_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Huntington was born in London"
+        }
+      ]
+    },
+    {
+      "subject": "Lawrence Huntington",
+      "relation": "directed",
+      "object": "After Many Years",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he directed more than thirty films following his debut feature \"After Many Years\" (1930)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lawrence Huntington",
+        "worked_in",
+        "television"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lawrence Huntington",
+        "died_in",
+        "1968"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lawrence Huntington\nLawrence Huntington (1900–1968) was a British film director, screenwriter and producer. Huntington was born in London on 9 March 1900, he directed more than thirty films following his debut feature \"After Many Years\" (1930). He later worked in television before his death in 1968."
+}

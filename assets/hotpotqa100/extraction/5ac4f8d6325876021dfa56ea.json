@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "Topper's Pizza": "ORG",
+    "Toppers Pizza": "ORG",
+    "pizza chains": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Topper's Pizza",
+        "may_refer_to",
+        "Toppers Pizza"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Topper's Pizza",
+        "may_refer_to",
+        "pizza chains"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Topper's Pizza\nTopper's Pizza or Toppers Pizza may refer to one of three pizza chains:",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Topper's Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"Toppers Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"pizza chains\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Topper's Pizza\",\n      \"relation\": \"may_refer_to\",\n      \"object\": \"Toppers Pizza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"or Toppers Pizza may refer to\"}\n      ]\n    },\n    {\n      \"subject\": \"Topper's Pizza\",\n      \"relation\": \"may_refer_to\",\n      \"object\": \"pizza chains\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"may refer to one of three pizza chains\"}\n      ]\n    }\n  ]\n}"
+}

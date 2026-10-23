@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Anne de La Tour d'Auvergne": "PERSON",
+    "Auvergne": "GPE",
+    "Duchess of Albany": "PERSON",
+    "John Stewart, Duke of Albany": "PERSON",
+    "Anne de Boulogne": "PERSON",
+    "Jehan Comte de Boulogne et Auvergne": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Anne de La Tour d'Auvergne",
+        "held_title",
+        "Countess of Auvergne"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anne de La Tour d'Auvergne",
+        "held_title",
+        "Duchess of Albany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anne de La Tour d'Auvergne",
+        "married_to",
+        "John Stewart, Duke of Albany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anne de La Tour d'Auvergne",
+        "also_called",
+        "Anne de Boulogne"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anne de Boulogne",
+        "daughter_of",
+        "Jehan Comte de Boulogne et Auvergne"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Anne de La Tour d'Auvergne\nAnne de La Tour d'Auvergne (1496–1524) was sovereign Countess of Auvergne from 1501 until 1524, and Duchess of Albany by marriage to John Stewart, Duke of Albany. In her marriage contract, she was called 'Anne de Boulogne fille de Jehan Comte de Boulogne et Auvergne.'",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Anne de La Tour d'Auvergne\", \"type\": \"PERSON\"},\n    {\"name\": \"Auvergne\", \"type\": \"GPE\"},\n    {\"name\": \"Duchess of Albany\", \"type\": \"PERSON\"},\n    {\"name\": \"John Stewart, Duke of Albany\", \"type\": \"PERSON\"},\n    {\"name\": \"Anne de Boulogne\", \"type\": \"PERSON\"},\n    {\"name\": \"Jehan Comte de Boulogne et Auvergne\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Anne de La Tour d'Auvergne\",\n      \"relation\": \"held_title\",\n      \"object\": \"Countess of Auvergne\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was sovereign Countess of Auvergne\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Anne de La Tour d'Auvergne\",\n      \"relation\": \"held_title\",\n      \"object\": \"Duchess of Albany\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"and Duchess of Albany\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Anne de La Tour d'Auvergne\",\n      \"relation\": \"married_to\",\n      \"object\": \"John Stewart, Duke of Albany\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"by marriage to John Stewart, Duke of Albany\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Anne de La Tour d'Auvergne\",\n      \"relation\": \"also_called\",\n      \"object\": \"Anne de Boulogne\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"she was called 'Anne de Boulogne\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Anne de Boulogne\",\n      \"relation\": \"daughter_of\",\n      \"object\": \"Jehan Comte de Boulogne et Auvergne\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"fille de Jehan Comte de Boulogne et Auvergne\"\n        }\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "Cigar store Indian": "WORK_OF_ART",
+    "Native American": "NORP",
+    "African-American lawn jockey": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Cigar store Indian",
+      "relation": "is_a",
+      "object": "Native American",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the likeness of a Native American"
+        }
+      ]
+    },
+    {
+      "subject": "Cigar store Indian",
+      "relation": "draws_analogy_to",
+      "object": "African-American lawn jockey",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "drawing an analogy to the African-American lawn jockey"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Cigar store Indian",
+        "used_to_represent",
+        "tobacconists"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Native American",
+        "view_as",
+        "caricature"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Native American",
+        "perpetuates",
+        "stereotypes"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Cigar store Indian\nThe cigar store Indian or wooden Indian is an advertisement figure, in the likeness of a Native American, used to represent tobacconists. The figures are often three-dimensional wooden sculptures several feet tall – up to life-sized. They are still occasionally used for their original advertising purpose, but are more often seen as decorations or advertising collectibles, with some pieces drawing sales prices of up to $500,000. People within the Native American community often view such likenesses as a caricature or as depictions that perpetuate stereotypes, drawing an analogy to the African-American lawn jockey."
+}

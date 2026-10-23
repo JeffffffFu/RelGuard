@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Maro Ajemian": "PERSON",
+    "Aram Khachaturian": "PERSON",
+    "Armenian": "NORP",
+    "Piano Concerto": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Maro Ajemian",
+      "relation": "performed",
+      "object": "Piano Concerto",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "performing the U.S. premiere of",
+          "line_start": 206,
+          "char_start": 219,
+          "ambiguous": false,
+          "relation_mention": "performing the U.S. premiere of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Maro Ajemian",
+      "relation": "known_as",
+      "object": "Piano Concerto",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "became known as a contemporary pianist after performing the U.S. premiere of",
+          "line_start": 161,
+          "char_start": 174,
+          "ambiguous": false,
+          "relation_mention": "became known as a contemporary pianist after performing the U.S. premiere of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Piano Concerto",
+      "relation": "composed_by",
+      "object": "Aram Khachaturian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Aram Khachaturian's Piano Concerto",
+          "line_start": 238,
+          "char_start": 251,
+          "ambiguous": false,
+          "relation_mention": "Aram Khachaturian's Piano Concerto",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Maro Ajemian",
+      "relation": "has_nationality",
+      "object": "Armenian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "from her Armenian heritage",
+          "line_start": 129,
+          "char_start": 142,
+          "ambiguous": false,
+          "relation_mention": "from her Armenian heritage",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Aram Khachaturian",
+      "relation": "has_nationality",
+      "object": "Armenian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Khachaturian was Armenian",
+          "line_start": 321,
+          "char_start": 334,
+          "ambiguous": false,
+          "relation_mention": "Khachaturian was Armenian",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Maro Ajemian",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Maro Ajemian\nMaro Ajemian (July 9, 1921 – September 18, 1978) was an American pianist. Ajemian's career in contemporary music got its impetus from her Armenian heritage; she became known as a contemporary pianist after performing the U.S. premiere of Aram Khachaturian's Piano Concerto, which she chose to play based on the fact that Khachaturian was Armenian."
+}

@@ -1,0 +1,132 @@
+{
+  "entities": {
+    "Kasai River": "river",
+    "Congo River": "river",
+    "Angola": "country",
+    "Democratic Republic of the Congo": "country",
+    "Kwamouth": "location",
+    "Kinshasa": "location",
+    "Fimi River": "river",
+    "Kwango River": "river",
+    "Sankuru River": "river",
+    "Belgium": "country"
+  },
+  "triples": [
+    {
+      "subject": "Kasai River",
+      "relation": "is_a_tributary_of",
+      "object": "Congo River",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a tributary of the Congo River"
+        },
+        {
+          "sentence_id": 8,
+          "relation_mention": "It is a tributary of Congo river"
+        }
+      ]
+    },
+    {
+      "subject": "Kasai River",
+      "relation": "begins_in",
+      "object": "Angola",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The river begins in Angola"
+        }
+      ]
+    },
+    {
+      "subject": "Kasai River",
+      "relation": "serves_as_border_between",
+      "object": "Angola",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "serves as the border between Angola and the Democratic Republic of the Congo (DRC)"
+        }
+      ]
+    },
+    {
+      "subject": "Kasai River",
+      "relation": "flows_into",
+      "object": "Democratic Republic of the Congo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "until it flows into the DRC"
+        }
+      ]
+    },
+    {
+      "subject": "Kasai River",
+      "relation": "joins",
+      "object": "Congo River",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Kasai joins the Congo at Kwamouth northeast of Kinshasa"
+        }
+      ]
+    },
+    {
+      "subject": "Kasai River",
+      "relation": "has_tributaries",
+      "object": "Fimi River",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Kasai's tributaries include the Fimi"
+        }
+      ]
+    },
+    {
+      "subject": "Kasai River",
+      "relation": "supplies",
+      "object": "Belgium",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Around 60% of diamonds in Belgium go from Kasai river for cutting and shaping"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kasai River",
+        "has_tributaries",
+        "Kwango River"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kasai River",
+        "has_tributaries",
+        "Sankuru River"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kasai River",
+        "is_known_as",
+        "Kwah River"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kasai River",
+        "contains",
+        "diamonds"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kasai River\nThe Kasai River (called Cassai in Angola) is a tributary of the Congo River, located in central Africa. The river begins in Angola and then serves as the border between Angola and the Democratic Republic of the Congo (DRC), until it flows into the DRC. The Kasai joins the Congo at Kwamouth northeast of Kinshasa. The Kasai's tributaries include the Fimi, Kwango, and Sankuru rivers. The short stretch of the Kasai from the inflow of the Fimi to the Congo is known as the Kwah River. The Kasai basin consists mainly of equatorial rainforest areas, which provide an agricultural land in a region noted for its infertile, sandy soil. It is a tributary of Congo river and diamonds are found in this river. Around 60% of diamonds in Belgium go from Kasai river for cutting and shaping."
+}

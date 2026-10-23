@@ -1,0 +1,112 @@
+{
+  "entities": {
+    "Eisenhower Bridge": "bridge",
+    "Milton": "city",
+    "Iowa": "state",
+    "United States": "country",
+    "Des Moines County": "county",
+    "Lee County": "county",
+    "Horace B. Horton": "engineer",
+    "James B. Diver Bridge Company": "company",
+    "Walker’s Ferry Bridge": "bridge",
+    "Skunk River": "river",
+    "Burlington-Fort Madison Road": "road"
+  },
+  "triples": [
+    {
+      "subject": "Eisenhower Bridge",
+      "relation": "located_in",
+      "object": "Milton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Eisenhower Bridge is located east of Milton, Iowa, United States."
+        }
+      ]
+    },
+    {
+      "subject": "Des Moines County",
+      "relation": "met_with",
+      "object": "Lee County",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The supervisors from Des Moines and Lee counties met on September 7, 1887 to view the location of a new bridge between the two counties over the Skunk River on the Burlington-Fort Madison Road."
+        }
+      ]
+    },
+    {
+      "subject": "Horace B. Horton",
+      "relation": "designed",
+      "object": "Eisenhower Bridge",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Chicago engineer Horace B. Horton designed the Pratt truss, and it was built by the James B. Diver Bridge Company of Keokuk, Iowa."
+        }
+      ]
+    },
+    {
+      "subject": "James B. Diver Bridge Company",
+      "relation": "built",
+      "object": "Eisenhower Bridge",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Chicago engineer Horace B. Horton designed the Pratt truss, and it was built by the James B. Diver Bridge Company of Keokuk, Iowa."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eisenhower Bridge",
+        "carries_traffic_on",
+        "252nd Street"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Des Moines County",
+        "pays",
+        "three-fifths of the costs"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lee County",
+        "pays",
+        "the remainder"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Walker’s Ferry Bridge",
+        "was_replaced_with",
+        "another bridge"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eisenhower Bridge",
+        "replaced",
+        "1895 span"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eisenhower Bridge",
+        "listed_on",
+        "National Register of Historic Places"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Eisenhower Bridge (Milton, Iowa)\nThe Eisenhower Bridge is located east of Milton, Iowa, United States. It carries traffic on 252nd Street over the Fox River for 197 ft . The supervisors from Des Moines and Lee counties met on September 7, 1887 to view the location of a new bridge between the two counties over the Skunk River on the Burlington-Fort Madison Road. Financing delayed building the new bridge. They determined that Des Moines County would pay three-fifths of the costs and Lee County the remainder. Chicago engineer Horace B. Horton designed the Pratt truss, and it was built by the James B. Diver Bridge Company of Keokuk, Iowa. The Walker's Ferry Bridge was originally a two-span structure, and it was completed for $9,435. It was replaced with another bridge in 1930, and one of the spans was relocated to this location. Known locally as the Eisenhower Bridge, it replaced an 1895 span that was washed out in a flood. While it lost some of its historical integrity, it remains an example of early wagon bridge construction. It is also one of the few iron truss bridges remaining in Iowa, and it was designed by a prominent bridge engineer. The bridge was listed on the National Register of Historic Places in 1998."
+}

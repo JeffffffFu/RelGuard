@@ -1,0 +1,112 @@
+{
+  "entities": {
+    "Ann Rice O'Hanlon": "PERSON",
+    "University of Kentucky": "ORG",
+    "Memorial Hall": "FAC",
+    "Treasury Relief Art Project": "ORG",
+    "central Kentucky": "LOC",
+    "African American": "NORP",
+    "Eli Capilouto": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Ann Rice O'Hanlon",
+      "relation": "painted",
+      "object": "Memorial Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "painted on the wall of Memorial Hall",
+          "line_start": 146,
+          "char_start": 164,
+          "ambiguous": false,
+          "relation_mention": "painted on the wall of Memorial Hall",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ann Rice O'Hanlon",
+      "relation": "painted_for",
+      "object": "Treasury Relief Art Project",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "for the Treasury Relief Art Project",
+          "line_start": 221,
+          "char_start": 239,
+          "ambiguous": false,
+          "relation_mention": "for the Treasury Relief Art Project",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Memorial Hall",
+      "relation": "located_in",
+      "object": "University of Kentucky",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "at the University of Kentucky",
+          "line_start": 183,
+          "char_start": 201,
+          "ambiguous": false,
+          "relation_mention": "at the University of Kentucky",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Eli Capilouto",
+      "relation": "works_for",
+      "object": "University of Kentucky",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the President of the University of Kentucky, Eli Capilouto",
+          "line_start": 494,
+          "char_start": 512,
+          "ambiguous": false,
+          "relation_mention": "the President of the University of Kentucky, Eli Capilouto",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Eli Capilouto",
+      "relation": "had",
+      "object": "Memorial Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "had the wall shrouded",
+          "line_start": 554,
+          "char_start": 572,
+          "ambiguous": false,
+          "relation_mention": "had the wall shrouded",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "fresco",
+        "depicts",
+        "central Kentucky"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fresco",
+        "depicts",
+        "African American"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ann Rice O'Hanlon\nAnn Louise Rice O'Hanlon (June 21, 1908 – 1998) was a 20th-century American visual artist who painted murals. O'Hanlon is best known for a fresco painted on the wall of Memorial Hall at the University of Kentucky in 1934 for the Treasury Relief Art Project. The fresco depicts the history of central Kentucky from the time of settlement through the 19th Century. The fresco has repeatedly attracted negative attention for its romanticized depiction of African American slaves. In November 2015 the President of the University of Kentucky, Eli Capilouto, had the wall shrouded until the university community comes to a permanent decision about how to deal with the fresco."
+}

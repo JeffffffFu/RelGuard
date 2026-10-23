@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Henri Larrivée": "PERSON",
+    "Lyon": "GPE",
+    "Paris Opéra": "ORG",
+    "Rebel": "PERSON",
+    "Rameau's \"Castor et Pollux\"": "WORK_OF_ART",
+    "Christoph Willibald von Gluck": "PERSON",
+    "Niccolò Piccinni": "PERSON",
+    "\"Roland\"": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Henri Larrivée",
+      "relation": "born_in",
+      "object": "Lyon",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He was born in Lyon."
+        }
+      ]
+    },
+    {
+      "subject": "Henri Larrivée",
+      "relation": "worked_with",
+      "object": "Niccolò Piccinni",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "still worked with him on the premieres of operas including \"Roland\" (1778)."
+        }
+      ]
+    },
+    {
+      "subject": "Henri Larrivée",
+      "relation": "made_appearance_in",
+      "object": "Rameau's \"Castor et Pollux\"",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "He made his first solo appearance as a high priest in a 1755 revival of Rameau's \"Castor et Pollux\"."
+        }
+      ]
+    },
+    {
+      "subject": "Henri Larrivée",
+      "relation": "hired_by",
+      "object": "Rebel",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the head of the Paris Opéra, Rebel, noticed his talent for singing and hired him"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Henri Larrivée",
+        "worked_as",
+        "chorus member"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Henri Larrivée",
+        "associated_with",
+        "Christoph Willibald von Gluck"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Henri Larrivée\nHenri Larrivée (9 January 1737 – 7 August 1802) was a French opera singer. He was born in Lyon. His voice range was \"basse-taille\" (equivalent to baritone). According to Fétis, Larrivée was working as an apprentice to a wigmaker when the head of the Paris Opéra, Rebel, noticed his talent for singing and hired him as a chorus member. He made his first solo appearance as a high priest in a 1755 revival of Rameau's \"Castor et Pollux\". He was particularly associated with the works of Christoph Willibald von Gluck, helping Gluck establish his \"reform operas\" in France. He found Gluck's rival, Niccolò Piccinni, less congenial but still worked with him on the premieres of operas including \"Roland\" (1778)."
+}

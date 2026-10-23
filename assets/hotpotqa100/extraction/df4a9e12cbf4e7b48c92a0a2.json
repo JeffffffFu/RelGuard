@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Pinocchio": "WORK_OF_ART",
+    "Walt Disney Productions": "ORG",
+    "The Adventures of Pinocchio": "WORK_OF_ART",
+    "Carlo Collodi": "PERSON",
+    "Snow White and the Seven Dwarfs": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Pinocchio",
+      "relation": "produced_by",
+      "object": "Walt Disney Productions",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 59,
+          "char_start": 81,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pinocchio",
+      "relation": "based_on",
+      "object": "The Adventures of Pinocchio",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 99,
+          "char_start": 121,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pinocchio",
+      "relation": "made_after",
+      "object": "Snow White and the Seven Dwarfs",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made after",
+          "line_start": 245,
+          "char_start": 267,
+          "ambiguous": false,
+          "relation_mention": "made after",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Adventures of Pinocchio",
+        "written_by",
+        "Carlo Collodi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Pinocchio (1940 film)\nPinocchio is a 1940 American animated musical fantasy film produced by Walt Disney Productions and based on the Italian children's novel \"The Adventures of Pinocchio\" by Carlo Collodi. It was the second animated feature film produced by Disney, made after the success of \"Snow White and the Seven Dwarfs\" (1937)."
+}

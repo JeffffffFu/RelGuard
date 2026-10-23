@@ -1,0 +1,208 @@
+{
+  "entities": {
+    "The Stand": "WORK_OF_ART",
+    "Stephen King": "PERSON",
+    "Mick Garris": "PERSON",
+    "Gary Sinise": "PERSON",
+    "Miguel Ferrer": "PERSON",
+    "Rob Lowe": "PERSON",
+    "Ossie Davis": "PERSON",
+    "Ruby Dee": "PERSON",
+    "Jamey Sheridan": "PERSON",
+    "Laura San Giacomo": "PERSON",
+    "Molly Ringwald": "PERSON",
+    "Corin Nemec": "PERSON",
+    "Adam Storke": "PERSON",
+    "Ray Walston": "PERSON",
+    "Matt Frewer": "PERSON",
+    "ABC": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "The Stand",
+      "relation": "based_on",
+      "object": "Stephen King",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 51,
+          "char_start": 74,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Stephen King",
+      "relation": "wrote_teleplay_for",
+      "object": "The Stand",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "wrote the teleplay",
+          "line_start": 114,
+          "char_start": 137,
+          "ambiguous": false,
+          "relation_mention": "wrote the teleplay",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Stand",
+      "relation": "directed_by",
+      "object": "Mick Garris",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 176,
+          "char_start": 199,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "The Stand",
+      "relation": "aired_on",
+      "object": "ABC",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "aired on",
+          "line_start": 392,
+          "char_start": 415,
+          "ambiguous": false,
+          "relation_mention": "aired on",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Stephen King",
+        "has_role_in",
+        "The Stand"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Gary Sinise"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Miguel Ferrer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Rob Lowe"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Ossie Davis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Ruby Dee"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Jamey Sheridan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Laura San Giacomo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Molly Ringwald"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Corin Nemec"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Adam Storke"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Ray Walston"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "stars",
+        "Matt Frewer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Stand",
+        "is_a",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Stand (miniseries)\nThe Stand is a 1994 American television miniseries based on the novel of the same name by Stephen King. King also wrote the teleplay and has a minor role in the series. It was directed by Mick Garris and stars Gary Sinise, Miguel Ferrer, Rob Lowe, Ossie Davis, Ruby Dee, Jamey Sheridan, Laura San Giacomo, Molly Ringwald, Corin Nemec, Adam Storke, Ray Walston, and Matt Frewer. It originally aired on ABC starting on May 8, 1994.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Stand\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Stephen King\", \"type\": \"PERSON\"},\n    {\"name\": \"Mick Garris\", \"type\": \"PERSON\"},\n    {\"name\": \"Gary Sinise\", \"type\": \"PERSON\"},\n    {\"name\": \"Miguel Ferrer\", \"type\": \"PERSON\"},\n    {\"name\": \"Rob Lowe\", \"type\": \"PERSON\"},\n    {\"name\": \"Ossie Davis\", \"type\": \"PERSON\"},\n    {\"name\": \"Ruby Dee\", \"type\": \"PERSON\"},\n    {\"name\": \"Jamey Sheridan\", \"type\": \"PERSON\"},\n    {\"name\": \"Laura San Giacomo\", \"type\": \"PERSON\"},\n    {\"name\": \"Molly Ringwald\", \"type\": \"PERSON\"},\n    {\"name\": \"Corin Nemec\", \"type\": \"PERSON\"},\n    {\"name\": \"Adam Storke\", \"type\": \"PERSON\"},\n    {\"name\": \"Ray Walston\", \"type\": \"PERSON\"},\n    {\"name\": \"Matt Frewer\", \"type\": \"PERSON\"},\n    {\"name\": \"ABC\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"based_on\",\n      \"object\": \"Stephen King\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on\"}\n      ]\n    },\n    {\n      \"subject\": \"Stephen King\",\n      \"relation\": \"wrote_teleplay_for\",\n      \"object\": \"The Stand\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"wrote the teleplay\"}\n      ]\n    },\n    {\n      \"subject\": \"Stephen King\",\n      \"relation\": \"has_role_in\",\n      \"object\": \"The Stand\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has a minor role in\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Mick Garris\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Gary Sinise\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Miguel Ferrer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Rob Lowe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Ossie Davis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Ruby Dee\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Jamey Sheridan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Laura San Giacomo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Molly Ringwald\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Corin Nemec\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Adam Storke\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Ray Walston\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"stars\",\n      \"object\": \"Matt Frewer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"is_a\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    },\n    {\n      \"subject\": \"The Stand\",\n      \"relation\": \"aired_on\",\n      \"object\": \"ABC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"aired on\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Paul Martin": "Person",
+    "Lilian Harvey": "Person",
+    "Frauke Lauterbach": "Person",
+    "Woman at the Wheel": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Paul Martin",
+      "relation": "directed",
+      "object": "Lilian Harvey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was romantically involved with the film star Lilian Harvey and directed her in a number of films"
+        }
+      ]
+    },
+    {
+      "subject": "Paul Martin",
+      "relation": "left_for",
+      "object": "Frauke Lauterbach",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he left her in 1938 for the actress Frauke Lauterbach"
+        }
+      ]
+    },
+    {
+      "subject": "Paul Martin",
+      "relation": "relationship_with",
+      "object": "Lilian Harvey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "their relationship remained cold"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Paul Martin",
+        "worked_for",
+        "German film industry"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Paul Martin",
+        "made",
+        "Woman at the Wheel"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Paul Martin (director)\nPaul Martin (8 February 1899 – 26 January 1967) was a Hungarian film director and screenwriter who worked for many years in the German film industry. He directed 60 films between 1932 and 1967. He was romantically involved with the film star Lilian Harvey and directed her in a number of films until he left her in 1938 for the actress Frauke Lauterbach. They made one final film \"Woman at the Wheel\" together during the filming of which their relationship remained cold."
+}

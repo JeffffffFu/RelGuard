@@ -1,0 +1,125 @@
+{
+  "entities": {
+    "Christina Tosi": "Person",
+    "Momofuku Milk Bar": "Organization",
+    "Momofuku restaurant group": "Organization",
+    "New York City": "Location",
+    "Toronto": "Location",
+    "Washington, D.C.": "Location",
+    "Las Vegas": "Location",
+    "Nevada": "Location",
+    "Brooklyn": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Christina Tosi",
+      "relation": "works_for",
+      "object": "Momofuku Milk Bar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "She is the chef, founder, and owner of Momofuku Milk Bar"
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "sister_of",
+      "object": "Momofuku restaurant group",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the sister bakery to the Momofuku restaurant group"
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "five retail outlets in New York City"
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "located_in",
+      "object": "Toronto",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "a sixth location in Toronto, Canada"
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "planned_to_open_in",
+      "object": "Washington, D.C.",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "A seventh location was originally planned to open in Washington, D.C."
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "opened_in",
+      "object": "Washington, D.C.",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "finally opened in October 2015"
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "supplied_by",
+      "object": "Brooklyn",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "if the Nevada branch would also be supplied by the Brooklyn-based central bakery"
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "planned_to_open_at",
+      "object": "Las Vegas",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "an eighth location was planned to open at the Cosmopolitan of Las Vegas in Nevada"
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "opened_in",
+      "object": "Las Vegas",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "the Las Vegas location opened in December 2016"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Christina Tosi",
+        "born",
+        "1981"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Christina Tosi\nChristina Tosi (born 1981 ) is an American chef, author, and television personality. She is the chef, founder, and owner of Momofuku Milk Bar, the sister bakery to the Momofuku restaurant group. Milk Bar consists of a central bakery that produces baked goods daily for five retail outlets in New York City and a sixth location in Toronto, Canada. A seventh location was originally planned to open in Washington, D.C. during summer 2015, and finally opened in October 2015. The central bakery also provides baked goods for other restaurants in the Momofuku group and individuals by shipping nationally and internationally. In February 2016, it was announced that an eighth location was planned to open at the Cosmopolitan of Las Vegas in Nevada. At the time of the announcement, it was unclear if the Nevada branch would also be supplied by the Brooklyn-based central bakery. After a long delay, the Las Vegas location opened in December 2016."
+}

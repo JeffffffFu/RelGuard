@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "The Time, the Place and the Girl (1946 film)": "WORK_OF_ART",
+    "David Butler": "PERSON",
+    "The Time, the Place and the Girl (1929 film)": "WORK_OF_ART",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "The Time, the Place and the Girl (1946 film)",
+      "relation": "directed_by",
+      "object": "David Butler",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 65,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Time, the Place and the Girl (1946 film)",
+        "located_in",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Time, the Place and the Girl (1946 film)",
+        "unrelated_to",
+        "The Time, the Place and the Girl (1929 film)"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Time, the Place and the Girl (1946 film)\nThe Time, the Place and the Girl is a 1946 American musical film directed by David Butler. It is unrelated to the 1929 film\" The Time, the Place and the Girl\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Time, the Place and the Girl (1946 film)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"David Butler\", \"type\": \"PERSON\"},\n    {\"name\": \"The Time, the Place and the Girl (1929 film)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Time, the Place and the Girl (1946 film)\",\n      \"relation\": \"directed_by\",\n      \"object\": \"David Butler\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Time, the Place and the Girl (1946 film)\",\n      \"relation\": \"located_in\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    },\n    {\n      \"subject\": \"The Time, the Place and the Girl (1946 film)\",\n      \"relation\": \"unrelated_to\",\n      \"object\": \"The Time, the Place and the Girl (1929 film)\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"unrelated to\"}\n      ]\n    }\n  ]\n}"
+}

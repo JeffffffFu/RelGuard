@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Blaine County": "Location",
+    "Oklahoma": "Location",
+    "Watonga": "Location",
+    "Clarence Nash": "Person",
+    "Donald Duck": "Character"
+  },
+  "triples": [
+    {
+      "subject": "Blaine County",
+      "relation": "located_in",
+      "object": "Oklahoma",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in the U.S. state of Oklahoma"
+        }
+      ]
+    },
+    {
+      "subject": "Blaine County",
+      "relation": "has_county_seat",
+      "object": "Watonga",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Its county seat is Watonga"
+        }
+      ]
+    },
+    {
+      "subject": "Blaine County",
+      "relation": "birthplace_of",
+      "object": "Clarence Nash",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "the birthplace of voice actor Clarence Nash"
+        }
+      ]
+    },
+    {
+      "subject": "Clarence Nash",
+      "relation": "voiced",
+      "object": "Donald Duck",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "the voice of Disney's Donald Duck"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Blaine County",
+        "has_population",
+        "9,785"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Blaine County, Oklahoma\nBlaine County is a county located in the U.S. state of Oklahoma. As of the 2010 census, the population was 9,785. Its county seat is Watonga. Blaine County is the birthplace of voice actor Clarence Nash, the voice of Disney's Donald Duck."
+}

@@ -1,0 +1,125 @@
+{
+  "entities": {
+    "Last Hero in China": "film",
+    "Wong Jing": "person",
+    "Once Upon a Time in China": "film series",
+    "Jet Li": "person",
+    "Wong Fei-hung": "character",
+    "Yuen Woo-ping": "person",
+    "Lifebuoy poster": "object",
+    "Monkey King": "character",
+    "guandao": "object",
+    "Ne Zha's Universe Ring": "object"
+  },
+  "triples": [
+    {
+      "subject": "Last Hero in China",
+      "relation": "written_and_directed_by",
+      "object": "Wong Jing",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Wong Jing"
+        }
+      ]
+    },
+    {
+      "subject": "Last Hero in China",
+      "relation": "starred",
+      "object": "Jet Li",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film starred Jet Li as Chinese folk hero Wong Fei-hung"
+        }
+      ]
+    },
+    {
+      "subject": "Last Hero in China",
+      "relation": "action_choreography_done_by",
+      "object": "Yuen Woo-ping",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the action choreography was done by Yuen Woo-ping"
+        }
+      ]
+    },
+    {
+      "subject": "Last Hero in China",
+      "relation": "has_easter_eggs",
+      "object": "Lifebuoy poster",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film has 4 easter eggs: a Lifebuoy poster in 1894"
+        }
+      ]
+    },
+    {
+      "subject": "Last Hero in China",
+      "relation": "has_easter_eggs",
+      "object": "guandao",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a guandao"
+        }
+      ]
+    },
+    {
+      "subject": "Last Hero in China",
+      "relation": "has_easter_eggs",
+      "object": "Ne Zha's Universe Ring",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Ne Zha's Universe Ring"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Last Hero in China",
+        "is_a_derivative_of",
+        "Once Upon a Time in China"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Last Hero in China",
+        "released_after",
+        "Once Upon a Time in China"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Last Hero in China",
+        "contains_elements_of",
+        "violence"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Last Hero in China",
+        "contains_elements_of",
+        "comedy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Last Hero in China",
+        "has_easter_eggs",
+        "staff of the Monkey King"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Last Hero in China\nLast Hero in China is a 1993 Hong Kong martial arts film written and directed by Wong Jing. It is a derivative of the \"Once Upon a Time in China\" film series, and unlike other imitations, it can be considered a spin-off or parody to some extent. It was released after the first three films in the \"Once Upon a Time in China\" franchise. The film starred Jet Li as Chinese folk hero Wong Fei-hung and the action choreography was done by Yuen Woo-ping. However \"Last Hero in China\" differs greatly in tone from the \"Once Upon a Time in China\" films as it contains stronger elements of violence and broader, more slapstick, comedy. The film has 4 easter eggs: a Lifebuoy poster in 1894, a staff of the Monkey King, a guandao and Ne Zha's Universe Ring"
+}

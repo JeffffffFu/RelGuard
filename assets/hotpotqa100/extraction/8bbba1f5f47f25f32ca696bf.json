@@ -1,0 +1,215 @@
+{
+  "entities": {
+    "Braathens Helikopter": "ORG",
+    "Braathens Helikopter A/S": "ORG",
+    "Norwegian": "NORP",
+    "Stavanger Airport": "FAC",
+    "Sola": "GPE",
+    "Bergen Airport": "FAC",
+    "North Sea": "LOC",
+    "Phillips Petroleum": "ORG",
+    "Norsk Hydro": "ORG",
+    "Statoil": "ORG",
+    "Amoco": "ORG",
+    "British Petroleum": "ORG",
+    "Ekofisk": "LOC",
+    "Oseberg": "LOC",
+    "Gullfaks": "LOC",
+    "Veslefrikk": "LOC",
+    "Valhall": "LOC",
+    "Ula": "LOC",
+    "Gyda": "LOC",
+    "Helikopter Service": "ORG",
+    "Ludvig G. Braathens Rederi": "ORG",
+    "Braathens SAFE": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Braathens Helikopter A/S",
+      "relation": "located_in",
+      "object": "Stavanger Airport",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based at Stavanger Airport"
+        }
+      ]
+    },
+    {
+      "subject": "Braathens Helikopter A/S",
+      "relation": "located_in",
+      "object": "Bergen Airport",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bergen Airport"
+        }
+      ]
+    },
+    {
+      "subject": "Braathens Helikopter",
+      "relation": "served",
+      "object": "North Sea",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to serve offshore oil platforms in the North Sea"
+        }
+      ]
+    },
+    {
+      "subject": "Braathens Helikopter",
+      "relation": "merged_with",
+      "object": "Helikopter Service",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "sold to and merged with the main competitor, Helikopter Service"
+        }
+      ]
+    },
+    {
+      "subject": "Braathens Helikopter",
+      "relation": "owned_by",
+      "object": "Ludvig G. Braathens Rederi",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was owned by Ludvig G. Braathens Rederi"
+        }
+      ]
+    },
+    {
+      "subject": "Braathens Helikopter",
+      "relation": "sister_company_of",
+      "object": "Braathens SAFE",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was a sister company of the airline Braathens SAFE"
+        }
+      ]
+    },
+    {
+      "subject": "Braathens Helikopter",
+      "relation": "served_customers",
+      "object": "Phillips Petroleum",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The customers were Phillips Petroleum"
+        }
+      ]
+    },
+    {
+      "subject": "Phillips Petroleum",
+      "relation": "served_fields",
+      "object": "Ekofisk",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "serving their oil fields Ekofisk"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Braathens Helikopter",
+        "operated_from",
+        "1989"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Braathens Helikopter",
+        "used_fleet_of",
+        "Aérospatiale Super Pumas"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Braathens Helikopter",
+        "served_customers",
+        "Norsk Hydro"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Braathens Helikopter",
+        "served_customers",
+        "Statoil"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Braathens Helikopter",
+        "served_customers",
+        "Amoco"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Braathens Helikopter",
+        "served_customers",
+        "British Petroleum"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Norsk Hydro",
+        "served_fields",
+        "Oseberg"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Statoil",
+        "served_fields",
+        "Gullfaks"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Amoco",
+        "served_fields",
+        "Veslefrikk"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "British Petroleum",
+        "served_fields",
+        "Valhall"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Braathens Helikopter",
+        "served_fields",
+        "Ula"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Braathens Helikopter",
+        "served_fields",
+        "Gyda"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Braathens Helikopter\nBraathens Helikopter A/S was a Norwegian helicopter airline based at Stavanger Airport, Sola, and Bergen Airport, Flesland. It used a fleet of seven Aérospatiale Super Pumas to serve offshore oil platforms in the North Sea. The customers were Phillips Petroleum, Norsk Hydro, Statoil, Amoco and British Petroleum, serving their oil fields Ekofisk, Oseberg, Gullfaks, Veslefrikk, Valhall, Ula and Gyda. Braathens Helikopter operated from 1989 to 1993, after which it was sold to and merged with the main competitor, Helikopter Service. Braathens Helikopter was owned by Ludvig G. Braathens Rederi and was a sister company of the airline Braathens SAFE."
+}

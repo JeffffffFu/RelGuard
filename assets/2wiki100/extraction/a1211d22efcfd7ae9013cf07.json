@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Mark Pellington": "PERSON",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Mark Pellington",
+      "relation": "born_on",
+      "object": "Mark Pellington",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born March 17, 1962",
+          "line_start": 17,
+          "char_start": 33,
+          "ambiguous": false,
+          "relation_mention": "born March 17, 1962",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mark Pellington",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Mark Pellington\nMark Pellington( born March 17, 1962) is an American film director, writer, and producer.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Mark Pellington\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Mark Pellington\",\n      \"relation\": \"born_on\",\n      \"object\": \"Mark Pellington\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born March 17, 1962\"}\n      ]\n    },\n    {\n      \"subject\": \"Mark Pellington\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    }\n  ]\n}"
+}

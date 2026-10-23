@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "John John Florence": "PERSON",
+    "John \"John\" Alexander Florence": "PERSON",
+    "American": "NORP",
+    "World Surf League Men's Champion": "EVENT",
+    "Hawaiian": "NORP",
+    "Andy Irons": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "John \"John\" Alexander Florence",
+        "born_inferred_as",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John \"John\" Alexander Florence",
+        "has_name_alias",
+        "John John Florence"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John \"John\" Alexander Florence",
+        "known_as",
+        "one of the most dominant Pipe surfers of his era"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John \"John\" Alexander Florence",
+        "won",
+        "World Surf League Men's Champion"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John \"John\" Alexander Florence",
+        "is_first_since",
+        "Andy Irons"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John \"John\" Alexander Florence",
+        "is",
+        "Hawaiian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "John John Florence\nJohn \"John\" Alexander Florence (born 18 October 1992) is an American professional surfer. He is known as \"one of the most dominant Pipe surfers of his era\" and has most recently won the title of 2016 World Surf League Men's Champion, thus naming him the best surfer in the world. He is the first Hawaiian champion since 3 times world champion Andy Irons.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"John John Florence\", \"type\": \"PERSON\"},\n    {\"name\": \"John \\\"John\\\" Alexander Florence\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"World Surf League Men's Champion\", \"type\": \"EVENT\"},\n    {\"name\": \"Hawaiian\", \"type\": \"NORP\"},\n    {\"name\": \"Andy Irons\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"John \\\"John\\\" Alexander Florence\",\n      \"relation\": \"born_inferred_as\", \n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    },\n    {\n      \"subject\": \"John \\\"John\\\" Alexander Florence\",\n      \"relation\": \"has_name_alias\",\n      \"object\": \"John John Florence\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"John John Florence\"}\n      ]\n    },\n    {\n      \"subject\": \"John \\\"John\\\" Alexander Florence\",\n      \"relation\": \"known_as\",\n      \"object\": \"one of the most dominant Pipe surfers of his era\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is known as \\\"one of the most dominant Pipe surfers of his era\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"John \\\"John\\\" Alexander Florence\",\n      \"relation\": \"won\",\n      \"object\": \"World Surf League Men's Champion\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the title of 2016 World Surf League Men's Champion\"}\n      ]\n    },\n    {\n      \"subject\": \"John \\\"John\\\" Alexander Florence\",\n      \"relation\": \"is_first_since\",\n      \"object\": \"Andy Irons\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"He is the first Hawaiian champion since 3 times world champion Andy Irons\"}\n      ]\n    },\n    {\n      \"subject\": \"John \\\"John\\\" Alexander Florence\",\n      \"relation\": \"is\",\n      \"object\": \"Hawaiian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"He is the first Hawaiian champion\"}\n      ]\n    }\n  ]\n}"
+}

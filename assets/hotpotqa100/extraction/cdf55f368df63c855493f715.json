@@ -1,0 +1,126 @@
+{
+  "entities": {
+    "Memphis Tigers men's basketball team": "ORG",
+    "University of Memphis": "ORG",
+    "Josh Pastner": "PERSON",
+    "Jack Murphy": "PERSON",
+    "Damon Stoudamire": "PERSON",
+    "Luke Walton": "PERSON",
+    "Jimmy Williams": "PERSON",
+    "FedExForum": "FAC",
+    "Memphis": "GPE",
+    "Tennessee": "GPE",
+    "Conference USA": "ORG",
+    "NBA": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Memphis Tigers men's basketball team",
+      "relation": "represented",
+      "object": "University of Memphis",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "represented",
+          "line_start": 49,
+          "char_start": 94,
+          "ambiguous": false,
+          "relation_mention": "represented",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Josh Pastner",
+      "relation": "assisted_by",
+      "object": "Jack Murphy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was assisted by",
+          "line_start": 226,
+          "char_start": 271,
+          "ambiguous": false,
+          "relation_mention": "was assisted by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Josh Pastner",
+      "relation": "assisted_by",
+      "object": "Damon Stoudamire",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was assisted by",
+          "line_start": 226,
+          "char_start": 271,
+          "ambiguous": false,
+          "relation_mention": "was assisted by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Jimmy Williams",
+      "relation": "replaced",
+      "object": "Luke Walton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was brought in to replace",
+          "line_start": 458,
+          "char_start": 503,
+          "ambiguous": false,
+          "relation_mention": "was brought in to replace",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tigers",
+        "coached_by",
+        "Josh Pastner"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Luke Walton",
+        "worked_as",
+        "Memphis Tigers men's basketball team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Memphis Tigers men's basketball team",
+        "played_home_games_at",
+        "FedExForum"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FedExForum",
+        "located_in",
+        "Memphis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Memphis Tigers men's basketball team",
+        "member_of",
+        "Conference USA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "2011–12 Memphis Tigers men's basketball team\nThe 2011–12 Memphis Tigers men's basketball team represented the University of Memphis in the 2011–12 college basketball season, the 91st season of Tiger basketball. The Tigers were coached by head coach Josh Pastner. Pastner was assisted by Jack Murphy and Damon Stoudamire. From the summer of 2011 until December 2011, NBA player Luke Walton was also an assistant coach, though he departed from the position with the end of the NBA lockout. Jimmy Williams was brought in to replace Walton for the remainder of the 2011–12 season. The Tigers played their home games at the FedExForum in Memphis, Tennessee and were members of Conference USA.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Memphis Tigers men's basketball team\", \"type\": \"ORG\"},\n    {\"name\": \"University of Memphis\", \"type\": \"ORG\"},\n    {\"name\": \"Josh Pastner\", \"type\": \"PERSON\"},\n    {\"name\": \"Jack Murphy\", \"type\": \"PERSON\"},\n    {\"name\": \"Damon Stoudamire\", \"type\": \"PERSON\"},\n    {\"name\": \"Luke Walton\", \"type\": \"PERSON\"},\n    {\"name\": \"Jimmy Williams\", \"type\": \"PERSON\"},\n    {\"name\": \"FedExForum\", \"type\": \"FAC\"},\n    {\"name\": \"Memphis\", \"type\": \"GPE\"},\n    {\"name\": \"Tennessee\", \"type\": \"GPE\"},\n    {\"name\": \"Conference USA\", \"type\": \"ORG\"},\n    {\"name\": \"NBA\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Memphis Tigers men's basketball team\",\n      \"relation\": \"represented\",\n      \"object\": \"University of Memphis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"represented\"}\n      ]\n    },\n    {\n      \"subject\": \"Tigers\",\n      \"relation\": \"coached_by\",\n      \"object\": \"Josh Pastner\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were coached by\"}\n      ]\n    },\n    {\n      \"subject\": \"Josh Pastner\",\n      \"relation\": \"assisted_by\",\n      \"object\": \"Jack Murphy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was assisted by\"}\n      ]\n    },\n    {\n      \"subject\": \"Josh Pastner\",\n      \"relation\": \"assisted_by\",\n      \"object\": \"Damon Stoudamire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was assisted by\"}\n      ]\n    },\n    {\n      \"subject\": \"Luke Walton\",\n      \"relation\": \"worked_as\",\n      \"object\": \"Memphis Tigers men's basketball team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was also an assistant coach\"}\n      ]\n    },\n    {\n      \"subject\": \"Jimmy Williams\",\n      \"relation\": \"replaced\",\n      \"object\": \"Luke Walton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was brought in to replace\"}\n      ]\n    },\n    {\n      \"subject\": \"Memphis Tigers men's basketball team\",\n      \"relation\": \"played_home_games_at\",\n      \"object\": \"FedExForum\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played their home games at the FedExForum\"}\n      ]\n    },\n    {\n      \"subject\": \"FedExForum\",\n      \"relation\": \"located_in\",\n      \"object\": \"Memphis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Memphis, Tennessee\"}\n      ]\n    },\n    {\n      \"subject\": \"Memphis Tigers men's basketball team\",\n      \"relation\": \"member_of\",\n      \"object\": \"Conference USA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were members of\"}\n      ]\n    }\n  ]\n}"
+}

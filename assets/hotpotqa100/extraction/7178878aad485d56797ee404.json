@@ -1,0 +1,124 @@
+{
+  "entities": {
+    "Macedonian Monument": "WORK_OF_ART",
+    "United States Naval Academy": "ORG",
+    "Mahan Hall": "FAC",
+    "Stribling Walk": "LOC",
+    "HMS \"Macedonian\"": "PRODUCT",
+    "Stephen Decatur": "PERSON",
+    "United States": "PRODUCT",
+    "War of 1812": "EVENT",
+    "Alexander the Great": "PERSON",
+    "Figurehead of Hans Macedonian": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "HMS \"Macedonian\"",
+      "relation": "captured_by",
+      "object": "Stephen Decatur",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "captured by",
+          "line_start": 206,
+          "char_start": 226,
+          "ambiguous": false,
+          "relation_mention": "captured by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "HMS \"Macedonian\"",
+      "relation": "captured_by",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "captured by",
+          "line_start": 206,
+          "char_start": 226,
+          "ambiguous": false,
+          "relation_mention": "captured by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Macedonian Monument",
+      "relation": "also_known_as",
+      "object": "Alexander the Great",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Also known as",
+          "line_start": 315,
+          "char_start": 335,
+          "ambiguous": false,
+          "relation_mention": "Also known as",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Macedonian Monument",
+      "relation": "also_known_as",
+      "object": "Figurehead of Hans Macedonian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Also known as",
+          "line_start": 315,
+          "char_start": 335,
+          "ambiguous": false,
+          "relation_mention": "Also known as",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Macedonian Monument",
+        "located_in",
+        "United States Naval Academy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Macedonian Monument",
+        "located_in",
+        "Mahan Hall"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Macedonian Monument",
+        "located_in",
+        "Stribling Walk"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Macedonian Monument",
+        "made_of",
+        "HMS \"Macedonian\""
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "HMS \"Macedonian\"",
+        "occurred_during",
+        "War of 1812"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Macedonian Monument\nThe Macedonian Monument is on the campus of the United States Naval Academy, across the street from Mahan Hall, at the end of Stribling Walk. The monument's sculpture is the figurehead of HMS \"Macedonian\", captured by Stephen Decatur and the American frigate \"United States\" in the opening days of the War of 1812. Also known as \"Alexander the Great\" and the \"Figurehead of Hans Macedonian\", the wooden sculpture dates to circa 1810. It came to the Academy in 1875.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Macedonian Monument\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"United States Naval Academy\", \"type\": \"ORG\"},\n    {\"name\": \"Mahan Hall\", \"type\": \"FAC\"},\n    {\"name\": \"Stribling Walk\", \"type\": \"LOC\"},\n    {\"name\": \"HMS \\\"Macedonian\\\"\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Stephen Decatur\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"PRODUCT\"},\n    {\"name\": \"War of 1812\", \"type\": \"EVENT\"},\n    {\"name\": \"Alexander the Great\", \"type\": \"PERSON\"},\n    {\"name\": \"Figurehead of Hans Macedonian\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Macedonian Monument\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States Naval Academy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is on the campus of\"}\n      ]\n    },\n    {\n      \"subject\": \"Macedonian Monument\",\n      \"relation\": \"located_in\",\n      \"object\": \"Mahan Hall\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"across the street from\"}\n      ]\n    },\n    {\n      \"subject\": \"Macedonian Monument\",\n      \"relation\": \"located_in\",\n      \"object\": \"Stribling Walk\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the end of\"}\n      ]\n    },\n    {\n      \"subject\": \"Macedonian Monument\",\n      \"relation\": \"made_of\",\n      \"object\": \"HMS \\\"Macedonian\\\"\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the figurehead of\"}\n      ]\n    },\n    {\n      \"subject\": \"HMS \\\"Macedonian\\\"\",\n      \"relation\": \"captured_by\",\n      \"object\": \"Stephen Decatur\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"captured by\"}\n      ]\n    },\n    {\n      \"subject\": \"HMS \\\"Macedonian\\\"\",\n      \"relation\": \"captured_by\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"captured by\"}\n      ]\n    },\n    {\n      \"subject\": \"HMS \\\"Macedonian\\\"\",\n      \"relation\": \"occurred_during\",\n      \"object\": \"War of 1812\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the opening days of the War of 1812\"}\n      ]\n    },\n    {\n      \"subject\": \"Macedonian Monument\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Alexander the Great\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Macedonian Monument\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Figurehead of Hans Macedonian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Also known as\"}\n      ]\n    }\n  ]\n}"
+}

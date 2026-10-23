@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "Pictou County Pizza": "PRODUCT",
+    "Pictou County": "GPE",
+    "Nova Scotia": "GPE",
+    "Halifax": "GPE",
+    "Canada": "GPE",
+    "UPS": "ORG",
+    "Fort McMurray": "GPE",
+    "Alberta": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Pictou County Pizza",
+      "relation": "located_in",
+      "object": "Pictou County",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "found in",
+          "line_start": 51,
+          "char_start": 71,
+          "ambiguous": false,
+          "relation_mention": "found in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pictou County",
+        "located_in",
+        "Nova Scotia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pictou County Pizza",
+        "has_attribute",
+        "Halifax"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pictou County Pizza",
+        "shipped_across",
+        "Canada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pictou County Pizza",
+        "shipped_via",
+        "UPS"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fort McMurray",
+        "located_in",
+        "Alberta"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Pictou County pizza\nPictou County Pizza is a regional variant of pizza found in Pictou County, Nova Scotia. The style of pizza is unique, owing to its \"brown sauce\" and Halifax-made pepperoni. The pizza can be shipped frozen across Canada via an arrangement between a local pizza shop and the local UPS agent. The most common destination being Fort McMurray, Alberta with a two-day delivery time. Since 2014 an annual competition between pizza makers in Pictou County has been held, with awards being given under a People's Choice category and as selected by a panel of judges.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Pictou County Pizza\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Pictou County\", \"type\": \"GPE\"},\n    {\"name\": \"Nova Scotia\", \"type\": \"GPE\"},\n    {\"name\": \"Halifax\", \"type\": \"GPE\"},\n    {\"name\": \"Canada\", \"type\": \"GPE\"},\n    {\"name\": \"UPS\", \"type\": \"ORG\"},\n    {\"name\": \"Fort McMurray\", \"type\": \"GPE\"},\n    {\"name\": \"Alberta\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Pictou County Pizza\",\n      \"relation\": \"located_in\",\n      \"object\": \"Pictou County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"found in\"}\n      ]\n    },\n    {\n      \"subject\": \"Pictou County\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nova Scotia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Pictou County, Nova Scotia\"}\n      ]\n    },\n    {\n      \"subject\": \"Pictou County Pizza\",\n      \"relation\": \"has_attribute\",\n      \"object\": \"Halifax\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Halifax-made\"}\n      ]\n    },\n    {\n      \"subject\": \"Pictou County Pizza\",\n      \"relation\": \"shipped_across\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"shipped frozen across Canada\"}\n      ]\n    },\n    {\n      \"subject\": \"Pictou County Pizza\",\n      \"relation\": \"shipped_via\",\n      \"object\": \"UPS\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"via an arrangement between a local pizza shop and the local UPS agent\"}\n      ]\n    },\n    {\n      \"subject\": \"Fort McMurray\",\n      \"relation\": \"located_in\",\n      \"object\": \"Alberta\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Fort McMurray, Alberta\"}\n      ]\n    }\n  ]\n}"
+}

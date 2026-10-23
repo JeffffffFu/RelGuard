@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Christina Tosi": "PERSON",
+    "Momofuku Milk Bar": "ORG",
+    "Momofuku": "ORG",
+    "New York City": "GPE",
+    "Toronto": "GPE",
+    "Washington, D.C.": "GPE",
+    "Cosmopolitan of Las Vegas": "FAC",
+    "Nevada": "GPE",
+    "Las Vegas": "GPE",
+    "Brooklyn": "LOC"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Christina Tosi",
+        "works_for",
+        "Momofuku Milk Bar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Christina Tosi",
+        "founded",
+        "Momofuku Milk Bar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Christina Tosi",
+        "owns",
+        "Momofuku Milk Bar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Momofuku Milk Bar",
+        "is_sister_to",
+        "Momofuku"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Milk Bar",
+        "located_in",
+        "New York City"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Milk Bar",
+        "located_in",
+        "Toronto"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Momofuku Milk Bar",
+        "planned_to_open_in",
+        "Washington, D.C."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Momofuku Milk Bar",
+        "planned_to_open_in",
+        "Cosmopolitan of Las Vegas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cosmopolitan of Las Vegas",
+        "located_in",
+        "Nevada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Las Vegas",
+        "located_in",
+        "Nevada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Momofuku Milk Bar",
+        "supplied_by",
+        "Brooklyn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Las Vegas",
+        "opened_in",
+        "Momofuku Milk Bar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Christina Tosi\nChristina Tosi (born 1981 ) is an American chef, author, and television personality. She is the chef, founder, and owner of Momofuku Milk Bar, the sister bakery to the Momofuku restaurant group. Milk Bar consists of a central bakery that produces baked goods daily for five retail outlets in New York City and a sixth location in Toronto, Canada. A seventh location was originally planned to open in Washington, D.C. during summer 2015, and finally opened in October 2015. The central bakery also provides baked goods for other restaurants in the Momofuku group and individuals by shipping nationally and internationally. In February 2016, it was announced that an eighth location was planned to open at the Cosmopolitan of Las Vegas in Nevada. At the time of the announcement, it was unclear if the Nevada branch would also be supplied by the Brooklyn-based central bakery. After a long delay, the Las Vegas location opened in December 2016.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Christina Tosi\", \"type\": \"PERSON\"},\n    {\"name\": \"Momofuku Milk Bar\", \"type\": \"ORG\"},\n    {\"name\": \"Momofuku\", \"type\": \"ORG\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"Toronto\", \"type\": \"GPE\"},\n    {\"name\": \"Washington, D.C.\", \"type\": \"GPE\"},\n    {\"name\": \"Cosmopolitan of Las Vegas\", \"type\": \"FAC\"},\n    {\"name\": \"Nevada\", \"type\": \"GPE\"},\n    {\"name\": \"Las Vegas\", \"type\": \"GPE\"},\n    {\"name\": \"Brooklyn\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Christina Tosi\",\n      \"relation\": \"works_for\",\n      \"object\": \"Momofuku Milk Bar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the chef\"}\n      ]\n    },\n    {\n      \"subject\": \"Christina Tosi\",\n      \"relation\": \"founded\",\n      \"object\": \"Momofuku Milk Bar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founder\"}\n      ]\n    },\n    {\n      \"subject\": \"Christina Tosi\",\n      \"relation\": \"owns\",\n      \"object\": \"Momofuku Milk Bar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owner\"}\n      ]\n    },\n    {\n      \"subject\": \"Momofuku Milk Bar\",\n      \"relation\": \"is_sister_to\",\n      \"object\": \"Momofuku\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the sister bakery to\"}\n      ]\n    },\n    {\n      \"subject\": \"Milk Bar\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in New York City\"}\n      ]\n    },\n    {\n      \"subject\": \"Milk Bar\",\n      \"relation\": \"located_in\",\n      \"object\": \"Toronto\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Toronto, Canada\"}\n      ]\n    },\n    {\n      \"subject\": \"Momofuku Milk Bar\",\n      \"relation\": \"planned_to_open_in\",\n      \"object\": \"Washington, D.C.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"planned to open in Washington, D.C.\"}\n      ]\n    },\n    {\n      \"subject\": \"Momofuku Milk Bar\",\n      \"relation\": \"planned_to_open_in\",\n      \"object\": \"Cosmopolitan of Las Vegas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"planned to open at the Cosmopolitan of Las Vegas\"}\n      ]\n    },\n    {\n      \"subject\": \"Cosmopolitan of Las Vegas\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nevada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Nevada\"}\n      ]\n    },\n    {\n      \"subject\": \"Las Vegas\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nevada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Nevada\"}\n      ]\n    },\n    {\n      \"subject\": \"Momofuku Milk Bar\",\n      \"relation\": \"supplied_by\",\n      \"object\": \"Brooklyn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Brooklyn-based central bakery\"}\n      ]\n    },\n    {\n      \"subject\": \"Las Vegas\",\n      \"relation\": \"opened_in\",\n      \"object\": \"Momofuku Milk Bar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Las Vegas location opened\"}\n      ]\n    }\n  ]\n}"
+}

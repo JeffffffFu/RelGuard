@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Anna Lewandowska": "PERSON",
+    "Anna Stachurska": "PERSON",
+    "Academy of Physical Education in Warsaw": "ORG",
+    "karate": "WORK_OF_ART",
+    "World Championships": "EVENT",
+    "European Championships": "EVENT",
+    "Robert Lewandowski": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Poland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Anna Lewandowska",
+        "born_as",
+        "Anna Stachurska"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anna Lewandowska",
+        "located_in",
+        "Poland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anna Lewandowska",
+        "graduated_from",
+        "Academy of Physical Education in Warsaw"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anna Lewandowska",
+        "specialist_on",
+        "karate"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anna Lewandowska",
+        "medalist_of",
+        "World Championships"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anna Lewandowska",
+        "medalist_of",
+        "European Championships"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anna Lewandowska",
+        "married_to",
+        "Robert Lewandowski"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Anna Lewandowska\nAnna Lewandowska (born Anna Stachurska 7 September 1988) is a Polish athlete, a graduate of the Academy of Physical Education in Warsaw, a specialist on nutrition, karate and representative of the country in traditional karate. She is a multiple medalist of the World, European, and national Championships. She is married to footballer Robert Lewandowski.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Anna Lewandowska\", \"type\": \"PERSON\"},\n    {\"name\": \"Anna Stachurska\", \"type\": \"PERSON\"},\n    {\"name\": \"Academy of Physical Education in Warsaw\", \"type\": \"ORG\"},\n    {\"name\": \"Poland\", \"type\": \"GPE\"},\n    {\"name\": \"karate\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"World Championships\", \"type\": \"EVENT\"},\n    {\"name\": \"European Championships\", \"type\": \"EVENT\"},\n    {\"name\": \"Robert Lewandowski\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Anna Lewandowska\",\n      \"relation\": \"born_as\",\n      \"object\": \"Anna Stachurska\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born Anna Stachurska\"}\n      ]\n    },\n    {\n      \"subject\": \"Anna Lewandowska\",\n      \"relation\": \"located_in\",\n      \"object\": \"Poland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Polish\"}\n      ]\n    },\n    {\n      \"subject\": \"Anna Lewandowska\",\n      \"relation\": \"graduated_from\",\n      \"object\": \"Academy of Physical Education in Warsaw\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a graduate of the Academy of Physical Education in Warsaw\"}\n      ]\n    },\n    {\n      \"subject\": \"Anna Lewandowska\",\n      \"relation\": \"specialist_on\",\n      \"object\": \"karate\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a specialist on nutrition, karate\"}\n      ]\n    },\n    {\n      \"subject\": \"Anna Lewandowska\",\n      \"relation\": \"medalist_of\",\n      \"object\": \"World Championships\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"multiple medalist of the World\"}\n      ]\n    },\n    {\n      \"subject\": \"Anna Lewandowska\",\n      \"relation\": \"medalist_of\",\n      \"object\": \"European Championships\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"multiple medalist of the World, European\"}\n      ]\n    },\n    {\n      \"subject\": \"Anna Lewandowska\",\n      \"relation\": \"married_to\",\n      \"object\": \"Robert Lewandowski\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is married to footballer Robert Lewandowski\"}\n      ]\n    }\n  ]\n}"
+}

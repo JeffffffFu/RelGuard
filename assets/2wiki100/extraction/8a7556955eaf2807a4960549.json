@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Le Masque de la Méduse": "film",
+    "Jean Rollin": "director",
+    "Gorgon": "mythological_figure",
+    "Hammer Horror": "film",
+    "Clash of the Titans": "film"
+  },
+  "triples": [
+    {
+      "subject": "Le Masque de la Méduse",
+      "relation": "directed_by",
+      "object": "Jean Rollin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Jean Rollin"
+        }
+      ]
+    },
+    {
+      "subject": "Le Masque de la Méduse",
+      "relation": "inspired_by",
+      "object": "Hammer Horror",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "inspired by the 1964 classic Hammer Horror film of the same name"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Le Masque de la Méduse",
+        "inspired_by",
+        "Gorgon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Le Masque de la Méduse",
+        "inspired_by",
+        "Clash of the Titans"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jean Rollin",
+        "died_in",
+        "2010"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Le Masque de la Méduse",
+        "is_a",
+        "film"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Le Masque de la Méduse\nLe masque de la Méduse is a 2009 fantasy horror film directed by Jean Rollin. The film is a modern-day telling of the Greek mythological tale of the Gorgon and was inspired by the 1964 classic Hammer Horror film of the same name and the 1981 cult classic\" Clash of the Titans\". It was Rollin's final film, as the director died in 2010."
+}

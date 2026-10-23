@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Beautiful Eyes": "EP",
+    "Taylor Swift": "album",
+    "Big Machine Records": "record label",
+    "Walmart": "store",
+    "United States": "location",
+    "I Heart ?": "song"
+  },
+  "triples": [
+    {
+      "subject": "Beautiful Eyes",
+      "relation": "released_by",
+      "object": "Big Machine Records",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The EP was released on July 15, 2008 by Big Machine Records"
+        }
+      ]
+    },
+    {
+      "subject": "Beautiful Eyes",
+      "relation": "exclusively_to",
+      "object": "Walmart",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "exclusively to Walmart stores"
+        }
+      ]
+    },
+    {
+      "subject": "Beautiful Eyes",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the United States"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Beautiful Eyes",
+        "features",
+        "Taylor Swift"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Beautiful Eyes",
+        "includes",
+        "I Heart ?"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Beautiful Eyes\nBeautiful Eyes is the second extended play (EP) by American singer-songwriter Taylor Swift. The EP was released on July 15, 2008 by Big Machine Records exclusively to Walmart stores in the United States and online. The limited release EP has a primarily country pop sound and features alternate versions of tracks from her debut album, \"Taylor Swift\" (2006), and two original tracks, \"Beautiful Eyes\" and \"I Heart ?\", songs which she had previously written; a DVD, featuring music videos of singles from \"Taylor Swift\", is also included on the physical release of the EP."
+}

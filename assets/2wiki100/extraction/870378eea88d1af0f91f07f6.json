@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Blanche of Brittany": "PERSON",
+    "John II, Duke of Brittany": "PERSON",
+    "Beatrice of England": "PERSON",
+    "Blanche de Dreux": "PERSON",
+    "King Henry III of England": "PERSON",
+    "Eleanor of Provence": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Blanche of Brittany",
+      "relation": "also_known_as",
+      "object": "Blanche de Dreux",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is also known as",
+          "line_start": 117,
+          "char_start": 137,
+          "ambiguous": false,
+          "relation_mention": "is also known as",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Blanche of Brittany",
+        "child_of",
+        "John II, Duke of Brittany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Blanche of Brittany",
+        "child_of",
+        "Beatrice of England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Beatrice of England",
+        "child_of",
+        "King Henry III of England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Beatrice of England",
+        "child_of",
+        "Eleanor of Provence"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Blanche of Brittany\nBlanche of Brittany( 1271 – 1327) was a daughter of John II, Duke of Brittany, and his wife Beatrice of England. She is also known as Blanche de Dreux. Through her mother she was the granddaughter of King Henry III of England and Eleanor of Provence.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Blanche of Brittany\", \"type\": \"PERSON\"},\n    {\"name\": \"John II, Duke of Brittany\", \"type\": \"PERSON\"},\n    {\"name\": \"Beatrice of England\", \"type\": \"PERSON\"},\n    {\"name\": \"Blanche de Dreux\", \"type\": \"PERSON\"},\n    {\"name\": \"King Henry III of England\", \"type\": \"PERSON\"},\n    {\"name\": \"Eleanor of Provence\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Blanche of Brittany\",\n      \"relation\": \"child_of\",\n      \"object\": \"John II, Duke of Brittany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a daughter of\"}\n      ]\n    },\n    {\n      \"subject\": \"Blanche of Brittany\",\n      \"relation\": \"child_of\",\n      \"object\": \"Beatrice of England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a daughter of\"}\n      ]\n    },\n    {\n      \"subject\": \"Blanche of Brittany\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Blanche de Dreux\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Beatrice of England\",\n      \"relation\": \"child_of\",\n      \"object\": \"King Henry III of England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"she was the granddaughter of\"}\n      ]\n    },\n    {\n      \"subject\": \"Beatrice of England\",\n      \"relation\": \"child_of\",\n      \"object\": \"Eleanor of Provence\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"she was the granddaughter of\"}\n      ]\n    }\n  ]\n}"
+}

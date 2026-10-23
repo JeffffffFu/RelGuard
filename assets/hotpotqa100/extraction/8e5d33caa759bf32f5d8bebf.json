@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Irish Red and White Setter": "breed",
+    "setter": "breed",
+    "Pointer": "breed",
+    "UK": "location",
+    "America": "location",
+    "Canada": "location",
+    "Irish Setter": "breed",
+    "Gordon setter": "breed",
+    "English setter": "breed",
+    "working gun dog": "role"
+  },
+  "triples": [
+    {
+      "subject": "Irish Red and White Setter",
+      "relation": "is_a",
+      "object": "setter",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a breed of dog, more specifically a setter."
+        }
+      ]
+    },
+    {
+      "subject": "Irish Red and White Setter",
+      "relation": "identical_in_use_and_temperament_to",
+      "object": "Irish Setter",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is virtually identical in use and temperament to the related Irish Setter"
+        }
+      ]
+    },
+    {
+      "subject": "Irish Red and White Setter",
+      "relation": "identical_in_use_and_temperament_to",
+      "object": "Gordon setter",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and its other setter cousins, the Gordon and English setters"
+        }
+      ]
+    },
+    {
+      "subject": "Irish Red and White Setter",
+      "relation": "identical_in_use_and_temperament_to",
+      "object": "English setter",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and its other setter cousins, the Gordon and English setters"
+        }
+      ]
+    },
+    {
+      "subject": "Irish Red and White Setter",
+      "relation": "more_often_found_as",
+      "object": "working gun dog",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "but is more often found as a working gun dog."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Irish Red and White Setter",
+        "classified_as",
+        "gundog"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Irish Red and White Setter",
+        "included_in",
+        "sporting group"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Irish Red and White Setter\nThe Irish Red and White Setter () is a breed of dog, more specifically a setter. As with all the setters and the Pointer, it is classified as a gundog in the UK and is included in the sporting group in America and Canada. It is virtually identical in use and temperament to the related Irish Setter and its other setter cousins, the Gordon and English setters, but is more often found as a working gun dog."
+}

@@ -1,0 +1,123 @@
+{
+  "entities": {
+    "Waterlily Jaguar": "film",
+    "Melora Walters": "person",
+    "James LeGros": "person",
+    "Mira Sorvino": "person",
+    "Stacey Oristano": "person",
+    "Dominic Monaghan": "person",
+    "Christopher Backus": "person",
+    "Steven Swadling": "person",
+    "Bob": "character"
+  },
+  "triples": [
+    {
+      "subject": "Waterlily Jaguar",
+      "relation": "written_and_directed_by",
+      "object": "Melora Walters",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Melora Walters"
+        }
+      ]
+    },
+    {
+      "subject": "Waterlily Jaguar",
+      "relation": "stars",
+      "object": "James LeGros",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film stars James LeGros"
+        }
+      ]
+    },
+    {
+      "subject": "Bob",
+      "relation": "portrayed_by",
+      "object": "James LeGros",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bob( LeGros)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Waterlily Jaguar",
+        "stars",
+        "Mira Sorvino"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Waterlily Jaguar",
+        "stars",
+        "Stacey Oristano"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Waterlily Jaguar",
+        "stars",
+        "Dominic Monaghan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Waterlily Jaguar",
+        "stars",
+        "Christopher Backus"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Waterlily Jaguar",
+        "stars",
+        "Steven Swadling"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bob",
+        "known_for",
+        "airport novels"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bob",
+        "seeking_to_pen",
+        "serious book"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bob",
+        "may_leave_relationships_in",
+        "shambles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bob",
+        "includes",
+        "marriage"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Waterlily Jaguar\nWaterlily Jaguar is a 2018 drama film written and directed by Melora Walters, in her feature film directorial debut. The film stars James LeGros, Mira Sorvino, Stacey Oristano, Dominic Monaghan, Christopher Backus and Steven Swadling. The film centers on Bob( LeGros), a famous novelist known for his\" airport novels\" seeking to pen a more serious book, only to find himself tumbling down a spiral of obsession that may leave his most important relationships in shambles, including his marriage."
+}

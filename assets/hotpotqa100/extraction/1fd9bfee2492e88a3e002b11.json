@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Philip Fasano": "PERSON",
+    "American International Group": "ORG",
+    "AIG": "ORG",
+    "Kaiser Permanente": "ORG",
+    "New York Institute of Technology": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Philip Fasano",
+        "works_for",
+        "American International Group"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Philip Fasano",
+        "works_for",
+        "AIG"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Philip Fasano",
+        "worked_for",
+        "Kaiser Permanente"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Philip Fasano",
+        "graduated_from",
+        "New York Institute of Technology"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Philip Fasano\nPhilip Fasano is an executive vice president and the chief information officer at American International Group (AIG). Formerly he served as executive vice president and chief information officer at Kaiser Permanente. He graduated with a BS degree in computer science from New York Institute of Technology.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Philip Fasano\", \"type\": \"PERSON\"},\n    {\"name\": \"American International Group\", \"type\": \"ORG\"},\n    {\"name\": \"AIG\", \"type\": \"ORG\"},\n    {\"name\": \"Kaiser Permanente\", \"type\": \"ORG\"},\n    {\"name\": \"New York Institute of Technology\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Philip Fasano\",\n      \"relation\": \"works_for\",\n      \"object\": \"American International Group\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at American International Group (AIG)\"}\n      ]\n    },\n    {\n      \"subject\": \"Philip Fasano\",\n      \"relation\": \"works_for\",\n      \"object\": \"AIG\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at American International Group (AIG)\"}\n      ]\n    },\n    {\n      \"subject\": \"Philip Fasano\",\n      \"relation\": \"worked_for\",\n      \"object\": \"Kaiser Permanente\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at Kaiser Permanente\"}\n      ]\n    },\n    {\n      \"subject\": \"Philip Fasano\",\n      \"relation\": \"graduated_from\",\n      \"object\": \"New York Institute of Technology\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"from New York Institute of Technology\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Beatrice of England": "PERSON",
+    "House of Plantagenet": "ORG",
+    "Henry III of England": "PERSON",
+    "Eleanor of Provence": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Beatrice of England",
+        "member_of",
+        "House of Plantagenet"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Beatrice of England",
+        "daughter_of",
+        "Henry III of England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Beatrice of England",
+        "daughter_of",
+        "Eleanor of Provence"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Beatrice of England\nBeatrice of England( 25 June 1242 – 24 March 1275) was a member of the House of Plantagenet, the daughter of Henry III of England and Eleanor of Provence.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Beatrice of England\", \"type\": \"PERSON\"},\n    {\"name\": \"House of Plantagenet\", \"type\": \"ORG\"},\n    {\"name\": \"Henry III of England\", \"type\": \"PERSON\"},\n    {\"name\": \"Eleanor of Provence\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Beatrice of England\",\n      \"relation\": \"member_of\",\n      \"object\": \"House of Plantagenet\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a member of\"}\n      ]\n    },\n    {\n      \"subject\": \"Beatrice of England\",\n      \"relation\": \"daughter_of\",\n      \"object\": \"Henry III of England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the daughter of\"}\n      ]\n    },\n    {\n      \"subject\": \"Beatrice of England\",\n      \"relation\": \"daughter_of\",\n      \"object\": \"Eleanor of Provence\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and\"}\n      ]\n    }\n  ]\n}"
+}

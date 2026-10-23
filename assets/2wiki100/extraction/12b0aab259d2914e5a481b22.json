@@ -1,0 +1,61 @@
+{
+  "entities": {
+    "A.P.E.X.": "WORK_OF_ART",
+    "Phillip J. Roth": "PERSON",
+    "Richard Keats": "PERSON",
+    "Mitchell Cox": "PERSON",
+    "Lisa Ann Russell": "PERSON",
+    "Marcus Aurelius": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "A.P.E.X.",
+      "relation": "directed_by",
+      "object": "Phillip J. Roth",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Phillip J. Roth"
+        }
+      ]
+    },
+    {
+      "subject": "A.P.E.X.",
+      "relation": "starring",
+      "object": "Richard Keats",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Richard Keats"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "A.P.E.X.",
+        "starring",
+        "Mitchell Cox"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "A.P.E.X.",
+        "starring",
+        "Lisa Ann Russell"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "A.P.E.X.",
+        "starring",
+        "Marcus Aurelius"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "A.P.E.X.\nA.P.E.X is a 1994 science fiction action film directed by Phillip J. Roth and starring Richard Keats, Mitchell Cox, Lisa Ann Russell, and Marcus Aurelius. The plot concerns a group of scientists who explore the past using robotic probes known as the A.P.E.X or\" Advanced Prototype Exploration units\"."
+}

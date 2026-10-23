@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Daniel Burman": "PERSON",
+    "Buenos Aires": "GPE",
+    "Joel Poblete": "PERSON",
+    "Mabuse": "ORG",
+    "New Argentina Cinema": "EVENT",
+    "Anthony Kaufman": "PERSON",
+    "indieWIRE": "ORG",
+    "A Chrysanthemum Burst in Cincoesquinas": "WORK_OF_ART",
+    "New Argentine Cinema": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Daniel Burman",
+      "relation": "born_in",
+      "object": "Buenos Aires",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born 29 August 1973 in",
+          "line_start": 15,
+          "char_start": 29,
+          "ambiguous": false,
+          "relation_mention": "born 29 August 1973 in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anthony Kaufman",
+      "relation": "writes_for",
+      "object": "indieWIRE",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "writing for",
+          "line_start": 331,
+          "char_start": 345,
+          "ambiguous": false,
+          "relation_mention": "writing for",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Joel Poblete",
+        "writes_for",
+        "Mabuse"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Joel Poblete",
+        "said_member_of",
+        "New Argentina Cinema"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anthony Kaufman",
+        "said_cited_as_beginning_of",
+        "New Argentine Cinema"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Burst in Cincoesquinas",
+        "cited_as_beginning_of",
+        "New Argentine Cinema"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Daniel Burman\nDaniel Burman (born 29 August 1973 in Buenos Aires) is an Argentine film director, screenplay writer, and producer. According to film critic Joel Poblete, who writes for \"Mabuse\", a cinema magazine, Daniel Burman is one of the members of the so-called \"New Argentina Cinema\", which began \"circa\" 1998. Film critic Anthony Kaufman, writing for \"indieWIRE\", an online community of independent filmmakers and aficionados, said Burman's \"A Chrysanthemum Burst in Cincoesquinas\" (1998) has been cited as the beginning of the \"New Argentine Cinema\" wave.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Daniel Burman\", \"type\": \"PERSON\"},\n    {\"name\": \"Buenos Aires\", \"type\": \"GPE\"},\n    {\"name\": \"Joel Poblete\", \"type\": \"PERSON\"},\n    {\"name\": \"Mabuse\", \"type\": \"ORG\"},\n    {\"name\": \"New Argentina Cinema\", \"type\": \"EVENT\"},\n    {\"name\": \"Anthony Kaufman\", \"type\": \"PERSON\"},\n    {\"name\": \"indieWIRE\", \"type\": \"ORG\"},\n    {\"name\": \"A Chrysanthemum Burst in Cincoesquinas\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"New Argentine Cinema\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Daniel Burman\",\n      \"relation\": \"born_in\",\n      \"object\": \"Buenos Aires\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born 29 August 1973 in\"}\n      ]\n    },\n    {\n      \"subject\": \"Joel Poblete\",\n      \"relation\": \"writes_for\",\n      \"object\": \"Mabuse\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"writes for\"}\n      ]\n    },\n    {\n      \"subject\": \"Joel Poblete\",\n      \"relation\": \"said_member_of\",\n      \"object\": \"New Argentina Cinema\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is one of the members of\"}\n      ]\n    },\n    {\n      \"subject\": \"Anthony Kaufman\",\n      \"relation\": \"writes_for\",\n      \"object\": \"indieWIRE\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"writing for\"}\n      ]\n    },\n    {\n      \"subject\": \"Anthony Kaufman\",\n      \"relation\": \"said_cited_as_beginning_of\",\n      \"object\": \"New Argentine Cinema\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has been cited as the beginning of the\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Burst in Cincoesquinas\",\n      \"relation\": \"cited_as_beginning_of\",\n      \"object\": \"New Argentine Cinema\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has been cited as the beginning of the\"}\n      ]\n    }\n  ]\n}"
+}

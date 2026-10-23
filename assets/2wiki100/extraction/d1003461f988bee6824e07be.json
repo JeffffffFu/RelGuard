@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Jerome Storm": "PERSON",
+    "American": "NORP",
+    "Denver": "GPE",
+    "Colorado": "GPE",
+    "Desert Hot Springs": "GPE",
+    "California": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Jerome Storm",
+      "relation": "born_in",
+      "object": "Denver",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 193,
+          "char_start": 206,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Jerome Storm",
+      "relation": "died_in",
+      "object": "Desert Hot Springs",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died in",
+          "line_start": 223,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "died in",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jerome Storm",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Denver",
+        "located_in",
+        "Colorado"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Desert Hot Springs",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Jerome Storm\nJerome Storm( November 11, 1890 – July 10, 1958) was an American film director, actor and writer. He acted in 48 films between 1914 and 1941 and directed 47 films between 1918 and 1932. He was born in Denver, Colorado, and died in Desert Hot Springs, California.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Jerome Storm\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Denver\", \"type\": \"GPE\"},\n    {\"name\": \"Colorado\", \"type\": \"GPE\"},\n    {\"name\": \"Desert Hot Springs\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Jerome Storm\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Jerome Storm\",\n      \"relation\": \"born_in\",\n      \"object\": \"Denver\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Denver\",\n      \"relation\": \"located_in\",\n      \"object\": \"Colorado\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Denver, Colorado\"}\n      ]\n    },\n    {\n      \"subject\": \"Jerome Storm\",\n      \"relation\": \"died_in\",\n      \"object\": \"Desert Hot Springs\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"died in\"}\n      ]\n    },\n    {\n      \"subject\": \"Desert Hot Springs\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Desert Hot Springs, California\"}\n      ]\n    }\n  ]\n}"
+}

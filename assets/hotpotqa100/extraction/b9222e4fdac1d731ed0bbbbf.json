@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "fandub": "concept",
+    "production": "concept",
+    "dubbing": "concept",
+    "fandubber": "person",
+    "Japanese animation": "concept",
+    "Abridged Series": "concept",
+    "fundubs": "concept"
+  },
+  "triples": [
+    {
+      "subject": "fandub",
+      "relation": "is_a",
+      "object": "production",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "A fandub is a fan-made dub or redub of a live-action or animated production."
+        }
+      ]
+    },
+    {
+      "subject": "dubbing",
+      "relation": "is_a",
+      "object": "production",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Dubbing is the act of re-recording of a live-action or animated production, typically in a language other than the original."
+        }
+      ]
+    },
+    {
+      "subject": "fandubber",
+      "relation": "native_language",
+      "object": "production",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "but fandubs do exist for productions that were produced in the fandubber's native language."
+        }
+      ]
+    },
+    {
+      "subject": "fandub",
+      "relation": "most_commonly_done_with",
+      "object": "Japanese animation",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "Fandubs are most commonly done with Japanese animation, but can include live action and animated series and movies in any language."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "production",
+        "translated_from",
+        "different languages"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fandub",
+        "has_dialogue_range",
+        "original_script"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fandub",
+        "reasons_behind",
+        "production_not_receiving_official_dub"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fandub",
+        "called",
+        "Abridged Series"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "fandub",
+        "called",
+        "fundubs"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Fandub\nA fandub is a fan-made dub or redub of a live-action or animated production. Dubbing is the act of re-recording of a live-action or animated production, typically in a language other than the original. Most productions are translated from different languages, but fandubs do exist for productions that were produced in the fandubber's native language. The dialogue can range from being a close translation to a completely altered version of the original script's story and plots, as well as the personalities of protagonists. The reasons behind fandubbing can range from the production not receiving an official dub to the official dub being poorly received. Fandubs are most commonly done with Japanese animation, but can include live action and animated series and movies in any language. Versions where the story line, character personalities, and content are dramatically altered, typically in a humorous manner, are called \"Abridged Series\" and \"fundubs\"."
+}

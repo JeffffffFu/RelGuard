@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Civilian Public Service": "ORG",
+    "United States": "GPE",
+    "World War II": "EVENT",
+    "Puerto Rico": "GPE",
+    "U.S. Forest Service": "ORG",
+    "Soil Conservation Service": "ORG",
+    "National Park Service": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Civilian Public Service",
+      "relation": "was_program_of",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was a program of",
+          "line_start": 34,
+          "char_start": 58,
+          "ambiguous": false,
+          "relation_mention": "was a program of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Civilian Public Service",
+      "relation": "provided_alternative_to",
+      "object": "World War II",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "an alternative to military service during World War II",
+          "line_start": 123,
+          "char_start": 147,
+          "ambiguous": false,
+          "relation_mention": "an alternative to military service during World War II",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Civilian Public Service",
+      "relation": "had_camps_in",
+      "object": "Puerto Rico",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "throughout the United States and Puerto Rico",
+          "line_start": 396,
+          "char_start": 420,
+          "ambiguous": false,
+          "relation_mention": "throughout the United States and Puerto Rico",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Draftees",
+        "worked_under_supervision_of",
+        "U.S. Forest Service"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Draftees",
+        "worked_under_supervision_of",
+        "Soil Conservation Service"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Draftees",
+        "worked_under_supervision_of",
+        "National Park Service"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Civilian Public Service\nThe Civilian Public Service (CPS) was a program of the United States government that provided conscientious objectors with an alternative to military service during World War II. From 1941 to 1947, nearly 12,000 draftees, willing to serve their country in some capacity but unwilling to perform any type of military service, accepted assignments in \"work of national importance\" in 152 CPS camps throughout the United States and Puerto Rico. Draftees from the historic peace churches and other faiths worked in areas such as soil conservation, forestry, fire fighting, agriculture, under the supervision of such agencies as the U.S. Forest Service, the Soil Conservation Service, and the National Park Service. Others helped provide social services and mental health services."
+}

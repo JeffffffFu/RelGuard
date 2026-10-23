@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "Alexia Portal": "PERSON",
+    "Béatrice Romand": "PERSON",
+    "Autumn Tale": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Alexia Portal",
+      "relation": "best_known_for",
+      "object": "Autumn Tale",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for her role as Béatrice Romand's son's girlfriend in the 1998 film\" Autumn Tale\""
+        }
+      ]
+    },
+    {
+      "subject": "Béatrice Romand",
+      "relation": "related_to",
+      "object": "Alexia Portal",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "her role as Béatrice Romand's son's girlfriend"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "France (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Alexia Portal",
+        "located_in",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Alexia Portal\nAlexia Portal is a French actress best known for her role as Béatrice Romand's son's girlfriend in the 1998 film\" Autumn Tale\"."
+}

@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Alexander Sandy Air": "Person",
+    "Whitby Dunlops": "Team",
+    "1958 World Ice Hockey Championships": "Event",
+    "Oslo": "Location",
+    "Norway": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Alexander Sandy Air",
+      "relation": "played_for",
+      "object": "Whitby Dunlops",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a Canadian ice hockey player with the Whitby Dunlops"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Sandy Air",
+      "relation": "won",
+      "object": "1958 World Ice Hockey Championships",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He won a gold medal at the 1958 World Ice Hockey Championships"
+        }
+      ]
+    },
+    {
+      "subject": "1958 World Ice Hockey Championships",
+      "relation": "held_in",
+      "object": "Oslo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the 1958 World Ice Hockey Championships in Oslo"
+        }
+      ]
+    },
+    {
+      "subject": "Oslo",
+      "relation": "located_in",
+      "object": "Norway",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Oslo, Norway"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Alexander Sandy Air",
+        "born_on",
+        "March 25, 1928"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sandy Air\nAlexander\" Sandy\" Air( born March 25, 1928) was a Canadian ice hockey player with the Whitby Dunlops. He won a gold medal at the 1958 World Ice Hockey Championships in Oslo, Norway."
+}

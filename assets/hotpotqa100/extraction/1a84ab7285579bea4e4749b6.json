@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Inner Mongolia University of Technology": "ORG",
+    "Inner Mongolia": "GPE",
+    "People's Republic of China": "GPE",
+    "Autonomous Region government": "ORG",
+    "Suiyuan Higher Technical School": "ORG",
+    "Inner Mongolia Polytechnic Institute": "ORG",
+    "Hohhot": "GPE",
+    "Inner Mongolia Autonomous Region": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Inner Mongolia University of Technology",
+      "relation": "founded",
+      "object": "Suiyuan Higher Technical School",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was originally known as",
+          "line_start": 196,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "was originally known as",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Inner Mongolia University of Technology",
+        "located_in",
+        "Inner Mongolia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia University of Technology",
+        "located_in",
+        "People's Republic of China"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia University of Technology",
+        "works_for",
+        "Autonomous Region government"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia University of Technology",
+        "founded",
+        "Inner Mongolia Polytechnic Institute"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia University of Technology",
+        "located_in",
+        "Hohhot"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hohhot",
+        "located_in",
+        "Inner Mongolia Autonomous Region"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Inner Mongolia University of Technology\nInner Mongolia University of Technology (IMUT)() is a university in Inner Mongolia, People's Republic of China, under the authority of the Autonomous Region government. It was founded in 1951 and was originally known as the Suiyuan Higher Technical School (绥远省高级工业学校) and then after 1958 the Inner Mongolia Polytechnic Institute (内蒙古工学院) before changing to its current name in 1993. It is located in north part of Hohhot, the capital city of Inner Mongolia Autonomous Region.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Inner Mongolia University of Technology\", \"type\": \"ORG\"},\n    {\"name\": \"Inner Mongolia\", \"type\": \"GPE\"},\n    {\"name\": \"People's Republic of China\", \"type\": \"GPE\"},\n    {\"name\": \"Autonomous Region government\", \"type\": \"ORG\"},\n    {\"name\": \"Suiyuan Higher Technical School\", \"type\": \"ORG\"},\n    {\"name\": \"Inner Mongolia Polytechnic Institute\", \"type\": \"ORG\"},\n    {\"name\": \"Hohhot\", \"type\": \"GPE\"},\n    {\"name\": \"Inner Mongolia Autonomous Region\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Inner Mongolia University of Technology\",\n      \"relation\": \"located_in\",\n      \"object\": \"Inner Mongolia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a university in\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia University of Technology\",\n      \"relation\": \"located_in\",\n      \"object\": \"People's Republic of China\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Inner Mongolia, People's Republic of China, under the authority of the Autonomous Region government\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia University of Technology\",\n      \"relation\": \"works_for\",\n      \"object\": \"Autonomous Region government\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"under the authority of\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia University of Technology\",\n      \"relation\": \"founded\",\n      \"object\": \"Suiyuan Higher Technical School\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was originally known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia University of Technology\",\n      \"relation\": \"founded\",\n      \"object\": \"Inner Mongolia Polytechnic Institute\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"then after 1958 the Inner Mongolia Polytechnic Institute\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia University of Technology\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hohhot\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"It is located in north part of Hohhot\"}\n      ]\n    },\n    {\n      \"subject\": \"Hohhot\",\n      \"relation\": \"located_in\",\n      \"object\": \"Inner Mongolia Autonomous Region\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the capital city of Inner Mongolia Autonomous Region\"}\n      ]\n    }\n  ]\n}"
+}

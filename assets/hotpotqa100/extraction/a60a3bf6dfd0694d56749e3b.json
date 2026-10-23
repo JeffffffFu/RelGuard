@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "Papa Stour": "Location",
+    "Shetland Islands": "Location",
+    "Scotland": "Location",
+    "wildlife": "Biological",
+    "Site of Special Scientific Interest": "Designation",
+    "Special Area of Conservation": "Designation"
+  },
+  "triples": [
+    {
+      "subject": "Papa Stour",
+      "relation": "located_in",
+      "object": "Shetland Islands",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Papa Stour is one of the Shetland Islands in Scotland"
+        }
+      ]
+    },
+    {
+      "subject": "Papa Stour",
+      "relation": "located_in",
+      "object": "Scotland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Papa Stour is one of the Shetland Islands in Scotland"
+        }
+      ]
+    },
+    {
+      "subject": "Papa Stour",
+      "relation": "harbours",
+      "object": "wildlife",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The island and its surrounding seas harbour diverse populations of wildlife"
+        }
+      ]
+    },
+    {
+      "subject": "Papa Stour",
+      "relation": "is_a",
+      "object": "Site of Special Scientific Interest",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The west side of the island is a Site of Special Scientific Interest"
+        }
+      ]
+    },
+    {
+      "subject": "Papa Stour",
+      "relation": "is_a",
+      "object": "Special Area of Conservation",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the seas around the island are a Special Area of Conservation"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Papa Stour",
+        "has_population",
+        "under twenty people"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Papa Stour",
+        "has_area",
+        "828 hectares"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Papa Stour",
+        "is_largest_island_in",
+        "Shetland"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Papa Stour\nPapa Stour is one of the Shetland Islands in Scotland, with a population of under twenty people, some of whom immigrated after an appeal for residents in the 1970s. Located to the west of mainland Shetland and with an area of 828 hectares (3.2 square miles), Papa Stour is the eighth largest island in Shetland. Erosion of the soft volcanic rocks by the sea has created an extraordinary variety of caves, stacks, arches, blowholes, and cliffs. The island and its surrounding seas harbour diverse populations of wildlife. The west side of the island is a Site of Special Scientific Interest and the seas around the island are a Special Area of Conservation."
+}

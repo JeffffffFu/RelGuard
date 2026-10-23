@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Stoltzfus": "PERSON",
+    "Force et al.": "PERSON",
+    "Subfunctionalization": "WORK_OF_ART",
+    "gene duplication": "EVENT",
+    "paralogs": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Subfunctionalization",
+      "relation": "proposed_by",
+      "object": "Stoltzfus",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was proposed by Stoltzfus (1999)"
+        }
+      ]
+    },
+    {
+      "subject": "gene duplication",
+      "relation": "results_in",
+      "object": "paralogs",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "after a gene duplication event, in which pairs of genes that originate from duplication, or paralogs"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Subfunctionalization",
+        "proposed_by",
+        "Force et al."
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "paralogs",
+        "take_on",
+        "separate functions"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Subfunctionalization\nSubfunctionalization was proposed by Stoltzfus (1999) and Force et al. (1999) as one of the possible outcomes of functional divergence that occurs after a gene duplication event, in which pairs of genes that originate from duplication, or paralogs, take on separate functions. Subfunctionalization is a neutral mutation process; meaning that no new adaptations are formed. During the process of gene duplication paralogs simply undergo a division of labor by retaining different parts (subfunctions) of their original ancestral function. This partitioning event occurs because of segmental gene silencing leading to the formation of paralogs that are no longer duplicates, because each gene only retains a single function. It is important to note that the ancestral gene was capable of performing both functions and the descendant duplicate genes can now only perform one of the original ancestral functions."
+}

@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "An Inconvenient Truth": "WORK_OF_ART",
+    "Davis Guggenheim": "PERSON",
+    "Al Gore": "PERSON",
+    "Laurie David": "PERSON",
+    "Lawrence Bender": "PERSON",
+    "The Day After Tomorrow": "WORK_OF_ART",
+    "United States": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "An Inconvenient Truth",
+      "relation": "directed_by",
+      "object": "Davis Guggenheim",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 58,
+          "char_start": 80,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "An Inconvenient Truth",
+        "about",
+        "Al Gore"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Al Gore",
+        "worked_for",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "An Inconvenient Truth",
+        "is_a",
+        "documentary film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Laurie David",
+        "produced",
+        "An Inconvenient Truth"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Laurie David",
+        "met_with",
+        "Davis Guggenheim"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Laurie David",
+        "met_with",
+        "Lawrence Bender"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Laurie David",
+        "saw_presentation_at",
+        "The Day After Tomorrow"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "An Inconvenient Truth\nAn Inconvenient Truth is a 2006 American documentary film directed by Davis Guggenheim about former United States Vice President Al Gore's campaign to educate citizens about global warming via a comprehensive slide show that, by his own estimate made in the film, he has given more than a thousand times. The idea to document his efforts came from producer Laurie David, who saw his presentation at a town-hall meeting on global warming, which coincided with the opening of \"The Day After Tomorrow\". Laurie David was so inspired by Gore's slide show that she, with producer Lawrence Bender, met with Guggenheim to adapt the presentation into a film.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"An Inconvenient Truth\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Davis Guggenheim\", \"type\": \"PERSON\"},\n    {\"name\": \"Al Gore\", \"type\": \"PERSON\"},\n    {\"name\": \"Laurie David\", \"type\": \"PERSON\"},\n    {\"name\": \"Lawrence Bender\", \"type\": \"PERSON\"},\n    {\"name\": \"The Day After Tomorrow\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"An Inconvenient Truth\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Davis Guggenheim\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"An Inconvenient Truth\",\n      \"relation\": \"about\",\n      \"object\": \"Al Gore\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"about former United States Vice President Al Gore's campaign\"}\n      ]\n    },\n    {\n      \"subject\": \"Al Gore\",\n      \"relation\": \"worked_for\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"United States Vice President\"}\n      ]\n    },\n    {\n      \"subject\": \"An Inconvenient Truth\",\n      \"relation\": \"is_a\",\n      \"object\": \"documentary film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a 2006 American documentary film\"}\n      ]\n    },\n    {\n      \"subject\": \"Laurie David\",\n      \"relation\": \"produced\",\n      \"object\": \"An Inconvenient Truth\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"producer Laurie David\"}\n      ]\n    },\n    {\n      \"subject\": \"Laurie David\",\n      \"relation\": \"met_with\",\n      \"object\": \"Davis Guggenheim\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"met with Guggenheim\"}\n      ]\n    },\n    {\n      \"subject\": \"Laurie David\",\n      \"relation\": \"met_with\",\n      \"object\": \"Lawrence Bender\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with producer Lawrence Bender, met with Guggenheim\"}\n      ]\n    },\n    {\n      \"subject\": \"Laurie David\",\n      \"relation\": \"saw_presentation_at\",\n      \"object\": \"The Day After Tomorrow\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"which coincided with the opening of \\\"The Day After Tomorrow\\\"\"}\n      ]\n    }\n  ]\n}"
+}

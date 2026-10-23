@@ -1,0 +1,171 @@
+{
+  "entities": {
+    "Stank Hall": "FAC",
+    "Beeston": "GPE",
+    "Leeds": "GPE",
+    "England": "GPE",
+    "Beeston family": "NORP",
+    "English Heritage": "ORG",
+    "barn": "FAC",
+    "Hodgson family": "NORP",
+    "Leeds City Council": "ORG",
+    "Friends of Stank Hall Barn": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Stank Hall",
+      "relation": "located_in",
+      "object": "Beeston",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Beeston",
+          "line_start": 34,
+          "char_start": 45,
+          "ambiguous": false,
+          "relation_mention": "in Beeston",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Beeston",
+      "relation": "located_in",
+      "object": "Leeds",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "a suburb of Leeds",
+          "line_start": 46,
+          "char_start": 57,
+          "ambiguous": false,
+          "relation_mention": "a suburb of Leeds",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Leeds",
+      "relation": "located_in",
+      "object": "England",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in England",
+          "line_start": 64,
+          "char_start": 75,
+          "ambiguous": false,
+          "relation_mention": "in England",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Stank Hall",
+      "relation": "founded",
+      "object": "Beeston family",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "built for the Beeston family",
+          "line_start": 320,
+          "char_start": 331,
+          "ambiguous": false,
+          "relation_mention": "built for the Beeston family",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Stank Hall",
+      "relation": "listed_by",
+      "object": "English Heritage",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "listed as Grade II by English Heritage",
+          "line_start": 150,
+          "char_start": 161,
+          "ambiguous": false,
+          "relation_mention": "listed as Grade II by English Heritage",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "barn",
+      "relation": "founded",
+      "object": "Beeston family",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "built for the Beeston family",
+          "line_start": 320,
+          "char_start": 331,
+          "ambiguous": false,
+          "relation_mention": "built for the Beeston family",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "barn",
+      "relation": "acquired_by",
+      "object": "Hodgson family",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "acquired by the Hodgson family",
+          "line_start": 357,
+          "char_start": 368,
+          "ambiguous": false,
+          "relation_mention": "acquired by the Hodgson family",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "barn",
+      "relation": "acquired_from",
+      "object": "Leeds City Council",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "acquired from the Leeds City Council",
+          "line_start": 431,
+          "char_start": 442,
+          "ambiguous": false,
+          "relation_mention": "acquired from the Leeds City Council",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "barn",
+      "relation": "acquired_by",
+      "object": "Friends of Stank Hall Barn",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "acquired from the Leeds City Council by the Friends of Stank Hall Barn",
+          "line_start": 431,
+          "char_start": 442,
+          "ambiguous": false,
+          "relation_mention": "acquired from the Leeds City Council by the Friends of Stank Hall Barn",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "barn",
+        "located_in",
+        "north"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Stank Hall\nStank Hall is a historic building in Beeston, a suburb of Leeds in England. It was built in the late 15th century for the Beeston family. It has been listed as Grade II by English Heritage since 19 October 1951. Immediately to the north stands a Grade II*–listed barn of the late 15th – early 16th century that was also built for the Beeston family and was acquired by the Hodgson family in the 17th century. In 2014, the barn was acquired from the Leeds City Council by the Friends of Stank Hall Barn, with the intent of restoring it."
+}

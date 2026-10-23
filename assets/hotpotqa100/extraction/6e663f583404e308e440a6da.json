@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Shin Sang-ok": "PERSON",
+    "Kim Jong-il": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Shin Sang-ok",
+      "relation": "changed_name_to",
+      "object": "Shin Sang-ok",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he later changed his name to Shin Sang-ok"
+        }
+      ]
+    },
+    {
+      "subject": "Kim Jong-il",
+      "relation": "kidnapped",
+      "object": "Shin Sang-ok",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "having been kidnapped by the previous North Korean leader, Kim Jong-il"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "South Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Shin Sang-ok",
+        "born_as",
+        "Shin Tae-seo"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Shin Sang-ok",
+        "located_in",
+        "South Korea"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Shin Sang-ok\nShin Sang-ok (October 11, 1926 – April 11, 2006) was a prolific South Korean film producer and director with more than 100 producer and 70 director credits to his name. His best-known films were made in the 1950s and 60s when he was known as the \"Prince of Korean Cinema\". He received the Gold Crown Cultural Medal, the country's top honor for an artist. He is also known for having been kidnapped by the previous North Korean leader, Kim Jong-il, for the purpose of producing critically acclaimed films. He was born Shin Tae-seo; he later changed his name to Shin Sang-ok when he started working in the film industry."
+}

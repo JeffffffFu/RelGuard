@@ -1,0 +1,158 @@
+{
+  "entities": {
+    "Boulevard Solitude": "WORK_OF_ART",
+    "Hans Werner Henze": "PERSON",
+    "Grete Weil": "PERSON",
+    "Walter Jockisch": "PERSON",
+    "François Prévost": "PERSON",
+    "Manon Lescaut": "WORK_OF_ART",
+    "Auber": "PERSON",
+    "Massenet": "PERSON",
+    "Puccini": "PERSON",
+    "Paris": "GPE",
+    "Second World War": "EVENT",
+    "Grove": "ORG",
+    "Armand des Grieux": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "written_by",
+      "object": "Hans Werner Henze",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Hans Werner Henze"
+        }
+      ]
+    },
+    {
+      "subject": "Hans Werner Henze",
+      "relation": "has_libretto_by",
+      "object": "Grete Weil",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to a German libretto by Grete Weil"
+        }
+      ]
+    },
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "adapted_from",
+      "object": "Walter Jockisch",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "after the play by Walter Jockisch"
+        }
+      ]
+    },
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "retelling_of",
+      "object": "Manon Lescaut",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a modern retelling of François Prévost's \"Manon Lescaut\""
+        }
+      ]
+    },
+    {
+      "subject": "Manon Lescaut",
+      "relation": "adapted_operatically_by",
+      "object": "Auber",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "already adapted operatically by Auber"
+        }
+      ]
+    },
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "relocated_to",
+      "object": "Paris",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "here relocated to Paris after the Second World War"
+        }
+      ]
+    },
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "focus_moves_towards",
+      "object": "Armand des Grieux",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the focus of the story moves away from Manon and towards Armand des Grieux"
+        }
+      ]
+    },
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "is_first_opera_of",
+      "object": "Hans Werner Henze",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It became Henze’s first fully-fledged opera"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Boulevard Solitude",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Manon Lescaut",
+        "adapted_operatically_by",
+        "Massenet"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Manon Lescaut",
+        "adapted_operatically_by",
+        "Puccini"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Boulevard Solitude",
+        "focus_moves_away_from",
+        "Manon"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Boulevard Solitude",
+        "stands_out_for",
+        "jazz influences"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hans Werner Henze",
+        "associated_with",
+        "twelve tone technique"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Boulevard Solitude\nBoulevard Solitude is a \"Lyrisches Drama \" (lyric drama) or opera in one act by Hans Werner Henze to a German libretto by Grete Weil after the play by Walter Jockisch, in its turn a modern retelling of François Prévost's \"Manon Lescaut\". The piece is a reworking of the Manon Lescaut story, already adapted operatically by Auber, Massenet and Puccini, and here relocated to Paris after the Second World War where, as is noted in Grove, the focus of the story moves away from Manon and towards Armand des Grieux. It became Henze’s first fully-fledged opera. The work stands out for its strong jazz influences, from a composer who had hitherto been associated with twelve tone technique."
+}

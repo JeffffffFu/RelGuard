@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Alan Chipp": "Person",
+    "Don Chipp": "Person",
+    "Fitzroy Football Club": "Organization",
+    "Victorian Football League": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Alan Chipp",
+      "relation": "played_for",
+      "object": "Fitzroy Football Club",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played for the Fitzroy Football Club"
+        }
+      ]
+    },
+    {
+      "subject": "Alan Chipp",
+      "relation": "located_in",
+      "object": "Victorian Football League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Victorian Football League( VFL)"
+        }
+      ]
+    },
+    {
+      "subject": "Alan Chipp",
+      "relation": "brother_of",
+      "object": "Don Chipp",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "younger brother of politician Don Chipp"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Alan Chipp",
+        "born_on",
+        "9 January 1937"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Alan Chipp\nAlan Chipp( born 9 January 1937) is a former Australian rules footballer who played for the Fitzroy Football Club in the Victorian Football League( VFL). He is a younger brother of politician Don Chipp."
+}

@@ -1,0 +1,185 @@
+{
+  "entities": {
+    "Alexander Singer": "PERSON",
+    "New York City": "GPE",
+    "Stanley Kubrick": "PERSON",
+    "A Cold Wind in August": "WORK_OF_ART",
+    "Captain Apache": "WORK_OF_ART",
+    "Glass Houses": "WORK_OF_ART",
+    "Judith Singer": "PERSON",
+    "Dr. Kildare": "WORK_OF_ART",
+    "The F.B.I.": "WORK_OF_ART",
+    "The Monkees": "WORK_OF_ART",
+    "Star Trek": "WORK_OF_ART",
+    "Day of the Fight": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Alexander Singer",
+      "relation": "born_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born 18 April 1928, in",
+          "line_start": 18,
+          "char_start": 35,
+          "ambiguous": false,
+          "relation_mention": "born 18 April 1928, in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "6 entities not in the document",
+      "entities": [
+        "United States (GPE)",
+        "Alias Smith and Jones (WORK_OF_ART)",
+        "Nakia (WORK_OF_ART)",
+        "Police Woman (WORK_OF_ART)",
+        "Cagney & Lacey (WORK_OF_ART)",
+        "MacGyver (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "nationality",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "worked_as",
+        "cinematographer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "worked_on",
+        "Day of the Fight"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Day of the Fight",
+        "directed_by",
+        "Stanley Kubrick"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "A Cold Wind in August"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Captain Apache"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Glass Houses"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Glass Houses",
+        "based_on",
+        "Judith Singer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Dr. Kildare"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "The F.B.I."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Alias Smith and Jones"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Nakia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Police Woman"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Cagney & Lacey"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "MacGyver"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed_episodes_of",
+        "The Monkees"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Star Trek"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Alexander Singer\nAlexander Singer( born 18 April 1928, in New York City, New York) is an American director. He began his career behind the camera in 1951 as a cinematographer on the short documentary\" Day of the Fight\", directed by his high school friend, Stanley Kubrick. Singer himself turned to directing a decade later with the film,\" A Cold Wind in August\". Although he would direct other feature films, such as the Lee Van Cleef western,\" Captain Apache\"( 1971), and\" Glass Houses\"( 1972), a film of the book which his wife, Judith Singer, wrote, the bulk of Singer's credits are in television. The long list of series to which Singer has lent his directorial talents include\" Dr. Kildare The F.B.I.Alias Smith and JonesNakiaPolice WomanCagney& LaceyMacGyver\", six episodes of\" The Monkees\", and three\" Star Trek\" series:,, and.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Alexander Singer\", \"type\": \"PERSON\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Stanley Kubrick\", \"type\": \"PERSON\"},\n    {\"name\": \"A Cold Wind in August\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Captain Apache\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Glass Houses\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Judith Singer\", \"type\": \"PERSON\"},\n    {\"name\": \"Dr. Kildare\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The F.B.I.\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Alias Smith and Jones\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Nakia\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Police Woman\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Cagney & Lacey\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"MacGyver\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Monkees\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Star Trek\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Day of the Fight\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"born_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born 18 April 1928, in\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"nationality\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"worked_as\",\n      \"object\": \"cinematographer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as a cinematographer\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"worked_on\",\n      \"object\": \"Day of the Fight\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the short documentary\\\" Day of the Fight\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Day of the Fight\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Stanley Kubrick\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by his high school friend, Stanley Kubrick\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed\",\n      \"object\": \"A Cold Wind in August\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"turned to directing a decade later with the film,\\\" A Cold Wind in August\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed\",\n      \"object\": \"Captain Apache\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"such as the Lee Van Cleef western,\\\" Captain Apache\\\"( 1971),\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed\",\n      \"object\": \"Glass Houses\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and\\\" Glass Houses\\\"( 1972),\"}\n      ]\n    },\n    {\n      \"subject\": \"Glass Houses\",\n      \"relation\": \"based_on\",\n      \"object\": \"Judith Singer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a film of the book which his wife, Judith Singer, wrote\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed\",\n      \"object\": \"Dr. Kildare\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"include\\\" Dr. Kildare\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed\",\n      \"object\": \"The F.B.I.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The F.B.I.\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed\",\n      \"object\": \"Alias Smith and Jones\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Alias Smith and Jones\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed\",\n      \"object\": \"Nakia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Nakia\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed\",\n      \"object\": \"Police Woman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Police Woman\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed\",\n      \"object\": \"Cagney & Lacey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Cagney& Lacey\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed\",\n      \"object\": \"MacGyver\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"MacGyver\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed_episodes_of\",\n      \"object\": \"The Monkees\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"six episodes of\\\" The Monkees\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Singer\",\n      \"relation\": \"directed\",\n      \"object\": \"Star Trek\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and three\\\" Star Trek\\\" series\"}\n      ]\n    }\n  ]\n}"
+}

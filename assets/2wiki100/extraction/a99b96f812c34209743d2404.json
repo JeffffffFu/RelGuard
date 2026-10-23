@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "The Alster Case": "WORK_OF_ART",
+    "J. Charles Haydon": "PERSON",
+    "Bryant Washburn": "PERSON",
+    "Ruth Stonehouse": "PERSON",
+    "Rufus Gillmore": "PERSON",
+    "Essanay Company": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "The Alster Case",
+      "relation": "directed_by",
+      "object": "J. Charles Haydon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by J. Charles Haydon"
+        }
+      ]
+    },
+    {
+      "subject": "The Alster Case",
+      "relation": "starring",
+      "object": "Bryant Washburn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Bryant Washburn"
+        }
+      ]
+    },
+    {
+      "subject": "The Alster Case",
+      "relation": "based_on",
+      "object": "Rufus Gillmore",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on a novel, \"The Alster Case\", by Rufus Gillmore"
+        }
+      ]
+    },
+    {
+      "subject": "The Alster Case",
+      "relation": "produced_by",
+      "object": "Essanay Company",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by the Essanay Company"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Alster Case",
+        "starring",
+        "Ruth Stonehouse"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Alster Case\nThe Alster Case is a lost 1915 silent film drama directed by J. Charles Haydon and starring Bryant Washburn and Ruth Stonehouse. It was based on a novel, \"The Alster Case\", by Rufus Gillmore. It was produced by the Essanay Company."
+}

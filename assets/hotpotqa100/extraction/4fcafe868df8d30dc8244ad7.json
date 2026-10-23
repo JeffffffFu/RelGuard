@@ -1,0 +1,131 @@
+{
+  "entities": {
+    "René Llense": "PERSON",
+    "FC Sète": "ORG",
+    "AS Saint-Étienne": "ORG",
+    "Collioure": "GPE",
+    "Pyrénées-Orientales": "GPE",
+    "France national football team": "ORG",
+    "1934 FIFA World Cup": "EVENT",
+    "1938 FIFA World Cup": "EVENT",
+    "France": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "René Llense",
+      "relation": "played_for",
+      "object": "FC Sète",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played for",
+          "line_start": 81,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "played for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "René Llense",
+      "relation": "played_for",
+      "object": "AS Saint-Étienne",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played for",
+          "line_start": 81,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "played for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "René Llense",
+      "relation": "born_in",
+      "object": "Collioure",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born in",
+          "line_start": 148,
+          "char_start": 160,
+          "ambiguous": false,
+          "relation_mention": "was born in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "René Llense",
+      "relation": "earned_caps_for",
+      "object": "France national football team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "earned 11 caps for",
+          "line_start": 195,
+          "char_start": 207,
+          "ambiguous": false,
+          "relation_mention": "earned 11 caps for",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "René Llense",
+      "relation": "participated_in",
+      "object": "1934 FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "participated in",
+          "line_start": 271,
+          "char_start": 283,
+          "ambiguous": false,
+          "relation_mention": "participated in",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "René Llense",
+      "relation": "participated_in",
+      "object": "1938 FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "participated in",
+          "line_start": 271,
+          "char_start": 283,
+          "ambiguous": false,
+          "relation_mention": "participated in",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Collioure",
+        "located_in",
+        "Pyrénées-Orientales"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "France national football team",
+        "located_in",
+        "France"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "René Llense\nRené Llense (14 July 1913 – 12 March 2014) was a French football goalkeeper, who played for FC Sète and AS Saint-Étienne during his club career. He was born in Collioure, Pyrénées-Orientales. He earned 11 caps for the France national football team from 1935 to 1939, and participated in the 1934 FIFA World Cup and the 1938 FIFA World Cup. He was their last surviving player to have participated in either of the pre-war World Cups. . He turned 100 in July 2013 and died on 12 March 2014 from natural causes.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"René Llense\", \"type\": \"PERSON\"},\n    {\"name\": \"FC Sète\", \"type\": \"ORG\"},\n    {\"name\": \"AS Saint-Étienne\", \"type\": \"ORG\"},\n    {\"name\": \"Collioure\", \"type\": \"GPE\"},\n    {\"name\": \"Pyrénées-Orientales\", \"type\": \"GPE\"},\n    {\"name\": \"France national football team\", \"type\": \"ORG\"},\n    {\"name\": \"1934 FIFA World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"1938 FIFA World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"France\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"René Llense\",\n      \"relation\": \"played_for\",\n      \"object\": \"FC Sète\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played for\"}\n      ]\n    },\n    {\n      \"subject\": \"René Llense\",\n      \"relation\": \"played_for\",\n      \"object\": \"AS Saint-Étienne\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played for\"}\n      ]\n    },\n    {\n      \"subject\": \"René Llense\",\n      \"relation\": \"born_in\",\n      \"object\": \"Collioure\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Collioure\",\n      \"relation\": \"located_in\",\n      \"object\": \"Pyrénées-Orientales\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Collioure, Pyrénées-Orientales\"}\n      ]\n    },\n    {\n      \"subject\": \"René Llense\",\n      \"relation\": \"earned_caps_for\",\n      \"object\": \"France national football team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"earned 11 caps for\"}\n      ]\n    },\n    {\n      \"subject\": \"René Llense\",\n      \"relation\": \"participated_in\",\n      \"object\": \"1934 FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"participated in\"}\n      ]\n    },\n    {\n      \"subject\": \"René Llense\",\n      \"relation\": \"participated_in\",\n      \"object\": \"1938 FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"participated in\"}\n      ]\n    },\n    {\n      \"subject\": \"France national football team\",\n      \"relation\": \"located_in\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"France national football team\"}\n      ]\n    }\n  ]\n}"
+}

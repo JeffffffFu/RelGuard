@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "Yellow Cab Pizza Company": "Organization",
+    "Eric Puno": "Person",
+    "Henry Lee": "Person",
+    "Albert Tan": "Person",
+    "Max's Group": "Organization",
+    "Max's of Manila": "Organization",
+    "Qatar": "Location",
+    "United Arab Emirates": "Location",
+    "China": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Yellow Cab Pizza Company",
+      "relation": "founded",
+      "object": "Eric Puno",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "founded by Eric Puno"
+        }
+      ]
+    },
+    {
+      "subject": "Max's Group",
+      "relation": "owns",
+      "object": "Yellow Cab Pizza Company",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "owns the brand"
+        }
+      ]
+    },
+    {
+      "subject": "Max's Group",
+      "relation": "owns",
+      "object": "Max's of Manila",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "owner of restaurant chain Max's of Manila"
+        }
+      ]
+    },
+    {
+      "subject": "Yellow Cab Pizza Company",
+      "relation": "operates_in",
+      "object": "Qatar",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "operates 145 branches in Qatar"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Yellow Cab Pizza Company",
+        "founded",
+        "Henry Lee"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Yellow Cab Pizza Company",
+        "founded",
+        "Albert Tan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Yellow Cab Pizza Company",
+        "operates_in",
+        "United Arab Emirates"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Yellow Cab Pizza Company",
+        "operates_in",
+        "China"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Yellow Cab Pizza\nYellow Cab Pizza Company is a Filipino chain that retails fast food, primarily pizza. In 2001, Yellow Cab Pizza Company was founded by Eric Puno, Henry Lee, and Albert Tan. Max's Group, owner of restaurant chain Max's of Manila, owns the brand. The restaurant also operates 145 branches in Qatar, United Arab Emirates, and China."
+}

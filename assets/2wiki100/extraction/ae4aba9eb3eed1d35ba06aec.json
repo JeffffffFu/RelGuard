@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Ave Caesar!": "WORK_OF_ART",
+    "Alexander Korda": "PERSON",
+    "Oscar Beregi Sr.": "PERSON",
+    "María Corda": "PERSON",
+    "Gábor Rajnay": "PERSON",
+    "Habsburg Prince": "PERSON",
+    "Hungarian Soviet Republic": "ORG",
+    "Hungary": "GPE",
+    "White Terror": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Ave Caesar!",
+      "relation": "directed_by",
+      "object": "Alexander Korda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Alexander Korda"
+        }
+      ]
+    },
+    {
+      "subject": "Ave Caesar!",
+      "relation": "starring",
+      "object": "Oscar Beregi Sr.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Oscar Beregi Sr."
+        }
+      ]
+    },
+    {
+      "subject": "Hungarian Soviet Republic",
+      "relation": "produced",
+      "object": "Ave Caesar!",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "made by Korda for the state-owned film industry during the Hungarian Soviet Republic"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "arrested",
+      "object": "Hungary",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Korda was arrested"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "compelled_to_leave",
+      "object": "Hungary",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "compelled to leave Hungary as part of the White Terror"
+        }
+      ]
+    },
+    {
+      "subject": "White Terror",
+      "relation": "followed",
+      "object": "Hungarian Soviet Republic",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as part of the White Terror"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ave Caesar!",
+        "starring",
+        "María Corda"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ave Caesar!",
+        "starring",
+        "Gábor Rajnay"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Habsburg Prince",
+        "sends_out",
+        "aide-de-camps"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ave Caesar!\nAve Caesar! is a 1919 Hungarian drama film directed by Alexander Korda and starring Oscar Beregi Sr., María Corda and Gábor Rajnay. A debauched Habsburg Prince sends out one of his aide-de-camps to bring him back a gypsy girl. The film was considered as an attack on the aristocracy. It was made by Korda for the state-owned film industry during the Hungarian Soviet Republic. Once the regime fell later that year Korda was arrested and eventually compelled to leave Hungary as part of the White Terror."
+}

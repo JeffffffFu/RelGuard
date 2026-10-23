@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "place of birth": "concept",
+    "country": "concept",
+    "Sweden": "country",
+    "Switzerland": "country",
+    "baby": "concept",
+    "parents": "concept",
+    "US": "country"
+  },
+  "triples": [
+    {
+      "subject": "place of birth",
+      "relation": "defined_as",
+      "object": "country",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The place of birth( POB) or birthplace is the place where a person was born."
+        }
+      ]
+    },
+    {
+      "subject": "baby",
+      "relation": "registered_in",
+      "object": "place of birth",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "the government requires that the birth of the new baby is registered in the place of birth."
+        }
+      ]
+    },
+    {
+      "subject": "baby",
+      "relation": "determines_nationality",
+      "object": "country",
+      "occurrences": [
+        {
+          "sentence_id": 11,
+          "relation_mention": "the place of birth automatically determines the nationality of the baby"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "place of birth",
+        "determined_by",
+        "country"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sweden",
+        "uses",
+        "födelsehemort"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Switzerland",
+        "uses",
+        "Heimatort"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "child",
+        "assigned_place_of_origin",
+        "parent"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "baby",
+        "acquires_nationality",
+        "parents"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "US",
+        "acquires_citizenship_at_birth",
+        "baby"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Place of birth\nThe place of birth( POB) or birthplace is the place where a person was born. This place is often used in legal documents, together with name and date of birth, to uniquely identify a person. As a general rule with respect to passports, the place of birth is determined to be the country that currently has\" sovereignty\" over the actual place of birth, regardless of when the birth actually occurred. The place of birth is not necessarily the place where the parents of the new baby live. If the baby is born in a hospital in another place, that place is the place of birth. In many countries, this also means that the government requires that the birth of the new baby is registered in the place of birth. Some countries place less or no importance on the place of birth, instead using alternative geographical characteristics for the purpose of identity documents. For example, Sweden has used the concept of\" födelsehemortdomicile of birth\") since 1947. This means that the domicile of the baby's mother is the registered place of birth. The location of the maternity ward or other physical birthplace is considered unimportant. Similarly, Switzerland uses the concept of\" Heimatortlieu d'origineluogo d'origineplace of origin\" in German, French and Italian respectively). A child born to Swiss parents is automatically assigned the place of origin of the parent with the same last name, so the child either gets their mother's or father's place of origin. A child born to one Swiss parent and one foreign parent acquires the place of origin of their Swiss parent. In a Swiss passport and identity card, the holder's place of origin is stated, not their place of birth. In some countries( primarily in the Americas), the place of birth automatically determines the nationality of the baby, a practice often referred to by the Latin phrase\" jus soli\". Almost all countries outside the Americas instead attribute nationality based on the nationality( ies) of the baby's parents( referred to as\" jus sanguinis\"). There can be some confusion regarding the place of birth if the birth takes place in an unusual way: when babies are born on an airplane or at sea, difficulties can arise. The place of birth of such a person depends on the law of the countries involved, which include the nationality of the plane or ship, the nationality( ies) of the parents and/ or the location of the plane or ship( if the birth occurs in the territorial waters or airspace of a country). Some administrative forms may request the applicant's\" country of birth\". It is important to determine from the requester whether the information requested refers to the applicant's\" place of birth\" or\" nationality at birth\". For US citizens born abroad who under the US Constitution acquire US citizenship at the time of birth, the nationality at birth will be USA( American), while the place of birth would be the country in which the actual birth takes place."
+}

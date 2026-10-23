@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Noel M. Smith": "Person",
+    "Rockland, California": "Location",
+    "Los Angeles, California": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Noel M. Smith",
+      "relation": "born_in",
+      "object": "Rockland, California",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "He was born in Rockland, California"
+        }
+      ]
+    },
+    {
+      "subject": "Noel M. Smith",
+      "relation": "died_in",
+      "object": "Los Angeles, California",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and died in Los Angeles, California"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Noel M. Smith",
+        "directed",
+        "125 films"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Noel M. Smith\nNoel Mason Smith( May 22, 1895 – September 20, 1955) was an American film director and writer. He directed 125 films between 1917 and 1952. He was born in Rockland, California, and died in Los Angeles, California."
+}

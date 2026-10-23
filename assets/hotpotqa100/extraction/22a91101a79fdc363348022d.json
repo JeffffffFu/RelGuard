@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Roxy Hotel": "FAC",
+    "Tribeca Grand Hotel": "FAC",
+    "Soho Grand Hotel": "FAC",
+    "Grand Life Hotels": "ORG",
+    "Tribeca": "LOC",
+    "Lower Manhattan": "LOC",
+    "New York City": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Roxy Hotel",
+      "relation": "formerly_known_as",
+      "object": "Tribeca Grand Hotel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "formerly the Tribeca Grand Hotel"
+        }
+      ]
+    },
+    {
+      "subject": "Roxy Hotel",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located at 2 Avenue of the Americas between Walker and White Streets in the Tribeca neighborhood of Lower Manhattan, New York City"
+        }
+      ]
+    },
+    {
+      "subject": "Roxy Hotel",
+      "relation": "sister_hotel_of",
+      "object": "Soho Grand Hotel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "sister hotel of the Soho Grand Hotel"
+        }
+      ]
+    },
+    {
+      "subject": "Soho Grand Hotel",
+      "relation": "located_in",
+      "object": "Tribeca",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located a few blocks away"
+        }
+      ]
+    },
+    {
+      "subject": "Roxy Hotel",
+      "relation": "owned_by",
+      "object": "Grand Life Hotels",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "are owned and operated under Grand Life Hotels"
+        }
+      ]
+    },
+    {
+      "subject": "Roxy Hotel",
+      "relation": "re_branded_as",
+      "object": "Roxy Hotel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the hotel re-branded and changed its name to The Roxy Hotel"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tribeca Grand Hotel",
+        "opened_in",
+        "2000"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Roxy Hotel (New York City)\nThe Roxy Hotel, formerly the Tribeca Grand Hotel, is a hotel located at 2 Avenue of the Americas between Walker and White Streets in the Tribeca neighborhood of Lower Manhattan, New York City. It is the sister hotel of the Soho Grand Hotel which is located a few blocks away. Both hotels are owned and operated under Grand Life Hotels. Tribeca Grand opened in 2000 and has 201 guest rooms. The hotel's event venues are often used for movie premiers, screenings, and social events. In September 2015 the hotel re-branded and changed its name to The Roxy Hotel."
+}

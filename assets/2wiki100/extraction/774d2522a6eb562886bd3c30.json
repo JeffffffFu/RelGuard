@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "Texans Never Cry": "Film",
+    "Frank McDonald": "Person",
+    "Norman S. Hall": "Person",
+    "Gene Autry": "Person",
+    "Mary Castle": "Person",
+    "Russell Hayden": "Person",
+    "Gail Davis": "Person",
+    "Tom Keene": "Person",
+    "Don C. Harvey": "Person",
+    "Columbia Pictures": "Company"
+  },
+  "triples": [
+    {
+      "subject": "Texans Never Cry",
+      "relation": "directed_by",
+      "object": "Frank McDonald",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Frank McDonald"
+        }
+      ]
+    },
+    {
+      "subject": "Texans Never Cry",
+      "relation": "written_by",
+      "object": "Norman S. Hall",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Norman S. Hall"
+        }
+      ]
+    },
+    {
+      "subject": "Texans Never Cry",
+      "relation": "stars",
+      "object": "Gene Autry",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars Gene Autry"
+        }
+      ]
+    },
+    {
+      "subject": "Texans Never Cry",
+      "relation": "released_by",
+      "object": "Columbia Pictures",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released on March 15, 1951, by Columbia Pictures"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Texans Never Cry",
+        "stars",
+        "Mary Castle"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Texans Never Cry",
+        "stars",
+        "Russell Hayden"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Texans Never Cry",
+        "stars",
+        "Gail Davis"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Texans Never Cry",
+        "stars",
+        "Tom Keene"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Texans Never Cry",
+        "stars",
+        "Don C. Harvey"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Texans Never Cry",
+        "released_on",
+        "March 15, 1951"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Texans Never Cry\nTexans Never Cry is a 1951 American Western film directed by Frank McDonald and written by Norman S. Hall. The film stars Gene Autry, Mary Castle, Russell Hayden, Gail Davis, Tom Keene and Don C. Harvey. The film was released on March 15, 1951, by Columbia Pictures."
+}

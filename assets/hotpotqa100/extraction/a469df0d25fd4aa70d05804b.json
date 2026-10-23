@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "American Antiquarian Society": "ORG",
+    "AAS": "ORG",
+    "Worcester": "GPE",
+    "Massachusetts": "GPE",
+    "Antiquarian Hall": "FAC",
+    "United States": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "American Antiquarian Society",
+      "relation": "founded",
+      "object": "Antiquarian Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Founded in 1812",
+          "line_start": 188,
+          "char_start": 217,
+          "ambiguous": false,
+          "relation_mention": "Founded in 1812",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "American Antiquarian Society",
+        "located_in",
+        "Worcester"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "American Antiquarian Society",
+        "located_in",
+        "Massachusetts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Antiquarian Hall",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "American Antiquarian Society",
+        "works_for",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "AAS",
+        "located_in",
+        "Worcester"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "AAS",
+        "located_in",
+        "Massachusetts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "American Antiquarian Society\nThe American Antiquarian Society (AAS), located in Worcester, Massachusetts, is both a learned society and national research library of pre-twentieth century American history and culture. Founded in 1812, it is the oldest historical society in the United States with a national focus. Its main building, known as Antiquarian Hall, is a U.S. National Historic Landmark in recognition of this legacy. The mission of the AAS is to collect, preserve and make available for study all printed records of what is now known as the United States of America. This includes materials from the first European settlement through the year 1876.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"American Antiquarian Society\", \"type\": \"ORG\"},\n    {\"name\": \"AAS\", \"type\": \"ORG\"},\n    {\"name\": \"Worcester\", \"type\": \"GPE\"},\n    {\"name\": \"Massachusetts\", \"type\": \"GPE\"},\n    {\"name\": \"Antiquarian Hall\", \"type\": \"FAC\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"American Antiquarian Society\",\n      \"relation\": \"located_in\",\n      \"object\": \"Worcester\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Worcester\"}\n      ]\n    },\n    {\n      \"subject\": \"American Antiquarian Society\",\n      \"relation\": \"located_in\",\n      \"object\": \"Massachusetts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Worcester, Massachusetts\"}\n      ]\n    },\n    {\n      \"subject\": \"American Antiquarian Society\",\n      \"relation\": \"founded\",\n      \"object\": \"Antiquarian Hall\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Founded in 1812\"}\n      ]\n    },\n    {\n      \"subject\": \"Antiquarian Hall\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a U.S. National Historic Landmark\"}\n      ]\n    },\n    {\n      \"subject\": \"American Antiquarian Society\",\n      \"relation\": \"works_for\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"oldest historical society in the United States\"}\n      ]\n    },\n    {\n      \"subject\": \"AAS\",\n      \"relation\": \"located_in\",\n      \"object\": \"Worcester\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Worcester\"}\n      ]\n    },\n    {\n      \"subject\": \"AAS\",\n      \"relation\": \"located_in\",\n      \"object\": \"Massachusetts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Worcester, Massachusetts\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "She's on Duty": "WORK_OF_ART",
+    "Kim Sun-a": "PERSON",
+    "Nam Sang-mi": "PERSON",
+    "gangster": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Kim Sun-a",
+      "relation": "portrays_character_in",
+      "object": "She's on Duty",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "police detective( Kim Sun- a) who goes undercover",
+          "line_start": 84,
+          "char_start": 98,
+          "ambiguous": false,
+          "relation_mention": "police detective( Kim Sun- a) who goes undercover",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Nam Sang-mi",
+      "relation": "is_daughter_of",
+      "object": "gangster",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the daughter( Nam Sang -mi) of an elusive gangster",
+          "line_start": 163,
+          "char_start": 177,
+          "ambiguous": false,
+          "relation_mention": "the daughter( Nam Sang -mi) of an elusive gangster",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "South Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "She's on Duty",
+        "is_a",
+        "film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "She's on Duty",
+        "located_in",
+        "South Korea"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kim Sun-a",
+        "goes_undercover_in",
+        "high school"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "She's on Duty\nShe's on Duty( lit.\" Stakeout\" or\" Undercover\") is a 2005 South Korean film about a police detective( Kim Sun- a) who goes undercover in a high school to befriend the daughter( Nam Sang -mi) of an elusive gangster. Despite being heavily marketed, the film was generally considered a box office disappointment."
+}

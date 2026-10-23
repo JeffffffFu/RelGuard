@@ -1,0 +1,143 @@
+{
+  "entities": {
+    "KVKI-FM": "ORG",
+    "Shreveport": "GPE",
+    "Louisiana": "GPE",
+    "United States": "GPE",
+    "Townsquare Media": "ORG",
+    "West Shreveport": "LOC",
+    "Shreveport Regional Airport": "FAC",
+    "Blanchard": "GPE",
+    "KBCL": "ORG",
+    "KEPT": "ORG",
+    "KVIL": "ORG",
+    "Dallas": "GPE",
+    "Texas": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "KVKI-FM",
+      "relation": "licensed_to",
+      "object": "Shreveport",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Licensed to",
+          "line_start": 86,
+          "char_start": 94,
+          "ambiguous": false,
+          "relation_mention": "Licensed to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "KVKI-FM",
+      "relation": "owned_by",
+      "object": "Townsquare Media",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned by",
+          "line_start": 201,
+          "char_start": 209,
+          "ambiguous": false,
+          "relation_mention": "owned by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Shreveport",
+        "located_in",
+        "Louisiana"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Louisiana",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KVKI-FM",
+        "serves",
+        "Shreveport"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KVKI-FM",
+        "studios_shared_with",
+        "West Shreveport"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "West Shreveport",
+        "located_in",
+        "Shreveport Regional Airport"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KVKI-FM",
+        "transmitter_in",
+        "Blanchard"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KVKI-FM",
+        "formerly_called",
+        "KBCL"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KVKI-FM",
+        "formerly_called",
+        "KEPT"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KVKI-FM",
+        "renamed_to_be_similar_to",
+        "KVIL"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KVIL",
+        "located_in",
+        "Dallas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dallas",
+        "located_in",
+        "Texas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "KVKI-FM\nKVKI-FM (96.5 FM) is a radio station broadcasting an adult contemporary music format. Licensed to Shreveport, Louisiana, United States, the station serves the Shreveport area. The station is currently owned by Townsquare Media. Its studios are shared with its other five sister stations in West Shreveport (one mile west of Shreveport Regional Airport), and the transmitter is in Blanchard, Louisiana. The call letters were originally KBCL, and later became religious station KEPT, before the call letters were changed to KVKI to be similar to the call letters of the popular KVIL radio station in Dallas, Texas.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"KVKI-FM\", \"type\": \"ORG\"},\n    {\"name\": \"Shreveport\", \"type\": \"GPE\"},\n    {\"name\": \"Louisiana\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Townsquare Media\", \"type\": \"ORG\"},\n    {\"name\": \"West Shreveport\", \"type\": \"LOC\"},\n    {\"name\": \"Shreveport Regional Airport\", \"type\": \"FAC\"},\n    {\"name\": \"Blanchard\", \"type\": \"GPE\"},\n    {\"name\": \"KBCL\", \"type\": \"ORG\"},\n    {\"name\": \"KEPT\", \"type\": \"ORG\"},\n    {\"name\": \"KVIL\", \"type\": \"ORG\"},\n    {\"name\": \"Dallas\", \"type\": \"GPE\"},\n    {\"name\": \"Texas\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"KVKI-FM\",\n      \"relation\": \"licensed_to\",\n      \"object\": \"Shreveport\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Licensed to\"}\n      ]\n    },\n    {\n      \"subject\": \"Shreveport\",\n      \"relation\": \"located_in\",\n      \"object\": \"Louisiana\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Shreveport, Louisiana\"}\n      ]\n    },\n    {\n      \"subject\": \"Louisiana\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Louisiana, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"KVKI-FM\",\n      \"relation\": \"serves\",\n      \"object\": \"Shreveport\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves the Shreveport area\"}\n      ]\n    },\n    {\n      \"subject\": \"KVKI-FM\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Townsquare Media\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"KVKI-FM\",\n      \"relation\": \"studios_shared_with\",\n      \"object\": \"West Shreveport\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"shared with its other five sister stations in West Shreveport\"}\n      ]\n    },\n    {\n      \"subject\": \"West Shreveport\",\n      \"relation\": \"located_in\",\n      \"object\": \"Shreveport Regional Airport\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"one mile west of Shreveport Regional Airport\"}\n      ]\n    },\n    {\n      \"subject\": \"KVKI-FM\",\n      \"relation\": \"transmitter_in\",\n      \"object\": \"Blanchard\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"transmitter is in Blanchard\"}\n      ]\n    },\n    {\n      \"subject\": \"KVKI-FM\",\n      \"relation\": \"formerly_called\",\n      \"object\": \"KBCL\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"originally KBCL\"}\n      ]\n    },\n    {\n      \"subject\": \"KVKI-FM\",\n      \"relation\": \"formerly_called\",\n      \"object\": \"KEPT\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became religious station KEPT\"}\n      ]\n    },\n    {\n      \"subject\": \"KVKI-FM\",\n      \"relation\": \"renamed_to_be_similar_to\",\n      \"object\": \"KVIL\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"changed to KVKI to be similar to the call letters of the popular KVIL radio station\"}\n      ]\n    },\n    {\n      \"subject\": \"KVIL\",\n      \"relation\": \"located_in\",\n      \"object\": \"Dallas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"KVIL radio station in Dallas\"}\n      ]\n    },\n    {\n      \"subject\": \"Dallas\",\n      \"relation\": \"located_in\",\n      \"object\": \"Texas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Dallas, Texas\"}\n      ]\n    }\n  ]\n}"
+}

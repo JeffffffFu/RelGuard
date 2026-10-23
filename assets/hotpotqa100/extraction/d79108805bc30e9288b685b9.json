@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "Wish Upon": "film",
+    "John R. Leonetti": "person",
+    "Barbara Marshall": "person",
+    "Joey King": "person",
+    "Ki Hong Lee": "person",
+    "Sydney Park": "person",
+    "Elisabeth Rohm": "person",
+    "Ryan Phillippe": "person",
+    "teenage girl": "character",
+    "magic box": "object"
+  },
+  "triples": [
+    {
+      "subject": "Wish Upon",
+      "relation": "directed_by",
+      "object": "John R. Leonetti",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by John R. Leonetti"
+        }
+      ]
+    },
+    {
+      "subject": "Wish Upon",
+      "relation": "written_by",
+      "object": "Barbara Marshall",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Barbara Marshall"
+        }
+      ]
+    },
+    {
+      "subject": "Wish Upon",
+      "relation": "starring",
+      "object": "Joey King",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Joey King"
+        }
+      ]
+    },
+    {
+      "subject": "teenage girl",
+      "relation": "finds",
+      "object": "magic box",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "a teenage girl who finds a magic box"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wish Upon",
+        "starring",
+        "Ki Hong Lee"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wish Upon",
+        "starring",
+        "Sydney Park"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wish Upon",
+        "starring",
+        "Elisabeth Rohm"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wish Upon",
+        "starring",
+        "Ryan Phillippe"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "magic box",
+        "grants",
+        "wishes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "magic box",
+        "kills",
+        "someone close to her"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Wish Upon\nWish Upon is a 2017 American supernatural horror film directed by John R. Leonetti, written by Barbara Marshall and starring Joey King, Ki Hong Lee, Sydney Park, Elisabeth Rohm, and Ryan Phillippe. The film follows a teenage girl who finds a magic box that grants wishes but kills someone close to her each time."
+}

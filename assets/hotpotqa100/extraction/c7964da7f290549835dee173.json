@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Wisoon Wichaya": "PERSON",
+    "Sisaket F.C.": "ORG",
+    "Bangkok Bank FC": "ORG",
+    "Thailand": "GPE",
+    "2006 Asian Games": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Wisoon Wichaya",
+      "relation": "coached",
+      "object": "Sisaket F.C.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a Thai football coach Thailand Premier League side Sisaket F.C."
+        }
+      ]
+    },
+    {
+      "subject": "Wisoon Wichaya",
+      "relation": "coached",
+      "object": "Bangkok Bank FC",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "formerly the coach of Bangkok Bank FC"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wisoon Wichaya",
+        "coached",
+        "national under-23 team"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "national under-23 team",
+        "participated_in",
+        "2006 Asian Games"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Wisoon Wichaya\nWisoon Wichaya (also Visuth Vichaya) is a Thai football coach Thailand Premier League side Sisaket F.C.. He was formerly the coach of Bangkok Bank FC and has also coached the national under-23 team at the 2006 Asian Games."
+}

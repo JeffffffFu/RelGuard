@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "John Jaffer Janardhanan": "movie",
+    "I. V. Sasi": "person",
+    "T. Damodaran": "person",
+    "Ratheesh": "person",
+    "Ravindran": "person",
+    "Mammootty": "person",
+    "Amar Akbar Anthony": "movie"
+  },
+  "triples": [
+    {
+      "subject": "John Jaffer Janardhanan",
+      "relation": "directed_by",
+      "object": "I. V. Sasi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by I. V. Sasi"
+        }
+      ]
+    },
+    {
+      "subject": "John Jaffer Janardhanan",
+      "relation": "written_by",
+      "object": "T. Damodaran",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by T. Damodaran"
+        }
+      ]
+    },
+    {
+      "subject": "John Jaffer Janardhanan",
+      "relation": "starring",
+      "object": "Ratheesh",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Ratheesh"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John Jaffer Janardhanan",
+        "starring",
+        "Ravindran"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "John Jaffer Janardhanan",
+        "starring",
+        "Mammootty"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "John Jaffer Janardhanan",
+        "remake_of",
+        "Amar Akbar Anthony"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "John Jaffer Janardhanan\nJohn Jaffer Janardhanan is a 1982 Malayalam movie directed by I. V. Sasi, written by T. Damodaran, starring Ratheesh, Ravindran and Mammootty. It is a remake of the 1977 Hindi movie\" Amar Akbar Anthony\"."
+}

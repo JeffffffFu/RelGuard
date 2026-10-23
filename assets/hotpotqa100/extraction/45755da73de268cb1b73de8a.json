@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "For Adults Only": "WORK_OF_ART",
+    "Bill Cosby": "PERSON",
+    "Westgate Las Vegas Resort & Casino": "FAC",
+    "International Hotel": "FAC",
+    "Pearl Bailey": "PERSON",
+    "Roulette R-25016": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "For Adults Only",
+      "relation": "recorded_at",
+      "object": "Westgate Las Vegas Resort & Casino",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "recorded at",
+          "line_start": 70,
+          "char_start": 86,
+          "ambiguous": false,
+          "relation_mention": "recorded at",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Westgate Las Vegas Resort & Casino",
+      "relation": "known_as",
+      "object": "International Hotel",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known as",
+          "line_start": 127,
+          "char_start": 143,
+          "ambiguous": false,
+          "relation_mention": "known as",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "For Adults Only",
+      "relation": "title_used_for",
+      "object": "Pearl Bailey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was also used for",
+          "line_start": 189,
+          "char_start": 205,
+          "ambiguous": false,
+          "relation_mention": "was also used for",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "For Adults Only",
+        "is_work_of",
+        "Bill Cosby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "For Adults Only",
+        "associated_with",
+        "Roulette R-25016"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "For Adults Only\nFor Adults Only (1971) is the 13th comedy album by Bill Cosby. It was recorded at the Westgate Las Vegas Resort & Casino, then known as the International Hotel. The title \"For Adults Only\" was also used for a 1959 Pearl Bailey LP (Roulette R-25016).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"For Adults Only\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Bill Cosby\", \"type\": \"PERSON\"},\n    {\"name\": \"Westgate Las Vegas Resort & Casino\", \"type\": \"FAC\"},\n    {\"name\": \"International Hotel\", \"type\": \"FAC\"},\n    {\"name\": \"Pearl Bailey\", \"type\": \"PERSON\"},\n    {\"name\": \"Roulette R-25016\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"For Adults Only\",\n      \"relation\": \"is_work_of\",\n      \"object\": \"Bill Cosby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    },\n    {\n      \"subject\": \"For Adults Only\",\n      \"relation\": \"recorded_at\",\n      \"object\": \"Westgate Las Vegas Resort & Casino\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"recorded at\"}\n      ]\n    },\n    {\n      \"subject\": \"Westgate Las Vegas Resort & Casino\",\n      \"relation\": \"known_as\",\n      \"object\": \"International Hotel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known as\"}\n      ]\n    },\n    {\n      \"subject\": \"For Adults Only\",\n      \"relation\": \"title_used_for\",\n      \"object\": \"Pearl Bailey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was also used for\"}\n      ]\n    },\n    {\n      \"subject\": \"For Adults Only\",\n      \"relation\": \"associated_with\",\n      \"object\": \"Roulette R-25016\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Roulette R-25016\"}\n      ]\n    }\n  ]\n}"
+}

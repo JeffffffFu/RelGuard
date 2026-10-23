@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "John McMahon": "PERSON",
+    "Surrey": "GPE",
+    "Somerset": "GPE",
+    "England": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "John McMahon",
+      "relation": "played_for",
+      "object": "Surrey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played for Surrey"
+        }
+      ]
+    },
+    {
+      "subject": "Surrey",
+      "relation": "located_in",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in England"
+        }
+      ]
+    },
+    {
+      "subject": "Somerset",
+      "relation": "located_in",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in England"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "John McMahon",
+        "born_in",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John McMahon",
+        "played_for",
+        "Somerset"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "John McMahon (Surrey and Somerset cricketer)\nJohn William Joseph McMahon( 28 December 1917 – 8 May 2001) was an Australian- born first- class cricketer who played for Surrey and Somerset in England from 1947 to 1957."
+}

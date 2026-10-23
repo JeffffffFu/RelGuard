@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "John Burt": "PERSON",
+    "Scottish": "NORP",
+    "1908 Summer Olympics": "EVENT",
+    "Scottish team": "ORG",
+    "United Kingdom": "GPE",
+    "Alexander": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "John Burt",
+      "relation": "competed_in",
+      "object": "1908 Summer Olympics",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He competed in the 1908 Summer Olympics"
+        }
+      ]
+    },
+    {
+      "subject": "John Burt",
+      "relation": "member_of",
+      "object": "Scottish team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as a member of the Scottish team"
+        }
+      ]
+    },
+    {
+      "subject": "Scottish team",
+      "relation": "located_in",
+      "object": "United Kingdom",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "for the United Kingdom"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander",
+      "relation": "member_of",
+      "object": "Scottish team",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "also was a member of the Scottish team"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Scottish team",
+        "won",
+        "bronze medal"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John Burt (field hockey)\nJohn Burt (15 April 1877 – 29 April 1935) was a Scottish field hockey player. He competed in the 1908 Summer Olympics as a member of the Scottish team, for the United Kingdom, which won the bronze medal. His brother, Alexander, also was a member of the Scottish team."
+}

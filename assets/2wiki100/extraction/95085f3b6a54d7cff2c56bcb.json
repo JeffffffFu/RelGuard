@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Thulasi": "film",
+    "Ameerjan": "director",
+    "Murali": "actor",
+    "Seetha": "actor",
+    "P. S. V. Hariharan": "producer",
+    "Sampath Selvam": "music_director"
+  },
+  "triples": [
+    {
+      "subject": "Thulasi",
+      "relation": "directed_by",
+      "object": "Ameerjan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Ameerjan"
+        }
+      ]
+    },
+    {
+      "subject": "Thulasi",
+      "relation": "features",
+      "object": "Murali",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "features Murali"
+        }
+      ]
+    },
+    {
+      "subject": "Thulasi",
+      "relation": "produced_by",
+      "object": "P. S. V. Hariharan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by P. S. V. Hariharan"
+        }
+      ]
+    },
+    {
+      "subject": "Thulasi",
+      "relation": "had_music_score_by",
+      "object": "Sampath Selvam",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "had musical score by Sampath Selvam"
+        }
+      ]
+    },
+    {
+      "subject": "Sampath Selvam",
+      "relation": "died_before",
+      "object": "Thulasi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The music director died before the release of the film"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Thulasi",
+        "features",
+        "Seetha"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Thulasi",
+        "released_on",
+        "27 November 1987"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Thulasi (1987 film)\nThulasi is a 1987 Tamil romantic drama film directed by Ameerjan. The film features Murali and Seetha in lead roles. The film, produced by P. S. V. Hariharan, had musical score by Sampath Selvam and was released on 27 November 1987. The music director died before the release of the film."
+}

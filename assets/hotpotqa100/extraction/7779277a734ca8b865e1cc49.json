@@ -1,0 +1,167 @@
+{
+  "entities": {
+    "Time Warner Center": "building",
+    "The Related Companies": "company",
+    "AREA Property Partners": "company",
+    "Apollo Real Estate Advisors": "company",
+    "David Childs": "person",
+    "Mustafa Kemal Abadan": "person",
+    "Skidmore, Owings & Merrill": "company",
+    "New York City": "location",
+    "Columbus Circle": "location",
+    "Midtown": "location",
+    "Upper West Side": "location",
+    "Time Warner": "company",
+    "VMware": "company",
+    "Mandarin Oriental, New York": "hotel",
+    "The Shops at Columbus Circle": "shopping mall",
+    "Whole Foods Market": "grocery store"
+  },
+  "triples": [
+    {
+      "subject": "Time Warner Center",
+      "relation": "developed_by",
+      "object": "The Related Companies",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Developed by The Related Companies"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Center",
+      "relation": "designed_by",
+      "object": "David Childs",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "its design by David Childs"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Center",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in New York City"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Center",
+      "relation": "encircles",
+      "object": "Columbus Circle",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "the building encircles the western side of Columbus Circle"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Center",
+      "relation": "straddles",
+      "object": "Midtown",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "straddles the border between Midtown"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Center",
+      "relation": "has_office_space",
+      "object": "Time Warner",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "notably the offices of Time Warner"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Center",
+      "relation": "has_office_space",
+      "object": "VMware",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "an R&D Center for VMware"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Center",
+      "relation": "contains",
+      "object": "Mandarin Oriental, New York",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the Mandarin Oriental, New York hotel"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Center",
+      "relation": "contains",
+      "object": "The Shops at Columbus Circle",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The Shops at Columbus Circle is an upscale shopping mall"
+        }
+      ]
+    },
+    {
+      "subject": "The Shops at Columbus Circle",
+      "relation": "contains",
+      "object": "Whole Foods Market",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "with a large Whole Foods Market grocery store on the lower level"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Time Warner Center",
+        "developed_by",
+        "AREA Property Partners"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Time Warner Center",
+        "designed_by",
+        "Mustafa Kemal Abadan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Time Warner Center",
+        "constructed_as",
+        "AOL Time Warner Center"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Time Warner Center",
+        "straddles",
+        "Upper West Side"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Time Warner Center\nTime Warner Center is a mixed use (office/commercial and residential) twin-tower building in New York City. Developed by The Related Companies and AREA Property Partners (formerly known as Apollo Real Estate Advisors), its design by David Childs and Mustafa Kemal Abadan of Skidmore, Owings & Merrill, consists of two 750 ft twin towers bridged by a multi-story atrium containing upscale retail shops. Construction began in November 2000, following the demolition of the New York Coliseum, and a topping-out ceremony was held on February 27, 2003. The property had the highest-listed market value in New York City, $1.1 billion, in 2006. Originally constructed as the AOL Time Warner Center, the building encircles the western side of Columbus Circle and straddles the border between Midtown and the Upper West Side. The total floor area of 2.8 e6ft2 is occupied by office space (notably the offices of Time Warner and an R&D Center for VMware), residential condominiums, and the Mandarin Oriental, New York hotel. The Shops at Columbus Circle is an upscale shopping mall located in a curving arcade at the base of the building, with a large Whole Foods Market grocery store on the lower level."
+}

@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Hall Barn": "FAC",
+    "Beaconsfield": "GPE",
+    "Buckingham": "GPE",
+    "Peerage of the United Kingdom": "ORG",
+    "United Kingdom": "GPE",
+    "Sir Edward Levy-Lawson": "PERSON",
+    "Daily Telegraph": "WORK_OF_ART",
+    "Baronetage of the United Kingdom": "ORG",
+    "Joseph Moses Levy": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "2 entities outside the eleven types",
+      "entities": [
+        "Baron Burnham (TITLE)",
+        "Baronet (TITLE)"
+      ]
+    },
+    {
+      "triple": [
+        "Baron Burnham",
+        "located_in",
+        "Hall Barn"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hall Barn",
+        "located_in",
+        "Beaconsfield"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Beaconsfield",
+        "located_in",
+        "Buckingham"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Baron Burnham",
+        "located_in",
+        "Peerage of the United Kingdom"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sir Edward Levy-Lawson",
+        "was_created_in",
+        "1903"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sir Edward Levy-Lawson",
+        "owned",
+        "Daily Telegraph"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sir Edward Levy-Lawson",
+        "was_created_in",
+        "1892"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Levy-Lawson",
+        "was_son_of",
+        "Joseph Moses Levy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Joseph Moses Levy",
+        "acquired",
+        "Daily Telegraph"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Baron Burnham\nBaron Burnham, of Hall Barn in the Parish of Beaconsfield in the County of Buckingham, is a title in the Peerage of the United Kingdom. It was created in 1903 for the influential newspaper magnate Sir Edward Levy-Lawson, 1st Baronet, owner of the \"Daily Telegraph\". He had already been created a Baronet, of Hall Barn in The Parish of Beaconsfield in the County of Buckingham, in the Baronetage of the United Kingdom in 1892. Levy-Lawson was the son of Joseph Moses Levy, who acquired the \"Daily Telegraph\" only months after its founding.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Baron Burnham\", \"type\": \"TITLE\"},\n    {\"name\": \"Hall Barn\", \"type\": \"FAC\"},\n    {\"name\": \"Beaconsfield\", \"type\": \"GPE\"},\n    {\"name\": \"Buckingham\", \"type\": \"GPE\"},\n    {\"name\": \"Peerage of the United Kingdom\", \"type\": \"ORG\"},\n    {\"name\": \"United Kingdom\", \"type\": \"GPE\"},\n    {\"name\": \"Sir Edward Levy-Lawson\", \"type\": \"PERSON\"},\n    {\"name\": \"Daily Telegraph\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Baronet\", \"type\": \"TITLE\"},\n    {\"name\": \"Baronetage of the United Kingdom\", \"type\": \"ORG\"},\n    {\"name\": \"Joseph Moses Levy\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Baron Burnham\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hall Barn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Hall Barn\"}\n      ]\n    },\n    {\n      \"subject\": \"Hall Barn\",\n      \"relation\": \"located_in\",\n      \"object\": \"Beaconsfield\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Parish of Beaconsfield\"}\n      ]\n    },\n    {\n      \"subject\": \"Beaconsfield\",\n      \"relation\": \"located_in\",\n      \"object\": \"Buckingham\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the County of Buckingham\"}\n      ]\n    },\n    {\n      \"subject\": \"Baron Burnham\",\n      \"relation\": \"located_in\",\n      \"object\": \"Peerage of the United Kingdom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Peerage of the United Kingdom\"}\n      ]\n    },\n    {\n      \"subject\": \"Sir Edward Levy-Lawson\",\n      \"relation\": \"was_created_in\",\n      \"object\": \"1903\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"It was created in 1903 for\"}\n      ]\n    },\n    {\n      \"subject\": \"Sir Edward Levy-Lawson\",\n      \"relation\": \"owned\",\n      \"object\": \"Daily Telegraph\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owner of the \\\"Daily Telegraph\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Sir Edward Levy-Lawson\",\n      \"relation\": \"was_created_in\",\n      \"object\": \"1892\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in 1892\"}\n      ]\n    },\n    {\n      \"subject\": \"Levy-Lawson\",\n      \"relation\": \"was_son_of\",\n      \"object\": \"Joseph Moses Levy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the son of Joseph Moses Levy\"}\n      ]\n    },\n    {\n      \"subject\": \"Joseph Moses Levy\",\n      \"relation\": \"acquired\",\n      \"object\": \"Daily Telegraph\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"acquired the \\\"Daily Telegraph\\\"\"}\n      ]\n    }\n  ]\n}"
+}

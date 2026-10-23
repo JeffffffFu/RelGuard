@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Claude Françoise de Lorraine": "Person",
+    "Henry II, Duke of Lorraine": "Person",
+    "Margerita Gonzaga": "Person",
+    "Nicole, Duchess of Lorraine": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Claude Françoise de Lorraine",
+      "relation": "daughter_of",
+      "object": "Henry II, Duke of Lorraine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a daughter of Henry II, Duke of Lorraine"
+        }
+      ]
+    },
+    {
+      "subject": "Claude Françoise de Lorraine",
+      "relation": "sibling_of",
+      "object": "Nicole, Duchess of Lorraine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "her sister was Nicole, Duchess of Lorraine"
+        }
+      ]
+    },
+    {
+      "subject": "Claude Françoise de Lorraine",
+      "relation": "married_to",
+      "object": "Claude Françoise de Lorraine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "She married her first cousin"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Claude Françoise de Lorraine",
+        "daughter_of",
+        "Margerita Gonzaga"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Claude Françoise de Lorraine",
+        "title",
+        "Duchess of Lorraine"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Claude Françoise de Lorraine\nClaude of Lorraine (6 October 1612 – 2 August 1648) was a daughter of Henry II, Duke of Lorraine, and Margerita Gonzaga, her sister was Nicole, Duchess of Lorraine. She married her first cousin and was the Duchess of Lorraine by marriage."
+}

@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Do You Believe in Magic": "film",
+    "Magic Johnson": "person",
+    "Best Documentary": "award",
+    "4th Africa Movie Academy Awards": "event",
+    "2008": "year"
+  },
+  "triples": [
+    {
+      "subject": "Do You Believe in Magic",
+      "relation": "received",
+      "object": "Best Documentary",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which received the Best Documentary award"
+        }
+      ]
+    },
+    {
+      "subject": "Best Documentary",
+      "relation": "awarded_at",
+      "object": "4th Africa Movie Academy Awards",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the 4th Africa Movie Academy Awards"
+        }
+      ]
+    },
+    {
+      "subject": "Do You Believe in Magic",
+      "relation": "released_in",
+      "object": "2008",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Do You Believe in Magic? is a 2008 American documentary"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Do You Believe in Magic",
+        "is_a",
+        "film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "4th Africa Movie Academy Awards",
+        "is_a",
+        "event"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Do You Believe in Magic (film)\nDo You Believe in Magic? is a 2008 American documentary on Magic Johnson, which received the Best Documentary award at the 4th Africa Movie Academy Awards."
+}

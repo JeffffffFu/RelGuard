@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "AfterMASH": "TV Show",
+    "M*A*S*H": "TV Show",
+    "Colonel Potter": "Character",
+    "Klinger": "Character",
+    "Father Mulcahy": "Character",
+    "Kellye Nakahara": "Actor",
+    "Rosalind Chao": "Actor",
+    "Soon-Lee Klinger": "Character"
+  },
+  "triples": [
+    {
+      "subject": "Kellye Nakahara",
+      "relation": "joined",
+      "object": "AfterMASH",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Kellye Nakahara joined them"
+        }
+      ]
+    },
+    {
+      "subject": "Soon-Lee Klinger",
+      "relation": "met",
+      "object": "Klinger",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a Korean refugee whom Klinger met"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "AfterMASH",
+        "is_a",
+        "TV Show"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "AfterMASH",
+        "produced_as_a_spin_off_of",
+        "M*A*S*H"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "M*A*S*H",
+        "aired_on",
+        "CBS"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Klinger",
+        "played_by",
+        "Jamie Farr"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Colonel Potter",
+        "played_by",
+        "Harry Morgan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Father Mulcahy",
+        "played_by",
+        "William Christopher"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Klinger",
+        "fell_in_love_with",
+        "Soon-Lee Klinger"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Klinger",
+        "married",
+        "Soon-Lee Klinger"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "AfterMASH\nAfterMASH is an American sitcom produced as a spin-off and continuation of \"M*A*S*H\" that aired on CBS from September 26, 1983, to May 31, 1985. The series takes place immediately following the end of the Korean War and chronicles the adventures of three characters from the original series: Colonel Potter (played by Harry Morgan), Klinger (played by Jamie Farr) and Father Mulcahy (played by William Christopher). \"M*A*S*H\" supporting cast-member Kellye Nakahara joined them, albeit off-camera, as the voice of the hospital's public address system. Rosalind Chao rounded out the starring cast as Soon-Lee Klinger, a Korean refugee whom Klinger met, fell in love with and married in the \"M*A*S*H\" series finale \"Goodbye, Farewell and Amen.\""
+}

@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Operation Bluehearts": "EVENT",
+    "Korean War": "EVENT",
+    "Pohang": "GPE",
+    "First Cavalry Division": "ORG",
+    "North Korean": "NORP",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Operation Bluehearts",
+      "relation": "conducted_at",
+      "object": "Pohang",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the American amphibious landing conducted at Pohang"
+        }
+      ]
+    },
+    {
+      "subject": "Operation Bluehearts",
+      "relation": "during",
+      "object": "Korean War",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "During the Korean War"
+        }
+      ]
+    },
+    {
+      "subject": "Operation Bluehearts",
+      "relation": "conducted_by",
+      "object": "First Cavalry Division",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "conducted at Pohang on 18 July 1950 by the First Cavalry Division"
+        }
+      ]
+    },
+    {
+      "subject": "North Korean",
+      "relation": "advanced_on",
+      "object": "Pohang",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "but was in the path of the rapid North Korean advance"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "American",
+        "joined",
+        "defenders"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Operation Blue Hearts\nDuring the Korean War, Operation Bluehearts was the American amphibious landing conducted at Pohang on 18 July 1950 by the First Cavalry Division. The town was still in friendly hands, but was in the path of the rapid North Korean advance. The American units quickly joined the defenders."
+}

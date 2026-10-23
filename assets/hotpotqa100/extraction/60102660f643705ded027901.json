@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Drunken Master II": "film",
+    "Lau Kar-leung": "director",
+    "Jackie Chan": "actor",
+    "Wong Fei-hung": "character",
+    "The Young Master": "film",
+    "Dragon Lord": "film",
+    "North America": "location",
+    "The Legend of Drunken Master": "film"
+  },
+  "triples": [
+    {
+      "subject": "Drunken Master II",
+      "relation": "directed_by",
+      "object": "Lau Kar-leung",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Lau Kar-leung"
+        }
+      ]
+    },
+    {
+      "subject": "Drunken Master II",
+      "relation": "directed_by",
+      "object": "Jackie Chan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Lau Kar-leung and Jackie Chan"
+        }
+      ]
+    },
+    {
+      "subject": "Drunken Master II",
+      "relation": "stars_as",
+      "object": "Wong Fei-hung",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who stars as Chinese folk hero, Wong Fei-hung"
+        }
+      ]
+    },
+    {
+      "subject": "Drunken Master II",
+      "relation": "released_in",
+      "object": "North America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film was released in North America"
+        }
+      ]
+    },
+    {
+      "subject": "Drunken Master II",
+      "relation": "released_as",
+      "object": "The Legend of Drunken Master",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released in North America as The Legend of Drunken Master"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jackie Chan",
+        "first_traditional_style_film_since",
+        "The Young Master"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jackie Chan",
+        "first_traditional_style_film_since",
+        "Dragon Lord"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Drunken Master II\nDrunken Master II () is a 1994 Hong Kong kung fu film directed by Lau Kar-leung and Jackie Chan, who stars as Chinese folk hero, Wong Fei-hung. It was Chan's first traditional style martial arts film since \"The Young Master\" (1980) and \"Dragon Lord\" (1982). The film was released in North America as The Legend of Drunken Master in 2000."
+}

@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "Star Search 2003": "event",
+    "Singapore": "location",
+    "Malaysia": "location",
+    "China": "location",
+    "Grand Finals": "event",
+    "star wannabes": "group",
+    "contestants": "group"
+  },
+  "triples": [
+    {
+      "subject": "Star Search 2003",
+      "relation": "located_in",
+      "object": "Singapore",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to compete at the Grand Finals on June 29 in Singapore."
+        }
+      ]
+    },
+    {
+      "subject": "Star Search 2003",
+      "relation": "involves",
+      "object": "star wannabes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "talent search for individuals with star potential"
+        }
+      ]
+    },
+    {
+      "subject": "star wannabes",
+      "relation": "auditioned_in",
+      "object": "Singapore",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Auditions have been carried out in each of the 3 countries"
+        }
+      ]
+    },
+    {
+      "subject": "star wannabes",
+      "relation": "auditioned_in",
+      "object": "Malaysia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Auditions have been carried out in each of the 3 countries"
+        }
+      ]
+    },
+    {
+      "subject": "star wannabes",
+      "relation": "auditioned_in",
+      "object": "China",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Auditions have been carried out in each of the 3 countries"
+        }
+      ]
+    },
+    {
+      "subject": "Singapore",
+      "relation": "hosts",
+      "object": "Grand Finals",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to compete at the Grand Finals on June 29 in Singapore."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Star Search 2003",
+        "began",
+        "March 2003"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Grand Finals",
+        "scheduled_on",
+        "June 29"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "3 countries",
+        "selects",
+        "contestants"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "contestants",
+        "comprises",
+        "2 male"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "contestants",
+        "comprises",
+        "2 female"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Star Search (Singapore season 8)\nFrom March 2003, Star Search 2003 began its 3-nationwide talent search for individuals with star potential in Singapore, Malaysia and China. Auditions have been carried out in each of the 3 countries and training for the shortlisted star wannabes are ongoing. Each of the 3 countries will then select 4 Star Search contestants (2 male, 2 female) to compete at the Grand Finals on June 29 in Singapore."
+}

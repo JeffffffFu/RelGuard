@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Last Action Hero": "film",
+    "John McTiernan": "person",
+    "Arnold Schwarzenegger": "person",
+    "Jack Slater": "character",
+    "Austin O'Brien": "person",
+    "Charles Dance": "person"
+  },
+  "triples": [
+    {
+      "subject": "Last Action Hero",
+      "relation": "directed_by",
+      "object": "John McTiernan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed and produced by John McTiernan"
+        }
+      ]
+    },
+    {
+      "subject": "Last Action Hero",
+      "relation": "produced_by",
+      "object": "John McTiernan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed and produced by John McTiernan"
+        }
+      ]
+    },
+    {
+      "subject": "Last Action Hero",
+      "relation": "stars",
+      "object": "Arnold Schwarzenegger",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film stars Arnold Schwarzenegger as Jack Slater"
+        }
+      ]
+    },
+    {
+      "subject": "Jack Slater",
+      "relation": "is_portrayed_by",
+      "object": "Arnold Schwarzenegger",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as Jack Slater"
+        }
+      ]
+    },
+    {
+      "subject": "Last Action Hero",
+      "relation": "features",
+      "object": "Charles Dance",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Charles Dance plays an assassin"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Last Action Hero",
+        "co_stars",
+        "Austin O'Brien"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Charles Dance",
+        "plays",
+        "assassin"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Last Action Hero\nLast Action Hero is a 1993 American fantasy action comedy film directed and produced by John McTiernan. It is a satire of the action genre and associated clichés, containing several parodies of action films in the form of films within the film.The film stars Arnold Schwarzenegger as Jack Slater, a Los Angeles police detective within the \"Jack Slater\" action film franchise. Austin O'Brien co-stars as a boy magically transported into the \"Slater\" universe. Schwarzenegger also served as the film's executive producer and plays himself as the actor portraying Jack Slater, and Charles Dance plays an assassin who escapes from the \"Slater\" world into the real world."
+}

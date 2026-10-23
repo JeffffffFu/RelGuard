@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "Jacqueline Mukansonera": "Person",
+    "Yolande Mukagasana": "Person",
+    "Rwanda": "Location",
+    "Hutu": "Ethnic Group",
+    "Tutsi": "Ethnic Group"
+  },
+  "triples": [
+    {
+      "subject": "Jacqueline Mukansonera",
+      "relation": "ethnic_group",
+      "object": "Hutu",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an ethnic Hutu from Rwanda"
+        }
+      ]
+    },
+    {
+      "subject": "Yolande Mukagasana",
+      "relation": "saved_by",
+      "object": "Jacqueline Mukansonera",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who didn't hesitate to save Tutsi Yolande Mukagasana from genocide"
+        }
+      ]
+    },
+    {
+      "subject": "Jacqueline Mukansonera",
+      "relation": "concealed",
+      "object": "Yolande Mukagasana",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Jacqueline Mukansonera concealed her in her kitchen for 11 days"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jacqueline Mukansonera",
+        "born_in",
+        "1963"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Yolande Mukagasana",
+        "located_in",
+        "hospital"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jacqueline Mukansonera",
+        "works_as",
+        "nurse"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Yolande Mukagasana",
+        "target_of",
+        "Hutu violence"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jacqueline Mukansonera",
+        "bribed",
+        "policeman"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Yolande Mukagasana",
+        "provided_with",
+        "false Hutu documents"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jacqueline Mukansonera\nJacqueline Mukansonera (born 1963) is an ethnic Hutu from Rwanda who didn't hesitate to save Tutsi Yolande Mukagasana from genocide in 1994. Yolande turned to her at the hospital where she worked as a nurse. She was one of the first targets of the Hutu violence because she was seen as a member of the Tutsi intelligentsia. Jacqueline Mukansonera concealed her in her kitchen for 11 days. The two women didn't speak to each other during those days out of fear of discovery. Jacqueline meanwhile bribed a policeman and provided her guest with false Hutu documents."
+}

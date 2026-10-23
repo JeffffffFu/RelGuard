@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "James Tinling": "PERSON",
+    "Seattle": "GPE",
+    "Los Angeles": "GPE",
+    "20th Century Fox": "ORG",
+    "Charlie Chan in Shanghai": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "James Tinling",
+      "relation": "located_in",
+      "object": "Seattle",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Seattle",
+          "line_start": 27,
+          "char_start": 41,
+          "ambiguous": false,
+          "relation_mention": "in Seattle",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "James Tinling",
+      "relation": "located_in",
+      "object": "Los Angeles",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Los Angeles",
+          "line_start": 53,
+          "char_start": 67,
+          "ambiguous": false,
+          "relation_mention": "in Los Angeles",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "James Tinling",
+      "relation": "works_for",
+      "object": "20th Century Fox",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "for 20th Century Fox",
+          "line_start": 186,
+          "char_start": 200,
+          "ambiguous": false,
+          "relation_mention": "for 20th Century Fox",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "James Tinling",
+      "relation": "directed_by",
+      "object": "Charlie Chan in Shanghai",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directing",
+          "line_start": 304,
+          "char_start": 318,
+          "ambiguous": false,
+          "relation_mention": "directing",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James Tinling",
+        "type",
+        "PERSON"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "James Tinling\nJames Tinling( May 8, 1889 in Seattle – May 14, 1967 in Los Angeles) was an American film director. He worked during the silent period as a prop boy and stuntman, and directed primarily for 20th Century Fox in the 1930s and 1940s. He has been cited as one of the best B-film directors for Fox, known for directing numerous westerns and lighthearted films, including\" Charlie Chan in Shanghai\"( 1935)."
+}

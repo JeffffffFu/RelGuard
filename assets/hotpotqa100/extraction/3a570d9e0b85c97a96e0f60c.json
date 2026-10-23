@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Ashley Young": "PERSON",
+    "Manchester United": "ORG",
+    "England": "GPE",
+    "Premier League": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Ashley Young",
+        "works_for",
+        "Manchester United"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ashley Young",
+        "works_for",
+        "England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Manchester United",
+        "located_in",
+        "Premier League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Ashley Young\nAshley Simon Young (born 9 July 1985) is an English professional footballer who plays as a winger for Premier League club Manchester United and the England national team.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Ashley Young\", \"type\": \"PERSON\"},\n    {\"name\": \"Manchester United\", \"type\": \"ORG\"},\n    {\"name\": \"England\", \"type\": \"GPE\"},\n    {\"name\": \"Premier League\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Ashley Young\",\n      \"relation\": \"works_for\",\n      \"object\": \"Manchester United\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"plays for\"}\n      ]\n    },\n    {\n      \"subject\": \"Ashley Young\",\n      \"relation\": \"works_for\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"plays for\"}\n      ]\n    },\n    {\n      \"subject\": \"Manchester United\",\n      \"relation\": \"located_in\",\n      \"object\": \"Premier League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Premier League club\"}\n      ]\n    }\n  ]\n}"
+}

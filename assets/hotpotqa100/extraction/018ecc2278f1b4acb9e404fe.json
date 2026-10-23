@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "The Shame of a City": "documentary",
+    "Tigre Hill": "filmmaker",
+    "John Street": "politician",
+    "Sam Katz": "politician",
+    "Philadelphia": "city",
+    "FBI": "organization",
+    "Republican-controlled federal government": "government"
+  },
+  "triples": [
+    {
+      "subject": "Sam Katz",
+      "relation": "had_lead_in",
+      "object": "Philadelphia",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Katz with a small lead in this predominantly Democratic city"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Shame of a City",
+        "premiered_at",
+        "Philadelphia Film Festival"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tigre Hill",
+        "chronicles",
+        "2003 Philadelphia mayoral race"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2003 Philadelphia mayoral race",
+        "between",
+        "John Street"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2003 Philadelphia mayoral race",
+        "between",
+        "Sam Katz"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "FBI",
+        "found_bug_in",
+        "mayor’s office"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "discovery",
+        "seemed_like",
+        "death knell to the Street campaign"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "discovery",
+        "seemed_like",
+        "certain victory for Katz"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Street",
+        "won_re-election_by",
+        "sixteen-point margin"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Shame of a City\nThe Shame of a City is a 2006 feature-length documentary, which premiered at the Philadelphia Film Festival. Filmmaker Tigre Hill chronicles the 2003 Philadelphia mayoral race between Democrat incumbent mayor John Street and Republican challenger Sam Katz. Early polls showed Katz with a small lead in this predominantly Democratic city but twenty-seven days before the election, an FBI bug was found in the mayor’s office. The discovery at first seemed like a death knell to the Street campaign and a near certain victory for Katz. Yet this prediction was proven wrong when Street and his supporters successfully polarized the campaign by leveling accusations of instituational racial prejudice and playing on historical skepticism of the Republican-controlled federal government. As a result, Street won re-election by a sixteen-point margin."
+}

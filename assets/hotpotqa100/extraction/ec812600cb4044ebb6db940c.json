@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Nike Tiempo": "Product",
+    "Jerome Boateng": "Person",
+    "Hugo Lloris": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Nike Tiempo",
+      "relation": "aimed_at",
+      "object": "Jerome Boateng",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "aimed mostly in modern times at central defenders and goalkeepers such as Jerome Boateng"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nike Tiempo",
+        "aimed_at",
+        "Hugo Lloris"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Nike Tiempo\nNike Tiempo is a football boot/trainer or AstroTurf shoe aimed mostly in modern times at central defenders and goalkeepers such as Jerome Boateng and Hugo Lloris."
+}

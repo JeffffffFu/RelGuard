@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Code of the Secret Service": "film",
+    "Noel M. Smith": "director",
+    "Ronald Reagan": "actor",
+    "U.S. Secret Service Agent Brass Bancroft": "character",
+    "Warner Bros.": "studio",
+    "Homer Stille Cummings": "person",
+    "Franklin D. Roosevelt": "person",
+    "Will H. Hays": "person"
+  },
+  "triples": [
+    {
+      "subject": "Code of the Secret Service",
+      "relation": "directed_by",
+      "object": "Noel M. Smith",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Noel M. Smith"
+        }
+      ]
+    },
+    {
+      "subject": "Code of the Secret Service",
+      "relation": "starring",
+      "object": "Ronald Reagan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Ronald Reagan"
+        }
+      ]
+    },
+    {
+      "subject": "Code of the Secret Service",
+      "relation": "part_of_series",
+      "object": "U.S. Secret Service Agent Brass Bancroft",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the second of four films in the U.S. Secret Service Agent Brass Bancroft series"
+        }
+      ]
+    },
+    {
+      "subject": "Warner Bros.",
+      "relation": "produced",
+      "object": "Code of the Secret Service",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "part of a late 1930s effort by Warner Bros. to produce films depicting law enforcement in a positive light"
+        }
+      ]
+    },
+    {
+      "subject": "Homer Stille Cummings",
+      "relation": "position",
+      "object": "Franklin D. Roosevelt",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Franklin D. Roosevelt's Attorney General"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Will H. Hays",
+        "creator_of",
+        "Motion Picture Production Code"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ronald Reagan",
+        "asked",
+        "Noel M. Smith"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Code of the Secret Service\nCode of the Secret Service is a 1939 film directed by Noel M. Smith and starring Ronald Reagan. It is the second of four films in the U.S. Secret Service Agent Brass Bancroft series, having been preceded by\" Secret Service of the Air\"( 1939) and followed by\" Smashing the Money Ring\"( 1939) and\" Murder in the Air\"( 1940). The series was part of a late 1930s effort by Warner Bros. to produce films depicting law enforcement in a positive light under pressure from Homer Stille Cummings( Franklin D. Roosevelt's Attorney General) and Will H. Hays( creator of the Motion Picture Production Code, the movie industry's censorship guidelines), due to the studio's part in producing early 1930s films glamorizing gangsters. The series also enabled Warner Bros. to create Reagan's screen persona, with Reagan even showing up to the set of\" Code of the Secret Service\" and asking director Noel M. Smith,\" When do I fight and whom?\""
+}

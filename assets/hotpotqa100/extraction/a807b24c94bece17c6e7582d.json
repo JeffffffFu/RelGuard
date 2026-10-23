@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Angola": "Country",
+    "Namibia": "Country",
+    "Democratic Republic of the Congo": "Country",
+    "Zambia": "Country",
+    "Atlantic Ocean": "Geographical Feature",
+    "Cabinda": "Province",
+    "Republic of the Congo": "Country",
+    "Luanda": "City"
+  },
+  "triples": [
+    {
+      "subject": "Angola",
+      "relation": "borders_with",
+      "object": "Namibia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "bordered by Namibia to the south"
+        }
+      ]
+    },
+    {
+      "subject": "Cabinda",
+      "relation": "borders_with",
+      "object": "Republic of the Congo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "has borders with the Republic of the Congo"
+        }
+      ]
+    },
+    {
+      "subject": "Angola",
+      "relation": "capital_is",
+      "object": "Luanda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The capital and largest city of Angola is Luanda"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Angola",
+        "borders_with",
+        "Democratic Republic of the Congo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Angola",
+        "borders_with",
+        "Zambia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Angola",
+        "borders_with",
+        "Atlantic Ocean"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Cabinda",
+        "borders_with",
+        "Democratic Republic of the Congo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "List of companies of Angola\nAngola is a country in Southern Africa. It is the seventh-largest country in Africa and is bordered by Namibia to the south, the Democratic Republic of the Congo to the north and east, Zambia to the east, and the Atlantic Ocean to west. The exclave province of Cabinda has borders with the Republic of the Congo and the Democratic Republic of the Congo. The capital and largest city of Angola is Luanda."
+}

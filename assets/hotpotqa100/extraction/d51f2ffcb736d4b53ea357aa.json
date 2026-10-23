@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "My Boy Jack": "WORK_OF_ART",
+    "David Haig": "PERSON",
+    "Daniel Radcliffe": "PERSON",
+    "Rudyard Kipling": "PERSON",
+    "John Kipling": "PERSON",
+    "PBS": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "My Boy Jack",
+      "relation": "based_on",
+      "object": "David Haig",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 39,
+          "char_start": 58,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United Kingdom (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "My Boy Jack",
+        "starred",
+        "David Haig"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "My Boy Jack",
+        "starred",
+        "Daniel Radcliffe"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "David Haig",
+        "portrayed",
+        "Rudyard Kipling"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Daniel Radcliffe",
+        "portrayed",
+        "John Kipling"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "My Boy Jack",
+        "premiered_on",
+        "PBS"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "My Boy Jack",
+        "broadcast_in",
+        "United Kingdom"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "My Boy Jack (film)\nMy Boy Jack is a 2007 television drama based on David Haig's 1997 play of the same name. It was filmed in August 2007, with Haig as Rudyard Kipling and Daniel Radcliffe as John Kipling. It does not include act three of the play, which extended to the 1920s and 1930s: instead it ends with Kipling reciting the poem \"My Boy Jack\". The American television premiere was on 20 April 2008 on PBS, with primetime rebroadcast on 27 March 2011. The film attracted about 5.7 million viewers on its original broadcast in the UK on Remembrance Day, 11 November 2007.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"My Boy Jack\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"David Haig\", \"type\": \"PERSON\"},\n    {\"name\": \"Daniel Radcliffe\", \"type\": \"PERSON\"},\n    {\"name\": \"Rudyard Kipling\", \"type\": \"PERSON\"},\n    {\"name\": \"John Kipling\", \"type\": \"PERSON\"},\n    {\"name\": \"PBS\", \"type\": \"ORG\"},\n    {\"name\": \"United Kingdom\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"My Boy Jack\",\n      \"relation\": \"based_on\",\n      \"object\": \"David Haig\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on\"}\n      ]\n    },\n    {\n      \"subject\": \"My Boy Jack\",\n      \"relation\": \"starred\",\n      \"object\": \"David Haig\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with Haig as\"}\n      ]\n    },\n    {\n      \"subject\": \"My Boy Jack\",\n      \"relation\": \"starred\",\n      \"object\": \"Daniel Radcliffe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Daniel Radcliffe as\"}\n      ]\n    },\n    {\n      \"subject\": \"David Haig\",\n      \"relation\": \"portrayed\",\n      \"object\": \"Rudyard Kipling\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as Rudyard Kipling\"}\n      ]\n    },\n    {\n      \"subject\": \"Daniel Radcliffe\",\n      \"relation\": \"portrayed\",\n      \"object\": \"John Kipling\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as John Kipling\"}\n      ]\n    },\n    {\n      \"subject\": \"My Boy Jack\",\n      \"relation\": \"premiered_on\",\n      \"object\": \"PBS\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on PBS\"}\n      ]\n    },\n    {\n      \"subject\": \"My Boy Jack\",\n      \"relation\": \"broadcast_in\",\n      \"object\": \"United Kingdom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the UK\"}\n      ]\n    }\n  ]\n}"
+}

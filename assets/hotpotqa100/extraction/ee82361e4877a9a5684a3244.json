@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Skagboys": "novel",
+    "Irvine Welsh": "author",
+    "Trainspotting": "novel",
+    "Porno": "novel",
+    "Renton": "character",
+    "Sick Boy": "character"
+  },
+  "triples": [
+    {
+      "subject": "Skagboys",
+      "relation": "written_by",
+      "object": "Irvine Welsh",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Scottish writer Irvine Welsh"
+        }
+      ]
+    },
+    {
+      "subject": "Skagboys",
+      "relation": "follows",
+      "object": "Renton",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It follows the earlier lives of characters Renton"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Skagboys",
+        "published_in",
+        "2012"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Skagboys",
+        "is_a_prequel_to",
+        "Trainspotting"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Trainspotting",
+        "has_a_sequel",
+        "Porno"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Skagboys",
+        "follows",
+        "Sick Boy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Renton",
+        "descends_into",
+        "heroin addiction"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sick Boy",
+        "descends_into",
+        "heroin addiction"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Skagboys\nSkagboys is a 2012 novel by Scottish writer Irvine Welsh. It is a prequel to his 1993 novel \"Trainspotting\", and its 2002 sequel \"Porno\". It follows the earlier lives of characters Renton and Sick Boy as they first descend into heroin addiction."
+}

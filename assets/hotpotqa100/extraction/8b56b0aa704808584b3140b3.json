@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "999": "TV series",
+    "TV3": "TV channel",
+    "Hazlin Hussain": "person",
+    "Zakiah Anas": "person",
+    "Mazidul Akmal Sidek": "person",
+    "Halim Din": "person",
+    "Omar Abdullah": "person",
+    "Malaysia": "country"
+  },
+  "triples": [
+    {
+      "subject": "999",
+      "relation": "aired_on",
+      "object": "TV3",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The show has aired on TV3 since 2004"
+        }
+      ]
+    },
+    {
+      "subject": "999",
+      "relation": "hosted_by",
+      "object": "Hazlin Hussain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The current host as of 2014 is Hazlin Hussain"
+        }
+      ]
+    },
+    {
+      "subject": "999",
+      "relation": "formerly_hosted_by",
+      "object": "Zakiah Anas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Former hosts of the show were Zakiah Anas"
+        }
+      ]
+    },
+    {
+      "subject": "999",
+      "relation": "located_in",
+      "object": "Malaysia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which focusing to crimes in the country"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "999",
+        "formerly_hosted_by",
+        "Mazidul Akmal Sidek"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "999",
+        "formerly_hosted_by",
+        "Halim Din"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "999",
+        "formerly_hosted_by",
+        "Omar Abdullah"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "999 (Malaysian TV series)\n999 (read in Malay as \"sembilan sembilan sembilan\") is a Malaysian investigative reality television series show (similar to \"COPS\" in the United States); which focusing to crimes in the country. The show has aired on TV3 since 2004 and has aired every Tuesday at 9:00 pm since January 2014. Previously it aired every Thursday at 9:00 pm since it first aired. The current host as of 2014 is Hazlin Hussain. Former hosts of the show were Zakiah Anas, Mazidul Akmal Sidek, Halim Din and Omar Abdullah. In its first year, it was one of Malaysia's most watched TV programmes with audiences of over 3 million."
+}

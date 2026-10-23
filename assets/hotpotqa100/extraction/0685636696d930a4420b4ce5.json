@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Japan 2022 FIFA World Cup bid": "EVENT",
+    "Japan Football Association": "ORG",
+    "JFA": "ORG",
+    "World Cup Finals": "EVENT",
+    "2002 FIFA World Cup": "EVENT",
+    "South Korea": "GPE",
+    "Italy": "GPE",
+    "France": "GPE",
+    "Mexico": "GPE",
+    "Brazil": "GPE",
+    "(West) Germany": "GPE",
+    "Japanese Football Association Bid team": "ORG",
+    "2022 FIFA World Cup": "EVENT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Japan 2022 FIFA World Cup bid",
+        "works_for",
+        "Japan Football Association"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Japan 2022 FIFA World Cup bid",
+        "works_for",
+        "JFA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Japan",
+        "located_in",
+        "World Cup Finals"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Japan",
+        "located_in",
+        "2002 FIFA World Cup"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2002 FIFA World Cup",
+        "located_in",
+        "South Korea"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Japanese Football Association Bid team",
+        "works_for",
+        "Japanese Football Association"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Japanese Football Association Bid team",
+        "decided_to",
+        "2022 FIFA World Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Japan 2022 FIFA World Cup bid\nThe Japan 2022 FIFA World Cup bid is the second official bid from the Japan Football Association or the JFA. Had this bid been successful, Japan would have been hosting their second World Cup Finals and it would have been their first solo hosting since they shared the 2002 FIFA World Cup with other co-host South Korea, becoming the sixth nation to host the tournament twice, after Italy, France, Mexico, Brazil and (West) Germany. On May 4, 2010, the Japanese Football Association Bid team decided to concentrate solely on winning the right to host the 2022 FIFA World Cup.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Japan 2022 FIFA World Cup bid\", \"type\": \"EVENT\"},\n    {\"name\": \"Japan Football Association\", \"type\": \"ORG\"},\n    {\"name\": \"JFA\", \"type\": \"ORG\"},\n    {\"name\": \"World Cup Finals\", \"type\": \"EVENT\"},\n    {\"name\": \"2002 FIFA World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"South Korea\", \"type\": \"GPE\"},\n    {\"name\": \"Italy\", \"type\": \"GPE\"},\n    {\"name\": \"France\", \"type\": \"GPE\"},\n    {\"name\": \"Mexico\", \"type\": \"GPE\"},\n    {\"name\": \"Brazil\", \"type\": \"GPE\"},\n    {\"name\": \"(West) Germany\", \"type\": \"GPE\"},\n    {\"name\": \"Japanese Football Association Bid team\", \"type\": \"ORG\"},\n    {\"name\": \"2022 FIFA World Cup\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Japan 2022 FIFA World Cup bid\",\n      \"relation\": \"works_for\",\n      \"object\": \"Japan Football Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the second official bid from\"}\n      ]\n    },\n    {\n      \"subject\": \"Japan 2022 FIFA World Cup bid\",\n      \"relation\": \"works_for\",\n      \"object\": \"JFA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from the Japan Football Association or the JFA\"}\n      ]\n    },\n    {\n      \"subject\": \"Japan\",\n      \"relation\": \"located_in\",\n      \"object\": \"World Cup Finals\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Japan\",\n      \"relation\": \"located_in\",\n      \"object\": \"2002 FIFA World Cup\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"2002 FIFA World Cup\",\n      \"relation\": \"located_in\",\n      \"object\": \"South Korea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"shared the 2002 FIFA World Cup with\"}\n      ]\n    },\n    {\n      \"subject\": \"Japanese Football Association Bid team\",\n      \"relation\": \"works_for\",\n      \"object\": \"Japanese Football Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Japanese Football Association Bid team\"}\n      ]\n    },\n    {\n      \"subject\": \"Japanese Football Association Bid team\",\n      \"relation\": \"decided_to\",\n      \"object\": \"2022 FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"decided to concentrate solely on winning the right to host the 2022 FIFA World Cup\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "North Korea": "GPE",
+    "North Korean cinema": "WORK_OF_ART",
+    "the revolutionary people of the world": "NORP",
+    "feature film": "WORK_OF_ART",
+    "monumental works": "WORK_OF_ART",
+    "first-class films by international standards": "WORK_OF_ART",
+    "most wonderful movies ever produced": "WORK_OF_ART",
+    "immortal revolutionary and popular films": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "North Korea",
+      "relation": "has_cinema",
+      "object": "North Korean cinema",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "North Korean cinema"
+        }
+      ]
+    },
+    {
+      "subject": "the revolutionary people of the world",
+      "relation": "praise",
+      "object": "feature film",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "praise of this feature film"
+        }
+      ]
+    },
+    {
+      "subject": "the revolutionary people of the world",
+      "relation": "praise",
+      "object": "monumental works",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "praise of this feature film and other monumental works"
+        }
+      ]
+    },
+    {
+      "subject": "the revolutionary people of the world",
+      "relation": "praise",
+      "object": "first-class films by international standards",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "calling them 'the first-class films by international standards'"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "North Korean cinema",
+        "appraised_by",
+        "the revolutionary people of the world"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "the revolutionary people of the world",
+        "praise",
+        "most wonderful movies ever produced"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "the revolutionary people of the world",
+        "praise",
+        "immortal revolutionary and popular films"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Cinema of North Korea\nBecause of the isolated nature of the country, information—particularly unbiased information—on North Korean cinema is difficult to find. Outsider appraisal of North Korean cinema is often condescending, while statements from official North Korean sources include claims like, \"In recent years our film art has created an unprecedented sensation in the world's filmdom... The revolutionary people of the world are unstinting in their praise of this feature film and other monumental works, calling them 'the first-class films by international standards', 'the most wonderful movies ever produced' and 'immortal revolutionary and popular films'.\""
+}

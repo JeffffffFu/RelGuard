@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Denis Kulyash": "Person",
+    "Salavat Yulaev Ufa": "Team",
+    "Kontinental Hockey League": "League",
+    "Russia's national ice hockey team": "Team",
+    "Zdeno Chara": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Denis Kulyash",
+      "relation": "plays_for",
+      "object": "Salavat Yulaev Ufa",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently playing for Salavat Yulaev Ufa"
+        }
+      ]
+    },
+    {
+      "subject": "Denis Kulyash",
+      "relation": "plays_in",
+      "object": "Kontinental Hockey League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "for Salavat Yulaev Ufa of the Kontinental Hockey League (KHL)"
+        }
+      ]
+    },
+    {
+      "subject": "Denis Kulyash",
+      "relation": "member_of",
+      "object": "Russia's national ice hockey team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "long-time member of Russia's national ice hockey team"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Denis Kulyash",
+        "holds_record",
+        "fastest ice hockey shot"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Zdeno Chara",
+        "held_record",
+        "fastest ice hockey shot"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Denis Kulyash\nDenis Kulyash (Russian: Денис Куляш ; born May 31, 1983) is a professional ice hockey defenceman currently playing for Salavat Yulaev Ufa of the Kontinental Hockey League (KHL). Kulyash has been a long-time member of Russia's national ice hockey team known for his extremely hard slap shot, which gained him a nickname \"Tsar Cannon\" (Russian: Царь-пушка ). Kulyash currently holds a record of fastest ice hockey shot previously held by Boston Bruins defenceman Zdeno Chara with a speed of 110.3 mph (177.6 km/h)."
+}

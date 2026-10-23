@@ -1,0 +1,65 @@
+{
+  "entities": {
+    "Oh My God": "song",
+    "Guns N' Roses": "band",
+    "End of Days": "film",
+    "1999": "year"
+  },
+  "triples": [
+    {
+      "subject": "Oh My God",
+      "relation": "released_in",
+      "object": "1999",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released in 1999"
+        }
+      ]
+    },
+    {
+      "subject": "Oh My God",
+      "relation": "by",
+      "object": "Guns N' Roses",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a song by Guns N' Roses"
+        }
+      ]
+    },
+    {
+      "subject": "Guns N' Roses",
+      "relation": "sent_out",
+      "object": "Oh My God",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The song was sent out to radio stations"
+        }
+      ]
+    },
+    {
+      "subject": "Guns N' Roses",
+      "relation": "first_recorded_release",
+      "object": "Oh My God",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the band's first recorded release in almost five years"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Oh My God",
+        "on_soundtrack",
+        "End of Days"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Oh My God (Guns N' Roses song)\n\"Oh My God\" is a song by Guns N' Roses released in 1999 on the soundtrack to the film \"End of Days\". The song was sent out to radio stations in November 1999 as a promo for the soundtrack and the band. Despite being the band's first recorded release in almost five years, it was never issued as a stand-alone single for public retail."
+}

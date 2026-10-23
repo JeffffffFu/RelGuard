@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Back to Back": "album",
+    "Johnny Hodges": "musician",
+    "Duke Ellington": "musician"
+  },
+  "triples": [
+    {
+      "subject": "Back to Back",
+      "relation": "released_by",
+      "object": "Johnny Hodges",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Johnny Hodges"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Back to Back",
+        "is_a",
+        "album"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Back to Back",
+        "released_by",
+        "Duke Ellington"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Back to Back",
+        "followed_by",
+        "Side by Side"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Side by Side",
+        "is_a",
+        "album"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Back to Back: Duke Ellington and Johnny Hodges Play the Blues\nBack to Back is a 1959 studio album by Johnny Hodges and Duke Ellington. It was followed up by\" Side by Side\"( 1959), recorded at the same sessions."
+}

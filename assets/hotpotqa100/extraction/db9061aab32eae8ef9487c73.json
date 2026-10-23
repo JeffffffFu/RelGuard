@@ -1,0 +1,135 @@
+{
+  "entities": {
+    "JS Food Plan Co, Ltd.": "Company",
+    "JS": "Company",
+    "Jae Sang": "Person",
+    "Pizza Segyero": "Brand",
+    "Yeoeuido-Dong Yeongdeungpo-gu, Seoul, Korea": "Location",
+    "Beijing, China": "Location",
+    "Hankook Pizza Hut": "Company",
+    "Hankook Mr. Pizza": "Company",
+    "Chicken Nara": "Company",
+    "Domino Pizza Korea": "Company",
+    "Pizza Etang": "Company",
+    "Reach Beam": "Company"
+  },
+  "triples": [
+    {
+      "subject": "JS Food Plan Co, Ltd.",
+      "relation": "commonly_referred_to_as",
+      "object": "JS",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "commonly referred to as \"JS\""
+        }
+      ]
+    },
+    {
+      "subject": "JS Food Plan Co, Ltd.",
+      "relation": "CEO",
+      "object": "Jae Sang",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently CEO'd by Jeong Jae Sang"
+        }
+      ]
+    },
+    {
+      "subject": "JS Food Plan Co, Ltd.",
+      "relation": "brand_name",
+      "object": "Pizza Segyero",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Its brand name is Pizza Segyero"
+        }
+      ]
+    },
+    {
+      "subject": "JS Food Plan Co, Ltd.",
+      "relation": "located_in",
+      "object": "Yeoeuido-Dong Yeongdeungpo-gu, Seoul, Korea",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "headquartered in Yeoeuido-Dong Yeongdeungpo-gu, Seoul, Korea"
+        }
+      ]
+    },
+    {
+      "subject": "JS Food Plan Co, Ltd.",
+      "relation": "expanded_to",
+      "object": "Beijing, China",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the company became an international franchise when it expanded to Beijing, China"
+        }
+      ]
+    },
+    {
+      "subject": "JS Food Plan Co, Ltd.",
+      "relation": "comparable_to",
+      "object": "Hankook Pizza Hut",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "comparable to pizza restaurant chains such as Hankook Pizza Hut"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "JS Food Plan Co, Ltd.",
+        "founded",
+        "1998"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "JS Food Plan Co, Ltd.",
+        "comparable_to",
+        "Hankook Mr. Pizza"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "JS Food Plan Co, Ltd.",
+        "comparable_to",
+        "Chicken Nara"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "JS Food Plan Co, Ltd.",
+        "comparable_to",
+        "Domino Pizza Korea"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "JS Food Plan Co, Ltd.",
+        "comparable_to",
+        "Pizza Etang"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "JS Food Plan Co, Ltd.",
+        "comparable_to",
+        "Reach Beam"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "JS Food Plan\nJS Food Plan Co, Ltd. (commonly referred to as \"JS\" (which is an acronym for the Korean name Jae Sang) (hangul:제이에스 푸드플랜) is a franchised Korean pizza company headquartered in Yeoeuido-Dong Yeongdeungpo-gu, Seoul, Korea, established in 1998 the company is currently CEO'd by Jeong Jae Sang (정재상). Its brand name is Pizza Segyero. (hangul:피자 세계로) In 2005, the company became an international franchise when it expanded to Beijing, China. The company is comparable to pizza restaurant chains such as Hankook Pizza Hut, Hankook Mr. Pizza, Chicken Nara, Domino Pizza Korea, Pizza Etang and Reach Beam."
+}

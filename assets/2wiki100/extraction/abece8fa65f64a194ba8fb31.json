@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Vinod Kumar Vijayan": "Person",
+    "MASK": "Film",
+    "Quotation": "Film",
+    "Red Salute": "Film",
+    "D Company: The Judgement Day": "Film",
+    "Malayalam cinema": "Film Industry",
+    "Telugu cinema": "Film Industry"
+  },
+  "triples": [
+    {
+      "subject": "Vinod Kumar Vijayan",
+      "relation": "known_for",
+      "object": "Malayalam cinema",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He is known for his works in Malayalam and Telugu cinema"
+        }
+      ]
+    },
+    {
+      "subject": "Vinod Kumar Vijayan",
+      "relation": "known_for",
+      "object": "Telugu cinema",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He is known for his works in Malayalam and Telugu cinema"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vinod Kumar Vijayan",
+        "awarded",
+        "International Video Festival Award"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Vinod Kumar Vijayan",
+        "directed",
+        "Quotation"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Vinod Kumar Vijayan",
+        "directed",
+        "Red Salute"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Vinod Kumar Vijayan",
+        "directed",
+        "D Company: The Judgement Day"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Vinod Vijayan\nVinod Kumar Vijayan is an Indian Film Director, Writer and Producer. He got International Video Festival Award for his first Short Film MASK in age of 18. He is known for his works in Malayalam and Telugu cinema. His films include\" Quotation\"( 2004),\" Red Salute\"( 2006) and\" D Company: The Judgement Day\"( 2013)."
+}

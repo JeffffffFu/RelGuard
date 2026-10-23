@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "American Antiquarian Society": "ORG",
+    "AAS": "ORG",
+    "Worcester": "GPE",
+    "Massachusetts": "GPE",
+    "Antiquarian Hall": "FAC",
+    "United States": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "American Antiquarian Society",
+      "relation": "located_in",
+      "object": "Worcester",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in Worcester, Massachusetts",
+          "line_start": 40,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "located in Worcester, Massachusetts",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "American Antiquarian Society",
+      "relation": "located_in",
+      "object": "Massachusetts",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in Worcester, Massachusetts",
+          "line_start": 40,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "located in Worcester, Massachusetts",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "American Antiquarian Society",
+      "relation": "has_main_building",
+      "object": "Antiquarian Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known as Antiquarian Hall",
+          "line_start": 304,
+          "char_start": 333,
+          "ambiguous": false,
+          "relation_mention": "known as Antiquarian Hall",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Antiquarian Hall",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a U.S. National Historic Landmark",
+          "line_start": 331,
+          "char_start": 360,
+          "ambiguous": false,
+          "relation_mention": "is a U.S. National Historic Landmark",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "American Antiquarian Society",
+        "founded",
+        "1812"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "American Antiquarian Society\nThe American Antiquarian Society (AAS), located in Worcester, Massachusetts, is both a learned society and national research library of pre-twentieth century American history and culture. Founded in 1812, it is the oldest historical society in the United States with a national focus. Its main building, known as Antiquarian Hall, is a U.S. National Historic Landmark in recognition of this legacy. The mission of the AAS is to collect, preserve and make available for study all printed records of what is now known as the United States of America. This includes materials from the first European settlement through the year 1876."
+}

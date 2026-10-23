@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "La fille de Madame Angot": "work",
+    "Charles Lecocq": "person",
+    "Clairville": "person",
+    "Paul Siraudin": "person",
+    "Victor Koning": "person"
+  },
+  "triples": [
+    {
+      "subject": "La fille de Madame Angot",
+      "relation": "written_by",
+      "object": "Charles Lecocq",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an opéra comique in three acts by Charles Lecocq"
+        }
+      ]
+    },
+    {
+      "subject": "La fille de Madame Angot",
+      "relation": "has_text_by",
+      "object": "Clairville",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The French text was by Clairville"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "La fille de Madame Angot",
+        "is_a",
+        "work"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "La fille de Madame Angot",
+        "has_text_by",
+        "Paul Siraudin"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "La fille de Madame Angot",
+        "has_text_by",
+        "Victor Koning"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "La fille de Madame Angot\nLa fille de Madame Angot (\"The Daughter of Madame Angot\") is an opéra comique in three acts by Charles Lecocq. The French text was by Clairville, Paul Siraudin and Victor Koning."
+}

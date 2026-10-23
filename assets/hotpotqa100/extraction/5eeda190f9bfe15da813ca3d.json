@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Hollywood and Swine": "ORG",
+    "Andy Marx": "PERSON",
+    "William McArdle": "PERSON",
+    "The Onion": "WORK_OF_ART",
+    "Hollywood": "GPE",
+    "CA": "GPE",
+    "The Guardian": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Hollywood and Swine",
+      "relation": "created_by",
+      "object": "Andy Marx",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "created in January 2012 in Hollywood, CA by co-founders Andy Marx and William McArdle"
+        }
+      ]
+    },
+    {
+      "subject": "Hollywood and Swine",
+      "relation": "created_by",
+      "object": "William McArdle",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "created in January 2012 in Hollywood, CA by co-founders Andy Marx and William McArdle"
+        }
+      ]
+    },
+    {
+      "subject": "Hollywood and Swine",
+      "relation": "located_in",
+      "object": "Hollywood",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "created in January 2012 in Hollywood, CA"
+        }
+      ]
+    },
+    {
+      "subject": "Hollywood and Swine",
+      "relation": "located_in",
+      "object": "CA",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "created in January 2012 in Hollywood, CA"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hollywood and Swine",
+        "inspired_by",
+        "The Onion"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hollywood and Swine",
+        "mentioned_in",
+        "The Guardian"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Hollywood and Swine\nHollywood and Swine is a website that posts satirical articles about Hollywood's A-list stars and show business news. \"Hollywood and Swine\" was created in January 2012 in Hollywood, CA by co-founders Andy Marx and William McArdle, who for a time remained anonymous. The idea for the website was inspired by the satirical news source \"The Onion\", and the name originates from the road intersection of Hollywood and Vine in Hollywood, CA. \"Hollywood and Swine\" uses photoshopped images and over-the-top headlines to play off of real news stories by adding a fake twist. Their efforts are supported by advertising sales. \"Hollywood and Swine\"'s slogan is \"So many pigs...so little time\". Marx and McArdle stated that \"the key [of \"Hollywood and Swine\"] is to do something so funny that you can get away with being tasteless\" (\"The Guardian\", 2012). \"Hollywood and Swine\" has fast become a regular news source for those looking to the lives of celebrities as a source of entertainment."
+}

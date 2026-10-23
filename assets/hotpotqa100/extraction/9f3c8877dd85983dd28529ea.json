@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Coity Mountain": "LOC",
+    "Blaenavon": "GPE",
+    "Abertillery": "GPE",
+    "Torfaen": "GPE",
+    "Blaenau Gwent": "GPE",
+    "Twyn Ffynhonnau Goerion": "LOC",
+    "Mynydd Varteg Fawr": "LOC",
+    "Dog Stone": "LOC",
+    "Carlo the Red Setter": "PERSON",
+    "Mulfran": "LOC",
+    "Brynmawr": "GPE",
+    "Mynydd James": "LOC",
+    "Blaina": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Coity Mountain",
+      "relation": "located_between",
+      "object": "Blaenavon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "between Blaenavon and Abertillery"
+        }
+      ]
+    },
+    {
+      "subject": "Coity Mountain",
+      "relation": "has_summit",
+      "object": "Twyn Ffynhonnau Goerion",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The summit is also known as Twyn Ffynhonnau Goerion"
+        }
+      ]
+    },
+    {
+      "subject": "Mynydd Varteg Fawr",
+      "relation": "located_to_the_southeast_of",
+      "object": "Coity Mountain",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Some 2 km to the southeast lies a major subsidiary top of the hill, Mynydd Varteg Fawr"
+        }
+      ]
+    },
+    {
+      "subject": "Mulfran",
+      "relation": "overlooks",
+      "object": "Brynmawr",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "which overlooks the town of Brynmawr"
+        }
+      ]
+    },
+    {
+      "subject": "Mynydd James",
+      "relation": "located_east_of",
+      "object": "Blaina",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "Mynydd James immediately east of the town of Blaina"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Coity Mountain",
+        "located_in",
+        "South Wales Valleys"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dog Stone",
+        "commemorates",
+        "Carlo the Red Setter"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Coity Mountain\nCoity Mountain (also spelled \"Coety Mountain\", Welsh: \"Mynydd Coety\") is a flat-topped mountain in the South Wales Valleys, between Blaenavon and Abertillery. The highest points of both Torfaen and Blaenau Gwent unitary authorities are at the summit of Coity Mountain. The summit is also known as Twyn Ffynhonnau Goerion. Some 2 km to the southeast lies a major subsidiary top of the hill, Mynydd Varteg Fawr (549m) at the southeastern end of whose broad ridge is a trig point at 544m. A few hundred metres to the southeast of this summit is a memorial known as the \"Dog Stone\" which commemorates \"Carlo the Red Setter\", a dog shot accidentally by his master while hunting on the 12 August 1864. Co-ordinates for the Dog Stone 51.45'15.58N 3.05'08.81W. Other notable tops include those of Mulfran (524m) (Welsh for \"cormorant\", pronounced 'me-al-vran') which overlooks the town of Brynmawr and Mynydd James immediately east of the town of Blaina."
+}

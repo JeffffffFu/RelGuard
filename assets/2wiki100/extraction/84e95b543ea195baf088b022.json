@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "James Tinling": "Person",
+    "20th Century Fox": "Organization",
+    "Charlie Chan in Shanghai": "Film",
+    "Seattle": "Location",
+    "Los Angeles": "Location"
+  },
+  "triples": [
+    {
+      "subject": "James Tinling",
+      "relation": "born_in",
+      "object": "Seattle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "May 8, 1889 in Seattle"
+        }
+      ]
+    },
+    {
+      "subject": "James Tinling",
+      "relation": "died_in",
+      "object": "Los Angeles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "May 14, 1967 in Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "James Tinling",
+      "relation": "works_for",
+      "object": "20th Century Fox",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed primarily for 20th Century Fox"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James Tinling",
+        "directed",
+        "Charlie Chan in Shanghai"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "James Tinling\nJames Tinling( May 8, 1889 in Seattle – May 14, 1967 in Los Angeles) was an American film director. He worked during the silent period as a prop boy and stuntman, and directed primarily for 20th Century Fox in the 1930s and 1940s. He has been cited as one of the best B-film directors for Fox, known for directing numerous westerns and lighthearted films, including\" Charlie Chan in Shanghai\"( 1935)."
+}

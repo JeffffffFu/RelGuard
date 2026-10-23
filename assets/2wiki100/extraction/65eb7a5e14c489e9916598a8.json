@@ -1,0 +1,41 @@
+{
+  "entities": {
+    "Wesley Barresi": "PERSON",
+    "Netherlands": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Wesley Barresi",
+      "relation": "works_for",
+      "object": "Netherlands",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Netherlands international",
+          "line_start": 74,
+          "char_start": 89,
+          "ambiguous": false,
+          "relation_mention": "Netherlands international",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "South Africa (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Wesley Barresi",
+        "born_in",
+        "South Africa"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Wesley Barresi\nWesley Barresi( born 3 May 1984) is a South African born first- class and Netherlands international cricketer. He is a right- handed wicket keeper- batsman and also bowls right- arm offbreak."
+}

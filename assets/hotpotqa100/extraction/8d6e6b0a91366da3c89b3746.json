@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Sunthorn Kongsompong": "PERSON",
+    "Thailand": "GPE",
+    "Suchinda Kraprayoon": "PERSON",
+    "Chatichai Choonhavan": "PERSON",
+    "National Peacekeeping Council": "ORG",
+    "Anand Panyarachun": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Sunthorn Kongsompong",
+      "relation": "led",
+      "object": "Suchinda Kraprayoon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a military coup d'etat led by Sunthorn and General Suchinda Kraprayoon"
+        }
+      ]
+    },
+    {
+      "subject": "Suchinda Kraprayoon",
+      "relation": "deposed",
+      "object": "Chatichai Choonhavan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "deposed the government of Prime Minister Chatichai Choonhavan"
+        }
+      ]
+    },
+    {
+      "subject": "Sunthorn Kongsompong",
+      "relation": "established",
+      "object": "National Peacekeeping Council",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "established the National Peacekeeping Council (NPKC) as an interim administration"
+        }
+      ]
+    },
+    {
+      "subject": "National Peacekeeping Council",
+      "relation": "appointed",
+      "object": "Anand Panyarachun",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Anand Panyarachun was appointed Prime Minister"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sunthorn Kongsompong",
+        "head_of_government",
+        "Thailand"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sunthorn Kongsompong",
+        "left",
+        "political office"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sunthorn Kongsompong\nGeneral Sunthorn Kongsompong (1931–1999) was the \"de facto\" head of government of Thailand from 1991 - 1992, following a military coup d'etat led by Sunthorn and General Suchinda Kraprayoon deposed the government of Prime Minister Chatichai Choonhavan on February 23, 1991. The generals accused Chatichai of corruption, and established the National Peacekeeping Council (NPKC) as an interim administration, with Sunthorn as chairman. Anand Panyarachun was appointed Prime Minister in March, but the administration of the country was also executed by the NPKC. Sunthorn left the political office following the May 1992 constitution promulgation, which prohibited members of the military from executing the office of the Prime Minister."
+}

@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Kenneth A. May": "PERSON",
+    "Memphis, Tennessee": "GPE",
+    "FedEx Office": "ORG",
+    "March of Dimes": "ORG",
+    "Krispy Kreme": "ORG",
+    "Topgolf International, Inc.": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Kenneth A. May",
+      "relation": "appointed_coo_of",
+      "object": "Krispy Kreme",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was appointed COO of",
+          "line_start": 151,
+          "char_start": 159,
+          "ambiguous": false,
+          "relation_mention": "was appointed COO of",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kenneth A. May",
+        "native_of",
+        "Memphis, Tennessee"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kenneth A. May",
+        "former_ceo_of",
+        "FedEx Office"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kenneth A. May",
+        "chairman_of",
+        "March of Dimes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kenneth A. May",
+        "became_president_and_ceo_of",
+        "Topgolf International, Inc."
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Ken May\nKenneth A. May is a Memphis, Tennessee native, former CEO of FedEx Office, and chairman of the March of Dimes' board of trustees. In November 2011, he was appointed COO of Krispy Kreme, and in July 2014, May became President and CEO of Topgolf International, Inc.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kenneth A. May\", \"type\": \"PERSON\"},\n    {\"name\": \"Memphis, Tennessee\", \"type\": \"GPE\"},\n    {\"name\": \"FedEx Office\", \"type\": \"ORG\"},\n    {\"name\": \"March of Dimes\", \"type\": \"ORG\"},\n    {\"name\": \"Krispy Kreme\", \"type\": \"ORG\"},\n    {\"name\": \"Topgolf International, Inc.\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kenneth A. May\",\n      \"relation\": \"native_of\",\n      \"object\": \"Memphis, Tennessee\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Memphis, Tennessee native\"}\n      ]\n    },\n    {\n      \"subject\": \"Kenneth A. May\",\n      \"relation\": \"former_ceo_of\",\n      \"object\": \"FedEx Office\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"former CEO of\"}\n      ]\n    },\n    {\n      \"subject\": \"Kenneth A. May\",\n      \"relation\": \"chairman_of\",\n      \"object\": \"March of Dimes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"chairman of the March of Dimes' board of trustees\"}\n      ]\n    },\n    {\n      \"subject\": \"Kenneth A. May\",\n      \"relation\": \"appointed_coo_of\",\n      \"object\": \"Krispy Kreme\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was appointed COO of\"}\n      ]\n    },\n    {\n      \"subject\": \"Kenneth A. May\",\n      \"relation\": \"became_president_and_ceo_of\",\n      \"object\": \"Topgolf International, Inc.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became President and CEO of\"}\n      ]\n    }\n  ]\n}"
+}

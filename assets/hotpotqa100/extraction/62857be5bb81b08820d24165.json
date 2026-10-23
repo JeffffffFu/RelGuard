@@ -1,0 +1,174 @@
+{
+  "entities": {
+    "Midnite Movies": "product_line",
+    "MGM Home Entertainment": "company",
+    "Orion Pictures": "company",
+    "Filmways": "company",
+    "American International Pictures": "company",
+    "AIP": "company",
+    "Roger Corman": "person",
+    "Vincent Price": "person",
+    "Hammer Film Productions": "company",
+    "Amicus Productions": "company",
+    "United Artists": "company",
+    "Empire International Pictures": "company",
+    "Sony Pictures Home Entertainment": "company",
+    "20th Century Fox Home Entertainment": "company"
+  },
+  "triples": [
+    {
+      "subject": "Midnite Movies",
+      "relation": "released_by",
+      "object": "MGM Home Entertainment",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released first on VHS and later on DVD by MGM Home Entertainment"
+        }
+      ]
+    },
+    {
+      "subject": "Orion Pictures",
+      "relation": "bought_out",
+      "object": "Filmways",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which bought out Filmways"
+        }
+      ]
+    },
+    {
+      "subject": "Filmways",
+      "relation": "owner_of",
+      "object": "American International Pictures",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the owner of American International Pictures"
+        }
+      ]
+    },
+    {
+      "subject": "Midnite Movies",
+      "relation": "included",
+      "object": "Hammer Film Productions",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "but also included Hammer Film Productions"
+        }
+      ]
+    },
+    {
+      "subject": "Midnite Movies",
+      "relation": "distributed_by",
+      "object": "20th Century Fox Home Entertainment",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with distributor 20th Century Fox Home Entertainment"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "MGM Home Entertainment",
+        "begun_by",
+        "MGM"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "MGM",
+        "acquired",
+        "Orion Pictures"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "AIP",
+        "had_library_of",
+        "B movies"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Midnite Movies",
+        "derived_from",
+        "AIP"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Midnite Movies",
+        "included",
+        "Amicus Productions"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Midnite Movies",
+        "included",
+        "United Artists"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Midnite Movies",
+        "included",
+        "Empire International Pictures"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sony Pictures Home Entertainment",
+        "became_owners_of",
+        "MGM library"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sony Pictures Home Entertainment",
+        "continued",
+        "Midnite Movies"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "20th Century Fox Home Entertainment",
+        "released",
+        "double feature titles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Midnite Movies",
+        "went_out_of_print",
+        "previous catalog titles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Midnite Movies",
+        "was_taken_down",
+        "website"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Midnite Movies\nMidnite Movies is a line of B movies released first on VHS and later on DVD by MGM Home Entertainment. The line was begun by MGM in March 2001 following its acquisition of Orion Pictures, which bought out Filmways, the owner of American International Pictures. AIP had a library of B movies from the 1950s and 1960s that were science fiction, horror, and exploitation films. The \"Midnite Movies\" collection is primarily derived from the AIP library (including most of Roger Corman's and Vincent Price's horror movies) but also included Hammer Film Productions, Amicus Productions, United Artists, and Empire International Pictures movies as well. The DVDs were first released as single films but most later releases would be double features on single double-sided discs. Sony Pictures Home Entertainment later became owners of the MGM library and continued the \"Midnite Movies\" line with distributor 20th Century Fox Home Entertainment. All double feature titles released on the 20th Century Fox label were two-disc packages. By 2011, no new titles were forthcoming; the previous catalog titles slowly went out of print and the \"Midnite Movies\" website was taken down."
+}

@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Capellini": "PRODUCT",
+    "Italian": "NORP",
+    "spaghetti": "PRODUCT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Capellini",
+        "is_a",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Capellini",
+        "of_national_origin",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Capellini",
+        "is_similar_to",
+        "spaghetti"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Capellini\nCapellini (] , literally \"little hairs\") is a very thin variety of Italian pasta, with a diameter between 0.85 and . Like spaghetti, it is rod-shaped, in the form of long strands.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Capellini\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Italian\", \"type\": \"NORP\"},\n    {\"name\": \"spaghetti\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Capellini\",\n      \"relation\": \"is_a\",\n      \"object\": \"PRODUCT\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a very thin variety of\"}\n      ]\n    },\n    {\n      \"subject\": \"Capellini\",\n      \"relation\": \"of_national_origin\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Italian\"}\n      ]\n    },\n    {\n      \"subject\": \"Capellini\",\n      \"relation\": \"is_similar_to\",\n      \"object\": \"spaghetti\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Like spaghetti, it is\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "Bartlett's Bridge": "bridge",
+    "Clara Barton Road": "road",
+    "French River": "river",
+    "Oxford": "city",
+    "Massachusetts": "state",
+    "Charles A. Allen": "person",
+    "Worcester": "city",
+    "Edwin Bartlett": "person",
+    "North Oxford": "city"
+  },
+  "triples": [
+    {
+      "subject": "Bartlett's Bridge",
+      "relation": "located_in",
+      "object": "Oxford",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Oxford"
+        }
+      ]
+    },
+    {
+      "subject": "Bartlett's Bridge",
+      "relation": "carries",
+      "object": "Clara Barton Road",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "carrying Clara Barton Road"
+        }
+      ]
+    },
+    {
+      "subject": "Bartlett's Bridge",
+      "relation": "crosses",
+      "object": "French River",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "over the French River"
+        }
+      ]
+    },
+    {
+      "subject": "Bartlett's Bridge",
+      "relation": "built_by",
+      "object": "Charles A. Allen",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "a design by Charles A. Allen"
+        }
+      ]
+    },
+    {
+      "subject": "Charles A. Allen",
+      "relation": "works_for",
+      "object": "Worcester",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "a civil engineer for the city of Worcester"
+        }
+      ]
+    },
+    {
+      "subject": "Bartlett's Bridge",
+      "relation": "requested_by",
+      "object": "Edwin Bartlett",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "at the request of Edwin Bartlett"
+        }
+      ]
+    },
+    {
+      "subject": "Edwin Bartlett",
+      "relation": "located_in",
+      "object": "North Oxford",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "in North Oxford"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bartlett's Bridge",
+        "replaces",
+        "older wooden span"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Edwin Bartlett",
+        "owns",
+        "textile mills"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bartlett's Bridge\nBartlett's Bridge is a historic stone arch bridge carrying Clara Barton Road over the French River in Oxford, Massachusetts. The bridge was built in 1889 to a design by Charles A. Allen, at the time a civil engineer for the city of Worcester. The bridge was built to replace an older wooden span at the request of Edwin Bartlett, the owner of textile mills in North Oxford, whose businesses and employees would have used the road. The bridge is 30 ft long and 42 ft wide, with its elliptical arch reaching a height of 13 ft above the river. The facing of the bridge is rough-cut granite that has been fixed with mortar. In contrast, the granite stones that make up the arch have been very precisely worked. The bridge has parapet walls made of large granite slabs 4.5 ft , 2 ft wide, and 1 ft thick."
+}

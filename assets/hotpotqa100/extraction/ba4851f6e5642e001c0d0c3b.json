@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Toyota Probox": "PRODUCT",
+    "Toyota": "ORG",
+    "Japan": "GPE",
+    "Paris Motor Show": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Toyota Probox",
+      "relation": "produced_by",
+      "object": "Toyota",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 65,
+          "char_start": 79,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Probox",
+      "relation": "went_on_sale_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "went on sale in",
+          "line_start": 91,
+          "char_start": 105,
+          "ambiguous": false,
+          "relation_mention": "went on sale in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Europe (LOC)"
+      ]
+    },
+    {
+      "triple": [
+        "Toyota Probox",
+        "debuted_in",
+        "Europe"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Toyota Probox",
+        "debuted_at_event",
+        "Paris Motor Show"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Toyota Probox\nThe Toyota Probox is a 5-door, 4-seater Light commercial vehicle produced by Toyota, first went on sale in Japan in July 2002, which European sales debuted at the 2009 Paris Motor Show.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Toyota Probox\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Toyota\", \"type\": \"ORG\"},\n    {\"name\": \"Japan\", \"type\": \"GPE\"},\n    {\"name\": \"Paris Motor Show\", \"type\": \"EVENT\"},\n    {\"name\": \"Europe\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Toyota Probox\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Toyota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Probox\",\n      \"relation\": \"went_on_sale_in\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"went on sale in\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Probox\",\n      \"relation\": \"debuted_in\",\n      \"object\": \"Europe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"European sales debuted at\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Probox\",\n      \"relation\": \"debuted_at_event\",\n      \"object\": \"Paris Motor Show\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"debuted at the 2009 Paris Motor Show\"}\n      ]\n    }\n  ]\n}"
+}

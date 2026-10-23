@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Manon Lescaut": "WORK_OF_ART",
+    "Giacomo Puccini": "PERSON",
+    "L'histoire du chevalier des Grieux et de Manon Lescaut": "WORK_OF_ART",
+    "Abbé Prévost": "PERSON",
+    "Manon": "WORK_OF_ART",
+    "Jules Massenet": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Manon Lescaut",
+      "relation": "based_on",
+      "object": "L'histoire du chevalier des Grieux et de Manon Lescaut",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is based on",
+          "line_start": 101,
+          "char_start": 125,
+          "ambiguous": false,
+          "relation_mention": "is based on",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Manon",
+      "relation": "based_on",
+      "object": "L'histoire du chevalier des Grieux et de Manon Lescaut",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 104,
+          "char_start": 128,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Manon Lescaut",
+        "composed_by",
+        "Giacomo Puccini"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "L'histoire du chevalier des Grieux et de Manon Lescaut",
+        "written_by",
+        "Abbé Prévost"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Manon",
+        "composed_by",
+        "Jules Massenet"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Manon Lescaut (Puccini)\nManon Lescaut is an opera in four acts by Giacomo Puccini, composed between 1890 and 1893. The story is based on the 1731 novel \"L'histoire du chevalier des Grieux et de Manon Lescaut\" by the Abbé Prévost and should not be confused with \"Manon\", an 1884 opera by Jules Massenet based on the same novel.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Manon Lescaut\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Giacomo Puccini\", \"type\": \"PERSON\"},\n    {\"name\": \"L'histoire du chevalier des Grieux et de Manon Lescaut\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Abbé Prévost\", \"type\": \"PERSON\"},\n    {\"name\": \"Manon\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Jules Massenet\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Manon Lescaut\",\n      \"relation\": \"composed_by\",\n      \"object\": \"Giacomo Puccini\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Manon Lescaut\",\n      \"relation\": \"based_on\",\n      \"object\": \"L'histoire du chevalier des Grieux et de Manon Lescaut\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is based on\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"L'histoire du chevalier des Grieux et de Manon Lescaut\",\n      \"relation\": \"written_by\",\n      \"object\": \"Abbé Prévost\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Manon\",\n      \"relation\": \"composed_by\",\n      \"object\": \"Jules Massenet\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Manon\",\n      \"relation\": \"based_on\",\n      \"object\": \"L'histoire du chevalier des Grieux et de Manon Lescaut\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"based on\"\n        }\n      ]\n    }\n  ]\n}"
+}

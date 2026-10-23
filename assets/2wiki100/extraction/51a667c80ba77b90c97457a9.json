@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "Ken G. Hall": "PERSON",
+    "Kenneth George Hall": "PERSON",
+    "AO": "NORP",
+    "OBE": "NORP",
+    "Academy Award": "EVENT",
+    "Australian film industry": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Kenneth George Hall",
+      "relation": "better_known_as",
+      "object": "Ken G. Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "better known as",
+          "line_start": 67,
+          "char_start": 79,
+          "ambiguous": false,
+          "relation_mention": "better known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Kenneth George Hall",
+      "relation": "was",
+      "object": "AO",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "AO, OBE",
+          "line_start": 21,
+          "char_start": 33,
+          "ambiguous": false,
+          "relation_mention": "AO, OBE",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Kenneth George Hall",
+      "relation": "was",
+      "object": "OBE",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "AO, OBE",
+          "line_start": 21,
+          "char_start": 33,
+          "ambiguous": false,
+          "relation_mention": "AO, OBE",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Kenneth George Hall",
+      "relation": "was_a",
+      "object": "Australian film industry",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Australian film producer and director",
+          "line_start": 103,
+          "char_start": 115,
+          "ambiguous": false,
+          "relation_mention": "Australian film producer and director",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ken G. Hall",
+      "relation": "won",
+      "object": "Academy Award",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "win an Academy Award",
+          "line_start": 266,
+          "char_start": 278,
+          "ambiguous": false,
+          "relation_mention": "win an Academy Award",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Ken G. Hall",
+        "located_in",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ken G. Hall\nKenneth George Hall, AO, OBE( 22 February 1901 – 8 February 1994), better known as Ken G. Hall, was an Australian film producer and director, considered one of the most important figures in the history of the Australian film industry. He was the first Australian to win an Academy Award."
+}

@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Las Vegas Sands Corporation": "ORG",
+    "American": "NORP",
+    "Paradise": "GPE",
+    "Nevada": "GPE",
+    "United States": "GPE",
+    "Singapore": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Las Vegas Sands Corporation",
+        "is_a",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Las Vegas Sands Corporation",
+        "based_in",
+        "Paradise"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Paradise",
+        "located_in",
+        "Nevada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Nevada",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Las Vegas Sands Corporation",
+        "has_resort_museum_in",
+        "Singapore"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Las Vegas Sands\nLas Vegas Sands Corporation is an American casino and resort operating company based in Paradise, Nevada, United States. Its resorts feature accommodations, gaming and entertainment, convention and exhibition facilities, restaurants and clubs, as well as an art and science museum in Singapore.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Las Vegas Sands Corporation\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Paradise\", \"type\": \"GPE\"},\n    {\"name\": \"Nevada\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Singapore\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Las Vegas Sands Corporation\",\n      \"relation\": \"is_a\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Las Vegas Sands Corporation\",\n      \"relation\": \"based_in\",\n      \"object\": \"Paradise\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in Paradise\"}\n      ]\n    },\n    {\n      \"subject\": \"Paradise\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nevada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Paradise, Nevada\"}\n      ]\n    },\n    {\n      \"subject\": \"Nevada\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Nevada, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Las Vegas Sands Corporation\",\n      \"relation\": \"has_resort_museum_in\",\n      \"object\": \"Singapore\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"museum in Singapore\"}\n      ]\n    }\n  ]\n}"
+}

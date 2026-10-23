@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Lakshmana": "Person",
+    "Rama": "Person",
+    "Ramayana": "Literature",
+    "Saumitra": "Person",
+    "Ramanuja": "Person",
+    "Bharatanuja": "Person",
+    "Sumitra": "Person",
+    "Bharata": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Lakshmana",
+      "relation": "younger_brother_of",
+      "object": "Rama",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the younger brother of Rama"
+        }
+      ]
+    },
+    {
+      "subject": "Lakshmana",
+      "relation": "aide_in",
+      "object": "Ramayana",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his aide in the Hindu epic, the Ramayana"
+        }
+      ]
+    },
+    {
+      "subject": "Lakshmana",
+      "relation": "known_as",
+      "object": "Saumitra",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He is also known by other names- Saumitra"
+        }
+      ]
+    },
+    {
+      "subject": "Saumitra",
+      "relation": "son_of",
+      "object": "Sumitra",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "lit. \"son of Sumitra\""
+        }
+      ]
+    },
+    {
+      "subject": "Ramanuja",
+      "relation": "younger_brother_of",
+      "object": "Rama",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "lit. \"younger brother of Rama\""
+        }
+      ]
+    },
+    {
+      "subject": "Bharatanuja",
+      "relation": "younger_brother_of",
+      "object": "Bharata",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "lit. \"younger brother of Bharata\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lakshmana",
+        "known_as",
+        "Ramanuja"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Lakshmana",
+        "known_as",
+        "Bharatanuja"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Lakshmana\nLakshmana (Sanskrit: लक्ष्मण, IAST: lakṣmaṇa, lit. \"he who have the signs of fortune\") also spelled as Laxman or Lakhan, is the younger brother of Rama and his aide in the Hindu epic, the Ramayana. He is also known by other names- Saumitra (Sanskrit: सौमित्र, IAST: saumitra, lit. \"son of Sumitra\"), Ramanuja (Sanskrit: रामानुज, IAST: rāmānuja, lit. \"younger brother of Rama\") and Bharatanuja (Sanskrit: भरतानुज, IAST: bharatānuja, lit. \"younger brother of Bharata\")."
+}

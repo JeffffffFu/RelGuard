@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Ken G. Hall": "PERSON",
+    "Academy Award": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Ken G. Hall",
+      "relation": "won",
+      "object": "Academy Award",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first Australian to win an Academy Award"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Ken G. Hall",
+        "located_in",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ken G. Hall\nKenneth George Hall, AO, OBE( 22 February 1901 – 8 February 1994), better known as Ken G. Hall, was an Australian film producer and director, considered one of the most important figures in the history of the Australian film industry. He was the first Australian to win an Academy Award."
+}

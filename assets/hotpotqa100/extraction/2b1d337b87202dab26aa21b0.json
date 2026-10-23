@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Ordos": "GPE",
+    "Inner Mongolia": "GPE",
+    "China": "GPE",
+    "Ordos Loop": "LOC",
+    "Yellow River": "LOC",
+    "Dongsheng": "GPE",
+    "Ejin Horo": "GPE",
+    "Ordos Airport": "FAC"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Ordos",
+        "located_in",
+        "Inner Mongolia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ordos",
+        "located_in",
+        "China"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ordos",
+        "lies_within",
+        "Ordos Loop"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ordos Loop",
+        "located_in",
+        "Yellow River"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ordos",
+        "administered_as",
+        "prefecture-level city"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dongsheng",
+        "is_administrative_seat_of",
+        "Ordos"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ejin Horo",
+        "is_seat_of",
+        "Ordos Airport"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Ordos City\nOrdos (Mongolian: Ордос қота \"Ordos qota\" ; ) is one of the twelve major subdivisions of Inner Mongolia, China. It lies within the Ordos Loop of the Yellow River. Although mainly rural, Ordos is administered as a prefecture-level city. Its administrative seat is situated in Dongsheng which had a population of 582,544 inhabitants as of the 2010 census. Another Banner is being urbanized quickly around the city of Ejin Horo with about 251,894 inhabitants at the 2010 census which is the seat of Ordos Airport.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Ordos\", \"type\": \"GPE\"},\n    {\"name\": \"Inner Mongolia\", \"type\": \"GPE\"},\n    {\"name\": \"China\", \"type\": \"GPE\"},\n    {\"name\": \"Ordos Loop\", \"type\": \"LOC\"},\n    {\"name\": \"Yellow River\", \"type\": \"LOC\"},\n    {\"name\": \"Dongsheng\", \"type\": \"GPE\"},\n    {\"name\": \"Ejin Horo\", \"type\": \"GPE\"},\n    {\"name\": \"Ordos Airport\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Ordos\",\n      \"relation\": \"located_in\",\n      \"object\": \"Inner Mongolia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Inner Mongolia\"}\n      ]\n    },\n    {\n      \"subject\": \"Ordos\",\n      \"relation\": \"located_in\",\n      \"object\": \"China\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Inner Mongolia, China\"}\n      ]\n    },\n    {\n      \"subject\": \"Ordos\",\n      \"relation\": \"lies_within\",\n      \"object\": \"Ordos Loop\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"lies within the Ordos Loop\"}\n      ]\n    },\n    {\n      \"subject\": \"Ordos Loop\",\n      \"relation\": \"located_in\",\n      \"object\": \"Yellow River\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the Yellow River\"}\n      ]\n    },\n    {\n      \"subject\": \"Ordos\",\n      \"relation\": \"administered_as\",\n      \"object\": \"prefecture-level city\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"administered as a prefecture-level city\"}\n      ]\n    },\n    {\n      \"subject\": \"Dongsheng\",\n      \"relation\": \"is_administrative_seat_of\",\n      \"object\": \"Ordos\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"administrative seat is situated in Dongsheng\"}\n      ]\n    },\n    {\n      \"subject\": \"Ejin Horo\",\n      \"relation\": \"is_seat_of\",\n      \"object\": \"Ordos Airport\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"is the seat of Ordos Airport\"}\n      ]\n    }\n  ]\n}"
+}

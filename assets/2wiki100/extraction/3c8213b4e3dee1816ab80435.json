@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "La Yuma": "WORK_OF_ART",
+    "Florence Jaugey": "PERSON",
+    "Academy Awards": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "La Yuma",
+      "relation": "directed_by",
+      "object": "Florence Jaugey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 40,
+          "char_start": 48,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "La Yuma",
+      "relation": "selected_as_entry_for",
+      "object": "Academy Awards",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "selected as the Nicaraguan entry for the Best Foreign Language Film at the 83rd Academy Awards",
+          "line_start": 82,
+          "char_start": 90,
+          "ambiguous": false,
+          "relation_mention": "selected as the Nicaraguan entry for the Best Foreign Language Film at the 83rd Academy Awards",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Nicaragua (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "La Yuma",
+        "located_in",
+        "Nicaragua"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "La Yuma\nLa Yuma is a 2009 Nicaraguan drama film directed by Florence Jaugey. The film was selected as the Nicaraguan entry for the Best Foreign Language Film at the 83rd Academy Awards, but did not make the final shortlist."
+}

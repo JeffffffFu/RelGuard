@@ -1,0 +1,160 @@
+{
+  "entities": {
+    "Collinsville City Hall": "FAC",
+    "Collinsville Fire Station": "FAC",
+    "Collinsville, Illinois": "GPE",
+    "Italianate City Hall": "FAC",
+    "Charles L. Oatman": "PERSON",
+    "Romanesque Revival fire station": "FAC",
+    "Civil War monument": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Collinsville City Hall",
+      "relation": "located_in",
+      "object": "Collinsville, Illinois",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at",
+          "line_start": 72,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "located at",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Collinsville Fire Station",
+      "relation": "located_in",
+      "object": "Collinsville, Illinois",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at",
+          "line_start": 72,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "located at",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Italianate City Hall",
+      "relation": "same_as",
+      "object": "Collinsville City Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "City Hall",
+          "line_start": 17,
+          "char_start": 57,
+          "ambiguous": true,
+          "relation_mention": "City Hall",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Romanesque Revival fire station",
+      "relation": "located_in",
+      "object": "Collinsville, Illinois",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at",
+          "line_start": 72,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "located at",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Collinsville City Hall",
+      "relation": "connected_to",
+      "object": "Collinsville Fire Station",
+      "occurrences": [
+        {
+          "line": 1,
+          "predicate": "and Fire Station",
+          "line_start": 23,
+          "char_start": 23,
+          "ambiguous": false,
+          "relation_mention": "and Fire Station",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Civil War monument",
+      "relation": "located_between",
+      "object": "Collinsville City Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located between",
+          "line_start": 693,
+          "char_start": 733,
+          "ambiguous": false,
+          "relation_mention": "located between",
+          "sentence_id": 9
+        }
+      ]
+    },
+    {
+      "subject": "Civil War monument",
+      "relation": "located_between",
+      "object": "Collinsville Fire Station",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located between",
+          "line_start": 693,
+          "char_start": 733,
+          "ambiguous": false,
+          "relation_mention": "located between",
+          "sentence_id": 9
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Italianate City Hall",
+        "built_in",
+        "1885"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Charles L. Oatman",
+        "defeated_in",
+        "the next election"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Romanesque Revival fire station",
+        "built_in",
+        "1910"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Civil War monument",
+        "dedicated_in",
+        "1926"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Collinsville City Hall and Fire Station\nThe Collinsville City Hall and Fire Station are two connected buildings located at 125 Center St. in Collinsville, Illinois. The Italianate City Hall was built in 1885. It was Collinsville's first dedicated city hall; prior to its completion, government meetings were held at the mayor's house. The new city hall, along with several other public works projects, created a large debt which contributed to mayor Charles L. Oatman's defeat in the next election. The Romanesque Revival fire station was built next to City Hall in 1910. Additions in 1972 and 1994 connected the two buildings. A Civil War monument on the southeast corner the property was dedicated in 1926; while it was originally located between the two buildings, it moved to its current location when the fire station expanded in 1956."
+}

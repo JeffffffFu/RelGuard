@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Mogumber Nature Reserve": "FAC",
+    "Western Australia": "GPE",
+    "Western Swamp Tortoise": "PRODUCT",
+    "Twin Swamps Nature Reserve": "FAC",
+    "Ellen Brook Nature Reserve": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Mogumber Nature Reserve",
+      "relation": "located_in",
+      "object": "Western Australia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a nature reserve in Western Australia"
+        }
+      ]
+    },
+    {
+      "subject": "Mogumber Nature Reserve",
+      "relation": "refuge_for",
+      "object": "Western Swamp Tortoise",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is a refuge for the endangered Western Swamp Tortoise"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mogumber Nature Reserve",
+        "category",
+        "Category Ia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Twin Swamps Nature Reserve",
+        "category",
+        "Category IV"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ellen Brook Nature Reserve",
+        "category",
+        "Category IV"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mogumber Nature Reserve\nThe Mogumber Nature Reserve is a nature reserve in Western Australia. It is a refuge for the endangered Western Swamp Tortoise along with the Twin Swamps Nature Reserve and the Ellen Brook Nature Reserve. Twin Swamps and Ellen Brook are IUCN Protected Area Management Category IV Reserves, while the Mogumber Nature Reserve is a Category Ia nature reserve."
+}

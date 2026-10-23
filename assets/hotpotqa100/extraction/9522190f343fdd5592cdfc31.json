@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "Matilda Lutz": "PERSON",
+    "Rings": "WORK_OF_ART",
+    "2017": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Matilda Lutz",
+      "relation": "starred_in",
+      "object": "Rings",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "She starred in the 2017 horror film \"Rings\""
+        }
+      ]
+    },
+    {
+      "subject": "Rings",
+      "relation": "released_in",
+      "object": "2017",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the 2017 horror film \"Rings\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Matilda Lutz",
+        "born_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Matilda Lutz\nMatilda Anna Ingrid Lutz (born January 28, 1991) is an Italian model and actress. She starred in the 2017 horror film \"Rings\"."
+}

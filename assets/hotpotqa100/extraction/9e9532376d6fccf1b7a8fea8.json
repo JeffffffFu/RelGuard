@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "God Bless America": "WORK_OF_ART",
+    "LeAnn Rimes": "PERSON",
+    "Nor Va Jak": "ORG",
+    "All That": "WORK_OF_ART",
+    "The Lord's Prayer": "WORK_OF_ART",
+    "The Sands of Time": "WORK_OF_ART",
+    "Unchained Melody": "WORK_OF_ART",
+    "Blue": "WORK_OF_ART",
+    "Why Can't We": "WORK_OF_ART",
+    "Middle Man": "WORK_OF_ART",
+    "Target": "ORG",
+    "America": "GPE",
+    "September 11, 2001": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "God Bless America",
+      "relation": "works_for",
+      "object": "LeAnn Rimes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "from American recording artist",
+          "line_start": 50,
+          "char_start": 88,
+          "ambiguous": false,
+          "relation_mention": "from American recording artist",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "God Bless America",
+      "relation": "released_on",
+      "object": "God Bless America",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was released on",
+          "line_start": 104,
+          "char_start": 142,
+          "ambiguous": false,
+          "relation_mention": "was released on",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "All That",
+      "relation": "works_for",
+      "object": "LeAnn Rimes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "from American recording artist",
+          "line_start": 50,
+          "char_start": 88,
+          "ambiguous": false,
+          "relation_mention": "from American recording artist",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "God Bless America",
+        "comprises",
+        "The Lord's Prayer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "All That",
+        "released_on",
+        "Target"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Put a Little Holiday in Your Heart",
+        "released_as",
+        "bonus single"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "God Bless America",
+        "released_as",
+        "patriotic tribute"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "These classic recordings",
+        "made_while",
+        "America"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "God Bless America (LeAnn Rimes album)\nGod Bless America is the second compilation album from American recording artist LeAnn Rimes. The album was released on October 16, 2001. The album comprises patriotic and inspirational songs that were originally recorded on her \"\" album (tracks one, two, eight and ten), as well as songs from her commercial album, \"All That\" (tracks five, seven and nine), under the independent label, Nor Va Jak, although \"Why Can't We\" and \"Middle Man\" are both re-recordings. \"Put a Little Holiday in Your Heart\" was originally released as a bonus single, with the song \"Unchained Melody\", alongside \"Blue\" at Target during the 1996 Christmas season. The only two new songs that were released on the album were \"The Lord's Prayer\" and \"The Sands of Time\". The album was released as a patriotic tribute to the events of September 11, 2001, with the liner stating \"These classic recordings were made while America was first discovering LeAnn Rimes.\"",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"God Bless America\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"LeAnn Rimes\", \"type\": \"PERSON\"},\n    {\"name\": \"Nor Va Jak\", \"type\": \"ORG\"},\n    {\"name\": \"All That\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Lord's Prayer\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Sands of Time\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Unchained Melody\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Blue\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Why Can't We\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Middle Man\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Target\", \"type\": \"ORG\"},\n    {\"name\": \"America\", \"type\": \"GPE\"},\n    {\"name\": \"September 11, 2001\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"God Bless America\",\n      \"relation\": \"works_for\",\n      \"object\": \"LeAnn Rimes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from American recording artist\"}\n      ]\n    },\n    {\n      \"subject\": \"God Bless America\",\n      \"relation\": \"released_on\",\n      \"object\": \"God Bless America\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was released on\"}\n      ]\n    },\n    {\n      \"subject\": \"God Bless America\",\n      \"relation\": \"comprises\",\n      \"object\": \"The Lord's Prayer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"comprises patriotic and inspirational songs\"}\n      ]\n    },\n    {\n      \"subject\": \"All That\",\n      \"relation\": \"works_for\",\n      \"object\": \"LeAnn Rimes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from American recording artist\"}\n      ]\n    },\n    {\n      \"subject\": \"All That\",\n      \"relation\": \"released_on\",\n      \"object\": \"Target\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at Target\"}\n      ]\n    },\n    {\n      \"subject\": \"Put a Little Holiday in Your Heart\",\n      \"relation\": \"released_as\",\n      \"object\": \"bonus single\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was originally released as a bonus single\"}\n      ]\n    },\n    {\n      \"subject\": \"God Bless America\",\n      \"relation\": \"released_as\",\n      \"object\": \"patriotic tribute\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was released as a patriotic tribute\"}\n      ]\n    },\n    {\n      \"subject\": \"These classic recordings\",\n      \"relation\": \"made_while\",\n      \"object\": \"America\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were made while America was\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "Eisenstein": "film",
+    "Sergei Eisenstein": "person",
+    "Renny Bartlett": "person",
+    "Simon McBurney": "person",
+    "Raymond Coulthard": "person",
+    "Jacqueline McKenzie": "person"
+  },
+  "triples": [
+    {
+      "subject": "Eisenstein",
+      "relation": "about",
+      "object": "Sergei Eisenstein",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "about Sergei Eisenstein"
+        }
+      ]
+    },
+    {
+      "subject": "Eisenstein",
+      "relation": "directed_by",
+      "object": "Renny Bartlett",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Renny Bartlett"
+        }
+      ]
+    },
+    {
+      "subject": "Eisenstein",
+      "relation": "starring",
+      "object": "Simon McBurney",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Simon McBurney"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eisenstein",
+        "starring",
+        "Raymond Coulthard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Eisenstein",
+        "starring",
+        "Jacqueline McKenzie"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Eisenstein",
+        "nominated_for",
+        "Genie Awards"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eisenstein",
+        "nominated_for",
+        "Best Picture"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eisenstein",
+        "nominated_for",
+        "Best Director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eisenstein",
+        "nominated_for",
+        "Best Screenplay"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Eisenstein (film)\nEisenstein is a 2000 Canadian film about Sergei Eisenstein, directed by Renny Bartlett and starring Simon McBurney, Raymond Coulthard and Jacqueline McKenzie. It was nominated for five Genie Awards including Best Picture, Best Director, and Best Screenplay."
+}

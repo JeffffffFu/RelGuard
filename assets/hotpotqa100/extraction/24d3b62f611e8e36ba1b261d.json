@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Nike Total 90": "PRODUCT",
+    "Nike": "ORG",
+    "Nike Hypervenom": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Nike Total 90",
+      "relation": "produced_by",
+      "object": "Nike",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a brand of Nike sportswear and equipment"
+        }
+      ]
+    },
+    {
+      "subject": "Nike Total 90",
+      "relation": "replaced_by",
+      "object": "Nike Hypervenom",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "has now been replaced with Nike Hypervenom"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nike Total 90",
+        "designed_for",
+        "association football"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Nike Total 90\nNike Total 90 is a brand of Nike sportswear and equipment first introduced in 2000, designed to be used for association football. The range consists mainly of shoes, shirts, and shorts, but also includes socks, shin guards, equipment bags, drink bottles, goalkeeper gloves, and balls. The Nike Total 90 range has now been replaced with Nike Hypervenom."
+}

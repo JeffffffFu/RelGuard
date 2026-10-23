@@ -1,0 +1,134 @@
+{
+  "entities": {
+    "Nation and Destiny": "WORK_OF_ART",
+    "Chosŏn'gŭl": "LANGUAGE",
+    "Korean people": "NORP",
+    "Great Leader": "PERSON",
+    "Kim Jong-Il": "PERSON",
+    "North Korean media": "ORG",
+    "North Korean cinema": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Nation and Destiny",
+      "relation": "localized_in_language",
+      "object": "Chosŏn'gŭl",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Chosŏn'gŭl:",
+          "line_start": 20,
+          "char_start": 39,
+          "ambiguous": false,
+          "relation_mention": "Chosŏn'gŭl:",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Nation and Destiny",
+      "relation": "aims_to_show",
+      "object": "Korean people",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "aims to show that the Korean people",
+          "line_start": 142,
+          "char_start": 161,
+          "ambiguous": false,
+          "relation_mention": "aims to show that the Korean people",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Kim Jong-Il",
+      "relation": "chosen_title_for",
+      "object": "Nation and Destiny",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "personally chose the title",
+          "line_start": 281,
+          "char_start": 300,
+          "ambiguous": false,
+          "relation_mention": "personally chose the title",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Kim Jong-Il",
+      "relation": "involved_in",
+      "object": "Nation and Destiny",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was extensively involved in the early episodes",
+          "line_start": 312,
+          "char_start": 331,
+          "ambiguous": false,
+          "relation_mention": "was extensively involved in the early episodes",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Nation and Destiny",
+      "relation": "promoted_by",
+      "object": "North Korean media",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "eulogized by the North Korean media",
+          "line_start": 624,
+          "char_start": 643,
+          "ambiguous": false,
+          "relation_mention": "eulogized by the North Korean media",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Nation and Destiny",
+      "relation": "investment_in",
+      "object": "North Korean cinema",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "largest investment ever made in the history of North Korean cinema",
+          "line_start": 438,
+          "char_start": 457,
+          "ambiguous": false,
+          "relation_mention": "largest investment ever made in the history of North Korean cinema",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "North Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Nation and Destiny",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nation and Destiny",
+        "released_in_country",
+        "North Korea"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Nation and Destiny\nNation and Destiny (Chosŏn'gŭl: 민족과 운명 ; MR: \"Minjokgwa ummyeong \" ) is a 62-part North Korean film series released between 1992 and 2002. It aims to show that the Korean people \"can live a glorious life only in the bosom of the Great Leader and socialist fatherland\". Kim Jong-Il personally chose the title and was extensively involved in the early episodes. Conceived as the largest film series ever produced in any country, it was the largest investment ever made in the history of North Korean cinema. Initially, the most senior writers, directors and actors were involved in the project and it was heavily promoted and eulogized by the North Korean media. The series was projected to reach 100 episodes, but none have been released since 2002."
+}

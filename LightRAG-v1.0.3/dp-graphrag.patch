@@ -1,0 +1,547 @@
+diff --git a/lightrag/kg/milvus_impl.py b/lightrag/kg/milvus_impl.py
+index 6d2520ce4..ee8094dd1 100644
+--- a/lightrag/kg/milvus_impl.py
++++ b/lightrag/kg/milvus_impl.py
+@@ -57,15 +57,22 @@ class MilvusVectorDBStorge(BaseVectorStorage):
+             for i in range(0, len(contents), self._max_batch_size)
+         ]
+         embedding_tasks = [self.embedding_func(batch) for batch in batches]
++        # asyncio.as_completed() yields in COMPLETION order while list_data below
++        # is in submission order, so zipping them positionally attached whole
++        # batches of vectors to the wrong records. gather() preserves order.
+         embeddings_list = []
+-        for f in tqdm_async(
+-            asyncio.as_completed(embedding_tasks),
+-            total=len(embedding_tasks),
+-            desc="Generating embeddings",
+-            unit="batch",
+-        ):
+-            embeddings = await f
+-            embeddings_list.append(embeddings)
++        with tqdm_async(
++            total=len(embedding_tasks), desc="Generating embeddings", unit="batch"
++        ) as bar:
++
++            async def _run(task):
++                result = await task
++                bar.update(1)
++                return result
++
++            embeddings_list = await asyncio.gather(
++                *[_run(t) for t in embedding_tasks]
++            )
+         embeddings = np.concatenate(embeddings_list)
+         for i, d in enumerate(list_data):
+             d["vector"] = embeddings[i]
+diff --git a/lightrag/lightrag.py b/lightrag/lightrag.py
+index 4fb94b385..6b1b3a03f 100644
+--- a/lightrag/lightrag.py
++++ b/lightrag/lightrag.py
+@@ -40,11 +40,9 @@ from .storage import (
+     NetworkXStorage,
+ )
+ 
+-from .kg.neo4j_impl import Neo4JStorage
+-
+-from .kg.oracle_impl import OracleKVStorage, OracleGraphStorage, OracleVectorDBStorage
+-
+-from .kg.milvus_impl import MilvusVectorDBStorge
++# External storage backends (Neo4j / Oracle / Milvus) are imported on demand in
++# _get_storage_class() so that the paper pipeline runs with the local
++# JsonKV + NanoVectorDB + NetworkX trio and no database drivers installed.
+ 
+ # future KG integrations
+ 
+@@ -120,6 +118,10 @@ class LightRAG:
+ 
+     # LLM
+     llm_model_func: callable = gpt_4o_mini_complete  # hf_model_complete#
++    # Extraction and answering are different jobs and need not share a model:
++    # extraction wants exhaustive, cheap, format-stable output, answering wants
++    # quality. Left unset, both use llm_model_func, as before.
++    llm_model_func_for_query: callable = None
+     llm_model_name: str = "meta-llama/Llama-3.2-1B-Instruct"  #'meta-llama/Llama-3.2-1B'#'google/gemma-2-2b-it'
+     llm_model_max_token_size: int = 32768
+     llm_model_max_async: int = 16
+@@ -222,22 +224,48 @@ class LightRAG:
+             )
+         )
+ 
+-    def _get_storage_class(self) -> Type[BaseGraphStorage]:
+-        return {
++        if self.llm_model_func_for_query is not None:
++            self.llm_model_func_for_query = limit_async_func_call(
++                self.llm_model_max_async
++            )(
++                partial(
++                    self.llm_model_func_for_query,
++                    hashing_kv=self.llm_response_cache,
++                    **self.llm_model_kwargs,
++                )
++            )
++
++    # Backends that need a database driver: name -> (module, attribute)
++    _EXTERNAL_STORAGES = {
++        "OracleKVStorage": (".kg.oracle_impl", "OracleKVStorage"),
++        "OracleVectorDBStorage": (".kg.oracle_impl", "OracleVectorDBStorage"),
++        "OracleGraphStorage": (".kg.oracle_impl", "OracleGraphStorage"),
++        "MilvusVectorDBStorge": (".kg.milvus_impl", "MilvusVectorDBStorge"),
++        "Neo4JStorage": (".kg.neo4j_impl", "Neo4JStorage"),
++    }
++
++    def _get_storage_class(self) -> dict[str, Type[StorageNameSpace]]:
++        local = {
+             # kv storage
+             "JsonKVStorage": JsonKVStorage,
+-            "OracleKVStorage": OracleKVStorage,
+             # vector storage
+             "NanoVectorDBStorage": NanoVectorDBStorage,
+-            "OracleVectorDBStorage": OracleVectorDBStorage,
+-            "MilvusVectorDBStorge": MilvusVectorDBStorge,
+             # graph storage
+             "NetworkXStorage": NetworkXStorage,
+-            "Neo4JStorage": Neo4JStorage,
+-            "OracleGraphStorage": OracleGraphStorage,
+-            # "ArangoDBStorage": ArangoDBStorage
+         }
+ 
++        class _LazyStorageRegistry(dict):
++            def __missing__(self, name):
++                spec = LightRAG._EXTERNAL_STORAGES.get(name)
++                if spec is None:
++                    raise KeyError(name)
++                module, attr = spec
++                from importlib import import_module
++
++                return getattr(import_module(module, package=__package__), attr)
++
++        return _LazyStorageRegistry(local)
++
+     def insert(self, string_or_strings):
+         loop = always_get_an_event_loop()
+         return loop.run_until_complete(self.ainsert(string_or_strings))
+diff --git a/lightrag/llm.py b/lightrag/llm.py
+index 2810d93ee..908089bc8 100644
+--- a/lightrag/llm.py
++++ b/lightrag/llm.py
+@@ -2,10 +2,8 @@ import os
+ import copy
+ from functools import lru_cache
+ import json
+-import aioboto3
+ import aiohttp
+ import numpy as np
+-import ollama
+ 
+ from openai import (
+     AsyncOpenAI,
+@@ -24,8 +22,6 @@ from tenacity import (
+     wait_exponential,
+     retry_if_exception_type,
+ )
+-from transformers import AutoTokenizer, AutoModelForCausalLM
+-import torch
+ from pydantic import BaseModel, Field
+ from typing import List, Dict, Callable, Any
+ from .base import BaseKVStorage
+@@ -160,6 +156,7 @@ async def bedrock_complete_if_cache(
+     aws_session_token=None,
+     **kwargs,
+ ) -> str:
++    import aioboto3
+     os.environ["AWS_ACCESS_KEY_ID"] = os.environ.get(
+         "AWS_ACCESS_KEY_ID", aws_access_key_id
+     )
+@@ -232,6 +229,7 @@ async def bedrock_complete_if_cache(
+ 
+ @lru_cache(maxsize=1)
+ def initialize_hf_model(model_name):
++    from transformers import AutoTokenizer, AutoModelForCausalLM
+     hf_tokenizer = AutoTokenizer.from_pretrained(
+         model_name, device_map="auto", trust_remote_code=True
+     )
+@@ -312,6 +310,7 @@ async def hf_model_if_cache(
+ async def ollama_model_if_cache(
+     model, prompt, system_prompt=None, history_messages=[], **kwargs
+ ) -> str:
++    import ollama
+     kwargs.pop("max_tokens", None)
+     # kwargs.pop("response_format", None) # allow json
+     host = kwargs.pop("host", None)
+@@ -505,6 +504,21 @@ async def gpt_4o_mini_complete(
+     )
+ 
+ 
++async def gpt_5_mini_complete(
++    prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
++) -> str:
++    keyword_extraction = kwargs.pop("keyword_extraction", None)
++    if keyword_extraction:
++        kwargs["response_format"] = GPTKeywordExtractionFormat
++    return await openai_complete_if_cache(
++        "openai/gpt-5-mini",
++        prompt,
++        system_prompt=system_prompt,
++        history_messages=history_messages,
++        **kwargs,
++    )
++
++
+ async def nvidia_openai_complete(
+     prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
+ ) -> str:
+@@ -724,6 +738,7 @@ async def bedrock_embedding(
+     aws_secret_access_key=None,
+     aws_session_token=None,
+ ) -> np.ndarray:
++    import aioboto3
+     os.environ["AWS_ACCESS_KEY_ID"] = os.environ.get(
+         "AWS_ACCESS_KEY_ID", aws_access_key_id
+     )
+@@ -784,6 +799,7 @@ async def bedrock_embedding(
+ 
+ 
+ async def hf_embedding(texts: list[str], tokenizer, embed_model) -> np.ndarray:
++    import torch
+     device = next(embed_model.parameters()).device
+     input_ids = tokenizer(
+         texts, return_tensors="pt", padding=True, truncation=True
+@@ -801,6 +817,7 @@ async def ollama_embedding(texts: list[str], embed_model, **kwargs) -> np.ndarra
+     """
+     Deprecated in favor of `embed`.
+     """
++    import ollama
+     embed_text = []
+     ollama_client = ollama.Client(**kwargs)
+     for text in texts:
+@@ -811,6 +828,7 @@ async def ollama_embedding(texts: list[str], embed_model, **kwargs) -> np.ndarra
+ 
+ 
+ async def ollama_embed(texts: list[str], embed_model, **kwargs) -> np.ndarray:
++    import ollama
+     ollama_client = ollama.Client(**kwargs)
+     data = ollama_client.embed(model=embed_model, input=texts)
+     return data["embeddings"]
+diff --git a/lightrag/operate.py b/lightrag/operate.py
+index 5f653d272..abce059a3 100644
+--- a/lightrag/operate.py
++++ b/lightrag/operate.py
+@@ -1,5 +1,6 @@
+ import asyncio
+ import json
++import os
+ import re
+ from tqdm.asyncio import tqdm as tqdm_async
+ from typing import Union
+@@ -197,7 +198,24 @@ async def _merge_edges_then_upsert(
+             split_string_by_multi_markers(already_edge["keywords"], [GRAPH_FIELD_SEP])
+         )
+ 
++    already_types = []
++    if already_weights:  # the edge existed, so already_edge is loaded above
++        already_types.extend(
++            split_string_by_multi_markers(
++                already_edge.get("relation_type", "") or "", [GRAPH_FIELD_SEP])
++        )
++
+     weight = sum([dp["weight"] for dp in edges_data] + already_weights)
++    # The relation type is never summarised and never paraphrased: it is joined
++    # as a set and written through verbatim. `description` goes through
++    # _handle_entity_relation_summary below, whose prompt is told to "resolve the
++    # contradictions" between descriptions -- which is exactly what must not be
++    # done to a corpus carrying deliberately inconsistent relations.
++    relation_type = GRAPH_FIELD_SEP.join(
++        sorted({t for t in
++                [dp.get("relation_type", "") for dp in edges_data] + already_types
++                if t})
++    )
+     description = GRAPH_FIELD_SEP.join(
+         sorted(set([dp["description"] for dp in edges_data] + already_description))
+     )
+@@ -227,6 +245,7 @@ async def _merge_edges_then_upsert(
+             weight=weight,
+             description=description,
+             keywords=keywords,
++            relation_type=relation_type,
+             source_id=source_id,
+         ),
+     )
+@@ -236,11 +255,98 @@ async def _merge_edges_then_upsert(
+         tgt_id=tgt_id,
+         description=description,
+         keywords=keywords,
++        relation_type=relation_type,
+     )
+ 
+     return edge_data
+ 
+ 
++
++# --------------------------------------------------- typed relation injection
++#
++# LightRAG's own schema has no relation type. Its extraction prompt asks for a
++# `relationship_description` -- "explanation as to why you think the source
++# entity and the target entity are related" -- and a `relationship_keywords`
++# field told to report "concepts or themes rather than specific details". So the
++# predicate is not stored anywhere: measured on ten HotpotQA passages, 0 of 31
++# edges whose entity pair matched our extraction carried a relation that could
++# be compared with the extracted predicate, because what the edge carries is an
++# 18-word sentence.
++#
++# That is fatal for measuring a defence that perturbs predicates. The loss falls
++# equally on the undefended and the sanitised corpus, and it makes the attacker
++# recover less in both -- which flatters the defence, the one direction an
++# evaluation must not be biased in.
++#
++# Asking the LLM for the predicate was tried first and is not enough: adding a
++# field and rewriting the few-shot examples took the description from 16 words
++# to 9 and the exact agreement with our extracted predicate from 0% to 41%, but
++# 41% is not a guarantee and a graph built by a second extractor can always
++# disagree with the first.
++#
++# So the predicates are not extracted here at all. They are injected from the
++# pipeline that wrote them into the text: dp/inplace.py knows the exact
++# (subject, predicate, object) it substituted into each passage, so the graph is
++# handed that triple and carries the predicate verbatim. The guarantee is
++# structural rather than statistical.
++#
++# LightRAG's own extraction is left completely alone -- same prompt, same
++# gleaning, same entities, same descriptions. This adds a channel; it removes
++# nothing. A pair LightRAG found and we did not keeps an empty type.
++INJECT_ENV = "DP_TYPED_RELATIONS"
++
++
++def _load_injected_relations() -> dict:
++    """title -> [(subject, predicate, object)], from the file DP_TYPED_RELATIONS names."""
++    path = os.environ.get(INJECT_ENV, "").strip()
++    if not path:
++        return {}
++    if not os.path.exists(path):
++        raise FileNotFoundError(f"{INJECT_ENV}={path} does not exist")
++    with open(path, encoding="utf-8") as handle:
++        raw = json.load(handle)
++    out = {}
++    for title, triples in raw.get("by_title", {}).items():
++        out[title] = [(t["subject"], t["relation"], t["object"]) for t in triples]
++    logger.info(f"typed relations: {sum(len(v) for v in out.values())} triples "
++                f"over {len(out)} passages from {path}")
++    return out
++
++
++def _injected_edges_for_chunk(content: str, chunk_key: str,
++                              injected: dict) -> list:
++    """The typed edges whose passage this chunk contains.
++
++    A chunk may hold several passages, because benchmarks.pack() concatenates
++    them up to a token budget. Membership is decided by the passage title
++    appearing in the chunk, which is how the corpus is built: the title is the
++    passage's first line and it is carried into the index verbatim.
++
++    Entity names are upper-cased to match _handle_single_entity_extraction,
++    which does `clean_str(record_attributes[1].upper())`. An endpoint LightRAG
++    never extracted is not a problem: _merge_edges_then_upsert creates a missing
++    node rather than dropping the edge.
++    """
++    out = []
++    for title, triples in injected.items():
++        if title not in content:
++            continue
++        for subject, relation, obj in triples:
++            s, o = clean_str(subject.upper()), clean_str(obj.upper())
++            if not s or not o or s == o:
++                continue
++            spoken = relation.replace("_", " ")
++            out.append(dict(
++                src_id=s, tgt_id=o, weight=1.0,
++                # the description says the triple and nothing else, so a reader
++                # handed this edge sees the predicate rather than a paraphrase
++                description=f"{subject} {spoken} {obj}",
++                keywords=spoken,
++                relation_type=relation,
++                source_id=chunk_key))
++    return out
++
++
+ async def extract_entities(
+     chunks: dict[str, TextChunkSchema],
+     knowledge_graph_inst: BaseGraphStorage,
+@@ -250,6 +356,7 @@ async def extract_entities(
+ ) -> Union[BaseGraphStorage, None]:
+     use_llm_func: callable = global_config["llm_model_func"]
+     entity_extract_max_gleaning = global_config["entity_extract_max_gleaning"]
++    injected_relations = _load_injected_relations()
+ 
+     ordered_chunks = list(chunks.items())
+     # add language and example number params to prompt
+@@ -347,6 +454,10 @@ async def extract_entities(
+                 maybe_edges[(if_relation["src_id"], if_relation["tgt_id"])].append(
+                     if_relation
+                 )
++        for edge in _injected_edges_for_chunk(content, chunk_key,
++                                              injected_relations):
++            maybe_edges[(edge["src_id"], edge["tgt_id"])].append(edge)
++
+         already_processed += 1
+         already_entities += len(maybe_nodes)
+         already_relations += len(maybe_edges)
+@@ -471,7 +582,11 @@ async def kg_query(
+         return PROMPTS["fail_response"]
+ 
+     # LLM generate keywords
+-    use_model_func = global_config["llm_model_func"]
++    # answering may run on a different model than extraction did
++    use_model_func = (
++        global_config.get("llm_model_func_for_query")
++        or global_config["llm_model_func"]
++    )
+     kw_prompt_temp = PROMPTS["keywords_extraction"]
+     kw_prompt = kw_prompt_temp.format(query=query, examples=examples, language=language)
+     result = await use_model_func(kw_prompt, keyword_extraction=True)
+@@ -573,7 +688,7 @@ async def _build_query_context(
+                 entities_vdb,
+                 text_chunks_db,
+                 query_param,
+-            )
++            ) or ("", "", "")  # vdb miss -> empty context instead of TypeError
+     if query_param.mode in ["global", "hybrid"]:
+         if hl_keywrds == "":
+             hl_entities_context, hl_relations_context, hl_text_units_context = (
+@@ -596,7 +711,7 @@ async def _build_query_context(
+                 relationships_vdb,
+                 text_chunks_db,
+                 query_param,
+-            )
++            ) or ("", "", "")  # vdb miss -> empty context instead of TypeError
+     if query_param.mode == "hybrid":
+         entities_context, relations_context, text_units_context = combine_contexts(
+             [hl_entities_context, ll_entities_context],
+@@ -685,7 +800,8 @@ async def _get_node_data(
+     entities_context = list_of_list_to_csv(entites_section_list)
+ 
+     relations_section_list = [
+-        ["id", "source", "target", "description", "keywords", "weight", "rank"]
++        ["id", "source", "target", "type", "description", "keywords", "weight",
++         "rank"]
+     ]
+     for i, e in enumerate(use_relations):
+         relations_section_list.append(
+@@ -693,6 +809,7 @@ async def _get_node_data(
+                 i,
+                 e["src_tgt"][0],
+                 e["src_tgt"][1],
++                e.get("relation_type", "") or "UNKNOWN",
+                 e["description"],
+                 e["keywords"],
+                 e["weight"],
+@@ -868,7 +985,8 @@ async def _get_edge_data(
+     )
+ 
+     relations_section_list = [
+-        ["id", "source", "target", "description", "keywords", "weight", "rank"]
++        ["id", "source", "target", "type", "description", "keywords", "weight",
++         "rank"]
+     ]
+     for i, e in enumerate(edge_datas):
+         relations_section_list.append(
+@@ -876,6 +994,7 @@ async def _get_edge_data(
+                 i,
+                 e["src_id"],
+                 e["tgt_id"],
++                e.get("relation_type", "") or "UNKNOWN",
+                 e["description"],
+                 e["keywords"],
+                 e["weight"],
+@@ -1003,7 +1122,11 @@ async def naive_query(
+     query_param: QueryParam,
+     global_config: dict,
+ ):
+-    use_model_func = global_config["llm_model_func"]
++    # answering may run on a different model than extraction did
++    use_model_func = (
++        global_config.get("llm_model_func_for_query")
++        or global_config["llm_model_func"]
++    )
+     results = await chunks_vdb.query(query, top_k=query_param.top_k)
+     if not len(results):
+         return PROMPTS["fail_response"]
+diff --git a/lightrag/storage.py b/lightrag/storage.py
+index 007d65346..2dc2a817c 100644
+--- a/lightrag/storage.py
++++ b/lightrag/storage.py
+@@ -97,15 +97,22 @@ class NanoVectorDBStorage(BaseVectorStorage):
+             for i in range(0, len(contents), self._max_batch_size)
+         ]
+         embedding_tasks = [self.embedding_func(batch) for batch in batches]
++        # asyncio.as_completed() yields in COMPLETION order while list_data below
++        # is in submission order, so zipping them positionally attached whole
++        # batches of vectors to the wrong records. gather() preserves order.
+         embeddings_list = []
+-        for f in tqdm_async(
+-            asyncio.as_completed(embedding_tasks),
+-            total=len(embedding_tasks),
+-            desc="Generating embeddings",
+-            unit="batch",
+-        ):
+-            embeddings = await f
+-            embeddings_list.append(embeddings)
++        with tqdm_async(
++            total=len(embedding_tasks), desc="Generating embeddings", unit="batch"
++        ) as bar:
++
++            async def _run(task):
++                result = await task
++                bar.update(1)
++                return result
++
++            embeddings_list = await asyncio.gather(
++                *[_run(t) for t in embedding_tasks]
++            )
+         embeddings = np.concatenate(embeddings_list)
+         for i, d in enumerate(list_data):
+             d["__vector__"] = embeddings[i]
+diff --git a/requirements.txt b/requirements.txt
+index 4ccb2bb39..66b7f904d 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -1,23 +1,23 @@
+-accelerate
+-aioboto3
++# Minimal dependency set for reproducing the LightRAG paper (arXiv 2410.05779).
++# The upstream v1.0.3 list is kept in requirements-full.txt.orig; it pulls
++# torch/transformers/oracledb/pymilvus/neo4j/graspologic, none of which the
++# paper pipeline touches. Those backends are now imported lazily, so they only
++# need installing if you actually select them.
++
++# core
+ aiohttp
++nano-vectordb      # vector store
++networkx           # knowledge graph
++numpy<2
++tenacity
++tiktoken           # chunking / token counting
++tqdm
++xxhash
+ 
+-# database packages
+-graspologic
+-hnswlib
+-nano-vectordb
+-neo4j
+-networkx
+-ollama
++# LLM (also covers any OpenAI-compatible endpoint, e.g. vLLM)
+ openai
+-oracledb
+-pymilvus
+-pyvis
+-tenacity
+-# lmdeploy[all]
++pydantic
+ 
+-# LLM packages
+-tiktoken
+-torch
++# reproduce/: Step_2 query generation (GPT2Tokenizer) and batch_eval judge
+ transformers
+-xxhash
++jsonlines

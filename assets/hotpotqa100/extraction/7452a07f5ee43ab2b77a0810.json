@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Viken L. Babikian": "PERSON",
+    "American University of Beirut": "ORG",
+    "University of Chicago Hospitals": "ORG",
+    "Massachusetts General Hospital": "ORG",
+    "Boston University Department of Neurology": "ORG",
+    "Boston University School of Medicine": "ORG",
+    "Armenian": "NORP",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Viken L. Babikian",
+      "relation": "attended",
+      "object": "American University of Beirut",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "attended the medical school at",
+          "line_start": 136,
+          "char_start": 151,
+          "ambiguous": false,
+          "relation_mention": "attended the medical school at",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Viken L. Babikian",
+      "relation": "completed_residency_at",
+      "object": "University of Chicago Hospitals",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "complete his Neurology residency at",
+          "line_start": 221,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "complete his Neurology residency at",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Viken L. Babikian",
+        "works_for",
+        "Boston University School of Medicine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Viken L. Babikian",
+        "completed_fellowship_at",
+        "Massachusetts General Hospital"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Viken L. Babikian",
+        "joined",
+        "Boston University Department of Neurology"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Viken L. Babikian",
+        "has_nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Viken L. Babikian",
+        "has_origin",
+        "Armenian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Viken Babikian\nViken L. Babikian is an American doctor of Armenian origin and professor of neurology at Boston University School of Medicine. Babikian attended the medical school at the American University of Beirut. He then went on to complete his Neurology residency at the University of Chicago Hospitals and a stroke fellowship at the Massachusetts General Hospital. He joined the Boston University Department of Neurology in 1986. He has been a pioneer in studying cerebrovascular disorders such as stroke, with numerous publications.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Viken L. Babikian\", \"type\": \"PERSON\"},\n    {\"name\": \"American University of Beirut\", \"type\": \"ORG\"},\n    {\"name\": \"University of Chicago Hospitals\", \"type\": \"ORG\"},\n    {\"name\": \"Massachusetts General Hospital\", \"type\": \"ORG\"},\n    {\"name\": \"Boston University Department of Neurology\", \"type\": \"ORG\"},\n    {\"name\": \"Boston University School of Medicine\", \"type\": \"ORG\"},\n    {\"name\": \"Armenian\", \"type\": \"NORP\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Viken L. Babikian\",\n      \"relation\": \"works_for\",\n      \"object\": \"Boston University School of Medicine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"professor of neurology at\"}\n      ]\n    },\n    {\n      \"subject\": \"Viken L. Babikian\",\n      \"relation\": \"attended\",\n      \"object\": \"American University of Beirut\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"attended the medical school at\"}\n      ]\n    },\n    {\n      \"subject\": \"Viken L. Babikian\",\n      \"relation\": \"completed_residency_at\",\n      \"object\": \"University of Chicago Hospitals\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"complete his Neurology residency at\"}\n      ]\n    },\n    {\n      \"subject\": \"Viken L. Babikian\",\n      \"relation\": \"completed_fellowship_at\",\n      \"object\": \"Massachusetts General Hospital\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a stroke fellowship at\"}\n      ]\n    },\n    {\n      \"subject\": \"Viken L. Babikian\",\n      \"relation\": \"joined\",\n      \"object\": \"Boston University Department of Neurology\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"joined the Boston University Department of Neurology in 1986\"}\n      ]\n    },\n    {\n      \"subject\": \"Viken L. Babikian\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Viken L. Babikian\",\n      \"relation\": \"has_origin\",\n      \"object\": \"Armenian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Armenian origin\"}\n      ]\n    }\n  ]\n}"
+}

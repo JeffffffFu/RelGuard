@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Arnaud Clément": "Person",
+    "Édouard Roger-Vasselin": "Person",
+    "David Guez": "Person",
+    "Harsh Mankad": "Person",
+    "Adil Shamasdin": "Person",
+    "Nicolas Mahut": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Arnaud Clément",
+      "relation": "partnered_with",
+      "object": "David Guez",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Clément partnered up with David Guez"
+        }
+      ]
+    },
+    {
+      "subject": "Édouard Roger-Vasselin",
+      "relation": "partnered_with",
+      "object": "Nicolas Mahut",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Roger-Vasselin partnered up with Nicolas Mahut"
+        }
+      ]
+    },
+    {
+      "subject": "Arnaud Clément",
+      "relation": "defended_with",
+      "object": "David Guez",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "they elected to defend their title with different partners"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nicolas Mahut",
+        "won_over",
+        "Mankad and Shamasdin"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "David Guez",
+        "withdrew_before",
+        "quarterfinal match against Harsh Mankad and Adil Shamasdin"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "2010 Challenger DCNS de Cherbourg – Doubles\nArnaud Clément and Édouard Roger-Vasselin were the defending champions, but they elected to defend their title with different partners.Clément partnered up with David Guez, but they withdrew before their quarterfinal match against Harsh Mankad and Adil Shamasdin.Roger-Vasselin partnered up with Nicolas Mahut and they won in the final 6–2, 6–4, over Mankad and Shamasdin."
+}

@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Summit Air Flight 409": "EVENT",
+    "Let L-410": "PRODUCT",
+    "Tenzing–Hillary Airport": "FAC",
+    "Nepal": "GPE",
+    "Lukla": "GPE",
+    "runway 06": "FAC",
+    "captain": "PERSON",
+    "first officer": "PERSON",
+    "ground fog": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "captain",
+      "relation": "died_as_result_of",
+      "object": "Summit Air Flight 409",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died as result of the accident",
+          "line_start": 463,
+          "char_start": 485,
+          "ambiguous": false,
+          "relation_mention": "died as result of the accident",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "first officer",
+      "relation": "died_as_result_of",
+      "object": "Summit Air Flight 409",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died as result of the accident",
+          "line_start": 463,
+          "char_start": 485,
+          "ambiguous": false,
+          "relation_mention": "died as result of the accident",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Summit Air Flight 409",
+        "was_a",
+        "Let L-410"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Summit Air Flight 409",
+        "crashed_at",
+        "Tenzing–Hillary Airport"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tenzing–Hillary Airport",
+        "located_in",
+        "Nepal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Summit Air Flight 409",
+        "was_on_final_approach_to",
+        "runway 06"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "runway 06",
+        "located_in",
+        "Lukla"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Summit Air Flight 409",
+        "hit",
+        "trees"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "ground fog",
+        "reduced",
+        "local visibility"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "runway 06",
+        "is_type",
+        "all visual runway"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Summit Air Flight 409\nOn May 27, 2017, Summit Air flight 409, a Let L-410, crashed short of the runway threshold whilst attempting landing at Tenzing–Hillary Airport in Nepal. It was on final approach to Lukla's runway 06 at about 1404 Local Time when the aircraft hit trees short of the runway and subsequently crashed on the ground 3 m below runway level. The aircraft the slid down the slope before coming to a rest about 200 m below runway level. The captain and the first officer died as result of the accident, another crew member received injuries. At the time of the accident, local visibility was substantially reduced by ground fog. The up-slope runway 06 is an all visual runway without any instrument approach guidance.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Summit Air Flight 409\", \"type\": \"EVENT\"},\n    {\"name\": \"Let L-410\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Tenzing–Hillary Airport\", \"type\": \"FAC\"},\n    {\"name\": \"Nepal\", \"type\": \"GPE\"},\n    {\"name\": \"Lukla\", \"type\": \"GPE\"},\n    {\"name\": \"runway 06\", \"type\": \"FAC\"},\n    {\"name\": \"captain\", \"type\": \"PERSON\"},\n    {\"name\": \"first officer\", \"type\": \"PERSON\"},\n    {\"name\": \"ground fog\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Summit Air Flight 409\",\n      \"relation\": \"was_a\",\n      \"object\": \"Let L-410\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a Let L-410\"}\n      ]\n    },\n    {\n      \"subject\": \"Summit Air Flight 409\",\n      \"relation\": \"crashed_at\",\n      \"object\": \"Tenzing–Hillary Airport\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"crashed short of the runway threshold whilst attempting landing at Tenzing–Hillary Airport\"}\n      ]\n    },\n    {\n      \"subject\": \"Tenzing–Hillary Airport\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nepal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Nepal\"}\n      ]\n    },\n    {\n      \"subject\": \"Summit Air Flight 409\",\n      \"relation\": \"was_on_final_approach_to\",\n      \"object\": \"runway 06\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on final approach to Lukla's runway 06\"}\n      ]\n    },\n    {\n      \"subject\": \"runway 06\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lukla\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Lukla's runway 06\"}\n      ]\n    },\n    {\n      \"subject\": \"Summit Air Flight 409\",\n      \"relation\": \"hit\",\n      \"object\": \"trees\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the aircraft hit trees short of the runway\"}\n      ]\n    },\n    {\n      \"subject\": \"captain\",\n      \"relation\": \"died_as_result_of\",\n      \"object\": \"Summit Air Flight 409\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"died as result of the accident\"}\n      ]\n    },\n    {\n      \"subject\": \"first officer\",\n      \"relation\": \"died_as_result_of\",\n      \"object\": \"Summit Air Flight 409\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"died as result of the accident\"}\n      ]\n    },\n    {\n      \"subject\": \"ground fog\",\n      \"relation\": \"reduced\",\n      \"object\": \"local visibility\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"local visibility was substantially reduced by ground fog\"}\n      ]\n    },\n    {\n      \"subject\": \"runway 06\",\n      \"relation\": \"is_type\",\n      \"object\": \"all visual runway\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an all visual runway\"}\n      ]\n    }\n  ]\n}"
+}

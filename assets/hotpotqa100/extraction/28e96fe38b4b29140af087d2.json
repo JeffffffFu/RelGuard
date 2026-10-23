@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Pinocchio (1940 film)": "WORK_OF_ART",
+    "Pinocchio": "WORK_OF_ART",
+    "Walt Disney Productions": "ORG",
+    "The Adventures of Pinocchio": "WORK_OF_ART",
+    "Carlo Collodi": "PERSON",
+    "Disney": "ORG",
+    "Snow White and the Seven Dwarfs": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Pinocchio",
+      "relation": "produced_by",
+      "object": "Walt Disney Productions",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 59,
+          "char_start": 81,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pinocchio",
+      "relation": "based_on",
+      "object": "The Adventures of Pinocchio",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 99,
+          "char_start": 121,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pinocchio (1940 film)",
+      "relation": "made_after",
+      "object": "Snow White and the Seven Dwarfs",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made after",
+          "line_start": 245,
+          "char_start": 267,
+          "ambiguous": false,
+          "relation_mention": "made after",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Pinocchio (1940 film)",
+      "relation": "produced_by",
+      "object": "Disney",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 59,
+          "char_start": 81,
+          "ambiguous": true,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Adventures of Pinocchio",
+        "written_by",
+        "Carlo Collodi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Pinocchio (1940 film)\nPinocchio is a 1940 American animated musical fantasy film produced by Walt Disney Productions and based on the Italian children's novel \"The Adventures of Pinocchio\" by Carlo Collodi. It was the second animated feature film produced by Disney, made after the success of \"Snow White and the Seven Dwarfs\" (1937).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Pinocchio (1940 film)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Pinocchio\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Walt Disney Productions\", \"type\": \"ORG\"},\n    {\"name\": \"The Adventures of Pinocchio\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Carlo Collodi\", \"type\": \"PERSON\"},\n    {\"name\": \"Disney\", \"type\": \"ORG\"},\n    {\"name\": \"Snow White and the Seven Dwarfs\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Pinocchio\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Walt Disney Productions\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Pinocchio\",\n      \"relation\": \"based_on\",\n      \"object\": \"The Adventures of Pinocchio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on\"}\n      ]\n    },\n    {\n      \"subject\": \"The Adventures of Pinocchio\",\n      \"relation\": \"written_by\",\n      \"object\": \"Carlo Collodi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    },\n    {\n      \"subject\": \"Pinocchio (1940 film)\",\n      \"relation\": \"made_after\",\n      \"object\": \"Snow White and the Seven Dwarfs\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made after\"}\n      ]\n    },\n    {\n      \"subject\": \"Pinocchio (1940 film)\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Disney\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    }\n  ]\n}"
+}

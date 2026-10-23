@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Weekend Blockbusters": "ORG",
+    "Kollam": "GPE",
+    "India": "GPE",
+    "Sophia Paul": "PERSON",
+    "Bangalore Days": "WORK_OF_ART",
+    "Kaadu Pookkunna Neram": "WORK_OF_ART",
+    "Munthirivallikal Thalirkkumbol": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Weekend Blockbusters",
+      "relation": "located_in",
+      "object": "Kollam",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 58,
+          "char_start": 79,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Weekend Blockbusters",
+      "relation": "founded",
+      "object": "Sophia Paul",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "established in 2014 by",
+          "line_start": 89,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "established in 2014 by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Weekend Blockbusters",
+      "relation": "produced",
+      "object": "Kaadu Pookkunna Neram",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "they produced",
+          "line_start": 212,
+          "char_start": 233,
+          "ambiguous": false,
+          "relation_mention": "they produced",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Weekend Blockbusters",
+      "relation": "produced",
+      "object": "Munthirivallikal Thalirkkumbol",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "they produced",
+          "line_start": 212,
+          "char_start": 233,
+          "ambiguous": false,
+          "relation_mention": "they produced",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kollam",
+        "located_in",
+        "India"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Weekend Blockbusters",
+        "produced",
+        "Bangalore Days"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Weekend Blockbusters\nWeekend Blockbusters is an Indian film production company based in Kollam, India. It was established in 2014 by producer Sophia Paul. Its first production was the Malayalam film\" Bangalore Days\"( 2014). In 2016, they produced two films-\" Kaadu Pookkunna Neram\" and\" Munthirivallikal Thalirkkumbol\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Weekend Blockbusters\", \"type\": \"ORG\"},\n    {\"name\": \"Kollam\", \"type\": \"GPE\"},\n    {\"name\": \"India\", \"type\": \"GPE\"},\n    {\"name\": \"Sophia Paul\", \"type\": \"PERSON\"},\n    {\"name\": \"Bangalore Days\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Kaadu Pookkunna Neram\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Munthirivallikal Thalirkkumbol\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Weekend Blockbusters\",\n      \"relation\": \"located_in\",\n      \"object\": \"Kollam\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Kollam\",\n      \"relation\": \"located_in\",\n      \"object\": \"India\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Kollam, India\"}\n      ]\n    },\n    {\n      \"subject\": \"Weekend Blockbusters\",\n      \"relation\": \"founded\",\n      \"object\": \"Sophia Paul\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"established in 2014 by\"}\n      ]\n    },\n    {\n      \"subject\": \"Weekend Blockbusters\",\n      \"relation\": \"produced\",\n      \"object\": \"Bangalore Days\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Its first production was the Malayalam film\\\" Bangalore Days\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Weekend Blockbusters\",\n      \"relation\": \"produced\",\n      \"object\": \"Kaadu Pookkunna Neram\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"they produced\"}\n      ]\n    },\n    {\n      \"subject\": \"Weekend Blockbusters\",\n      \"relation\": \"produced\",\n      \"object\": \"Munthirivallikal Thalirkkumbol\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"they produced\"}\n      ]\n    }\n  ]\n}"
+}

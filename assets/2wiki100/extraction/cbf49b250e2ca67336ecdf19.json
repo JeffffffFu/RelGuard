@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "Marco Ferreri": "Person",
+    "Italy": "Location",
+    "Spain": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Marco Ferreri",
+      "relation": "nationality",
+      "object": "Italy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was an Italian film director"
+        }
+      ]
+    },
+    {
+      "subject": "Marco Ferreri",
+      "relation": "directed_in",
+      "object": "Spain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directing three films in Spain"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marco Ferreri",
+        "born_on",
+        "11 May 1928"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Marco Ferreri",
+        "died_on",
+        "9 May 1997"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Marco Ferreri",
+        "directed",
+        "24 Italian films"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Marco Ferreri\nMarco Ferreri( 11 May 1928 – 9 May 1997) was an Italian film director, screenwriter and actor, who began his career in the 1950s directing three films in Spain, followed by 24 Italian films before his death in 1997."
+}

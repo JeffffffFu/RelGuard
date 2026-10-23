@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Yasir Hussain": "Person",
+    "Islamabad": "Location",
+    "Pakistan": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Yasir Hussain",
+      "relation": "from",
+      "object": "Islamabad",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Islamabad"
+        }
+      ]
+    },
+    {
+      "subject": "Islamabad",
+      "relation": "located_in",
+      "object": "Pakistan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Islamabad"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Yasir Hussain",
+        "best_known_for",
+        "comic roles"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Yasir Hussain\nYasir Hussain is a Pakistani actor and writer from Islamabad best known for his comic roles."
+}

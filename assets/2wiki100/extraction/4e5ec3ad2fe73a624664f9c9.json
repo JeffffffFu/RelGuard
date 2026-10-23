@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Daniel Burman": "Person",
+    "Buenos Aires": "Location",
+    "Joel Poblete": "Person",
+    "Mabuse": "Organization",
+    "New Argentina Cinema": "Cinematic Movement",
+    "Anthony Kaufman": "Person",
+    "indieWIRE": "Organization",
+    "A Chrysanthemum Burst in Cincoesquinas": "Film",
+    "New Argentine Cinema": "Cinematic Movement"
+  },
+  "triples": [
+    {
+      "subject": "Daniel Burman",
+      "relation": "born_in",
+      "object": "Buenos Aires",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born 29 August 1973 in Buenos Aires"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Daniel Burman",
+        "is_a",
+        "Person"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Daniel Burman",
+        "is_member_of",
+        "New Argentina Cinema"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "New Argentina Cinema",
+        "began",
+        "1998"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Daniel Burman",
+        "directed",
+        "A Chrysanthemum Burst in Cincoesquinas"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Burst in Cincoesquinas",
+        "cited_as",
+        "New Argentine Cinema"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Joel Poblete",
+        "writes_for",
+        "Mabuse"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Anthony Kaufman",
+        "writes_for",
+        "indieWIRE"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Daniel Burman\nDaniel Burman (born 29 August 1973 in Buenos Aires) is an Argentine film director, screenplay writer, and producer. According to film critic Joel Poblete, who writes for \"Mabuse\", a cinema magazine, Daniel Burman is one of the members of the so-called \"New Argentina Cinema\", which began \"circa\" 1998. Film critic Anthony Kaufman, writing for \"indieWIRE\", an online community of independent filmmakers and aficionados, said Burman's \"A Chrysanthemum Burst in Cincoesquinas\" (1998) has been cited as the beginning of the \"New Argentine Cinema\" wave."
+}

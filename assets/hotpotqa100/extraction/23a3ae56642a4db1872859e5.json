@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Daniel Doherty": "PERSON",
+    "San Francisco": "GPE",
+    "Mission District": "GPE",
+    "Clarion Alley Mural Project": "ORG",
+    "Mohamed Bouazizi": "PERSON",
+    "Tunisian Revolution": "EVENT",
+    "Laura Lengel": "PERSON",
+    "Symbolic Interaction and New Social Media": "WORK_OF_ART",
+    "Dolores Park": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Daniel Doherty",
+      "relation": "created",
+      "object": "Mohamed Bouazizi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "painted an informative mural of",
+          "line_start": 308,
+          "char_start": 323,
+          "ambiguous": false,
+          "relation_mention": "painted an informative mural of",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Daniel Doherty",
+        "located_in",
+        "San Francisco"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Daniel Doherty",
+        "works_for",
+        "Clarion Alley Mural Project"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Clarion Alley Mural Project",
+        "located_in",
+        "Mission District"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mohamed Bouazizi",
+        "associated_with",
+        "Tunisian Revolution"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Laura Lengel",
+        "author_of",
+        "Symbolic Interaction and New Social Media"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Laura Lengel",
+        "mentions",
+        "Daniel Doherty"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Daniel Doherty",
+        "created",
+        "Dolores Park"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Daniel Doherty\nDaniel Doherty is a San Franciscan street artist. He is widely known for creating graffiti murals in the Mission District. Clarion Alley Mural Project participates in spreading awareness of heroes worldwide. Every year, 200,000 people visit these murals in San Francisco's Mission District. In 2011, Doherty painted an informative mural of Mohamed Bouazizi. The mural consists of a painting of Bouazizi surrounded by an explanation of how he became a catalyst for the Tunisian Revolution. Laura Lengel, author of \"Symbolic Interaction and New Social Media,\" mention the significance of Doherty's mural of Mohamed Bouazizi. They describe Doherty's work of art as an \"alternative offline media form.\" Doherty’s mural educated each visitor about this Tunisian martyr while promoting local art, helping spread Bouazizi's actions worldwide. Doherty has created several murals that consist of a local homeless man. These images touch on social problems. In one of them titles \"Everything Must Go!\" a bookstore filled with books about San Francisco is going out of business. He has also captured a famous location in San Francisco, Dolores Park, where he used pointillism.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Daniel Doherty\", \"type\": \"PERSON\"},\n    {\"name\": \"San Francisco\", \"type\": \"GPE\"},\n    {\"name\": \"Mission District\", \"type\": \"GPE\"},\n    {\"name\": \"Clarion Alley Mural Project\", \"type\": \"ORG\"},\n    {\"name\": \"Mohamed Bouazizi\", \"type\": \"PERSON\"},\n    {\"name\": \"Tunisian Revolution\", \"type\": \"EVENT\"},\n    {\"name\": \"Laura Lengel\", \"type\": \"PERSON\"},\n    {\"name\": \"Symbolic Interaction and New Social Media\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Dolores Park\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Daniel Doherty\",\n      \"relation\": \"located_in\",\n      \"object\": \"San Francisco\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a San Franciscan\"}\n      ]\n    },\n    {\n      \"subject\": \"Daniel Doherty\",\n      \"relation\": \"works_for\",\n      \"object\": \"Clarion Alley Mural Project\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Clarion Alley Mural Project participates\"}\n      ]\n    },\n    {\n      \"subject\": \"Clarion Alley Mural Project\",\n      \"relation\": \"located_in\",\n      \"object\": \"Mission District\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Mission District\"}\n      ]\n    },\n    {\n      \"subject\": \"Daniel Doherty\",\n      \"relation\": \"created\",\n      \"object\": \"Mohamed Bouazizi\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"painted an informative mural of\"}\n      ]\n    },\n    {\n      \"subject\": \"Mohamed Bouazizi\",\n      \"relation\": \"associated_with\",\n      \"object\": \"Tunisian Revolution\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"catalyst for the Tunisian Revolution\"}\n      ]\n    },\n    {\n      \"subject\": \"Laura Lengel\",\n      \"relation\": \"author_of\",\n      \"object\": \"Symbolic Interaction and New Social Media\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"author of \\\"Symbolic Interaction and New Social Media,\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Laura Lengel\",\n      \"relation\": \"mentions\",\n      \"object\": \"Daniel Doherty\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"mention the significance of Doherty's mural\"}\n      ]\n    },\n    {\n      \"subject\": \"Daniel Doherty\",\n      \"relation\": \"created\",\n      \"object\": \"Dolores Park\",\n      \"occurrences\": [\n        {\"line\": 6, \"predicate\": \"captured a famous location in San Francisco, Dolores Park\"}\n      ]\n    }\n  ]\n}"
+}

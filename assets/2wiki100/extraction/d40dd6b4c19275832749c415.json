@@ -1,0 +1,152 @@
+{
+  "entities": {
+    "Éric Rohmer": "PERSON",
+    "Jean Marie Maurice Schérer": "PERSON",
+    "Maurice Henri Joseph Schérer": "PERSON",
+    "French": "NORP",
+    "post-World War II French New Wave": "EVENT",
+    "Cahiers du cinéma": "WORK_OF_ART",
+    "Jean-Luc Godard": "PERSON",
+    "François Truffaut": "PERSON",
+    "My Night at Maud's": "WORK_OF_ART",
+    "Academy Awards": "EVENT",
+    "San Sebastián International Film Festival": "EVENT",
+    "Claire's Knee": "WORK_OF_ART",
+    "Venice Film Festival": "EVENT",
+    "The Green Ray": "WORK_OF_ART",
+    "The Daily Telegraph": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Jean Marie Maurice Schérer",
+      "relation": "known_as",
+      "object": "Éric Rohmer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known as",
+          "line_start": 60,
+          "char_start": 72,
+          "ambiguous": false,
+          "relation_mention": "known as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities outside the eleven types",
+      "entities": [
+        "Golden Lion (AWARD)",
+        "Career Golden Lion (AWARD)"
+      ]
+    },
+    {
+      "triple": [
+        "Éric Rohmer",
+        "nationality",
+        "French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Éric Rohmer",
+        "worked_as",
+        "Cahiers du cinéma"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Éric Rohmer",
+        "part_of",
+        "post-World War II French New Wave"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cahiers du cinéma",
+        "edited_by",
+        "Éric Rohmer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jean-Luc Godard",
+        "mentioned_with",
+        "François Truffaut"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rohmer",
+        "gained",
+        "international acclaim"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "My Night at Maud's",
+        "nominated_at",
+        "Academy Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Éric Rohmer",
+        "won",
+        "San Sebastián International Film Festival"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Claire's Knee",
+        "won_at",
+        "San Sebastián International Film Festival"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Green Ray",
+        "won",
+        "Golden Lion"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Green Ray",
+        "won_at",
+        "Venice Film Festival"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Éric Rohmer",
+        "received",
+        "Career Golden Lion"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Daily Telegraph",
+        "described",
+        "Éric Rohmer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Éric Rohmer\nJean Marie Maurice Schérer or Maurice Henri Joseph Schérer, known as Éric Rohmer (21 March 192011 January 2010), was a French film director, film critic, journalist, novelist, screenwriter, and teacher. Rohmer was the last of the post-World War II French New Wave directors to become established. He edited the influential film journal, \"Cahiers du cinéma\", from 1957 to 1963, while most of his colleagues—among them Jean-Luc Godard and François Truffaut—were making the transition from film critics to filmmakers and gaining international attention. Rohmer gained international acclaim around 1969 when his film \"My Night at Maud's\" was nominated at the Academy Awards. He won the San Sebastián International Film Festival with \"Claire's Knee\" in 1971 and the Golden Lion at the Venice Film Festival for \"The Green Ray\" in 1986. Rohmer went on to receive the Venice Film Festival's Career Golden Lion in 2001. After Rohmer's death in 2010, his obituary in \"The Daily Telegraph\" described him as \"the most durable filmmaker of the French New Wave\", outlasting his peers and \"still making movies the public wanted to see\" late in his career.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Éric Rohmer\", \"type\": \"PERSON\"},\n    {\"name\": \"Jean Marie Maurice Schérer\", \"type\": \"PERSON\"},\n    {\"name\": \"Maurice Henri Joseph Schérer\", \"type\": \"PERSON\"},\n    {\"name\": \"French\", \"type\": \"NORP\"},\n    {\"name\": \"post-World War II French New Wave\", \"type\": \"EVENT\"},\n    {\"name\": \"Cahiers du cinéma\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Jean-Luc Godard\", \"type\": \"PERSON\"},\n    {\"name\": \"François Truffaut\", \"type\": \"PERSON\"},\n    {\"name\": \"My Night at Maud's\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Academy Awards\", \"type\": \"EVENT\"},\n    {\"name\": \"San Sebastián International Film Festival\", \"type\": \"EVENT\"},\n    {\"name\": \"Claire's Knee\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Golden Lion\", \"type\": \"AWARD\"},\n    {\"name\": \"Venice Film Festival\", \"type\": \"EVENT\"},\n    {\"name\": \"The Green Ray\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Career Golden Lion\", \"type\": \"AWARD\"},\n    {\"name\": \"The Daily Telegraph\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Jean Marie Maurice Schérer\",\n      \"relation\": \"known_as\",\n      \"object\": \"Éric Rohmer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Éric Rohmer\",\n      \"relation\": \"nationality\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a French\"}\n      ]\n    },\n    {\n      \"subject\": \"Éric Rohmer\",\n      \"relation\": \"worked_as\",\n      \"object\": \"Cahiers du cinéma\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"edited the influential film journal, \\\"Cahiers du cinéma\\\", from 1957 to 1963\"}\n      ]\n    },\n    {\n      \"subject\": \"Éric Rohmer\",\n      \"relation\": \"part_of\",\n      \"object\": \"post-World War II French New Wave\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the last of the post-World War II French New Wave directors to become established\"}\n      ]\n    },\n    {\n      \"subject\": \"Cahiers du cinéma\",\n      \"relation\": \"edited_by\",\n      \"object\": \"Éric Rohmer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"edited the influential film journal, \\\"Cahiers du cinéma\\\", from 1957 to 1963\"}\n      ]\n    },\n    {\n      \"subject\": \"Jean-Luc Godard\",\n      \"relation\": \"mentioned_with\",\n      \"object\": \"François Truffaut\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Jean-Luc Godard and François Truffaut\"}\n      ]\n    },\n    {\n      \"subject\": \"Rohmer\",\n      \"relation\": \"gained\",\n      \"object\": \"international acclaim\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"gained international acclaim around 1969\"}\n      ]\n    },\n    {\n      \"subject\": \"My Night at Maud's\",\n      \"relation\": \"nominated_at\",\n      \"object\": \"Academy Awards\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was nominated at the Academy Awards\"}\n      ]\n    },\n    {\n      \"subject\": \"Éric Rohmer\",\n      \"relation\": \"won\",\n      \"object\": \"San Sebastián International Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the San Sebastián International Film Festival with \\\"Claire's Knee\\\" in 1971\"}\n      ]\n    },\n    {\n      \"subject\": \"Claire's Knee\",\n      \"relation\": \"won_at\",\n      \"object\": \"San Sebastián International Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the San Sebastián International Film Festival with \\\"Claire's Knee\\\" in 1971\"}\n      ]\n    },\n    {\n      \"subject\": \"The Green Ray\",\n      \"relation\": \"won\",\n      \"object\": \"Golden Lion\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Golden Lion at the Venice Film Festival for \\\"The Green Ray\\\" in 1986\"}\n      ]\n    },\n    {\n      \"subject\": \"The Green Ray\",\n      \"relation\": \"won_at\",\n      \"object\": \"Venice Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Golden Lion at the Venice Film Festival for \\\"The Green Ray\\\" in 1986\"}\n      ]\n    },\n    {\n      \"subject\": \"Éric Rohmer\",\n      \"relation\": \"received\",\n      \"object\": \"Career Golden Lion\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"went on to receive the Venice Film Festival's Career Golden Lion in 2001\"}\n      ]\n    },\n    {\n      \"subject\": \"The Daily Telegraph\",\n      \"relation\": \"described\",\n      \"object\": \"Éric Rohmer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"described him as \\\"the most durable filmmaker of the French New Wave\\\"\"}\n      ]\n    }\n  ]\n}"
+}

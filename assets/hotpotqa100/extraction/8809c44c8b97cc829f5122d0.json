@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Warriors Two": "film",
+    "Sammo Hung": "person",
+    "Bryan Leung": "person",
+    "Casanova Wong": "person",
+    "Fung Hak-on": "person",
+    "Leung Jan": "person",
+    "Wing Chun": "martial_art",
+    "Wong Fei-hung": "person",
+    "Hung Gar": "martial_art"
+  },
+  "triples": [
+    {
+      "subject": "Warriors Two",
+      "relation": "written_and_directed_by",
+      "object": "Sammo Hung",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Sammo Hung"
+        }
+      ]
+    },
+    {
+      "subject": "Warriors Two",
+      "relation": "co_stars",
+      "object": "Sammo Hung",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who also co-stars in the film"
+        }
+      ]
+    },
+    {
+      "subject": "Warriors Two",
+      "relation": "stars",
+      "object": "Bryan Leung",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film stars Bryan Leung"
+        }
+      ]
+    },
+    {
+      "subject": "Bryan Leung",
+      "relation": "plays_character",
+      "object": "Leung Jan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Leung plays the character of the historical figure, Leung Jan"
+        }
+      ]
+    },
+    {
+      "subject": "Leung Jan",
+      "relation": "associated_with",
+      "object": "Wing Chun",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Leung's association with Wing Chun"
+        }
+      ]
+    },
+    {
+      "subject": "Wong Fei-hung",
+      "relation": "associated_with",
+      "object": "Hung Gar",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "equivalent of Wong Fei-hung's association with the Hung Gar style"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Warriors Two",
+        "stars",
+        "Casanova Wong"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Warriors Two",
+        "stars",
+        "Fung Hak-on"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Warriors Two\nWarriors Two () is a 1978 Hong Kong martial arts film written and directed by Sammo Hung, who also co-stars in the film. The film stars Bryan Leung, Casanova Wong and Fung Hak-on. Leung plays the character of the historical figure, Leung Jan (or Leung Tsan), a well-known early practitioner of the Wing Chun style of kung fu. Leung's association with Wing Chun can be considered as the equivalent of Wong Fei-hung's association with the Hung Gar style."
+}

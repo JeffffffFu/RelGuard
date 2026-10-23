@@ -1,0 +1,207 @@
+{
+  "entities": {
+    "Alexander Korda": "PERSON",
+    "Sándor László Kellner": "PERSON",
+    "Hungary": "GPE",
+    "Hollywood": "LOC",
+    "World War II": "EVENT",
+    "María Corda": "PERSON",
+    "British film industry": "ORG",
+    "London Films": "ORG",
+    "British Lion Films": "ORG",
+    "The Thief of Baghdad": "WORK_OF_ART",
+    "The Third Man": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Alexander Korda",
+      "relation": "born_in",
+      "object": "Hungary",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Born in",
+          "line_start": 220,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "Born in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "based_in",
+      "object": "Hollywood",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 370,
+          "char_start": 386,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "divorced_from",
+      "object": "María Corda",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "led to a divorce from",
+          "line_start": 500,
+          "char_start": 516,
+          "ambiguous": false,
+          "relation_mention": "led to a divorce from",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "produced",
+      "object": "The Thief of Baghdad",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced",
+          "line_start": 907,
+          "char_start": 923,
+          "ambiguous": false,
+          "relation_mention": "produced",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "produced",
+      "object": "The Third Man",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced",
+          "line_start": 907,
+          "char_start": 923,
+          "ambiguous": false,
+          "relation_mention": "produced",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "5 entities not in the document",
+      "entities": [
+        "Austria (GPE)",
+        "Germany (GPE)",
+        "The Private Life of Henry VIII (WORK_OF_ART)",
+        "Rembrandt (WORK_OF_ART)",
+        "Things To Come (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "born_as",
+        "Sándor László Kellner"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "worked_in",
+        "Austria"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "worked_in",
+        "Germany"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "María Corda",
+        "nationality",
+        "Hungary"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "active_in",
+        "British film industry"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "founded",
+        "London Films"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "owned",
+        "British Lion Films"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "produced",
+        "The Private Life of Henry VIII"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "produced",
+        "Rembrandt"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "produced",
+        "Things To Come"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "received",
+        "knighthood"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "World War II",
+        "time_of",
+        "Hollywood"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Alexander Korda\nSir Alexander Korda( born Sándor László Kellner, 16 September 1893 – 23 January 1956) was a British film producer and director and screenwriter, who founded his own film production studios and film distribution company. Born in Hungary, where he began his career, he worked briefly in the Austrian and German film industries during the era of silent films, before being based in Hollywood from 1926 to 1930 for the first of his two brief periods there( the other was during World War II). The change led to a divorce from his first wife, the Hungarian film actress María Corda, who was unable to make the transition from silent films to\" talkies\" because of her strong Hungarian accent. From 1930, Korda was active in the British film industry, and soon became one of its leading figures. He was the founder of London Films and, post-war, the owner of British Lion Films, a film distribution company. Korda produced many outstanding classics of the British film industry, including\" The Private Life of Henry VIIIRembrandtThings To Come The Thief of Baghdad\" and\" The Third Man\". In 1942, Korda became the first filmmaker to receive a knighthood.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Alexander Korda\", \"type\": \"PERSON\"},\n    {\"name\": \"Sándor László Kellner\", \"type\": \"PERSON\"},\n    {\"name\": \"Hungary\", \"type\": \"GPE\"},\n    {\"name\": \"Austria\", \"type\": \"GPE\"},\n    {\"name\": \"Germany\", \"type\": \"GPE\"},\n    {\"name\": \"Hollywood\", \"type\": \"LOC\"},\n    {\"name\": \"World War II\", \"type\": \"EVENT\"},\n    {\"name\": \"María Corda\", \"type\": \"PERSON\"},\n    {\"name\": \"British film industry\", \"type\": \"ORG\"},\n    {\"name\": \"London Films\", \"type\": \"ORG\"},\n    {\"name\": \"British Lion Films\", \"type\": \"ORG\"},\n    {\"name\": \"The Private Life of Henry VIII\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Rembrandt\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Things To Come\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Thief of Baghdad\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Third Man\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"born_as\",\n      \"object\": \"Sándor László Kellner\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"( born\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"born_in\",\n      \"object\": \"Hungary\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"worked_in\",\n      \"object\": \"Austria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Austrian\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"worked_in\",\n      \"object\": \"Germany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"German\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"based_in\",\n      \"object\": \"Hollywood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"divorced_from\",\n      \"object\": \"María Corda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"led to a divorce from\"}\n      ]\n    },\n    {\n      \"subject\": \"María Corda\",\n      \"relation\": \"nationality\",\n      \"object\": \"Hungary\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Hungarian\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"active_in\",\n      \"object\": \"British film industry\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"active in\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"founded\",\n      \"object\": \"London Films\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founder of\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"owned\",\n      \"object\": \"British Lion Films\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owner of\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"produced\",\n      \"object\": \"The Private Life of Henry VIII\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"produced\",\n      \"object\": \"Rembrandt\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"produced\",\n      \"object\": \"Things To Come\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"produced\",\n      \"object\": \"The Thief of Baghdad\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"produced\",\n      \"object\": \"The Third Man\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Korda\",\n      \"relation\": \"received\",\n      \"object\": \"knighthood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"receive a knighthood\"}\n      ]\n    },\n    {\n      \"subject\": \"World War II\",\n      \"relation\": \"time_of\",\n      \"object\": \"Hollywood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"during World War II\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Danes Moss Nature Reserve": "LOC",
+    "Macclesfield": "GPE",
+    "Cheshire": "GPE",
+    "England": "GPE",
+    "Cheshire Wildlife Trust": "ORG",
+    "Site of Special Scientific Interest": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Danes Moss Nature Reserve",
+      "relation": "managed_by",
+      "object": "Cheshire Wildlife Trust",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is managed by",
+          "line_start": 138,
+          "char_start": 164,
+          "ambiguous": false,
+          "relation_mention": "is managed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Danes Moss Nature Reserve",
+        "located_in",
+        "Macclesfield"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Danes Moss Nature Reserve",
+        "located_in",
+        "Cheshire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Danes Moss Nature Reserve",
+        "located_in",
+        "England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Danes Moss Nature Reserve",
+        "is_a",
+        "Site of Special Scientific Interest"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Danes Moss Nature Reserve\nDanes Moss Nature Reserve is a 13.4 ha nature reserve south of Macclesfield, Cheshire, England. A Site of Special Scientific Interest, it is managed by the Cheshire Wildlife Trust.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Danes Moss Nature Reserve\", \"type\": \"LOC\"},\n    {\"name\": \"Macclesfield\", \"type\": \"GPE\"},\n    {\"name\": \"Cheshire\", \"type\": \"GPE\"},\n    {\"name\": \"England\", \"type\": \"GPE\"},\n    {\"name\": \"Cheshire Wildlife Trust\", \"type\": \"ORG\"},\n    {\"name\": \"Site of Special Scientific Interest\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Danes Moss Nature Reserve\",\n      \"relation\": \"located_in\",\n      \"object\": \"Macclesfield\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"south of\"}\n      ]\n    },\n    {\n      \"subject\": \"Danes Moss Nature Reserve\",\n      \"relation\": \"located_in\",\n      \"object\": \"Cheshire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"south of\"}\n      ]\n    },\n    {\n      \"subject\": \"Danes Moss Nature Reserve\",\n      \"relation\": \"located_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"south of\"}\n      ]\n    },\n    {\n      \"subject\": \"Danes Moss Nature Reserve\",\n      \"relation\": \"managed_by\",\n      \"object\": \"Cheshire Wildlife Trust\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is managed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Danes Moss Nature Reserve\",\n      \"relation\": \"is_a\",\n      \"object\": \"Site of Special Scientific Interest\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"A Site of Special Scientific Interest\"}\n      ]\n    }\n  ]\n}"
+}

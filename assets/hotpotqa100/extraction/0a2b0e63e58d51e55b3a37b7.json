@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "James Francis Edward Stuart": "PERSON",
+    "King James II and VII": "PERSON",
+    "Mary of Modena": "PERSON",
+    "Mary II": "PERSON",
+    "William III of Orange": "PERSON",
+    "Glorious Revolution": "EVENT",
+    "Bill of Rights 1689": "LAW",
+    "Act of Succession 1701": "LAW",
+    "England": "GPE",
+    "Scotland": "GPE",
+    "Ireland": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "James Francis Edward Stuart",
+      "relation": "son_of",
+      "object": "King James II and VII",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the son of King James II and VII"
+        }
+      ]
+    },
+    {
+      "subject": "King James II and VII",
+      "relation": "married_to",
+      "object": "Mary of Modena",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and his second wife Mary of Modena"
+        }
+      ]
+    },
+    {
+      "subject": "King James II and VII",
+      "relation": "deposed_in",
+      "object": "Glorious Revolution",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was deposed in the Glorious Revolution of 1688"
+        }
+      ]
+    },
+    {
+      "subject": "Mary II",
+      "relation": "married_to",
+      "object": "William III of Orange",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "her husband William III of Orange"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James Francis Edward Stuart",
+        "raised_in",
+        "exile"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bill of Rights 1689",
+        "excluded",
+        "Catholics"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Act of Succession 1701",
+        "excluded",
+        "Catholics"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "James Francis Edward Stuart\nJames Francis Edward, Prince of Wales (10 June 1688 – 1 January 1766), nicknamed the Old Pretender, was the son of King James II and VII, the monarch of the three kingdoms of England, Scotland and Ireland, and his second wife Mary of Modena. His Catholic father was deposed in the Glorious Revolution of 1688 only months after his birth, and his Protestant older half-sister Mary II and her husband William III of Orange became king and queen. The Bill of Rights 1689 and Act of Succession 1701 excluded Catholics from the British throne, and James was raised in exile."
+}

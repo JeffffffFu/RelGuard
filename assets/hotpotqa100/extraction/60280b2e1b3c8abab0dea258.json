@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Branch Rickey Arena": "FAC",
+    "Ohio Wesleyan University": "ORG",
+    "Delaware": "GPE",
+    "Ohio": "GPE",
+    "Edwards Gymnasium": "FAC",
+    "Wesleyan Battling Bishops": "ORG",
+    "Branch Rickey": "PERSON",
+    "Brooklyn Dodgers": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Branch Rickey Arena",
+      "relation": "replaced",
+      "object": "Edwards Gymnasium",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "replacing",
+          "line_start": 267,
+          "char_start": 287,
+          "ambiguous": false,
+          "relation_mention": "replacing",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Branch Rickey Arena",
+      "relation": "named_for",
+      "object": "Branch Rickey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "named for",
+          "line_start": 364,
+          "char_start": 384,
+          "ambiguous": false,
+          "relation_mention": "named for",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Branch Rickey Arena",
+        "located_in",
+        "Ohio Wesleyan University"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Branch Rickey Arena",
+        "located_in",
+        "Delaware"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Branch Rickey Arena",
+        "located_in",
+        "Ohio"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Branch Rickey Arena",
+        "adjacent_to",
+        "Edwards Gymnasium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Branch Rickey Arena",
+        "home_to",
+        "Wesleyan Battling Bishops"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Branch Rickey",
+        "worked_as",
+        "Brooklyn Dodgers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Branch Rickey Arena\nBranch Rickey Arena is a 2,300-seat multi-purpose arena at Ohio Wesleyan University in Delaware, Ohio, located centrally on campus and adjacent to Edwards Gymnasium. It is home to the Wesleyan Battling Bishops basketball and volleyball teams. It opened in June 1976, replacing Edwards Gymnasium, which was remodeled to become a full-time exercise facility. It was named for the late Branch Rickey, Class of 1904, a major benefactor to the university and a manager of the Brooklyn Dodgers.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Branch Rickey Arena\", \"type\": \"FAC\"},\n    {\"name\": \"Ohio Wesleyan University\", \"type\": \"ORG\"},\n    {\"name\": \"Delaware\", \"type\": \"GPE\"},\n    {\"name\": \"Ohio\", \"type\": \"GPE\"},\n    {\"name\": \"Edwards Gymnasium\", \"type\": \"FAC\"},\n    {\"name\": \"Wesleyan Battling Bishops\", \"type\": \"ORG\"},\n    {\"name\": \"Branch Rickey\", \"type\": \"PERSON\"},\n    {\"name\": \"Brooklyn Dodgers\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Branch Rickey Arena\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ohio Wesleyan University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at\"}\n      ]\n    },\n    {\n      \"subject\": \"Branch Rickey Arena\",\n      \"relation\": \"located_in\",\n      \"object\": \"Delaware\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Branch Rickey Arena\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ohio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Branch Rickey Arena\",\n      \"relation\": \"adjacent_to\",\n      \"object\": \"Edwards Gymnasium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"adjacent to\"}\n      ]\n    },\n    {\n      \"subject\": \"Branch Rickey Arena\",\n      \"relation\": \"home_to\",\n      \"object\": \"Wesleyan Battling Bishops\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"home to\"}\n      ]\n    },\n    {\n      \"subject\": \"Branch Rickey Arena\",\n      \"relation\": \"replaced\",\n      \"object\": \"Edwards Gymnasium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"replacing\"}\n      ]\n    },\n    {\n      \"subject\": \"Branch Rickey Arena\",\n      \"relation\": \"named_for\",\n      \"object\": \"Branch Rickey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"named for\"}\n      ]\n    },\n    {\n      \"subject\": \"Branch Rickey\",\n      \"relation\": \"worked_as\",\n      \"object\": \"Brooklyn Dodgers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"manager of\"}\n      ]\n    }\n  ]\n}"
+}

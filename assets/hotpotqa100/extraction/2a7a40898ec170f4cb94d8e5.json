@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "Legal name": "WORK_OF_ART",
+    "person": "PERSON",
+    "birth certificate": "WORK_OF_ART",
+    "jurisdictions": "NORP",
+    "marriage": "EVENT",
+    "government": "ORG",
+    "European nations": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Legal name",
+      "relation": "identifies",
+      "object": "person",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "identifies a person",
+          "line_start": 28,
+          "char_start": 39,
+          "ambiguous": false,
+          "relation_mention": "identifies a person",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "birth certificate",
+      "relation": "appears_on",
+      "object": "Legal name",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "appears on a birth certificate",
+          "line_start": 242,
+          "char_start": 253,
+          "ambiguous": false,
+          "relation_mention": "appears on a birth certificate",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "jurisdictions",
+      "relation": "require",
+      "object": "Legal name",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "require the use of a legal name",
+          "line_start": 341,
+          "char_start": 352,
+          "ambiguous": false,
+          "relation_mention": "require the use of a legal name",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "jurisdictions",
+      "relation": "permit_or_require",
+      "object": "marriage",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "permit or require a name change to be recorded at marriage",
+          "line_start": 439,
+          "char_start": 450,
+          "ambiguous": false,
+          "relation_mention": "permit or require a name change to be recorded at marriage",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Legal name",
+      "relation": "used_on",
+      "object": "government",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "used on various government issued documents",
+          "line_start": 529,
+          "char_start": 540,
+          "ambiguous": false,
+          "relation_mention": "used on various government issued documents",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "European nations",
+      "relation": "have_minimum_age",
+      "object": "person",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "as low as fourteen in several European nations",
+          "line_start": 762,
+          "char_start": 773,
+          "ambiguous": false,
+          "relation_mention": "as low as fourteen in several European nations",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Legal name\nLegal name is the name that identifies a person for legal, administrative and other official purposes. A person's first legal name generally is the name of the person that was given for the purpose of registration of the birth and which then appears on a birth certificate (see \"birth name\"), but may change subsequently. Most jurisdictions require the use of a legal name for all legal and administrative purposes, and some jurisdictions permit or require a name change to be recorded at marriage. The legal name may need to be used on various government issued documents (e.g., a court order). The term is also used when an individual changes his/her first or full name, typically after reaching a certain legal age (usually eighteen or over, though it can be as low as fourteen in several European nations)."
+}

@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Sidney D. Mitchell": "Person",
+    "Lew Pollack": "Person",
+    "Twentieth Century Fox": "Organization",
+    "Louis Alter": "Person",
+    "A Melody from the Sky": "Song",
+    "The Trail of the Lonesome Pine": "Film",
+    "Umpa": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Sidney D. Mitchell",
+      "relation": "best_known_for",
+      "object": "Lew Pollack",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "best known for his collaborations with Lew Pollack"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sidney D. Mitchell",
+        "nominated_for",
+        "A Melody from the Sky"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "A Melody from the Sky",
+        "part_of",
+        "The Trail of the Lonesome Pine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sidney D. Mitchell",
+        "served_as",
+        "screenwriter"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sidney D. Mitchell",
+        "served_as",
+        "director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sidney D. Mitchell",
+        "contributed_to",
+        "other films"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sidney D. Mitchell",
+        "featured_in",
+        "the present day"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sidney D. Mitchell\nSidney D. Mitchell( June 15, 1888 in Baltimore, Maryland – February 25, 1942 in Los Angeles, California) was a Hollywood film industry lyricist and composer. He is best known for his collaborations with Lew Pollack on movie scores at Twentieth Century Fox in the 1930s and 1940s. Together with Louis Alter, Mitchell was nominated for an Oscar in 1937 for the song\" A Melody from the Sky\" which was in the 1936 motion picture\" The Trail of the Lonesome Pine\". He contributed many songs to other films, and his work continues to be featured to the present day. He also served as a screenwriter for three movies and a director for the film\" Umpa\" in 1933."
+}

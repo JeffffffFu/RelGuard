@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "Danuel Kennedy House Jr.": "PERSON",
+    "Washington Wizards": "ORG",
+    "National Basketball Association": "ORG",
+    "Houston Cougars": "ORG",
+    "Texas A&M": "ORG",
+    "Aggies": "ORG",
+    "SEC": "ORG",
+    "2016 NCAA Tournament": "EVENT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Danuel Kennedy House Jr.",
+        "works_as_professional_in",
+        "National Basketball Association"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Danuel Kennedy House Jr.",
+        "last_played_for",
+        "Washington Wizards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Washington Wizards",
+        "located_in",
+        "National Basketball Association"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Danuel Kennedy House Jr.",
+        "played_for_college",
+        "Houston Cougars"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Danuel Kennedy House Jr.",
+        "transferred_to",
+        "Texas A&M"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Danuel Kennedy House Jr.",
+        "played_for_college",
+        "Texas A&M"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Danuel Kennedy House Jr.",
+        "contributed_to",
+        "Aggies"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Aggies",
+        "won",
+        "SEC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Aggies",
+        "reached",
+        "2016 NCAA Tournament"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Danuel House\nDanuel Kennedy House Jr. (born June 7, 1993) is an American professional basketball player who last played for the Washington Wizards of the National Basketball Association (NBA). He played two seasons of college basketball for the Houston Cougars before transferring to Texas A&M. During his senior season at Texas A&M, he was instrumental in the Aggies' first share of a regular-season SEC championship and in their run to the Sweet Sixteen in the 2016 NCAA Tournament.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Danuel Kennedy House Jr.\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Washington Wizards\", \"type\": \"ORG\"},\n    {\"name\": \"National Basketball Association\", \"type\": \"ORG\"},\n    {\"name\": \"Houston Cougars\", \"type\": \"ORG\"},\n    {\"name\": \"Texas A&M\", \"type\": \"ORG\"},\n    {\"name\": \"Aggies\", \"type\": \"ORG\"},\n    {\"name\": \"SEC\", \"type\": \"ORG\"},\n    {\"name\": \"2016 NCAA Tournament\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Danuel Kennedy House Jr.\",\n      \"relation\": \"works_as_professional_in\", \n      \"object\": \"National Basketball Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American professional basketball player\"}\n      ]\n    },\n    {\n      \"subject\": \"Danuel Kennedy House Jr.\",\n      \"relation\": \"last_played_for\",\n      \"object\": \"Washington Wizards\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"last played for the Washington Wizards\"}\n      ]\n    },\n    {\n      \"subject\": \"Washington Wizards\",\n      \"relation\": \"located_in\",\n      \"object\": \"National Basketball Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the National Basketball Association (NBA)\"}\n      ]\n    },\n    {\n      \"subject\": \"Danuel Kennedy House Jr.\",\n      \"relation\": \"played_for_college\",\n      \"object\": \"Houston Cougars\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played two seasons of college basketball for the Houston Cougars\"}\n      ]\n    },\n    {\n      \"subject\": \"Danuel Kennedy House Jr.\",\n      \"relation\": \"transferred_to\",\n      \"object\": \"Texas A&M\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"before transferring to Texas A&M\"}\n      ]\n    },\n    {\n      \"subject\": \"Danuel Kennedy House Jr.\",\n      \"relation\": \"played_for_college\",\n      \"object\": \"Texas A&M\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"During his senior season at Texas A&M\"}\n      ]\n    },\n    {\n      \"subject\": \"Danuel Kennedy House Jr.\",\n      \"relation\": \"contributed_to\",\n      \"object\": \"Aggies\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"he was instrumental in the Aggies' first share of a regular-season SEC championship\"}\n      ]\n    },\n    {\n      \"subject\": \"Aggies\",\n      \"relation\": \"won\",\n      \"object\": \"SEC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"first share of a regular-season SEC championship\"}\n      ]\n    },\n    {\n      \"subject\": \"Aggies\",\n      \"relation\": \"reached\",\n      \"object\": \"2016 NCAA Tournament\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"their run to the Sweet Sixteen in the 2016 NCAA Tournament\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "ICESat-2": "Satellite",
+    "NASA": "Organization",
+    "ICESat": "Satellite",
+    "Vandenberg Air Force Base": "Location",
+    "California": "Location"
+  },
+  "triples": [
+    {
+      "subject": "ICESat-2",
+      "relation": "part_of",
+      "object": "NASA",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "part of NASA's Earth Observing System"
+        }
+      ]
+    },
+    {
+      "subject": "ICESat-2",
+      "relation": "follow_on_to",
+      "object": "ICESat",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a planned follow-on to the ICESat mission"
+        }
+      ]
+    },
+    {
+      "subject": "ICESat-2",
+      "relation": "launched_from",
+      "object": "Vandenberg Air Force Base",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "will be launched in 2018 from Vandenberg Air Force Base"
+        }
+      ]
+    },
+    {
+      "subject": "Vandenberg Air Force Base",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "from Vandenberg Air Force Base in California"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "ICESat-2",
+        "measures",
+        "ice sheet elevation"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "ICESat-2",
+        "measures",
+        "sea ice freeboard"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "ICESat-2",
+        "measures",
+        "land topography"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "ICESat-2",
+        "measures",
+        "vegetation characteristics"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "ICESat-2",
+        "operates_for",
+        "3 years"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "ICESat-2",
+        "designed_for",
+        "7 years"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "ICESat-2\nICESat-2 (Ice, Cloud, and land Elevation Satellite 2), part of NASA's Earth Observing System, is a planned satellite mission for measuring ice sheet elevation, sea ice freeboard as well as land topography and vegetation characteristics. ICESat-2 is a planned follow-on to the ICESat mission. It will be launched in 2018 from Vandenberg Air Force Base in California into a near-circular, near-polar orbit with an altitude of approximately 496 km. It is being designed to operate for 3 years, and will carry enough propellant for 7 years."
+}

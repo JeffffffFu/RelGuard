@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Alpha TV": "TV Channel",
+    "Antenna TV": "TV Channel",
+    "Mega channel": "TV Channel",
+    "Alpha Satellite Television S.A.": "Company",
+    "Alpha Media Group Ltd.": "Company",
+    "DEMCO Group of Companies": "Company",
+    "Cyprus": "Location",
+    "Sigma TV": "TV Channel",
+    "CyBC": "TV Channel",
+    "Athens": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Alpha TV",
+      "relation": "located_near",
+      "object": "Athens",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The studios are located near Athens."
+        }
+      ]
+    },
+    {
+      "subject": "Alpha TV",
+      "relation": "owned_by",
+      "object": "Alpha Satellite Television S.A.",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Alpha TV is owned by Alpha Satellite Television S.A."
+        }
+      ]
+    },
+    {
+      "subject": "Alpha Satellite Television S.A.",
+      "relation": "has_shareholder",
+      "object": "Alpha Media Group Ltd.",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "100% shareholder of which is the Alpha Media Group Ltd."
+        }
+      ]
+    },
+    {
+      "subject": "Alpha Media Group Ltd.",
+      "relation": "is_a_member_of",
+      "object": "DEMCO Group of Companies",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "a member of the DEMCO Group of Companies."
+        }
+      ]
+    },
+    {
+      "subject": "Sigma TV",
+      "relation": "broadcasts",
+      "object": "Alpha TV",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "private broadcaster Sigma TV broadcasts a number of Alpha TV's programmes."
+        }
+      ]
+    },
+    {
+      "subject": "CyBC",
+      "relation": "used_to_broadcast",
+      "object": "Alpha TV",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "public service broadcaster CyBC used to broadcast Alpha TV programmes."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Alpha TV",
+        "is_a",
+        "TV Channel"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alpha TV",
+        "features",
+        "Greek and foreign shows"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alpha TV",
+        "is_one_of",
+        "two biggest stations in Greece"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mega channel",
+        "collapsed_due_to",
+        "financial problems"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Alpha TV\nAlpha TV is a Greek terrestrial channel. With Antenna TV it is one of the two biggest stations in Greece, after the collapse of Mega channel, due to financial problems. The station features a mix of Greek and foreign shows with an emphasis on information. The studios are located near Athens. Alpha TV is owned by Alpha Satellite Television S.A. 100% shareholder of which is the Alpha Media Group Ltd., a member of the DEMCO Group of Companies. In Cyprus, private broadcaster Sigma TV broadcasts a number of Alpha TV's programmes. In the past, public service broadcaster CyBC used to broadcast Alpha TV programmes."
+}

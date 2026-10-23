@@ -1,0 +1,219 @@
+{
+  "entities": {
+    "Triple Crown of Acting": "EVENT",
+    "American": "NORP",
+    "Academy Award": "PRODUCT",
+    "Emmy Award": "PRODUCT",
+    "Tony Award": "PRODUCT",
+    "Helen Hayes": "PERSON",
+    "Thomas Mitchell": "PERSON",
+    "Rita Moreno": "PERSON",
+    "Grammy Award": "PRODUCT",
+    "EGOT": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Triple Crown of Acting",
+      "relation": "located_in",
+      "object": "American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the American entertainment industry",
+          "line_start": 42,
+          "char_start": 65,
+          "ambiguous": false,
+          "relation_mention": "in the American entertainment industry",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Triple Crown of Acting",
+      "relation": "includes_award",
+      "object": "Academy Award",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "won a competitive Academy Award",
+          "line_start": 109,
+          "char_start": 132,
+          "ambiguous": false,
+          "relation_mention": "won a competitive Academy Award",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Triple Crown of Acting",
+      "relation": "includes_award",
+      "object": "Emmy Award",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Emmy Award",
+          "line_start": 142,
+          "char_start": 165,
+          "ambiguous": false,
+          "relation_mention": "Emmy Award",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Triple Crown of Acting",
+      "relation": "includes_award",
+      "object": "Tony Award",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Tony Award",
+          "line_start": 158,
+          "char_start": 181,
+          "ambiguous": false,
+          "relation_mention": "Tony Award",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Helen Hayes",
+      "relation": "achieved",
+      "object": "Triple Crown of Acting",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to achieve the triple crown",
+          "line_start": 340,
+          "char_start": 363,
+          "ambiguous": true,
+          "relation_mention": "to achieve the triple crown",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Helen Hayes",
+      "relation": "won",
+      "object": "Emmy Award",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Emmy Award win",
+          "line_start": 278,
+          "char_start": 301,
+          "ambiguous": false,
+          "relation_mention": "Emmy Award win",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Thomas Mitchell",
+      "relation": "achieved",
+      "object": "Triple Crown of Acting",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to achieve the triple crown",
+          "line_start": 340,
+          "char_start": 363,
+          "ambiguous": false,
+          "relation_mention": "to achieve the triple crown",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Thomas Mitchell",
+      "relation": "won",
+      "object": "Tony Award",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Tony Award win",
+          "line_start": 443,
+          "char_start": 466,
+          "ambiguous": false,
+          "relation_mention": "Tony Award win",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Rita Moreno",
+      "relation": "won",
+      "object": "Grammy Award",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "have also won a Grammy Award",
+          "line_start": 590,
+          "char_start": 613,
+          "ambiguous": false,
+          "relation_mention": "have also won a Grammy Award",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Rita Moreno",
+      "relation": "completed",
+      "object": "EGOT",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to complete the EGOT",
+          "line_start": 619,
+          "char_start": 642,
+          "ambiguous": false,
+          "relation_mention": "to complete the EGOT",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Triple Crown of Acting",
+        "describes",
+        "actors"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hayes",
+        "is_same_as",
+        "Helen Hayes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hayes",
+        "and_are_only",
+        "Rita Moreno"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hayes",
+        "won",
+        "Grammy Award"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hayes",
+        "completed",
+        "EGOT"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Triple Crown of Acting\nThe Triple Crown of Acting is a term used in the American entertainment industry to describe actors who have won a competitive Academy Award, Emmy Award, and Tony Award in the acting categories. 23 people have achieved the triple crown of acting (14 women, 9 men). Helen Hayes' Emmy Award win on February 5, 1953, made her the first person to achieve the triple crown. Thomas Mitchell became the first man to achieve the triple crown with his Tony Award win later the same year on March 29, 1953. Hayes and Rita Moreno are the only triple crown winners in competitive acting categories who have also won a Grammy Award to complete the EGOT."
+}

@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Voix du Sahel": "radio station",
+    "Niger": "country",
+    "Nigerien government": "government",
+    "Niamey": "city",
+    "Radio Niger": "radio station"
+  },
+  "triples": [
+    {
+      "subject": "Voix du Sahel",
+      "relation": "owned_by",
+      "object": "Nigerien government",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "owned by the Nigerien government"
+        }
+      ]
+    },
+    {
+      "subject": "Voix du Sahel",
+      "relation": "located_in",
+      "object": "Niamey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Based in Niamey"
+        }
+      ]
+    },
+    {
+      "subject": "Voix du Sahel",
+      "relation": "established_as",
+      "object": "Radio Niger",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "established in 1958 as Radio Niger"
+        }
+      ]
+    },
+    {
+      "subject": "Voix du Sahel",
+      "relation": "adopted_name",
+      "object": "Voix du Sahel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "adopted its current name in 1974"
+        }
+      ]
+    },
+    {
+      "subject": "Niger",
+      "relation": "has_radio_station",
+      "object": "Voix du Sahel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the only national radio station in the country"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Voix du Sahel",
+        "offers_programs_in",
+        "eight different languages"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Voix du Sahel",
+        "operates_on",
+        "91.3MHZ"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Voix du Sahel\nLa Voix du Sahel (English: \"Voice of the Sahel\") is the national radio station of Niger, owned by the Nigerien government, operating on 91.3MHZ. Based in Niamey, the radio station was established in 1958 as Radio Niger but adopted its current name in 1974. It is the only national radio station in the country and is the only radio station to offer programs in eight different languages including French."
+}

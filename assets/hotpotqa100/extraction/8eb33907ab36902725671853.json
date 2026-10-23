@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Fifty Shades Darker": "WORK_OF_ART",
+    "E. L. James": "PERSON",
+    "Anastasia Steele": "PERSON",
+    "Christian Grey": "PERSON",
+    "Fifty Shades": "WORK_OF_ART",
+    "Fifty Shades of Grey": "WORK_OF_ART",
+    "Fifty Shades Freed": "WORK_OF_ART",
+    "Vintage Books": "ORG",
+    "USA Today": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Fifty Shades Darker",
+      "relation": "published_by",
+      "object": "Vintage Books",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The novel is published by Vintage Books"
+        }
+      ]
+    },
+    {
+      "subject": "Fifty Shades Darker",
+      "relation": "written_by",
+      "object": "E. L. James",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Fifty Shades Darker is a 2012 erotic romance novel by British author E. L. James"
+        }
+      ]
+    },
+    {
+      "subject": "Anastasia Steele",
+      "relation": "in_relationship_with",
+      "object": "Christian Grey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "traces the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Fifty Shades",
+        "has_part",
+        "Fifty Shades Darker"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Fifty Shades of Grey",
+        "has_part",
+        "Fifty Shades Darker"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Fifty Shades Freed",
+        "has_part",
+        "Fifty Shades Darker"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Fifty Shades Darker",
+        "reached_rank",
+        "No. 1"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "USA Today",
+        "published_list",
+        "Fifty Shades Darker"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Fifty Shades Darker\nFifty Shades Darker is a 2012 erotic romance novel by British author E. L. James. It is the second instalment in the \"Fifty Shades\" trilogy that traces the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey. The first and third volumes, \"Fifty Shades of Grey\" and \"Fifty Shades Freed\", were published in 2011 and 2012. The novel is published by Vintage Books and reached No. 1 on the \"USA Today\" best seller list."
+}

@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Black and Tan Virginia Foxhound": "breed",
+    "Bloodhounds": "breed",
+    "Robert Brooke": "person",
+    "French Foxhounds": "breed",
+    "George Washington": "person",
+    "Marquis de Lafayette": "person",
+    "American hounds": "breed"
+  },
+  "triples": [
+    {
+      "subject": "Black and Tan Virginia Foxhound",
+      "relation": "resulted_from",
+      "object": "Bloodhounds",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It resulted of a cross breed with Bloodhounds in the 1700s."
+        }
+      ]
+    },
+    {
+      "subject": "French Foxhounds",
+      "relation": "bred_in_after",
+      "object": "George Washington",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "Afterwards French Foxhounds were bred in after George Washington received them as gifts from the Marquis de Lafayette."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Black and Tan Virginia Foxhound",
+        "is_a",
+        "breed"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Black and Tan Virginia Foxhound",
+        "developed_by",
+        "landed gentry"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Black and Tan Virginia Foxhound",
+        "descended_from",
+        "hunting dogs"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "hunting dogs",
+        "ancestors_of",
+        "American hounds"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "breed",
+        "improved_by",
+        "Irish Foxhounds"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Black and Tan Virginia Foxhound\nThe Black and Tan Virginia Foxhound is an American foxhound breed. It resulted of a cross breed with Bloodhounds in the 1700s. The breed was developed by the landed gentry in order to get a dog suitable for fox hunting. Besides the Black and Tan there are the Walker, Calhoun, Penn-Marydel, Goodman, July and Trigg, which all developed from similar crosses. The Black and Tan is believed to descend form hunting dogs imported to America by Robert Brooke in 1650. These hunting dogs were the ancestors of several varieties of American hounds and stayed with the Brooke family for more than 300 years. Afterwards French Foxhounds were bred in after George Washington received them as gifts from the Marquis de Lafayette. Much later, the breed's speed and stamina were improved introducing Irish Foxhounds."
+}

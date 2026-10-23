@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "A Nest of Noblemen": "WORK_OF_ART",
+    "Vladimir Gardin": "PERSON",
+    "Russian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "A Nest of Noblemen",
+      "relation": "directed_by",
+      "object": "Vladimir Gardin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 49,
+          "char_start": 68,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "A Nest of Noblemen",
+        "located_in",
+        "Russian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "A Nest of Noblemen\nA Nest of Noblemen  is a 1914 Russian drama film directed by Vladimir Gardin.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"A Nest of Noblemen\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Vladimir Gardin\", \"type\": \"PERSON\"},\n    {\"name\": \"Russian\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"A Nest of Noblemen\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Vladimir Gardin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"A Nest of Noblemen\",\n      \"relation\": \"located_in\",\n      \"object\": \"Russian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Russian\"}\n      ]\n    }\n  ]\n}"
+}

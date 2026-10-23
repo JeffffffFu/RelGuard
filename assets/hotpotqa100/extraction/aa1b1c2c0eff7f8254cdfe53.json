@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "Beer": "Product",
+    "maekju": "Product",
+    "Seoul": "Location",
+    "Jinro Coors Brewery": "Organization",
+    "Oriental Breweries": "Organization",
+    "Hite Breweries": "Organization",
+    "Chosun Breweries": "Organization",
+    "OB Breweries": "Organization",
+    "Showa Kirin Breweries": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Beer",
+      "relation": "called",
+      "object": "maekju",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Beer, called maekju (맥주 ; 麥酒 ) in Korean"
+        }
+      ]
+    },
+    {
+      "subject": "Seoul",
+      "relation": "opened",
+      "object": "Jinro Coors Brewery",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Seoul's first beer brewery opened in 1908"
+        }
+      ]
+    },
+    {
+      "subject": "Jinro Coors Brewery",
+      "relation": "acquired_by",
+      "object": "Oriental Breweries",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "It was later acquired by Oriental Breweries (OB)"
+        }
+      ]
+    },
+    {
+      "subject": "Hite Breweries",
+      "relation": "formerly_known_as",
+      "object": "Chosun Breweries",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Hite Breweries's former name was Chosun Breweries"
+        }
+      ]
+    },
+    {
+      "subject": "Hite Breweries",
+      "relation": "changed_name_to",
+      "object": "Hite Breweries",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "The company changed their name to Hite Breweries in 1998"
+        }
+      ]
+    },
+    {
+      "subject": "OB Breweries",
+      "relation": "established_as",
+      "object": "Showa Kirin Breweries",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "OB Breweries established as Showa Kirin Breweries in 1933"
+        }
+      ]
+    },
+    {
+      "subject": "OB Breweries",
+      "relation": "changed_name_to",
+      "object": "OB Breweries",
+      "occurrences": [
+        {
+          "sentence_id": 8,
+          "relation_mention": "The company changed their name to OB Breweries in 1995"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jinro Coors Brewery",
+        "founded",
+        "1990s"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chosun Breweries",
+        "established",
+        "1933"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Beer in South Korea\nBeer, called maekju (맥주 ; 麥酒 ) in Korean, was first introduced to Korea in the early 20th century. Seoul's first beer brewery opened in 1908. Two current major breweries date back to the 1920s. The third brewery established in Korea, Jinro Coors Brewery, was founded in the 1990s. It was later acquired by Oriental Breweries (OB). Hite Breweries's former name was Chosun Breweries, which was established in 1933. The company changed their name to Hite Breweries in 1998. OB Breweries established as Showa Kirin Breweries in 1933. The company changed their name to OB Breweries in 1995."
+}

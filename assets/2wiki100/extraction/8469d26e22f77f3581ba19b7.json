@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Aaron Ben-Ze'ev": "Person",
+    "Israeli philosopher": "Occupation"
+  },
+  "triples": [
+    {
+      "subject": "Aaron Ben-Ze'ev",
+      "relation": "is",
+      "object": "Israeli philosopher",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an Israeli philosopher"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Aaron Ben-Ze'ev",
+        "born_on",
+        "30 July 1949"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Aaron Ben-Ze'ev\nAaron Ben- Ze'ev( born 30 July 1949) is an Israeli philosopher."
+}

@@ -1,0 +1,33 @@
+{
+  "entities": {
+    "W. Augustus Barratt": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "Scotland (GPE)",
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "W. Augustus Barratt",
+        "born_in",
+        "Scotland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "W. Augustus Barratt",
+        "has_nationality",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "W. Augustus Barratt\nW. Augustus Barratt( 1873- 1947) was a Scottish- born, later American, songwriter and musician.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"W. Augustus Barratt\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Scotland\",\n      \"type\": \"GPE\"\n    },\n    {\n      \"name\": \"United States\",\n      \"type\": \"GPE\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"W. Augustus Barratt\",\n      \"relation\": \"born_in\",\n      \"object\": \"Scotland\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Scottish- born\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"W. Augustus Barratt\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"later American\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"W. Augustus Barratt\",\n      \"relation\": \"occupation\",\n      \"object\": \"W. Augustus Barratt\",\n      \"occurrences\": []\n    }\n  ]\n}"
+}

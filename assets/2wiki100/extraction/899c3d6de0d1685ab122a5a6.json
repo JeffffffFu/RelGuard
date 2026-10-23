@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Helmut Weiss": "PERSON",
+    "Germany": "GPE",
+    "West Germany": "GPE",
+    "Second World War": "EVENT",
+    "Hamburg": "GPE",
+    "British Zone of Occupation": "LOC",
+    "Red Army": "ORG",
+    "UFA studios": "FAC",
+    "Berlin": "GPE",
+    "Tell the Truth": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Helmut Weiss",
+        "was",
+        "Germany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Helmut Weiss",
+        "was",
+        "PERSON"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Helmut Weiss",
+        "directed",
+        "Tell the Truth"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tell the Truth",
+        "located_in",
+        "Hamburg"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hamburg",
+        "located_in",
+        "British Zone of Occupation"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "UFA studios",
+        "located_in",
+        "Berlin"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tell the Truth",
+        "produced_in",
+        "West Germany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "UFA studios",
+        "works_for",
+        "Red Army"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Helmut Weiss\nHelmut Weiss( January 25, 1907 – January 13, 1969) was a German actor, screenwriter and film director. He was notable for directing\" Tell the Truth\" the first film produced in what was to become the future West Germany after the Second World War. It was made in Hamburg in the British Zone of Occupation. Much of the film had already been made at the UFA studios in Berlin shortly before the arrival of the Red Army, but Weiss dramatically re-shot it. The film was significant in its use of outdoor locations in common with other post-war rubble films.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Helmut Weiss\", \"type\": \"PERSON\"},\n    {\"name\": \"Germany\", \"type\": \"GPE\"},\n    {\"name\": \"West Germany\", \"type\": \"GPE\"},\n    {\"name\": \"Second World War\", \"type\": \"EVENT\"},\n    {\"name\": \"Hamburg\", \"type\": \"GPE\"},\n    {\"name\": \"British Zone of Occupation\", \"type\": \"LOC\"},\n    {\"name\": \"Red Army\", \"type\": \"ORG\"},\n    {\"name\": \"UFA studios\", \"type\": \"FAC\"},\n    {\"name\": \"Berlin\", \"type\": \"GPE\"},\n    {\"name\": \"Tell the Truth\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Helmut Weiss\",\n      \"relation\": \"was\",\n      \"object\": \"Germany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a German\"}\n      ]\n    },\n    {\n      \"subject\": \"Helmut Weiss\",\n      \"relation\": \"was\",\n      \"object\": \"PERSON\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a German actor, screenwriter and film director\"}\n      ]\n    },\n    {\n      \"subject\": \"Helmut Weiss\",\n      \"relation\": \"directed\",\n      \"object\": \"Tell the Truth\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directing\\\" Tell the Truth\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Tell the Truth\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hamburg\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made in Hamburg\"}\n      ]\n    },\n    {\n      \"subject\": \"Hamburg\",\n      \"relation\": \"located_in\",\n      \"object\": \"British Zone of Occupation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the British Zone of Occupation\"}\n      ]\n    },\n    {\n      \"subject\": \"UFA studios\",\n      \"relation\": \"located_in\",\n      \"object\": \"Berlin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Berlin\"}\n      ]\n    },\n    {\n      \"subject\": \"Tell the Truth\",\n      \"relation\": \"produced_in\",\n      \"object\": \"West Germany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced in what was to become the future West Germany\"}\n      ]\n    },\n    {\n      \"subject\": \"UFA studios\",\n      \"relation\": \"works_for\",\n      \"object\": \"Red Army\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"before the arrival of the Red Army\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,127 @@
+{
+  "entities": {
+    "Operation River Falcon": "EVENT",
+    "Iraq War": "EVENT",
+    "United States Army": "ORG",
+    "2nd Brigade Combat Team": "ORG",
+    "4th Infantry Division": "ORG",
+    "2nd Battalion, 8th Infantry Regiment": "ORG",
+    "1st Battalion, 10th Cavalry Regiment": "ORG",
+    "Sayifiyeh": "GPE",
+    "Iraq": "GPE",
+    "Coalition": "ORG",
+    "Iraqi Security Forces": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Operation River Falcon",
+      "relation": "conducted_by",
+      "object": "United States Army",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "elements of the United States Army 2nd Brigade Combat Team, 4th Infantry Division (including elements of the 2nd Battalion, 8th Infantry Regiment, and the 1st Battalion, 10th Cavalry Regiment) conducted Operation River Falcon"
+        }
+      ]
+    },
+    {
+      "subject": "Operation River Falcon",
+      "relation": "part_of",
+      "object": "Iraq War",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Operation River Falcon was a military operation in the Iraq War"
+        }
+      ]
+    },
+    {
+      "subject": "Operation River Falcon",
+      "relation": "located_in",
+      "object": "Sayifiyeh",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "conducted Operation River Falcon in and around the town of Sayifiyeh in Iraq"
+        }
+      ]
+    },
+    {
+      "subject": "Operation River Falcon",
+      "relation": "located_in",
+      "object": "Iraq",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "conducted Operation River Falcon in and around the town of Sayifiyeh in Iraq"
+        }
+      ]
+    },
+    {
+      "subject": "United States Army",
+      "relation": "has_part",
+      "object": "2nd Brigade Combat Team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "elements of the United States Army 2nd Brigade Combat Team"
+        }
+      ]
+    },
+    {
+      "subject": "2nd Brigade Combat Team",
+      "relation": "has_part",
+      "object": "4th Infantry Division",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "elements of the United States Army 2nd Brigade Combat Team, 4th Infantry Division"
+        }
+      ]
+    },
+    {
+      "subject": "4th Infantry Division",
+      "relation": "has_part",
+      "object": "2nd Battalion, 8th Infantry Regiment",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "including elements of the 2nd Battalion, 8th Infantry Regiment"
+        }
+      ]
+    },
+    {
+      "subject": "Coalition",
+      "relation": "attacked_by",
+      "object": "Operation River Falcon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "disrupting insurgent attacks on Coalition and Iraqi Security Forces"
+        }
+      ]
+    },
+    {
+      "subject": "Iraqi Security Forces",
+      "relation": "attacked_by",
+      "object": "Operation River Falcon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "disrupting insurgent attacks on Coalition and Iraqi Security Forces"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "4th Infantry Division",
+        "has_part",
+        "1st Battalion, 10th Cavalry Regiment"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Operation River Falcon\nOperation River Falcon was a military operation in the Iraq War. From 25–27 July 2006, elements of the United States Army 2nd Brigade Combat Team, 4th Infantry Division (including elements of the 2nd Battalion, 8th Infantry Regiment, and the 1st Battalion, 10th Cavalry Regiment) conducted Operation River Falcon in and around the town of Sayifiyeh in Iraq. The operation was aimed at denying terrorists the use of the town as a safe haven, disrupting insurgent attacks on Coalition and Iraqi Security Forces, and on collecting and destroying insurgent munitions."
+}

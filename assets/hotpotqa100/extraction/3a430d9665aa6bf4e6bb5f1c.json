@@ -1,0 +1,124 @@
+{
+  "entities": {
+    "One Manhattan Square": "Project",
+    "Extell Development Company": "Company",
+    "Two Bridges": "Neighborhood",
+    "Manhattan": "Borough",
+    "New York City": "City",
+    "Pathmark grocery store": "Store",
+    "Manhattan Bridge": "Bridge"
+  },
+  "triples": [
+    {
+      "subject": "One Manhattan Square",
+      "relation": "developed_by",
+      "object": "Extell Development Company",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "being developed by Extell Development Company"
+        }
+      ]
+    },
+    {
+      "subject": "One Manhattan Square",
+      "relation": "located_in",
+      "object": "Two Bridges",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Two Bridges, Manhattan, New York City"
+        }
+      ]
+    },
+    {
+      "subject": "One Manhattan Square",
+      "relation": "built_on_site_of",
+      "object": "Pathmark grocery store",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "built on the site of a former Pathmark grocery store"
+        }
+      ]
+    },
+    {
+      "subject": "Manhattan Bridge",
+      "relation": "is_next_highest_structure_to",
+      "object": "One Manhattan Square",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the next highest structure being the Manhattan Bridge"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "One Manhattan Square",
+        "also_known_as",
+        "227 Cherry Street"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "One Manhattan Square",
+        "also_known_as",
+        "250 South Street"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pathmark grocery store",
+        "demolished_in",
+        "2014"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "One Manhattan Square",
+        "will_stand",
+        "80 stories"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "One Manhattan Square",
+        "will_stand",
+        "850 feet"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "One Manhattan Square",
+        "will_have",
+        "new supermarket"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "One Manhattan Square",
+        "completion_expected_in",
+        "2019"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "One Manhattan Square",
+        "has_affordable_housing_component",
+        "13-story affordable housing component"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "One Manhattan Square\nOne Manhattan Square (also known as 227 Cherry Street or 250 South Street) is a residential skyscraper project being developed by Extell Development Company in Two Bridges, Manhattan, New York City. The project is being built on the site of a former Pathmark grocery store, which was demolished in 2014. The building will stand 80 stories or 850 feet (259 m) above the street, and will possibly have a new supermarket in the tower's base. Once completed, the building will stand out significantly within the context of the neighborhood, the next highest structure being the Manhattan Bridge at roughy 30 stories (102 m) in height. A 13-story affordable housing component will be located separately on-site from the main tower, and completion is currently expected in 2019."
+}

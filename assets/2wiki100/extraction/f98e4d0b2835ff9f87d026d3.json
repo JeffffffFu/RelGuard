@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Ian Barry": "PERSON",
+    "Australian": "NORP",
+    "film": "WORK_OF_ART",
+    "TV": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Ian Barry",
+        "nationality",
+        "Australian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ian Barry",
+        "works_for",
+        "film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ian Barry",
+        "works_for",
+        "TV"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Ian Barry (director)\nIan Barry is an Australian director of film and TV.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Ian Barry\", \"type\": \"PERSON\"},\n    {\"name\": \"Australian\", \"type\": \"NORP\"},\n    {\"name\": \"film\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"TV\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Ian Barry\",\n      \"relation\": \"nationality\",\n      \"object\": \"Australian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an Australian\"}\n      ]\n    },\n    {\n      \"subject\": \"Ian Barry\",\n      \"relation\": \"works_for\",\n      \"object\": \"film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"director of film\"}\n      ]\n    },\n    {\n      \"subject\": \"Ian Barry\",\n      \"relation\": \"works_for\",\n      \"object\": \"TV\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and TV\"}\n      ]\n    }\n  ]\n}"
+}

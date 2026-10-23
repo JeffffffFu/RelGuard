@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Kirk Humphreys": "Person",
+    "Oklahoma City": "Location",
+    "Republican party": "Political Party",
+    "Tom Coburn, MD": "Person",
+    "The Humphreys Company": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Kirk Humphreys",
+      "relation": "favorite_candidate_of",
+      "object": "Republican party",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "considered a favorite candidate of the Republican party establishment for U.S. Senator in 2004"
+        }
+      ]
+    },
+    {
+      "subject": "Kirk Humphreys",
+      "relation": "lost_to",
+      "object": "Tom Coburn, MD",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "losing to former Congressman Tom Coburn, MD in the primary"
+        }
+      ]
+    },
+    {
+      "subject": "Kirk Humphreys",
+      "relation": "chairman_of",
+      "object": "The Humphreys Company",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Humphreys is the chairman of The Humphreys Company"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kirk Humphreys",
+        "born_on",
+        "September 13, 1950"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kirk Humphreys",
+        "served_as",
+        "Mayor of Oklahoma City"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kirk Humphreys\nKirk Humphreys (born September 13, 1950) is an American politician who served as Mayor of Oklahoma City from April 9, 1998 to November 3, 2003. He was considered a favorite candidate of the Republican party establishment for U.S. Senator in 2004, losing to former Congressman Tom Coburn, MD in the primary. Humphreys is the chairman of The Humphreys Company."
+}

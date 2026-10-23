@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Belgium": "GPE",
+    "Belgian": "NORP",
+    "Belgian woman": "PERSON",
+    "Belgian man": "PERSON",
+    "European": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Belgian woman",
+        "located_in",
+        "Belgium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Belgian woman",
+        "located_in",
+        "Belgium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Belgian woman",
+        "is_a",
+        "European"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Belgian woman",
+        "compared_earnings_of",
+        "Belgian man"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Women in Belgium\nWomen in Belgium are European women who live in or are from Belgium. Generation after generation, Belgian women are able to close the \"occupational gender gap\". In younger generations, this is due to the increasing availability of \"part-time jobs in services\" for women. In 1999, the average earnings of a Belgian woman was 91 percent of the salary of a Belgian man. When not doing part-time jobs, Belgian women still \"do more of the domestic work\", depending on the agreement between female and male partners.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Belgium\", \"type\": \"GPE\"},\n    {\"name\": \"Belgian\", \"type\": \"NORP\"},\n    {\"name\": \"Belgian woman\", \"type\": \"PERSON\"},\n    {\"name\": \"Belgian man\", \"type\": \"PERSON\"},\n    {\"name\": \"European\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Belgian woman\",\n      \"relation\": \"located_in\",\n      \"object\": \"Belgium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"live in\"}\n      ]\n    },\n    {\n      \"subject\": \"Belgian woman\",\n      \"relation\": \"located_in\",\n      \"object\": \"Belgium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are from\"}\n      ]\n    },\n    {\n      \"subject\": \"Belgian woman\",\n      \"relation\": \"is_a\",\n      \"object\": \"European\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are European\"}\n      ]\n    },\n    {\n      \"subject\": \"Belgian woman\",\n      \"relation\": \"compared_earnings_of\",\n      \"object\": \"Belgian man\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"was 91 percent of the salary of\"}\n      ]\n    }\n  ]\n}"
+}

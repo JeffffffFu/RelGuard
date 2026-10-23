@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "Shah Verdi Khan": "Person",
+    "Lesser Luristan": "Location",
+    "Khorshidi dynasty": "Dynasty",
+    "Safavid princess": "Person",
+    "Prince Badi al-Zaman Mirza": "Person",
+    "Prince Bahram Mirza": "Person",
+    "Shah Ismail I": "Person",
+    "Shah Abbas I": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Shah Verdi Khan",
+      "relation": "last_atabeg_of",
+      "object": "Lesser Luristan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the last atabeg of Lesser Luristan"
+        }
+      ]
+    },
+    {
+      "subject": "Shah Verdi Khan",
+      "relation": "husband_of",
+      "object": "Safavid princess",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the husband of a Safavid princess"
+        }
+      ]
+    },
+    {
+      "subject": "Safavid princess",
+      "relation": "daughter_of",
+      "object": "Prince Badi al-Zaman Mirza",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who was the daughter of Prince Badi al- Zaman Mirza"
+        }
+      ]
+    },
+    {
+      "subject": "Prince Badi al-Zaman Mirza",
+      "relation": "son_of",
+      "object": "Prince Bahram Mirza",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who is the son of Prince Bahram Mirza"
+        }
+      ]
+    },
+    {
+      "subject": "Prince Bahram Mirza",
+      "relation": "son_of",
+      "object": "Shah Ismail I",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who is the son of Shah Ismail I"
+        }
+      ]
+    },
+    {
+      "subject": "Shah Verdi Khan",
+      "relation": "revolted_against",
+      "object": "Shah Abbas I",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Verdi Khan revolted against the tribute he was assessed by Shah Abbas I"
+        }
+      ]
+    },
+    {
+      "subject": "Shah Abbas I",
+      "relation": "removed_from_power",
+      "object": "Shah Verdi Khan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "removing Verdi Khan from power"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Shah Abbas I",
+        "invaded",
+        "Luristan"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Shah Verdi Khan\nShah Verdi Khan was the last atabeg of Lesser Luristan of the Khorshidi dynasty. Shah Verdi Khan was the husband of a Safavid princess who was the daughter of Prince Badi al- Zaman Mirza who is the son of Prince Bahram Mirza who is the son of Shah Ismail I Around the start of the 17th century Verdi Khan revolted against the tribute he was assessed by Shah Abbas I. This led to Abbas invading Luristan and removing Verdi Khan from power."
+}

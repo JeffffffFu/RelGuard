@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Luigi Cozzi": "PERSON",
+    "Dario Argento": "PERSON",
+    "The Tunnel Under the World": "WORK_OF_ART",
+    "Hercules": "WORK_OF_ART",
+    "Blood on Méliès' Moon": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Luigi Cozzi",
+      "relation": "directed",
+      "object": "The Tunnel Under the World",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directing his first film\" The Tunnel Under the World\"",
+          "line_start": 220,
+          "char_start": 232,
+          "ambiguous": false,
+          "relation_mention": "directing his first film\" The Tunnel Under the World\"",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Luigi Cozzi",
+      "relation": "befriended",
+      "object": "Dario Argento",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "befriended director Dario Argento",
+          "line_start": 281,
+          "char_start": 293,
+          "ambiguous": false,
+          "relation_mention": "befriended director Dario Argento",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Luigi Cozzi",
+      "relation": "worked_with",
+      "object": "Dario Argento",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "began working with him in film and television",
+          "line_start": 319,
+          "char_start": 331,
+          "ambiguous": false,
+          "relation_mention": "began working with him in film and television",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Luigi Cozzi",
+      "relation": "directed",
+      "object": "Hercules",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directing his own features including\" Hercules\"",
+          "line_start": 376,
+          "char_start": 388,
+          "ambiguous": false,
+          "relation_mention": "directing his own features including\" Hercules\"",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Luigi Cozzi",
+      "relation": "directed",
+      "object": "Blood on Méliès' Moon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "returned to directing with the film\" Blood on Méliès' Moon\"",
+          "line_start": 482,
+          "char_start": 494,
+          "ambiguous": false,
+          "relation_mention": "returned to directing with the film\" Blood on Méliès' Moon\"",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Luigi Cozzi",
+        "born_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Luigi Cozzi\nLuigi Cozzi( born 7 September 1947) is an Italian film director and screenwriter. At a young age, Cozzi became a fan of science fiction and began his career as an overseas correspondent for Western film magazines. After directing his first film\" The Tunnel Under the World\", Cozzi befriended director Dario Argento and began working with him in film and television as well as directing his own features including\" Hercules\" as well as continuing work with Argento. In the 2010s, he returned to directing with the film\" Blood on Méliès' Moon\"."
+}

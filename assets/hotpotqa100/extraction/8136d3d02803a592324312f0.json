@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "FC Sion": "ORG",
+    "Sion": "GPE",
+    "Stade Tourbillon": "FAC",
+    "Swiss Super League": "ORG",
+    "Swiss Cup": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "FC Sion",
+      "relation": "located_in",
+      "object": "Sion",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "from the city of Sion",
+          "line_start": 33,
+          "char_start": 41,
+          "ambiguous": false,
+          "relation_mention": "from the city of Sion",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "FC Sion",
+      "relation": "located_in",
+      "object": "Stade Tourbillon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "play their home games at the Stade Tourbillon",
+          "line_start": 95,
+          "char_start": 103,
+          "ambiguous": false,
+          "relation_mention": "play their home games at the Stade Tourbillon",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "FC Sion",
+      "relation": "won",
+      "object": "Swiss Super League",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "have won the Swiss Super League",
+          "line_start": 147,
+          "char_start": 155,
+          "ambiguous": false,
+          "relation_mention": "have won the Swiss Super League",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "FC Sion",
+      "relation": "won",
+      "object": "Swiss Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and the Swiss Cup in",
+          "line_start": 186,
+          "char_start": 194,
+          "ambiguous": false,
+          "relation_mention": "and the Swiss Cup in",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Switzerland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "FC Sion",
+        "located_in",
+        "Switzerland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "FC Sion",
+        "founded",
+        "1909"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "FC Sion\nFC Sion is a Swiss football team from the city of Sion (] ). The club was founded in 1909, and play their home games at the Stade Tourbillon. They have won the Swiss Super League twice, and the Swiss Cup in thirteen of their fourteen appearances in the final, the most recent being in 2015."
+}

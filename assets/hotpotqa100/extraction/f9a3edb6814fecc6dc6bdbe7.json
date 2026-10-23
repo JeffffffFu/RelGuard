@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Dreamland": "FAC",
+    "Coney Island": "LOC",
+    "Brooklyn": "GPE",
+    "New York City": "GPE",
+    "Steeplechase Park": "FAC",
+    "Luna Park": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Coney Island",
+      "relation": "located_in",
+      "object": "Brooklyn",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Brooklyn",
+          "line_start": 59,
+          "char_start": 86,
+          "ambiguous": false,
+          "relation_mention": "Brooklyn",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Brooklyn",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "New York City",
+          "line_start": 69,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "New York City",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Dreamland",
+      "relation": "compared_with",
+      "object": "Steeplechase Park",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the other two being",
+          "line_start": 212,
+          "char_start": 239,
+          "ambiguous": false,
+          "relation_mention": "the other two being",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Dreamland",
+      "relation": "compared_with",
+      "object": "Luna Park",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the other two being",
+          "line_start": 212,
+          "char_start": 239,
+          "ambiguous": false,
+          "relation_mention": "the other two being",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Dreamland",
+        "located_in",
+        "Coney Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dreamland",
+        "founded",
+        "1904"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dreamland",
+        "event_duration",
+        "1904 to 1911"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Dreamland (amusement park)\nDreamland was an ambitious amusement park at Coney Island, Brooklyn, New York City from 1904 to 1911. It was the last, and considered the grandest, of the three original iconic large parks built on Coney Island, the other two being Steeplechase Park and Luna Park."
+}

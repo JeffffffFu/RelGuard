@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Kriminal": "WORK_OF_ART",
+    "The Mark of Kriminal": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "The Mark of Kriminal",
+      "relation": "is_follow_up_to",
+      "object": "Kriminal",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "follow- up to",
+          "line_start": 72,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "follow- up to",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Mark of Kriminal",
+        "is_a",
+        "Kriminal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Mark of Kriminal",
+        "released_in_year",
+        "1967"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kriminal",
+        "released_in_year",
+        "1966"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Il marchio di Kriminal\nIl marchio di Kriminal( The Mark of Kriminal) is a 1967 film. It is the follow- up to\" Kriminal\"( 1966)."
+}

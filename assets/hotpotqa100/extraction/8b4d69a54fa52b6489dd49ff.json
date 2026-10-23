@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Blancpain GT Series Sprint Cup": "EVENT",
+    "2017 Blancpain GT Series Sprint Cup": "EVENT",
+    "SRO Group": "ORG",
+    "FIA GT1 World Championship": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "2017 Blancpain GT Series Sprint Cup",
+      "relation": "followed_on_from",
+      "object": "FIA GT1 World Championship",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "following on from",
+          "line_start": 99,
+          "char_start": 135,
+          "ambiguous": false,
+          "relation_mention": "following on from",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "2017 Blancpain GT Series Sprint Cup",
+        "is_season_of",
+        "Blancpain GT Series Sprint Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FIA GT1 World Championship",
+        "was_run_by",
+        "SRO Group"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "2017 Blancpain GT Series Sprint Cup\nThe 2017 Blancpain GT Series Sprint Cup was the fifth season of the Blancpain GT Series Sprint Cup following on from the demise of the SRO Group's FIA GT1 World Championship (an auto racing series for grand tourer cars), the fourth with the designation of Blancpain Sprint Series or Blancpain GT Series Sprint Cup.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Blancpain GT Series Sprint Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"2017 Blancpain GT Series Sprint Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"SRO Group\", \"type\": \"ORG\"},\n    {\"name\": \"FIA GT1 World Championship\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"2017 Blancpain GT Series Sprint Cup\",\n      \"relation\": \"is_season_of\",\n      \"object\": \"Blancpain GT Series Sprint Cup\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Blancpain GT Series Sprint Cup\"}\n      ]\n    },\n    {\n      \"subject\": \"FIA GT1 World Championship\",\n      \"relation\": \"was_run_by\",\n      \"object\": \"SRO Group\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"SRO Group's\"}\n      ]\n    },\n    {\n      \"subject\": \"2017 Blancpain GT Series Sprint Cup\",\n      \"relation\": \"followed_on_from\",\n      \"object\": \"FIA GT1 World Championship\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"following on from\"}\n      ]\n    }\n  ]\n}"
+}

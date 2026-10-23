@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Kevin Beard": "PERSON",
+    "University of Tennessee": "ORG",
+    "University of Miami": "ORG",
+    "Larry Coker": "PERSON",
+    "AF2": "ORG",
+    "Arena Football League": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Kevin Beard",
+      "relation": "played_college_football_at",
+      "object": "University of Miami",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played college football at",
+          "line_start": 170,
+          "char_start": 182,
+          "ambiguous": false,
+          "relation_mention": "played college football at",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kevin Beard",
+        "works_for",
+        "University of Tennessee"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kevin Beard",
+        "played_for",
+        "Larry Coker"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kevin Beard",
+        "played_in",
+        "AF2"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kevin Beard",
+        "played_in",
+        "Arena Football League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kevin Beard",
+        "works_for",
+        "University of Miami"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kevin Beard\nKevin Leon Beard (born January 20, 1981) is an American football coach and former player who currently serves as the wide receivers coach for University of Tennessee. He played college football at the University of Miami for Larry Coker, and afterward played professionally in the AF2 from 2005 to 2006, and in the Arena Football League in 2007. In 2015, Beard returned to Miami as the wide receivers coach.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kevin Beard\", \"type\": \"PERSON\"},\n    {\"name\": \"University of Tennessee\", \"type\": \"ORG\"},\n    {\"name\": \"University of Miami\", \"type\": \"ORG\"},\n    {\"name\": \"Larry Coker\", \"type\": \"PERSON\"},\n    {\"name\": \"AF2\", \"type\": \"ORG\"},\n    {\"name\": \"Arena Football League\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kevin Beard\",\n      \"relation\": \"works_for\",\n      \"object\": \"University of Tennessee\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"serves as the wide receivers coach for\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Kevin Beard\",\n      \"relation\": \"played_college_football_at\",\n      \"object\": \"University of Miami\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"played college football at\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Kevin Beard\",\n      \"relation\": \"played_for\",\n      \"object\": \"Larry Coker\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"for\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Kevin Beard\",\n      \"relation\": \"played_in\",\n      \"object\": \"AF2\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"played professionally in the AF2\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Kevin Beard\",\n      \"relation\": \"played_in\",\n      \"object\": \"Arena Football League\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in the Arena Football League\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Kevin Beard\",\n      \"relation\": \"works_for\",\n      \"object\": \"University of Miami\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"returned to Miami as the wide receivers coach\"\n        }\n      ]\n    }\n  ]\n}"
+}

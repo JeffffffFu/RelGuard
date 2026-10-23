@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Priscilla Guthrie": "PERSON",
+    "Office of the Director of National Intelligence": "ORG",
+    "ODNI": "ORG",
+    "Intelligence Community": "ORG",
+    "IC Chief Information Officer": "PERSON",
+    "Institute for Defense Analyses": "ORG",
+    "Department of Defense": "ORG",
+    "Pentagon": "FAC",
+    "TRW Inc.": "ORG",
+    "Pennsylvania State University": "ORG",
+    "Marymount College": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Priscilla Guthrie",
+      "relation": "works_for",
+      "object": "Office of the Director of National Intelligence",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "joined",
+          "line_start": 18,
+          "char_start": 36,
+          "ambiguous": false,
+          "relation_mention": "joined",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Priscilla Guthrie",
+      "relation": "works_for",
+      "object": "ODNI",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "joined",
+          "line_start": 18,
+          "char_start": 36,
+          "ambiguous": false,
+          "relation_mention": "joined",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Priscilla Guthrie",
+        "holds_title",
+        "IC Chief Information Officer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Priscilla Guthrie",
+        "was_director_of",
+        "Institute for Defense Analyses"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Institute for Defense Analyses",
+        "located_in",
+        "Department of Defense"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Priscilla Guthrie",
+        "worked_at",
+        "Department of Defense"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Priscilla Guthrie",
+        "worked_at",
+        "Pentagon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Priscilla Guthrie",
+        "was_vice_president_of",
+        "TRW Inc."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Priscilla Guthrie",
+        "holds_degree_from",
+        "Pennsylvania State University"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Priscilla Guthrie",
+        "holds_degree_from",
+        "Marymount College"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Priscilla Guthrie\nPriscilla Guthrie joined the Office of the Director of National Intelligence (ODNI) as the Intelligence Community (IC) Chief Information Officer on May 26, 2009. She was previously Director of the Information Technology and Systems Division of the Institute for Defense Analyses, a non-profit corporation that administers three federally funded research and development centers to provide objective analyses of national security issues. From 2001 to 2006, she served as Deputy Assistant Secretary of Defense (Deputy Chief Information Officer) at the Department of Defense, where she was responsible for information support to deployed forces. Prior to her position at the Pentagon, Ms. Guthrie was a Vice President of TRW Inc., where she established and led a small, global unit responsible for driving new IT technology into the company's business. She also served in several other positions at TRW, Inc. during her career. Ms. Guthrie holds a B.S. from Pennsylvania State University and an M.B.A. from Marymount College.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Priscilla Guthrie\", \"type\": \"PERSON\"},\n    {\"name\": \"Office of the Director of National Intelligence\", \"type\": \"ORG\"},\n    {\"name\": \"ODNI\", \"type\": \"ORG\"},\n    {\"name\": \"Intelligence Community\", \"type\": \"ORG\"},\n    {\"name\": \"IC Chief Information Officer\", \"type\": \"PERSON\"},\n    {\"name\": \"Institute for Defense Analyses\", \"type\": \"ORG\"},\n    {\"name\": \"Department of Defense\", \"type\": \"ORG\"},\n    {\"name\": \"Pentagon\", \"type\": \"FAC\"},\n    {\"name\": \"TRW Inc.\", \"type\": \"ORG\"},\n    {\"name\": \"Pennsylvania State University\", \"type\": \"ORG\"},\n    {\"name\": \"Marymount College\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Priscilla Guthrie\",\n      \"relation\": \"works_for\",\n      \"object\": \"Office of the Director of National Intelligence\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"joined\"}\n      ]\n    },\n    {\n      \"subject\": \"Priscilla Guthrie\",\n      \"relation\": \"works_for\",\n      \"object\": \"ODNI\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"joined\"}\n      ]\n    },\n    {\n      \"subject\": \"Priscilla Guthrie\",\n      \"relation\": \"holds_title\",\n      \"object\": \"IC Chief Information Officer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as the Intelligence Community (IC) Chief Information Officer\"}\n      ]\n    },\n    {\n      \"subject\": \"Priscilla Guthrie\",\n      \"relation\": \"was_director_of\",\n      \"object\": \"Institute for Defense Analyses\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Director of the Information Technology and Systems Division of the Institute for Defense Analyses\"}\n      ]\n    },\n    {\n      \"subject\": \"Institute for Defense Analyses\",\n      \"relation\": \"located_in\",\n      \"object\": \"Department of Defense\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a non-profit corporation that administers three federally funded research and development centers to provide objective analyses of national security issues\"}\n      ]\n    },\n    {\n      \"subject\": \"Priscilla Guthrie\",\n      \"relation\": \"worked_at\",\n      \"object\": \"Department of Defense\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served as Deputy Assistant Secretary of Defense (Deputy Chief Information Officer) at the Department of Defense\"}\n      ]\n    },\n    {\n      \"subject\": \"Priscilla Guthrie\",\n      \"relation\": \"worked_at\",\n      \"object\": \"Pentagon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Prior to her position at the Pentagon\"}\n      ]\n    },\n    {\n      \"subject\": \"Priscilla Guthrie\",\n      \"relation\": \"was_vice_president_of\",\n      \"object\": \"TRW Inc.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a Vice President of TRW Inc.\"}\n      ]\n    },\n    {\n      \"subject\": \"Priscilla Guthrie\",\n      \"relation\": \"holds_degree_from\",\n      \"object\": \"Pennsylvania State University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"holds a B.S. from Pennsylvania State University\"}\n      ]\n    },\n    {\n      \"subject\": \"Priscilla Guthrie\",\n      \"relation\": \"holds_degree_from\",\n      \"object\": \"Marymount College\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and an M.B.A. from Marymount College\"}\n      ]\n    }\n  ]\n}"
+}

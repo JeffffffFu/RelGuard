@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Adelina of Holland": "Person",
+    "Arnulf, Count of Holland": "Person",
+    "Lutgardis of Luxemburg": "Person",
+    "Baldwin II, Count of Boulogne": "Person",
+    "Eustace I of Boulogne": "Person",
+    "Enguerrand I of Ponthieu": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Adelina of Holland",
+      "relation": "daughter_of",
+      "object": "Arnulf, Count of Holland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "possibly a daughter of Arnulf, Count of Holland"
+        }
+      ]
+    },
+    {
+      "subject": "Adelina of Holland",
+      "relation": "married",
+      "object": "Baldwin II, Count of Boulogne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "She married firstly Baldwin II, Count of Boulogne"
+        }
+      ]
+    },
+    {
+      "subject": "Baldwin II, Count of Boulogne",
+      "relation": "had_child",
+      "object": "Eustace I of Boulogne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with whom she had Eustace I of Boulogne"
+        }
+      ]
+    },
+    {
+      "subject": "Adelina of Holland",
+      "relation": "married",
+      "object": "Enguerrand I of Ponthieu",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and secondly Enguerrand I of Ponthieu"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Adelina of Holland",
+        "daughter_of",
+        "Lutgardis of Luxemburg"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Adelina of Holland\nAdelina of Holland was possibly a daughter of Arnulf, Count of Holland, and Lutgardis of Luxemburg. She married firstly Baldwin II, Count of Boulogne( with whom she had Eustace I of Boulogne), and secondly Enguerrand I of Ponthieu."
+}

@@ -1,0 +1,143 @@
+{
+  "entities": {
+    "Lord John Hay": "PERSON",
+    "Royal Navy": "ORG",
+    "Eupatoria": "GPE",
+    "Siege of Sevastopol": "EVENT",
+    "Crimean War": "EVENT",
+    "Battle of Taku Forts": "EVENT",
+    "Cyprus": "GPE",
+    "Congress of Berlin": "EVENT",
+    "Marquis of Ripon": "PERSON",
+    "First Lord of the Admiralty": "PERSON",
+    "William Gladstone": "PERSON",
+    "Liberal Government": "ORG",
+    "Wick": "GPE",
+    "Ripon": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Lord John Hay",
+      "relation": "served_in",
+      "object": "Royal Navy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a Royal Navy officer"
+        }
+      ]
+    },
+    {
+      "subject": "Lord John Hay",
+      "relation": "participated_in",
+      "object": "Battle of Taku Forts",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "took part in the Battle of Taku Forts in August 1860 during the Second Opium War"
+        }
+      ]
+    },
+    {
+      "subject": "Lord John Hay",
+      "relation": "became_member_of_parliament_for",
+      "object": "Wick",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he became Member of Parliament for Wick"
+        }
+      ]
+    },
+    {
+      "subject": "Lord John Hay",
+      "relation": "became_member_of_parliament_for",
+      "object": "Ripon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "later for Ripon"
+        }
+      ]
+    },
+    {
+      "subject": "Lord John Hay",
+      "relation": "was_sent_to",
+      "object": "Cyprus",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He was sent to the Mediterranean in July 1878 to take control of Cyprus"
+        }
+      ]
+    },
+    {
+      "subject": "Lord John Hay",
+      "relation": "occupied",
+      "object": "Cyprus",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to occupy it in accordance with decisions reached at the Congress of Berlin"
+        }
+      ]
+    },
+    {
+      "subject": "Marquis of Ripon",
+      "relation": "became",
+      "object": "First Lord of the Admiralty",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "when the Marquis of Ripon became First Lord of the Admiralty"
+        }
+      ]
+    },
+    {
+      "subject": "William Gladstone",
+      "relation": "led",
+      "object": "Liberal Government",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "when William Gladstone's Liberal Government fell from power"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lord John Hay",
+        "participated_in",
+        "First Opium War"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lord John Hay",
+        "participated_in",
+        "defence of Eupatoria"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lord John Hay",
+        "participated_in",
+        "Siege of Sevastopol"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Lord John Hay",
+        "was_made",
+        "First Naval Lord"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lord John Hay (Royal Navy officer, born 1827)\nAdmiral of the Fleet Lord John Hay, GCB (23 August 1827 – 4 May 1916) was a Royal Navy officer and politician. After seeing action in 1842 during the First Opium War, he went ashore with the Naval Brigade and took part in the defence of Eupatoria in November 1854 and the Siege of Sevastopol in Spring 1855 during the Crimean War. He also took part in the Battle of Taku Forts in August 1860 during the Second Opium War. As a politician, he became Member of Parliament for Wick and later for Ripon. He was sent to the Mediterranean in July 1878 to take control of Cyprus and to occupy it in accordance with decisions reached at the Congress of Berlin. In a highly political appointment, he was made First Naval Lord in March 1886 when the Marquis of Ripon became First Lord of the Admiralty but had to stand down just five months later when William Gladstone's Liberal Government fell from power in August 1886."
+}

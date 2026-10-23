@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Imo's Pizza": "ORG",
+    "St. Louis": "GPE",
+    "Missouri": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Imo's Pizza",
+      "relation": "headquartered_in",
+      "object": "St. Louis",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is headquartered in",
+          "line_start": 99,
+          "char_start": 111,
+          "ambiguous": false,
+          "relation_mention": "is headquartered in",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Imo's Pizza",
+      "relation": "located_in",
+      "object": "Missouri",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in the greater St. Louis, Missouri area",
+          "line_start": 49,
+          "char_start": 61,
+          "ambiguous": false,
+          "relation_mention": "based in the greater St. Louis, Missouri area",
+          "sentence_id": 2
+        },
+        {
+          "line": 2,
+          "predicate": "is headquartered in St. Louis, Missouri",
+          "line_start": 99,
+          "char_start": 111,
+          "ambiguous": false,
+          "relation_mention": "is headquartered in St. Louis, Missouri",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "St. Louis",
+      "relation": "located_in",
+      "object": "Missouri",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "St. Louis, Missouri",
+          "line_start": 70,
+          "char_start": 82,
+          "ambiguous": true,
+          "relation_mention": "St. Louis, Missouri",
+          "sentence_id": 2
+        },
+        {
+          "line": 2,
+          "predicate": "St. Louis, Missouri",
+          "line_start": 70,
+          "char_start": 82,
+          "ambiguous": true,
+          "relation_mention": "St. Louis, Missouri",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Imo's Pizza",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Imo's Pizza\nImo's Pizza is a U.S. chain of pizza restaurants based in the greater St. Louis, Missouri area. It is headquartered in St. Louis, Missouri."
+}

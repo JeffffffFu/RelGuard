@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Anja Salomonowitz": "Person",
+    "Vienna": "Location",
+    "Austria": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Anja Salomonowitz",
+      "relation": "born_in",
+      "object": "Vienna",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born in Vienna"
+        }
+      ]
+    },
+    {
+      "subject": "Anja Salomonowitz",
+      "relation": "located_in",
+      "object": "Austria",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Austrian"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Anja Salomonowitz",
+        "works_as",
+        "film director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anja Salomonowitz",
+        "works_as",
+        "screenwriter"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Anja Salomonowitz\nAnja Salomonowitz (born in Vienna) is an Austrian film director and screenwriter, specialised on documentary films with political or social background."
+}

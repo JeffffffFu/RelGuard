@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Feu": "PRODUCT",
+    "Lao": "LANGUAGE",
+    "Lao beef stew": "PRODUCT",
+    "Lao beef noodle soup": "PRODUCT",
+    "feu noodle soup": "PRODUCT",
+    "French": "LANGUAGE",
+    "pot-au-feu": "WORK_OF_ART",
+    "Laos": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Feu",
+      "relation": "also_known_as",
+      "object": "Lao beef stew",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also known as Lao beef stew"
+        }
+      ]
+    },
+    {
+      "subject": "Feu",
+      "relation": "written_in",
+      "object": "Lao",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "this Lao stew or noodle soup is written as ເຝີ in the Lao script"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Feu",
+        "also_known_as",
+        "Lao beef noodle soup"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Feu",
+        "also_known_as",
+        "feu noodle soup"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Feu",
+        "derived_from",
+        "pot-au-feu"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "pot-au-feu",
+        "written_in",
+        "French"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Feu (food)\nFeu (Lao: ເຝີ ; also known as Lao beef stew, Lao beef noodle soup or feu noodle soup and sometimes spelled fer) is a long-simmered Lao stew or noodle soup most often made with meat and bones (beef or chicken), vegetables, and herbs. Feu may be served two ways, either as a stew along with steamed rice or as a noodle soup consisting of rice noodles. The English name for this Lao dish is \"feu\", a spelling derived from the French dish \"pot-au-feu \"; however, in Laos, this Lao stew or noodle soup is written as ເຝີ in the Lao script."
+}

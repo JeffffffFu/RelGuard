@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Louise Fitzjames": "PERSON",
+    "Paris": "GPE",
+    "Paris Opera": "ORG",
+    "Marie Taglioni": "PERSON",
+    "Meyerbeer": "PERSON",
+    "Robert le diable": "WORK_OF_ART",
+    "Théophile Gautier": "PERSON",
+    "Le Dieu et la bayadere": "WORK_OF_ART",
+    "La Jolie Fille de Gand": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Louise Fitzjames",
+      "relation": "born_in",
+      "object": "Paris",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born on 10 December 1809 in Paris"
+        }
+      ]
+    },
+    {
+      "subject": "Louise Fitzjames",
+      "relation": "danced_at",
+      "object": "Paris Opera",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "danced at Paris Opera from 1832 to 1846"
+        }
+      ]
+    },
+    {
+      "subject": "Louise Fitzjames",
+      "relation": "took_on_role_of",
+      "object": "Marie Taglioni",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Fitzjames took on Taglioni's role of the Abbess"
+        }
+      ]
+    },
+    {
+      "subject": "Louise Fitzjames",
+      "relation": "criticized_by",
+      "object": "Théophile Gautier",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was criticized by poet Théophile Gautier for her emaciated appearance"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marie Taglioni",
+        "dropped_out_of",
+        "Robert le diable"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Louise Fitzjames",
+        "included_roles_in",
+        "Le Dieu et la bayadere"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Louise Fitzjames",
+        "included_roles_in",
+        "La Jolie Fille de Gand"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Louise Fitzjames\nLouise Fitzjames was a 19th-century ballerina. She was born on 10 December 1809 in Paris, and danced at Paris Opera from 1832 to 1846. When Marie Taglioni dropped out of Meyerbeer's \"Robert le diable\" after a few appearances, Fitzjames took on Taglioni's role of the Abbess. She danced the Abbess over 230 times. She was criticized by poet Théophile Gautier for her emaciated appearance. Other roles included those in \"Le Dieu et la bayadere\" and \"La Jolie Fille de Gand\" in 1842."
+}

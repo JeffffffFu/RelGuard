@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Sleepy Hollow": "location",
+    "Tim Burton": "director",
+    "Washington Irving": "author",
+    "Johnny Depp": "actor",
+    "Christina Ricci": "actor",
+    "Miranda Richardson": "actor",
+    "Michael Gambon": "actor",
+    "Casper Van Dien": "actor",
+    "Jeffrey Jones": "actor",
+    "Ichabod Crane": "character",
+    "New York City": "location",
+    "Headless Horseman": "character"
+  },
+  "triples": [
+    {
+      "subject": "Sleepy Hollow",
+      "relation": "directed_by",
+      "object": "Tim Burton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Tim Burton"
+        }
+      ]
+    },
+    {
+      "subject": "Sleepy Hollow",
+      "relation": "inspired_by",
+      "object": "Washington Irving",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "inspired by the 1820 short story \"The Legend of Sleepy Hollow\" by Washington Irving"
+        }
+      ]
+    },
+    {
+      "subject": "Sleepy Hollow",
+      "relation": "stars",
+      "object": "Johnny Depp",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars Johnny Depp"
+        }
+      ]
+    },
+    {
+      "subject": "Ichabod Crane",
+      "relation": "played_by",
+      "object": "Johnny Depp",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Ichabod Crane (Depp)"
+        }
+      ]
+    },
+    {
+      "subject": "Ichabod Crane",
+      "relation": "sent_from",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "sent from New York City"
+        }
+      ]
+    },
+    {
+      "subject": "Ichabod Crane",
+      "relation": "investigates",
+      "object": "Sleepy Hollow",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "to investigate a series of murders in the village of Sleepy Hollow"
+        }
+      ]
+    },
+    {
+      "subject": "Sleepy Hollow",
+      "relation": "involves",
+      "object": "Headless Horseman",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "by a mysterious Headless Horseman"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sleepy Hollow",
+        "stars",
+        "Christina Ricci"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Sleepy Hollow (film)\nSleepy Hollow is a 1999 American Gothic supernatural horror film directed by Tim Burton. It is a film adaptation loosely inspired by the 1820 short story \"The Legend of Sleepy Hollow\" by Washington Irving and stars Johnny Depp and Christina Ricci, with Miranda Richardson, Michael Gambon, Casper Van Dien, and Jeffrey Jones in supporting roles. The plot follows police constable Ichabod Crane (Depp) sent from New York City to investigate a series of murders in the village of Sleepy Hollow by a mysterious Headless Horseman."
+}

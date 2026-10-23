@@ -1,0 +1,61 @@
+{
+  "entities": {
+    "The Last Castle": "WORK_OF_ART",
+    "Rod Lurie": "PERSON",
+    "Robert Redford": "PERSON",
+    "James Gandolfini": "PERSON",
+    "Mark Ruffalo": "PERSON",
+    "Delroy Lindo": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "The Last Castle",
+      "relation": "directed_by",
+      "object": "Rod Lurie",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Rod Lurie"
+        }
+      ]
+    },
+    {
+      "subject": "The Last Castle",
+      "relation": "starring",
+      "object": "Robert Redford",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Robert Redford"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Last Castle",
+        "starring",
+        "James Gandolfini"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Last Castle",
+        "starring",
+        "Mark Ruffalo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Last Castle",
+        "starring",
+        "Delroy Lindo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Last Castle\nThe Last Castle is a 2001 American action drama film directed by Rod Lurie, starring Robert Redford, James Gandolfini, Mark Ruffalo and Delroy Lindo."
+}

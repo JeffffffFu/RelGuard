@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Julien Ictoi": "PERSON",
+    "Poissy": "GPE",
+    "France": "GPE",
+    "Le Moule": "GPE",
+    "Guadeloupe": "GPE",
+    "Guadeloupe Division d'Honneur": "ORG",
+    "Pacy Vallée-d'Eure": "ORG",
+    "Mantes": "ORG",
+    "CS Moulien": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Julien Ictoi",
+      "relation": "signed_with",
+      "object": "Pacy Vallée-d'Eure",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "signing with",
+          "line_start": 275,
+          "char_start": 288,
+          "ambiguous": false,
+          "relation_mention": "signing with",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Julien Ictoi",
+      "relation": "joined",
+      "object": "CS Moulien",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "joining",
+          "line_start": 519,
+          "char_start": 532,
+          "ambiguous": false,
+          "relation_mention": "joining",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Julien Ictoi",
+        "born_in",
+        "Poissy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Julien Ictoi",
+        "nationality",
+        "France"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Julien Ictoi",
+        "plays_for",
+        "Le Moule"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Le Moule",
+        "located_in",
+        "Guadeloupe"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Le Moule",
+        "plays_in_league",
+        "Guadeloupe Division d'Honneur"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Julien Ictoi",
+        "played_for",
+        "Mantes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CS Moulien",
+        "won",
+        "Guadeloupe Division d'Honneur"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Julien Ictoi\nJulien Ictoi (born 22 March 1978 in Poissy) is a French football player who currently plays for French club Le Moule on the island of Guadeloupe in the Guadeloupe Division d'Honneur. He, initially, began his career playing as a striker, but switched to defense in 2007 after signing with Pacy Vallée-d'Eure. Ictoi has spent the majority of his career playing in the amateur divisions of France, most notably with Mantes, whom he made over 100 appearances with. In 2010, he ventured to his native homeland of Guadeloupe joining CS Moulien. In his inaugural season with the club, Ictoi won the Guadeloupe Division d'Honneur.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Julien Ictoi\", \"type\": \"PERSON\"},\n    {\"name\": \"Poissy\", \"type\": \"GPE\"},\n    {\"name\": \"France\", \"type\": \"GPE\"},\n    {\"name\": \"Le Moule\", \"type\": \"GPE\"},\n    {\"name\": \"Guadeloupe\", \"type\": \"GPE\"},\n    {\"name\": \"Guadeloupe Division d'Honneur\", \"type\": \"ORG\"},\n    {\"name\": \"Pacy Vallée-d'Eure\", \"type\": \"ORG\"},\n    {\"name\": \"Mantes\", \"type\": \"ORG\"},\n    {\"name\": \"CS Moulien\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Julien Ictoi\",\n      \"relation\": \"born_in\",\n      \"object\": \"Poissy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born 22 March 1978 in\"}\n      ]\n    },\n    {\n      \"subject\": \"Julien Ictoi\",\n      \"relation\": \"nationality\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a French\"}\n      ]\n    },\n    {\n      \"subject\": \"Julien Ictoi\",\n      \"relation\": \"plays_for\",\n      \"object\": \"Le Moule\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"plays for\"}\n      ]\n    },\n    {\n      \"subject\": \"Le Moule\",\n      \"relation\": \"located_in\",\n      \"object\": \"Guadeloupe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the island of\"}\n      ]\n    },\n    {\n      \"subject\": \"Le Moule\",\n      \"relation\": \"plays_in_league\",\n      \"object\": \"Guadeloupe Division d'Honneur\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Guadeloupe Division d'Honneur\"}\n      ]\n    },\n    {\n      \"subject\": \"Julien Ictoi\",\n      \"relation\": \"signed_with\",\n      \"object\": \"Pacy Vallée-d'Eure\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"signing with\"}\n      ]\n    },\n    {\n      \"subject\": \"Julien Ictoi\",\n      \"relation\": \"played_for\",\n      \"object\": \"Mantes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with Mantes\"}\n      ]\n    },\n    {\n      \"subject\": \"Julien Ictoi\",\n      \"relation\": \"joined\",\n      \"object\": \"CS Moulien\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"joining\"}\n      ]\n    },\n    {\n      \"subject\": \"CS Moulien\",\n      \"relation\": \"won\",\n      \"object\": \"Guadeloupe Division d'Honneur\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the Guadeloupe Division d'Honneur\"}\n      ]\n    }\n  ]\n}"
+}

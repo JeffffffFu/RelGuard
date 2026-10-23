@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "Angola": "Country",
+    "Republic of Angola": "Country",
+    "Namibia": "Country",
+    "Democratic Republic of the Congo": "Country",
+    "Zambia": "Country",
+    "Atlantic Ocean": "Geographical Feature",
+    "Cabinda": "Province",
+    "Republic of the Congo": "Country",
+    "Luanda": "City"
+  },
+  "triples": [
+    {
+      "subject": "Angola",
+      "relation": "officially_known_as",
+      "object": "Republic of Angola",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Angola , officially the Republic of Angola"
+        }
+      ]
+    },
+    {
+      "subject": "Angola",
+      "relation": "borders",
+      "object": "Namibia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "bordered by Namibia to the south"
+        }
+      ]
+    },
+    {
+      "subject": "Cabinda",
+      "relation": "borders_with",
+      "object": "Republic of the Congo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The exclave province of Cabinda has borders with the Republic of the Congo"
+        }
+      ]
+    },
+    {
+      "subject": "Angola",
+      "relation": "capital",
+      "object": "Luanda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The capital and largest city of Angola is Luanda"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Angola",
+        "located_in",
+        "Southern Africa"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Angola",
+        "borders",
+        "Democratic Republic of the Congo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Angola",
+        "borders",
+        "Zambia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Angola",
+        "borders",
+        "Atlantic Ocean"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Cabinda",
+        "borders_with",
+        "Democratic Republic of the Congo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Angola\nAngola , officially the Republic of Angola (Portuguese: \"República de Angola\" ] ; Kikongo, Kimbundu and Umbundu: \"Repubilika ya Ngola\"), is a country in Southern Africa. It is the seventh-largest country in Africa and is bordered by Namibia to the south, the Democratic Republic of the Congo to the north, Zambia to the east, and the Atlantic Ocean to west. The exclave province of Cabinda has borders with the Republic of the Congo and the Democratic Republic of the Congo. The capital and largest city of Angola is Luanda."
+}

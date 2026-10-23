@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Nicolas Mahut": "Person",
+    "Édouard Roger-Vasselin": "Person",
+    "Sergiy Stakhovsky": "Person",
+    "Jonathan Erlich": "Person",
+    "Rajeev Ram": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Nicolas Mahut",
+      "relation": "played_alongside",
+      "object": "Sergiy Stakhovsky",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Mahut played alongside Sergiy Stakhovsky,"
+        }
+      ]
+    },
+    {
+      "subject": "Nicolas Mahut",
+      "relation": "lost_to",
+      "object": "Jonathan Erlich",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "but lost in the semifinals to Jonathan Erlich"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Édouard Roger-Vasselin",
+        "chose_not_to_participate",
+        "2014 Hall of Fame Tennis Championships – Doubles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nicolas Mahut",
+        "lost_to",
+        "Rajeev Ram"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "2014 Hall of Fame Tennis Championships – Doubles\nNicolas Mahut and Édouard Roger-Vasselin were the defending champions, but Roger-Vasselin chose not to participate. Mahut played alongside Sergiy Stakhovsky, but lost in the semifinals to Jonathan Erlich and Rajeev Ram.<br>"
+}

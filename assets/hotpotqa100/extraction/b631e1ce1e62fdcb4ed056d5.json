@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Trigg Hound": "dog breed",
+    "American Foxhound": "dog breed",
+    "Kentucky": "location",
+    "Colonel Haiden Trigg": "person"
+  },
+  "triples": [
+    {
+      "subject": "Trigg Hound",
+      "relation": "developed_in",
+      "object": "Kentucky",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "developed in Kentucky"
+        }
+      ]
+    },
+    {
+      "subject": "Trigg Hound",
+      "relation": "is_a",
+      "object": "American Foxhound",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a variety of the American Foxhound"
+        }
+      ]
+    },
+    {
+      "subject": "Trigg Hound",
+      "relation": "developed_by",
+      "object": "Colonel Haiden Trigg",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "developed in Kentucky by Colonel Haiden Trigg"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Trigg Hound",
+        "also_known_as",
+        "Trigg Foxhound"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Trigg Hound\nThe Trigg Hound (also known as the Trigg Foxhound or Hayden Trigg Hound) is a variety of the American Foxhound, developed in Kentucky by Colonel Haiden Trigg."
+}

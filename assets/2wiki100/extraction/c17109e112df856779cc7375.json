@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "She's on Duty": "WORK_OF_ART",
+    "Kim Sun-a": "PERSON",
+    "Nam Sang-mi": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "South Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "She's on Duty",
+        "is_a",
+        "film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "She's on Duty",
+        "located_in",
+        "South Korea"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kim Sun-a",
+        "portrays",
+        "police detective"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kim Sun-a",
+        "goes_undercover_in",
+        "high school"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kim Sun-a",
+        "befriends",
+        "Nam Sang-mi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "She's on Duty\nShe's on Duty( lit.\" Stakeout\" or\" Undercover\") is a 2005 South Korean film about a police detective( Kim Sun- a) who goes undercover in a high school to befriend the daughter( Nam Sang -mi) of an elusive gangster. Despite being heavily marketed, the film was generally considered a box office disappointment.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"She's on Duty\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Kim Sun-a\", \"type\": \"PERSON\"},\n    {\"name\": \"Nam Sang-mi\", \"type\": \"PERSON\"},\n    {\"name\": \"South Korea\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"She's on Duty\",\n      \"relation\": \"is_a\",\n      \"object\": \"film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a 2005 South Korean film about a police detective( Kim Sun- a) who goes undercover in a high school to befriend the daughter( Nam Sang -mi) of an elusive gangster.\"}\n      ]\n    },\n    {\n      \"subject\": \"She's on Duty\",\n      \"relation\": \"located_in\",\n      \"object\": \"South Korea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"South Korean\"}\n      ]\n    },\n    {\n      \"subject\": \"Kim Sun-a\",\n      \"relation\": \"portrays\",\n      \"object\": \"police detective\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"police detective( Kim Sun- a) who goes undercover\"}\n      ]\n    },\n    {\n      \"subject\": \"Kim Sun-a\",\n      \"relation\": \"goes_undercover_in\",\n      \"object\": \"high school\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"goes undercover in a high school\"}\n      ]\n    },\n    {\n      \"subject\": \"Kim Sun-a\",\n      \"relation\": \"befriends\",\n      \"object\": \"Nam Sang-mi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to befriend the daughter( Nam Sang -mi)\"}\n      ]\n    }\n  ]\n}"
+}

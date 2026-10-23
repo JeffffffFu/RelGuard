@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Kategoria e Tretë": "football_league",
+    "Albania": "country",
+    "Albanian Second Division": "football_league",
+    "Albanian Amateur Division I": "football_league",
+    "2015-16 season": "season",
+    "2016-17 season": "season",
+    "2017-18 season": "season"
+  },
+  "triples": [
+    {
+      "subject": "Kategoria e Tretë",
+      "relation": "located_in",
+      "object": "Albania",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Kategoria e Tretë is the fourth and lowest professional level of football in Albania."
+        }
+      ]
+    },
+    {
+      "subject": "2015-16 season",
+      "relation": "has_league",
+      "object": "Kategoria e Tretë",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "In the 2015-16 season, Kategoria e Tretë had 19 teams participating, which were divided into 2 groups."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kategoria e Tretë",
+        "has_participating_teams",
+        "19 teams"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kategoria e Tretë",
+        "changed_format",
+        "10 teams"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kategoria e Tretë",
+        "promotes_to",
+        "Albanian Second Division"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kategoria e Tretë",
+        "qualifies_for",
+        "play-offs"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2016-17 season",
+        "precedes",
+        "2017-18 season"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kategoria e Tretë",
+        "relegates_to",
+        "Albanian Amateur Division I"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Albanian Third Division\nKategoria e Tretë is the fourth and lowest professional level of football in Albania. In the 2015-16 season, Kategoria e Tretë had 19 teams participating, which were divided into 2 groups. Before the start of 2016-17 season, many teams withdrew, which was mainly due to financial problems. The competition format changed and now has 10 teams playing in a single league structure. The winner and the runner-up are automatically promoted to the Albanian Second Division and the third and fourth placed teams qualify for the play-offs against the teams ranked 11th from the A & B groups of the Albanian Second Division. From the 2017-18 season, teams ranked in last spot will relegate to Albanian Amateur Division I"
+}

@@ -1,0 +1,141 @@
+{
+  "entities": {
+    "Pizza 73": "ORG",
+    "Canada": "GPE",
+    "Pizza Pizza": "ORG",
+    "Toronto": "GPE",
+    "Western Canada": "LOC",
+    "British Columbia": "GPE",
+    "Alberta": "GPE",
+    "Saskatchewan": "GPE",
+    "David Tougas": "PERSON",
+    "Guy Goodwin": "PERSON",
+    "Edmonton": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Pizza 73",
+      "relation": "operated_by",
+      "object": "Pizza Pizza",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has been operated by",
+          "line_start": 120,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "has been operated by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Pizza Pizza",
+      "relation": "acquired",
+      "object": "Pizza 73",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "had acquired",
+          "line_start": 191,
+          "char_start": 200,
+          "ambiguous": false,
+          "relation_mention": "had acquired",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pizza 73",
+        "located_in",
+        "Canada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Pizza",
+        "located_in",
+        "Toronto"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza 73",
+        "located_in",
+        "Western Canada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza 73",
+        "located_in",
+        "British Columbia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza 73",
+        "located_in",
+        "Alberta"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza 73",
+        "located_in",
+        "Saskatchewan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza 73",
+        "founded",
+        "David Tougas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza 73",
+        "founded",
+        "Guy Goodwin"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza 73",
+        "headquartered_in",
+        "Edmonton"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Edmonton",
+        "located_in",
+        "Alberta"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alberta",
+        "located_in",
+        "Canada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Pizza 73\nPizza 73 is a Canadian restaurant chain that offers a number of different styles of pizza, along with chicken wings. It has been operated by Pizza Pizza since 2007. Toronto-based Pizza Pizza had acquired the restaurant for a total of $CAN70.2 million. There are 89 locations throughout Western Canada, which include the provinces of British Columbia, Alberta, and Saskatchewan. The restaurant's name originates from its original phone number: 473–7373. Founded by David Tougas and Guy Goodwin in 1985, Pizza 73 is headquartered in Edmonton, Alberta, Canada.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Pizza 73\", \"type\": \"ORG\"},\n    {\"name\": \"Canada\", \"type\": \"GPE\"},\n    {\"name\": \"Pizza Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"Toronto\", \"type\": \"GPE\"},\n    {\"name\": \"Western Canada\", \"type\": \"LOC\"},\n    {\"name\": \"British Columbia\", \"type\": \"GPE\"},\n    {\"name\": \"Alberta\", \"type\": \"GPE\"},\n    {\"name\": \"Saskatchewan\", \"type\": \"GPE\"},\n    {\"name\": \"David Tougas\", \"type\": \"PERSON\"},\n    {\"name\": \"Guy Goodwin\", \"type\": \"PERSON\"},\n    {\"name\": \"Edmonton\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Pizza 73\",\n      \"relation\": \"located_in\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Canadian\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza 73\",\n      \"relation\": \"operated_by\",\n      \"object\": \"Pizza Pizza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has been operated by\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Pizza\",\n      \"relation\": \"located_in\",\n      \"object\": \"Toronto\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Toronto-based\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Pizza\",\n      \"relation\": \"acquired\",\n      \"object\": \"Pizza 73\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"had acquired\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza 73\",\n      \"relation\": \"located_in\",\n      \"object\": \"Western Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"throughout Western Canada\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza 73\",\n      \"relation\": \"located_in\",\n      \"object\": \"British Columbia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"include the provinces of British Columbia\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza 73\",\n      \"relation\": \"located_in\",\n      \"object\": \"Alberta\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"include the provinces of British Columbia, Alberta\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza 73\",\n      \"relation\": \"located_in\",\n      \"object\": \"Saskatchewan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"include the provinces of British Columbia, Alberta, and Saskatchewan\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza 73\",\n      \"relation\": \"founded\",\n      \"object\": \"David Tougas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Founded by David Tougas\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza 73\",\n      \"relation\": \"founded\",\n      \"object\": \"Guy Goodwin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Guy Goodwin\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza 73\",\n      \"relation\": \"headquartered_in\",\n      \"object\": \"Edmonton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is headquartered in Edmonton\"}\n      ]\n    },\n    {\n      \"subject\": \"Edmonton\",\n      \"relation\": \"located_in\",\n      \"object\": \"Alberta\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Edmonton, Alberta, Canada\"}\n      ]\n    },\n    {\n      \"subject\": \"Alberta\",\n      \"relation\": \"located_in\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Edmonton, Alberta, Canada\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Self-Made Maids": "WORK_OF_ART",
+    "Jules White": "PERSON",
+    "The Three Stooges": "ORG",
+    "Moe Howard": "PERSON",
+    "Larry Fine": "PERSON",
+    "Shemp Howard": "PERSON",
+    "Columbia Pictures": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Self-Made Maids",
+      "relation": "directed_by",
+      "object": "Jules White",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 41,
+          "char_start": 57,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Self-Made Maids",
+      "relation": "starring",
+      "object": "The Three Stooges",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 65,
+          "char_start": 81,
+          "ambiguous": true,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Self-Made Maids",
+      "relation": "released_by",
+      "object": "Columbia Pictures",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released by",
+          "line_start": 202,
+          "char_start": 218,
+          "ambiguous": false,
+          "relation_mention": "released by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Three Stooges",
+        "has_member",
+        "Moe Howard"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Three Stooges",
+        "has_member",
+        "Larry Fine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Three Stooges",
+        "has_member",
+        "Shemp Howard"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Self-Made Maids\nSelf- Made Maids is a 1950 short subject directed by Jules White starring American slapstick comedy team The Three Stooges( Moe Howard, Larry Fine and Shemp Howard). It is the 124th entry in the series released by Columbia Pictures starring the comedians, who released 190 shorts for the studio between 1934 and 1959.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Self-Made Maids\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Jules White\", \"type\": \"PERSON\"},\n    {\"name\": \"The Three Stooges\", \"type\": \"ORG\"},\n    {\"name\": \"Moe Howard\", \"type\": \"PERSON\"},\n    {\"name\": \"Larry Fine\", \"type\": \"PERSON\"},\n    {\"name\": \"Shemp Howard\", \"type\": \"PERSON\"},\n    {\"name\": \"Columbia Pictures\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Self-Made Maids\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Jules White\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Self-Made Maids\",\n      \"relation\": \"starring\",\n      \"object\": \"The Three Stooges\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"The Three Stooges\",\n      \"relation\": \"has_member\",\n      \"object\": \"Moe Howard\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Moe Howard, Larry Fine and Shemp Howard\"}\n      ]\n    },\n    {\n      \"subject\": \"The Three Stooges\",\n      \"relation\": \"has_member\",\n      \"object\": \"Larry Fine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Moe Howard, Larry Fine and Shemp Howard\"}\n      ]\n    },\n    {\n      \"subject\": \"The Three Stooges\",\n      \"relation\": \"has_member\",\n      \"object\": \"Shemp Howard\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Moe Howard, Larry Fine and Shemp Howard\"}\n      ]\n    },\n    {\n      \"subject\": \"Self-Made Maids\",\n      \"relation\": \"released_by\",\n      \"object\": \"Columbia Pictures\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released by\"}\n      ]\n    }\n  ]\n}"
+}

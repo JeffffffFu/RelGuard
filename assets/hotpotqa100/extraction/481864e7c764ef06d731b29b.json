@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "John Burt": "PERSON",
+    "Alexander": "PERSON",
+    "Scottish team": "ORG",
+    "United Kingdom": "GPE",
+    "1908 Summer Olympics": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "John Burt",
+      "relation": "was_a",
+      "object": "Scottish team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was a Scottish field hockey player",
+          "line_start": 42,
+          "char_start": 67,
+          "ambiguous": false,
+          "relation_mention": "was a Scottish field hockey player",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "John Burt",
+      "relation": "competed_in",
+      "object": "1908 Summer Olympics",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "competed in the 1908 Summer Olympics",
+          "line_start": 81,
+          "char_start": 106,
+          "ambiguous": false,
+          "relation_mention": "competed in the 1908 Summer Olympics",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "John Burt",
+      "relation": "member_of",
+      "object": "Scottish team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "member of the Scottish team",
+          "line_start": 123,
+          "char_start": 148,
+          "ambiguous": false,
+          "relation_mention": "member of the Scottish team",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Scottish team",
+      "relation": "represented",
+      "object": "United Kingdom",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "for the United Kingdom",
+          "line_start": 152,
+          "char_start": 177,
+          "ambiguous": false,
+          "relation_mention": "for the United Kingdom",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Alexander",
+      "relation": "member_of",
+      "object": "Scottish team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "member of the Scottish team",
+          "line_start": 123,
+          "char_start": 148,
+          "ambiguous": true,
+          "relation_mention": "member of the Scottish team",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Scotland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Scottish team",
+        "won",
+        "bronze medal"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John Burt (field hockey)\nJohn Burt (15 April 1877 – 29 April 1935) was a Scottish field hockey player. He competed in the 1908 Summer Olympics as a member of the Scottish team, for the United Kingdom, which won the bronze medal. His brother, Alexander, also was a member of the Scottish team."
+}

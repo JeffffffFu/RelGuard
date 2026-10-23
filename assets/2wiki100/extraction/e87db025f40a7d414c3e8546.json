@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "The January Man": "WORK_OF_ART",
+    "Pat O'Connor": "PERSON",
+    "John Patrick Shanley": "PERSON",
+    "Kevin Kline": "PERSON",
+    "Nick Starkey": "PERSON",
+    "NYPD": "ORG",
+    "Harvey Keitel": "PERSON",
+    "Mary Elizabeth Mastrantonio": "PERSON",
+    "Alan Rickman": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "The January Man",
+      "relation": "directed_by",
+      "object": "Pat O'Connor",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 48,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Nick Starkey",
+      "relation": "involved_with",
+      "object": "Mary Elizabeth Mastrantonio",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "involved with",
+          "line_start": 323,
+          "char_start": 339,
+          "ambiguous": false,
+          "relation_mention": "involved with",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Nick Starkey",
+      "relation": "aided_by",
+      "object": "Alan Rickman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is aided in his investigation by",
+          "line_start": 392,
+          "char_start": 408,
+          "ambiguous": false,
+          "relation_mention": "is aided in his investigation by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The January Man",
+        "screenplay_by",
+        "John Patrick Shanley"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The January Man",
+        "stars",
+        "Kevin Kline"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kevin Kline",
+        "plays",
+        "Nick Starkey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Nick Starkey",
+        "was_former_of",
+        "NYPD"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Nick Starkey",
+        "has_brother",
+        "Harvey Keitel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The January Man\nThe January Man is a 1989 comedy-thriller film, directed by Pat O'Connor from a screenplay by John Patrick Shanley. The film stars Kevin Kline as Nick Starkey, a smart ex-NYPD detective who is lured back into service by his police commissioner brother (Harvey Keitel) when a serial killer terrorizes the city. Nick becomes involved with the mayor's daughter (Mary Elizabeth Mastrantonio) and is aided in his investigation by his neighbor, Ed, an artist (Alan Rickman).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The January Man\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Pat O'Connor\", \"type\": \"PERSON\"},\n    {\"name\": \"John Patrick Shanley\", \"type\": \"PERSON\"},\n    {\"name\": \"Kevin Kline\", \"type\": \"PERSON\"},\n    {\"name\": \"Nick Starkey\", \"type\": \"PERSON\"},\n    {\"name\": \"NYPD\", \"type\": \"ORG\"},\n    {\"name\": \"Harvey Keitel\", \"type\": \"PERSON\"},\n    {\"name\": \"Mary Elizabeth Mastrantonio\", \"type\": \"PERSON\"},\n    {\"name\": \"Alan Rickman\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The January Man\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Pat O'Connor\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The January Man\",\n      \"relation\": \"screenplay_by\",\n      \"object\": \"John Patrick Shanley\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from a screenplay by\"}\n      ]\n    },\n    {\n      \"subject\": \"The January Man\",\n      \"relation\": \"stars\",\n      \"object\": \"Kevin Kline\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Kevin Kline\",\n      \"relation\": \"plays\",\n      \"object\": \"Nick Starkey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as\"}\n      ]\n    },\n    {\n      \"subject\": \"Nick Starkey\",\n      \"relation\": \"was_former_of\",\n      \"object\": \"NYPD\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"ex-NYPD\"}\n      ]\n    },\n    {\n      \"subject\": \"Nick Starkey\",\n      \"relation\": \"has_brother\",\n      \"object\": \"Harvey Keitel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"brother (Harvey Keitel)\"}\n      ]\n    },\n    {\n      \"subject\": \"Nick Starkey\",\n      \"relation\": \"involved_with\",\n      \"object\": \"Mary Elizabeth Mastrantonio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"involved with\"}\n      ]\n    },\n    {\n      \"subject\": \"Nick Starkey\",\n      \"relation\": \"aided_by\",\n      \"object\": \"Alan Rickman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is aided in his investigation by\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Barry Levinson": "PERSON",
+    "American": "NORP",
+    "Diner": "WORK_OF_ART",
+    "The Natural": "WORK_OF_ART",
+    "Good Morning, Vietnam": "WORK_OF_ART",
+    "Bugsy": "WORK_OF_ART",
+    "Wag the Dog": "WORK_OF_ART",
+    "Rain Man": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Barry Levinson",
+      "relation": "is_a",
+      "object": "American",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an American filmmaker, screenwriter, and actor."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Barry Levinson",
+        "directed",
+        "Rain Man"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rain Man",
+        "won",
+        "Academy Award for Best Picture"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "created",
+        "Diner"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "created",
+        "The Natural"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "created",
+        "Good Morning, Vietnam"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "created",
+        "Bugsy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "created",
+        "Wag the Dog"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Barry Levinson\nBarry Levinson( born April 6, 1942) is an American filmmaker, screenwriter, and actor. Levinson's best- known works are mid-budget comedy- drama and drama films such as\" Diner\"( 1982);\" The Natural\"( 1984);\" Good Morning, Vietnam\"( 1987);\" Bugsy\"( 1991); and\" Wag the Dog\"( 1997). He won the Academy Award for Best Director for\" Rain Man\"( 1988), which also won the Academy Award for Best Picture."
+}

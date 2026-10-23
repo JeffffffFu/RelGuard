@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Bobbie van de Graaf": "PERSON",
+    "Marius Klumperbeek": "PERSON",
+    "Lex Mullink": "PERSON",
+    "Freek van de Graaff": "PERSON",
+    "Jan van de Graaff": "PERSON",
+    "1964 Summer Olympics": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Bobbie van de Graaf",
+      "relation": "competed_in",
+      "object": "1964 Summer Olympics",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the 1964 Summer Olympics"
+        }
+      ]
+    },
+    {
+      "subject": "Marius Klumperbeek",
+      "relation": "teammate_of",
+      "object": "Bobbie van de Graaf",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "His team mates were Marius Klumperbeek (cox)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Netherlands (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Bobbie van de Graaf",
+        "won",
+        "bronze medal"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bobbie van de Graaf",
+        "born_in",
+        "Netherlands"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lex Mullink",
+        "teammate_of",
+        "Bobbie van de Graaf"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Freek van de Graaff",
+        "teammate_of",
+        "Bobbie van de Graaf"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jan van de Graaff",
+        "teammate_of",
+        "Bobbie van de Graaf"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Bobbie van de Graaf\nRobert \"Bobbie\" van de Graaf (born 17 March 1944) is a retired Dutch rower who won a bronze medal in the coxed fours at the 1964 Summer Olympics. His team mates were Marius Klumperbeek (cox), Lex Mullink, Freek van de Graaff and Jan van de Graaff. The latter two were also born in 1944 and are unrelated to Bobbie."
+}

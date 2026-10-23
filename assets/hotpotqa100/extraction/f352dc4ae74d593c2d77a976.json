@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "2006 Asian Games": "EVENT",
+    "Football": "EVENT",
+    "Doha": "GPE",
+    "Qatar": "GPE",
+    "men's competition": "EVENT",
+    "women's competition": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Football",
+      "relation": "held_in",
+      "object": "Doha",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "held in",
+          "line_start": 37,
+          "char_start": 70,
+          "ambiguous": false,
+          "relation_mention": "held in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Football",
+        "held_in",
+        "Qatar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Football",
+        "part_of",
+        "2006 Asian Games"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "men's competition",
+        "participated_in",
+        "Football"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "women's competition",
+        "participated_in",
+        "Football"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Football at the 2006 Asian Games\nFootball at the 2006 Asian Games was held in Doha, Qatar from November 18 to December 15, 2006. The opening match was played 14 days prior to the opening ceremony. In this tournament, some 30 teams played in the men's competition, and 8 teams participated in women's competition.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"2006 Asian Games\", \"type\": \"EVENT\"},\n    {\"name\": \"Football\", \"type\": \"EVENT\"},\n    {\"name\": \"Doha\", \"type\": \"GPE\"},\n    {\"name\": \"Qatar\", \"type\": \"GPE\"},\n    {\"name\": \"men's competition\", \"type\": \"EVENT\"},\n    {\"name\": \"women's competition\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Football\",\n      \"relation\": \"held_in\",\n      \"object\": \"Doha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"held in\"}\n      ]\n    },\n    {\n      \"subject\": \"Football\",\n      \"relation\": \"held_in\",\n      \"object\": \"Qatar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"held in Doha, Qatar\"}\n      ]\n    },\n    {\n      \"subject\": \"Football\",\n      \"relation\": \"part_of\",\n      \"object\": \"2006 Asian Games\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"at the 2006 Asian Games\"}\n      ]\n    },\n    {\n      \"subject\": \"men's competition\",\n      \"relation\": \"participated_in\",\n      \"object\": \"Football\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played in the men's competition\"}\n      ]\n    },\n    {\n      \"subject\": \"women's competition\",\n      \"relation\": \"participated_in\",\n      \"object\": \"Football\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"participated in women's competition\"}\n      ]\n    }\n  ]\n}"
+}

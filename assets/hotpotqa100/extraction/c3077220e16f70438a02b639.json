@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "English Setter": "PRODUCT",
+    "Setter family": "PRODUCT",
+    "red Irish Setters": "PRODUCT",
+    "Irish Red and White Setters": "PRODUCT",
+    "black-and-tan Gordon Setters": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "English Setter",
+      "relation": "part_of",
+      "object": "Setter family",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is part of the Setter family"
+        }
+      ]
+    },
+    {
+      "subject": "Setter family",
+      "relation": "includes",
+      "object": "red Irish Setters",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which includes the red Irish Setters"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Setter family",
+        "includes",
+        "Irish Red and White Setters"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Setter family",
+        "includes",
+        "black-and-tan Gordon Setters"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "English Setter\nThe English Setter is a medium size breed of dog. It is part of the Setter family, which includes the red Irish Setters, Irish Red and White Setters, and black-and-tan Gordon Setters. The mainly white body coat is of medium length with long silky fringes on the back of the legs, under the belly and on the tail. The coat features flecks of colour, and the different colour varieties are referred to as belton."
+}

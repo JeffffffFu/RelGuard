@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Bertha, Duchess of Lorraine": "Person",
+    "Hohenstaufen dynasty": "Dynasty",
+    "Frederick II, Duke of Swabia": "Person",
+    "Matthias I, Duke of Lorraine": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Bertha, Duchess of Lorraine",
+      "relation": "daughter_of",
+      "object": "Frederick II, Duke of Swabia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "She was the daughter of Frederick II, Duke of Swabia"
+        }
+      ]
+    },
+    {
+      "subject": "Bertha, Duchess of Lorraine",
+      "relation": "married_to",
+      "object": "Matthias I, Duke of Lorraine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "through marriage to Matthias I duke of Lorraine"
+        }
+      ]
+    },
+    {
+      "subject": "Bertha, Duchess of Lorraine",
+      "relation": "member_of",
+      "object": "Hohenstaufen dynasty",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a member of the Hohenstaufen dynasty"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bertha, Duchess of Lorraine",
+        "duchess_of",
+        "Lorraine"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bertha, Duchess of Lorraine\nBertha of Lorraine( or Bertha of Swabia)( b.c. 1123/30 – d. 1194/ 5) was a member of the Hohenstaufen dynasty. She was the daughter of Frederick II, Duke of Swabia and, through marriage to Matthias I duke of Lorraine, she was duchess of Lorraine( c.1138-1176)."
+}

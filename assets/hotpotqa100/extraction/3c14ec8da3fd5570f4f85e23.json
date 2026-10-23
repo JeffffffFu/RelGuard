@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Eucritta": "PRODUCT",
+    "Eucritta melanolimnetes": "PRODUCT",
+    "Scotland": "GPE",
+    "Creature from the Black Lagoon": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Eucritta",
+      "relation": "is_a",
+      "object": "Eucritta melanolimnetes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Eucritta melanolimnetes"
+        }
+      ]
+    },
+    {
+      "subject": "Eucritta melanolimnetes",
+      "relation": "is_extinct",
+      "object": "Eucritta",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an extinct stem-tetrapod of the extinct genus Eucritta"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eucritta melanolimnetes",
+        "located_in",
+        "Scotland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Creature from the Black Lagoon",
+        "inspired_name",
+        "Eucritta melanolimnetes"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Eucritta\nEucritta melanolimnetes (\"the true creature from the black lagoon\") is an extinct stem-tetrapod of the extinct genus Eucritta from the Viséan epoch in the Carboniferous period of Scotland. Its name is a homage to the 1954 sci-fi/horror movie \"Creature from the Black Lagoon\"."
+}

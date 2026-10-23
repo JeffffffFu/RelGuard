@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Kwetiau goreng": "PRODUCT",
+    "Indonesian": "NORP",
+    "Chinese Indonesian": "NORP",
+    "Malay Singaporean": "NORP",
+    "Indonesia": "GPE",
+    "kwetiau（粿條）": "PRODUCT",
+    "shahe fen": "PRODUCT",
+    "kecap manis": "PRODUCT",
+    "mie goreng": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Kwetiau goreng",
+      "relation": "made_from",
+      "object": "kwetiau（粿條）",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is made from locally known \"kwetiau（粿條）\""
+        }
+      ]
+    },
+    {
+      "subject": "kwetiau（粿條）",
+      "relation": "is_similar_to",
+      "object": "mie goreng",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Its recipe is quite similar with another Chinese Indonesian favourite; \"mie goreng\""
+        }
+      ]
+    },
+    {
+      "subject": "Kwetiau goreng",
+      "relation": "is_available_in",
+      "object": "Indonesia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "common in Indonesia"
+        }
+      ]
+    },
+    {
+      "subject": "Kwetiau goreng",
+      "relation": "contains",
+      "object": "kecap manis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with ample of \"kecap manis\" (sweet soy sauce)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "河粉 (PRODUCT)"
+      ]
+    },
+    {
+      "triple": [
+        "Kwetiau goreng",
+        "is_a",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "kwetiau（粿條）",
+        "is_a",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "kwetiau（粿條）",
+        "is_known_as",
+        "shahe fen"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "kwetiau（粿條）",
+        "is_known_as",
+        "河粉"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kwetiau goreng\nKwetiau goreng (Indonesian for \"fried flat noodle\") is a Chinese Indonesian and Malay Singaporean stir fried flat rice noodles, it is a flavorful and spicy fried noodle dish common in Indonesia. It is made from locally known \"kwetiau（粿條）\" (shahe fen or 河粉 \"hé fěn\" in Chinese) stir fried in cooking oil with garlic, onion or shallots, beef, chicken, fried prawn, crab or sliced bakso (meatballs), chili, Chinese cabbage, cabbages, tomatoes, egg, and other vegetables with ample of \"kecap manis\" (sweet soy sauce). In Asia kwetiau is available in two forms, dried and wet one. Its recipe is quite similar with another Chinese Indonesian favourite; \"mie goreng\" with exception replacing yellow wheat noodles with flat rice noodle."
+}

@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "E lucevan le stelle": "aria",
+    "Giacomo Puccini": "composer",
+    "Tosca": "opera",
+    "Luigi Illica": "librettist",
+    "Giuseppe Giacosa": "librettist",
+    "Mario Cavaradossi": "character",
+    "Castel Sant'Angelo": "location"
+  },
+  "triples": [
+    {
+      "subject": "E lucevan le stelle",
+      "relation": "from",
+      "object": "Tosca",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from the third act of Giacomo Puccini's opera \"Tosca\""
+        }
+      ]
+    },
+    {
+      "subject": "Giacomo Puccini",
+      "relation": "composed",
+      "object": "Tosca",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "composed in 1900 to an Italian libretto by Luigi Illica and Giuseppe Giacosa"
+        }
+      ]
+    },
+    {
+      "subject": "Luigi Illica",
+      "relation": "collaborated_with",
+      "object": "Giuseppe Giacosa",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "an Italian libretto by Luigi Illica and Giuseppe Giacosa"
+        }
+      ]
+    },
+    {
+      "subject": "Mario Cavaradossi",
+      "relation": "is_located_at",
+      "object": "Castel Sant'Angelo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on the roof of Castel Sant'Angelo"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "E lucevan le stelle",
+        "is_a",
+        "aria"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mario Cavaradossi",
+        "is_a",
+        "character"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mario Cavaradossi",
+        "waits_for",
+        "execution"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "E lucevan le stelle\n\"E lucevan le stelle \" (\"And the stars were shining\") is a romantic aria from the third act of Giacomo Puccini's opera \"Tosca\", composed in 1900 to an Italian libretto by Luigi Illica and Giuseppe Giacosa. It is sung by Mario Cavaradossi (tenor), a painter in love with the singer Tosca, while he waits for his execution on the roof of Castel Sant'Angelo."
+}

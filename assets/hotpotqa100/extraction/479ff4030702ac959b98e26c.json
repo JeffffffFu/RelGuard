@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "U.S. Bancorp": "ORG",
+    "Minneapolis": "GPE",
+    "Minnesota": "GPE",
+    "U.S. Bank, National Association": "ORG",
+    "United States": "GPE",
+    "Elavon": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "U.S. Bancorp",
+      "relation": "based_in",
+      "object": "Minneapolis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Minneapolis"
+        }
+      ]
+    },
+    {
+      "subject": "U.S. Bancorp",
+      "relation": "located_in",
+      "object": "Minnesota",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Minneapolis, Minnesota"
+        }
+      ]
+    },
+    {
+      "subject": "U.S. Bancorp",
+      "relation": "parent_company_of",
+      "object": "U.S. Bank, National Association",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "parent company of U.S. Bank, National Association"
+        }
+      ]
+    },
+    {
+      "subject": "U.S. Bank, National Association",
+      "relation": "ranked",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "ranked 7th on the list of largest banks in the United States"
+        }
+      ]
+    },
+    {
+      "subject": "U.S. Bancorp",
+      "relation": "owns",
+      "object": "Elavon",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "also owns Elavon"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "U.S. Bank, National Association",
+        "known_as",
+        "U.S. Bank"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "U.S. Bancorp\nU.S. Bancorp is a bank holding company based in Minneapolis, Minnesota. It is the parent company of U.S. Bank, National Association, known as U.S. Bank, which is ranked 7th on the list of largest banks in the United States. The company provides banking, investment, mortgage, trust, and payment services products to individuals, businesses, governmental entities, and other financial institutions. It has 3,106 branches and 4,842 ATMs, primarily in the Midwestern United States. The company also owns Elavon, a processor of credit card transactions."
+}

@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Admir Čavalić": "PERSON",
+    "Association \"Multi\"": "ORG",
+    "Bosnia and Herzegovina": "GPE",
+    "OPEN Fest": "ORG",
+    "Faculty of Economics University of Tuzla": "ORG",
+    "Dženan Smajić": "PERSON",
+    "\"Islam and Free Market\"": "WORK_OF_ART",
+    "Bosnian": "LANGUAGE",
+    "\"Economy\"": "WORK_OF_ART",
+    "Europe": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Admir Čavalić",
+      "relation": "founded",
+      "object": "\"Islam and Free Market\"",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "wrote",
+          "line_start": 459,
+          "char_start": 473,
+          "ambiguous": false,
+          "relation_mention": "wrote",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "\"Islam and Free Market\"",
+      "relation": "published_in",
+      "object": "Bosnian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was published in",
+          "line_start": 513,
+          "char_start": 527,
+          "ambiguous": false,
+          "relation_mention": "was published in",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "Admir Čavalić",
+      "relation": "founded",
+      "object": "\"Economy\"",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "titled",
+          "line_start": 676,
+          "char_start": 690,
+          "ambiguous": false,
+          "relation_mention": "titled",
+          "sentence_id": 7
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Admir Čavalić",
+        "works_for",
+        "Association \"Multi\""
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Association \"Multi\"",
+        "located_in",
+        "Bosnia and Herzegovina"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Admir Čavalić",
+        "works_for",
+        "OPEN Fest"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "OPEN Fest",
+        "located_in",
+        "Europe"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Admir Čavalić",
+        "works_for",
+        "Faculty of Economics University of Tuzla"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Admir Čavalić",
+        "worked_with",
+        "Dženan Smajić"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Admir Čavalić\nAdmir Čavalić is the Director of Association \"Multi\", a non-profit organization dedicated to promoting libertarian ideals in Bosnia and Herzegovina. \"Multi\" is the first non-profit organization registered in Bosnia and Herzegovina that advocates libertarian ideas. Čavalić is the director of OPEN Fest, biggest libertarian festival in Europe. Čavalić also works at Faculty of Economics University of Tuzla, as an assistant teacher. Čavalić with Dženan Smajić wrote \"Islam and Free Market\" in 2014. The book, that was published in Bosnian, provides arguments for Islam's connection with the ideas of economic liberalism. Čavalić made first bosnian documentary about economics, titled \"Economy\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Admir Čavalić\", \"type\": \"PERSON\"},\n    {\"name\": \"Association \\\"Multi\\\"\", \"type\": \"ORG\"},\n    {\"name\": \"Bosnia and Herzegovina\", \"type\": \"GPE\"},\n    {\"name\": \"OPEN Fest\", \"type\": \"ORG\"},\n    {\"name\": \"Faculty of Economics University of Tuzla\", \"type\": \"ORG\"},\n    {\"name\": \"Dženan Smajić\", \"type\": \"PERSON\"},\n    {\"name\": \"\\\"Islam and Free Market\\\"\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Bosnian\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"\\\"Economy\\\"\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Europe\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Admir Čavalić\",\n      \"relation\": \"works_for\",\n      \"object\": \"Association \\\"Multi\\\"\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the Director of\"}\n      ]\n    },\n    {\n      \"subject\": \"Association \\\"Multi\\\"\",\n      \"relation\": \"located_in\",\n      \"object\": \"Bosnia and Herzegovina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Association \\\"Multi\\\"\",\n      \"relation\": \"founded\",\n      \"object\": \"Association \\\"Multi\\\"\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Admir Čavalić\",\n      \"relation\": \"works_for\",\n      \"object\": \"OPEN Fest\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the director of\"}\n      ]\n    },\n    {\n      \"subject\": \"OPEN Fest\",\n      \"relation\": \"located_in\",\n      \"object\": \"Europe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Admir Čavalić\",\n      \"relation\": \"works_for\",\n      \"object\": \"Faculty of Economics University of Tuzla\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"works at\"}\n      ]\n    },\n    {\n      \"subject\": \"Admir Čavalić\",\n      \"relation\": \"founded\",\n      \"object\": \"\\\"Islam and Free Market\\\"\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"wrote\"}\n      ]\n    },\n    {\n      \"subject\": \"\\\"Islam and Free Market\\\"\",\n      \"relation\": \"published_in\",\n      \"object\": \"Bosnian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was published in\"}\n      ]\n    },\n    {\n      \"subject\": \"Admir Čavalić\",\n      \"relation\": \"founded\",\n      \"object\": \"\\\"Economy\\\"\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"titled\"}\n      ]\n    },\n    {\n      \"subject\": \"Admir Čavalić\",\n      \"relation\": \"worked_with\",\n      \"object\": \"Dženan Smajić\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with\"}\n      ]\n    }\n  ]\n}"
+}

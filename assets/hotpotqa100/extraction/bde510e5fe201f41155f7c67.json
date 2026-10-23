@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Henry Raspe": "PERSON",
+    "Hermann II": "PERSON",
+    "Thuringia": "GPE",
+    "Germany": "GPE",
+    "Conrad IV of Germany": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Henry Raspe",
+      "relation": "succeeded",
+      "object": "Hermann II",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "succeeded",
+          "line_start": 66,
+          "char_start": 102,
+          "ambiguous": false,
+          "relation_mention": "succeeded",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Henry Raspe",
+        "located_in",
+        "Thuringia"
+      ],
+      "why": "2 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henry Raspe",
+        "located_in",
+        "Germany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henry Raspe",
+        "elected",
+        "Conrad IV of Germany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Henry Raspe, Landgrave of Thuringia\nHenry Raspe (German: \"Heinrich Raspe\" ) (1204 – 16 February 1247) succeeded his nephew Hermann II as Landgrave of Thuringia in central Germany in 1241; he later was elected anti-king in 1246–1247 in opposition to Conrad IV of Germany.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Henry Raspe\", \"type\": \"PERSON\"},\n    {\"name\": \"Hermann II\", \"type\": \"PERSON\"},\n    {\"name\": \"Thuringia\", \"type\": \"GPE\"},\n    {\"name\": \"Germany\", \"type\": \"GPE\"},\n    {\"name\": \"Conrad IV of Germany\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Henry Raspe\",\n      \"relation\": \"succeeded\",\n      \"object\": \"Hermann II\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"succeeded\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Henry Raspe\",\n      \"relation\": \"located_in\",\n      \"object\": \"Thuringia\",\n      \"occurrences\": [\n        {\n          \"line\": 1,\n          \"predicate\": \"of Thuringia\"\n        },\n        {\n          \"line\": 2,\n          \"predicate\": \"Landgrave of Thuringia in central Germany\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Henry Raspe\",\n      \"relation\": \"located_in\",\n      \"object\": \"Germany\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in central Germany\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Henry Raspe\",\n      \"relation\": \"elected\",\n      \"object\": \"Conrad IV of Germany\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"elected anti-king in 1246–1247 in opposition to\"\n        }\n      ]\n    }\n  ]\n}"
+}

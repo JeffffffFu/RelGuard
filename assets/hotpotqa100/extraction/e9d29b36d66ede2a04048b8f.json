@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Universal life insurance": "PRODUCT",
+    "United States of America": "GPE",
+    "Indexed Universal Life": "PRODUCT",
+    "whole life policy": "PRODUCT",
+    "irrevocable life insurance trusts": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Universal life insurance",
+      "relation": "sold_in",
+      "object": "United States of America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "sold primarily in the United States of America"
+        }
+      ]
+    },
+    {
+      "subject": "whole life policy",
+      "relation": "is_equivalent_to",
+      "object": "Universal life insurance",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "lower premium cost than an equivalent whole life policy"
+        }
+      ]
+    },
+    {
+      "subject": "irrevocable life insurance trusts",
+      "relation": "works_well_with",
+      "object": "Universal life insurance",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "works well in irrevocable life insurance trusts"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Universal life insurance",
+        "is_a_type_of",
+        "cash value life insurance"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Indexed Universal Life",
+        "is_a_type_of",
+        "Universal life insurance"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Universal life insurance\nUniversal life insurance (often shortened to UL) is a type of cash value life insurance, sold primarily in the United States of America. Under the terms of the policy, the excess of premium payments above the current cost of insurance is credited to the cash value of the policy. The cash value is credited each month with interest, and the policy is debited each month by a cost of insurance (COI) charge, as well as any other policy charges and fees drawn from the cash value, even if no premium payment is made that month. Interest credited to the account is determined by the insurer, but has a contractual minimum rate (often 2%). When an earnings rate is pegged to a financial index such as a stock, bond or other interest rate index, the policy is an \"Indexed Universal Life\" contract. These types of policies offer the advantage of guaranteed level premiums throughout the insured's lifetime at substantially lower premium cost than an equivalent whole life policy at first; the cost of insurance is always increasing as found on the cost index table (usually p. 3 of a contract). This not only allows for easy comparison of costs between carriers, but also works well in irrevocable life insurance trusts (ILIT's) since cash is of no consequence."
+}

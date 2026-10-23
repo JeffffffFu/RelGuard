@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Cruz Beckham": "Person",
+    "David Beckham": "Person",
+    "Victoria Beckham": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Cruz Beckham",
+      "relation": "is_child_of",
+      "object": "David Beckham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the third child of former footballer David Beckham"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Cruz Beckham",
+        "born_in",
+        "Madrid, Spain"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Cruz Beckham",
+        "is_child_of",
+        "Victoria Beckham"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Cruz Beckham",
+        "launched_career",
+        "singing"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Cruz Beckham",
+        "released_single",
+        "If Every Day was Christmas"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Cruz Beckham\nCruz David Beckham (born 20 February 2005 in Madrid, Spain) is a British singer, and the third child of former footballer David Beckham and singer Victoria Beckham. In 2016, at the age of 11, Cruz launched his own singing career, with a Christmas single \"\"If Every Day was Christmas\"\"."
+}

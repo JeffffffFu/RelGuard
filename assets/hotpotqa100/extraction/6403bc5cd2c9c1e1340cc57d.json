@@ -1,0 +1,47 @@
+{
+  "entities": {
+    "Batang X": "Film",
+    "Regal Films": "Company",
+    "Dr. Axis": "Character"
+  },
+  "triples": [
+    {
+      "subject": "Batang X",
+      "relation": "released_under",
+      "object": "Regal Films",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released under Regal Films"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Batang X",
+        "about",
+        "5 children with superhuman abilities"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dr. Axis",
+        "kidnapped",
+        "5 children with superhuman abilities"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dr. Axis",
+        "helps_steal",
+        "sources of energy for her spaceship"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Batang X\nBatang X is a 1995 Filipino film released under Regal Films. The film is about 5 children with superhuman abilities who get kidnapped by the alien Dr. Axis to help her steal sources of energy for her spaceship."
+}

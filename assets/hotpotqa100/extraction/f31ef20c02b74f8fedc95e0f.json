@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Maro Ajemian": "PERSON",
+    "Aram Khachaturian": "PERSON",
+    "Piano Concerto": "WORK_OF_ART",
+    "American": "NORP",
+    "Armenian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Maro Ajemian",
+      "relation": "performed",
+      "object": "Piano Concerto",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "performing the U.S. premiere of",
+          "line_start": 206,
+          "char_start": 219,
+          "ambiguous": false,
+          "relation_mention": "performing the U.S. premiere of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Maro Ajemian",
+        "was",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Piano Concerto",
+        "composed_by",
+        "Aram Khachaturian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Maro Ajemian",
+        "had_heritage",
+        "Armenian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Aram Khachaturian",
+        "was",
+        "Armenian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Maro Ajemian\nMaro Ajemian (July 9, 1921 – September 18, 1978) was an American pianist. Ajemian's career in contemporary music got its impetus from her Armenian heritage; she became known as a contemporary pianist after performing the U.S. premiere of Aram Khachaturian's Piano Concerto, which she chose to play based on the fact that Khachaturian was Armenian.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Maro Ajemian\", \"type\": \"PERSON\"},\n    {\"name\": \"Aram Khachaturian\", \"type\": \"PERSON\"},\n    {\"name\": \"Piano Concerto\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Armenian\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Maro Ajemian\",\n      \"relation\": \"was\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an\"}\n      ]\n    },\n    {\n      \"subject\": \"Maro Ajemian\",\n      \"relation\": \"performed\",\n      \"object\": \"Piano Concerto\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"performing the U.S. premiere of\"}\n      ]\n    },\n    {\n      \"subject\": \"Piano Concerto\",\n      \"relation\": \"composed_by\",\n      \"object\": \"Aram Khachaturian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Aram Khachaturian's\"}\n      ]\n    },\n    {\n      \"subject\": \"Maro Ajemian\",\n      \"relation\": \"had_heritage\",\n      \"object\": \"Armenian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from her Armenian heritage\"}\n      ]\n    },\n    {\n      \"subject\": \"Aram Khachaturian\",\n      \"relation\": \"was\",\n      \"object\": \"Armenian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Khachaturian was Armenian\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "foxhound": "animal",
+    "hunters": "person",
+    "sheep": "animal",
+    "houses": "location"
+  },
+  "triples": [
+    {
+      "subject": "hunters",
+      "relation": "follows",
+      "object": "foxhound",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "followed—usually on horseback—by the hunters"
+        }
+      ]
+    },
+    {
+      "subject": "foxhound",
+      "relation": "guards",
+      "object": "sheep",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "foxhounds also sometimes guard sheep"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "foxhound",
+        "is_a",
+        "animal"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "foxhound",
+        "bred_for",
+        "strong hunting instincts"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "foxhound",
+        "has_trait",
+        "keen sense of smell"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "foxhound",
+        "tracks",
+        "quarry"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "foxhound",
+        "guards",
+        "houses"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Foxhound\nA foxhound is a type of large hunting hound bred for strong hunting instincts, great energy, and, like all scent hounds, a keen sense of smell. In fox hunting, the foxhound's namesake, packs of foxhounds track quarry, followed—usually on horseback—by the hunters, sometimes for several miles at a stretch; moreover, foxhounds also sometimes guard sheep and houses."
+}

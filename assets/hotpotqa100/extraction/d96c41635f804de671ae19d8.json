@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Gone to Coney Island": "film",
+    "Booming Business": "film",
+    "Thanhouser Company": "company",
+    "Coney Island": "location",
+    "The New York Dramatic Mirror": "publication"
+  },
+  "triples": [
+    {
+      "subject": "Gone to Coney Island",
+      "relation": "produced_by",
+      "object": "Thanhouser Company",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "productions by the Thanhouser Company"
+        }
+      ]
+    },
+    {
+      "subject": "Booming Business",
+      "relation": "produced_by",
+      "object": "Thanhouser Company",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "productions by the Thanhouser Company"
+        }
+      ]
+    },
+    {
+      "subject": "Booming Business",
+      "relation": "deemed_self_explanatory",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Coney Island subjects were deemed self-explanatory"
+        }
+      ]
+    },
+    {
+      "subject": "Gone to Coney Island",
+      "relation": "features",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "features Coney Island"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gone to Coney Island",
+        "released_on",
+        "July 5, 1910"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Booming Business",
+        "received_review_in",
+        "The New York Dramatic Mirror"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Gone to Coney Island",
+        "favored_in_reviews",
+        "reviews"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Gone to Coney Island and Booming Business\nGone to Coney Island and Booming Business are two 1910 American silent short comedy productions by the Thanhouser Company. Both were released together on a single film reel on July 5, 1910. \"Gone to Coney Island\" is a comedy that features Coney Island, which the mere subject would make for a successful film. \"Booming Business\" may have been the very type of slapstick comedy that Edwin Thanhouser specifically said the Thanhouser Company would not produce. The productions of both films have no credits for the cast or crew, but possible candidates for these roles exist. Reviews of the films favored \"Gone to Coney Island\", but some reviewers specifically refused to explain the plot because Coney Island subjects were deemed self-explanatory. \"Booming Business\" received one detailed review in \"The New York Dramatic Mirror\" which was negative. The films are presumed lost."
+}

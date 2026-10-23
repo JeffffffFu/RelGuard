@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Kanitkar": "PERSON",
+    "Konkanastha Chitapavan": "NORP",
+    "Brahmins": "NORP",
+    "India": "GPE",
+    "Konkan": "LOC",
+    "Mumbai": "GPE",
+    "Kaushik Gotra": "PERSON",
+    "Shri Vyadeshwar": "PERSON",
+    "Guhaghar": "GPE",
+    "Maharashtra": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Kanitkar",
+      "relation": "used_by",
+      "object": "Konkanastha Chitapavan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Kanitkar is a surname used by Konkanastha Chitapavan sub-caste of Brahmins in India."
+        }
+      ]
+    },
+    {
+      "subject": "Kanitkar",
+      "relation": "originate_in",
+      "object": "Konkan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Kanitkars, like most other Konkanastha Chitpavan Brahmins, originate in the Konkan strip on the western seacoast of India - about 300-500 kilometers south of Mumbai."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kanitkar",
+        "belong_to",
+        "Kaushik Gotra"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kanitkar",
+        "consider",
+        "Shri Vyadeshwar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Shri Vyadeshwar",
+        "located_in",
+        "Guhaghar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Guhaghar",
+        "located_in",
+        "Maharashtra"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Kanitkar\nKanitkar is a surname used by Konkanastha Chitapavan sub-caste of Brahmins in India. Kanitkars, like most other Konkanastha Chitpavan Brahmins, originate in the Konkan strip on the western seacoast of India - about 300-500 kilometers south of Mumbai. Kanitkars (other names: Satkar) were from original five towns and 23 descendant families, spread to 110 towns by 1988. Kanitkars belong to Kaushik Gotra, and consider Shri Vyadeshwar at Guhaghar, Maharashtra, India as their primary \"family god\" [Kul Daivat]."
+}

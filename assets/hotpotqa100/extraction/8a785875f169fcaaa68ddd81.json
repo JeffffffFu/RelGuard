@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Bavette": "PRODUCT",
+    "tagliatelle": "PRODUCT",
+    "spaghetti": "PRODUCT",
+    "Genoa": "GPE",
+    "Ligurian": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Bavette",
+        "is_a_type_of",
+        "pasta"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bavette",
+        "is_a_version_of",
+        "tagliatelle"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bavette",
+        "is_similar_to",
+        "spaghetti"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bavette",
+        "originates_in",
+        "Genoa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bavette",
+        "is_typical_type_of",
+        "Ligurian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Bavette (pasta)\nBavette ] is a type of pasta, a narrower version of tagliatelle. It is a ribbon noodle, similar to spaghetti, that has a flat section and a slightly convex shape. This type of pasta originates in Genoa and are the most typical type of Ligurian pasta cut. Although it can be disputed, Bavette is one of the more ancient types of long pasta.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bavette\", \"type\": \"PRODUCT\"},\n    {\"name\": \"tagliatelle\", \"type\": \"PRODUCT\"},\n    {\"name\": \"spaghetti\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Genoa\", \"type\": \"GPE\"},\n    {\"name\": \"Ligurian\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bavette\",\n      \"relation\": \"is_a_type_of\",\n      \"object\": \"pasta\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a type of\"}\n      ]\n    },\n    {\n      \"subject\": \"Bavette\",\n      \"relation\": \"is_a_version_of\",\n      \"object\": \"tagliatelle\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a narrower version of\"}\n      ]\n    },\n    {\n      \"subject\": \"Bavette\",\n      \"relation\": \"is_similar_to\",\n      \"object\": \"spaghetti\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"similar to\"}\n      ]\n    },\n    {\n      \"subject\": \"Bavette\",\n      \"relation\": \"originates_in\",\n      \"object\": \"Genoa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"originates in\"}\n      ]\n    },\n    {\n      \"subject\": \"Bavette\",\n      \"relation\": \"is_typical_type_of\",\n      \"object\": \"Ligurian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"typical type of\"}\n      ]\n    }\n  ]\n}"
+}

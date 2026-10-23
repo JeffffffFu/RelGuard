@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Mangareva Statue": "WORK_OF_ART",
+    "Deity Figure from Mangareva": "WORK_OF_ART",
+    "Mangareva": "GPE",
+    "French Polynesia": "GPE",
+    "English missionaries": "NORP",
+    "British Museum": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Mangareva Statue",
+      "relation": "located_in",
+      "object": "Mangareva",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made on",
+          "line_start": 110,
+          "char_start": 127,
+          "ambiguous": false,
+          "relation_mention": "made on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Mangareva Statue",
+      "relation": "given_to",
+      "object": "English missionaries",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was given to",
+          "line_start": 180,
+          "char_start": 197,
+          "ambiguous": false,
+          "relation_mention": "was given to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Mangareva Statue",
+      "relation": "bought_by",
+      "object": "British Museum",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "bought by",
+          "line_start": 315,
+          "char_start": 332,
+          "ambiguous": false,
+          "relation_mention": "bought by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mangareva Statue",
+        "located_in",
+        "French Polynesia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Mangareva Statue\nThe Mangareva Statue or \"Deity Figure from Mangareva\" is an important wooden sculpture of a male god that was made on the Pacific island of Mangareva in French Polynesia. The idol was given to English missionaries in the early nineteenth century as the local population converted to Christianity. It was eventually bought by the British Museum in 1911.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Mangareva Statue\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Deity Figure from Mangareva\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Mangareva\", \"type\": \"GPE\"},\n    {\"name\": \"French Polynesia\", \"type\": \"GPE\"},\n    {\"name\": \"English missionaries\", \"type\": \"NORP\"},\n    {\"name\": \"British Museum\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Mangareva Statue\",\n      \"relation\": \"located_in\",\n      \"object\": \"Mangareva\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made on\"}\n      ]\n    },\n    {\n      \"subject\": \"Mangareva Statue\",\n      \"relation\": \"located_in\",\n      \"object\": \"French Polynesia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Mangareva Statue\",\n      \"relation\": \"given_to\",\n      \"object\": \"English missionaries\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was given to\"}\n      ]\n    },\n    {\n      \"subject\": \"Mangareva Statue\",\n      \"relation\": \"bought_by\",\n      \"object\": \"British Museum\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"bought by\"}\n      ]\n    }\n  ]\n}"
+}

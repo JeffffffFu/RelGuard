@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Al Gore": "Person",
+    "Bill Clinton": "Person",
+    "Democratic Party": "Political Party",
+    "Nobel Peace Prize": "Award",
+    "IPCC": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Al Gore",
+      "relation": "running_mate_of",
+      "object": "Bill Clinton",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Gore was Bill Clinton's running mate in their successful campaign in 1992"
+        }
+      ]
+    },
+    {
+      "subject": "Al Gore",
+      "relation": "nominated_by",
+      "object": "Democratic Party",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Gore was selected as the Democratic nominee for the 2000 presidential election"
+        }
+      ]
+    },
+    {
+      "subject": "Al Gore",
+      "relation": "won",
+      "object": "Nobel Peace Prize",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "earned him (jointly with the IPCC) the Nobel Peace Prize in 2007"
+        }
+      ]
+    },
+    {
+      "subject": "Al Gore",
+      "relation": "collaborated_with",
+      "object": "IPCC",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "earned him (jointly with the IPCC) the Nobel Peace Prize in 2007"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Al Gore",
+        "served_as",
+        "Vice President"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Al Gore\nAlbert Arnold Gore Jr. (born March 31, 1948) is an American politician and environmentalist who served as the 45th Vice President of the United States from 1993 to 2001. Gore was Bill Clinton's running mate in their successful campaign in 1992, and the pair were re-elected in 1996. Near the end of President Clinton's second term, Gore was selected as the Democratic nominee for the 2000 presidential election but did not win the election. After his term as vice-president ended in 2001, Gore remained prominent as an author and environmental activist, whose work in climate change activism earned him (jointly with the IPCC) the Nobel Peace Prize in 2007."
+}

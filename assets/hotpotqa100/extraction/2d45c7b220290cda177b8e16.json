@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Football": "EVENT",
+    "2006 Asian Games": "EVENT",
+    "Doha": "GPE",
+    "Qatar": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Football",
+      "relation": "held_in",
+      "object": "Doha",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was held in Doha"
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games",
+      "relation": "held_in",
+      "object": "Doha",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was held in Doha"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Football",
+        "held_in",
+        "Qatar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "2006 Asian Games",
+        "held_in",
+        "Qatar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Football at the 2006 Asian Games\nFootball at the 2006 Asian Games was held in Doha, Qatar from November 18 to December 15, 2006. The opening match was played 14 days prior to the opening ceremony. In this tournament, some 30 teams played in the men's competition, and 8 teams participated in women's competition."
+}

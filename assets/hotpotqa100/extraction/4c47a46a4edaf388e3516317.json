@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Kevin Bookout": "PERSON",
+    "Stroud": "GPE",
+    "Oklahoma": "GPE",
+    "University of Oklahoma Sooners": "ORG",
+    "Rio Grande Valley Vipers": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Kevin Bookout",
+      "relation": "born_in",
+      "object": "Stroud",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Born in",
+          "line_start": 83,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "Born in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Kevin Bookout",
+      "relation": "played_collegiately_for",
+      "object": "University of Oklahoma Sooners",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played collegiately with",
+          "line_start": 112,
+          "char_start": 126,
+          "ambiguous": false,
+          "relation_mention": "played collegiately with",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kevin Bookout",
+        "nationality",
+        "Oklahoma"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kevin Bookout",
+        "played_for",
+        "Rio Grande Valley Vipers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kevin Bookout\nKevin Bookout (born March 16, 1983) is an American professional basketball player. Born in Stroud, Oklahoma, he played collegiately with the University of Oklahoma Sooners. While with the Sooners, Bookout scored 1,018 points and pulled in 682 rebounds. He played professionally after his senior season with the Rio Grande Valley Vipers, scoring 41 points and grabbing 41 rebounds in 9 games with the team.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kevin Bookout\", \"type\": \"PERSON\"},\n    {\"name\": \"Stroud\", \"type\": \"GPE\"},\n    {\"name\": \"Oklahoma\", \"type\": \"GPE\"},\n    {\"name\": \"University of Oklahoma Sooners\", \"type\": \"ORG\"},\n    {\"name\": \"Rio Grande Valley Vipers\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kevin Bookout\",\n      \"relation\": \"born_in\",\n      \"object\": \"Stroud\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Kevin Bookout\",\n      \"relation\": \"nationality\",\n      \"object\": \"Oklahoma\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Kevin Bookout\",\n      \"relation\": \"played_collegiately_for\",\n      \"object\": \"University of Oklahoma Sooners\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played collegiately with\"}\n      ]\n    },\n    {\n      \"subject\": \"Kevin Bookout\",\n      \"relation\": \"played_for\",\n      \"object\": \"Rio Grande Valley Vipers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with the Rio Grande Valley Vipers\"}\n      ]\n    }\n  ]\n}"
+}

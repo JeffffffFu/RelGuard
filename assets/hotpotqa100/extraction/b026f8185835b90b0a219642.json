@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Coronilla": "WORK_OF_ART",
+    "Coronilla (genus)": "ORG",
+    "Europe": "LOC",
+    "North Africa": "LOC"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Coronilla (genus)",
+        "contains",
+        "Coronilla"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coronilla (genus)",
+        "located_in",
+        "Europe"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coronilla (genus)",
+        "located_in",
+        "North Africa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Coronilla\nThe genus Coronilla contains about 20 species of flowering plants native to Europe and North Africa.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Coronilla\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Coronilla (genus)\", \"type\": \"ORG\"},\n    {\"name\": \"Europe\", \"type\": \"LOC\"},\n    {\"name\": \"North Africa\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Coronilla (genus)\",\n      \"relation\": \"contains\",\n      \"object\": \"Coronilla\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"contains\"}\n      ]\n    },\n    {\n      \"subject\": \"Coronilla (genus)\",\n      \"relation\": \"located_in\",\n      \"object\": \"Europe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"native to\"}\n      ]\n    },\n    {\n      \"subject\": \"Coronilla (genus)\",\n      \"relation\": \"located_in\",\n      \"object\": \"North Africa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"native to\"}\n      ]\n    }\n  ]\n}"
+}

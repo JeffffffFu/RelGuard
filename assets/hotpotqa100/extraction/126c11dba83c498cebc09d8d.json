@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Clayton Beddoes": "PERSON",
+    "National Hockey League": "ORG",
+    "Italy": "GPE",
+    "Italy men's national ice hockey team": "ORG",
+    "ERC Ingolstadt": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Clayton Beddoes",
+        "born_in_country",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Clayton Beddoes",
+        "played_in",
+        "National Hockey League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Clayton Beddoes",
+        "works_for",
+        "Italy men's national ice hockey team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Clayton Beddoes",
+        "works_for",
+        "ERC Ingolstadt"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Italy men's national ice hockey team",
+        "located_in",
+        "Italy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Clayton Beddoes\nClayton Beddoes (born November 10, 1970) is a Canadian ice hockey coach and former professional ice hockey centre. He played two seasons in the National Hockey League. He is currently serving as head coach of the Italy men's national ice hockey team and as assistant coach at ERC Ingolstadt.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Clayton Beddoes\", \"type\": \"PERSON\"},\n    {\"name\": \"Canada\", \"type\": \"GPE\"},\n    {\"name\": \"National Hockey League\", \"type\": \"ORG\"},\n    {\"name\": \"Italy\", \"type\": \"GPE\"},\n    {\"name\": \"Italy men's national ice hockey team\", \"type\": \"ORG\"},\n    {\"name\": \"ERC Ingolstadt\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Clayton Beddoes\",\n      \"relation\": \"born_in_country\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Canadian\"}\n      ]\n    },\n    {\n      \"subject\": \"Clayton Beddoes\",\n      \"relation\": \"played_in\",\n      \"object\": \"National Hockey League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played two seasons in the National Hockey League\"}\n      ]\n    },\n    {\n      \"subject\": \"Clayton Beddoes\",\n      \"relation\": \"works_for\",\n      \"object\": \"Italy men's national ice hockey team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serving as head coach of the Italy men's national ice hockey team\"}\n      ]\n    },\n    {\n      \"subject\": \"Clayton Beddoes\",\n      \"relation\": \"works_for\",\n      \"object\": \"ERC Ingolstadt\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"assistant coach at ERC Ingolstadt\"}\n      ]\n    },\n    {\n      \"subject\": \"Italy men's national ice hockey team\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Italy men's national ice hockey team\"}\n      ]\n    }\n  ]\n}"
+}

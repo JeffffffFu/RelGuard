@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "The Hollow": "WORK_OF_ART",
+    "Miles Doleac": "PERSON",
+    "American": "NORP",
+    "Long Island International Film Expo": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "The Hollow",
+      "relation": "written_by",
+      "object": "Miles Doleac",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 55,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Hollow",
+      "relation": "located_in",
+      "object": "American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "American",
+          "line_start": 21,
+          "char_start": 44,
+          "ambiguous": false,
+          "relation_mention": "American",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Hollow",
+      "relation": "won_award_at",
+      "object": "Long Island International Film Expo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "at the 2016 Long Island International Film Expo",
+          "line_start": 153,
+          "char_start": 176,
+          "ambiguous": false,
+          "relation_mention": "at the 2016 Long Island International Film Expo",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Hollow",
+        "directed_by",
+        "Miles Doleac"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Hollow (2016 film)\nThe Hollow is a 2016 American crime film, directed and written by Miles Doleac. The film won 3 awards (Best Actor, Supporting Actor, and Cinematography) at the 2016 Long Island International Film Expo."
+}

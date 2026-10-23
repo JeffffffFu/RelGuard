@@ -1,0 +1,61 @@
+{
+  "entities": {
+    "Ammassalik wooden maps": "object",
+    "Gustav Holm": "person",
+    "Ammassalik coast": "location",
+    "eastern Greenland": "location",
+    "Tunumiit": "community",
+    "Eastern Greenland Inuit communities": "community",
+    "Denmark": "location",
+    "Umivik": "location",
+    "Kunit": "person"
+  },
+  "triples": [
+    {
+      "subject": "Kunit",
+      "relation": "carved",
+      "object": "Ammassalik wooden maps",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "carved by a native of Umivik named Kunit."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ammassalik wooden maps",
+        "described_as",
+        "carved, tactile maps"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gustav Holm",
+        "led",
+        "expedition"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gustav Holm",
+        "met",
+        "Tunumiit"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Gustav Holm",
+        "returned_to",
+        "Denmark"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Ammassalik wooden maps\nAmmassalik wooden maps are carved, tactile maps of the Greenlandic coastlines. In the 1880s, Gustav Holm led an expedition to the Ammassalik coast of eastern Greenland, where he met several Tunumiit, or Eastern Greenland Inuit communities, who had had no prior direct contact with Europeans. He returned to Denmark with a set of three-dimensional wooden maps of the coast around , carved by a native of Umivik named Kunit."
+}

@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Sancho Ramírez": "PERSON",
+    "Ribagorza": "LOC",
+    "King Ramiro I of Aragon": "PERSON",
+    "Amuña": "PERSON",
+    "Aragon": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Sancho Ramírez",
+      "relation": "held_title",
+      "object": "Ribagorza",
+      "occurrences": [
+        {
+          "line": 1,
+          "predicate": "Count of Ribagorza",
+          "line_start": 16,
+          "char_start": 16,
+          "ambiguous": false,
+          "relation_mention": "Count of Ribagorza",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Sancho Ramírez",
+      "relation": "was_son_of",
+      "object": "King Ramiro I of Aragon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "son of",
+          "line_start": 67,
+          "char_start": 102,
+          "ambiguous": false,
+          "relation_mention": "son of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Sancho Ramírez",
+      "relation": "was_son_of",
+      "object": "Amuña",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "son of",
+          "line_start": 67,
+          "char_start": 102,
+          "ambiguous": false,
+          "relation_mention": "son of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "King Ramiro I of Aragon",
+      "relation": "located_in",
+      "object": "Aragon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "of Aragon",
+          "line_start": 88,
+          "char_start": 123,
+          "ambiguous": false,
+          "relation_mention": "of Aragon",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Sancho Ramírez (the heir) (PERSON)"
+      ]
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "was_sibling_of",
+        "Sancho Ramírez (the heir)"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sancho Ramírez, Count of Ribagorza\nSancho Ramírez (before 10431105/November 1110) was an illegitimate son of King Ramiro I of Aragon and Amuña, the firstborn and brother of his namesake who would inherit the throne and reign as Sancho Ramírez."
+}

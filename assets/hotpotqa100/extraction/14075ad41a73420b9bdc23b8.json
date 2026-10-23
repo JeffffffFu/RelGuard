@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "The Guns": "band",
+    "Alex Wiltshire": "person",
+    "Adam Turner": "person",
+    "Tom Coburn": "person",
+    "Chris 'Stix' Davies": "person",
+    "South Wales": "location",
+    "2012": "date"
+  },
+  "triples": [
+    {
+      "subject": "The Guns",
+      "relation": "located_in",
+      "object": "South Wales",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from South Wales"
+        }
+      ]
+    },
+    {
+      "subject": "The Guns",
+      "relation": "has_member",
+      "object": "Alex Wiltshire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "consists of Alex Wiltshire (vocals and guitar)"
+        }
+      ]
+    },
+    {
+      "subject": "The Guns",
+      "relation": "active_since",
+      "object": "2012",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "As of 2012"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Guns",
+        "has_member",
+        "Adam Turner"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Guns",
+        "has_member",
+        "Tom Coburn"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Guns",
+        "has_member",
+        "Chris 'Stix' Davies"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Guns",
+        "released",
+        "two EPs"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Guns",
+        "released",
+        "two albums"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Guns",
+        "stated",
+        "independent"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Guns",
+        "turned_down",
+        "numerous record deals"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Guns (band)\nThe Guns are a four-piece rock band from South Wales. The current line-up consists of Alex Wiltshire (vocals and guitar), Adam Turner (lead guitar), Tom Coburn (bass guitar) and Chris 'Stix' Davies (drums). The band have stated that they would like to remain independent and have turned down numerous record deals as a result of that. As of 2012, The Guns have released two EPs, and two albums."
+}

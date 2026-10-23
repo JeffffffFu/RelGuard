@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Carolyn Jones": "PERSON",
+    "Carolyn Sue Jones": "PERSON",
+    "American": "NORP",
+    "The Bachelor Party": "WORK_OF_ART",
+    "Academy Award for Best Supporting Actress": "WORK_OF_ART",
+    "Golden Globe Award": "WORK_OF_ART",
+    "Morticia Addams": "PERSON",
+    "Ophelia": "PERSON",
+    "Thing": "PERSON",
+    "Lady Fingers": "PERSON",
+    "The Addams Family": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Carolyn Sue Jones",
+        "is_a",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Carolyn Jones",
+        "born_as",
+        "Carolyn Sue Jones"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Carolyn Jones",
+        "nominated_for",
+        "Academy Award for Best Supporting Actress"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Carolyn Jones",
+        "nominated_for",
+        "Golden Globe Award"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Bachelor Party",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Carolyn Jones",
+        "played",
+        "Morticia Addams"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Carolyn Jones",
+        "played",
+        "Ophelia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Carolyn Jones",
+        "played",
+        "Lady Fingers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Morticia Addams",
+        "appears_in",
+        "The Addams Family"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Carolyn Jones\nCarolyn Sue Jones (April 28, 1930 – August 3, 1983) was an American actress of television and film. Jones began her film career in the early 1950s, and by the end of the decade had achieved recognition with a nomination for an Academy Award for Best Supporting Actress for \"The Bachelor Party\" (1957) and a Golden Globe Award as one of the most promising actresses of 1959. Her film career continued for another 20 years. In 1964, she began playing the role of Morticia Addams (as well as her sister Ophelia and the feminine counterpart of Thing, Lady Fingers), in the original black and white television series \"The Addams Family\", receiving a Golden Globe Award nomination for her work.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Carolyn Jones\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Carolyn Sue Jones\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"American\",\n      \"type\": \"NORP\"\n    },\n    {\n      \"name\": \"The Bachelor Party\",\n      \"type\": \"WORK_OF_ART\"\n    },\n    {\n      \"name\": \"Academy Award for Best Supporting Actress\",\n      \"type\": \"WORK_OF_ART\"\n    },\n    {\n      \"name\": \"Golden Globe Award\",\n      \"type\": \"WORK_OF_ART\"\n    },\n    {\n      \"name\": \"Morticia Addams\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Ophelia\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Thing\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Lady Fingers\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"The Addams Family\",\n      \"type\": \"WORK_OF_ART\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Carolyn Sue Jones\",\n      \"relation\": \"is_a\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was an\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Carolyn Jones\",\n      \"relation\": \"born_as\",\n      \"object\": \"Carolyn Sue Jones\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Carolyn Sue Jones\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Carolyn Jones\",\n      \"relation\": \"nominated_for\",\n      \"object\": \"Academy Award for Best Supporting Actress\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"nomination for an Academy Award for Best Supporting Actress\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Carolyn Jones\",\n      \"relation\": \"nominated_for\",\n      \"object\": \"Golden Globe Award\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"a Golden Globe Award\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"The Bachelor Party\",\n      \"relation\": \"is_a\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"\\\"The Bachelor Party\\\"\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Carolyn Jones\",\n      \"relation\": \"played\",\n      \"object\": \"Morticia Addams\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"began playing the role of Morticia Addams\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Carolyn Jones\",\n      \"relation\": \"played\",\n      \"object\": \"Ophelia\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"as well as her sister Ophelia\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Carolyn Jones\",\n      \"relation\": \"played\",\n      \"object\": \"Lady Fingers\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"and the feminine counterpart of Thing, Lady Fingers\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Morticia Addams\",\n      \"relation\": \"appears_in\",\n      \"object\": \"The Addams Family\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in the original black and white television series \\\"The Addams Family\\\"\"\n        }\n      ]\n    }\n  ]\n}"
+}

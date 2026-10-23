@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Pratt & Whitney Canada": "ORG",
+    "PT6": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Pratt & Whitney Canada",
+      "relation": "produced",
+      "object": "PT6",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Pratt & Whitney Canada"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "PT6",
+        "is_a",
+        "turboprop aircraft engine"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Pratt &amp; Whitney Canada PT6\nThe Pratt & Whitney Canada PT6, produced by Pratt & Whitney Canada, is one of the most popular turboprop aircraft engines in history."
+}

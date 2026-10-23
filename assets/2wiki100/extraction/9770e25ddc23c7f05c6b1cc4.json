@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Undercover with the KKK": "TV Movie",
+    "Gary Thomas Rowe Jr.": "Person",
+    "Don Meredith": "Person",
+    "My Undercover Years with the Ku Klux Klan": "Book",
+    "Ku Klux Klan": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Undercover with the KKK",
+      "relation": "based_on",
+      "object": "My Undercover Years with the Ku Klux Klan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on the autobiography\" My Undercover Years with the Ku Klux Klan\""
+        }
+      ]
+    },
+    {
+      "subject": "Gary Thomas Rowe Jr.",
+      "relation": "wrote",
+      "object": "My Undercover Years with the Ku Klux Klan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on the autobiography\" My Undercover Years with the Ku Klux Klan\" by Gary Thomas Rowe Jr."
+        }
+      ]
+    },
+    {
+      "subject": "Don Meredith",
+      "relation": "stars_in",
+      "object": "Undercover with the KKK",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Don Meredith as Rowe"
+        }
+      ]
+    },
+    {
+      "subject": "My Undercover Years with the Ku Klux Klan",
+      "relation": "about",
+      "object": "Ku Klux Klan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "My Undercover Years with the Ku Klux Klan"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Undercover with the KKK",
+        "is_a",
+        "TV Movie"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Undercover with the KKK\nUndercover with the KKK is a 1979 NBC TV movie based on the autobiography\" My Undercover Years with the Ku Klux Klan\" by Gary Thomas Rowe Jr. and starring Don Meredith as Rowe."
+}

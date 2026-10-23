@@ -1,0 +1,235 @@
+{
+  "entities": {
+    "Sidney Salkow": "PERSON",
+    "City College of New York": "ORG",
+    "Columbia University": "ORG",
+    "Harvard Law School": "ORG",
+    "New York City": "GPE",
+    "United States Marine Corps": "ORG",
+    "Vincent Price": "PERSON",
+    "The Cisco Kid": "WORK_OF_ART",
+    "The Addams Family": "WORK_OF_ART",
+    "California State University-Northridge": "ORG",
+    "Valley Village": "GPE",
+    "World War II": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Sidney Salkow",
+      "relation": "educated_at",
+      "object": "City College of New York",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was educated at the City College of New York",
+          "line_start": 157,
+          "char_start": 171,
+          "ambiguous": false,
+          "relation_mention": "was educated at the City College of New York",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sidney Salkow",
+      "relation": "educated_at",
+      "object": "Columbia University",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was educated at the City College of New York, Columbia University",
+          "line_start": 157,
+          "char_start": 171,
+          "ambiguous": false,
+          "relation_mention": "was educated at the City College of New York, Columbia University",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sidney Salkow",
+      "relation": "educated_at",
+      "object": "Harvard Law School",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was educated at the City College of New York, Columbia University and Harvard Law School",
+          "line_start": 157,
+          "char_start": 171,
+          "ambiguous": false,
+          "relation_mention": "was educated at the City College of New York, Columbia University and Harvard Law School",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sidney Salkow",
+      "relation": "returned_to",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "returned to New York City",
+          "line_start": 264,
+          "char_start": 278,
+          "ambiguous": false,
+          "relation_mention": "returned to New York City",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Sidney Salkow",
+      "relation": "commissioned_into",
+      "object": "United States Marine Corps",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was commissioned into the United States Marine Corps",
+          "line_start": 709,
+          "char_start": 723,
+          "ambiguous": false,
+          "relation_mention": "was commissioned into the United States Marine Corps",
+          "sentence_id": 7
+        }
+      ]
+    },
+    {
+      "subject": "Sidney Salkow",
+      "relation": "directed_episodes_of",
+      "object": "The Cisco Kid",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed episodes of many popular TV series including \"LassieThe Cisco Kid\", and \"The Addams Family\"",
+          "line_start": 875,
+          "char_start": 889,
+          "ambiguous": false,
+          "relation_mention": "directed episodes of many popular TV series including \"LassieThe Cisco Kid\", and \"The Addams Family\"",
+          "sentence_id": 9
+        }
+      ]
+    },
+    {
+      "subject": "Sidney Salkow",
+      "relation": "directed_episodes_of",
+      "object": "The Addams Family",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed episodes of many popular TV series including \"LassieThe Cisco Kid\", and \"The Addams Family\"",
+          "line_start": 875,
+          "char_start": 889,
+          "ambiguous": false,
+          "relation_mention": "directed episodes of many popular TV series including \"LassieThe Cisco Kid\", and \"The Addams Family\"",
+          "sentence_id": 9
+        }
+      ]
+    },
+    {
+      "subject": "Sidney Salkow",
+      "relation": "taught_at",
+      "object": "California State University-Northridge",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "taught film courses at California State University-Northridge",
+          "line_start": 1030,
+          "char_start": 1044,
+          "ambiguous": false,
+          "relation_mention": "taught film courses at California State University-Northridge",
+          "sentence_id": 10
+        }
+      ]
+    },
+    {
+      "subject": "Sidney Salkow",
+      "relation": "died_in",
+      "object": "Valley Village",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died October 18, 2000 in Valley Village, California from natural causes at the age of 89",
+          "line_start": 1204,
+          "char_start": 1218,
+          "ambiguous": false,
+          "relation_mention": "died October 18, 2000 in Valley Village, California from natural causes at the age of 89",
+          "sentence_id": 11
+        }
+      ]
+    },
+    {
+      "subject": "Sidney Salkow",
+      "relation": "participated_in",
+      "object": "World War II",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "During World War II Salkow was commissioned into the United States Marine Corps",
+          "line_start": 682,
+          "char_start": 696,
+          "ambiguous": false,
+          "relation_mention": "During World War II Salkow was commissioned into the United States Marine Corps",
+          "sentence_id": 7
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Lassie (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "Sidney Salkow",
+        "joined",
+        "film industry"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sidney Salkow",
+        "wrote_directed",
+        "Sitting BullTwice-Told Tales"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sidney Salkow",
+        "wrote_directed",
+        "The Last Man on Earth"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Last Man on Earth",
+        "starred",
+        "Vincent Price"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sidney Salkow",
+        "rose_to_rank",
+        "Major"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sidney Salkow",
+        "directed_episodes_of",
+        "Lassie"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sidney Salkow\nSidney Salkow (June 16, 1911 – October 18, 2000) was an American film director (more than 50 motion pictures), screenwriter, and television director. Salkow was educated at the City College of New York, Columbia University and Harvard Law School. After school, he returned to New York City and became an assistant director of theater and playwright. Later on, he established himself as a theatrical director. In 1932, he joined up with the film industry starting as a dialogue director. But soon, after achieving the ranks, he became a prolific writer/director of such films as \"Sitting BullTwice-Told Tales\", and \"The Last Man on Earth\" (the last two both starring Vincent Price). During World War II Salkow was commissioned into the United States Marine Corps rising to the rank of Major. He was wounded whilst filming a battle on an aircraft carrier. Additionally, Salkow directed episodes of many popular TV series including \"LassieThe Cisco Kid\", and \"The Addams Family\". At the age of 59, Salkow retired from directing, and taught film courses at California State University-Northridge, where he became a professor emeritus and headed the film side of the Radio, Television and Film Department. He died October 18, 2000 in Valley Village, California from natural causes at the age of 89."
+}

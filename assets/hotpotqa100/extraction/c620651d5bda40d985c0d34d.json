@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "Lou Brock": "Person",
+    "Chicago Cubs": "Team",
+    "St. Louis Cardinals": "Team",
+    "National Baseball Hall of Fame": "Hall of Fame",
+    "St. Louis Cardinals Hall of Fame": "Hall of Fame"
+  },
+  "triples": [
+    {
+      "subject": "Lou Brock",
+      "relation": "played_for",
+      "object": "Chicago Cubs",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "playing in 1961 for the Chicago Cubs"
+        }
+      ]
+    },
+    {
+      "subject": "Lou Brock",
+      "relation": "played_for",
+      "object": "St. Louis Cardinals",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "spent the majority of his career playing as a left fielder for the St. Louis Cardinals"
+        }
+      ]
+    },
+    {
+      "subject": "Lou Brock",
+      "relation": "inducted_into",
+      "object": "National Baseball Hall of Fame",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "inducted into the National Baseball Hall of Fame in 1985"
+        }
+      ]
+    },
+    {
+      "subject": "Lou Brock",
+      "relation": "currently_works_as",
+      "object": "St. Louis Cardinals",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently a special instructor coach for the St. Louis Cardinals"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lou Brock",
+        "born_on",
+        "June 18, 1939"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lou Brock",
+        "inducted_into",
+        "St. Louis Cardinals Hall of Fame"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Lou Brock\nLouis Clark Brock (born June 18, 1939) is an American former professional baseball player. He began his 19-year Major League Baseball (MLB) career playing in 1961 for the Chicago Cubs, and spent the majority of his career playing as a left fielder for the St. Louis Cardinals. He was inducted into the National Baseball Hall of Fame in 1985 and the St. Louis Cardinals Hall of Fame in 2014. He is currently a special instructor coach for the St. Louis Cardinals."
+}

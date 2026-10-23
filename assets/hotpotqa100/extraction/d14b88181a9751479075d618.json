@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Ricou Browning": "Person",
+    "Creature from the Black Lagoon": "Film",
+    "Revenge of the Creature": "Film",
+    "The Creature Walks Among Us": "Film",
+    "Gill-man": "Character",
+    "Universal Monster": "Character"
+  },
+  "triples": [
+    {
+      "subject": "Ricou Browning",
+      "relation": "portrayed",
+      "object": "Gill-man",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "playing the Gill-man"
+        }
+      ]
+    },
+    {
+      "subject": "Ricou Browning",
+      "relation": "is_only_actor_to_have_portrayed",
+      "object": "Gill-man",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the only actor to have portrayed the creature more than once"
+        }
+      ]
+    },
+    {
+      "subject": "Ricou Browning",
+      "relation": "is_last_surviving",
+      "object": "Gill-man",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the only surviving Gill-man actor"
+        }
+      ]
+    },
+    {
+      "subject": "Ricou Browning",
+      "relation": "is_last_surviving",
+      "object": "Universal Monster",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the last surviving original Universal Monster"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ricou Browning",
+        "born_on",
+        "November 23, 1930"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ricou Browning",
+        "is_best_known_for",
+        "underwater stunt work"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ricou Browning",
+        "acted_in",
+        "Creature from the Black Lagoon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ricou Browning",
+        "acted_in",
+        "Revenge of the Creature"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ricou Browning",
+        "acted_in",
+        "The Creature Walks Among Us"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Ricou Browning\nRicou Browning (born November 23, 1930) is an American film director, actor, producer, screenwriter, underwater cinematographer and stuntman. He is best known for his underwater stunt work, playing the Gill-man in \"Creature from the Black Lagoon\", \"Revenge of the Creature\" and \"The Creature Walks Among Us\". Other actors portrayed the creature on land. He is also the only actor to have portrayed the creature more than once. He is the only surviving Gill-man actor, and the last surviving original Universal Monster."
+}

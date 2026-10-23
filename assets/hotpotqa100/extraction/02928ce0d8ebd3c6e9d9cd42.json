@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Maurice Denis": "Person",
+    "Symbolist movement": "Art Movement",
+    "Les Nabis": "Art Movement",
+    "cubism": "Art Movement",
+    "fauvism": "Art Movement",
+    "abstract art": "Art Movement"
+  },
+  "triples": [
+    {
+      "subject": "Maurice Denis",
+      "relation": "member_of",
+      "object": "Symbolist movement",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a member of the Symbolist and Les Nabis movements"
+        }
+      ]
+    },
+    {
+      "subject": "Maurice Denis",
+      "relation": "member_of",
+      "object": "Les Nabis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a member of the Symbolist and Les Nabis movements"
+        }
+      ]
+    },
+    {
+      "subject": "Maurice Denis",
+      "relation": "contributed_to",
+      "object": "cubism",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "His theories contributed to the foundations of cubism"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Maurice Denis",
+        "contributed_to",
+        "fauvism"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Maurice Denis",
+        "contributed_to",
+        "abstract art"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Maurice Denis\nMaurice Denis (] ; 25 November 1870 – 13 November 1943) was a French painter and writer, and a member of the Symbolist and Les Nabis movements. His theories contributed to the foundations of cubism, fauvism, and abstract art."
+}

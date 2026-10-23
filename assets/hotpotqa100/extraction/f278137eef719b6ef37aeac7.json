@@ -1,0 +1,177 @@
+{
+  "entities": {
+    "supply chain management": "concept",
+    "goods": "concept",
+    "services": "concept",
+    "raw materials": "concept",
+    "work-in-process inventory": "concept",
+    "finished goods": "concept",
+    "point of origin": "concept",
+    "point of consumption": "concept",
+    "end customers": "concept",
+    "supply chain activities": "concept",
+    "net value": "concept",
+    "competitive infrastructure": "concept",
+    "worldwide logistics": "concept",
+    "supply": "concept",
+    "demand": "concept",
+    "performance": "concept"
+  },
+  "triples": [
+    {
+      "subject": "supply chain management",
+      "relation": "involves",
+      "object": "goods",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the management of the flow of goods and services"
+        }
+      ]
+    },
+    {
+      "subject": "supply chain management",
+      "relation": "involves",
+      "object": "services",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the management of the flow of goods and services"
+        }
+      ]
+    },
+    {
+      "subject": "supply chain management",
+      "relation": "involves",
+      "object": "raw materials",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "movement and storage of raw materials"
+        }
+      ]
+    },
+    {
+      "subject": "supply chain management",
+      "relation": "involves",
+      "object": "point of origin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from point of origin to point of consumption"
+        }
+      ]
+    },
+    {
+      "subject": "supply chain management",
+      "relation": "involves",
+      "object": "point of consumption",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from point of origin to point of consumption"
+        }
+      ]
+    },
+    {
+      "subject": "supply chain management",
+      "relation": "provides",
+      "object": "services",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the provision of products and services required by end customers"
+        }
+      ]
+    },
+    {
+      "subject": "supply chain activities",
+      "relation": "objective_of",
+      "object": "net value",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "with the objective of creating net value"
+        }
+      ]
+    },
+    {
+      "subject": "supply chain activities",
+      "relation": "objective_of",
+      "object": "performance",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and measuring performance globally"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "supply chain management",
+        "involves",
+        "work-in-process inventory"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "supply chain management",
+        "involves",
+        "finished goods"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "supply chain management",
+        "provides",
+        "products"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "supply chain management",
+        "defined_as",
+        "supply chain activities"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "supply chain activities",
+        "objective_of",
+        "competitive infrastructure"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "supply chain activities",
+        "objective_of",
+        "worldwide logistics"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "supply chain activities",
+        "objective_of",
+        "supply"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "supply chain activities",
+        "objective_of",
+        "demand"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Supply chain management\nIn commerce, supply chain management (SCM), the management of the flow of goods and services, involves the movement and storage of raw materials, of work-in-process inventory, and of finished goods from point of origin to point of consumption. Interconnected or interlinked networks, channels and node businesses combine in the provision of products and services required by end customers in a supply chain. Supply-chain management has been defined as the \"design, planning, execution, control, and monitoring of supply chain activities with the objective of creating net value, building a competitive infrastructure, leveraging worldwide logistics, synchronizing supply with demand and measuring performance globally.\""
+}

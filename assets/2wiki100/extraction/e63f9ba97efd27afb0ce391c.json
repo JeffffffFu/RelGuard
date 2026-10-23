@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Rebecca (2016 film)": "WORK_OF_ART",
+    "Ghana": "GPE",
+    "Nigeria": "GPE",
+    "Shirley Frimpong-Manso": "PERSON",
+    "Yvonne Okoro": "PERSON",
+    "Joseph Benjamin": "PERSON",
+    "London": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Rebecca (2016 film)",
+      "relation": "directed_by",
+      "object": "Shirley Frimpong-Manso",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 38,
+          "char_start": 58,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Rebecca (2016 film)",
+      "relation": "stars",
+      "object": "Yvonne Okoro",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 79,
+          "char_start": 99,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Rebecca (2016 film)",
+      "relation": "stars",
+      "object": "Joseph Benjamin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 79,
+          "char_start": 99,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rebecca (2016 film)",
+        "located_in",
+        "Ghana"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rebecca (2016 film)",
+        "located_in",
+        "Nigeria"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rebecca (2016 film)",
+        "released_in",
+        "London"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Yvonne Okoro",
+        "born_in",
+        "Nigeria"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Rebecca (2016 film)\nRebecca is a 2016 Ghana- Nigeria film directed by Shirley Frimpong- Manso, and starring Yvonne Okoro and Joseph Benjamin. According to Manso, the film was released first in London, before Ghana due to the economic situation of the country causing reduced patronage for films. The film is the second two cast film that features Nigerian born actress Yvonne Okoro.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Rebecca (2016 film)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Ghana\", \"type\": \"GPE\"},\n    {\"name\": \"Nigeria\", \"type\": \"GPE\"},\n    {\"name\": \"Shirley Frimpong-Manso\", \"type\": \"PERSON\"},\n    {\"name\": \"Yvonne Okoro\", \"type\": \"PERSON\"},\n    {\"name\": \"Joseph Benjamin\", \"type\": \"PERSON\"},\n    {\"name\": \"London\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Rebecca (2016 film)\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Shirley Frimpong-Manso\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Rebecca (2016 film)\",\n      \"relation\": \"stars\",\n      \"object\": \"Yvonne Okoro\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Rebecca (2016 film)\",\n      \"relation\": \"stars\",\n      \"object\": \"Joseph Benjamin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Rebecca (2016 film)\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ghana\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Ghana- Nigeria\"}\n      ]\n    },\n    {\n      \"subject\": \"Rebecca (2016 film)\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nigeria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Ghana- Nigeria\"}\n      ]\n    },\n    {\n      \"subject\": \"Rebecca (2016 film)\",\n      \"relation\": \"released_in\",\n      \"object\": \"London\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released first in London\"}\n      ]\n    },\n    {\n      \"subject\": \"Yvonne Okoro\",\n      \"relation\": \"born_in\",\n      \"object\": \"Nigeria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Nigerian born\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Mark Snell": "Person",
+    "FC Dallas": "Organization",
+    "North American Soccer League": "League",
+    "Major Indoor Soccer League": "League",
+    "FCD LIGA": "League",
+    "Dallas Metroplex": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Mark Snell",
+      "relation": "played_in",
+      "object": "North American Soccer League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who played professionally in the North American Soccer League"
+        }
+      ]
+    },
+    {
+      "subject": "Mark Snell",
+      "relation": "coached_in",
+      "object": "FC Dallas",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He coached in the FC Dallas youth system for eight years"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mark Snell",
+        "played_in",
+        "Major Indoor Soccer League"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Mark Snell",
+        "developed",
+        "curriculum"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mark Snell",
+        "created",
+        "Premier team format"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mark Snell",
+        "managed",
+        "FCD LIGA"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Mark Snell",
+        "organized",
+        "FC Dallas Development League"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "FC Dallas Development League",
+        "hosted",
+        "top U9 teams"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dallas Metroplex",
+        "located_in",
+        "FC Dallas Development League"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mark Snell\nMark Snell is a retired American soccer goalkeeper who played professionally in the North American Soccer League and the Major Indoor Soccer League. He coached in the FC Dallas youth system for eight years, and is widely considered one of the top youth development coaches in the country for Zone 1 (6-12 yr olds). At FC Dallas he developed the curriculum that included teaching age appropriate tactics through small sided games. His philosophy was that the \"best train with the best\" and created the Premier team format grouping all the top players in each age group onto a team. Initially, players of all levels were scattered across many teams within each age group. Snell felt the best development model was having teams made up of \"like\" talent. That way training would be competitive for all teams regardless of talent level. He also authored and managed the street soccer based \"FCD LIGA\" which was a 3v3/4v4 in house league on Sundays. He grew the wildly successful program from 5 teams to over 30 teams to preach the small sided games format as the best player development tool. He also organized and managed the FC Dallas Development League which hosted the top U9 teams in the Dallas Metroplex."
+}

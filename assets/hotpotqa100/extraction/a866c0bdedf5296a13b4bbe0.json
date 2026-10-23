@@ -1,0 +1,104 @@
+{
+  "entities": {
+    "Mark Twain Riverboat": "attraction",
+    "Disneyland": "theme park",
+    "Anaheim": "city",
+    "California": "state",
+    "Rivers of America": "location",
+    "Walt Disney World": "theme park",
+    "Tokyo Disneyland": "theme park",
+    "Disneyland Paris": "theme park"
+  },
+  "triples": [
+    {
+      "subject": "Mark Twain Riverboat",
+      "relation": "located_at",
+      "object": "Disneyland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located at the Disneyland theme park"
+        }
+      ]
+    },
+    {
+      "subject": "Mark Twain Riverboat",
+      "relation": "located_in",
+      "object": "Anaheim",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located at the Disneyland theme park in Anaheim"
+        }
+      ]
+    },
+    {
+      "subject": "Mark Twain Riverboat",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located at the Disneyland theme park in Anaheim, California"
+        }
+      ]
+    },
+    {
+      "subject": "Mark Twain Riverboat",
+      "relation": "embarks_on",
+      "object": "Rivers of America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on which passengers embark on a scenic, 12-minute journey around the Rivers of America"
+        }
+      ]
+    },
+    {
+      "subject": "Mark Twain Riverboat",
+      "relation": "appears_at",
+      "object": "Walt Disney World",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Other Disney riverboat attractions now appear at Walt Disney World"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mark Twain Riverboat",
+        "originally_named",
+        "Mark Twain Steamboat"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mark Twain Riverboat",
+        "built_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mark Twain Riverboat",
+        "appears_at",
+        "Tokyo Disneyland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Mark Twain Riverboat",
+        "appears_at",
+        "Disneyland Paris"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Mark Twain Riverboat\n\"Mark Twain\" Riverboat is an attraction, located at the Disneyland theme park in Anaheim, California, on which passengers embark on a scenic, 12-minute journey around the Rivers of America. Originally named \"Mark Twain\" Steamboat when the park opened in 1955, the stately, 5/8-scale stern-wheeler was the first functional riverboat to be built in the United States for fifty years. Other Disney riverboat attractions now appear at Walt Disney World, Tokyo Disneyland and Disneyland Paris."
+}

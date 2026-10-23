@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Badi' al-Zaman Mirza": "Person",
+    "Husayn Bayqarah": "Person",
+    "Timur Beg": "Person",
+    "Herat": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Badi' al-Zaman Mirza",
+      "relation": "son_of",
+      "object": "Husayn Bayqarah",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He was the son of Husayn Bayqarah"
+        }
+      ]
+    },
+    {
+      "subject": "Husayn Bayqarah",
+      "relation": "great-great-grandson_of",
+      "object": "Timur Beg",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who was a great-great-grandson of Timur Beg"
+        }
+      ]
+    },
+    {
+      "subject": "Badi' al-Zaman Mirza",
+      "relation": "located_in",
+      "object": "Herat",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a Timurid ruler of Herat"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Badi' al-Zaman Mirza",
+        "died",
+        "1514"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Badi' al-Zaman Mirza",
+        "was_a",
+        "Timurid ruler"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Badi' al-Zaman Mirza\nBadi' al-Zaman Mirza (died 1514) was a Timurid ruler of Herat from 1506 to 1507. He was the son of Husayn Bayqarah, who was a great-great-grandson of Timur Beg."
+}

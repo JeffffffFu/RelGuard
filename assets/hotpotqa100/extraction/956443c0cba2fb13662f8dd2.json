@@ -1,0 +1,56 @@
+{
+  "entities": {
+    "Anna Lewandowska": "PERSON",
+    "Robert Lewandowski": "PERSON",
+    "Academy of Physical Education in Warsaw": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Anna Lewandowska",
+      "relation": "graduated_from",
+      "object": "Academy of Physical Education in Warsaw",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a graduate of the Academy of Physical Education in Warsaw"
+        }
+      ]
+    },
+    {
+      "subject": "Anna Lewandowska",
+      "relation": "married_to",
+      "object": "Robert Lewandowski",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "She is married to footballer Robert Lewandowski"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Poland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Anna Lewandowska",
+        "born_as",
+        "Anna Stachurska"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anna Lewandowska",
+        "located_in",
+        "Poland"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Anna Lewandowska\nAnna Lewandowska (born Anna Stachurska 7 September 1988) is a Polish athlete, a graduate of the Academy of Physical Education in Warsaw, a specialist on nutrition, karate and representative of the country in traditional karate. She is a multiple medalist of the World, European, and national Championships. She is married to footballer Robert Lewandowski."
+}

@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Lewis Young": "PERSON",
+    "Western Bulldogs": "ORG",
+    "Australian Football League": "ORG",
+    "Carlton": "ORG",
+    "Etihad Stadium": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Lewis Young",
+      "relation": "works_for",
+      "object": "Western Bulldogs",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "playing for",
+          "line_start": 82,
+          "char_start": 118,
+          "ambiguous": false,
+          "relation_mention": "playing for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Lewis Young",
+      "relation": "made_debut_against",
+      "object": "Carlton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "against",
+          "line_start": 316,
+          "char_start": 352,
+          "ambiguous": false,
+          "relation_mention": "against",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Western Bulldogs",
+        "located_in",
+        "Australian Football League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lewis Young",
+        "made_debut_at",
+        "Etihad Stadium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Lewis Young (Australian footballer)\nLewis Young (born 20 December 1998) is a professional Australian rules footballer playing for the Western Bulldogs in the Australian Football League (AFL). He was drafted by the Western Bulldogs with their third selection and forty-ninth overall in the 2016 national draft. He made his debut in the twenty point win against Carlton at Etihad Stadium in round seventeen of the 2017 season."
+}

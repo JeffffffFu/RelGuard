@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Peter II of Portugal": "Person",
+    "Afonso VI": "Person",
+    "John IV": "Person",
+    "Luisa de Guzmán": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Peter II of Portugal",
+      "relation": "served_as_regent_for",
+      "object": "Afonso VI",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "previously serving as regent for his brother Afonso VI from 1668 until his own accession"
+        }
+      ]
+    },
+    {
+      "subject": "Peter II of Portugal",
+      "relation": "child_of",
+      "object": "John IV",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He was the fifth and last child of John IV"
+        }
+      ]
+    },
+    {
+      "subject": "Peter II of Portugal",
+      "relation": "child_of",
+      "object": "Luisa de Guzmán",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He was the fifth and last child of John IV and Luisa de Guzmán"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Peter II of Portugal",
+        "king_of",
+        "Portugal"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Peter II of Portugal\n\"Dom\" Pedro II (Peter II; 26 April 1648 – 9 December 1706), nicknamed \"the Pacific\", was the King of Portugal from 1683 until his death, previously serving as regent for his brother Afonso VI from 1668 until his own accession. He was the fifth and last child of John IV and Luisa de Guzmán."
+}

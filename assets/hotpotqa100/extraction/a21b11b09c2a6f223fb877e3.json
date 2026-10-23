@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Pyramid": "magazine",
+    "Steve Jackson Games": "company",
+    "Austin, Texas": "location",
+    "Roleplayer": "magazine"
+  },
+  "triples": [
+    {
+      "subject": "Pyramid",
+      "relation": "published_by",
+      "object": "Steve Jackson Games",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a print publication of Steve Jackson Games"
+        }
+      ]
+    },
+    {
+      "subject": "Pyramid",
+      "relation": "located_in",
+      "object": "Austin, Texas",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "is headquartered in Austin, Texas"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pyramid",
+        "replaced",
+        "Roleplayer"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pyramid (magazine)\nPyramid is a gaming magazine, publishing articles primarily on role-playing games, but including board games, card games, and other sorts of games. It began life in 1993 as a print publication of Steve Jackson Games for its first 30 issues, though it has been published on the Internet since March 1998. Print issues were bimonthly; the first online version published new articles each week; the second online version is monthly. \"Pyramid\" is headquartered in Austin, Texas. It replaced Steve Jackson Games' previous magazine \"Roleplayer\"."
+}

@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Beersville": "Community",
+    "Weldford Parish": "Location",
+    "Fords Mills": "Location",
+    "John A. Beers": "Person",
+    "Emerson": "Community",
+    "Henry Robert Emerson": "Person",
+    "New Brunswick": "Location",
+    "Route 465": "Road"
+  },
+  "triples": [
+    {
+      "subject": "Beersville",
+      "relation": "located_in",
+      "object": "Weldford Parish",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Weldford Parish"
+        }
+      ]
+    },
+    {
+      "subject": "Beersville",
+      "relation": "named_for",
+      "object": "John A. Beers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was named for John A. Beers"
+        }
+      ]
+    },
+    {
+      "subject": "Beersville",
+      "relation": "part_of",
+      "object": "Emerson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "it was a part of Emerson"
+        }
+      ]
+    },
+    {
+      "subject": "Emerson",
+      "relation": "named_for",
+      "object": "Henry Robert Emerson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was possibly named for Henry Robert Emerson"
+        }
+      ]
+    },
+    {
+      "subject": "Henry Robert Emerson",
+      "relation": "was_premier_of",
+      "object": "New Brunswick",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Premier of New Brunswick from 1897–1900"
+        }
+      ]
+    },
+    {
+      "subject": "Beersville",
+      "relation": "located_on",
+      "object": "Route 465",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is located on Route 465"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Beersville",
+        "located_near",
+        "Fords Mills"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Beersville",
+        "had_post_office",
+        "Post Office"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Beersville",
+        "was_station_on",
+        "Intercolonial Railway"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Beersville, New Brunswick\nBeersville is a small community in Weldford Parish located 3.92 km SSE of Fords Mills and was named for John A. Beers (1860–1951) The community had a Post Office from 1900–1965 and in 1904 Beersville was a station on the Intercolonial Railway and a farming settlement with 1 post office, 1 store, 1 sawmill, 1 church and a population of 100. At one point it was a part of Emerson, at another, Emerson was a separate community but the place name was removed and the name is now honoured in the area by a road through Beersville called Emerson Road. Emerson was possibly named for Henry Robert Emerson (1853–1914), the Premier of New Brunswick from 1897–1900 and in 1904 Emerson was a farming settlement with 1 post office. Beersville is located on Route 465."
+}

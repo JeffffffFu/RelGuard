@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Hollywood Blues Tour": "EVENT",
+    "United States": "GPE",
+    "Canada": "GPE",
+    "ZZ Top": "ORG",
+    "House of Blues": "FAC",
+    "West Hollywood": "GPE",
+    "California": "GPE",
+    "The Florida Times-Union": "ORG",
+    "Van de Graaff generator": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "The Florida Times-Union",
+      "relation": "regarded",
+      "object": "ZZ Top",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "regarded the band as",
+          "line_start": 448,
+          "char_start": 469,
+          "ambiguous": false,
+          "relation_mention": "regarded the band as",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hollywood Blues Tour",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hollywood Blues Tour",
+        "located_in",
+        "Canada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hollywood Blues Tour",
+        "undertaken_by",
+        "ZZ Top"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hollywood Blues Tour",
+        "named_after",
+        "House of Blues"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "House of Blues",
+        "located_in",
+        "West Hollywood"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "West Hollywood",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hollywood Blues Tour",
+        "featured",
+        "Van de Graaff generator"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Hollywood Blues Tour\nThe Hollywood Blues Tour was a concert tour through the United States and Canada, undertaken by American rock band ZZ Top. Named after a warm-up show at the House of Blues in West Hollywood, California, the tour was their second of which to be staged without a supporting album. As a result, they did not perform any newer material. Although this was a criticism for the tour, it was generally well-received—a critic from \"The Florida Times-Union\" regarded the band as \"one of rock's most reliable acts; you just know they're going to put on a good show\". In contrast to ZZ Top's elaborately-staged productions from previous tours, the Hollywood Blues Tour utilized an austere stage setup. To embrace the group's renowned concept of visual imagery, the stage featured an LED drape for a backdrop video screen that showed visual effects, video clips and flashing text phrases, along with amplifiers stacks and a Van de Graaff generator.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Hollywood Blues Tour\", \"type\": \"EVENT\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Canada\", \"type\": \"GPE\"},\n    {\"name\": \"ZZ Top\", \"type\": \"ORG\"},\n    {\"name\": \"House of Blues\", \"type\": \"FAC\"},\n    {\"name\": \"West Hollywood\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"The Florida Times-Union\", \"type\": \"ORG\"},\n    {\"name\": \"Van de Graaff generator\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Hollywood Blues Tour\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"through the United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Hollywood Blues Tour\",\n      \"relation\": \"located_in\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Canada\"}\n      ]\n    },\n    {\n      \"subject\": \"Hollywood Blues Tour\",\n      \"relation\": \"undertaken_by\",\n      \"object\": \"ZZ Top\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"undertaken by American rock band ZZ Top\"}\n      ]\n    },\n    {\n      \"subject\": \"Hollywood Blues Tour\",\n      \"relation\": \"named_after\",\n      \"object\": \"House of Blues\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Named after a warm-up show at the House of Blues\"}\n      ]\n    },\n    {\n      \"subject\": \"House of Blues\",\n      \"relation\": \"located_in\",\n      \"object\": \"West Hollywood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in West Hollywood\"}\n      ]\n    },\n    {\n      \"subject\": \"West Hollywood\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"West Hollywood, California\"}\n      ]\n    },\n    {\n      \"subject\": \"The Florida Times-Union\",\n      \"relation\": \"regarded\",\n      \"object\": \"ZZ Top\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"regarded the band as\"}\n      ]\n    },\n    {\n      \"subject\": \"Hollywood Blues Tour\",\n      \"relation\": \"featured\",\n      \"object\": \"Van de Graaff generator\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"along with amplifiers stacks and a Van de Graaff generator\"}\n      ]\n    }\n  ]\n}"
+}

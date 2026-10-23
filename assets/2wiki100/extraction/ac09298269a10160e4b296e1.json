@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Luther Blue": "Person",
+    "Detroit Lions": "Sports Team",
+    "Philadelphia Eagles": "Sports Team"
+  },
+  "triples": [
+    {
+      "subject": "Luther Blue",
+      "relation": "played_for",
+      "object": "Detroit Lions",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who played wide receiver for the Detroit Lions"
+        }
+      ]
+    },
+    {
+      "subject": "Luther Blue",
+      "relation": "played_for",
+      "object": "Philadelphia Eagles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and Philadelphia Eagles"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Luther Blue",
+        "born_on",
+        "October 21, 1954"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Luther Blue\nLuther Blue( born October 21, 1954) is a former professional American football player who played wide receiver for the Detroit Lions and Philadelphia Eagles."
+}

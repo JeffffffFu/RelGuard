@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "LeAnn Rimes": "PERSON",
+    "American": "NORP",
+    "The Best of LeAnn Rimes": "WORK_OF_ART",
+    "Greatest Hits": "WORK_OF_ART",
+    "Al Anderson": "PERSON",
+    "Big Deal": "WORK_OF_ART",
+    "How Do I Live": "WORK_OF_ART",
+    "Can't Fight the Moonlight": "WORK_OF_ART",
+    "Ronan Keating": "PERSON",
+    "Last Thing on My Mind": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "LeAnn Rimes",
+      "relation": "is_a",
+      "object": "American",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by American country singer LeAnn Rimes"
+        }
+      ]
+    },
+    {
+      "subject": "LeAnn Rimes",
+      "relation": "performed_with",
+      "object": "Ronan Keating",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "her duet with Ronan Keating"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Best of LeAnn Rimes",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Best of LeAnn Rimes",
+        "released_in",
+        "2004"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Greatest Hits",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Al Anderson",
+        "created",
+        "Big Deal"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "performed",
+        "How Do I Live"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "performed",
+        "Can't Fight the Moonlight"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ronan Keating",
+        "performed",
+        "Last Thing on My Mind"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Best of LeAnn Rimes\nThe Best of LeAnn Rimes is a greatest hits album by American country singer LeAnn Rimes, released in 2004, it tweaks the 2003 U.S. release \"Greatest Hits\", leaving behind some of the purer country hits that didn't translate outside of the U.S.—notably, Al Anderson's \"Big Deal\"—and concentrating on her big pop crossover hits, including \"How Do I Live,\" \"Can't Fight the Moonlight” and her duet with Ronan Keating, \"Last Thing on My Mind."
+}

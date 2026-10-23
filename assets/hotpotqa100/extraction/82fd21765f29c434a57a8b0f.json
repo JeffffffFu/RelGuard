@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Petrocephalus arnegardi": "species",
+    "Petrocephalus": "genus",
+    "Central Congo River basin": "location",
+    "Democratic Republic of the Congo": "location",
+    "Republic of the Congo": "location",
+    "Matthew Arnegard": "person"
+  },
+  "triples": [
+    {
+      "subject": "Petrocephalus arnegardi",
+      "relation": "located_in",
+      "object": "Central Congo River basin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "native to the Central Congo River basin"
+        }
+      ]
+    },
+    {
+      "subject": "Petrocephalus arnegardi",
+      "relation": "located_in",
+      "object": "Democratic Republic of the Congo",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in the Democratic Republic of the Congo"
+        }
+      ]
+    },
+    {
+      "subject": "Petrocephalus arnegardi",
+      "relation": "located_in",
+      "object": "Republic of the Congo",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and Republic of the Congo"
+        }
+      ]
+    },
+    {
+      "subject": "Petrocephalus arnegardi",
+      "relation": "named_after",
+      "object": "Matthew Arnegard",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "It is named after Matthew Arnegard"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Petrocephalus arnegardi",
+        "is_a",
+        "species"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Petrocephalus arnegardi",
+        "found_in",
+        "middle Congo River"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Petrocephalus arnegardi",
+        "found_in",
+        "Likouala River drainage"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Matthew Arnegard",
+        "expert_on",
+        "elephantfishes"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Petrocephalus arnegardi\nPetrocephalus arnegardi is a species of electric fish in the genus \"Petrocephalus\" native to the Central Congo River basin. It is found in middle Congo River and in the Likouala River drainage, in the Democratic Republic of the Congo and Republic of the Congo. It is named after Matthew Arnegard, an expert on elephantfishes."
+}

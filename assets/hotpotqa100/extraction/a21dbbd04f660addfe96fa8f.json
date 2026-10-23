@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Magda Sawon": "PERSON",
+    "Tamas Banovich": "PERSON",
+    "Postmasters Gallery": "ORG",
+    "New York": "GPE",
+    "Tribeca": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Magda Sawon",
+      "relation": "founded",
+      "object": "Postmasters Gallery",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded",
+          "line_start": 69,
+          "char_start": 81,
+          "ambiguous": false,
+          "relation_mention": "founded",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Magda Sawon",
+      "relation": "owns",
+      "object": "Postmasters Gallery",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owns",
+          "line_start": 81,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "owns",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Magda Sawon",
+      "relation": "works_for",
+      "object": "Postmasters Gallery",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owns",
+          "line_start": 81,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "owns",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Postmasters Gallery",
+        "located_in",
+        "Tribeca"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Postmasters Gallery",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Magda Sawon",
+        "associated_with",
+        "Tamas Banovich"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Magda Sawon\nMagda Sawon is a contemporary art gallerist and art world figure who founded and owns New York's Postmasters Gallery (with her husband Tamas Banovich), a gallery for young and established contemporary artists, especially those working in new media, in the Tribeca neighborhood of New York City. The gallery is considered to be one of the \"leading experimental galleries\" in New York City.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Magda Sawon\", \"type\": \"PERSON\"},\n    {\"name\": \"Tamas Banovich\", \"type\": \"PERSON\"},\n    {\"name\": \"Postmasters Gallery\", \"type\": \"ORG\"},\n    {\"name\": \"New York\", \"type\": \"GPE\"},\n    {\"name\": \"Tribeca\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Magda Sawon\",\n      \"relation\": \"founded\",\n      \"object\": \"Postmasters Gallery\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded\"}\n      ]\n    },\n    {\n      \"subject\": \"Magda Sawon\",\n      \"relation\": \"owns\",\n      \"object\": \"Postmasters Gallery\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owns\"}\n      ]\n    },\n    {\n      \"subject\": \"Postmasters Gallery\",\n      \"relation\": \"located_in\",\n      \"object\": \"Tribeca\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Tribeca neighborhood of New York City\"}\n      ]\n    },\n    {\n      \"subject\": \"Postmasters Gallery\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Tribeca neighborhood of New York City\"}\n      ]\n    },\n    {\n      \"subject\": \"Magda Sawon\",\n      \"relation\": \"works_for\",\n      \"object\": \"Postmasters Gallery\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owns\"}\n      ]\n    },\n    {\n      \"subject\": \"Magda Sawon\",\n      \"relation\": \"associated_with\",\n      \"object\": \"Tamas Banovich\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(with her husband Tamas Banovich)\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,167 @@
+{
+  "entities": {
+    "Friends of Abe, Inc.": "ORG",
+    "Friends of Abe": "ORG",
+    "FOA": "ORG",
+    "Gary Sinise": "PERSON",
+    "Lionel Chetwynd": "PERSON",
+    "Abraham Lincoln": "PERSON",
+    "Pat Boone": "PERSON",
+    "Jon Voight": "PERSON",
+    "Kelsey Grammer": "PERSON",
+    "Kevin Sorbo": "PERSON",
+    "Scott Baio": "PERSON",
+    "abespal.com": "PRODUCT",
+    "Jeremy Boreing": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Gary Sinise",
+      "relation": "founded",
+      "object": "Friends of Abe, Inc.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "formed",
+          "line_start": 148,
+          "char_start": 163,
+          "ambiguous": false,
+          "relation_mention": "formed",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Lionel Chetwynd",
+      "relation": "helped_organize",
+      "object": "Friends of Abe, Inc.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "helped organize the group",
+          "line_start": 214,
+          "char_start": 229,
+          "ambiguous": false,
+          "relation_mention": "helped organize the group",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Friends of Abe, Inc.",
+        "was",
+        "Friends of Abe"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Friends of Abe, Inc.",
+        "was",
+        "FOA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Friends of Abe, Inc.",
+        "was_formed_in",
+        "2004"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Friends of Abe",
+        "refers_to",
+        "Abraham Lincoln"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Friends of Abe, Inc.",
+        "had_member",
+        "Gary Sinise"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Friends of Abe, Inc.",
+        "had_member",
+        "Pat Boone"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Friends of Abe, Inc.",
+        "had_member",
+        "Jon Voight"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Friends of Abe, Inc.",
+        "had_member",
+        "Kelsey Grammer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Friends of Abe, Inc.",
+        "had_member",
+        "Kevin Sorbo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Friends of Abe, Inc.",
+        "had_member",
+        "Scott Baio"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Friends of Abe, Inc.",
+        "maintains",
+        "abespal.com"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gary Sinise",
+        "withdrew_from",
+        "leadership"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jeremy Boreing",
+        "became",
+        "executive director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jeremy Boreing",
+        "works_for",
+        "Friends of Abe, Inc."
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Friends of Abe\nThe Friends of Abe, Inc. (FOA) was a support and networking group for politically conservative members of the Hollywood elite. The organization was formed in 2004 by actor Gary Sinise. Screenwriter Lionel Chetwynd helped organize the group. \"Friends of Abe\" is a reference to \"Friends of Bill\", which is how members of Alcoholics Anonymous sometimes identify themselves, and \"Friends of Dorothy\", while \"Abe\" refers to Abraham Lincoln. As of January 2012, the organization had more than 1800 members. In addition to Sinise, Pat Boone, Jon Voight, Kelsey Grammer, Kevin Sorbo, and Scott Baio have stated that they are members of the organization. The organization fiercely protects its list of members for whom it maintains a secure private website, abespal.com. Sinise later withdrew from the leadership and Hollywood producer Jeremy Boreing became executive director.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Friends of Abe, Inc.\", \"type\": \"ORG\"},\n    {\"name\": \"Friends of Abe\", \"type\": \"ORG\"},\n    {\"name\": \"FOA\", \"type\": \"ORG\"},\n    {\"name\": \"Gary Sinise\", \"type\": \"PERSON\"},\n    {\"name\": \"Lionel Chetwynd\", \"type\": \"PERSON\"},\n    {\"name\": \"Abraham Lincoln\", \"type\": \"PERSON\"},\n    {\"name\": \"Pat Boone\", \"type\": \"PERSON\"},\n    {\"name\": \"Jon Voight\", \"type\": \"PERSON\"},\n    {\"name\": \"Kelsey Grammer\", \"type\": \"PERSON\"},\n    {\"name\": \"Kevin Sorbo\", \"type\": \"PERSON\"},\n    {\"name\": \"Scott Baio\", \"type\": \"PERSON\"},\n    {\"name\": \"abespal.com\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Jeremy Boreing\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Friends of Abe, Inc.\",\n      \"relation\": \"was\",\n      \"object\": \"Friends of Abe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a support and networking group for politically conservative members of the Hollywood elite\"}\n      ]\n    },\n    {\n      \"subject\": \"Friends of Abe, Inc.\",\n      \"relation\": \"was\",\n      \"object\": \"FOA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a support and networking group for politically conservative members of the Hollywood elite\"}\n      ]\n    },\n    {\n      \"subject\": \"Friends of Abe, Inc.\",\n      \"relation\": \"was_formed_in\",\n      \"object\": \"2004\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was formed in 2004\"}\n      ]\n    },\n    {\n      \"subject\": \"Gary Sinise\",\n      \"relation\": \"founded\",\n      \"object\": \"Friends of Abe, Inc.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"formed\"}\n      ]\n    },\n    {\n      \"subject\": \"Lionel Chetwynd\",\n      \"relation\": \"helped_organize\",\n      \"object\": \"Friends of Abe, Inc.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"helped organize the group\"}\n      ]\n    },\n    {\n      \"subject\": \"Friends of Abe\",\n      \"relation\": \"refers_to\",\n      \"object\": \"Abraham Lincoln\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\"Abe\\\" refers to Abraham Lincoln\"}\n      ]\n    },\n    {\n      \"subject\": \"Friends of Abe, Inc.\",\n      \"relation\": \"had_member\",\n      \"object\": \"Gary Sinise\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"In addition to Sinise, Pat Boone, Jon Voight, Kelsey Grammer, Kevin Sorbo, and Scott Baio have stated that they are members of the organization\"}\n      ]\n    },\n    {\n      \"subject\": \"Friends of Abe, Inc.\",\n      \"relation\": \"had_member\",\n      \"object\": \"Pat Boone\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"In addition to Sinise, Pat Boone, Jon Voight, Kelsey Grammer, Kevin Sorbo, and Scott Baio have stated that they are members of the organization\"}\n      ]\n    },\n    {\n      \"subject\": \"Friends of Abe, Inc.\",\n      \"relation\": \"had_member\",\n      \"object\": \"Jon Voight\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"In addition to Sinise, Pat Boone, Jon Voight, Kelsey Grammer, Kevin Sorbo, and Scott Baio have stated that they are members of the organization\"}\n      ]\n    },\n    {\n      \"subject\": \"Friends of Abe, Inc.\",\n      \"relation\": \"had_member\",\n      \"object\": \"Kelsey Grammer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"In addition to Sinise, Pat Boone, Jon Voight, Kelsey Grammer, Kevin Sorbo, and Scott Baio have stated that they are members of the organization\"}\n      ]\n    },\n    {\n      \"subject\": \"Friends of Abe, Inc.\",\n      \"relation\": \"had_member\",\n      \"object\": \"Kevin Sorbo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"In addition to Sinise, Pat Boone, Jon Voight, Kelsey Grammer, Kevin Sorbo, and Scott Baio have stated that they are members of the organization\"}\n      ]\n    },\n    {\n      \"subject\": \"Friends of Abe, Inc.\",\n      \"relation\": \"had_member\",\n      \"object\": \"Scott Baio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"In addition to Sinise, Pat Boone, Jon Voight, Kelsey Grammer, Kevin Sorbo, and Scott Baio have stated that they are members of the organization\"}\n      ]\n    },\n    {\n      \"subject\": \"Friends of Abe, Inc.\",\n      \"relation\": \"maintains\",\n      \"object\": \"abespal.com\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for whom it maintains a secure private website, abespal.com\"}\n      ]\n    },\n    {\n      \"subject\": \"Gary Sinise\",\n      \"relation\": \"withdrew_from\",\n      \"object\": \"leadership\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Sinise later withdrew from the leadership\"}\n      ]\n    },\n    {\n      \"subject\": \"Jeremy Boreing\",\n      \"relation\": \"became\",\n      \"object\": \"executive director\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became executive director\"}\n      ]\n    },\n    {\n      \"subject\": \"Jeremy Boreing\",\n      \"relation\": \"works_for\",\n      \"object\": \"Friends of Abe, Inc.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became executive director\"}\n      ]\n    }\n  ]\n}"
+}

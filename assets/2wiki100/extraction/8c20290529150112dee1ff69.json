@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Mindless Behavior: All Around the World": "documentary film",
+    "Steven Goldfried": "director",
+    "Mindless Behavior": "music band",
+    "AMC Theatres": "theater",
+    "AwesomenessTV Films": "film distributor",
+    "All Around the World": "album"
+  },
+  "triples": [
+    {
+      "subject": "Mindless Behavior: All Around the World",
+      "relation": "directed_by",
+      "object": "Steven Goldfried",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed and produced by Steven Goldfried"
+        }
+      ]
+    },
+    {
+      "subject": "Mindless Behavior: All Around the World",
+      "relation": "based_on",
+      "object": "Mindless Behavior",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that is based on the making of American boy band Mindless Behavior"
+        }
+      ]
+    },
+    {
+      "subject": "Mindless Behavior: All Around the World",
+      "relation": "distributed_by",
+      "object": "AwesomenessTV Films",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "while being distributed by AwesomenessTV Films"
+        }
+      ]
+    },
+    {
+      "subject": "Mindless Behavior: All Around the World",
+      "relation": "released_in_theater",
+      "object": "AMC Theatres",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "released on March 15, 2013 through AMC Theatres"
+        }
+      ]
+    },
+    {
+      "subject": "All Around the World",
+      "relation": "released_in_same_week_as",
+      "object": "Mindless Behavior: All Around the World",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was released in the same week of the album's release"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mindless Behavior: All Around the World",
+        "released_on",
+        "March 15, 2013"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mindless Behavior",
+        "released_album",
+        "All Around the World"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Mindless Behavior: All Around the World\nMindless Behavior: All Around the World is a 2013 American documentary film directed and produced by Steven Goldfried, that is based on the making of American boy band Mindless Behavior. The film was released on March 15, 2013 through AMC Theatres while being distributed by AwesomenessTV Films. The film also shares the same name as the band's second studio album, \"All Around the World\" and was released in the same week of the album's release."
+}

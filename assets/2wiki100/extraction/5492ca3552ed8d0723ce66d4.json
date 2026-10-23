@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Navavadhu": "WORK_OF_ART",
+    "Malayalam": "LANGUAGE",
+    "P. Bhaskaran": "PERSON",
+    "A. L. Sreenivasan": "PERSON",
+    "Prem Nazir": "PERSON",
+    "Sharada": "PERSON",
+    "Sukumari": "PERSON",
+    "Adoor Bhasi": "PERSON",
+    "G. Devarajan": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Navavadhu",
+      "relation": "directed_by",
+      "object": "P. Bhaskaran",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 43,
+          "char_start": 53,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Navavadhu",
+      "relation": "produced_by",
+      "object": "A. L. Sreenivasan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 72,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "India (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Navavadhu",
+        "stars",
+        "Prem Nazir"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Navavadhu",
+        "stars",
+        "Sharada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Navavadhu",
+        "stars",
+        "Sukumari"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Navavadhu",
+        "stars",
+        "Adoor Bhasi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Navavadhu",
+        "located_in",
+        "India"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Navavadhu",
+        "language",
+        "Malayalam"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Navavadhu",
+        "musical_score_by",
+        "G. Devarajan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Navavadhu\nNavavadhu is a 1971 Indian Malayalam film, directed by P. Bhaskaran and produced by A. L. Sreenivasan. The film stars Prem Nazir, Sharada, Sukumari and Adoor Bhasi in the lead roles. The film had musical score by G. Devarajan.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Navavadhu\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"India\", \"type\": \"GPE\"},\n    {\"name\": \"Malayalam\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"P. Bhaskaran\", \"type\": \"PERSON\"},\n    {\"name\": \"A. L. Sreenivasan\", \"type\": \"PERSON\"},\n    {\"name\": \"Prem Nazir\", \"type\": \"PERSON\"},\n    {\"name\": \"Sharada\", \"type\": \"PERSON\"},\n    {\"name\": \"Sukumari\", \"type\": \"PERSON\"},\n    {\"name\": \"Adoor Bhasi\", \"type\": \"PERSON\"},\n    {\"name\": \"G. Devarajan\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Navavadhu\",\n      \"relation\": \"directed_by\",\n      \"object\": \"P. Bhaskaran\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Navavadhu\",\n      \"relation\": \"produced_by\",\n      \"object\": \"A. L. Sreenivasan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Navavadhu\",\n      \"relation\": \"stars\",\n      \"object\": \"Prem Nazir\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Navavadhu\",\n      \"relation\": \"stars\",\n      \"object\": \"Sharada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Navavadhu\",\n      \"relation\": \"stars\",\n      \"object\": \"Sukumari\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Navavadhu\",\n      \"relation\": \"stars\",\n      \"object\": \"Adoor Bhasi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Navavadhu\",\n      \"relation\": \"located_in\",\n      \"object\": \"India\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Indian\"}\n      ]\n    },\n    {\n      \"subject\": \"Navavadhu\",\n      \"relation\": \"language\",\n      \"object\": \"Malayalam\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Malayalam\"}\n      ]\n    },\n    {\n      \"subject\": \"Navavadhu\",\n      \"relation\": \"musical_score_by\",\n      \"object\": \"G. Devarajan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    }\n  ]\n}"
+}

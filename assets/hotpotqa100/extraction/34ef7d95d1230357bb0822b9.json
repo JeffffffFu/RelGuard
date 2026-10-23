@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Gregor Fisher": "PERSON",
+    "Rab C. Nesbitt": "WORK_OF_ART",
+    "Love Actually": "WORK_OF_ART",
+    "Lassie": "WORK_OF_ART",
+    "Wild Target": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Scotland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Gregor Fisher",
+        "born_in",
+        "Scotland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gregor Fisher",
+        "portrayed",
+        "Rab C. Nesbitt"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gregor Fisher",
+        "acted_in",
+        "Love Actually"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gregor Fisher",
+        "acted_in",
+        "Lassie"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gregor Fisher",
+        "acted_in",
+        "Wild Target"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Gregor Fisher\nGregor Fisher (born 22 December 1953) is a Scottish comedian and actor. He is perhaps best known for his long portrayal as protagonist and suffering Glasgow alcoholic Rab, in the popular comedy series \"Rab C. Nesbitt\", a role he has held since the show's first episode in 1988. He has also had roles in films such as \"Love Actually\", \"Lassie\" and \"Wild Target\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Gregor Fisher\", \"type\": \"PERSON\"},\n    {\"name\": \"Scotland\", \"type\": \"GPE\"},\n    {\"name\": \"Rab C. Nesbitt\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Love Actually\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Lassie\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Wild Target\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Gregor Fisher\",\n      \"relation\": \"born_in\",\n      \"object\": \"Scotland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Scottish\"}\n      ]\n    },\n    {\n      \"subject\": \"Gregor Fisher\",\n      \"relation\": \"portrayed\",\n      \"object\": \"Rab C. Nesbitt\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"portrayal as protagonist and suffering Glasgow alcoholic Rab, in the popular comedy series \\\"Rab C. Nesbitt\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Gregor Fisher\",\n      \"relation\": \"acted_in\",\n      \"object\": \"Love Actually\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"roles in films such as \\\"Love Actually\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Gregor Fisher\",\n      \"relation\": \"acted_in\",\n      \"object\": \"Lassie\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"roles in films such as \\\"Love Actually\\\", \\\"Lassie\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Gregor Fisher\",\n      \"relation\": \"acted_in\",\n      \"object\": \"Wild Target\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and \\\"Wild Target\\\"\"}\n      ]\n    }\n  ]\n}"
+}

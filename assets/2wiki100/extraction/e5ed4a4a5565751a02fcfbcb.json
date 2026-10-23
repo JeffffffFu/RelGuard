@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "J. A. Lawrence": "Person",
+    "Judith Ann Blish": "Person",
+    "James Blish": "Person",
+    "Star Trek": "Work"
+  },
+  "triples": [
+    {
+      "subject": "Judith Ann Blish",
+      "relation": "known_professionally_as",
+      "object": "J. A. Lawrence",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "known professionally as Judith L. Blish, Judy Blish, and J.A. Lawrence"
+        }
+      ]
+    },
+    {
+      "subject": "Judith Ann Blish",
+      "relation": "married_to",
+      "object": "James Blish",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "alongside her husband James Blish"
+        }
+      ]
+    },
+    {
+      "subject": "James Blish",
+      "relation": "published",
+      "object": "Star Trek",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "published from 1967 to 1978"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Judith Ann Blish",
+        "born",
+        "March 1940"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Judith Ann Blish",
+        "works_on",
+        "Star Trek"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Judith Ann Blish",
+        "active_in",
+        "preserving and promoting her husband's work"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "J. A. Lawrence\nJudith Ann Blish( née Lawrence — born c. March 1940), known professionally as Judith L. Blish, Judy Blish, and J.A. Lawrence, is an American sketch artist and short fiction writer. She is most well known for her work on the series of\" Star Trek\" episode novelizations, alongside her husband James Blish, published from 1967 to 1978. She has been active in preserving, and promoting her husband's work."
+}

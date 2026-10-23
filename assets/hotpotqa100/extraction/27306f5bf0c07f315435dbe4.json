@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Trigger Hippy": "band",
+    "Steve Gorman": "person",
+    "Guthrie Trapp": "person",
+    "Joan Osborne": "person",
+    "Nick Govrik": "person",
+    "Jimmy Herring": "person",
+    "Audley Freed": "person",
+    "Tom Bukovac": "person",
+    "Jackie Greene": "person",
+    "Black Crowes": "band",
+    "Widespread Panic": "band"
+  },
+  "triples": [
+    {
+      "subject": "Trigger Hippy",
+      "relation": "composed_of",
+      "object": "Steve Gorman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "composed of Black Crowes drummer Steve Gorman"
+        }
+      ]
+    },
+    {
+      "subject": "Jimmy Herring",
+      "relation": "formerly_of",
+      "object": "Widespread Panic",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Formerly of the group are Widespread Panic guitarist Jimmy Herring"
+        }
+      ]
+    },
+    {
+      "subject": "Audley Freed",
+      "relation": "formerly_of",
+      "object": "Black Crowes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "former Black Crowes guitarist Audley Freed"
+        }
+      ]
+    },
+    {
+      "subject": "Tom Bukovac",
+      "relation": "session_guitarist_for",
+      "object": "Trigger Hippy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "session guitarist Tom Bukovac"
+        }
+      ]
+    },
+    {
+      "subject": "Jackie Greene",
+      "relation": "formerly_of",
+      "object": "Black Crowes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "singer/songwriter and Black Crowes guitarist Jackie Greene"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Trigger Hippy",
+        "composed_of",
+        "Guthrie Trapp"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Trigger Hippy",
+        "composed_of",
+        "Joan Osborne"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Trigger Hippy",
+        "composed_of",
+        "Nick Govrik"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Trigger Hippy\nTrigger Hippy is an American rock band composed of Black Crowes drummer Steve Gorman, guitarist Guthrie Trapp, singer Joan Osborne and bassist Nick Govrik. Formerly of the group are Widespread Panic guitarist Jimmy Herring, former Black Crowes guitarist Audley Freed, session guitarist Tom Bukovac and singer/songwriter and Black Crowes guitarist Jackie Greene."
+}

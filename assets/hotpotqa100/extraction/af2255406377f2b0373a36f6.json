@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Anthony McPartlin": "PERSON",
+    "Declan Donnelly": "PERSON",
+    "Ant & Dec": "PERSON",
+    "Newcastle upon Tyne": "GPE",
+    "England": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Anthony McPartlin",
+      "relation": "known_as",
+      "object": "Ant & Dec",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known collectively as",
+          "line_start": 98,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "known collectively as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Declan Donnelly",
+      "relation": "known_as",
+      "object": "Ant & Dec",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known collectively as",
+          "line_start": 98,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "known collectively as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ant & Dec",
+        "located_in",
+        "Newcastle upon Tyne"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Newcastle upon Tyne",
+        "located_in",
+        "England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ant & Dec",
+        "has_nationality",
+        "English"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ant &amp; Dec\nAnthony McPartlin, OBE (born 18 November 1975) and Declan Donnelly, OBE (born 25 September 1975), known collectively as Ant & Dec, are an English comedy TV presenting, television producing, acting and former music duo from Newcastle upon Tyne, England.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Anthony McPartlin\", \"type\": \"PERSON\"},\n    {\"name\": \"Declan Donnelly\", \"type\": \"PERSON\"},\n    {\"name\": \"Ant & Dec\", \"type\": \"PERSON\"},\n    {\"name\": \"Newcastle upon Tyne\", \"type\": \"GPE\"},\n    {\"name\": \"England\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Anthony McPartlin\",\n      \"relation\": \"known_as\",\n      \"object\": \"Ant & Dec\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known collectively as\"}\n      ]\n    },\n    {\n      \"subject\": \"Declan Donnelly\",\n      \"relation\": \"known_as\",\n      \"object\": \"Ant & Dec\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known collectively as\"}\n      ]\n    },\n    {\n      \"subject\": \"Ant & Dec\",\n      \"relation\": \"located_in\",\n      \"object\": \"Newcastle upon Tyne\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from\"}\n      ]\n    },\n    {\n      \"subject\": \"Newcastle upon Tyne\",\n      \"relation\": \"located_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"England\"}\n      ]\n    },\n    {\n      \"subject\": \"Ant & Dec\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are an English\"}\n      ]\n    }\n  ]\n}"
+}

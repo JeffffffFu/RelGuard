@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "FAW-GM": "company",
+    "FAW Group": "company",
+    "General Motors": "company",
+    "Changchun": "location",
+    "Harbin Light Vehicle factory": "facility",
+    "FAW Hongta Yunnan Automobile Co Ltd": "company",
+    "FAW Harbin Light Duty Vehicle Co.": "facility",
+    "FAW-GM Hongta Yunnan Automobile Manufacturing Co., Ltd.": "facility",
+    "Changchun Plant": "facility",
+    "Jie Fang": "product"
+  },
+  "triples": [
+    {
+      "subject": "FAW-GM",
+      "relation": "headquartered_in",
+      "object": "Changchun",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "headquartered in Changchun, China"
+        }
+      ]
+    },
+    {
+      "subject": "FAW-GM",
+      "relation": "joint_venture_with",
+      "object": "General Motors",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a 50:50 joint venture between FAW Group and General Motors"
+        }
+      ]
+    },
+    {
+      "subject": "FAW-GM",
+      "relation": "includes",
+      "object": "Harbin Light Vehicle factory",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "its activities include the Harbin Light Vehicle factory"
+        }
+      ]
+    },
+    {
+      "subject": "FAW-GM",
+      "relation": "includes",
+      "object": "FAW Hongta Yunnan Automobile Co Ltd",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and FAW Hongta Yunnan Automobile Co Ltd"
+        }
+      ]
+    },
+    {
+      "subject": "FAW-GM",
+      "relation": "possibility_of_building_models_for",
+      "object": "General Motors",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with the possibility of building models for GM to sell under their marques"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "FAW-GM",
+        "founded",
+        "2009"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "FAW-GM",
+        "builds",
+        "Jie Fang"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "FAW-GM",
+        "builds",
+        "light commercial vehicles"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "FAW-GM\nFAW-GM Light Duty Commercial Vehicle (FAW-GM) is a commercial vehicle manufacturing company headquartered in Changchun, China, and a 50:50 joint venture between FAW Group and General Motors. It was founded in 2009 and its activities include the Harbin Light Vehicle factory and FAW Hongta Yunnan Automobile Co Ltd. The plants were named as \"FAW Harbin Light Duty Vehicle Co.\", \"FAW-GM Hongta Yunnan Automobile Manufacturing Co., Ltd.\" and \"Changchun Plant\". The company builds \"Jie Fang\" pickups and light commercial vehicles, with the possibility of building models for GM to sell under their marques."
+}

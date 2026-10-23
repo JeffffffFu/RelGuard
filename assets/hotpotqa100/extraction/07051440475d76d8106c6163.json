@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Troy": "GPE",
+    "Montana": "GPE",
+    "Lincoln County": "GPE",
+    "United States": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Troy",
+      "relation": "located_in",
+      "object": "Lincoln County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Troy is a city in Lincoln County"
+        }
+      ]
+    },
+    {
+      "subject": "Lincoln County",
+      "relation": "located_in",
+      "object": "Montana",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Lincoln County, Montana"
+        }
+      ]
+    },
+    {
+      "subject": "Montana",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Lincoln County, Montana, United States"
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Troy, Montana\nTroy is a city in Lincoln County, Montana, United States. The population was 938 at the 2010 census."
+}

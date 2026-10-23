@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Evan and Jaron": "album",
+    "Crazy for This Girl": "single",
+    "From My Head to My Heart": "single",
+    "Runaway Bride": "movie",
+    "The Distance": "single",
+    "Serendipity": "movie"
+  },
+  "triples": [
+    {
+      "subject": "Evan and Jaron",
+      "relation": "contained",
+      "object": "Crazy for This Girl",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "contained the hit singles \"Crazy for This Girl\""
+        }
+      ]
+    },
+    {
+      "subject": "From My Head to My Heart",
+      "relation": "was_previously_on",
+      "object": "Runaway Bride",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "(which was previously on the soundtrack to \"Runaway Bride\")"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Evan and Jaron",
+        "released",
+        "September 5, 2000"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Evan and Jaron",
+        "contained",
+        "From My Head to My Heart"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Evan and Jaron",
+        "contained",
+        "The Distance"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Distance",
+        "would_later_be_on",
+        "Serendipity"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Evan and Jaron (album)\nEvan and Jaron is Evan and Jaron's second album, released on September 5, 2000. It contained the hit singles \"Crazy for This Girl\", which peaked at #15 in the U.S. charts, \"From My Head to My Heart\" (which was previously on the soundtrack to \"Runaway Bride\"), and \"The Distance\" (which would later be on the \"Serendipity\" soundtrack.)"
+}

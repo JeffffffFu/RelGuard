@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Battle in Outer Space": "WORK_OF_ART",
+    "United States": "GPE",
+    "Columbia Pictures": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Battle in Outer Space",
+      "relation": "released_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released theatrically in",
+          "line_start": 13,
+          "char_start": 35,
+          "ambiguous": false,
+          "relation_mention": "released theatrically in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Battle in Outer Space",
+        "released_by",
+        "Columbia Pictures"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Battle in Outer Space\nThe film was released theatrically in the United States in the summer of 1960 by Columbia Pictures.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Battle in Outer Space\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Columbia Pictures\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Battle in Outer Space\",\n      \"relation\": \"released_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released theatrically in\"}\n      ]\n    },\n    {\n      \"subject\": \"Battle in Outer Space\",\n      \"relation\": \"released_by\",\n      \"object\": \"Columbia Pictures\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by Columbia Pictures\"}\n      ]\n    }\n  ]\n}"
+}

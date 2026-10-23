@@ -1,0 +1,33 @@
+{
+  "entities": {
+    "Firstar Center": "Building",
+    "Firstar Corporation": "Company",
+    "U.S. Bancorp": "Company"
+  },
+  "triples": [
+    {
+      "subject": "Firstar Center",
+      "relation": "previously_used_by",
+      "object": "Firstar Corporation",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Firstar Center was the name previously used by two buildings before Firstar Corporation changed its name to U.S. Bancorp."
+        }
+      ]
+    },
+    {
+      "subject": "Firstar Corporation",
+      "relation": "changed_name_to",
+      "object": "U.S. Bancorp",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "before Firstar Corporation changed its name to U.S. Bancorp."
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Firstar Center\nFirstar Center was the name previously used by two buildings before Firstar Corporation changed its name to U.S. Bancorp. The two buildings are now named:"
+}

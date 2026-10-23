@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Uncle's New Blazer": "film",
+    "William Garwood": "person",
+    "Violet Mersereau": "person",
+    "Nell Craig": "person"
+  },
+  "triples": [
+    {
+      "subject": "Uncle's New Blazer",
+      "relation": "starring",
+      "object": "William Garwood",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring William Garwood"
+        }
+      ]
+    },
+    {
+      "subject": "Uncle's New Blazer",
+      "relation": "starring",
+      "object": "Nell Craig",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also starred"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Uncle's New Blazer",
+        "directed_by",
+        "William Garwood"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Uncle's New Blazer",
+        "starring",
+        "Violet Mersereau"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Uncle's New Blazer\nUncle's New Blazer is a 1915 American silent short comedy film directed by and starring William Garwood in the lead role with Violet Mersereau. Nell Craig also starred."
+}

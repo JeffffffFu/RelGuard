@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Sancho Ramírez": "PERSON",
+    "Count of Ribagorza": "PERSON",
+    "King Ramiro I of Aragon": "PERSON",
+    "Amuña": "PERSON",
+    "Aragon": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Sancho Ramírez (namesake, future king) (PERSON)"
+      ]
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "was_son_of",
+        "King Ramiro I of Aragon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "was_son_of",
+        "Amuña"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "King Ramiro I of Aragon",
+        "located_in",
+        "Aragon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "held_title",
+        "Count of Ribagorza"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "was_brother_of",
+        "Sancho Ramírez (namesake, future king)"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sancho Ramírez, Count of Ribagorza\nSancho Ramírez (before 10431105/November 1110) was an illegitimate son of King Ramiro I of Aragon and Amuña, the firstborn and brother of his namesake who would inherit the throne and reign as Sancho Ramírez.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Sancho Ramírez\", \"type\": \"PERSON\"},\n    {\"name\": \"Count of Ribagorza\", \"type\": \"PERSON\"},\n    {\"name\": \"King Ramiro I of Aragon\", \"type\": \"PERSON\"},\n    {\"name\": \"Amuña\", \"type\": \"PERSON\"},\n    {\"name\": \"Aragon\", \"type\": \"GPE\"},\n    {\"name\": \"Sancho Ramírez (namesake, future king)\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Sancho Ramírez\",\n      \"relation\": \"was_son_of\",\n      \"object\": \"King Ramiro I of Aragon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an illegitimate son of\"}\n      ]\n    },\n    {\n      \"subject\": \"Sancho Ramírez\",\n      \"relation\": \"was_son_of\",\n      \"object\": \"Amuña\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an illegitimate son of\"}\n      ]\n    },\n    {\n      \"subject\": \"King Ramiro I of Aragon\",\n      \"relation\": \"located_in\",\n      \"object\": \"Aragon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of\"}\n      ]\n    },\n    {\n      \"subject\": \"Sancho Ramírez\",\n      \"relation\": \"held_title\",\n      \"object\": \"Count of Ribagorza\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Count of Ribagorza\"}\n      ]\n    },\n    {\n      \"subject\": \"Sancho Ramírez\",\n      \"relation\": \"was_brother_of\",\n      \"object\": \"Sancho Ramírez (namesake, future king)\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"brother of\"}\n      ]\n    }\n  ]\n}"
+}

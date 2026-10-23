@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Wayne Sykes": "PERSON",
+    "Heritage № 358": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Wayne Sykes",
+      "relation": "played_for",
+      "object": "Heritage № 358",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He played in the Super League for the( Heritage № 358)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "England (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Wayne Sykes",
+        "nationality",
+        "England"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Wayne Sykes\nWayne Sykes( born 27 February 1979), also known by the nicknames of\" Psycho\" and\" Sykesy\", is an English former rugby league footballer who played in the 1990s and 2000s. He played in the Super League for the( Heritage № 358), as a or."
+}

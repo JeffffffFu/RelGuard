@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Journal of Creating Value": "journal",
+    "Gautam Mahajan": "person",
+    "Customer Value Foundation": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Gautam Mahajan",
+      "relation": "is_founder_of",
+      "object": "Journal of Creating Value",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Gautam Mahajan, CEO Customer Value Foundation is the founding editor of the Journal."
+        }
+      ]
+    },
+    {
+      "subject": "Gautam Mahajan",
+      "relation": "works_for",
+      "object": "Customer Value Foundation",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Gautam Mahajan, CEO Customer Value Foundation"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Journal of Creating Value",
+        "is_a",
+        "journal"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Journal of Creating Value\nThe Journal of Creating Value is a peer reviewed academic journal that focusses on creating value for customers and in turn creating value for the company and its stakeholders. Gautam Mahajan, CEO Customer Value Foundation is the founding editor of the Journal."
+}

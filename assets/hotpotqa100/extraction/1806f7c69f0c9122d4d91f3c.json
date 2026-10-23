@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Tagliatelle": "PRODUCT",
+    "tagliolini": "PRODUCT",
+    "Emilia-Romagna": "GPE",
+    "Marche": "GPE",
+    "Italy": "GPE",
+    "Bolognese sauce": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Tagliatelle",
+      "relation": "is_a_type_of",
+      "object": "tagliolini",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Tagliatelle (] ) and tagliolini"
+        }
+      ]
+    },
+    {
+      "subject": "Tagliatelle",
+      "relation": "is_from",
+      "object": "Emilia-Romagna",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a traditional type of pasta from Emilia-Romagna"
+        }
+      ]
+    },
+    {
+      "subject": "Tagliatelle",
+      "relation": "can_be_served_with",
+      "object": "Bolognese sauce",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the classic is a meat sauce or Bolognese sauce"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tagliatelle",
+        "is_from",
+        "Marche"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tagliatelle",
+        "is_from",
+        "Italy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Tagliatelle\nTagliatelle (] ) and tagliolini (from the Italian \"tagliare\", meaning \"to cut\") are a traditional type of pasta from Emilia-Romagna and Marche, regions of Italy. Individual pieces of \"tagliatelle\" are long, flat ribbons that are similar in shape to fettuccine and are typically about 6.5 mm to 10 mm (0.25 to 0.375 inch) wide. \"Tagliatelle\" can be served with a variety of sauces, though the classic is a meat sauce or Bolognese sauce. Tagliolini is another variety of tagliatelle that is long and cylindrical in shape, not long and flat."
+}

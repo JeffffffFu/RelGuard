@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Adib Kheir": "Person",
+    "Librairie Universelle": "Organization",
+    "Damascus": "Location",
+    "Manaf Tlass": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Adib Kheir",
+      "relation": "owner_of",
+      "object": "Librairie Universelle",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He was the owner of the Librairie Universelle in Damascus."
+        }
+      ]
+    },
+    {
+      "subject": "Librairie Universelle",
+      "relation": "located_in",
+      "object": "Damascus",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He was the owner of the Librairie Universelle in Damascus."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Adib Kheir",
+        "was_a",
+        "Syrian nationalist"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Manaf Tlass",
+        "spouse_of",
+        "Adib Kheir's granddaughter"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Adib Kheir\nAdib Kheir was a leading Syrian nationalist of the 1920s. He was the owner of the Librairie Universelle in Damascus. His granddaughter is the spouse of Manaf Tlass."
+}

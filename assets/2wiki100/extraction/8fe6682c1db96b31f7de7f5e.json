@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "John G. Adolfi": "PERSON",
+    "John Gustav Adolfi": "PERSON",
+    "American": "NORP",
+    "Robin Hood": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "John Gustav Adolfi",
+      "relation": "nationality",
+      "object": "American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was an American",
+          "line_start": 54,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "was an American",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "John Gustav Adolfi",
+      "relation": "directed",
+      "object": "Robin Hood",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "acting credit was in the recently restored 1912 film\" Robin Hood\"",
+          "line_start": 194,
+          "char_start": 209,
+          "ambiguous": false,
+          "relation_mention": "acting credit was in the recently restored 1912 film\" Robin Hood\"",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John Gustav Adolfi",
+        "also_known_as",
+        "John G. Adolfi"
+      ],
+      "why": "2 predicate(s) not locatable"
+    }
+  ],
+  "document": "John G. Adolfi\nJohn Gustav Adolfi( February 19, 1888 – May 11, 1933) was an American silent film director, actor, and screenwriter who was involved in more than 100 productions throughout his career. An early acting credit was in the recently restored 1912 film\" Robin Hood\"."
+}

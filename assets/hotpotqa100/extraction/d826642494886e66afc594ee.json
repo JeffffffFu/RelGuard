@@ -1,0 +1,154 @@
+{
+  "entities": {
+    "This Is the End": "film",
+    "Seth Rogen": "person",
+    "Evan Goldberg": "person",
+    "James Franco": "person",
+    "Jonah Hill": "person",
+    "Jay Baruchel": "person",
+    "Danny McBride": "person",
+    "Craig Robinson": "person",
+    "Michael Cera": "person",
+    "Emma Watson": "person",
+    "Fox Village Theater": "location",
+    "Columbia Pictures": "organization",
+    "United States": "location"
+  },
+  "triples": [
+    {
+      "subject": "This Is the End",
+      "relation": "written_by",
+      "object": "Seth Rogen",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written, directed and story by Seth Rogen"
+        }
+      ]
+    },
+    {
+      "subject": "This Is the End",
+      "relation": "premiered_at",
+      "object": "Fox Village Theater",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The film premiered at the Fox Village Theater"
+        }
+      ]
+    },
+    {
+      "subject": "This Is the End",
+      "relation": "released_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was released in the United States"
+        }
+      ]
+    },
+    {
+      "subject": "This Is the End",
+      "relation": "released_by",
+      "object": "Columbia Pictures",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "released in the United States on June 14, 2013 by Columbia Pictures"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "This Is the End",
+        "written_by",
+        "Evan Goldberg"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "This Is the End",
+        "stars",
+        "Rogen"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "This Is the End",
+        "stars",
+        "James Franco"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "This Is the End",
+        "stars",
+        "Jonah Hill"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "This Is the End",
+        "stars",
+        "Jay Baruchel"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "This Is the End",
+        "stars",
+        "Danny McBride"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "This Is the End",
+        "stars",
+        "Craig Robinson"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "This Is the End",
+        "stars",
+        "Michael Cera"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "This Is the End",
+        "stars",
+        "Emma Watson"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "This Is the End",
+        "grossed",
+        "$126 million"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "This Is the End",
+        "budget",
+        "$32 million"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "This Is the End\nThis Is the End is a 2013 American disaster black comedy horror fantasy film written, directed and story by Seth Rogen and Evan Goldberg and stars Rogen, James Franco, Jonah Hill, Jay Baruchel, Danny McBride, Craig Robinson, Michael Cera and Emma Watson. The story features real life actors playing fictionalized versions of themselves in the aftermath of a global biblical apocalypse. The film premiered at the Fox Village Theater on June 3, 2013 and was released in the United States on June 14, 2013 by Columbia Pictures, before being re-released on September 6, 2013. The film grossed $126 million on a $32 million budget."
+}

@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Jerry Balmuth": "Person",
+    "Colgate University": "Organization",
+    "Hamilton, New York": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Jerry Balmuth",
+      "relation": "works_for",
+      "object": "Colgate University",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Harry Emerson Fosdick Professor of Philosophy and Religion, Emeritus, at Colgate University"
+        }
+      ]
+    },
+    {
+      "subject": "Colgate University",
+      "relation": "located_in",
+      "object": "Hamilton, New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at Colgate University in Hamilton, New York"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jerry Balmuth",
+        "born_on",
+        "May 8, 1924"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jerry Balmuth",
+        "died_on",
+        "September 28, 2017"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jerry Balmuth\nJerome \"Jerry\" Balmuth (born May 8, 1924-September 28, 2017) is an American philosoher and the Harry Emerson Fosdick Professor of Philosophy and Religion, Emeritus, at Colgate University in Hamilton, New York."
+}

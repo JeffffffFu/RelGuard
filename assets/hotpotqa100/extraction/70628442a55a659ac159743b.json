@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Skellerup Glacier": "LOC",
+    "All-Blacks Nunataks": "LOC",
+    "Wilhoite Nunataks": "LOC",
+    "Churchill Mountains": "LOC",
+    "P. J. Skellerup": "PERSON",
+    "Canterbury Museum": "ORG",
+    "Antarctic wing": "ORG",
+    "Antarctic Library": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Skellerup Glacier",
+      "relation": "named_in_honor_of",
+      "object": "P. J. Skellerup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Named in honor of",
+          "line_start": 143,
+          "char_start": 161,
+          "ambiguous": false,
+          "relation_mention": "Named in honor of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "P. J. Skellerup",
+      "relation": "sponsored",
+      "object": "Antarctic wing",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "sponsored",
+          "line_start": 182,
+          "char_start": 200,
+          "ambiguous": false,
+          "relation_mention": "sponsored",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Skellerup Glacier",
+        "located_between",
+        "All-Blacks Nunataks"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Skellerup Glacier",
+        "located_between",
+        "Wilhoite Nunataks"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Skellerup Glacier",
+        "located_west_of",
+        "Churchill Mountains"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Antarctic wing",
+        "part_of",
+        "Canterbury Museum"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "P. J. Skellerup",
+        "donated",
+        "Antarctic Library"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "P. J. Skellerup",
+        "donated",
+        "Canterbury Museum"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Skellerup Glacier\nSkellerup Glacier ( ) is a glacier flowing west north west between All-Blacks Nunataks and Wilhoite Nunataks, west of the Churchill Mountains. Named in honor of P. J. Skellerup, who sponsored the Antarctic wing at Canterbury Museum. He is particularly keen on scientific research and donated money to build a specialist Antarctic Library at the Museum. He also donated a large collection of Antarctic materials to the Museum, including some very old and rare Antarctic manuscripts. He remains interested in the collection and has continued his sponsorship and donations over 30+ years.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Skellerup Glacier\", \"type\": \"LOC\"},\n    {\"name\": \"All-Blacks Nunataks\", \"type\": \"LOC\"},\n    {\"name\": \"Wilhoite Nunataks\", \"type\": \"LOC\"},\n    {\"name\": \"Churchill Mountains\", \"type\": \"LOC\"},\n    {\"name\": \"P. J. Skellerup\", \"type\": \"PERSON\"},\n    {\"name\": \"Canterbury Museum\", \"type\": \"ORG\"},\n    {\"name\": \"Antarctic wing\", \"type\": \"ORG\"},\n    {\"name\": \"Antarctic Library\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Skellerup Glacier\",\n      \"relation\": \"located_between\",\n      \"object\": \"All-Blacks Nunataks\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"between\"}\n      ]\n    },\n    {\n      \"subject\": \"Skellerup Glacier\",\n      \"relation\": \"located_between\",\n      \"object\": \"Wilhoite Nunataks\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"between\"}\n      ]\n    },\n    {\n      \"subject\": \"Skellerup Glacier\",\n      \"relation\": \"located_west_of\",\n      \"object\": \"Churchill Mountains\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"west of\"}\n      ]\n    },\n    {\n      \"subject\": \"Skellerup Glacier\",\n      \"relation\": \"named_in_honor_of\",\n      \"object\": \"P. J. Skellerup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Named in honor of\"}\n      ]\n    },\n    {\n      \"subject\": \"P. J. Skellerup\",\n      \"relation\": \"sponsored\",\n      \"object\": \"Antarctic wing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"sponsored\"}\n      ]\n    },\n    {\n      \"subject\": \"Antarctic wing\",\n      \"relation\": \"part_of\",\n      \"object\": \"Canterbury Museum\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at\"}\n      ]\n    },\n    {\n      \"subject\": \"P. J. Skellerup\",\n      \"relation\": \"donated\",\n      \"object\": \"Antarctic Library\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"donated money to build a specialist Antarctic Library\"}\n      ]\n    },\n    {\n      \"subject\": \"P. J. Skellerup\",\n      \"relation\": \"donated\",\n      \"object\": \"Canterbury Museum\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to the Museum\"}\n      ]\n    }\n  ]\n}"
+}

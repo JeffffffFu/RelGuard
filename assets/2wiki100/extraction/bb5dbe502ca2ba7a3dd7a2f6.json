@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Robert Petre, 8th Baron Petre": "PERSON",
+    "Robert James Petre, 8th Baron Petre": "PERSON",
+    "Robert Petre, 7th Baron Petre": "PERSON",
+    "Catherine Walmesley": "PERSON",
+    "Walmesley": "NORP",
+    "Lancashire": "GPE",
+    "Ingatestone Hall": "FAC",
+    "Thorndon Hall": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Robert James Petre, 8th Baron Petre",
+      "relation": "born_at",
+      "object": "Ingatestone Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "spent his childhood at",
+          "line_start": 345,
+          "char_start": 375,
+          "ambiguous": false,
+          "relation_mention": "spent his childhood at",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Robert James Petre, 8th Baron Petre",
+        "was_a",
+        "Robert Petre, 8th Baron Petre"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert James Petre, 8th Baron Petre",
+        "was_a",
+        "PERSON"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Robert James Petre, 8th Baron Petre",
+        "was_a",
+        "British peer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Robert James Petre, 8th Baron Petre",
+        "son_of",
+        "Robert Petre, 7th Baron Petre"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert James Petre, 8th Baron Petre",
+        "son_of",
+        "Catherine Walmesley"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Catherine Walmesley",
+        "heiress_of",
+        "Walmesley"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Walmesley",
+        "located_in",
+        "Lancashire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert James Petre, 8th Baron Petre",
+        "did_not_spend_childhood_at",
+        "Thorndon Hall"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Robert Petre, 8th Baron Petre\nRobert James Petre, 8th Baron Petre (3 June 1713 – 2 July 1742) was a renowned horticulturist and a British peer. Lord Petre was the son of Robert Petre, 7th Baron Petre (1689–1713) and his wife Catherine Walmesley (1697 – 31 January 1785), heiress of the Walmesley family of Lancashire. Petre was born three months after his father's death and spent his childhood at Ingatestone Hall, instead of at Thorndon Hall, the family seat, as his grandmother was still in residence there.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Robert Petre, 8th Baron Petre\", \"type\": \"PERSON\"},\n    {\"name\": \"Robert James Petre, 8th Baron Petre\", \"type\": \"PERSON\"},\n    {\"name\": \"Robert Petre, 7th Baron Petre\", \"type\": \"PERSON\"},\n    {\"name\": \"Catherine Walmesley\", \"type\": \"PERSON\"},\n    {\"name\": \"Walmesley\", \"type\": \"NORP\"},\n    {\"name\": \"Lancashire\", \"type\": \"GPE\"},\n    {\"name\": \"Ingatestone Hall\", \"type\": \"FAC\"},\n    {\"name\": \"Thorndon Hall\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Robert James Petre, 8th Baron Petre\",\n      \"relation\": \"was_a\",\n      \"object\": \"Robert Petre, 8th Baron Petre\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Robert James Petre, 8th Baron Petre\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert James Petre, 8th Baron Petre\",\n      \"relation\": \"was_a\",\n      \"object\": \"PERSON\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Robert James Petre, 8th Baron Petre\",\n      \"relation\": \"was_a\",\n      \"object\": \"British peer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a renowned horticulturist and a British peer\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert James Petre, 8th Baron Petre\",\n      \"relation\": \"son_of\",\n      \"object\": \"Robert Petre, 7th Baron Petre\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the son of\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert James Petre, 8th Baron Petre\",\n      \"relation\": \"son_of\",\n      \"object\": \"Catherine Walmesley\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the son of\"}\n      ]\n    },\n    {\n      \"subject\": \"Catherine Walmesley\",\n      \"relation\": \"heiress_of\",\n      \"object\": \"Walmesley\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"heiress of\"}\n      ]\n    },\n    {\n      \"subject\": \"Walmesley\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lancashire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Lancashire\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert James Petre, 8th Baron Petre\",\n      \"relation\": \"born_at\",\n      \"object\": \"Ingatestone Hall\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"spent his childhood at\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert James Petre, 8th Baron Petre\",\n      \"relation\": \"did_not_spend_childhood_at\",\n      \"object\": \"Thorndon Hall\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"instead of at Thorndon Hall\"}\n      ]\n    }\n  ]\n}"
+}

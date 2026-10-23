@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Vickers Viscount": "airliner",
+    "Vickers-Armstrongs": "company",
+    "Brabazon Committee": "committee",
+    "turboprop engine": "engine",
+    "piston engine": "engine"
+  },
+  "triples": [
+    {
+      "subject": "Vickers Viscount",
+      "relation": "produced_by",
+      "object": "Vickers-Armstrongs",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Vickers-Armstrongs"
+        }
+      ]
+    },
+    {
+      "subject": "Vickers Viscount",
+      "relation": "product_of",
+      "object": "Brabazon Committee",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "A product of the Brabazon Committee"
+        }
+      ]
+    },
+    {
+      "subject": "Vickers Viscount",
+      "relation": "uses",
+      "object": "turboprop engine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "used a new form of propulsion, the turboprop engine"
+        }
+      ]
+    },
+    {
+      "subject": "Vickers Viscount",
+      "relation": "replaces",
+      "object": "piston engine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "replacing the conventional piston engine"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vickers Viscount",
+        "first_flight",
+        "1948"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Vickers Viscount\nThe Vickers Viscount was a British medium-range turboprop airliner first flown in 1948 by Vickers-Armstrongs, the first such aircraft to enter service in the world. A product of the Brabazon Committee, it used a new form of propulsion, the turboprop engine, replacing the conventional piston engine."
+}

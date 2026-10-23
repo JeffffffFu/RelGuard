@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Papa Gino's": "Restaurant Chain",
+    "Papa Gino's, Inc.": "Company",
+    "Dedham, Massachusetts": "Location",
+    "Connecticut": "Location",
+    "Maine": "Location",
+    "New Hampshire": "Location",
+    "Rhode Island": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Papa Gino's, Inc.",
+      "relation": "based_in",
+      "object": "Dedham, Massachusetts",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Dedham, Massachusetts"
+        }
+      ]
+    },
+    {
+      "subject": "Papa Gino's, Inc.",
+      "relation": "has_location",
+      "object": "Connecticut",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "over 150 Papa Gino's locations in Connecticut"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Papa Gino's, Inc.",
+        "specializes_in",
+        "American-style pizza"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Papa Gino's, Inc.",
+        "has_location",
+        "Maine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Papa Gino's, Inc.",
+        "has_location",
+        "Massachusetts"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Papa Gino's, Inc.",
+        "has_location",
+        "New Hampshire"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Papa Gino's, Inc.",
+        "has_location",
+        "Rhode Island"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Papa Gino's\nPapa Gino's, Inc. is a restaurant chain based in Dedham, Massachusetts specializing in American-style pizza along with pasta, subs, salads, and a variety of appetizers. There are over 150 Papa Gino's locations in Connecticut, Maine, Massachusetts, New Hampshire, and Rhode Island."
+}

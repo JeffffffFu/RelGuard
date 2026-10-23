@@ -1,0 +1,118 @@
+{
+  "entities": {
+    "Jefferson High School": "ORG",
+    "Delphos Jefferson High School": "ORG",
+    "Delphos City Schools": "ORG",
+    "Franklin Elementary": "ORG",
+    "Jefferson Middle School": "ORG",
+    "Landeck Elementary school": "ORG",
+    "Delphos": "GPE",
+    "Allen County": "GPE",
+    "Van Wert County": "GPE",
+    "Landeck": "GPE",
+    "Catholic Church": "ORG",
+    "Ohio": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Delphos Jefferson High School",
+      "relation": "located_in",
+      "object": "Allen County",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 54,
+          "char_start": 92,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Jefferson High School",
+      "relation": "located_in",
+      "object": "Van Wert County",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 54,
+          "char_start": 92,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jefferson High School",
+        "serves",
+        "Van Wert County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Delphos City Schools",
+        "has_only_one_building",
+        "Franklin Elementary"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Delphos City Schools",
+        "has_building",
+        "Jefferson Middle School"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Delphos City Schools",
+        "has_building",
+        "Jefferson High School"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Landeck Elementary school",
+        "located_in",
+        "Landeck"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Landeck",
+        "located_in",
+        "Delphos"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Catholic Church",
+        "located_in",
+        "Landeck"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Catholic Church",
+        "owns",
+        "This building"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jefferson High School (Delphos, Ohio)\nDelphos Jefferson High School is a public high school located in Allen County, Ohio for reporting purposes only. Jefferson High School is physically located in Van Wert County, Ohio. It also serves parts of Van Wert County, Ohio. Delphos City Schools has only one building (Franklin Elementary) located in Allen County, Ohio, and two (Jefferson Middle School and Jefferson High School) located in Van Wert County, Ohio. Another building is used for grades 1-5, Landeck Elementary school located in Landeck Ohio. Landeck is located a few miles outside of Delphos. This building is owned by the Catholic Church located in Landeck.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Jefferson High School\", \"type\": \"ORG\"},\n    {\"name\": \"Delphos Jefferson High School\", \"type\": \"ORG\"},\n    {\"name\": \"Delphos City Schools\", \"type\": \"ORG\"},\n    {\"name\": \"Franklin Elementary\", \"type\": \"ORG\"},\n    {\"name\": \"Jefferson Middle School\", \"type\": \"ORG\"},\n    {\"name\": \"Landeck Elementary school\", \"type\": \"ORG\"},\n    {\"name\": \"Delphos\", \"type\": \"GPE\"},\n    {\"name\": \"Allen County\", \"type\": \"GPE\"},\n    {\"name\": \"Van Wert County\", \"type\": \"GPE\"},\n    {\"name\": \"Landeck\", \"type\": \"GPE\"},\n    {\"name\": \"Catholic Church\", \"type\": \"ORG\"},\n    {\"name\": \"Ohio\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Delphos Jefferson High School\",\n      \"relation\": \"located_in\",\n      \"object\": \"Allen County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Jefferson High School\",\n      \"relation\": \"located_in\",\n      \"object\": \"Van Wert County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Jefferson High School\",\n      \"relation\": \"serves\",\n      \"object\": \"Van Wert County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves\"}\n      ]\n    },\n    {\n      \"subject\": \"Delphos City Schools\",\n      \"relation\": \"has_only_one_building\",\n      \"object\": \"Franklin Elementary\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has only one building (Franklin Elementary) located in Allen County, Ohio, and two (Jefferson Middle School and Jefferson High School) located in Van Wert County, Ohio\"}\n      ]\n    },\n    {\n      \"subject\": \"Delphos City Schools\",\n      \"relation\": \"has_building\",\n      \"object\": \"Jefferson Middle School\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"two (Jefferson Middle School and Jefferson High School) located in Van Wert County, Ohio\"}\n      ]\n    },\n    {\n      \"subject\": \"Delphos City Schools\",\n      \"relation\": \"has_building\",\n      \"object\": \"Jefferson High School\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"two (Jefferson Middle School and Jefferson High School) located in Van Wert County, Ohio\"}\n      ]\n    },\n    {\n      \"subject\": \"Landeck Elementary school\",\n      \"relation\": \"located_in\",\n      \"object\": \"Landeck\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Landeck Ohio\"}\n      ]\n    },\n    {\n      \"subject\": \"Landeck\",\n      \"relation\": \"located_in\",\n      \"object\": \"Delphos\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located a few miles outside of Delphos\"}\n      ]\n    },\n    {\n      \"subject\": \"Catholic Church\",\n      \"relation\": \"located_in\",\n      \"object\": \"Landeck\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Landeck\"}\n      ]\n    },\n    {\n      \"subject\": \"Catholic Church\",\n      \"relation\": \"owns\",\n      \"object\": \"This building\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is owned by\"}\n      ]\n    }\n  ]\n}"
+}

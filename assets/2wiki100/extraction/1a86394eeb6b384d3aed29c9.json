@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Edelweiss Pirates": "WORK_OF_ART",
+    "Niko von Glasow": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Edelweiss Pirates",
+      "relation": "directed_by",
+      "object": "Niko von Glasow",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 41,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Germany (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Edelweiss Pirates",
+        "located_in",
+        "Germany"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Edelweiss Pirates (film)\nEdelweiss Pirates  is a 2004 German film directed by Niko von Glasow.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Edelweiss Pirates\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Niko von Glasow\", \"type\": \"PERSON\"},\n    {\"name\": \"Germany\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Edelweiss Pirates\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Niko von Glasow\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Edelweiss Pirates\",\n      \"relation\": \"located_in\",\n      \"object\": \"Germany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"German\"}\n      ]\n    },\n    {\n      \"subject\": \"Edelweiss Pirates\",\n      \"relation\": \"works_for\",\n      \"object\": \"Niko von Glasow\",\n      \"occurrences\": []\n    }\n  ]\n}"
+}

@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Hogan's Heroes": "TV Show",
+    "Bob Crane": "Person",
+    "Colonel Robert E. Hogan": "Person",
+    "Werner Klemperer": "Person",
+    "Colonel Wilhelm Klink": "Person",
+    "John Banner": "Person",
+    "Sergeant Schultz": "Person",
+    "CBS": "Organization",
+    "World War II": "Event",
+    "German prisoner of war camp": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Hogan's Heroes",
+      "relation": "set_in",
+      "object": "German prisoner of war camp",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "set in a German prisoner of war (POW) camp"
+        }
+      ]
+    },
+    {
+      "subject": "Hogan's Heroes",
+      "relation": "aired_on",
+      "object": "CBS",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "on the CBS network"
+        }
+      ]
+    },
+    {
+      "subject": "Bob Crane",
+      "relation": "starred_as",
+      "object": "Colonel Robert E. Hogan",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Bob Crane starred as Colonel Robert E. Hogan"
+        }
+      ]
+    },
+    {
+      "subject": "Werner Klemperer",
+      "relation": "played",
+      "object": "Colonel Wilhelm Klink",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Werner Klemperer played Colonel Wilhelm Klink"
+        }
+      ]
+    },
+    {
+      "subject": "John Banner",
+      "relation": "played",
+      "object": "Sergeant Schultz",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "John Banner played the bungling sergeant-of-the-guard, Sergeant Schultz"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hogan's Heroes",
+        "ran_for",
+        "168 episodes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Colonel Robert E. Hogan",
+        "coordinated",
+        "international crew of Allied prisoners"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Colonel Wilhelm Klink",
+        "is",
+        "incompetent commandant of the camp"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Hogan's Heroes\nHogan's Heroes is an American television sitcom set in a German prisoner of war (POW) camp during World War II. It ran for 168 episodes from September 17, 1965 to April 4, 1971 on the CBS network. Bob Crane starred as Colonel Robert E. Hogan, coordinating an international crew of Allied prisoners running a Special Operations group from the camp. Werner Klemperer played Colonel Wilhelm Klink, the incompetent commandant of the camp, and John Banner played the bungling sergeant-of-the-guard, Sergeant Schultz."
+}

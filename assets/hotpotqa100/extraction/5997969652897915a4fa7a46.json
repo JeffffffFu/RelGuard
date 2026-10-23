@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Siletz Reservation": "FAC",
+    "Lincoln County": "GPE",
+    "Oregon": "GPE",
+    "United States": "GPE",
+    "Confederated Tribes of Siletz": "ORG",
+    "Siletz": "GPE",
+    "Polk County": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Siletz Reservation",
+      "relation": "located_in",
+      "object": "Lincoln County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Lincoln County"
+        }
+      ]
+    },
+    {
+      "subject": "Siletz Reservation",
+      "relation": "owned_by",
+      "object": "Confederated Tribes of Siletz",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "owned by the Confederated Tribes of Siletz"
+        }
+      ]
+    },
+    {
+      "subject": "Siletz",
+      "relation": "located_in",
+      "object": "Lincoln County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "east of the city of Siletz, between it and the Polk County line"
+        }
+      ]
+    },
+    {
+      "subject": "Siletz",
+      "relation": "located_in",
+      "object": "Oregon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "east of the city of Siletz"
+        }
+      ]
+    },
+    {
+      "subject": "Siletz",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "east of the city of Siletz"
+        }
+      ]
+    },
+    {
+      "subject": "Lincoln County",
+      "relation": "borders_with",
+      "object": "Polk County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "between it and the Polk County line"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Siletz Reservation",
+        "located_in",
+        "Oregon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Siletz Reservation",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Siletz Reservation\nThe Siletz Reservation is a 5.852 sq mi (15.157 km²) Indian reservation in Lincoln County, Oregon, United States, owned by the Confederated Tribes of Siletz. The reservation is made up of numerous non-contiguous parcels of land in east-central Lincoln County, mostly east of the city of Siletz, between it and the Polk County line. (The city is located at (44.721812, -123.916316))."
+}

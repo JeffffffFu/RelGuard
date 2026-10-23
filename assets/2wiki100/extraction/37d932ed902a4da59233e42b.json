@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Kadathanaattu Maakkam": "WORK_OF_ART",
+    "Malayalam": "LANGUAGE",
+    "Navodaya Appachan": "PERSON",
+    "Navodaya Studio": "ORG",
+    "Prem Nazir": "PERSON",
+    "Jayan": "PERSON",
+    "Sheela": "PERSON",
+    "Sukumari": "PERSON",
+    "G. Devarajan": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Kadathanaattu Maakkam",
+      "relation": "produced_by",
+      "object": "Navodaya Appachan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 100,
+          "char_start": 122,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "India (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Kadathanaattu Maakkam",
+        "located_in",
+        "India"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kadathanaattu Maakkam",
+        "language",
+        "Malayalam"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kadathanaattu Maakkam",
+        "directed_by",
+        "Navodaya Appachan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Navodaya Appachan",
+        "works_for",
+        "Navodaya Studio"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kadathanaattu Maakkam",
+        "stars",
+        "Prem Nazir"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kadathanaattu Maakkam",
+        "stars",
+        "Jayan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kadathanaattu Maakkam",
+        "stars",
+        "Sheela"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kadathanaattu Maakkam",
+        "stars",
+        "Sukumari"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kadathanaattu Maakkam",
+        "music_by",
+        "G. Devarajan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kadathanaattu Maakkam\nKadathanaattu Maakkam is a 1978 Indian Malayalam-language historical period drama film directed and produced by Navodaya Appachan under Navodaya Studio. The film stars Prem Nazir, Jayan, Sheela and Sukumari in the lead roles. The film has musical score by G. Devarajan.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kadathanaattu Maakkam\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"India\", \"type\": \"GPE\"},\n    {\"name\": \"Malayalam\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Navodaya Appachan\", \"type\": \"PERSON\"},\n    {\"name\": \"Navodaya Studio\", \"type\": \"ORG\"},\n    {\"name\": \"Prem Nazir\", \"type\": \"PERSON\"},\n    {\"name\": \"Jayan\", \"type\": \"PERSON\"},\n    {\"name\": \"Sheela\", \"type\": \"PERSON\"},\n    {\"name\": \"Sukumari\", \"type\": \"PERSON\"},\n    {\"name\": \"G. Devarajan\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kadathanaattu Maakkam\",\n      \"relation\": \"located_in\",\n      \"object\": \"India\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Indian\"}\n      ]\n    },\n    {\n      \"subject\": \"Kadathanaattu Maakkam\",\n      \"relation\": \"language\",\n      \"object\": \"Malayalam\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Malayalam-language\"}\n      ]\n    },\n    {\n      \"subject\": \"Kadathanaattu Maakkam\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Navodaya Appachan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Kadathanaattu Maakkam\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Navodaya Appachan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Navodaya Appachan\",\n      \"relation\": \"works_for\",\n      \"object\": \"Navodaya Studio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"under Navodaya Studio\"}\n      ]\n    },\n    {\n      \"subject\": \"Kadathanaattu Maakkam\",\n      \"relation\": \"stars\",\n      \"object\": \"Prem Nazir\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Kadathanaattu Maakkam\",\n      \"relation\": \"stars\",\n      \"object\": \"Jayan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Kadathanaattu Maakkam\",\n      \"relation\": \"stars\",\n      \"object\": \"Sheela\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Kadathanaattu Maakkam\",\n      \"relation\": \"stars\",\n      \"object\": \"Sukumari\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Kadathanaattu Maakkam\",\n      \"relation\": \"music_by\",\n      \"object\": \"G. Devarajan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"musical score by\"}\n      ]\n    }\n  ]\n}"
+}

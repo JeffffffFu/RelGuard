@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Gino's East": "Restaurant",
+    "Chicago": "City",
+    "deep-dish pizza": "Food",
+    "graffiti and etchings": "Decoration",
+    "cast-iron pans": "Cookware",
+    "sandwiches": "Food",
+    "soups": "Food",
+    "salads": "Food"
+  },
+  "triples": [
+    {
+      "subject": "Gino's East",
+      "relation": "located_in",
+      "object": "Chicago",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Gino's East is a Chicago-based restaurant chain"
+        }
+      ]
+    },
+    {
+      "subject": "Gino's East",
+      "relation": "notable_for",
+      "object": "deep-dish pizza",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "notable for its deep-dish pizza"
+        }
+      ]
+    },
+    {
+      "subject": "Gino's East",
+      "relation": "features",
+      "object": "deep-dish pizza",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The restaurant features deep-dish pizza"
+        }
+      ]
+    },
+    {
+      "subject": "Gino's East",
+      "relation": "features",
+      "object": "sandwiches",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "as well as sandwiches"
+        }
+      ]
+    },
+    {
+      "subject": "Gino's East",
+      "relation": "covered_in",
+      "object": "graffiti and etchings",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which patrons have covered in graffiti and etchings"
+        }
+      ]
+    },
+    {
+      "subject": "deep-dish pizza",
+      "relation": "baked_in",
+      "object": "cast-iron pans",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "deep-dish pizza baked in cast-iron pans"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gino's East",
+        "features",
+        "soups"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Gino's East",
+        "features",
+        "salads"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Gino's East\nGino's East is a Chicago-based restaurant chain, notable for its deep-dish pizza (sometimes called Chicago-style pizza), and for its interior walls, which patrons have covered in graffiti and etchings. The restaurant features deep-dish pizza baked in cast-iron pans, as well as sandwiches, soups and salads."
+}

@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "The Late Late Show": "TV series",
+    "Raidió Teilifís Éireann": "broadcaster",
+    "Ireland": "country",
+    "The Tonight Show": "TV series"
+  },
+  "triples": [
+    {
+      "subject": "The Late Late Show",
+      "relation": "is_flagship_programme_of",
+      "object": "Raidió Teilifís Éireann",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the official flagship television programme of Ireland's public service broadcaster Raidió Teilifís Éireann (RTÉ)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Late Late Show",
+        "shortened_to",
+        "The Late Late"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Late Late Show",
+        "is_a",
+        "Irish chat show"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Late Late Show",
+        "is_longest_running_after",
+        "The Tonight Show"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Late Late Show",
+        "is_regarded_as",
+        "Irish television institution"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Late Late Show",
+        "is_broadcast_live_on",
+        "Friday nights"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Late Late Show",
+        "is_broadcast_between",
+        "September and May"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Late Late Show",
+        "is_broadcast_at",
+        "21.30"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Late Late Show (Irish TV series)\nThe Late Late Show, with its title often shortened to The Late Late, is an Irish chat show. It is the world's second longest-running late-night talk show, after the American \"The Tonight Show\". Perceived as the official flagship television programme of Ireland's public service broadcaster Raidió Teilifís Éireann (RTÉ), it is regarded as an Irish television institution (even abroad) and is broadcast live across two hours plus in front of a studio audience on Friday nights between September and May at 21.30."
+}

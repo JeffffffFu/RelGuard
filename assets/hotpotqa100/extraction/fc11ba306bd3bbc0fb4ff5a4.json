@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Royal Monceau Raffles Paris": "ORG",
+    "Le Royal Monceau Raffles Paris": "ORG",
+    "Philippe Starck": "PERSON",
+    "Il Carpaccio": "WORK_OF_ART",
+    "Le Bar Long": "WORK_OF_ART",
+    "Nobu Matsuhisa": "PERSON",
+    "Matsuhisa": "WORK_OF_ART",
+    "Paris": "GPE",
+    "France": "GPE",
+    "Italian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Le Royal Monceau Raffles Paris",
+      "relation": "located_in",
+      "object": "Paris",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at",
+          "line_start": 53,
+          "char_start": 81,
+          "ambiguous": false,
+          "relation_mention": "located at",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Le Royal Monceau Raffles Paris",
+      "relation": "located_in",
+      "object": "France",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at",
+          "line_start": 53,
+          "char_start": 81,
+          "ambiguous": false,
+          "relation_mention": "located at",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Le Royal Monceau Raffles Paris",
+      "relation": "refurbished_by",
+      "object": "Philippe Starck",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "refurbished by",
+          "line_start": 203,
+          "char_start": 231,
+          "ambiguous": false,
+          "relation_mention": "refurbished by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Le Royal Monceau Raffles Paris",
+      "relation": "partnered_with",
+      "object": "Nobu Matsuhisa",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "partnered and opened",
+          "line_start": 494,
+          "char_start": 522,
+          "ambiguous": false,
+          "relation_mention": "partnered and opened",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Nobu Matsuhisa",
+      "relation": "opened",
+      "object": "Matsuhisa",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "partnered and opened",
+          "line_start": 494,
+          "char_start": 522,
+          "ambiguous": false,
+          "relation_mention": "partnered and opened",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Il Carpaccio",
+        "serves_cuisine",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Le Bar Long",
+        "serves_cuisine",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Royal Monceau Raffles Paris\nThe Le Royal Monceau Raffles Paris is a luxury hotel located at 37 avenue Hoche, 8th arrondissement, Paris, France. The hotel has 149 rooms with 61 suites and 3 luxury apartments that have been recently refurbished by the designer Philippe Starck. One of its restaurants has a Michelin star : \"Il Carpaccio\" serves Italian cuisine for lunch and dinner only and \"Le Bar Long\" serves lighter dishes all day from 8am to 2am with also a full bar available. Chef Nobu Matsuhisa and le Royal Monceau partnered and opened a Japanese restaurant, \"Matsuhisa\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Royal Monceau Raffles Paris\", \"type\": \"ORG\"},\n    {\"name\": \"Le Royal Monceau Raffles Paris\", \"type\": \"ORG\"},\n    {\"name\": \"Philippe Starck\", \"type\": \"PERSON\"},\n    {\"name\": \"Il Carpaccio\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Le Bar Long\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Nobu Matsuhisa\", \"type\": \"PERSON\"},\n    {\"name\": \"Matsuhisa\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Paris\", \"type\": \"GPE\"},\n    {\"name\": \"France\", \"type\": \"GPE\"},\n    {\"name\": \"Italian\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Le Royal Monceau Raffles Paris\",\n      \"relation\": \"located_in\",\n      \"object\": \"Paris\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located at\"}\n      ]\n    },\n    {\n      \"subject\": \"Le Royal Monceau Raffles Paris\",\n      \"relation\": \"located_in\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located at\"}\n      ]\n    },\n    {\n      \"subject\": \"Le Royal Monceau Raffles Paris\",\n      \"relation\": \"refurbished_by\",\n      \"object\": \"Philippe Starck\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"refurbished by\"}\n      ]\n    },\n    {\n      \"subject\": \"Il Carpaccio\",\n      \"relation\": \"serves_cuisine\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves Italian cuisine\"}\n      ]\n    },\n    {\n      \"subject\": \"Le Bar Long\",\n      \"relation\": \"serves_cuisine\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves lighter dishes\"}\n      ]\n    },\n    {\n      \"subject\": \"Le Royal Monceau Raffles Paris\",\n      \"relation\": \"partnered_with\",\n      \"object\": \"Nobu Matsuhisa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"partnered and opened\"}\n      ]\n    },\n    {\n      \"subject\": \"Nobu Matsuhisa\",\n      \"relation\": \"opened\",\n      \"object\": \"Matsuhisa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"partnered and opened\"}\n      ]\n    }\n  ]\n}"
+}

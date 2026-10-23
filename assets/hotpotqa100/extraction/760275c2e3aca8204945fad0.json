@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "Adlai E. Stevenson II": "Person",
+    "Los Angeles Historic-Cultural Monument": "Monument",
+    "West Adams": "Neighborhood",
+    "Los Angeles": "City",
+    "California": "State",
+    "C.W. Wedgewood": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Adlai E. Stevenson II",
+      "relation": "born_in",
+      "object": "Los Angeles Historic-Cultural Monument",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was born there"
+        }
+      ]
+    },
+    {
+      "subject": "Los Angeles Historic-Cultural Monument",
+      "relation": "located_in",
+      "object": "West Adams",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the West Adams neighborhood of Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "Los Angeles Historic-Cultural Monument",
+      "relation": "located_in",
+      "object": "Los Angeles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the West Adams neighborhood of Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "C.W. Wedgewood",
+      "relation": "designed",
+      "object": "Los Angeles Historic-Cultural Monument",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The house was designed by C.W. Wedgewood"
+        }
+      ]
+    },
+    {
+      "subject": "Los Angeles Historic-Cultural Monument",
+      "relation": "built_by",
+      "object": "C.W. Wedgewood",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and built in approximately 1894"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Los Angeles Historic-Cultural Monument",
+        "located_in",
+        "California"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Adlai E. Stevenson II",
+        "died_in",
+        "1965"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Los Angeles Historic-Cultural Monument",
+        "declared",
+        "Historic-Cultural Monument"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Birthplace of Adlai E. Stevenson II\nBirthplace of Adlai E. Stevenson II is a Los Angeles Historic-Cultural Monument (No. 35) in the West Adams neighborhood of Los Angeles, California. The site was the birthplace of two-time US Presidential candidate Adlai E. Stevenson II, who was born there on February 5, 1900. The house was designed by C.W. Wedgewood and built in approximately 1894. When Stevenson died in 1965, the site was declared a Historic-Cultural Monument."
+}

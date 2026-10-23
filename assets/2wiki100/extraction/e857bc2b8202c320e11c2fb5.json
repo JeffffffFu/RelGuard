@@ -1,0 +1,229 @@
+{
+  "entities": {
+    "John I of Namur": "PERSON",
+    "Namur": "GPE",
+    "House of Dampierre": "ORG",
+    "Guy of Dampierre": "PERSON",
+    "Isabelle of Luxembourg": "PERSON",
+    "Blanche of Namur": "PERSON",
+    "Sweden": "GPE",
+    "Norway": "GPE",
+    "Guy of Namur": "PERSON",
+    "Flemish rebels": "NORP",
+    "French Kingdom": "GPE",
+    "Battle of the Golden Spurs": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "John I of Namur",
+      "relation": "ruled",
+      "object": "Namur",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was the ruler of",
+          "line_start": 41,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "was the ruler of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "John I of Namur",
+      "relation": "member_of",
+      "object": "House of Dampierre",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was a member of",
+          "line_start": 86,
+          "char_start": 111,
+          "ambiguous": false,
+          "relation_mention": "was a member of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "John I of Namur",
+      "relation": "son_of",
+      "object": "Guy of Dampierre",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the son of",
+          "line_start": 126,
+          "char_start": 151,
+          "ambiguous": false,
+          "relation_mention": "the son of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Guy of Dampierre",
+      "relation": "marquis_of",
+      "object": "Namur",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Marquis of",
+          "line_start": 177,
+          "char_start": 202,
+          "ambiguous": false,
+          "relation_mention": "Marquis of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "John I of Namur",
+      "relation": "son_of",
+      "object": "Isabelle of Luxembourg",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and his second wife",
+          "line_start": 195,
+          "char_start": 220,
+          "ambiguous": false,
+          "relation_mention": "and his second wife",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "John I of Namur",
+      "relation": "father_of",
+      "object": "Blanche of Namur",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was the father of",
+          "line_start": 244,
+          "char_start": 269,
+          "ambiguous": false,
+          "relation_mention": "was the father of",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Blanche of Namur",
+      "relation": "queen_of",
+      "object": "Sweden",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Queen of",
+          "line_start": 280,
+          "char_start": 305,
+          "ambiguous": false,
+          "relation_mention": "Queen of",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Blanche of Namur",
+      "relation": "queen_of",
+      "object": "Norway",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Queen of",
+          "line_start": 280,
+          "char_start": 305,
+          "ambiguous": false,
+          "relation_mention": "Queen of",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "John I of Namur",
+      "relation": "brother_of",
+      "object": "Guy of Namur",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "elder brother of",
+          "line_start": 319,
+          "char_start": 344,
+          "ambiguous": false,
+          "relation_mention": "elder brother of",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "John I of Namur",
+      "relation": "sent_to_command",
+      "object": "Guy of Namur",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "sent to command",
+          "line_start": 358,
+          "char_start": 383,
+          "ambiguous": false,
+          "relation_mention": "sent to command",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Guy of Namur",
+      "relation": "commanded",
+      "object": "Flemish rebels",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to command the Flemish rebels",
+          "line_start": 363,
+          "char_start": 388,
+          "ambiguous": false,
+          "relation_mention": "to command the Flemish rebels",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Flemish rebels",
+      "relation": "against",
+      "object": "French Kingdom",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "against the French Kingdom",
+          "line_start": 393,
+          "char_start": 418,
+          "ambiguous": false,
+          "relation_mention": "against the French Kingdom",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Guy of Dampierre",
+        "count_of",
+        "Flanders"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Battle of the Golden Spurs",
+        "occurred_in",
+        "1302"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John I, Marquis of Namur\nJohn I of Namur (1267 – 31 January 1330) was the ruler of Namur from 1305 to 1330. He was a member of the House of Dampierre, the son of Guy of Dampierre, Count of Flanders and Marquis of Namur, and his second wife Isabelle of Luxembourg. John was the father of Blanche of Namur, Queen of Sweden and Norway. He was the elder brother of Guy of Namur, whom he sent to command the Flemish rebels against the French Kingdom in the 1302 Battle of the Golden Spurs."
+}

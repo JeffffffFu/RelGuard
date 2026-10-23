@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Coco Ho": "PERSON",
+    "Coco Malia Camille Hapaikekoa Ho": "PERSON",
+    "Honolulu": "GPE",
+    "Hawaii": "GPE",
+    "Surfer magazine": "ORG",
+    "Surfer Poll": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Coco Malia Camille Hapaikekoa Ho",
+      "relation": "born_in",
+      "object": "Honolulu",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 89,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Coco Malia Camille Hapaikekoa Ho",
+      "relation": "born_in",
+      "object": "Hawaii",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 89,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Coco Malia Camille Hapaikekoa Ho",
+        "has_won",
+        "Surfer Poll"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coco Malia Camille Hapaikekoa Ho",
+        "mentioned_in",
+        "Surfer magazine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coco Malia Camille Hapaikekoa Ho",
+        "has_awards",
+        "Surfer Poll"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coco Malia Camille Hapaikekoa Ho",
+        "also_known_as",
+        "Coco Ho"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Coco Ho\nCoco Malia Camille Hapaikekoa Ho (born April 28, 1991) is a professional Hawaiian surfer born in Honolulu, Hawaii. She began surfing at 7 years old, following in the footsteps of her family. Today, Coco has won over 25 surfing awards and has been voted a top three fan favorite in Surfer magazine’s Surfer Poll.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Coco Ho\", \"type\": \"PERSON\"},\n    {\"name\": \"Coco Malia Camille Hapaikekoa Ho\", \"type\": \"PERSON\"},\n    {\"name\": \"Honolulu\", \"type\": \"GPE\"},\n    {\"name\": \"Hawaii\", \"type\": \"GPE\"},\n    {\"name\": \"Surfer magazine\", \"type\": \"ORG\"},\n    {\"name\": \"Surfer Poll\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Coco Malia Camille Hapaikekoa Ho\",\n      \"relation\": \"born_in\",\n      \"object\": \"Honolulu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Coco Malia Camille Hapaikekoa Ho\",\n      \"relation\": \"born_in\",\n      \"object\": \"Hawaii\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Coco Malia Camille Hapaikekoa Ho\",\n      \"relation\": \"has_won\",\n      \"object\": \"Surfer Poll\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"voted a top three fan favorite in\"}\n      ]\n    },\n    {\n      \"subject\": \"Coco Malia Camille Hapaikekoa Ho\",\n      \"relation\": \"mentioned_in\",\n      \"object\": \"Surfer magazine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Surfer magazine\\u2019s Surfer Poll\"}\n      ]\n    },\n    {\n      \"subject\": \"Coco Malia Camille Hapaikekoa Ho\",\n      \"relation\": \"has_awards\",\n      \"object\": \"Surfer Poll\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"voted a top three fan favorite in\"}\n      ]\n    },\n    {\n      \"subject\": \"Coco Malia Camille Hapaikekoa Ho\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Coco Ho\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Coco Ho\"}\n      ]\n    }\n  ]\n}"
+}

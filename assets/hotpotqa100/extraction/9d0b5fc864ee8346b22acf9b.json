@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Marie Bonfanti": "PERSON",
+    "New York City": "GPE",
+    "Niblo's Garden": "FAC",
+    "The Black Crook": "WORK_OF_ART",
+    "Sylvia": "WORK_OF_ART",
+    "Léo Delibes": "PERSON",
+    "Metropolitan Alcazar": "FAC",
+    "Rita Sangalli": "PERSON",
+    "Metropolitan Opera House": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Marie Bonfanti",
+      "relation": "premiered_at",
+      "object": "Niblo's Garden",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "whose New York City première came at Niblo's Garden"
+        }
+      ]
+    },
+    {
+      "subject": "Léo Delibes",
+      "relation": "wrote",
+      "object": "Sylvia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "by Léo Delibes"
+        }
+      ]
+    },
+    {
+      "subject": "Marie Bonfanti",
+      "relation": "performed_with",
+      "object": "Rita Sangalli",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Bonfanti performed with Rita Sangalli"
+        }
+      ]
+    },
+    {
+      "subject": "Marie Bonfanti",
+      "relation": "performed_at",
+      "object": "Metropolitan Opera House",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "performed with Rita Sangalli at the Metropolitan Opera House"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Black Crook",
+        "performed_by",
+        "Marie Bonfanti"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Marie Bonfanti",
+        "appeared_in",
+        "Sylvia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Marie Bonfanti\nMarie Bonfanti (1845-1921) was a 19th-century ballet dancer whose New York City première came at Niblo's Garden on Monday, September 10, 1866. She then was the prima ballerina in \"The Black Crook\" at the same theatre, which premièred two days later. She appeared in \"Sylvia\" by Léo Delibes at the Metropolitan Alcazar concert hall on July 15, 1882. In August 1901, Bonfanti performed with Rita Sangalli at the Metropolitan Opera House, during the inaugural season of ballet at the New York City venue. Her talent for expressionist dancing and her private life were covered widely from the mid-1860s until the early 20th century."
+}

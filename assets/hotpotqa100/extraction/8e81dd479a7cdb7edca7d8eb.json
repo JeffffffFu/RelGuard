@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Cinema of Korea": "concept",
+    "North Korea": "country",
+    "South Korea": "country",
+    "Korean War": "event",
+    "Joseon dynasty": "historical_period"
+  },
+  "triples": [
+    {
+      "subject": "Cinema of Korea",
+      "relation": "encompasses",
+      "object": "North Korea",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The term \"Cinema of Korea\" (or \"Korean cinema\") encompasses the motion picture industries of North and South Korea."
+        }
+      ]
+    },
+    {
+      "subject": "Cinema of Korea",
+      "relation": "encompasses",
+      "object": "South Korea",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The term \"Cinema of Korea\" (or \"Korean cinema\") encompasses the motion picture industries of North and South Korea."
+        }
+      ]
+    },
+    {
+      "subject": "Korean War",
+      "relation": "is_related_to",
+      "object": "Cinema of Korea",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the film industry has often been at the mercy of political events, from the late Joseon dynasty to the Korean War to domestic governmental interference."
+        }
+      ]
+    },
+    {
+      "subject": "Joseon dynasty",
+      "relation": "is_related_to",
+      "object": "Cinema of Korea",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the film industry has often been at the mercy of political events, from the late Joseon dynasty to the Korean War to domestic governmental interference."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "South Korea",
+        "has_film_industry",
+        "international_acclaim"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "North Korea",
+        "portrays",
+        "communist_themes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "North Korea",
+        "portrays",
+        "revolutionary_themes"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Cinema of Korea\nThe term \"Cinema of Korea\" (or \"Korean cinema\") encompasses the motion picture industries of North and South Korea. As with all aspects of Korean life during the past century, the film industry has often been at the mercy of political events, from the late Joseon dynasty to the Korean War to domestic governmental interference. While both countries have relatively robust film industries today, only South Korean films have achieved wide international acclaim. North Korean films tend to portray their communist or revolutionary themes."
+}

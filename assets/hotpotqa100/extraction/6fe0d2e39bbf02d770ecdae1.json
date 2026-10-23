@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Down in New Orleans": "song",
+    "Disney's The Princess and the Frog": "film",
+    "Randy Newman": "person",
+    "The Weary Kind": "song",
+    "Crazy Heart": "film",
+    "82nd Academy Awards": "event"
+  },
+  "triples": [
+    {
+      "subject": "Down in New Orleans",
+      "relation": "written_by",
+      "object": "Randy Newman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Randy Newman"
+        }
+      ]
+    },
+    {
+      "subject": "The Weary Kind",
+      "relation": "from",
+      "object": "Crazy Heart",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "lost to \"The Weary Kind\" from \"Crazy Heart\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Down in New Orleans",
+        "is_a",
+        "song"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Down in New Orleans",
+        "nominated_for",
+        "Best Original Song"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Best Original Song",
+        "at",
+        "82nd Academy Awards"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Disney's The Princess and the Frog",
+        "released_in",
+        "2009"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Down in New Orleans (song)\n\"Down in New Orleans\" is a jazz song from Disney's 2009 animated film \"The Princess and the Frog\", written by Randy Newman. Several versions of the song were recorded for use in different parts of the film and other materials. The song was nominated for Best Original Song at the 82nd Academy Awards but lost to \"The Weary Kind\" from \"Crazy Heart\"."
+}

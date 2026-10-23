@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Deepak Sareen": "PERSON",
+    "Bollywood": "NORP",
+    "Ranbhoomi": "WORK_OF_ART",
+    "Albela": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Deepak Sareen",
+        "works_as",
+        "Bollywood"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Deepak Sareen",
+        "directed",
+        "Ranbhoomi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Deepak Sareen",
+        "directed",
+        "Albela"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Deepak Sareen\nDeepak Sareen is a Bollywood film director and assistant director. His first film as director was\" Ranbhoomi\" and last film as director was\" Albela\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Deepak Sareen\", \"type\": \"PERSON\"},\n    {\"name\": \"Bollywood\", \"type\": \"NORP\"},\n    {\"name\": \"Ranbhoomi\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Albela\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Deepak Sareen\",\n      \"relation\": \"works_as\",\n      \"object\": \"Bollywood\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a Bollywood film director\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Deepak Sareen\",\n      \"relation\": \"directed\",\n      \"object\": \"Ranbhoomi\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was\\\" Ranbhoomi\\\"\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Deepak Sareen\",\n      \"relation\": \"directed\",\n      \"object\": \"Albela\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was\\\" Albela\\\"\"\n        }\n      ]\n    }\n  ]\n}"
+}

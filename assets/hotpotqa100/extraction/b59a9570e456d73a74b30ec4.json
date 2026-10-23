@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "Cerro Gordo County Courthouse": "Location",
+    "Mason City": "Location",
+    "Iowa": "Location",
+    "Livonia": "Location",
+    "Iowa legislature": "Organization",
+    "Standard Oil Building": "Location",
+    "county": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Cerro Gordo County Courthouse",
+      "relation": "located_in",
+      "object": "Mason City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Cerro Gordo County Courthouse is located in Mason City, Iowa, United States."
+        }
+      ]
+    },
+    {
+      "subject": "Standard Oil Building",
+      "relation": "acquired_by",
+      "object": "county",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "It had been built as the Standard Oil Building, and was acquired by the county in 1959 for $159,400"
+        }
+      ]
+    },
+    {
+      "subject": "county",
+      "relation": "remodeled",
+      "object": "Standard Oil Building",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "and then remodeled for their use."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Cerro Gordo County",
+        "created_in",
+        "1855"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mason City",
+        "selected_as_county_seat_of",
+        "Cerro Gordo County"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Iowa legislature",
+        "appointed",
+        "three new commissioners"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "three new commissioners",
+        "moved_county_seat_to",
+        "Livonia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "citizens of the county",
+        "requested_move_back_to",
+        "Mason City"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mason City",
+        "won_election_in",
+        "1858"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "courthouses",
+        "stood_in",
+        "Mason City"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Cerro Gordo County Courthouse (Iowa)\nThe Cerro Gordo County Courthouse is located in Mason City, Iowa, United States. When Cerro Gordo County was created in 1855 and Mason City was selected to be the county seat. Dissatisfaction in the western part of the county led the Iowa legislature to appoint three new commissioners who would move the county seat to Livonia. A courthouse was built there. A petition signed by over half of the citizens of the county requested that the county seat be moved back to Mason City. Mason City also won the election in 1858 to decide the matter 155-48. Two courthouses have stood in Mason City prior to the present Modernist structure that was occupied by the county in 1960. It had been built as the Standard Oil Building, and was acquired by the county in 1959 for $159,400 and then remodeled for their use."
+}

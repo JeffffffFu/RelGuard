@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "John McMahon": "PERSON",
+    "Surrey": "GPE",
+    "Somerset": "GPE",
+    "England": "GPE",
+    "John William Joseph McMahon": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "John McMahon",
+        "same_as",
+        "John William Joseph McMahon"
+      ],
+      "why": "2 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John William Joseph McMahon",
+        "born_in_country",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John William Joseph McMahon",
+        "played_for",
+        "Surrey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John William Joseph McMahon",
+        "played_for",
+        "Somerset"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Surrey",
+        "located_in",
+        "England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Somerset",
+        "located_in",
+        "England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "John McMahon (Surrey and Somerset cricketer)\nJohn William Joseph McMahon( 28 December 1917 – 8 May 2001) was an Australian- born first- class cricketer who played for Surrey and Somerset in England from 1947 to 1957.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"John McMahon\", \"type\": \"PERSON\"},\n    {\"name\": \"Surrey\", \"type\": \"GPE\"},\n    {\"name\": \"Somerset\", \"type\": \"GPE\"},\n    {\"name\": \"England\", \"type\": \"GPE\"},\n    {\"name\": \"John William Joseph McMahon\", \"type\": \"PERSON\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"John McMahon\",\n      \"relation\": \"same_as\",\n      \"object\": \"John William Joseph McMahon\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"(Surrey and Somerset cricketer)\"},\n        {\"line\": 2, \"predicate\": \"John William Joseph McMahon( 28 December 1917 – 8 May 2001) was an Australian- born first- class cricketer\"}\n      ]\n    },\n    {\n      \"subject\": \"John William Joseph McMahon\",\n      \"relation\": \"born_in_country\",\n      \"object\": \"Australia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an Australian- born\"}\n      ]\n    },\n    {\n      \"subject\": \"John William Joseph McMahon\",\n      \"relation\": \"played_for\",\n      \"object\": \"Surrey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played for Surrey\"}\n      ]\n    },\n    {\n      \"subject\": \"John William Joseph McMahon\",\n      \"relation\": \"played_for\",\n      \"object\": \"Somerset\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Somerset\"}\n      ]\n    },\n    {\n      \"subject\": \"Surrey\",\n      \"relation\": \"located_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in England\"}\n      ]\n    },\n    {\n      \"subject\": \"Somerset\",\n      \"relation\": \"located_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in England\"}\n      ]\n    }\n  ]\n}"
+}

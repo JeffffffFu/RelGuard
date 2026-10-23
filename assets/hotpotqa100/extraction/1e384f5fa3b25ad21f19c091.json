@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "Don Rittner": "PERSON",
+    "Capital District": "LOC",
+    "Schenectady County": "GPE",
+    "New York": "GPE",
+    "Schenectady County Historian": "ORG",
+    "State Historian": "ORG",
+    "Albany": "GPE",
+    "Schenectady City Historian": "ORG",
+    "Albany City Archeologist": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Don Rittner",
+      "relation": "lives_in",
+      "object": "Capital District",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "living in the Capital District"
+        }
+      ]
+    },
+    {
+      "subject": "Don Rittner",
+      "relation": "was_formerly",
+      "object": "Schenectady County Historian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the former Schenectady County Historian"
+        }
+      ]
+    },
+    {
+      "subject": "Don Rittner",
+      "relation": "was_formerly",
+      "object": "Schenectady City Historian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the former Schenectady City Historian"
+        }
+      ]
+    },
+    {
+      "subject": "Don Rittner",
+      "relation": "was_formerly",
+      "object": "Albany City Archeologist",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the Albany City Archeologist"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Schenectady County Historian",
+        "provides_guidance_to",
+        "municipal historians"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Schenectady County Historian",
+        "serves_as",
+        "conduit"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Don Rittner",
+        "authored",
+        "books"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "books",
+        "collected_by",
+        "libraries"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Don Rittner\nDon Rittner is an American historian, archeologist, environmental activist, educator, and author living in the Capital District, Schenectady County, New York. He is the former Schenectady County Historian, responsible for providing guidance and support to municipal historians and serving as a conduit between the State Historian in Albany and the local historians in their counties. He is also the former Schenectady City Historian and was the Albany City Archeologist (1973-79). He is the author of more than 35 books on history, natural history, computers, and other subjects, and has been collected by libraries worldwide."
+}

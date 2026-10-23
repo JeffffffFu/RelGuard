@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Romance of the Three Kingdoms": "animated television series",
+    "Beijing Huihuang Animation Company": "company",
+    "Future Planet": "company",
+    "Japan": "country",
+    "China": "country"
+  },
+  "triples": [
+    {
+      "subject": "Romance of the Three Kingdoms",
+      "relation": "produced_by",
+      "object": "Beijing Huihuang Animation Company",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "joint produced by the Beijing Huihuang Animation Company of China"
+        }
+      ]
+    },
+    {
+      "subject": "Romance of the Three Kingdoms",
+      "relation": "broadcast_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It was broadcast in Japan starting April 2010"
+        }
+      ]
+    },
+    {
+      "subject": "Beijing Huihuang Animation Company",
+      "relation": "located_in",
+      "object": "China",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of China"
+        }
+      ]
+    },
+    {
+      "subject": "Future Planet",
+      "relation": "located_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of Japan"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Romance of the Three Kingdoms",
+        "produced_by",
+        "Future Planet"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Romance of the Three Kingdoms (2009 animation)\nRomance of the Three Kingdoms is a 2009 animated television series joint produced by the Beijing Huihuang Animation Company of China and Future Planet of Japan. It was broadcast in Japan starting April 2010."
+}

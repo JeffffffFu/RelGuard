@@ -1,0 +1,39 @@
+{
+  "entities": {
+    "Nicholas Barnewall": "Person",
+    "1st Viscount Barnewall": "Title",
+    "Ireland": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Nicholas Barnewall",
+      "relation": "held_title",
+      "object": "1st Viscount Barnewall",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Nicholas Barnewall, 1st Viscount Barnewall"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nicholas Barnewall",
+        "was",
+        "Irish landowner and politician"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nicholas Barnewall",
+        "was_born_in",
+        "Ireland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Nicholas Barnewall, 1st Viscount Barnewall\nNicholas Barnewall, 1st Viscount Barnewall (1592 – 20 August 1663), was an Irish landowner and politician."
+}

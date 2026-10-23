@@ -1,0 +1,124 @@
+{
+  "entities": {
+    "Piola": "FAC",
+    "Line 2": "PRODUCT",
+    "Milan Metro": "ORG",
+    "Via Giovanni Pacini": "FAC",
+    "Via Antonio Bazzini": "FAC",
+    "Piazzale Gabrio Piola": "FAC",
+    "Lambrate": "GPE",
+    "Città Studi": "LOC",
+    "Politecnico di Milano": "ORG",
+    "Milan University": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Piola",
+      "relation": "located_in",
+      "object": "Via Giovanni Pacini",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located on the corner between",
+          "line_start": 64,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "located on the corner between",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Piola",
+      "relation": "located_in",
+      "object": "Via Antonio Bazzini",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located on the corner between",
+          "line_start": 64,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "located on the corner between",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Città Studi",
+      "relation": "comprising",
+      "object": "Politecnico di Milano",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "comprising",
+          "line_start": 300,
+          "char_start": 320,
+          "ambiguous": false,
+          "relation_mention": "comprising",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Città Studi",
+      "relation": "comprising",
+      "object": "Milan University",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "comprising",
+          "line_start": 300,
+          "char_start": 320,
+          "ambiguous": false,
+          "relation_mention": "comprising",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Piola",
+        "works_for",
+        "Line 2"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Line 2",
+        "part_of",
+        "Milan Metro"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Piola",
+        "located_in",
+        "Piazzale Gabrio Piola"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Piola",
+        "serves",
+        "Lambrate"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Piola",
+        "serves",
+        "Città Studi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Piola (Milan Metro)\nPiola is a station on Line 2 of the Milan Metro. The station is located on the corner between Via Giovanni Pacini and Via Antonio Bazzini, just east of the Piazzale Gabrio Piola. The station serves Lambrate neighborhood and the district called \"Città Studi\" (study city), a big urban university area comprising Politecnico di Milano and the Milan University campuses.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Piola\", \"type\": \"FAC\"},\n    {\"name\": \"Line 2\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Milan Metro\", \"type\": \"ORG\"},\n    {\"name\": \"Via Giovanni Pacini\", \"type\": \"FAC\"},\n    {\"name\": \"Via Antonio Bazzini\", \"type\": \"FAC\"},\n    {\"name\": \"Piazzale Gabrio Piola\", \"type\": \"FAC\"},\n    {\"name\": \"Lambrate\", \"type\": \"GPE\"},\n    {\"name\": \"Città Studi\", \"type\": \"LOC\"},\n    {\"name\": \"Politecnico di Milano\", \"type\": \"ORG\"},\n    {\"name\": \"Milan University\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Piola\",\n      \"relation\": \"works_for\",\n      \"object\": \"Line 2\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a station on\"}\n      ]\n    },\n    {\n      \"subject\": \"Line 2\",\n      \"relation\": \"part_of\",\n      \"object\": \"Milan Metro\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the Milan Metro\"}\n      ]\n    },\n    {\n      \"subject\": \"Piola\",\n      \"relation\": \"located_in\",\n      \"object\": \"Via Giovanni Pacini\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located on the corner between\"}\n      ]\n    },\n    {\n      \"subject\": \"Piola\",\n      \"relation\": \"located_in\",\n      \"object\": \"Via Antonio Bazzini\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located on the corner between\"}\n      ]\n    },\n    {\n      \"subject\": \"Piola\",\n      \"relation\": \"located_in\",\n      \"object\": \"Piazzale Gabrio Piola\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"just east of\"}\n      ]\n    },\n    {\n      \"subject\": \"Piola\",\n      \"relation\": \"serves\",\n      \"object\": \"Lambrate\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves\"}\n      ]\n    },\n    {\n      \"subject\": \"Piola\",\n      \"relation\": \"serves\",\n      \"object\": \"Città Studi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves\"}\n      ]\n    },\n    {\n      \"subject\": \"Città Studi\",\n      \"relation\": \"comprising\",\n      \"object\": \"Politecnico di Milano\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"comprising\"}\n      ]\n    },\n    {\n      \"subject\": \"Città Studi\",\n      \"relation\": \"comprising\",\n      \"object\": \"Milan University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"comprising\"}\n      ]\n    }\n  ]\n}"
+}

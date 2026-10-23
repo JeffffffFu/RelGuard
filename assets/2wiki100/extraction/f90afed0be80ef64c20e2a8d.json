@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Greg A. Hill": "PERSON",
+    "First Nations": "NORP",
+    "Kanyen'kehaka": "NORP",
+    "Six Nations of the Grand River Territory": "GPE",
+    "Ontario": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Greg A. Hill",
+      "relation": "belongs_to",
+      "object": "First Nations",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a Canadian- born First Nations artist and curator."
+        }
+      ]
+    },
+    {
+      "subject": "Greg A. Hill",
+      "relation": "from",
+      "object": "Six Nations of the Grand River Territory",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He is Kanyen'kehaka, from Six Nations of the Grand River Territory, Ontario."
+        }
+      ]
+    },
+    {
+      "subject": "Greg A. Hill",
+      "relation": "belongs_to",
+      "object": "Kanyen'kehaka",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He is Kanyen'kehaka, from Six Nations of the Grand River Territory, Ontario."
+        }
+      ]
+    },
+    {
+      "subject": "Six Nations of the Grand River Territory",
+      "relation": "located_in",
+      "object": "Ontario",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Six Nations of the Grand River Territory, Ontario."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Greg A. Hill",
+        "born_in",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Greg A. Hill (artist)\nGreg A. Hill is a Canadian- born First Nations artist and curator. He is Kanyen'kehaka, from Six Nations of the Grand River Territory, Ontario."
+}

@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Papa Gino's": "ORG",
+    "Papa Gino's, Inc.": "ORG",
+    "Dedham": "GPE",
+    "Massachusetts": "GPE",
+    "Connecticut": "GPE",
+    "Maine": "GPE",
+    "New Hampshire": "GPE",
+    "Rhode Island": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Papa Gino's, Inc.",
+      "relation": "located_in",
+      "object": "Dedham",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 40,
+          "char_start": 52,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Papa Gino's, Inc.",
+      "relation": "located_in",
+      "object": "Massachusetts",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 40,
+          "char_start": 52,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Papa Gino's",
+        "located_in",
+        "Connecticut"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Papa Gino's",
+        "located_in",
+        "Maine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Papa Gino's",
+        "located_in",
+        "Massachusetts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Papa Gino's",
+        "located_in",
+        "New Hampshire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Papa Gino's",
+        "located_in",
+        "Rhode Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Papa Gino's\nPapa Gino's, Inc. is a restaurant chain based in Dedham, Massachusetts specializing in American-style pizza along with pasta, subs, salads, and a variety of appetizers. There are over 150 Papa Gino's locations in Connecticut, Maine, Massachusetts, New Hampshire, and Rhode Island."
+}

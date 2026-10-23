@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Hacker": "card game",
+    "Steve Jackson Games": "company",
+    "SJG": "company",
+    "Illuminati": "card game"
+  },
+  "triples": [
+    {
+      "subject": "Hacker",
+      "relation": "made_by",
+      "object": "Steve Jackson Games",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "made by Steve Jackson Games (SJG)"
+        }
+      ]
+    },
+    {
+      "subject": "SJG",
+      "relation": "is_alias_of",
+      "object": "Steve Jackson Games",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Steve Jackson Games (SJG)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hacker",
+        "published_in",
+        "1992"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hacker",
+        "similar_to",
+        "Illuminati"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Hacker (card game)\nHacker is a card game (not a trading card game) made by Steve Jackson Games (SJG). Published in 1992, the players impersonate hackers fighting for the control of computer networks. It is based primarily on interlocking access to different computer systems in the web. Players are not set directly towards each other, and several players can share access to a system. It is superficially similar (modulo terminology) to the game \"Illuminati\". \"Hacker\" is currently out of print."
+}

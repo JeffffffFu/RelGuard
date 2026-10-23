@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Quai Louis-Blériot": "Location",
+    "Seine": "River",
+    "16th arrondissement of Paris": "Location",
+    "France": "Country",
+    "Louis Blériot": "Person",
+    "Quai d'Auteuil": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Quai Louis-Blériot",
+      "relation": "located_in",
+      "object": "Seine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a quay alongside the Seine"
+        }
+      ]
+    },
+    {
+      "subject": "Quai Louis-Blériot",
+      "relation": "located_in",
+      "object": "16th arrondissement of Paris",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the 16th arrondissement of Paris"
+        }
+      ]
+    },
+    {
+      "subject": "Quai Louis-Blériot",
+      "relation": "renamed_in_honour_of",
+      "object": "Louis Blériot",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "renamed in honour of French aviator Louis Blériot"
+        }
+      ]
+    },
+    {
+      "subject": "Quai Louis-Blériot",
+      "relation": "formerly_known_as",
+      "object": "Quai d'Auteuil",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "known as the Quai d'Auteuil"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Quai Louis-Blériot",
+        "located_in",
+        "France"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Quai Louis-Blériot",
+        "founded_in",
+        "1937"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Quai Louis-Blériot\nThe Quai Louis-Blériot is a quay alongside the Seine in the 16th arrondissement of Paris, France. It was known as the Quai d'Auteuil until it was renamed in honour of French aviator Louis Blériot in 1937."
+}

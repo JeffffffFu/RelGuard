@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Baron Burnham": "PERSON",
+    "Hall Barn": "FAC",
+    "Beaconsfield": "GPE",
+    "Buckingham": "GPE",
+    "United Kingdom": "GPE",
+    "Sir Edward Levy-Lawson": "PERSON",
+    "Daily Telegraph": "ORG",
+    "Joseph Moses Levy": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Baron Burnham",
+      "relation": "created_for",
+      "object": "Sir Edward Levy-Lawson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was created in 1903 for the influential newspaper magnate Sir Edward Levy-Lawson"
+        }
+      ]
+    },
+    {
+      "subject": "Sir Edward Levy-Lawson",
+      "relation": "son_of",
+      "object": "Joseph Moses Levy",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Levy-Lawson was the son of Joseph Moses Levy"
+        }
+      ]
+    },
+    {
+      "subject": "Hall Barn",
+      "relation": "located_in",
+      "object": "Beaconsfield",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of Hall Barn in the Parish of Beaconsfield"
+        }
+      ]
+    },
+    {
+      "subject": "Beaconsfield",
+      "relation": "located_in",
+      "object": "Buckingham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the County of Buckingham"
+        }
+      ]
+    },
+    {
+      "subject": "Beaconsfield",
+      "relation": "located_in",
+      "object": "United Kingdom",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Peerage of the United Kingdom"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sir Edward Levy-Lawson",
+        "owner_of",
+        "Daily Telegraph"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Joseph Moses Levy",
+        "acquired",
+        "Daily Telegraph"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Baron Burnham\nBaron Burnham, of Hall Barn in the Parish of Beaconsfield in the County of Buckingham, is a title in the Peerage of the United Kingdom. It was created in 1903 for the influential newspaper magnate Sir Edward Levy-Lawson, 1st Baronet, owner of the \"Daily Telegraph\". He had already been created a Baronet, of Hall Barn in The Parish of Beaconsfield in the County of Buckingham, in the Baronetage of the United Kingdom in 1892. Levy-Lawson was the son of Joseph Moses Levy, who acquired the \"Daily Telegraph\" only months after its founding."
+}

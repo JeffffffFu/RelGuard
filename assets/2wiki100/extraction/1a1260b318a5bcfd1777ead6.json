@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "William D. MacGillivray": "PERSON",
+    "St. John's": "GPE",
+    "Newfoundland": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "William D. MacGillivray",
+      "relation": "born_in",
+      "object": "St. John's",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born May 24, 1946 in St. John's"
+        }
+      ]
+    },
+    {
+      "subject": "William D. MacGillivray",
+      "relation": "located_in",
+      "object": "Newfoundland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born May 24, 1946 in St. John's, Newfoundland"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "William D. MacGillivray",
+        "nationality",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "William D. MacGillivray\nWilliam D. MacGillivray (born May 24, 1946 in St. John's, Newfoundland) is a Canadian film director and screenwriter."
+}

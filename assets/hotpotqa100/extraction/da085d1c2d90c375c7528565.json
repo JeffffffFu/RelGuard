@@ -1,0 +1,178 @@
+{
+  "entities": {
+    "vascular bypass": "WORK_OF_ART",
+    "vascular graft": "WORK_OF_ART",
+    "artery": "PRODUCT",
+    "vein": "PRODUCT",
+    "autograft": "WORK_OF_ART",
+    "polytetrafluoroethylene": "PRODUCT",
+    "Teflon": "PRODUCT",
+    "polyethylene terephthalate": "PRODUCT",
+    "Dacron": "PRODUCT",
+    "allograft": "WORK_OF_ART",
+    "surgeon": "PERSON",
+    "surgical suture": "PRODUCT",
+    "surgical anastomosis": "WORK_OF_ART",
+    "hemodialysis": "EVENT",
+    "organ transplantation": "EVENT",
+    "atherosclerosis": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "polytetrafluoroethylene",
+      "relation": "is_used_for",
+      "object": "vascular bypass",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "are also commonly used",
+          "line_start": 701,
+          "char_start": 717,
+          "ambiguous": false,
+          "relation_mention": "are also commonly used",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Teflon",
+      "relation": "is_used_for",
+      "object": "vascular bypass",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "are also commonly used",
+          "line_start": 701,
+          "char_start": 717,
+          "ambiguous": false,
+          "relation_mention": "are also commonly used",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "polyethylene terephthalate",
+      "relation": "is_used_for",
+      "object": "vascular bypass",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "are also commonly used",
+          "line_start": 701,
+          "char_start": 717,
+          "ambiguous": false,
+          "relation_mention": "are also commonly used",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Dacron",
+      "relation": "is_used_for",
+      "object": "vascular bypass",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "are also commonly used",
+          "line_start": 701,
+          "char_start": 717,
+          "ambiguous": false,
+          "relation_mention": "are also commonly used",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "allograft",
+      "relation": "is_used_for",
+      "object": "vascular bypass",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "are also commonly used",
+          "line_start": 701,
+          "char_start": 717,
+          "ambiguous": false,
+          "relation_mention": "are also commonly used",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "vascular bypass",
+        "also_called",
+        "vascular graft"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "vascular bypass",
+        "is_a",
+        "surgical procedure"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "vascular bypass",
+        "performed_for",
+        "hemodialysis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "vascular bypass",
+        "performed_as_part_of",
+        "organ transplantation"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "autograft",
+        "is_preferred_graft_material_for",
+        "vascular bypass"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "artery",
+        "can_serve_as",
+        "vascular graft"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "surgeon",
+        "sews",
+        "graft"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "surgeon",
+        "uses",
+        "surgical suture"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "sewing the graft to the source and target vessels by hand using surgical suture",
+        "creates",
+        "surgical anastomosis"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Vascular bypass\nA vascular bypass (or vascular graft) is a surgical procedure performed to redirect blood flow from one area to another by reconnecting blood vessels. Often, this is done to bypass around a diseased artery, from an area of normal blood flow to another relatively normal area. It is commonly performed due to inadequate blood flow (ischemia) caused by atherosclerosis, as a part of organ transplantation, or for vascular access in hemodialysis. In general, someone's own vein (autograft) is the preferred graft material (or conduit) for a vascular bypass, but other types of grafts such as polytetrafluoroethylene (Teflon), polyethylene terephthalate (Dacron), or a different person's vein (allograft) are also commonly used. Arteries can also serve as vascular grafts. A surgeon sews the graft to the source and target vessels by hand using surgical suture, creating a surgical anastomosis.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"vascular bypass\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"vascular graft\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"artery\", \"type\": \"PRODUCT\"},\n    {\"name\": \"vein\", \"type\": \"PRODUCT\"},\n    {\"name\": \"autograft\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"polytetrafluoroethylene\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Teflon\", \"type\": \"PRODUCT\"},\n    {\"name\": \"polyethylene terephthalate\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Dacron\", \"type\": \"PRODUCT\"},\n    {\"name\": \"allograft\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"surgeon\", \"type\": \"PERSON\"},\n    {\"name\": \"surgical suture\", \"type\": \"PRODUCT\"},\n    {\"name\": \"surgical anastomosis\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"hemodialysis\", \"type\": \"EVENT\"},\n    {\"name\": \"organ transplantation\", \"type\": \"EVENT\"},\n    {\"name\": \"atherosclerosis\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"vascular bypass\",\n      \"relation\": \"also_called\",\n      \"object\": \"vascular graft\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(or vascular graft)\"}\n      ]\n    },\n    {\n      \"subject\": \"vascular bypass\",\n      \"relation\": \"is_a\",\n      \"object\": \"surgical procedure\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a surgical procedure\"}\n      ]\n    },\n    {\n      \"subject\": \"vascular bypass\",\n      \"relation\": \"performed_for\",\n      \"object\": \"hemodialysis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for vascular access in hemodialysis\"}\n      ]\n    },\n    {\n      \"subject\": \"vascular bypass\",\n      \"relation\": \"performed_as_part_of\",\n      \"object\": \"organ transplantation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as a part of organ transplantation\"}\n      ]\n    },\n    {\n      \"subject\": \"autograft\",\n      \"relation\": \"is_preferred_graft_material_for\",\n      \"object\": \"vascular bypass\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"is the preferred graft material (or conduit) for a vascular bypass\"}\n      ]\n    },\n    {\n      \"subject\": \"polytetrafluoroethylene\",\n      \"relation\": \"is_used_for\",\n      \"object\": \"vascular bypass\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"are also commonly used\"}\n      ]\n    },\n    {\n      \"subject\": \"Teflon\",\n      \"relation\": \"is_used_for\",\n      \"object\": \"vascular bypass\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"are also commonly used\"}\n      ]\n    },\n    {\n      \"subject\": \"polyethylene terephthalate\",\n      \"relation\": \"is_used_for\",\n      \"object\": \"vascular bypass\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"are also commonly used\"}\n      ]\n    },\n    {\n      \"subject\": \"Dacron\",\n      \"relation\": \"is_used_for\",\n      \"object\": \"vascular bypass\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"are also commonly used\"}\n      ]\n    },\n    {\n      \"subject\": \"allograft\",\n      \"relation\": \"is_used_for\",\n      \"object\": \"vascular bypass\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"are also commonly used\"}\n      ]\n    },\n    {\n      \"subject\": \"artery\",\n      \"relation\": \"can_serve_as\",\n      \"object\": \"vascular graft\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"can also serve as vascular grafts\"}\n      ]\n    },\n    {\n      \"subject\": \"surgeon\",\n      \"relation\": \"sews\",\n      \"object\": \"graft\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"sews the graft to the source and target vessels by hand using surgical suture\"}\n      ]\n    },\n    {\n      \"subject\": \"surgeon\",\n      \"relation\": \"uses\",\n      \"object\": \"surgical suture\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"using surgical suture\"}\n      ]\n    },\n    {\n      \"subject\": \"sewing the graft to the source and target vessels by hand using surgical suture\",\n      \"relation\": \"creates\",\n      \"object\": \"surgical anastomosis\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"creating a surgical anastomosis\"}\n      ]\n    }\n  ]\n}"
+}

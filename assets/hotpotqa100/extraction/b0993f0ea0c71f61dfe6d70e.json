@@ -1,0 +1,110 @@
+{
+  "entities": {
+    "Uli Hoeneß Cup": "event",
+    "Bayern Munich": "team",
+    "Barcelona": "team",
+    "Pep Guardiola": "person",
+    "Uli Hoeneß": "person",
+    "Allianz Arena": "location",
+    "Munich": "location",
+    "Germany": "location"
+  },
+  "triples": [
+    {
+      "subject": "Uli Hoeneß Cup",
+      "relation": "took_place_at",
+      "object": "Allianz Arena",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "took place on 24 July 2013 at the Allianz Arena"
+        }
+      ]
+    },
+    {
+      "subject": "Uli Hoeneß Cup",
+      "relation": "featured",
+      "object": "Bayern Munich",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The competition featured hosts and 2012–13 UEFA Champions League winner Bayern Munich"
+        }
+      ]
+    },
+    {
+      "subject": "Bayern Munich",
+      "relation": "contested_against",
+      "object": "Barcelona",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the first that Bayern Munich's new manager Pep Guardiola contested against his former club Barcelona"
+        }
+      ]
+    },
+    {
+      "subject": "Bayern Munich",
+      "relation": "has_manager",
+      "object": "Pep Guardiola",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Bayern Munich's new manager Pep Guardiola"
+        }
+      ]
+    },
+    {
+      "subject": "Bayern Munich",
+      "relation": "has_president",
+      "object": "Uli Hoeneß",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "a late 60th birthday present for Bayern Munich club president Uli Hoeneß"
+        }
+      ]
+    },
+    {
+      "subject": "Allianz Arena",
+      "relation": "located_in",
+      "object": "Munich",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the Allianz Arena in Munich"
+        }
+      ]
+    },
+    {
+      "subject": "Munich",
+      "relation": "located_in",
+      "object": "Germany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Munich, Germany"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Uli Hoeneß Cup",
+        "featured",
+        "Barcelona"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Uli Hoeneß Cup",
+        "donated_towards",
+        "social purposes"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Uli Hoeneß Cup\nThe Uli Hoeneß Cup was a pre-season association football match that took place on 24 July 2013 at the Allianz Arena in Munich, Germany. The competition featured hosts and 2012–13 UEFA Champions League winner Bayern Munich and the 2012–13 Spanish champions Barcelona. The game was the first that Bayern Munich's new manager Pep Guardiola contested against his former club Barcelona and was a late 60th birthday present for Bayern Munich club president Uli Hoeneß. The entire proceeds were donated towards social purposes. The original planned kick-off time (20:30) was changed because of the 2013 UEFA Women's Championship semi-final match between Sweden and Germany."
+}

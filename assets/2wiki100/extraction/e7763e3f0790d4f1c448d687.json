@@ -1,0 +1,185 @@
+{
+  "entities": {
+    "Francesca Comencini": "PERSON",
+    "Lycée français Chateaubriand": "ORG",
+    "Le parole di mio padre": "WORK_OF_ART",
+    "Un Certain Regard": "EVENT",
+    "2001 Cannes Film Festival": "EVENT",
+    "Un Giorno Speciale": "WORK_OF_ART",
+    "69th Venice International Film Festival": "EVENT",
+    "Daniel Toscan du Plantier": "PERSON",
+    "French": "NORP",
+    "Italian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Francesca Comencini",
+      "relation": "nationality",
+      "object": "Italian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is an Italian",
+          "line_start": 42,
+          "char_start": 62,
+          "ambiguous": false,
+          "relation_mention": "is an Italian",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Francesca Comencini",
+      "relation": "attended",
+      "object": "Lycée français Chateaubriand",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "attended the Lycée français Chateaubriand school",
+          "line_start": 92,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "attended the Lycée français Chateaubriand school",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Francesca Comencini",
+      "relation": "directed",
+      "object": "Le parole di mio padre",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Her film \"Le parole di mio padre\" was screened",
+          "line_start": 197,
+          "char_start": 217,
+          "ambiguous": false,
+          "relation_mention": "Her film \"Le parole di mio padre\" was screened",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Le parole di mio padre",
+      "relation": "screened_in",
+      "object": "Un Certain Regard",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was screened in the Un Certain Regard section",
+          "line_start": 231,
+          "char_start": 251,
+          "ambiguous": false,
+          "relation_mention": "was screened in the Un Certain Regard section",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Le parole di mio padre",
+      "relation": "screened_at",
+      "object": "2001 Cannes Film Festival",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "at the 2001 Cannes Film Festival",
+          "line_start": 277,
+          "char_start": 297,
+          "ambiguous": false,
+          "relation_mention": "at the 2001 Cannes Film Festival",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Un Giorno Speciale",
+      "relation": "selected_at",
+      "object": "69th Venice International Film Festival",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "at the 69th Venice International Film Festival",
+          "line_start": 394,
+          "char_start": 414,
+          "ambiguous": false,
+          "relation_mention": "at the 69th Venice International Film Festival",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Francesca Comencini",
+      "relation": "married_to",
+      "object": "Daniel Toscan du Plantier",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was married to French producer Daniel Toscan du Plantier",
+          "line_start": 446,
+          "char_start": 466,
+          "ambiguous": false,
+          "relation_mention": "was married to French producer Daniel Toscan du Plantier",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "Daniel Toscan du Plantier",
+      "relation": "nationality",
+      "object": "French",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "French producer",
+          "line_start": 461,
+          "char_start": 481,
+          "ambiguous": false,
+          "relation_mention": "French producer",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities outside the eleven types",
+      "entities": [
+        "Golden Lion (AWARD)"
+      ]
+    },
+    {
+      "triple": [
+        "Francesca Comencini",
+        "born_on",
+        "19 August 1961"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Francesca Comencini",
+        "works_as",
+        "film director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Francesca Comencini",
+        "works_as",
+        "screenwriter"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Un Giorno Speciale",
+        "selected_to_compete_for",
+        "Golden Lion"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Francesca Comencini\nFrancesca Comencini (born 19 August 1961) is an Italian film director and screenwriter. She attended the Lycée français Chateaubriand school with her sisters. She has directed 14 films since 1984. Her film \"Le parole di mio padre\" was screened in the Un Certain Regard section at the 2001 Cannes Film Festival. In 2012, her film \"Un Giorno Speciale\" was selected to compete for the Golden Lion at the 69th Venice International Film Festival. She was married to French producer Daniel Toscan du Plantier."
+}

@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Rwandan Revolution": "EVENT",
+    "Social Revolution": "EVENT",
+    "Wind of Destruction": "EVENT",
+    "Kinyarwanda": "LANGUAGE",
+    "Rwanda": "GPE",
+    "Hutu": "NORP",
+    "Tutsi": "NORP",
+    "Belgian colony": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Rwandan Revolution",
+      "relation": "also_known_as",
+      "object": "Social Revolution",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also known as",
+          "line_start": 24,
+          "char_start": 43,
+          "ambiguous": false,
+          "relation_mention": "also known as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rwandan Revolution",
+        "also_known_as",
+        "Wind of Destruction"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wind of Destruction",
+        "named_in_language",
+        "Kinyarwanda"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rwandan Revolution",
+        "occurred_in",
+        "Rwanda"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rwandan Revolution",
+        "between",
+        "Hutu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rwandan Revolution",
+        "between",
+        "Tutsi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rwanda",
+        "transitioned_from",
+        "Belgian colony"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rwanda",
+        "had_monarchy_of",
+        "Tutsi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rwanda",
+        "transitioned_to",
+        "Hutu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Rwandan Revolution\nThe Rwandan Revolution, also known as the Social Revolution or Wind of Destruction (Kinyarwanda: \"muyaga\" ), was a period of ethnic violence in Rwanda from 1959 to 1961 between the Hutu and the Tutsi, two of the three ethnic groups in Rwanda. The revolution saw the country transition from a Belgian colony with a Tutsi monarchy to an independent Hutu-dominated republic.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Rwandan Revolution\", \"type\": \"EVENT\"},\n    {\"name\": \"Social Revolution\", \"type\": \"EVENT\"},\n    {\"name\": \"Wind of Destruction\", \"type\": \"EVENT\"},\n    {\"name\": \"Kinyarwanda\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Rwanda\", \"type\": \"GPE\"},\n    {\"name\": \"Hutu\", \"type\": \"NORP\"},\n    {\"name\": \"Tutsi\", \"type\": \"NORP\"},\n    {\"name\": \"Belgian colony\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Rwandan Revolution\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Social Revolution\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwandan Revolution\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Wind of Destruction\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known as the Social Revolution or Wind of Destruction\"}\n      ]\n    },\n    {\n      \"subject\": \"Wind of Destruction\",\n      \"relation\": \"named_in_language\",\n      \"object\": \"Kinyarwanda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(Kinyarwanda:\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwandan Revolution\",\n      \"relation\": \"occurred_in\",\n      \"object\": \"Rwanda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Rwanda\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwandan Revolution\",\n      \"relation\": \"between\",\n      \"object\": \"Hutu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"between the Hutu and the Tutsi\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwandan Revolution\",\n      \"relation\": \"between\",\n      \"object\": \"Tutsi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"between the Hutu and the Tutsi\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwanda\",\n      \"relation\": \"transitioned_from\",\n      \"object\": \"Belgian colony\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from a Belgian colony\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwanda\",\n      \"relation\": \"had_monarchy_of\",\n      \"object\": \"Tutsi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with a Tutsi monarchy\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwanda\",\n      \"relation\": \"transitioned_to\",\n      \"object\": \"Hutu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to an independent Hutu-dominated republic\"}\n      ]\n    }\n  ]\n}"
+}

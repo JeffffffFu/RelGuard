@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Papa John's Pizza": "Organization",
+    "United States": "Location",
+    "Jeffersontown": "Location",
+    "Kentucky": "Location",
+    "Louisville": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Papa John's Pizza",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the United States"
+        }
+      ]
+    },
+    {
+      "subject": "Papa John's Pizza",
+      "relation": "headquartered_in",
+      "object": "Jeffersontown",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with headquarters in Jeffersontown"
+        }
+      ]
+    },
+    {
+      "subject": "Jeffersontown",
+      "relation": "located_in",
+      "object": "Kentucky",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a suburb of Louisville"
+        }
+      ]
+    },
+    {
+      "subject": "Kentucky",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the United States"
+        }
+      ]
+    },
+    {
+      "subject": "Louisville",
+      "relation": "located_in",
+      "object": "Kentucky",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a suburb of Louisville"
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Papa John's Pizza\nPapa John's Pizza is an American restaurant franchise company. It runs the third largest take-out and pizza delivery restaurant chain in the United States, with headquarters in Jeffersontown, Kentucky, a suburb of Louisville."
+}

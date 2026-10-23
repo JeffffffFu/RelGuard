@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "When I Was a Kid": "WORK_OF_ART",
+    "Bill Cosby": "PERSON",
+    "Westbury Music Fair": "FAC",
+    "Fat Albert and the Cosby Kids": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "When I Was a Kid",
+        "recorded_at",
+        "Westbury Music Fair"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "When I Was a Kid",
+        "has_cover_feature",
+        "Fat Albert and the Cosby Kids"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "When I Was a Kid\nWhen I Was a Kid (1971) is the 12th comedy album by Bill Cosby recorded at the Westbury Music Fair. The cover is an early appearance of Fat Albert and the Cosby Kids.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"When I Was a Kid\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Bill Cosby\", \"type\": \"PERSON\"},\n    {\"name\": \"Westbury Music Fair\", \"type\": \"FAC\"},\n    {\"name\": \"Fat Albert and the Cosby Kids\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"When I Was a Kid\",\n      \"relation\": \"created_in_year\", \n      \"object\": \"When I Was a Kid\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"When I Was a Kid\",\n      \"relation\": \"works_for\",\n      \"object\": \"Bill Cosby\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"When I Was a Kid\",\n      \"relation\": \"recorded_at\",\n      \"object\": \"Westbury Music Fair\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"recorded at the Westbury Music Fair\"}\n      ]\n    },\n    {\n      \"subject\": \"When I Was a Kid\",\n      \"relation\": \"has_cover_feature\",\n      \"object\": \"Fat Albert and the Cosby Kids\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an early appearance of Fat Albert and the Cosby Kids\"}\n      ]\n    }\n  ]\n}"
+}

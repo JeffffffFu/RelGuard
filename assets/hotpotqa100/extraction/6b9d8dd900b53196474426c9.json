@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Sleeper": "ORG",
+    "Louise Wener": "PERSON",
+    "London": "GPE",
+    "Trainspotting": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Sleeper",
+      "relation": "fronted_by",
+      "object": "Louise Wener",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "fronted by",
+          "line_start": 37,
+          "char_start": 52,
+          "ambiguous": false,
+          "relation_mention": "fronted by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Sleeper",
+      "relation": "formed_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "formed in",
+          "line_start": 65,
+          "char_start": 80,
+          "ambiguous": false,
+          "relation_mention": "formed in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Sleeper",
+      "relation": "featured_in_soundtrack_of",
+      "object": "Trainspotting",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "featured in the soundtrack of",
+          "line_start": 190,
+          "char_start": 205,
+          "ambiguous": false,
+          "relation_mention": "featured in the soundtrack of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "England (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Sleeper",
+        "works_for",
+        "England"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sleeper (band)\nSleeper are an English Britpop band, fronted by Louise Wener and formed in London. The group had eight UK Top 40 hit singles and three UK Top 10 albums during the 1990s Their music was also featured in the soundtrack of the pop cultural hit movie \"Trainspotting\". The band split up in 1998 but reunited in 2017 for some live appearances.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Sleeper\", \"type\": \"ORG\"},\n    {\"name\": \"Louise Wener\", \"type\": \"PERSON\"},\n    {\"name\": \"London\", \"type\": \"GPE\"},\n    {\"name\": \"Trainspotting\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"England\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Sleeper\",\n      \"relation\": \"works_for\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are an English\"}\n      ]\n    },\n    {\n      \"subject\": \"Sleeper\",\n      \"relation\": \"fronted_by\",\n      \"object\": \"Louise Wener\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"fronted by\"}\n      ]\n    },\n    {\n      \"subject\": \"Sleeper\",\n      \"relation\": \"formed_in\",\n      \"object\": \"London\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"formed in\"}\n      ]\n    },\n    {\n      \"subject\": \"Sleeper\",\n      \"relation\": \"featured_in_soundtrack_of\",\n      \"object\": \"Trainspotting\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"featured in the soundtrack of\"}\n      ]\n    }\n  ]\n}"
+}

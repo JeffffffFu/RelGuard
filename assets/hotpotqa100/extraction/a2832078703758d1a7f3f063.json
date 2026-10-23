@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Marlborough": "GPE",
+    "New Hampshire": "GPE",
+    "Cheshire County": "GPE",
+    "United States": "GPE",
+    "Kensan-Devan Wildlife Sanctuary": "FAC",
+    "Meetinghouse Pond": "LOC"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Marlborough",
+        "located_in",
+        "Cheshire County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marlborough",
+        "located_in",
+        "New Hampshire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marlborough",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marlborough",
+        "contains",
+        "Kensan-Devan Wildlife Sanctuary"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kensan-Devan Wildlife Sanctuary",
+        "located_in",
+        "Meetinghouse Pond"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Marlborough, New Hampshire\nMarlborough is a town in Cheshire County, New Hampshire, United States. The population was 2,063 at the 2010 census. The town is home to the Kensan-Devan Wildlife Sanctuary at Meetinghouse Pond.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Marlborough\", \"type\": \"GPE\"},\n    {\"name\": \"New Hampshire\", \"type\": \"GPE\"},\n    {\"name\": \"Cheshire County\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Kensan-Devan Wildlife Sanctuary\", \"type\": \"FAC\"},\n    {\"name\": \"Meetinghouse Pond\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Marlborough\",\n      \"relation\": \"located_in\",\n      \"object\": \"Cheshire County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Cheshire County\"}\n      ]\n    },\n    {\n      \"subject\": \"Marlborough\",\n      \"relation\": \"located_in\",\n      \"object\": \"New Hampshire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Cheshire County, New Hampshire\"}\n      ]\n    },\n    {\n      \"subject\": \"Marlborough\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Cheshire County, New Hampshire, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Marlborough\",\n      \"relation\": \"contains\",\n      \"object\": \"Kensan-Devan Wildlife Sanctuary\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is home to\"}\n      ]\n    },\n    {\n      \"subject\": \"Kensan-Devan Wildlife Sanctuary\",\n      \"relation\": \"located_in\",\n      \"object\": \"Meetinghouse Pond\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at\"}\n      ]\n    }\n  ]\n}"
+}

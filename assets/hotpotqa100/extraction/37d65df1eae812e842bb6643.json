@@ -1,0 +1,120 @@
+{
+  "entities": {
+    "Baby powder": "product",
+    "talcum powder": "product",
+    "corn starch": "product",
+    "pediatricians": "profession"
+  },
+  "triples": [
+    {
+      "subject": "Baby powder",
+      "relation": "composed_of",
+      "object": "talcum powder",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "may be composed of talcum (in which case it is also called talcum powder)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Baby powder",
+        "used_for",
+        "diaper rash"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baby powder",
+        "used_for",
+        "deodorant"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baby powder",
+        "used_for",
+        "cosmetic uses"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baby powder",
+        "composed_of",
+        "corn starch"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "talcum powder",
+        "dangerous_if",
+        "inhaled"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "talcum powder",
+        "may_cause",
+        "aspiration pneumonia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "talcum powder",
+        "may_cause",
+        "granuloma"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "pediatricians",
+        "prefer",
+        "cornstarch"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "cornstarch",
+        "unlikely_to_be_inhaled",
+        "talc"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baby powder",
+        "used_as",
+        "shampoo"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baby powder",
+        "used_as",
+        "cleaning agent"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baby powder",
+        "used_as",
+        "freshener"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Baby powder\nBaby powder is an astringent powder used for preventing diaper rash, as a deodorant, and for other cosmetic uses. It may be composed of talcum (in which case it is also called talcum powder) or corn starch (in which case it is also called corn starch). Talcum powder is dangerous if inhaled since it may cause aspiration pneumonia or granuloma. Pediatricians generally prefer cornstarch to talc because it is unlikely to be easily inhaled. Baby powder can also be used as a shampoo, cleaning agent, and freshener."
+}

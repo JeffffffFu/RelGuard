@@ -1,0 +1,134 @@
+{
+  "entities": {
+    "Seattle Seahawks": "Organization",
+    "Seattle": "Location",
+    "Washington": "Location",
+    "National Football League": "Organization",
+    "National Football Conference": "Organization",
+    "Paul Allen": "Person",
+    "Pete Carroll": "Person",
+    "CenturyLink Field": "Location",
+    "Kingdome": "Location",
+    "Husky Stadium": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Seattle Seahawks",
+      "relation": "located_in",
+      "object": "Seattle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Seattle"
+        }
+      ]
+    },
+    {
+      "subject": "Seattle Seahawks",
+      "relation": "located_in",
+      "object": "Washington",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Seattle, Washington"
+        }
+      ]
+    },
+    {
+      "subject": "Seattle Seahawks",
+      "relation": "competes_in",
+      "object": "National Football League",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "compete in the National Football League (NFL)"
+        }
+      ]
+    },
+    {
+      "subject": "Seattle Seahawks",
+      "relation": "member_of",
+      "object": "National Football Conference",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "as a member club of the league's National Football Conference (NFC)"
+        }
+      ]
+    },
+    {
+      "subject": "Seattle Seahawks",
+      "relation": "joined",
+      "object": "National Football League",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "joined the NFL in 1976"
+        }
+      ]
+    },
+    {
+      "subject": "Seattle Seahawks",
+      "relation": "owned_by",
+      "object": "Paul Allen",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "are owned by Paul Allen"
+        }
+      ]
+    },
+    {
+      "subject": "Seattle Seahawks",
+      "relation": "coached_by",
+      "object": "Pete Carroll",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "are currently coached by Pete Carroll"
+        }
+      ]
+    },
+    {
+      "subject": "Seattle Seahawks",
+      "relation": "plays_home_games_at",
+      "object": "CenturyLink Field",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "have played their home games at CenturyLink Field"
+        }
+      ]
+    },
+    {
+      "subject": "Seattle Seahawks",
+      "relation": "previously_played_home_games_in",
+      "object": "Kingdome",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "previously played home games in the Kingdome (1976–1999)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "CenturyLink Field",
+        "formerly_known_as",
+        "Qwest Field"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Seattle Seahawks",
+        "previously_played_home_games_in",
+        "Husky Stadium"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Seattle Seahawks\nThe Seattle Seahawks are a professional American football franchise based in Seattle, Washington. The Seahawks compete in the National Football League (NFL) as a member club of the league's National Football Conference (NFC) West division. The Seahawks joined the NFL in 1976 as an expansion team. The Seahawks are owned by Paul Allen and are currently coached by Pete Carroll. Since 2002, the Seahawks have played their home games at CenturyLink Field (formerly Qwest Field), located south of downtown Seattle. The Seahawks previously played home games in the Kingdome (1976–1999) and Husky Stadium (1994, 2000–2001)."
+}

@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Rwandan Revolution": "EVENT",
+    "Rwanda": "GPE",
+    "Hutu": "NORP",
+    "Tutsi": "NORP",
+    "Belgian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Rwanda",
+      "relation": "involved_in",
+      "object": "Rwandan Revolution",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "period of ethnic violence in Rwanda"
+        }
+      ]
+    },
+    {
+      "subject": "Hutu",
+      "relation": "involved_in",
+      "object": "Rwandan Revolution",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "between the Hutu and the Tutsi"
+        }
+      ]
+    },
+    {
+      "subject": "Tutsi",
+      "relation": "involved_in",
+      "object": "Rwandan Revolution",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "between the Hutu and the Tutsi"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rwandan Revolution",
+        "also_known_as",
+        "Social Revolution"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rwandan Revolution",
+        "also_known_as",
+        "Wind of Destruction"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rwanda",
+        "transitioned_from",
+        "Belgian colony"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rwanda",
+        "transitioned_to",
+        "Hutu-dominated republic"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Rwandan Revolution\nThe Rwandan Revolution, also known as the Social Revolution or Wind of Destruction (Kinyarwanda: \"muyaga\" ), was a period of ethnic violence in Rwanda from 1959 to 1961 between the Hutu and the Tutsi, two of the three ethnic groups in Rwanda. The revolution saw the country transition from a Belgian colony with a Tutsi monarchy to an independent Hutu-dominated republic."
+}

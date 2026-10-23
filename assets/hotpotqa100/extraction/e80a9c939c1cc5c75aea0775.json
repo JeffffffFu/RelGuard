@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "James Francis Edward Stuart": "Person",
+    "King James II and VII": "Person",
+    "Mary of Modena": "Person",
+    "Mary II": "Person",
+    "William III of Orange": "Person",
+    "Bill of Rights 1689": "Document",
+    "Act of Succession 1701": "Document"
+  },
+  "triples": [
+    {
+      "subject": "James Francis Edward Stuart",
+      "relation": "son_of",
+      "object": "King James II and VII",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the son of King James II and VII"
+        }
+      ]
+    },
+    {
+      "subject": "Mary II",
+      "relation": "became_queen",
+      "object": "William III of Orange",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "her husband William III of Orange became king and queen"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James Francis Edward Stuart",
+        "son_of",
+        "Mary of Modena"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "King James II and VII",
+        "deposed_in",
+        "Glorious Revolution of 1688"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bill of Rights 1689",
+        "excluded",
+        "Catholics from the British throne"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Act of Succession 1701",
+        "excluded",
+        "Catholics from the British throne"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James Francis Edward Stuart",
+        "raised_in",
+        "exile"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "James Francis Edward Stuart\nJames Francis Edward, Prince of Wales (10 June 1688 – 1 January 1766), nicknamed the Old Pretender, was the son of King James II and VII, the monarch of the three kingdoms of England, Scotland and Ireland, and his second wife Mary of Modena. His Catholic father was deposed in the Glorious Revolution of 1688 only months after his birth, and his Protestant older half-sister Mary II and her husband William III of Orange became king and queen. The Bill of Rights 1689 and Act of Succession 1701 excluded Catholics from the British throne, and James was raised in exile."
+}

@@ -1,0 +1,149 @@
+{
+  "entities": {
+    "International business": "PRODUCT",
+    "countries": "GPE",
+    "nations": "GPE",
+    "International production": "EVENT",
+    "finance": "ORG",
+    "banking": "ORG",
+    "insurance": "ORG",
+    "construction": "ORG",
+    "Globalization": "PRODUCT",
+    "multinational companies": "ORG",
+    "communication": "PRODUCT",
+    "information processing": "PRODUCT",
+    "transportation technologies": "PRODUCT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "private sector (NORP)",
+        "public sector (NORP)"
+      ]
+    },
+    {
+      "triple": [
+        "International business",
+        "comprises",
+        "private sector"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "International business",
+        "comprises",
+        "public sector"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "International business",
+        "takes_place_between",
+        "countries"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "International business",
+        "involves",
+        "nations"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Transactions of economic resources",
+        "include",
+        "International production"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "International production",
+        "includes",
+        "finance"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "International production",
+        "includes",
+        "banking"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "International production",
+        "includes",
+        "insurance"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "International production",
+        "includes",
+        "construction"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "International business",
+        "can_be_referred_to_as",
+        "Globalization"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Globalization",
+        "is",
+        "shift toward a more integrated and interdependent economy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "multinational companies",
+        "need_to_separate",
+        "national markets"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "technological change",
+        "includes",
+        "communication"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "technological change",
+        "includes",
+        "information processing"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "technological change",
+        "includes",
+        "transportation technologies"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "International business\nInternational business comprises all international trades services or investments (bonds, stocks) conducted by both the private and public sectors that take place between two or more countries beyond their political boundaries. The term \"international business\" refers to all those business activities which involve cross-border transactions of goods, services, and resources between two or more nations. Transactions of economic resources include capital, skills, people for the purpose of the international production of physical goods and services such as finance, banking, insurance, and construction. International business can also be referred to as globalization. Globalization is the shift toward a more integrated and interdependent economy. In order to conduct business overseas, multinational companies need to separate national markets into one huge global marketplace. Two macro factors underline the trend of greater globalization. The first is falling of barriers to make cross-border trade easier such as the free flow of goods and services, and capital, and the second factor is technological change, particularly the developments in communication, information processing, and transportation technologies.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"International business\", \"type\": \"PRODUCT\"},\n    {\"name\": \"private sector\", \"type\": \"NORP\"},\n    {\"name\": \"public sector\", \"type\": \"NORP\"},\n    {\"name\": \"countries\", \"type\": \"GPE\"},\n    {\"name\": \"nations\", \"type\": \"GPE\"},\n    {\"name\": \"International production\", \"type\": \"EVENT\"},\n    {\"name\": \"finance\", \"type\": \"ORG\"},\n    {\"name\": \"banking\", \"type\": \"ORG\"},\n    {\"name\": \"insurance\", \"type\": \"ORG\"},\n    {\"name\": \"construction\", \"type\": \"ORG\"},\n    {\"name\": \"Globalization\", \"type\": \"PRODUCT\"},\n    {\"name\": \"multinational companies\", \"type\": \"ORG\"},\n    {\"name\": \"communication\", \"type\": \"PRODUCT\"},\n    {\"name\": \"information processing\", \"type\": \"PRODUCT\"},\n    {\"name\": \"transportation technologies\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"International business\",\n      \"relation\": \"comprises\",\n      \"object\": \"private sector\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"conducted by both the private and public sectors\"}\n      ]\n    },\n    {\n      \"subject\": \"International business\",\n      \"relation\": \"comprises\",\n      \"object\": \"public sector\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"conducted by both the private and public sectors\"}\n      ]\n    },\n    {\n      \"subject\": \"International business\",\n      \"relation\": \"takes_place_between\",\n      \"object\": \"countries\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"take place between two or more countries\"}\n      ]\n    },\n    {\n      \"subject\": \"International business\",\n      \"relation\": \"involves\",\n      \"object\": \"nations\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"between two or more nations\"}\n      ]\n    },\n    {\n      \"subject\": \"Transactions of economic resources\",\n      \"relation\": \"include\",\n      \"object\": \"International production\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for the purpose of the international production\"}\n      ]\n    },\n    {\n      \"subject\": \"International production\",\n      \"relation\": \"includes\",\n      \"object\": \"finance\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"such as finance, banking, insurance, and construction\"}\n      ]\n    },\n    {\n      \"subject\": \"International production\",\n      \"relation\": \"includes\",\n      \"object\": \"banking\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"such as finance, banking, insurance, and construction\"}\n      ]\n    },\n    {\n      \"subject\": \"International production\",\n      \"relation\": \"includes\",\n      \"object\": \"insurance\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"such as finance, banking, insurance, and construction\"}\n      ]\n    },\n    {\n      \"subject\": \"International production\",\n      \"relation\": \"includes\",\n      \"object\": \"construction\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"such as finance, banking, insurance, and construction\"}\n      ]\n    },\n    {\n      \"subject\": \"International business\",\n      \"relation\": \"can_be_referred_to_as\",\n      \"object\": \"Globalization\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"can also be referred to as globalization\"}\n      ]\n    },\n    {\n      \"subject\": \"Globalization\",\n      \"relation\": \"is\",\n      \"object\": \"shift toward a more integrated and interdependent economy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Globalization is the shift toward a more integrated and interdependent economy\"}\n      ]\n    },\n    {\n      \"subject\": \"multinational companies\",\n      \"relation\": \"need_to_separate\",\n      \"object\": \"national markets\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"need to separate national markets into one huge global marketplace\"}\n      ]\n    },\n    {\n      \"subject\": \"technological change\",\n      \"relation\": \"includes\",\n      \"object\": \"communication\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"developments in communication, information processing, and transportation technologies\"}\n      ]\n    },\n    {\n      \"subject\": \"technological change\",\n      \"relation\": \"includes\",\n      \"object\": \"information processing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"developments in communication, information processing, and transportation technologies\"}\n      ]\n    },\n    {\n      \"subject\": \"technological change\",\n      \"relation\": \"includes\",\n      \"object\": \"transportation technologies\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"developments in communication, information processing, and transportation technologies\"}\n      ]\n    }\n  ]\n}"
+}

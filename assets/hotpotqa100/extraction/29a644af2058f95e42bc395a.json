@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "Robert 'Bobbie' van de Graaf": "Person",
+    "Marius Klumperbeek": "Person",
+    "Lex Mullink": "Person",
+    "Freek van de Graaff": "Person",
+    "Jan van de Graaff": "Person",
+    "1964 Summer Olympics": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Robert 'Bobbie' van de Graaf",
+      "relation": "competed_in",
+      "object": "1964 Summer Olympics",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the coxed fours at the 1964 Summer Olympics"
+        }
+      ]
+    },
+    {
+      "subject": "Robert 'Bobbie' van de Graaf",
+      "relation": "has_team_mates",
+      "object": "Marius Klumperbeek",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "His team mates were Marius Klumperbeek (cox)"
+        }
+      ]
+    },
+    {
+      "subject": "Marius Klumperbeek",
+      "relation": "is_cox_of",
+      "object": "Robert 'Bobbie' van de Graaf",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Marius Klumperbeek (cox)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Robert 'Bobbie' van de Graaf",
+        "won",
+        "bronze medal"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Robert 'Bobbie' van de Graaf",
+        "has_team_mates",
+        "Lex Mullink"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Robert 'Bobbie' van de Graaf",
+        "has_team_mates",
+        "Freek van de Graaff"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Robert 'Bobbie' van de Graaf",
+        "has_team_mates",
+        "Jan van de Graaff"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Freek van de Graaff",
+        "born_in",
+        "1944"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jan van de Graaff",
+        "born_in",
+        "1944"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bobbie van de Graaf\nRobert \"Bobbie\" van de Graaf (born 17 March 1944) is a retired Dutch rower who won a bronze medal in the coxed fours at the 1964 Summer Olympics. His team mates were Marius Klumperbeek (cox), Lex Mullink, Freek van de Graaff and Jan van de Graaff. The latter two were also born in 1944 and are unrelated to Bobbie."
+}

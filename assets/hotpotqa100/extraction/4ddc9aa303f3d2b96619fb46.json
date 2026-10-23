@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Edithvale railway station": "location",
+    "Frankston line": "transportation",
+    "Victoria": "location",
+    "Australia": "location",
+    "Edithvale": "location",
+    "Melbourne": "location",
+    "Platform 2": "location"
+  },
+  "triples": [
+    {
+      "subject": "Edithvale railway station",
+      "relation": "located_on",
+      "object": "Frankston line",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is located on the Frankston line"
+        }
+      ]
+    },
+    {
+      "subject": "Edithvale railway station",
+      "relation": "located_in",
+      "object": "Victoria",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Victoria"
+        }
+      ]
+    },
+    {
+      "subject": "Edithvale railway station",
+      "relation": "serves",
+      "object": "Edithvale",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "serves the south-eastern Melbourne suburb of Edithvale"
+        }
+      ]
+    },
+    {
+      "subject": "Edithvale railway station",
+      "relation": "has_siding_before",
+      "object": "Platform 2",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "a siding existed on the down side before Platform 2"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Edithvale railway station",
+        "located_in",
+        "Australia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Edithvale railway station",
+        "opened_on",
+        "20 September 1919"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Edithvale railway station",
+        "rebuilt_in",
+        "1981"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Edithvale railway station\nEdithvale railway station is located on the Frankston line in Victoria, Australia. It serves the south-eastern Melbourne suburb of Edithvale opening on 20 September 1919. In 1981 the station buildings were rebuilt. In its early years, a siding existed on the down side before Platform 2."
+}

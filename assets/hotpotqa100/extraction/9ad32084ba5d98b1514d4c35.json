@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Surrender Yourself": "WORK_OF_ART",
+    "The Daou": "ORG",
+    "Peter Daou": "PERSON",
+    "Head Music": "WORK_OF_ART",
+    "Billboard": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Surrender Yourself",
+      "relation": "taken_from",
+      "object": "Head Music",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Taken from their debut album, \"Head Music\""
+        }
+      ]
+    },
+    {
+      "subject": "The Daou",
+      "relation": "produced",
+      "object": "Surrender Yourself",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which they both co-produced"
+        }
+      ]
+    },
+    {
+      "subject": "Peter Daou",
+      "relation": "performed",
+      "object": "Surrender Yourself",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as performed by Peter Daou"
+        }
+      ]
+    },
+    {
+      "subject": "Surrender Yourself",
+      "relation": "reached",
+      "object": "Billboard",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the single reached number one on the \"Billboard\" Hot Dance Club Play chart"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Surrender Yourself",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Daou",
+        "wrote",
+        "Surrender Yourself"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Daou",
+        "performed",
+        "Surrender Yourself"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Surrender Yourself\n\"Surrender Yourself\" is a 1992 debut single by the American electronica dance duo The Daou, which they both co-produced, wrote, and performed the musical arraignments on, most notably on the keyboards, as performed by Peter Daou. Taken from their debut album, \"Head Music\", the single reached number one on the \"Billboard\" Hot Dance Club Play chart on July 11, 1992."
+}

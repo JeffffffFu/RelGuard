@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Sion": "ORG",
+    "Swiss Super League": "ORG",
+    "Swiss Cup": "EVENT",
+    "Gennaro Gattuso": "PERSON",
+    "Kyle Lafferty": "PERSON",
+    "Rangers": "ORG",
+    "Léo Itaperuna": "PERSON",
+    "Arapongas": "GPE",
+    "Mathieu Manset": "PERSON",
+    "Reading": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Sion",
+      "relation": "brought_in",
+      "object": "Gennaro Gattuso",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "brought in",
+          "line_start": 118,
+          "char_start": 141,
+          "ambiguous": false,
+          "relation_mention": "brought in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sion",
+      "relation": "brought_in",
+      "object": "Kyle Lafferty",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "brought in",
+          "line_start": 118,
+          "char_start": 141,
+          "ambiguous": false,
+          "relation_mention": "brought in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sion",
+        "competes_in",
+        "Swiss Super League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sion",
+        "competes_in",
+        "Swiss Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kyle Lafferty",
+        "former_of",
+        "Rangers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sion",
+        "bought",
+        "Léo Itaperuna"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Léo Itaperuna",
+        "from",
+        "Arapongas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sion",
+        "bought",
+        "Mathieu Manset"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mathieu Manset",
+        "from",
+        "Reading"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "2012–13 FC Sion season\nIn the 2012–13 season, Sion competes in the Swiss Super League and the Swiss Cup. In the summer transfer window, they brought in Italian World Cup winner Gennaro Gattuso, as well as Kyle Lafferty (former of Rangers). In addition, they bought an until then unknown Brazilian footballer called Léo Itaperuna from the 5th division Club of Arapongas and another forward Mathieu Manset from Reading.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Sion\", \"type\": \"ORG\"},\n    {\"name\": \"Swiss Super League\", \"type\": \"ORG\"},\n    {\"name\": \"Swiss Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"Gennaro Gattuso\", \"type\": \"PERSON\"},\n    {\"name\": \"Kyle Lafferty\", \"type\": \"PERSON\"},\n    {\"name\": \"Rangers\", \"type\": \"ORG\"},\n    {\"name\": \"Léo Itaperuna\", \"type\": \"PERSON\"},\n    {\"name\": \"Arapongas\", \"type\": \"GPE\"},\n    {\"name\": \"Mathieu Manset\", \"type\": \"PERSON\"},\n    {\"name\": \"Reading\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Sion\",\n      \"relation\": \"competes_in\",\n      \"object\": \"Swiss Super League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"competes in\"}\n      ]\n    },\n    {\n      \"subject\": \"Sion\",\n      \"relation\": \"competes_in\",\n      \"object\": \"Swiss Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"competes in\"}\n      ]\n    },\n    {\n      \"subject\": \"Sion\",\n      \"relation\": \"brought_in\",\n      \"object\": \"Gennaro Gattuso\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"brought in\"}\n      ]\n    },\n    {\n      \"subject\": \"Sion\",\n      \"relation\": \"brought_in\",\n      \"object\": \"Kyle Lafferty\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"brought in\"}\n      ]\n    },\n    {\n      \"subject\": \"Kyle Lafferty\",\n      \"relation\": \"former_of\",\n      \"object\": \"Rangers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"former of\"}\n      ]\n    },\n    {\n      \"subject\": \"Sion\",\n      \"relation\": \"bought\",\n      \"object\": \"Léo Itaperuna\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"bought\"}\n      ]\n    },\n    {\n      \"subject\": \"Léo Itaperuna\",\n      \"relation\": \"from\",\n      \"object\": \"Arapongas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of\"}\n      ]\n    },\n    {\n      \"subject\": \"Sion\",\n      \"relation\": \"bought\",\n      \"object\": \"Mathieu Manset\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"bought\"}\n      ]\n    },\n    {\n      \"subject\": \"Mathieu Manset\",\n      \"relation\": \"from\",\n      \"object\": \"Reading\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from\"}\n      ]\n    }\n  ]\n}"
+}

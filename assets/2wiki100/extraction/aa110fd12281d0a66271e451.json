@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Ronaldo": "WORK_OF_ART",
+    "Anthony Wonke": "PERSON",
+    "British": "NORP",
+    "Portuguese": "NORP",
+    "Cristiano Ronaldo": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Ronaldo",
+      "relation": "directed_by",
+      "object": "Anthony Wonke",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 43,
+          "char_start": 58,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Ronaldo",
+      "relation": "follows",
+      "object": "Cristiano Ronaldo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "follows the life and career of",
+          "line_start": 73,
+          "char_start": 88,
+          "ambiguous": false,
+          "relation_mention": "follows the life and career of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ronaldo",
+        "located_in",
+        "British"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cristiano Ronaldo",
+        "nationality",
+        "Portuguese"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Ronaldo (film)\nRonaldo is a 2015 British documentary film directed by Anthony Wonke. It follows the life and career of Portuguese professional footballer Cristiano Ronaldo. The film was released worldwide on 9 November 2015. A trailer for the film was released on 28 September 2015.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Ronaldo\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Anthony Wonke\", \"type\": \"PERSON\"},\n    {\"name\": \"British\", \"type\": \"NORP\"},\n    {\"name\": \"Portuguese\", \"type\": \"NORP\"},\n    {\"name\": \"Cristiano Ronaldo\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Ronaldo\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Anthony Wonke\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Ronaldo\",\n      \"relation\": \"located_in\",\n      \"object\": \"British\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"British documentary\"}\n      ]\n    },\n    {\n      \"subject\": \"Ronaldo\",\n      \"relation\": \"follows\",\n      \"object\": \"Cristiano Ronaldo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"follows the life and career of\"}\n      ]\n    },\n    {\n      \"subject\": \"Cristiano Ronaldo\",\n      \"relation\": \"nationality\",\n      \"object\": \"Portuguese\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Portuguese professional footballer\"}\n      ]\n    }\n  ]\n}"
+}

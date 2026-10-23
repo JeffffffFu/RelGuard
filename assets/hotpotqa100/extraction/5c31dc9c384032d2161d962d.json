@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "2006 Asian Games": "EVENT",
+    "XV Asiad": "EVENT",
+    "Doha": "GPE",
+    "Qatar": "GPE",
+    "Asian Games Village": "FAC",
+    "Main Media Center": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "2006 Asian Games",
+      "relation": "also_known_as",
+      "object": "XV Asiad",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "officially known as",
+          "line_start": 22,
+          "char_start": 53,
+          "ambiguous": false,
+          "relation_mention": "officially known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games",
+      "relation": "held_in",
+      "object": "Doha",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "held in",
+          "line_start": 61,
+          "char_start": 92,
+          "ambiguous": false,
+          "relation_mention": "held in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games",
+      "relation": "held_in",
+      "object": "Qatar",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "held in",
+          "line_start": 61,
+          "char_start": 92,
+          "ambiguous": false,
+          "relation_mention": "held in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "2006 Asian Games",
+        "took_place_at",
+        "Asian Games Village"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "2006 Asian Games",
+        "took_place_at",
+        "Main Media Center"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Venues of the 2006 Asian Games\nThe 2006 Asian Games, officially known as the XV Asiad, were held in Doha, Qatar from December 1 to December 15, 2006. A total of 13,000 athletes from 45 nations in the Asia competed in 424 in 39 sports. The games were the largest international multi-sport event to be staged in Doha and in Qatar. Events took place at 21 competition venues. Other venues in the games included the Asian Games Village and the Main Media Center.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"2006 Asian Games\", \"type\": \"EVENT\"},\n    {\"name\": \"XV Asiad\", \"type\": \"EVENT\"},\n    {\"name\": \"Doha\", \"type\": \"GPE\"},\n    {\"name\": \"Qatar\", \"type\": \"GPE\"},\n    {\"name\": \"Asian Games Village\", \"type\": \"FAC\"},\n    {\"name\": \"Main Media Center\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"2006 Asian Games\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"XV Asiad\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"officially known as\"}\n      ]\n    },\n    {\n      \"subject\": \"2006 Asian Games\",\n      \"relation\": \"held_in\",\n      \"object\": \"Doha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"held in\"}\n      ]\n    },\n    {\n      \"subject\": \"2006 Asian Games\",\n      \"relation\": \"held_in\",\n      \"object\": \"Qatar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"held in\"}\n      ]\n    },\n    {\n      \"subject\": \"2006 Asian Games\",\n      \"relation\": \"took_place_at\",\n      \"object\": \"Asian Games Village\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"included the Asian Games Village\"}\n      ]\n    },\n    {\n      \"subject\": \"2006 Asian Games\",\n      \"relation\": \"took_place_at\",\n      \"object\": \"Main Media Center\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"and the Main Media Center\"}\n      ]\n    }\n  ]\n}"
+}

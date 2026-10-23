@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "Francisco António": "Person",
+    "D. João Maria": "Person",
+    "D. Carlota Joaquina": "Person",
+    "Prince of Beira": "Title",
+    "Duke of Barcelos": "Title",
+    "Infante D. Pedro de Alcântara": "Person",
+    "Portugal": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Francisco António",
+      "relation": "title",
+      "object": "Prince of Beira",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "titled the Prince of Beira"
+        }
+      ]
+    },
+    {
+      "subject": "Francisco António",
+      "relation": "parent",
+      "object": "D. João Maria",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "first son of D. João Maria"
+        }
+      ]
+    },
+    {
+      "subject": "Infante D. Pedro de Alcântara",
+      "relation": "title",
+      "object": "Prince of Beira",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the Prince of Beira"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Francisco António",
+        "born_on",
+        "21 March 1795"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Francisco António",
+        "died_on",
+        "11 June 1801"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Francisco António",
+        "title",
+        "Duke of Barcelos"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Francisco António",
+        "parent",
+        "D. Carlota Joaquina"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Francisco António",
+        "passed_title_to",
+        "Infante D. Pedro de Alcântara"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Francisco António",
+        "age_at_death",
+        "6"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Francisco António",
+        "located_in",
+        "Portugal"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Francisco António, Prince of Beira\nD. Francisco Antonio of Braganza, Prince of Beira( 21 March 1795 – 11 June 1801) was the first son of D. João Maria and D. Carlota Joaquina, the Prince and Princess of Brazil. The Prince was born on 21 March 1795, and was titled the Prince of Beira and the Duke of Barcelos, as heir- apparent to the heir- apparent of the throne of Portugal. Antonio Francisco died on 11 June 1801, at the age of six, passing his title as\" Prince of Beira\" to his younger brother, the Infante D. Pedro de Alcântara."
+}

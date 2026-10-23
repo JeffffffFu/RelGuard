@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Cordélia": "WORK_OF_ART",
+    "Canadian": "NORP",
+    "French": "LANGUAGE",
+    "La lampe dans la fenêtre": "WORK_OF_ART",
+    "Pauline Cadieux": "PERSON",
+    "Jean Beaudin": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Cordélia",
+      "relation": "based_on",
+      "object": "La lampe dans la fenêtre",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 49,
+          "char_start": 58,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Cordélia",
+      "relation": "directed_by",
+      "object": "Jean Beaudin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed",
+          "line_start": 121,
+          "char_start": 130,
+          "ambiguous": false,
+          "relation_mention": "directed",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Cordélia",
+      "relation": "works_for",
+      "object": "Canadian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Canadian",
+          "line_start": 19,
+          "char_start": 28,
+          "ambiguous": false,
+          "relation_mention": "Canadian",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Cordélia",
+      "relation": "works_for",
+      "object": "French",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "French language",
+          "line_start": 28,
+          "char_start": 37,
+          "ambiguous": false,
+          "relation_mention": "French language",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Cordélia",
+      "relation": "written_by",
+      "object": "Jean Beaudin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 134,
+          "char_start": 143,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "La lampe dans la fenêtre",
+        "written_by",
+        "Pauline Cadieux"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Cordélia\nCordélia is a 1980 Canadian French language film based on the book\" La lampe dans la fenêtre\" by Pauline Cadieux. It was directed and written by Jean Beaudin."
+}

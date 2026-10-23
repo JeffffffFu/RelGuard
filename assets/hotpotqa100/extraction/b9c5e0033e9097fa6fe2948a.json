@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Rivington Hall": "Building",
+    "Rivington": "Location",
+    "Lancashire": "Location",
+    "England": "Location",
+    "Lords of the Manor of Rivington": "Title"
+  },
+  "triples": [
+    {
+      "subject": "Rivington Hall",
+      "relation": "located_in",
+      "object": "Rivington",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Rivington"
+        }
+      ]
+    },
+    {
+      "subject": "Rivington Hall",
+      "relation": "was_manor_house_for",
+      "object": "Lords of the Manor of Rivington",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was the manor house for the Lords of the Manor of Rivington"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rivington Hall",
+        "listed_as",
+        "Grade II*"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rivington Hall",
+        "located_in",
+        "Lancashire"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rivington Hall",
+        "located_in",
+        "England"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rivington Hall",
+        "is_successor_to",
+        "15th-century timber-framed courtyard house"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rivington Hall",
+        "is_private_residence",
+        "private residence"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Rivington Hall\nRivington Hall is a Grade II* listed building in Rivington, Lancashire, England. It was the manor house for the Lords of the Manor of Rivington. The hall is of various builds as successor to a 15th-century timber-framed courtyard house that was built near to the present building of which no trace remains. It is a private residence."
+}

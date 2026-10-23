@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Darland's Lake Nature Reserve": "LOC",
+    "Totteridge Village": "GPE",
+    "Barnet": "GPE",
+    "England": "GPE",
+    "London Borough of Barnet": "ORG",
+    "Hertfordshire and Middlesex Wildlife Trust": "ORG",
+    "the borough council": "ORG",
+    "Wildlife Trust": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Darland's Lake Nature Reserve",
+      "relation": "owned_by",
+      "object": "London Borough of Barnet",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned by",
+          "line_start": 104,
+          "char_start": 134,
+          "ambiguous": false,
+          "relation_mention": "owned by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Darland's Lake Nature Reserve",
+      "relation": "managed_by",
+      "object": "Hertfordshire and Middlesex Wildlife Trust",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "managed from 1971 by",
+          "line_start": 150,
+          "char_start": 180,
+          "ambiguous": false,
+          "relation_mention": "managed from 1971 by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "the borough council",
+      "relation": "proposed_leasing_to",
+      "object": "Wildlife Trust",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "proposed leasing the reserve to",
+          "line_start": 343,
+          "char_start": 373,
+          "ambiguous": false,
+          "relation_mention": "proposed leasing the reserve to",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Darland's Lake Nature Reserve",
+        "located_in",
+        "Totteridge Village"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Darland's Lake Nature Reserve",
+        "located_in",
+        "Barnet"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Darland's Lake Nature Reserve",
+        "located_in",
+        "England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Darland's Lake Nature Reserve",
+        "managed_by",
+        "the borough council"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Darland's Lake Nature Reserve\nDarland's Lake Nature Reserve is a nature reserve south of Totteridge Village in Barnet, England. It is owned by the London Borough of Barnet and was managed from 1971 by the Hertfordshire and Middlesex Wildlife Trust, and more recently by the borough council. In 2007 the council spent £215,000 on repairing the dam and other works, and then proposed leasing the reserve to the Wildlife Trust. However, the transfer did not take place and the nature reserve is currently not managed.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Darland's Lake Nature Reserve\", \"type\": \"LOC\"},\n    {\"name\": \"Totteridge Village\", \"type\": \"GPE\"},\n    {\"name\": \"Barnet\", \"type\": \"GPE\"},\n    {\"name\": \"England\", \"type\": \"GPE\"},\n    {\"name\": \"London Borough of Barnet\", \"type\": \"ORG\"},\n    {\"name\": \"Hertfordshire and Middlesex Wildlife Trust\", \"type\": \"ORG\"},\n    {\"name\": \"the borough council\", \"type\": \"ORG\"},\n    {\"name\": \"Wildlife Trust\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Darland's Lake Nature Reserve\",\n      \"relation\": \"located_in\",\n      \"object\": \"Totteridge Village\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"south of\"}\n      ]\n    },\n    {\n      \"subject\": \"Darland's Lake Nature Reserve\",\n      \"relation\": \"located_in\",\n      \"object\": \"Barnet\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Darland's Lake Nature Reserve\",\n      \"relation\": \"located_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Barnet, England\"}\n      ]\n    },\n    {\n      \"subject\": \"Darland's Lake Nature Reserve\",\n      \"relation\": \"owned_by\",\n      \"object\": \"London Borough of Barnet\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"Darland's Lake Nature Reserve\",\n      \"relation\": \"managed_by\",\n      \"object\": \"Hertfordshire and Middlesex Wildlife Trust\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"managed from 1971 by\"}\n      ]\n    },\n    {\n      \"subject\": \"Darland's Lake Nature Reserve\",\n      \"relation\": \"managed_by\",\n      \"object\": \"the borough council\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by the borough council\"}\n      ]\n    },\n    {\n      \"subject\": \"the borough council\",\n      \"relation\": \"proposed_leasing_to\",\n      \"object\": \"Wildlife Trust\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"proposed leasing the reserve to\"}\n      ]\n    }\n  ]\n}"
+}

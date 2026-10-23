@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Horace Bumstead": "PERSON",
+    "Congregationalist": "NORP",
+    "African American": "NORP",
+    "Atlanta University": "ORG",
+    "United States": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Horace Bumstead",
+      "relation": "was_a",
+      "object": "Congregationalist",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was a Congregationalist minister",
+          "line_start": 48,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "was a Congregationalist minister",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Horace Bumstead",
+      "relation": "worked_for",
+      "object": "African American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "fight for African American education",
+          "line_start": 117,
+          "char_start": 133,
+          "ambiguous": false,
+          "relation_mention": "fight for African American education",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Horace Bumstead",
+      "relation": "was_second_president_of",
+      "object": "Atlanta University",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "became the second president of Atlanta University",
+          "line_start": 158,
+          "char_start": 174,
+          "ambiguous": false,
+          "relation_mention": "became the second president of Atlanta University",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Horace Bumstead",
+      "relation": "was_one_of_the_first_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "one of the first white men in the United States to fight for educational rights for African Americans",
+          "line_start": 234,
+          "char_start": 250,
+          "ambiguous": false,
+          "relation_mention": "one of the first white men in the United States to fight for educational rights for African Americans",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Horace Bumstead",
+        "was_a",
+        "PERSON"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Horace Bumstead\nHorace Bumstead ( September 1841- January 1919) was a Congregationalist minister and educator. He used his career to fight for African American education and became the second president of Atlanta University (1888-1907). Bumstead was one of the first white men in the United States to fight for educational rights for African Americans. As a white man, he was condemned by many for taking on this role, but African Americans rallied behind his efforts and viewed him as a spokesman."
+}

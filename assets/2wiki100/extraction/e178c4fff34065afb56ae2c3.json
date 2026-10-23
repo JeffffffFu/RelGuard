@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Godwin Davy": "Person",
+    "El Salvador": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Godwin Davy",
+      "relation": "made_international_debut_against",
+      "object": "El Salvador",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "made his international debut in a World Cup qualifying match against El Salvador"
+        }
+      ]
+    },
+    {
+      "subject": "Godwin Davy",
+      "relation": "lost_to",
+      "object": "El Salvador",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "losing 12- 0 in February 2008"
+        }
+      ]
+    },
+    {
+      "subject": "Godwin Davy",
+      "relation": "played_in",
+      "object": "El Salvador",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also played in the 4 – 0 loss to the same country in the return match in March 2008"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Godwin Davy",
+        "born_on",
+        "15 December 1979"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Godwin Davy",
+        "plays_as",
+        "goalkeeper"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Godwin Davy\nGodwin Davy( born 15 December 1979) is an Anguillan international footballer who plays as a goalkeeper. He made his international debut in a World Cup qualifying match against El Salvador, resulting in a lopsided match, losing 12- 0 in February 2008, and also played in the 4 – 0 loss to the same country in the return match in March 2008."
+}

@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "Charles William Grant": "Person",
+    "Captain David Alexander Grant": "Person",
+    "Marie-Charles-Joseph Le Moyne": "Person",
+    "Caroline Coffin": "Person",
+    "General John Coffin": "Person",
+    "Anne Mathews": "Person",
+    "Baron de Longueuil": "Title",
+    "Legislative Council of Lower Canada": "Organization",
+    "Aylwing House": "Location",
+    "Kingston": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Charles William Grant",
+      "relation": "son_of",
+      "object": "Captain David Alexander Grant",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He was the son of Captain David Alexander Grant"
+        }
+      ]
+    },
+    {
+      "subject": "Charles William Grant",
+      "relation": "married_to",
+      "object": "Caroline Coffin",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "He married Caroline Coffin"
+        }
+      ]
+    },
+    {
+      "subject": "Caroline Coffin",
+      "relation": "daughter_of",
+      "object": "General John Coffin",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "daughter of General John Coffin"
+        }
+      ]
+    },
+    {
+      "subject": "Charles William Grant",
+      "relation": "member_of",
+      "object": "Legislative Council of Lower Canada",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "He became a member of the Legislative Council of Lower Canada"
+        }
+      ]
+    },
+    {
+      "subject": "Charles William Grant",
+      "relation": "succeeded_to",
+      "object": "Baron de Longueuil",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "He succeeded to the title of Baron de Longueuil"
+        }
+      ]
+    },
+    {
+      "subject": "Charles William Grant",
+      "relation": "died_at",
+      "object": "Aylwing House",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "He died on 5 July 1848 at his residence of Aylwing House"
+        }
+      ]
+    },
+    {
+      "subject": "Aylwing House",
+      "relation": "located_in",
+      "object": "Kingston",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "at his residence of Aylwing House in Kingston"
+        }
+      ]
+    },
+    {
+      "subject": "Charles William Grant",
+      "relation": "married_to",
+      "object": "Caroline Coffin",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "He married Caroline Coffin"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Charles William Grant",
+        "born_in",
+        "1782"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Charles William Grant",
+        "son_of",
+        "Marie-Charles-Joseph Le Moyne"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Caroline Coffin",
+        "daughter_of",
+        "Anne Mathews"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Charles William Grant",
+        "died_on",
+        "5 July 1848"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Charles William Grant, 5th Baron de Longueuil\nCharles William Grant was born in 1782. He was the son of Captain David Alexander Grant and Marie-Charles-Joseph Le Moyne, Baronne de Longueuil. He married Caroline Coffin, daughter of General John Coffin and Anne Mathews, in 1813. He became a member of the Legislative Council of Lower Canada. He succeeded to the title of Baron de Longueuil on 17 January 1841. He died on 5 July 1848 at his residence of Aylwing House in Kingston."
+}

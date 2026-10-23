@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Sleeper Either class": "PRODUCT",
+    "Sleeper Either class with Pantry": "PRODUCT",
+    "Great Britain": "GPE",
+    "Sleeper Either class Disabled": "PRODUCT",
+    "Denmark": "GPE",
+    "WLABr": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Sleeper Either class",
+      "relation": "used_in",
+      "object": "Great Britain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "used in Great Britain"
+        }
+      ]
+    },
+    {
+      "subject": "Sleeper Either class Disabled",
+      "relation": "reused_in",
+      "object": "Denmark",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "reused in Denmark"
+        }
+      ]
+    },
+    {
+      "subject": "Sleeper Either class Disabled",
+      "relation": "classified_as",
+      "object": "WLABr",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "classified as WLABr"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sleeper Either class",
+        "is_a_type_of",
+        "railway sleeping car"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sleeper Either class with Pantry",
+        "is_a_type_of",
+        "railway sleeping car"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sleeper Either class Disabled",
+        "is_modified_for",
+        "better wheelchair access"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sleeper Either class Disabled",
+        "is_a_type_of",
+        "railway sleeping car"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sleeper Either Class\nA Sleeper Either class (SLE) and Sleeper Either class with Pantry (SLEP) are a type of railway sleeping car used in Great Britain. Some units were later modified for better wheelchair access as Sleeper Either class Disabled (SLED). A smaller number reused in Denmark were classified as WLABr."
+}

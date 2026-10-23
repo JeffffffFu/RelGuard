@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Alexander Baird Burt": "PERSON",
+    "Scottish team": "ORG",
+    "John": "PERSON",
+    "1908 Summer Olympics": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Alexander Baird Burt",
+      "relation": "competed_in",
+      "object": "1908 Summer Olympics",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "competed in",
+          "line_start": 82,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "competed in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Alexander Baird Burt",
+        "works_for",
+        "Scottish team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Scottish team",
+        "won",
+        "bronze medal"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John",
+        "works_for",
+        "Scottish team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexander Baird Burt",
+        "nationality",
+        "Scottish team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Alexander Burt\nAlexander Baird Burt (9 April 1884 – 1967) was a Scottish field hockey player who competed in the 1908 Summer Olympics as a member of the Scottish team, which won the bronze medal. His brother, John, also was a member of the Scottish team.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Alexander Baird Burt\", \"type\": \"PERSON\"},\n    {\"name\": \"Scottish team\", \"type\": \"ORG\"},\n    {\"name\": \"John\", \"type\": \"PERSON\"},\n    {\"name\": \"1908 Summer Olympics\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Alexander Baird Burt\",\n      \"relation\": \"competed_in\",\n      \"object\": \"1908 Summer Olympics\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"competed in\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Baird Burt\",\n      \"relation\": \"works_for\",\n      \"object\": \"Scottish team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as a member of the Scottish team\"}\n      ]\n    },\n    {\n      \"subject\": \"Scottish team\",\n      \"relation\": \"won\",\n      \"object\": \"bronze medal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the bronze medal\"}\n      ]\n    },\n    {\n      \"subject\": \"John\",\n      \"relation\": \"works_for\",\n      \"object\": \"Scottish team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a member of the Scottish team\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Baird Burt\",\n      \"relation\": \"nationality\",\n      \"object\": \"Scottish team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a Scottish field hockey player\"}\n      ]\n    }\n  ]\n}"
+}

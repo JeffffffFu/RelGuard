@@ -1,0 +1,167 @@
+{
+  "entities": {
+    "Castor et Pollux": "WORK_OF_ART",
+    "Charles Dill": "PERSON",
+    "Rameau": "PERSON",
+    "Voltaire": "PERSON",
+    "Samson": "WORK_OF_ART",
+    "Telaire": "PERSON",
+    "Phoebe": "PERSON",
+    "Pollux": "PERSON",
+    "Telaira": "PERSON",
+    "Lynceus": "PERSON",
+    "Jupiter": "PERSON",
+    "Castor": "PERSON",
+    "Chorus of Spartans": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Rameau",
+      "relation": "composed",
+      "object": "Castor et Pollux",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "had composed the 1737 opera",
+          "line_start": 34,
+          "char_start": 51,
+          "ambiguous": false,
+          "relation_mention": "had composed the 1737 opera",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Voltaire",
+      "relation": "sought",
+      "object": "Chorus of Spartans",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "sought the presentation of",
+          "line_start": 244,
+          "char_start": 261,
+          "ambiguous": false,
+          "relation_mention": "sought the presentation of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Charles Dill",
+        "proposes",
+        "Rameau"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rameau",
+        "worked_with",
+        "Voltaire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Chorus of Spartans",
+        "sings",
+        "Que tout gemisse"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Telaire",
+        "is_grieving_the_loss_of",
+        "Castor"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Telaire",
+        "has_arai",
+        "Tristes apprets"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dill",
+        "notes_difference_between",
+        "1737 version"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dill",
+        "notes_difference_between",
+        "1754 version"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pollux",
+        "faces",
+        "moral dilemma between love and duty"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pollux",
+        "must_kill",
+        "Lynceus"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pollux",
+        "must_persuade",
+        "Jupiter"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pollux",
+        "must_persuade",
+        "Castor"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rameau",
+        "composed",
+        "Samson"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Charles Dill",
+        "claims",
+        "Voltaire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Voltaire",
+        "was_more_interested_in",
+        "music"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Castor et Pollux\nCharles Dill proposes that Rameau had composed the 1737 opera just after working with Voltaire on the opera \"Samson\" that was never completed, after which he composed \"Castor et Pollux\" implementing Voltaire's aesthetics. For example, Voltaire sought the presentation of static tableaus that expressed emotion, as in the first act of the 1737 version which begins at the scene of Castor's tomb with a Chorus of Spartans singing \"Que tout gemisse\", followed by a recitative between Telaire and Phoebe in which the former is grieving the loss of her lover Castor, and culminating in Telaire's lament aria \"Tristes apprets\". Dill notes that in contrast, the 1754 version begins with much more background behind the story of Telaire's love for Castor and depicts his death at the end. The events in Act I of the 1737 version appear in Act II of the 1754 version. Dill claims that Voltaire was more interested in music than action in opera. Moreover, Dill notes a difference in the plots between in the two versions. In the 1737 version, the main concern is for the moral dilemma between love and duty that Pollux faces: should he pursue his love of Telaira or rescue his brother? Of course, he chooses the latter. In the 1754 version, Dill remarks that that plot is more concerned with the tests that Pollux must face: he must kill Lynceus, persuade Jupiter not to oppose his journey into the Underworld, and persuade Castor not to accept the gift of immortality.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Castor et Pollux\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Charles Dill\", \"type\": \"PERSON\"},\n    {\"name\": \"Rameau\", \"type\": \"PERSON\"},\n    {\"name\": \"Voltaire\", \"type\": \"PERSON\"},\n    {\"name\": \"Samson\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Telaire\", \"type\": \"PERSON\"},\n    {\"name\": \"Phoebe\", \"type\": \"PERSON\"},\n    {\"name\": \"Pollux\", \"type\": \"PERSON\"},\n    {\"name\": \"Telaira\", \"type\": \"PERSON\"},\n    {\"name\": \"Lynceus\", \"type\": \"PERSON\"},\n    {\"name\": \"Jupiter\", \"type\": \"PERSON\"},\n    {\"name\": \"Castor\", \"type\": \"PERSON\"},\n    {\"name\": \"Chorus of Spartans\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Charles Dill\",\n      \"relation\": \"proposes\",\n      \"object\": \"Rameau\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"proposes that\"}\n      ]\n    },\n    {\n      \"subject\": \"Rameau\",\n      \"relation\": \"composed\",\n      \"object\": \"Castor et Pollux\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"had composed the 1737 opera\"}\n      ]\n    },\n    {\n      \"subject\": \"Rameau\",\n      \"relation\": \"worked_with\",\n      \"object\": \"Voltaire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"working with Voltaire on\"}\n      ]\n    },\n    {\n      \"subject\": \"Voltaire\",\n      \"relation\": \"sought\",\n      \"object\": \"Chorus of Spartans\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"sought the presentation of\"}\n      ]\n    },\n    {\n      \"subject\": \"Chorus of Spartans\",\n      \"relation\": \"sings\",\n      \"object\": \"Que tout gemisse\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"singing \\\"Que tout gemisse\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Telaire\",\n      \"relation\": \"is_grieving_the_loss_of\",\n      \"object\": \"Castor\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is grieving the loss of her lover Castor\"}\n      ]\n    },\n    {\n      \"subject\": \"Telaire\",\n      \"relation\": \"has_arai\",\n      \"object\": \"Tristes apprets\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"lament aria \\\"Tristes apprets\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Dill\",\n      \"relation\": \"notes_difference_between\",\n      \"object\": \"1737 version\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"notes a difference in the plots between in the two versions\"}\n      ]\n    },\n    {\n      \"subject\": \"Dill\",\n      \"relation\": \"notes_difference_between\",\n      \"object\": \"1754 version\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"notes a difference in the plots between in the two versions\"}\n      ]\n    },\n    {\n      \"subject\": \"Pollux\",\n      \"relation\": \"faces\",\n      \"object\": \"moral dilemma between love and duty\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the moral dilemma between love and duty that Pollux faces\"}\n      ]\n    },\n    {\n      \"subject\": \"Pollux\",\n      \"relation\": \"must_kill\",\n      \"object\": \"Lynceus\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"he must kill Lynceus\"}\n      ]\n    },\n    {\n      \"subject\": \"Pollux\",\n      \"relation\": \"must_persuade\",\n      \"object\": \"Jupiter\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"persuade Jupiter not to oppose his journey into the Underworld\"}\n      ]\n    },\n    {\n      \"subject\": \"Pollux\",\n      \"relation\": \"must_persuade\",\n      \"object\": \"Castor\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"persuade Castor not to accept the gift of immortality\"}\n      ]\n    },\n    {\n      \"subject\": \"Rameau\",\n      \"relation\": \"composed\",\n      \"object\": \"Samson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the opera \\\"Samson\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Charles Dill\",\n      \"relation\": \"claims\",\n      \"object\": \"Voltaire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Dill claims that Voltaire was more interested\"}\n      ]\n    },\n    {\n      \"subject\": \"Voltaire\",\n      \"relation\": \"was_more_interested_in\",\n      \"object\": \"music\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was more interested in music than action in opera\"}\n      ]\n    }\n  ]\n}"
+}

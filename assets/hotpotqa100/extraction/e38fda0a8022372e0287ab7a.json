@@ -1,0 +1,196 @@
+{
+  "entities": {
+    "Taglierini": "PRODUCT",
+    "Tagliolini": "PRODUCT",
+    "Spaghetti": "PRODUCT",
+    "tagliatelle": "PRODUCT",
+    "Capellini": "PRODUCT",
+    "Molise": "GPE",
+    "Piedmont": "GPE",
+    "Italy": "GPE",
+    "Tajarin": "PRODUCT",
+    "semolina": "PRODUCT",
+    "tajarin ai tartufi": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Taglierini",
+      "relation": "also_called",
+      "object": "Tagliolini",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "or Tagliolini",
+          "line_start": 14,
+          "char_start": 25,
+          "ambiguous": false,
+          "relation_mention": "or Tagliolini",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "similar_to",
+      "object": "Spaghetti",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "long like Spaghetti",
+          "line_start": 56,
+          "char_start": 67,
+          "ambiguous": false,
+          "relation_mention": "long like Spaghetti",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "similar_to",
+      "object": "tagliatelle",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "similar to tagliatelle",
+          "line_start": 129,
+          "char_start": 140,
+          "ambiguous": false,
+          "relation_mention": "similar to tagliatelle",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "thin_like",
+      "object": "Capellini",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "but thin like Capellini",
+          "line_start": 153,
+          "char_start": 164,
+          "ambiguous": false,
+          "relation_mention": "but thin like Capellini",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "traditional_in",
+      "object": "Molise",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in regions Molise",
+          "line_start": 205,
+          "char_start": 216,
+          "ambiguous": false,
+          "relation_mention": "in regions Molise",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "traditional_in",
+      "object": "Piedmont",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and Piedmont",
+          "line_start": 223,
+          "char_start": 234,
+          "ambiguous": false,
+          "relation_mention": "and Piedmont",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Piedmont",
+      "relation": "located_in",
+      "object": "Italy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "of Italy",
+          "line_start": 236,
+          "char_start": 247,
+          "ambiguous": false,
+          "relation_mention": "of Italy",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "called",
+      "object": "Tajarin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "called Tajarin",
+          "line_start": 258,
+          "char_start": 269,
+          "ambiguous": false,
+          "relation_mention": "called Tajarin",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "contains",
+      "object": "semolina",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "contains semolina",
+          "line_start": 330,
+          "char_start": 341,
+          "ambiguous": false,
+          "relation_mention": "contains semolina",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "tajarin ai tartufi",
+      "relation": "is_preparation_of",
+      "object": "Taglierini",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "tajarin ai tartufi",
+          "line_start": 416,
+          "char_start": 427,
+          "ambiguous": false,
+          "relation_mention": "tajarin ai tartufi",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Taglierini",
+        "type_of",
+        "ribbon pasta"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tajarin",
+        "made_of",
+        "egg dough"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Taglierini\nTaglierini ] (or Tagliolini) is a type of ribbon pasta, long like Spaghetti, two to three mm or roughly a tenth of an inch wide, similar to tagliatelle, but thin like Capellini. It is a traditional recipe in regions Molise and Piedmont of Italy, in Piedmont called Tajarin and made of egg dough (\"pasta all'uovo\"). The dough also contains semolina, flavor and salt. It is typically served with butter and truffles (\"tajarin ai tartufi\") or meat roast sauce. Taglierini finish in short cooking time, exceedingly on fresh doug and fit best to light sauces, fish, delicacies or soups."
+}

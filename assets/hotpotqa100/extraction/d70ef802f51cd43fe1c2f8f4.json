@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Big 12 Conference": "ORG",
+    "Big 12 Softball Tournament": "EVENT",
+    "Big 12 Championship": "EVENT",
+    "ASA Hall of Fame Stadium": "FAC",
+    "Oklahoma City": "GPE",
+    "Oklahoma": "GPE",
+    "NCAA Division I Softball Tournament": "EVENT",
+    "Big 12": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Big 12 Softball Tournament",
+        "also_known_as",
+        "Big 12 Championship"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Big 12 Softball Tournament",
+        "was",
+        "conference championship tournament"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Big 12 Softball Tournament",
+        "for",
+        "Big 12 Conference"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Big 12 Softball Tournament",
+        "played_at",
+        "ASA Hall of Fame Stadium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "ASA Hall of Fame Stadium",
+        "located_in",
+        "Oklahoma City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Oklahoma City",
+        "located_in",
+        "Oklahoma"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Big 12 Softball Tournament",
+        "winner_received_bid_to",
+        "NCAA Division I Softball Tournament"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Big 12",
+        "stopped_holding",
+        "postseason conference tournament"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "stated",
+        "they would be holding a tournament starting in 2017"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The tournament",
+        "will_be_hosted_at",
+        "ASA Hall of Fame Stadium"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Big 12 Conference Softball Tournament\nThe Big 12 Softball Tournament (sometimes known simply as the Big 12 Championship) was the conference championship tournament in college softball for the Big 12 Conference (Big 12). Since its inception in 1996, the tournament was played at ASA Hall of Fame Stadium in Oklahoma City, Oklahoma. The winner received the conference's automatic bid to the NCAA Division I Softball Tournament. The Big 12 stopped holding a postseason conference tournament after the 2010 competition. In 2017, the Big 12 Conference stated that they would be holding a tournament starting in 2017. The tournament will still be hosted at ASA Hall of Fame Stadium in Oklahoma City.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Big 12 Conference\", \"type\": \"ORG\"},\n    {\"name\": \"Big 12 Softball Tournament\", \"type\": \"EVENT\"},\n    {\"name\": \"Big 12 Championship\", \"type\": \"EVENT\"},\n    {\"name\": \"ASA Hall of Fame Stadium\", \"type\": \"FAC\"},\n    {\"name\": \"Oklahoma City\", \"type\": \"GPE\"},\n    {\"name\": \"Oklahoma\", \"type\": \"GPE\"},\n    {\"name\": \"NCAA Division I Softball Tournament\", \"type\": \"EVENT\"},\n    {\"name\": \"Big 12\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Big 12 Softball Tournament\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Big 12 Championship\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(sometimes known simply as the Big 12 Championship)\"}\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Softball Tournament\",\n      \"relation\": \"was\",\n      \"object\": \"conference championship tournament\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the conference championship tournament\"}\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Softball Tournament\",\n      \"relation\": \"for\",\n      \"object\": \"Big 12 Conference\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in college softball for the Big 12 Conference\"}\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Softball Tournament\",\n      \"relation\": \"played_at\",\n      \"object\": \"ASA Hall of Fame Stadium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was played at ASA Hall of Fame Stadium\"}\n      ]\n    },\n    {\n      \"subject\": \"ASA Hall of Fame Stadium\",\n      \"relation\": \"located_in\",\n      \"object\": \"Oklahoma City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Oklahoma City\"}\n      ]\n    },\n    {\n      \"subject\": \"Oklahoma City\",\n      \"relation\": \"located_in\",\n      \"object\": \"Oklahoma\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Oklahoma City, Oklahoma\"}\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Softball Tournament\",\n      \"relation\": \"winner_received_bid_to\",\n      \"object\": \"NCAA Division I Softball Tournament\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"received the conference's automatic bid to the NCAA Division I Softball Tournament\"}\n      ]\n    },\n    {\n      \"subject\": \"Big 12\",\n      \"relation\": \"stopped_holding\",\n      \"object\": \"postseason conference tournament\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stopped holding a postseason conference tournament\"}\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Conference\",\n      \"relation\": \"stated\",\n      \"object\": \"they would be holding a tournament starting in 2017\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stated that they would be holding a tournament starting in 2017\"}\n      ]\n    },\n    {\n      \"subject\": \"The tournament\",\n      \"relation\": \"will_be_hosted_at\",\n      \"object\": \"ASA Hall of Fame Stadium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"will still be hosted at ASA Hall of Fame Stadium\"}\n      ]\n    }\n  ]\n}"
+}

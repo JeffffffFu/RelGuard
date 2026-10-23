@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Breakfast burrito": "PRODUCT",
+    "American": "NORP",
+    "New Mexican cuisine": "ORG",
+    "Southwestern cuisine": "ORG",
+    "Tex-Mex": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Breakfast burrito",
+      "relation": "composed_of",
+      "object": "American",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a variety of American breakfast composed of breakfast items"
+        }
+      ]
+    },
+    {
+      "subject": "Breakfast burrito",
+      "relation": "invented_in",
+      "object": "New Mexican cuisine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "This style was invented and popularized in several regional American cuisines, most notably New Mexican cuisine"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Breakfast burrito",
+        "is_a",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Breakfast burrito",
+        "invented_in",
+        "Southwestern cuisine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Breakfast burrito",
+        "invented_in",
+        "Tex-Mex"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Breakfast burrito\nThe breakfast burrito, sometimes referred to as a breakfast wrap, is a variety of American breakfast composed of breakfast items wrapped inside a flour tortilla burrito. This style was invented and popularized in several regional American cuisines, most notably New Mexican cuisine, Southwestern cuisine, and Tex-Mex. Southwestern breakfast burritos may include scrambled eggs, potatoes, onions, chorizo, or bacon."
+}

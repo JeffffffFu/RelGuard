@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "A Rose for Everyone": "WORK_OF_ART",
+    "Claudia Cardinale": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "A Rose for Everyone",
+      "relation": "stars",
+      "object": "Claudia Cardinale",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It stars Claudia Cardinale"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "A Rose for Everyone",
+        "is_film",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "A Rose for Everyone\nA Rose for Everyone is a 1967 Italian film. It stars Claudia Cardinale."
+}

@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "Aghajari oil field": "FAC",
+    "Iranian": "NORP",
+    "Khuzestan Province": "GPE",
+    "National Iranian Oil Company": "ORG",
+    "National Iranian South Oil Company": "ORG",
+    "NIOC": "ORG",
+    "NISOC": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Aghajari oil field",
+      "relation": "located_in",
+      "object": "Khuzestan Province",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 47,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Aghajari oil field",
+      "relation": "developed_by",
+      "object": "National Iranian Oil Company",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "developed by",
+          "line_start": 108,
+          "char_start": 127,
+          "ambiguous": false,
+          "relation_mention": "developed by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Aghajari oil field",
+      "relation": "owned_by",
+      "object": "National Iranian Oil Company",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned by",
+          "line_start": 357,
+          "char_start": 376,
+          "ambiguous": false,
+          "relation_mention": "owned by",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Aghajari oil field",
+      "relation": "operated_by",
+      "object": "National Iranian South Oil Company",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "operated by",
+          "line_start": 418,
+          "char_start": 437,
+          "ambiguous": false,
+          "relation_mention": "operated by",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "National Iranian Oil Company",
+        "alias",
+        "NIOC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "National Iranian South Oil Company",
+        "alias",
+        "NISOC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Aghajari oil field",
+        "nationality",
+        "Iranian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Aghajari oil field\nThe Aghajari oil field is an iranian oil field located in Khuzestan Province. It was discovered in 1938 and developed by National Iranian Oil Company. It began production in 1940 and produces oil. The total proven reserves of the Aghajari oil field are around 30 billion barrels (3758×10tonnes), and production is centered on 300000 oilbbl/d . The field is owned by state-owned National Iranian Oil Company (NIOC) and operated by National Iranian South Oil Company (NISOC).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Aghajari oil field\", \"type\": \"FAC\"},\n    {\"name\": \"Iranian\", \"type\": \"NORP\"},\n    {\"name\": \"Khuzestan Province\", \"type\": \"GPE\"},\n    {\"name\": \"National Iranian Oil Company\", \"type\": \"ORG\"},\n    {\"name\": \"National Iranian South Oil Company\", \"type\": \"ORG\"},\n    {\"name\": \"NIOC\", \"type\": \"ORG\"},\n    {\"name\": \"NISOC\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Aghajari oil field\",\n      \"relation\": \"located_in\",\n      \"object\": \"Khuzestan Province\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Aghajari oil field\",\n      \"relation\": \"developed_by\",\n      \"object\": \"National Iranian Oil Company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"developed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Aghajari oil field\",\n      \"relation\": \"owned_by\",\n      \"object\": \"National Iranian Oil Company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"Aghajari oil field\",\n      \"relation\": \"operated_by\",\n      \"object\": \"National Iranian South Oil Company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"operated by\"}\n      ]\n    },\n    {\n      \"subject\": \"National Iranian Oil Company\",\n      \"relation\": \"alias\",\n      \"object\": \"NIOC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"NIOC\"}\n      ]\n    },\n    {\n      \"subject\": \"National Iranian South Oil Company\",\n      \"relation\": \"alias\",\n      \"object\": \"NISOC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"NISOC\"}\n      ]\n    },\n    {\n      \"subject\": \"Aghajari oil field\",\n      \"relation\": \"nationality\",\n      \"object\": \"Iranian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"iranian\"}\n      ]\n    }\n  ]\n}"
+}

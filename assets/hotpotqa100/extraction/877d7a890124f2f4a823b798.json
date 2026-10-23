@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Sadok Sassi": "Person",
+    "Club Africain": "Organization",
+    "Tunisian national team": "Organization",
+    "Tunis": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Sadok Sassi",
+      "relation": "born_in",
+      "object": "Tunis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born 15 November 1945 in Tunis"
+        }
+      ]
+    },
+    {
+      "subject": "Sadok Sassi",
+      "relation": "played_for",
+      "object": "Club Africain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played for Club Africain"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sadok Sassi",
+        "played_for",
+        "Tunisian national team"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Sadok Sassi\nSadok Sassi (Arabic: الصادق ساسي‎ ‎ ), nicknamed \"Attouga\" (born 15 November 1945 in Tunis) is a former Tunisian footballer. He was a goalkeeper and played for Club Africain and the Tunisian national team."
+}

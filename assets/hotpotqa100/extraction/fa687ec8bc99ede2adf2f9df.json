@@ -1,0 +1,158 @@
+{
+  "entities": {
+    "Kemba Walker": "PERSON",
+    "Charlotte Hornets": "ORG",
+    "National Basketball Association": "ORG",
+    "Charlotte Bobcats": "ORG",
+    "The Bronx": "GPE",
+    "New York": "GPE",
+    "Rice High School": "ORG",
+    "Connecticut men's basketball team": "ORG",
+    "United States": "GPE",
+    "Huskies": "ORG",
+    "2011 NCAA championship": "EVENT",
+    "2011 Big East championship": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Kemba Walker",
+      "relation": "drafted_by",
+      "object": "Charlotte Bobcats",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "drafted ninth overall by",
+          "line_start": 168,
+          "char_start": 181,
+          "ambiguous": false,
+          "relation_mention": "drafted ninth overall by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Kemba Walker",
+      "relation": "grew_up_in",
+      "object": "The Bronx",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "grew up in",
+          "line_start": 245,
+          "char_start": 258,
+          "ambiguous": false,
+          "relation_mention": "grew up in",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Kemba Walker",
+      "relation": "graduated_from",
+      "object": "Rice High School",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "graduated from",
+          "line_start": 281,
+          "char_start": 294,
+          "ambiguous": false,
+          "relation_mention": "graduated from",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Kemba Walker",
+      "relation": "played_for",
+      "object": "Connecticut men's basketball team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played college basketball for",
+          "line_start": 329,
+          "char_start": 342,
+          "ambiguous": false,
+          "relation_mention": "played college basketball for",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kemba Walker",
+        "works_for",
+        "Charlotte Hornets"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Charlotte Hornets",
+        "located_in",
+        "National Basketball Association"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Bronx",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kemba Walker",
+        "was_second_leading_scorer_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kemba Walker",
+        "led_to",
+        "2011 Big East championship"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kemba Walker",
+        "led_to",
+        "2011 NCAA championship"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kemba Walker",
+        "named_most_outstanding_player_for",
+        "2011 Big East championship"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kemba Walker",
+        "named_most_outstanding_player_for",
+        "2011 NCAA championship"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kemba Walker",
+        "plays_for",
+        "Huskies"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kemba Walker\nKemba Hudley Walker (born May 8, 1990) is an American professional basketball player for the Charlotte Hornets of the National Basketball Association (NBA). Walker was drafted ninth overall by the Charlotte Bobcats in the 2011 NBA draft. Walker grew up in The Bronx, New York, and graduated from Rice High School in 2008. Walker played college basketball for the Connecticut men's basketball team. In the 2010–11 season, Walker was unanimously selected for the All-Big East first team, Walker was the second-leading college basketball scorer in the United States and led the Huskies to the 2011 Big East championship and 2011 NCAA championship and was named as the tournament's most outstanding player for both championships.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kemba Walker\", \"type\": \"PERSON\"},\n    {\"name\": \"Charlotte Hornets\", \"type\": \"ORG\"},\n    {\"name\": \"National Basketball Association\", \"type\": \"ORG\"},\n    {\"name\": \"Charlotte Bobcats\", \"type\": \"ORG\"},\n    {\"name\": \"The Bronx\", \"type\": \"GPE\"},\n    {\"name\": \"New York\", \"type\": \"GPE\"},\n    {\"name\": \"Rice High School\", \"type\": \"ORG\"},\n    {\"name\": \"Connecticut men's basketball team\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Huskies\", \"type\": \"ORG\"},\n    {\"name\": \"2011 NCAA championship\", \"type\": \"EVENT\"},\n    {\"name\": \"2011 Big East championship\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kemba Walker\",\n      \"relation\": \"works_for\",\n      \"object\": \"Charlotte Hornets\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"player for\"}\n      ]\n    },\n    {\n      \"subject\": \"Charlotte Hornets\",\n      \"relation\": \"located_in\",\n      \"object\": \"National Basketball Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemba Walker\",\n      \"relation\": \"drafted_by\",\n      \"object\": \"Charlotte Bobcats\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"drafted ninth overall by\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemba Walker\",\n      \"relation\": \"grew_up_in\",\n      \"object\": \"The Bronx\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"grew up in\"}\n      ]\n    },\n    {\n      \"subject\": \"The Bronx\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \",\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemba Walker\",\n      \"relation\": \"graduated_from\",\n      \"object\": \"Rice High School\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"graduated from\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemba Walker\",\n      \"relation\": \"played_for\",\n      \"object\": \"Connecticut men's basketball team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played college basketball for\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemba Walker\",\n      \"relation\": \"was_second_leading_scorer_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemba Walker\",\n      \"relation\": \"led_to\",\n      \"object\": \"2011 Big East championship\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"led the Huskies to the 2011 Big East championship\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemba Walker\",\n      \"relation\": \"led_to\",\n      \"object\": \"2011 NCAA championship\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and 2011 NCAA championship\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemba Walker\",\n      \"relation\": \"named_most_outstanding_player_for\",\n      \"object\": \"2011 Big East championship\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was named as the tournament's most outstanding player for both championships\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemba Walker\",\n      \"relation\": \"named_most_outstanding_player_for\",\n      \"object\": \"2011 NCAA championship\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was named as the tournament's most outstanding player for both championships\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemba Walker\",\n      \"relation\": \"plays_for\",\n      \"object\": \"Huskies\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"led the Huskies to the 2011 Big East championship\"}\n      ]\n    }\n  ]\n}"
+}

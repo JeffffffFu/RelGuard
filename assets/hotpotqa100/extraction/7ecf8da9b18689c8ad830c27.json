@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "South America": "GPE",
+    "South American agriculture": "LOC",
+    "biodiversity": "LOC",
+    "non-native species": "PRODUCT",
+    "residents": "PERSON",
+    "species": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "South America",
+      "relation": "threat_to",
+      "object": "biodiversity",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "are a serious threat to the native biodiversity of South America"
+        }
+      ]
+    },
+    {
+      "subject": "South America",
+      "relation": "important_region_for",
+      "object": "biodiversity",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "is an important region for the worlds biodiversity"
+        }
+      ]
+    },
+    {
+      "subject": "residents",
+      "relation": "value",
+      "object": "non-native species",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "residents of the region often value these species"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "non-native species",
+        "pose_harm_to",
+        "ecosystems"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "species",
+        "necessary_steps_in_solving",
+        "invasive issues"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Invasive species in South America\nInvasive species are a serious threat to the native biodiversity of South America and are an ongoing cost to South American agriculture. South America is an important region for the worlds biodiversity, and includes a wide variety of native species, many of which provide . Introduced species in South America, have the potential to pose harm to ecosystems of the region and the aforementioned biodiversity. Although many of these non-native species are invasive, residents of the region often value these species, making it more difficult to organize efforts to get rid of them. Because of the instrumental and cultural value placed on these species, greater awareness, research, and policy are all necessary steps in solving invasive issues in South America. Here is a list of just a few of the species that have invaded South America and where they originate."
+}

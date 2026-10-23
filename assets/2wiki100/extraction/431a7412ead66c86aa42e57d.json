@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Maj-Briht Bergström-Walan": "Person",
+    "Sweden": "Location",
+    "psychologist": "Profession",
+    "midwife": "Profession",
+    "sexologist": "Profession"
+  },
+  "triples": [
+    {
+      "subject": "Maj-Briht Bergström-Walan",
+      "relation": "was",
+      "object": "psychologist",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a Swedish psychologist"
+        }
+      ]
+    },
+    {
+      "subject": "Maj-Briht Bergström-Walan",
+      "relation": "was",
+      "object": "sexologist",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first authorised sexologist in Sweden"
+        }
+      ]
+    },
+    {
+      "subject": "Maj-Briht Bergström-Walan",
+      "relation": "located_in",
+      "object": "Sweden",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first authorised sexologist in Sweden"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Maj-Briht Bergström-Walan",
+        "was",
+        "midwife"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Maj-Briht Bergström-Walan\nMaj- Briht Bergström- Walan( 17 November 1924 – 25 August 2014) was a Swedish psychologist and midwife, as well as the first authorised sexologist in Sweden."
+}

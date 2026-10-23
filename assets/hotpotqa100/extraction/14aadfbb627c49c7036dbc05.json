@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Aerials": "film",
+    "S.A.Zaidi": "person",
+    "Ghanem Ghubash": "person",
+    "Dubai": "location",
+    "United Arab Emirates": "location",
+    "Middle East": "location"
+  },
+  "triples": [
+    {
+      "subject": "Aerials",
+      "relation": "set_in",
+      "object": "Dubai",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "set in the city of Dubai"
+        }
+      ]
+    },
+    {
+      "subject": "Aerials",
+      "relation": "produced_by",
+      "object": "Ghanem Ghubash",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Ghanem Ghubash"
+        }
+      ]
+    },
+    {
+      "subject": "Aerials",
+      "relation": "directed_by",
+      "object": "S.A.Zaidi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Directed by S.A.Zaidi"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Aerials",
+        "released_in",
+        "2016"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aerials",
+        "considered_as",
+        "first science fiction film in the Middle East"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aerials",
+        "portrays",
+        "alien invasion"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Aerials (film)\nAerials is a 2016 Emirati science fiction film set in the city of Dubai, United Arab Emirates. Directed by S.A.Zaidi and produced by Ghanem Ghubash, it is considered to be the first science fiction film in the Middle East portraying an alien invasion over the city of Dubai."
+}

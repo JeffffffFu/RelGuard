@@ -1,0 +1,125 @@
+{
+  "entities": {
+    "School Of Alternatives": "ORG",
+    "The HUB": "ORG",
+    "Jackson County": "GPE",
+    "North Carolina": "GPE",
+    "Scotts Creek School": "ORG",
+    "Scotts Creek Elementary School": "ORG",
+    "US 19/23": "FAC",
+    "Addie Community": "LOC",
+    "Scotts Creek": "LOC",
+    "The Gym/Auditorium": "FAC",
+    "High School students": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "School Of Alternatives",
+      "relation": "also_known_as",
+      "object": "The HUB",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also known as",
+          "line_start": 28,
+          "char_start": 51,
+          "ambiguous": false,
+          "relation_mention": "also known as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "School Of Alternatives",
+        "located_in",
+        "Jackson County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "School Of Alternatives",
+        "located_in",
+        "North Carolina"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "School Of Alternatives",
+        "opened_in",
+        "Scotts Creek School"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Scotts Creek School",
+        "built_in",
+        "1951"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "School Of Alternatives",
+        "opened_in_year",
+        "2002"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Scotts Creek Elementary School",
+        "opened_in_year",
+        "2001"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "School Of Alternatives",
+        "located_on",
+        "US 19/23"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "School Of Alternatives",
+        "located_in",
+        "Addie Community"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "playgrounds",
+        "border",
+        "Scotts Creek"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Gym/Auditorium",
+        "is_part_of",
+        "Scotts Creek School"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The HUB",
+        "takes_in",
+        "High School students"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "School of Alternatives\nThe School Of Alternatives, also known as The HUB, is an alternative school in Jackson County, North Carolina for grades K–12 which deals with students who are disabled or have social/behavioral issues in the other county schools. It opened in the old Scotts Creek School, built in 1951, in 2002 after the new Scotts Creek Elementary School opened in 2001. The building received several renovations when it was converted into the HUB. It is the oldest school building still in use as a school in the county. It is located on old US 19/23 in the Addie Community and the playgrounds border Scotts Creek. When it opened it was a state-of-the-art facility, and didn't require blinds because the building was positioned at such an angle that the sun would always be overhead and would never directly shine into the classrooms windows. The building has two floors on the backside and one floor on the front. A small addition was added to the middle section of the school in the 1970s or 1980s. The Gym/Auditorium is small by modern standards, as the sideline was the wall. The new school that replaced Scotts Creek has a separate Gym and Auditorium, both of which are relatively large when compared to the old Gym/Auditorium. The HUB also takes in many High School students who either get in fights or have alcohol/drug problems.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"School Of Alternatives\", \"type\": \"ORG\"},\n    {\"name\": \"The HUB\", \"type\": \"ORG\"},\n    {\"name\": \"Jackson County\", \"type\": \"GPE\"},\n    {\"name\": \"North Carolina\", \"type\": \"GPE\"},\n    {\"name\": \"Scotts Creek School\", \"type\": \"ORG\"},\n    {\"name\": \"Scotts Creek Elementary School\", \"type\": \"ORG\"},\n    {\"name\": \"US 19/23\", \"type\": \"FAC\"},\n    {\"name\": \"Addie Community\", \"type\": \"LOC\"},\n    {\"name\": \"Scotts Creek\", \"type\": \"LOC\"},\n    {\"name\": \"The Gym/Auditorium\", \"type\": \"FAC\"},\n    {\"name\": \"High School students\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"School Of Alternatives\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"The HUB\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"School Of Alternatives\",\n      \"relation\": \"located_in\",\n      \"object\": \"Jackson County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Jackson County\"}\n      ]\n    },\n    {\n      \"subject\": \"School Of Alternatives\",\n      \"relation\": \"located_in\",\n      \"object\": \"North Carolina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Jackson County, North Carolina\"}\n      ]\n    },\n    {\n      \"subject\": \"School Of Alternatives\",\n      \"relation\": \"opened_in\",\n      \"object\": \"Scotts Creek School\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"opened in the old Scotts Creek School\"}\n      ]\n    },\n    {\n      \"subject\": \"Scotts Creek School\",\n      \"relation\": \"built_in\",\n      \"object\": \"1951\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"built in 1951\"}\n      ]\n    },\n    {\n      \"subject\": \"School Of Alternatives\",\n      \"relation\": \"opened_in_year\",\n      \"object\": \"2002\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in 2002\"}\n      ]\n    },\n    {\n      \"subject\": \"Scotts Creek Elementary School\",\n      \"relation\": \"opened_in_year\",\n      \"object\": \"2001\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"opened in 2001\"}\n      ]\n    },\n    {\n      \"subject\": \"School Of Alternatives\",\n      \"relation\": \"located_on\",\n      \"object\": \"US 19/23\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located on old US 19/23\"}\n      ]\n    },\n    {\n      \"subject\": \"School Of Alternatives\",\n      \"relation\": \"located_in\",\n      \"object\": \"Addie Community\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Addie Community\"}\n      ]\n    },\n    {\n      \"subject\": \"playgrounds\",\n      \"relation\": \"border\",\n      \"object\": \"Scotts Creek\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"border Scotts Creek\"}\n      ]\n    },\n    {\n      \"subject\": \"The Gym/Auditorium\",\n      \"relation\": \"is_part_of\",\n      \"object\": \"Scotts Creek School\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The Gym/Auditorium\"}\n      ]\n    },\n    {\n      \"subject\": \"The HUB\",\n      \"relation\": \"takes_in\",\n      \"object\": \"High School students\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"takes in many High School students\"}\n      ]\n    }\n  ]\n}"
+}

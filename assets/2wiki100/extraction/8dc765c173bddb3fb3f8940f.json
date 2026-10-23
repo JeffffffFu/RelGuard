@@ -1,0 +1,35 @@
+{
+  "entities": {
+    "Yonfan": "PERSON",
+    "Hong Kong": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Yonfan",
+        "born_on",
+        "Yonfan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Yonfan",
+        "located_in",
+        "Hong Kong"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Yonfan",
+        "works_as",
+        "Yonfan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Yonfan\nYonfan( born 14 October 1947) is a Hong Kong film director and photographer.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Yonfan\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Hong Kong\",\n      \"type\": \"GPE\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Yonfan\",\n      \"relation\": \"born_on\",\n      \"object\": \"Yonfan\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"born 14 October 1947\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Yonfan\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hong Kong\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a Hong Kong film director\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Yonfan\",\n      \"relation\": \"works_as\",\n      \"object\": \"Yonfan\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"film director and photographer\"\n        }\n      ]\n    }\n  ]\n}"
+}

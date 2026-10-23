@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Michael Hurst": "PERSON",
+    "New Zealand": "GPE",
+    "Starz": "ORG",
+    "Ash vs Evil Dead": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Michael Hurst",
+      "relation": "born_in",
+      "object": "New Zealand",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "British-born New Zealand actor"
+        }
+      ]
+    },
+    {
+      "subject": "Michael Hurst",
+      "relation": "works_for",
+      "object": "Starz",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directing the popular Starz series"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Michael Hurst",
+        "known_for",
+        "Ash vs Evil Dead"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Michael Hurst\nMichael Eric Hurst, ONZM (born 20 September 1957) is a British-born New Zealand actor, director and writer, mostly on stage and television. He is probably best known internationally for playing Iolaus in the television programs  and companion series . Most recently, he is known for his role in directing the popular Starz series  and \"Ash vs Evil Dead\"."
+}

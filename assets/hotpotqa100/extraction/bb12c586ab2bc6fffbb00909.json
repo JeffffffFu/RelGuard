@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "open economy": "concept",
+    "domestic community": "concept",
+    "international community": "concept",
+    "goods and services": "concept",
+    "funds": "concept",
+    "railway services": "concept"
+  },
+  "triples": [
+    {
+      "subject": "open economy",
+      "relation": "involves_activities_with",
+      "object": "domestic community",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "economic activities between the domestic community and outside"
+        }
+      ]
+    },
+    {
+      "subject": "open economy",
+      "relation": "involves_activities_with",
+      "object": "international community",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "trade in goods and services with other people and businesses in the international community"
+        }
+      ]
+    },
+    {
+      "subject": "open economy",
+      "relation": "allows_flow_of",
+      "object": "funds",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "funds can flow as investments across the border"
+        }
+      ]
+    },
+    {
+      "subject": "open economy",
+      "relation": "involves",
+      "object": "goods and services",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "trade in goods and services"
+        }
+      ]
+    },
+    {
+      "subject": "railway services",
+      "relation": "cannot_be_exchanged_with",
+      "object": "international community",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the railway services of a country, for example, cannot be traded with another country"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "open economy",
+        "is_a",
+        "concept"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Open economy\nAn open economy is an economy in which there are economic activities between the domestic community and outside. People and even businesses can trade in goods and services with other people and businesses in the international community, and funds can flow as investments across the border. Trade can take the form of managerial exchange, technology transfers, and all kinds of goods and services. (However, certain exceptions exist that cannot be exchanged; the railway services of a country, for example, cannot be traded with another country to avail the service.)"
+}

@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "Seacroft": "GPE",
+    "Lincolnshire": "GPE",
+    "East Lindsey": "GPE",
+    "Skegness": "GPE",
+    "Gibraltar Point nature reserve": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Seacroft",
+      "relation": "located_in",
+      "object": "Lincolnshire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Seacroft is a linear settlement in the East Lindsey district of Lincolnshire, England."
+        }
+      ]
+    },
+    {
+      "subject": "Seacroft",
+      "relation": "located_in",
+      "object": "East Lindsey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Seacroft is a linear settlement in the East Lindsey district of Lincolnshire, England."
+        }
+      ]
+    },
+    {
+      "subject": "Seacroft",
+      "relation": "conjoined_to",
+      "object": "Skegness",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It lies at the south of, and is conjoined to, Skegness"
+        }
+      ]
+    },
+    {
+      "subject": "Gibraltar Point nature reserve",
+      "relation": "located_south_of",
+      "object": "Seacroft",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Farther south is Gibraltar Point nature reserve."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Seacroft",
+        "contains",
+        "Seacroft Esplanade"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Seacroft",
+        "contains",
+        "golf course"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Seacroft, Lincolnshire\nSeacroft is a linear settlement in the East Lindsey district of Lincolnshire, England. It lies at the south of, and is conjoined to, Skegness , and comprises the less than half-mile long residential road, Seacroft Esplanade, and a golf course at its south. Farther south is Gibraltar Point nature reserve."
+}

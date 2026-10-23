@@ -1,0 +1,127 @@
+{
+  "entities": {
+    "Nissan Cefiro": "PRODUCT",
+    "Nissan Motors": "ORG",
+    "Japan": "GPE",
+    "Nissan Satio Store": "ORG",
+    "Nissan Laurel": "PRODUCT",
+    "Nissan Skyline": "PRODUCT",
+    "A32": "PRODUCT",
+    "A33": "PRODUCT",
+    "J30 Maxima": "PRODUCT",
+    "Renault Samsung SM5": "PRODUCT",
+    "Europe": "LOC",
+    "Middle East": "LOC",
+    "New Zealand": "GPE",
+    "Australia": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Nissan Cefiro",
+      "relation": "produced_by",
+      "object": "Nissan Motors",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by the Japanese automobile manufacture Nissan Motors"
+        }
+      ]
+    },
+    {
+      "subject": "Nissan Cefiro",
+      "relation": "introduced_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Introduced to Japan in 1988"
+        }
+      ]
+    },
+    {
+      "subject": "Nissan Cefiro",
+      "relation": "shared_chassis_with",
+      "object": "Nissan Laurel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "initially shared its basic rear-wheel drive chassis with the Nissan Laurel (C33)"
+        }
+      ]
+    },
+    {
+      "subject": "A32",
+      "relation": "took_on_nameplace_of",
+      "object": "Nissan Cefiro",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "which took on the Cefiro nameplace in the Japanese domestic market"
+        }
+      ]
+    },
+    {
+      "subject": "A33",
+      "relation": "took_on_nameplace_of",
+      "object": "Nissan Cefiro",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "which took on the Cefiro nameplace in the Japanese domestic market"
+        }
+      ]
+    },
+    {
+      "subject": "A32",
+      "relation": "closely_followed_lineage_of",
+      "object": "J30 Maxima",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The A32 and A33 closely follow the lineage of the J30 Maxima"
+        }
+      ]
+    },
+    {
+      "subject": "A33",
+      "relation": "closely_followed_lineage_of",
+      "object": "J30 Maxima",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The A32 and A33 closely follow the lineage of the J30 Maxima"
+        }
+      ]
+    },
+    {
+      "subject": "Nissan Cefiro",
+      "relation": "badge_engineered_as",
+      "object": "Renault Samsung SM5",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "It is also badge engineered as the Renault Samsung SM5"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nissan Cefiro",
+        "sold_as",
+        "Nissan Maxima"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nissan Cefiro",
+        "shared_chassis_with",
+        "Nissan Skyline"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Nissan Cefiro\nThe Nissan Cefiro is a luxury car that was produced by the Japanese automobile manufacture Nissan Motors. Introduced to Japan in 1988 as the A31 series four-door sedan, and exclusive to Japanese Nissan dealerships called \"Nissan Satio Store\", the Cefiro initially shared its basic rear-wheel drive chassis with the Nissan Laurel (C33), (F31), and the Nissan Skyline (R32). After production of the A31 stopped, the Cefiro dropped its sporting pretensions and essentially saw the standalone Cefiro model deleted from the lineup. This came with the introduction of the A32 and A33 Maxima, which took on the Cefiro nameplace in the Japanese domestic market although it bore no mechanical relation to the A31. The A32 and A33 closely follow the lineage of the J30 Maxima which was produced at the same time as the A31 Cefiro. The second generation (A32) and third (A33) generation Cefiro saw the switching to the front-wheel drive layout with a V6 engine. In Europe, the Middle East, New Zealand and Australia, the A32 and A33 series models were sold new as the Nissan Maxima. It is also badge engineered as the Renault Samsung SM5."
+}

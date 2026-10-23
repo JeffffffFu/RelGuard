@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Daniil Khrabrovitsky": "Person",
+    "Rostov-on-Don": "Location",
+    "Moscow": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Daniil Khrabrovitsky",
+      "relation": "born_in",
+      "object": "Rostov-on-Don",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "June 28, 1923, Rostov-on-Don"
+        }
+      ]
+    },
+    {
+      "subject": "Daniil Khrabrovitsky",
+      "relation": "died_in",
+      "object": "Moscow",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "March 1, 1980, Moscow"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Daniil Khrabrovitsky",
+        "was_a",
+        "Soviet scriptwriter and film director"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Daniil Khrabrovitsky\nDaniil Yakovlevich Khrabrovitsky (June 28, 1923, Rostov-on-Don – March 1, 1980, Moscow) was a Soviet scriptwriter and film director."
+}

@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "The Shame of a City": "WORK_OF_ART",
+    "Philadelphia Film Festival": "EVENT",
+    "Tigre Hill": "PERSON",
+    "Philadelphia": "GPE",
+    "John Street": "PERSON",
+    "Sam Katz": "PERSON",
+    "Democrat": "NORP",
+    "Republican": "NORP",
+    "FBI": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "The Shame of a City",
+      "relation": "premiered_at",
+      "object": "Philadelphia Film Festival",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "premiered at",
+          "line_start": 64,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "premiered at",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tigre Hill",
+        "directed",
+        "The Shame of a City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tigre Hill",
+        "works_for",
+        "Philadelphia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Street",
+        "is",
+        "Democrat"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Street",
+        "held_position_in",
+        "Philadelphia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sam Katz",
+        "is",
+        "Republican"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FBI",
+        "found",
+        "mayor’s office"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John Street",
+        "won_re_election_in",
+        "Philadelphia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Shame of a City\nThe Shame of a City is a 2006 feature-length documentary, which premiered at the Philadelphia Film Festival. Filmmaker Tigre Hill chronicles the 2003 Philadelphia mayoral race between Democrat incumbent mayor John Street and Republican challenger Sam Katz. Early polls showed Katz with a small lead in this predominantly Democratic city but twenty-seven days before the election, an FBI bug was found in the mayor’s office. The discovery at first seemed like a death knell to the Street campaign and a near certain victory for Katz. Yet this prediction was proven wrong when Street and his supporters successfully polarized the campaign by leveling accusations of instituational racial prejudice and playing on historical skepticism of the Republican-controlled federal government. As a result, Street won re-election by a sixteen-point margin.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Shame of a City\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Philadelphia Film Festival\", \"type\": \"EVENT\"},\n    {\"name\": \"Tigre Hill\", \"type\": \"PERSON\"},\n    {\"name\": \"Philadelphia\", \"type\": \"GPE\"},\n    {\"name\": \"John Street\", \"type\": \"PERSON\"},\n    {\"name\": \"Sam Katz\", \"type\": \"PERSON\"},\n    {\"name\": \"Democrat\", \"type\": \"NORP\"},\n    {\"name\": \"Republican\", \"type\": \"NORP\"},\n    {\"name\": \"FBI\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Shame of a City\",\n      \"relation\": \"premiered_at\",\n      \"object\": \"Philadelphia Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"premiered at\"}\n      ]\n    },\n    {\n      \"subject\": \"Tigre Hill\",\n      \"relation\": \"directed\",\n      \"object\": \"The Shame of a City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"chronicles\"}\n      ]\n    },\n    {\n      \"subject\": \"Tigre Hill\",\n      \"relation\": \"works_for\",\n      \"object\": \"Philadelphia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"chronicles the 2003 Philadelphia\"}\n      ]\n    },\n    {\n      \"subject\": \"John Street\",\n      \"relation\": \"is\",\n      \"object\": \"Democrat\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Democrat\"}\n      ]\n    },\n    {\n      \"subject\": \"John Street\",\n      \"relation\": \"held_position_in\",\n      \"object\": \"Philadelphia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Philadelphia mayoral\"}\n      ]\n    },\n    {\n      \"subject\": \"Sam Katz\",\n      \"relation\": \"is\",\n      \"object\": \"Republican\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Republican\"}\n      ]\n    },\n    {\n      \"subject\": \"FBI\",\n      \"relation\": \"found\",\n      \"object\": \"mayor’s office\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"an FBI bug was found in the mayor’s office\"}\n      ]\n    },\n    {\n      \"subject\": \"John Street\",\n      \"relation\": \"won_re_election_in\",\n      \"object\": \"Philadelphia\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"Street won re-election\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Shannon Purser": "PERSON",
+    "American": "NORP",
+    "Stranger Things": "WORK_OF_ART",
+    "Barbara \"Barb\" Holland": "PERSON",
+    "Ethel Muggs": "PERSON",
+    "Riverdale": "WORK_OF_ART",
+    "The CW": "ORG",
+    "June Acosta": "PERSON",
+    "Wish Upon": "WORK_OF_ART",
+    "Netflix": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Shannon Purser",
+      "relation": "made_acting_debut_in",
+      "object": "Stranger Things",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made her acting debut in",
+          "line_start": 64,
+          "char_start": 79,
+          "ambiguous": false,
+          "relation_mention": "made her acting debut in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Shannon Purser",
+      "relation": "made_film_debut_in",
+      "object": "Wish Upon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made her film debut as",
+          "line_start": 231,
+          "char_start": 246,
+          "ambiguous": false,
+          "relation_mention": "made her film debut as",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Shannon Purser",
+        "is_a",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Shannon Purser",
+        "portrays",
+        "Barbara \"Barb\" Holland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Shannon Purser",
+        "portrays",
+        "Ethel Muggs"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ethel Muggs",
+        "appears_in",
+        "Riverdale"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Riverdale",
+        "broadcast_by",
+        "The CW"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wish Upon",
+        "distributed_by",
+        "Netflix"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Shannon Purser",
+        "portrays",
+        "June Acosta"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Shannon Purser\nShannon Purser (born June 27, 1997) is an American actress. She made her acting debut in the Netflix drama series \"Stranger Things\" as Barbara \"Barb\" Holland, and portrays Ethel Muggs in The CW's teen drama series \"Riverdale\". She made her film debut as June Acosta in the 2017 horror film \"Wish Upon\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Shannon Purser\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Stranger Things\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Barbara \\\"Barb\\\" Holland\", \"type\": \"PERSON\"},\n    {\"name\": \"Ethel Muggs\", \"type\": \"PERSON\"},\n    {\"name\": \"Riverdale\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The CW\", \"type\": \"ORG\"},\n    {\"name\": \"June Acosta\", \"type\": \"PERSON\"},\n    {\"name\": \"Wish Upon\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Netflix\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Shannon Purser\",\n      \"relation\": \"is_a\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an\"}\n      ]\n    },\n    {\n      \"subject\": \"Shannon Purser\",\n      \"relation\": \"made_acting_debut_in\",\n      \"object\": \"Stranger Things\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made her acting debut in\"}\n      ]\n    },\n    {\n      \"subject\": \"Shannon Purser\",\n      \"relation\": \"portrays\",\n      \"object\": \"Barbara \\\"Barb\\\" Holland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as\"}\n      ]\n    },\n    {\n      \"subject\": \"Shannon Purser\",\n      \"relation\": \"portrays\",\n      \"object\": \"Ethel Muggs\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"portrays\"}\n      ]\n    },\n    {\n      \"subject\": \"Ethel Muggs\",\n      \"relation\": \"appears_in\",\n      \"object\": \"Riverdale\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Riverdale\",\n      \"relation\": \"broadcast_by\",\n      \"object\": \"The CW\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The CW's\"}\n      ]\n    },\n    {\n      \"subject\": \"Shannon Purser\",\n      \"relation\": \"made_film_debut_in\",\n      \"object\": \"Wish Upon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made her film debut as\"}\n      ]\n    },\n    {\n      \"subject\": \"Wish Upon\",\n      \"relation\": \"distributed_by\",\n      \"object\": \"Netflix\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Netflix\"}\n      ]\n    },\n    {\n      \"subject\": \"Shannon Purser\",\n      \"relation\": \"portrays\",\n      \"object\": \"June Acosta\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as June Acosta\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "Bommalattam": "WORK_OF_ART",
+    "Bharathiraja": "PERSON",
+    "Arjun Sarja": "PERSON",
+    "Nana Patekar": "PERSON",
+    "Cinema": "WORK_OF_ART",
+    "Final Cut of Director": "WORK_OF_ART",
+    "Tamil": "LANGUAGE",
+    "Hindi": "LANGUAGE"
+  },
+  "triples": [
+    {
+      "subject": "Bommalattam",
+      "relation": "directed_by",
+      "object": "Bharathiraja",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 40,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Bommalattam",
+      "relation": "stars",
+      "object": "Arjun Sarja",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 65,
+          "char_start": 89,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Bommalattam",
+      "relation": "stars",
+      "object": "Nana Patekar",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 65,
+          "char_start": 89,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Cinema",
+        "is_title_of",
+        "Bommalattam"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Final Cut of Director",
+        "is_title_of",
+        "Bommalattam"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bommalattam",
+        "language",
+        "Tamil"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cinema",
+        "language",
+        "Hindi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Final Cut of Director",
+        "released_in",
+        "2016"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bommalattam",
+        "marks_debut_for",
+        "Nana Patekar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Bommalattam (2008 film)\nBommalattam is a 2008 Indian Tamil film directed by Bharathiraja starring Arjun Sarja and Nana Patekar in the lead roles. Originally filmed in Hindi under the title\" Cinema\", the film was released first in Tamil. Hindi version retitled\" Final Cut of Director\" had a limited release in 2016. This marked Nana Patekar's Tamil film debut.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bommalattam\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Bharathiraja\", \"type\": \"PERSON\"},\n    {\"name\": \"Arjun Sarja\", \"type\": \"PERSON\"},\n    {\"name\": \"Nana Patekar\", \"type\": \"PERSON\"},\n    {\"name\": \"Cinema\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Final Cut of Director\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Tamil\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Hindi\", \"type\": \"LANGUAGE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bommalattam\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Bharathiraja\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Bommalattam\",\n      \"relation\": \"stars\",\n      \"object\": \"Arjun Sarja\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Bommalattam\",\n      \"relation\": \"stars\",\n      \"object\": \"Nana Patekar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Cinema\",\n      \"relation\": \"is_title_of\",\n      \"object\": \"Bommalattam\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"titled\\\" Cinema\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Final Cut of Director\",\n      \"relation\": \"is_title_of\",\n      \"object\": \"Bommalattam\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"retitled\\\" Final Cut of Director\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Bommalattam\",\n      \"relation\": \"language\",\n      \"object\": \"Tamil\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Tamil\"}\n      ]\n    },\n    {\n      \"subject\": \"Cinema\",\n      \"relation\": \"language\",\n      \"object\": \"Hindi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Hindi\"}\n      ]\n    },\n    {\n      \"subject\": \"Final Cut of Director\",\n      \"relation\": \"released_in\",\n      \"object\": \"2016\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"had a limited release in 2016\"}\n      ]\n    },\n    {\n      \"subject\": \"Bommalattam\",\n      \"relation\": \"marks_debut_for\",\n      \"object\": \"Nana Patekar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"This marked Nana Patekar's Tamil film debut\"}\n      ]\n    }\n  ]\n}"
+}

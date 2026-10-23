@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "John Aubrey Allen": "Person",
+    "Oxford University Cricket Club": "Organization",
+    "Windsor, New South Wales": "Location"
+  },
+  "triples": [
+    {
+      "subject": "John Aubrey Allen",
+      "relation": "born_in",
+      "object": "Windsor, New South Wales",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born 19 July 1974 in Windsor, New South Wales"
+        }
+      ]
+    },
+    {
+      "subject": "John Aubrey Allen",
+      "relation": "plays_for",
+      "object": "Oxford University Cricket Club",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who played for Oxford University Cricket Club"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John Aubrey Allen",
+        "played_for",
+        "Oxford University Cricket Club"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "John Allen (Oxford University cricketer)\nJohn Aubrey Allen( born 19 July 1974 in Windsor, New South Wales) is an Australian- born first- class cricketer who played for Oxford University Cricket Club. Both his first- class games were for Oxford University, one of which was a varsity match."
+}

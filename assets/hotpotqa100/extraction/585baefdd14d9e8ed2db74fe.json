@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Fifty Shades Freed": "WORK_OF_ART",
+    "James Foley": "PERSON",
+    "Niall Leonard": "PERSON",
+    "E. L. James": "PERSON",
+    "Fifty Shades trilogy": "WORK_OF_ART",
+    "Fifty Shades of Grey": "WORK_OF_ART",
+    "Fifty Shades Darker": "WORK_OF_ART",
+    "Dakota Johnson": "PERSON",
+    "Jamie Dornan": "PERSON",
+    "Anastasia Steele": "PERSON",
+    "Christian Grey": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Fifty Shades Freed",
+      "relation": "directed_by",
+      "object": "James Foley",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 70,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Fifty Shades Freed",
+      "relation": "written_by",
+      "object": "Niall Leonard",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 98,
+          "char_start": 124,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Fifty Shades Freed",
+        "based_on",
+        "E. L. James"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fifty Shades Freed",
+        "part_of",
+        "Fifty Shades trilogy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fifty Shades Freed",
+        "sequel_to",
+        "Fifty Shades of Grey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fifty Shades Freed",
+        "sequel_to",
+        "Fifty Shades Darker"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fifty Shades Freed",
+        "stars",
+        "Dakota Johnson"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fifty Shades Freed",
+        "stars",
+        "Jamie Dornan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dakota Johnson",
+        "plays",
+        "Anastasia Steele"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jamie Dornan",
+        "plays",
+        "Christian Grey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Fifty Shades Freed (film)\nFifty Shades Freed is an upcoming American erotic romantic drama film directed by James Foley and written by Niall Leonard, based on the novel of same name by E. L. James. It is the final film in the \"Fifty Shades\" trilogy, and a sequel to \"Fifty Shades of Grey\" (2015) and \"Fifty Shades Darker\" (2017). The film stars Dakota Johnson and Jamie Dornan as Anastasia Steele and Christian Grey, respectively.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Fifty Shades Freed\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"James Foley\", \"type\": \"PERSON\"},\n    {\"name\": \"Niall Leonard\", \"type\": \"PERSON\"},\n    {\"name\": \"E. L. James\", \"type\": \"PERSON\"},\n    {\"name\": \"Fifty Shades trilogy\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Fifty Shades of Grey\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Fifty Shades Darker\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Dakota Johnson\", \"type\": \"PERSON\"},\n    {\"name\": \"Jamie Dornan\", \"type\": \"PERSON\"},\n    {\"name\": \"Anastasia Steele\", \"type\": \"PERSON\"},\n    {\"name\": \"Christian Grey\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Fifty Shades Freed\",\n      \"relation\": \"directed_by\",\n      \"object\": \"James Foley\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Fifty Shades Freed\",\n      \"relation\": \"written_by\",\n      \"object\": \"Niall Leonard\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Fifty Shades Freed\",\n      \"relation\": \"based_on\",\n      \"object\": \"E. L. James\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on the novel of same name by\"}\n      ]\n    },\n    {\n      \"subject\": \"Fifty Shades Freed\",\n      \"relation\": \"part_of\",\n      \"object\": \"Fifty Shades trilogy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"final film in the \\\"Fifty Shades\\\" trilogy\"}\n      ]\n    },\n    {\n      \"subject\": \"Fifty Shades Freed\",\n      \"relation\": \"sequel_to\",\n      \"object\": \"Fifty Shades of Grey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"sequel to \\\"Fifty Shades of Grey\\\" (2015)\"}\n      ]\n    },\n    {\n      \"subject\": \"Fifty Shades Freed\",\n      \"relation\": \"sequel_to\",\n      \"object\": \"Fifty Shades Darker\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and \\\"Fifty Shades Darker\\\" (2017)\"}\n      ]\n    },\n    {\n      \"subject\": \"Fifty Shades Freed\",\n      \"relation\": \"stars\",\n      \"object\": \"Dakota Johnson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars Dakota Johnson\"}\n      ]\n    },\n    {\n      \"subject\": \"Fifty Shades Freed\",\n      \"relation\": \"stars\",\n      \"object\": \"Jamie Dornan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Jamie Dornan\"}\n      ]\n    },\n    {\n      \"subject\": \"Dakota Johnson\",\n      \"relation\": \"plays\",\n      \"object\": \"Anastasia Steele\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as Anastasia Steele\"}\n      ]\n    },\n    {\n      \"subject\": \"Jamie Dornan\",\n      \"relation\": \"plays\",\n      \"object\": \"Christian Grey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Christian Grey\"}\n      ]\n    }\n  ]\n}"
+}

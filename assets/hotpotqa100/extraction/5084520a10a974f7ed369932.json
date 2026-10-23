@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Rolls-Royce Dart": "engine",
+    "Rolls-Royce Limited": "company",
+    "Vickers Viscount": "aircraft",
+    "British European Airways": "airline",
+    "Northolt": "location",
+    "Paris–Le Bourget Airport": "location"
+  },
+  "triples": [
+    {
+      "subject": "Rolls-Royce Dart",
+      "relation": "designed_by",
+      "object": "Rolls-Royce Limited",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "designed, built and manufactured by Rolls-Royce Limited"
+        }
+      ]
+    },
+    {
+      "subject": "Rolls-Royce Dart",
+      "relation": "powered",
+      "object": "Vickers Viscount",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "it powered the first Vickers Viscount maiden flight in 1948"
+        }
+      ]
+    },
+    {
+      "subject": "Vickers Viscount",
+      "relation": "operated_by",
+      "object": "British European Airways",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "with British European Airways (BEA), in 1950"
+        }
+      ]
+    },
+    {
+      "subject": "Northolt",
+      "relation": "flight_between",
+      "object": "Paris–Le Bourget Airport",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "a flight between Northolt and Paris–Le Bourget Airport"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rolls-Royce Dart",
+        "first_run_in",
+        "1946"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Vickers Viscount",
+        "first_turboprop_engine_to_enter",
+        "airline_service"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Vickers Viscount",
+        "first_scheduled_airline_flight",
+        "Dart-powered Viscount"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Rolls-Royce Dart\nThe Rolls-Royce RB.53 Dart is a long-lived British turboprop engine designed, built and manufactured by Rolls-Royce Limited. First run in 1946, it powered the first Vickers Viscount maiden flight in 1948, and in the Viscount was the first turboprop engine to enter airline service, with British European Airways (BEA), in 1950. On 29 July 1948 a flight between Northolt and Paris–Le Bourget Airport with 14 paying passengers in a Dart-powered Viscount was the first scheduled airline flight by any turbine-powered aircraft."
+}

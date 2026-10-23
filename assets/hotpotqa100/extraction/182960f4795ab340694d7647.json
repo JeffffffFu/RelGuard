@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Marv Skie–Lincoln County Airport": "FAC",
+    "FAA LID: Y14": "PRODUCT",
+    "Lincoln County": "GPE",
+    "South Dakota": "GPE",
+    "United States": "GPE",
+    "Tea": "GPE",
+    "National Plan of Integrated Airport Systems": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Marv Skie–Lincoln County Airport",
+      "relation": "owned_by",
+      "object": "Lincoln County",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned by",
+          "line_start": 126,
+          "char_start": 159,
+          "ambiguous": false,
+          "relation_mention": "owned by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Marv Skie–Lincoln County Airport",
+      "relation": "included_in",
+      "object": "National Plan of Integrated Airport Systems",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "included in",
+          "line_start": 269,
+          "char_start": 302,
+          "ambiguous": false,
+          "relation_mention": "included in",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marv Skie–Lincoln County Airport",
+        "located_in",
+        "Lincoln County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marv Skie–Lincoln County Airport",
+        "located_in",
+        "South Dakota"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marv Skie–Lincoln County Airport",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marv Skie–Lincoln County Airport",
+        "located_in",
+        "Tea"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marv Skie–Lincoln County Airport",
+        "has_identifier",
+        "FAA LID: Y14"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Marv Skie–Lincoln County Airport\nMarv Skie–Lincoln County Airport (FAA LID: Y14) is a public use airport in Lincoln County, South Dakota, United States. It is owned by Lincoln County and located two nautical miles (4 km) northeast of the central business district of Tea, South Dakota. This airport is included in the National Plan of Integrated Airport Systems for 2011–2015, which categorized it as a \"general aviation\" facility.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Marv Skie–Lincoln County Airport\", \"type\": \"FAC\"},\n    {\"name\": \"FAA LID: Y14\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Lincoln County\", \"type\": \"GPE\"},\n    {\"name\": \"South Dakota\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Tea\", \"type\": \"GPE\"},\n    {\"name\": \"National Plan of Integrated Airport Systems\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Marv Skie–Lincoln County Airport\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lincoln County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Marv Skie–Lincoln County Airport\",\n      \"relation\": \"located_in\",\n      \"object\": \"South Dakota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Marv Skie–Lincoln County Airport\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Marv Skie–Lincoln County Airport\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Lincoln County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"Marv Skie–Lincoln County Airport\",\n      \"relation\": \"located_in\",\n      \"object\": \"Tea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"northeast of\"}\n      ]\n    },\n    {\n      \"subject\": \"Marv Skie–Lincoln County Airport\",\n      \"relation\": \"included_in\",\n      \"object\": \"National Plan of Integrated Airport Systems\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"included in\"}\n      ]\n    },\n    {\n      \"subject\": \"Marv Skie–Lincoln County Airport\",\n      \"relation\": \"has_identifier\",\n      \"object\": \"FAA LID: Y14\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"FAA LID: Y14\"}\n      ]\n    }\n  ]\n}"
+}

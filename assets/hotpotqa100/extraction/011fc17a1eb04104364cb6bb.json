@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Tracey Prescott & Lonesome Daddy": "ORG",
+    "Tracey Prescott & Lonesome Daddy (album)": "WORK_OF_ART",
+    "Columbia Records": "ORG",
+    "Canadian": "NORP",
+    "When You're Not Loving Me": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Tracey Prescott & Lonesome Daddy (album)",
+      "relation": "released_by",
+      "object": "Columbia Records",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released by",
+          "line_start": 131,
+          "char_start": 176,
+          "ambiguous": false,
+          "relation_mention": "released by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tracey Prescott & Lonesome Daddy (album)",
+      "relation": "includes",
+      "object": "When You're Not Loving Me",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "includes",
+          "line_start": 172,
+          "char_start": 217,
+          "ambiguous": false,
+          "relation_mention": "includes",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tracey Prescott & Lonesome Daddy (album)",
+        "is_by",
+        "Tracey Prescott & Lonesome Daddy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tracey Prescott & Lonesome Daddy",
+        "has_nationality",
+        "Canadian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Tracey Prescott &amp; Lonesome Daddy (album)\nTracey Prescott & Lonesome Daddy is the debut studio album by Canadian country music trio Tracey Prescott & Lonesome Daddy. It was released by Columbia Records in 1992. It includes the top 10 single \"When You're Not Loving Me\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Tracey Prescott & Lonesome Daddy\", \"type\": \"ORG\"},\n    {\"name\": \"Tracey Prescott & Lonesome Daddy (album)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Columbia Records\", \"type\": \"ORG\"},\n    {\"name\": \"Canadian\", \"type\": \"NORP\"},\n    {\"name\": \"When You're Not Loving Me\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Tracey Prescott & Lonesome Daddy (album)\",\n      \"relation\": \"is_by\",\n      \"object\": \"Tracey Prescott & Lonesome Daddy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    },\n    {\n      \"subject\": \"Tracey Prescott & Lonesome Daddy (album)\",\n      \"relation\": \"released_by\",\n      \"object\": \"Columbia Records\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released by\"}\n      ]\n    },\n    {\n      \"subject\": \"Tracey Prescott & Lonesome Daddy\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"Canadian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Canadian\"}\n      ]\n    },\n    {\n      \"subject\": \"Tracey Prescott & Lonesome Daddy (album)\",\n      \"relation\": \"includes\",\n      \"object\": \"When You're Not Loving Me\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"includes\"}\n      ]\n    }\n  ]\n}"
+}

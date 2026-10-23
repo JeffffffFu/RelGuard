@@ -1,0 +1,133 @@
+{
+  "entities": {
+    "John I of Namur": "PERSON",
+    "Namur": "GPE",
+    "House of Dampierre": "ORG",
+    "Guy of Dampierre": "PERSON",
+    "Isabelle of Luxembourg": "PERSON",
+    "Blanche of Namur": "PERSON",
+    "Sweden": "GPE",
+    "Norway": "GPE",
+    "Guy of Namur": "PERSON",
+    "French Kingdom": "GPE",
+    "Battle of the Golden Spurs": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "John I of Namur",
+      "relation": "sent_to_command",
+      "object": "Guy of Namur",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "whom he sent to command",
+          "line_start": 350,
+          "char_start": 375,
+          "ambiguous": false,
+          "relation_mention": "whom he sent to command",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John I of Namur",
+        "ruled",
+        "Namur"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John I of Namur",
+        "member_of",
+        "House of Dampierre"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John I of Namur",
+        "son_of",
+        "Guy of Dampierre"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Guy of Dampierre",
+        "held_title",
+        "Marquis of Namur"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Guy of Dampierre",
+        "held_title",
+        "Count of Flanders"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John I of Namur",
+        "son_of",
+        "Isabelle of Luxembourg"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John I of Namur",
+        "father_of",
+        "Blanche of Namur"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Blanche of Namur",
+        "held_title",
+        "Queen of Sweden and Norway"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John I of Namur",
+        "brother_of",
+        "Guy of Namur"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Guy of Namur",
+        "commanded",
+        "Flemish rebels"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Flemish rebels",
+        "against",
+        "French Kingdom"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Battle of the Golden Spurs",
+        "occurred_in",
+        "1302"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John I, Marquis of Namur\nJohn I of Namur (1267 – 31 January 1330) was the ruler of Namur from 1305 to 1330. He was a member of the House of Dampierre, the son of Guy of Dampierre, Count of Flanders and Marquis of Namur, and his second wife Isabelle of Luxembourg. John was the father of Blanche of Namur, Queen of Sweden and Norway. He was the elder brother of Guy of Namur, whom he sent to command the Flemish rebels against the French Kingdom in the 1302 Battle of the Golden Spurs.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"John I of Namur\", \"type\": \"PERSON\"},\n    {\"name\": \"Namur\", \"type\": \"GPE\"},\n    {\"name\": \"House of Dampierre\", \"type\": \"ORG\"},\n    {\"name\": \"Guy of Dampierre\", \"type\": \"PERSON\"},\n    {\"name\": \"Isabelle of Luxembourg\", \"type\": \"PERSON\"},\n    {\"name\": \"Blanche of Namur\", \"type\": \"PERSON\"},\n    {\"name\": \"Sweden\", \"type\": \"GPE\"},\n    {\"name\": \"Norway\", \"type\": \"GPE\"},\n    {\"name\": \"Guy of Namur\", \"type\": \"PERSON\"},\n    {\"name\": \"French Kingdom\", \"type\": \"GPE\"},\n    {\"name\": \"Battle of the Golden Spurs\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"John I of Namur\",\n      \"relation\": \"ruled\",\n      \"object\": \"Namur\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the ruler of\"}\n      ]\n    },\n    {\n      \"subject\": \"John I of Namur\",\n      \"relation\": \"member_of\",\n      \"object\": \"House of Dampierre\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a member of\"}\n      ]\n    },\n    {\n      \"subject\": \"John I of Namur\",\n      \"relation\": \"son_of\",\n      \"object\": \"Guy of Dampierre\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the son of\"}\n      ]\n    },\n    {\n      \"subject\": \"Guy of Dampierre\",\n      \"relation\": \"held_title\",\n      \"object\": \"Marquis of Namur\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Marquis of Namur\"}\n      ]\n    },\n    {\n      \"subject\": \"Guy of Dampierre\",\n      \"relation\": \"held_title\",\n      \"object\": \"Count of Flanders\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Count of Flanders\"}\n      ]\n    },\n    {\n      \"subject\": \"John I of Namur\",\n      \"relation\": \"son_of\",\n      \"object\": \"Isabelle of Luxembourg\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and his second wife\"}\n      ]\n    },\n    {\n      \"subject\": \"John I of Namur\",\n      \"relation\": \"father_of\",\n      \"object\": \"Blanche of Namur\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the father of\"}\n      ]\n    },\n    {\n      \"subject\": \"Blanche of Namur\",\n      \"relation\": \"held_title\",\n      \"object\": \"Queen of Sweden and Norway\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Queen of Sweden and Norway\"}\n      ]\n    },\n    {\n      \"subject\": \"John I of Namur\",\n      \"relation\": \"brother_of\",\n      \"object\": \"Guy of Namur\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the elder brother of\"}\n      ]\n    },\n    {\n      \"subject\": \"John I of Namur\",\n      \"relation\": \"sent_to_command\",\n      \"object\": \"Guy of Namur\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"whom he sent to command\"}\n      ]\n    },\n    {\n      \"subject\": \"Guy of Namur\",\n      \"relation\": \"commanded\",\n      \"object\": \"Flemish rebels\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to command the Flemish rebels\"}\n      ]\n    },\n    {\n      \"subject\": \"Flemish rebels\",\n      \"relation\": \"against\",\n      \"object\": \"French Kingdom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"against the French Kingdom\"}\n      ]\n    },\n    {\n      \"subject\": \"Battle of the Golden Spurs\",\n      \"relation\": \"occurred_in\",\n      \"object\": \"1302\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the 1302 Battle of the Golden Spurs\"}\n      ]\n    }\n  ]\n}"
+}

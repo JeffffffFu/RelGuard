@@ -1,0 +1,194 @@
+{
+  "entities": {
+    "Pizza Ranch": "ORG",
+    "The Pizza Ranch, Inc.": "ORG",
+    "Colorado": "GPE",
+    "Illinois": "GPE",
+    "Iowa": "GPE",
+    "Kansas": "GPE",
+    "Michigan": "GPE",
+    "Minnesota": "GPE",
+    "Missouri": "GPE",
+    "Montana": "GPE",
+    "Nebraska": "GPE",
+    "North Dakota": "GPE",
+    "South Dakota": "GPE",
+    "Wisconsin": "GPE",
+    "Wyoming": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "The Pizza Ranch, Inc.",
+      "relation": "founded",
+      "object": "The Pizza Ranch, Inc.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in 1981",
+          "line_start": 23,
+          "char_start": 35,
+          "ambiguous": false,
+          "relation_mention": "founded in 1981",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "4 entities not in the document",
+      "entities": [
+        "Iowa (state) (GPE)",
+        "Minnesota (state) (GPE)",
+        "North Dakota (state) (GPE)",
+        "South Dakota (state) (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "offers",
+        "Pizza Ranch"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "Colorado"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "Illinois"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "Iowa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "Kansas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "Michigan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "Minnesota"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "Missouri"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "Montana"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "Nebraska"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "North Dakota"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "South Dakota"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "Wisconsin"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "has_locations_in",
+        "Wyoming"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "is_largest_regional_franchise_in",
+        "Iowa (state)"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "is_largest_regional_franchise_in",
+        "Minnesota (state)"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "is_largest_regional_franchise_in",
+        "North Dakota (state)"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pizza Ranch",
+        "is_largest_regional_franchise_in",
+        "South Dakota (state)"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Pizza Ranch\nThe Pizza Ranch, Inc., founded in 1981, is a \"fast casual\" restaurant chain. Pizza Ranch offers pizza, chicken, a salad bar, and a pizza and chicken buffet. Pizza Ranch has over 200 locations in Colorado, Illinois, Iowa, Kansas, Michigan, Minnesota, Missouri, Montana, Nebraska, North Dakota, South Dakota, Wisconsin, and Wyoming. Pizza Ranch is the largest regional pizza franchise in Iowa, Minnesota, North Dakota, and South Dakota.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Pizza Ranch\", \"type\": \"ORG\"},\n    {\"name\": \"The Pizza Ranch, Inc.\", \"type\": \"ORG\"},\n    {\"name\": \"Colorado\", \"type\": \"GPE\"},\n    {\"name\": \"Illinois\", \"type\": \"GPE\"},\n    {\"name\": \"Iowa\", \"type\": \"GPE\"},\n    {\"name\": \"Kansas\", \"type\": \"GPE\"},\n    {\"name\": \"Michigan\", \"type\": \"GPE\"},\n    {\"name\": \"Minnesota\", \"type\": \"GPE\"},\n    {\"name\": \"Missouri\", \"type\": \"GPE\"},\n    {\"name\": \"Montana\", \"type\": \"GPE\"},\n    {\"name\": \"Nebraska\", \"type\": \"GPE\"},\n    {\"name\": \"North Dakota\", \"type\": \"GPE\"},\n    {\"name\": \"South Dakota\", \"type\": \"GPE\"},\n    {\"name\": \"Wisconsin\", \"type\": \"GPE\"},\n    {\"name\": \"Wyoming\", \"type\": \"GPE\"},\n    {\"name\": \"Iowa (state)\", \"type\": \"GPE\"},\n    {\"name\": \"Minnesota (state)\", \"type\": \"GPE\"},\n    {\"name\": \"North Dakota (state)\", \"type\": \"GPE\"},\n    {\"name\": \"South Dakota (state)\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Pizza Ranch, Inc.\",\n      \"relation\": \"founded\",\n      \"object\": \"The Pizza Ranch, Inc.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in 1981\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"offers\",\n      \"object\": \"Pizza Ranch\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"offers\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Colorado\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Colorado\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Illinois\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Illinois\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Iowa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Iowa\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Kansas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Kansas\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Michigan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Michigan\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Minnesota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Minnesota\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Missouri\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Missouri\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Montana\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Montana\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Nebraska\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Nebraska\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"North Dakota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in North Dakota\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"South Dakota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in South Dakota\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Wisconsin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Wisconsin\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Wyoming\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Wyoming\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"is_largest_regional_franchise_in\",\n      \"object\": \"Iowa (state)\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"largest regional pizza franchise in Iowa\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"is_largest_regional_franchise_in\",\n      \"object\": \"Minnesota (state)\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"largest regional pizza franchise in Minnesota\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"is_largest_regional_franchise_in\",\n      \"object\": \"North Dakota (state)\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"largest regional pizza franchise in North Dakota\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Ranch\",\n      \"relation\": \"is_largest_regional_franchise_in\",\n      \"object\": \"South Dakota (state)\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"largest regional pizza franchise in South Dakota\"}\n      ]\n    }\n  ]\n}"
+}

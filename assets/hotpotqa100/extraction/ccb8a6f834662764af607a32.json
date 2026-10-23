@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Denis Kulyash": "PERSON",
+    "Salavat Yulaev Ufa": "ORG",
+    "Kontinental Hockey League": "ORG",
+    "KHL": "ORG",
+    "Russia": "GPE",
+    "Boston Bruins": "ORG",
+    "Zdeno Chara": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Denis Kulyash",
+      "relation": "holds_record_from",
+      "object": "Zdeno Chara",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "previously held by",
+          "line_start": 417,
+          "char_start": 431,
+          "ambiguous": false,
+          "relation_mention": "previously held by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Denis Kulyash",
+        "works_for",
+        "Salavat Yulaev Ufa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Salavat Yulaev Ufa",
+        "located_in",
+        "Kontinental Hockey League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kontinental Hockey League",
+        "alias",
+        "KHL"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Denis Kulyash",
+        "member_of",
+        "Russia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Zdeno Chara",
+        "works_for",
+        "Boston Bruins"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Denis Kulyash\nDenis Kulyash (Russian: Денис Куляш ; born May 31, 1983) is a professional ice hockey defenceman currently playing for Salavat Yulaev Ufa of the Kontinental Hockey League (KHL). Kulyash has been a long-time member of Russia's national ice hockey team known for his extremely hard slap shot, which gained him a nickname \"Tsar Cannon\" (Russian: Царь-пушка ). Kulyash currently holds a record of fastest ice hockey shot previously held by Boston Bruins defenceman Zdeno Chara with a speed of 110.3 mph (177.6 km/h).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Denis Kulyash\", \"type\": \"PERSON\"},\n    {\"name\": \"Salavat Yulaev Ufa\", \"type\": \"ORG\"},\n    {\"name\": \"Kontinental Hockey League\", \"type\": \"ORG\"},\n    {\"name\": \"KHL\", \"type\": \"ORG\"},\n    {\"name\": \"Russia\", \"type\": \"GPE\"},\n    {\"name\": \"Boston Bruins\", \"type\": \"ORG\"},\n    {\"name\": \"Zdeno Chara\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Denis Kulyash\",\n      \"relation\": \"works_for\",\n      \"object\": \"Salavat Yulaev Ufa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"playing for\"}\n      ]\n    },\n    {\n      \"subject\": \"Salavat Yulaev Ufa\",\n      \"relation\": \"located_in\",\n      \"object\": \"Kontinental Hockey League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the\"}\n      ]\n    },\n    {\n      \"subject\": \"Kontinental Hockey League\",\n      \"relation\": \"alias\",\n      \"object\": \"KHL\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(KHL)\"}\n      ]\n    },\n    {\n      \"subject\": \"Denis Kulyash\",\n      \"relation\": \"member_of\",\n      \"object\": \"Russia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"member of\"}\n      ]\n    },\n    {\n      \"subject\": \"Denis Kulyash\",\n      \"relation\": \"holds_record_from\",\n      \"object\": \"Zdeno Chara\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"previously held by\"}\n      ]\n    },\n    {\n      \"subject\": \"Zdeno Chara\",\n      \"relation\": \"works_for\",\n      \"object\": \"Boston Bruins\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"defenceman\"}\n      ]\n    }\n  ]\n}"
+}

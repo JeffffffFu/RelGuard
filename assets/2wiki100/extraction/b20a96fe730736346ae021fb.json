@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Jacques Décombe": "PERSON",
+    "French": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Jacques Décombe",
+        "born_in_year",
+        "1953"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jacques Décombe",
+        "nationality",
+        "French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jacques Décombe",
+        "occupation",
+        "author"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jacques Décombe",
+        "occupation",
+        "actor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jacques Décombe",
+        "occupation",
+        "director"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jacques Décombe\nJacques Décombe is a French author, actor and director born in 1953.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Jacques Décombe\", \"type\": \"PERSON\"},\n    {\"name\": \"French\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Jacques Décombe\",\n      \"relation\": \"born_in_year\",\n      \"object\": \"1953\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born in 1953\"}\n      ]\n    },\n    {\n      \"subject\": \"Jacques Décombe\",\n      \"relation\": \"nationality\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a French\"}\n      ]\n    },\n    {\n      \"subject\": \"Jacques Décombe\",\n      \"relation\": \"occupation\",\n      \"object\": \"author\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"author\"}\n      ]\n    },\n    {\n      \"subject\": \"Jacques Décombe\",\n      \"relation\": \"occupation\",\n      \"object\": \"actor\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"actor\"}\n      ]\n    },\n    {\n      \"subject\": \"Jacques Décombe\",\n      \"relation\": \"occupation\",\n      \"object\": \"director\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"director\"}\n      ]\n    }\n  ]\n}"
+}

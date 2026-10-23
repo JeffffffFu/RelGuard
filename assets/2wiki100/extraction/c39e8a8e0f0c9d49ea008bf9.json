@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Who's Your Brother?": "WORK_OF_ART",
+    "John G. Adolfi": "PERSON",
+    "Edith Taliaferro": "PERSON",
+    "Frank Burbeck": "PERSON",
+    "Paul Panzer": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Who's Your Brother?",
+      "relation": "directed_by",
+      "object": "John G. Adolfi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by John G. Adolfi"
+        }
+      ]
+    },
+    {
+      "subject": "Who's Your Brother?",
+      "relation": "starring",
+      "object": "Edith Taliaferro",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Edith Taliaferro"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Who's Your Brother?",
+        "starring",
+        "Frank Burbeck"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Who's Your Brother?",
+        "starring",
+        "Paul Panzer"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Who's Your Brother?\nWho's Your Brother? is a 1919 American silent drama film directed by John G. Adolfi and starring Edith Taliaferro, Frank Burbeck and Paul Panzer. It was also released under the alternative title Keep to the Right."
+}

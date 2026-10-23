@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Kadeem Jack": "Person",
+    "Sioux Falls Skyforce": "Organization",
+    "NBA G League": "Organization",
+    "Rutgers": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Kadeem Jack",
+      "relation": "plays_for",
+      "object": "Sioux Falls Skyforce",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an American professional basketball player for the Sioux Falls Skyforce"
+        }
+      ]
+    },
+    {
+      "subject": "Kadeem Jack",
+      "relation": "played_college_basketball_for",
+      "object": "Rutgers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He played college basketball for Rutgers"
+        }
+      ]
+    },
+    {
+      "subject": "Sioux Falls Skyforce",
+      "relation": "located_in",
+      "object": "NBA G League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "for the Sioux Falls Skyforce of the NBA G League"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kadeem Jack",
+        "born_on",
+        "October 27, 1992"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kadeem Jack\nKadeem Jack (born October 27, 1992) is an American professional basketball player for the Sioux Falls Skyforce of the NBA G League. He played college basketball for Rutgers."
+}

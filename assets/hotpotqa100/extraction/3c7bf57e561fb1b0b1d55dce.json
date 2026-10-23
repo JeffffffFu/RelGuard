@@ -1,0 +1,149 @@
+{
+  "entities": {
+    "The Creature Walks Among Us": "film",
+    "Creature from the Black Lagoon": "film series",
+    "Universal Pictures": "company",
+    "John Sherwood": "person",
+    "Jack Arnold": "person",
+    "Jeff Morrow": "person",
+    "Rex Reason": "person",
+    "Leigh Snowden": "person",
+    "Henry Mancini": "person"
+  },
+  "triples": [
+    {
+      "subject": "Creature from the Black Lagoon",
+      "relation": "produced_by",
+      "object": "Universal Pictures",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Universal Pictures"
+        }
+      ]
+    },
+    {
+      "subject": "The Creature Walks Among Us",
+      "relation": "directed_by",
+      "object": "John Sherwood",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was directed by John Sherwood"
+        }
+      ]
+    },
+    {
+      "subject": "John Sherwood",
+      "relation": "assistant_director_of",
+      "object": "Universal Pictures",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the long-time Universal-International assistant director"
+        }
+      ]
+    },
+    {
+      "subject": "Jack Arnold",
+      "relation": "directed",
+      "object": "Creature from the Black Lagoon",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "who had directed the first two films in the series"
+        }
+      ]
+    },
+    {
+      "subject": "Jack Arnold",
+      "relation": "suggested",
+      "object": "John Sherwood",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "He suggested that his assistant director, Sherwood"
+        }
+      ]
+    },
+    {
+      "subject": "Universal Pictures",
+      "relation": "allowed",
+      "object": "John Sherwood",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Universal's decision to allow him to direct the film"
+        }
+      ]
+    },
+    {
+      "subject": "The Creature Walks Among Us",
+      "relation": "starred",
+      "object": "Jeff Morrow",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "starred Jeff Morrow"
+        }
+      ]
+    },
+    {
+      "subject": "Henry Mancini",
+      "relation": "composed_music_for",
+      "object": "The Creature Walks Among Us",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "had music composed by Henry Mancini"
+        }
+      ]
+    },
+    {
+      "subject": "Henry Mancini",
+      "relation": "under_contract_with",
+      "object": "Universal Pictures",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "who at the time was under contract with Universal"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Creature Walks Among Us",
+        "released_in",
+        "1956"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Creature Walks Among Us",
+        "is_installment_of",
+        "Creature from the Black Lagoon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Creature Walks Among Us",
+        "starred",
+        "Rex Reason"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Creature Walks Among Us",
+        "starred",
+        "Leigh Snowden"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Creature Walks Among Us\nThe Creature Walks Among Us, released in 1956, is the third and final installment of the \"Creature from the Black Lagoon\" horror film series from Universal Pictures, following 1955's \"Revenge of the Creature\". The film was directed by John Sherwood, the long-time Universal-International assistant director, in his directorial debut. Jack Arnold, who had directed the first two films in the series, had moved on to \"A-list\" films, and felt he had no more to contribute to the horror genre. He suggested that his assistant director, Sherwood, could move up to full director, which partly affected Universal's decision to allow him to direct the film. \"The Creature Walks Among Us\" starred Jeff Morrow, Rex Reason, and Leigh Snowden, and, like the original \"Creature from the Black Lagoon\", had music composed by Henry Mancini, who at the time was under contract with Universal."
+}

@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Red Roses, Red Lips, Red Wine": "film",
+    "Paul Martin": "person",
+    "Gardy Granass": "person",
+    "John Van Dreelen": "person",
+    "Rolf von Nauckhoff": "person",
+    "Tempelhof Studios": "location",
+    "Berlin": "location",
+    "Erich Kettelhut": "person"
+  },
+  "triples": [
+    {
+      "subject": "Red Roses, Red Lips, Red Wine",
+      "relation": "directed_by",
+      "object": "Paul Martin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Paul Martin"
+        }
+      ]
+    },
+    {
+      "subject": "Red Roses, Red Lips, Red Wine",
+      "relation": "starring",
+      "object": "Gardy Granass",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Gardy Granass"
+        }
+      ]
+    },
+    {
+      "subject": "Red Roses, Red Lips, Red Wine",
+      "relation": "made_at",
+      "object": "Tempelhof Studios",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "made at the Tempelhof Studios"
+        }
+      ]
+    },
+    {
+      "subject": "Tempelhof Studios",
+      "relation": "located_in",
+      "object": "Berlin",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Berlin"
+        }
+      ]
+    },
+    {
+      "subject": "Red Roses, Red Lips, Red Wine",
+      "relation": "designed_by",
+      "object": "Erich Kettelhut",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "designed by Erich Kettelhut"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Red Roses, Red Lips, Red Wine",
+        "starring",
+        "John Van Dreelen"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Red Roses, Red Lips, Red Wine",
+        "starring",
+        "Rolf von Nauckhoff"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Red Roses, Red Lips, Red Wine\nRed Roses, Red Lips, Red Wine  is a 1953 West German romantic drama film directed by Paul Martin and starring Gardy Granass, John Van Dreelen and Rolf von Nauckhoff. It shares its title with a popular song of the same era. It was made at the Tempelhof Studios in Berlin. The film's sets were designed by Erich Kettelhut."
+}

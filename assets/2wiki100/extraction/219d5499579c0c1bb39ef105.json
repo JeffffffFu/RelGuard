@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Robert P. Kerr": "Person",
+    "Burlington, Colorado": "Location",
+    "Porterville, California": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Robert P. Kerr",
+      "relation": "born_in",
+      "object": "Burlington, Colorado",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He was born in Burlington, Colorado"
+        }
+      ]
+    },
+    {
+      "subject": "Robert P. Kerr",
+      "relation": "died_in",
+      "object": "Porterville, California",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "died in Porterville, California"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Robert P. Kerr",
+        "directed",
+        "41 films"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Robert P. Kerr\nRobert P. Kerr (October 9, 1892 – September 5, 1960) was an American film director, actor and screenwriter. He directed 41 films between 1917 and 1928. He was born in Burlington, Colorado and died in Porterville, California from a heart attack."
+}

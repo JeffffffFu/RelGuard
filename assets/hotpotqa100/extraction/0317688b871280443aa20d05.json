@@ -1,0 +1,129 @@
+{
+  "entities": {
+    "Secret Garden": "WORK_OF_ART",
+    "Apink": "ORG",
+    "Unee Anee": "WORK_OF_ART",
+    "Hush": "WORK_OF_ART",
+    "Bubibu": "WORK_OF_ART",
+    "Mnet": "ORG",
+    "M! Countdown": "EVENT",
+    "NoNoNo": "WORK_OF_ART",
+    "Shinsadong Tiger": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Apink",
+      "relation": "released",
+      "object": "Secret Garden",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released on July 5, 2013",
+          "line_start": 72,
+          "char_start": 91,
+          "ambiguous": false,
+          "relation_mention": "released on July 5, 2013",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "South Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Secret Garden",
+        "is",
+        "third mini-album"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Secret Garden",
+        "works_for",
+        "Apink"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Apink",
+        "located_in",
+        "South Korea"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Apink",
+        "promoted",
+        "Unee Anee"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Apink",
+        "promoted",
+        "Hush"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Apink",
+        "promoted",
+        "Bubibu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Apink",
+        "made",
+        "comeback stage"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "comeback stage",
+        "located_in",
+        "Mnet"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "comeback stage",
+        "located_in",
+        "M! Countdown"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "NoNoNo",
+        "produced_by",
+        "Shinsadong Tiger"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Secret Garden",
+        "contains",
+        "NoNoNo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Secret Garden (EP)\nSecret Garden is the third mini-album by South Korean girl group Apink, released on July 5, 2013. This is their first official release as six-member group and they returned after 14 months since they last promoted their last album \"Unee Anee\" with \"Hush\" and \"Bubibu\" in May 2012. They made first comeback stage on Mnet’s “M! Countdown\" one day before the official release. The theme of the album is healing, aim to that will soothe the listeners’ eyes and ears. The album consist of five new songs including the title track “NoNoNo” produced by Shinsadong Tiger.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Secret Garden\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Apink\", \"type\": \"ORG\"},\n    {\"name\": \"South Korea\", \"type\": \"GPE\"},\n    {\"name\": \"Unee Anee\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Hush\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Bubibu\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Mnet\", \"type\": \"ORG\"},\n    {\"name\": \"M! Countdown\", \"type\": \"EVENT\"},\n    {\"name\": \"NoNoNo\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Shinsadong Tiger\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Secret Garden\",\n      \"relation\": \"is\",\n      \"object\": \"third mini-album\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is the third mini-album\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Secret Garden\",\n      \"relation\": \"works_for\",\n      \"object\": \"Apink\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"by South Korean girl group Apink\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Apink\",\n      \"relation\": \"located_in\",\n      \"object\": \"South Korea\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"South Korean\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Apink\",\n      \"relation\": \"released\",\n      \"object\": \"Secret Garden\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"released on July 5, 2013\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Apink\",\n      \"relation\": \"promoted\",\n      \"object\": \"Unee Anee\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"promoted their last album \\\"Unee Anee\\\"\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Apink\",\n      \"relation\": \"promoted\",\n      \"object\": \"Hush\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"with \\\"Hush\\\"\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Apink\",\n      \"relation\": \"promoted\",\n      \"object\": \"Bubibu\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"and \\\"Bubibu\\\"\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Apink\",\n      \"relation\": \"made\",\n      \"object\": \"comeback stage\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"They made first comeback stage on Mnet’s “M! Countdown\\\"\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"comeback stage\",\n      \"relation\": \"located_in\",\n      \"object\": \"Mnet\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"on Mnet’s\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"comeback stage\",\n      \"relation\": \"located_in\",\n      \"object\": \"M! Countdown\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"“M! Countdown\\\"\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"NoNoNo\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Shinsadong Tiger\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"produced by Shinsadong Tiger\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Secret Garden\",\n      \"relation\": \"contains\",\n      \"object\": \"NoNoNo\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"including the title track “NoNoNo”\"\n        }\n      ]\n    }\n  ]\n}"
+}

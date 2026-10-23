@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "Diary of a Maniac": "WORK_OF_ART",
+    "Marco Ferreri": "PERSON",
+    "Berlin International Film Festival": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Diary of a Maniac",
+      "relation": "directed_by",
+      "object": "Marco Ferreri",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Marco Ferreri"
+        }
+      ]
+    },
+    {
+      "subject": "Diary of a Maniac",
+      "relation": "entered_into",
+      "object": "Berlin International Film Festival",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "entered into the 43rd Berlin International Film Festival"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Diary of a Maniac",
+        "set_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Diary of a Maniac\nDiary of a Maniac is a 1993 Italian drama film directed by Marco Ferreri. It was entered into the 43rd Berlin International Film Festival."
+}

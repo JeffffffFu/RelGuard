@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Bill Cosby": "PERSON",
+    "It's True! It's True!": "WORK_OF_ART",
+    "Warner Bros. Records": "ORG",
+    "Harrah's": "FAC",
+    "Lake Tahoe": "GPE",
+    "Nevada": "GPE",
+    "Spanish fly": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "It's True! It's True!",
+      "relation": "created_by",
+      "object": "Bill Cosby",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It's True! It's True! (1969) is the ninth comedy album by Bill Cosby."
+        }
+      ]
+    },
+    {
+      "subject": "It's True! It's True!",
+      "relation": "released_by",
+      "object": "Warner Bros. Records",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It was his last for Warner Bros. Records."
+        }
+      ]
+    },
+    {
+      "subject": "It's True! It's True!",
+      "relation": "recorded_at",
+      "object": "Harrah's",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "It was recorded live at Harrah's, Lake Tahoe, Nevada."
+        }
+      ]
+    },
+    {
+      "subject": "Harrah's",
+      "relation": "located_in",
+      "object": "Lake Tahoe",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "It was recorded live at Harrah's, Lake Tahoe, Nevada."
+        }
+      ]
+    },
+    {
+      "subject": "Harrah's",
+      "relation": "located_in",
+      "object": "Nevada",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "It was recorded live at Harrah's, Lake Tahoe, Nevada."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "It's True! It's True!",
+        "features_product",
+        "Spanish fly"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "It's True! It's True!\nIt's True! It's True! (1969) is the ninth comedy album by Bill Cosby. It was his last for Warner Bros. Records. It was recorded live at Harrah's, Lake Tahoe, Nevada. Due to a musician's strike, Cosby got extra stage time at Harrah's, much of which was captured on this album. It features Cosby performing stand-up comedy on topics including women, helicopters, ants, burlesque, gambling, the toxic drug Spanish fly, and pontificating about sovereign states outside the United States. The album was released in 1969, and reached the 21st spot on the R&B Albums chart, and was 37th on The Billboard 200 the same year. It was subsequently released in compact disc format in 2005, again in 2008, and in digital format in 2013."
+}

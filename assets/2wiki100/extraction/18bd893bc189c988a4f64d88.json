@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Shawn Lewfatt": "Person",
+    "Essendon": "Organization",
+    "Australian Football League": "Organization",
+    "Essendon Football Club": "Organization",
+    "1994 National Draft": "Event",
+    "1995 season": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Shawn Lewfatt",
+      "relation": "played_for",
+      "object": "Essendon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a former Australian rules footballer who played for Essendon"
+        }
+      ]
+    },
+    {
+      "subject": "Shawn Lewfatt",
+      "relation": "drafted_by",
+      "object": "Essendon Football Club",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He was drafted by the Essendon Football Club"
+        }
+      ]
+    },
+    {
+      "subject": "Shawn Lewfatt",
+      "relation": "drafted_in",
+      "object": "1994 National Draft",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in the 1994 National Draft"
+        }
+      ]
+    },
+    {
+      "subject": "Shawn Lewfatt",
+      "relation": "played_in",
+      "object": "1995 season",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "He played three games with Essendon during the 1995 season"
+        }
+      ]
+    },
+    {
+      "subject": "Essendon",
+      "relation": "part_of",
+      "object": "Australian Football League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Australian Football League( AFL)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Shawn Lewfatt",
+        "born_on",
+        "11 March 1977"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Shawn Lewfatt",
+        "pick",
+        "28"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Shawn Lewfatt\nShawn Lewfatt( born 11 March 1977) is a former Australian rules footballer who played for Essendon in the Australian Football League( AFL). He was drafted by the Essendon Football Club in the 1994 National Draft at pick 28. He played three games with Essendon during the 1995 season."
+}

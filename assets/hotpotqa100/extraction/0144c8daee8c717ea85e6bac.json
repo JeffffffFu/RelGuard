@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Abraham Zapruder": "Person",
+    "John F. Kennedy": "Person",
+    "Dallas": "Location",
+    "Texas": "Location",
+    "Dealey Plaza": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Abraham Zapruder",
+      "relation": "witnessed",
+      "object": "John F. Kennedy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who witnessed the assassination of President John F. Kennedy"
+        }
+      ]
+    },
+    {
+      "subject": "Dallas",
+      "relation": "located_in",
+      "object": "Texas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Dallas, Texas"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Abraham Zapruder",
+        "captured",
+        "event"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "event",
+        "located_in",
+        "Dallas"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "event",
+        "took_place_in",
+        "Dealey Plaza"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Abraham Zapruder\nAbraham Zapruder (May 15, 1905 – August 30, 1970) was a Russian-born American clothing manufacturer who witnessed the assassination of President John F. Kennedy in Dallas, Texas, on November 22, 1963. Zapruder unexpectedly captured the event in a home movie while filming the presidential limousine and motorcade as it traveled through Dealey Plaza."
+}

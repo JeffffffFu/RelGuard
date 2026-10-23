@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Irish Red and White Setter": "PRODUCT",
+    "setter": "PRODUCT",
+    "Pointer": "PRODUCT",
+    "UK": "GPE",
+    "America": "GPE",
+    "Canada": "GPE",
+    "Irish Setter": "PRODUCT",
+    "Gordon setter": "PRODUCT",
+    "English setter": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Irish Red and White Setter",
+      "relation": "is_a",
+      "object": "setter",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a breed of dog, more specifically a setter",
+          "line_start": 34,
+          "char_start": 61,
+          "ambiguous": false,
+          "relation_mention": "is a breed of dog, more specifically a setter",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Irish Red and White Setter",
+      "relation": "identical_in_use_and_temperament_to",
+      "object": "Irish Setter",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "virtually identical in use and temperament to the related Irish Setter",
+          "line_start": 228,
+          "char_start": 255,
+          "ambiguous": false,
+          "relation_mention": "virtually identical in use and temperament to the related Irish Setter",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Irish Red and White Setter",
+      "relation": "related_to",
+      "object": "Gordon setter",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "virtually identical in use and temperament to the related Irish Setter and its other setter cousins, the Gordon and English setters",
+          "line_start": 228,
+          "char_start": 255,
+          "ambiguous": false,
+          "relation_mention": "virtually identical in use and temperament to the related Irish Setter and its other setter cousins, the Gordon and English setters",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Irish Red and White Setter",
+      "relation": "related_to",
+      "object": "English setter",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "virtually identical in use and temperament to the related Irish Setter and its other setter cousins, the Gordon and English setters",
+          "line_start": 228,
+          "char_start": 255,
+          "ambiguous": false,
+          "relation_mention": "virtually identical in use and temperament to the related Irish Setter and its other setter cousins, the Gordon and English setters",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Irish Red and White Setter",
+        "is_a",
+        "breed"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Irish Red and White Setter",
+        "classified_as",
+        "gundog"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Irish Red and White Setter",
+        "included_in",
+        "sporting group"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Irish Red and White Setter\nThe Irish Red and White Setter () is a breed of dog, more specifically a setter. As with all the setters and the Pointer, it is classified as a gundog in the UK and is included in the sporting group in America and Canada. It is virtually identical in use and temperament to the related Irish Setter and its other setter cousins, the Gordon and English setters, but is more often found as a working gun dog."
+}

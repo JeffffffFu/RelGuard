@@ -1,0 +1,205 @@
+{
+  "entities": {
+    "Taglierini": "food",
+    "Spaghetti": "food",
+    "tagliatelle": "food",
+    "Capellini": "food",
+    "Molise": "region",
+    "Piedmont": "region",
+    "Tajarin": "food",
+    "Italy": "country",
+    "pasta all'uovo": "food",
+    "butter": "food",
+    "truffles": "food",
+    "meat roast sauce": "food",
+    "fresh dough": "food",
+    "light sauces": "food",
+    "fish": "food",
+    "delicacies": "food",
+    "soups": "food"
+  },
+  "triples": [
+    {
+      "subject": "Taglierini",
+      "relation": "is_similar_to",
+      "object": "Spaghetti",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "long like Spaghetti"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "is_similar_to",
+      "object": "tagliatelle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "similar to tagliatelle"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "is_thin_like",
+      "object": "Capellini",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "but thin like Capellini"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "is_a_traditional_recipe_in",
+      "object": "Molise",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a traditional recipe in regions Molise"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "is_called",
+      "object": "Tajarin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Piedmont called Tajarin"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "is_made_of",
+      "object": "pasta all'uovo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "made of egg dough (\"pasta all'uovo\")"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "is_served_with",
+      "object": "butter",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "typically served with butter"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "has_short_cooking_time",
+      "object": "fresh dough",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "finish in short cooking time, exceedingly on fresh doug"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "fits_best_with",
+      "object": "light sauces",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "fit best to light sauces"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Taglierini",
+        "is_a_type_of",
+        "Tagliolini"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "is_a_traditional_recipe_in",
+        "Piedmont"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "contains",
+        "semolina"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "contains",
+        "flavor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "contains",
+        "salt"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "is_served_with",
+        "truffles"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "is_served_with",
+        "meat roast sauce"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "fits_best_with",
+        "fish"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "fits_best_with",
+        "delicacies"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "fits_best_with",
+        "soups"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Taglierini\nTaglierini ] (or Tagliolini) is a type of ribbon pasta, long like Spaghetti, two to three mm or roughly a tenth of an inch wide, similar to tagliatelle, but thin like Capellini. It is a traditional recipe in regions Molise and Piedmont of Italy, in Piedmont called Tajarin and made of egg dough (\"pasta all'uovo\"). The dough also contains semolina, flavor and salt. It is typically served with butter and truffles (\"tajarin ai tartufi\") or meat roast sauce. Taglierini finish in short cooking time, exceedingly on fresh doug and fit best to light sauces, fish, delicacies or soups."
+}

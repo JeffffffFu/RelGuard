@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "Betty Boo": "PERSON",
+    "Alison Moira Clarkson": "PERSON",
+    "Kensington": "GPE",
+    "London": "GPE",
+    "The Beatmasters": "ORG",
+    "Doin' the Do": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Alison Moira Clarkson",
+      "relation": "also_known_as",
+      "object": "Betty Boo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "better known as",
+          "line_start": 64,
+          "char_start": 74,
+          "ambiguous": false,
+          "relation_mention": "better known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Alison Moira Clarkson",
+      "relation": "born_in",
+      "object": "Kensington",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born 6 March 1970 in",
+          "line_start": 23,
+          "char_start": 33,
+          "ambiguous": false,
+          "relation_mention": "born 6 March 1970 in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Kensington",
+      "relation": "located_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Kensington, London",
+          "line_start": 44,
+          "char_start": 54,
+          "ambiguous": false,
+          "relation_mention": "Kensington, London",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Alison Moira Clarkson",
+      "relation": "collaborated_with",
+      "object": "The Beatmasters",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "collaboration with The Beatmasters",
+          "line_start": 230,
+          "char_start": 240,
+          "ambiguous": false,
+          "relation_mention": "collaboration with The Beatmasters",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Alison Moira Clarkson",
+      "relation": "performed",
+      "object": "Doin' the Do",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "\"Doin' the Do\"",
+          "line_start": 372,
+          "char_start": 382,
+          "ambiguous": false,
+          "relation_mention": "\"Doin' the Do\"",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "England (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Alison Moira Clarkson",
+        "nationality",
+        "England"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Betty Boo\nAlison Moira Clarkson (born 6 March 1970 in Kensington, London) better known as Betty Boo, is an English singer, songwriter and pop rap artist. She first came to mainstream prominence in the late 1980s and early 1990s following a collaboration with The Beatmasters and her subsequent solo career, which spawned a number of chart-placing singles, most notably in 1990 with \"Doin' the Do\"."
+}

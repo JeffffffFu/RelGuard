@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "New York State Route 160": "highway",
+    "Schenectady County": "county",
+    "New York": "state",
+    "United States": "country",
+    "NY 159": "highway",
+    "Duanesburg": "hamlet",
+    "Mariaville Lake": "hamlet",
+    "NY 5S": "highway",
+    "Rotterdam": "hamlet",
+    "Pattersonville": "hamlet",
+    "Montgomery County": "county"
+  },
+  "triples": [
+    {
+      "subject": "New York State Route 160",
+      "relation": "located_in",
+      "object": "Schenectady County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "mostly located within Schenectady County"
+        }
+      ]
+    },
+    {
+      "subject": "New York State Route 160",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located within Schenectady County, New York"
+        }
+      ]
+    },
+    {
+      "subject": "New York State Route 160",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located within Schenectady County, New York, in the United States"
+        }
+      ]
+    },
+    {
+      "subject": "NY 159",
+      "relation": "located_in",
+      "object": "Duanesburg",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Duanesburg hamlet of Mariaville Lake"
+        }
+      ]
+    },
+    {
+      "subject": "New York State Route 160",
+      "relation": "passes_into",
+      "object": "Montgomery County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "briefly passes into Montgomery County near its midpoint"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "New York State Route 160",
+        "terminus_at",
+        "NY 159"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "New York State Route 160",
+        "terminus_at",
+        "NY 5S"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "New York State Route 160\nNew York State Route 160 (NY 160) is a north–south state highway mostly located within Schenectady County, New York, in the United States. The southern terminus of the route is at an intersection with NY 159 in the Duanesburg hamlet of Mariaville Lake. Its northern terminus is at a junction with NY 5S in the Rotterdam hamlet of Pattersonville. While its termini are both in Schenectady County, it briefly passes into Montgomery County near its midpoint."
+}

@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Our Song": "song",
+    "Taylor Swift": "album",
+    "Nathan Chapman": "producer",
+    "Big Machine Records": "record label"
+  },
+  "triples": [
+    {
+      "subject": "Our Song",
+      "relation": "performed_by",
+      "object": "Taylor Swift",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "performed by American singer-songwriter Taylor Swift"
+        }
+      ]
+    },
+    {
+      "subject": "Our Song",
+      "relation": "written_by",
+      "object": "Taylor Swift",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was written by Swift"
+        }
+      ]
+    },
+    {
+      "subject": "Our Song",
+      "relation": "produced_by",
+      "object": "Nathan Chapman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Nathan Chapman"
+        }
+      ]
+    },
+    {
+      "subject": "Our Song",
+      "relation": "released_by",
+      "object": "Big Machine Records",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released on September 9, 2007 by Big Machine Records"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Our Song",
+        "included_in",
+        "Taylor Swift"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Taylor Swift",
+        "founded",
+        "2006"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taylor Swift",
+        "composed",
+        "Our Song"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Our Song (Taylor Swift song)\n\"Our Song\" is a country song performed by American singer-songwriter Taylor Swift. The song was written by Swift and produced by Nathan Chapman. It was released on September 9, 2007 by Big Machine Records as the third single from Swift's eponymous debut album, \"Taylor Swift\" (2006). Swift solely composed \"Our Song\" for the talent show of her freshman year in high school, about a boyfriend who she did not have a song with. It was included on \"Taylor Swift\" as she recalled its popularity with her classmates. The uptempo track is musically driven mainly by banjo and lyrically describes a young couple who use the events in their lives in place of a regular song."
+}

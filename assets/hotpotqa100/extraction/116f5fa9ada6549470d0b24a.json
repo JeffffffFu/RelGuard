@@ -1,0 +1,186 @@
+{
+  "entities": {
+    "FC Sion": "ORG",
+    "Swiss Super League": "ORG",
+    "Swiss Cup": "EVENT",
+    "Gennaro Gattuso": "PERSON",
+    "Kyle Lafferty": "PERSON",
+    "Rangers": "ORG",
+    "Léo Itaperuna": "PERSON",
+    "Arapongas": "GPE",
+    "Mathieu Manset": "PERSON",
+    "Reading": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "FC Sion",
+      "relation": "competes_in",
+      "object": "Swiss Super League",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "competes in",
+          "line_start": 28,
+          "char_start": 51,
+          "ambiguous": false,
+          "relation_mention": "competes in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "FC Sion",
+      "relation": "competes_in",
+      "object": "Swiss Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "competes in",
+          "line_start": 28,
+          "char_start": 51,
+          "ambiguous": false,
+          "relation_mention": "competes in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "FC Sion",
+      "relation": "signed",
+      "object": "Gennaro Gattuso",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "brought in",
+          "line_start": 118,
+          "char_start": 141,
+          "ambiguous": false,
+          "relation_mention": "brought in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "FC Sion",
+      "relation": "signed",
+      "object": "Kyle Lafferty",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "brought in",
+          "line_start": 118,
+          "char_start": 141,
+          "ambiguous": false,
+          "relation_mention": "brought in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Kyle Lafferty",
+      "relation": "formerly_played_for",
+      "object": "Rangers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "(former of Rangers)",
+          "line_start": 196,
+          "char_start": 219,
+          "ambiguous": false,
+          "relation_mention": "(former of Rangers)",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "FC Sion",
+      "relation": "bought",
+      "object": "Léo Itaperuna",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "bought",
+          "line_start": 235,
+          "char_start": 258,
+          "ambiguous": false,
+          "relation_mention": "bought",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Léo Itaperuna",
+      "relation": "from",
+      "object": "Arapongas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "of Arapongas",
+          "line_start": 333,
+          "char_start": 356,
+          "ambiguous": false,
+          "relation_mention": "of Arapongas",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "FC Sion",
+      "relation": "bought",
+      "object": "Mathieu Manset",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "bought",
+          "line_start": 235,
+          "char_start": 258,
+          "ambiguous": false,
+          "relation_mention": "bought",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Mathieu Manset",
+      "relation": "from",
+      "object": "Reading",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "from Reading",
+          "line_start": 381,
+          "char_start": 404,
+          "ambiguous": false,
+          "relation_mention": "from Reading",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "Italy (GPE)",
+        "Brazil (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Léo Itaperuna",
+        "born_in",
+        "Brazil"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gennaro Gattuso",
+        "nationality",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "2012–13 FC Sion season\nIn the 2012–13 season, Sion competes in the Swiss Super League and the Swiss Cup. In the summer transfer window, they brought in Italian World Cup winner Gennaro Gattuso, as well as Kyle Lafferty (former of Rangers). In addition, they bought an until then unknown Brazilian footballer called Léo Itaperuna from the 5th division Club of Arapongas and another forward Mathieu Manset from Reading."
+}

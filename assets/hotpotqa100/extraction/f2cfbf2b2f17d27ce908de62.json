@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "One Less Bell to Answer": "song",
+    "Burt Bacharach": "person",
+    "Hal David": "person",
+    "Keely Smith": "person",
+    "Bones Howe": "person",
+    "5th Dimension": "music_group",
+    "Bell Records": "record_label",
+    "Marilyn McCoo": "person",
+    "Billboard": "chart"
+  },
+  "triples": [
+    {
+      "subject": "One Less Bell to Answer",
+      "relation": "written_by",
+      "object": "Burt Bacharach",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a song written by Burt Bacharach"
+        }
+      ]
+    },
+    {
+      "subject": "One Less Bell to Answer",
+      "relation": "rediscovered_by",
+      "object": "Bones Howe",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "rediscovered in late 1969 by Bones Howe"
+        }
+      ]
+    },
+    {
+      "subject": "One Less Bell to Answer",
+      "relation": "included_on",
+      "object": "5th Dimension",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the song was included on the group's 1970 debut album for Bell Records"
+        }
+      ]
+    },
+    {
+      "subject": "One Less Bell to Answer",
+      "relation": "sung_by",
+      "object": "Marilyn McCoo",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Lead vocals on the single were sung by Marilyn McCoo"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "One Less Bell to Answer",
+        "written_by",
+        "Hal David"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "One Less Bell to Answer",
+        "reached",
+        "Billboard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "One Less Bell to Answer",
+        "became",
+        "platinum record"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "One Less Bell to Answer\n\"One Less Bell to Answer\" is a song written by Burt Bacharach and Hal David. Originally written in 1967 for Keely Smith, the song was rediscovered in late 1969 by Bones Howe, the producer for the 5th Dimension, and the song was included on the group's 1970 debut album for Bell Records, \"Portrait\". Lead vocals on the single were sung by Marilyn McCoo. The song reached number two on the \"Billboard\" Hot 100 chart and No. 4 on the Best Selling Soul Singles chart in 1970. It also went to number one on the Adult Contemporary chart that same year. It became a platinum record."
+}

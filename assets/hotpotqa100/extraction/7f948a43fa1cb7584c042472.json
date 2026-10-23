@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Rita Wilson": "Person",
+    "Margarita Ibrahimoff": "Person",
+    "Sleepless in Seattle": "Film",
+    "Now and Then": "Film",
+    "Jingle All the Way": "Film",
+    "The Story of Us": "Film",
+    "Runaway Bride": "Film",
+    "My Big Fat Greek Wedding": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Rita Wilson",
+      "relation": "born_as",
+      "object": "Margarita Ibrahimoff",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born Margarita Ibrahimoff"
+        }
+      ]
+    },
+    {
+      "subject": "Rita Wilson",
+      "relation": "appeared_in",
+      "object": "Sleepless in Seattle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "appeared in the films \"Sleepless in Seattle\""
+        }
+      ]
+    },
+    {
+      "subject": "Rita Wilson",
+      "relation": "produced",
+      "object": "My Big Fat Greek Wedding",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced several films, including \"My Big Fat Greek Wedding\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rita Wilson",
+        "is_a",
+        "Person"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rita Wilson",
+        "appeared_in",
+        "Now and Then"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rita Wilson",
+        "appeared_in",
+        "Jingle All the Way"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rita Wilson",
+        "appeared_in",
+        "The Story of Us"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rita Wilson",
+        "appeared_in",
+        "Runaway Bride"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Rita Wilson\nRita Wilson (born Margarita Ibrahimoff; October 26, 1956) is an American actress, singer, voice actress, activist, and producer. She appeared in the films \"Sleepless in Seattle\" (1993), \"Now and Then\" (1995), \"Jingle All the Way\" (1996), \"The Story of Us\" (1999) and \"Runaway Bride\" (1999). Wilson has also performed on Broadway and on television, and she has produced several films, including \"My Big Fat Greek Wedding\" (2002)."
+}

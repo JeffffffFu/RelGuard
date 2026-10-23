@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Inquisitr": "ORG",
+    "Daniel Treisman": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Inquisitr",
+      "relation": "owned_by",
+      "object": "Daniel Treisman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "owned by Daniel Treisman"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Israel (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Daniel Treisman",
+        "located_in",
+        "Israel"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Inquisitr\nInquisitr is an aggregate news and media website owned by Daniel Treisman, an Israeli businessman who relaunched the website in 2011. The site views itself as a 'multi-news aggregator' that publishes both trending news and original articles. The news website caters to a global audience, and its newly introduced slogan is \"News Worth Sharing.\""
+}

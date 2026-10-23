@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Homme by David Beckham": "product",
+    "David Beckham": "person",
+    "Coty, Inc.": "company",
+    "Victoria Beckham": "person",
+    "Simon Fuller": "person"
+  },
+  "triples": [
+    {
+      "subject": "Homme by David Beckham",
+      "relation": "endorsed_by",
+      "object": "David Beckham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "endorsed by English footballer David Beckham"
+        }
+      ]
+    },
+    {
+      "subject": "Homme by David Beckham",
+      "relation": "released_by",
+      "object": "Coty, Inc.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released by Coty, Inc."
+        }
+      ]
+    },
+    {
+      "subject": "Homme by David Beckham",
+      "relation": "launched_as_part_of",
+      "object": "Simon Fuller",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "launched as part of a new branding venture with business partner Simon Fuller"
+        }
+      ]
+    },
+    {
+      "subject": "David Beckham",
+      "relation": "married_to",
+      "object": "Victoria Beckham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his wife Victoria Beckham"
+        }
+      ]
+    },
+    {
+      "subject": "Simon Fuller",
+      "relation": "partnered_with",
+      "object": "David Beckham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "business partner Simon Fuller"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "David Beckham",
+        "has_existing_scent",
+        "David Beckham Instinct"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "David Beckham",
+        "has_existing_scent",
+        "Intimately Beckham"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Homme by David Beckham\nHomme by David Beckham is a men's eau de toilette fragrance endorsed by English footballer David Beckham. The scent, which was released by Coty, Inc. in September 2011, joined his existing scents David Beckham Instinct (2005) and Intimately Beckham (2006), a his-and-hers collection with his wife Victoria Beckham. The fragrance was launched as part of a new branding venture with business partner Simon Fuller, which also included a men's bodywear line and a number of other projects to capitalize on Beckham's worldwide commercial appeal."
+}

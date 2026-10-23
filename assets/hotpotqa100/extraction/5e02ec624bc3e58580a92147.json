@@ -1,0 +1,144 @@
+{
+  "entities": {
+    "Bu Xiaolin": "PERSON",
+    "Chinese": "NORP",
+    "Mongol": "NORP",
+    "Inner Mongolia Autonomous Region": "GPE",
+    "Buhe": "PERSON",
+    "Ulanhu": "PERSON",
+    "China": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Bu Xiaolin",
+      "relation": "has_ethnicity",
+      "object": "Mongol",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "of Mongol descent",
+          "line_start": 56,
+          "char_start": 67,
+          "ambiguous": false,
+          "relation_mention": "of Mongol descent",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Bu Xiaolin",
+      "relation": "is_nationality",
+      "object": "Chinese",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a Chinese",
+          "line_start": 32,
+          "char_start": 43,
+          "ambiguous": false,
+          "relation_mention": "is a Chinese",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Bu Xiaolin",
+      "relation": "daughter_of",
+      "object": "Buhe",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "She is the daughter of Buhe",
+          "line_start": 169,
+          "char_start": 180,
+          "ambiguous": false,
+          "relation_mention": "She is the daughter of Buhe",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Buhe",
+      "relation": "former_chairman_of",
+      "object": "Inner Mongolia Autonomous Region",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "a former chairman of Inner Mongolia",
+          "line_start": 198,
+          "char_start": 209,
+          "ambiguous": false,
+          "relation_mention": "a former chairman of Inner Mongolia",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Bu Xiaolin",
+      "relation": "granddaughter_of",
+      "object": "Ulanhu",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the granddaughter of Ulanhu",
+          "line_start": 239,
+          "char_start": 250,
+          "ambiguous": false,
+          "relation_mention": "the granddaughter of Ulanhu",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Ulanhu",
+      "relation": "founding_chairman_of",
+      "object": "Inner Mongolia Autonomous Region",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the founding chairman of Inner Mongolia",
+          "line_start": 268,
+          "char_start": 279,
+          "ambiguous": false,
+          "relation_mention": "the founding chairman of Inner Mongolia",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Ulanhu",
+      "relation": "vice_president_of",
+      "object": "China",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "a vice-president of China",
+          "line_start": 312,
+          "char_start": 323,
+          "ambiguous": false,
+          "relation_mention": "a vice-president of China",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bu Xiaolin",
+        "served_as",
+        "Chairwoman (governor) of Inner Mongolia Autonomous Region"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chairwoman (governor) of Inner Mongolia Autonomous Region",
+        "located_in",
+        "Inner Mongolia Autonomous Region"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bu Xiaolin\nBu Xiaolin (; born August 1958) is a Chinese politician of Mongol descent. She has served as Chairwoman (governor) of Inner Mongolia Autonomous Region since March 2016. She is the daughter of Buhe, a former chairman of Inner Mongolia, and the granddaughter of Ulanhu, the founding chairman of Inner Mongolia and a vice-president of China."
+}

@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "Walter A. Wohlgemuth": "Person",
+    "Bad Kreuznach": "Location",
+    "University Medical Center Regensburg": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Walter A. Wohlgemuth",
+      "relation": "born_in",
+      "object": "Bad Kreuznach",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born 15 Mai 1966 in Bad Kreuznach"
+        }
+      ]
+    },
+    {
+      "subject": "Walter A. Wohlgemuth",
+      "relation": "works_for",
+      "object": "University Medical Center Regensburg",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "at the University Medical Center Regensburg"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Walter A. Wohlgemuth",
+        "known_for",
+        "clinical und scientific works"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Walter A. Wohlgemuth",
+        "specializes_in",
+        "diagnostics and therapy of congenital vascular anomalies"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Walter A. Wohlgemuth",
+        "specializes_in",
+        "pediatric interventional radiology"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Walter A. Wohlgemuth\nWalter A. Wohlgemuth (born 15 Mai 1966 in Bad Kreuznach) is a German radiologist and neuroradiologist. He is a professor of interventional radiology and attending deputy at the Department of Radiology at the University Medical Center Regensburg. Wohlgemuth is known for his clinical und scientific works in the field of diagnostics and therapy of congenital vascular anomalies and of pediatric interventional radiology."
+}

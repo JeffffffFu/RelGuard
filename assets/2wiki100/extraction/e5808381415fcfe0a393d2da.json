@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Goffredo Parise": "PERSON",
+    "Vicenza": "GPE",
+    "Treviso": "GPE",
+    "Italian": "NORP",
+    "Viareggio Prize": "WORK_OF_ART",
+    "Il padrone(The Boss)": "WORK_OF_ART",
+    "Strega Prize": "WORK_OF_ART",
+    "Sillabario n.2": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Goffredo Parise",
+      "relation": "won",
+      "object": "Viareggio Prize",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "won",
+          "line_start": 129,
+          "char_start": 145,
+          "ambiguous": false,
+          "relation_mention": "won",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Goffredo Parise",
+      "relation": "won",
+      "object": "Strega Prize",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "won",
+          "line_start": 129,
+          "char_start": 145,
+          "ambiguous": false,
+          "relation_mention": "won",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Viareggio Prize",
+      "relation": "for_work",
+      "object": "Il padrone(The Boss)",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "for his novel",
+          "line_start": 161,
+          "char_start": 177,
+          "ambiguous": false,
+          "relation_mention": "for his novel",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Goffredo Parise",
+        "born_in",
+        "Vicenza"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Goffredo Parise",
+        "died_in",
+        "Treviso"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Goffredo Parise",
+        "nationality",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Strega Prize",
+        "for_work",
+        "Sillabario n.2"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Goffredo Parise\nGoffredo Parise (8 December 1929 in Vicenza – 31 August 1986 in Treviso) was an Italian writer, journalist, and screenwriter. He won the Viareggio Prize in 1965 for his novel \"Il padrone(The Boss)\" and the Strega Prize in 1982 for \"Sillabario n.2\"."
+}

@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Spain national football team": "team",
+    "Royal Spanish Football Federation": "organization",
+    "Julen Lopetegui": "person",
+    "Vicente del Bosque": "person",
+    "FIFA": "organization",
+    "Spanish Football Federation": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Spain national football team",
+      "relation": "controlled_by",
+      "object": "Royal Spanish Football Federation",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is controlled by the Royal Spanish Football Federation"
+        }
+      ]
+    },
+    {
+      "subject": "Spain national football team",
+      "relation": "has_head_coach",
+      "object": "Julen Lopetegui",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The current head coach is Julen Lopetegui"
+        }
+      ]
+    },
+    {
+      "subject": "Julen Lopetegui",
+      "relation": "succeeded",
+      "object": "Vicente del Bosque",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "after Vicente del Bosque stepped down"
+        }
+      ]
+    },
+    {
+      "subject": "Spain national football team",
+      "relation": "became_member_of",
+      "object": "FIFA",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Spain became a member of FIFA in 1904"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Spain national football team",
+        "represents",
+        "Spain"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Royal Spanish Football Federation",
+        "governing_body_for",
+        "football in Spain"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Spanish Football Federation",
+        "established_in",
+        "1909"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Spain national football team",
+        "debuted_in",
+        "1920"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Spain national football team",
+        "participated_in",
+        "FIFA World Cups"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Spain national football team",
+        "participated_in",
+        "UEFA European Championships"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Spain national football team\nThe Spain national football team (Spanish: \"Selección de fútbol de España\" ) represents Spain in men's International association football and is controlled by the Royal Spanish Football Federation, the governing body for football in Spain. The current head coach is Julen Lopetegui after Vicente del Bosque stepped down following Euro 2016. The Spanish side is commonly referred to as \"La Roja\" (\"The Red [One]\"), \"La Furia Roja\" (\"The Red Fury\"), \"La Furia Española\" (\"The Spanish Fury\") or simply \"La Furia\" (\"The Fury\"). Spain became a member of FIFA in 1904 even though the Spanish Football Federation was first established in 1909. Spain's national team debuted in 1920. Since then, the Spanish national team has participated in a total of 14 of 20 FIFA World Cups and 10 of 15 UEFA European Championships."
+}

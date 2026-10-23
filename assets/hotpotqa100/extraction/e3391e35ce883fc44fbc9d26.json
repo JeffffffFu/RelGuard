@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Fifty Shades of Oy Vey: A Parody": "book",
+    "E.L. Jamesbergstein": "author",
+    "Fifty Shades of Grey": "book",
+    "Alfred A. Knish": "publisher",
+    "Anatevka Stein": "character",
+    "Chaim Silver": "character"
+  },
+  "triples": [
+    {
+      "subject": "Fifty Shades of Oy Vey: A Parody",
+      "relation": "parody_of",
+      "object": "Fifty Shades of Grey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a parody of E.L. James' \"Fifty Shades of Grey\""
+        }
+      ]
+    },
+    {
+      "subject": "Fifty Shades of Oy Vey: A Parody",
+      "relation": "published_by",
+      "object": "Alfred A. Knish",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "published in print and e-book editions by Alfred A. Knish"
+        }
+      ]
+    },
+    {
+      "subject": "Fifty Shades of Oy Vey: A Parody",
+      "relation": "follows_outline_of",
+      "object": "Fifty Shades of Grey",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "which follows the outline of the original \"Fifty Shades of Grey\""
+        }
+      ]
+    },
+    {
+      "subject": "Anatevka Stein",
+      "relation": "in_relationship_with",
+      "object": "Chaim Silver",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the relationship between a beautiful young woman, Anatevka Stein, and a portly bagel tycoon, Chaim Silver"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Fifty Shades of Oy Vey: A Parody",
+        "published_in",
+        "2013"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fifty Shades of Oy Vey: A Parody",
+        "described_as",
+        "So erotic, you'll plotz"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Fifty Shades of Oy Vey: A Parody\nFifty Shades of Oy Vey: A Parody by E.L. Jamesbergstein is a parody of E.L. James' \"Fifty Shades of Grey\". It was published in print and e-book editions by Alfred A. Knish in 2013. Described on its book jacket as \"So erotic, you'll plotz,\" the comic novel, which follows the outline of the original \"Fifty Shades of Grey\", tells the story of the relationship between a beautiful young woman, Anatevka Stein, and a portly bagel tycoon, Chaim Silver."
+}

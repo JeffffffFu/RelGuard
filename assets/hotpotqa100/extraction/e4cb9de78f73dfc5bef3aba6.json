@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Austrian mountaineers": "PERSON",
+    "Edelweiss Club Salzburg": "ORG",
+    "Salzburg": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Austrian mountaineers",
+      "relation": "members_of",
+      "object": "Edelweiss Club Salzburg",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "3 have been members of the Edelweiss Club Salzburg"
+        }
+      ]
+    },
+    {
+      "subject": "Edelweiss Club Salzburg",
+      "relation": "founded_in",
+      "object": "Salzburg",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "an association of mountaineers founded in Salzburg"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Austrian mountaineers",
+        "made_first_ascent",
+        "Eight-thousanders"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Edelweiss Club Salzburg",
+        "founded",
+        "1881"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "List of Austrian mountain climbers\nThis is a list of Austrian mountaineers. On 5 of the 14 Eight-thousanders Austrians have made the first ascent, more than any other nation can claim. Out of the total of 9 Austrian mountaineers who made first ascents of Eight-thousanders, 3 have been members of the Edelweiss Club Salzburg, an association of mountaineers founded in Salzburg in 1881"
+}

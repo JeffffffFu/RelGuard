@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Steve Jobs: The Man in the Machine": "WORK_OF_ART",
+    "Steve Jobs": "PERSON",
+    "Alex Gibney": "PERSON",
+    "the Internet": "LOC",
+    "theaters": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Steve Jobs: The Man in the Machine",
+      "relation": "produced_by",
+      "object": "Alex Gibney",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 87,
+          "char_start": 122,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Steve Jobs: The Man in the Machine",
+        "about",
+        "Steve Jobs"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Steve Jobs: The Man in the Machine",
+        "directed_by",
+        "Alex Gibney"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Steve Jobs: The Man in the Machine",
+        "released_to",
+        "the Internet"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Steve Jobs: The Man in the Machine",
+        "released_to",
+        "theaters"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Steve Jobs: The Man in the Machine\nSteve Jobs: The Man in the Machine is a documentary film about Steve Jobs directed and produced by Alex Gibney. After a few festival showings, the film was released to the Internet on September 4, 2015 and in limited release to theaters on September 19, 2015.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Steve Jobs: The Man in the Machine\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Steve Jobs\", \"type\": \"PERSON\"},\n    {\"name\": \"Alex Gibney\", \"type\": \"PERSON\"},\n    {\"name\": \"the Internet\", \"type\": \"LOC\"},\n    {\"name\": \"theaters\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Steve Jobs: The Man in the Machine\",\n      \"relation\": \"about\",\n      \"object\": \"Steve Jobs\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"about\"}\n      ]\n    },\n    {\n      \"subject\": \"Steve Jobs: The Man in the Machine\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Alex Gibney\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Steve Jobs: The Man in the Machine\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Alex Gibney\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Steve Jobs: The Man in the Machine\",\n      \"relation\": \"released_to\",\n      \"object\": \"the Internet\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released to the Internet\"}\n      ]\n    },\n    {\n      \"subject\": \"Steve Jobs: The Man in the Machine\",\n      \"relation\": \"released_to\",\n      \"object\": \"theaters\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released to theaters\"}\n      ]\n    }\n  ]\n}"
+}

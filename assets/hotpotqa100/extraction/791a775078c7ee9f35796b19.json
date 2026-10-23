@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Toyota Probox": "PRODUCT",
+    "Toyota": "ORG",
+    "Japan": "GPE",
+    "Paris Motor Show": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Toyota Probox",
+      "relation": "produced_by",
+      "object": "Toyota",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 65,
+          "char_start": 79,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Probox",
+      "relation": "went_on_sale_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "went on sale in",
+          "line_start": 91,
+          "char_start": 105,
+          "ambiguous": false,
+          "relation_mention": "went on sale in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Probox",
+      "relation": "sales_debuted_at",
+      "object": "Paris Motor Show",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "debuted at",
+          "line_start": 148,
+          "char_start": 162,
+          "ambiguous": false,
+          "relation_mention": "debuted at",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Europe (LOC)"
+      ]
+    },
+    {
+      "triple": [
+        "Paris Motor Show",
+        "located_in",
+        "Europe"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Toyota Probox\nThe Toyota Probox is a 5-door, 4-seater Light commercial vehicle produced by Toyota, first went on sale in Japan in July 2002, which European sales debuted at the 2009 Paris Motor Show."
+}

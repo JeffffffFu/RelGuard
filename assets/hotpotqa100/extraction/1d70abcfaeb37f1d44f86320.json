@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "Westinghouse Atom Smasher": "PRODUCT",
+    "Westinghouse Electric": "ORG",
+    "Forest Hills": "GPE",
+    "Pennsylvania": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Westinghouse Atom Smasher",
+      "relation": "operated_by",
+      "object": "Westinghouse Electric",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "operated by",
+          "line_start": 86,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "operated by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Forest Hills",
+      "relation": "located_in",
+      "object": "Pennsylvania",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Pennsylvania",
+          "line_start": 174,
+          "char_start": 200,
+          "ambiguous": false,
+          "relation_mention": "Pennsylvania",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Westinghouse Atom Smasher",
+        "located_in",
+        "Forest Hills"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Westinghouse Atom Smasher\nWestinghouse Atom Smasher was a 5 MeV Van de Graaff electrostatic nuclear accelerator operated by the Westinghouse Electric company at their research center in Forest Hills, Pennsylvania. It was instrumental in the development in practical applications of nuclear science for energy production. It was the first industrial Van de Graaff generator in the world, and marked the beginning of nuclear research for civilian applications. Built in 1937, it was a 65 ft tall pear-shaped tower. It went dormant in 1958."
+}

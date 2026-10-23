@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "Maro Ajemian": "PERSON",
+    "Aram Khachaturian": "PERSON",
+    "Armenian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Maro Ajemian",
+      "relation": "performed",
+      "object": "Aram Khachaturian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "performing the U.S. premiere of Aram Khachaturian's Piano Concerto"
+        }
+      ]
+    },
+    {
+      "subject": "Maro Ajemian",
+      "relation": "has_heritage",
+      "object": "Armenian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "got its impetus from her Armenian heritage"
+        }
+      ]
+    },
+    {
+      "subject": "Aram Khachaturian",
+      "relation": "is_nationality",
+      "object": "Armenian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on the fact that Khachaturian was Armenian"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Maro Ajemian",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Maro Ajemian\nMaro Ajemian (July 9, 1921 – September 18, 1978) was an American pianist. Ajemian's career in contemporary music got its impetus from her Armenian heritage; she became known as a contemporary pianist after performing the U.S. premiere of Aram Khachaturian's Piano Concerto, which she chose to play based on the fact that Khachaturian was Armenian."
+}

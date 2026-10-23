@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "aircraft propellers": "PRODUCT",
+    "single piston engine": "PRODUCT",
+    "turboprop engine": "PRODUCT",
+    "marine transmission systems": "PRODUCT",
+    "large speed boats with planing hulls": "PRODUCT",
+    "propellers": "PRODUCT",
+    "engine": "PRODUCT",
+    "planetary gear transmission": "PRODUCT",
+    "helicopter designs termed coaxial rotors": "PRODUCT",
+    "coaxial contra-rotating": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "single piston engine",
+      "relation": "can_drive",
+      "object": "propellers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to drive",
+          "line_start": 312,
+          "char_start": 328,
+          "ambiguous": false,
+          "relation_mention": "to drive",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "turboprop engine",
+      "relation": "can_drive",
+      "object": "propellers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to drive",
+          "line_start": 312,
+          "char_start": 328,
+          "ambiguous": false,
+          "relation_mention": "to drive",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "contrarotating propellers (PRODUCT)"
+      ]
+    },
+    {
+      "triple": [
+        "coaxial contra-rotating",
+        "is_referred_to_as",
+        "Contra-rotating"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "contrarotating propellers",
+        "are_common_in",
+        "marine transmission systems"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "aircraft propellers",
+        "include_example_of",
+        "Contra-rotating"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "propellers",
+        "are_arranged",
+        "one behind the other"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "power",
+        "is_transferred_from",
+        "engine"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "power",
+        "is_transferred_via",
+        "planetary gear transmission"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "coaxial rotors",
+        "are_used_in",
+        "helicopter designs termed coaxial rotors"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Contra-rotating\nContra-rotating, also referred to as coaxial contra-rotating, is a technique whereby parts of a mechanism rotate in opposite directions about a common axis, usually to minimise the effect of torque. Examples include some aircraft propellers, resulting in the maximum power of a single piston or turboprop engine to drive two propellers in opposite rotation. Contra-rotating propellers are also common in some marine transmission systems, in particular for large speed boats with planing hulls. Two propellers are arranged one behind the other, and power is transferred from the engine via planetary gear transmission. The configuration can also be used in helicopter designs termed coaxial rotors, where similar issues and principles of torque apply.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"aircraft propellers\", \"type\": \"PRODUCT\"},\n    {\"name\": \"single piston engine\", \"type\": \"PRODUCT\"},\n    {\"name\": \"turboprop engine\", \"type\": \"PRODUCT\"},\n    {\"name\": \"contrarotating propellers\", \"type\": \"PRODUCT\"},\n    {\"name\": \"marine transmission systems\", \"type\": \"PRODUCT\"},\n    {\"name\": \"large speed boats with planing hulls\", \"type\": \"PRODUCT\"},\n    {\"name\": \"propellers\", \"type\": \"PRODUCT\"},\n    {\"name\": \"engine\", \"type\": \"PRODUCT\"},\n    {\"name\": \"planetary gear transmission\", \"type\": \"PRODUCT\"},\n    {\"name\": \"helicopter designs termed coaxial rotors\", \"type\": \"PRODUCT\"},\n    {\"name\": \"coaxial contra-rotating\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"coaxial contra-rotating\",\n      \"relation\": \"is_referred_to_as\",\n      \"object\": \"Contra-rotating\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also referred to as\"}\n      ]\n    },\n    {\n      \"subject\": \"contrarotating propellers\",\n      \"relation\": \"are_common_in\",\n      \"object\": \"marine transmission systems\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are also common in\"}\n      ]\n    },\n    {\n      \"subject\": \"aircraft propellers\",\n      \"relation\": \"include_example_of\",\n      \"object\": \"Contra-rotating\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Examples include\"}\n      ]\n    },\n    {\n      \"subject\": \"single piston engine\",\n      \"relation\": \"can_drive\",\n      \"object\": \"propellers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to drive\"}\n      ]\n    },\n    {\n      \"subject\": \"turboprop engine\",\n      \"relation\": \"can_drive\",\n      \"object\": \"propellers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to drive\"}\n      ]\n    },\n    {\n      \"subject\": \"propellers\",\n      \"relation\": \"are_arranged\",\n      \"object\": \"one behind the other\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are arranged\"}\n      ]\n    },\n    {\n      \"subject\": \"power\",\n      \"relation\": \"is_transferred_from\",\n      \"object\": \"engine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"transferred from\"}\n      ]\n    },\n    {\n      \"subject\": \"power\",\n      \"relation\": \"is_transferred_via\",\n      \"object\": \"planetary gear transmission\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"via\"}\n      ]\n    },\n    {\n      \"subject\": \"coaxial rotors\",\n      \"relation\": \"are_used_in\",\n      \"object\": \"helicopter designs termed coaxial rotors\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"used in\"}\n      ]\n    }\n  ]\n}"
+}

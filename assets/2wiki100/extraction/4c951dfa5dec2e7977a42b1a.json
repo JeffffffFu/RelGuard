@@ -1,0 +1,41 @@
+{
+  "entities": {
+    "Dana Blankstein-Cohen": "PERSON",
+    "Israeli Academy of Film and Television": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Dana Blankstein-Cohen",
+      "relation": "works_for",
+      "object": "Israeli Academy of Film and Television",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is the director of",
+          "line_start": 44,
+          "char_start": 60,
+          "ambiguous": false,
+          "relation_mention": "is the director of",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Israel (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Dana Blankstein-Cohen",
+        "located_in",
+        "Israel"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Dana Blankstein\nDana Blankstein- Cohen( born March 3, 1981) is the director of the Israeli Academy of Film and Television. She is a film director, and an Israeli culture entrepreneur."
+}

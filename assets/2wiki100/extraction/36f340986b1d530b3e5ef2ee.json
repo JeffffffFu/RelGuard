@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Beaulieu-sur-Loire": "commune",
+    "Loiret department": "department",
+    "Jacques MacDonald": "person",
+    "France": "country"
+  },
+  "triples": [
+    {
+      "subject": "Beaulieu-sur-Loire",
+      "relation": "located_in",
+      "object": "Loiret department",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Beaulieu- sur- Loire is a commune in the Loiret department"
+        }
+      ]
+    },
+    {
+      "subject": "Beaulieu-sur-Loire",
+      "relation": "place_of_death_of",
+      "object": "Jacques MacDonald",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is also the place of death of Jacques MacDonald"
+        }
+      ]
+    },
+    {
+      "subject": "Beaulieu-sur-Loire",
+      "relation": "located_in",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in north -central France"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jacques MacDonald",
+        "served_in",
+        "Napoleonic Wars"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Beaulieu-sur-Loire\nBeaulieu- sur- Loire is a commune in the Loiret department in north -central France. It is also the place of death of Jacques MacDonald, a French general who served in the Napoleonic Wars"
+}

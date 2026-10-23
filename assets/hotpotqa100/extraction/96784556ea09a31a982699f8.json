@@ -1,0 +1,150 @@
+{
+  "entities": {
+    "Edmond Dosti": "Person",
+    "Partizani Tirana": "Club",
+    "Olimpija Ljubljana": "Club",
+    "Albania national football team": "Team",
+    "Graz": "City",
+    "Austria": "Country",
+    "Bar Austria": "Club",
+    "Vladimir Dosti": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Edmond Dosti",
+      "relation": "played_for",
+      "object": "Partizani Tirana",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played as a striker for Partizani Tirana"
+        }
+      ]
+    },
+    {
+      "subject": "Edmond Dosti",
+      "relation": "played_for",
+      "object": "Olimpija Ljubljana",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also Olimpija Ljubljana"
+        }
+      ]
+    },
+    {
+      "subject": "Edmond Dosti",
+      "relation": "member_of",
+      "object": "Albania national football team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a member of the Albania national football team"
+        }
+      ]
+    },
+    {
+      "subject": "Edmond Dosti",
+      "relation": "made_appearances_for",
+      "object": "Albania national football team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he made four appearances for Albania national football team"
+        }
+      ]
+    },
+    {
+      "subject": "Edmond Dosti",
+      "relation": "lives_in",
+      "object": "Graz",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Currently he lives in Graz"
+        }
+      ]
+    },
+    {
+      "subject": "Vladimir Dosti",
+      "relation": "is_brother_of",
+      "object": "Edmond Dosti",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with his brother Vladimir Dosti"
+        }
+      ]
+    },
+    {
+      "subject": "Graz",
+      "relation": "located_in",
+      "object": "Austria",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Graz city of Austria"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Edmond Dosti",
+        "born_on",
+        "5 February 1966"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Edmond Dosti",
+        "retired_from",
+        "Albanian footballer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Edmond Dosti",
+        "top_goalscorer_for",
+        "Albanian Superliga"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Edmond Dosti",
+        "won",
+        "golden boot"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Edmond Dosti",
+        "manager_of",
+        "Bar Austria"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Vladimir Dosti",
+        "is_manager_of",
+        "football players"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bar Austria",
+        "located_in",
+        "Tirana"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Edmond Dosti\nEdmond Dosti (born 5 February 1966) is a retired Albanian footballer. He previously played as a striker for Partizani Tirana in Albania and also Olimpija Ljubljana in Slovenia. He was the Albanian Superliga top goalscorer for the 1992–1993 season with 21 goals, he won this golden boot whilst he was at Partizani Tirana. He was also a member of the Albania national football team from 1991 to 1995. In total he made four appearances for Albania national football team, all of them were as substitutes. Currently he lives in Graz city of Austria and he is manager of \"Bar Austria\" in Tirana with his brother Vladimir Dosti a football players manager."
+}

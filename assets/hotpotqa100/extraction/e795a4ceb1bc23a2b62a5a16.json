@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Bob Young": "PERSON",
+    "Robert Allen Young": "PERSON",
+    "American": "NORP",
+    "National Football League": "ORG",
+    "St. Louis Cardinals": "ORG",
+    "Howard Payne University": "ORG",
+    "Doug Young": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Pro Bowl (EVENT)"
+      ]
+    },
+    {
+      "triple": [
+        "Robert Allen Young",
+        "also_known_as",
+        "Bob Young"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert Allen Young",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert Allen Young",
+        "played_in",
+        "National Football League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert Allen Young",
+        "played_for",
+        "St. Louis Cardinals"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert Allen Young",
+        "named_to",
+        "Pro Bowl"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Robert Allen Young",
+        "attended",
+        "Howard Payne University"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert Allen Young",
+        "sibling_of",
+        "Doug Young"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Bob Young (American football)\nRobert Allen Young (September 3, 1942 – June 17, 1995) was an American football offensive guard who played 16 seasons in the National Football League, mainly for the St. Louis Cardinals, where he and other Cardinal offensive linemen are credited with introducing modern weightlifting/powerlifting into the training regime of the NFL. He was named to two Pro Bowls (1978 & 1979) and was a first team All Pro selection in 1979 as well. Young attended Howard Payne University. He was the older brother of three-time world powerlifting champion Doug Young.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bob Young\", \"type\": \"PERSON\"},\n    {\"name\": \"Robert Allen Young\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"National Football League\", \"type\": \"ORG\"},\n    {\"name\": \"St. Louis Cardinals\", \"type\": \"ORG\"},\n    {\"name\": \"Pro Bowl\", \"type\": \"EVENT\"},\n    {\"name\": \"Howard Payne University\", \"type\": \"ORG\"},\n    {\"name\": \"Doug Young\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Robert Allen Young\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Bob Young\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Bob Young (American football)\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Allen Young\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Allen Young\",\n      \"relation\": \"played_in\",\n      \"object\": \"National Football League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played 16 seasons in the National Football League\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Allen Young\",\n      \"relation\": \"played_for\",\n      \"object\": \"St. Louis Cardinals\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for the St. Louis Cardinals\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Allen Young\",\n      \"relation\": \"named_to\",\n      \"object\": \"Pro Bowl\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"named to two Pro Bowls\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Allen Young\",\n      \"relation\": \"attended\",\n      \"object\": \"Howard Payne University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"attended Howard Payne University\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Allen Young\",\n      \"relation\": \"sibling_of\",\n      \"object\": \"Doug Young\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"older brother of three-time world powerlifting champion Doug Young\"}\n      ]\n    }\n  ]\n}"
+}

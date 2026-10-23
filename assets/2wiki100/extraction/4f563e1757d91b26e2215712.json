@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Colour Blossoms": "WORK_OF_ART",
+    "Yonfan": "PERSON",
+    "Tang Xianzu": "PERSON",
+    "The Peony Pavilion": "WORK_OF_ART",
+    "Hong Kong": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Colour Blossoms",
+      "relation": "directed_by",
+      "object": "Yonfan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 73,
+          "char_start": 89,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Colour Blossoms",
+      "relation": "written_by",
+      "object": "Yonfan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written and directed by",
+          "line_start": 61,
+          "char_start": 77,
+          "ambiguous": false,
+          "relation_mention": "written and directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Colour Blossoms",
+      "relation": "inspired_by",
+      "object": "The Peony Pavilion",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "inspired by",
+          "line_start": 139,
+          "char_start": 155,
+          "ambiguous": false,
+          "relation_mention": "inspired by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Colour Blossoms",
+        "located_in",
+        "Hong Kong"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Colour Blossoms\nColour Blossoms( 桃色,\" Toh sik\") is a 2004 Hong Kong art film written and directed by Yonfan, and the third in an informal trilogy of films inspired by Tang Xianzu's\" The Peony Pavilion\". The original Chinese title of\" Colour Blossoms\" literally translates as\" Peach Colour\", a euphemism for sexual desire, one of the central themes in the film.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Colour Blossoms\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Yonfan\", \"type\": \"PERSON\"},\n    {\"name\": \"Tang Xianzu\", \"type\": \"PERSON\"},\n    {\"name\": \"The Peony Pavilion\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Hong Kong\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Colour Blossoms\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Yonfan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Colour Blossoms\",\n      \"relation\": \"written_by\",\n      \"object\": \"Yonfan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Colour Blossoms\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hong Kong\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Hong Kong\"}\n      ]\n    },\n    {\n      \"subject\": \"Colour Blossoms\",\n      \"relation\": \"inspired_by\",\n      \"object\": \"The Peony Pavilion\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"inspired by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Peony Pavilion\",\n      \"relation\": \"founded\",\n      \"object\": \"Tang Xianzu\",\n      \"occurrences\": []\n    }\n  ]\n}"
+}

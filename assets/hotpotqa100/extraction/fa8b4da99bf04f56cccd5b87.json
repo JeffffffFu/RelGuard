@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Giornata": "WORK_OF_ART",
+    "Italian": "NORP",
+    "Buon fresco": "WORK_OF_ART",
+    "lime plaster": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Giornata",
+      "relation": "originating_from",
+      "object": "Italian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "originating from",
+          "line_start": 25,
+          "char_start": 34,
+          "ambiguous": false,
+          "relation_mention": "originating from",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Giornata",
+      "relation": "used_in",
+      "object": "Buon fresco",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "used in",
+          "line_start": 98,
+          "char_start": 107,
+          "ambiguous": false,
+          "relation_mention": "used in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "lime plaster",
+        "binds",
+        "paint"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Giornata\nGiornata is an art term, originating from an Italian word which means \"a day's work.\" The term is used in Buon fresco mural painting and describes how much painting can be done in a single day of painting. Knowing how much can be painted in a day is crucial in the Buon fresco technique, because in this technique a watercolor paint, without binder, is applied to wet lime plaster which binds the paint into the surface of the plaster when it dries, making for an extremely durable painting. An experienced fresco painter knows how much surface can be painted in a day, and wet plaster is applied to the wall in the right amount needed for each day's work. That amount is the \"giornata\". Generally the plaster is applied in a way that will conform to the outline of a figure, or object, in a painting, so that the daily segments will not show, but it is occasionally visible as different sections in a work where the artist may not have been able to replicate a pigment exactly the next day, or where restoration has altered or made apparent the changes in pigment between the sections.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Giornata\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Italian\", \"type\": \"NORP\"},\n    {\"name\": \"Buon fresco\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"lime plaster\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Giornata\",\n      \"relation\": \"originating_from\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"originating from\"}\n      ]\n    },\n    {\n      \"subject\": \"Giornata\",\n      \"relation\": \"used_in\",\n      \"object\": \"Buon fresco\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"used in\"}\n      ]\n    },\n    {\n      \"subject\": \"lime plaster\",\n      \"relation\": \"binds\",\n      \"object\": \"paint\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"binds the paint into the surface of the plaster\"}\n      ]\n    }\n  ]\n}"
+}

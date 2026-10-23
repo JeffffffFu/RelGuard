@@ -1,0 +1,214 @@
+{
+  "entities": {
+    "Carl Schultz": "Person",
+    "Budapest": "Location",
+    "Otto Schultz": "Person",
+    "England": "Location",
+    "London": "Location",
+    "Manchester": "Location",
+    "Australia": "Location",
+    "Australian TV": "Organization",
+    "Blue Fin": "Film",
+    "Hardy Kruger": "Person",
+    "Careful, He Might Hear You": "Film",
+    "Australian Film Institute Awards": "Award",
+    "Travelling North": "Film",
+    "Leo McKern": "Person",
+    "The Seventh Sign": "Film",
+    "Demi Moore": "Person",
+    "Jürgen Prochnow": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Carl Schultz",
+      "relation": "left",
+      "object": "Budapest",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He left his native Budapest during the uprising of 1956"
+        }
+      ]
+    },
+    {
+      "subject": "Carl Schultz",
+      "relation": "has_brother",
+      "object": "Otto Schultz",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "with his brother Otto Schultz"
+        }
+      ]
+    },
+    {
+      "subject": "Carl Schultz",
+      "relation": "fled_to",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "They fled to England"
+        }
+      ]
+    },
+    {
+      "subject": "Carl Schultz",
+      "relation": "arrived_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "after arriving in London"
+        }
+      ]
+    },
+    {
+      "subject": "Carl Schultz",
+      "relation": "moved_to",
+      "object": "Manchester",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "they moved to Manchester"
+        }
+      ]
+    },
+    {
+      "subject": "Carl Schultz",
+      "relation": "emigrated_to",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Schultz emigrated to Australia by himself"
+        }
+      ]
+    },
+    {
+      "subject": "Carl Schultz",
+      "relation": "worked_for",
+      "object": "Australian TV",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "where he worked for Australian TV"
+        }
+      ]
+    },
+    {
+      "subject": "Carl Schultz",
+      "relation": "directed",
+      "object": "Blue Fin",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "he directed his first feature film,\" Blue Fin\""
+        }
+      ]
+    },
+    {
+      "subject": "Blue Fin",
+      "relation": "starring",
+      "object": "Hardy Kruger",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "starring Hardy Kruger"
+        }
+      ]
+    },
+    {
+      "subject": "Carl Schultz",
+      "relation": "notable_film",
+      "object": "Careful, He Might Hear You",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "His more notable film credits include\" Careful, He Might Hear You\""
+        }
+      ]
+    },
+    {
+      "subject": "Careful, He Might Hear You",
+      "relation": "won",
+      "object": "Australian Film Institute Awards",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "winner of eight Australian Film Institute Awards"
+        }
+      ]
+    },
+    {
+      "subject": "The Seventh Sign",
+      "relation": "starring",
+      "object": "Demi Moore",
+      "occurrences": [
+        {
+          "sentence_id": 8,
+          "relation_mention": "starring Demi Moore"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Carl Schultz",
+        "born_on",
+        "19 September 1939"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Carl Schultz",
+        "nationality",
+        "Hungarian- Australian"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Careful, He Might Hear You",
+        "won_award",
+        "Best Director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Careful, He Might Hear You",
+        "won_award",
+        "Best Film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Carl Schultz",
+        "notable_film",
+        "Travelling North"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Carl Schultz",
+        "notable_film",
+        "The Seventh Sign"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Seventh Sign",
+        "starring",
+        "Jürgen Prochnow"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Carl Schultz\nCarl Schultz( born 19 September 1939) is a Hungarian- Australian film director. He left his native Budapest during the uprising of 1956 with his brother Otto Schultz. They fled to England, and after arriving in London they moved to Manchester. In 1958, Schultz emigrated to Australia by himself, where he worked for Australian TV, first as a cameraman, and then as a director. In 1978, he directed his first feature film,\" Blue Fin\", starring Hardy Kruger. His more notable film credits include\" Careful, He Might Hear You\", winner of eight Australian Film Institute Awards, including Best Director and Best Film;\" Travelling North\", with Leo McKern; and\" The Seventh Sign\", starring Demi Moore and Jürgen Prochnow."
+}

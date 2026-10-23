@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Australian Ecology Research Award": "EVENT",
+    "AERA": "EVENT",
+    "Ecological Society of Australia": "ORG",
+    "Robert H. MacArthur Award": "EVENT",
+    "Ecological Society of America": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Australian Ecology Research Award",
+      "relation": "aka",
+      "object": "AERA",
+      "occurrences": [
+        {
+          "line": 1,
+          "predicate": "(AERA)",
+          "line_start": 34,
+          "char_start": 34,
+          "ambiguous": false,
+          "relation_mention": "(AERA)",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Australian Ecology Research Award",
+      "relation": "presented_by",
+      "object": "Ecological Society of Australia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "presented by",
+          "line_start": 57,
+          "char_start": 98,
+          "ambiguous": false,
+          "relation_mention": "presented by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "AERA",
+      "relation": "inspired_by",
+      "object": "Robert H. MacArthur Award",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "inspired, in part, by",
+          "line_start": 212,
+          "char_start": 253,
+          "ambiguous": false,
+          "relation_mention": "inspired, in part, by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Robert H. MacArthur Award",
+        "presented_by",
+        "Ecological Society of America"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Australian Ecology Research Award (AERA)\nThe Australian Ecology Research Award (AERA) is an award presented by the Ecological Society of Australia for a specific body of recent ecological work by a mid-career researcher. Initiated in 2008, the AERA was inspired, in part, by the Robert H. MacArthur Award of the Ecological Society of America. The AERA is not restricted to any particular sector, and aims to recognize outstanding ecological research; nominations of researchers from academia, and the public and private sector agencies are invited annually."
+}

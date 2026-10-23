@@ -1,0 +1,201 @@
+{
+  "entities": {
+    "José Juan Bigas Luna": "PERSON",
+    "Bigas Luna": "PERSON",
+    "Barcelona": "GPE",
+    "la Riera de Gaià": "GPE",
+    "Catalonia": "GPE",
+    "Spanish": "NORP",
+    "Catalan": "LANGUAGE",
+    "Italian": "LANGUAGE",
+    "French": "LANGUAGE",
+    "English": "LANGUAGE"
+  },
+  "triples": [
+    {
+      "subject": "José Juan Bigas Luna",
+      "relation": "known_as",
+      "object": "Bigas Luna",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known artistically as",
+          "line_start": 93,
+          "char_start": 104,
+          "ambiguous": false,
+          "relation_mention": "known artistically as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "José Juan Bigas Luna",
+      "relation": "born_in",
+      "object": "Barcelona",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "(Barcelona, 19 March 1946 -",
+          "line_start": 21,
+          "char_start": 32,
+          "ambiguous": false,
+          "relation_mention": "(Barcelona, 19 March 1946 -",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "José Juan Bigas Luna",
+      "relation": "died_in",
+      "object": "la Riera de Gaià",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "la Riera de Gaià, Catalonia, 5 April 2013),",
+          "line_start": 49,
+          "char_start": 60,
+          "ambiguous": false,
+          "relation_mention": "la Riera de Gaià, Catalonia, 5 April 2013),",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "José Juan Bigas Luna",
+      "relation": "nationality",
+      "object": "Spanish",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was a Spanish",
+          "line_start": 127,
+          "char_start": 138,
+          "ambiguous": false,
+          "relation_mention": "was a Spanish",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "José Juan Bigas Luna",
+      "relation": "made_films_in_language",
+      "object": "Catalan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Spanish, Catalan,",
+          "line_start": 451,
+          "char_start": 462,
+          "ambiguous": false,
+          "relation_mention": "Spanish, Catalan,",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "José Juan Bigas Luna",
+      "relation": "made_films_in_language",
+      "object": "Italian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Catalan, Italian,",
+          "line_start": 460,
+          "char_start": 471,
+          "ambiguous": false,
+          "relation_mention": "Catalan, Italian,",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "José Juan Bigas Luna",
+      "relation": "made_films_in_language",
+      "object": "French",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Italian, French",
+          "line_start": 469,
+          "char_start": 480,
+          "ambiguous": false,
+          "relation_mention": "Italian, French",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "José Juan Bigas Luna",
+      "relation": "made_films_in_language",
+      "object": "English",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "French and English languages.",
+          "line_start": 478,
+          "char_start": 489,
+          "ambiguous": false,
+          "relation_mention": "French and English languages.",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "la Riera de Gaià",
+      "relation": "located_in",
+      "object": "Catalonia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "la Riera de Gaià, Catalonia,",
+          "line_start": 49,
+          "char_start": 60,
+          "ambiguous": false,
+          "relation_mention": "la Riera de Gaià, Catalonia,",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Spanish language (LANGUAGE)"
+      ]
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "profession",
+        "film director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "profession",
+        "designer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "profession",
+        "artist"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "made_films_in_language",
+        "Spanish language"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bigas Luna\nJosé Juan Bigas Luna (Barcelona, 19 March 1946 - la Riera de Gaià, Catalonia, 5 April 2013), known artistically as Bigas Luna, was a Spanish film director, designer and artist. His films are typically characterised by a strong emphasis on the erotic, often related to food, something for which he admitted a strong passion. His work often explores and parodies clichés of Spanish identity, but he had an international career and has made films in the Spanish, Catalan, Italian, French and English languages."
+}

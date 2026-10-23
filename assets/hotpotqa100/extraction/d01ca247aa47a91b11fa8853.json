@@ -1,0 +1,101 @@
+{
+  "entities": {
+    "Ryan B. Schwope": "Person",
+    "San Antonio Military Medical Center": "Organization",
+    "Uniformed Services University of the Health Science School of Medicine": "Organization",
+    "Genitourinary Radiology": "Department",
+    "gynecology": "Department",
+    "urology": "Department",
+    "general surgery": "Department",
+    "department of radiology": "Department"
+  },
+  "triples": [
+    {
+      "subject": "Ryan B. Schwope",
+      "relation": "works_for",
+      "object": "San Antonio Military Medical Center",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He has been radiology staff at San Antonio Military Medical Center since August 2009"
+        }
+      ]
+    },
+    {
+      "subject": "Ryan B. Schwope",
+      "relation": "works_for",
+      "object": "Uniformed Services University of the Health Science School of Medicine",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Assistant Professor at the Uniformed Services University of the Health Science School of Medicine since 2011"
+        }
+      ]
+    },
+    {
+      "subject": "Ryan B. Schwope",
+      "relation": "head_of",
+      "object": "Genitourinary Radiology",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "As academic head of Genitourinary Radiology at SAMMC"
+        }
+      ]
+    },
+    {
+      "subject": "Ryan B. Schwope",
+      "relation": "interdisciplinary_link_with",
+      "object": "gynecology",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "he has established himself as an important interdisciplinary link with the gynecology"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ryan B. Schwope",
+        "involved_in",
+        "Radiology Resident education"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ryan B. Schwope",
+        "interdisciplinary_link_with",
+        "urology"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ryan B. Schwope",
+        "interdisciplinary_link_with",
+        "general surgery"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ryan B. Schwope",
+        "involved_in",
+        "implementing CT colonography"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ryan B. Schwope",
+        "involved_in",
+        "low-dose CT renal stone protocol"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ryan B. Schwope\nRyan B. Schwope, M.D., is a board-certified radiologist. He has been radiology staff at San Antonio Military Medical Center since August 2009, and Assistant Professor at the Uniformed Services University of the Health Science School of Medicine since 2011. As academic head of Genitourinary Radiology at SAMMC, he has played an integral part in Radiology Resident education in the forms of case conferences, inter-institutional didactic conferences, at-the-monitor teaching, and supervising image-guided biopsies and drainages. Since starting at SAMMC, he has established himself as an important interdisciplinary link with the gynecology, urology, and general surgery departments as the imaging liaison in multiple tumor boards. In addition, he has been intimately involved in implementing CT colonography, and low-dose CT renal stone protocol as routine examinations in the department of radiology. His research interests include hepatobiliary imaging, errors in image interpretation, as well as appropriate utilization of imaging with regards to pelvic MRI and CT urography."
+}

@@ -1,0 +1,137 @@
+{
+  "entities": {
+    "John Llewellyn Moxey": "PERSON",
+    "John L. Moxey": "PERSON",
+    "John Moxey": "PERSON",
+    "Argentinian": "NORP",
+    "British": "NORP",
+    "The City of the Dead": "WORK_OF_ART",
+    "Horror Hotel": "WORK_OF_ART",
+    "Murder, She Wrote": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "John Llewellyn Moxey",
+      "relation": "also_credited_as",
+      "object": "John L. Moxey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "sometimes credited as",
+          "line_start": 57,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "sometimes credited as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "John Llewellyn Moxey",
+      "relation": "also_credited_as",
+      "object": "John Moxey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "sometimes credited as",
+          "line_start": 57,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "sometimes credited as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "John Llewellyn Moxey",
+      "relation": "directed",
+      "object": "The City of the Dead",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directing the horror film",
+          "line_start": 188,
+          "char_start": 209,
+          "ambiguous": false,
+          "relation_mention": "directing the horror film",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "The City of the Dead",
+      "relation": "also_known_as",
+      "object": "Horror Hotel",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also known as",
+          "line_start": 238,
+          "char_start": 259,
+          "ambiguous": false,
+          "relation_mention": "also known as",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "John Llewellyn Moxey",
+      "relation": "directed",
+      "object": "Murder, She Wrote",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directing episodes of",
+          "line_start": 278,
+          "char_start": 299,
+          "ambiguous": false,
+          "relation_mention": "directing episodes of",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "The Saint (WORK_OF_ART)",
+        "Magnum, P.I. (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "John Llewellyn Moxey",
+        "nationality",
+        "Argentinian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Llewellyn Moxey",
+        "nationality",
+        "British"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Llewellyn Moxey",
+        "directed",
+        "The Saint"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John Llewellyn Moxey",
+        "directed",
+        "Magnum, P.I."
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John Llewellyn Moxey\nJohn Llewellyn Moxey( 26 February 1925 – 29 April 2019), sometimes credited as John L. Moxey or John Moxey, was an Argentinian- born British film and television director. He was known for directing the horror film\" The City of the Dead\"( also known as\" Horror Hotel\", 1960) and directing episodes of\" The SaintMagnum, P.I.\" and\" Murder, She Wrote\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"John Llewellyn Moxey\", \"type\": \"PERSON\"},\n    {\"name\": \"John L. Moxey\", \"type\": \"PERSON\"},\n    {\"name\": \"John Moxey\", \"type\": \"PERSON\"},\n    {\"name\": \"Argentinian\", \"type\": \"NORP\"},\n    {\"name\": \"British\", \"type\": \"NORP\"},\n    {\"name\": \"The City of the Dead\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Horror Hotel\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Saint\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Magnum, P.I.\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Murder, She Wrote\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"John Llewellyn Moxey\",\n      \"relation\": \"also_credited_as\",\n      \"object\": \"John L. Moxey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"sometimes credited as\"}\n      ]\n    },\n    {\n      \"subject\": \"John Llewellyn Moxey\",\n      \"relation\": \"also_credited_as\",\n      \"object\": \"John Moxey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"sometimes credited as\"}\n      ]\n    },\n    {\n      \"subject\": \"John Llewellyn Moxey\",\n      \"relation\": \"nationality\",\n      \"object\": \"Argentinian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Argentinian- born British\"}\n      ]\n    },\n    {\n      \"subject\": \"John Llewellyn Moxey\",\n      \"relation\": \"nationality\",\n      \"object\": \"British\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Argentinian- born British\"}\n      ]\n    },\n    {\n      \"subject\": \"John Llewellyn Moxey\",\n      \"relation\": \"directed\",\n      \"object\": \"The City of the Dead\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directing the horror film\"}\n      ]\n    },\n    {\n      \"subject\": \"The City of the Dead\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Horror Hotel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"John Llewellyn Moxey\",\n      \"relation\": \"directed\",\n      \"object\": \"The Saint\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directing episodes of\"}\n      ]\n    },\n    {\n      \"subject\": \"John Llewellyn Moxey\",\n      \"relation\": \"directed\",\n      \"object\": \"Magnum, P.I.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directing episodes of\"}\n      ]\n    },\n    {\n      \"subject\": \"John Llewellyn Moxey\",\n      \"relation\": \"directed\",\n      \"object\": \"Murder, She Wrote\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directing episodes of\"}\n      ]\n    }\n  ]\n}"
+}

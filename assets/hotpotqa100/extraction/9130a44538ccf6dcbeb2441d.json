@@ -1,0 +1,65 @@
+{
+  "entities": {
+    "Zdeno Chára": "Person",
+    "Boston Bruins": "Team",
+    "National Hockey League": "League",
+    "James Norris Memorial Trophy": "Award"
+  },
+  "triples": [
+    {
+      "subject": "Zdeno Chára",
+      "relation": "works_for",
+      "object": "Boston Bruins",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently serving as captain of the Boston Bruins"
+        }
+      ]
+    },
+    {
+      "subject": "Zdeno Chára",
+      "relation": "plays_in",
+      "object": "National Hockey League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of the National Hockey League (NHL)"
+        }
+      ]
+    },
+    {
+      "subject": "Zdeno Chára",
+      "relation": "won",
+      "object": "James Norris Memorial Trophy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He won the James Norris Memorial Trophy"
+        }
+      ]
+    },
+    {
+      "subject": "Zdeno Chára",
+      "relation": "played_for",
+      "object": "Boston Bruins",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "while playing for the Bruins"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Zdeno Chára",
+        "born_on",
+        "18 March 1977"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Zdeno Chára\nZdeno Chára (] ; born 18 March 1977) is a Slovak professional ice hockey defenseman, currently serving as captain of the Boston Bruins of the National Hockey League (NHL). He won the James Norris Memorial Trophy while playing for the Bruins in the 2008–09 season."
+}

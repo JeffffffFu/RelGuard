@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Eduardo De Filippo": "Person",
+    "Filumena Marturano": "Work",
+    "Napoli Milionaria": "Work",
+    "Sandro Pertini": "Person",
+    "Italy": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Eduardo De Filippo",
+      "relation": "known_for",
+      "object": "Filumena Marturano",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his Neapolitan works\" Filumena Marturano\""
+        }
+      ]
+    },
+    {
+      "subject": "Eduardo De Filippo",
+      "relation": "awarded_by",
+      "object": "Sandro Pertini",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was named\" senatore a vita\" by Italian Presidente della Repubblica Sandro Pertini"
+        }
+      ]
+    },
+    {
+      "subject": "Eduardo De Filippo",
+      "relation": "located_in",
+      "object": "Italy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played outside Italy"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eduardo De Filippo",
+        "known_for",
+        "Napoli Milionaria"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Eduardo De Filippo",
+        "considered_as",
+        "important italian artists of 20th century"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eduardo De Filippo",
+        "author_of",
+        "theatrical dramas"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Eduardo De Filippo\nEduardo De Filippo( 24 May 1900 – 31 October 1984), also known simply as Eduardo was an Italian actor, playwright, screenwriter, author and poet, best known for his Neapolitan works\" Filumena Marturano\" and\" Napoli Milionaria\". Considered one of the most important italian artists of 20th century, Eduardo was the author of many theatrical dramas staged and directed by himself first and later awarded and played outside Italy. For his artistic merits and contribution to the culture was named\" senatore a vita\" by Italian Presidente della Repubblica Sandro Pertini."
+}

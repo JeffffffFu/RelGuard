@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Shadow on the Land": "WORK_OF_ART",
+    "United States": "GPE",
+    "It Can't Happen Here": "WORK_OF_ART",
+    "Sinclair Lewis": "PERSON",
+    "Nedrick Young": "PERSON",
+    "Richard C. Sarafian": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Shadow on the Land",
+      "relation": "also_known_as",
+      "object": "It Can't Happen Here",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also known as United States: It Can't Happen Here"
+        }
+      ]
+    },
+    {
+      "subject": "Shadow on the Land",
+      "relation": "adapted_from",
+      "object": "It Can't Happen Here",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "adapted from the Sinclair Lewis novel \"It Can't Happen Here\""
+        }
+      ]
+    },
+    {
+      "subject": "It Can't Happen Here",
+      "relation": "written_by",
+      "object": "Sinclair Lewis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Sinclair Lewis novel \"It Can't Happen Here\""
+        }
+      ]
+    },
+    {
+      "subject": "Shadow on the Land",
+      "relation": "directed_by",
+      "object": "Richard C. Sarafian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Richard C. Sarafian"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Shadow on the Land",
+        "aired_on",
+        "ABC"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "President",
+        "creates",
+        "fascist, totalitarian regime"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "resistance movement",
+        "forms_against",
+        "fascist, totalitarian regime"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Shadow on the Land\nShadow on the Land, also known as United States: It Can't Happen Here, is a 1968 television film which aired on ABC. It was adapted from the Sinclair Lewis novel \"It Can't Happen Here\" by Nedrick Young, and directed by Richard C. Sarafian. The plot involves a President creating a fascist, totalitarian regime in the United States, and a resistance movement forming against it."
+}

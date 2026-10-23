@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Rudyard Kipling": "PERSON",
+    "Plain Tales from the Hills": "WORK_OF_ART",
+    "Kipling Society": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Plain Tales from the Hills",
+      "relation": "published_in",
+      "object": "Rudyard Kipling",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "first published in the first Indian edition of \"Plain Tales from the Hills\" (1888)"
+        }
+      ]
+    },
+    {
+      "subject": "Kipling Society",
+      "relation": "provides_notes_on",
+      "object": "Rudyard Kipling",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "see the Kipling Society notes"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rudyard Kipling",
+        "has_attitude_towards",
+        "race"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rudyard Kipling",
+        "is_interesting_about",
+        "people of mixed race"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "His Chance in Life\n\"His Chance in Life\" is a short story by Rudyard Kipling. It was first published in the first Indian edition of \"Plain Tales from the Hills\" (1888), and in subsequent editions of that collection. The story is illuminating about Kipling's attitudes to race, which are less cut-and-dried than is often thought. Kipling is interesting, if not very detailed, on people of mixed race and the snobberies involved. (For some detail, see the Kipling Society notes.)"
+}

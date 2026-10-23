@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Dave Grossman": "Person",
+    "Telltale Games": "Company",
+    "LucasArts": "Company",
+    "children's books": "Literature",
+    "Ode to the Stuff in the Sink": "Literature"
+  },
+  "triples": [
+    {
+      "subject": "Dave Grossman",
+      "relation": "works_for",
+      "object": "Telltale Games",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his work at Telltale Games"
+        }
+      ]
+    },
+    {
+      "subject": "Dave Grossman",
+      "relation": "worked_at",
+      "object": "LucasArts",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "early work at LucasArts"
+        }
+      ]
+    },
+    {
+      "subject": "Dave Grossman",
+      "relation": "written",
+      "object": "children's books",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "has also written several children's books"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Dave Grossman",
+        "written",
+        "Ode to the Stuff in the Sink"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Dave Grossman (game developer)\nDave Grossman is an American game programmer and game designer, most known for his work at Telltale Games and early work at LucasArts. He has also written several children's books, and a book of\" guy poetry\" called\" Ode to the Stuff in the Sink\"."
+}

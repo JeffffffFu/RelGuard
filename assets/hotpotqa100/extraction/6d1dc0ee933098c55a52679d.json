@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Salaryman": "WORK_OF_ART",
+    "Anglophone countries": "GPE",
+    "Japanese": "NORP",
+    "career woman": "PERSON",
+    "office lady": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Salaryman",
+        "refers_to",
+        "a man"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Salaryman",
+        "has_translation",
+        "Sararīman"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Salaryman",
+        "is_used_in",
+        "Anglophone countries"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Salaryman",
+        "refers_exclusively_to",
+        "men"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "career woman",
+        "is_used_for",
+        "women"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "office lady",
+        "is_used_for",
+        "lower prestige jobs"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Salaryman\nSalaryman (サラリーマン, , \"Sararīman\" , salaried man) refers to a man whose income is salary based, particularly those working for corporations. It has gradually become accepted in Anglophone countries as a noun for a Japanese white-collar worker or businessman. The term salaryman refers exclusively to men; for women the term career woman or, for lower prestige jobs, office lady is used.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Salaryman\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Anglophone countries\", \"type\": \"GPE\"},\n    {\"name\": \"Japanese\", \"type\": \"NORP\"},\n    {\"name\": \"career woman\", \"type\": \"PERSON\"},\n    {\"name\": \"office lady\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Salaryman\",\n      \"relation\": \"refers_to\",\n      \"object\": \"a man\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"refers to a man\"}\n      ]\n    },\n    {\n      \"subject\": \"Salaryman\",\n      \"relation\": \"has_translation\",\n      \"object\": \"Sararīman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(サラリーマン, , \\\"Sararīman\\\" , salaried man)\"} \n      ]\n    },\n    {\n      \"subject\": \"Salaryman\",\n      \"relation\": \"is_used_in\",\n      \"object\": \"Anglophone countries\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has gradually become accepted in Anglophone countries as a noun for a Japanese white-collar worker or businessman\"}\n      ]\n    },\n    {\n      \"subject\": \"Salaryman\",\n      \"relation\": \"refers_exclusively_to\",\n      \"object\": \"men\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"refers exclusively to men\"}\n      ]\n    },\n    {\n      \"subject\": \"career woman\",\n      \"relation\": \"is_used_for\",\n      \"object\": \"women\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for women the term career woman\"}\n      ]\n    },\n    {\n      \"subject\": \"office lady\",\n      \"relation\": \"is_used_for\",\n      \"object\": \"lower prestige jobs\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for lower prestige jobs, office lady is used\"}\n      ]\n    }\n  ]\n}"
+}

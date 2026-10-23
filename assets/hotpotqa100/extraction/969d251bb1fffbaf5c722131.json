@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Gino's Hamburgers": "ORG",
+    "Baltimore": "GPE",
+    "Maryland": "GPE",
+    "Gino Marchetti": "PERSON",
+    "Alan Ameche": "PERSON",
+    "Louis Fischer": "PERSON",
+    "Baltimore Colts": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Gino's Hamburgers",
+      "relation": "founded_by",
+      "object": "Gino Marchetti",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in Baltimore, Maryland, by",
+          "line_start": 51,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "founded in Baltimore, Maryland, by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Gino's Hamburgers",
+      "relation": "founded_by",
+      "object": "Alan Ameche",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in Baltimore, Maryland, by",
+          "line_start": 51,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "founded in Baltimore, Maryland, by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Gino's Hamburgers",
+      "relation": "founded_by",
+      "object": "Louis Fischer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in Baltimore, Maryland, by",
+          "line_start": 51,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "founded in Baltimore, Maryland, by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gino's Hamburgers",
+        "founded_in",
+        "Baltimore"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gino's Hamburgers",
+        "founded_in",
+        "Maryland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gino Marchetti",
+        "works_for",
+        "Baltimore Colts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alan Ameche",
+        "works_for",
+        "Baltimore Colts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Gino's Hamburgers\nGino's Hamburgers was a fast-food restaurant chain founded in Baltimore, Maryland, by Baltimore Colts defensive end Gino Marchetti and running back Alan Ameche, along with their close friend Louis Fischer, in 1957. A new group of restaurants under the Gino's name involving some of the principals of the original chain was started in 2010.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Gino's Hamburgers\", \"type\": \"ORG\"},\n    {\"name\": \"Baltimore\", \"type\": \"GPE\"},\n    {\"name\": \"Maryland\", \"type\": \"GPE\"},\n    {\"name\": \"Gino Marchetti\", \"type\": \"PERSON\"},\n    {\"name\": \"Alan Ameche\", \"type\": \"PERSON\"},\n    {\"name\": \"Louis Fischer\", \"type\": \"PERSON\"},\n    {\"name\": \"Baltimore Colts\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Gino's Hamburgers\",\n      \"relation\": \"founded_in\",\n      \"object\": \"Baltimore\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in Baltimore, Maryland, by\"}\n      ]\n    },\n    {\n      \"subject\": \"Gino's Hamburgers\",\n      \"relation\": \"founded_in\",\n      \"object\": \"Maryland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in Baltimore, Maryland, by\"}\n      ]\n    },\n    {\n      \"subject\": \"Gino's Hamburgers\",\n      \"relation\": \"founded_by\",\n      \"object\": \"Gino Marchetti\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in Baltimore, Maryland, by\"}\n      ]\n    },\n    {\n      \"subject\": \"Gino's Hamburgers\",\n      \"relation\": \"founded_by\",\n      \"object\": \"Alan Ameche\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in Baltimore, Maryland, by\"}\n      ]\n    },\n    {\n      \"subject\": \"Gino's Hamburgers\",\n      \"relation\": \"founded_by\",\n      \"object\": \"Louis Fischer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in Baltimore, Maryland, by\"}\n      ]\n    },\n    {\n      \"subject\": \"Gino Marchetti\",\n      \"relation\": \"works_for\",\n      \"object\": \"Baltimore Colts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Baltimore Colts defensive end\"}\n      ]\n    },\n    {\n      \"subject\": \"Alan Ameche\",\n      \"relation\": \"works_for\",\n      \"object\": \"Baltimore Colts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Baltimore Colts defensive end Gino Marchetti and running back Alan Ameche\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "No. 26 Squadron RAAF": "military_unit",
+    "RAAF Base Williamtown": "location",
+    "New South Wales": "location",
+    "Australia": "location",
+    "Hunter Region": "location",
+    "Royal Australian Air Force": "organization"
+  },
+  "triples": [
+    {
+      "subject": "No. 26 Squadron RAAF",
+      "relation": "headquartered_at",
+      "object": "RAAF Base Williamtown",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "headquartered at RAAF Base Williamtown"
+        }
+      ]
+    },
+    {
+      "subject": "No. 26 Squadron RAAF",
+      "relation": "located_in",
+      "object": "New South Wales",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in New South Wales"
+        }
+      ]
+    },
+    {
+      "subject": "No. 26 Squadron RAAF",
+      "relation": "serves_in",
+      "object": "Hunter Region",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in the Hunter Region of New South Wales"
+        }
+      ]
+    },
+    {
+      "subject": "No. 26 Squadron RAAF",
+      "relation": "part_of",
+      "object": "Royal Australian Air Force",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a Royal Australian Air Force reserve squadron"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "No. 26 Squadron RAAF",
+        "located_in",
+        "Australia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "No. 26 Squadron RAAF",
+        "formed_on",
+        "1 July 1981"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "No. 26 Squadron RAAF",
+        "responsible_for",
+        "air force reservists"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "No. 26 Squadron RAAF\nNo. 26 (City of Newcastle) Squadron RAAF is a Royal Australian Air Force reserve squadron, headquartered at RAAF Base Williamtown in New South Wales, Australia. The squadron's role is to provide trained personnel to regular RAAF units during operations. It was formed on 1 July 1981 and is responsible for air force reservists in the Hunter Region of New South Wales."
+}

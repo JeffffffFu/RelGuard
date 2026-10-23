@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "United States": "GPE",
+    "Oklahoma": "GPE",
+    "United States Senate": "ORG",
+    "2004 United States Senate election in Oklahoma": "EVENT",
+    "United States House of Representatives": "ORG",
+    "Don Nickles": "PERSON",
+    "Tom Coburn": "PERSON",
+    "Republican": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Don Nickles",
+      "relation": "decided_to_retire",
+      "object": "2004 United States Senate election in Oklahoma",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "decided to retire",
+          "line_start": 249,
+          "char_start": 297,
+          "ambiguous": false,
+          "relation_mention": "decided to retire",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Tom Coburn",
+      "relation": "won",
+      "object": "2004 United States Senate election in Oklahoma",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "won the open seat",
+          "line_start": 330,
+          "char_start": 378,
+          "ambiguous": false,
+          "relation_mention": "won the open seat",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "2004 United States Senate election in Oklahoma",
+        "located_in",
+        "Oklahoma"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "2004 United States Senate election in Oklahoma",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "2004 United States Senate election in Oklahoma",
+        "part_of",
+        "United States Senate"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "2004 United States Senate election in Oklahoma",
+        "concurrent_with",
+        "United States House of Representatives"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Don Nickles",
+        "works_for",
+        "United States Senate"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Don Nickles",
+        "affiliated_with",
+        "Republican"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tom Coburn",
+        "affiliated_with",
+        "Republican"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "United States Senate election in Oklahoma, 2004\nThe 2004 United States Senate election in Oklahoma took place on November 2, 2004. The election was concurrent with elections to the United States House of Representatives and the presidential election. Incumbent Republican U.S. Senator Don Nickles decided to retire instead of seeking a fifth term. Republican nominee Tom Coburn won the open seat.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Oklahoma\", \"type\": \"GPE\"},\n    {\"name\": \"United States Senate\", \"type\": \"ORG\"},\n    {\"name\": \"2004 United States Senate election in Oklahoma\", \"type\": \"EVENT\"},\n    {\"name\": \"United States House of Representatives\", \"type\": \"ORG\"},\n    {\"name\": \"Don Nickles\", \"type\": \"PERSON\"},\n    {\"name\": \"Tom Coburn\", \"type\": \"PERSON\"},\n    {\"name\": \"Republican\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"2004 United States Senate election in Oklahoma\",\n      \"relation\": \"located_in\",\n      \"object\": \"Oklahoma\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"in Oklahoma\"}\n      ]\n    },\n    {\n      \"subject\": \"2004 United States Senate election in Oklahoma\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"United States\"}\n      ]\n    },\n    {\n      \"subject\": \"2004 United States Senate election in Oklahoma\",\n      \"relation\": \"part_of\",\n      \"object\": \"United States Senate\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"United States Senate\"}\n      ]\n    },\n    {\n      \"subject\": \"2004 United States Senate election in Oklahoma\",\n      \"relation\": \"concurrent_with\",\n      \"object\": \"United States House of Representatives\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"concurrent with elections to the United States House of Representatives\"}\n      ]\n    },\n    {\n      \"subject\": \"Don Nickles\",\n      \"relation\": \"works_for\",\n      \"object\": \"United States Senate\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"U.S. Senator\"}\n      ]\n    },\n    {\n      \"subject\": \"Don Nickles\",\n      \"relation\": \"affiliated_with\",\n      \"object\": \"Republican\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Republican U.S. Senator\"}\n      ]\n    },\n    {\n      \"subject\": \"Don Nickles\",\n      \"relation\": \"decided_to_retire\",\n      \"object\": \"2004 United States Senate election in Oklahoma\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"decided to retire\"}\n      ]\n    },\n    {\n      \"subject\": \"Tom Coburn\",\n      \"relation\": \"affiliated_with\",\n      \"object\": \"Republican\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Republican nominee\"}\n      ]\n    },\n    {\n      \"subject\": \"Tom Coburn\",\n      \"relation\": \"won\",\n      \"object\": \"2004 United States Senate election in Oklahoma\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the open seat\"}\n      ]\n    }\n  ]\n}"
+}

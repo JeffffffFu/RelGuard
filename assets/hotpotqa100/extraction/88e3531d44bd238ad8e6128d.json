@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Pete Barnes": "PERSON",
+    "American Football League": "ORG",
+    "National Football League": "ORG",
+    "Southern University": "ORG",
+    "Houston Oilers": "ORG",
+    "San Diego Chargers": "ORG",
+    "St. Louis Cardinals": "ORG",
+    "New England Patriots": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Pete Barnes",
+      "relation": "played_professionally_in",
+      "object": "American Football League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played professionally in the American Football League (AFL)"
+        }
+      ]
+    },
+    {
+      "subject": "Pete Barnes",
+      "relation": "played_college_football_at",
+      "object": "Southern University",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played college football at Southern University"
+        }
+      ]
+    },
+    {
+      "subject": "Pete Barnes",
+      "relation": "played_for",
+      "object": "Houston Oilers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played professionally in the AFL for the Houston Oilers in 1967 and 1968"
+        }
+      ]
+    },
+    {
+      "subject": "Pete Barnes",
+      "relation": "played_for",
+      "object": "San Diego Chargers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played in the NFL for the Chargers (1970–72)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pete Barnes",
+        "played_professionally_in",
+        "National Football League"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pete Barnes",
+        "played_for",
+        "San Diego Chargers"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pete Barnes",
+        "played_for",
+        "St. Louis Cardinals"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pete Barnes",
+        "played_for",
+        "New England Patriots"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pete Barnes\nPeter G. Barnes (born August 31, 1945) is a former American football linebacker who played professionally in the American Football League (AFL) and the National Football League (NFL). He played college football at Southern University. He played professionally in the AFL for the Houston Oilers in 1967 and 1968, and the San Diego Chargers in 1969. Then he played in the NFL for the Chargers (1970–72), the St. Louis Cardinals (1973–75), and the New England Patriots (1976–77)."
+}

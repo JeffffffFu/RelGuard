@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "United States Government Manual": "document",
+    "Office of the Federal Register": "organization",
+    "United States Government Printing Office": "organization"
+  },
+  "triples": [
+    {
+      "subject": "United States Government Manual",
+      "relation": "published_by",
+      "object": "Office of the Federal Register",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "published annually by the Office of the Federal Register"
+        }
+      ]
+    },
+    {
+      "subject": "United States Government Manual",
+      "relation": "printed_and_distributed_by",
+      "object": "United States Government Printing Office",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "printed and distributed by the United States Government Printing Office"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "United States Government Manual",
+        "known_as",
+        "United States Government Organization Manual"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "United States Government Manual\nThe United States Government Manual is the official handbook of the federal government, published annually by the Office of the Federal Register and printed and distributed by the United States Government Printing Office. The first edition was issued in 1935; before the 1973/74 edition it was known as the United States Government Organization Manual."
+}

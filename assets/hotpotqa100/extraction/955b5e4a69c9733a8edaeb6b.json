@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Fired Up": "WORK_OF_ART",
+    "NBC": "ORG",
+    "Grammnet Productions": "ORG",
+    "Sharon Lawrence": "PERSON",
+    "Leah Remini": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Fired Up",
+      "relation": "aired_on",
+      "object": "NBC",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "aired on",
+          "line_start": 36,
+          "char_start": 57,
+          "ambiguous": false,
+          "relation_mention": "aired on",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Fired Up",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fired Up",
+        "first_from",
+        "Grammnet Productions"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fired Up",
+        "starred",
+        "Sharon Lawrence"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fired Up",
+        "starred",
+        "Leah Remini"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Fired Up (TV series)\nFired Up is an American sitcom that aired on NBC for two seasons and 28 episodes. The series, the first from Grammnet Productions, starred Sharon Lawrence as a self-centered promotions executive and Leah Remini as her mouthy assistant. When the pair got fired from their jobs, they teamed up to create a business as equal partners. The tagline of the series was \"\"First she got fired, then she got fired up.\"\"",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Fired Up\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"NBC\", \"type\": \"ORG\"},\n    {\"name\": \"Grammnet Productions\", \"type\": \"ORG\"},\n    {\"name\": \"Sharon Lawrence\", \"type\": \"PERSON\"},\n    {\"name\": \"Leah Remini\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Fired Up\",\n      \"relation\": \"aired_on\",\n      \"object\": \"NBC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"aired on\"}\n      ]\n    },\n    {\n      \"subject\": \"Fired Up\",\n      \"relation\": \"is_a\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American sitcom\"}\n      ]\n    },\n    {\n      \"subject\": \"Fired Up\",\n      \"relation\": \"first_from\",\n      \"object\": \"Grammnet Productions\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the first from Grammnet Productions\"}\n      ]\n    },\n    {\n      \"subject\": \"Fired Up\",\n      \"relation\": \"starred\",\n      \"object\": \"Sharon Lawrence\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starred Sharon Lawrence\"}\n      ]\n    },\n    {\n      \"subject\": \"Fired Up\",\n      \"relation\": \"starred\",\n      \"object\": \"Leah Remini\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Leah Remini\"}\n      ]\n    }\n  ]\n}"
+}

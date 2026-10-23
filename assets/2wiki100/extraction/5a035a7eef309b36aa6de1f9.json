@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "Hardcase": "WORK_OF_ART",
+    "John Llewellyn Moxey": "PERSON",
+    "Clint Walker": "PERSON",
+    "Stefanie Powers": "PERSON",
+    "Hanna-Barbera studios": "ORG",
+    "ABC Movie of the Week": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Hardcase",
+      "relation": "directed_by",
+      "object": "John Llewellyn Moxey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 61,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hardcase",
+      "relation": "stars",
+      "object": "Clint Walker",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 98,
+          "char_start": 119,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hardcase",
+      "relation": "stars",
+      "object": "Stefanie Powers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 98,
+          "char_start": 119,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Hardcase",
+        "produced_by",
+        "Hanna-Barbera studios"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hardcase",
+        "appeared_on",
+        "ABC Movie of the Week"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hardcase",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Hardcase (1972 film)\nHardcase is a 1972 American made-for-television Western film directed by John Llewellyn Moxey and starring Clint Walker and Stefanie Powers. It was the first fully live-action feature film of the Hanna-Barbera studios. The movie appeared on the \"ABC Movie of the Week\" on February 1, 1972 where it was a ratings surprise; becoming the seventh most popular show of the week.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Hardcase\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"John Llewellyn Moxey\", \"type\": \"PERSON\"},\n    {\"name\": \"Clint Walker\", \"type\": \"PERSON\"},\n    {\"name\": \"Stefanie Powers\", \"type\": \"PERSON\"},\n    {\"name\": \"Hanna-Barbera studios\", \"type\": \"ORG\"},\n    {\"name\": \"ABC Movie of the Week\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Hardcase\",\n      \"relation\": \"directed_by\",\n      \"object\": \"John Llewellyn Moxey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Hardcase\",\n      \"relation\": \"stars\",\n      \"object\": \"Clint Walker\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Hardcase\",\n      \"relation\": \"stars\",\n      \"object\": \"Stefanie Powers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Hardcase\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Hanna-Barbera studios\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the Hanna-Barbera studios\"}\n      ]\n    },\n    {\n      \"subject\": \"Hardcase\",\n      \"relation\": \"appeared_on\",\n      \"object\": \"ABC Movie of the Week\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"appeared on the \\\"ABC Movie of the Week\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Hardcase\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    }\n  ]\n}"
+}

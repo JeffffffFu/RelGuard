@@ -1,0 +1,196 @@
+{
+  "entities": {
+    "Kiehnmoor": "nature reserve",
+    "Germany": "country",
+    "Celle district": "district",
+    "Uelzen district": "district",
+    "Südheide Nature Park": "nature park",
+    "Heidschnucken": "animal",
+    "Gerdau": "stream",
+    "Brambosteler Moor": "nature reserve",
+    "Unterlüß Firing Range": "firing range",
+    "Rheinmetall": "company",
+    "Große Heide": "heath",
+    "crane": "bird",
+    "black stork": "bird",
+    "otter": "animal"
+  },
+  "triples": [
+    {
+      "subject": "Kiehnmoor",
+      "relation": "located_in",
+      "object": "Germany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Kiehnmoor is a nature reserve in Germany."
+        }
+      ]
+    },
+    {
+      "subject": "Celle district",
+      "relation": "responsible_for",
+      "object": "Kiehnmoor",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The nature conservation authorities of these districts are responsible for the reserve."
+        }
+      ]
+    },
+    {
+      "subject": "Uelzen district",
+      "relation": "responsible_for",
+      "object": "Kiehnmoor",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The nature conservation authorities of these districts are responsible for the reserve."
+        }
+      ]
+    },
+    {
+      "subject": "Kiehnmoor",
+      "relation": "borders_on",
+      "object": "Südheide Nature Park",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Its southern perimeter borders immediately on the larger heathland area of the Südheide Nature Park."
+        }
+      ]
+    },
+    {
+      "subject": "Kiehnmoor",
+      "relation": "is_habitat_for",
+      "object": "crane",
+      "occurrences": [
+        {
+          "sentence_id": 9,
+          "relation_mention": "Rare birds have settled here including the crane and the black stork."
+        }
+      ]
+    },
+    {
+      "subject": "Kiehnmoor",
+      "relation": "is_habitat_for",
+      "object": "black stork",
+      "occurrences": [
+        {
+          "sentence_id": 9,
+          "relation_mention": "Rare birds have settled here including the crane and the black stork."
+        }
+      ]
+    },
+    {
+      "subject": "Kiehnmoor",
+      "relation": "is_habitat_for",
+      "object": "otter",
+      "occurrences": [
+        {
+          "sentence_id": 10,
+          "relation_mention": "Even the otter may be found here."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kiehnmoor",
+        "designated_as",
+        "nature reserve"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kiehnmoor",
+        "has_area",
+        "440 ha"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Celle district",
+        "has_area",
+        "100 ha"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Uelzen district",
+        "has_area",
+        "340 ha"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kiehnmoor",
+        "has_part",
+        "sand heath"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kiehnmoor",
+        "is_adjacent_to",
+        "Gerdau"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kiehnmoor",
+        "is_adjacent_to",
+        "Brambosteler Moor"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kiehnmoor",
+        "borders_on",
+        "Unterlüß Firing Range"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rheinmetall",
+        "owns",
+        "Unterlüß Firing Range"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kiehnmoor",
+        "borders_on",
+        "Große Heide"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kiehnmoor",
+        "is_out_of_bounds",
+        "public"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kiehnmoor",
+        "is_secluded",
+        "area"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kiehnmoor\nThe Kiehnmoor is a nature reserve in Germany. It was designated as a nature reserve in 1992. It has an area of 440 ha of which 100 ha lie in Celle district and 340 ha in Uelzen district. The nature conservation authorities of these districts are responsible for the reserve. A large part of the area is wet meadow, that in places is intensively farmed. However the majority of the area has been left in its natural state. A small sand heath forms part of the reserve. Its southern perimeter borders immediately on the larger heathland area of the Südheide Nature Park. The \"Heidschnucken\", moorland sheep characteristic of the region, are reared here. North of the Kiehnmoor and immediately adjacent to it is the valley of a partially dammed stream, the \"Gerdau\", and the Brambosteler Moor nature reserve. To the southeast the reserve borders on the Unterlüß Firing Range (\"Schießplatz Unterlüß\"), belonging to the firm of Rheinmetall, and the \"Große Heide\" (\"Large Heath\") near Unterlüß, that is closed to the public. Kiehnmoor, too, is totally out-of-bounds. This whole area is very secluded. Rare birds have settled here including the crane and the black stork. Even the otter may be found here."
+}

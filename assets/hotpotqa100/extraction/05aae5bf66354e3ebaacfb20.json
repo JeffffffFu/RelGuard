@@ -1,0 +1,135 @@
+{
+  "entities": {
+    "Dumfriesshire Black and Tan Foxhounds": "animal_pack",
+    "Glenholm Kennels": "location",
+    "Kettleholm": "location",
+    "Lockerbie": "location",
+    "Sir John Buchanan Jardine": "person",
+    "Hounds of the World": "book",
+    "First World War": "event",
+    "Bloodhound": "breed",
+    "Gascony blue": "breed",
+    "English Foxhound": "breed",
+    "Equipage de la Roirie": "animal_pack",
+    "France": "location"
+  },
+  "triples": [
+    {
+      "subject": "Dumfriesshire Black and Tan Foxhounds",
+      "relation": "kennelled_at",
+      "object": "Glenholm Kennels",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "were a pack of foxhounds kennelled at Glenholm Kennels"
+        }
+      ]
+    },
+    {
+      "subject": "Dumfriesshire Black and Tan Foxhounds",
+      "relation": "located_in",
+      "object": "Kettleholm",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at Glenholm Kennels, Kettleholm"
+        }
+      ]
+    },
+    {
+      "subject": "Dumfriesshire Black and Tan Foxhounds",
+      "relation": "located_in",
+      "object": "Lockerbie",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "near Lockerbie"
+        }
+      ]
+    },
+    {
+      "subject": "Dumfriesshire Black and Tan Foxhounds",
+      "relation": "established_by",
+      "object": "Sir John Buchanan Jardine",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "established by Sir John Buchanan Jardine"
+        }
+      ]
+    },
+    {
+      "subject": "Dumfriesshire Black and Tan Foxhounds",
+      "relation": "descended_from",
+      "object": "Equipage de la Roirie",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "there is a pack descended from them in France, known as Equipage de la Roirie"
+        }
+      ]
+    },
+    {
+      "subject": "Equipage de la Roirie",
+      "relation": "located_in",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "in France, known as Equipage de la Roirie"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sir John Buchanan Jardine",
+        "authored",
+        "Hounds of the World"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Dumfriesshire Black and Tan Foxhounds",
+        "disbanded_in",
+        "2001"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dumfriesshire Black and Tan Foxhounds",
+        "created_by_crossing",
+        "Bloodhound/Gascony blue/English Foxhound"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dumfriesshire Black and Tan Foxhounds",
+        "larger_than",
+        "standard foxhounds"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dumfriesshire Black and Tan Foxhounds",
+        "color",
+        "black and tan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dumfriesshire Black and Tan Foxhounds",
+        "disbanded_in",
+        "1986"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Dumfriesshire Hound\nDumfriesshire Black and Tan Foxhounds were a pack of foxhounds kennelled at Glenholm Kennels, Kettleholm, near Lockerbie until they were disbanded in 2001. They were established by Sir John Buchanan Jardine, author of \"Hounds of the World\" (1937), after the First World War. The hounds are believed to have originally been created by crossing Bloodhound/Gascony blue/English Foxhound. They were larger than standard foxhounds and were black and tan. Although that pack was disbanded in 1986, there is a pack descended from them in France, known as Equipage de la Roirie."
+}

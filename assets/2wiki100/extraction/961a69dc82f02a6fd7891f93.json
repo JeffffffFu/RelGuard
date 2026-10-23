@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Albertine Agnes of Nassau": "Person",
+    "Henry Casimir II": "Person",
+    "Frederick Henry": "Person",
+    "Amalia of Solms- Braunfels": "Person",
+    "Friesland": "Location",
+    "Groningen": "Location",
+    "Drenthe": "Location",
+    "Nassau- Dietz": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Albertine Agnes of Nassau",
+      "relation": "regent_of",
+      "object": "Friesland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was regent of Friesland"
+        }
+      ]
+    },
+    {
+      "subject": "Albertine Agnes of Nassau",
+      "relation": "mother_of",
+      "object": "Henry Casimir II",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "during the minority of her son Henry Casimir II"
+        }
+      ]
+    },
+    {
+      "subject": "Frederick Henry",
+      "relation": "parent_of",
+      "object": "Albertine Agnes of Nassau",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "fifth daughter of stadtholder Frederick Henry"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Albertine Agnes of Nassau",
+        "regent_of",
+        "Groningen"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Albertine Agnes of Nassau",
+        "regent_of",
+        "Drenthe"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Amalia of Solms- Braunfels",
+        "parent_of",
+        "Albertine Agnes of Nassau"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Henry Casimir II",
+        "title",
+        "Count of Nassau- Dietz"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Countess Albertine Agnes of Nassau\nAlbertine Agnes of Nassau( April 9, 1634 – May 26, 1696), was regent of Friesland, Groningen and Drenthe during the minority of her son Henry Casimir II, Count of Nassau- Dietz. She was the sixth child and fifth daughter of stadtholder Frederick Henry, Prince of Orange and Amalia of Solms- Braunfels."
+}

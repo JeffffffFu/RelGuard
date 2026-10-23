@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Gola Barood": "WORK_OF_ART",
+    "Hindi": "LANGUAGE",
+    "Indian": "NORP",
+    "David Dhawan": "PERSON",
+    "Shatrughan Sinha": "PERSON",
+    "Chunky Pandey": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Gola Barood",
+      "relation": "directed_by",
+      "object": "David Dhawan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 57,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gola Barood",
+        "language",
+        "Hindi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gola Barood",
+        "nationality",
+        "Indian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gola Barood",
+        "features",
+        "Shatrughan Sinha"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gola Barood",
+        "features",
+        "Chunky Pandey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Gola Barood\nGola Barood is a 1989 Hindi- language Indian action film directed by David Dhawan, starring Shatrughan Sinha and Chunky Pandey in lead roles.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Gola Barood\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Hindi\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Indian\", \"type\": \"NORP\"},\n    {\"name\": \"David Dhawan\", \"type\": \"PERSON\"},\n    {\"name\": \"Shatrughan Sinha\", \"type\": \"PERSON\"},\n    {\"name\": \"Chunky Pandey\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Gola Barood\",\n      \"relation\": \"directed_by\",\n      \"object\": \"David Dhawan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Gola Barood\",\n      \"relation\": \"language\",\n      \"object\": \"Hindi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Hindi- language\"}\n      ]\n    },\n    {\n      \"subject\": \"Gola Barood\",\n      \"relation\": \"nationality\",\n      \"object\": \"Indian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Indian\"}\n      ]\n    },\n    {\n      \"subject\": \"Gola Barood\",\n      \"relation\": \"features\",\n      \"object\": \"Shatrughan Sinha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Shatrughan Sinha\"}\n      ]\n    },\n    {\n      \"subject\": \"Gola Barood\",\n      \"relation\": \"features\",\n      \"object\": \"Chunky Pandey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Chunky Pandey\"}\n      ]\n    }\n  ]\n}"
+}

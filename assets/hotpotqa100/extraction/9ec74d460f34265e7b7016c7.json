@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Sin of a Family": "film",
+    "Shin Hyun-joon": "person",
+    "detective": "occupation",
+    "young autistic boy": "person"
+  },
+  "triples": [
+    {
+      "subject": "Sin of a Family",
+      "relation": "produced_by",
+      "object": "Shin Hyun-joon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Shin Hyun-joon"
+        }
+      ]
+    },
+    {
+      "subject": "detective",
+      "relation": "investigates",
+      "object": "young autistic boy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "about a detective who investigates the circumstances of a young autistic boy's death"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sin of a Family",
+        "is_a",
+        "film"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sin of a Family\nSin of a Family () is 2011 South Korean crime film, produced by Shin Hyun-joon, about a detective who investigates the circumstances of a young autistic boy's death."
+}

@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "Juan Verdaguer": "Person",
+    "Rosaura at 10 O'clock": "Film",
+    "Uruguay": "Country",
+    "Argentina": "Country"
+  },
+  "triples": [
+    {
+      "subject": "Juan Verdaguer",
+      "relation": "born_in",
+      "object": "Uruguay",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Juan Verdaguer( 1915–2001) was a Uruguayan actor."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Juan Verdaguer",
+        "best_known_for",
+        "Rosaura at 10 O'clock"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rosaura at 10 O'clock",
+        "located_in",
+        "Argentina"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Juan Verdaguer\nJuan Verdaguer( 1915–2001) was a Uruguayan actor. He is best known for his role in the 1958 Argentine film\" Rosaura at 10 O'clock\"."
+}

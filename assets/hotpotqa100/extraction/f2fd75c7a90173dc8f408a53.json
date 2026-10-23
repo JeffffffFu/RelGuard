@@ -1,0 +1,129 @@
+{
+  "entities": {
+    "I Know You": "WORK_OF_ART",
+    "Skylar Grey": "PERSON",
+    "Fifty Shades of Grey": "WORK_OF_ART",
+    "Stephan Moccio": "PERSON",
+    "Dan Heath": "PERSON",
+    "Canadian": "NORP",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "I Know You",
+      "relation": "recorded_by",
+      "object": "Skylar Grey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a song recorded by",
+          "line_start": 13,
+          "char_start": 24,
+          "ambiguous": false,
+          "relation_mention": "is a song recorded by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "I Know You",
+      "relation": "written_by",
+      "object": "Skylar Grey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was written by",
+          "line_start": 159,
+          "char_start": 170,
+          "ambiguous": false,
+          "relation_mention": "was written by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "I Know You",
+      "relation": "written_by",
+      "object": "Stephan Moccio",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was written by",
+          "line_start": 159,
+          "char_start": 170,
+          "ambiguous": false,
+          "relation_mention": "was written by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "I Know You",
+      "relation": "co_produced_by",
+      "object": "Stephan Moccio",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was co-produced by",
+          "line_start": 229,
+          "char_start": 240,
+          "ambiguous": false,
+          "relation_mention": "was co-produced by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "I Know You",
+      "relation": "co_produced_by",
+      "object": "Dan Heath",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was co-produced by",
+          "line_start": 229,
+          "char_start": 240,
+          "ambiguous": false,
+          "relation_mention": "was co-produced by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "I Know You",
+        "for_soundtrack_of",
+        "Fifty Shades of Grey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Stephan Moccio",
+        "nationality",
+        "Canadian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Skylar Grey",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "I Know You",
+        "released_as",
+        "Fifty Shades of Grey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "I Know You\n\"I Know You\" is a song recorded by American recording artist and songwriter Skylar Grey for the soundtrack to the film \"Fifty Shades of Grey\" (2015). The song was written by Grey and Canadian composer/producer Stephan Moccio and was co-produced by Moccio and Dan Heath. It was released as the second promotional single from the \"Fifty Shades of Grey\" soundtrack on February 3, 2015.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"I Know You\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Skylar Grey\", \"type\": \"PERSON\"},\n    {\"name\": \"Fifty Shades of Grey\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Stephan Moccio\", \"type\": \"PERSON\"},\n    {\"name\": \"Dan Heath\", \"type\": \"PERSON\"},\n    {\"name\": \"Canadian\", \"type\": \"NORP\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"I Know You\",\n      \"relation\": \"recorded_by\",\n      \"object\": \"Skylar Grey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a song recorded by\"}\n      ]\n    },\n    {\n      \"subject\": \"I Know You\",\n      \"relation\": \"for_soundtrack_of\",\n      \"object\": \"Fifty Shades of Grey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for the soundtrack to the film\"}\n      ]\n    },\n    {\n      \"subject\": \"I Know You\",\n      \"relation\": \"written_by\",\n      \"object\": \"Skylar Grey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was written by\"}\n      ]\n    },\n    {\n      \"subject\": \"I Know You\",\n      \"relation\": \"written_by\",\n      \"object\": \"Stephan Moccio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Stephan Moccio\",\n      \"relation\": \"nationality\",\n      \"object\": \"Canadian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Canadian\"}\n      ]\n    },\n    {\n      \"subject\": \"Skylar Grey\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    },\n    {\n      \"subject\": \"I Know You\",\n      \"relation\": \"co_produced_by\",\n      \"object\": \"Stephan Moccio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was co-produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"I Know You\",\n      \"relation\": \"co_produced_by\",\n      \"object\": \"Dan Heath\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was co-produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"I Know You\",\n      \"relation\": \"released_as\",\n      \"object\": \"Fifty Shades of Grey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as the second promotional single from the \\\"Fifty Shades of Grey\\\" soundtrack\"}\n      ]\n    }\n  ]\n}"
+}

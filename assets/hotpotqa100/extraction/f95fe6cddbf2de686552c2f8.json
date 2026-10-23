@@ -1,0 +1,137 @@
+{
+  "entities": {
+    "Wong Fei Hung Series": "television series",
+    "Wong Fei-hung": "person",
+    "Tsui Hark": "person",
+    "Vincent Zhao": "person",
+    "Maggie Shiu": "person",
+    "Max Mok": "person",
+    "Lau Shun": "person",
+    "Kent Cheng": "person",
+    "Hung Yan-yan": "person",
+    "Power Chan": "person",
+    "Cheung Chun-hung": "person",
+    "Once Upon a Time in China": "film series"
+  },
+  "triples": [
+    {
+      "subject": "Wong Fei Hung Series",
+      "relation": "produced_by",
+      "object": "Tsui Hark",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The series was produced by Tsui Hark"
+        }
+      ]
+    },
+    {
+      "subject": "Wong Fei Hung Series",
+      "relation": "starred",
+      "object": "Vincent Zhao",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and starred Vincent Zhao"
+        }
+      ]
+    },
+    {
+      "subject": "Once Upon a Time in China",
+      "relation": "produced_by",
+      "object": "Tsui Hark",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which were also produced by Tsui Hark"
+        }
+      ]
+    },
+    {
+      "subject": "Once Upon a Time in China",
+      "relation": "starred",
+      "object": "Vincent Zhao",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and starred Vincent Zhao in two of the films."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wong Fei Hung Series",
+        "is_a",
+        "television series"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wong Fei Hung Series",
+        "starred",
+        "Maggie Shiu"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wong Fei Hung Series",
+        "starred",
+        "Max Mok"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wong Fei Hung Series",
+        "starred",
+        "Lau Shun"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wong Fei Hung Series",
+        "starred",
+        "Kent Cheng"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wong Fei Hung Series",
+        "starred",
+        "Hung Yan-yan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wong Fei Hung Series",
+        "starred",
+        "Power Chan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wong Fei Hung Series",
+        "starred",
+        "Cheung Chun-hung"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Once Upon a Time in China",
+        "is_a",
+        "film series"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Wong Fei Hung Series\nThe Wong Fei Hung Series is a 1996 Hong Kong television film series of five stories about the Chinese folk hero Wong Fei-hung. The series was produced by Tsui Hark and starred Vincent Zhao, Maggie Shiu, Max Mok, Lau Shun, Kent Cheng, Hung Yan-yan, Power Chan and Cheung Chun-hung in the leading roles. It may be regarded as a television series counterpart to the \"Once Upon a Time in China\" film series, which were also produced by Tsui Hark and starred Vincent Zhao in two of the films."
+}

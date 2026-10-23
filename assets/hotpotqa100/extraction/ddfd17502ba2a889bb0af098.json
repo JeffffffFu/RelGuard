@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Cinestill Film": "ORG",
+    "Kodak": "ORG",
+    "C-41": "PRODUCT",
+    "Eastman Color Negative process": "PRODUCT",
+    "800Tungsten Xpro C-41": "PRODUCT",
+    "Vision 3 5219": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Cinestill Film",
+      "relation": "uses",
+      "object": "Kodak",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "uses a modified version of",
+          "line_start": 115,
+          "char_start": 125,
+          "ambiguous": false,
+          "relation_mention": "uses a modified version of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Cinestill Film",
+        "creates",
+        "photographic film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Cinestill Film",
+        "uses",
+        "Kodak"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cinestill Film",
+        "allows_be_developed_with",
+        "C-41"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cinestill Film",
+        "allows_be_developed_with",
+        "C-41"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "800Tungsten Xpro C-41",
+        "began_in_beta_testing",
+        "Cinestill Film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "800Tungsten Xpro C-41",
+        "is_based_on",
+        "Vision 3 5219"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vision 3 5219",
+        "is_from",
+        "Kodak"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Cinestill\nCinestill Film creates photographic film for still cameras from Kodak's motion picture cinema film. Cinestill Film uses a modified version of Kodak motion picture cinema film, allowing it to be developed with the C-41 process rather than the Eastman Color Negative process. Beta testing of Cinestill Film's \"800Tungsten Xpro C-41\" began in late 2012, the film is based on Kodak's \"Vision 3 5219\" motion picture cinema film. Although the \"Vision 3 5219\" film is normally rated for 500ISO, the conversion to C-41 processing allows the film to be rated at 800ISO.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Cinestill Film\", \"type\": \"ORG\"},\n    {\"name\": \"Kodak\", \"type\": \"ORG\"},\n    {\"name\": \"C-41\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Eastman Color Negative process\", \"type\": \"PRODUCT\"},\n    {\"name\": \"800Tungsten Xpro C-41\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Vision 3 5219\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Cinestill Film\",\n      \"relation\": \"creates\",\n      \"object\": \"photographic film\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"creates\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Cinestill Film\",\n      \"relation\": \"uses\",\n      \"object\": \"Kodak\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"uses\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Cinestill Film\",\n      \"relation\": \"uses\",\n      \"object\": \"Kodak\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"uses a modified version of\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Cinestill Film\",\n      \"relation\": \"allows_be_developed_with\",\n      \"object\": \"C-41\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"allowing it to be developed with the C-41 process\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Cinestill Film\",\n      \"relation\": \"allows_be_developed_with\",\n      \"object\": \"C-41\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"allowing it to be developed with the C-41 process rather than the Eastman Color Negative process\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"800Tungsten Xpro C-41\",\n      \"relation\": \"began_in_beta_testing\",\n      \"object\": \"Cinestill Film\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Beta testing of Cinestill Film's \\\"800Tungsten Xpro C-41\\\" began\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"800Tungsten Xpro C-41\",\n      \"relation\": \"is_based_on\",\n      \"object\": \"Vision 3 5219\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"the film is based on Kodak's \\\"Vision 3 5219\\\" motion picture cinema film\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Vision 3 5219\",\n      \"relation\": \"is_from\",\n      \"object\": \"Kodak\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Kodak's \\\"Vision 3 5219\\\"\"\n        }\n      ]\n    }\n  ]\n}"
+}

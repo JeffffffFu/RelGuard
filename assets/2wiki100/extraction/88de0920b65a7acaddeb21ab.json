@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Kamakalawa": "Film",
+    "Eddie Romero": "Person",
+    "Christopher De Leon": "Person",
+    "Tetchie Agbayani": "Person",
+    "Chat Silayan": "Person",
+    "Philippines": "Location",
+    "Ganito Kami Noon, Paano Kayo Ngayon?": "Film",
+    "Aguila": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Kamakalawa",
+      "relation": "written_by",
+      "object": "Eddie Romero",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written, produced and directed by Eddie Romero"
+        }
+      ]
+    },
+    {
+      "subject": "Kamakalawa",
+      "relation": "starred",
+      "object": "Christopher De Leon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starred Christopher De Leon"
+        }
+      ]
+    },
+    {
+      "subject": "Kamakalawa",
+      "relation": "explores",
+      "object": "Philippines",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "explores the folklore of prehistoric Philippines"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kamakalawa",
+        "starred",
+        "Tetchie Agbayani"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kamakalawa",
+        "starred",
+        "Chat Silayan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kamakalawa",
+        "last_entry_in",
+        "Eddie Romero's epic historical film trilogy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eddie Romero's epic historical film trilogy",
+        "includes",
+        "Ganito Kami Noon, Paano Kayo Ngayon?"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eddie Romero's epic historical film trilogy",
+        "includes",
+        "Aguila"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kamakalawa\nKamakalawa is a 1981 Filipino fantasy film written, produced and directed by Eddie Romero and starred Christopher De Leon, Tetchie Agbayani and Chat Silayan. The film explores the folklore of prehistoric Philippines. The film is the last entry in Eddie Romero's epic historical film trilogy after Ganito Kami Noon, Paano Kayo Ngayon? and Aguila, respectively."
+}

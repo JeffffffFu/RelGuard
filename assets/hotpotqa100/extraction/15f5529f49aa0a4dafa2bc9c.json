@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Teleforce": "weapon",
+    "Nikola Tesla": "person",
+    "Van de Graaff generator": "device"
+  },
+  "triples": [
+    {
+      "subject": "Teleforce",
+      "relation": "proposed_by",
+      "object": "Nikola Tesla",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Teleforce was a proposed defensive weapon by Nikola Tesla"
+        }
+      ]
+    },
+    {
+      "subject": "Nikola Tesla",
+      "relation": "conceived_of",
+      "object": "Teleforce",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Tesla claimed to have conceived of it"
+        }
+      ]
+    },
+    {
+      "subject": "Nikola Tesla",
+      "relation": "studied",
+      "object": "Van de Graaff generator",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "after studying the Van de Graaff generator"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Teleforce",
+        "accelerates",
+        "pellets or slugs of material"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Teleforce",
+        "fired_out_of",
+        "aimed nozzles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Teleforce",
+        "used_against",
+        "ground-based infantry"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Teleforce",
+        "used_for",
+        "anti-aircraft purposes"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Teleforce\nTeleforce was a proposed defensive weapon by Nikola Tesla that accelerated pellets or slugs of material to a high velocity inside a vacuum chamber via electrostatic repulsion and then fired them out of aimed nozzles at intended targets. Tesla claimed to have conceived of it after studying the Van de Graaff generator. Tesla described the weapon as being able to be used against ground-based infantry or for anti-aircraft purposes."
+}

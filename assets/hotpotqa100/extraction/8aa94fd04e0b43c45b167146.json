@@ -1,0 +1,120 @@
+{
+  "entities": {
+    "Orange Line": "transit_line",
+    "Los Angeles Metro": "transit_system",
+    "Chatsworth": "location",
+    "Warner Center": "location",
+    "North Hollywood Metro Station": "station",
+    "San Fernando Valley": "region",
+    "Metro Red Line": "transit_line",
+    "Metro Silver Line": "transit_line",
+    "Los Angeles County": "region",
+    "Metro Busway": "transit_network",
+    "Downtown Los Angeles": "location"
+  },
+  "triples": [
+    {
+      "subject": "Orange Line",
+      "relation": "operates_between",
+      "object": "Chatsworth",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It operates between Chatsworth or Warner Center"
+        }
+      ]
+    },
+    {
+      "subject": "Orange Line",
+      "relation": "operates_between",
+      "object": "Warner Center",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It operates between Chatsworth or Warner Center"
+        }
+      ]
+    },
+    {
+      "subject": "Orange Line",
+      "relation": "connects_with",
+      "object": "North Hollywood Metro Station",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "where it connects with the Metro Red Line on the Metro Rail system for Downtown Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "North Hollywood Metro Station",
+      "relation": "located_in",
+      "object": "San Fernando Valley",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the San Fernando Valley"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Orange Line",
+        "is_a",
+        "transit_line"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Orange Line",
+        "uses",
+        "dedicated right-of-way"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Orange Line",
+        "has_stations_located_at",
+        "one-mile intervals"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Orange Line",
+        "has_bicycle_path",
+        "Metro Orange Line bicycle path"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Silver Line",
+        "has_street_running_sections",
+        "Los Angeles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chatsworth",
+        "runs_in",
+        "dedicated right-of-way"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Warner Center",
+        "includes",
+        "street running"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Orange Line (Los Angeles Metro)\nThe Orange Line is a bus rapid transit line in the Metro Busway network in Los Angeles County, California. It operates between Chatsworth or Warner Center (trips alternate between the two western terminals) and the North Hollywood Metro Station in the San Fernando Valley where it connects with the Metro Red Line on the Metro Rail system for Downtown Los Angeles. The other line in the Metro Busway network is the Metro Silver Line. The 18 mi Orange Line uses a dedicated, exclusive right-of-way with stations located at approximately one-mile intervals; tickets (via TAP cards) are purchased from ticket machines on the platforms before boarding to improve performance. The Metro Orange Line bicycle path runs alongside part of the route. Unlike the Silver Line, which has a street-running sections within downtown Los Angeles and San Pedro, the Chatsworth branch of the Orange Line runs in a dedicated right-of-way for its entire length. The Warner Center branch includes several blocks of street running in the Warner Center area."
+}

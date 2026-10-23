@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "God Bless America": "WORK_OF_ART",
+    "LeAnn Rimes": "PERSON",
+    "Nor Va Jak": "ORG",
+    "All That": "WORK_OF_ART",
+    "Put a Little Holiday in Your Heart": "WORK_OF_ART",
+    "Unchained Melody": "WORK_OF_ART",
+    "Blue": "WORK_OF_ART",
+    "The Lord's Prayer": "WORK_OF_ART",
+    "The Sands of Time": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "God Bless America",
+      "relation": "is_compilation_album_of",
+      "object": "LeAnn Rimes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "God Bless America is the second compilation album from American recording artist LeAnn Rimes."
+        }
+      ]
+    },
+    {
+      "subject": "God Bless America",
+      "relation": "features",
+      "object": "The Lord's Prayer",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The only two new songs that were released on the album were \"The Lord's Prayer\" and \"The Sands of Time\"."
+        }
+      ]
+    },
+    {
+      "subject": "God Bless America",
+      "relation": "features",
+      "object": "The Sands of Time",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The only two new songs that were released on the album were \"The Lord's Prayer\" and \"The Sands of Time\"."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "God Bless America",
+        "released_on",
+        "October 16, 2001"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "God Bless America",
+        "comprises",
+        "All That"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "God Bless America",
+        "released_as_bonus_single",
+        "Put a Little Holiday in Your Heart"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Put a Little Holiday in Your Heart",
+        "released_with",
+        "Unchained Melody"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "God Bless America",
+        "released_as_tribute_to",
+        "September 11, 2001"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "God Bless America (LeAnn Rimes album)\nGod Bless America is the second compilation album from American recording artist LeAnn Rimes. The album was released on October 16, 2001. The album comprises patriotic and inspirational songs that were originally recorded on her \"\" album (tracks one, two, eight and ten), as well as songs from her commercial album, \"All That\" (tracks five, seven and nine), under the independent label, Nor Va Jak, although \"Why Can't We\" and \"Middle Man\" are both re-recordings. \"Put a Little Holiday in Your Heart\" was originally released as a bonus single, with the song \"Unchained Melody\", alongside \"Blue\" at Target during the 1996 Christmas season. The only two new songs that were released on the album were \"The Lord's Prayer\" and \"The Sands of Time\". The album was released as a patriotic tribute to the events of September 11, 2001, with the liner stating \"These classic recordings were made while America was first discovering LeAnn Rimes.\""
+}

@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "Jacqueline Mukansonera": "PERSON",
+    "Yolande Mukagasana": "PERSON",
+    "Rwanda": "GPE",
+    "Hutu": "NORP",
+    "Tutsi": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Jacqueline Mukansonera",
+      "relation": "saved",
+      "object": "Yolande Mukagasana",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "save",
+          "line_start": 88,
+          "char_start": 111,
+          "ambiguous": false,
+          "relation_mention": "save",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Yolande Mukagasana",
+      "relation": "turned_to",
+      "object": "Jacqueline Mukansonera",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "turned to her",
+          "line_start": 149,
+          "char_start": 172,
+          "ambiguous": false,
+          "relation_mention": "turned to her",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jacqueline Mukansonera",
+      "relation": "worked_as",
+      "object": "Jacqueline Mukansonera",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "worked as a nurse",
+          "line_start": 189,
+          "char_start": 212,
+          "ambiguous": false,
+          "relation_mention": "worked as a nurse",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jacqueline Mukansonera",
+      "relation": "concealed",
+      "object": "Yolande Mukagasana",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "concealed her",
+          "line_start": 347,
+          "char_start": 370,
+          "ambiguous": false,
+          "relation_mention": "concealed her",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jacqueline Mukansonera",
+        "born_in",
+        "Rwanda"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jacqueline Mukansonera",
+        "ethnicity",
+        "Hutu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Yolande Mukagasana",
+        "ethnicity",
+        "Tutsi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jacqueline Mukansonera",
+        "bribed",
+        "policeman"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jacqueline Mukansonera",
+        "provided",
+        "false Hutu documents"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jacqueline Mukansonera\nJacqueline Mukansonera (born 1963) is an ethnic Hutu from Rwanda who didn't hesitate to save Tutsi Yolande Mukagasana from genocide in 1994. Yolande turned to her at the hospital where she worked as a nurse. She was one of the first targets of the Hutu violence because she was seen as a member of the Tutsi intelligentsia. Jacqueline Mukansonera concealed her in her kitchen for 11 days. The two women didn't speak to each other during those days out of fear of discovery. Jacqueline meanwhile bribed a policeman and provided her guest with false Hutu documents.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Jacqueline Mukansonera\", \"type\": \"PERSON\"},\n    {\"name\": \"Yolande Mukagasana\", \"type\": \"PERSON\"},\n    {\"name\": \"Rwanda\", \"type\": \"GPE\"},\n    {\"name\": \"Hutu\", \"type\": \"NORP\"},\n    {\"name\": \"Tutsi\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Jacqueline Mukansonera\",\n      \"relation\": \"born_in\",\n      \"object\": \"Rwanda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from\"}\n      ]\n    },\n    {\n      \"subject\": \"Jacqueline Mukansonera\",\n      \"relation\": \"ethnicity\",\n      \"object\": \"Hutu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"ethnic Hutu\"}\n      ]\n    },\n    {\n      \"subject\": \"Yolande Mukagasana\",\n      \"relation\": \"ethnicity\",\n      \"object\": \"Tutsi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Tutsi\"}\n      ]\n    },\n    {\n      \"subject\": \"Jacqueline Mukansonera\",\n      \"relation\": \"saved\",\n      \"object\": \"Yolande Mukagasana\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"save\"}\n      ]\n    },\n    {\n      \"subject\": \"Yolande Mukagasana\",\n      \"relation\": \"turned_to\",\n      \"object\": \"Jacqueline Mukansonera\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"turned to her\"}\n      ]\n    },\n    {\n      \"subject\": \"Jacqueline Mukansonera\",\n      \"relation\": \"worked_as\",\n      \"object\": \"Jacqueline Mukansonera\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"worked as a nurse\"}\n      ]\n    },\n    {\n      \"subject\": \"Jacqueline Mukansonera\",\n      \"relation\": \"concealed\",\n      \"object\": \"Yolande Mukagasana\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"concealed her\"}\n      ]\n    },\n    {\n      \"subject\": \"Jacqueline Mukansonera\",\n      \"relation\": \"bribed\",\n      \"object\": \"policeman\",\n      \"occurrences\": [\n        {\"line\": 6, \"predicate\": \"bribed a policeman\"}\n      ]\n    },\n    {\n      \"subject\": \"Jacqueline Mukansonera\",\n      \"relation\": \"provided\",\n      \"object\": \"false Hutu documents\",\n      \"occurrences\": [\n        {\"line\": 6, \"predicate\": \"provided her guest with false Hutu documents\"}\n      ]\n    }\n  ]\n}"
+}

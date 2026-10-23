@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "WLMR": "ORG",
+    "Chattanooga": "GPE",
+    "Tennessee": "GPE",
+    "USA": "GPE",
+    "Wilkins Communications Network, Inc.": "ORG",
+    "USA Radio Network": "ORG",
+    "Brainerd Rd": "LOC",
+    "WZRA": "ORG",
+    "Jeff Styles": "PERSON",
+    "Kelly McCoy": "PERSON",
+    "Robert T. Nash": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "WLMR",
+      "relation": "licensed_to",
+      "object": "Chattanooga",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Licensed to Chattanooga, Tennessee, USA"
+        }
+      ]
+    },
+    {
+      "subject": "WLMR",
+      "relation": "located_in",
+      "object": "Chattanooga",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the station serves the Chattanooga area"
+        }
+      ]
+    },
+    {
+      "subject": "WLMR",
+      "relation": "owned_by",
+      "object": "Wilkins Communications Network, Inc.",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "currently owned by Wilkins Communications Network, Inc."
+        }
+      ]
+    },
+    {
+      "subject": "WLMR",
+      "relation": "features_programming_from",
+      "object": "USA Radio Network",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "features programming from USA Radio Network"
+        }
+      ]
+    },
+    {
+      "subject": "WZRA",
+      "relation": "first_home_of",
+      "object": "Jeff Styles",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "WZRA was the first home of Jeff Styles"
+        }
+      ]
+    },
+    {
+      "subject": "WZRA",
+      "relation": "featured_personalities",
+      "object": "Kelly McCoy",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "also featured well known personalities such as Kelly McCoy"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "WZRA",
+        "featured_personalities",
+        "Robert T. Nash"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "WLMR\nWLMR (1450 AM) is a radio station broadcasting a religious format. Licensed to Chattanooga, Tennessee, USA, the station serves the Chattanooga area. The station is currently owned by Wilkins Communications Network, Inc. and features programming from USA Radio Network. In the early 1980s, the station was automated and played country music from studios in a strip mall on Brainerd Rd. It was also Chattanooga's first talk radio station when it held the WZRA call letters. WZRA was the first home of Jeff Styles, and also featured well known personalities such as Kelly McCoy and Robert T. Nash."
+}

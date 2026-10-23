@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Mr. Reliable": "film",
+    "Nadia Tass": "director",
+    "Colin Friels": "actor",
+    "Jacqueline McKenzie": "actor",
+    "Wally Mellish": "person",
+    "Beryl": "person",
+    "Australia": "location",
+    "the community": "group",
+    "the anti-war movement": "movement"
+  },
+  "triples": [
+    {
+      "subject": "Mr. Reliable",
+      "relation": "directed_by",
+      "object": "Nadia Tass",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Nadia Tass"
+        }
+      ]
+    },
+    {
+      "subject": "Mr. Reliable",
+      "relation": "stars",
+      "object": "Colin Friels",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars Colin Friels"
+        }
+      ]
+    },
+    {
+      "subject": "Wally Mellish",
+      "relation": "located_in",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in 1960s Australia"
+        }
+      ]
+    },
+    {
+      "subject": "Wally Mellish",
+      "relation": "has_girlfriend",
+      "object": "Beryl",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "with his girlfriend Beryl"
+        }
+      ]
+    },
+    {
+      "subject": "the community",
+      "relation": "under_impression",
+      "object": "Wally Mellish",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "the community is under the impression that Wally is holding everyone hostage"
+        }
+      ]
+    },
+    {
+      "subject": "Wally Mellish",
+      "relation": "symbol_for",
+      "object": "the anti-war movement",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "manages to become a symbol for the anti-war movement"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mr. Reliable",
+        "stars",
+        "Jacqueline McKenzie"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wally Mellish",
+        "released_from",
+        "prison"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wally Mellish",
+        "trapped_in",
+        "their house"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mr. Reliable\nMr. Reliable is a 1996 film directed by Nadia Tass. It stars Colin Friels and Jacqueline McKenzie. It tells the true story of Wally Mellish, an ex-convict in 1960s Australia. Just released from prison, all he wants to do is live a quiet life with his girlfriend Beryl. A misunderstanding, quickly gets out of control, when two police officers pay him a visit, resulting in Wally, Beryl and her child being trapped in their house. Surrounded by armed police, the community is under the impression that Wally is holding everyone hostage. Events quickly spiral into a media circus as, through the siege, Wally - inadvertently - manages to become a symbol for the anti-war movement."
+}

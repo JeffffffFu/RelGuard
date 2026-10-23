@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Lai Van Sam": "Person",
+    "VTV3": "Organization",
+    "Vietnam": "Location",
+    "Soviet Union": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Lai Van Sam",
+      "relation": "located_in",
+      "object": "Vietnam",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Lại Văn Sâm 1958 in Phú Thọ, Vietnam"
+        }
+      ]
+    },
+    {
+      "subject": "Lai Van Sam",
+      "relation": "works_for",
+      "object": "VTV3",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he was host of many television programs"
+        }
+      ]
+    },
+    {
+      "subject": "Lai Van Sam",
+      "relation": "studied_in",
+      "object": "Soviet Union",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Soviet Union"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lai Van Sam",
+        "works_for",
+        "VTV3"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Lai Van Sam",
+        "studied",
+        "Hinduism"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lai Van Sam",
+        "received_award",
+        "most popular game show host of VTV"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lai Van Sam\nLại Văn Sâm 1958 in Phú Thọ, Vietnam) is a Vietnamese journalist, he was host of many television programs, such as \"Đấu Trí\" (\"PokerFace\"), \"Đấu trường 100\" (\"1 vs 100\"), \"Chiếc nón kỳ diệu\" (\"Wheel of Fortune\"), \"Hãy chọn giá đúng\" (\"The Price Is Right\"), \"SV '96\", \"SV 2000\" and \"Trò chơi liên tỉnh\" and now he is the host of \"Ai là triệu phú?\" (\"Who Wants to Be a Millionaire?\") and \"Chúng tôi là chiến sỹ\". He was also one of the founders of VTV3. He studied Hinduism for 12 years in the Soviet Union. On October 5, 2008 he received an award for being the most popular game show host of VTV."
+}

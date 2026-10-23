@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "The Jerk": "Film",
+    "Carl Reiner": "Person",
+    "Steve Martin": "Person",
+    "Carl Gottlieb": "Person",
+    "Michael Elias": "Person",
+    "Bernadette Peters": "Person",
+    "M. Emmet Walsh": "Person",
+    "Jackie Mason": "Person"
+  },
+  "triples": [
+    {
+      "subject": "The Jerk",
+      "relation": "directed_by",
+      "object": "Carl Reiner",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Carl Reiner"
+        }
+      ]
+    },
+    {
+      "subject": "The Jerk",
+      "relation": "written_by",
+      "object": "Steve Martin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Steve Martin"
+        }
+      ]
+    },
+    {
+      "subject": "Steve Martin",
+      "relation": "first_starring_role_in",
+      "object": "The Jerk",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Martin's first starring role in a feature film"
+        }
+      ]
+    },
+    {
+      "subject": "The Jerk",
+      "relation": "features",
+      "object": "Bernadette Peters",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film also features Bernadette Peters"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Jerk",
+        "written_by",
+        "Carl Gottlieb"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Jerk",
+        "written_by",
+        "Michael Elias"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Jerk",
+        "features",
+        "M. Emmet Walsh"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Jerk",
+        "features",
+        "Jackie Mason"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Jerk\nThe Jerk is a 1979 American comedy film directed by Carl Reiner and written by Steve Martin, Carl Gottlieb, and Michael Elias. This was Martin's first starring role in a feature film. The film also features Bernadette Peters, M. Emmet Walsh, and Jackie Mason."
+}

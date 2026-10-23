@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Anthony McPartlin": "PERSON",
+    "Declan Donnelly": "PERSON",
+    "Ant & Dec": "PERSON",
+    "Newcastle upon Tyne": "GPE",
+    "England": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Anthony McPartlin",
+      "relation": "known_as",
+      "object": "Ant & Dec",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known collectively as",
+          "line_start": 98,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "known collectively as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Declan Donnelly",
+      "relation": "known_as",
+      "object": "Ant & Dec",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known collectively as",
+          "line_start": 98,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "known collectively as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Newcastle upon Tyne",
+      "relation": "located_in",
+      "object": "England",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "England",
+          "line_start": 244,
+          "char_start": 258,
+          "ambiguous": false,
+          "relation_mention": "England",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Ant & Dec",
+      "relation": "nationality",
+      "object": "England",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "an English",
+          "line_start": 135,
+          "char_start": 149,
+          "ambiguous": false,
+          "relation_mention": "an English",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ant & Dec",
+        "located_in",
+        "Newcastle upon Tyne"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Ant &amp; Dec\nAnthony McPartlin, OBE (born 18 November 1975) and Declan Donnelly, OBE (born 25 September 1975), known collectively as Ant & Dec, are an English comedy TV presenting, television producing, acting and former music duo from Newcastle upon Tyne, England."
+}

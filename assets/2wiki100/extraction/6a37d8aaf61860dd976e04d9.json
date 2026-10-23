@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "Mera Lahoo": "Film",
+    "Veerendra": "Director",
+    "Govinda": "Actor",
+    "Kimi Katkar": "Actor"
+  },
+  "triples": [
+    {
+      "subject": "Mera Lahoo",
+      "relation": "directed_by",
+      "object": "Veerendra",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Veerendra"
+        }
+      ]
+    },
+    {
+      "subject": "Mera Lahoo",
+      "relation": "starring",
+      "object": "Govinda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Govinda"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mera Lahoo",
+        "starring",
+        "Kimi Katkar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Mera Lahoo",
+        "released_in",
+        "1987"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mera Lahoo",
+        "was_a",
+        "hit"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mera Lahoo\nMera Lahoo is a 1987 Indian film directed by Veerendra and starring Govinda and Kimi Katkar. The film was a hit."
+}

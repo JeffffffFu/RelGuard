@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Annabel Jankel": "Person",
+    "AJ Jankel": "Person",
+    "Chaz Jankel": "Person",
+    "Max Headroom": "Character",
+    "Ian Dury & The Blockheads": "Band"
+  },
+  "triples": [
+    {
+      "subject": "Annabel Jankel",
+      "relation": "also_known_as",
+      "object": "AJ Jankel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also known as AJ Jankel"
+        }
+      ]
+    },
+    {
+      "subject": "Annabel Jankel",
+      "relation": "co_created",
+      "object": "Max Headroom",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "co-creator of the pioneering cyber- character Max Headroom"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Annabel Jankel",
+        "born_on",
+        "1 June 1955"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Annabel Jankel",
+        "is_a",
+        "British film and TV director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chaz Jankel",
+        "is_a",
+        "musician and songwriter"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chaz Jankel",
+        "is_best_known_as",
+        "member of new wave band Ian Dury & The Blockheads"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Annabel Jankel\nAnnabel Jankel( born 1 June 1955), also known as AJ Jankel, is a British film and TV director who first came to prominence as a music video director and the co-creator of the pioneering cyber- character Max Headroom. She is the sister of musician and songwriter Chaz Jankel, who is best known as a member of new wave band Ian Dury& The Blockheads."
+}

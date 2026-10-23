@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Pinus strobiformis": "species",
+    "Southwestern white pine": "common_name",
+    "Mexican white pine": "common_name",
+    "Chihuahua white pine": "common_name",
+    "southwestern United States": "location",
+    "Mexico": "location",
+    "Montane forest": "habitat"
+  },
+  "triples": [
+    {
+      "subject": "Pinus strobiformis",
+      "relation": "commonly_known_as",
+      "object": "Southwestern white pine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "commonly known as Southwestern white pine"
+        }
+      ]
+    },
+    {
+      "subject": "Pinus strobiformis",
+      "relation": "native_habitat",
+      "object": "southwestern United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "whose native habitat is in southwestern United States"
+        }
+      ]
+    },
+    {
+      "subject": "Pinus strobiformis",
+      "relation": "grows_in",
+      "object": "Montane forest",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "growing mixed with other conifers (a Montane forest)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pinus strobiformis",
+        "commonly_known_as",
+        "Mexican white pine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pinus strobiformis",
+        "commonly_known_as",
+        "Chihuahua white pine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pinus strobiformis",
+        "native_habitat",
+        "Mexico"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pinus strobiformis\nPinus strobiformis, commonly known as Southwestern white pine, Mexican white pine or Chihuahua white pine, is a medium-sized white pine tree whose native habitat is in southwestern United States and Mexico. It is typically a high-elevation pine growing mixed with other conifers (a Montane forest)."
+}

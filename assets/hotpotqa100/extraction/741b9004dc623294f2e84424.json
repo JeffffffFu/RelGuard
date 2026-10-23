@@ -1,0 +1,155 @@
+{
+  "entities": {
+    "Kevin Ogle": "PERSON",
+    "KFOR-TV": "ORG",
+    "NBC": "ORG",
+    "Oklahoma City": "GPE",
+    "Oklahoma": "GPE",
+    "Linda Cavanaugh": "PERSON",
+    "KAUT-TV": "ORG",
+    "Flashpoint": "WORK_OF_ART",
+    "Mike Turpen": "PERSON",
+    "Kirk Humphreys": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Kevin Ogle",
+      "relation": "works_for",
+      "object": "KFOR-TV",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a news anchor for",
+          "line_start": 11,
+          "char_start": 22,
+          "ambiguous": false,
+          "relation_mention": "is a news anchor for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "KFOR-TV",
+      "relation": "works_for",
+      "object": "NBC",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the NBC affiliate",
+          "line_start": 53,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "the NBC affiliate",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Oklahoma City",
+      "relation": "located_in",
+      "object": "Oklahoma",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Oklahoma.",
+          "line_start": 89,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "Oklahoma.",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Kevin Ogle",
+      "relation": "anchors_with",
+      "object": "Linda Cavanaugh",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "anchors the station's weeknight 6 and 10 p.m. newscasts with",
+          "line_start": 105,
+          "char_start": 116,
+          "ambiguous": false,
+          "relation_mention": "anchors the station's weeknight 6 and 10 p.m. newscasts with",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Kevin Ogle",
+      "relation": "fills_in_as_anchor_of",
+      "object": "KAUT-TV",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "fills in as anchor of the 9 p.m. newscast on Independent station",
+          "line_start": 317,
+          "char_start": 328,
+          "ambiguous": false,
+          "relation_mention": "fills in as anchor of the 9 p.m. newscast on Independent station",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Kevin Ogle",
+      "relation": "serves_as_moderator_of",
+      "object": "Flashpoint",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "serves as moderator of the locally-produced Sunday morning political affairs talk show",
+          "line_start": 401,
+          "char_start": 412,
+          "ambiguous": false,
+          "relation_mention": "serves as moderator of the locally-produced Sunday morning political affairs talk show",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "Kevin Ogle",
+      "relation": "moderates_alongside",
+      "object": "Mike Turpen",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "alongside panelists",
+          "line_start": 502,
+          "char_start": 513,
+          "ambiguous": false,
+          "relation_mention": "alongside panelists",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "Kevin Ogle",
+      "relation": "moderates_alongside",
+      "object": "Kirk Humphreys",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "alongside panelists",
+          "line_start": 502,
+          "char_start": 513,
+          "ambiguous": false,
+          "relation_mention": "alongside panelists",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "KFOR-TV",
+        "located_in",
+        "Oklahoma City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kevin Ogle\nKevin Ogle is a news anchor for KFOR-TV (channel 4), the NBC affiliate in Oklahoma City, Oklahoma. Kevin anchors the station's weeknight 6 and 10 p.m. newscasts with Linda Cavanaugh, does occasional reports including the \"Bottom Line\" financial segments seen during the station's 6:30 p.m. newscast, and occasionally fills in as anchor of the 9 p.m. newscast on Independent station KAUT-TV. Ogle also serves as moderator of the locally-produced Sunday morning political affairs talk show \"Flashpoint\", alongside panelists Mike Turpen and former Oklahoma City mayor Kirk Humphreys."
+}

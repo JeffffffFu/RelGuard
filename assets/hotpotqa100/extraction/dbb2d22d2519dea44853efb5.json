@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "International business": "EVENT",
+    "countries": "GPE",
+    "public sectors": "ORG",
+    "nations": "GPE",
+    "Globalization": "EVENT",
+    "multinational companies": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "International business",
+      "relation": "located_in",
+      "object": "countries",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "take place between two or more",
+          "line_start": 152,
+          "char_start": 175,
+          "ambiguous": false,
+          "relation_mention": "take place between two or more",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "International business",
+      "relation": "works_for",
+      "object": "public sectors",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "conducted by both the private and public",
+          "line_start": 98,
+          "char_start": 121,
+          "ambiguous": false,
+          "relation_mention": "conducted by both the private and public",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "International business",
+      "relation": "involves",
+      "object": "nations",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "between two or more nations",
+          "line_start": 376,
+          "char_start": 399,
+          "ambiguous": false,
+          "relation_mention": "between two or more nations",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "International business",
+      "relation": "also_known_as",
+      "object": "Globalization",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "can also be referred to as",
+          "line_start": 629,
+          "char_start": 652,
+          "ambiguous": false,
+          "relation_mention": "can also be referred to as",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "multinational companies",
+      "relation": "works_for",
+      "object": "International business",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "need to separate national markets into one huge global marketplace",
+          "line_start": 814,
+          "char_start": 837,
+          "ambiguous": false,
+          "relation_mention": "need to separate national markets into one huge global marketplace",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "private sector (ORG)"
+      ]
+    },
+    {
+      "triple": [
+        "International business",
+        "works_for",
+        "private sector"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "International business\nInternational business comprises all international trades services or investments (bonds, stocks) conducted by both the private and public sectors that take place between two or more countries beyond their political boundaries. The term \"international business\" refers to all those business activities which involve cross-border transactions of goods, services, and resources between two or more nations. Transactions of economic resources include capital, skills, people for the purpose of the international production of physical goods and services such as finance, banking, insurance, and construction. International business can also be referred to as globalization. Globalization is the shift toward a more integrated and interdependent economy. In order to conduct business overseas, multinational companies need to separate national markets into one huge global marketplace. Two macro factors underline the trend of greater globalization. The first is falling of barriers to make cross-border trade easier such as the free flow of goods and services, and capital, and the second factor is technological change, particularly the developments in communication, information processing, and transportation technologies."
+}

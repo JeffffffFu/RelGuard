@@ -1,0 +1,129 @@
+{
+  "entities": {
+    "Colgan Air Flight 9446": "Flight",
+    "Colgan Air": "Airline",
+    "US Airways Express": "Airline",
+    "August 26, 2003": "Date",
+    "Beech 1900D": "Aircraft",
+    "Yarmouth": "Location",
+    "Massachusetts": "Location",
+    "United States": "Location",
+    "Barnstable Municipal Airport": "Airport",
+    "Scott Knabe": "Person",
+    "Steven Dean": "Person",
+    "Albany": "Location",
+    "New York": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Colgan Air Flight 9446",
+      "relation": "operated_by",
+      "object": "Colgan Air",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "operated by Colgan Air"
+        }
+      ]
+    },
+    {
+      "subject": "Colgan Air Flight 9446",
+      "relation": "operated_for",
+      "object": "US Airways Express",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "for US Airways Express"
+        }
+      ]
+    },
+    {
+      "subject": "Colgan Air Flight 9446",
+      "relation": "crashed_on",
+      "object": "August 26, 2003",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "On August 26, 2003 a Beech 1900D crashed"
+        }
+      ]
+    },
+    {
+      "subject": "Beech 1900D",
+      "relation": "located_offshore_from",
+      "object": "Yarmouth",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "crashed into water 100 yards offshore from Yarmouth"
+        }
+      ]
+    },
+    {
+      "subject": "Colgan Air Flight 9446",
+      "relation": "took_off_from",
+      "object": "Barnstable Municipal Airport",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "taking off from Barnstable Municipal Airport"
+        }
+      ]
+    },
+    {
+      "subject": "Scott Knabe",
+      "relation": "died_on",
+      "object": "August 26, 2003",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Captain Scott Knabe and First Officer Steven Dean died"
+        }
+      ]
+    },
+    {
+      "subject": "Steven Dean",
+      "relation": "died_on",
+      "object": "August 26, 2003",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Captain Scott Knabe and First Officer Steven Dean died"
+        }
+      ]
+    },
+    {
+      "subject": "Colgan Air Flight 9446",
+      "relation": "bound_for",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The plane was bound for Albany"
+        }
+      ]
+    },
+    {
+      "subject": "Albany",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "bound for Albany, New York"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Beech 1900D",
+        "crashed_into",
+        "water"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Colgan Air Flight 9446\nColgan Air Flight 9446 was a repositioning flight operated by Colgan Air for US Airways Express. On August 26, 2003 a Beech 1900D crashed into water 100 yards offshore from Yarmouth, Massachusetts, United States shortly after taking off from Barnstable Municipal Airport in Yarmouth. Captain Scott Knabe and First Officer Steven Dean died. The plane was bound for Albany, New York, U.S."
+}

@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Tombstone Rashomon": "WORK_OF_ART",
+    "Alex Cox": "PERSON",
+    "Adam Newberry": "PERSON",
+    "Eric Schumacher": "PERSON",
+    "Gunfight at the O.K. Corral": "EVENT",
+    "Tombstone": "GPE",
+    "Arizona Territory": "GPE",
+    "Akira Kurosawa": "PERSON",
+    "Rashomon": "WORK_OF_ART",
+    "1950": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Tombstone Rashomon",
+      "relation": "directed_by",
+      "object": "Alex Cox",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Alex Cox"
+        }
+      ]
+    },
+    {
+      "subject": "Tombstone Rashomon",
+      "relation": "starring",
+      "object": "Adam Newberry",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Adam Newberry"
+        }
+      ]
+    },
+    {
+      "subject": "Tombstone Rashomon",
+      "relation": "based_on",
+      "object": "Gunfight at the O.K. Corral",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Gunfight at the O.K. Corral"
+        }
+      ]
+    },
+    {
+      "subject": "Gunfight at the O.K. Corral",
+      "relation": "located_in",
+      "object": "Tombstone",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Tombstone"
+        }
+      ]
+    },
+    {
+      "subject": "Tombstone",
+      "relation": "part_of",
+      "object": "Arizona Territory",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Tombstone, Arizona Territory"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tombstone Rashomon",
+        "starring",
+        "Eric Schumacher"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rashomon",
+        "inspired_by",
+        "Akira Kurosawa"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Tombstone Rashomon\nTombstone Rashomon is a 2017 Western film directed by Alex Cox and starring Adam Newberry and Eric Schumacher. It tells the story of the Gunfight at the O.K. Corral in Tombstone, Arizona Territory from multiple differing perspectives in the style of Akira Kurosawa's 1950 film\" Rashomon\"."
+}

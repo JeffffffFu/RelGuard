@@ -1,0 +1,38 @@
+{
+  "entities": {
+    "Ian Barry": "Person",
+    "Australia": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Ian Barry",
+      "relation": "located_in",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Australian director"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ian Barry",
+        "is_a",
+        "director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ian Barry",
+        "is_a",
+        "Australian director of film and TV"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ian Barry (director)\nIan Barry is an Australian director of film and TV."
+}

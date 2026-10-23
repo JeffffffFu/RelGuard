@@ -1,0 +1,155 @@
+{
+  "entities": {
+    "Peppes Pizza": "ORG",
+    "Norwegian": "NORP",
+    "Louis Jordan": "PERSON",
+    "Anne": "PERSON",
+    "Hartford": "GPE",
+    "Connecticut": "GPE",
+    "Umoe Catering As": "ORG",
+    "Burger King": "ORG",
+    "TGI Fridays": "ORG",
+    "La Baguette": "ORG",
+    "Cafe Opus": "ORG",
+    "Scandinavia": "LOC",
+    "Norway": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Peppes Pizza",
+      "relation": "founded_by",
+      "object": "Louis Jordan",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "founded by two Americans, Louis Jordan"
+        }
+      ]
+    },
+    {
+      "subject": "Peppes Pizza",
+      "relation": "founded_by",
+      "object": "Anne",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "founded by two Americans, Louis Jordan and his wife Anne"
+        }
+      ]
+    },
+    {
+      "subject": "Peppes Pizza",
+      "relation": "part_of",
+      "object": "Umoe Catering As",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "is part of Umoe Catering As"
+        }
+      ]
+    },
+    {
+      "subject": "Umoe Catering As",
+      "relation": "owns",
+      "object": "Burger King",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "which consists of restaurants such as Burger King"
+        }
+      ]
+    },
+    {
+      "subject": "Peppes Pizza",
+      "relation": "located_in",
+      "object": "Norway",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "brought foreign food to Norway"
+        }
+      ]
+    },
+    {
+      "subject": "Peppes Pizza",
+      "relation": "serves",
+      "object": "Norwegian",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "that brought foreign food to Norway"
+        }
+      ]
+    },
+    {
+      "subject": "Peppes Pizza",
+      "relation": "largest_in",
+      "object": "Scandinavia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "is the largest pizza chain in Scandinavia"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Umoe Catering As",
+        "owns",
+        "TGI Fridays"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Umoe Catering As",
+        "owns",
+        "La Baguette"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Umoe Catering As",
+        "owns",
+        "Cafe Opus"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Peppes Pizza",
+        "serves",
+        "American style pizza"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Peppes Pizza",
+        "serves",
+        "Italian style pizza"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Peppes Pizza",
+        "serves",
+        "9 million pizzas"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Peppes Pizza",
+        "delivers_in",
+        "11 cities"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Peppes Pizza\nPeppes Pizza is a Norwegian pizza chain that serves American style and Italian style pizza. Peppes is the largest pizza chain in Scandinavia. The restaurant was founded by two Americans, Louis Jordan and his wife Anne from Hartford, Connecticut. The restaurant chain is part of Umoe Catering As which consists of restaurants such as Burger King, TGI Fridays, La Baguette and Cafe Opus. Peppes Pizza is one of the first restaurants that brought foreign food to Norway. 9 million pizzas are served by Peppes each year with deliveries in 11 cities in Norway. Their menu was first put online in March 1995. The servings have been described as enough for two people and that the pizza chain is \"a cut above the rest\"."
+}

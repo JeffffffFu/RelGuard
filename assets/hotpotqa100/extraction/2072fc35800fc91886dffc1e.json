@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Bavette": "PRODUCT",
+    "tagliatelle": "PRODUCT",
+    "Genoa": "GPE",
+    "Ligurian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Bavette",
+      "relation": "is_a_type_of",
+      "object": "tagliatelle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bavette ] is a type of pasta, a narrower version of tagliatelle."
+        }
+      ]
+    },
+    {
+      "subject": "Bavette",
+      "relation": "originates_in",
+      "object": "Genoa",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "This type of pasta originates in Genoa"
+        }
+      ]
+    },
+    {
+      "subject": "Bavette",
+      "relation": "is_a_typical_type_of",
+      "object": "Ligurian",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "are the most typical type of Ligurian pasta cut."
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Bavette (pasta)\nBavette ] is a type of pasta, a narrower version of tagliatelle. It is a ribbon noodle, similar to spaghetti, that has a flat section and a slightly convex shape. This type of pasta originates in Genoa and are the most typical type of Ligurian pasta cut. Although it can be disputed, Bavette is one of the more ancient types of long pasta."
+}

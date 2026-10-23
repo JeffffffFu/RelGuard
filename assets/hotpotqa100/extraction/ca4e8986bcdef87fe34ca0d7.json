@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Vamp Building": "Building",
+    "Henry Warren Rogers": "Person",
+    "Lynn": "City",
+    "Massachusetts": "State"
+  },
+  "triples": [
+    {
+      "subject": "Vamp Building",
+      "relation": "located_in",
+      "object": "Lynn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at 3-15 Liberty Square in downtown Lynn, Massachusetts"
+        }
+      ]
+    },
+    {
+      "subject": "Vamp Building",
+      "relation": "designed_by",
+      "object": "Henry Warren Rogers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to a design by local architect Henry Warren Rogers"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vamp Building",
+        "built_in",
+        "1903"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Vamp Building",
+        "extended_over",
+        "4 years"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Vamp Building",
+        "served_as",
+        "home for all manner of businesses related to the manufacture of shoes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Vamp Building",
+        "bounded_by",
+        "Washington Street, Union Street, and Liberty Square"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Vamp Building\nThe Vamp Building is a historic factory building at 3-15 Liberty Square in downtown Lynn, Massachusetts. The eight story brick building was built in 1903 to a design by local architect Henry Warren Rogers, and was extended over the next four years to occupy the entire city block bounded by Washington Street, Union Street, and Liberty Square. The \"flatiron\" V-shape of the building may have been a reason for its name. The building served in its early years as a home for all manner of businesses related to the manufacture of shoes."
+}

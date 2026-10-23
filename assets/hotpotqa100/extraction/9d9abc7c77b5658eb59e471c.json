@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "KQIP-LP": "ORG",
+    "107.1 FM": "PRODUCT",
+    "Chico": "GPE",
+    "California": "GPE",
+    "United States": "GPE",
+    "Calvary Chapel of Chico": "ORG",
+    "Calvary Chapel Chico": "ORG",
+    "Pastor Sam Allen": "PERSON",
+    "The Calvary Road Radio Broadcast": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "KQIP-LP",
+      "relation": "located_in",
+      "object": "Chico",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "licensed to",
+          "line_start": 38,
+          "char_start": 46,
+          "ambiguous": false,
+          "relation_mention": "licensed to",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "KQIP-LP",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "licensed to",
+          "line_start": 38,
+          "char_start": 46,
+          "ambiguous": false,
+          "relation_mention": "licensed to",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "KQIP-LP",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "licensed to",
+          "line_start": 38,
+          "char_start": 46,
+          "ambiguous": false,
+          "relation_mention": "licensed to",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "KQIP-LP",
+      "relation": "works_for",
+      "object": "Calvary Chapel of Chico",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is currently owned by",
+          "line_start": 131,
+          "char_start": 139,
+          "ambiguous": false,
+          "relation_mention": "is currently owned by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "KQIP-LP",
+        "product_identifier",
+        "107.1 FM"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KQIP-LP",
+        "broadcasts",
+        "The Calvary Road Radio Broadcast"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Calvary Road Radio Broadcast",
+        "features",
+        "Pastor Sam Allen"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Calvary Road Radio Broadcast",
+        "related_to",
+        "Calvary Chapel Chico"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "KQIP-LP\nKQIP-LP (107.1 FM) is a radio station licensed to Chico, California, United States, the station serves the Chico area. The station is currently owned by Calvary Chapel of Chico. KQIP 107.1 FM is a low power FM radio station in Chico, California however it also broadcasts online. The radio station airs Bible studies from several Calvary Chapel pastors, as well as a small selection of Christian music. The radio station also airs Pastor Sam Allen from Calvary Chapel Chico on The Calvary Road Radio Broadcast, a weekday radio program. Listen Live at: http://ccchico.com/KQIP",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"KQIP-LP\", \"type\": \"ORG\"},\n    {\"name\": \"107.1 FM\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Chico\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Calvary Chapel of Chico\", \"type\": \"ORG\"},\n    {\"name\": \"Calvary Chapel Chico\", \"type\": \"ORG\"},\n    {\"name\": \"Pastor Sam Allen\", \"type\": \"PERSON\"},\n    {\"name\": \"The Calvary Road Radio Broadcast\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"KQIP-LP\",\n      \"relation\": \"located_in\",\n      \"object\": \"Chico\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"licensed to\"}\n      ]\n    },\n    {\n      \"subject\": \"KQIP-LP\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"licensed to\"}\n      ]\n    },\n    {\n      \"subject\": \"KQIP-LP\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"licensed to\"}\n      ]\n    },\n    {\n      \"subject\": \"KQIP-LP\",\n      \"relation\": \"works_for\",\n      \"object\": \"Calvary Chapel of Chico\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is currently owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"KQIP-LP\",\n      \"relation\": \"product_identifier\",\n      \"object\": \"107.1 FM\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(107.1 FM)\"}\n      ]\n    },\n    {\n      \"subject\": \"KQIP-LP\",\n      \"relation\": \"broadcasts\",\n      \"object\": \"The Calvary Road Radio Broadcast\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"airs Pastor Sam Allen from Calvary Chapel Chico on The Calvary Road Radio Broadcast\"}\n      ]\n    },\n    {\n      \"subject\": \"The Calvary Road Radio Broadcast\",\n      \"relation\": \"features\",\n      \"object\": \"Pastor Sam Allen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"airs Pastor Sam Allen from Calvary Chapel Chico on The Calvary Road Radio Broadcast\"}\n      ]\n    },\n    {\n      \"subject\": \"The Calvary Road Radio Broadcast\",\n      \"relation\": \"related_to\",\n      \"object\": \"Calvary Chapel Chico\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"airs Pastor Sam Allen from Calvary Chapel Chico on The Calvary Road Radio Broadcast\"}\n      ]\n    }\n  ]\n}"
+}

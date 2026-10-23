@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "Walter Reed Army Medical Center": "Organization",
+    "Walter Reed General Hospital": "Organization",
+    "U.S. Army": "Organization",
+    "Washington, D.C.": "Location",
+    "Major Walter Reed": "Person",
+    "yellow fever": "Disease",
+    "mosquitoes": "Organism"
+  },
+  "triples": [
+    {
+      "subject": "Walter Reed Army Medical Center",
+      "relation": "known_as",
+      "object": "Walter Reed General Hospital",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "known as Walter Reed General Hospital (WRGH) until 1951"
+        }
+      ]
+    },
+    {
+      "subject": "Walter Reed Army Medical Center",
+      "relation": "was",
+      "object": "U.S. Army",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the U.S. Army's flagship medical center from 1909 to 2011"
+        }
+      ]
+    },
+    {
+      "subject": "Walter Reed Army Medical Center",
+      "relation": "located_in",
+      "object": "Washington, D.C.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Located on 113 acre in Washington, D.C."
+        }
+      ]
+    },
+    {
+      "subject": "Walter Reed Army Medical Center",
+      "relation": "named_after",
+      "object": "Major Walter Reed",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The center was named after Major Walter Reed (1851–1902)"
+        }
+      ]
+    },
+    {
+      "subject": "yellow fever",
+      "relation": "transmitted_by",
+      "object": "mosquitoes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that yellow fever is transmitted by mosquitoes rather than direct contact"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Walter Reed Army Medical Center",
+        "served",
+        "active and retired personnel"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Major Walter Reed",
+        "led",
+        "team"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "team",
+        "confirmed",
+        "yellow fever"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Walter Reed Army Medical Center\nThe Walter Reed Army Medical Center (WRAMC) — known as Walter Reed General Hospital (WRGH) until 1951 — was the U.S. Army's flagship medical center from 1909 to 2011. Located on 113 acre in Washington, D.C., it served more than 150,000 active and retired personnel from all branches of the military. The center was named after Major Walter Reed (1851–1902), an army physician who led the team that confirmed that yellow fever is transmitted by mosquitoes rather than direct contact."
+}

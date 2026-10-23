@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Rakka": "film",
+    "YouTube": "platform",
+    "Steam": "platform",
+    "14 June 2017": "date"
+  },
+  "triples": [
+    {
+      "subject": "Rakka",
+      "relation": "released_on",
+      "object": "YouTube",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was released on YouTube"
+        }
+      ]
+    },
+    {
+      "subject": "Rakka",
+      "relation": "released_on_date",
+      "object": "14 June 2017",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on 14 June 2017"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rakka",
+        "released_on",
+        "Steam"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Rakka (film)\nThe film was released on YouTube and Steam on 14 June 2017."
+}

@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Pumari Chhish": "peak",
+    "Hispar Muztagh": "mountain range",
+    "Karakoram": "mountain range",
+    "Khunyang Chhish": "peak",
+    "Hispar Glacier": "glacier"
+  },
+  "triples": [
+    {
+      "subject": "Pumari Chhish",
+      "relation": "located_in",
+      "object": "Hispar Muztagh",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a high peak of the Hispar Muztagh"
+        }
+      ]
+    },
+    {
+      "subject": "Hispar Muztagh",
+      "relation": "part_of",
+      "object": "Karakoram",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a subrange of the Karakoram range"
+        }
+      ]
+    },
+    {
+      "subject": "Pumari Chhish",
+      "relation": "located_north_of",
+      "object": "Hispar Glacier",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the heart of the Hispar, north of the Hispar Glacier"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pumari Chhish",
+        "located_east_of",
+        "Khunyang Chhish"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pumari Chhish\nPumari Chhish (Urdu: ‎ ), (or Pumarikish, Peak 11) is a high peak of the Hispar Muztagh, a subrange of the Karakoram range. It lies about 4 km east of Khunyang Chhish, in the heart of the Hispar, north of the Hispar Glacier."
+}

@@ -1,0 +1,150 @@
+{
+  "entities": {
+    "1st Cavalry Division": "military_unit",
+    "United States Army": "military_organization",
+    "Fort Hood": "location",
+    "Texas": "location",
+    "Major General John C. Thomson III": "person",
+    "III Corps": "military_unit"
+  },
+  "triples": [
+    {
+      "subject": "1st Cavalry Division",
+      "relation": "is_subordinate_to",
+      "object": "III Corps",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "the 1st Cavalry Division is subordinate to III Corps"
+        }
+      ]
+    },
+    {
+      "subject": "1st Cavalry Division",
+      "relation": "is_commanded_by",
+      "object": "Major General John C. Thomson III",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "is commanded by Major General John C. Thomson III"
+        }
+      ]
+    },
+    {
+      "subject": "1st Cavalry Division",
+      "relation": "is_based_at",
+      "object": "Fort Hood",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It is based at Fort Hood, Texas"
+        }
+      ]
+    },
+    {
+      "subject": "Fort Hood",
+      "relation": "is_located_in",
+      "object": "Texas",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Fort Hood, Texas"
+        }
+      ]
+    },
+    {
+      "subject": "1st Cavalry Division",
+      "relation": "is_part_of",
+      "object": "United States Army",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of the United States Army"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "1st Cavalry Division",
+        "is_a",
+        "military_unit"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "1st Cavalry Division",
+        "served_in",
+        "World War II"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "1st Cavalry Division",
+        "served_in",
+        "Korean War"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "1st Cavalry Division",
+        "served_in",
+        "Vietnam War"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "1st Cavalry Division",
+        "served_in",
+        "Persian Gulf War"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "1st Cavalry Division",
+        "served_in",
+        "Stabilization Force in Bosnia-Herzegovina"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "1st Cavalry Division",
+        "served_in",
+        "Iraq War"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "1st Cavalry Division",
+        "served_in",
+        "War in Afghanistan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "1st Cavalry Division",
+        "served_in",
+        "Operation Freedom’s Sentinel"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "1st Cavalry Division",
+        "is_one_of",
+        "most decorated combat divisions"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "1st Cavalry Division (United States)\nThe 1st Cavalry Division (\"First Team\") is a combined arms division and is one of the most decorated combat divisions of the United States Army, as well as the other four branches of the U.S. military. It is based at Fort Hood, Texas. It was formed in 1921 and served during World War II, the Korean War, the Vietnam War, the Persian Gulf War, with the Stabilization Force in Bosnia-Herzegovina, in the Iraq War, in the War in Afghanistan and in Operation Freedom’s Sentinel. As of 2017, the 1st Cavalry Division is subordinate to III Corps and is commanded by Major General John C. Thomson III."
+}

@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Dealey Plaza": "Location",
+    "John F. Kennedy": "Person",
+    "Dallas": "Location",
+    "Texas": "Location",
+    "Dealey Plaza Historic District": "Location",
+    "National Historic Landmark": "Designation"
+  },
+  "triples": [
+    {
+      "subject": "Dealey Plaza",
+      "relation": "located_in",
+      "object": "Dallas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the historic West End district of downtown Dallas"
+        }
+      ]
+    },
+    {
+      "subject": "Dealey Plaza",
+      "relation": "assassination_of",
+      "object": "John F. Kennedy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the location of the assassination of John F. Kennedy"
+        }
+      ]
+    },
+    {
+      "subject": "Dealey Plaza Historic District",
+      "relation": "named",
+      "object": "National Historic Landmark",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was named a National Historic Landmark in 1993"
+        }
+      ]
+    },
+    {
+      "subject": "Dealey Plaza Historic District",
+      "relation": "preserves",
+      "object": "Dealey Plaza",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "to preserve Dealey Plaza"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John F. Kennedy",
+        "assassinated_on",
+        "November 22, 1963"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Dealey Plaza\nDealey Plaza , in the historic West End district of downtown Dallas, Texas (U.S.), is the location of the assassination of John F. Kennedy on November 22, 1963. The Dealey Plaza Historic District was named a National Historic Landmark in 1993 to preserve Dealey Plaza, street rights-of-way, and buildings and structures by the plaza visible from the assassination site, that have been identified as witness locations or as possible assassin locations."
+}

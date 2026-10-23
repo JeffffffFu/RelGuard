@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Umar Akmal": "Person",
+    "Sri Lanka": "Country",
+    "New Zealand": "Country",
+    "Adnan": "Person",
+    "Kamran": "Person",
+    "noor Fatima": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Umar Akmal",
+      "relation": "debuted_against",
+      "object": "Sri Lanka",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "against Sri Lanka"
+        }
+      ]
+    },
+    {
+      "subject": "Umar Akmal",
+      "relation": "debuted_against",
+      "object": "New Zealand",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "against New Zealand"
+        }
+      ]
+    },
+    {
+      "subject": "Umar Akmal",
+      "relation": "has_brothers",
+      "object": "Adnan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Like his two brothers, Adnan"
+        }
+      ]
+    },
+    {
+      "subject": "Umar Akmal",
+      "relation": "has_wife",
+      "object": "noor Fatima",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "His wife name is noor Fatima"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Umar Akmal",
+        "has_brothers",
+        "Kamran"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Umar Akmal\nUmar Akmal (Urdu: ‎ ; born 26 May 1990) is a Pakistani cricketer. He made his ODI debut on 1 August 2009 against Sri Lanka and made his Test debut against New Zealand on 23 November 2009. He is a right-handed batsman and a part-time spinner. Like his two brothers, Adnan and Kamran, Umar has kept wicket for the national team any many ODIs. His wife name is noor Fatima."
+}

@@ -1,0 +1,38 @@
+{
+  "entities": {
+    "English Foxhound": "breed",
+    "American Foxhound": "breed"
+  },
+  "triples": [
+    {
+      "subject": "English Foxhound",
+      "relation": "is_a_cousin_of",
+      "object": "American Foxhound",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It is a cousin of the American Foxhound."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "English Foxhound",
+        "is_one_of",
+        "foxhound breeds"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "English Foxhound",
+        "bred_to_hunt",
+        "foxes"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "English Foxhound\nThe English Foxhound is one of the four foxhound breeds of dog. It is a cousin of the American Foxhound. They are scent hounds, bred to hunt foxes by scent."
+}

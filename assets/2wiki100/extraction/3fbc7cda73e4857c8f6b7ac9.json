@@ -1,0 +1,136 @@
+{
+  "entities": {
+    "End of Watch": "film",
+    "David Ayer": "person",
+    "Jake Gyllenhaal": "person",
+    "Michael Peña": "person",
+    "Brian Taylor": "person",
+    "Miguel Zavala": "person",
+    "Los Angeles Police Department": "organization",
+    "South Los Angeles": "location",
+    "Los Angeles": "location",
+    "Toronto International Film Festival": "event"
+  },
+  "triples": [
+    {
+      "subject": "End of Watch",
+      "relation": "written_and_directed_by",
+      "object": "David Ayer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by David Ayer"
+        }
+      ]
+    },
+    {
+      "subject": "End of Watch",
+      "relation": "stars",
+      "object": "Jake Gyllenhaal",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It stars Jake Gyllenhaal"
+        }
+      ]
+    },
+    {
+      "subject": "Jake Gyllenhaal",
+      "relation": "plays",
+      "object": "Brian Taylor",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as Brian Taylor"
+        }
+      ]
+    },
+    {
+      "subject": "Brian Taylor",
+      "relation": "works_for",
+      "object": "Los Angeles Police Department",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Los Angeles Police Department officers who work in South Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "Miguel Zavala",
+      "relation": "works_for",
+      "object": "Los Angeles Police Department",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Los Angeles Police Department officers who work in South Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "End of Watch",
+      "relation": "filming_location",
+      "object": "Los Angeles",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "Filming took place in Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "End of Watch",
+      "relation": "premiered_at",
+      "object": "Toronto International Film Festival",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "premiered on September 8, 2012 at the Toronto International Film Festival"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "End of Watch",
+        "stars",
+        "Michael Peña"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Michael Peña",
+        "plays",
+        "Miguel Zavala"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "End of Watch",
+        "released_in",
+        "American theaters"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "End of Watch",
+        "grossed_over",
+        "$57 million"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "End of Watch",
+        "received",
+        "Independent Spirit Award nominations"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "End of Watch\nEnd of Watch is a 2012 American action thriller film written and directed by David Ayer. It stars Jake Gyllenhaal and Michael Peña as Brian Taylor and Miguel Zavala, two Los Angeles Police Department officers who work in South Los Angeles. The film focuses on their day- to- day police work, their dealings with a certain group of gang members, their friendship with each other, and their personal relationships. Ayer, who had written several police procedural films previously, wanted the film to focus more on the friendship between partners and honest police work rather than corruption. Gyllenhaal, Peña, and other cast members underwent an intensive training program to prepare for their roles as police officers. Filming took place in Los Angeles in August 2011 with a budget of$ 7 million. \" End of Watch\" premiered on September 8, 2012 at the Toronto International Film Festival and was released in American theaters on September 21, grossing over$ 57 million at the box office. The film received a number of accolades, including two Independent Spirit Award nominations."
+}

@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "California State Legislature": "organization",
+    "California State Assembly": "organization",
+    "California State Senate": "organization",
+    "California": "location"
+  },
+  "triples": [
+    {
+      "subject": "California State Legislature",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the state legislature of the U.S. state of California"
+        }
+      ]
+    },
+    {
+      "subject": "California State Legislature",
+      "relation": "consists_of",
+      "object": "California State Assembly",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "a bicameral body consisting of the lower house, the California State Assembly"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "California State Legislature",
+        "consists_of",
+        "California State Senate"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "California State Assembly",
+        "has_members",
+        "80"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "California State Senate",
+        "has_members",
+        "40"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "California State Legislature\nThe California State Legislature is the state legislature of the U.S. state of California. It is a bicameral body consisting of the lower house, the California State Assembly, with 80 members, and the upper house, the California State Senate, with 40 members. New legislators convene each new two-year session, to organize, in the Assembly and Senate Chambers, respectively, at noon on the first Monday in December following the election. After the organizational meeting, both houses are in recess until the first Monday in January, except when the first Monday is January 1 or January 1 is a Sunday, in which case they meet the following Wednesday. Aside from the recess, the legislature is in session year-round."
+}

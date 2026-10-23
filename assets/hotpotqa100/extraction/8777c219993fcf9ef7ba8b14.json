@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "No. 3 Control and Reporting Unit": "military_unit",
+    "RAAF": "military_organization",
+    "RAAF Base Williamtown": "location",
+    "Newcastle": "location",
+    "New South Wales": "location",
+    "Eastern Region Operations Centre": "location",
+    "EROC": "location",
+    "3CRU DET TDL": "military_unit",
+    "Northern Region Operations Centre": "location",
+    "RAAF Base Tindal": "location",
+    "Vigilaire air defence system": "system"
+  },
+  "triples": [
+    {
+      "subject": "3CRU DET TDL",
+      "relation": "operates_from",
+      "object": "Northern Region Operations Centre",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "A detachment of 3CRU, 3CRU DET TDL, operates from the Northern Region Operations Centre (NROC) at RAAF Base Tindal"
+        }
+      ]
+    },
+    {
+      "subject": "3CRU DET TDL",
+      "relation": "operates",
+      "object": "Vigilaire air defence system",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "and currently operates the Vigilaire air defence system."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "No. 3 Control and Reporting Unit",
+        "is_a",
+        "military_unit"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "3CRU",
+        "headquartered_at",
+        "RAAF Base Williamtown"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "3CRU",
+        "responsible_for",
+        "surveillance of Australia's airspace"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "3CRU",
+        "operates_from",
+        "Eastern Region Operations Centre"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "No. 3 Control and Reporting Unit RAAF\nNo. 3 Control and Reporting Unit (3CRU) is a Royal Australian Air Force surveillance unit. 3CRU is currently headquartered at RAAF Base Williamtown near Newcastle, New South Wales and is primarily responsible for conducting surveillance of Australia's airspace and air battle management for RAAF flying squadrons. Operating from the Eastern Region Operations Centre, known commonly as EROC, 3CRU is the premier ADGE unit. A detachment of 3CRU, 3CRU DET TDL, operates from the Northern Region Operations Centre (NROC) at RAAF Base Tindal and currently operates the Vigilaire air defence system."
+}

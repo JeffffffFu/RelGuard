@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Attica": "LOC",
+    "Athens": "GPE",
+    "Greece": "GPE",
+    "Attic peninsula": "LOC",
+    "Aegean Sea": "LOC",
+    "Saronic Islands": "LOC",
+    "Cythera": "GPE",
+    "Troizinia": "GPE",
+    "Peloponnesian mainland": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Attica",
+      "relation": "encompasses",
+      "object": "Athens",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "encompasses the city of",
+          "line_start": 85,
+          "char_start": 92,
+          "ambiguous": false,
+          "relation_mention": "encompasses the city of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Attica",
+      "relation": "centered_on",
+      "object": "Attic peninsula",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is centered on the",
+          "line_start": 174,
+          "char_start": 181,
+          "ambiguous": false,
+          "relation_mention": "is centered on the",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Athens",
+        "located_in",
+        "Greece"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Attic peninsula",
+        "projects_into",
+        "Aegean Sea"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "modern administrative region of Attica",
+        "includes",
+        "Saronic Islands"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "modern administrative region of Attica",
+        "includes",
+        "Cythera"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "modern administrative region of Attica",
+        "includes",
+        "Troizinia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Troizinia",
+        "located_in",
+        "Peloponnesian mainland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "history of Attica",
+        "linked_with",
+        "Athens"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Athens",
+        "was",
+        "one of the most important cities in the ancient world"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Attica\nAttica (Greek: Αττική , \"Attikḗ\" or \"Attikī́\" ; ] or ] ) is a historical region that encompasses the city of Athens, the capital of present-day Greece. The historical region is centered on the Attic peninsula, which projects into the Aegean Sea. The modern administrative region of Attica is more extensive than the historical region and includes the Saronic Islands, Cythera, and the municipality of Troizinia on the Peloponnesian mainland. The history of Attica is tightly linked with that of Athens, which, from the classical period, was one of the most important cities in the ancient world.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Attica\", \"type\": \"LOC\"},\n    {\"name\": \"Athens\", \"type\": \"GPE\"},\n    {\"name\": \"Greece\", \"type\": \"GPE\"},\n    {\"name\": \"Attic peninsula\", \"type\": \"LOC\"},\n    {\"name\": \"Aegean Sea\", \"type\": \"LOC\"},\n    {\"name\": \"Saronic Islands\", \"type\": \"LOC\"},\n    {\"name\": \"Cythera\", \"type\": \"GPE\"},\n    {\"name\": \"Troizinia\", \"type\": \"GPE\"},\n    {\"name\": \"Peloponnesian mainland\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Attica\",\n      \"relation\": \"encompasses\",\n      \"object\": \"Athens\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"encompasses the city of\"}\n      ]\n    },\n    {\n      \"subject\": \"Athens\",\n      \"relation\": \"located_in\",\n      \"object\": \"Greece\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the capital of present-day\"}\n      ]\n    },\n    {\n      \"subject\": \"Attica\",\n      \"relation\": \"centered_on\",\n      \"object\": \"Attic peninsula\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is centered on the\"}\n      ]\n    },\n    {\n      \"subject\": \"Attic peninsula\",\n      \"relation\": \"projects_into\",\n      \"object\": \"Aegean Sea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"projects into the Aegean Sea\"}\n      ]\n    },\n    {\n      \"subject\": \"modern administrative region of Attica\",\n      \"relation\": \"includes\",\n      \"object\": \"Saronic Islands\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"includes the Saronic Islands\"}\n      ]\n    },\n    {\n      \"subject\": \"modern administrative region of Attica\",\n      \"relation\": \"includes\",\n      \"object\": \"Cythera\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"includes the Saronic Islands, Cythera, and the municipality of Troizinia on the Peloponnesian mainland\"}\n      ]\n    },\n    {\n      \"subject\": \"modern administrative region of Attica\",\n      \"relation\": \"includes\",\n      \"object\": \"Troizinia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"includes the Saronic Islands, Cythera, and the municipality of Troizinia on the Peloponnesian mainland\"}\n      ]\n    },\n    {\n      \"subject\": \"Troizinia\",\n      \"relation\": \"located_in\",\n      \"object\": \"Peloponnesian mainland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the Peloponnesian mainland\"}\n      ]\n    },\n    {\n      \"subject\": \"history of Attica\",\n      \"relation\": \"linked_with\",\n      \"object\": \"Athens\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is tightly linked with that of Athens\"}\n      ]\n    },\n    {\n      \"subject\": \"Athens\",\n      \"relation\": \"was\",\n      \"object\": \"one of the most important cities in the ancient world\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was one of the most important cities in the ancient world\"}\n      ]\n    }\n  ]\n}"
+}

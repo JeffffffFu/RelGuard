@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Gola Barood": "WORK_OF_ART",
+    "Hindi": "LANGUAGE",
+    "David Dhawan": "PERSON",
+    "Shatrughan Sinha": "PERSON",
+    "Chunky Pandey": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Gola Barood",
+      "relation": "directed_by",
+      "object": "David Dhawan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 57,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Gola Barood",
+      "relation": "in_language",
+      "object": "Hindi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Hindi- language",
+          "line_start": 22,
+          "char_start": 34,
+          "ambiguous": false,
+          "relation_mention": "Hindi- language",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Gola Barood",
+      "relation": "stars",
+      "object": "Shatrughan Sinha",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring Shatrughan Sinha",
+          "line_start": 83,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "starring Shatrughan Sinha",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Gola Barood",
+      "relation": "stars",
+      "object": "Chunky Pandey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Chunky Pandey",
+          "line_start": 113,
+          "char_start": 125,
+          "ambiguous": false,
+          "relation_mention": "Chunky Pandey",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "India (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Gola Barood",
+        "located_in",
+        "India"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Gola Barood\nGola Barood is a 1989 Hindi- language Indian action film directed by David Dhawan, starring Shatrughan Sinha and Chunky Pandey in lead roles."
+}

@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "2005 West Asian Games": "EVENT",
+    "Khalifa International Stadium": "FAC",
+    "Doha": "GPE",
+    "Qatar": "GPE",
+    "Athletics at the 2006 Asian Games": "EVENT",
+    "2006 Asian Games": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Doha",
+      "relation": "hosted",
+      "object": "2006 Asian Games",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "hosted",
+          "line_start": 426,
+          "char_start": 465,
+          "ambiguous": false,
+          "relation_mention": "hosted",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "athletics at the 2005 West Asian Games",
+        "located_in",
+        "Khalifa International Stadium"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Khalifa International Stadium",
+        "located_in",
+        "Doha"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Doha",
+        "located_in",
+        "Qatar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "athletics at the 2005 West Asian Games",
+        "was_test_event_for",
+        "Athletics at the 2006 Asian Games"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Athletics at the 2005 West Asian Games\nAt the 2005 West Asian Games, the athletics events were held at the Khalifa International Stadium in Doha, Qatar. Contested over three days, from 7 to 9 December, it was the first time that women were allowed to compete in athletics events at the Games. A total of 28 events were contested, of which 23 by male and 5 by female athletes. The event was seen as a test event for the Athletics at the 2006 Asian Games, which Doha hosted the following year.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"2005 West Asian Games\", \"type\": \"EVENT\"},\n    {\"name\": \"Khalifa International Stadium\", \"type\": \"FAC\"},\n    {\"name\": \"Doha\", \"type\": \"GPE\"},\n    {\"name\": \"Qatar\", \"type\": \"GPE\"},\n    {\"name\": \"Athletics at the 2006 Asian Games\", \"type\": \"EVENT\"},\n    {\"name\": \"2006 Asian Games\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"athletics at the 2005 West Asian Games\",\n      \"relation\": \"located_in\",\n      \"object\": \"Khalifa International Stadium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were held at\"}\n      ]\n    },\n    {\n      \"subject\": \"Khalifa International Stadium\",\n      \"relation\": \"located_in\",\n      \"object\": \"Doha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Doha\",\n      \"relation\": \"located_in\",\n      \"object\": \"Qatar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"athletics at the 2005 West Asian Games\",\n      \"relation\": \"was_test_event_for\",\n      \"object\": \"Athletics at the 2006 Asian Games\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"was a test event for\"}\n      ]\n    },\n    {\n      \"subject\": \"Doha\",\n      \"relation\": \"hosted\",\n      \"object\": \"2006 Asian Games\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"hosted\"}\n      ]\n    }\n  ]\n}"
+}

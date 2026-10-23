@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "The Lady Takes a Sailor": "film",
+    "Michael Curtiz": "director",
+    "Jane Wyman": "actor",
+    "Eve Arden": "actor",
+    "Dennis Morgan": "actor"
+  },
+  "triples": [
+    {
+      "subject": "The Lady Takes a Sailor",
+      "relation": "directed_by",
+      "object": "Michael Curtiz",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Michael Curtiz"
+        }
+      ]
+    },
+    {
+      "subject": "The Lady Takes a Sailor",
+      "relation": "starring",
+      "object": "Jane Wyman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Jane Wyman"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Lady Takes a Sailor",
+        "starring",
+        "Eve Arden"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Lady Takes a Sailor",
+        "starring",
+        "Dennis Morgan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Lady Takes a Sailor\nThe Lady Takes a Sailor is a 1949 comedy film directed by Michael Curtiz, starring Jane Wyman, Eve Arden and Dennis Morgan."
+}

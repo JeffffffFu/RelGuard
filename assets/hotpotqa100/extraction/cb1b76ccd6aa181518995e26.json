@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Azadirachta": "genus",
+    "Azadirachta excelsa": "species",
+    "Azadirachta indica": "species",
+    "Neem tree": "common_name",
+    "Indomalaysian region": "geographical_region"
+  },
+  "triples": [
+    {
+      "subject": "Azadirachta",
+      "relation": "has_species",
+      "object": "Azadirachta excelsa",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "two species of trees in the mahogany (Meliaceae) family"
+        }
+      ]
+    },
+    {
+      "subject": "Azadirachta",
+      "relation": "has_species",
+      "object": "Azadirachta indica",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "two species of trees in the mahogany (Meliaceae) family"
+        }
+      ]
+    },
+    {
+      "subject": "Azadirachta indica",
+      "relation": "informally_called",
+      "object": "Neem tree",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "informally called the Neem tree"
+        }
+      ]
+    },
+    {
+      "subject": "Azadirachta excelsa",
+      "relation": "native_to",
+      "object": "Indomalaysian region",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Both species are native to the Indomalaysian region"
+        }
+      ]
+    },
+    {
+      "subject": "Azadirachta indica",
+      "relation": "native_to",
+      "object": "Indomalaysian region",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Both species are native to the Indomalaysian region"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Azadirachta indica",
+        "widely_cultivated",
+        "outside its native range"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Azadirachta\nAzadirachta is a genus of two species of trees in the mahogany (Meliaceae) family. Numerous species have been proposed for the genus but only two are currently recognized, \"Azadirachta excelsa\" and the economically important tree \"Azadirachta indica\". The latter is informally called the Neem tree; see also Neem oil. Both species are native to the Indomalaysian region, and \"A. indica\" is also widely cultivated and naturalized outside its native range."
+}

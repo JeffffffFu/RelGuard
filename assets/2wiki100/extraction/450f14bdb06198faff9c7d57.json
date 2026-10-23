@@ -1,0 +1,221 @@
+{
+  "entities": {
+    "Good People": "WORK_OF_ART",
+    "Getaway 2": "WORK_OF_ART",
+    "Henrik Ruben Genz": "PERSON",
+    "Kelly Masterson": "PERSON",
+    "Marcus Sakey": "PERSON",
+    "James Franco": "PERSON",
+    "Kate Hudson": "PERSON",
+    "Omar Sy": "PERSON",
+    "Tom Wilkinson": "PERSON",
+    "Sam Spruell": "PERSON",
+    "Tom Wright": "PERSON",
+    "Anna Wright": "PERSON",
+    "London": "GPE",
+    "2013": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Good People",
+      "relation": "released_as",
+      "object": "Getaway 2",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released in some countries as",
+          "line_start": 13,
+          "char_start": 32,
+          "ambiguous": false,
+          "relation_mention": "released in some countries as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Good People",
+      "relation": "directed_by",
+      "object": "Henrik Ruben Genz",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 94,
+          "char_start": 113,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Good People",
+      "relation": "written_by",
+      "object": "Kelly Masterson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 128,
+          "char_start": 147,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Good People",
+      "relation": "based_on",
+      "object": "Marcus Sakey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 156,
+          "char_start": 175,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Good People",
+      "relation": "stars",
+      "object": "James Franco",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "stars",
+          "line_start": 214,
+          "char_start": 233,
+          "ambiguous": false,
+          "relation_mention": "stars",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Good People",
+      "relation": "stars",
+      "object": "Kate Hudson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "stars",
+          "line_start": 214,
+          "char_start": 233,
+          "ambiguous": false,
+          "relation_mention": "stars",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Good People",
+      "relation": "stars",
+      "object": "Omar Sy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "stars",
+          "line_start": 214,
+          "char_start": 233,
+          "ambiguous": false,
+          "relation_mention": "stars",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Good People",
+      "relation": "stars",
+      "object": "Tom Wilkinson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "stars",
+          "line_start": 214,
+          "char_start": 233,
+          "ambiguous": false,
+          "relation_mention": "stars",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Good People",
+      "relation": "stars",
+      "object": "Sam Spruell",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "stars",
+          "line_start": 214,
+          "char_start": 233,
+          "ambiguous": false,
+          "relation_mention": "stars",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tom Wright",
+      "relation": "lives_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "living in",
+          "line_start": 351,
+          "char_start": 370,
+          "ambiguous": false,
+          "relation_mention": "living in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Anna Wright",
+      "relation": "lives_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "living in",
+          "line_start": 351,
+          "char_start": 370,
+          "ambiguous": false,
+          "relation_mention": "living in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Good People",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Good People",
+        "release_year",
+        "2013"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Good People (film)\nGood People (released in some countries as Getaway 2) is a 2013 American thriller action film directed by Henrik Ruben Genz and written by Kelly Masterson, based on Marcus Sakey's 2008 novel of same name. The film stars James Franco, Kate Hudson, Omar Sy, Tom Wilkinson, and Sam Spruell and tells the story of an American couple, Tom and Anna Wright, living in London who fall into severe debt while renovating their family’s home. The film was released in select theaters and on demand on 26 September 2014."
+}

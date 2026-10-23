@@ -1,0 +1,147 @@
+{
+  "entities": {
+    "Spain": "GPE",
+    "Spain national football team": "ORG",
+    "Royal Spanish Football Federation": "ORG",
+    "Julen Lopetegui": "PERSON",
+    "Vicente del Bosque": "PERSON",
+    "FIFA": "ORG",
+    "Spanish Football Federation": "ORG",
+    "UEFA European Championships": "EVENT",
+    "FIFA World Cups": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Spain national football team",
+      "relation": "represents",
+      "object": "Spain",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "represents",
+          "line_start": 77,
+          "char_start": 106,
+          "ambiguous": false,
+          "relation_mention": "represents",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Spain national football team",
+      "relation": "is_controlled_by",
+      "object": "Royal Spanish Football Federation",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is controlled by",
+          "line_start": 142,
+          "char_start": 171,
+          "ambiguous": false,
+          "relation_mention": "is controlled by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Vicente del Bosque",
+      "relation": "stepped_down_from",
+      "object": "Spain national football team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "stepped down",
+          "line_start": 307,
+          "char_start": 336,
+          "ambiguous": false,
+          "relation_mention": "stepped down",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Spanish Football Federation",
+      "relation": "was_established_in",
+      "object": "Spain",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "established in",
+          "line_start": 616,
+          "char_start": 645,
+          "ambiguous": false,
+          "relation_mention": "established in",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Spain national football team",
+      "relation": "participated_in",
+      "object": "FIFA World Cups",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "participated in",
+          "line_start": 718,
+          "char_start": 747,
+          "ambiguous": false,
+          "relation_mention": "participated in",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "Spain national football team",
+      "relation": "participated_in",
+      "object": "UEFA European Championships",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "participated in",
+          "line_start": 718,
+          "char_start": 747,
+          "ambiguous": false,
+          "relation_mention": "participated in",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Royal Spanish Football Federation",
+        "governs",
+        "football in Spain"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Julen Lopetegui",
+        "works_for",
+        "Spain national football team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Spain",
+        "became_member_of",
+        "FIFA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Spain national football team",
+        "debuted_in",
+        "1920"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Spain national football team\nThe Spain national football team (Spanish: \"Selección de fútbol de España\" ) represents Spain in men's International association football and is controlled by the Royal Spanish Football Federation, the governing body for football in Spain. The current head coach is Julen Lopetegui after Vicente del Bosque stepped down following Euro 2016. The Spanish side is commonly referred to as \"La Roja\" (\"The Red [One]\"), \"La Furia Roja\" (\"The Red Fury\"), \"La Furia Española\" (\"The Spanish Fury\") or simply \"La Furia\" (\"The Fury\"). Spain became a member of FIFA in 1904 even though the Spanish Football Federation was first established in 1909. Spain's national team debuted in 1920. Since then, the Spanish national team has participated in a total of 14 of 20 FIFA World Cups and 10 of 15 UEFA European Championships.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Spain\", \"type\": \"GPE\"},\n    {\"name\": \"Spain national football team\", \"type\": \"ORG\"},\n    {\"name\": \"Royal Spanish Football Federation\", \"type\": \"ORG\"},\n    {\"name\": \"Julen Lopetegui\", \"type\": \"PERSON\"},\n    {\"name\": \"Vicente del Bosque\", \"type\": \"PERSON\"},\n    {\"name\": \"FIFA\", \"type\": \"ORG\"},\n    {\"name\": \"Spanish Football Federation\", \"type\": \"ORG\"},\n    {\"name\": \"UEFA European Championships\", \"type\": \"EVENT\"},\n    {\"name\": \"FIFA World Cups\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Spain national football team\",\n      \"relation\": \"represents\",\n      \"object\": \"Spain\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"represents\"}\n      ]\n    },\n    {\n      \"subject\": \"Spain national football team\",\n      \"relation\": \"is_controlled_by\",\n      \"object\": \"Royal Spanish Football Federation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is controlled by\"}\n      ]\n    },\n    {\n      \"subject\": \"Royal Spanish Football Federation\",\n      \"relation\": \"governs\",\n      \"object\": \"football in Spain\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the governing body for\"}\n      ]\n    },\n    {\n      \"subject\": \"Julen Lopetegui\",\n      \"relation\": \"works_for\",\n      \"object\": \"Spain national football team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The current head coach is\"}\n      ]\n    },\n    {\n      \"subject\": \"Vicente del Bosque\",\n      \"relation\": \"stepped_down_from\",\n      \"object\": \"Spain national football team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stepped down\"}\n      ]\n    },\n    {\n      \"subject\": \"Spain\",\n      \"relation\": \"became_member_of\",\n      \"object\": \"FIFA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became a member of\"}\n      ]\n    },\n    {\n      \"subject\": \"Spanish Football Federation\",\n      \"relation\": \"was_established_in\",\n      \"object\": \"Spain\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"established in\"}\n      ]\n    },\n    {\n      \"subject\": \"Spain national football team\",\n      \"relation\": \"debuted_in\",\n      \"object\": \"1920\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"debuted in\"}\n      ]\n    },\n    {\n      \"subject\": \"Spain national football team\",\n      \"relation\": \"participated_in\",\n      \"object\": \"FIFA World Cups\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"participated in\"}\n      ]\n    },\n    {\n      \"subject\": \"Spain national football team\",\n      \"relation\": \"participated_in\",\n      \"object\": \"UEFA European Championships\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"participated in\"}\n      ]\n    }\n  ]\n}"
+}

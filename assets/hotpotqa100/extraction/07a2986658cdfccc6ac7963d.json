@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Manley Field House": "FAC",
+    "Syracuse": "GPE",
+    "New York": "GPE",
+    "Syracuse Orange men's basketball team": "ORG",
+    "Syracuse Orange women's basketball team": "ORG",
+    "Carrier Dome": "FAC",
+    "Dr. George L. Manley": "PERSON",
+    "University": "ORG",
+    "College of Medicine": "ORG",
+    "Archbold Gymnasium": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Manley Field House",
+      "relation": "named_for",
+      "object": "Dr. George L. Manley",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "named for",
+          "line_start": 313,
+          "char_start": 332,
+          "ambiguous": false,
+          "relation_mention": "named for",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Manley Field House",
+      "relation": "replaced",
+      "object": "Archbold Gymnasium",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to replace",
+          "line_start": 460,
+          "char_start": 479,
+          "ambiguous": false,
+          "relation_mention": "to replace",
+          "sentence_id": 7
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Manley Field House",
+        "located_in",
+        "Syracuse"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Manley Field House",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Manley Field House",
+        "was_home_to",
+        "Syracuse Orange men's basketball team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Manley Field House",
+        "was_home_to",
+        "Syracuse Orange women's basketball team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Manley Field House",
+        "was_replaced_by",
+        "Carrier Dome"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dr. George L. Manley",
+        "works_for",
+        "University"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dr. George L. Manley",
+        "graduated_from",
+        "College of Medicine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Manley Field House\nManley Field House is a multi-purpose arena in Syracuse, New York. The arena opened in 1962 and at one time held 9500 people for home games. It was home to the Syracuse Orange men's and women's basketball teams, the indoor track team, and the women's volleyball team before the Carrier Dome opened in 1980. It is named for Dr. George L. Manley, a University trustee and graduate of the College of Medicine, who was the benefactor of the building. It was built to replace the old Archbold Gymnasium, which had served for almost 60 years prior.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Manley Field House\", \"type\": \"FAC\"},\n    {\"name\": \"Syracuse\", \"type\": \"GPE\"},\n    {\"name\": \"New York\", \"type\": \"GPE\"},\n    {\"name\": \"Syracuse Orange men's basketball team\", \"type\": \"ORG\"},\n    {\"name\": \"Syracuse Orange women's basketball team\", \"type\": \"ORG\"},\n    {\"name\": \"Carrier Dome\", \"type\": \"FAC\"},\n    {\"name\": \"Dr. George L. Manley\", \"type\": \"PERSON\"},\n    {\"name\": \"University\", \"type\": \"ORG\"},\n    {\"name\": \"College of Medicine\", \"type\": \"ORG\"},\n    {\"name\": \"Archbold Gymnasium\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Manley Field House\",\n      \"relation\": \"located_in\",\n      \"object\": \"Syracuse\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Manley Field House\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Manley Field House\",\n      \"relation\": \"was_home_to\",\n      \"object\": \"Syracuse Orange men's basketball team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was home to\"}\n      ]\n    },\n    {\n      \"subject\": \"Manley Field House\",\n      \"relation\": \"was_home_to\",\n      \"object\": \"Syracuse Orange women's basketball team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was home to\"}\n      ]\n    },\n    {\n      \"subject\": \"Manley Field House\",\n      \"relation\": \"was_replaced_by\",\n      \"object\": \"Carrier Dome\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"before the Carrier Dome opened\"}\n      ]\n    },\n    {\n      \"subject\": \"Manley Field House\",\n      \"relation\": \"named_for\",\n      \"object\": \"Dr. George L. Manley\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"named for\"}\n      ]\n    },\n    {\n      \"subject\": \"Dr. George L. Manley\",\n      \"relation\": \"works_for\",\n      \"object\": \"University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a University trustee\"}\n      ]\n    },\n    {\n      \"subject\": \"Dr. George L. Manley\",\n      \"relation\": \"graduated_from\",\n      \"object\": \"College of Medicine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"graduate of\"}\n      ]\n    },\n    {\n      \"subject\": \"Manley Field House\",\n      \"relation\": \"replaced\",\n      \"object\": \"Archbold Gymnasium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to replace\"}\n      ]\n    }\n  ]\n}"
+}

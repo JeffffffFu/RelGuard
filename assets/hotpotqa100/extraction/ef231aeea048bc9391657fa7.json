@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Operation Woodrose": "military operation",
+    "Indira Gandhi": "person",
+    "Indian government": "organization",
+    "Operation Blue Star": "military operation",
+    "Punjab": "location",
+    "Akali Dal": "political party",
+    "All India Sikh Students Federation": "organization",
+    "Indian Army": "military organization",
+    "Sikhs": "ethnic group",
+    "human-rights groups": "organization",
+    "central government": "organization",
+    "minority community": "group"
+  },
+  "triples": [
+    {
+      "subject": "Operation Woodrose",
+      "relation": "carried_out_by",
+      "object": "Indian government",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Operation Woodrose was a military operation carried out by the Indira Gandhi-led Indian government"
+        }
+      ]
+    },
+    {
+      "subject": "Indian government",
+      "relation": "led_by",
+      "object": "Indira Gandhi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Indira Gandhi-led Indian government"
+        }
+      ]
+    },
+    {
+      "subject": "Indian government",
+      "relation": "banned",
+      "object": "All India Sikh Students Federation",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "banned the All India Sikh Students Federation"
+        }
+      ]
+    },
+    {
+      "subject": "Indian Army",
+      "relation": "conducted_operations_in",
+      "object": "Punjab",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the Indian Army conducted operations in the countryside"
+        }
+      ]
+    },
+    {
+      "subject": "Operation Woodrose",
+      "relation": "criticized_by",
+      "object": "human-rights groups",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "the operation was criticized by human-rights groups"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sikhs",
+        "were_detained_for",
+        "interrogation"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "central government",
+        "criticized_for",
+        "draconian legislation"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "draconian legislation",
+        "repressed",
+        "minority community"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Operation Woodrose\nOperation Woodrose was a military operation carried out by the Indira Gandhi-led Indian government in the months after Operation Blue Star to \"prevent the outbreak of widespread public protest\" in the state of Punjab. The government arrested all prominent members of the largest Sikh political party, the Akali Dal, and banned the All India Sikh Students Federation, a large students' union. In addition, the Indian Army conducted operations in the countryside during which thousands of Sikhs, overwhelmingly young men, were detained for interrogation and subsequently tortured. Despite its purported success in controlling the armed insurgency in the Punjab region, the operation was criticized by human-rights groups for the suspension of civil liberties and habeas corpus, resulting in the disappearances of thousands of Sikh men. After the operation, the central government was criticized for using \"draconian legislation\" to repress a minority community."
+}

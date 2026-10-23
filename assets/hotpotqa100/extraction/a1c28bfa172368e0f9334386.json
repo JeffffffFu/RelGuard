@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "William R. Synnott": "PERSON",
+    "Bank of Boston": "ORG",
+    "William H. Gruber": "PERSON",
+    "MIT Sloan School of Management": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "William R. Synnott",
+      "relation": "worked_for",
+      "object": "Bank of Boston",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "former Senior Vice President of the Bank of Boston"
+        }
+      ]
+    },
+    {
+      "subject": "William H. Gruber",
+      "relation": "worked_for",
+      "object": "MIT Sloan School of Management",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "former professor at the MIT Sloan School of Management"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "William R. Synnott",
+        "defined",
+        "Chief Information Officer"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Chief information officer\nChief information officer (CIO), chief digital information officer (CDIO) or information technology (IT) director, is a job title commonly given to the most senior executive in an enterprise responsible for the information technology and computer systems that support enterprise goals. Typically, the CIO reports directly to the chief executive officer but may also report to the chief operating officer or chief financial officer. In military organizations, they report to the commanding officer. The Chief Information Officer role was first defined in 1981 by William R. Synnott, former Senior Vice President of the Bank of Boston, and William H. Gruber, former professor at the MIT Sloan School of Management."
+}

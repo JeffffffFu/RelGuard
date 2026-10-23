@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Creature from the Haunted Sea": "WORK_OF_ART",
+    "Roger Corman": "PERSON",
+    "Charles B. Griffith": "PERSON",
+    "XK150": "PRODUCT",
+    "Robert Towne": "PERSON",
+    "Edward Wain": "PERSON",
+    "Sparks Moran": "PERSON",
+    "Renzo Capetto": "PERSON",
+    "Antony Carbone": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Creature from the Haunted Sea",
+      "relation": "directed_by",
+      "object": "Roger Corman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Roger Corman"
+        }
+      ]
+    },
+    {
+      "subject": "Creature from the Haunted Sea",
+      "relation": "written_by",
+      "object": "Charles B. Griffith",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Written by Charles B. Griffith"
+        }
+      ]
+    },
+    {
+      "subject": "XK150",
+      "relation": "played_by",
+      "object": "Robert Towne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played by Robert Towne"
+        }
+      ]
+    },
+    {
+      "subject": "Renzo Capetto",
+      "relation": "led_by",
+      "object": "Antony Carbone",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "criminal gang led by Renzo Capetto (Antony Carbone)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Cuba (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "XK150",
+        "code_name",
+        "Sparks Moran"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Renzo Capetto",
+        "transporting",
+        "Cuba"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Creature from the Haunted Sea\nCreature from the Haunted Sea is a 1961 horror comedy film directed by Roger Corman. Written by Charles B. Griffith, the film is a parody of spy, gangster, and monster movies (mostly \"Creature from the Black Lagoon\"), concerning a secret agent, XK150 (played by Robert Towne under the pseudonym \"Edward Wain\"), who goes under the code name \"Sparks Moran\" in order to infiltrate a criminal gang led by Renzo Capetto (Antony Carbone), who is trying to transport a colonel, a group of exiled Cuban nationals, and a large portion of the Cuban treasury out of the country."
+}

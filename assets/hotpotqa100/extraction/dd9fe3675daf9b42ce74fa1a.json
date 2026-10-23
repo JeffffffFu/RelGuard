@@ -1,0 +1,47 @@
+{
+  "entities": {
+    "Malaysia": "GPE",
+    "Malay": "LANGUAGE",
+    "Timbalan Perdana Menteri Malaysia": "WORK_OF_ART",
+    "Deputy Prime Minister of Malaysia": "PERSON",
+    "Tunku Abdul Rahman": "PERSON",
+    "Prime Minister of Malaysia": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Deputy Prime Minister of Malaysia",
+        "located_in",
+        "Malaysia"
+      ],
+      "why": "2 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Timbalan Perdana Menteri Malaysia",
+        "language",
+        "Malay"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tunku Abdul Rahman",
+        "started",
+        "Deputy Prime Minister of Malaysia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tunku Abdul Rahman",
+        "works_for",
+        "Prime Minister of Malaysia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Deputy Prime Minister of Malaysia\nThe Deputy Prime Minister of Malaysia (Malay: \"Timbalan Perdana Menteri Malaysia\" ) is the second highest political office in Malaysia. There have been eleven deputy prime ministers since the office was created in 1957. The first Prime Minister of Malaysia, Tunku Abdul Rahman, started the convention of appointing a Deputy Prime Minister.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Malaysia\", \"type\": \"GPE\"},\n    {\"name\": \"Malay\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Timbalan Perdana Menteri Malaysia\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Deputy Prime Minister of Malaysia\", \"type\": \"PERSON\"},\n    {\"name\": \"Tunku Abdul Rahman\", \"type\": \"PERSON\"},\n    {\"name\": \"Prime Minister of Malaysia\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Deputy Prime Minister of Malaysia\",\n      \"relation\": \"located_in\",\n      \"object\": \"Malaysia\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"of Malaysia\"},\n        {\"line\": 2, \"predicate\": \"of Malaysia\"}\n      ]\n    },\n    {\n      \"subject\": \"Timbalan Perdana Menteri Malaysia\",\n      \"relation\": \"language\",\n      \"object\": \"Malay\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Malay:\"}\n      ]\n    },\n    {\n      \"subject\": \"Tunku Abdul Rahman\",\n      \"relation\": \"started\",\n      \"object\": \"Deputy Prime Minister of Malaysia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"started the convention of appointing a Deputy Prime Minister\"}\n      ]\n    },\n    {\n      \"subject\": \"Tunku Abdul Rahman\",\n      \"relation\": \"works_for\",\n      \"object\": \"Prime Minister of Malaysia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The first Prime Minister of Malaysia, Tunku Abdul Rahman,\"}\n      ]\n    }\n  ]\n}"
+}

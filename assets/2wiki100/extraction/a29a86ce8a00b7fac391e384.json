@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Steno": "PERSON",
+    "Stefano Vanzina": "PERSON",
+    "Un giorno in pretura": "WORK_OF_ART",
+    "Febbre da cavallo": "WORK_OF_ART",
+    "67th Venice International Film Festival": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Steno",
+      "relation": "also_known_as",
+      "object": "Stefano Vanzina",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Steno, the artistic name of Stefano Vanzina"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Steno",
+        "directed",
+        "Un giorno in pretura"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Steno",
+        "directed",
+        "Febbre da cavallo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Un giorno in pretura",
+        "shown_at",
+        "67th Venice International Film Festival"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Febbre da cavallo",
+        "shown_at",
+        "67th Venice International Film Festival"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Italy",
+        "located_in",
+        "67th Venice International Film Festival"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Steno (director)\nSteno, the artistic name of Stefano Vanzina( 19 January 1917 – 13 March 1988) was an Italian film director, screenwriter and cinematographer. Two of his films,\" Un giorno in pretura\"( 1954) and\" Febbre da cavallo\"( 1976), were shown in a retrospective section on Italian comedy at the 67th Venice International Film Festival."
+}

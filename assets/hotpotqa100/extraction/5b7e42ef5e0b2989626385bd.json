@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Glorious Revolution": "EVENT",
+    "Scotland": "GPE",
+    "James VII of Scotland": "PERSON",
+    "James II of England": "PERSON",
+    "Mary": "PERSON",
+    "William of Orange": "PERSON",
+    "England": "GPE",
+    "Ireland": "GPE",
+    "British kingdoms": "GPE",
+    "Stuart monarchy": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Glorious Revolution",
+      "relation": "part_of",
+      "object": "British kingdoms",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was part of a wider change of regime, known as the Glorious Revolution"
+        }
+      ]
+    },
+    {
+      "subject": "Glorious Revolution",
+      "relation": "located_in",
+      "object": "Scotland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Scotland"
+        }
+      ]
+    },
+    {
+      "subject": "James VII of Scotland",
+      "relation": "replaced_by",
+      "object": "Mary",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his replacement with his Protestant daughter Mary"
+        }
+      ]
+    },
+    {
+      "subject": "Mary",
+      "relation": "married_to",
+      "object": "William of Orange",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "her husband William of Orange"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James VII of Scotland",
+        "removed_from",
+        "thrones of England"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James VII of Scotland",
+        "removed_from",
+        "thrones of Scotland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James VII of Scotland",
+        "removed_from",
+        "thrones of Ireland"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Glorious Revolution in Scotland\nThe Glorious Revolution in Scotland was part of a wider change of regime, known as the Glorious Revolution or Revolution of 1688, in the British kingdoms of the Stuart monarchy in 1688–89. It began in England and saw the removal of the Catholic James VII of Scotland and II of England from the thrones of England, Scotland and Ireland and his replacement with his Protestant daughter Mary and her husband William of Orange."
+}

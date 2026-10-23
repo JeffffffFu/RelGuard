@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "Coney Island Baby": "film",
+    "Amy Hobby": "person",
+    "Karl Geary": "person",
+    "Tanya Ryno": "person",
+    "Ryan Shore": "person",
+    "Sligo": "location",
+    "Ireland": "location",
+    "Newport International Film Festival": "event",
+    "Sundance Channel": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Coney Island Baby",
+      "relation": "directed_by",
+      "object": "Amy Hobby",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in which film producer Amy Hobby made her directorial debut"
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island Baby",
+      "relation": "written_by",
+      "object": "Karl Geary",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Karl Geary wrote the film"
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island Baby",
+      "relation": "produced_by",
+      "object": "Tanya Ryno",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Tanya Ryno was the film's producer"
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island Baby",
+      "relation": "composed_by",
+      "object": "Ryan Shore",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The music was composed by Ryan Shore"
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island Baby",
+      "relation": "shot_in",
+      "object": "Sligo",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The film was shot in Sligo, Ireland"
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island Baby",
+      "relation": "screened_at",
+      "object": "Newport International Film Festival",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "The film was screened at the Newport International Film Festival"
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island Baby",
+      "relation": "premiered_on",
+      "object": "Sundance Channel",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "The film made its premiere television broadcast on the Sundance Channel"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sligo",
+        "located_in",
+        "Ireland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Amy Hobby",
+        "won",
+        "Jury Award for 'Best First Time Director'"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Coney Island Baby (film)\nConey Island Baby is a 2003 comedy- drama in which film producer Amy Hobby made her directorial debut. Karl Geary wrote the film and Tanya Ryno was the film's producer. The music was composed by Ryan Shore. The film was shot in Sligo, Ireland, which is known locally as\" Coney Island\". The film was screened at the Newport International Film Festival. Hobby won the Jury Award for\" Best First Time Director\". The film made its premiere television broadcast on the Sundance Channel."
+}

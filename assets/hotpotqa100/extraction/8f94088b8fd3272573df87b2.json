@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Serendipity": "film",
+    "Peter Chelsom": "person",
+    "Marc Klein": "person",
+    "John Cusack": "person",
+    "Kate Beckinsale": "person",
+    "Alan Silvestri": "person"
+  },
+  "triples": [
+    {
+      "subject": "Serendipity",
+      "relation": "directed_by",
+      "object": "Peter Chelsom",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Peter Chelsom"
+        }
+      ]
+    },
+    {
+      "subject": "Serendipity",
+      "relation": "written_by",
+      "object": "Marc Klein",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Marc Klein"
+        }
+      ]
+    },
+    {
+      "subject": "Serendipity",
+      "relation": "starring",
+      "object": "John Cusack",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring John Cusack"
+        }
+      ]
+    },
+    {
+      "subject": "Serendipity",
+      "relation": "composed_by",
+      "object": "Alan Silvestri",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "music score was composed by Alan Silvestri"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Serendipity",
+        "starring",
+        "Kate Beckinsale"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Serendipity (film)\nSerendipity is a 2001 American romantic comedy film directed by Peter Chelsom, written by Marc Klein, and starring John Cusack and Kate Beckinsale. The music score was composed by Alan Silvestri."
+}

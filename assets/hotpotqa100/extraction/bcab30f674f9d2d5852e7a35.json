@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Rivington Hall": "FAC",
+    "Rivington": "GPE",
+    "Lancashire": "GPE",
+    "England": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Rivington Hall",
+      "relation": "located_in",
+      "object": "Rivington",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Rivington Hall is a Grade II* listed building in Rivington"
+        }
+      ]
+    },
+    {
+      "subject": "Rivington Hall",
+      "relation": "located_in",
+      "object": "Lancashire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Rivington Hall is a Grade II* listed building in Rivington, Lancashire"
+        }
+      ]
+    },
+    {
+      "subject": "Rivington Hall",
+      "relation": "located_in",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Rivington Hall is a Grade II* listed building in Rivington, Lancashire, England"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rivington Hall",
+        "was_manor_house_for",
+        "Lords of the Manor of Rivington"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Rivington Hall\nRivington Hall is a Grade II* listed building in Rivington, Lancashire, England. It was the manor house for the Lords of the Manor of Rivington. The hall is of various builds as successor to a 15th-century timber-framed courtyard house that was built near to the present building of which no trace remains. It is a private residence."
+}

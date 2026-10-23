@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "American Dervish": "novel",
+    "Ayad Akhtar": "author",
+    "Pakistani-American boy": "character",
+    "American Midwest": "location"
+  },
+  "triples": [
+    {
+      "subject": "American Dervish",
+      "relation": "written_by",
+      "object": "Ayad Akhtar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "American Dervish is a 2012 novel by Ayad Akhtar."
+        }
+      ]
+    },
+    {
+      "subject": "American Dervish",
+      "relation": "tells_story_of",
+      "object": "Pakistani-American boy",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The novel tells the story of a young Pakistani-American boy growing up in the American Midwest and his struggle with his identity and religion."
+        }
+      ]
+    },
+    {
+      "subject": "Pakistani-American boy",
+      "relation": "growing_up_in",
+      "object": "American Midwest",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "growing up in the American Midwest"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "American Dervish",
+        "published_in_languages",
+        "English"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "American Dervish",
+        "will_be_released_in_languages",
+        "17 more languages"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "American Dervish\nAmerican Dervish is a 2012 novel by Ayad Akhtar. The novel tells the story of a young Pakistani-American boy growing up in the American Midwest and his struggle with his identity and religion. The novel has been published in English, Italian (\"La donna che mi insegnò il respiro\"), Norwegian (\"Begynnelsen på et farvel\"), Dutch (\"De hemelverdiener\"), Danish (\"Tavshedens smerte\") and Spanish (\"El aroma secreto del limón y las especias\"). The book will be released in 17 more languages by the end of 2012."
+}

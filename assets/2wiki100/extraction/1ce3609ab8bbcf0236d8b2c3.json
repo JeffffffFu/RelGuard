@@ -1,0 +1,110 @@
+{
+  "entities": {
+    "Sancho Ramírez": "PERSON",
+    "Aragon": "GPE",
+    "Pamplona": "GPE",
+    "Ramiro I": "PERSON",
+    "Ermesinda of Bigorre": "PERSON",
+    "Sancho III of Pamplona": "PERSON",
+    "Navarrese noblemen": "NORP",
+    "Sancho IV": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Sancho Ramírez",
+      "relation": "king_of",
+      "object": "Aragon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was King of Aragon from 1063 until 1094"
+        }
+      ]
+    },
+    {
+      "subject": "Sancho Ramírez",
+      "relation": "king_of",
+      "object": "Pamplona",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "King of Pamplona from 1076"
+        }
+      ]
+    },
+    {
+      "subject": "Sancho Ramírez",
+      "relation": "eldest_son_of",
+      "object": "Ramiro I",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He was the eldest son of Ramiro I"
+        }
+      ]
+    },
+    {
+      "subject": "Ramiro I",
+      "relation": "first_king_of",
+      "object": "Aragon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "His father was the first king of Aragon"
+        }
+      ]
+    },
+    {
+      "subject": "Ramiro I",
+      "relation": "illegitimate_son_of",
+      "object": "Sancho III of Pamplona",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "an illegitimate son of Sancho III of Pamplona"
+        }
+      ]
+    },
+    {
+      "subject": "Sancho Ramírez",
+      "relation": "inherited",
+      "object": "Aragon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He inherited the Aragonese crown from his father in 1063"
+        }
+      ]
+    },
+    {
+      "subject": "Sancho Ramírez",
+      "relation": "chosen_king_by",
+      "object": "Navarrese noblemen",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was chosen king of Pamplona by Navarrese noblemen"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "eldest_son_of",
+        "Ermesinda of Bigorre"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sancho IV",
+        "murdered_by",
+        "siblings"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sancho Ramírez\nSancho Ramírez (1042 – 4 June, 1094) was King of Aragon from 1063 until 1094 and King of Pamplona from 1076 under the name of Sancho V . He was the eldest son of Ramiro I and Ermesinda of Bigorre. His father was the first king of Aragon and an illegitimate son of Sancho III of Pamplona. He inherited the Aragonese crown from his father in 1063. Sancho Ramírez was chosen king of Pamplona by Navarrese noblemen after Sancho IV was murdered by his siblings."
+}

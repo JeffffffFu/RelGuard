@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Single Video Theory": "WORK_OF_ART",
+    "Mark Pellington": "PERSON",
+    "Yield": "WORK_OF_ART",
+    "Pearl Jam": "ORG",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Single Video Theory",
+      "relation": "directed_by",
+      "object": "Mark Pellington",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 43,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Single Video Theory",
+      "relation": "follows_the_making_of",
+      "object": "Yield",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "follows the making of",
+          "line_start": 76,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "follows the making of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pearl Jam",
+      "relation": "nationality",
+      "object": "American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "American",
+          "line_start": 130,
+          "char_start": 150,
+          "ambiguous": false,
+          "relation_mention": "American",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Yield",
+        "by",
+        "Pearl Jam"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Single Video Theory\nSingle Video Theory is a music documentary directed by Mark Pellington that follows the making of \"Yield\", the fifth album by the American alternative rock band Pearl Jam. It was released first on VHS on August 4, 1998, and then on DVD on November 24, 1998."
+}

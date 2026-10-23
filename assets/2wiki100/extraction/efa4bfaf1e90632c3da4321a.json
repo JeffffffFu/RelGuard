@@ -1,0 +1,61 @@
+{
+  "entities": {
+    "Émile Chautard": "PERSON",
+    "silent era": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Émile Chautard",
+      "relation": "was_active_in",
+      "object": "silent era",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "most active in the silent era"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "France (GPE)",
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Émile Chautard",
+        "directed",
+        "107 films"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Émile Chautard",
+        "appeared_in",
+        "66 films"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Émile Chautard",
+        "was_from",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Émile Chautard",
+        "was_from",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Émile Chautard\nÉmile Chautard (7 September 1864 – 24 April 1934) was a French-American film director, actor, and screenwriter, most active in the silent era. He directed 107 films between 1910 and 1924. He also appeared in 66 films between 1911 and 1934."
+}

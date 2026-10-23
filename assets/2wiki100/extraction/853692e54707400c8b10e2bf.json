@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Par la Fenetre": "WORK_OF_ART",
+    "Bourvil": "PERSON",
+    "Saint-Maurice Studios": "FAC",
+    "Paris": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Par la Fenetre",
+      "relation": "stars",
+      "object": "Bourvil",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 44,
+          "char_start": 59,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Par la Fenetre",
+      "relation": "shot_at",
+      "object": "Saint-Maurice Studios",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "shot at",
+          "line_start": 103,
+          "char_start": 118,
+          "ambiguous": false,
+          "relation_mention": "shot at",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "France (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Par la Fenetre",
+        "released_in_country",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Saint-Maurice Studios",
+        "located_in",
+        "Paris"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Par la fenêtre\nPar la Fenetre is a 1948 French comedy film starring Bourvil. It was a sizeable box office hit. It was shot at the Saint- Maurice Studios in Paris."
+}

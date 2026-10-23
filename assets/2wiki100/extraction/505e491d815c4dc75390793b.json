@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "The Fabulous Senorita": "Film",
+    "R.G. Springsteen": "Person",
+    "Estelita Rodriguez": "Person",
+    "Robert Clarke": "Person",
+    "Nestor Paiva": "Person",
+    "Rita Moreno": "Person"
+  },
+  "triples": [
+    {
+      "subject": "The Fabulous Senorita",
+      "relation": "directed_by",
+      "object": "R.G. Springsteen",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by R.G. Springsteen"
+        }
+      ]
+    },
+    {
+      "subject": "The Fabulous Senorita",
+      "relation": "starring",
+      "object": "Estelita Rodriguez",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Estelita Rodriguez"
+        }
+      ]
+    },
+    {
+      "subject": "The Fabulous Senorita",
+      "relation": "introduced",
+      "object": "Rita Moreno",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "did introduce a new star Rita Moreno"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Fabulous Senorita",
+        "starring",
+        "Robert Clarke"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Fabulous Senorita",
+        "starring",
+        "Nestor Paiva"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Fabulous Senorita\nThe Fabulous Senorita is a 1952 American musical comedy film directed by R.G. Springsteen and starring Estelita Rodriguez, Robert Clarke and Nestor Paiva. The film came at the tail- end of a cycle of Latin American- themed films, through it did introduce a new star Rita Moreno."
+}

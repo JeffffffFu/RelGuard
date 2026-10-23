@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Firstar Corporation": "ORG",
+    "Milwaukee": "GPE",
+    "Wisconsin": "GPE",
+    "U.S. Bancorp": "ORG",
+    "United States": "GPE",
+    "Minneapolis": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Firstar Corporation",
+        "located_in",
+        "Milwaukee"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Milwaukee",
+        "located_in",
+        "Wisconsin"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Firstar Corporation",
+        "became",
+        "U.S. Bancorp"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "U.S. Bancorp",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Firstar Corporation",
+        "acquired",
+        "U.S. Bancorp"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Firstar Corporation",
+        "moved_headquarters_to",
+        "Minneapolis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Firstar Corporation\nFirstar Corporation was a Milwaukee, Wisconsin-based regional bank holding company that later became U.S. Bancorp, a nationwide bank corporation in the United States. In 2001, Firstar acquired U.S. Bancorp and assumed its name, moving its headquarters to Minneapolis.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Firstar Corporation\", \"type\": \"ORG\"},\n    {\"name\": \"Milwaukee\", \"type\": \"GPE\"},\n    {\"name\": \"Wisconsin\", \"type\": \"GPE\"},\n    {\"name\": \"U.S. Bancorp\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Minneapolis\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Firstar Corporation\",\n      \"relation\": \"located_in\",\n      \"object\": \"Milwaukee\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Milwaukee, Wisconsin-based\"}\n      ]\n    },\n    {\n      \"subject\": \"Milwaukee\",\n      \"relation\": \"located_in\",\n      \"object\": \"Wisconsin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Milwaukee, Wisconsin-based\"}\n      ]\n    },\n    {\n      \"subject\": \"Firstar Corporation\",\n      \"relation\": \"became\",\n      \"object\": \"U.S. Bancorp\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"later became\"}\n      ]\n    },\n    {\n      \"subject\": \"U.S. Bancorp\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Firstar Corporation\",\n      \"relation\": \"acquired\",\n      \"object\": \"U.S. Bancorp\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"acquired U.S. Bancorp\"}\n      ]\n    },\n    {\n      \"subject\": \"Firstar Corporation\",\n      \"relation\": \"moved_headquarters_to\",\n      \"object\": \"Minneapolis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"moving its headquarters to Minneapolis\"}\n      ]\n    }\n  ]\n}"
+}

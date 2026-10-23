@@ -1,0 +1,39 @@
+{
+  "entities": {
+    "LeAnn Rimes": "PERSON",
+    "This Woman": "WORK_OF_ART",
+    "Dean Sheremet": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "This Woman",
+      "relation": "released",
+      "object": "LeAnn Rimes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "This Woman is the seventh studio album by LeAnn Rimes released on January 25, 2005."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "married_to",
+        "Dean Sheremet"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "works_on",
+        "This Woman"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "This Woman (LeAnn Rimes album)\nThis Woman is the seventh studio album by LeAnn Rimes released on January 25, 2005. While promoting \"This Woman\", she stated that it was her return to her \"roots\", country music. In essence, the album has a strong theme of love, falling in love and marriage. This could be due to LeAnn's own marriage to her back up dancer Dean Sheremet. The album was a success on the country charts. Like \"Twisted Angel\", Rimes helped pen tracks on the album (\"You Take Me Home\", \"I Got It Bad\" and \"When This Woman Loves a Man\")."
+}

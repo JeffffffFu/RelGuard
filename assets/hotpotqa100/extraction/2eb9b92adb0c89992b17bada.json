@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Kiss": "band",
+    "Goo Hye-Joo": "person",
+    "Shin Hyun-joon": "person"
+  },
+  "triples": [
+    {
+      "subject": "Kiss",
+      "relation": "stars",
+      "object": "Goo Hye-Joo",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The music video stars actress Goo Hye-Joo"
+        }
+      ]
+    },
+    {
+      "subject": "Kiss",
+      "relation": "stars",
+      "object": "Shin Hyun-joon",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and actor Shin Hyun-joon"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kiss",
+        "released",
+        "Because I'm a Girl"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kiss (South Korean band)\nKiss (Korea International Super Star, stylized as KISS) was a South Korean female pop trio. Their debut single \"Because I'm a Girl\" () was a 2001 hit. The music video stars actress Goo Hye-Joo, and actor Shin Hyun-joon, which increased initial public interest in the song. The song remained a karaoke staple in Korea for many years."
+}

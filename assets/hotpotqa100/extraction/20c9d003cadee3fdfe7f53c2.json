@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Montana": "Location",
+    "Governor of Montana": "Position",
+    "Montana State Legislature": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Governor of Montana",
+      "relation": "convenes",
+      "object": "Montana State Legislature",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to convene the legislature at any time"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Governor of Montana",
+        "head_of",
+        "executive branch of Montana's state government"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Governor of Montana",
+        "commander_in_chief_of",
+        "state's military forces"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Governor of Montana",
+        "enforces",
+        "state laws"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Governor of Montana",
+        "approves_or_vetoes",
+        "bills passed by the Montana State Legislature"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Governor of Montana",
+        "grants",
+        "pardons and reprieves"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "List of Governors of Montana\nThe Governor of Montana is the head of the executive branch of Montana's state government and the commander-in-chief of the state's military forces. The governor has a duty to enforce state laws, the power to either approve or veto bills passed by the Montana State Legislature, to convene the legislature at any time, and to grant pardons and reprieves."
+}

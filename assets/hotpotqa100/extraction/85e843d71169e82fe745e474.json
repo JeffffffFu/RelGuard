@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Isabella II of Jerusalem": "PERSON",
+    "Yolande of Brienne": "PERSON",
+    "French": "NORP",
+    "Jerusalem": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Isabella II of Jerusalem",
+      "relation": "also_known_as",
+      "object": "Yolande of Brienne",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also known as",
+          "line_start": 32,
+          "char_start": 57,
+          "ambiguous": false,
+          "relation_mention": "also known as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Isabella II of Jerusalem",
+        "has_origin",
+        "French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Isabella II of Jerusalem",
+        "monarch_of",
+        "Jerusalem"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Isabella II of Jerusalem\nIsabella II (121225 April 1228) also known as Yolande of Brienne, was a princess of French origin who became monarch of Jerusalem.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Isabella II of Jerusalem\", \"type\": \"PERSON\"},\n    {\"name\": \"Yolande of Brienne\", \"type\": \"PERSON\"},\n    {\"name\": \"French\", \"type\": \"NORP\"},\n    {\"name\": \"Jerusalem\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Isabella II of Jerusalem\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Yolande of Brienne\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Isabella II of Jerusalem\",\n      \"relation\": \"has_origin\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of French origin\"}\n      ]\n    },\n    {\n      \"subject\": \"Isabella II of Jerusalem\",\n      \"relation\": \"monarch_of\",\n      \"object\": \"Jerusalem\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"monarch of Jerusalem\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "South of the Clouds": "WORK_OF_ART",
+    "Zhu Wen": "PERSON",
+    "Seafood": "WORK_OF_ART",
+    "Li Xuejian": "PERSON",
+    "Xu Daqin": "PERSON",
+    "Tian Zhuangzhuang": "PERSON",
+    "China Film Assist": "ORG",
+    "China": "GPE",
+    "Yunnan": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "South of the Clouds",
+      "relation": "directed_by",
+      "object": "Zhu Wen",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 63,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "South of the Clouds",
+      "relation": "produced_by",
+      "object": "China Film Assist",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 782,
+          "char_start": 814,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "South of the Clouds",
+        "stars",
+        "Li Xuejian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Li Xuejian",
+        "plays",
+        "Xu Daqin"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tian Zhuangzhuang",
+        "features_as",
+        "Tian Zhuangzhuang"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tian Zhuangzhuang",
+        "appears_as",
+        "police chief"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "China Film Assist",
+        "located_in",
+        "China"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "South of the Clouds",
+        "set_in",
+        "Yunnan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Seafood",
+        "is",
+        "underground production"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "South of the Clouds (2004 film)\nSouth of the Clouds is a 2004 Chinese film and the second film directed by the writer Zhu Wen. The film stands in stark contrast to Zhu's previous film. In terms of production,\" South of the Clouds\" received the cooperation of the state apparatus unlike 2001's\" Seafood\" which was an underground production shot on digital hand- held cameras. In terms of story, the transgressive tale of a prostitute and a policeman in\" Seafood\" is a far cry from\" South of the Cloud\"'s gentle tale of a retiree who fulfills a lifelong desire to travel to the southern province of Yunnan( literally\" South of the Clouds\"). \" South of the Clouds\" stars Li Xuejian as the protagonist, Xu Daqin, and features a cameo by director Tian Zhuangzhuang as the police chief in a small town in Yunnan. It was produced by China Film Assist, an independent production company in China;\" South of the Clouds\" was the company's first production.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"South of the Clouds\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Zhu Wen\", \"type\": \"PERSON\"},\n    {\"name\": \"Seafood\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Li Xuejian\", \"type\": \"PERSON\"},\n    {\"name\": \"Xu Daqin\", \"type\": \"PERSON\"},\n    {\"name\": \"Tian Zhuangzhuang\", \"type\": \"PERSON\"},\n    {\"name\": \"China Film Assist\", \"type\": \"ORG\"},\n    {\"name\": \"China\", \"type\": \"GPE\"},\n    {\"name\": \"Yunnan\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"South of the Clouds\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Zhu Wen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"South of the Clouds\",\n      \"relation\": \"stars\",\n      \"object\": \"Li Xuejian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Li Xuejian\",\n      \"relation\": \"plays\",\n      \"object\": \"Xu Daqin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as\"}\n      ]\n    },\n    {\n      \"subject\": \"Tian Zhuangzhuang\",\n      \"relation\": \"features_as\",\n      \"object\": \"Tian Zhuangzhuang\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"director Tian Zhuangzhuang as\"}\n      ]\n    },\n    {\n      \"subject\": \"Tian Zhuangzhuang\",\n      \"relation\": \"appears_as\",\n      \"object\": \"police chief\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as the police chief\"}\n      ]\n    },\n    {\n      \"subject\": \"South of the Clouds\",\n      \"relation\": \"produced_by\",\n      \"object\": \"China Film Assist\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"China Film Assist\",\n      \"relation\": \"located_in\",\n      \"object\": \"China\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"South of the Clouds\",\n      \"relation\": \"set_in\",\n      \"object\": \"Yunnan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Yunnan\"}\n      ]\n    },\n    {\n      \"subject\": \"Seafood\",\n      \"relation\": \"is\",\n      \"object\": \"underground production\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an underground production\"}\n      ]\n    }\n  ]\n}"
+}

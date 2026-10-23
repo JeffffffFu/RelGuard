@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "The Ones": "ORG",
+    "Paul Alexander": "PERSON",
+    "JoJo Americo": "PERSON",
+    "Nashom Wooden": "PERSON",
+    "Patricia Field": "ORG",
+    "Greenwich Village": "LOC",
+    "United Kingdom": "GPE",
+    "Flawless": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "The Ones",
+      "relation": "is_best_known_for",
+      "object": "Flawless",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for their 2001 hit single \"Flawless\""
+        }
+      ]
+    },
+    {
+      "subject": "Flawless",
+      "relation": "achieved_success_in",
+      "object": "United Kingdom",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which achieved transatlantic success when it peaked at number seven on the UK Singles Chart in the United Kingdom"
+        }
+      ]
+    },
+    {
+      "subject": "The Ones",
+      "relation": "consists_of",
+      "object": "Paul Alexander",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The trio consists of three male vocalists Paul Alexander"
+        }
+      ]
+    },
+    {
+      "subject": "Paul Alexander",
+      "relation": "met_at",
+      "object": "Patricia Field",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "who met while working at the Greenwich Village boutique Patricia Field"
+        }
+      ]
+    },
+    {
+      "subject": "JoJo Americo",
+      "relation": "met_at",
+      "object": "Patricia Field",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "who met while working at the Greenwich Village boutique Patricia Field"
+        }
+      ]
+    },
+    {
+      "subject": "Nashom Wooden",
+      "relation": "met_at",
+      "object": "Patricia Field",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "who met while working at the Greenwich Village boutique Patricia Field"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Ones",
+        "consists_of",
+        "JoJo Americo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Ones",
+        "consists_of",
+        "Nashom Wooden"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Ones\nThe Ones are an American electronic dance music band, best known for their 2001 hit single \"Flawless\", which achieved transatlantic success when it peaked at number seven on the UK Singles Chart in the United Kingdom. The trio consists of three male vocalists Paul Alexander, JoJo Americo, and Nashom Wooden, who met while working at the Greenwich Village boutique Patricia Field. Each of them has a background in performing, DJing, and being stylists within the underground New York club and fashion scenes."
+}

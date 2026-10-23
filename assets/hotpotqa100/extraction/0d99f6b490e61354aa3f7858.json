@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Arabized Berber": "ethnic_group",
+    "Maghreb region": "geographical_region",
+    "Arabic": "language",
+    "Berber": "ethnic_group"
+  },
+  "triples": [
+    {
+      "subject": "Arabized Berber",
+      "relation": "located_in",
+      "object": "Maghreb region",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "inhabitant of the Maghreb region"
+        }
+      ]
+    },
+    {
+      "subject": "Arabized Berber",
+      "relation": "speaks",
+      "object": "Arabic",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "whose native language is a local dialect of Arabic"
+        }
+      ]
+    },
+    {
+      "subject": "Arabized Berber",
+      "relation": "originates_from",
+      "object": "Berber",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "whose origins are mainly Berber"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Arabized Berber",
+        "denotes",
+        "inhabitant"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Arabized Berber\nArabized Berber denotes an inhabitant of the Maghreb region in northwestern Africa, whose native language is a local dialect of Arabic and whose origins are mainly Berber."
+}

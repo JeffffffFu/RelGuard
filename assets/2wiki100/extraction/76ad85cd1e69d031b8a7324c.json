@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Henry Walter Moore": "PERSON",
+    "New Zealand": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "England (GPE)",
+        "first-class cricket (EVENT)"
+      ]
+    },
+    {
+      "triple": [
+        "Henry Walter Moore",
+        "born_in",
+        "England"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Henry Walter Moore",
+        "worked_as",
+        "first-class cricket"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Henry Walter Moore",
+        "spent_most_of_life_in",
+        "New Zealand"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Henry Moore (cricketer)\nHenry Walter Moore( 1849 – 20 August 1916) was an English- born first- class cricketer who spent most of his life in New Zealand.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Henry Walter Moore\", \"type\": \"PERSON\"},\n    {\"name\": \"England\", \"type\": \"GPE\"},\n    {\"name\": \"New Zealand\", \"type\": \"GPE\"},\n    {\"name\": \"first-class cricket\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Henry Walter Moore\",\n      \"relation\": \"born_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"English- born\"}\n      ]\n    },\n    {\n      \"subject\": \"Henry Walter Moore\",\n      \"relation\": \"worked_as\",\n      \"object\": \"first-class cricket\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"first- class cricketer\"}\n      ]\n    },\n    {\n      \"subject\": \"Henry Walter Moore\",\n      \"relation\": \"spent_most_of_life_in\",\n      \"object\": \"New Zealand\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"spent most of his life in New Zealand\"}\n      ]\n    }\n  ]\n}"
+}

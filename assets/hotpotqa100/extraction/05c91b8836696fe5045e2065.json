@@ -1,0 +1,144 @@
+{
+  "entities": {
+    "Taglierini": "PRODUCT",
+    "Tagliolini": "PRODUCT",
+    "Spaghetti": "PRODUCT",
+    "tagliatelle": "PRODUCT",
+    "Capellini": "PRODUCT",
+    "Molise": "GPE",
+    "Piedmont": "GPE",
+    "Italy": "GPE",
+    "Tajarin": "PRODUCT",
+    "semolina": "PRODUCT",
+    "butter": "PRODUCT",
+    "truffles": "PRODUCT",
+    "meat roast sauce": "PRODUCT",
+    "pasta all'uovo": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Tajarin",
+      "relation": "made_of",
+      "object": "pasta all'uovo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made of",
+          "line_start": 277,
+          "char_start": 288,
+          "ambiguous": false,
+          "relation_mention": "made of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Taglierini",
+        "also_known_as",
+        "Tagliolini"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "is_a",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "similar_to",
+        "Spaghetti"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "similar_to",
+        "tagliatelle"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "thin_like",
+        "Capellini"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "traditional_recipe_in",
+        "Molise"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "traditional_recipe_in",
+        "Piedmont"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Piedmont",
+        "located_in",
+        "Italy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "called",
+        "Tajarin"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "contains",
+        "semolina"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "served_with",
+        "butter"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "served_with",
+        "truffles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "served_with",
+        "meat roast sauce"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Taglierini\nTaglierini ] (or Tagliolini) is a type of ribbon pasta, long like Spaghetti, two to three mm or roughly a tenth of an inch wide, similar to tagliatelle, but thin like Capellini. It is a traditional recipe in regions Molise and Piedmont of Italy, in Piedmont called Tajarin and made of egg dough (\"pasta all'uovo\"). The dough also contains semolina, flavor and salt. It is typically served with butter and truffles (\"tajarin ai tartufi\") or meat roast sauce. Taglierini finish in short cooking time, exceedingly on fresh doug and fit best to light sauces, fish, delicacies or soups.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Taglierini\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Tagliolini\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Spaghetti\", \"type\": \"PRODUCT\"},\n    {\"name\": \"tagliatelle\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Capellini\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Molise\", \"type\": \"GPE\"},\n    {\"name\": \"Piedmont\", \"type\": \"GPE\"},\n    {\"name\": \"Italy\", \"type\": \"GPE\"},\n    {\"name\": \"Tajarin\", \"type\": \"PRODUCT\"},\n    {\"name\": \"semolina\", \"type\": \"PRODUCT\"},\n    {\"name\": \"butter\", \"type\": \"PRODUCT\"},\n    {\"name\": \"truffles\", \"type\": \"PRODUCT\"},\n    {\"name\": \"meat roast sauce\", \"type\": \"PRODUCT\"},\n    {\"name\": \"pasta all'uovo\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Tagliolini\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"] (or Tagliolini) is a type of\"}\n      ]\n    },\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"is_a\",\n      \"object\": \"PRODUCT\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a type of\"}\n      ]\n    },\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"similar_to\",\n      \"object\": \"Spaghetti\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"long like\"}\n      ]\n    },\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"similar_to\",\n      \"object\": \"tagliatelle\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"similar to\"}\n      ]\n    },\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"thin_like\",\n      \"object\": \"Capellini\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"but thin like\"}\n      ]\n    },\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"traditional_recipe_in\",\n      \"object\": \"Molise\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"traditional recipe in regions Molise\"}\n      ]\n    },\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"traditional_recipe_in\",\n      \"object\": \"Piedmont\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"traditional recipe in regions Molise and Piedmont\"}\n      ]\n    },\n    {\n      \"subject\": \"Piedmont\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Italy\"}\n      ]\n    },\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"called\",\n      \"object\": \"Tajarin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"called Tajarin\"}\n      ]\n    },\n    {\n      \"subject\": \"Tajarin\",\n      \"relation\": \"made_of\",\n      \"object\": \"pasta all'uovo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made of\"}\n      ]\n    },\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"contains\",\n      \"object\": \"semolina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"contains semolina\"}\n      ]\n    },\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"served_with\",\n      \"object\": \"butter\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served with butter\"}\n      ]\n    },\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"served_with\",\n      \"object\": \"truffles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"butter and truffles\"}\n      ]\n    },\n    {\n      \"subject\": \"Taglierini\",\n      \"relation\": \"served_with\",\n      \"object\": \"meat roast sauce\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"or meat roast sauce\"}\n      ]\n    }\n  ]\n}"
+}

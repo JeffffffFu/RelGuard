@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Who's Your Daddy? (film)": "WORK_OF_ART",
+    "Andy Fickman": "PERSON",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Who's Your Daddy? (film)",
+      "relation": "directed_by",
+      "object": "Andy Fickman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed( and co-scripted) by",
+          "line_start": 49,
+          "char_start": 74,
+          "ambiguous": false,
+          "relation_mention": "directed( and co-scripted) by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Who's Your Daddy? (film)",
+        "located_in",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Who's Your Daddy? (film)\nWho's Your Daddy? is a 2002 American comedy film directed( and co-scripted) by Andy Fickman.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Who's Your Daddy? (film)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Andy Fickman\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Who's Your Daddy? (film)\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Andy Fickman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed( and co-scripted) by\"}\n      ]\n    },\n    {\n      \"subject\": \"Who's Your Daddy? (film)\",\n      \"relation\": \"located_in\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    }\n  ]\n}"
+}

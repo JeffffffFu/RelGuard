@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Harold Becker": "Person",
+    "New York": "Location",
+    "New Hollywood movement": "Cultural Movement",
+    "thriller genre": "Genre",
+    "The Onion Field": "Film",
+    "Taps": "Film",
+    "The Boost": "Film",
+    "Sea of Love": "Film",
+    "Malice": "Film",
+    "City Hall": "Film",
+    "Mercury Rising": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Harold Becker",
+      "relation": "associated_with",
+      "object": "New Hollywood movement",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "associated with the New Hollywood movement"
+        }
+      ]
+    },
+    {
+      "subject": "Harold Becker",
+      "relation": "best_known_for",
+      "object": "thriller genre",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his work in the thriller genre"
+        }
+      ]
+    },
+    {
+      "subject": "Harold Becker",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from New York"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Harold Becker",
+        "born_on",
+        "September 25, 1928"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "directed",
+        "The Onion Field"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "directed",
+        "Taps"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "directed",
+        "The Boost"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "directed",
+        "Sea of Love"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "directed",
+        "Malice"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "directed",
+        "City Hall"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "directed",
+        "Mercury Rising"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Harold Becker\nHarold Becker( born September 25, 1928) is an American film and television director, producer, and photographer from New York, associated with the New Hollywood movement and best known for his work in the thriller genre. His body of work includes films like\" The Onion FieldTaps The BoostSea of LoveMaliceCity Hall\" and\" Mercury Rising\"."
+}

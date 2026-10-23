@@ -1,0 +1,123 @@
+{
+  "entities": {
+    "Sukhdev Singh Sukha": "Person",
+    "Khalistan Commando Force": "Organization",
+    "Arun Vaidya": "Person",
+    "Indian army": "Organization",
+    "Operation Blue Star": "Event",
+    "Arjan Dass": "Person",
+    "Lalit Maken": "Person",
+    "Gen. Vaidya": "Person",
+    "General Labh Singh": "Person",
+    "Miller Gunj branch": "Location",
+    "Punjab National Bank": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Sukhdev Singh Sukha",
+      "relation": "member_of",
+      "object": "Khalistan Commando Force",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a member of the Khalistan Commando Force"
+        }
+      ]
+    },
+    {
+      "subject": "Sukhdev Singh Sukha",
+      "relation": "assassin_of",
+      "object": "Arun Vaidya",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one of the assassins of Arun Vaidya"
+        }
+      ]
+    },
+    {
+      "subject": "Arun Vaidya",
+      "relation": "chief_of",
+      "object": "Indian army",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Chief of Indian army"
+        }
+      ]
+    },
+    {
+      "subject": "Sukhdev Singh Sukha",
+      "relation": "architect_of",
+      "object": "Operation Blue Star",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also the architect of Operation Blue Star"
+        }
+      ]
+    },
+    {
+      "subject": "Sukhdev Singh Sukha",
+      "relation": "responsible_for",
+      "object": "Arjan Dass",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "responsible for three high-profile killings; Arjan Dass"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sukhdev Singh Sukha",
+        "responsible_for",
+        "Lalit Maken"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sukhdev Singh Sukha",
+        "responsible_for",
+        "Gen. Vaidya"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sukhdev Singh Sukha",
+        "involved_in",
+        "bank robbery"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Khalistan Commando Force",
+        "involved_in",
+        "bank robbery"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Miller Gunj branch",
+        "located_in",
+        "Ludhiana"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "bank robbery",
+        "conducted_at",
+        "Punjab National Bank"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sukhdev Singh Sukha\nSukhdev Singh Sukha was a member of the Khalistan Commando Force and one of the assassins of Arun Vaidya, the Chief of Indian army at the time of Operation Blue Star and also the architect of Operation Blue Star. He was responsible for three high-profile killings; Arjan Dass, Lalit Maken and Gen. Vaidya. He along with other members of Khalistan Commando Force (including its chief General Labh Singh) was involved in the bank robbery in Miller Gunj branch (in Ludhiana) of the Punjab National Bank in which more than Rs 57.0 million were looted."
+}

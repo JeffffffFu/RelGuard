@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "WingStreet": "restaurant_chain",
+    "Yum! Brands": "company",
+    "Pizza Hut": "restaurant_chain"
+  },
+  "triples": [
+    {
+      "subject": "WingStreet",
+      "relation": "owned_by",
+      "object": "Yum! Brands",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "is owned by Yum! Brands"
+        }
+      ]
+    },
+    {
+      "subject": "Yum! Brands",
+      "relation": "owns",
+      "object": "Pizza Hut",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "which also owns its sister franchise Pizza Hut"
+        }
+      ]
+    },
+    {
+      "subject": "WingStreet",
+      "relation": "co_located_with",
+      "object": "Pizza Hut",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "They are almost always co-located with Pizza Hut"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "WingStreet",
+        "specializes_in",
+        "chicken"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "WingStreet\nWingStreet is a restaurant chain specializing in chicken. The restaurant chain is owned by Yum! Brands, which also owns its sister franchise Pizza Hut. As of September 2008, there were close to 1,600 locations in the U.S., Canada, and Australia. They are almost always co-located with Pizza Hut."
+}

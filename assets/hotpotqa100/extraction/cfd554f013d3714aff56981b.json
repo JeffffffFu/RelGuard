@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "2016 Blancpain GT Series": "EVENT",
+    "Blancpain GT Series": "EVENT",
+    "Misano": "LOC",
+    "Barcelona": "GPE",
+    "Endurance Cup": "EVENT",
+    "Sprint Cup": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "2016 Blancpain GT Series",
+      "relation": "started_in",
+      "object": "Misano",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "started on 10 April in",
+          "line_start": 89,
+          "char_start": 114,
+          "ambiguous": false,
+          "relation_mention": "started on 10 April in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "2016 Blancpain GT Series",
+      "relation": "ended_in",
+      "object": "Barcelona",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "ended on 2 October in",
+          "line_start": 123,
+          "char_start": 148,
+          "ambiguous": false,
+          "relation_mention": "ended on 2 October in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "2016 Blancpain GT Series",
+        "is_season_of",
+        "Blancpain GT Series"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "2016 Blancpain GT Series",
+        "featured",
+        "Endurance Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "2016 Blancpain GT Series",
+        "featured",
+        "Sprint Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "2016 Blancpain GT Series\nThe 2016 Blancpain GT Series was the third season of the Blancpain GT Series. The season started on 10 April in Misano and ended on 2 October in Barcelona. The season featured ten rounds, five Endurance Cup rounds and five Sprint Cup rounds.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"2016 Blancpain GT Series\", \"type\": \"EVENT\"},\n    {\"name\": \"Blancpain GT Series\", \"type\": \"EVENT\"},\n    {\"name\": \"Misano\", \"type\": \"LOC\"},\n    {\"name\": \"Barcelona\", \"type\": \"GPE\"},\n    {\"name\": \"Endurance Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"Sprint Cup\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"2016 Blancpain GT Series\",\n      \"relation\": \"is_season_of\",\n      \"object\": \"Blancpain GT Series\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the third season of\"}\n      ]\n    },\n    {\n      \"subject\": \"2016 Blancpain GT Series\",\n      \"relation\": \"started_in\",\n      \"object\": \"Misano\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"started on 10 April in\"}\n      ]\n    },\n    {\n      \"subject\": \"2016 Blancpain GT Series\",\n      \"relation\": \"ended_in\",\n      \"object\": \"Barcelona\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"ended on 2 October in\"}\n      ]\n    },\n    {\n      \"subject\": \"2016 Blancpain GT Series\",\n      \"relation\": \"featured\",\n      \"object\": \"Endurance Cup\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"featured ten rounds, five Endurance Cup rounds and five Sprint Cup rounds\"}\n      ]\n    },\n    {\n      \"subject\": \"2016 Blancpain GT Series\",\n      \"relation\": \"featured\",\n      \"object\": \"Sprint Cup\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"featured ten rounds, five Endurance Cup rounds and five Sprint Cup rounds\"}\n      ]\n    }\n  ]\n}"
+}

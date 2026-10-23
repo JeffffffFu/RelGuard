@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Ubuhake": "social_order",
+    "Rwanda": "country",
+    "Burundi": "country",
+    "European feudalism": "social_order",
+    "uburetwa": "social_order",
+    "Tutsi monarchy": "monarchy",
+    "igikingi": "system",
+    "Hutu land owners": "group"
+  },
+  "triples": [
+    {
+      "subject": "Ubuhake",
+      "relation": "compared_to",
+      "object": "European feudalism",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It has been frequently compared to European feudalism."
+        }
+      ]
+    },
+    {
+      "subject": "Ubuhake",
+      "relation": "located_in",
+      "object": "Rwanda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the social order in Rwanda"
+        }
+      ]
+    },
+    {
+      "subject": "Hutu land owners",
+      "relation": "refused_to_submit",
+      "object": "igikingi",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "where Hutu land owners refused to submit"
+        }
+      ]
+    },
+    {
+      "subject": "igikingi",
+      "relation": "part_of",
+      "object": "Rwanda",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "were not part of igikingi"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ubuhake",
+        "located_in",
+        "Burundi"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "uburetwa",
+        "affected",
+        "population"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tutsi monarchy",
+        "used",
+        "uburetwa"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tutsi monarchy",
+        "centralised_control_of",
+        "lands"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ubuhake\nUbuhake is the name given to the social order in Rwanda and Burundi from approximately the 15th century to 1958. It has been frequently compared to European feudalism. Based on cattle distribution, it was, however, a much smaller system than the one of \"uburetwa,\" which affected a much larger segment of the population and was based on land distribution. The Tutsi monarchy used the land distribution system of \"uburetwa\" to centralise control of the lands in most of Rwanda in a system called igikingi. Only the northwest of Rwanda, where Hutu land owners refused to submit, were not part of igikingi."
+}

@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Terry Halvorsen": "Person",
+    "US Department of Defense": "Organization",
+    "Department of the Navy": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Terry Halvorsen",
+      "relation": "served_as",
+      "object": "US Department of Defense",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "former Chief Information Officer at the US Department of Defense"
+        }
+      ]
+    },
+    {
+      "subject": "Terry Halvorsen",
+      "relation": "served_as",
+      "object": "Department of the Navy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Department of the Navy Chief Information Officer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Terry Halvorsen",
+        "served_as",
+        "Acting Department of Defense Chief Information Officer"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Terry Halvorsen\nTerry Halvorsen is a retired American military officer who is a former Chief Information Officer at the US Department of Defense. He previously served as the Acting Department of Defense Chief Information Officer and the Department of the Navy Chief Information Officer."
+}

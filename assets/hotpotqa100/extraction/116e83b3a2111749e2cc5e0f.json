@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "2016 Blancpain GT Sports Club": "EVENT",
+    "SRO Group": "ORG",
+    "Blancpain GT Sports Club": "ORG",
+    "Bronze": "NORP",
+    "Iron": "NORP",
+    "GT3-spec cars": "PRODUCT",
+    "RACB G3 cars": "PRODUCT",
+    "GTE-spec cars": "PRODUCT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "2016 Blancpain GT Sports Club",
+        "was_season_of",
+        "Blancpain GT Sports Club"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "2016 Blancpain GT Sports Club",
+        "was_season_of",
+        "SRO Group"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Blancpain GT Sports Club",
+        "is_a",
+        "auto racing series"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Blancpain GT Sports Club",
+        "is_a_championship_for",
+        "Bronze"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Blancpain GT Sports Club",
+        "is_a_championship_for",
+        "Iron"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Iron",
+        "is_within",
+        "Bronze"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Iron",
+        "is_for_drivers_over_age_60",
+        "Iron"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "All drivers",
+        "must_participate_with",
+        "GT3-spec cars"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "All drivers",
+        "must_participate_with",
+        "RACB G3 cars"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "All drivers",
+        "must_participate_with",
+        "GTE-spec cars"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "2016 Blancpain GT Sports Club\nThe 2016 Blancpain GT Sports Club was the second season of the SRO Group's Blancpain GT Sports Club, an auto racing series for grand tourer cars. The Blancpain GT Sports Club is a championship for Bronze and Iron drivers only. The \"Iron\" categorisation is within the Bronze category, for drivers over the age of 60. All drivers must participate with GT3-spec cars, RACB G3 cars or GTE-spec cars.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"2016 Blancpain GT Sports Club\", \"type\": \"EVENT\"},\n    {\"name\": \"SRO Group\", \"type\": \"ORG\"},\n    {\"name\": \"Blancpain GT Sports Club\", \"type\": \"ORG\"},\n    {\"name\": \"Bronze\", \"type\": \"NORP\"},\n    {\"name\": \"Iron\", \"type\": \"NORP\"},\n    {\"name\": \"GT3-spec cars\", \"type\": \"PRODUCT\"},\n    {\"name\": \"RACB G3 cars\", \"type\": \"PRODUCT\"},\n    {\"name\": \"GTE-spec cars\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"2016 Blancpain GT Sports Club\",\n      \"relation\": \"was_season_of\",\n      \"object\": \"Blancpain GT Sports Club\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the second season of the SRO Group's Blancpain GT Sports Club\"}\n      ]\n    },\n    {\n      \"subject\": \"2016 Blancpain GT Sports Club\",\n      \"relation\": \"was_season_of\",\n      \"object\": \"SRO Group\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the second season of the SRO Group's Blancpain GT Sports Club\"}\n      ]\n    },\n    {\n      \"subject\": \"Blancpain GT Sports Club\",\n      \"relation\": \"is_a\",\n      \"object\": \"auto racing series\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"an auto racing series\"}\n      ]\n    },\n    {\n      \"subject\": \"Blancpain GT Sports Club\",\n      \"relation\": \"is_a_championship_for\",\n      \"object\": \"Bronze\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a championship for Bronze and Iron drivers\"}\n      ]\n    },\n    {\n      \"subject\": \"Blancpain GT Sports Club\",\n      \"relation\": \"is_a_championship_for\",\n      \"object\": \"Iron\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a championship for Bronze and Iron drivers\"}\n      ]\n    },\n    {\n      \"subject\": \"Iron\",\n      \"relation\": \"is_within\",\n      \"object\": \"Bronze\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"is within the Bronze category\"}\n      ]\n    },\n    {\n      \"subject\": \"Iron\",\n      \"relation\": \"is_for_drivers_over_age_60\",\n      \"object\": \"Iron\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"for drivers over the age of 60\"}\n      ]\n    },\n    {\n      \"subject\": \"All drivers\",\n      \"relation\": \"must_participate_with\",\n      \"object\": \"GT3-spec cars\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"must participate with GT3-spec cars\"}\n      ]\n    },\n    {\n      \"subject\": \"All drivers\",\n      \"relation\": \"must_participate_with\",\n      \"object\": \"RACB G3 cars\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"must participate with GT3-spec cars, RACB G3 cars or GTE-spec cars\"}\n      ]\n    },\n    {\n      \"subject\": \"All drivers\",\n      \"relation\": \"must_participate_with\",\n      \"object\": \"GTE-spec cars\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"must participate with GT3-spec cars, RACB G3 cars or GTE-spec cars\"}\n      ]\n    }\n  ]\n}"
+}

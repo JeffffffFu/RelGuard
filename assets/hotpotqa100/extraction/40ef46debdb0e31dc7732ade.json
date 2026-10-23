@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "John John Florence": "PERSON",
+    "American": "NORP",
+    "2016 World Surf League Men's Champion": "WORK_OF_ART",
+    "Andy Irons": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "John John Florence",
+      "relation": "is_a",
+      "object": "American",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an American professional surfer"
+        }
+      ]
+    },
+    {
+      "subject": "John John Florence",
+      "relation": "won",
+      "object": "2016 World Surf League Men's Champion",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "has most recently won the title of 2016 World Surf League Men's Champion"
+        }
+      ]
+    },
+    {
+      "subject": "John John Florence",
+      "relation": "is_first_hawaiian_champion_since",
+      "object": "Andy Irons",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "He is the first Hawaiian champion since 3 times world champion Andy Irons"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Hawaii (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "John John Florence",
+        "born_on",
+        "18 October 1992"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John John Florence",
+        "is_best_surfer_in",
+        "the world"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John John Florence\nJohn \"John\" Alexander Florence (born 18 October 1992) is an American professional surfer. He is known as \"one of the most dominant Pipe surfers of his era\" and has most recently won the title of 2016 World Surf League Men's Champion, thus naming him the best surfer in the world. He is the first Hawaiian champion since 3 times world champion Andy Irons."
+}

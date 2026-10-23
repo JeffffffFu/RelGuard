@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "Bokhtar District": "Location",
+    "Khatlon Province": "Location",
+    "Tajikistan": "Location",
+    "Qurghonteppa": "Location",
+    "Ismoil Somoni": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Bokhtar District",
+      "relation": "located_in",
+      "object": "Khatlon Province",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bokhtar District (Tajik: Ноҳияи Бохтар ) is a district in Khatlon Province"
+        }
+      ]
+    },
+    {
+      "subject": "Bokhtar District",
+      "relation": "surrounds",
+      "object": "Qurghonteppa",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "surrounding the provincial capital Qurghonteppa"
+        }
+      ]
+    },
+    {
+      "subject": "Bokhtar District",
+      "relation": "has_administrative_capital",
+      "object": "Ismoil Somoni",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Its administrative capital is the village of Ismoil Somoni"
+        }
+      ]
+    },
+    {
+      "subject": "Khatlon Province",
+      "relation": "located_in",
+      "object": "Tajikistan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Khatlon Province, Tajikistan"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ismoil Somoni",
+        "has_population",
+        "8000"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bokhtar District",
+        "has_population",
+        "209100"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bokhtar District\nBokhtar District (Tajik: Ноҳияи Бохтар ) is a district in Khatlon Province, Tajikistan, surrounding the provincial capital Qurghonteppa. Its administrative capital is the village of Ismoil Somoni (pop. 8,000). The population in Bokhtar district is 209,100 (1 January 2008 estimate)."
+}

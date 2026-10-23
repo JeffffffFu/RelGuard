@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Oscar Peterson": "Person",
+    "Itzhak Perlman": "Person",
+    "Side by Side": "Album"
+  },
+  "triples": [
+    {
+      "subject": "Side by Side",
+      "relation": "released_by",
+      "object": "Oscar Peterson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by pianist Oscar Peterson"
+        }
+      ]
+    },
+    {
+      "subject": "Side by Side",
+      "relation": "released_by",
+      "object": "Itzhak Perlman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and violinist Itzhak Perlman"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Side by Side",
+        "released_in",
+        "1994"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Side by Side (Oscar Peterson and Itzhak Perlman album)\nSide by Side is a 1994 studio album by pianist Oscar Peterson and violinist Itzhak Perlman."
+}

@@ -1,0 +1,130 @@
+{
+  "entities": {
+    "They Only Kill Their Masters": "WORK_OF_ART",
+    "James Goldstone": "PERSON",
+    "Lane Slate": "PERSON",
+    "James Garner": "PERSON",
+    "Katharine Ross": "PERSON",
+    "Hal Holbrook": "PERSON",
+    "June Allyson": "PERSON",
+    "Tom Ewell": "PERSON",
+    "Peter Lawford": "PERSON",
+    "Edmond O'Brien": "PERSON",
+    "Arthur O'Connell": "PERSON",
+    "Doberman dogs": "PRODUCT",
+    "local police chief": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "They Only Kill Their Masters",
+      "relation": "directed_by",
+      "object": "James Goldstone",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by James Goldstone"
+        }
+      ]
+    },
+    {
+      "subject": "They Only Kill Their Masters",
+      "relation": "written_by",
+      "object": "Lane Slate",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Lane Slate"
+        }
+      ]
+    },
+    {
+      "subject": "They Only Kill Their Masters",
+      "relation": "starring",
+      "object": "James Garner",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring James Garner"
+        }
+      ]
+    },
+    {
+      "subject": "They Only Kill Their Masters",
+      "relation": "featuring",
+      "object": "Hal Holbrook",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "featuring Hal Holbrook"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "They Only Kill Their Masters",
+        "starring",
+        "Katharine Ross"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "They Only Kill Their Masters",
+        "featuring",
+        "June Allyson"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "They Only Kill Their Masters",
+        "featuring",
+        "Tom Ewell"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "They Only Kill Their Masters",
+        "featuring",
+        "Peter Lawford"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "They Only Kill Their Masters",
+        "featuring",
+        "Edmond O'Brien"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "They Only Kill Their Masters",
+        "featuring",
+        "Arthur O'Connell"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Doberman dogs",
+        "responsible_for",
+        "woman's murder"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "local police chief",
+        "investigating",
+        "woman's murder"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "They Only Kill Their Masters\nThey Only Kill Their Masters is a 1972 American mystery film directed by James Goldstone, written by Lane Slate, and starring James Garner and Katharine Ross, with a supporting cast featuring Hal Holbrook, June Allyson, Tom Ewell, Peter Lawford, Edmond O'Brien, and Arthur O'Connell. The title refers to Doberman dogs that might have been responsible for a woman's murder currently under investigation by the local police chief (Garner)."
+}

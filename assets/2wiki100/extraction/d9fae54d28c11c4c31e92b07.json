@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Ali Khalifa Rahuma": "Person",
+    "Libya": "Location",
+    "Al-Ittihad": "Organization",
+    "Libya national football team": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Ali Khalifa Rahuma",
+      "relation": "nationality",
+      "object": "Libya",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who's nationality is Libyan"
+        }
+      ]
+    },
+    {
+      "subject": "Ali Khalifa Rahuma",
+      "relation": "plays_for",
+      "object": "Al-Ittihad",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He currently plays for Al- Ittihad"
+        }
+      ]
+    },
+    {
+      "subject": "Ali Khalifa Rahuma",
+      "relation": "member_of",
+      "object": "Libya national football team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a member of the Libya national football team"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ali Khalifa Rahuma",
+        "born_on",
+        "May 16, 1982"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ali Rahuma\nAli Khalifa Rahuma( born May 16, 1982) is a Libyan football midfielder who's nationality is Libyan. He currently plays for Al- Ittihad, and is a member of the Libya national football team."
+}

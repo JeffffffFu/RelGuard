@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Halifax County High School": "FAC",
+    "South Boston": "GPE",
+    "Virginia": "GPE",
+    "United States": "GPE",
+    "Halifax County Middle School": "FAC",
+    "Halifax County Public Schools": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Halifax County High School",
+      "relation": "located_in",
+      "object": "South Boston",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in South Boston"
+        }
+      ]
+    },
+    {
+      "subject": "Halifax County High School",
+      "relation": "has_facility",
+      "object": "Halifax County Middle School",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "less than 2 mi from Halifax County Middle School"
+        }
+      ]
+    },
+    {
+      "subject": "Halifax County High School",
+      "relation": "part_of",
+      "object": "Halifax County Public Schools",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "the only high school in the Halifax County Public Schools"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Halifax County High School",
+        "located_in",
+        "Virginia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Halifax County High School",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Halifax County High School\nHalifax County High School is a public high school located in South Boston, Virginia, United States. It is located less than 2 mi from Halifax County Middle School. Having 1,793 students currently enrolled in the 2012–13 school year, there are 118 faculty members with a 15.1 student/teacher ratio. At Halifax County High, students have the opportunity to take Advanced Placement course work and testing. Halifax county high school is equipped with two football fields, one soccer field, one field for baseball, and a basketball arena. Halifax County high school currently runs on the semester system. The student body makeup is 49 percent male and 51 percent female, and the total minority enrollment is 51 percent. Halifax County High is the only high school in the Halifax County Public Schools. Halifax County High School has an 82.2 percent on-time graduation rate and a 2.1 percent drop out rate."
+}

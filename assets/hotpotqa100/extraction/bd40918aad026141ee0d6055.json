@@ -1,0 +1,121 @@
+{
+  "entities": {
+    "Toppers Pizza": "ORG",
+    "United States": "GPE",
+    "Scott Gittrich": "PERSON",
+    "Champaign": "GPE",
+    "Illinois": "GPE",
+    "Wisconsin": "GPE",
+    "Whitewater": "GPE",
+    "Eau Claire": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Toppers Pizza",
+      "relation": "founded",
+      "object": "Scott Gittrich",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded by",
+          "line_start": 70,
+          "char_start": 106,
+          "ambiguous": false,
+          "relation_mention": "was founded by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Toppers Pizza",
+      "relation": "located_in",
+      "object": "Whitewater",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Whitewater",
+          "line_start": 236,
+          "char_start": 272,
+          "ambiguous": false,
+          "relation_mention": "in Whitewater",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Toppers Pizza",
+      "relation": "headquartered_in",
+      "object": "Whitewater",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is headquartered in",
+          "line_start": 271,
+          "char_start": 307,
+          "ambiguous": false,
+          "relation_mention": "is headquartered in",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Whitewater",
+      "relation": "located_in",
+      "object": "Wisconsin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Whitewater, Wisconsin",
+          "line_start": 288,
+          "char_start": 324,
+          "ambiguous": false,
+          "relation_mention": "in Whitewater, Wisconsin",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Eau Claire",
+      "relation": "located_in",
+      "object": "Wisconsin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Eau Claire, WI",
+          "line_start": 356,
+          "char_start": 392,
+          "ambiguous": false,
+          "relation_mention": "in Eau Claire, WI",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Toppers Pizza",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toppers Pizza",
+        "founded",
+        "Champaign"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Champaign",
+        "located_in",
+        "Illinois"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Toppers Pizza (American restaurant)\nToppers Pizza is a chain of pizzerias in the United States. The chain was founded by Scott Gittrich in 1991 in Champaign, Illinois, but the original location closed in the mid-1990s. The first Toppers Pizza location in Wisconsin opened in Whitewater in 1993. The company is headquartered in Whitewater, Wisconsin. The first official franchise store opened in Eau Claire, WI in 1997."
+}

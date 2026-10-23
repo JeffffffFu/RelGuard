@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "Ferrari N.V.": "ORG",
+    "Maranello": "GPE",
+    "Enzo Ferrari": "PERSON",
+    "Alfa Romeo": "ORG",
+    "Auto Avio Costruzioni": "ORG",
+    "Ferrari": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Ferrari N.V.",
+      "relation": "located_in",
+      "object": "Maranello",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 56,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Enzo Ferrari",
+      "relation": "founded",
+      "object": "Ferrari N.V.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Founded by",
+          "line_start": 76,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "Founded by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Auto Avio Costruzioni",
+      "relation": "founded",
+      "object": "Ferrari N.V.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Founded by",
+          "line_start": 76,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "Founded by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Alfa Romeo",
+      "relation": "works_for",
+      "object": "Ferrari N.V.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "out of",
+          "line_start": 108,
+          "char_start": 116,
+          "ambiguous": false,
+          "relation_mention": "out of",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Ferrari N.V.",
+        "located_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ferrari N.V.",
+        "founded",
+        "Auto Avio Costruzioni"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ferrari",
+        "founded",
+        "Enzo Ferrari"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Ferrari\nFerrari N.V. (] ) is an Italian sports car manufacturer based in Maranello. Founded by Enzo Ferrari in 1939 out of Alfa Romeo's race division as \"Auto Avio Costruzioni\", the company built its first car in 1940. However the company's inception as an auto manufacturer is usually recognized in 1947, when the first Ferrari-badged car was completed."
+}

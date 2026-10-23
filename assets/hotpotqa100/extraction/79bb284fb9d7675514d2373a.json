@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Rudyard Kipling": "PERSON",
+    "John": "PERSON",
+    "My Boy Jack": "WORK_OF_ART",
+    "Sea Warfare": "WORK_OF_ART",
+    "Battle of Loos": "EVENT",
+    "World War I": "EVENT",
+    "Battle of Jutland": "EVENT",
+    "Irish Guards": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "My Boy Jack",
+      "relation": "written_by",
+      "object": "Rudyard Kipling",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "\"My Boy Jack\" is a 1915 poem by Rudyard Kipling."
+        }
+      ]
+    },
+    {
+      "subject": "John",
+      "relation": "disappeared_during",
+      "object": "Battle of Loos",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "an 18-year-old Lieutenant in the 2nd Battalion, when Irish Guards disappeared in September 1915 during the Battle of Loos"
+        }
+      ]
+    },
+    {
+      "subject": "Battle of Loos",
+      "relation": "part_of",
+      "object": "World War I",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "during the Battle of Loos in World War I"
+        }
+      ]
+    },
+    {
+      "subject": "My Boy Jack",
+      "relation": "published_as",
+      "object": "Sea Warfare",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "it was published as a prelude to a story in his book \"Sea Warfare\""
+        }
+      ]
+    },
+    {
+      "subject": "Sea Warfare",
+      "relation": "written_about",
+      "object": "Battle of Jutland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written about the Battle of Jutland in 1916"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John",
+        "called",
+        "Jack"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John",
+        "affected_by",
+        "death of Kipling's son"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "My Boy Jack (poem)\n\"My Boy Jack\" is a 1915 poem by Rudyard Kipling. Although Kipling wrote it after his son John (called Jack), an 18-year-old Lieutenant in the 2nd Battalion, when Irish Guards disappeared in September 1915 during the Battle of Loos in World War I, it was published as a prelude to a story in his book \"Sea Warfare\" written about the Battle of Jutland in 1916. The imagery and theme is maritime in nature and as such it is about a generic nautical Jack (or Jack Tar), though emotionally affected by the death of Kipling's son."
+}

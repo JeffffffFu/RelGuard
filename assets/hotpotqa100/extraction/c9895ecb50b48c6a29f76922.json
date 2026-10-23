@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Dancer in a Café": "artwork",
+    "Jean Metzinger": "artist",
+    "Marcel Sembat": "politician",
+    "Cubism": "art movement",
+    "Albright-Knox Art Gallery": "location",
+    "Salon d'Automne": "event",
+    "Albert Gleizes": "artist"
+  },
+  "triples": [
+    {
+      "subject": "Dancer in a Café",
+      "relation": "created_by",
+      "object": "Jean Metzinger",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "created in 1912 by the French artist and theorist Jean Metzinger"
+        }
+      ]
+    },
+    {
+      "subject": "Dancer in a Café",
+      "relation": "exhibited_at",
+      "object": "Salon d'Automne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "exhibited in Paris at the Salon d'Automne of 1912"
+        }
+      ]
+    },
+    {
+      "subject": "Cubism",
+      "relation": "defended_by",
+      "object": "Marcel Sembat",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The Cubists were defended by the Socialist deputy, Marcel Sembat"
+        }
+      ]
+    },
+    {
+      "subject": "Dancer in a Café",
+      "relation": "located_in",
+      "object": "Albright-Knox Art Gallery",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "The painting is now located at the Albright-Knox Art Gallery, Buffalo New York"
+        }
+      ]
+    },
+    {
+      "subject": "Albert Gleizes",
+      "relation": "collaborated_with",
+      "object": "Jean Metzinger",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "realized as Albert Gleizes and Jean Metzinger"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Dancer in a Café",
+        "part_of",
+        "Cubism"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Dancer in a Café\nDanseuse au café (also known as Dancer in a Café or Au Café Concert and Danseuse) is a large oil painting created in 1912 by the French artist and theorist Jean Metzinger (1883–1956). The work was exhibited in Paris at the Salon d'Automne of 1912, entitled \"Danseuse\". The Cubist contribution to the 1912 Salon d'Automne created a controversy in the Municipal Council of Paris, leading to a debate in the Chambre des Députés about the use of public funds to provide the venue for such 'barbaric' art. The Cubists were defended by the Socialist deputy, Marcel Sembat. This painting was realized as Albert Gleizes and Jean Metzinger, in preparation for the Salon de la Section d'Or, published a major defence of Cubism, resulting in the first theoretical essay on the new movement, \"Du «Cubisme»\". \"Danseuse au café\" was first reproduced in a photograph published in an article entitled \"Au Salon d'Automne \"Les Indépendants\"\" in the French newspaper \"\", 2 Octobre 1912. The painting is now located at the Albright-Knox Art Gallery, Buffalo New York."
+}

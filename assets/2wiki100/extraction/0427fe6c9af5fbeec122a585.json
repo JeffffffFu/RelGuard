@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "A Monster and a Half": "WORK_OF_ART",
+    "Steno": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "A Monster and a Half",
+      "relation": "directed_by",
+      "object": "Steno",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Steno"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "A Monster and a Half",
+        "located_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "A Monster and a Half\nA Monster and a Half is a 1964 Italian comedy film directed by Steno."
+}

@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Porobashinee": "Film",
+    "Bangladesh": "Location",
+    "Swapan Ahmed": "Person",
+    "Reggae Entertainment": "Organization",
+    "France": "Location",
+    "Italy": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Porobashinee",
+      "relation": "first_science_fiction_film_in",
+      "object": "Bangladesh",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It will be the first science fiction film in Bangladesh."
+        }
+      ]
+    },
+    {
+      "subject": "Porobashinee",
+      "relation": "produced_by",
+      "object": "Reggae Entertainment",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and produced by Reggae Entertainment."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Porobashinee",
+        "is_a",
+        "Film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Porobashinee",
+        "directed_by",
+        "Swapan Ahmed"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Porobashinee",
+        "shooting_location",
+        "France"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Porobashinee",
+        "shooting_location",
+        "Italy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Porobashinee\n\"Porobashinee\" is an upcoming Bangladeshi science fiction film. It will be the first science fiction film in Bangladesh. The film will be directed by Swapan Ahmed and produced by Reggae Entertainment. Film shooting took place in France and Italy and was overseen by an international crew. The post-production involved 3D conversion and the application of visual effects."
+}

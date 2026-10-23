@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Stauntonia": "PRODUCT",
+    "George Staunton": "PERSON",
+    "China": "GPE",
+    "Britain": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "George Staunton",
+      "relation": "brought",
+      "object": "Stauntonia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "who brought it to Britain from China"
+        }
+      ]
+    },
+    {
+      "subject": "George Staunton",
+      "relation": "located_in",
+      "object": "Britain",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "brought it to Britain"
+        }
+      ]
+    },
+    {
+      "subject": "Stauntonia",
+      "relation": "originated_from",
+      "object": "China",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "brought it to Britain from China"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Stauntonia",
+        "is_a",
+        "genus"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Stauntonia\nStauntonia is a genus of flowering plant in the Lardizabalaceae family. It is named after George Staunton, who brought it to Britain from China in the 19th Century."
+}

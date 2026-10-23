@@ -1,0 +1,130 @@
+{
+  "entities": {
+    "A Rare Bird": "WORK_OF_ART",
+    "Un oiseau rare": "WORK_OF_ART",
+    "French": "NORP",
+    "Richard Pottier": "PERSON",
+    "Pierre Brasseur": "PERSON",
+    "Max Dearly": "PERSON",
+    "Monique Rolland": "PERSON",
+    "Robert Hubert": "PERSON",
+    "Jacques Krauss": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "A Rare Bird",
+      "relation": "alternate_name",
+      "object": "Un oiseau rare",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "(French: Un oiseau rare)",
+          "line_start": 12,
+          "char_start": 24,
+          "ambiguous": false,
+          "relation_mention": "(French: Un oiseau rare)",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "located_in",
+      "object": "French",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "French",
+          "line_start": 13,
+          "char_start": 25,
+          "ambiguous": false,
+          "relation_mention": "French",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "directed_by",
+      "object": "Richard Pottier",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 66,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "starring",
+      "object": "Pierre Brasseur",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 98,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "starring",
+      "object": "Max Dearly",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 98,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "starring",
+      "object": "Monique Rolland",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 98,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The film's sets",
+        "designed_by",
+        "Robert Hubert"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The film's sets",
+        "designed_by",
+        "Jacques Krauss"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "A Rare Bird\nA Rare Bird (French: Un oiseau rare) is a 1935 French comedy film directed by Richard Pottier and starring Pierre Brasseur, Max Dearly and Monique Rolland. The film's sets were designed by the art directors Robert Hubert and Jacques Krauss."
+}

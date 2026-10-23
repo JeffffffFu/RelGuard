@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Castore e Polluce": "work",
+    "Francesco Bianchi": "person",
+    "Carlo Innocenzo Frugoni": "person",
+    "Pierre-Joseph-Justin Bernard": "person",
+    "Rameau": "person"
+  },
+  "triples": [
+    {
+      "subject": "Castore e Polluce",
+      "relation": "composed_by",
+      "object": "Francesco Bianchi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Francesco Bianchi"
+        }
+      ]
+    },
+    {
+      "subject": "Castore e Polluce",
+      "relation": "translated_by",
+      "object": "Carlo Innocenzo Frugoni",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The libretto was one translated by Carlo Innocenzo Frugoni"
+        }
+      ]
+    },
+    {
+      "subject": "Carlo Innocenzo Frugoni",
+      "relation": "translated_from",
+      "object": "Pierre-Joseph-Justin Bernard",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "translated by Carlo Innocenzo Frugoni, from Pierre-Joseph-Justin Bernard's French text"
+        }
+      ]
+    },
+    {
+      "subject": "Pierre-Joseph-Justin Bernard",
+      "relation": "wrote",
+      "object": "Rameau",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "for Rameau's \"Castor et Pollux\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Castore e Polluce",
+        "is_a",
+        "opera seria"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Castore e Polluce\nCastore e Polluce (\"Castor and Pollux\") is an \"opera seria\" by Francesco Bianchi. The libretto was one translated by Carlo Innocenzo Frugoni, from Pierre-Joseph-Justin Bernard's French text for Rameau's \"Castor et Pollux\"."
+}

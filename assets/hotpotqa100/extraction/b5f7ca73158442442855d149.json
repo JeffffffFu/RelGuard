@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "Papa Murphy's": "Company",
+    "Vancouver": "City",
+    "Washington": "State",
+    "United States": "Country",
+    "Papa Aldo's Pizza": "Company",
+    "Murphy's Pizza": "Company",
+    "Canada": "Country"
+  },
+  "triples": [
+    {
+      "subject": "Papa Murphy's",
+      "relation": "located_in",
+      "object": "Vancouver",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a business based in Vancouver"
+        }
+      ]
+    },
+    {
+      "subject": "Papa Murphy's",
+      "relation": "located_in",
+      "object": "Washington",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a business based in Vancouver, Washington"
+        }
+      ]
+    },
+    {
+      "subject": "Papa Murphy's",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a business based in Vancouver, Washington, United States"
+        }
+      ]
+    },
+    {
+      "subject": "Papa Murphy's",
+      "relation": "operates_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "in the United States"
+        }
+      ]
+    },
+    {
+      "subject": "Papa Murphy's",
+      "relation": "operates_in",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and Canada"
+        }
+      ]
+    },
+    {
+      "subject": "Papa Murphy's",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "in the United States"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Papa Murphy's",
+        "founded",
+        "1995"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Papa Aldo's Pizza",
+        "founded",
+        "1981"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Murphy's Pizza",
+        "founded",
+        "1981"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Papa Murphy's",
+        "operates",
+        "1,300 outlets"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Papa Murphy's",
+        "is_the",
+        "fifth-largest pizza chain"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Papa Murphy's\nPapa Murphy's, a business based in Vancouver, Washington, United States, is a take-and-bake pizza company. It began in 1995 as the merger of two take-and-bake pizza companies: Papa Aldo's Pizza (founded in 1981) and Murphy's Pizza (founded in 1981). The company and its franchisees operate more than 1,300 outlets in the United States and Canada. Papa Murphy's is the fifth-largest pizza chain in the United States."
+}

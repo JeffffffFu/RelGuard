@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "Noble Huston": "PERSON",
+    "First Presbyterian Church": "ORG",
+    "Ballynahinch": "GPE",
+    "County Down": "GPE",
+    "Anna Redlich": "PERSON",
+    "The Dogs of Ireland": "WORK_OF_ART",
+    "Dundalgan Press": "ORG",
+    "Gyp": "PERSON",
+    "Johnnie": "PERSON",
+    "Glen of Rossmore": "PERSON",
+    "Irish Red and White Setter": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Noble Huston",
+      "relation": "credited_with",
+      "object": "Irish Red and White Setter",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "credited with saving the",
+          "line_start": 141,
+          "char_start": 154,
+          "ambiguous": false,
+          "relation_mention": "credited with saving the",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Noble Huston",
+        "works_for",
+        "First Presbyterian Church"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "First Presbyterian Church",
+        "located_in",
+        "Ballynahinch"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ballynahinch",
+        "located_in",
+        "County Down"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anna Redlich",
+        "authored",
+        "The Dogs of Ireland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Dogs of Ireland",
+        "published_by",
+        "Dundalgan Press"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Noble Huston",
+        "mated",
+        "Gyp"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gyp",
+        "mated_with",
+        "Johnnie"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gyp",
+        "mated_with",
+        "Glen of Rossmore"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Noble Huston",
+        "founded",
+        "kennel of Red and White Setters"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Noble Huston\nThe Reverend Noble Huston (died 1944), was the minister of the First Presbyterian Church in Ballynahinch, County Down and a breeder of dogs, credited with saving the Irish Red and White Setter from extinction in the early the twentieth century. According to Anna Redlich in “The Dogs of Ireland” (Dundalgan Press 1949), he \" mated his half red and half red and white bitch Gyp to Johnnie, and later on to Glen of Rossmore ... Thus in due time and by judicious selection , he managed to build up a kennel of Red and White Setters...\"",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Noble Huston\", \"type\": \"PERSON\"},\n    {\"name\": \"First Presbyterian Church\", \"type\": \"ORG\"},\n    {\"name\": \"Ballynahinch\", \"type\": \"GPE\"},\n    {\"name\": \"County Down\", \"type\": \"GPE\"},\n    {\"name\": \"Anna Redlich\", \"type\": \"PERSON\"},\n    {\"name\": \"The Dogs of Ireland\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Dundalgan Press\", \"type\": \"ORG\"},\n    {\"name\": \"Gyp\", \"type\": \"PERSON\"},\n    {\"name\": \"Johnnie\", \"type\": \"PERSON\"},\n    {\"name\": \"Glen of Rossmore\", \"type\": \"PERSON\"},\n    {\"name\": \"Irish Red and White Setter\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Noble Huston\",\n      \"relation\": \"works_for\",\n      \"object\": \"First Presbyterian Church\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the minister of the\"}\n      ]\n    },\n    {\n      \"subject\": \"First Presbyterian Church\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ballynahinch\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Ballynahinch\"}\n      ]\n    },\n    {\n      \"subject\": \"Ballynahinch\",\n      \"relation\": \"located_in\",\n      \"object\": \"County Down\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"County Down\"}\n      ]\n    },\n    {\n      \"subject\": \"Noble Huston\",\n      \"relation\": \"credited_with\",\n      \"object\": \"Irish Red and White Setter\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"credited with saving the\"}\n      ]\n    },\n    {\n      \"subject\": \"Anna Redlich\",\n      \"relation\": \"authored\",\n      \"object\": \"The Dogs of Ireland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"According to Anna Redlich in \\\"The Dogs of Ireland\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"The Dogs of Ireland\",\n      \"relation\": \"published_by\",\n      \"object\": \"Dundalgan Press\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(Dundalgan Press 1949)\"}\n      ]\n    },\n    {\n      \"subject\": \"Noble Huston\",\n      \"relation\": \"mated\",\n      \"object\": \"Gyp\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"mated his half red and half red and white bitch Gyp to Johnnie\"}\n      ]\n    },\n    {\n      \"subject\": \"Gyp\",\n      \"relation\": \"mated_with\",\n      \"object\": \"Johnnie\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"mated his half red and half red and white bitch Gyp to Johnnie\"}\n      ]\n    },\n    {\n      \"subject\": \"Gyp\",\n      \"relation\": \"mated_with\",\n      \"object\": \"Glen of Rossmore\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and later on to Glen of Rossmore\"}\n      ]\n    },\n    {\n      \"subject\": \"Noble Huston\",\n      \"relation\": \"founded\",\n      \"object\": \"kennel of Red and White Setters\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"managed to build up a kennel of Red and White Setters\"}\n      ]\n    }\n  ]\n}"
+}

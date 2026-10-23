@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Kenya": "GPE",
+    "Kenya national cricket team": "ORG",
+    "East Africa cricket team": "ORG",
+    "ICC": "ORG",
+    "1996 Cricket World Cup": "EVENT",
+    "2014 Cricket World Cup Qualifier": "EVENT",
+    "2003 Cricket World Cup": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Kenya national cricket team",
+      "relation": "represents",
+      "object": "Kenya",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the team that represents the country of Kenya in international cricket matches."
+        }
+      ]
+    },
+    {
+      "subject": "Kenya",
+      "relation": "part_of",
+      "object": "East Africa cricket team",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Kenya was part of the East Africa cricket team"
+        }
+      ]
+    },
+    {
+      "subject": "East Africa cricket team",
+      "relation": "became",
+      "object": "ICC",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "which became an associate member of the ICC in 1966"
+        }
+      ]
+    },
+    {
+      "subject": "Kenya",
+      "relation": "competed_in",
+      "object": "1996 Cricket World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Kenya first competed as an independent nation at the 1996 Cricket World Cup"
+        }
+      ]
+    },
+    {
+      "subject": "Kenya",
+      "relation": "finished",
+      "object": "2014 Cricket World Cup Qualifier",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "which they held until 2014, when they finished fifth in the 2014 Cricket World Cup Qualifier."
+        }
+      ]
+    },
+    {
+      "subject": "Kenya",
+      "relation": "best_performance_in",
+      "object": "2003 Cricket World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Kenya's best performance at the Cricket World Cup was in 2003"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kenya",
+        "held",
+        "full ODI status"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kenya",
+        "reached",
+        "semi-finals"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kenya at the Cricket World Cup\nThe Kenya national cricket team is the team that represents the country of Kenya in international cricket matches. Kenya was part of the East Africa cricket team which became an associate member of the ICC in 1966, and competed in the first World Cup. Kenya first competed as an independent nation at the 1996 Cricket World Cup, after which they were given full ODI status, which they held until 2014, when they finished fifth in the 2014 Cricket World Cup Qualifier. Kenya's best performance at the Cricket World Cup was in 2003, where they reached the semi-finals."
+}

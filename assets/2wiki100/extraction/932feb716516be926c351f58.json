@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "A Race for Life": "WORK_OF_ART",
+    "D. Ross Lederman": "PERSON",
+    "Library of Congress Database": "ORG",
+    "the Netherlands": "GPE",
+    "Vitaphone": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "A Race for Life",
+      "relation": "directed_by",
+      "object": "D. Ross Lederman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 53,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Race for Life",
+      "relation": "found_in",
+      "object": "the Netherlands",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "found in",
+          "line_start": 198,
+          "char_start": 214,
+          "ambiguous": false,
+          "relation_mention": "found in",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "A Race for Life",
+        "found_by_recorded_in",
+        "Library of Congress Database"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A Race for Life",
+        "released_with",
+        "Vitaphone"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "A Race for Life\nA Race for Life is a 1928 American silent drama film directed by D. Ross Lederman. Originally, the film was presumed to be lost. However, according to the Library of Congress Database, the film was found in the Netherlands. The film was released with a Vitaphone soundtrack with a synchronised musical score and sound effects.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"A Race for Life\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"D. Ross Lederman\", \"type\": \"PERSON\"},\n    {\"name\": \"Library of Congress Database\", \"type\": \"ORG\"},\n    {\"name\": \"the Netherlands\", \"type\": \"GPE\"},\n    {\"name\": \"Vitaphone\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"A Race for Life\",\n      \"relation\": \"directed_by\",\n      \"object\": \"D. Ross Lederman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"A Race for Life\",\n      \"relation\": \"found_in\",\n      \"object\": \"the Netherlands\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"found in\"}\n      ]\n    },\n    {\n      \"subject\": \"A Race for Life\",\n      \"relation\": \"found_by_recorded_in\",\n      \"object\": \"Library of Congress Database\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"according to the Library of Congress Database\"}\n      ]\n    },\n    {\n      \"subject\": \"A Race for Life\",\n      \"relation\": \"released_with\",\n      \"object\": \"Vitaphone\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"released with a Vitaphone soundtrack\"}\n      ]\n    }\n  ]\n}"
+}

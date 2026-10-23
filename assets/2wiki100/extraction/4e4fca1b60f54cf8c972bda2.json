@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Marie of Artois": "PERSON",
+    "Philip of Artois": "PERSON",
+    "Blanche of Brittany": "PERSON",
+    "Méraude": "LOC",
+    "John the Blind": "PERSON",
+    "French": "LANGUAGE",
+    "Dutch": "LANGUAGE"
+  },
+  "triples": [
+    {
+      "subject": "Marie of Artois",
+      "relation": "purchased",
+      "object": "Méraude",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "purchased it from",
+          "line_start": 200,
+          "char_start": 216,
+          "ambiguous": false,
+          "relation_mention": "purchased it from",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Kingdom of Bohemia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Marie of Artois",
+        "child_of",
+        "Philip of Artois"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marie of Artois",
+        "child_of",
+        "Blanche of Brittany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marie of Artois",
+        "has_name_in_language",
+        "French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marie of Artois",
+        "has_name_in_language",
+        "Dutch"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John the Blind",
+        "works_for",
+        "Kingdom of Bohemia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Marie of Artois\nMarie of Artois (French: Marie d'Artois, Dutch: Maria van Artesië.) Born in 1291, was the fourth daughter of Philip of Artois and Blanche of Brittany. She became the Lady of Méraude (Merode) when she purchased it from John the Blind, King of Bohemia, in 1342.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Marie of Artois\", \"type\": \"PERSON\"},\n    {\"name\": \"Philip of Artois\", \"type\": \"PERSON\"},\n    {\"name\": \"Blanche of Brittany\", \"type\": \"PERSON\"},\n    {\"name\": \"Méraude\", \"type\": \"LOC\"},\n    {\"name\": \"John the Blind\", \"type\": \"PERSON\"},\n    {\"name\": \"Kingdom of Bohemia\", \"type\": \"GPE\"},\n    {\"name\": \"French\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Dutch\", \"type\": \"LANGUAGE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Marie of Artois\",\n      \"relation\": \"child_of\",\n      \"object\": \"Philip of Artois\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"daughter of\"}\n      ]\n    },\n    {\n      \"subject\": \"Marie of Artois\",\n      \"relation\": \"child_of\",\n      \"object\": \"Blanche of Brittany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"daughter of\"}\n      ]\n    },\n    {\n      \"subject\": \"Marie of Artois\",\n      \"relation\": \"has_name_in_language\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"French:\"}\n      ]\n    },\n    {\n      \"subject\": \"Marie of Artois\",\n      \"relation\": \"has_name_in_language\",\n      \"object\": \"Dutch\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Dutch:\"}\n      ]\n    },\n    {\n      \"subject\": \"Marie of Artois\",\n      \"relation\": \"purchased\",\n      \"object\": \"Méraude\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"purchased it from\"}\n      ]\n    },\n    {\n      \"subject\": \"John the Blind\",\n      \"relation\": \"works_for\",\n      \"object\": \"Kingdom of Bohemia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"King of Bohemia\"}\n      ]\n    }\n  ]\n}"
+}

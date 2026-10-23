@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "David Beckham Academy": "Organization",
+    "David Beckham": "Person",
+    "London": "Location",
+    "United Kingdom": "Location",
+    "Los Angeles": "Location",
+    "California": "Location",
+    "United States": "Location"
+  },
+  "triples": [
+    {
+      "subject": "David Beckham Academy",
+      "relation": "founded",
+      "object": "David Beckham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "founded by England international David Beckham in 2005"
+        }
+      ]
+    },
+    {
+      "subject": "David Beckham Academy",
+      "relation": "located_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "it operated in two locations: in London, United Kingdom"
+        }
+      ]
+    },
+    {
+      "subject": "London",
+      "relation": "located_in",
+      "object": "United Kingdom",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in London, United Kingdom"
+        }
+      ]
+    },
+    {
+      "subject": "Los Angeles",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Los Angeles, California"
+        }
+      ]
+    },
+    {
+      "subject": "California",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "California, United States"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "David Beckham Academy",
+        "located_in",
+        "Los Angeles"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "David Beckham Academy\nThe David Beckham Academy was a football school founded by England international David Beckham in 2005. In 2009 it operated in two locations: in London, United Kingdom, and in Los Angeles, California, United States. The academy pulled out of the London site at the end of the lease in October 2009, and the California branch closed soon after."
+}

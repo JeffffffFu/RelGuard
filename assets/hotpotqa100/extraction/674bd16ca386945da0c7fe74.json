@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "The Contender": "WORK_OF_ART",
+    "Rod Lurie": "PERSON",
+    "Gary Oldman": "PERSON",
+    "Joan Allen": "PERSON",
+    "Jeff Bridges": "PERSON",
+    "Christian Slater": "PERSON",
+    "United States": "GPE",
+    "Vice President": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "The Contender",
+      "relation": "written_and_directed_by",
+      "object": "Rod Lurie",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Rod Lurie"
+        }
+      ]
+    },
+    {
+      "subject": "The Contender",
+      "relation": "stars",
+      "object": "Gary Oldman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars Gary Oldman"
+        }
+      ]
+    },
+    {
+      "subject": "The Contender",
+      "relation": "focuses_on",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "a fictional United States President"
+        }
+      ]
+    },
+    {
+      "subject": "United States",
+      "relation": "has_position",
+      "object": "Vice President",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "appointment of a new Vice President"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Contender",
+        "stars",
+        "Joan Allen"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Contender",
+        "stars",
+        "Jeff Bridges"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Contender",
+        "stars",
+        "Christian Slater"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Contender (2000 film)\nThe Contender is a 2000 political drama film written and directed by Rod Lurie. It stars Gary Oldman, Joan Allen, Jeff Bridges and Christian Slater. The film focuses on a fictional United States President (played by Bridges) and the events surrounding his appointment of a new Vice President (Allen)."
+}

@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Borgward B 611": "PRODUCT",
+    "Borgward": "ORG",
+    "Bremen": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Borgward B 611",
+      "relation": "built_by",
+      "object": "Borgward",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "built by",
+          "line_start": 49,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "built by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Borgward B 611",
+        "built_at",
+        "Bremen"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Borgward B 611\nThe Borgward B 611 is a light commercial vehicle built by Borgward at their Bremen factory between 1957 and 1961. The nominal load capacity at launch was 1.5 (metric) tons. The vehicle was offered as a light van, a minibus (with seats in the back and more windows) or as a platform truck (\"Pritschenwagen\"), though various other body variants were available either directly from the manufacturer or from appropriately specialist vehicle body manufacturers.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Borgward B 611\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Borgward\", \"type\": \"ORG\"},\n    {\"name\": \"Bremen\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Borgward B 611\",\n      \"relation\": \"built_by\",\n      \"object\": \"Borgward\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"built by\"}\n      ]\n    },\n    {\n      \"subject\": \"Borgward B 611\",\n      \"relation\": \"built_at\",\n      \"object\": \"Bremen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at their Bremen factory\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Lebus": "GPE",
+    "Brandenburg": "GPE",
+    "Germany": "GPE",
+    "Poland": "GPE",
+    "Oder river": "LOC",
+    "Lubusz Land": "LOC",
+    "Lubusz Voivodeship": "GPE",
+    "Märkisch-Oderland District": "GPE",
+    "Amt": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Lebus",
+      "relation": "located_in",
+      "object": "Brandenburg",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Lebus (Polish: \"Lubusz\" ) is a historic town in the Märkisch-Oderland District of Brandenburg, Germany."
+        }
+      ]
+    },
+    {
+      "subject": "Lebus",
+      "relation": "administrative_seat_of",
+      "object": "Amt",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is the administrative seat of \"Amt\" (\"municipal federation\") Lebus."
+        }
+      ]
+    },
+    {
+      "subject": "Lubusz Land",
+      "relation": "provides_name_for",
+      "object": "Lubusz Voivodeship",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the centre of the historical region known as Lubusz Land, which provides the name for the present-day Polish Lubusz Voivodeship."
+        }
+      ]
+    },
+    {
+      "subject": "Märkisch-Oderland District",
+      "relation": "part_of",
+      "object": "Brandenburg",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Lebus (Polish: \"Lubusz\" ) is a historic town in the Märkisch-Oderland District of Brandenburg, Germany."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lebus",
+        "located_on",
+        "Oder river"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Brandenburg",
+        "borders_with",
+        "Poland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Lebus\nLebus (Polish: \"Lubusz\" ) is a historic town in the Märkisch-Oderland District of Brandenburg, Germany. It is the administrative seat of \"Amt\" (\"municipal federation\") Lebus. The town, located on the west bank of the Oder river at the border with Poland, was the centre of the historical region known as Lubusz Land, which provides the name for the present-day Polish Lubusz Voivodeship."
+}

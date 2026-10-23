@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Curly Ray Cline": "Person",
+    "West Virginia": "Location",
+    "Lonesome Pine Fiddlers": "Organization",
+    "Ralph Stanley": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Curly Ray Cline",
+      "relation": "from",
+      "object": "West Virginia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from West Virginia"
+        }
+      ]
+    },
+    {
+      "subject": "Curly Ray Cline",
+      "relation": "known_for",
+      "object": "Lonesome Pine Fiddlers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "known for his work with the Lonesome Pine Fiddlers"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Curly Ray Cline",
+        "known_for",
+        "Ralph Stanley"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Curly Ray Cline\nCurly Ray Cline( January 10, 1923 – August 19, 1997) was an American bluegrass fiddler from West Virginia known for his work with the Lonesome Pine Fiddlers and Ralph Stanley."
+}

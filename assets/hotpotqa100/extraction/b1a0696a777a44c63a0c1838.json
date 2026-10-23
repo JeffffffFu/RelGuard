@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "Tom Coburn": "PERSON",
+    "Republican Party": "NORP",
+    "Oklahoma": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Tom Coburn",
+      "relation": "works_for",
+      "object": "Republican Party",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "A member of the Republican Party",
+          "line_start": 94,
+          "char_start": 105,
+          "ambiguous": false,
+          "relation_mention": "A member of the Republican Party",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tom Coburn",
+      "relation": "located_in",
+      "object": "Oklahoma",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "from Oklahoma",
+          "line_start": 168,
+          "char_start": 179,
+          "ambiguous": false,
+          "relation_mention": "from Oklahoma",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States Senate (ORG)"
+      ]
+    },
+    {
+      "triple": [
+        "Tom Coburn",
+        "works_for",
+        "United States Senate"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Tom Coburn\nThomas Allen \"Tom\" Coburn (born March 14, 1948) is an American politician and medical doctor. A member of the Republican Party, he was the junior United States Senator from Oklahoma."
+}

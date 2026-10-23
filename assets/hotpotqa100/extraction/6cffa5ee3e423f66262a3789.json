@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Romper Stomper": "film",
+    "Geoffrey Wright": "person",
+    "Russell Crowe": "person",
+    "Daniel Pollock": "person",
+    "Jacqueline McKenzie": "person",
+    "Tony Lee": "person",
+    "Melbourne": "location"
+  },
+  "triples": [
+    {
+      "subject": "Romper Stomper",
+      "relation": "written_and_directed_by",
+      "object": "Geoffrey Wright",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Geoffrey Wright"
+        }
+      ]
+    },
+    {
+      "subject": "Romper Stomper",
+      "relation": "stars",
+      "object": "Russell Crowe",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film stars Russell Crowe"
+        }
+      ]
+    },
+    {
+      "subject": "Romper Stomper",
+      "relation": "located_in",
+      "object": "Melbourne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in blue-collar suburban Melbourne"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Romper Stomper",
+        "stars",
+        "Daniel Pollock"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Romper Stomper",
+        "stars",
+        "Jacqueline McKenzie"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Romper Stomper",
+        "stars",
+        "Tony Lee"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Romper Stomper",
+        "tells_story_of",
+        "neo-Nazi group"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Romper Stomper",
+        "released_on",
+        "12 November 1992"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Romper Stomper\nRomper Stomper is a 1992 Australian drama film written and directed by Geoffrey Wright in his feature film directorial debut. The film stars Russell Crowe, Daniel Pollock, Jacqueline McKenzie and Tony Lee. The film tells the story of the exploits and downfall of a neo-Nazi group in blue-collar suburban Melbourne. The film was released on 12 November 1992."
+}

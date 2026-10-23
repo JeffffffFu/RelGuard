@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Alfredo Guati Rojo Cárdenas": "Person",
+    "Diego Rivera": "Person",
+    "Cuernavaca": "Location",
+    "Mexico City": "Location",
+    "Colonia Roma": "Location",
+    "Museo Nacional de la Acuarela": "Organization",
+    "Coyoacán": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Museo Nacional de la Acuarela",
+      "relation": "located_in",
+      "object": "Colonia Roma",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "The museum remained in Colonia Roma until the 1985 Mexico City earthquake destroyed the building and led to it relocation to the Coyoacán borough where it remains."
+        }
+      ]
+    },
+    {
+      "subject": "Museo Nacional de la Acuarela",
+      "relation": "relocated_to",
+      "object": "Coyoacán",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "The museum remained in Colonia Roma until the 1985 Mexico City earthquake destroyed the building and led to it relocation to the Coyoacán borough where it remains."
+        }
+      ]
+    },
+    {
+      "subject": "Alfredo Guati Rojo Cárdenas",
+      "relation": "supported",
+      "object": "Museo Nacional de la Acuarela",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Most of his income from this painting went to support the museum."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Alfredo Guati Rojo Cárdenas",
+        "worked_to_restore",
+        "watercolor painting"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alfredo Guati Rojo Cárdenas",
+        "preference_for",
+        "watercolor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alfredo Guati Rojo Cárdenas",
+        "went_to_study",
+        "law"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alfredo Guati Rojo Cárdenas",
+        "founded",
+        "art institute"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alfredo Guati Rojo Cárdenas",
+        "showed_and_sold",
+        "artwork"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Alfredo Guati Rojo\nAlfredo Guati Rojo Cárdenas (December 1, 1918 – June 10, 2003) was a 20th-century Mexican artist who worked to restore the reputation of watercolor painting as a true art form. His preference for the technique came from seeing Diego Rivera’s work and helping with a fresco mural in his hometown of Cuernavaca as a child. When he was 16, he went to Mexico City to study law, but switched to art. He learned the various classic art techniques but kept his preference for watercolor. His career began by teaching art, founding an art institute in the Colonia Roma section of Mexico City. In the 1950s, he tried to get the areas art galleries to show watercolors but they refused, considering it as a minor art form. He began to host exhibitions of watercolor works at his art institute with success which led to the formation of the Museo Nacional de la Acuarela or National Watercolor Museum in the 1960s. The museum remained in Colonia Roma until the 1985 Mexico City earthquake destroyed the building and led to it relocation to the Coyoacán borough where it remains. During this time, Guati Rojo also had a career showing and selling his own artwork, almost exclusively watercolors in various parts of the world. Most of his income from this painting went to support the museum."
+}

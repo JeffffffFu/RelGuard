@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Alison Moira Clarkson": "Person",
+    "Betty Boo": "Person",
+    "The Beatmasters": "Group"
+  },
+  "triples": [
+    {
+      "subject": "Alison Moira Clarkson",
+      "relation": "better_known_as",
+      "object": "Betty Boo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "better known as Betty Boo"
+        }
+      ]
+    },
+    {
+      "subject": "Betty Boo",
+      "relation": "collaborated_with",
+      "object": "The Beatmasters",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "following a collaboration with The Beatmasters"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Betty Boo",
+        "is",
+        "English singer, songwriter and pop rap artist"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Betty Boo\nAlison Moira Clarkson (born 6 March 1970 in Kensington, London) better known as Betty Boo, is an English singer, songwriter and pop rap artist. She first came to mainstream prominence in the late 1980s and early 1990s following a collaboration with The Beatmasters and her subsequent solo career, which spawned a number of chart-placing singles, most notably in 1990 with \"Doin' the Do\"."
+}

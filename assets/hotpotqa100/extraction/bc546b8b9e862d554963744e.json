@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Ricou Browning": "PERSON",
+    "Creature from the Black Lagoon": "WORK_OF_ART",
+    "Revenge of the Creature": "WORK_OF_ART",
+    "The Creature Walks Among Us": "WORK_OF_ART",
+    "Gill-man": "PRODUCT",
+    "Universal Monster": "PRODUCT",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Ricou Browning",
+      "relation": "best_known_for",
+      "object": "Gill-man",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He is best known for his underwater stunt work, playing the Gill-man in"
+        }
+      ]
+    },
+    {
+      "subject": "Ricou Browning",
+      "relation": "portrayed",
+      "object": "Creature from the Black Lagoon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "playing the Gill-man in \"Creature from the Black Lagoon\""
+        }
+      ]
+    },
+    {
+      "subject": "Ricou Browning",
+      "relation": "is_last_surviving",
+      "object": "Universal Monster",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the last surviving original Universal Monster"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ricou Browning",
+        "portrayed",
+        "Revenge of the Creature"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ricou Browning",
+        "portrayed",
+        "The Creature Walks Among Us"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ricou Browning",
+        "is_only_surviving",
+        "Gill-man"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Ricou Browning\nRicou Browning (born November 23, 1930) is an American film director, actor, producer, screenwriter, underwater cinematographer and stuntman. He is best known for his underwater stunt work, playing the Gill-man in \"Creature from the Black Lagoon\", \"Revenge of the Creature\" and \"The Creature Walks Among Us\". Other actors portrayed the creature on land. He is also the only actor to have portrayed the creature more than once. He is the only surviving Gill-man actor, and the last surviving original Universal Monster."
+}

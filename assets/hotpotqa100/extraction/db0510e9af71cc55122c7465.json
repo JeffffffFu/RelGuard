@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "Love Actually": "WORK_OF_ART",
+    "Richard Curtis": "PERSON",
+    "London": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Love Actually",
+      "relation": "directed_by",
+      "object": "Richard Curtis",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 74,
+          "char_start": 88,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Love Actually",
+      "relation": "written_by",
+      "object": "Richard Curtis",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written and directed by",
+          "line_start": 62,
+          "char_start": 76,
+          "ambiguous": false,
+          "relation_mention": "written and directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Love Actually",
+        "located_in",
+        "London"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Love Actually\nLove Actually is a 2003 Christmas-themed romantic comedy film written and directed by Richard Curtis. It features an ensemble cast, many of whom had worked with Curtis in previous film and television projects. The screenplay delves into different aspects of love as shown through ten separate stories involving a wide variety of individuals, many of whom are shown to be interlinked as their tales progress. Most of the film was filmed on location in London. The story begins five weeks before Christmas and is played out in a weekly countdown until the holiday, followed by an epilogue that takes place one month later.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Love Actually\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Richard Curtis\", \"type\": \"PERSON\"},\n    {\"name\": \"London\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Love Actually\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Richard Curtis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Love Actually\",\n      \"relation\": \"written_by\",\n      \"object\": \"Richard Curtis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Love Actually\",\n      \"relation\": \"located_in\",\n      \"object\": \"London\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on location in London\"}\n      ]\n    }\n  ]\n}"
+}

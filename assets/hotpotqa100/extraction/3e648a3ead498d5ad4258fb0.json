@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Frag": "game",
+    "Steve Jackson Games": "company",
+    "Steve Jackson": "person",
+    "Philip Reed": "person",
+    "Alex Fernandez": "person"
+  },
+  "triples": [
+    {
+      "subject": "Frag",
+      "relation": "published_by",
+      "object": "Steve Jackson Games",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "published by Steve Jackson Games"
+        }
+      ]
+    },
+    {
+      "subject": "Frag",
+      "relation": "developed_by",
+      "object": "Steve Jackson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "developed by Steve Jackson"
+        }
+      ]
+    },
+    {
+      "subject": "Frag",
+      "relation": "illustrated_by",
+      "object": "Alex Fernandez",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "illustrated by Alex Fernandez"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Frag",
+        "developed_by",
+        "Philip Reed"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Frag (game)\nFrag is a first-person shooter-themed board game published by Steve Jackson Games in the summer of 2001. It was developed by Steve Jackson and Philip Reed, and illustrated by Alex Fernandez."
+}

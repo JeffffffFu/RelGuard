@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Guns N' Roses": "band",
+    "Los Angeles": "location",
+    "California": "location",
+    "Hollywood Rose": "band",
+    "L.A. Guns": "band",
+    "Geffen Records": "record label",
+    "Appetite for Destruction": "album",
+    "Billboard": "publication"
+  },
+  "triples": [
+    {
+      "subject": "Guns N' Roses",
+      "relation": "formed_in",
+      "object": "Los Angeles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "formed in Los Angeles, California in 1985"
+        }
+      ]
+    },
+    {
+      "subject": "Guns N' Roses",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Los Angeles, California"
+        }
+      ]
+    },
+    {
+      "subject": "Guns N' Roses",
+      "relation": "signed_with",
+      "object": "Geffen Records",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "signed a deal with Geffen Records in 1986"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Guns N' Roses",
+        "released",
+        "six studio albums"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Guns N' Roses",
+        "released",
+        "Appetite for Destruction"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Appetite for Destruction",
+        "reached",
+        "Billboard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Appetite for Destruction",
+        "sold_units",
+        "18 million units"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Appetite for Destruction",
+        "sold_units_worldwide",
+        "33 million units"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Guns N' Roses discography\nGuns N' Roses is an American hard rock band formed in Los Angeles, California in 1985 by members of Hollywood Rose and L.A. Guns. The band has released six studio albums, two live albums, two compilation albums, two extended plays, seven video albums, eighteen singles, twenty four music videos and one video single. Guns N' Roses signed a deal with Geffen Records in 1986, after the independently released EP \"Live ?!*@ Like a Suicide\" a year before. Its debut studio album \"Appetite for Destruction\" was released in 1987, reached the top of the \"Billboard\" 200 and sold 18 million units in the United States and approximately 33 million units worldwide."
+}

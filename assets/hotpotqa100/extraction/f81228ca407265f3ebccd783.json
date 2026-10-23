@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "The Contender": "WORK_OF_ART",
+    "Rod Lurie": "PERSON",
+    "Gary Oldman": "PERSON",
+    "Joan Allen": "PERSON",
+    "Jeff Bridges": "PERSON",
+    "Christian Slater": "PERSON",
+    "United States": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "The Contender",
+      "relation": "directed_by",
+      "object": "Rod Lurie",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 57,
+          "char_start": 83,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Contender",
+      "relation": "written_by",
+      "object": "Rod Lurie",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written and directed by",
+          "line_start": 45,
+          "char_start": 71,
+          "ambiguous": false,
+          "relation_mention": "written and directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Contender",
+        "stars",
+        "Gary Oldman"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Contender",
+        "stars",
+        "Joan Allen"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Contender",
+        "stars",
+        "Jeff Bridges"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Contender",
+        "stars",
+        "Christian Slater"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "United States",
+        "located_in",
+        "The Contender"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Contender (2000 film)\nThe Contender is a 2000 political drama film written and directed by Rod Lurie. It stars Gary Oldman, Joan Allen, Jeff Bridges and Christian Slater. The film focuses on a fictional United States President (played by Bridges) and the events surrounding his appointment of a new Vice President (Allen).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Contender\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Rod Lurie\", \"type\": \"PERSON\"},\n    {\"name\": \"Gary Oldman\", \"type\": \"PERSON\"},\n    {\"name\": \"Joan Allen\", \"type\": \"PERSON\"},\n    {\"name\": \"Jeff Bridges\", \"type\": \"PERSON\"},\n    {\"name\": \"Christian Slater\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Contender\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Rod Lurie\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Contender\",\n      \"relation\": \"written_by\",\n      \"object\": \"Rod Lurie\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Contender\",\n      \"relation\": \"stars\",\n      \"object\": \"Gary Oldman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Contender\",\n      \"relation\": \"stars\",\n      \"object\": \"Joan Allen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Contender\",\n      \"relation\": \"stars\",\n      \"object\": \"Jeff Bridges\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Contender\",\n      \"relation\": \"stars\",\n      \"object\": \"Christian Slater\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"United States\",\n      \"relation\": \"located_in\",\n      \"object\": \"The Contender\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"United States President\"}\n      ]\n    }\n  ]\n}"
+}

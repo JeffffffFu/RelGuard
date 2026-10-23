@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Muddy Creek Forks Historic District": "FAC",
+    "Village of Muddy Creek Forks": "LOC",
+    "York County": "GPE",
+    "Pennsylvania": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Muddy Creek Forks Historic District",
+      "relation": "located_in",
+      "object": "Village of Muddy Creek Forks",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at",
+          "line_start": 68,
+          "char_start": 104,
+          "ambiguous": false,
+          "relation_mention": "located at",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "3 entities not in the document",
+      "entities": [
+        "East Hopewell Township (GPE)",
+        "Fawn Township (GPE)",
+        "Lower Chanceford Township (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Village of Muddy Creek Forks",
+        "located_in",
+        "East Hopewell Township"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Village of Muddy Creek Forks",
+        "located_in",
+        "Fawn Township"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Village of Muddy Creek Forks",
+        "located_in",
+        "Lower Chanceford Township"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Village of Muddy Creek Forks",
+        "located_in",
+        "York County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "York County",
+        "located_in",
+        "Pennsylvania"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Muddy Creek Forks Historic District\nMuddy Creek Forks Historic District is a national historic district located at the Village of Muddy Creek Forks in East Hopewell, Fawn, and Lower Chanceford Townships in York County, Pennsylvania. The district includes 12 contributing buildings, 1 contributing site, and 5 contributing structures. The buildings and structures were constructed between about 1800 and 1935. The buildings include the general store, six houses, a mill, grain elevator, warehouse, and Sweitzer barn. Most of the buildings incorporate Late Victorian style details. The structures are two bridges, a corn crib, a weigh station, and a mill race. The site is the site of a former mill and mill pond."
+}

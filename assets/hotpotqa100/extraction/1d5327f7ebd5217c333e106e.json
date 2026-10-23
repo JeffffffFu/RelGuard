@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Sleeper": "band",
+    "Louise Wener": "person",
+    "London": "location",
+    "Trainspotting": "movie"
+  },
+  "triples": [
+    {
+      "subject": "Sleeper",
+      "relation": "fronted_by",
+      "object": "Louise Wener",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "fronted by Louise Wener"
+        }
+      ]
+    },
+    {
+      "subject": "Sleeper",
+      "relation": "formed_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "formed in London"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sleeper",
+        "had_hit_singles",
+        "UK Top 40"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sleeper",
+        "had_albums",
+        "UK Top 10"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sleeper",
+        "featured_in",
+        "Trainspotting"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sleeper",
+        "split_up_in",
+        "1998"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sleeper",
+        "reunited_in",
+        "2017"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sleeper (band)\nSleeper are an English Britpop band, fronted by Louise Wener and formed in London. The group had eight UK Top 40 hit singles and three UK Top 10 albums during the 1990s Their music was also featured in the soundtrack of the pop cultural hit movie \"Trainspotting\". The band split up in 1998 but reunited in 2017 for some live appearances."
+}

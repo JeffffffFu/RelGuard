@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Fifty Shades Freed": "work",
+    "Fifty Shades Trilogy": "work",
+    "E. L. James": "person",
+    "Christian Grey": "person",
+    "Anastasia Steele": "person"
+  },
+  "triples": [
+    {
+      "subject": "Fifty Shades Freed",
+      "relation": "is_installment_of",
+      "object": "Fifty Shades Trilogy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Fifty Shades Freed is the third and final installment of the erotic romance \"Fifty Shades Trilogy\""
+        }
+      ]
+    },
+    {
+      "subject": "Fifty Shades Freed",
+      "relation": "written_by",
+      "object": "E. L. James",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by British author E. L. James"
+        }
+      ]
+    },
+    {
+      "subject": "Anastasia Steele",
+      "relation": "married_to",
+      "object": "Christian Grey",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "After accepting entrepreneur CEO Christian Grey's proposal"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Christian Grey",
+        "has_lifestyle",
+        "wealthy lifestyle"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Christian Grey",
+        "has_nature",
+        "controlling nature"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fifty Shades Freed",
+        "published_in",
+        "April 2012"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Fifty Shades Freed\nFifty Shades Freed is the third and final installment of the erotic romance \"Fifty Shades Trilogy\" by British author E. L. James. After accepting entrepreneur CEO Christian Grey's proposal in \"Fifty Shades Darker\", Anastasia Steele must adjust not only to married life but to her new husband's wealthy lifestyle and controlling nature. The paperback edition was first published in April 2012."
+}

@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Glenn Tryon": "PERSON",
+    "American": "NORP",
+    "Juliaetta": "GPE",
+    "Idaho": "GPE",
+    "Jane Frazee": "PERSON",
+    "Timothy Tryon": "PERSON",
+    "Lillian Hall": "PERSON",
+    "Orlando": "GPE",
+    "Florida": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Glenn Tryon",
+      "relation": "born_in",
+      "object": "Juliaetta",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born in",
+          "line_start": 161,
+          "char_start": 173,
+          "ambiguous": false,
+          "relation_mention": "was born in",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Glenn Tryon",
+      "relation": "married_to",
+      "object": "Jane Frazee",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was married to",
+          "line_start": 195,
+          "char_start": 207,
+          "ambiguous": false,
+          "relation_mention": "was married to",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Glenn Tryon",
+      "relation": "married_to",
+      "object": "Lillian Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was also married to",
+          "line_start": 294,
+          "char_start": 306,
+          "ambiguous": false,
+          "relation_mention": "was also married to",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Glenn Tryon",
+      "relation": "died_in",
+      "object": "Orlando",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died on",
+          "line_start": 354,
+          "char_start": 366,
+          "ambiguous": false,
+          "relation_mention": "died on",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Glenn Tryon",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Juliaetta",
+        "located_in",
+        "Idaho"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Glenn Tryon",
+        "parent_of",
+        "Timothy Tryon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Orlando",
+        "located_in",
+        "Florida"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Glenn Tryon\nGlenn Tryon (August 2, 1898 – April 18, 1970) was an American film actor, screenwriter, director and producer. He appeared in 67 films between 1923 and 1951. He was born in Juliaetta, Idaho, and was married to actress Jane Frazee from 1942 to 1947. They had one son, Timothy Tryon. Glenn Tryon was also married to actress Lillian Hall (1896–1959). Tryon died on April 18, 1970 in Orlando, Florida.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Glenn Tryon\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Juliaetta\", \"type\": \"GPE\"},\n    {\"name\": \"Idaho\", \"type\": \"GPE\"},\n    {\"name\": \"Jane Frazee\", \"type\": \"PERSON\"},\n    {\"name\": \"Timothy Tryon\", \"type\": \"PERSON\"},\n    {\"name\": \"Lillian Hall\", \"type\": \"PERSON\"},\n    {\"name\": \"Orlando\", \"type\": \"GPE\"},\n    {\"name\": \"Florida\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Glenn Tryon\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Glenn Tryon\",\n      \"relation\": \"born_in\",\n      \"object\": \"Juliaetta\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Juliaetta\",\n      \"relation\": \"located_in\",\n      \"object\": \"Idaho\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \",\"}\n      ]\n    },\n    {\n      \"subject\": \"Glenn Tryon\",\n      \"relation\": \"married_to\",\n      \"object\": \"Jane Frazee\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was married to\"}\n      ]\n    },\n    {\n      \"subject\": \"Glenn Tryon\",\n      \"relation\": \"parent_of\",\n      \"object\": \"Timothy Tryon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"They had\"}\n      ]\n    },\n    {\n      \"subject\": \"Glenn Tryon\",\n      \"relation\": \"married_to\",\n      \"object\": \"Lillian Hall\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was also married to\"}\n      ]\n    },\n    {\n      \"subject\": \"Glenn Tryon\",\n      \"relation\": \"died_in\",\n      \"object\": \"Orlando\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"died on\"}\n      ]\n    },\n    {\n      \"subject\": \"Orlando\",\n      \"relation\": \"located_in\",\n      \"object\": \"Florida\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \",\"}\n      ]\n    }\n  ]\n}"
+}

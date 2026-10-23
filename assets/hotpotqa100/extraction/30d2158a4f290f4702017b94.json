@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Coronilla": "PRODUCT",
+    "Europe": "GPE",
+    "North Africa": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Coronilla",
+      "relation": "contains",
+      "object": "Europe",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "native to Europe"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Coronilla",
+        "contains",
+        "North Africa"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Coronilla\nThe genus Coronilla contains about 20 species of flowering plants native to Europe and North Africa."
+}

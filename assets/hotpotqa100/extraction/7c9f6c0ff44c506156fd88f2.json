@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Treeing Walker Coonhound": "breed",
+    "English Foxhound": "breed",
+    "American Foxhound": "breed",
+    "Tennessee Lead": "dog",
+    "Walker Hound": "breed",
+    "United Kennel Club": "organization",
+    "American Kennel Club": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Treeing Walker Coonhound",
+      "relation": "descended_from",
+      "object": "English Foxhound",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a breed of hound descended from the English and American Foxhounds."
+        }
+      ]
+    },
+    {
+      "subject": "Treeing Walker Coonhound",
+      "relation": "descended_from",
+      "object": "American Foxhound",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a breed of hound descended from the English and American Foxhounds."
+        }
+      ]
+    },
+    {
+      "subject": "Treeing Walker Coonhound",
+      "relation": "recognized_by",
+      "object": "United Kennel Club",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was recognized officially as a breed by the United Kennel Club in 1945"
+        }
+      ]
+    },
+    {
+      "subject": "Treeing Walker Coonhound",
+      "relation": "recognized_by",
+      "object": "American Kennel Club",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and by the American Kennel Club in 2012."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Treeing Walker Coonhound",
+        "originated_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tennessee Lead",
+        "crossed_into",
+        "Walker Hound"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Treeing Walker Coonhound\nThe Treeing Walker Coonhound is a breed of hound descended from the English and American Foxhounds. The breed originated in the United States when a dog known as \"Tennessee Lead\", was crossed into the Walker Hound in the 19th century. The Treeing Walker Coonhound was recognized officially as a breed by the United Kennel Club in 1945 and by the American Kennel Club in 2012."
+}

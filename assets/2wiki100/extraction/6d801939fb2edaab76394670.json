@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "The Great Dome Robbery": "WORK_OF_ART",
+    "2002": "EVENT",
+    "crime drama film": "WORK_OF_ART",
+    "Gabriel Range": "PERSON",
+    "Millennium Dome raid": "EVENT",
+    "2000": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "The Great Dome Robbery",
+      "relation": "directed_by",
+      "object": "Gabriel Range",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 50,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Great Dome Robbery",
+      "relation": "based_on",
+      "object": "Millennium Dome raid",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 77,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Great Dome Robbery",
+        "is_a",
+        "crime drama film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Great Dome Robbery",
+        "released_in",
+        "2002"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Millennium Dome raid",
+        "occurred_in",
+        "2000"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Great Dome Robbery\nThe Great Dome Robbery is a 2002 crime drama film directed by Gabriel Range, based on the actual Millennium Dome raid of 2000.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Great Dome Robbery\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"2002\", \"type\": \"EVENT\"},\n    {\"name\": \"crime drama film\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Gabriel Range\", \"type\": \"PERSON\"},\n    {\"name\": \"Millennium Dome raid\", \"type\": \"EVENT\"},\n    {\"name\": \"2000\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Great Dome Robbery\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Gabriel Range\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Great Dome Robbery\",\n      \"relation\": \"based_on\",\n      \"object\": \"Millennium Dome raid\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on\"}\n      ]\n    },\n    {\n      \"subject\": \"The Great Dome Robbery\",\n      \"relation\": \"is_a\",\n      \"object\": \"crime drama film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a\"}\n      ]\n    },\n    {\n      \"subject\": \"The Great Dome Robbery\",\n      \"relation\": \"released_in\",\n      \"object\": \"2002\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"2002\"}\n      ]\n    },\n    {\n      \"subject\": \"Millennium Dome raid\",\n      \"relation\": \"occurred_in\",\n      \"object\": \"2000\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"2000\"}\n      ]\n    }\n  ]\n}"
+}

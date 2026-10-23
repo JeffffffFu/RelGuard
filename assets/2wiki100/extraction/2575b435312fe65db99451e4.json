@@ -1,0 +1,164 @@
+{
+  "entities": {
+    "Alexander Korda": "PERSON",
+    "Sándor László Kellner": "PERSON",
+    "Hungary": "GPE",
+    "Austrian": "NORP",
+    "German": "NORP",
+    "Hollywood": "LOC",
+    "María Corda": "PERSON",
+    "London Films": "ORG",
+    "British Lion Films": "ORG",
+    "The Thief of Baghdad": "WORK_OF_ART",
+    "The Third Man": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Alexander Korda",
+      "relation": "born_as",
+      "object": "Sándor László Kellner",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Sir Alexander Korda( born Sándor László Kellner, 16 September 1893 – 23 January 1956)"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "founded",
+      "object": "London Films",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "He was the founder of London Films"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "owned",
+      "object": "British Lion Films",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "the owner of British Lion Films, a film distribution company"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "located_in",
+      "object": "Hungary",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Born in Hungary, where he began his career"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "worked_in",
+      "object": "Austrian",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "he worked briefly in the Austrian and German film industries"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "worked_in",
+      "object": "German",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "he worked briefly in the Austrian and German film industries"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "based_in",
+      "object": "Hollywood",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "being based in Hollywood from 1926 to 1930"
+        }
+      ]
+    },
+    {
+      "subject": "María Corda",
+      "relation": "was_wife_of",
+      "object": "Alexander Korda",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the Hungarian film actress María Corda, who was unable to make the transition"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "3 entities not in the document",
+      "entities": [
+        "The Private Life of Henry VIII (WORK_OF_ART)",
+        "Rembrandt (WORK_OF_ART)",
+        "Things To Come (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "produced",
+        "The Private Life of Henry VIII"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "produced",
+        "Rembrandt"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "produced",
+        "Things To Come"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "produced",
+        "The Thief of Baghdad"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "produced",
+        "The Third Man"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alexander Korda",
+        "received",
+        "knighthood"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Alexander Korda\nSir Alexander Korda( born Sándor László Kellner, 16 September 1893 – 23 January 1956) was a British film producer and director and screenwriter, who founded his own film production studios and film distribution company. Born in Hungary, where he began his career, he worked briefly in the Austrian and German film industries during the era of silent films, before being based in Hollywood from 1926 to 1930 for the first of his two brief periods there( the other was during World War II). The change led to a divorce from his first wife, the Hungarian film actress María Corda, who was unable to make the transition from silent films to\" talkies\" because of her strong Hungarian accent. From 1930, Korda was active in the British film industry, and soon became one of its leading figures. He was the founder of London Films and, post-war, the owner of British Lion Films, a film distribution company. Korda produced many outstanding classics of the British film industry, including\" The Private Life of Henry VIIIRembrandtThings To Come The Thief of Baghdad\" and\" The Third Man\". In 1942, Korda became the first filmmaker to receive a knighthood."
+}

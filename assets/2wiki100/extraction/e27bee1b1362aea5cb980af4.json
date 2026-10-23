@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Apasionadamente": "WORK_OF_ART",
+    "English": "LANGUAGE",
+    "Luis César Amadori": "PERSON",
+    "Enrique Vico Carré": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Apasionadamente",
+      "relation": "directed_by",
+      "object": "Luis César Amadori",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 89,
+          "char_start": 105,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Apasionadamente",
+      "relation": "written_by",
+      "object": "Enrique Vico Carré",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 124,
+          "char_start": 140,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Argentina (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Apasionadamente",
+        "has_english_title",
+        "English"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Apasionadamente",
+        "located_in",
+        "Argentina"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Apasionadamente\nApasionadamente( English language:Passionately) is a 1944 Argentine romantic comedy film directed by Luis César Amadori and written by Enrique Vico Carré.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Apasionadamente\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"English\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Argentina\", \"type\": \"GPE\"},\n    {\"name\": \"Luis César Amadori\", \"type\": \"PERSON\"},\n    {\"name\": \"Enrique Vico Carré\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Apasionadamente\",\n      \"relation\": \"has_english_title\",\n      \"object\": \"English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"English language:Passionately\"}\n      ]\n    },\n    {\n      \"subject\": \"Apasionadamente\",\n      \"relation\": \"located_in\",\n      \"object\": \"Argentina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Argentine\"}\n      ]\n    },\n    {\n      \"subject\": \"Apasionadamente\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Luis César Amadori\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Apasionadamente\",\n      \"relation\": \"written_by\",\n      \"object\": \"Enrique Vico Carré\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    }\n  ]\n}"
+}

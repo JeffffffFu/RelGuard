@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Chris Duesterdiek": "PERSON",
+    "Christopher \"Chris\" Robin Duesterdiek": "PERSON",
+    "The Snow Walker": "WORK_OF_ART",
+    "Elysium": "WORK_OF_ART",
+    "The Interview": "WORK_OF_ART",
+    "The Revenant": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Christopher \"Chris\" Robin Duesterdiek",
+        "is_a",
+        "Chris Duesterdiek"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Christopher \"Chris\" Robin Duesterdiek",
+        "nationality",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Christopher \"Chris\" Robin Duesterdiek",
+        "occupation",
+        "Chris Duesterdiek"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Christopher \"Chris\" Robin Duesterdiek",
+        "worked_on",
+        "The Snow Walker"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Christopher \"Chris\" Robin Duesterdiek",
+        "worked_on",
+        "Elysium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Christopher \"Chris\" Robin Duesterdiek",
+        "worked_on",
+        "The Interview"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Christopher \"Chris\" Robin Duesterdiek",
+        "worked_on",
+        "The Revenant"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Chris Duesterdiek\nChristopher \"Chris\" Robin Duesterdiek is a Canadian sound designer. He is best known for his work on \"The Snow Walker\" (2003), \"Elysium\" (2013), \"The Interview\" (2014) and \"The Revenant\" (2015).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Chris Duesterdiek\", \"type\": \"PERSON\"},\n    {\"name\": \"Christopher \\\"Chris\\\" Robin Duesterdiek\", \"type\": \"PERSON\"},\n    {\"name\": \"Canada\", \"type\": \"GPE\"},\n    {\"name\": \"The Snow Walker\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Elysium\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Interview\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Revenant\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Christopher \\\"Chris\\\" Robin Duesterdiek\",\n      \"relation\": \"is_a\",\n      \"object\": \"Chris Duesterdiek\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Christopher \\\"Chris\\\" Robin Duesterdiek is\"}\n      ]\n    },\n    {\n      \"subject\": \"Christopher \\\"Chris\\\" Robin Duesterdiek\",\n      \"relation\": \"nationality\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Canadian\"}\n      ]\n    },\n    {\n      \"subject\": \"Christopher \\\"Chris\\\" Robin Duesterdiek\",\n      \"relation\": \"occupation\",\n      \"object\": \"Chris Duesterdiek\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Canadian sound designer\"}\n      ]\n    },\n    {\n      \"subject\": \"Christopher \\\"Chris\\\" Robin Duesterdiek\",\n      \"relation\": \"worked_on\",\n      \"object\": \"The Snow Walker\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"work on \\\"The Snow Walker\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Christopher \\\"Chris\\\" Robin Duesterdiek\",\n      \"relation\": \"worked_on\",\n      \"object\": \"Elysium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"work on \\\"Elysium\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Christopher \\\"Chris\\\" Robin Duesterdiek\",\n      \"relation\": \"worked_on\",\n      \"object\": \"The Interview\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"work on \\\"The Interview\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Christopher \\\"Chris\\\" Robin Duesterdiek\",\n      \"relation\": \"worked_on\",\n      \"object\": \"The Revenant\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"work on \\\"The Revenant\\\"\"}\n      ]\n    }\n  ]\n}"
+}

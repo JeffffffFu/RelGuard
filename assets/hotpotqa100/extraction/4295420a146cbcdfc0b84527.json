@@ -1,0 +1,129 @@
+{
+  "entities": {
+    "Baby powder": "PRODUCT",
+    "talcum": "PRODUCT",
+    "talcum powder": "PRODUCT",
+    "corn starch": "PRODUCT",
+    "cornstarch": "PRODUCT",
+    "talc": "PRODUCT",
+    "Pediatricians": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Baby powder",
+      "relation": "may_be_composed_of",
+      "object": "talcum",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "may be composed of",
+          "line_start": 117,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "may be composed of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Baby powder",
+      "relation": "may_be_composed_of",
+      "object": "corn starch",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "may be composed of",
+          "line_start": 117,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "may be composed of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "talcum",
+        "also_called",
+        "talcum powder"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "corn starch",
+        "also_called",
+        "corn starch"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Talcum powder",
+        "is_dangerous_if",
+        "inhaled"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Talcum powder",
+        "may_cause",
+        "aspiration pneumonia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Talcum powder",
+        "may_cause",
+        "granuloma"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pediatricians",
+        "prefer",
+        "cornstarch"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "cornstarch",
+        "is_unlikely_to_be",
+        "easily inhaled"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baby powder",
+        "can_be_used_as",
+        "shampoo"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baby powder",
+        "can_be_used_as",
+        "cleaning agent"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baby powder",
+        "can_be_used_as",
+        "freshener"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Baby powder\nBaby powder is an astringent powder used for preventing diaper rash, as a deodorant, and for other cosmetic uses. It may be composed of talcum (in which case it is also called talcum powder) or corn starch (in which case it is also called corn starch). Talcum powder is dangerous if inhaled since it may cause aspiration pneumonia or granuloma. Pediatricians generally prefer cornstarch to talc because it is unlikely to be easily inhaled. Baby powder can also be used as a shampoo, cleaning agent, and freshener.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Baby powder\", \"type\": \"PRODUCT\"},\n    {\"name\": \"talcum\", \"type\": \"PRODUCT\"},\n    {\"name\": \"talcum powder\", \"type\": \"PRODUCT\"},\n    {\"name\": \"corn starch\", \"type\": \"PRODUCT\"},\n    {\"name\": \"corn starch\", \"type\": \"PRODUCT\"},\n    {\"name\": \"cornstarch\", \"type\": \"PRODUCT\"},\n    {\"name\": \"talc\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Pediatricians\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Baby powder\",\n      \"relation\": \"may_be_composed_of\",\n      \"object\": \"talcum\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"may be composed of\"}\n      ]\n    },\n    {\n      \"subject\": \"Baby powder\",\n      \"relation\": \"may_be_composed_of\",\n      \"object\": \"corn starch\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"may be composed of\"}\n      ]\n    },\n    {\n      \"subject\": \"talcum\",\n      \"relation\": \"also_called\",\n      \"object\": \"talcum powder\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"it is also called talcum powder\"}\n      ]\n    },\n    {\n      \"subject\": \"corn starch\",\n      \"relation\": \"also_called\",\n      \"object\": \"corn starch\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"it is also called corn starch\"}\n      ]\n    },\n    {\n      \"subject\": \"Talcum powder\",\n      \"relation\": \"is_dangerous_if\",\n      \"object\": \"inhaled\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"is dangerous if inhaled\"}\n      ]\n    },\n    {\n      \"subject\": \"Talcum powder\",\n      \"relation\": \"may_cause\",\n      \"object\": \"aspiration pneumonia\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"may cause aspiration pneumonia\"}\n      ]\n    },\n    {\n      \"subject\": \"Talcum powder\",\n      \"relation\": \"may_cause\",\n      \"object\": \"granuloma\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"may cause aspiration pneumonia or granuloma\"}\n      ]\n    },\n    {\n      \"subject\": \"Pediatricians\",\n      \"relation\": \"prefer\",\n      \"object\": \"cornstarch\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"prefer cornstarch to talc\"}\n      ]\n    },\n    {\n      \"subject\": \"cornstarch\",\n      \"relation\": \"is_unlikely_to_be\",\n      \"object\": \"easily inhaled\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"is unlikely to be easily inhaled\"}\n      ]\n    },\n    {\n      \"subject\": \"Baby powder\",\n      \"relation\": \"can_be_used_as\",\n      \"object\": \"shampoo\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"can also be used as a shampoo\"}\n      ]\n    },\n    {\n      \"subject\": \"Baby powder\",\n      \"relation\": \"can_be_used_as\",\n      \"object\": \"cleaning agent\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"can also be used as a shampoo, cleaning agent\"}\n      ]\n    },\n    {\n      \"subject\": \"Baby powder\",\n      \"relation\": \"can_be_used_as\",\n      \"object\": \"freshener\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"and freshener\"}\n      ]\n    }\n  ]\n}"
+}

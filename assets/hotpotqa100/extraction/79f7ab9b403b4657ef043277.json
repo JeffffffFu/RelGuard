@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Dragon Ball Z: Battle of Gods": "WORK_OF_ART",
+    "Dragon Ball": "WORK_OF_ART",
+    "Dragon Ball Z": "WORK_OF_ART",
+    "Toei Anime Fair": "EVENT",
+    "Toei Manga Matsuri": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Dragon Ball Z: Battle of Gods",
+      "relation": "based_on",
+      "object": "Dragon Ball",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 184,
+          "char_start": 214,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Dragon Ball Z: Battle of Gods",
+      "relation": "carries_branding",
+      "object": "Dragon Ball Z",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to carry the \"Dragon Ball Z\" branding",
+          "line_start": 237,
+          "char_start": 267,
+          "ambiguous": false,
+          "relation_mention": "to carry the \"Dragon Ball Z\" branding",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Dragon Ball Z: Battle of Gods",
+      "relation": "was_shown_as_part_of",
+      "object": "Toei Anime Fair",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "not shown as part of the now-discontinued Toei Anime Fair (formerly the Toei Manga Matsuri)",
+          "line_start": 633,
+          "char_start": 663,
+          "ambiguous": false,
+          "relation_mention": "not shown as part of the now-discontinued Toei Anime Fair (formerly the Toei Manga Matsuri)",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Toei Anime Fair",
+      "relation": "formerly_known_as",
+      "object": "Toei Manga Matsuri",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "formerly the Toei Manga Matsuri",
+          "line_start": 692,
+          "char_start": 722,
+          "ambiguous": false,
+          "relation_mention": "formerly the Toei Manga Matsuri",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Japan (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Dragon Ball Z: Battle of Gods",
+        "located_in",
+        "Japan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dragon Ball Z: Battle of Gods",
+        "released_in",
+        "Japan"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Dragon Ball Z: Battle of Gods\nDragon Ball Z: Battle of Gods (Japanese: ドラゴンボールZ 神と神 , Hepburn: Doragon Bōru Zetto: Kami to Kami , lit. \"Dragon Ball Z: God and God\") is the eighteenth Japanese animated feature film based on the \"Dragon Ball\" series and the fourteenth to carry the \"Dragon Ball Z\" branding, released in theaters on March 30, 2013. It is the first \"Dragon Ball\" movie in 17 years to have a theatrical release, the last being in 1996, which followed the first three \"Dragon Ball\" films and the thirteen \"Dragon Ball Z\" films. Unlike previous theatrical \"Dragon Ball\" releases, this was a full feature-length production with a stand-alone release and not shown as part of the now-discontinued Toei Anime Fair (formerly the Toei Manga Matsuri)."
+}

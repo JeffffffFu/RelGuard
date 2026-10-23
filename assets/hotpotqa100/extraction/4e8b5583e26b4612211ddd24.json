@@ -1,0 +1,27 @@
+{
+  "entities": {
+    "LeAnn Rimes": "PERSON",
+    "LeAnn Rimes (album)": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "LeAnn Rimes (album)",
+        "is_eponymous_album_of",
+        "LeAnn Rimes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes (album)",
+        "released_in",
+        "1999"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "LeAnn Rimes (album)\nLeAnn Rimes is the eponymous fourth studio album by LeAnn Rimes, released in 1999.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"LeAnn Rimes\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"LeAnn Rimes (album)\",\n      \"type\": \"WORK_OF_ART\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"LeAnn Rimes (album)\",\n      \"relation\": \"is_eponymous_album_of\",\n      \"object\": \"LeAnn Rimes\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is the eponymous fourth studio album by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"LeAnn Rimes (album)\",\n      \"relation\": \"released_in\",\n      \"object\": \"1999\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"released in\"\n        }\n      ]\n    }\n  ]\n}"
+}

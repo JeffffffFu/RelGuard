@@ -1,0 +1,120 @@
+{
+  "entities": {
+    "Anvil firing": "EVENT",
+    "USA": "GPE",
+    "UK": "GPE",
+    "Anvil": "PRODUCT",
+    "gunpowder": "PRODUCT",
+    "black powder": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Anvil firing",
+      "relation": "located_in",
+      "object": "USA",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the USA",
+          "line_start": 25,
+          "char_start": 38,
+          "ambiguous": false,
+          "relation_mention": "in the USA",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anvil firing",
+      "relation": "located_in",
+      "object": "UK",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "In the UK",
+          "line_start": 159,
+          "char_start": 172,
+          "ambiguous": false,
+          "relation_mention": "In the UK",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Anvil firing",
+      "relation": "uses",
+      "object": "gunpowder",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "with gunpowder",
+          "line_start": 143,
+          "char_start": 156,
+          "ambiguous": false,
+          "relation_mention": "with gunpowder",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anvil firing",
+      "relation": "uses",
+      "object": "black powder",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "black powder is filled onto the top of the Anvil and ignited",
+          "line_start": 183,
+          "char_start": 196,
+          "ambiguous": false,
+          "relation_mention": "black powder is filled onto the top of the Anvil and ignited",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Anvil firing",
+      "relation": "acts_on",
+      "object": "Anvil",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "firing an anvil into the air",
+          "line_start": 114,
+          "char_start": 127,
+          "ambiguous": false,
+          "relation_mention": "firing an anvil into the air",
+          "sentence_id": 1
+        },
+        {
+          "line": 2,
+          "predicate": "black powder is filled onto the top of the Anvil and ignited",
+          "line_start": 183,
+          "char_start": 196,
+          "ambiguous": false,
+          "relation_mention": "black powder is filled onto the top of the Anvil and ignited",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Anvil firing",
+        "also_known_as",
+        "anvil launching"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anvil firing",
+        "also_known_as",
+        "anvil shooting"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Anvil firing\nAnvil firing (also known in the USA as an \"anvil launching\" or an \"anvil shooting\") in the USA is the practice of firing an anvil into the air with gunpowder. In the UK this is where black powder is filled onto the top of the Anvil and ignited. If the Anvil did not shatter it was deemed safe to use."
+}

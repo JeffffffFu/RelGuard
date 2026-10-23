@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Christ Walking on the Water": "WORK_OF_ART",
+    "Georges Méliès": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Christ Walking on the Water",
+      "relation": "directed_by",
+      "object": "Georges Méliès",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Georges Méliès"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "France (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Christ Walking on the Water",
+        "located_in",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Christ Walking on the Water\nChrist Walking on the Water is an 1899 French short silent film directed by Georges Méliès."
+}

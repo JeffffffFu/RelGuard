@@ -1,0 +1,138 @@
+{
+  "entities": {
+    "Harold Becker": "PERSON",
+    "New York": "GPE",
+    "New Hollywood": "NORP",
+    "Mercury Rising": "WORK_OF_ART",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Harold Becker",
+      "relation": "associated_with",
+      "object": "New Hollywood",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "associated with",
+          "line_start": 127,
+          "char_start": 141,
+          "ambiguous": false,
+          "relation_mention": "associated with",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Harold Becker",
+      "relation": "created",
+      "object": "Mercury Rising",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "includes",
+          "line_start": 238,
+          "char_start": 252,
+          "ambiguous": false,
+          "relation_mention": "includes",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "6 entities not in the document",
+      "entities": [
+        "The Onion Field (WORK_OF_ART)",
+        "Taps (WORK_OF_ART)",
+        "The Boost (WORK_OF_ART)",
+        "Sea of Love (WORK_OF_ART)",
+        "Malice (WORK_OF_ART)",
+        "City Hall (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "born_on",
+        "Harold Becker"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "known_for",
+        "thriller"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "The Onion Field"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "Taps"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "The Boost"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "Sea of Love"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "Malice"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "City Hall"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "has_nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Harold Becker\nHarold Becker( born September 25, 1928) is an American film and television director, producer, and photographer from New York, associated with the New Hollywood movement and best known for his work in the thriller genre. His body of work includes films like\" The Onion FieldTaps The BoostSea of LoveMaliceCity Hall\" and\" Mercury Rising\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Harold Becker\", \"type\": \"PERSON\"},\n    {\"name\": \"New York\", \"type\": \"GPE\"},\n    {\"name\": \"New Hollywood\", \"type\": \"NORP\"},\n    {\"name\": \"The Onion Field\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Taps\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Boost\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Sea of Love\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Malice\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"City Hall\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Mercury Rising\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"born_on\",\n      \"object\": \"Harold Becker\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"born\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"from\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"associated_with\",\n      \"object\": \"New Hollywood\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"associated with\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"known_for\",\n      \"object\": \"thriller\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"best known for\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"created\",\n      \"object\": \"The Onion Field\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"includes\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"created\",\n      \"object\": \"Taps\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"includes\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"created\",\n      \"object\": \"The Boost\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"includes\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"created\",\n      \"object\": \"Sea of Love\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"includes\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"created\",\n      \"object\": \"Malice\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"includes\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"created\",\n      \"object\": \"City Hall\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"includes\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"created\",\n      \"object\": \"Mercury Rising\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"includes\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harold Becker\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is an American\"\n        }\n      ]\n    }\n  ]\n}"
+}

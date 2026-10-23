@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Aqua": "band",
+    "Barbie Girl": "song",
+    "Aquarium": "album",
+    "Aquarius": "album",
+    "Megalomania": "album"
+  },
+  "triples": [
+    {
+      "subject": "Aqua",
+      "relation": "best_known_for",
+      "object": "Barbie Girl",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for their 1997 breakthrough single \"Barbie Girl\""
+        }
+      ]
+    },
+    {
+      "subject": "Aqua",
+      "relation": "released",
+      "object": "Aquarium",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The group released three albums: \"Aquarium\" in 1997"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Aqua",
+        "formed_in",
+        "1989"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aqua",
+        "released",
+        "Aquarius"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Aqua",
+        "released",
+        "Megalomania"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Aqua",
+        "sold",
+        "33 million albums and singles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aqua",
+        "most_profitable",
+        "Danish band"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Aqua (band)\nAqua is a Danish eurodance group, best known for their 1997 breakthrough single \"Barbie Girl\". The group formed in 1989 and achieved huge success around the globe in the late 1990s and early 2000s. The group released three albums: \"Aquarium\" in 1997, \"Aquarius\" in 2000 and \"Megalomania\" in 2011. The group sold an estimated 33 million albums and singles, making them the most profitable Danish band ever."
+}

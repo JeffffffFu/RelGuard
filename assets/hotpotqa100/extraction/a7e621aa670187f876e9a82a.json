@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Ashes and Light": "WORK_OF_ART",
+    "Mark Heard": "PERSON",
+    "Home Sweet Home Records": "ORG",
+    "Mosaics": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Ashes and Light",
+      "relation": "is_an_album_by",
+      "object": "Mark Heard",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is an album by",
+          "line_start": 16,
+          "char_start": 32,
+          "ambiguous": false,
+          "relation_mention": "is an album by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ashes and Light",
+        "released_on",
+        "Home Sweet Home Records"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Heard",
+        "recorded_first",
+        "Mosaics"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ashes and Light\nAshes and Light is an album by Mark Heard, released in 1984 on Home Sweet Home Records. According to the liner notes, Heard recorded Mosaics first, but the record company wanted this album released first."
+}

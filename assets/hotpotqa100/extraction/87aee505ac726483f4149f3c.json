@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Hätteberget": "FAC",
+    "Marstrand": "GPE",
+    "Tjörn": "GPE",
+    "Pater Noster Lighthouse": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Hätteberget",
+      "relation": "situated_west_of",
+      "object": "Marstrand",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "situated in the sea west of Marstrand"
+        }
+      ]
+    },
+    {
+      "subject": "Hätteberget",
+      "relation": "situated_south_of",
+      "object": "Tjörn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "south of Tjörn"
+        }
+      ]
+    },
+    {
+      "subject": "Hätteberget",
+      "relation": "replaced",
+      "object": "Pater Noster Lighthouse",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "as a replacement for the old Pater Noster Lighthouse"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Sweden (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Hätteberget",
+        "located_in",
+        "Sweden"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Hätteberget\nHätteberget is the name of a Swedish docking lighthouse situated in the sea west of Marstrand and south of Tjörn. It was built in 1977 as a replacement for the old Pater Noster Lighthouse. The lighthouse is a 26 metre high concrete tower with helicopter landing. It is painted with a red belt and has a gray cap on top. The light from the white sector can reach 21.5 nmi ."
+}

@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Jonathan Michael Gunn": "Person",
+    "American independent film director": "Occupation",
+    "screenwriter": "Occupation",
+    "Independent film industry": "Industry"
+  },
+  "triples": [
+    {
+      "subject": "Jonathan Michael Gunn",
+      "relation": "is",
+      "object": "American independent film director",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Jonathan Michael Gunn is an American independent film director"
+        }
+      ]
+    },
+    {
+      "subject": "Jonathan Michael Gunn",
+      "relation": "best_known_for",
+      "object": "Independent film industry",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his work in the Independent film industry"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jonathan Michael Gunn",
+        "is",
+        "screenwriter"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Jon Gunn\nJonathan Michael Gunn is an American independent film director and screenwriter best known for his work in the Independent film industry."
+}

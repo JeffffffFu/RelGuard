@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Verrit": "website",
+    "Hillary Clinton": "person",
+    "Daou": "person",
+    "Shareblue": "company",
+    "Business Insider": "publication"
+  },
+  "triples": [
+    {
+      "subject": "Daou",
+      "relation": "adviser_to",
+      "object": "Hillary Clinton",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "an adviser to Clinton's 2008 presidential campaign"
+        }
+      ]
+    },
+    {
+      "subject": "Daou",
+      "relation": "prior_ceo_of",
+      "object": "Shareblue",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and prior chief executive of Shareblue"
+        }
+      ]
+    },
+    {
+      "subject": "Daou",
+      "relation": "intended",
+      "object": "Verrit",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "that he intended the website to \"reflect the worldview\" of those who voted for Clinton"
+        }
+      ]
+    },
+    {
+      "subject": "Verrit",
+      "relation": "has_no_financial_ties_to",
+      "object": "Hillary Clinton",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the website had no financial ties to Clinton"
+        }
+      ]
+    },
+    {
+      "subject": "Daou",
+      "relation": "told",
+      "object": "Business Insider",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "told \"Business Insider\" that he intended the website to \"reflect the worldview\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Verrit",
+        "described_as",
+        "online hub for Clinton backers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hillary Clinton",
+        "won",
+        "65.8 million votes"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Verrit\nThe website's slogan says it is \"media for the 65.8 million,\" referring to the number of votes Hillary Clinton won in the 2016 presidential election. Daou, an adviser to Clinton's 2008 presidential campaign, and prior chief executive of Shareblue told \"Business Insider\" that he intended the website to \"reflect the worldview\" of those who voted for Clinton and described the site as an \"online hub for Clinton backers so that they can find easy-to-share facts, stats and other information you can take out to social media when you’re having debates on key issues people are discussing\". Daou also said the website had no financial ties to Clinton."
+}

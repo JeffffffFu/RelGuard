@@ -1,0 +1,127 @@
+{
+  "entities": {
+    "Primer (firearm)": "WORK_OF_ART",
+    "firearm ballistics": "WORK_OF_ART",
+    "primer": "PRODUCT",
+    "pistol": "PRODUCT",
+    "rifle": "PRODUCT",
+    "cartridges": "PRODUCT",
+    "shotgun shells": "PRODUCT",
+    "black powder": "PRODUCT",
+    "gun barrel": "PRODUCT",
+    "main charge": "PRODUCT",
+    "ignition source": "PRODUCT",
+    "slow match": "PRODUCT",
+    "flintlock": "PRODUCT",
+    "external flash pan": "PRODUCT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Primer (firearm)",
+        "is_a",
+        "primer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "primer",
+        "is_a",
+        "component"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "primer",
+        "component_of",
+        "pistol"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "primer",
+        "component_of",
+        "rifle"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "primer",
+        "component_of",
+        "cartridges"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "primer",
+        "component_of",
+        "shotgun shells"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Early primers",
+        "were",
+        "black powder"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "black powder",
+        "was_poured_into",
+        "external flash pan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "external flash pan",
+        "could_be_ignited_by",
+        "ignition source"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "ignition source",
+        "such_as",
+        "slow match"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "ignition source",
+        "such_as",
+        "flintlock"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "external flash pan",
+        "was_connected_through",
+        "gun barrel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "gun barrel",
+        "led_to",
+        "main charge"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Primer (firearm)\nIn firearm ballistics, the primer ( ) is a component of pistol and rifle cartridges, as well as shotgun shells. Early primers were simply the same black powder used to fire the weapon but poured into an external flash pan where it could be ignited by an ignition source such as a slow match or a flintlock. This external powder was connected through a small opening at the rear of the gun barrel that led to the main charge. As powder will not burn when wet, this made it difficult, or even impossible, to fire these types of weapons in rainy or humid conditions.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Primer (firearm)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"firearm ballistics\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"primer\", \"type\": \"PRODUCT\"},\n    {\"name\": \"pistol\", \"type\": \"PRODUCT\"},\n    {\"name\": \"rifle\", \"type\": \"PRODUCT\"},\n    {\"name\": \"cartridges\", \"type\": \"PRODUCT\"},\n    {\"name\": \"shotgun shells\", \"type\": \"PRODUCT\"},\n    {\"name\": \"black powder\", \"type\": \"PRODUCT\"},\n    {\"name\": \"gun barrel\", \"type\": \"PRODUCT\"},\n    {\"name\": \"main charge\", \"type\": \"PRODUCT\"},\n    {\"name\": \"ignition source\", \"type\": \"PRODUCT\"},\n    {\"name\": \"slow match\", \"type\": \"PRODUCT\"},\n    {\"name\": \"flintlock\", \"type\": \"PRODUCT\"},\n    {\"name\": \"external flash pan\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Primer (firearm)\",\n      \"relation\": \"is_a\",\n      \"object\": \"primer\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Primer (firearm)\"}\n      ]\n    },\n    {\n      \"subject\": \"primer\",\n      \"relation\": \"is_a\",\n      \"object\": \"component\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a component of\"}\n      ]\n    },\n    {\n      \"subject\": \"primer\",\n      \"relation\": \"component_of\",\n      \"object\": \"pistol\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"component of\"}\n      ]\n    },\n    {\n      \"subject\": \"primer\",\n      \"relation\": \"component_of\",\n      \"object\": \"rifle\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"component of\"}\n      ]\n    },\n    {\n      \"subject\": \"primer\",\n      \"relation\": \"component_of\",\n      \"object\": \"cartridges\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"component of\"}\n      ]\n    },\n    {\n      \"subject\": \"primer\",\n      \"relation\": \"component_of\",\n      \"object\": \"shotgun shells\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"component of\"}\n      ]\n    },\n    {\n      \"subject\": \"Early primers\",\n      \"relation\": \"were\",\n      \"object\": \"black powder\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"were simply the same black powder\"}\n      ]\n    },\n    {\n      \"subject\": \"black powder\",\n      \"relation\": \"was_poured_into\",\n      \"object\": \"external flash pan\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"poured into an external flash pan\"}\n      ]\n    },\n    {\n      \"subject\": \"external flash pan\",\n      \"relation\": \"could_be_ignited_by\",\n      \"object\": \"ignition source\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"could be ignited by an ignition source\"}\n      ]\n    },\n    {\n      \"subject\": \"ignition source\",\n      \"relation\": \"such_as\",\n      \"object\": \"slow match\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"such as a slow match\"}\n      ]\n    },\n    {\n      \"subject\": \"ignition source\",\n      \"relation\": \"such_as\",\n      \"object\": \"flintlock\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"or a flintlock\"}\n      ]\n    },\n    {\n      \"subject\": \"external flash pan\",\n      \"relation\": \"was_connected_through\",\n      \"object\": \"gun barrel\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"was connected through a small opening at the rear of the gun barrel\"}\n      ]\n    },\n    {\n      \"subject\": \"gun barrel\",\n      \"relation\": \"led_to\",\n      \"object\": \"main charge\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"that led to the main charge\"}\n      ]\n    }\n  ]\n}"
+}

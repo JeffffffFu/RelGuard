@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Derek Dooley": "Person",
+    "Dallas Cowboys": "Organization",
+    "National Football League": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Derek Dooley",
+      "relation": "works_for",
+      "object": "Dallas Cowboys",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "wide receivers coach for the Dallas Cowboys"
+        }
+      ]
+    },
+    {
+      "subject": "Dallas Cowboys",
+      "relation": "located_in",
+      "object": "National Football League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Dallas Cowboys of the National Football League (NFL)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Derek Dooley",
+        "born_on",
+        "June 10, 1968"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Derek Dooley (American football)\nDerek Dooley (born June 10, 1968) is an American football coach and former player. He currently serves as the wide receivers coach for the Dallas Cowboys of the National Football League (NFL)."
+}

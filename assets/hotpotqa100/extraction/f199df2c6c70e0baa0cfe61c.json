@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "Journal of Creating Value": "WORK_OF_ART",
+    "Gautam Mahajan": "PERSON",
+    "Customer Value Foundation": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Journal of Creating Value",
+        "founded_by",
+        "Gautam Mahajan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gautam Mahajan",
+        "works_for",
+        "Customer Value Foundation"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Journal of Creating Value\nThe Journal of Creating Value is a peer reviewed academic journal that focusses on creating value for customers and in turn creating value for the company and its stakeholders. Gautam Mahajan, CEO Customer Value Foundation is the founding editor of the Journal.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Journal of Creating Value\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Gautam Mahajan\", \"type\": \"PERSON\"},\n    {\"name\": \"Customer Value Foundation\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Journal of Creating Value\",\n      \"relation\": \"founded_by\",\n      \"object\": \"Gautam Mahajan\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is the founding editor of the Journal\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Gautam Mahajan\",\n      \"relation\": \"works_for\",\n      \"object\": \"Customer Value Foundation\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"CEO Customer Value Foundation\"\n        }\n      ]\n    }\n  ]\n}"
+}

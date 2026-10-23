@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "WVNH": "ORG",
+    "Concord": "GPE",
+    "New Hampshire": "GPE",
+    "United States": "GPE",
+    "New Hampshire Gospel Radio, Inc.": "ORG",
+    "WANH": "ORG",
+    "Meredith": "GPE",
+    "Lakes Region": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "WVNH",
+      "relation": "licensed_to",
+      "object": "Concord",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Licensed to Concord"
+        }
+      ]
+    },
+    {
+      "subject": "WVNH",
+      "relation": "located_in",
+      "object": "New Hampshire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Licensed to Concord, New Hampshire"
+        }
+      ]
+    },
+    {
+      "subject": "WVNH",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Licensed to Concord, New Hampshire, United States"
+        }
+      ]
+    },
+    {
+      "subject": "WVNH",
+      "relation": "serves",
+      "object": "Concord",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the station serves the Concord area"
+        }
+      ]
+    },
+    {
+      "subject": "WVNH",
+      "relation": "owned_by",
+      "object": "New Hampshire Gospel Radio, Inc.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The station is currently owned by New Hampshire Gospel Radio, Inc."
+        }
+      ]
+    },
+    {
+      "subject": "New Hampshire Gospel Radio, Inc.",
+      "relation": "owns",
+      "object": "WVNH",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The station is currently owned by New Hampshire Gospel Radio, Inc."
+        }
+      ]
+    },
+    {
+      "subject": "WVNH",
+      "relation": "simulcast_on",
+      "object": "WANH",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Programming is simulcast on WANH (91.5 FM)"
+        }
+      ]
+    },
+    {
+      "subject": "WANH",
+      "relation": "located_in",
+      "object": "Meredith",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Meredith, serving the Lakes Region"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "WVNH",
+        "broadcasting_format",
+        "Christian radio format"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "WVNH\nWVNH (91.1 FM) is a radio station broadcasting a Christian radio format. Licensed to Concord, New Hampshire, United States, the station serves the Concord area. The station is currently owned by New Hampshire Gospel Radio, Inc. Programming is simulcast on WANH (91.5 FM) in Meredith, serving the Lakes Region."
+}

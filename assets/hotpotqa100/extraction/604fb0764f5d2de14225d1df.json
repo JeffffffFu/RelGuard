@@ -1,0 +1,110 @@
+{
+  "entities": {
+    "Schmidt Field House": "location",
+    "Xavier University": "organization",
+    "Cincinnati": "location",
+    "Walter Schmidt": "person",
+    "St. Xavier College": "organization",
+    "Schmidt Hall": "location"
+  },
+  "triples": [
+    {
+      "subject": "Schmidt Field House",
+      "relation": "located_in",
+      "object": "Xavier University",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Schmidt Field House is an on-campus arena at Xavier University"
+        }
+      ]
+    },
+    {
+      "subject": "Schmidt Field House",
+      "relation": "located_in",
+      "object": "Cincinnati",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at Xavier University in Cincinnati, Ohio"
+        }
+      ]
+    },
+    {
+      "subject": "Schmidt Field House",
+      "relation": "named_for",
+      "object": "Walter Schmidt",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "It is named for Walter Schmidt"
+        }
+      ]
+    },
+    {
+      "subject": "Walter Schmidt",
+      "relation": "benefactor_to",
+      "object": "St. Xavier College",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "a benefactor to then-St. Xavier College"
+        }
+      ]
+    },
+    {
+      "subject": "Walter Schmidt",
+      "relation": "donated_money_for",
+      "object": "Schmidt Hall",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "who also donated money for Schmidt Hall"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Schmidt Field House",
+        "built_in",
+        "1927"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Schmidt Field House",
+        "opened_on",
+        "March 7, 1928"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Walter Schmidt",
+        "class_of",
+        "1905"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Schmidt Hall",
+        "formerly",
+        "the library"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Schmidt Hall",
+        "now",
+        "the President's office"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Schmidt Field House\nSchmidt Field House is an on-campus arena at Xavier University in Cincinnati, Ohio. It was built in 1927 and opened on March 7, 1928 with a win against archrival Cincinnati. It is named for Walter Schmidt, Class of 1905, a benefactor to then-St. Xavier College who also donated money for Schmidt Hall (formerly the library, now the President's office) on campus."
+}

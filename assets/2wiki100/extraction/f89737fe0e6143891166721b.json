@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Wale Adebanwi": "Person",
+    "St Antony's College": "Organization",
+    "Oxford": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Wale Adebanwi",
+      "relation": "affiliated_with",
+      "object": "St Antony's College",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at St Antony's College"
+        }
+      ]
+    },
+    {
+      "subject": "St Antony's College",
+      "relation": "located_in",
+      "object": "Oxford",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at St Antony's College, Oxford"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wale Adebanwi",
+        "born_in",
+        "Nigeria"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wale Adebanwi",
+        "holds_position",
+        "Black Rhodes Professor"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Wale Adebanwi\nWale Adebanwi( born 1969) is a Nigerian- born first Black Rhodes Professor at St Antony's College, Oxford."
+}

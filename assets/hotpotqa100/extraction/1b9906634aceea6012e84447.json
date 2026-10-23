@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "MrJims.Pizza": "Organization",
+    "Jim Johnson": "Person",
+    "Detroit": "Location",
+    "Michigan": "Location",
+    "Farmers Branch": "Location",
+    "Texas": "Location",
+    "Louisiana": "Location",
+    "North Carolina": "Location",
+    "Nevada": "Location",
+    "Wyoming": "Location",
+    "Nacho Stix": "Product"
+  },
+  "triples": [
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "based_in",
+      "object": "Farmers Branch",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Farmers Branch, Texas"
+        }
+      ]
+    },
+    {
+      "subject": "Jim Johnson",
+      "relation": "opened",
+      "object": "MrJims.Pizza",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Jim Johnson opened the first restaurant"
+        }
+      ]
+    },
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "located_in",
+      "object": "Texas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the majority located in northern Texas"
+        }
+      ]
+    },
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "located_in",
+      "object": "Louisiana",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "42 locations in Louisiana"
+        }
+      ]
+    },
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "introduced",
+      "object": "Nacho Stix",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "MrJims.Pizza introduced a unique new item, Nacho Stix"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "MrJims.Pizza",
+        "located_in",
+        "North Carolina"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "MrJims.Pizza",
+        "located_in",
+        "Nevada"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "MrJims.Pizza",
+        "located_in",
+        "Wyoming"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Nacho Stix",
+        "became",
+        "bestsellers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "MrJims.Pizza",
+        "lead_to",
+        "resurgence"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mr. Jim's Pizza\nMrJims.Pizza is a U.S. chain of pizza restaurants based in Farmers Branch, Texas. Jim Johnson opened the first restaurant in Detroit, Michigan in 1975. There are currently 42 locations in Louisiana, Texas, North Carolina, Nevada and Wyoming, with the majority located in northern Texas. MrJims.Pizza is widely known for their crust. Their hand stretched pizza dough is made fresh in the store daily from flour containing 100% spring wheat. Every single MrJims.Pizza franchise has online ordering capabilities. In 2006, MrJims.Pizza introduced a unique new item, Nacho Stix, to their menu. It quickly became one of their bestsellers, and lead to a resurgence in the popularity of MrJims."
+}

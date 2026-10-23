@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Williamtown": "Location",
+    "RAAF Base Williamtown": "Location",
+    "New South Wales": "Location",
+    "Australia": "Location",
+    "PFAS": "Chemical",
+    "firefighting foam": "Product"
+  },
+  "triples": [
+    {
+      "subject": "PFAS",
+      "relation": "used_in",
+      "object": "firefighting foam",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "used in firefighting foam"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Williamtown",
+        "refers_to",
+        "Williamtown chemical contamination"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Williamtown chemical contamination",
+        "occurs_around",
+        "RAAF Base Williamtown"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Williamtown chemical contamination",
+        "is_located_in",
+        "New South Wales"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Williamtown chemical contamination",
+        "is_located_in",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Williamtown chemical contamination",
+        "caused_by",
+        "PFAS"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Williamtown chemical contamination\nWilliamtown chemical contamination refers to the ongoing health problems occurring around RAAF Base Williamtown in Williamtown, New South Wales, Australia. Contamination is by per- and poly-fluoroalkyl substances (PFAS) used in firefighting foam."
+}

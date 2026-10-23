@@ -1,0 +1,124 @@
+{
+  "entities": {
+    "Triple Crown of Acting": "EVENT",
+    "American": "NORP",
+    "Academy Award": "WORK_OF_ART",
+    "Emmy Award": "WORK_OF_ART",
+    "Tony Award": "WORK_OF_ART",
+    "Helen Hayes": "PERSON",
+    "Thomas Mitchell": "PERSON",
+    "Rita Moreno": "PERSON",
+    "Grammy Award": "WORK_OF_ART",
+    "EGOT": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Triple Crown of Acting",
+      "relation": "is_a_term_used_in",
+      "object": "American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a term used in",
+          "line_start": 27,
+          "char_start": 50,
+          "ambiguous": false,
+          "relation_mention": "is a term used in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Helen Hayes",
+      "relation": "achieved",
+      "object": "Triple Crown of Acting",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "achieve the triple crown",
+          "line_start": 343,
+          "char_start": 366,
+          "ambiguous": true,
+          "relation_mention": "achieve the triple crown",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Triple Crown of Acting",
+        "describes",
+        "actors"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Triple Crown of Acting",
+        "includes_award",
+        "Academy Award"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Triple Crown of Acting",
+        "includes_award",
+        "Emmy Award"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Triple Crown of Acting",
+        "includes_award",
+        "Tony Award"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Helen Hayes",
+        "won",
+        "Emmy Award"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thomas Mitchell",
+        "became_first_man_to_achieve",
+        "Triple Crown of Acting"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thomas Mitchell",
+        "won",
+        "Tony Award"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hayes and Rita Moreno",
+        "have_won",
+        "Grammy Award"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hayes and Rita Moreno",
+        "completed",
+        "EGOT"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Triple Crown of Acting\nThe Triple Crown of Acting is a term used in the American entertainment industry to describe actors who have won a competitive Academy Award, Emmy Award, and Tony Award in the acting categories. 23 people have achieved the triple crown of acting (14 women, 9 men). Helen Hayes' Emmy Award win on February 5, 1953, made her the first person to achieve the triple crown. Thomas Mitchell became the first man to achieve the triple crown with his Tony Award win later the same year on March 29, 1953. Hayes and Rita Moreno are the only triple crown winners in competitive acting categories who have also won a Grammy Award to complete the EGOT.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Triple Crown of Acting\", \"type\": \"EVENT\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Academy Award\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Emmy Award\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Tony Award\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Helen Hayes\", \"type\": \"PERSON\"},\n    {\"name\": \"Thomas Mitchell\", \"type\": \"PERSON\"},\n    {\"name\": \"Rita Moreno\", \"type\": \"PERSON\"},\n    {\"name\": \"Grammy Award\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"EGOT\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Triple Crown of Acting\",\n      \"relation\": \"is_a_term_used_in\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a term used in\"}\n      ]\n    },\n    {\n      \"subject\": \"Triple Crown of Acting\",\n      \"relation\": \"describes\",\n      \"object\": \"actors\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to describe\"}\n      ]\n    },\n    {\n      \"subject\": \"Triple Crown of Acting\",\n      \"relation\": \"includes_award\",\n      \"object\": \"Academy Award\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Academy Award\"}\n      ]\n    },\n    {\n      \"subject\": \"Triple Crown of Acting\",\n      \"relation\": \"includes_award\",\n      \"object\": \"Emmy Award\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Emmy Award\"}\n      ]\n    },\n    {\n      \"subject\": \"Triple Crown of Acting\",\n      \"relation\": \"includes_award\",\n      \"object\": \"Tony Award\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Tony Award\"}\n      ]\n    },\n    {\n      \"subject\": \"Helen Hayes\",\n      \"relation\": \"won\",\n      \"object\": \"Emmy Award\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Emmy Award win\"}\n      ]\n    },\n    {\n      \"subject\": \"Helen Hayes\",\n      \"relation\": \"achieved\",\n      \"object\": \"Triple Crown of Acting\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"achieve the triple crown\"}\n      ]\n    },\n    {\n      \"subject\": \"Thomas Mitchell\",\n      \"relation\": \"became_first_man_to_achieve\",\n      \"object\": \"Triple Crown of Acting\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became the first man to achieve the triple crown\"}\n      ]\n    },\n    {\n      \"subject\": \"Thomas Mitchell\",\n      \"relation\": \"won\",\n      \"object\": \"Tony Award\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Tony Award win\"}\n      ]\n    },\n    {\n      \"subject\": \"Hayes and Rita Moreno\",\n      \"relation\": \"have_won\",\n      \"object\": \"Grammy Award\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"have also won a Grammy Award\"}\n      ]\n    },\n    {\n      \"subject\": \"Hayes and Rita Moreno\",\n      \"relation\": \"completed\",\n      \"object\": \"EGOT\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to complete the EGOT\"}\n      ]\n    }\n  ]\n}"
+}

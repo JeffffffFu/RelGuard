@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "Dimash Kudaibergen": "Person",
+    "Dinmukhamed Kanatuly Kudaibergen": "Person",
+    "Kanat Kudaibergenovich": "Person",
+    "Svetlana Aitbayeva": "Person",
+    "Kazakhstan": "Location",
+    "Vitebsk": "Location",
+    "Turkey": "Location",
+    "Slavianski Bazaar": "Event",
+    "ABU TV song": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Dinmukhamed Kanatuly Kudaibergen",
+      "relation": "born_in",
+      "object": "Kazakhstan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born on May 24, 1994 in Aktobe, Kazakhstan"
+        }
+      ]
+    },
+    {
+      "subject": "Dimash Kudaibergen",
+      "relation": "won",
+      "object": "Slavianski Bazaar",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the 2015 Grand Prix winner of the Slavianski Bazaar"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Dimash Kudaibergen",
+        "is_a",
+        "tenor altino"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dimash Kudaibergen",
+        "participated_in",
+        "ABU TV song"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Dimash Kudaibergen",
+        "awarded_with",
+        "Certificate of Honor of the President of the Republic of Kazakhstan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dimash Kudaibergen",
+        "placed",
+        "second"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dimash Kudaibergen",
+        "parents",
+        "Kanat Kudaibergenovich and Svetlana Aitbayeva"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kanat Kudaibergenovich",
+        "is_a",
+        "honored music artist"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Svetlana Aitbayeva",
+        "is_a",
+        "honored music artist"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Dimash Kudaibergen\nDinmukhamed Kanatuly Kudaibergen () is a Kazakh singer born on May 24, 1994 in Aktobe, Kazakhstan. Dimash's parents Kanat Kudaibergenovich and Svetlana Aitbayeva are honored music artists of the Republic of Kazakhstan. Dimash is a tenor altino. He was the 2015 Grand Prix winner of the Slavianski Bazaar in Vitebsk In the same year, he was named the \"Nation's Favorite\" (kazakh. \"Халықтың сүйіктісі\"), participant of the international festival \"ABU TV song\" in Istanbul, Turkey, and awarded with the Certificate of Honor of the President of the Republic of Kazakhstan for an important contribution into strengthening the unity of the people in Kazakhstan. He placed second in \"Singer 2017\"."
+}

@@ -1,0 +1,110 @@
+{
+  "entities": {
+    "LeAnn Rimes": "PERSON",
+    "Darrell Brown": "PERSON",
+    "Mark Batson": "PERSON",
+    "Niko Bolas": "PERSON",
+    "Lindy Robbins": "PERSON",
+    "Toby Gad": "PERSON",
+    "Remnants": "WORK_OF_ART",
+    "Lucky Logan": "WORK_OF_ART",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "LeAnn Rimes",
+      "relation": "will_have_a_cameo_in",
+      "object": "Lucky Logan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in which Rimes will have a cameo"
+        }
+      ]
+    },
+    {
+      "subject": "LeAnn Rimes",
+      "relation": "works_with",
+      "object": "Darrell Brown",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "co-wrote the song with Darrell Brown"
+        }
+      ]
+    },
+    {
+      "subject": "LeAnn Rimes",
+      "relation": "works_with",
+      "object": "Mark Batson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "co-produced the track with Darrell Brown, Mark Batson, and Niko Bolas"
+        }
+      ]
+    },
+    {
+      "subject": "LeAnn Rimes",
+      "relation": "works_with",
+      "object": "Niko Bolas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "co-produced the track with Darrell Brown, Mark Batson, and Niko Bolas"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "recorded",
+        "Love Is Love Is Love"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "co_produced",
+        "Love Is Love Is Love"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "co_wrote",
+        "Love Is Love Is Love"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Love Is Love Is Love",
+        "featured_in",
+        "Lucky Logan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "works_with",
+        "Lindy Robbins"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "works_with",
+        "Toby Gad"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Love Is Love Is Love\n\"Love Is Love Is Love\" (stylized as \"LovE Is LovE Is LovE\") is a song recorded by American singer LeAnn Rimes, and the fourth release from her sixteenth studio album, \"Remnants\". Rimes co-produced the track with Darrell Brown, Mark Batson, and Niko Bolas, and co-wrote the song with Darrell Brown, Lindy Robbins and Toby Gad. The single will be featured in the 2017 American film \"Lucky Logan\", in which Rimes will have a cameo."
+}

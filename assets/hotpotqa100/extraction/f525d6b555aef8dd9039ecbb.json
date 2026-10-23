@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Pizza Inn": "ORG",
+    "American": "NORP",
+    "The Colony": "GPE",
+    "Texas": "GPE",
+    "Dallas": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Pizza Inn",
+        "works_for",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pizza Inn",
+        "located_in",
+        "The Colony"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Colony",
+        "located_in",
+        "Texas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Colony",
+        "located_in",
+        "Dallas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Pizza Inn\nPizza Inn is an American restaurant chain and international food franchise, specializing in American-style pan pizza and side dishes. The company is based in the Dallas suburb of The Colony, Texas.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Pizza Inn\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"The Colony\", \"type\": \"GPE\"},\n    {\"name\": \"Texas\", \"type\": \"GPE\"},\n    {\"name\": \"Dallas\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Pizza Inn\",\n      \"relation\": \"works_for\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Pizza Inn\",\n      \"relation\": \"located_in\",\n      \"object\": \"The Colony\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is based in the Dallas suburb of The Colony\"}\n      ]\n    },\n    {\n      \"subject\": \"The Colony\",\n      \"relation\": \"located_in\",\n      \"object\": \"Texas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The Colony, Texas\"}\n      ]\n    },\n    {\n      \"subject\": \"The Colony\",\n      \"relation\": \"located_in\",\n      \"object\": \"Dallas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Dallas suburb of The Colony\"}\n      ]\n    }\n  ]\n}"
+}

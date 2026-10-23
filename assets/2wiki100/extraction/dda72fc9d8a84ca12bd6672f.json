@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "María Encarnación Valenzuela Conthe": "Person",
+    "Curri Valenzuela": "Person",
+    "Spanish journalist and writer": "Occupation"
+  },
+  "triples": [
+    {
+      "subject": "María Encarnación Valenzuela Conthe",
+      "relation": "better_known_as",
+      "object": "Curri Valenzuela",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "better known as Curry or Curri Valenzuela"
+        }
+      ]
+    },
+    {
+      "subject": "Curri Valenzuela",
+      "relation": "is_a",
+      "object": "Spanish journalist and writer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a Spanish journalist and writer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "María Encarnación Valenzuela Conthe",
+        "born",
+        "1945"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Curri Valenzuela\nMaría Encarnación Valenzuela Conthe( born 1945), better known as Curry or Curri Valenzuela, is a Spanish journalist and writer."
+}

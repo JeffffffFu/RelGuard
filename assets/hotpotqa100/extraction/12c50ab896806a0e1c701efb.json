@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "New York Buzz": "ORG",
+    "World TeamTennis": "ORG",
+    "Schenectady": "GPE",
+    "Albany": "GPE",
+    "Guilderland": "GPE",
+    "New York OTBzz": "ORG",
+    "Schenectady County Electrics": "ORG",
+    "Kansas City Explorers": "ORG",
+    "King Trophy": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "New York Buzz",
+      "relation": "competed_in",
+      "object": "World TeamTennis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "competing in World TeamTennis (WTT)"
+        }
+      ]
+    },
+    {
+      "subject": "New York Buzz",
+      "relation": "located_in",
+      "object": "Schenectady",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "originally based in Schenectady, New York"
+        }
+      ]
+    },
+    {
+      "subject": "New York Buzz",
+      "relation": "located_in",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "moving to Albany, New York"
+        }
+      ]
+    },
+    {
+      "subject": "New York Buzz",
+      "relation": "founded_as",
+      "object": "New York OTBzz",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "founded as the New York OTBzz in 1995"
+        }
+      ]
+    },
+    {
+      "subject": "New York OTBzz",
+      "relation": "renamed_to",
+      "object": "Schenectady County Electrics",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "changing its name to the Schenectady County Electrics in 1999"
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady County Electrics",
+      "relation": "renamed_to",
+      "object": "New York Buzz",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "adopting the name New York Buzz in 2001"
+        }
+      ]
+    },
+    {
+      "subject": "New York Buzz",
+      "relation": "defeated",
+      "object": "Kansas City Explorers",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "defeat the Kansas City Explorers"
+        }
+      ]
+    },
+    {
+      "subject": "New York Buzz",
+      "relation": "captured",
+      "object": "King Trophy",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "capture its first and only King Trophy"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "New York Buzz",
+        "located_in",
+        "Guilderland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "New York Buzz",
+        "won",
+        "Eastern Conference Championship"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "New York Buzz\nThe New York Buzz was a professional tennis team competing in World TeamTennis (WTT). The team was originally based in Schenectady, New York from 1995 to 2007, before moving to Albany, New York in 2008, and Guilderland, New York in 2009. The team was founded as the New York OTBzz in 1995, before changing its name to the Schenectady County Electrics in 1999, and finally adopting the name New York Buzz in 2001. In 2008, the team won its third Eastern Conference Championship and went on to defeat the Kansas City Explorers to capture its first and only King Trophy in its fourth appearance in the WTT Final."
+}

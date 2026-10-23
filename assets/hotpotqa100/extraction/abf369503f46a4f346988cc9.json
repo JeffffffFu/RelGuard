@@ -1,0 +1,167 @@
+{
+  "entities": {
+    "Tudor's Biscuit World": "ORG",
+    "Huntington": "GPE",
+    "West Virginia": "GPE",
+    "Gino's Pizza and Spaghetti": "ORG",
+    "Ohio": "GPE",
+    "Kentucky": "GPE",
+    "Virginia": "GPE",
+    "Panama City": "GPE",
+    "Florida": "GPE",
+    "Charleston": "GPE",
+    "Marshall University": "ORG",
+    "West Virginia University": "ORG",
+    "The University of Charleston": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "located_in",
+      "object": "Huntington",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 44,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "located_in",
+      "object": "West Virginia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 44,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "found_in",
+      "object": "West Virginia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "most commonly found in",
+          "line_start": 80,
+          "char_start": 102,
+          "ambiguous": false,
+          "relation_mention": "most commonly found in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "originally_based_in",
+      "object": "Charleston",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "originally based in",
+          "line_start": 548,
+          "char_start": 570,
+          "ambiguous": false,
+          "relation_mention": "originally based in",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Many West Virginia locations",
+        "share_building_with",
+        "Gino's Pizza and Spaghetti"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gino's Pizza and Spaghetti",
+        "located_in",
+        "West Virginia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tudor's Biscuit World",
+        "located_in",
+        "Ohio"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tudor's Biscuit World",
+        "located_in",
+        "Kentucky"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tudor's Biscuit World",
+        "located_in",
+        "Virginia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A franchise",
+        "opened_in",
+        "Panama City"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Panama City",
+        "located_in",
+        "Florida"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Many of the biscuit sandwiches",
+        "named_for",
+        "Marshall University"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Many of the biscuit sandwiches",
+        "named_for",
+        "West Virginia University"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Many of the biscuit sandwiches",
+        "named_for",
+        "The University of Charleston"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Tudor's Biscuit World\nTudor's Biscuit World is a restaurant chain based in Huntington, West Virginia, most commonly found in West Virginia. Many West Virginia locations share a building with Gino's Pizza and Spaghetti, although the chain is more extensive than Gino's (which is exclusive to West Virginia), having locations in southern Ohio, eastern Kentucky, and southwestern Virginia. In 2016 a franchise was opened in Panama City, Florida. Tudor's serves biscuits, biscuit sandwiches, homestyle breakfasts and dinners, muffins, and several side dishes. The chain was originally based in Charleston, West Virginia and many of the biscuit sandwiches are named for sports teams of interest in that area, including teams at Marshall University, West Virginia University, and The University of Charleston.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Tudor's Biscuit World\", \"type\": \"ORG\"},\n    {\"name\": \"Huntington\", \"type\": \"GPE\"},\n    {\"name\": \"West Virginia\", \"type\": \"GPE\"},\n    {\"name\": \"Gino's Pizza and Spaghetti\", \"type\": \"ORG\"},\n    {\"name\": \"Ohio\", \"type\": \"GPE\"},\n    {\"name\": \"Kentucky\", \"type\": \"GPE\"},\n    {\"name\": \"Virginia\", \"type\": \"GPE\"},\n    {\"name\": \"Panama City\", \"type\": \"GPE\"},\n    {\"name\": \"Florida\", \"type\": \"GPE\"},\n    {\"name\": \"Charleston\", \"type\": \"GPE\"},\n    {\"name\": \"Marshall University\", \"type\": \"ORG\"},\n    {\"name\": \"West Virginia University\", \"type\": \"ORG\"},\n    {\"name\": \"The University of Charleston\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Tudor's Biscuit World\",\n      \"relation\": \"located_in\",\n      \"object\": \"Huntington\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Tudor's Biscuit World\",\n      \"relation\": \"located_in\",\n      \"object\": \"West Virginia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Tudor's Biscuit World\",\n      \"relation\": \"found_in\",\n      \"object\": \"West Virginia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"most commonly found in\"}\n      ]\n    },\n    {\n      \"subject\": \"Many West Virginia locations\",\n      \"relation\": \"share_building_with\",\n      \"object\": \"Gino's Pizza and Spaghetti\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"share a building with\"}\n      ]\n    },\n    {\n      \"subject\": \"Gino's Pizza and Spaghetti\",\n      \"relation\": \"located_in\",\n      \"object\": \"West Virginia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"exclusive to\"}\n      ]\n    },\n    {\n      \"subject\": \"Tudor's Biscuit World\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ohio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"having locations in\"}\n      ]\n    },\n    {\n      \"subject\": \"Tudor's Biscuit World\",\n      \"relation\": \"located_in\",\n      \"object\": \"Kentucky\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"having locations in\"}\n      ]\n    },\n    {\n      \"subject\": \"Tudor's Biscuit World\",\n      \"relation\": \"located_in\",\n      \"object\": \"Virginia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"having locations in\"}\n      ]\n    },\n    {\n      \"subject\": \"A franchise\",\n      \"relation\": \"opened_in\",\n      \"object\": \"Panama City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"opened in\"}\n      ]\n    },\n    {\n      \"subject\": \"Panama City\",\n      \"relation\": \"located_in\",\n      \"object\": \"Florida\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Panama City, Florida\"}\n      ]\n    },\n    {\n      \"subject\": \"Tudor's Biscuit World\",\n      \"relation\": \"originally_based_in\",\n      \"object\": \"Charleston\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"originally based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Many of the biscuit sandwiches\",\n      \"relation\": \"named_for\",\n      \"object\": \"Marshall University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"named for\"}\n      ]\n    },\n    {\n      \"subject\": \"Many of the biscuit sandwiches\",\n      \"relation\": \"named_for\",\n      \"object\": \"West Virginia University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"named for\"}\n      ]\n    },\n    {\n      \"subject\": \"Many of the biscuit sandwiches\",\n      \"relation\": \"named_for\",\n      \"object\": \"The University of Charleston\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"named for\"}\n      ]\n    }\n  ]\n}"
+}

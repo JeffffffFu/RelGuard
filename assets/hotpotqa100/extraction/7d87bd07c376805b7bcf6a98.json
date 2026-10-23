@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Matt Lubick": "PERSON",
+    "Washington": "ORG",
+    "Duke": "ORG",
+    "Football Scoop Wide Receivers Coach of the Year": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Matt Lubick",
+      "relation": "holds_position",
+      "object": "Washington",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "co-offensive coordinator/wide receivers coach",
+          "line_start": 94,
+          "char_start": 106,
+          "ambiguous": false,
+          "relation_mention": "co-offensive coordinator/wide receivers coach",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Matt Lubick",
+        "works_for",
+        "Washington"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Matt Lubick",
+        "was_named",
+        "Football Scoop Wide Receivers Coach of the Year"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Matt Lubick",
+        "coached_at",
+        "Duke"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Matt Lubick\nMatt Lubick (born January 26, 1972) is an American football coach. He currently serves as the co-offensive coordinator/wide receivers coach at Washington. He was named the 2012 Football Scoop Wide Receivers Coach of the Year while coaching at Duke.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Matt Lubick\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Washington\",\n      \"type\": \"ORG\"\n    },\n    {\n      \"name\": \"Duke\",\n      \"type\": \"ORG\"\n    },\n    {\n      \"name\": \"Football Scoop Wide Receivers Coach of the Year\",\n      \"type\": \"EVENT\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Matt Lubick\",\n      \"relation\": \"works_for\",\n      \"object\": \"Washington\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"serves as\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Matt Lubick\",\n      \"relation\": \"holds_position\",\n      \"object\": \"Washington\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"co-offensive coordinator/wide receivers coach\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Matt Lubick\",\n      \"relation\": \"was_named\",\n      \"object\": \"Football Scoop Wide Receivers Coach of the Year\",\n      \"occurrences\": [\n        {\n          \"line\": 3,\n          \"predicate\": \"was named the 2012 Football Scoop Wide Receivers Coach of the Year\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Matt Lubick\",\n      \"relation\": \"coached_at\",\n      \"object\": \"Duke\",\n      \"occurrences\": [\n        {\n          \"line\": 3,\n          \"predicate\": \"coaching at Duke\"\n        }\n      ]\n    }\n  ]\n}"
+}

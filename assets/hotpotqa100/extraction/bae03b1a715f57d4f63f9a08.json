@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "Creature from the Haunted Sea": "WORK_OF_ART",
+    "Roger Corman": "PERSON",
+    "Charles B. Griffith": "PERSON",
+    "Creature from the Black Lagoon": "WORK_OF_ART",
+    "XK150": "PERSON",
+    "Robert Towne": "PERSON",
+    "Edward Wain": "PERSON",
+    "Sparks Moran": "PERSON",
+    "Renzo Capetto": "PERSON",
+    "Antony Carbone": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Creature from the Haunted Sea",
+      "relation": "directed_by",
+      "object": "Roger Corman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 59,
+          "char_start": 89,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Creature from the Haunted Sea",
+      "relation": "written_by",
+      "object": "Charles B. Griffith",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Written by",
+          "line_start": 85,
+          "char_start": 115,
+          "ambiguous": false,
+          "relation_mention": "Written by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "XK150",
+      "relation": "played_by",
+      "object": "Robert Towne",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played by",
+          "line_start": 252,
+          "char_start": 282,
+          "ambiguous": false,
+          "relation_mention": "played by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "XK150",
+      "relation": "uses_code_name",
+      "object": "Sparks Moran",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "goes under the code name",
+          "line_start": 315,
+          "char_start": 345,
+          "ambiguous": false,
+          "relation_mention": "goes under the code name",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Cuba (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Creature from the Haunted Sea",
+        "is_parody_of",
+        "Creature from the Black Lagoon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert Towne",
+        "also_known_as",
+        "Edward Wain"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Renzo Capetto",
+        "played_by",
+        "Antony Carbone"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Renzo Capetto",
+        "located_in",
+        "Cuba"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Creature from the Haunted Sea\nCreature from the Haunted Sea is a 1961 horror comedy film directed by Roger Corman. Written by Charles B. Griffith, the film is a parody of spy, gangster, and monster movies (mostly \"Creature from the Black Lagoon\"), concerning a secret agent, XK150 (played by Robert Towne under the pseudonym \"Edward Wain\"), who goes under the code name \"Sparks Moran\" in order to infiltrate a criminal gang led by Renzo Capetto (Antony Carbone), who is trying to transport a colonel, a group of exiled Cuban nationals, and a large portion of the Cuban treasury out of the country.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Creature from the Haunted Sea\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Roger Corman\", \"type\": \"PERSON\"},\n    {\"name\": \"Charles B. Griffith\", \"type\": \"PERSON\"},\n    {\"name\": \"Creature from the Black Lagoon\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"XK150\", \"type\": \"PERSON\"},\n    {\"name\": \"Robert Towne\", \"type\": \"PERSON\"},\n    {\"name\": \"Edward Wain\", \"type\": \"PERSON\"},\n    {\"name\": \"Sparks Moran\", \"type\": \"PERSON\"},\n    {\"name\": \"Renzo Capetto\", \"type\": \"PERSON\"},\n    {\"name\": \"Antony Carbone\", \"type\": \"PERSON\"},\n    {\"name\": \"Cuba\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Creature from the Haunted Sea\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Roger Corman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Haunted Sea\",\n      \"relation\": \"written_by\",\n      \"object\": \"Charles B. Griffith\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Haunted Sea\",\n      \"relation\": \"is_parody_of\",\n      \"object\": \"Creature from the Black Lagoon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a parody of\"}\n      ]\n    },\n    {\n      \"subject\": \"XK150\",\n      \"relation\": \"played_by\",\n      \"object\": \"Robert Towne\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played by\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Towne\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Edward Wain\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"under the pseudonym\"}\n      ]\n    },\n    {\n      \"subject\": \"XK150\",\n      \"relation\": \"uses_code_name\",\n      \"object\": \"Sparks Moran\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"goes under the code name\"}\n      ]\n    },\n    {\n      \"subject\": \"Renzo Capetto\",\n      \"relation\": \"played_by\",\n      \"object\": \"Antony Carbone\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Antony Carbone\"}\n      ]\n    },\n    {\n      \"subject\": \"Renzo Capetto\",\n      \"relation\": \"located_in\",\n      \"object\": \"Cuba\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"out of the country\"}\n      ]\n    }\n  ]\n}"
+}

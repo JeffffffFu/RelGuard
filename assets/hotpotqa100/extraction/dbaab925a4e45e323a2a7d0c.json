@@ -1,0 +1,179 @@
+{
+  "entities": {
+    "vascular bypass": "procedure",
+    "vascular graft": "procedure",
+    "blood flow": "physiological process",
+    "blood vessels": "anatomical structure",
+    "diseased artery": "anatomical structure",
+    "ischemia": "condition",
+    "atherosclerosis": "condition",
+    "organ transplantation": "procedure",
+    "hemodialysis": "procedure",
+    "vein": "anatomical structure",
+    "autograft": "graft type",
+    "polytetrafluoroethylene": "graft type",
+    "Teflon": "graft type",
+    "polyethylene terephthalate": "graft type",
+    "Dacron": "graft type",
+    "allograft": "graft type",
+    "arteries": "anatomical structure",
+    "surgeon": "profession",
+    "surgical suture": "medical tool",
+    "surgical anastomosis": "procedure"
+  },
+  "triples": [
+    {
+      "subject": "vascular bypass",
+      "relation": "is_a",
+      "object": "vascular graft",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "A vascular bypass (or vascular graft) is a surgical procedure"
+        }
+      ]
+    },
+    {
+      "subject": "vascular bypass",
+      "relation": "performed_to_redirect",
+      "object": "blood flow",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to redirect blood flow from one area to another"
+        }
+      ]
+    },
+    {
+      "subject": "vascular bypass",
+      "relation": "bypass_around",
+      "object": "diseased artery",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "to bypass around a diseased artery"
+        }
+      ]
+    },
+    {
+      "subject": "vascular bypass",
+      "relation": "performed_due_to",
+      "object": "ischemia",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "commonly performed due to inadequate blood flow (ischemia)"
+        }
+      ]
+    },
+    {
+      "subject": "ischemia",
+      "relation": "caused_by",
+      "object": "atherosclerosis",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "caused by atherosclerosis"
+        }
+      ]
+    },
+    {
+      "subject": "vascular bypass",
+      "relation": "part_of",
+      "object": "organ transplantation",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "as a part of organ transplantation"
+        }
+      ]
+    },
+    {
+      "subject": "vascular bypass",
+      "relation": "for",
+      "object": "hemodialysis",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "or for vascular access in hemodialysis"
+        }
+      ]
+    },
+    {
+      "subject": "vein",
+      "relation": "preferred_graft_material",
+      "object": "vascular bypass",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "someone's own vein (autograft) is the preferred graft material (or conduit) for a vascular bypass"
+        }
+      ]
+    },
+    {
+      "subject": "vascular bypass",
+      "relation": "uses",
+      "object": "polytetrafluoroethylene",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "other types of grafts such as polytetrafluoroethylene (Teflon)"
+        }
+      ]
+    },
+    {
+      "subject": "vascular bypass",
+      "relation": "uses",
+      "object": "allograft",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "or a different person's vein (allograft) are also commonly used"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "vascular bypass",
+        "uses",
+        "polyethylene terephthalate"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "arteries",
+        "serve_as",
+        "vascular grafts"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "surgeon",
+        "sews",
+        "graft"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "graft",
+        "attached_to",
+        "blood vessels"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "graft",
+        "creates",
+        "surgical anastomosis"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Vascular bypass\nA vascular bypass (or vascular graft) is a surgical procedure performed to redirect blood flow from one area to another by reconnecting blood vessels. Often, this is done to bypass around a diseased artery, from an area of normal blood flow to another relatively normal area. It is commonly performed due to inadequate blood flow (ischemia) caused by atherosclerosis, as a part of organ transplantation, or for vascular access in hemodialysis. In general, someone's own vein (autograft) is the preferred graft material (or conduit) for a vascular bypass, but other types of grafts such as polytetrafluoroethylene (Teflon), polyethylene terephthalate (Dacron), or a different person's vein (allograft) are also commonly used. Arteries can also serve as vascular grafts. A surgeon sews the graft to the source and target vessels by hand using surgical suture, creating a surgical anastomosis."
+}

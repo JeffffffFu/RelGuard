@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "Borgward B 611": "vehicle",
+    "Borgward": "manufacturer",
+    "Bremen factory": "location"
+  },
+  "triples": [
+    {
+      "subject": "Borgward B 611",
+      "relation": "built_by",
+      "object": "Borgward",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "built by Borgward"
+        }
+      ]
+    },
+    {
+      "subject": "Borgward B 611",
+      "relation": "located_in",
+      "object": "Bremen factory",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at their Bremen factory"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Borgward B 611",
+        "produced_between",
+        "1957 and 1961"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Borgward B 611",
+        "has_load_capacity",
+        "1.5 (metric) tons"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Borgward B 611",
+        "offered_as",
+        "light van"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Borgward B 611",
+        "offered_as",
+        "minibus"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Borgward B 611",
+        "offered_as",
+        "platform truck"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Borgward B 611\nThe Borgward B 611 is a light commercial vehicle built by Borgward at their Bremen factory between 1957 and 1961. The nominal load capacity at launch was 1.5 (metric) tons. The vehicle was offered as a light van, a minibus (with seats in the back and more windows) or as a platform truck (\"Pritschenwagen\"), though various other body variants were available either directly from the manufacturer or from appropriately specialist vehicle body manufacturers."
+}

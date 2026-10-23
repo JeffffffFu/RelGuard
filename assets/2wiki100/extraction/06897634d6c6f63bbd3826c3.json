@@ -1,0 +1,191 @@
+{
+  "entities": {
+    "Eleanor of Brittany": "PERSON",
+    "Fontevrault": "ORG",
+    "England": "GPE",
+    "John II, Duke of Brittany": "PERSON",
+    "Beatrice of England": "PERSON",
+    "Amesbury Abbey": "FAC",
+    "Fontevrault order": "ORG",
+    "Eleanor, Fair Maid of Brittany": "PERSON",
+    "Fontevrault Abbey": "FAC",
+    "Loire": "LOC",
+    "Fontevraud Gradual": "WORK_OF_ART",
+    "Limoges": "GPE",
+    "public library of Limoges": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Eleanor of Brittany",
+      "relation": "born_in",
+      "object": "England",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 90,
+          "char_start": 119,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Eleanor, Fair Maid of Brittany",
+      "relation": "buried_in",
+      "object": "Amesbury Abbey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is buried there",
+          "line_start": 315,
+          "char_start": 344,
+          "ambiguous": false,
+          "relation_mention": "is buried there",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Eleanor of Brittany",
+      "relation": "took_vows_at",
+      "object": "Fontevrault Abbey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "where she took her vows",
+          "line_start": 434,
+          "char_start": 463,
+          "ambiguous": false,
+          "relation_mention": "where she took her vows",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Fontevraud Gradual",
+      "relation": "presented_to",
+      "object": "Eleanor of Brittany",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was presented to her",
+          "line_start": 518,
+          "char_start": 547,
+          "ambiguous": false,
+          "relation_mention": "was presented to her",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Eleanor of Brittany",
+      "relation": "bequeathed",
+      "object": "Fontevraud Gradual",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "bequeathed the gradual to the abbey",
+          "line_start": 613,
+          "char_start": 642,
+          "ambiguous": false,
+          "relation_mention": "bequeathed the gradual to the abbey",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eleanor of Brittany",
+        "was_abbess_of",
+        "Fontevrault"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eleanor of Brittany",
+        "child_of",
+        "John II, Duke of Brittany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eleanor of Brittany",
+        "child_of",
+        "Beatrice of England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eleanor of Brittany",
+        "entered",
+        "Amesbury Abbey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Amesbury Abbey",
+        "part_of",
+        "Fontevrault order"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eleanor of Brittany",
+        "moved_to",
+        "Fontevrault Abbey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fontevrault Abbey",
+        "located_in",
+        "Loire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fontevrault Abbey",
+        "parent_abbey_of",
+        "Fontevrault order"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eleanor of Brittany",
+        "became",
+        "abbess"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fontevraud Gradual",
+        "held_by",
+        "public library of Limoges"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "public library of Limoges",
+        "located_in",
+        "Limoges"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Eleanor of Brittany (abbess)\nEleanor of Brittany (1275 – 16 May 1342) was the sixteenth abbess of Fontevrault. She was born in England to John II, Duke of Brittany and Beatrice of England, and in 1281 at the age of seven entered Amesbury Abbey, a priory of the Fontevrault order (her first cousin, twice removed, Eleanor, Fair Maid of Brittany is buried there). In 1290 she moved to Fontevrault Abbey in the Loire region of France, the parent abbey of the order, where she took her vows and became a nun. The richly illuminated Fontevraud Gradual was presented to her upon her induction. In 1304 she became abbess. Upon her death in 1342 she bequeathed the gradual to the abbey. It survives to this day and is held by the public library of Limoges.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Eleanor of Brittany\", \"type\": \"PERSON\"},\n    {\"name\": \"Fontevrault\", \"type\": \"ORG\"},\n    {\"name\": \"England\", \"type\": \"GPE\"},\n    {\"name\": \"John II, Duke of Brittany\", \"type\": \"PERSON\"},\n    {\"name\": \"Beatrice of England\", \"type\": \"PERSON\"},\n    {\"name\": \"Amesbury Abbey\", \"type\": \"FAC\"},\n    {\"name\": \"Fontevrault order\", \"type\": \"ORG\"},\n    {\"name\": \"Eleanor, Fair Maid of Brittany\", \"type\": \"PERSON\"},\n    {\"name\": \"Fontevrault Abbey\", \"type\": \"FAC\"},\n    {\"name\": \"Loire\", \"type\": \"LOC\"},\n    {\"name\": \"Fontevraud Gradual\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Limoges\", \"type\": \"GPE\"},\n    {\"name\": \"public library of Limoges\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Eleanor of Brittany\",\n      \"relation\": \"was_abbess_of\",\n      \"object\": \"Fontevrault\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"abbess\"}\n      ]\n    },\n    {\n      \"subject\": \"Eleanor of Brittany\",\n      \"relation\": \"born_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Eleanor of Brittany\",\n      \"relation\": \"child_of\",\n      \"object\": \"John II, Duke of Brittany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to John II, Duke of Brittany\"}\n      ]\n    },\n    {\n      \"subject\": \"Eleanor of Brittany\",\n      \"relation\": \"child_of\",\n      \"object\": \"Beatrice of England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Beatrice of England\"}\n      ]\n    },\n    {\n      \"subject\": \"Eleanor of Brittany\",\n      \"relation\": \"entered\",\n      \"object\": \"Amesbury Abbey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"entered Amesbury Abbey\"}\n      ]\n    },\n    {\n      \"subject\": \"Amesbury Abbey\",\n      \"relation\": \"part_of\",\n      \"object\": \"Fontevrault order\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a priory of the Fontevrault order\"}\n      ]\n    },\n    {\n      \"subject\": \"Eleanor, Fair Maid of Brittany\",\n      \"relation\": \"buried_in\",\n      \"object\": \"Amesbury Abbey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is buried there\"}\n      ]\n    },\n    {\n      \"subject\": \"Eleanor of Brittany\",\n      \"relation\": \"moved_to\",\n      \"object\": \"Fontevrault Abbey\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"moved to Fontevrault Abbey\"}\n      ]\n    },\n    {\n      \"subject\": \"Fontevrault Abbey\",\n      \"relation\": \"located_in\",\n      \"object\": \"Loire\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"in the Loire region of France\"}\n      ]\n    },\n    {\n      \"subject\": \"Fontevrault Abbey\",\n      \"relation\": \"parent_abbey_of\",\n      \"object\": \"Fontevrault order\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"the parent abbey of the order\"}\n      ]\n    },\n    {\n      \"subject\": \"Eleanor of Brittany\",\n      \"relation\": \"took_vows_at\",\n      \"object\": \"Fontevrault Abbey\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"where she took her vows\"}\n      ]\n    },\n    {\n      \"subject\": \"Fontevraud Gradual\",\n      \"relation\": \"presented_to\",\n      \"object\": \"Eleanor of Brittany\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"was presented to her\"}\n      ]\n    },\n    {\n      \"subject\": \"Eleanor of Brittany\",\n      \"relation\": \"became\",\n      \"object\": \"abbess\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"became abbess\"}\n      ]\n    },\n    {\n      \"subject\": \"Eleanor of Brittany\",\n      \"relation\": \"bequeathed\",\n      \"object\": \"Fontevraud Gradual\",\n      \"occurrences\": [\n        {\"line\": 6, \"predicate\": \"bequeathed the gradual to the abbey\"}\n      ]\n    },\n    {\n      \"subject\": \"Fontevraud Gradual\",\n      \"relation\": \"held_by\",\n      \"object\": \"public library of Limoges\",\n      \"occurrences\": [\n        {\"line\": 7, \"predicate\": \"is held by the public library of Limoges\"}\n      ]\n    },\n    {\n      \"subject\": \"public library of Limoges\",\n      \"relation\": \"located_in\",\n      \"object\": \"Limoges\",\n      \"occurrences\": [\n        {\"line\": 7, \"predicate\": \"of Limoges\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Fighter World": "organization",
+    "Royal Australian Air Force": "organization",
+    "RAAF Base Williamtown": "location",
+    "Newcastle": "location",
+    "New South Wales": "location"
+  },
+  "triples": [
+    {
+      "subject": "Fighter World",
+      "relation": "located_at",
+      "object": "RAAF Base Williamtown",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "It is located at RAAF Base Williamtown near Newcastle, New South Wales."
+        }
+      ]
+    },
+    {
+      "subject": "Fighter World",
+      "relation": "preserves_history_of",
+      "object": "Royal Australian Air Force",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Its purpose is to preserve the history of fighter operations of the Royal Australian Air Force (RAAF)"
+        }
+      ]
+    },
+    {
+      "subject": "Royal Australian Air Force",
+      "relation": "operated",
+      "object": "Fighter World",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "most of which are fighters once operated by the RAAF."
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Fighter World\nFighter World is an Australian aviation museum. Its purpose is to preserve the history of fighter operations of the Royal Australian Air Force (RAAF) and it has a large collection of aircraft, most of which are fighters once operated by the RAAF. It is located at RAAF Base Williamtown near Newcastle, New South Wales."
+}

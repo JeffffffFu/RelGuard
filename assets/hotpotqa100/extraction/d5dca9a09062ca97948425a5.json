@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Terry Halvorsen": "PERSON",
+    "Department of Defense Chief Information Officer": "ORG",
+    "Department of the Navy Chief Information Officer": "ORG",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Terry Halvorsen",
+      "relation": "works_for",
+      "object": "Department of Defense Chief Information Officer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a retired American military officer who is a former Chief Information Officer at the US Department of Defense",
+          "line_start": 16,
+          "char_start": 32,
+          "ambiguous": false,
+          "relation_mention": "is a retired American military officer who is a former Chief Information Officer at the US Department of Defense",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Terry Halvorsen",
+      "relation": "works_for",
+      "object": "Department of Defense Chief Information Officer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "served as the Acting Department of Defense Chief Information Officer",
+          "line_start": 144,
+          "char_start": 160,
+          "ambiguous": false,
+          "relation_mention": "served as the Acting Department of Defense Chief Information Officer",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Terry Halvorsen",
+      "relation": "works_for",
+      "object": "Department of the Navy Chief Information Officer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the Department of the Navy Chief Information Officer",
+          "line_start": 217,
+          "char_start": 233,
+          "ambiguous": false,
+          "relation_mention": "the Department of the Navy Chief Information Officer",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Terry Halvorsen",
+      "relation": "located_in",
+      "object": "American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a retired American",
+          "line_start": 16,
+          "char_start": 32,
+          "ambiguous": false,
+          "relation_mention": "is a retired American",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States Department of Defense (ORG)"
+      ]
+    },
+    {
+      "triple": [
+        "Terry Halvorsen",
+        "works_for",
+        "United States Department of Defense"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Terry Halvorsen\nTerry Halvorsen is a retired American military officer who is a former Chief Information Officer at the US Department of Defense. He previously served as the Acting Department of Defense Chief Information Officer and the Department of the Navy Chief Information Officer."
+}

@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "David Hackl": "PERSON",
+    "Toronto": "GPE",
+    "Ontario": "GPE",
+    "Canadian": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "David Hackl",
+        "born_in",
+        "Toronto"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "David Hackl",
+        "born_in",
+        "Ontario"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "David Hackl",
+        "nationality",
+        "Canadian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "David Hackl\nDavid Hackl (born February 7, 1963 in Toronto, Ontario) is a Canadian film director and production designer.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"David Hackl\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Toronto\",\n      \"type\": \"GPE\"\n    },\n    {\n      \"name\": \"Ontario\",\n      \"type\": \"GPE\"\n    },\n    {\n      \"name\": \"Canadian\",\n      \"type\": \"NORP\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"David Hackl\",\n      \"relation\": \"born_in\",\n      \"object\": \"Toronto\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"born February 7, 1963 in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"David Hackl\",\n      \"relation\": \"born_in\",\n      \"object\": \"Ontario\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"born February 7, 1963 in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"David Hackl\",\n      \"relation\": \"nationality\",\n      \"object\": \"Canadian\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a Canadian\"\n        }\n      ]\n    }\n  ]\n}"
+}

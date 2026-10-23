@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "O. W. Coburn School of Law": "ORG",
+    "Oral Roberts University": "ORG",
+    "Orin Wesley Coburn": "PERSON",
+    "Coburn Optical Industries": "ORG",
+    "Tom Coburn": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "O. W. Coburn School of Law",
+      "relation": "named_after",
+      "object": "Orin Wesley Coburn",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was named after",
+          "line_start": 89,
+          "char_start": 116,
+          "ambiguous": false,
+          "relation_mention": "was named after",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "O. W. Coburn School of Law",
+        "works_for",
+        "Oral Roberts University"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Orin Wesley Coburn",
+        "founded",
+        "Coburn Optical Industries"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tom Coburn",
+        "nationality",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Orin Wesley Coburn",
+        "parent_of",
+        "Tom Coburn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "O. W. Coburn School of Law\nThe O. W. Coburn School of Law was the law school of Oral Roberts University. The school was named after donor Orin Wesley Coburn, the founder of Coburn Optical Industries and the father of future US politician Tom Coburn.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"O. W. Coburn School of Law\", \"type\": \"ORG\"},\n    {\"name\": \"Oral Roberts University\", \"type\": \"ORG\"},\n    {\"name\": \"Orin Wesley Coburn\", \"type\": \"PERSON\"},\n    {\"name\": \"Coburn Optical Industries\", \"type\": \"ORG\"},\n    {\"name\": \"Tom Coburn\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"O. W. Coburn School of Law\",\n      \"relation\": \"works_for\",\n      \"object\": \"Oral Roberts University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the law school of\"}\n      ]\n    },\n    {\n      \"subject\": \"O. W. Coburn School of Law\",\n      \"relation\": \"named_after\",\n      \"object\": \"Orin Wesley Coburn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was named after\"}\n      ]\n    },\n    {\n      \"subject\": \"Orin Wesley Coburn\",\n      \"relation\": \"founded\",\n      \"object\": \"Coburn Optical Industries\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the founder of\"}\n      ]\n    },\n    {\n      \"subject\": \"Tom Coburn\",\n      \"relation\": \"nationality\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"US\"}\n      ]\n    },\n    {\n      \"subject\": \"Orin Wesley Coburn\",\n      \"relation\": \"parent_of\",\n      \"object\": \"Tom Coburn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the father of\"}\n      ]\n    }\n  ]\n}"
+}

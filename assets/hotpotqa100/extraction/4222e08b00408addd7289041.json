@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Panic 5 Bravo": "WORK_OF_ART",
+    "Kuno Becker": "PERSON",
+    "American": "NORP",
+    "Mexican": "NORP",
+    "Pantelion Films": "ORG",
+    "U.S.": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Panic 5 Bravo",
+      "relation": "directed_by",
+      "object": "Kuno Becker",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 41,
+          "char_start": 55,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Panic 5 Bravo",
+        "about",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Panic 5 Bravo",
+        "located_in",
+        "Mexican"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Panic 5 Bravo",
+        "released_in",
+        "U.S."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Panic 5 Bravo",
+        "released_by",
+        "Pantelion Films"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Panic 5 Bravo\nPanic 5 Bravo is an action-thriller film directed by Kuno Becker about American paramedics that become trapped on the Mexican side of the border and terrorized by a violent psychopath. It was released in the U.S. by Pantelion Films.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Panic 5 Bravo\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Kuno Becker\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Mexican\", \"type\": \"NORP\"},\n    {\"name\": \"Pantelion Films\", \"type\": \"ORG\"},\n    {\"name\": \"U.S.\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Panic 5 Bravo\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Kuno Becker\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Panic 5 Bravo\",\n      \"relation\": \"about\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"about American paramedics\"}\n      ]\n    },\n    {\n      \"subject\": \"Panic 5 Bravo\",\n      \"relation\": \"located_in\",\n      \"object\": \"Mexican\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the Mexican side\"}\n      ]\n    },\n    {\n      \"subject\": \"Panic 5 Bravo\",\n      \"relation\": \"released_in\",\n      \"object\": \"U.S.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released in the U.S.\"}\n      ]\n    },\n    {\n      \"subject\": \"Panic 5 Bravo\",\n      \"relation\": \"released_by\",\n      \"object\": \"Pantelion Films\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by Pantelion Films\"}\n      ]\n    }\n  ]\n}"
+}

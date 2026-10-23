@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "David Hackl": "PERSON",
+    "Toronto": "GPE",
+    "Ontario": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "David Hackl",
+      "relation": "born_in",
+      "object": "Toronto",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born February 7, 1963 in Toronto"
+        }
+      ]
+    },
+    {
+      "subject": "David Hackl",
+      "relation": "located_in",
+      "object": "Ontario",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born February 7, 1963 in Toronto, Ontario"
+        }
+      ]
+    },
+    {
+      "subject": "Toronto",
+      "relation": "located_in",
+      "object": "Ontario",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Toronto, Ontario"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Ontario",
+        "located_in",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "David Hackl\nDavid Hackl (born February 7, 1963 in Toronto, Ontario) is a Canadian film director and production designer."
+}

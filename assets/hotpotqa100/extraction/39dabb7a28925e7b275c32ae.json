@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Aurelio's Pizza": "ORG",
+    "Illinois": "GPE",
+    "Chicago-style pizza": "PRODUCT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Aurelio's Pizza",
+        "located_in",
+        "Illinois"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Aurelio's Pizza",
+        "centers_its_business_around",
+        "Chicago-style pizza"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Aurelio's Pizza",
+        "franchising_since",
+        "Chicago-style pizza"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Aurelio's Pizza\nAurelio's Pizza is an Illinois restaurant chain which centers its business around the thin crust variety of Chicago-style pizza. Aurelio's Pizza has three corporate owned stores and 37 franchised locations in 6 states. Aurelio's Pizza is the oldest Chicago pizza franchise restaurant, franchising since 1974.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Aurelio's Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"Illinois\", \"type\": \"GPE\"},\n    {\"name\": \"Chicago-style pizza\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Aurelio's Pizza\",\n      \"relation\": \"located_in\",\n      \"object\": \"Illinois\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an Illinois restaurant chain\"}\n      ]\n    },\n    {\n      \"subject\": \"Aurelio's Pizza\",\n      \"relation\": \"centers_its_business_around\",\n      \"object\": \"Chicago-style pizza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"centers its business around the thin crust variety of Chicago-style pizza\"}\n      ]\n    },\n    {\n      \"subject\": \"Aurelio's Pizza\",\n      \"relation\": \"franchising_since\",\n      \"object\": \"Chicago-style pizza\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"is the oldest Chicago pizza franchise restaurant, franchising since 1974\"}\n      ]\n    }\n  ]\n}"
+}

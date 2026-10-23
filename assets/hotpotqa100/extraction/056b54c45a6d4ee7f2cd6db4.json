@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "John Burt": "PERSON",
+    "Alexander Burt": "PERSON",
+    "United Kingdom": "GPE",
+    "1908 Summer Olympics": "EVENT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Scotland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "John Burt",
+        "was_a",
+        "Scotland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John Burt",
+        "competed_in",
+        "1908 Summer Olympics"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Burt",
+        "was_member_of",
+        "Scotland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John Burt",
+        "represented",
+        "United Kingdom"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Scotland",
+        "won_medal",
+        "United Kingdom"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Burt",
+        "was_member_of",
+        "Scotland"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John Burt (field hockey)\nJohn Burt (15 April 1877 – 29 April 1935) was a Scottish field hockey player. He competed in the 1908 Summer Olympics as a member of the Scottish team, for the United Kingdom, which won the bronze medal. His brother, Alexander, also was a member of the Scottish team.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"John Burt\", \"type\": \"PERSON\"},\n    {\"name\": \"Alexander Burt\", \"type\": \"PERSON\"},\n    {\"name\": \"Scotland\", \"type\": \"GPE\"},\n    {\"name\": \"United Kingdom\", \"type\": \"GPE\"},\n    {\"name\": \"1908 Summer Olympics\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"John Burt\",\n      \"relation\": \"was_a\",\n      \"object\": \"Scotland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a Scottish\"}\n      ]\n    },\n    {\n      \"subject\": \"John Burt\",\n      \"relation\": \"competed_in\",\n      \"object\": \"1908 Summer Olympics\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"competed in the 1908 Summer Olympics\"}\n      ]\n    },\n    {\n      \"subject\": \"John Burt\",\n      \"relation\": \"was_member_of\",\n      \"object\": \"Scotland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"member of the Scottish team\"}\n      ]\n    },\n    {\n      \"subject\": \"John Burt\",\n      \"relation\": \"represented\",\n      \"object\": \"United Kingdom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for the United Kingdom\"}\n      ]\n    },\n    {\n      \"subject\": \"Scotland\",\n      \"relation\": \"won_medal\",\n      \"object\": \"United Kingdom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"which won the bronze medal\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexander Burt\",\n      \"relation\": \"was_member_of\",\n      \"object\": \"Scotland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"member of the Scottish team\"}\n      ]\n    }\n  ]\n}"
+}

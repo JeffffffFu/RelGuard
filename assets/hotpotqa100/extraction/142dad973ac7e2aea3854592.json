@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "2016 Blancpain GT Sports Club": "event",
+    "SRO Group": "organization",
+    "Blancpain GT Sports Club": "event",
+    "Bronze drivers": "category",
+    "Iron drivers": "category",
+    "drivers": "role",
+    "GT3-spec cars": "vehicle",
+    "RACB G3 cars": "vehicle",
+    "GTE-spec cars": "vehicle"
+  },
+  "triples": [
+    {
+      "subject": "2016 Blancpain GT Sports Club",
+      "relation": "is_season_of",
+      "object": "Blancpain GT Sports Club",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The 2016 Blancpain GT Sports Club was the second season of the SRO Group's Blancpain GT Sports Club"
+        }
+      ]
+    },
+    {
+      "subject": "Blancpain GT Sports Club",
+      "relation": "is_championship_for",
+      "object": "Bronze drivers",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The Blancpain GT Sports Club is a championship for Bronze and Iron drivers only"
+        }
+      ]
+    },
+    {
+      "subject": "Blancpain GT Sports Club",
+      "relation": "is_championship_for",
+      "object": "Iron drivers",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The Blancpain GT Sports Club is a championship for Bronze and Iron drivers only"
+        }
+      ]
+    },
+    {
+      "subject": "drivers",
+      "relation": "must_participate_with",
+      "object": "GT3-spec cars",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "All drivers must participate with GT3-spec cars, RACB G3 cars or GTE-spec cars"
+        }
+      ]
+    },
+    {
+      "subject": "drivers",
+      "relation": "must_participate_with",
+      "object": "RACB G3 cars",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "All drivers must participate with GT3-spec cars, RACB G3 cars or GTE-spec cars"
+        }
+      ]
+    },
+    {
+      "subject": "drivers",
+      "relation": "must_participate_with",
+      "object": "GTE-spec cars",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "All drivers must participate with GT3-spec cars, RACB G3 cars or GTE-spec cars"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Iron drivers",
+        "is_within_category",
+        "Bronze drivers"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "2016 Blancpain GT Sports Club\nThe 2016 Blancpain GT Sports Club was the second season of the SRO Group's Blancpain GT Sports Club, an auto racing series for grand tourer cars. The Blancpain GT Sports Club is a championship for Bronze and Iron drivers only. The \"Iron\" categorisation is within the Bronze category, for drivers over the age of 60. All drivers must participate with GT3-spec cars, RACB G3 cars or GTE-spec cars."
+}

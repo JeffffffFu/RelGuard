@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Patricia S. Cowings": "PERSON",
+    "NASA": "ORG",
+    "Sally Ride": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Patricia S. Cowings",
+      "relation": "trained_by",
+      "object": "NASA",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "trained as an astronaut by NASA"
+        }
+      ]
+    },
+    {
+      "subject": "Sally Ride",
+      "relation": "first_to_fly_in_space",
+      "object": "NASA",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first American woman to fly in space"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Patricia S. Cowings",
+        "alternate_for",
+        "space flight"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Patricia S. Cowings\nPatricia S. Cowings (born 1948) is an aerospace psychophysiologist, and was the first African American woman scientist to be trained as an astronaut by NASA (though Sally Ride was the first American woman to fly in space). Although she was an alternate for a space flight in 1979 she did not travel to space. She is most well known for her studies in the physiology of astronauts in outer space, as well as helping find cures for astronaut's motion sickness. Patricia found her love for science at a young age. Psychology and later psychophysiology showed her how to enhance human potential. 'What better field is there than to study the animal who created all the other fields? Humans!' This love was further helped by her psychologist aunt, whom she considered a deep inspiration because she had earned a PhD. Taking an engineering class in grad school where she took part in designing a space shuttle helped launch her desire to work in the field of space technology."
+}

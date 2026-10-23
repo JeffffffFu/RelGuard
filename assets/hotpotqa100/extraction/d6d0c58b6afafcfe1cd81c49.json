@@ -1,0 +1,163 @@
+{
+  "entities": {
+    "Metallica": "ORG",
+    "Lars Ulrich": "PERSON",
+    "James Hetfield": "PERSON",
+    "Dave Mustaine": "PERSON",
+    "Ron McGovney": "PERSON",
+    "Cliff Burton": "PERSON",
+    "Jason Newsted": "PERSON",
+    "Robert Trujillo": "PERSON",
+    "Kirk Hammett": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Metallica",
+      "relation": "founded_by",
+      "object": "Lars Ulrich",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in 1981 by",
+          "line_start": 43,
+          "char_start": 75,
+          "ambiguous": false,
+          "relation_mention": "founded in 1981 by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Metallica",
+      "relation": "founded_by",
+      "object": "James Hetfield",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in 1981 by",
+          "line_start": 43,
+          "char_start": 75,
+          "ambiguous": false,
+          "relation_mention": "founded in 1981 by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Dave Mustaine",
+      "relation": "works_for",
+      "object": "Metallica",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "included",
+          "line_start": 188,
+          "char_start": 220,
+          "ambiguous": false,
+          "relation_mention": "included",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ron McGovney",
+      "relation": "works_for",
+      "object": "Metallica",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "included",
+          "line_start": 188,
+          "char_start": 220,
+          "ambiguous": false,
+          "relation_mention": "included",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Cliff Burton",
+      "relation": "works_for",
+      "object": "Metallica",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played with the band",
+          "line_start": 367,
+          "char_start": 399,
+          "ambiguous": false,
+          "relation_mention": "played with the band",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Jason Newsted",
+      "relation": "works_for",
+      "object": "Metallica",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were recruited in the band",
+          "line_start": 499,
+          "char_start": 531,
+          "ambiguous": false,
+          "relation_mention": "were recruited in the band",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Robert Trujillo",
+      "relation": "works_for",
+      "object": "Metallica",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were recruited in the band",
+          "line_start": 499,
+          "char_start": 531,
+          "ambiguous": false,
+          "relation_mention": "were recruited in the band",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James Hetfield",
+        "works_for",
+        "Metallica"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cliff Burton",
+        "replaced",
+        "Ron McGovney"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kirk Hammett",
+        "works_for",
+        "Metallica"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kirk Hammett",
+        "replaced",
+        "Dave Mustaine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "List of Metallica concert tours\nMetallica is an American heavy metal band, founded in 1981 by drummer Lars Ulrich and rhythm guitarist James Hetfield. Aside from Ulrich, the original lineup for some of the 1982 concerts included James Hetfield (rhythm guitar and lead vocals), Dave Mustaine (lead guitar and backing vocals) and Ron McGovney (bass guitar). Cliff Burton replaced McGovney in 1982 and played with the band until his death in 1986. After his death, bassists Jason Newsted (1986–2001), and Robert Trujillo (since 2003) were recruited in the band. While the lead guitarist role was taken by Kirk Hammett (since 1983) after Dave Mustaine got fired from the band.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Metallica\", \"type\": \"ORG\"},\n    {\"name\": \"Lars Ulrich\", \"type\": \"PERSON\"},\n    {\"name\": \"James Hetfield\", \"type\": \"PERSON\"},\n    {\"name\": \"Dave Mustaine\", \"type\": \"PERSON\"},\n    {\"name\": \"Ron McGovney\", \"type\": \"PERSON\"},\n    {\"name\": \"Cliff Burton\", \"type\": \"PERSON\"},\n    {\"name\": \"Jason Newsted\", \"type\": \"PERSON\"},\n    {\"name\": \"Robert Trujillo\", \"type\": \"PERSON\"},\n    {\"name\": \"Kirk Hammett\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Metallica\",\n      \"relation\": \"founded_by\",\n      \"object\": \"Lars Ulrich\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in 1981 by\"}\n      ]\n    },\n    {\n      \"subject\": \"Metallica\",\n      \"relation\": \"founded_by\",\n      \"object\": \"James Hetfield\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in 1981 by\"}\n      ]\n    },\n    {\n      \"subject\": \"James Hetfield\",\n      \"relation\": \"works_for\",\n      \"object\": \"Metallica\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in 1982 concerts included\"}\n      ]\n    },\n    {\n      \"subject\": \"Dave Mustaine\",\n      \"relation\": \"works_for\",\n      \"object\": \"Metallica\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"included\"}\n      ]\n    },\n    {\n      \"subject\": \"Ron McGovney\",\n      \"relation\": \"works_for\",\n      \"object\": \"Metallica\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"included\"}\n      ]\n    },\n    {\n      \"subject\": \"Cliff Burton\",\n      \"relation\": \"replaced\",\n      \"object\": \"Ron McGovney\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"replaced McGovney in 1982\"}\n      ]\n    },\n    {\n      \"subject\": \"Cliff Burton\",\n      \"relation\": \"works_for\",\n      \"object\": \"Metallica\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played with the band\"}\n      ]\n    },\n    {\n      \"subject\": \"Jason Newsted\",\n      \"relation\": \"works_for\",\n      \"object\": \"Metallica\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were recruited in the band\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Trujillo\",\n      \"relation\": \"works_for\",\n      \"object\": \"Metallica\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were recruited in the band\"}\n      ]\n    },\n    {\n      \"subject\": \"Kirk Hammett\",\n      \"relation\": \"works_for\",\n      \"object\": \"Metallica\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was taken by Kirk Hammett (since 1983) after\"}\n      ]\n    },\n    {\n      \"subject\": \"Kirk Hammett\",\n      \"relation\": \"replaced\",\n      \"object\": \"Dave Mustaine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was taken by Kirk Hammett (since 1983) after Dave Mustaine got fired\"}\n      ]\n    }\n  ]\n}"
+}

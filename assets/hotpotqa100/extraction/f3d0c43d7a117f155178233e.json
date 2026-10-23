@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Kostiuk": "surname",
+    "Kosty": "personal_name",
+    "Kost": "personal_name",
+    "Konstanty": "given_name",
+    "Constantine": "given_name",
+    "Contantinus": "latin_name",
+    "Constantine the Great": "historical_figure",
+    "Byzantium": "location",
+    "Constantinople": "location"
+  },
+  "triples": [
+    {
+      "subject": "Kostiuk",
+      "relation": "derived_from",
+      "object": "Kosty",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "it is derived from the personal name of the father of the initial bearer"
+        }
+      ]
+    },
+    {
+      "subject": "Constantine the Great",
+      "relation": "renamed",
+      "object": "Constantinople",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "in whose honour Byzantium was renamed Constantinople"
+        }
+      ]
+    },
+    {
+      "subject": "Byzantium",
+      "relation": "renamed_to",
+      "object": "Constantinople",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "in whose honour Byzantium was renamed Constantinople"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kostiuk",
+        "derived_from",
+        "Kosty"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kostiuk",
+        "interpreted_as",
+        "son or descendent of Kosty or Kost"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kosty",
+        "pet_form_of",
+        "Konstanty"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Konstanty",
+        "rendered_in_english_as",
+        "Constantine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Constantine",
+        "derived_from",
+        "Contantinus"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Kostiuk\nKostiuk or Kostyuk is a surname of Ukrainian origin. It is a patronym, that is to say, it is derived from the personal name of the father of the initial bearer. In this instance, this surname derives from the personal name \"Kosty, Kost\", and the Ukrainian diminutive suffix \"uk\". Thus, the surname Kostiuk can be interpreted as \"son or descendent of Kosty or Kost\". The name Kosty or Kost is a pet form of the male given name Konstanty, which is rendered in English as \"Constantine\", a derivation of the Latin name \"Contantinus\", from \"constans, constantis\" meaning steadfast, faithful\". The name was popular in continental Europe as having been borne by the first Christian ruler of the Roman Empire, Constantine the Great (280-337), in whose honour Byzantium was renamed Constantinople. Among the numerous variants of this surname are Kosty, Kosciuszko, Kosciuszkiewicz, Kosciuszkowicz, Koskiewicz, Kostka and Kostecki."
+}

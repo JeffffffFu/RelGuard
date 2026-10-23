@@ -1,0 +1,131 @@
+{
+  "entities": {
+    "Hutu": "NORP",
+    "Tutsi": "NORP",
+    "Twa": "NORP",
+    "Rwanda": "GPE",
+    "Burundi": "GPE",
+    "Great Lakes": "LOC",
+    "Africa": "LOC",
+    "European": "NORP",
+    "Bantu": "NORP",
+    "Rwandan genocide": "EVENT",
+    "Burundian genocide": "EVENT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "First Congo War (EVENT)",
+        "Second Congo War (EVENT)"
+      ]
+    },
+    {
+      "triple": [
+        "Hutu",
+        "located_in",
+        "Rwanda"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tutsi",
+        "identified_as",
+        "separate race"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tutsi",
+        "identified_as",
+        "foreign"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tutsi",
+        "settled_amongst",
+        "Hutu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tutsi",
+        "intermarried_with",
+        "Hutu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hutu",
+        "descended_from",
+        "Bantu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bantu",
+        "arrived_in",
+        "region"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rwanda",
+        "located_in",
+        "Great Lakes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Great Lakes",
+        "part_of",
+        "Africa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rwandan genocide",
+        "related_to",
+        "origins of the Tutsi and Hutu peoples"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Burundian genocide",
+        "related_to",
+        "origins of the Tutsi and Hutu peoples"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "First Congo War",
+        "related_to",
+        "origins of the Tutsi and Hutu peoples"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Second Congo War",
+        "related_to",
+        "origins of the Tutsi and Hutu peoples"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Origins of Hutu, Tutsi and Twa\nThe origins of the Tutsi and Hutu peoples is a major issue in the histories of Rwanda and Burundi, as well as the Great Lakes region of Africa. While the Hutu are the largest social group in Rwanda, (although in racialist ideology originally introduced by European colonizers, the Tutsi were often identified as a separate race and also foreign, that settled amongst and intermarried with the Hutu, a Bantu group that had arrived in the region earlier, during the Bantu expansion). The relationship between the two modern populations is thus, in many ways, derived from the perceived origins and claim to \"Rwandan-ness\". The largest conflicts related to this question were the Rwandan genocide, the Burundian genocide, and the First and Second Congo Wars.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Hutu\", \"type\": \"NORP\"},\n    {\"name\": \"Tutsi\", \"type\": \"NORP\"},\n    {\"name\": \"Twa\", \"type\": \"NORP\"},\n    {\"name\": \"Rwanda\", \"type\": \"GPE\"},\n    {\"name\": \"Burundi\", \"type\": \"GPE\"},\n    {\"name\": \"Great Lakes\", \"type\": \"LOC\"},\n    {\"name\": \"Africa\", \"type\": \"LOC\"},\n    {\"name\": \"European\", \"type\": \"NORP\"},\n    {\"name\": \"Bantu\", \"type\": \"NORP\"},\n    {\"name\": \"Rwandan genocide\", \"type\": \"EVENT\"},\n    {\"name\": \"Burundian genocide\", \"type\": \"EVENT\"},\n    {\"name\": \"First Congo War\", \"type\": \"EVENT\"},\n    {\"name\": \"Second Congo War\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Hutu\",\n      \"relation\": \"located_in\",\n      \"object\": \"Rwanda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are the largest social group in\"}\n      ]\n    },\n    {\n      \"subject\": \"Tutsi\",\n      \"relation\": \"identified_as\",\n      \"object\": \"separate race\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were often identified as a separate race\"}\n      ]\n    },\n    {\n      \"subject\": \"Tutsi\",\n      \"relation\": \"identified_as\",\n      \"object\": \"foreign\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and also foreign\"}\n      ]\n    },\n    {\n      \"subject\": \"Tutsi\",\n      \"relation\": \"settled_amongst\",\n      \"object\": \"Hutu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"that settled amongst and intermarried with the Hutu\"}\n      ]\n    },\n    {\n      \"subject\": \"Tutsi\",\n      \"relation\": \"intermarried_with\",\n      \"object\": \"Hutu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"that settled amongst and intermarried with the Hutu\"}\n      ]\n    },\n    {\n      \"subject\": \"Hutu\",\n      \"relation\": \"descended_from\",\n      \"object\": \"Bantu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a Bantu group\"}\n      ]\n    },\n    {\n      \"subject\": \"Bantu\",\n      \"relation\": \"arrived_in\",\n      \"object\": \"region\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"had arrived in the region earlier\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwanda\",\n      \"relation\": \"located_in\",\n      \"object\": \"Great Lakes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Great Lakes region of Africa\"}\n      ]\n    },\n    {\n      \"subject\": \"Great Lakes\",\n      \"relation\": \"part_of\",\n      \"object\": \"Africa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"region of Africa\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwandan genocide\",\n      \"relation\": \"related_to\",\n      \"object\": \"origins of the Tutsi and Hutu peoples\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The largest conflicts related to this question were the Rwandan genocide\"}\n      ]\n    },\n    {\n      \"subject\": \"Burundian genocide\",\n      \"relation\": \"related_to\",\n      \"object\": \"origins of the Tutsi and Hutu peoples\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Burundian genocide\"}\n      ]\n    },\n    {\n      \"subject\": \"First Congo War\",\n      \"relation\": \"related_to\",\n      \"object\": \"origins of the Tutsi and Hutu peoples\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and the First and Second Congo Wars\"}\n      ]\n    },\n    {\n      \"subject\": \"Second Congo War\",\n      \"relation\": \"related_to\",\n      \"object\": \"origins of the Tutsi and Hutu peoples\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and the First and Second Congo Wars\"}\n      ]\n    }\n  ]\n}"
+}

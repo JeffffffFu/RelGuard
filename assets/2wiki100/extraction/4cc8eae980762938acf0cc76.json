@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Vortex": "WORK_OF_ART",
+    "Blondy": "WORK_OF_ART",
+    "Sergio Gobbi": "PERSON",
+    "Rod Taylor": "PERSON",
+    "Bibi Andersson": "PERSON",
+    "Catherine Jourdan": "PERSON",
+    "Mathieu Carrière": "PERSON",
+    "Paris": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Blondy",
+      "relation": "also_known_as",
+      "object": "Vortex",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also known as Blondie, Germacide, and Vortex"
+        }
+      ]
+    },
+    {
+      "subject": "Vortex",
+      "relation": "directed_by",
+      "object": "Sergio Gobbi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Sergio Gobbi"
+        }
+      ]
+    },
+    {
+      "subject": "Vortex",
+      "relation": "starring",
+      "object": "Rod Taylor",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Rod Taylor"
+        }
+      ]
+    },
+    {
+      "subject": "Vortex",
+      "relation": "shot_in",
+      "object": "Paris",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "shot in Paris"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vortex",
+        "starring",
+        "Bibi Andersson"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Vortex",
+        "starring",
+        "Catherine Jourdan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Vortex",
+        "starring",
+        "Mathieu Carrière"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Vortex (1976 film)\nBlondy (also known as Blondie, Germacide, and Vortex) is a 1976 erotic thriller film directed by Sergio Gobbi and starring Rod Taylor, Bibi Andersson, Catherine Jourdan, and Mathieu Carrière. It was shot in Paris in September 1975."
+}

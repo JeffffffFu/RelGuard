@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Greg A. Hill": "PERSON",
+    "First Nations": "NORP",
+    "Kanyen'kehaka": "NORP",
+    "Six Nations of the Grand River Territory": "GPE",
+    "Ontario": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Greg A. Hill",
+        "nationality",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Greg A. Hill",
+        "member_of",
+        "First Nations"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Greg A. Hill",
+        "is",
+        "Kanyen'kehaka"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kanyen'kehaka",
+        "located_in",
+        "Six Nations of the Grand River Territory"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Six Nations of the Grand River Territory",
+        "located_in",
+        "Ontario"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Greg A. Hill (artist)\nGreg A. Hill is a Canadian- born First Nations artist and curator. He is Kanyen'kehaka, from Six Nations of the Grand River Territory, Ontario.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Greg A. Hill\", \"type\": \"PERSON\"},\n    {\"name\": \"First Nations\", \"type\": \"NORP\"},\n    {\"name\": \"Kanyen'kehaka\", \"type\": \"NORP\"},\n    {\"name\": \"Six Nations of the Grand River Territory\", \"type\": \"GPE\"},\n    {\"name\": \"Ontario\", \"type\": \"GPE\"},\n    {\"name\": \"Canada\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Greg A. Hill\",\n      \"relation\": \"nationality\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Canadian- born\"}\n      ]\n    },\n    {\n      \"subject\": \"Greg A. Hill\",\n      \"relation\": \"member_of\",\n      \"object\": \"First Nations\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Canadian- born First Nations\"}\n      ]\n    },\n    {\n      \"subject\": \"Greg A. Hill\",\n      \"relation\": \"is\",\n      \"object\": \"Kanyen'kehaka\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"He is Kanyen'kehaka\"}\n      ]\n    },\n    {\n      \"subject\": \"Kanyen'kehaka\",\n      \"relation\": \"located_in\",\n      \"object\": \"Six Nations of the Grand River Territory\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from Six Nations of the Grand River Territory\"}\n      ]\n    },\n    {\n      \"subject\": \"Six Nations of the Grand River Territory\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ontario\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Territory, Ontario\"}\n      ]\n    }\n  ]\n}"
+}

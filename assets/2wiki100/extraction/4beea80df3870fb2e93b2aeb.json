@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Robin Kačaniklić": "Person",
+    "Real Åstorp FF": "Organization",
+    "Alexander Kačaniklić": "Person",
+    "Hammarby IF": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Robin Kačaniklić",
+      "relation": "plays_for",
+      "object": "Real Åstorp FF",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "plays for Real Åstorp FF"
+        }
+      ]
+    },
+    {
+      "subject": "Robin Kačaniklić",
+      "relation": "older_brother_of",
+      "object": "Alexander Kačaniklić",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is older brother to the Hammarby IF and former Swedish national team player Alexander Kačaniklić"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Kačaniklić",
+      "relation": "plays_for",
+      "object": "Hammarby IF",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Hammarby IF and former Swedish national team player Alexander Kačaniklić"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Robin Kačaniklić",
+        "born_on",
+        "25 August 1988"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Robin Kačaniklić\nRobin Kačaniklić( born 25 August 1988) is a Swedish footballer of Serbian and Macedonian descent who plays for Real Åstorp FF as a Midfielder. He is older brother to the Hammarby IF and former Swedish national team player Alexander Kačaniklić."
+}

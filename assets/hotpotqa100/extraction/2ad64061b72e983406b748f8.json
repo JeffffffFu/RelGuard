@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "United Kingdom": "GPE",
+    "Royal Train": "PRODUCT",
+    "British Royal Family": "NORP",
+    "Royal Household": "ORG",
+    "Great Britain": "GPE",
+    "Queen Victoria": "PERSON",
+    "National Railway Museum": "ORG",
+    "York": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Royal Train",
+      "relation": "used_to_convey",
+      "object": "British Royal Family",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is used to convey",
+          "line_start": 39,
+          "char_start": 59,
+          "ambiguous": false,
+          "relation_mention": "is used to convey",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Royal Train",
+      "relation": "used_to_convey",
+      "object": "Royal Household",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is used to convey",
+          "line_start": 39,
+          "char_start": 59,
+          "ambiguous": false,
+          "relation_mention": "is used to convey",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "National Railway Museum",
+      "relation": "has_exhibition",
+      "object": "Royal Train",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has a royal themed exhibition",
+          "line_start": 713,
+          "char_start": 733,
+          "ambiguous": false,
+          "relation_mention": "has a royal themed exhibition",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Royal Train",
+        "located_in",
+        "United Kingdom"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Royal Train",
+        "operates_on",
+        "Great Britain"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Royal Train",
+        "has_history_beginning_in_reign_of",
+        "Queen Victoria"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "National Railway Museum",
+        "located_in",
+        "York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "British Royal Train\nIn the United Kingdom, the Royal Train is used to convey senior members of the British Royal Family and associated staff of the Royal Household around the railway network of Great Britain. It is formed from a dedicated set of claret liveried sleeper, dining and lounge carriages. The current stock dates from 1977-1987. They are arranged according to requirements, and stored when not in use. The earliest royal coaches date back to the mid-19th Century in the reign of Queen Victoria; until an upgrade in 1977 there were multiple sets based in different regions, a legacy of the pre-nationalisation era of railways in Britain. Many are now in museums or on heritage railways; the National Railway Museum in York has a royal themed exhibition. Dedicated locomotives have never traditionally been part of the Royal Train, first appearing in special livery only in the 1990s, but also seeing use on other trains since 2003. In the 21st Century, various preserved (and one new build) steam locomotives have also hauled the train on special occasions. Although regularly cited by critics as one of the unnecessary luxuries of the Royal Family, which has led to an increase in the alternate use of normal scheduled services where possible, supporters argue the current arrangement emphasizes utility over luxury, and is still often the most practical and secure mode of travel to fit the required itinerary and avoid disruption to the public.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"United Kingdom\", \"type\": \"GPE\"},\n    {\"name\": \"Royal Train\", \"type\": \"PRODUCT\"},\n    {\"name\": \"British Royal Family\", \"type\": \"NORP\"},\n    {\"name\": \"Royal Household\", \"type\": \"ORG\"},\n    {\"name\": \"Great Britain\", \"type\": \"GPE\"},\n    {\"name\": \"Queen Victoria\", \"type\": \"PERSON\"},\n    {\"name\": \"National Railway Museum\", \"type\": \"ORG\"},\n    {\"name\": \"York\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Royal Train\",\n      \"relation\": \"located_in\",\n      \"object\": \"United Kingdom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"In the United Kingdom,\"}\n      ]\n    },\n    {\n      \"subject\": \"Royal Train\",\n      \"relation\": \"used_to_convey\",\n      \"object\": \"British Royal Family\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is used to convey\"}\n      ]\n    },\n    {\n      \"subject\": \"Royal Train\",\n      \"relation\": \"used_to_convey\",\n      \"object\": \"Royal Household\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is used to convey\"}\n      ]\n    },\n    {\n      \"subject\": \"Royal Train\",\n      \"relation\": \"operates_on\",\n      \"object\": \"Great Britain\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"around the railway network of Great Britain\"}\n      ]\n    },\n    {\n      \"subject\": \"Royal Train\",\n      \"relation\": \"has_history_beginning_in_reign_of\",\n      \"object\": \"Queen Victoria\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"in the reign of Queen Victoria\"}\n      ]\n    },\n    {\n      \"subject\": \"National Railway Museum\",\n      \"relation\": \"located_in\",\n      \"object\": \"York\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"in York\"}\n      ]\n    },\n    {\n      \"subject\": \"National Railway Museum\",\n      \"relation\": \"has_exhibition\",\n      \"object\": \"Royal Train\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"has a royal themed exhibition\"}\n      ]\n    }\n  ]\n}"
+}

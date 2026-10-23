@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Heatherette": "Company",
+    "Richie Rich": "Person",
+    "Traver Rains": "Person",
+    "Patricia Field": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Heatherette",
+      "relation": "founded",
+      "object": "Richie Rich",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "founded in 1999 by Club Kid Richie Rich"
+        }
+      ]
+    },
+    {
+      "subject": "Richie Rich",
+      "relation": "designed_with",
+      "object": "Traver Rains",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The pair first began designing T-shirts and leather goods"
+        }
+      ]
+    },
+    {
+      "subject": "Richie Rich",
+      "relation": "caught_attention_of",
+      "object": "Patricia Field",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "he caught the attention of a buyer at the downtown store Patricia Field"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Heatherette",
+        "founded",
+        "Traver Rains"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Heatherette",
+        "closed",
+        "2008"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Heatherette\nHeatherette was an American fashion company that closed in 2008. It was founded in 1999 by Club Kid Richie Rich and Traver Rains. The pair first began designing T-shirts and leather goods. When Rich wore one of their leather tops to a party, he caught the attention of a buyer at the downtown store Patricia Field."
+}

@@ -1,0 +1,165 @@
+{
+  "entities": {
+    "British Rail Class 87": "PRODUCT",
+    "British Rail Engineering Limited": "ORG",
+    "West Coast Main Line": "LOC",
+    "British Rail": "ORG",
+    "Virgin Trains": "ORG",
+    "Class 390": "PRODUCT",
+    "Pendolinos": "WORK_OF_ART",
+    "87002": "PRODUCT",
+    "AC Locomotive Group": "ORG",
+    "86101": "PRODUCT",
+    "Bulgaria": "GPE",
+    "Serco": "ORG",
+    "Caledonian Sleeper": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "British Rail Class 87",
+      "relation": "built_by",
+      "object": "British Rail Engineering Limited",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "built in 1973–75 by",
+          "line_start": 59,
+          "char_start": 81,
+          "ambiguous": false,
+          "relation_mention": "built in 1973–75 by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "British Rail Class 87",
+      "relation": "built_to_work_over",
+      "object": "West Coast Main Line",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to work passenger services over the",
+          "line_start": 156,
+          "char_start": 178,
+          "ambiguous": false,
+          "relation_mention": "to work passenger services over the",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "British Rail Class 87",
+      "relation": "transferred_to",
+      "object": "Virgin Trains",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "transferred to",
+          "line_start": 420,
+          "char_start": 442,
+          "ambiguous": false,
+          "relation_mention": "transferred to",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "87002",
+      "relation": "owned_by",
+      "object": "AC Locomotive Group",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned by",
+          "line_start": 649,
+          "char_start": 671,
+          "ambiguous": false,
+          "relation_mention": "owned by",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "87002",
+      "relation": "hired_by",
+      "object": "Serco",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "hired by",
+          "line_start": 835,
+          "char_start": 857,
+          "ambiguous": false,
+          "relation_mention": "hired by",
+          "sentence_id": 8
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Class 90 (PRODUCT)"
+      ]
+    },
+    {
+      "triple": [
+        "British Rail Class 87",
+        "were_flagships_of",
+        "British Rail"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Class 90",
+        "started_to_come_on_stream_after",
+        "British Rail Class 87"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "British Rail Class 87",
+        "transferred_to",
+        "other operators"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "British Rail Class 87",
+        "withdrawn_by",
+        "other operators"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "87002",
+        "used_alongside",
+        "86101"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A large proportion of the fleet",
+        "exported_to",
+        "Bulgaria"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "87002",
+        "works_for",
+        "Caledonian Sleeper"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "British Rail Class 87\nThe British Rail Class 87 is a type of electric locomotive built in 1973–75 by British Rail Engineering Limited. Thirty-six of these locomotives were built to work passenger services over the West Coast Main Line (WCML). They were the flagships of British Rail's electric locomotive fleet until the late 1980s, when the Class 90s started to come on stream. The privatisation of British Rail saw all but one of the fleet transferred to Virgin Trains. They continued their duties until the advent of the new Class 390 \"Pendolinos\", when they were transferred to other operators or withdrawn. There is only one Class 87 still in use in Britain, 87002, owned by the AC Locomotive Group and solely used alongside 86101 for the occasional charter train. A large proportion of the fleet have now been exported to Bulgaria. 87002 is currently hired by Serco to work the empty coaching stock of the \"Caledonian Sleeper\" services.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"British Rail Class 87\", \"type\": \"PRODUCT\"},\n    {\"name\": \"British Rail Engineering Limited\", \"type\": \"ORG\"},\n    {\"name\": \"West Coast Main Line\", \"type\": \"LOC\"},\n    {\"name\": \"British Rail\", \"type\": \"ORG\"},\n    {\"name\": \"Class 90\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Virgin Trains\", \"type\": \"ORG\"},\n    {\"name\": \"Class 390\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Pendolinos\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"87002\", \"type\": \"PRODUCT\"},\n    {\"name\": \"AC Locomotive Group\", \"type\": \"ORG\"},\n    {\"name\": \"86101\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Bulgaria\", \"type\": \"GPE\"},\n    {\"name\": \"Serco\", \"type\": \"ORG\"},\n    {\"name\": \"Caledonian Sleeper\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"British Rail Class 87\",\n      \"relation\": \"built_by\",\n      \"object\": \"British Rail Engineering Limited\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"built in 1973–75 by\"}]\n    },\n    {\n      \"subject\": \"British Rail Class 87\",\n      \"relation\": \"built_to_work_over\",\n      \"object\": \"West Coast Main Line\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"to work passenger services over the\"}]\n    },\n    {\n      \"subject\": \"British Rail Class 87\",\n      \"relation\": \"were_flagships_of\",\n      \"object\": \"British Rail\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"were the flagships of\"}]\n    },\n    {\n      \"subject\": \"Class 90\",\n      \"relation\": \"started_to_come_on_stream_after\",\n      \"object\": \"British Rail Class 87\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"started to come on stream\"}]\n    },\n    {\n      \"subject\": \"British Rail Class 87\",\n      \"relation\": \"transferred_to\",\n      \"object\": \"Virgin Trains\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"transferred to\"}]\n    },\n    {\n      \"subject\": \"British Rail Class 87\",\n      \"relation\": \"transferred_to\",\n      \"object\": \"other operators\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"British Rail Class 87\",\n      \"relation\": \"withdrawn_by\",\n      \"object\": \"other operators\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"87002\",\n      \"relation\": \"owned_by\",\n      \"object\": \"AC Locomotive Group\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"owned by\"}]\n    },\n    {\n      \"subject\": \"87002\",\n      \"relation\": \"used_alongside\",\n      \"object\": \"86101\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"alongside\"}]\n    },\n    {\n      \"subject\": \"A large proportion of the fleet\",\n      \"relation\": \"exported_to\",\n      \"object\": \"Bulgaria\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"exported to\"}]\n    },\n    {\n      \"subject\": \"87002\",\n      \"relation\": \"hired_by\",\n      \"object\": \"Serco\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"hired by\"}]\n    },\n    {\n      \"subject\": \"87002\",\n      \"relation\": \"works_for\",\n      \"object\": \"Caledonian Sleeper\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"to work the empty coaching stock of the \\\"Caledonian Sleeper\\\" services\"}]\n    }\n  ]\n}"
+}

@@ -1,0 +1,131 @@
+{
+  "entities": {
+    "This Woman": "WORK_OF_ART",
+    "LeAnn Rimes": "PERSON",
+    "January 25, 2005": "WORK_OF_ART",
+    "country music": "NORP",
+    "Dean Sheremet": "PERSON",
+    "Twisted Angel": "WORK_OF_ART",
+    "You Take Me Home": "WORK_OF_ART",
+    "I Got It Bad": "WORK_OF_ART",
+    "When This Woman Loves a Man": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "This Woman",
+      "relation": "released_on",
+      "object": "January 25, 2005",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released on",
+          "line_start": 54,
+          "char_start": 85,
+          "ambiguous": false,
+          "relation_mention": "released on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "LeAnn Rimes",
+      "relation": "promoted",
+      "object": "This Woman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "promoting",
+          "line_start": 90,
+          "char_start": 121,
+          "ambiguous": false,
+          "relation_mention": "promoting",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "LeAnn Rimes",
+      "relation": "helped_pen",
+      "object": "You Take Me Home",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "helped pen",
+          "line_start": 413,
+          "char_start": 444,
+          "ambiguous": false,
+          "relation_mention": "helped pen",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "LeAnn Rimes",
+      "relation": "helped_pen",
+      "object": "I Got It Bad",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "helped pen",
+          "line_start": 413,
+          "char_start": 444,
+          "ambiguous": false,
+          "relation_mention": "helped pen",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "LeAnn Rimes",
+      "relation": "helped_pen",
+      "object": "When This Woman Loves a Man",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "helped pen",
+          "line_start": 413,
+          "char_start": 444,
+          "ambiguous": false,
+          "relation_mention": "helped pen",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "This Woman",
+        "is_album_by",
+        "LeAnn Rimes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "stated_about",
+        "country music"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "married_to",
+        "Dean Sheremet"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Twisted Angel",
+        "is_also_by",
+        "LeAnn Rimes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "This Woman (LeAnn Rimes album)\nThis Woman is the seventh studio album by LeAnn Rimes released on January 25, 2005. While promoting \"This Woman\", she stated that it was her return to her \"roots\", country music. In essence, the album has a strong theme of love, falling in love and marriage. This could be due to LeAnn's own marriage to her back up dancer Dean Sheremet. The album was a success on the country charts. Like \"Twisted Angel\", Rimes helped pen tracks on the album (\"You Take Me Home\", \"I Got It Bad\" and \"When This Woman Loves a Man\").",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"This Woman\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"LeAnn Rimes\", \"type\": \"PERSON\"},\n    {\"name\": \"January 25, 2005\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"country music\", \"type\": \"NORP\"},\n    {\"name\": \"Dean Sheremet\", \"type\": \"PERSON\"},\n    {\"name\": \"Twisted Angel\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"You Take Me Home\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"I Got It Bad\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"When This Woman Loves a Man\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"This Woman\",\n      \"relation\": \"is_album_by\",\n      \"object\": \"LeAnn Rimes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    },\n    {\n      \"subject\": \"This Woman\",\n      \"relation\": \"released_on\",\n      \"object\": \"January 25, 2005\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released on\"}\n      ]\n    },\n    {\n      \"subject\": \"LeAnn Rimes\",\n      \"relation\": \"promoted\",\n      \"object\": \"This Woman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"promoting\"}\n      ]\n    },\n    {\n      \"subject\": \"LeAnn Rimes\",\n      \"relation\": \"stated_about\",\n      \"object\": \"country music\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"return to her \\\"roots\\\", country music\"}\n      ]\n    },\n    {\n      \"subject\": \"LeAnn Rimes\",\n      \"relation\": \"married_to\",\n      \"object\": \"Dean Sheremet\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"marriage to\"}\n      ]\n    },\n    {\n      \"subject\": \"LeAnn Rimes\",\n      \"relation\": \"helped_pen\",\n      \"object\": \"You Take Me Home\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"helped pen\"}\n      ]\n    },\n    {\n      \"subject\": \"LeAnn Rimes\",\n      \"relation\": \"helped_pen\",\n      \"object\": \"I Got It Bad\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"helped pen\"}\n      ]\n    },\n    {\n      \"subject\": \"LeAnn Rimes\",\n      \"relation\": \"helped_pen\",\n      \"object\": \"When This Woman Loves a Man\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"helped pen\"}\n      ]\n    },\n    {\n      \"subject\": \"Twisted Angel\",\n      \"relation\": \"is_also_by\",\n      \"object\": \"LeAnn Rimes\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"Rimes\"}\n      ]\n    }\n  ]\n}"
+}

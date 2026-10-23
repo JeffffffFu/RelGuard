@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "To Walk with Lions": "WORK_OF_ART",
+    "Carl Schultz": "PERSON",
+    "Richard Harris": "PERSON",
+    "George Adamson": "PERSON",
+    "John Michie": "PERSON",
+    "Tony Fitzjohn": "PERSON",
+    "Joy Adamson": "PERSON",
+    "Kora National Reserve": "FAC",
+    "Kenya": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "To Walk with Lions",
+      "relation": "directed_by",
+      "object": "Carl Schultz",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 34,
+          "char_start": 53,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "To Walk with Lions",
+      "relation": "starring",
+      "object": "Richard Harris",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 63,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "To Walk with Lions",
+      "relation": "starring",
+      "object": "John Michie",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 63,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Richard Harris",
+        "portrays",
+        "George Adamson"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Michie",
+        "portrays",
+        "Tony Fitzjohn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "George Adamson",
+        "married_to",
+        "Joy Adamson"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "George Adamson",
+        "located_in",
+        "Kora National Reserve"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kora National Reserve",
+        "located_in",
+        "Kenya"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "To Walk with Lions\nTo Walk with Lions is a 1999 film directed by Carl Schultz and starring Richard Harris as George Adamson and John Michie as Tony Fitzjohn. It follows the later years of wild game preserver/ naturalist Adamson. After his marriage to Joy Adamson of\" Born Free\" fame, Adamson spent the latter part of his life protecting the lions and other wildlife in the Kora National Reserve, Kenya. He encounters poachers and government corruption blocking his quest for wildlife preservation.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"To Walk with Lions\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Carl Schultz\", \"type\": \"PERSON\"},\n    {\"name\": \"Richard Harris\", \"type\": \"PERSON\"},\n    {\"name\": \"George Adamson\", \"type\": \"PERSON\"},\n    {\"name\": \"John Michie\", \"type\": \"PERSON\"},\n    {\"name\": \"Tony Fitzjohn\", \"type\": \"PERSON\"},\n    {\"name\": \"Joy Adamson\", \"type\": \"PERSON\"},\n    {\"name\": \"Kora National Reserve\", \"type\": \"FAC\"},\n    {\"name\": \"Kenya\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"To Walk with Lions\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Carl Schultz\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"To Walk with Lions\",\n      \"relation\": \"starring\",\n      \"object\": \"Richard Harris\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Richard Harris\",\n      \"relation\": \"portrays\",\n      \"object\": \"George Adamson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as\"}\n      ]\n    },\n    {\n      \"subject\": \"To Walk with Lions\",\n      \"relation\": \"starring\",\n      \"object\": \"John Michie\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"John Michie\",\n      \"relation\": \"portrays\",\n      \"object\": \"Tony Fitzjohn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as\"}\n      ]\n    },\n    {\n      \"subject\": \"George Adamson\",\n      \"relation\": \"married_to\",\n      \"object\": \"Joy Adamson\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"marriage to\"}\n      ]\n    },\n    {\n      \"subject\": \"George Adamson\",\n      \"relation\": \"located_in\",\n      \"object\": \"Kora National Reserve\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"in the Kora National Reserve\"}\n      ]\n    },\n    {\n      \"subject\": \"Kora National Reserve\",\n      \"relation\": \"located_in\",\n      \"object\": \"Kenya\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"Kenya\"}\n      ]\n    }\n  ]\n}"
+}

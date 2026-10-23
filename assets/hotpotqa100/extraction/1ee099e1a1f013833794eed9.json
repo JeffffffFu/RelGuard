@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Westgate Las Vegas Resort & Casino": "FAC",
+    "Winchester": "GPE",
+    "Nevada": "GPE",
+    "Westgate Resorts": "ORG",
+    "Navegante Group": "ORG",
+    "International Hotel": "FAC",
+    "Las Vegas Hilton": "FAC",
+    "LVH – Las Vegas Hotel and Casino": "FAC",
+    "Westgate Las Vegas": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Westgate Las Vegas Resort & Casino",
+      "relation": "owned_by",
+      "object": "Westgate Resorts",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned by",
+          "line_start": 90,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "owned by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Westgate Las Vegas Resort & Casino",
+      "relation": "operated_by",
+      "object": "Navegante Group",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "operated by",
+          "line_start": 120,
+          "char_start": 159,
+          "ambiguous": false,
+          "relation_mention": "operated by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Westgate Las Vegas Resort & Casino",
+      "relation": "opened_as",
+      "object": "International Hotel",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "opened in 1969 as",
+          "line_start": 199,
+          "char_start": 238,
+          "ambiguous": false,
+          "relation_mention": "opened in 1969 as",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Westgate Las Vegas Resort & Casino",
+      "relation": "was_known_as",
+      "object": "Las Vegas Hilton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known for many years as",
+          "line_start": 250,
+          "char_start": 289,
+          "ambiguous": false,
+          "relation_mention": "known for many years as",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Westgate Las Vegas Resort & Casino",
+        "located_in",
+        "Winchester"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Winchester",
+        "located_in",
+        "Nevada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Westgate Las Vegas Resort & Casino",
+        "was_known_as",
+        "LVH – Las Vegas Hotel and Casino"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Westgate Las Vegas Resort & Casino",
+        "renamed_to",
+        "Westgate Las Vegas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Westgate Las Vegas Resort &amp; Casino\nThe Westgate Las Vegas Resort & Casino is a hotel and casino in Winchester, Nevada. It is owned by Westgate Resorts and operated by Navegante Group. It has 2,956 hotel rooms including 305 suites. It opened in 1969 as the International Hotel, and was known for many years as the Las Vegas Hilton, then briefly as the LVH – Las Vegas Hotel and Casino. It was renamed the Westgate Las Vegas on July 1, 2014.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Westgate Las Vegas Resort & Casino\", \"type\": \"FAC\"},\n    {\"name\": \"Winchester\", \"type\": \"GPE\"},\n    {\"name\": \"Nevada\", \"type\": \"GPE\"},\n    {\"name\": \"Westgate Resorts\", \"type\": \"ORG\"},\n    {\"name\": \"Navegante Group\", \"type\": \"ORG\"},\n    {\"name\": \"International Hotel\", \"type\": \"FAC\"},\n    {\"name\": \"Las Vegas Hilton\", \"type\": \"FAC\"},\n    {\"name\": \"LVH – Las Vegas Hotel and Casino\", \"type\": \"FAC\"},\n    {\"name\": \"Westgate Las Vegas\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Westgate Las Vegas Resort & Casino\",\n      \"relation\": \"located_in\",\n      \"object\": \"Winchester\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Winchester\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nevada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Nevada\"}\n      ]\n    },\n    {\n      \"subject\": \"Westgate Las Vegas Resort & Casino\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Westgate Resorts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"Westgate Las Vegas Resort & Casino\",\n      \"relation\": \"operated_by\",\n      \"object\": \"Navegante Group\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"operated by\"}\n      ]\n    },\n    {\n      \"subject\": \"Westgate Las Vegas Resort & Casino\",\n      \"relation\": \"opened_as\",\n      \"object\": \"International Hotel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"opened in 1969 as\"}\n      ]\n    },\n    {\n      \"subject\": \"Westgate Las Vegas Resort & Casino\",\n      \"relation\": \"was_known_as\",\n      \"object\": \"Las Vegas Hilton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known for many years as\"}\n      ]\n    },\n    {\n      \"subject\": \"Westgate Las Vegas Resort & Casino\",\n      \"relation\": \"was_known_as\",\n      \"object\": \"LVH – Las Vegas Hotel and Casino\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"then briefly as\"}\n      ]\n    },\n    {\n      \"subject\": \"Westgate Las Vegas Resort & Casino\",\n      \"relation\": \"renamed_to\",\n      \"object\": \"Westgate Las Vegas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was renamed the Westgate Las Vegas\"}\n      ]\n    }\n  ]\n}"
+}

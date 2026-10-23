@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Robert Petre": "Person",
+    "Thomas Petre": "Person",
+    "Mary Clifton": "Person",
+    "Arabella Fermor": "Person",
+    "Henry Fermor": "Person",
+    "Tusmore": "Location",
+    "Oxfordshire": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Robert Petre",
+      "relation": "son_of",
+      "object": "Thomas Petre",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the son of Thomas Petre"
+        }
+      ]
+    },
+    {
+      "subject": "Robert Petre",
+      "relation": "married_to",
+      "object": "Mary Clifton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his wife Mary Clifton"
+        }
+      ]
+    },
+    {
+      "subject": "Robert Petre",
+      "relation": "cut_off_hair_from",
+      "object": "Arabella Fermor",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "cut off a lock of hair from the head of a celebrated beauty, his distant cousin, Arabella Fermor"
+        }
+      ]
+    },
+    {
+      "subject": "Arabella Fermor",
+      "relation": "daughter_of",
+      "object": "Henry Fermor",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "daughter of Henry Fermor"
+        }
+      ]
+    },
+    {
+      "subject": "Henry Fermor",
+      "relation": "located_in",
+      "object": "Tusmore",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of Tusmore"
+        }
+      ]
+    },
+    {
+      "subject": "Tusmore",
+      "relation": "located_in",
+      "object": "Oxfordshire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Tusmore, Oxfordshire"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mary Clifton",
+        "daughter_of",
+        "Sir Thomas Clifton"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Robert Petre",
+        "succeeded_to",
+        "7th Baron Petre"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Robert Petre, 7th Baron Petre\nRobert Petre, 7th Baron Petre( 1689 – 22 March 1713) was a British peer, the son of Thomas Petre, 6th Baron Petre( 1633 – 1706) and his wife Mary Clifton, daughter of Sir Thomas Clifton. He succeeded to his title, at the age of 17, upon the death of his father. Robert is said to have spurned wearing a wig in the conventional way, spending instead six hours every day dressing his own hair. He caused an uproar of indignation and outrage in the family when, in 1711, being then only 21, in a freak of gallantry cut off a lock of hair from the head of a celebrated beauty, his distant cousin, Arabella Fermor, daughter of Henry Fermor of Tusmore, Oxfordshire."
+}

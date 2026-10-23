@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Jefferson High School": "Educational Institution",
+    "Delphos City Schools": "Educational Institution",
+    "Franklin Elementary": "Educational Institution",
+    "Jefferson Middle School": "Educational Institution",
+    "Landeck Elementary": "Educational Institution",
+    "Landeck": "Location",
+    "Allen County": "Location",
+    "Van Wert County": "Location",
+    "Catholic Church": "Organization",
+    "Ohio": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Jefferson High School",
+      "relation": "located_in",
+      "object": "Van Wert County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "physically located in Van Wert County, Ohio"
+        }
+      ]
+    },
+    {
+      "subject": "Delphos City Schools",
+      "relation": "has_building",
+      "object": "Franklin Elementary",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "has only one building (Franklin Elementary)"
+        }
+      ]
+    },
+    {
+      "subject": "Delphos City Schools",
+      "relation": "has_building",
+      "object": "Jefferson Middle School",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "two (Jefferson Middle School and Jefferson High School)"
+        }
+      ]
+    },
+    {
+      "subject": "Landeck Elementary",
+      "relation": "located_in",
+      "object": "Landeck",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Landeck Elementary school located in Landeck Ohio"
+        }
+      ]
+    },
+    {
+      "subject": "Landeck",
+      "relation": "owned_by",
+      "object": "Catholic Church",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "This building is owned by the Catholic Church located in Landeck"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Delphos Jefferson High School",
+        "located_in",
+        "Allen County"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Delphos Jefferson High School",
+        "located_in",
+        "Van Wert County"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Landeck",
+        "located_a_few_miles_outside_of",
+        "Delphos"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jefferson High School (Delphos, Ohio)\nDelphos Jefferson High School is a public high school located in Allen County, Ohio for reporting purposes only. Jefferson High School is physically located in Van Wert County, Ohio. It also serves parts of Van Wert County, Ohio. Delphos City Schools has only one building (Franklin Elementary) located in Allen County, Ohio, and two (Jefferson Middle School and Jefferson High School) located in Van Wert County, Ohio. Another building is used for grades 1-5, Landeck Elementary school located in Landeck Ohio. Landeck is located a few miles outside of Delphos. This building is owned by the Catholic Church located in Landeck."
+}

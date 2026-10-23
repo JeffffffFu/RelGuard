@@ -1,0 +1,44 @@
+{
+  "entities": {
+    "Firstar Center": "FAC",
+    "Firstar Corporation": "ORG",
+    "U.S. Bancorp": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Firstar Center",
+      "relation": "was_name_of_before",
+      "object": "Firstar Corporation",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was the name previously used by",
+          "line_start": 15,
+          "char_start": 30,
+          "ambiguous": false,
+          "relation_mention": "was the name previously used by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Firstar Corporation",
+      "relation": "changed_name_to",
+      "object": "U.S. Bancorp",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "changed its name to",
+          "line_start": 88,
+          "char_start": 103,
+          "ambiguous": false,
+          "relation_mention": "changed its name to",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Firstar Center\nFirstar Center was the name previously used by two buildings before Firstar Corporation changed its name to U.S. Bancorp. The two buildings are now named:",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Firstar Center\", \"type\": \"FAC\"},\n    {\"name\": \"Firstar Corporation\", \"type\": \"ORG\"},\n    {\"name\": \"U.S. Bancorp\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Firstar Center\",\n      \"relation\": \"was_name_of_before\",\n      \"object\": \"Firstar Corporation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the name previously used by\"}\n      ]\n    },\n    {\n      \"subject\": \"Firstar Corporation\",\n      \"relation\": \"changed_name_to\",\n      \"object\": \"U.S. Bancorp\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"changed its name to\"}\n      ]\n    }\n  ]\n}"
+}

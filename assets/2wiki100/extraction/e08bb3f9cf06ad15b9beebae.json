@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "Kim Sun-a": "PERSON",
+    "Nam Sang-mi": "PERSON",
+    "She's on Duty": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Kim Sun-a",
+      "relation": "goes_undercover_in",
+      "object": "She's on Duty",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a police detective( Kim Sun- a) who goes undercover in a high school"
+        }
+      ]
+    },
+    {
+      "subject": "Nam Sang-mi",
+      "relation": "is_daughter_of",
+      "object": "She's on Duty",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to befriend the daughter( Nam Sang -mi) of an elusive gangster"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "South Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "She's on Duty",
+        "is_a_film_from",
+        "South Korea"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "She's on Duty\nShe's on Duty( lit.\" Stakeout\" or\" Undercover\") is a 2005 South Korean film about a police detective( Kim Sun- a) who goes undercover in a high school to befriend the daughter( Nam Sang -mi) of an elusive gangster. Despite being heavily marketed, the film was generally considered a box office disappointment."
+}

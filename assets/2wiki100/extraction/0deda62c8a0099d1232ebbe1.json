@@ -1,0 +1,127 @@
+{
+  "entities": {
+    "Sherry Hormann": "PERSON",
+    "Germany": "GPE",
+    "United States": "GPE",
+    "Guys and Balls": "WORK_OF_ART",
+    "Desert Flower": "WORK_OF_ART",
+    "3096": "WORK_OF_ART",
+    "Munich Academy for Television and Film": "ORG",
+    "Dominik Graf": "PERSON",
+    "Michael Ballhaus": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Sherry Hormann",
+      "relation": "born_in",
+      "object": "Germany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a German- American film director"
+        }
+      ]
+    },
+    {
+      "subject": "Sherry Hormann",
+      "relation": "born_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was born in the United States"
+        }
+      ]
+    },
+    {
+      "subject": "Sherry Hormann",
+      "relation": "moved_to",
+      "object": "Germany",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "moved to Germany in 1966"
+        }
+      ]
+    },
+    {
+      "subject": "Sherry Hormann",
+      "relation": "attended",
+      "object": "Munich Academy for Television and Film",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "attended the Munich Academy for Television and Film"
+        }
+      ]
+    },
+    {
+      "subject": "Sherry Hormann",
+      "relation": "married",
+      "object": "Dominik Graf",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "was married to film director Dominik Graf"
+        }
+      ]
+    },
+    {
+      "subject": "Sherry Hormann",
+      "relation": "married",
+      "object": "Michael Ballhaus",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "she married cinematographer Michael Ballhaus"
+        }
+      ]
+    },
+    {
+      "subject": "Sherry Hormann",
+      "relation": "best_known_for",
+      "object": "Guys and Balls",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for her movies Guys and Balls"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Michael Ballhaus",
+        "died_in",
+        "April 2017"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sherry Hormann",
+        "works_in",
+        "German cinema"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sherry Hormann",
+        "best_known_for",
+        "Desert Flower"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sherry Hormann",
+        "best_known_for",
+        "3096"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Sherry Hormann\nSherry Hormann( born 20 April 1960) is a German- American film director. Hormann is best known for her movies Guys and Balls( 2004), Desert Flower( 2009) and 3096( 2013). Hormann was born in the United States, but moved to Germany in 1966, when she was six years old. She attended the Munich Academy for Television and Film( HFF) and mainly works in German cinema. She was married to film director Dominik Graf. In October 2011, she married cinematographer Michael Ballhaus; he died in April 2017."
+}

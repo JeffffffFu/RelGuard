@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Mosaics": "WORK_OF_ART",
+    "Mark Heard": "PERSON",
+    "Home Sweet Home Records": "ORG",
+    "Ashes and Light": "WORK_OF_ART",
+    "Ashes": "WORK_OF_ART",
+    "Fingerprint Recording Studio": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Mosaics",
+      "relation": "released_on",
+      "object": "Home Sweet Home Records",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released in 1985 on",
+          "line_start": 35,
+          "char_start": 51,
+          "ambiguous": false,
+          "relation_mention": "released in 1985 on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Ashes and Light",
+      "relation": "mentions",
+      "object": "Mosaics",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "According to the liner notes in",
+          "line_start": 80,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "According to the liner notes in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ashes",
+      "relation": "was_released_before",
+      "object": "Mosaics",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released first",
+          "line_start": 237,
+          "char_start": 253,
+          "ambiguous": false,
+          "relation_mention": "released first",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Mosaics",
+      "relation": "recorded_in",
+      "object": "Fingerprint Recording Studio",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "recorded in",
+          "line_start": 292,
+          "char_start": 308,
+          "ambiguous": false,
+          "relation_mention": "recorded in",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mosaics",
+        "works_for",
+        "Mark Heard"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Mosaics (album)\nMosaics is an album by Mark Heard, released in 1985 on Home Sweet Home Records. According to the liner notes in \"Ashes and Light\", this album was recorded first but delayed by the record company who wanted the less rock-oriented \"Ashes\" released first. Consequently, this was the first album recorded in Heard's own Fingerprint Recording Studio.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Mosaics\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Mark Heard\", \"type\": \"PERSON\"},\n    {\"name\": \"Home Sweet Home Records\", \"type\": \"ORG\"},\n    {\"name\": \"Ashes and Light\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Ashes\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Fingerprint Recording Studio\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Mosaics\",\n      \"relation\": \"works_for\",\n      \"object\": \"Mark Heard\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an album by\"}\n      ]\n    },\n    {\n      \"subject\": \"Mosaics\",\n      \"relation\": \"released_on\",\n      \"object\": \"Home Sweet Home Records\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released in 1985 on\"}\n      ]\n    },\n    {\n      \"subject\": \"Ashes and Light\",\n      \"relation\": \"mentions\",\n      \"object\": \"Mosaics\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"According to the liner notes in\"}\n      ]\n    },\n    {\n      \"subject\": \"Ashes\",\n      \"relation\": \"was_released_before\",\n      \"object\": \"Mosaics\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released first\"}\n      ]\n    },\n    {\n      \"subject\": \"Mosaics\",\n      \"relation\": \"recorded_in\",\n      \"object\": \"Fingerprint Recording Studio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"recorded in\"}\n      ]\n    }\n  ]\n}"
+}

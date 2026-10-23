@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "James Tyson": "PERSON",
+    "Australia": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "James Tyson",
+      "relation": "located_in",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was an Australian",
+          "line_start": 45,
+          "char_start": 57,
+          "ambiguous": false,
+          "relation_mention": "was an Australian",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James Tyson",
+        "born_on",
+        "8 April 1819"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James Tyson",
+        "died_on",
+        "4 December 1898"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James Tyson",
+        "was_a",
+        "pastoralist"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James Tyson",
+        "regarded_as",
+        "Australia's first self-made millionaire"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "James Tyson\nJames Tyson (8 April 1819 – 4 December 1898) was an Australian pastoralist. He is regarded as Australia's first self-made millionaire. His name became a byword for reticence, wealth and astute dealing."
+}

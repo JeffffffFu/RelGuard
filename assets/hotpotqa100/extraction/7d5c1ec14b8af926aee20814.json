@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Triple Crown of Acting": "WORK_OF_ART",
+    "American entertainment industry": "ORG",
+    "Helen Hayes": "PERSON",
+    "Thomas Mitchell": "PERSON",
+    "Rita Moreno": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Triple Crown of Acting",
+      "relation": "describes",
+      "object": "American entertainment industry",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a term used in the American entertainment industry to describe actors who have won a competitive Academy Award, Emmy Award, and Tony Award in the acting categories."
+        }
+      ]
+    },
+    {
+      "subject": "Helen Hayes",
+      "relation": "achieved",
+      "object": "Triple Crown of Acting",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "made her the first person to achieve the triple crown."
+        }
+      ]
+    },
+    {
+      "subject": "Thomas Mitchell",
+      "relation": "achieved",
+      "object": "Triple Crown of Acting",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "became the first man to achieve the triple crown with his Tony Award win later the same year on March 29, 1953."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "4 entities outside the eleven types",
+      "entities": [
+        "Academy Award (AWARD)",
+        "Emmy Award (AWARD)",
+        "Tony Award (AWARD)",
+        "Grammy Award (AWARD)"
+      ]
+    },
+    {
+      "triple": [
+        "Helen Hayes",
+        "won",
+        "Emmy Award"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Thomas Mitchell",
+        "won",
+        "Tony Award"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rita Moreno",
+        "won",
+        "Grammy Award"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Triple Crown of Acting\nThe Triple Crown of Acting is a term used in the American entertainment industry to describe actors who have won a competitive Academy Award, Emmy Award, and Tony Award in the acting categories. 23 people have achieved the triple crown of acting (14 women, 9 men). Helen Hayes' Emmy Award win on February 5, 1953, made her the first person to achieve the triple crown. Thomas Mitchell became the first man to achieve the triple crown with his Tony Award win later the same year on March 29, 1953. Hayes and Rita Moreno are the only triple crown winners in competitive acting categories who have also won a Grammy Award to complete the EGOT."
+}

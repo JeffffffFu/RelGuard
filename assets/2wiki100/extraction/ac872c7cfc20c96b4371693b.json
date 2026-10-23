@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Empties": "WORK_OF_ART",
+    "Jan Svěrák": "PERSON",
+    "Zdeněk Svěrák": "PERSON",
+    "Czech Republic": "GPE",
+    "Kolya": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Empties",
+      "relation": "directed_by",
+      "object": "Jan Svěrák",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 23,
+          "char_start": 31,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Empties",
+      "relation": "written_by",
+      "object": "Zdeněk Svěrák",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 50,
+          "char_start": 58,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Empties",
+      "relation": "related_to",
+      "object": "Kolya",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "which made",
+          "line_start": 214,
+          "char_start": 222,
+          "ambiguous": false,
+          "relation_mention": "which made",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Zdeněk Svěrák",
+        "stars_in",
+        "Empties"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Empties",
+        "released_in",
+        "Czech Republic"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Empties\nEmpties is a 2007 film directed by Jan Svěrák and written by his father Zdeněk Svěrák, who also stars in the film. It was released first in the Czech Republic in March 2007. The film is a comedy from the same team which made Kolya.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Empties\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Jan Svěrák\", \"type\": \"PERSON\"},\n    {\"name\": \"Zdeněk Svěrák\", \"type\": \"PERSON\"},\n    {\"name\": \"Czech Republic\", \"type\": \"GPE\"},\n    {\"name\": \"Kolya\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Empties\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Jan Svěrák\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Empties\",\n      \"relation\": \"written_by\",\n      \"object\": \"Zdeněk Svěrák\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Zdeněk Svěrák\",\n      \"relation\": \"stars_in\",\n      \"object\": \"Empties\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars in\"}\n      ]\n    },\n    {\n      \"subject\": \"Empties\",\n      \"relation\": \"released_in\",\n      \"object\": \"Czech Republic\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Empties\",\n      \"relation\": \"related_to\",\n      \"object\": \"Kolya\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"which made\"}\n      ]\n    }\n  ]\n}"
+}

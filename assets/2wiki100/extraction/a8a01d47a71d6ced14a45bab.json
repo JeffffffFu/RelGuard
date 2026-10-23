@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Rebecca": "film",
+    "Shirley Frimpong-Manso": "person",
+    "Yvonne Okoro": "person",
+    "Joseph Benjamin": "person",
+    "London": "location",
+    "Ghana": "location",
+    "Nigeria": "location"
+  },
+  "triples": [
+    {
+      "subject": "Rebecca",
+      "relation": "directed_by",
+      "object": "Shirley Frimpong-Manso",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Shirley Frimpong- Manso"
+        }
+      ]
+    },
+    {
+      "subject": "Rebecca",
+      "relation": "starring",
+      "object": "Yvonne Okoro",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Yvonne Okoro"
+        }
+      ]
+    },
+    {
+      "subject": "Rebecca",
+      "relation": "released_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "released first in London"
+        }
+      ]
+    },
+    {
+      "subject": "Rebecca",
+      "relation": "released_in",
+      "object": "Ghana",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "before Ghana"
+        }
+      ]
+    },
+    {
+      "subject": "Yvonne Okoro",
+      "relation": "born_in",
+      "object": "Nigeria",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Nigerian born actress Yvonne Okoro"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rebecca",
+        "starring",
+        "Joseph Benjamin"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Rebecca (2016 film)\nRebecca is a 2016 Ghana- Nigeria film directed by Shirley Frimpong- Manso, and starring Yvonne Okoro and Joseph Benjamin. According to Manso, the film was released first in London, before Ghana due to the economic situation of the country causing reduced patronage for films. The film is the second two cast film that features Nigerian born actress Yvonne Okoro."
+}

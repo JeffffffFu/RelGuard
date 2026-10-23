@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Bolton": "GPE",
+    "Greater Manchester": "GPE",
+    "North West England": "LOC",
+    "Flemish": "NORP",
+    "Industrial Revolution": "EVENT",
+    "British cotton industry": "ORG",
+    "First World War": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Flemish",
+      "relation": "settled_in",
+      "object": "Bolton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "settled in the area",
+          "line_start": 170,
+          "char_start": 177,
+          "ambiguous": false,
+          "relation_mention": "settled in the area",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bolton",
+        "located_in",
+        "Greater Manchester"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Greater Manchester",
+        "located_in",
+        "North West England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bolton",
+        "experienced",
+        "Industrial Revolution"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bolton",
+        "was_part_of",
+        "British cotton industry"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "British cotton industry",
+        "declined_after",
+        "First World War"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Bolton\nBolton ( or locally ] ) is a town in Greater Manchester in North West England. A former mill town, Bolton has been a production centre for textiles since Flemish weavers settled in the area in the 14th century, introducing a wool and cotton-weaving tradition. The urbanisation and development of the town largely coincided with the introduction of textile manufacture during the Industrial Revolution. Bolton was a 19th-century boomtown, and at its zenith in 1929 its 216 cotton mills and 26 bleaching and dyeing works made it one of the largest and most productive centres of cotton spinning in the world. The British cotton industry declined sharply after the First World War, and by the 1980s cotton manufacture had virtually ceased in Bolton.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bolton\", \"type\": \"GPE\"},\n    {\"name\": \"Greater Manchester\", \"type\": \"GPE\"},\n    {\"name\": \"North West England\", \"type\": \"LOC\"},\n    {\"name\": \"Flemish\", \"type\": \"NORP\"},\n    {\"name\": \"Industrial Revolution\", \"type\": \"EVENT\"},\n    {\"name\": \"British cotton industry\", \"type\": \"ORG\"},\n    {\"name\": \"First World War\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bolton\",\n      \"relation\": \"located_in\",\n      \"object\": \"Greater Manchester\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a town in\"}\n      ]\n    },\n    {\n      \"subject\": \"Greater Manchester\",\n      \"relation\": \"located_in\",\n      \"object\": \"North West England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Flemish\",\n      \"relation\": \"settled_in\",\n      \"object\": \"Bolton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"settled in the area\"}\n      ]\n    },\n    {\n      \"subject\": \"Bolton\",\n      \"relation\": \"experienced\",\n      \"object\": \"Industrial Revolution\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"coincided with the introduction of textile manufacture during the Industrial Revolution\"}\n      ]\n    },\n    {\n      \"subject\": \"Bolton\",\n      \"relation\": \"was_part_of\",\n      \"object\": \"British cotton industry\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"The British cotton industry declined\"}\n      ]\n    },\n    {\n      \"subject\": \"British cotton industry\",\n      \"relation\": \"declined_after\",\n      \"object\": \"First World War\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"declined sharply after the First World War\"}\n      ]\n    }\n  ]\n}"
+}

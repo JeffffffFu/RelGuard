@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Arsilda, regina di Ponto": "WORK_OF_ART",
+    "Antonio Vivaldi": "PERSON",
+    "Teatro Sant'Angelo": "FAC",
+    "Venice": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Arsilda, regina di Ponto",
+        "composed_by",
+        "Antonio Vivaldi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Arsilda, regina di Ponto",
+        "first_performed_at",
+        "Teatro Sant'Angelo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Teatro Sant'Angelo",
+        "located_in",
+        "Venice"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Arsilda, regina di Ponto\nArsilda, regina di Ponto is a dramma per musica by Antonio Vivaldi. The opera was first performed at the Teatro Sant'Angelo in Venice on 27 or 28 October 1716.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Arsilda, regina di Ponto\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Antonio Vivaldi\", \"type\": \"PERSON\"},\n    {\"name\": \"Teatro Sant'Angelo\", \"type\": \"FAC\"},\n    {\"name\": \"Venice\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Arsilda, regina di Ponto\",\n      \"relation\": \"composed_by\",\n      \"object\": \"Antonio Vivaldi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    },\n    {\n      \"subject\": \"Arsilda, regina di Ponto\",\n      \"relation\": \"first_performed_at\",\n      \"object\": \"Teatro Sant'Angelo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the Teatro Sant'Angelo\"}\n      ]\n    },\n    {\n      \"subject\": \"Teatro Sant'Angelo\",\n      \"relation\": \"located_in\",\n      \"object\": \"Venice\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Venice\"}\n      ]\n    }\n  ]\n}"
+}

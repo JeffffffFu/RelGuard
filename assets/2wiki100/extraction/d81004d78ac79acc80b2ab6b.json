@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Paradox (2016 film)": "WORK_OF_ART",
+    "American": "NORP",
+    "Michael Hurst": "PERSON",
+    "Zoë Bell": "PERSON",
+    "Adam Huss": "PERSON",
+    "Malik Yoba": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Paradox (2016 film)",
+      "relation": "written_and_directed_by",
+      "object": "Michael Hurst",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written and directed by",
+          "line_start": 51,
+          "char_start": 71,
+          "ambiguous": false,
+          "relation_mention": "written and directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Paradox (2016 film)",
+        "is",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Zoë Bell",
+        "play",
+        "scientists"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Adam Huss",
+        "play",
+        "scientists"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Malik Yoba",
+        "played",
+        "mysterious benefactor"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Paradox (2016 film)\nParadox is an American science fiction action film written and directed by Michael Hurst. Zoë Bell and Adam Huss play scientists who invent a time travel machine. When the machine reveals that one of their team may be a saboteur, they attempt to unravel the mystery with the help of their mysterious benefactor, played by Malik Yoba.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Paradox (2016 film)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Michael Hurst\", \"type\": \"PERSON\"},\n    {\"name\": \"Zoë Bell\", \"type\": \"PERSON\"},\n    {\"name\": \"Adam Huss\", \"type\": \"PERSON\"},\n    {\"name\": \"Malik Yoba\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Paradox (2016 film)\",\n      \"relation\": \"is\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an\"}\n      ]\n    },\n    {\n      \"subject\": \"Paradox (2016 film)\",\n      \"relation\": \"written_and_directed_by\",\n      \"object\": \"Michael Hurst\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Zoë Bell\",\n      \"relation\": \"play\",\n      \"object\": \"scientists\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"play\"}\n      ]\n    },\n    {\n      \"subject\": \"Adam Huss\",\n      \"relation\": \"play\",\n      \"object\": \"scientists\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"play\"}\n      ]\n    },\n    {\n      \"subject\": \"Malik Yoba\",\n      \"relation\": \"played\",\n      \"object\": \"mysterious benefactor\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played by\"}\n      ]\n    }\n  ]\n}"
+}

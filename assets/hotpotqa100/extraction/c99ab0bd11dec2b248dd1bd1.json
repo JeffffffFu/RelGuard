@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Matt Gorman": "PERSON",
+    "Scranton/Wilkes-Barre Steamers": "ORG",
+    "Syracuse University": "ORG",
+    "Steve Gorman": "PERSON",
+    "The Black Crowes": "ORG",
+    "Europe": "LOC",
+    "National Championship": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Matt Gorman",
+      "relation": "works_for",
+      "object": "Scranton/Wilkes-Barre Steamers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played for",
+          "line_start": 86,
+          "char_start": 98,
+          "ambiguous": false,
+          "relation_mention": "played for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Matt Gorman",
+      "relation": "played_for",
+      "object": "Syracuse University",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played college basketball for",
+          "line_start": 136,
+          "char_start": 148,
+          "ambiguous": false,
+          "relation_mention": "played college basketball for",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Syracuse University",
+        "won",
+        "National Championship"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Matt Gorman",
+        "played_in",
+        "Europe"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Steve Gorman",
+        "works_for",
+        "The Black Crowes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Steve Gorman",
+        "is_uncle_of",
+        "Matt Gorman"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Matt Gorman\nMatt Gorman (born on May 1, 1984) is a former professional basketball player who last played for the Scranton/Wilkes-Barre Steamers. He played college basketball for Syracuse University during their first National Championship in 2003. He also played three years of professional basketball in Europe. Matt's uncle is Steve Gorman, drummer for The Black Crowes rock band.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Matt Gorman\", \"type\": \"PERSON\"},\n    {\"name\": \"Scranton/Wilkes-Barre Steamers\", \"type\": \"ORG\"},\n    {\"name\": \"Syracuse University\", \"type\": \"ORG\"},\n    {\"name\": \"Steve Gorman\", \"type\": \"PERSON\"},\n    {\"name\": \"The Black Crowes\", \"type\": \"ORG\"},\n    {\"name\": \"Europe\", \"type\": \"LOC\"},\n    {\"name\": \"National Championship\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Matt Gorman\",\n      \"relation\": \"works_for\",\n      \"object\": \"Scranton/Wilkes-Barre Steamers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played for\"}\n      ]\n    },\n    {\n      \"subject\": \"Matt Gorman\",\n      \"relation\": \"played_for\",\n      \"object\": \"Syracuse University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played college basketball for\"}\n      ]\n    },\n    {\n      \"subject\": \"Syracuse University\",\n      \"relation\": \"won\",\n      \"object\": \"National Championship\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"their first National Championship\"}\n      ]\n    },\n    {\n      \"subject\": \"Matt Gorman\",\n      \"relation\": \"played_in\",\n      \"object\": \"Europe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played three years of professional basketball in\"}\n      ]\n    },\n    {\n      \"subject\": \"Steve Gorman\",\n      \"relation\": \"works_for\",\n      \"object\": \"The Black Crowes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"drummer for\"}\n      ]\n    },\n    {\n      \"subject\": \"Steve Gorman\",\n      \"relation\": \"is_uncle_of\",\n      \"object\": \"Matt Gorman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Matt's uncle is\"}\n      ]\n    }\n  ]\n}"
+}

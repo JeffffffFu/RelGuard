@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Anvil firing": "practice",
+    "USA": "location",
+    "UK": "location",
+    "black powder": "substance",
+    "gunpowder": "substance"
+  },
+  "triples": [
+    {
+      "subject": "Anvil firing",
+      "relation": "located_in",
+      "object": "USA",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the USA is the practice of firing an anvil into the air with gunpowder."
+        }
+      ]
+    },
+    {
+      "subject": "Anvil firing",
+      "relation": "located_in",
+      "object": "UK",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "In the UK this is where black powder is filled onto the top of the Anvil and ignited."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Anvil firing",
+        "also_known_as",
+        "anvil launching"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anvil firing",
+        "also_known_as",
+        "anvil shooting"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anvil",
+        "filled_with",
+        "black powder"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anvil",
+        "ignited_with",
+        "black powder"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anvil",
+        "ignited_with",
+        "gunpowder"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Anvil firing\nAnvil firing (also known in the USA as an \"anvil launching\" or an \"anvil shooting\") in the USA is the practice of firing an anvil into the air with gunpowder. In the UK this is where black powder is filled onto the top of the Anvil and ignited. If the Anvil did not shatter it was deemed safe to use."
+}

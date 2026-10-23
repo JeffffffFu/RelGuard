@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Man from Guangdong": "television_series",
+    "Leung Kan": "character",
+    "Aaron Kwok": "actor",
+    "Leung Foon": "martial_artist",
+    "Wong Fei-hung": "folk_hero",
+    "Shih Kien": "actor",
+    "Sai Gwa-Pau": "actor"
+  },
+  "triples": [
+    {
+      "subject": "Man from Guangdong",
+      "relation": "tells_story_of",
+      "object": "Leung Kan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "tells the story of Leung Kan"
+        }
+      ]
+    },
+    {
+      "subject": "Leung Kan",
+      "relation": "portrayed_by",
+      "object": "Aaron Kwok",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "portrayed by Aaron Kwok"
+        }
+      ]
+    },
+    {
+      "subject": "Leung Foon",
+      "relation": "favored_disciple_of",
+      "object": "Wong Fei-hung",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "favored disciple of folk hero Wong Fei-hung"
+        }
+      ]
+    },
+    {
+      "subject": "Wong Fei-hung",
+      "relation": "portrayed_by",
+      "object": "Shih Kien",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "portrayed by Shih Kien"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Man from Guangdong",
+        "produced_by",
+        "TVB"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Shih Kien",
+        "known_for",
+        "antagonists"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sai Gwa-Pau",
+        "reprising_role_as",
+        "Buckteeth So"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Man from Guangdong\nMan from Guangdong is a 1991 Hong Kong martial arts television series produced by TVB and tells the story of Leung Kan, portrayed by Aaron Kwok, the fictitious son of famed martial artist Leung Foon, whom was a favored disciple of folk hero Wong Fei-hung, portrayed by Shih Kien. Shih, who portrayed Wong in the series, was known for portraying antagonists in a series of Wong Fei-hung-related films during the 1940s to 1970s, while the series also features Sai Gwa-Pau reprising his role as \"Buckteeth So\" from the aforementioned series of films."
+}

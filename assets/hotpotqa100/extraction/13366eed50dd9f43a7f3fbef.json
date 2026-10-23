@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Sex and Breakfast": "WORK_OF_ART",
+    "Macaulay Culkin": "PERSON",
+    "Eliza Dushku": "PERSON",
+    "Alexis Dziena": "PERSON",
+    "Kuno Becker": "PERSON",
+    "Los Angeles": "GPE",
+    "First Look Pictures": "ORG",
+    "Miles Brandman": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Sex and Breakfast",
+      "relation": "starring",
+      "object": "Macaulay Culkin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Macaulay Culkin"
+        }
+      ]
+    },
+    {
+      "subject": "Sex and Breakfast",
+      "relation": "directed_by",
+      "object": "Miles Brandman",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "directed by first-time director Miles Brandman"
+        }
+      ]
+    },
+    {
+      "subject": "Sex and Breakfast",
+      "relation": "located_in",
+      "object": "Los Angeles",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "opened in Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "Sex and Breakfast",
+      "relation": "released_by",
+      "object": "First Look Pictures",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "released on DVD on January 22, 2008 by First Look Pictures"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sex and Breakfast",
+        "starring",
+        "Eliza Dushku"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sex and Breakfast",
+        "starring",
+        "Alexis Dziena"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sex and Breakfast",
+        "starring",
+        "Kuno Becker"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Sex and Breakfast\nSex and Breakfast is a 2007 independent dark comedy film starring Macaulay Culkin, Eliza Dushku, Alexis Dziena and Kuno Becker. Shooting took place in September 2006. The film opened in Los Angeles November 30, 2007, and was released on DVD on January 22, 2008 by First Look Pictures. The film was directed by first-time director Miles Brandman."
+}

@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Big 12 Conference": "ORG",
+    "National Collegiate Athletic Association": "ORG",
+    "West Virginia": "GPE",
+    "Big Eight Conference": "ORG",
+    "Southwest Conference": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Big 12 Conference",
+      "relation": "participates_in",
+      "object": "National Collegiate Athletic Association",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "participate in the National Collegiate Athletic Association's Division I Football Bowl Subdivision football"
+        }
+      ]
+    },
+    {
+      "subject": "Big 12 Conference",
+      "relation": "composed_of",
+      "object": "Big Eight Conference",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "were members of either the Big Eight Conference"
+        }
+      ]
+    },
+    {
+      "subject": "Big 12 Conference",
+      "relation": "excludes",
+      "object": "West Virginia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "except West Virginia"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Big 12 Conference",
+        "formed",
+        "1994"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "began_play",
+        "1996"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "composed_of",
+        "Southwest Conference"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "has_won",
+        "21 national titles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "has_won",
+        "3 titles"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Big 12 Conference football\nThe Big 12 Conference is a conference of 10 (originally 12) universities which participate in the National Collegiate Athletic Association's Division I Football Bowl Subdivision football. The conference was formed in 1994 but did not begin conference play until the fall of 1996. The schools that compose the Big 12 Conference, except West Virginia, were members of either the Big Eight Conference or the Southwest Conference, and have won 21 national titles including 3 titles since the inception of the Big 12 Conference."
+}

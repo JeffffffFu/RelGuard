@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "PokerFace": "WORK_OF_ART",
+    "ITV": "ORG",
+    "Ant & Dec": "PERSON",
+    "poker": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "PokerFace",
+      "relation": "created_by",
+      "object": "Ant & Dec",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "created by",
+          "line_start": 114,
+          "char_start": 124,
+          "ambiguous": false,
+          "relation_mention": "created by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "PokerFace",
+      "relation": "based_on",
+      "object": "poker",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 195,
+          "char_start": 205,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "PokerFace",
+        "broadcast_on",
+        "ITV"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ant & Dec",
+        "host",
+        "PokerFace"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "PokerFace\nPokerFace is a British game show broadcast on ITV, where one person is guaranteed to win £1 million. The show was created by Ant & Dec, who also host it. As implied by the title, \"PokerFace\", is based on the bluffing aspect of poker games. The contestants do not necessarily need to get the questions right in order to win, and can bluff their way through the game and pressure their opponents into folding in order to win.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"PokerFace\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"ITV\", \"type\": \"ORG\"},\n    {\"name\": \"Ant & Dec\", \"type\": \"PERSON\"},\n    {\"name\": \"poker\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"PokerFace\",\n      \"relation\": \"broadcast_on\",\n      \"object\": \"ITV\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"broadcast on\"}\n      ]\n    },\n    {\n      \"subject\": \"PokerFace\",\n      \"relation\": \"created_by\",\n      \"object\": \"Ant & Dec\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"created by\"}\n      ]\n    },\n    {\n      \"subject\": \"Ant & Dec\",\n      \"relation\": \"host\",\n      \"object\": \"PokerFace\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"host\"}\n      ]\n    },\n    {\n      \"subject\": \"PokerFace\",\n      \"relation\": \"based_on\",\n      \"object\": \"poker\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on\"}\n      ]\n    }\n  ]\n}"
+}

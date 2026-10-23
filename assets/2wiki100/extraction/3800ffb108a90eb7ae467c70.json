@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Married to the Mob": "film",
+    "Jonathan Demme": "director",
+    "Michelle Pfeiffer": "actor",
+    "Matthew Modine": "actor",
+    "Dean Stockwell": "actor",
+    "Academy Award": "award",
+    "Brooklyn": "location",
+    "FBI": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Married to the Mob",
+      "relation": "directed_by",
+      "object": "Jonathan Demme",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Jonathan Demme"
+        }
+      ]
+    },
+    {
+      "subject": "Married to the Mob",
+      "relation": "starring",
+      "object": "Michelle Pfeiffer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Michelle Pfeiffer"
+        }
+      ]
+    },
+    {
+      "subject": "Dean Stockwell",
+      "relation": "nominated_for",
+      "object": "Academy Award",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was nominated for the Academy Award for Best Supporting Actor"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Married to the Mob",
+        "starring",
+        "Matthew Modine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Michelle Pfeiffer",
+        "played_as",
+        "gangster's widow"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Matthew Modine",
+        "played_as",
+        "undercover FBI agent"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Matthew Modine",
+        "investigating",
+        "mafia connections"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dean Stockwell",
+        "romantically_pursuing",
+        "Angela"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Married to the Mob\nMarried to the Mob is a 1988 American comedy film directed by Jonathan Demme, starring Michelle Pfeiffer and Matthew Modine. Pfeiffer, in something of a departure from her previous roles, gave an acclaimed lead performance as a gangster's widow from Brooklyn, opposite Modine as the undercover FBI agent assigned the task of investigating her mafia connections. As a slippery mob boss romantically pursuing Angela, Dean Stockwell was nominated for the Academy Award for Best Supporting Actor."
+}

@@ -1,0 +1,131 @@
+{
+  "entities": {
+    "Stephen King": "Person",
+    "The Stand": "Book",
+    "1978": "Date",
+    "1980s": "Date",
+    "1990": "Date",
+    "1990s": "Date",
+    "ABC": "Organization",
+    "Gary Sinise": "Person",
+    "2008": "Date",
+    "Marvel Comics": "Organization",
+    "2012": "Date",
+    "Warner Bros. Pictures": "Organization",
+    "January 2011": "Date"
+  },
+  "triples": [
+    {
+      "subject": "The Stand",
+      "relation": "published_in",
+      "object": "1978",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The novel was published in 1978"
+        }
+      ]
+    },
+    {
+      "subject": "The Stand",
+      "relation": "set_in",
+      "object": "1980s",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "its narrative set during the 1980s"
+        }
+      ]
+    },
+    {
+      "subject": "The Stand",
+      "relation": "released_in",
+      "object": "1990",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a second edition was released in 1990"
+        }
+      ]
+    },
+    {
+      "subject": "The Stand",
+      "relation": "set_in",
+      "object": "1990s",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is set in the 1990s"
+        }
+      ]
+    },
+    {
+      "subject": "Marvel Comics",
+      "relation": "published",
+      "object": "The Stand",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Marvel Comics published a comic book adaptation"
+        }
+      ]
+    },
+    {
+      "subject": "Marvel Comics",
+      "relation": "ended",
+      "object": "2012",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that was ended in 2012"
+        }
+      ]
+    },
+    {
+      "subject": "Warner Bros. Pictures",
+      "relation": "announced_in",
+      "object": "January 2011",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released an announcement in January 2011"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Stand",
+        "adapted_into",
+        "television mini-series"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "television mini-series",
+        "starring",
+        "Gary Sinise"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "television mini-series",
+        "released_by",
+        "ABC"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Warner Bros. Pictures",
+        "producing",
+        "movie remake"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "List of The Stand characters\nThe following is a partial list of characters from Stephen King's novel \"The Stand\". The novel was published in 1978, with its narrative set during the 1980s; however, a second edition was released in 1990, is considerably longer than the first version (1,200 pages compared to 800 pages), and is set in the 1990s. The two versions are essentially the same, although some content was added in the second version, including a new ending. The book was also adapted into a television mini-series, starring Gary Sinise, and was released by the American Broadcasting Company (ABC) network in 1994. In 2008, Marvel Comics published a comic book adaptation that was ended in 2012. Warner Bros. Pictures released an announcement in January 2011 that the company would be producing a movie remake of the King novel."
+}

@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Vans Triple Crown of Surfing": "EVENT",
+    "Haleiwa Ali'i Beach Park": "FAC",
+    "O'Neill World Cup of Surfing": "EVENT",
+    "Sunset Beach": "LOC",
+    "Billabong Pipeline Masters": "EVENT",
+    "Banzai Pipeline": "LOC",
+    "Vans Hawaiian Pro": "EVENT",
+    "Roxy Pro": "EVENT",
+    "Billabong Pro Maui": "EVENT",
+    "Honolua Bay": "LOC",
+    "Maui": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Vans Triple Crown of Surfing",
+      "relation": "offers",
+      "object": "Haleiwa Ali'i Beach Park",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a Hawaiian specialty series of professional surfing events, offering three events to men and three events to women."
+        }
+      ]
+    },
+    {
+      "subject": "Vans Triple Crown of Surfing",
+      "relation": "includes",
+      "object": "O'Neill World Cup of Surfing",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the O'Neill World Cup of Surfing at Sunset Beach"
+        }
+      ]
+    },
+    {
+      "subject": "Vans Triple Crown of Surfing",
+      "relation": "includes",
+      "object": "Billabong Pipeline Masters",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and the Billabong Pipeline Masters at the Banzai Pipeline."
+        }
+      ]
+    },
+    {
+      "subject": "Vans Triple Crown of Surfing",
+      "relation": "includes",
+      "object": "Roxy Pro",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the Roxy Pro at Sunset Beach"
+        }
+      ]
+    },
+    {
+      "subject": "Vans Triple Crown of Surfing",
+      "relation": "includes",
+      "object": "Billabong Pro Maui",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and the Billabong Pro Maui at Honolua Bay, Maui."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vans Triple Crown of Surfing",
+        "includes",
+        "Reef Hawaiian Pro"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Vans Triple Crown of Surfing",
+        "includes",
+        "Vans Hawaiian Pro"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Triple Crown of Surfing\nThe Vans Triple Crown of Surfing is a Hawaiian specialty series of professional surfing events, offering three events to men and three events to women. For the men, those events are the Reef Hawaiian Pro at Haleiwa Ali'i Beach Park; the O'Neill World Cup of Surfing at Sunset Beach; and the Billabong Pipeline Masters at the Banzai Pipeline. The women's events are the Vans Hawaiian Pro at Haleiwa Ali'i Beach Park; the Roxy Pro at Sunset Beach; and the Billabong Pro Maui at Honolua Bay, Maui."
+}

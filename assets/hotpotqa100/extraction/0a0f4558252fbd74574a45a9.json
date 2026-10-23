@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "James II of England": "PERSON",
+    "England": "GPE",
+    "Ireland": "GPE",
+    "Scotland": "GPE",
+    "Glorious Revolution": "EVENT",
+    "Roman Catholic": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "James II of England",
+      "relation": "was_king_of",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was King of England"
+        }
+      ]
+    },
+    {
+      "subject": "James II of England",
+      "relation": "was_king_of",
+      "object": "Scotland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "King of Scotland"
+        }
+      ]
+    },
+    {
+      "subject": "James II of England",
+      "relation": "was_deposed_in",
+      "object": "Glorious Revolution",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he was deposed in the Glorious Revolution"
+        }
+      ]
+    },
+    {
+      "subject": "James II of England",
+      "relation": "was_last",
+      "object": "Roman Catholic",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the last Roman Catholic monarch"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James II of England",
+        "was_king_of",
+        "Ireland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "James II of England\nJames II and VII (14 October 1633 – 16 September 1701) was King of England and Ireland as James II and King of Scotland as James VII, from 6 February 1685 until he was deposed in the Glorious Revolution of 1688. He was the last Roman Catholic monarch of England, Scotland and Ireland."
+}

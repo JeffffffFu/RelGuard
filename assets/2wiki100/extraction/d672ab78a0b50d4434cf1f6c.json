@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Pyar Ka Devta": "film",
+    "Kovelamudi Bapayya": "director",
+    "Mithun Chakraborty": "actor",
+    "Madhuri Dixit": "actor",
+    "Nirupa Roy": "actor"
+  },
+  "triples": [
+    {
+      "subject": "Pyar Ka Devta",
+      "relation": "directed_by",
+      "object": "Kovelamudi Bapayya",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Kovelamudi Bapayya"
+        }
+      ]
+    },
+    {
+      "subject": "Pyar Ka Devta",
+      "relation": "starring",
+      "object": "Mithun Chakraborty",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Mithun Chakraborty"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pyar Ka Devta",
+        "starring",
+        "Madhuri Dixit"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pyar Ka Devta",
+        "starring",
+        "Nirupa Roy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pyar Ka Devta\nPyar Ka Devta is a 1991 Hindi language Indian film directed by Kovelamudi Bapayya, starring Mithun Chakraborty, Madhuri Dixit, and Nirupa Roy."
+}

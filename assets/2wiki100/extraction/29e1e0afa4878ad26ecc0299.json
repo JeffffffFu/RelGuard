@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "John Llewellyn Moxey": "PERSON",
+    "The City of the Dead": "WORK_OF_ART",
+    "Horror Hotel": "WORK_OF_ART",
+    "Murder, She Wrote": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "4 entities not in the document",
+      "entities": [
+        "The Saint (WORK_OF_ART)",
+        "Magnum, P.I. (WORK_OF_ART)",
+        "Argentina (GPE)",
+        "Britain (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "John Llewellyn Moxey",
+        "born_in",
+        "Argentina"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John Llewellyn Moxey",
+        "directed",
+        "The City of the Dead"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "John Llewellyn Moxey",
+        "directed",
+        "Horror Hotel"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "John Llewellyn Moxey",
+        "directed",
+        "The Saint"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John Llewellyn Moxey",
+        "directed",
+        "Magnum, P.I."
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John Llewellyn Moxey",
+        "directed",
+        "Murder, She Wrote"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "John Llewellyn Moxey",
+        "nationality",
+        "Britain"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John Llewellyn Moxey\nJohn Llewellyn Moxey( 26 February 1925 – 29 April 2019), sometimes credited as John L. Moxey or John Moxey, was an Argentinian- born British film and television director. He was known for directing the horror film\" The City of the Dead\"( also known as\" Horror Hotel\", 1960) and directing episodes of\" The SaintMagnum, P.I.\" and\" Murder, She Wrote\"."
+}

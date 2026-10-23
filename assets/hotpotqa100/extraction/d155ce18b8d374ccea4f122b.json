@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Big Mama's & Papa's Pizzeria": "restaurant",
+    "Southern California": "location",
+    "Ellen Degeneres": "person",
+    "2014 Academy Awards": "event"
+  },
+  "triples": [
+    {
+      "subject": "Big Mama's & Papa's Pizzeria",
+      "relation": "located_in",
+      "object": "Southern California",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "primarily located in Southern California"
+        }
+      ]
+    },
+    {
+      "subject": "Ellen Degeneres",
+      "relation": "had_delivered",
+      "object": "Big Mama's & Papa's Pizzeria",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "host Ellen Degeneres had Big Mama's pizzas delivered onstage"
+        }
+      ]
+    },
+    {
+      "subject": "Ellen Degeneres",
+      "relation": "participated_in",
+      "object": "2014 Academy Awards",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "during the 2014 Academy Awards, host Ellen Degeneres"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Big Mama's & Papa's Pizzeria",
+        "notable_for",
+        "Giant Sicilian pizza"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Big Mama's & Papa's Pizzeria",
+        "claimed_to_be",
+        "largest deliverable pizza in the world"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Big Mama's &amp; Papa's Pizzeria\nBig Mama's & Papa's Pizzeria is a pizza restaurant chain primarily located in Southern California. The chain is notable for its extremely large \"Giant Sicilian\" pizza, which is claimed to be the largest deliverable pizza in the world. Additionally, the chain gained notoriety when, during the 2014 Academy Awards, host Ellen Degeneres had Big Mama's pizzas delivered onstage."
+}

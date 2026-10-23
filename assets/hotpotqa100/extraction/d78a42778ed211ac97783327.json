@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Frederick W. Smith": "PERSON",
+    "Frederick Wallace \"Fred\" Smith": "PERSON",
+    "FedEx": "ORG",
+    "Federal Express": "ORG",
+    "Memphis": "GPE",
+    "Tennessee": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Federal Express",
+      "relation": "founded",
+      "object": "Frederick Wallace \"Fred\" Smith",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "originally known as",
+          "line_start": 109,
+          "char_start": 128,
+          "ambiguous": false,
+          "relation_mention": "originally known as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Frederick Wallace \"Fred\" Smith",
+        "founded",
+        "FedEx"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Frederick Wallace \"Fred\" Smith",
+        "works_for",
+        "FedEx"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FedEx",
+        "located_in",
+        "Memphis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Memphis",
+        "located_in",
+        "Tennessee"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Frederick W. Smith\nFrederick Wallace \"Fred\" Smith (born August 11, 1944) is the founder, chairman, president, and CEO of FedEx, originally known as Federal Express. The company is headquartered in Memphis, Tennessee.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Frederick W. Smith\", \"type\": \"PERSON\"},\n    {\"name\": \"Frederick Wallace \\\"Fred\\\" Smith\", \"type\": \"PERSON\"},\n    {\"name\": \"FedEx\", \"type\": \"ORG\"},\n    {\"name\": \"Federal Express\", \"type\": \"ORG\"},\n    {\"name\": \"Memphis\", \"type\": \"GPE\"},\n    {\"name\": \"Tennessee\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Frederick Wallace \\\"Fred\\\" Smith\",\n      \"relation\": \"founded\",\n      \"object\": \"FedEx\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the founder\"}\n      ]\n    },\n    {\n      \"subject\": \"Frederick Wallace \\\"Fred\\\" Smith\",\n      \"relation\": \"works_for\",\n      \"object\": \"FedEx\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the founder, chairman, president, and CEO of\"}\n      ]\n    },\n    {\n      \"subject\": \"FedEx\",\n      \"relation\": \"located_in\",\n      \"object\": \"Memphis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is headquartered in Memphis\"}\n      ]\n    },\n    {\n      \"subject\": \"Memphis\",\n      \"relation\": \"located_in\",\n      \"object\": \"Tennessee\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Memphis, Tennessee\"}\n      ]\n    },\n    {\n      \"subject\": \"Federal Express\",\n      \"relation\": \"founded\",\n      \"object\": \"Frederick Wallace \\\"Fred\\\" Smith\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"originally known as\"}\n      ]\n    }\n  ]\n}"
+}

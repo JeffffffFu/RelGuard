@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Tom Kitt": "musician",
+    "Brian Yorkey": "musician",
+    "Next to Normal": "musical",
+    "Pulitzer Prize for Drama": "award",
+    "Tony Award": "award",
+    "Outer Critics Circle Award": "award",
+    "American Idiot": "musical",
+    "Everyday Rapture": "musical",
+    "Drama Desk Award": "award"
+  },
+  "triples": [
+    {
+      "subject": "Tom Kitt",
+      "relation": "shared",
+      "object": "Pulitzer Prize for Drama",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "he shared the 2010 Pulitzer Prize for Drama with Brian Yorkey"
+        }
+      ]
+    },
+    {
+      "subject": "Tom Kitt",
+      "relation": "won",
+      "object": "Tony Award",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He also won the Tony Award"
+        }
+      ]
+    },
+    {
+      "subject": "Tom Kitt",
+      "relation": "won",
+      "object": "Outer Critics Circle Award",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "2008 Outer Critics Circle Award"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tom Kitt",
+        "nominated_for",
+        "Drama Desk Award"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tom Kitt",
+        "composed",
+        "Next to Normal"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Tom Kitt (musician)\nThomas Robert \"Tom\" Kitt (born February 28, 1974) is an American composer, conductor, orchestrator and musician. For his score for the musical \"Next to Normal\", he shared the 2010 Pulitzer Prize for Drama with Brian Yorkey. He also won the Tony Award and 2008 Outer Critics Circle Award, and was nominated for a Drama Desk Award for \"American Idiot\" and \"Everyday Rapture\"."
+}

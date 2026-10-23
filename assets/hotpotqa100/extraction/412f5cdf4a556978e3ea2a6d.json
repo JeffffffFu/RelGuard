@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "Darington O'Neal Hobson": "PERSON",
+    "Guangxi Weizhuang Rhinos": "ORG",
+    "Chinese National Basketball League": "ORG",
+    "University of New Mexico Lobos men's basketball team": "ORG",
+    "Las Vegas": "GPE",
+    "Nevada": "GPE",
+    "Milwaukee Bucks": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Darington O'Neal Hobson",
+      "relation": "played_for",
+      "object": "University of New Mexico Lobos men's basketball team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played college basketball for",
+          "line_start": 181,
+          "char_start": 198,
+          "ambiguous": false,
+          "relation_mention": "played college basketball for",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Darington O'Neal Hobson",
+      "relation": "born_in",
+      "object": "Las Vegas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Born in",
+          "line_start": 269,
+          "char_start": 286,
+          "ambiguous": false,
+          "relation_mention": "Born in",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Darington O'Neal Hobson",
+        "works_for",
+        "Guangxi Weizhuang Rhinos"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Guangxi Weizhuang Rhinos",
+        "located_in",
+        "Chinese National Basketball League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Las Vegas",
+        "located_in",
+        "Nevada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Darington O'Neal Hobson",
+        "drafted_by",
+        "Milwaukee Bucks"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Darington O'Neal Hobson",
+        "waived_by",
+        "Milwaukee Bucks"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Darington O'Neal Hobson",
+        "re_signed_by",
+        "Milwaukee Bucks"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Darington O'Neal Hobson",
+        "waived_by",
+        "Milwaukee Bucks"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Darington Hobson\nDarington O'Neal Hobson (born September 29, 1987) is an American professional basketball player for the Guangxi Weizhuang Rhinos of the Chinese National Basketball League (NBL). He played college basketball for the University of New Mexico Lobos men's basketball team. Born in Las Vegas, Nevada, Hobson attended five high schools and a junior college before finally becoming eligible to play Division I college basketball. Hobson was drafted in the 2nd round (37th overall) of the 2010 NBA Draft by the Milwaukee Bucks. Hobson was waived on December 2, 2010, due to injury. A year later, Hobson was re-signed by the Bucks for the 2011–12 season. He was waived again on February 3, 2012.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Darington O'Neal Hobson\", \"type\": \"PERSON\"},\n    {\"name\": \"Guangxi Weizhuang Rhinos\", \"type\": \"ORG\"},\n    {\"name\": \"Chinese National Basketball League\", \"type\": \"ORG\"},\n    {\"name\": \"University of New Mexico Lobos men's basketball team\", \"type\": \"ORG\"},\n    {\"name\": \"Las Vegas\", \"type\": \"GPE\"},\n    {\"name\": \"Nevada\", \"type\": \"GPE\"},\n    {\"name\": \"Milwaukee Bucks\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Darington O'Neal Hobson\",\n      \"relation\": \"works_for\",\n      \"object\": \"Guangxi Weizhuang Rhinos\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American professional basketball player for\"}\n      ]\n    },\n    {\n      \"subject\": \"Guangxi Weizhuang Rhinos\",\n      \"relation\": \"located_in\",\n      \"object\": \"Chinese National Basketball League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the Chinese National Basketball League (NBL)\"}\n      ]\n    },\n    {\n      \"subject\": \"Darington O'Neal Hobson\",\n      \"relation\": \"played_for\",\n      \"object\": \"University of New Mexico Lobos men's basketball team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played college basketball for\"}\n      ]\n    },\n    {\n      \"subject\": \"Darington O'Neal Hobson\",\n      \"relation\": \"born_in\",\n      \"object\": \"Las Vegas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Las Vegas\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nevada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Las Vegas, Nevada\"}\n      ]\n    },\n    {\n      \"subject\": \"Darington O'Neal Hobson\",\n      \"relation\": \"drafted_by\",\n      \"object\": \"Milwaukee Bucks\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"drafted in the 2nd round (37th overall) of the 2010 NBA Draft by\"}\n      ]\n    },\n    {\n      \"subject\": \"Darington O'Neal Hobson\",\n      \"relation\": \"waived_by\",\n      \"object\": \"Milwaukee Bucks\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was waived on December 2, 2010, due to injury.\"}\n      ]\n    },\n    {\n      \"subject\": \"Darington O'Neal Hobson\",\n      \"relation\": \"re_signed_by\",\n      \"object\": \"Milwaukee Bucks\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was re-signed by the Bucks for the 2011–12 season.\"}\n      ]\n    },\n    {\n      \"subject\": \"Darington O'Neal Hobson\",\n      \"relation\": \"waived_by\",\n      \"object\": \"Milwaukee Bucks\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was waived again on February 3, 2012.\"}\n      ]\n    }\n  ]\n}"
+}

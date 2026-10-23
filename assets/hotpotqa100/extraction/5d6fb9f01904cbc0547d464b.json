@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "Victoria Beckham": "Person",
+    "David Beckham": "Person",
+    "LA Galaxy": "Organization",
+    "MLS": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "David Beckham",
+      "relation": "began_career_playing_for",
+      "object": "LA Galaxy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "her husband, David Beckham, began his career playing soccer for LA Galaxy"
+        }
+      ]
+    },
+    {
+      "subject": "LA Galaxy",
+      "relation": "is_part_of",
+      "object": "MLS",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "for LA Galaxy of the MLS"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Victoria Beckham",
+        "featured_in",
+        "Coming to America"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Coming to America",
+        "was_a",
+        "2007 one-hour American TV special"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "David Beckham",
+        "is_a",
+        "Person"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Victoria Beckham: Coming to America\nVictoria Beckham: Coming to America was a 2007 one-hour American TV special that featured British former Spice Girl Victoria Beckham moving to the United States where her husband, David Beckham, began his career playing soccer for LA Galaxy of the MLS."
+}

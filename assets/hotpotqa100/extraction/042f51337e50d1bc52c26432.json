@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Big Deal": "song",
+    "Jeffrey Steele": "person",
+    "Al Anderson": "person",
+    "LeAnn Rimes": "album",
+    "September 28, 1999": "date",
+    "US country charts": "chart",
+    "US Hot 100 chart": "chart",
+    "Leaving's Not Leaving": "song",
+    "Anywhere But Here": "film",
+    "November 2, 1999": "date"
+  },
+  "triples": [
+    {
+      "subject": "Big Deal",
+      "relation": "written_by",
+      "object": "Jeffrey Steele",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Jeffrey Steele"
+        }
+      ]
+    },
+    {
+      "subject": "Big Deal",
+      "relation": "recorded_by",
+      "object": "LeAnn Rimes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "recorded by American country music artist LeAnn Rimes"
+        }
+      ]
+    },
+    {
+      "subject": "Big Deal",
+      "relation": "released_on",
+      "object": "September 28, 1999",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released on September 28, 1999"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Big Deal",
+        "written_by",
+        "Al Anderson"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Big Deal",
+        "charted_at",
+        "number 6 on the US country charts"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Big Deal",
+        "charted_at",
+        "number 23 on the US Hot 100 chart"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Leaving's Not Leaving",
+        "released_on",
+        "November 2, 1999"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Leaving's Not Leaving",
+        "part_of",
+        "Anywhere But Here"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Big Deal (LeAnn Rimes song)\n\"Big Deal\" is a song written by Jeffrey Steele and Al Anderson, and recorded by American country music artist LeAnn Rimes. It was released on September 28, 1999 as the first single from her album \"LeAnn Rimes\". The song charted at number 6 on the US country charts and number 23 on the US Hot 100 chart. The B-side track, \"Leaving's Not Leaving,\" was released on the soundtrack for the film, \"Anywhere But Here\" on November 2, 1999."
+}

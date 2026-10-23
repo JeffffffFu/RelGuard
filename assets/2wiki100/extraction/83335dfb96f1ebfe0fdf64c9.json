@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Hannah Arnold": "PERSON",
+    "Hannah Waterman King": "PERSON",
+    "Benedict Arnolds children": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Hannah Waterman King",
+      "relation": "alias_of",
+      "object": "Hannah Arnold",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also known as",
+          "line_start": 15,
+          "char_start": 29,
+          "ambiguous": false,
+          "relation_mention": "also known as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hannah Arnold",
+        "grandmother_of",
+        "Benedict Arnolds children"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Hannah Arnold\nHannah Arnold, also known as Hannah Waterman King, was the grandmother of Benedict Arnolds children.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Hannah Arnold\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Hannah Waterman King\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Benedict Arnolds children\",\n      \"type\": \"PERSON\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Hannah Waterman King\",\n      \"relation\": \"alias_of\",\n      \"object\": \"Hannah Arnold\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"also known as\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Hannah Arnold\",\n      \"relation\": \"grandmother_of\",\n      \"object\": \"Benedict Arnolds children\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was the grandmother of\"\n        }\n      ]\n    }\n  ]\n}"
+}

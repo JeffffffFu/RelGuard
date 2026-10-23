@@ -1,0 +1,65 @@
+{
+  "entities": {
+    "Margiana": "historical region",
+    "Merv": "oasis",
+    "Achaemenid Empire": "empire",
+    "Bactria": "satrapy",
+    "Seleucid Empire": "empire",
+    "Parthian Empire": "empire",
+    "Sasanian Empire": "empire"
+  },
+  "triples": [
+    {
+      "subject": "Margiana",
+      "relation": "centred_on",
+      "object": "Merv",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "centred on the oasis of Merv"
+        }
+      ]
+    },
+    {
+      "subject": "Margiana",
+      "relation": "was_a_minor_satrapy_within",
+      "object": "Achaemenid Empire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a minor satrapy within the Achaemenid satrapy of Bactria"
+        }
+      ]
+    },
+    {
+      "subject": "Achaemenid Empire",
+      "relation": "succeeded_by",
+      "object": "Seleucid Empire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "its successors, the Seleucid"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Achaemenid Empire",
+        "succeeded_by",
+        "Parthian Empire"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Achaemenid Empire",
+        "succeeded_by",
+        "Sasanian Empire"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Margiana\nMargiana (Greek: \"Margianḗ\", Old Persian: \"Marguš\", Middle Persian: \"Marv\") is a historical region centred on the oasis of Merv and was a minor satrapy within the Achaemenid satrapy of Bactria, and a province within its successors, the Seleucid, Parthian and Sasanian empires."
+}

@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Tombstone Rashomon": "WORK_OF_ART",
+    "Alex Cox": "PERSON",
+    "Adam Newberry": "PERSON",
+    "Eric Schumacher": "PERSON",
+    "Gunfight at the O.K. Corral": "EVENT",
+    "Tombstone": "GPE",
+    "Arizona Territory": "GPE",
+    "Akira Kurosawa": "PERSON",
+    "Rashomon": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Tombstone Rashomon",
+      "relation": "directed_by",
+      "object": "Alex Cox",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 42,
+          "char_start": 61,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Tombstone Rashomon",
+      "relation": "starring",
+      "object": "Adam Newberry",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 67,
+          "char_start": 86,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Tombstone Rashomon",
+      "relation": "starring",
+      "object": "Eric Schumacher",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 67,
+          "char_start": 86,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tombstone Rashomon",
+        "tells_story_of",
+        "Gunfight at the O.K. Corral"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gunfight at the O.K. Corral",
+        "located_in",
+        "Tombstone"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gunfight at the O.K. Corral",
+        "located_in",
+        "Arizona Territory"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tombstone Rashomon",
+        "inspired_by_style_of",
+        "Rashomon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rashomon",
+        "directed_by",
+        "Akira Kurosawa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Tombstone Rashomon\nTombstone Rashomon is a 2017 Western film directed by Alex Cox and starring Adam Newberry and Eric Schumacher. It tells the story of the Gunfight at the O.K. Corral in Tombstone, Arizona Territory from multiple differing perspectives in the style of Akira Kurosawa's 1950 film\" Rashomon\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Tombstone Rashomon\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Alex Cox\", \"type\": \"PERSON\"},\n    {\"name\": \"Adam Newberry\", \"type\": \"PERSON\"},\n    {\"name\": \"Eric Schumacher\", \"type\": \"PERSON\"},\n    {\"name\": \"Gunfight at the O.K. Corral\", \"type\": \"EVENT\"},\n    {\"name\": \"Tombstone\", \"type\": \"GPE\"},\n    {\"name\": \"Arizona Territory\", \"type\": \"GPE\"},\n    {\"name\": \"Akira Kurosawa\", \"type\": \"PERSON\"},\n    {\"name\": \"Rashomon\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Tombstone Rashomon\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Alex Cox\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Tombstone Rashomon\",\n      \"relation\": \"starring\",\n      \"object\": \"Adam Newberry\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Tombstone Rashomon\",\n      \"relation\": \"starring\",\n      \"object\": \"Eric Schumacher\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Tombstone Rashomon\",\n      \"relation\": \"tells_story_of\",\n      \"object\": \"Gunfight at the O.K. Corral\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"tells the story of\"}\n      ]\n    },\n    {\n      \"subject\": \"Gunfight at the O.K. Corral\",\n      \"relation\": \"located_in\",\n      \"object\": \"Tombstone\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Tombstone\"}\n      ]\n    },\n    {\n      \"subject\": \"Gunfight at the O.K. Corral\",\n      \"relation\": \"located_in\",\n      \"object\": \"Arizona Territory\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Arizona Territory\"}\n      ]\n    },\n    {\n      \"subject\": \"Tombstone Rashomon\",\n      \"relation\": \"inspired_by_style_of\",\n      \"object\": \"Rashomon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the style of\"}\n      ]\n    },\n    {\n      \"subject\": \"Rashomon\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Akira Kurosawa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Akira Kurosawa's\"}\n      ]\n    }\n  ]\n}"
+}

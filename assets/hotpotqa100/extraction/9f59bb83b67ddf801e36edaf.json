@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Viken L. Babikian": "PERSON",
+    "American University of Beirut": "ORG",
+    "University of Chicago Hospitals": "ORG",
+    "Massachusetts General Hospital": "ORG",
+    "Boston University School of Medicine": "ORG",
+    "Boston University Department of Neurology": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Viken L. Babikian",
+      "relation": "works_for",
+      "object": "Boston University School of Medicine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "professor of neurology at Boston University School of Medicine"
+        }
+      ]
+    },
+    {
+      "subject": "Viken L. Babikian",
+      "relation": "attended",
+      "object": "American University of Beirut",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "attended the medical school at the American University of Beirut"
+        }
+      ]
+    },
+    {
+      "subject": "Viken L. Babikian",
+      "relation": "completed_fellowship_at",
+      "object": "Massachusetts General Hospital",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "a stroke fellowship at the Massachusetts General Hospital"
+        }
+      ]
+    },
+    {
+      "subject": "Viken L. Babikian",
+      "relation": "joined",
+      "object": "Boston University Department of Neurology",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "joined the Boston University Department of Neurology in 1986"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Viken L. Babikian",
+        "nationality",
+        "American"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Viken L. Babikian",
+        "completed_residency_at",
+        "University of Chicago Hospitals"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Viken Babikian\nViken L. Babikian is an American doctor of Armenian origin and professor of neurology at Boston University School of Medicine. Babikian attended the medical school at the American University of Beirut. He then went on to complete his Neurology residency at the University of Chicago Hospitals and a stroke fellowship at the Massachusetts General Hospital. He joined the Boston University Department of Neurology in 1986. He has been a pioneer in studying cerebrovascular disorders such as stroke, with numerous publications."
+}

@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Papa Murphy's Park": "FAC",
+    "Cal Expo Multi-Use Sports Field Facility": "FAC",
+    "Bonney Field": "FAC",
+    "Cal Expo": "FAC",
+    "Sacramento": "GPE",
+    "California": "GPE",
+    "Papa Murphy's Park soccer-specific stadium": "FAC",
+    "Sacramento Republic FC": "ORG",
+    "PRO Rugby": "ORG",
+    "Sacramento Express": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Papa Murphy's Park",
+      "relation": "formerly_known_as",
+      "object": "Cal Expo Multi-Use Sports Field Facility",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "formerly known as",
+          "line_start": 20,
+          "char_start": 39,
+          "ambiguous": false,
+          "relation_mention": "formerly known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Papa Murphy's Park",
+      "relation": "formerly_known_as",
+      "object": "Bonney Field",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "formerly known as",
+          "line_start": 20,
+          "char_start": 39,
+          "ambiguous": false,
+          "relation_mention": "formerly known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Papa Murphy's Park",
+      "relation": "located_in",
+      "object": "Cal Expo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located on the grounds of",
+          "line_start": 119,
+          "char_start": 138,
+          "ambiguous": false,
+          "relation_mention": "located on the grounds of",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Cal Expo",
+        "located_in",
+        "Sacramento"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sacramento",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Papa Murphy's Park soccer-specific stadium",
+        "has_capacity",
+        "11,569"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Papa Murphy's Park",
+        "current_home_of",
+        "Sacramento Republic FC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Papa Murphy's Park",
+        "former_home_of",
+        "Sacramento Express"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sacramento Express",
+        "works_for",
+        "PRO Rugby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Papa Murphy's Park\nPapa Murphy's Park (formerly known as the Cal Expo Multi-Use Sports Field Facility and Bonney Field) is a sports venue located on the grounds of Cal Expo in Sacramento, California. The soccer-specific stadium has a capacity of 11,569 and includes a full-sized (120 x 80 yard) soccer field. Papa Murphy's Park is the current home of Sacramento Republic FC soccer team and former home of PRO Rugby team, Sacramento Express.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Papa Murphy's Park\", \"type\": \"FAC\"},\n    {\"name\": \"Cal Expo Multi-Use Sports Field Facility\", \"type\": \"FAC\"},\n    {\"name\": \"Bonney Field\", \"type\": \"FAC\"},\n    {\"name\": \"Cal Expo\", \"type\": \"FAC\"},\n    {\"name\": \"Sacramento\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"Papa Murphy's Park soccer-specific stadium\", \"type\": \"FAC\"},\n    {\"name\": \"Sacramento Republic FC\", \"type\": \"ORG\"},\n    {\"name\": \"PRO Rugby\", \"type\": \"ORG\"},\n    {\"name\": \"Sacramento Express\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Papa Murphy's Park\",\n      \"relation\": \"formerly_known_as\",\n      \"object\": \"Cal Expo Multi-Use Sports Field Facility\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"formerly known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Papa Murphy's Park\",\n      \"relation\": \"formerly_known_as\",\n      \"object\": \"Bonney Field\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"formerly known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Papa Murphy's Park\",\n      \"relation\": \"located_in\",\n      \"object\": \"Cal Expo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located on the grounds of\"}\n      ]\n    },\n    {\n      \"subject\": \"Cal Expo\",\n      \"relation\": \"located_in\",\n      \"object\": \"Sacramento\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Sacramento\"}\n      ]\n    },\n    {\n      \"subject\": \"Sacramento\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Sacramento, California\"}\n      ]\n    },\n    {\n      \"subject\": \"Papa Murphy's Park soccer-specific stadium\",\n      \"relation\": \"has_capacity\",\n      \"object\": \"11,569\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has a capacity of\"}\n      ]\n    },\n    {\n      \"subject\": \"Papa Murphy's Park\",\n      \"relation\": \"current_home_of\",\n      \"object\": \"Sacramento Republic FC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the current home of\"}\n      ]\n    },\n    {\n      \"subject\": \"Papa Murphy's Park\",\n      \"relation\": \"former_home_of\",\n      \"object\": \"Sacramento Express\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"former home of\"}\n      ]\n    },\n    {\n      \"subject\": \"Sacramento Express\",\n      \"relation\": \"works_for\",\n      \"object\": \"PRO Rugby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of PRO Rugby team\"}\n      ]\n    }\n  ]\n}"
+}

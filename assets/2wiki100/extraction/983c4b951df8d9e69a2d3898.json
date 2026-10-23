@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Eleanor of Woodstock": "Person",
+    "Guelders": "Location",
+    "King Edward II of England": "Person",
+    "Isabella of France": "Person",
+    "Edward III of England": "Person",
+    "Reginald II of Guelders": "Person",
+    "King Philip the Fair of France": "Person",
+    "Woodstock Palace": "Location",
+    "Oxfordshire": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Eleanor of Woodstock",
+      "relation": "born_at",
+      "object": "Woodstock Palace",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Eleanor was born at Woodstock Palace"
+        }
+      ]
+    },
+    {
+      "subject": "Eleanor of Woodstock",
+      "relation": "married_to",
+      "object": "Reginald II of Guelders",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Duchess consort of Guelders by marriage"
+        }
+      ]
+    },
+    {
+      "subject": "Eleanor of Woodstock",
+      "relation": "regent_of",
+      "object": "Guelders",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was regent of Guelders"
+        }
+      ]
+    },
+    {
+      "subject": "King Edward II of England",
+      "relation": "parent_of",
+      "object": "Eleanor of Woodstock",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "to King Edward II of England and his queen Isabella of France"
+        }
+      ]
+    },
+    {
+      "subject": "Isabella of France",
+      "relation": "parent_of",
+      "object": "Eleanor of Woodstock",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "to King Edward II of England and his queen Isabella of France"
+        }
+      ]
+    },
+    {
+      "subject": "Eleanor of Woodstock",
+      "relation": "sibling_of",
+      "object": "Edward III of England",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "a younger sister of Edward III of England"
+        }
+      ]
+    },
+    {
+      "subject": "Eleanor of Woodstock",
+      "relation": "grandchild_of",
+      "object": "King Philip the Fair of France",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Eleanor's maternal grandfather was King Philip the Fair of France"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eleanor of Woodstock",
+        "guardian_of",
+        "her minor son"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Eleanor of Woodstock\nEleanor of Woodstock( 18 June 1318 – 22 April 1355) was an English princess and Duchess consort of Guelders by marriage. She was regent of Guelders as the guardian of her minor son from 1343 until 1344. Eleanor was born at Woodstock Palace in Oxfordshire to King Edward II of England and his queen Isabella of France. She was a younger sister of Edward III of England and the second wife of Reginald II of Guelders,\" the Black\". Eleanor's maternal grandfather was King Philip the Fair of France."
+}

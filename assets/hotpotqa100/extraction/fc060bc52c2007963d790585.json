@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Bill Cosby": "PERSON",
+    "Westgate Las Vegas Resort & Casino": "FAC",
+    "International Hotel": "FAC",
+    "For Adults Only": "WORK_OF_ART",
+    "Pearl Bailey": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Bill Cosby",
+      "relation": "recorded",
+      "object": "For Adults Only",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "For Adults Only (1971) is the 13th comedy album by Bill Cosby."
+        }
+      ]
+    },
+    {
+      "subject": "For Adults Only",
+      "relation": "recorded_at",
+      "object": "Westgate Las Vegas Resort & Casino",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It was recorded at the Westgate Las Vegas Resort & Casino, then known as the International Hotel."
+        }
+      ]
+    },
+    {
+      "subject": "Westgate Las Vegas Resort & Casino",
+      "relation": "known_as",
+      "object": "International Hotel",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It was recorded at the Westgate Las Vegas Resort & Casino, then known as the International Hotel."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "For Adults Only",
+        "is_a",
+        "comedy album"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "For Adults Only",
+        "used_for",
+        "Pearl Bailey"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "For Adults Only\nFor Adults Only (1971) is the 13th comedy album by Bill Cosby. It was recorded at the Westgate Las Vegas Resort & Casino, then known as the International Hotel. The title \"For Adults Only\" was also used for a 1959 Pearl Bailey LP (Roulette R-25016)."
+}

@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "Wojciech Has": "PERSON",
+    "Kraków": "GPE",
+    "Łódź": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Wojciech Has",
+      "relation": "born_in",
+      "object": "Kraków",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a Polish film director, screenwriter and film producer."
+        }
+      ]
+    },
+    {
+      "subject": "Wojciech Has",
+      "relation": "died_in",
+      "object": "Łódź",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a Polish film director, screenwriter and film producer."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Poland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Wojciech Has",
+        "nationality",
+        "Poland"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Wojciech Has\nWojciech Jerzy Has (1 April 1925, Kraków – 3 October 2000, Łódź) was a Polish film director, screenwriter and film producer."
+}

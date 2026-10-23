@@ -1,0 +1,65 @@
+{
+  "entities": {
+    "PokerFace": "game_show",
+    "ITV": "television_network",
+    "Ant & Dec": "individuals",
+    "£1 million": "currency"
+  },
+  "triples": [
+    {
+      "subject": "PokerFace",
+      "relation": "broadcast_on",
+      "object": "ITV",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "broadcast on ITV"
+        }
+      ]
+    },
+    {
+      "subject": "PokerFace",
+      "relation": "created_by",
+      "object": "Ant & Dec",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "created by Ant & Dec"
+        }
+      ]
+    },
+    {
+      "subject": "PokerFace",
+      "relation": "hosts",
+      "object": "Ant & Dec",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "who also host it"
+        }
+      ]
+    },
+    {
+      "subject": "PokerFace",
+      "relation": "guarantees_prize",
+      "object": "£1 million",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one person is guaranteed to win £1 million"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "PokerFace",
+        "based_on",
+        "bluffing aspect of poker games"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "PokerFace\nPokerFace is a British game show broadcast on ITV, where one person is guaranteed to win £1 million. The show was created by Ant & Dec, who also host it. As implied by the title, \"PokerFace\", is based on the bluffing aspect of poker games. The contestants do not necessarily need to get the questions right in order to win, and can bluff their way through the game and pressure their opponents into folding in order to win."
+}

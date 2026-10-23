@@ -1,0 +1,49 @@
+{
+  "entities": {
+    "Powerful: Energy for Everyone": "WORK_OF_ART",
+    "David Chernushenko": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "David Chernushenko",
+      "relation": "featured_in",
+      "object": "Powerful: Energy for Everyone",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "David Chernushenko takes audiences on a global journey",
+          "line_start": 114,
+          "char_start": 144,
+          "ambiguous": false,
+          "relation_mention": "David Chernushenko takes audiences on a global journey",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Powerful: Energy for Everyone",
+        "country_of_origin",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Powerful: Energy for Everyone",
+        "released_in_year",
+        "2010"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Powerful: Energy for Everyone\nPowerful: Energy for Everyone is a 2010 Canadian documentary that explores different sources of renewable energy. David Chernushenko takes audiences on a global journey to discover different ways of achieving a more sustainable lifestyle. The film introduces audiences to communities, both small and large, that have managed to adapt their way of life and embrace renewable energy."
+}

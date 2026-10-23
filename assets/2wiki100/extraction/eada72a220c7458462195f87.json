@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Gordon Douglas": "PERSON",
+    "New York City": "GPE",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Gordon Douglas",
+      "relation": "born_in_norp",
+      "object": "American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was an American",
+          "line_start": 56,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "was an American",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Gordon Douglas",
+      "relation": "native_of",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "a native of",
+          "line_start": 199,
+          "char_start": 225,
+          "ambiguous": false,
+          "relation_mention": "a native of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gordon Douglas",
+        "works_as",
+        "Gordon Douglas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Gordon Douglas (director)\nGordon Douglas( December 15, 1907 – September 29, 1993) was an American film director, who directed many different genres of films over the course of a five- decade career in motion pictures. He was a native of New York City."
+}

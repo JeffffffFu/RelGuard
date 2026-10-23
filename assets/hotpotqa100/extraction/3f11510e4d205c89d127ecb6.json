@@ -1,0 +1,118 @@
+{
+  "entities": {
+    "Contra-rotating": "WORK_OF_ART",
+    "coaxial contra-rotating": "WORK_OF_ART",
+    "aircraft propellers": "PRODUCT",
+    "piston engine": "PRODUCT",
+    "turboprop engine": "PRODUCT",
+    "propellers": "PRODUCT",
+    "marine transmission systems": "ORG",
+    "large speed boats": "PRODUCT",
+    "planing hulls": "PRODUCT",
+    "planetary gear transmission": "PRODUCT",
+    "helicopter designs": "WORK_OF_ART",
+    "coaxial rotors": "PRODUCT",
+    "engine": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Contra-rotating",
+      "relation": "also_referred_to_as",
+      "object": "coaxial contra-rotating",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also referred to as",
+          "line_start": 17,
+          "char_start": 33,
+          "ambiguous": false,
+          "relation_mention": "also referred to as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "aircraft propellers",
+      "relation": "are_example_of",
+      "object": "Contra-rotating",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Examples include",
+          "line_start": 199,
+          "char_start": 215,
+          "ambiguous": false,
+          "relation_mention": "Examples include",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "coaxial rotors",
+      "relation": "are_used_in",
+      "object": "helicopter designs",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "termed",
+          "line_start": 675,
+          "char_start": 691,
+          "ambiguous": false,
+          "relation_mention": "termed",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "maximum power of a single piston or turboprop engine",
+        "drives",
+        "propellers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Contra-rotating propellers",
+        "are_common_in",
+        "marine transmission systems"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "large speed boats",
+        "have",
+        "planing hulls"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Two propellers",
+        "are_arranged",
+        "one behind the other"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "power",
+        "is_transferred_from",
+        "engine"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "power",
+        "is_transferred_via",
+        "planetary gear transmission"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Contra-rotating\nContra-rotating, also referred to as coaxial contra-rotating, is a technique whereby parts of a mechanism rotate in opposite directions about a common axis, usually to minimise the effect of torque. Examples include some aircraft propellers, resulting in the maximum power of a single piston or turboprop engine to drive two propellers in opposite rotation. Contra-rotating propellers are also common in some marine transmission systems, in particular for large speed boats with planing hulls. Two propellers are arranged one behind the other, and power is transferred from the engine via planetary gear transmission. The configuration can also be used in helicopter designs termed coaxial rotors, where similar issues and principles of torque apply."
+}

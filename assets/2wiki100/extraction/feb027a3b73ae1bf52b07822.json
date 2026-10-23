@@ -1,0 +1,112 @@
+{
+  "entities": {
+    "Marie Zéphyrine of France": "Person",
+    "Louis, Dauphin of France": "Person",
+    "Maria Josepha of Saxony": "Person",
+    "Marie Isabelle de Rohan": "Person",
+    "Palace of Versailles": "Location",
+    "Royal Basilica of Saint Denis": "Location",
+    "Paris": "Location",
+    "St Zephyrinus": "Person",
+    "Louis XV": "Person",
+    "Abbot of Chabannes": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Marie Zéphyrine of France",
+      "relation": "daughter_of",
+      "object": "Louis, Dauphin of France",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the daughter of Louis, Dauphin of France"
+        }
+      ]
+    },
+    {
+      "subject": "Marie Zéphyrine of France",
+      "relation": "born_at",
+      "object": "Palace of Versailles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was born at the Palace of Versailles"
+        }
+      ]
+    },
+    {
+      "subject": "Marie Zéphyrine of France",
+      "relation": "baptised_by",
+      "object": "Abbot of Chabannes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "having been baptised just days before by the Abbot of Chabannes"
+        }
+      ]
+    },
+    {
+      "subject": "Marie Zéphyrine of France",
+      "relation": "buried_at",
+      "object": "Royal Basilica of Saint Denis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "She was buried at the Royal Basilica of Saint Denis"
+        }
+      ]
+    },
+    {
+      "subject": "Royal Basilica of Saint Denis",
+      "relation": "located_in",
+      "object": "Paris",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "outside the capital of Paris"
+        }
+      ]
+    },
+    {
+      "subject": "Louis XV",
+      "relation": "hoped_for",
+      "object": "Marie Zéphyrine of France",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "had hoped for a grandson"
+        }
+      ]
+    },
+    {
+      "subject": "Marie Zéphyrine of France",
+      "relation": "served_by",
+      "object": "Marie Isabelle de Rohan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Marie Isabelle de Rohan served as Marie Zéphyrine's governess"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marie Zéphyrine of France",
+        "daughter_of",
+        "Maria Josepha of Saxony"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Marie Zéphyrine of France",
+        "died_at",
+        "Versailles"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Marie Zéphyrine of France\nMarie Zéphyrine of France (26 August 1750 – 2 September 1755) was a French princess, the daughter of Louis, Dauphin of France, and Maria Josepha of Saxony. Marie Zéphyrine, known as \"Madame Royale\" or \"la Petite Madame\", was born at the Palace of Versailles and was named after St Zephyrinus, on whose feast day she was born. Her birth was greeted with caution; in the previous two years, Maria Josepha had suffered stillbirths and her health was of a fragile nature. Louis XV, on the other hand, had hoped for a grandson. Marie Isabelle de Rohan served as Marie Zéphyrine's governess. Marie Zéphyrine died at Versailles due to an attack of convulsions, in the early hours of the morning of 2 September, having been baptised just days before by the Abbot of Chabannes. She was not officially mourned; a French princess could only be mourned if she was over the age of 7. She was buried at the Royal Basilica of Saint Denis outside the capital of Paris."
+}

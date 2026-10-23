@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Henry Sturt": "Person",
+    "1st Baron Alington": "Title",
+    "British peer": "Occupation",
+    "Conservative Party": "Political Party",
+    "Crichel": "Location",
+    "Lady Augusta Bingham": "Person",
+    "George Charles Bingham": "Person",
+    "3rd Earl of Lucan": "Title",
+    "Evelyn Henrietta Leigh": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Henry Sturt",
+      "relation": "created",
+      "object": "1st Baron Alington",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he was created 1st Baron Alington of Crichel on 15 January 1876"
+        }
+      ]
+    },
+    {
+      "subject": "Henry Sturt",
+      "relation": "is_a",
+      "object": "British peer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a British peer and Conservative Party politician"
+        }
+      ]
+    },
+    {
+      "subject": "Henry Sturt",
+      "relation": "is_a",
+      "object": "Conservative Party",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a British peer and Conservative Party politician"
+        }
+      ]
+    },
+    {
+      "subject": "Henry Sturt",
+      "relation": "wed",
+      "object": "Lady Augusta Bingham",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "he wed Lady Augusta Bingham"
+        }
+      ]
+    },
+    {
+      "subject": "Henry Sturt",
+      "relation": "wed",
+      "object": "Evelyn Henrietta Leigh",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Sturt wed Evelyn Henrietta Leigh"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lady Augusta Bingham",
+        "is_a",
+        "daughter of George Charles Bingham"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Henry Sturt, 1st Baron Alington\nHenry Gerard Sturt, 1st Baron Alington( 16 May 1825 – 17 February 1904) was a British peer and Conservative Party politician. The son of Henry Sturt, he was created 1st Baron Alington of Crichel on 15 January 1876. Sturt was twice married. On 10 September 1853, he wed Lady Augusta Bingham, the daughter of George Charles Bingham, 3rd Earl of Lucan. They had three children :- On 10 February 1892, Sturt wed Evelyn Henrietta Leigh."
+}

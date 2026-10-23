@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Teatro Regio Ducal": "opera house",
+    "Milan": "location",
+    "Mozart": "composer",
+    "Maria Teresa Agnesi Pinottini": "composer",
+    "Ascanio in Alba": "opera",
+    "Mitridate, re di Ponto": "opera",
+    "Lucio Silla": "opera",
+    "Ciro in Armenia": "opera"
+  },
+  "triples": [
+    {
+      "subject": "Teatro Regio Ducal",
+      "relation": "located_in",
+      "object": "Milan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Teatro Regio Ducal (Italian, \"Royal Ducal Theatre\") was the opera house in Milan"
+        }
+      ]
+    },
+    {
+      "subject": "Teatro Regio Ducal",
+      "relation": "burned_down",
+      "object": "Teatro Regio Ducal",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "when it was burned down following a carnival gala"
+        }
+      ]
+    },
+    {
+      "subject": "Teatro Regio Ducal",
+      "relation": "premiered",
+      "object": "Ascanio in Alba",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "including the premieres of Mozart's \"Ascanio in Alba\""
+        }
+      ]
+    },
+    {
+      "subject": "Teatro Regio Ducal",
+      "relation": "premiered",
+      "object": "Ciro in Armenia",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The opera house also saw the premiere of Maria Teresa Agnesi Pinottini's \"Ciro in Armenia\" in 1753"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Teatro Regio Ducal",
+        "premiered",
+        "Mitridate, re di Ponto"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Teatro Regio Ducal",
+        "premiered",
+        "Lucio Silla"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Teatro Regio Ducal\nThe Teatro Regio Ducal (Italian, \"Royal Ducal Theatre\") was the opera house in Milan from 26 December 1717 until 25 February 1776, when it was burned down following a carnival gala. Many famous composers and their operas are associated with it, including the premieres of Mozart's \"Ascanio in Alba\", \"Mitridate, re di Ponto\", and \"Lucio Silla\". The opera house also saw the premiere of Maria Teresa Agnesi Pinottini's \"Ciro in Armenia\" in 1753; one of the earliest successfully received operas by a female composer. Variant forms such as \"Regio-Ducal Teatro\" and \"Teatro Regio Ducale\" are also seen."
+}

@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Straw purchase": "EVENT",
+    "straw purchaser": "PERSON",
+    "agent": "PERSON",
+    "ultimate receiver": "PERSON",
+    "ultimate possessor": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Straw purchase",
+      "relation": "are_legal_except_in_cases_where",
+      "object": "ultimate receiver",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "are legal except in cases where the ultimate receiver of goods or services uses those goods or services in the commission of a crime with the prior knowledge of the straw purchaser",
+          "line_start": 301,
+          "char_start": 316,
+          "ambiguous": false,
+          "relation_mention": "are legal except in cases where the ultimate receiver of goods or services uses those goods or services in the commission of a crime with the prior knowledge of the straw purchaser",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Straw purchase",
+      "relation": "are_legal_except_in_cases_where",
+      "object": "ultimate possessor",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "or if the ultimate possessor is not legally able to purchase the goods or services",
+          "line_start": 483,
+          "char_start": 498,
+          "ambiguous": false,
+          "relation_mention": "or if the ultimate possessor is not legally able to purchase the goods or services",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Straw purchase",
+      "relation": "are_legal_in_some_jurisdictions_even_if",
+      "object": "ultimate possessor",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "are legal although the end user is not legally able to purchase the good or service himself or herself",
+          "line_start": 606,
+          "char_start": 621,
+          "ambiguous": false,
+          "relation_mention": "are legal although the end user is not legally able to purchase the good or service himself or herself",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Straw purchase",
+        "is",
+        "any purchase"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "agent",
+        "agrees_to_acquire_for",
+        "someone"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "agent",
+        "transfers_to",
+        "that person"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Straw purchase\nA straw purchase or nominee purchase is any purchase wherein an agent agrees to acquire a good or service for someone who is unable or unwilling to purchase the good or service themselves, and the agent transfers the goods or services to that person after purchasing them. In general, straw purchases are legal except in cases where the ultimate receiver of goods or services uses those goods or services in the commission of a crime with the prior knowledge of the straw purchaser, or if the ultimate possessor is not legally able to purchase the goods or services. In some jurisdictions, straw purchases are legal although the end user is not legally able to purchase the good or service himself or herself."
+}

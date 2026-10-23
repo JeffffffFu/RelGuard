@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Weekend Blockbusters": "Organization",
+    "Kollam": "Location",
+    "India": "Location",
+    "Sophia Paul": "Person",
+    "Bangalore Days": "Film",
+    "Kaadu Pookkunna Neram": "Film",
+    "Munthirivallikal Thalirkkumbol": "Film",
+    "2014": "Date",
+    "2016": "Date"
+  },
+  "triples": [
+    {
+      "subject": "Weekend Blockbusters",
+      "relation": "based_in",
+      "object": "Kollam",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Kollam"
+        }
+      ]
+    },
+    {
+      "subject": "Weekend Blockbusters",
+      "relation": "established_by",
+      "object": "Sophia Paul",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "established in 2014 by producer Sophia Paul"
+        }
+      ]
+    },
+    {
+      "subject": "Weekend Blockbusters",
+      "relation": "founded",
+      "object": "2014",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "established in 2014"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Weekend Blockbusters",
+        "based_in",
+        "India"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Weekend Blockbusters",
+        "produced",
+        "Bangalore Days"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Weekend Blockbusters",
+        "produced",
+        "Kaadu Pookkunna Neram"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Weekend Blockbusters",
+        "produced",
+        "Munthirivallikal Thalirkkumbol"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Weekend Blockbusters",
+        "produced_in",
+        "2016"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Weekend Blockbusters\nWeekend Blockbusters is an Indian film production company based in Kollam, India. It was established in 2014 by producer Sophia Paul. Its first production was the Malayalam film\" Bangalore Days\"( 2014). In 2016, they produced two films-\" Kaadu Pookkunna Neram\" and\" Munthirivallikal Thalirkkumbol\"."
+}

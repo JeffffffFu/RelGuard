@@ -1,0 +1,149 @@
+{
+  "entities": {
+    "Taglierini": "PRODUCT",
+    "Spaghetti": "PRODUCT",
+    "tagliatelle": "PRODUCT",
+    "Capellini": "PRODUCT",
+    "Molise": "GPE",
+    "Piedmont": "GPE",
+    "Italy": "GPE",
+    "Tajarin": "PRODUCT",
+    "pasta all'uovo": "PRODUCT",
+    "tajarin ai tartufi": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Taglierini",
+      "relation": "similar_to",
+      "object": "Spaghetti",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "long like Spaghetti"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "similar_to",
+      "object": "tagliatelle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "similar to tagliatelle"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "similar_to",
+      "object": "Capellini",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "but thin like Capellini"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "is_a_traditional_recipe_in",
+      "object": "Molise",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is a traditional recipe in regions Molise"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "is_made_of",
+      "object": "pasta all'uovo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Piedmont called Tajarin and made of egg dough (\"pasta all'uovo\")"
+        }
+      ]
+    },
+    {
+      "subject": "Taglierini",
+      "relation": "is_served_with",
+      "object": "tajarin ai tartufi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "typically served with butter and truffles (\"tajarin ai tartufi\")"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Taglierini",
+        "is_a_type_of",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "is_a_traditional_recipe_in",
+        "Piedmont"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "is_served_with",
+        "meat roast sauce"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "is_cooked_in_short_time",
+        "fresh doug"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "fits_best_to",
+        "light sauces"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "fits_best_to",
+        "fish"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "fits_best_to",
+        "delicacies"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Taglierini",
+        "fits_best_to",
+        "soups"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Taglierini\nTaglierini ] (or Tagliolini) is a type of ribbon pasta, long like Spaghetti, two to three mm or roughly a tenth of an inch wide, similar to tagliatelle, but thin like Capellini. It is a traditional recipe in regions Molise and Piedmont of Italy, in Piedmont called Tajarin and made of egg dough (\"pasta all'uovo\"). The dough also contains semolina, flavor and salt. It is typically served with butter and truffles (\"tajarin ai tartufi\") or meat roast sauce. Taglierini finish in short cooking time, exceedingly on fresh doug and fit best to light sauces, fish, delicacies or soups."
+}

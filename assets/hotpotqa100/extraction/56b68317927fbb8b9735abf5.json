@@ -1,0 +1,129 @@
+{
+  "entities": {
+    "EgyptAir Flight 990": "PRODUCT",
+    "Los Angeles International Airport": "FAC",
+    "United States": "GPE",
+    "Cairo International Airport": "FAC",
+    "Egypt": "GPE",
+    "John F. Kennedy International Airport": "FAC",
+    "New York City": "GPE",
+    "Boeing 767": "PRODUCT",
+    "Atlantic Ocean": "LOC",
+    "Nantucket Island": "LOC",
+    "Massachusetts": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "EgyptAir Flight 990",
+      "relation": "operated_from",
+      "object": "Los Angeles International Airport",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a regularly scheduled flight from Los Angeles International Airport"
+        }
+      ]
+    },
+    {
+      "subject": "EgyptAir Flight 990",
+      "relation": "operated_to",
+      "object": "Cairo International Airport",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to Cairo International Airport"
+        }
+      ]
+    },
+    {
+      "subject": "EgyptAir Flight 990",
+      "relation": "stopped_at",
+      "object": "John F. Kennedy International Airport",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with a stop at John F. Kennedy International Airport"
+        }
+      ]
+    },
+    {
+      "subject": "Los Angeles International Airport",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Los Angeles International Airport, United States"
+        }
+      ]
+    },
+    {
+      "subject": "Cairo International Airport",
+      "relation": "located_in",
+      "object": "Egypt",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Cairo International Airport, Egypt"
+        }
+      ]
+    },
+    {
+      "subject": "John F. Kennedy International Airport",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "John F. Kennedy International Airport, New York City"
+        }
+      ]
+    },
+    {
+      "subject": "EgyptAir Flight 990",
+      "relation": "crashed_into",
+      "object": "Atlantic Ocean",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the Boeing 767 operating the route crashed into the Atlantic Ocean"
+        }
+      ]
+    },
+    {
+      "subject": "Boeing 767",
+      "relation": "operated_by",
+      "object": "EgyptAir Flight 990",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the Boeing 767 operating the route"
+        }
+      ]
+    },
+    {
+      "subject": "Atlantic Ocean",
+      "relation": "located_near",
+      "object": "Nantucket Island",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "about 60 mi south of Nantucket Island"
+        }
+      ]
+    },
+    {
+      "subject": "Nantucket Island",
+      "relation": "located_in",
+      "object": "Massachusetts",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "south of Nantucket Island, Massachusetts"
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "EgyptAir Flight 990\nEgyptAir Flight 990 (MS990/MSR990) was a regularly scheduled flight from Los Angeles International Airport, United States, to Cairo International Airport, Egypt, with a stop at John F. Kennedy International Airport, New York City. On October 31, 1999, the Boeing 767 operating the route crashed into the Atlantic Ocean about 60 mi south of Nantucket Island, Massachusetts, killing all 217 people on board. The official probable cause of the crash was deliberate action by the relief first officer."
+}

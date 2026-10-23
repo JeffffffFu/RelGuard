@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "Liberty Square": "location",
+    "Magic Kingdom": "theme park",
+    "Walt Disney World Resort": "resort",
+    "Lake Buena Vista": "location",
+    "Liberty Bell": "artifact",
+    "Liberty Tree": "artifact",
+    "Haunted Mansion": "attraction",
+    "Hall of Presidents": "attraction",
+    "Rivers of America": "location",
+    "Liberty Belle": "vehicle",
+    "Tom Sawyer Island": "location",
+    "Frontierland": "location"
+  },
+  "triples": [
+    {
+      "subject": "Liberty Square",
+      "relation": "located_in",
+      "object": "Magic Kingdom",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Liberty Square is one of six \"themed lands\" and is exclusive to the Magic Kingdom"
+        }
+      ]
+    },
+    {
+      "subject": "Magic Kingdom",
+      "relation": "located_in",
+      "object": "Walt Disney World Resort",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a theme park at the Walt Disney World Resort"
+        }
+      ]
+    },
+    {
+      "subject": "Liberty Square",
+      "relation": "has_replica",
+      "object": "Liberty Bell",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "replicas of both the Liberty Bell and Liberty Tree can be seen here"
+        }
+      ]
+    },
+    {
+      "subject": "Liberty Square",
+      "relation": "has_replica",
+      "object": "Liberty Tree",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "replicas of both the Liberty Bell and Liberty Tree can be seen here"
+        }
+      ]
+    },
+    {
+      "subject": "Haunted Mansion",
+      "relation": "located_in",
+      "object": "Liberty Square",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "One of the most popular attractions in the Magic Kingdom, the Haunted Mansion, is located in this land"
+        }
+      ]
+    },
+    {
+      "subject": "Hall of Presidents",
+      "relation": "presides_over",
+      "object": "Liberty Square",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Presiding over the square is the Hall of Presidents"
+        }
+      ]
+    },
+    {
+      "subject": "Liberty Square",
+      "relation": "has_waterfront_on",
+      "object": "Rivers of America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Liberty Square has a long waterfront on the Rivers of America"
+        }
+      ]
+    },
+    {
+      "subject": "Liberty Belle",
+      "relation": "departs_from",
+      "object": "Liberty Square",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the \"Liberty Belle\" Riverboat steam paddleboat departs from a landing here"
+        }
+      ]
+    },
+    {
+      "subject": "Liberty Square",
+      "relation": "affords_views_of",
+      "object": "Tom Sawyer Island",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The land affords excellent views of the river and Tom Sawyer Island in adjacent Frontierland"
+        }
+      ]
+    },
+    {
+      "subject": "Tom Sawyer Island",
+      "relation": "adjacent_to",
+      "object": "Frontierland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in adjacent Frontierland"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Liberty Square",
+        "themed_after",
+        "colonial America"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Liberty Square (Magic Kingdom)\nLiberty Square is one of six \"themed lands\" and is exclusive to the Magic Kingdom, a theme park at the Walt Disney World Resort in Lake Buena Vista, Florida. Themed after colonial America, replicas of both the Liberty Bell and Liberty Tree can be seen here. One of the most popular attractions in the Magic Kingdom, the Haunted Mansion, is located in this land. Presiding over the square is the Hall of Presidents, an American history show featuring an audio-animatronic figure of every President of the United States. Liberty Square has a long waterfront on the Rivers of America and the \"Liberty Belle\" Riverboat steam paddleboat departs from a landing here. The land affords excellent views of the river and Tom Sawyer Island in adjacent Frontierland."
+}

@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Hartley Lobban": "PERSON",
+    "Worcestershire": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Hartley Lobban",
+      "relation": "played_for",
+      "object": "Worcestershire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played 17 matches for Worcestershire"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Jamaica (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Hartley Lobban",
+        "born_in",
+        "Jamaica"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Hartley Lobban\nHartley W Lobban (9 May 1926 – 15 October 2004) was a Jamaican-born first-class cricketer who played 17 matches for Worcestershire in the early 1950s."
+}

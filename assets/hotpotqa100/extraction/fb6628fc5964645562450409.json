@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Zdeno Chára": "PERSON",
+    "Slovak": "NORP",
+    "Boston Bruins": "ORG",
+    "National Hockey League": "ORG",
+    "James Norris Memorial Trophy": "EVENT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Zdeno Chára",
+        "nationality",
+        "Slovak"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Zdeno Chára",
+        "works_for",
+        "Boston Bruins"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Boston Bruins",
+        "located_in",
+        "National Hockey League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Zdeno Chára",
+        "won",
+        "James Norris Memorial Trophy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Zdeno Chára\nZdeno Chára (] ; born 18 March 1977) is a Slovak professional ice hockey defenseman, currently serving as captain of the Boston Bruins of the National Hockey League (NHL). He won the James Norris Memorial Trophy while playing for the Bruins in the 2008–09 season.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Zdeno Chára\", \"type\": \"PERSON\"},\n    {\"name\": \"Slovak\", \"type\": \"NORP\"},\n    {\"name\": \"Boston Bruins\", \"type\": \"ORG\"},\n    {\"name\": \"National Hockey League\", \"type\": \"ORG\"},\n    {\"name\": \"James Norris Memorial Trophy\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Zdeno Chára\",\n      \"relation\": \"nationality\",\n      \"object\": \"Slovak\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Slovak\"}\n      ]\n    },\n    {\n      \"subject\": \"Zdeno Chára\",\n      \"relation\": \"works_for\",\n      \"object\": \"Boston Bruins\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serving as captain of the Boston Bruins\"}\n      ]\n    },\n    {\n      \"subject\": \"Boston Bruins\",\n      \"relation\": \"located_in\",\n      \"object\": \"National Hockey League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the National Hockey League\"}\n      ]\n    },\n    {\n      \"subject\": \"Zdeno Chára\",\n      \"relation\": \"won\",\n      \"object\": \"James Norris Memorial Trophy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the James Norris Memorial Trophy\"}\n      ]\n    }\n  ]\n}"
+}

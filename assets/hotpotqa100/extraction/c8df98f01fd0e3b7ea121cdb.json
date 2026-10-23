@@ -1,0 +1,155 @@
+{
+  "entities": {
+    "Lincoln County": "Location",
+    "Arkansas Timberlands": "Location",
+    "Arkansas Delta": "Location",
+    "Pine Bluff metro area": "Location",
+    "Central Arkansas region": "Location",
+    "Abraham Lincoln": "Person",
+    "United States": "Location",
+    "Star City": "Location",
+    "Cane Creek State Park": "Location",
+    "Bayou Bartholomew": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Lincoln County",
+      "relation": "located_between",
+      "object": "Arkansas Timberlands",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located between the Arkansas Timberlands and Arkansas Delta"
+        }
+      ]
+    },
+    {
+      "subject": "Lincoln County",
+      "relation": "located_between",
+      "object": "Arkansas Delta",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located between the Arkansas Timberlands and Arkansas Delta"
+        }
+      ]
+    },
+    {
+      "subject": "Lincoln County",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the U.S. state of Arkansas"
+        }
+      ]
+    },
+    {
+      "subject": "Lincoln County",
+      "relation": "located_in",
+      "object": "Pine Bluff metro area",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "within the Pine Bluff metro area"
+        }
+      ]
+    },
+    {
+      "subject": "Lincoln County",
+      "relation": "located_on_outer_edge_of",
+      "object": "Central Arkansas region",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on the outer edge of the Central Arkansas region"
+        }
+      ]
+    },
+    {
+      "subject": "Lincoln County",
+      "relation": "named_for",
+      "object": "Abraham Lincoln",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "is named for Abraham Lincoln"
+        }
+      ]
+    },
+    {
+      "subject": "Lincoln County",
+      "relation": "has_incorporated_cities",
+      "object": "Star City",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "has three incorporated cities, including Star City"
+        }
+      ]
+    },
+    {
+      "subject": "Cane Creek State Park",
+      "relation": "at_confluence_of",
+      "object": "Bayou Bartholomew",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "at the confluence of Cane Creek and Bayou Bartholomew"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Abraham Lincoln",
+        "is",
+        "16th President of the United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lincoln County",
+        "created_on",
+        "March 28, 1871"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Star City",
+        "is",
+        "county seat"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lincoln County",
+        "contains",
+        "Cane Creek State Park"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Cane Creek State Park",
+        "at_confluence_of",
+        "Cane Creek"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lincoln County",
+        "has_listings_on",
+        "National Register of Historic Places"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lincoln County, Arkansas\nLincoln County is located between the Arkansas Timberlands and Arkansas Delta in the U.S. state of Arkansas. It is also within the Pine Bluff metro area, and on the outer edge of the Central Arkansas region. The county is named for Abraham Lincoln, the 16th President of the United States. Created as Arkansas's 65th county on March 28, 1871, Lincoln County has three incorporated cities, including Star City, the county seat and most populous city. The county contains 46 unincorporated communities and ghost towns, Cane Creek State Park at the confluence of Cane Creek and Bayou Bartholomew, and nine listings on the National Register of Historic Places to preserve the history and culture of the county."
+}

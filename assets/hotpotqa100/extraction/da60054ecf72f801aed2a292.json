@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Christopher \"Chris\" Robin Duesterdiek": "PERSON",
+    "The Snow Walker": "WORK_OF_ART",
+    "Elysium": "WORK_OF_ART",
+    "The Interview": "WORK_OF_ART",
+    "The Revenant": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Christopher \"Chris\" Robin Duesterdiek",
+      "relation": "works_on",
+      "object": "The Snow Walker",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his work on \"The Snow Walker\" (2003)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Christopher \"Chris\" Robin Duesterdiek",
+        "nationality",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Christopher \"Chris\" Robin Duesterdiek",
+        "works_on",
+        "Elysium"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Christopher \"Chris\" Robin Duesterdiek",
+        "works_on",
+        "The Interview"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Christopher \"Chris\" Robin Duesterdiek",
+        "works_on",
+        "The Revenant"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Chris Duesterdiek\nChristopher \"Chris\" Robin Duesterdiek is a Canadian sound designer. He is best known for his work on \"The Snow Walker\" (2003), \"Elysium\" (2013), \"The Interview\" (2014) and \"The Revenant\" (2015)."
+}

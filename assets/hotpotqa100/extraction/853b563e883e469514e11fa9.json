@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Fiat": "Organization",
+    "Marengo": "Model",
+    "Fiat 131 Marengo": "Model",
+    "Regata": "Model",
+    "Tempra": "Model",
+    "Marea": "Model",
+    "Fiat Stilo Multiwagon": "Model",
+    "Fiorino": "Model",
+    "Penny": "Model"
+  },
+  "triples": [
+    {
+      "subject": "Fiat",
+      "relation": "has_given",
+      "object": "Marengo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that Italian car maker Fiat has given to the van derivatives of its mid-size cars"
+        }
+      ]
+    },
+    {
+      "subject": "Marengo",
+      "relation": "succeeded_by",
+      "object": "Fiat Stilo Multiwagon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The nameplate was retired in 2001 and succeeded by the van version of the Fiat Stilo Multiwagon"
+        }
+      ]
+    },
+    {
+      "subject": "Fiat",
+      "relation": "has_tradition_of_naming",
+      "object": "Fiorino",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Fiat has a tradition of naming their commercial vehicle derivatives differently from the cars upon which they are based, compare with the Fiorino"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marengo",
+        "is_a",
+        "Model"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fiat 131 Marengo",
+        "is_a",
+        "Model"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Marengo",
+        "has_derivatives",
+        "Regata"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Marengo",
+        "has_derivatives",
+        "Tempra"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Marengo",
+        "has_derivatives",
+        "Marea"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Fiat",
+        "has_tradition_of_naming",
+        "Penny"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Fiat Marengo\nMarengo is a model name that Italian car maker Fiat has given to the van derivatives of its mid-size cars, beginning with the \"Fiat 131 Marengo\" in 1979 and continuing with the Regata, Tempra, and Marea. The Marengo light commercial vehicle derivatives only have two seats and have only been equipped with diesel engines. The nameplate was retired in 2001 and succeeded by the van version of the Fiat Stilo Multiwagon. Fiat has a tradition of naming their commercial vehicle derivatives differently from the cars upon which they are based, compare with the Fiorino and the Penny."
+}

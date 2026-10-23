@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Marv Skie–Lincoln County Airport": "Airport",
+    "Lincoln County": "County",
+    "South Dakota": "State",
+    "United States": "Country",
+    "Tea": "City"
+  },
+  "triples": [
+    {
+      "subject": "Marv Skie–Lincoln County Airport",
+      "relation": "owned_by",
+      "object": "Lincoln County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is owned by Lincoln County"
+        }
+      ]
+    },
+    {
+      "subject": "Marv Skie–Lincoln County Airport",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Lincoln County, South Dakota, United States"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marv Skie–Lincoln County Airport",
+        "located_in",
+        "Lincoln County"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Marv Skie–Lincoln County Airport",
+        "located_in",
+        "South Dakota"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Marv Skie–Lincoln County Airport",
+        "categorized_as",
+        "general aviation facility"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Marv Skie–Lincoln County Airport\nMarv Skie–Lincoln County Airport (FAA LID: Y14) is a public use airport in Lincoln County, South Dakota, United States. It is owned by Lincoln County and located two nautical miles (4 km) northeast of the central business district of Tea, South Dakota. This airport is included in the National Plan of Integrated Airport Systems for 2011–2015, which categorized it as a \"general aviation\" facility."
+}

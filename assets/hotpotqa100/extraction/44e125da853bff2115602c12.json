@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Ordos City": "Location",
+    "Inner Mongolia": "Location",
+    "China": "Location",
+    "Dongsheng": "Location",
+    "Ejin Horo": "Location",
+    "Ordos Airport": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Ordos City",
+      "relation": "located_in",
+      "object": "Inner Mongolia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one of the twelve major subdivisions of Inner Mongolia"
+        }
+      ]
+    },
+    {
+      "subject": "Ordos City",
+      "relation": "located_in",
+      "object": "China",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one of the twelve major subdivisions of Inner Mongolia, China"
+        }
+      ]
+    },
+    {
+      "subject": "Dongsheng",
+      "relation": "situated_in",
+      "object": "Ordos City",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Its administrative seat is situated in Dongsheng"
+        }
+      ]
+    },
+    {
+      "subject": "Ejin Horo",
+      "relation": "located_in",
+      "object": "Ordos City",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "around the city of Ejin Horo"
+        }
+      ]
+    },
+    {
+      "subject": "Ordos Airport",
+      "relation": "located_in",
+      "object": "Ejin Horo",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "which is the seat of Ordos Airport"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ordos City",
+        "administered_as",
+        "prefecture-level city"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ordos City\nOrdos (Mongolian: Ордос қота \"Ordos qota\" ; ) is one of the twelve major subdivisions of Inner Mongolia, China. It lies within the Ordos Loop of the Yellow River. Although mainly rural, Ordos is administered as a prefecture-level city. Its administrative seat is situated in Dongsheng which had a population of 582,544 inhabitants as of the 2010 census. Another Banner is being urbanized quickly around the city of Ejin Horo with about 251,894 inhabitants at the 2010 census which is the seat of Ordos Airport."
+}

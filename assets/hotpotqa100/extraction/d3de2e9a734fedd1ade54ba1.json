@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Ryan XF2R Dark Shark": "PRODUCT",
+    "United States Navy": "ORG",
+    "Ryan Aeronautical": "ORG",
+    "FR Fireball": "PRODUCT",
+    "General Electric T31": "PRODUCT",
+    "Hamilton Standard": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Ryan XF2R Dark Shark",
+      "relation": "built_for",
+      "object": "United States Navy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "built for",
+          "line_start": 54,
+          "char_start": 75,
+          "ambiguous": false,
+          "relation_mention": "built for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Ryan XF2R Dark Shark",
+      "relation": "based_on",
+      "object": "FR Fireball",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 143,
+          "char_start": 164,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "FR Fireball",
+        "made_by",
+        "Ryan Aeronautical"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ryan XF2R Dark Shark",
+        "replaced",
+        "piston engine"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "piston engine",
+        "was_replaced_with",
+        "General Electric T31"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "General Electric T31",
+        "drives",
+        "Hamilton Standard"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Ryan XF2R Dark Shark\nThe Ryan XF2R Dark Shark was an experimental aircraft built for the United States Navy that combined turboprop and turbojet propulsion. It was based on Ryan Aeronautical's earlier FR Fireball, but replaced the Fireball's piston engine with a General Electric T31 turboprop engine driving a 4-bladed Hamilton Standard propeller.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Ryan XF2R Dark Shark\", \"type\": \"PRODUCT\"},\n    {\"name\": \"United States Navy\", \"type\": \"ORG\"},\n    {\"name\": \"Ryan Aeronautical\", \"type\": \"ORG\"},\n    {\"name\": \"FR Fireball\", \"type\": \"PRODUCT\"},\n    {\"name\": \"General Electric T31\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Hamilton Standard\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Ryan XF2R Dark Shark\",\n      \"relation\": \"built_for\",\n      \"object\": \"United States Navy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"built for\"}\n      ]\n    },\n    {\n      \"subject\": \"Ryan XF2R Dark Shark\",\n      \"relation\": \"based_on\",\n      \"object\": \"FR Fireball\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on\"}\n      ]\n    },\n    {\n      \"subject\": \"FR Fireball\",\n      \"relation\": \"made_by\",\n      \"object\": \"Ryan Aeronautical\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Ryan Aeronautical's\"}\n      ]\n    },\n    {\n      \"subject\": \"Ryan XF2R Dark Shark\",\n      \"relation\": \"replaced\",\n      \"object\": \"piston engine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"replaced\"}\n      ]\n    },\n    {\n      \"subject\": \"piston engine\",\n      \"relation\": \"was_replaced_with\",\n      \"object\": \"General Electric T31\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with a General Electric T31\"}\n      ]\n    },\n    {\n      \"subject\": \"General Electric T31\",\n      \"relation\": \"drives\",\n      \"object\": \"Hamilton Standard\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"driving a 4-bladed Hamilton Standard propeller\"}\n      ]\n    }\n  ]\n}"
+}

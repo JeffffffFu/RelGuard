@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Fortunella": "WORK_OF_ART",
+    "1958": "EVENT",
+    "Eduardo De Filippo": "PERSON",
+    "Federico Fellini": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Fortunella",
+      "relation": "directed_by",
+      "object": "Eduardo De Filippo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 34,
+          "char_start": 52,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Fortunella",
+        "located_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fortunella",
+        "works_for",
+        "Federico Fellini"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fortunella",
+        "located_in",
+        "1958"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Fortunella (film)\nFortunella is a 1958 Italian film directed by Eduardo De Filippo, with script by Federico Fellini.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Fortunella\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"1958\", \"type\": \"EVENT\"},\n    {\"name\": \"Italy\", \"type\": \"GPE\"},\n    {\"name\": \"Eduardo De Filippo\", \"type\": \"PERSON\"},\n    {\"name\": \"Federico Fellini\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Fortunella\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Eduardo De Filippo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Fortunella\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Italian\"}\n      ]\n    },\n    {\n      \"subject\": \"Fortunella\",\n      \"relation\": \"works_for\",\n      \"object\": \"Federico Fellini\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with script by\"}\n      ]\n    },\n    {\n      \"subject\": \"Fortunella\",\n      \"relation\": \"located_in\",\n      \"object\": \"1958\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"1958\"}\n      ]\n    }\n  ]\n}"
+}

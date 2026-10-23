@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Thomas Jahn": "Person",
+    "Germany": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Thomas Jahn",
+      "relation": "nationality",
+      "object": "Germany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a German film and television director"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Thomas Jahn",
+        "born_on",
+        "9 July 1965"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Thomas Jahn\nThomas Jahn( born 9 July 1965) is a German film and television director."
+}

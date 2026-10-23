@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "Catherine Grandison": "PERSON",
+    "King Edward III of England": "PERSON",
+    "William de Grandison": "PERSON",
+    "Sibylla de Tregoz": "PERSON",
+    "John de Tregoz": "PERSON",
+    "Fulk IV": "PERSON",
+    "William Montacute": "PERSON",
+    "Order of the Garter": "WORK_OF_ART",
+    "Salisbury": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Catherine Grandison",
+      "relation": "remembered_for",
+      "object": "King Edward III of England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "remembered for her relationship with King Edward III of England"
+        }
+      ]
+    },
+    {
+      "subject": "Catherine Grandison",
+      "relation": "daughter_of",
+      "object": "William de Grandison",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "She was the daughter of William de Grandison"
+        }
+      ]
+    },
+    {
+      "subject": "Sibylla de Tregoz",
+      "relation": "daughter_of",
+      "object": "John de Tregoz",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "one of two daughters of John de Tregoz"
+        }
+      ]
+    },
+    {
+      "subject": "John de Tregoz",
+      "relation": "maternal_grandfather_of",
+      "object": "Catherine Grandison",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "maternal granddaughter of Fulk IV, Baron FitzWarin"
+        }
+      ]
+    },
+    {
+      "subject": "Catherine Grandison",
+      "relation": "married",
+      "object": "William Montacute",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Catherine married William Montacute"
+        }
+      ]
+    },
+    {
+      "subject": "Catherine Grandison",
+      "relation": "located_in",
+      "object": "Salisbury",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Countess of Salisbury"
+        }
+      ]
+    },
+    {
+      "subject": "Order of the Garter",
+      "relation": "originated_in_honor_of",
+      "object": "Catherine Grandison",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "possibly the woman in whose honour the Order of the Garter was originated"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Catherine Grandison",
+        "daughter_of",
+        "Sibylla de Tregoz"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "William Montacute",
+        "title",
+        "1st Earl of Salisbury"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Catherine Grandison, Countess of Salisbury\nCatherine Grandison, Countess of Salisbury (c. 1304 – 23 November 1349) was an English noblewoman, remembered for her relationship with King Edward III of England and possibly the woman in whose honour the Order of the Garter was originated. She was the daughter of William de Grandison, 1st Baron Grandison, and Sibylla de Tregoz. Her mother was one of two daughters of John de Tregoz, Baron Tregoz (whose arms were blazoned \"Gules two bars gemels in chief a lion passant guardant or\"), maternal granddaughter of Fulk IV, Baron FitzWarin). Catherine married William Montacute, 1st Earl of Salisbury in about 1320."
+}

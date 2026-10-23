@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "María Encarnación Valenzuela Conthe": "PERSON",
+    "Curri Valenzuela": "PERSON",
+    "Curry": "PERSON",
+    "Spanish": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "María Encarnación Valenzuela Conthe",
+      "relation": "also_known_as",
+      "object": "Curri Valenzuela",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "better known as",
+          "line_start": 49,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "better known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "María Encarnación Valenzuela Conthe",
+      "relation": "also_known_as",
+      "object": "Curry",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "better known as",
+          "line_start": 49,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "better known as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "María Encarnación Valenzuela Conthe",
+        "nationality",
+        "Spanish"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Curri Valenzuela\nMaría Encarnación Valenzuela Conthe( born 1945), better known as Curry or Curri Valenzuela, is a Spanish journalist and writer.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"María Encarnación Valenzuela Conthe\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Curri Valenzuela\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Curry\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Spanish\",\n      \"type\": \"NORP\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"María Encarnación Valenzuela Conthe\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Curri Valenzuela\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"better known as\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"María Encarnación Valenzuela Conthe\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Curry\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"better known as\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"María Encarnación Valenzuela Conthe\",\n      \"relation\": \"nationality\",\n      \"object\": \"Spanish\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a Spanish\"\n        }\n      ]\n    }\n  ]\n}"
+}

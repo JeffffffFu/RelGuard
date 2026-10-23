@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Summer of the Monkeys": "WORK_OF_ART",
+    "Wilson Rawls": "PERSON",
+    "Doubleday": "ORG",
+    "Yearling Books": "ORG",
+    "William Allen White Book Award": "WORK_OF_ART",
+    "California Young Reader Medal": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Summer of the Monkeys",
+      "relation": "written_by",
+      "object": "Wilson Rawls",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 49,
+          "char_start": 71,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Summer of the Monkeys",
+      "relation": "published_by",
+      "object": "Doubleday",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "published by",
+          "line_start": 81,
+          "char_start": 103,
+          "ambiguous": false,
+          "relation_mention": "published by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Summer of the Monkeys",
+      "relation": "released_by",
+      "object": "Yearling Books",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released by",
+          "line_start": 111,
+          "char_start": 133,
+          "ambiguous": false,
+          "relation_mention": "released by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Summer of the Monkeys",
+        "winner_of",
+        "William Allen White Book Award"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Summer of the Monkeys",
+        "winner_of",
+        "California Young Reader Medal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Summer of the Monkeys\nSummer of the Monkeys is a 1976 children's novel written by Wilson Rawls. It was published by Doubleday (later released by Yearling Books) and was the winner of the William Allen White Book Award and the California Young Reader Medal.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Summer of the Monkeys\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Wilson Rawls\", \"type\": \"PERSON\"},\n    {\"name\": \"Doubleday\", \"type\": \"ORG\"},\n    {\"name\": \"Yearling Books\", \"type\": \"ORG\"},\n    {\"name\": \"William Allen White Book Award\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"California Young Reader Medal\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Summer of the Monkeys\",\n      \"relation\": \"written_by\",\n      \"object\": \"Wilson Rawls\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Summer of the Monkeys\",\n      \"relation\": \"published_by\",\n      \"object\": \"Doubleday\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"published by\"}\n      ]\n    },\n    {\n      \"subject\": \"Summer of the Monkeys\",\n      \"relation\": \"released_by\",\n      \"object\": \"Yearling Books\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released by\"}\n      ]\n    },\n    {\n      \"subject\": \"Summer of the Monkeys\",\n      \"relation\": \"winner_of\",\n      \"object\": \"William Allen White Book Award\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"winner of\"}\n      ]\n    },\n    {\n      \"subject\": \"Summer of the Monkeys\",\n      \"relation\": \"winner_of\",\n      \"object\": \"California Young Reader Medal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"winner of\"}\n      ]\n    }\n  ]\n}"
+}

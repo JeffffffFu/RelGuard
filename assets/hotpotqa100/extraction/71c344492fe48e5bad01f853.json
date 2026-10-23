@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Admiralty": "ORG",
+    "Europe": "GPE",
+    "France": "GPE",
+    "James II": "PERSON",
+    "William III": "PERSON",
+    "Glorious Revolution": "EVENT",
+    "Napoleonic Wars": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Glorious Revolution",
+      "relation": "involved",
+      "object": "William III",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "The landing of William III and the Glorious Revolution itself was a gigantic effort involving 100 warships and 400 transports carrying 11,000 infantry and 4,000 horses."
+        }
+      ]
+    },
+    {
+      "subject": "Glorious Revolution",
+      "relation": "led_to",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The Glorious Revolution of 1688 rearranged the political map of Europe, and led to a series of wars with France that lasted well over a century."
+        }
+      ]
+    },
+    {
+      "subject": "Napoleonic Wars",
+      "relation": "entails",
+      "object": "Admiralty",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the battles of the Napoleonic Wars entailed feats that would have been impossible for the fleets of the 17th century."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "England (GPE)",
+        "Scotland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "James II",
+        "fled",
+        "England"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Glorious Revolution",
+        "not_opposed_by",
+        "English"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Glorious Revolution",
+        "not_opposed_by",
+        "Scottish"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Admiralty in the 18th century\nThe Glorious Revolution of 1688 rearranged the political map of Europe, and led to a series of wars with France that lasted well over a century. This was the classic age of sail; while the ships themselves evolved in only minor ways, technique and tactics were honed to a high degree, and the battles of the Napoleonic Wars entailed feats that would have been impossible for the fleets of the 17th century. Because of parliamentary opposition, James II fled the country. The landing of William III and the Glorious Revolution itself was a gigantic effort involving 100 warships and 400 transports carrying 11,000 infantry and 4,000 horses. It was not opposed by the English or Scottish fleets."
+}

@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Marco Ferreri": "PERSON",
+    "Spain": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Marco Ferreri",
+      "relation": "directed_in",
+      "object": "Spain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directing three films in Spain"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Marco Ferreri",
+        "directed_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Marco Ferreri\nMarco Ferreri( 11 May 1928 – 9 May 1997) was an Italian film director, screenwriter and actor, who began his career in the 1950s directing three films in Spain, followed by 24 Italian films before his death in 1997."
+}

@@ -1,0 +1,141 @@
+{
+  "entities": {
+    "Deterrence": "WORK_OF_ART",
+    "Rod Lurie": "PERSON",
+    "New York Daily News": "ORG",
+    "Premiere Magazine": "ORG",
+    "Entertainment Weekly": "ORG",
+    "Movieline": "ORG",
+    "Kevin Pollak": "PERSON",
+    "Timothy Hutton": "PERSON",
+    "Sheryl Lee Ralph": "PERSON",
+    "Sean Astin": "PERSON",
+    "diner": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Deterrence",
+      "relation": "written_and_directed_by",
+      "object": "Rod Lurie",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Rod Lurie"
+        }
+      ]
+    },
+    {
+      "subject": "Deterrence",
+      "relation": "stars",
+      "object": "Kevin Pollak",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Kevin Pollak, Timothy Hutton, Sheryl Lee Ralph and Sean Astin star"
+        }
+      ]
+    },
+    {
+      "subject": "Deterrence",
+      "relation": "stars",
+      "object": "Timothy Hutton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Kevin Pollak, Timothy Hutton, Sheryl Lee Ralph and Sean Astin star"
+        }
+      ]
+    },
+    {
+      "subject": "Deterrence",
+      "relation": "stars",
+      "object": "Sheryl Lee Ralph",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Kevin Pollak, Timothy Hutton, Sheryl Lee Ralph and Sean Astin star"
+        }
+      ]
+    },
+    {
+      "subject": "Deterrence",
+      "relation": "stars",
+      "object": "Sean Astin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Kevin Pollak, Timothy Hutton, Sheryl Lee Ralph and Sean Astin star"
+        }
+      ]
+    },
+    {
+      "subject": "Deterrence",
+      "relation": "located_in",
+      "object": "diner",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The entire story takes place in a single location, a diner"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "France (GPE)",
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Rod Lurie",
+        "previously_a_film_critic_for",
+        "New York Daily News"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rod Lurie",
+        "previously_a_film_critic_for",
+        "Premiere Magazine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rod Lurie",
+        "previously_a_film_critic_for",
+        "Entertainment Weekly"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rod Lurie",
+        "previously_a_film_critic_for",
+        "Movieline"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Deterrence",
+        "produced_in",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Deterrence",
+        "produced_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Deterrence (film)\nDeterrence is a 1999 French/American dramatic film written and directed by Rod Lurie, depicting fictional events about nuclear brinkmanship. It marks the feature directorial debut of Lurie, who was previously a film critic for the \"New York Daily News\", \"Premiere Magazine\", \"Entertainment Weekly\" and \"Movieline\", among others. Kevin Pollak, Timothy Hutton, Sheryl Lee Ralph and Sean Astin star. The entire story takes place in a single location, a diner."
+}

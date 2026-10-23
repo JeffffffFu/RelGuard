@@ -1,0 +1,127 @@
+{
+  "entities": {
+    "Eugene Chaplin": "Person",
+    "Oona O'Neill": "Person",
+    "Charlie Chaplin": "Person",
+    "Eugene O'Neill": "Person",
+    "Kiera Chaplin": "Person",
+    "International Comedy Film Festival of Vevey": "Organization",
+    "Switzerland": "Location",
+    "Charlie Chaplin: A Family Tribute": "Film",
+    "Smile": "Musical",
+    "The Rolling Stones": "Organization",
+    "David Bowie": "Person",
+    "Queen": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Eugene Chaplin",
+      "relation": "is_child_of",
+      "object": "Oona O'Neill",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "fifth child of Oona O'Neill"
+        }
+      ]
+    },
+    {
+      "subject": "Eugene Chaplin",
+      "relation": "is_child_of",
+      "object": "Charlie Chaplin",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "fifth child of Oona O'Neill and Charlie Chaplin"
+        }
+      ]
+    },
+    {
+      "subject": "Eugene Chaplin",
+      "relation": "is_grandson_of",
+      "object": "Eugene O'Neill",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the grandson of playwright Eugene O'Neill"
+        }
+      ]
+    },
+    {
+      "subject": "Eugene Chaplin",
+      "relation": "is_father_of",
+      "object": "Kiera Chaplin",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the father of film actress Kiera Chaplin"
+        }
+      ]
+    },
+    {
+      "subject": "Eugene Chaplin",
+      "relation": "is_president_of",
+      "object": "International Comedy Film Festival of Vevey",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the president of the International Comedy Film Festival of Vevey"
+        }
+      ]
+    },
+    {
+      "subject": "Eugene Chaplin",
+      "relation": "worked_with",
+      "object": "The Rolling Stones",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "worked with The Rolling Stones"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eugene Chaplin",
+        "born_on",
+        "August 23, 1953"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eugene Chaplin",
+        "directed",
+        "Charlie Chaplin: A Family Tribute"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Eugene Chaplin",
+        "created",
+        "Smile"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Eugene Chaplin",
+        "worked_with",
+        "David Bowie"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Eugene Chaplin",
+        "worked_with",
+        "Queen"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Eugene Chaplin\nEugene Anthony Chaplin (born August 23, 1953) is a Swiss recording engineer and documentary filmmaker. He is the fifth child of Oona O'Neill and Charlie Chaplin, the grandson of playwright Eugene O'Neill, and the father of film actress Kiera Chaplin. He is the president of the International Comedy Film Festival of Vevey, Switzerland. He directed the documentary film \"Charlie Chaplin: A Family Tribute\" and created the musical \"Smile\", which is a narration of Charlie Chaplin's life through his music. As a recording engineer, he worked with The Rolling Stones, David Bowie, and Queen."
+}

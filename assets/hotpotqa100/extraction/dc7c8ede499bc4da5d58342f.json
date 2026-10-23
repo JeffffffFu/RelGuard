@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Powder horn": "PRODUCT",
+    "cow": "NORP",
+    "ox": "NORP",
+    "buffalo": "NORP",
+    "powder flask": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Powder horn",
+      "relation": "made_from",
+      "object": "cow",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "created from",
+          "line_start": 63,
+          "char_start": 75,
+          "ambiguous": false,
+          "relation_mention": "created from",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Powder horn",
+      "relation": "made_from",
+      "object": "ox",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "created from",
+          "line_start": 63,
+          "char_start": 75,
+          "ambiguous": false,
+          "relation_mention": "created from",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Powder horn",
+      "relation": "made_from",
+      "object": "buffalo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "created from",
+          "line_start": 63,
+          "char_start": 75,
+          "ambiguous": false,
+          "relation_mention": "created from",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "powder flask",
+        "strictly_correct_term_for",
+        "Powder horn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Powder horn\nA powder horn was a container for gunpowder, and was generally created from cow, ox or buffalo horn. The term may also be used for any personal container for gunpowder, regardless of material or shape, for which powder flask is the strictly correct term. Typically there was a stopper at both ends, in later examples spring-loaded to close automatically for safety. The wide mouth was used for refilling, while the powder was dispensed from the narrow point. In some cases the point was closed and the mouth used for both, with a powder measure, a type of scoop used to dispense the powder, and in others both ends were open and the horn merely used as a funnel. The horn was typically held by a long strap and slung over the shoulder.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Powder horn\",\n      \"type\": \"PRODUCT\"\n    },\n    {\n      \"name\": \"cow\",\n      \"type\": \"NORP\"\n    },\n    {\n      \"name\": \"ox\",\n      \"type\": \"NORP\"\n    },\n    {\n      \"name\": \"buffalo\",\n      \"type\": \"NORP\"\n    },\n    {\n      \"name\": \"powder flask\",\n      \"type\": \"PRODUCT\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Powder horn\",\n      \"relation\": \"made_from\",\n      \"object\": \"cow\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"created from\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Powder horn\",\n      \"relation\": \"made_from\",\n      \"object\": \"ox\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"created from\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Powder horn\",\n      \"relation\": \"made_from\",\n      \"object\": \"buffalo\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"created from\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"powder flask\",\n      \"relation\": \"strictly_correct_term_for\",\n      \"object\": \"Powder horn\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is the strictly correct term\"\n        }\n      ]\n    }\n  ]\n}"
+}

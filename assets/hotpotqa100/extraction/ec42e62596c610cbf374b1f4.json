@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Schenectady County Airport": "FAC",
+    "Schenectady": "GPE",
+    "Schenectady County": "GPE",
+    "New York": "GPE",
+    "United States": "GPE",
+    "National Plan of Integrated Airport Systems": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Schenectady",
+      "relation": "located_in",
+      "object": "Schenectady County",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "a city in",
+          "line_start": 194,
+          "char_start": 221,
+          "ambiguous": false,
+          "relation_mention": "a city in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady County",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Schenectady County, New York",
+          "line_start": 204,
+          "char_start": 231,
+          "ambiguous": false,
+          "relation_mention": "Schenectady County, New York",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "New York",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "New York, United States",
+          "line_start": 224,
+          "char_start": 251,
+          "ambiguous": false,
+          "relation_mention": "New York, United States",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady County Airport",
+      "relation": "included_in",
+      "object": "National Plan of Integrated Airport Systems",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "included in the National Plan of Integrated Airport Systems",
+          "line_start": 255,
+          "char_start": 282,
+          "ambiguous": false,
+          "relation_mention": "included in the National Plan of Integrated Airport Systems",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Schenectady County Airport",
+        "located_in",
+        "Schenectady"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Schenectady County Airport\nSchenectady County Airport (IATA: SCH, ICAO: KSCH, FAA LID: SCH) is a county owned, public use airport located three nautical miles (6 km) north of the central business district of Schenectady, a city in Schenectady County, New York, United States. It is included in the National Plan of Integrated Airport Systems for 2011–2015, which categorized it as a \"reliever airport\"."
+}

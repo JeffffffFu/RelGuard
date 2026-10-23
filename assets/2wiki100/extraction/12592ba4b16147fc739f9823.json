@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "John G. Adolfi": "PERSON",
+    "John Gustav Adolfi": "PERSON",
+    "American": "NORP",
+    "Robin Hood": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "John Gustav Adolfi",
+      "relation": "acted_in",
+      "object": "Robin Hood",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "acting credit was in",
+          "line_start": 194,
+          "char_start": 209,
+          "ambiguous": false,
+          "relation_mention": "acting credit was in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John Gustav Adolfi",
+        "also_named",
+        "John G. Adolfi"
+      ],
+      "why": "2 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Gustav Adolfi",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Gustav Adolfi",
+        "directed",
+        "Robin Hood"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "John G. Adolfi\nJohn Gustav Adolfi( February 19, 1888 – May 11, 1933) was an American silent film director, actor, and screenwriter who was involved in more than 100 productions throughout his career. An early acting credit was in the recently restored 1912 film\" Robin Hood\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"John G. Adolfi\", \"type\": \"PERSON\"},\n    {\"name\": \"John Gustav Adolfi\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Robin Hood\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"John Gustav Adolfi\",\n      \"relation\": \"also_named\",\n      \"object\": \"John G. Adolfi\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"\"},\n        {\"line\": 2, \"predicate\": \"\"}\n      ]\n    },\n    {\n      \"subject\": \"John Gustav Adolfi\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an American\"}\n      ]\n    },\n    {\n      \"subject\": \"John Gustav Adolfi\",\n      \"relation\": \"directed\",\n      \"object\": \"Robin Hood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an American silent film director\"}\n      ]\n    },\n    {\n      \"subject\": \"John Gustav Adolfi\",\n      \"relation\": \"acted_in\",\n      \"object\": \"Robin Hood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"acting credit was in\"}\n      ]\n    }\n  ]\n}"
+}

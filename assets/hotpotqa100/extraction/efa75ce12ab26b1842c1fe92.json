@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Elisabeth of Bavaria": "Person",
+    "House of Wittelsbach": "Family",
+    "King Conrad IV of Germany": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Elisabeth of Bavaria",
+      "relation": "member_of",
+      "object": "House of Wittelsbach",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a member of the House of Wittelsbach"
+        }
+      ]
+    },
+    {
+      "subject": "Elisabeth of Bavaria",
+      "relation": "married_to",
+      "object": "King Conrad IV of Germany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by her marriage to King Conrad IV of Germany"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Elisabeth of Bavaria",
+        "queen_consult_of",
+        "Germany"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "King Conrad IV of Germany",
+        "king_of",
+        "Germany"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Elisabeth of Bavaria, Queen of Germany\nElisabeth of Bavaria (  1227 – 9 October 1273), a member of the House of Wittelsbach, was Queen consort of Germany from 1246 to 1254 by her marriage to King Conrad IV of Germany."
+}

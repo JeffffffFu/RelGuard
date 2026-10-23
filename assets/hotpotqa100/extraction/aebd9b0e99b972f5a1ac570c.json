@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Groupe de femmes": "artwork",
+    "Joseph Csaky": "artist",
+    "Galerie René Reichard": "location",
+    "Jean Metzinger": "artist",
+    "František Kupka": "artist",
+    "Francis Picabia": "artist",
+    "Amedeo Modigliani": "artist",
+    "Henri Le Fauconnier": "artist",
+    "Salon d'Automne": "event",
+    "Salon des Indépendants": "event",
+    "L'Illustration": "publication"
+  },
+  "triples": [
+    {
+      "subject": "Groupe de femmes",
+      "relation": "created_by",
+      "object": "Joseph Csaky",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an early Cubist sculpture created circa 1911 by the Hungarian avant-garde, sculptor, and graphic artist Joseph Csaky (1888–1971)"
+        }
+      ]
+    },
+    {
+      "subject": "Groupe de femmes",
+      "relation": "exhibited_at",
+      "object": "Salon d'Automne",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Csaky's sculpture was exhibited at the 1912 Salon d'Automne"
+        }
+      ]
+    },
+    {
+      "subject": "Groupe de femmes",
+      "relation": "exhibited_at",
+      "object": "Salon des Indépendants",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and the 1913 Salon des Indépendants, Paris"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Groupe de femmes",
+        "also_called",
+        "Groupe de trois femmes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Groupe de femmes",
+        "formerly_known_as",
+        "Deux Femmes (Two Women)"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Groupe de femmes",
+        "exhibited_at",
+        "Galerie René Reichard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Groupe de femmes",
+        "shown_in",
+        "L'Illustration"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Groupe de femmes\nGroupe de femmes, also called Groupe de trois femmes, or Groupe de trois personnages, is an early Cubist sculpture created circa 1911 by the Hungarian avant-garde, sculptor, and graphic artist Joseph Csaky (1888–1971). This sculpture formerly known from a black and white photograph (Galerie René Reichard) had been erroneously entitled \"Deux Femmes (Two Women)\", as the image captured on an angle showed only two figures. An additional photograph found in the Csaky family archives shows a frontal view of the work, revealing three figures rather than two. Csaky's sculpture was exhibited at the 1912 Salon d'Automne, and the 1913 Salon des Indépendants, Paris. A photograph taken of Salle XI \"in sitiu\" at the 1912 Salon d'Automne and published in \"L'Illustration\", 12 October 1912, p. 47, shows \"Groupe de femmes\" exhibited alongside the works of Jean Metzinger, František Kupka, Francis Picabia, Amedeo Modigliani and Henri Le Fauconnier."
+}

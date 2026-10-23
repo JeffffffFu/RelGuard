@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "Scandinavian Airlines": "ORG",
+    "Sweden": "GPE",
+    "Norway": "GPE",
+    "Denmark": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Scandinavian Airlines",
+      "relation": "is_flag_carrier_of",
+      "object": "Sweden",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the flag carrier of Sweden"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Scandinavian Airlines",
+        "is_flag_carrier_of",
+        "Norway"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Scandinavian Airlines",
+        "is_flag_carrier_of",
+        "Denmark"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Scandinavian Airlines\nScandinavian Airlines, usually shortened to SAS (originally an abbreviation of its former name Scandinavian Airlines System or legally Scandinavian Airlines System Denmark–Norway–Sweden) is the flag carrier of Sweden, Norway and Denmark."
+}

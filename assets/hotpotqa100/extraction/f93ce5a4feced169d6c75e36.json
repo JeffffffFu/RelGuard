@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Australian Ecology Research Award": "EVENT",
+    "AERA": "EVENT",
+    "Ecological Society of Australia": "ORG",
+    "Robert H. MacArthur Award": "EVENT",
+    "Ecological Society of America": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Australian Ecology Research Award",
+      "relation": "presented_by",
+      "object": "Ecological Society of Australia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "presented by",
+          "line_start": 57,
+          "char_start": 98,
+          "ambiguous": false,
+          "relation_mention": "presented by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "AERA",
+      "relation": "inspired_by",
+      "object": "Robert H. MacArthur Award",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was inspired, in part, by",
+          "line_start": 208,
+          "char_start": 249,
+          "ambiguous": false,
+          "relation_mention": "was inspired, in part, by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Australian Ecology Research Award",
+        "abbreviated_as",
+        "AERA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert H. MacArthur Award",
+        "presented_by",
+        "Ecological Society of America"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Australian Ecology Research Award (AERA)\nThe Australian Ecology Research Award (AERA) is an award presented by the Ecological Society of Australia for a specific body of recent ecological work by a mid-career researcher. Initiated in 2008, the AERA was inspired, in part, by the Robert H. MacArthur Award of the Ecological Society of America. The AERA is not restricted to any particular sector, and aims to recognize outstanding ecological research; nominations of researchers from academia, and the public and private sector agencies are invited annually.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Australian Ecology Research Award\", \"type\": \"EVENT\"},\n    {\"name\": \"AERA\", \"type\": \"EVENT\"},\n    {\"name\": \"Ecological Society of Australia\", \"type\": \"ORG\"},\n    {\"name\": \"Robert H. MacArthur Award\", \"type\": \"EVENT\"},\n    {\"name\": \"Ecological Society of America\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Australian Ecology Research Award\",\n      \"relation\": \"presented_by\",\n      \"object\": \"Ecological Society of Australia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"presented by\"}\n      ]\n    },\n    {\n      \"subject\": \"Australian Ecology Research Award\",\n      \"relation\": \"abbreviated_as\",\n      \"object\": \"AERA\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"(AERA)\"}\n      ]\n    },\n    {\n      \"subject\": \"AERA\",\n      \"relation\": \"inspired_by\",\n      \"object\": \"Robert H. MacArthur Award\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was inspired, in part, by\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert H. MacArthur Award\",\n      \"relation\": \"presented_by\",\n      \"object\": \"Ecological Society of America\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the Ecological Society of America\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Jovan Markovski": "Person",
+    "Gorjan Markovski": "Person",
+    "Vardar": "Team",
+    "Feni Industries": "Team"
+  },
+  "triples": [
+    {
+      "subject": "Jovan Markovski",
+      "relation": "plays_for",
+      "object": "Vardar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "last played for Vardar"
+        }
+      ]
+    },
+    {
+      "subject": "Gorjan Markovski",
+      "relation": "is_older_brother_of",
+      "object": "Jovan Markovski",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is older brother of Gorjan Markovski"
+        }
+      ]
+    },
+    {
+      "subject": "Gorjan Markovski",
+      "relation": "plays_for",
+      "object": "Feni Industries",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "plays for Feni Industries"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jovan Markovski",
+        "born_on",
+        "March 28, 1988"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jovan Markovski\nJovan Markovski( born March 28, 1988) is a Macedonian professional basketball small forward who last played for Vardar. He is older brother of Gorjan Markovski who is also basketball player and plays for Feni Industries"
+}

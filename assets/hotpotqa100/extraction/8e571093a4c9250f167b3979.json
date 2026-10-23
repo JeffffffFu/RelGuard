@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Braathens": "ORG",
+    "Braathens SAFE": "ORG",
+    "Norwegian": "NORP",
+    "Douglas": "PRODUCT",
+    "Fokker": "PRODUCT",
+    "Boeing": "ORG",
+    "de Havilland Heron": "PRODUCT",
+    "British Aerospace 146": "PRODUCT",
+    "Boeing 737-200": "PRODUCT",
+    "737": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Braathens SAFE",
+      "relation": "alias_of",
+      "object": "Braathens",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known as",
+          "line_start": 22,
+          "char_start": 61,
+          "ambiguous": false,
+          "relation_mention": "known as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Braathens",
+        "located_in",
+        "Norwegian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Braathens",
+        "operated",
+        "Douglas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Braathens",
+        "operated",
+        "Fokker"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Braathens",
+        "operated",
+        "Boeing"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Braathens",
+        "operated",
+        "de Havilland Heron"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Braathens",
+        "operated",
+        "British Aerospace 146"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Boeing 737-200",
+        "was_most_bought_type_by",
+        "Braathens"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Braathens",
+        "operated",
+        "737"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "List of aircraft operated by Braathens\nBraathens, until 1998 known as Braathens SAFE, was a Norwegian scheduled and charter airline which operated between 1946 and 2004. The airline had 118 aircraft of 15 types, consisting of three or more models each from Douglas, Fokker and Boeing, as well as the de Havilland Heron and British Aerospace 146. The Boeing 737-200, with 20, was the most bought type. Braathens operated five variants of the 737, totaling 64 aircraft. Two aircraft were involved in hull-loss accidents.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Braathens\", \"type\": \"ORG\"},\n    {\"name\": \"Braathens SAFE\", \"type\": \"ORG\"},\n    {\"name\": \"Norwegian\", \"type\": \"NORP\"},\n    {\"name\": \"Douglas\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Fokker\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Boeing\", \"type\": \"ORG\"},\n    {\"name\": \"de Havilland Heron\", \"type\": \"PRODUCT\"},\n    {\"name\": \"British Aerospace 146\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Boeing 737-200\", \"type\": \"PRODUCT\"},\n    {\"name\": \"737\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Braathens SAFE\",\n      \"relation\": \"alias_of\",\n      \"object\": \"Braathens\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Braathens\",\n      \"relation\": \"located_in\",\n      \"object\": \"Norwegian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a Norwegian\"}\n      ]\n    },\n    {\n      \"subject\": \"Braathens\",\n      \"relation\": \"operated\",\n      \"object\": \"Douglas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from Douglas\"}\n      ]\n    },\n    {\n      \"subject\": \"Braathens\",\n      \"relation\": \"operated\",\n      \"object\": \"Fokker\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from Fokker\"}\n      ]\n    },\n    {\n      \"subject\": \"Braathens\",\n      \"relation\": \"operated\",\n      \"object\": \"Boeing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from Boeing\"}\n      ]\n    },\n    {\n      \"subject\": \"Braathens\",\n      \"relation\": \"operated\",\n      \"object\": \"de Havilland Heron\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the de Havilland Heron\"}\n      ]\n    },\n    {\n      \"subject\": \"Braathens\",\n      \"relation\": \"operated\",\n      \"object\": \"British Aerospace 146\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and British Aerospace 146\"}\n      ]\n    },\n    {\n      \"subject\": \"Boeing 737-200\",\n      \"relation\": \"was_most_bought_type_by\",\n      \"object\": \"Braathens\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"was the most bought type\"}\n      ]\n    },\n    {\n      \"subject\": \"Braathens\",\n      \"relation\": \"operated\",\n      \"object\": \"737\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"operated five variants of the 737\"}\n      ]\n    }\n  ]\n}"
+}

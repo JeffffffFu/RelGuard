@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "SpaceCollective": "ORG",
+    "Rene Daalder": "PERSON",
+    "Folkert Gorter": "PERSON",
+    "Josh Pangell": "PERSON",
+    "Aaron Ohlmann": "PERSON",
+    "American Scenes Inc": "ORG",
+    "Joseph Kaufman": "PERSON",
+    "SpaceCollective Gallery": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "SpaceCollective",
+      "relation": "founded_by",
+      "object": "Rene Daalder",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded by",
+          "line_start": 176,
+          "char_start": 192,
+          "ambiguous": false,
+          "relation_mention": "founded by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Josh Pangell",
+      "relation": "created",
+      "object": "SpaceCollective",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "created by",
+          "line_start": 549,
+          "char_start": 565,
+          "ambiguous": false,
+          "relation_mention": "created by",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "SpaceCollective",
+        "founded_in_collaboration_with",
+        "Folkert Gorter"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Folkert Gorter",
+        "is_interaction_designer_of",
+        "SpaceCollective"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Folkert Gorter",
+        "is_main_curator_of",
+        "SpaceCollective Gallery"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Future of Everything",
+        "is_part_of",
+        "SpaceCollective"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aaron Ohlmann",
+        "edited",
+        "The Future of Everything"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "American Scenes Inc",
+        "produced",
+        "The Future of Everything"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Joseph Kaufman",
+        "is_executive_producer_of",
+        "The Future of Everything"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "SpaceCollective\nSpaceCollective is a community driven website where information and ideas are being exchanged about the current state of our species, our planet and the universe. The website, founded by film-maker Rene Daalder in collaboration with interactive designer Folkert Gorter, went public at the end of 2007, and is now occupied by more than 2500 contributors. Gorter is besides the site's interaction designer also the main curator of the \"SpaceCollective Gallery\", a showcase of images and texts. The system architecture and technology of the website is created by Josh Pangell. A series of videos is presented on the website called \"\"The Future of Everything\"\". These episodes are edited by Aaron Ohlmann and produced by American Scenes Inc; executive producer: Joseph Kaufman. The website's slogan is \"\"Where forward thinking terrestrials exchange ideas and information about the state of the species, their planet and the universe, living the lives of science fiction today\"\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"SpaceCollective\", \"type\": \"ORG\"},\n    {\"name\": \"Rene Daalder\", \"type\": \"PERSON\"},\n    {\"name\": \"Folkert Gorter\", \"type\": \"PERSON\"},\n    {\"name\": \"Josh Pangell\", \"type\": \"PERSON\"},\n    {\"name\": \"Aaron Ohlmann\", \"type\": \"PERSON\"},\n    {\"name\": \"American Scenes Inc\", \"type\": \"ORG\"},\n    {\"name\": \"Joseph Kaufman\", \"type\": \"PERSON\"},\n    {\"name\": \"SpaceCollective Gallery\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"SpaceCollective\",\n      \"relation\": \"founded_by\",\n      \"object\": \"Rene Daalder\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded by\"}\n      ]\n    },\n    {\n      \"subject\": \"SpaceCollective\",\n      \"relation\": \"founded_in_collaboration_with\",\n      \"object\": \"Folkert Gorter\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in collaboration with\"}\n      ]\n    },\n    {\n      \"subject\": \"Folkert Gorter\",\n      \"relation\": \"is_interaction_designer_of\",\n      \"object\": \"SpaceCollective\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the site's interaction designer\"}\n      ]\n    },\n    {\n      \"subject\": \"Folkert Gorter\",\n      \"relation\": \"is_main_curator_of\",\n      \"object\": \"SpaceCollective Gallery\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the main curator of the \\\"SpaceCollective Gallery\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Josh Pangell\",\n      \"relation\": \"created\",\n      \"object\": \"SpaceCollective\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"created by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Future of Everything\",\n      \"relation\": \"is_part_of\",\n      \"object\": \"SpaceCollective\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"presented on the website called \\\"\\\"The Future of Everything\\\"\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Aaron Ohlmann\",\n      \"relation\": \"edited\",\n      \"object\": \"The Future of Everything\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"edited by\"}\n      ]\n    },\n    {\n      \"subject\": \"American Scenes Inc\",\n      \"relation\": \"produced\",\n      \"object\": \"The Future of Everything\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Joseph Kaufman\",\n      \"relation\": \"is_executive_producer_of\",\n      \"object\": \"The Future of Everything\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"executive producer\"}\n      ]\n    }\n  ]\n}"
+}

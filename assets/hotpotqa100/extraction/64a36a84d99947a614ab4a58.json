@@ -1,0 +1,104 @@
+{
+  "entities": {
+    "The Jungle Book": "WORK_OF_ART",
+    "Rudyard Kipling": "PERSON",
+    "English": "NORP",
+    "Mowgli": "PERSON",
+    "Shere Khan": "PERSON",
+    "Baloo": "PERSON",
+    "wolves": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Rudyard Kipling",
+      "relation": "nationality",
+      "object": "English",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "English",
+          "line_start": 53,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "English",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Mowgli",
+      "relation": "raised_in",
+      "object": "wolves",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "raised in the jungle by wolves",
+          "line_start": 236,
+          "char_start": 252,
+          "ambiguous": false,
+          "relation_mention": "raised in the jungle by wolves",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "The Jungle Book",
+      "relation": "contains_character",
+      "object": "Mowgli",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "A principal character is the boy or \"man-cub\" Mowgli",
+          "line_start": 175,
+          "char_start": 191,
+          "ambiguous": false,
+          "relation_mention": "A principal character is the boy or \"man-cub\" Mowgli",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "The Jungle Book",
+      "relation": "contains_character",
+      "object": "Shere Khan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Other characters include Shere Khan the tiger",
+          "line_start": 268,
+          "char_start": 284,
+          "ambiguous": false,
+          "relation_mention": "Other characters include Shere Khan the tiger",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "The Jungle Book",
+      "relation": "contains_character",
+      "object": "Baloo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Other characters include Shere Khan the tiger and Baloo the bear",
+          "line_start": 268,
+          "char_start": 284,
+          "ambiguous": false,
+          "relation_mention": "Other characters include Shere Khan the tiger and Baloo the bear",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Jungle Book",
+        "written_by",
+        "Rudyard Kipling"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Jungle Book\nThe Jungle Book (1894) is a collection of stories by English author Rudyard Kipling. The stories are fables, using animals in an anthropomorphic manner to give moral lessons. A principal character is the boy or \"man-cub\" Mowgli, who is raised in the jungle by wolves. Other characters include Shere Khan the tiger and Baloo the bear. The book has been adapted many times for film and other media."
+}

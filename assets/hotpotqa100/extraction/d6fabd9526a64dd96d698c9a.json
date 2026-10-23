@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Izhora Plateau": "LOC",
+    "Ordovician": "NORP",
+    "Leningrad Oblast": "GPE",
+    "Gulf of Finland": "LOC",
+    "Luga River": "LOC",
+    "Baltic-Ladoga Klint": "LOC",
+    "Orekhovaya hill": "LOC",
+    "Duderhof Heights": "LOC",
+    "Ingria": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Izhora Plateau",
+      "relation": "has_edge_formed_by",
+      "object": "Baltic-Ladoga Klint",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is formed by",
+          "line_start": 248,
+          "char_start": 263,
+          "ambiguous": false,
+          "relation_mention": "is formed by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Orekhovaya hill",
+      "relation": "located_in",
+      "object": "Izhora Plateau",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "situated in",
+          "line_start": 400,
+          "char_start": 415,
+          "ambiguous": false,
+          "relation_mention": "situated in",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Izhora Plateau",
+      "relation": "was_heartland_of",
+      "object": "Ingria",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "used to be the heartland of",
+          "line_start": 499,
+          "char_start": 514,
+          "ambiguous": false,
+          "relation_mention": "used to be the heartland of",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Izhora Plateau",
+        "located_on",
+        "Ordovician"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Izhora Plateau",
+        "located_in",
+        "Leningrad Oblast"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Izhora Plateau",
+        "located_between",
+        "Gulf of Finland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Izhora Plateau",
+        "located_between",
+        "Luga River"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Orekhovaya hill",
+        "part_of",
+        "Duderhof Heights"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Izhora Plateau\nThe Izhora Plateau (Russian: Ижорская возвышенность ) is an elevated landform on Ordovician limestone bedrock in the southwestern part of Leningrad Oblast, between the Gulf of Finland in the north and the Luga River in the south. Its northern edge is formed by the erosional cliff known as the Baltic-Ladoga Klint. The highest part of the plateau is the Orekhovaya hill of Duderhof Heights at 176 m, situated in its extreme northeastern part. The plateau is mostly covered by agricultural lands. It used to be the heartland of the historical region known as Ingria.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Izhora Plateau\", \"type\": \"LOC\"},\n    {\"name\": \"Ordovician\", \"type\": \"NORP\"},\n    {\"name\": \"Leningrad Oblast\", \"type\": \"GPE\"},\n    {\"name\": \"Gulf of Finland\", \"type\": \"LOC\"},\n    {\"name\": \"Luga River\", \"type\": \"LOC\"},\n    {\"name\": \"Baltic-Ladoga Klint\", \"type\": \"LOC\"},\n    {\"name\": \"Orekhovaya hill\", \"type\": \"LOC\"},\n    {\"name\": \"Duderhof Heights\", \"type\": \"LOC\"},\n    {\"name\": \"Ingria\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Izhora Plateau\",\n      \"relation\": \"located_on\",\n      \"object\": \"Ordovician\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on\"}\n      ]\n    },\n    {\n      \"subject\": \"Izhora Plateau\",\n      \"relation\": \"located_in\",\n      \"object\": \"Leningrad Oblast\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Izhora Plateau\",\n      \"relation\": \"located_between\",\n      \"object\": \"Gulf of Finland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"between the Gulf of Finland in the north and the Luga River in the south\"}\n      ]\n    },\n    {\n      \"subject\": \"Izhora Plateau\",\n      \"relation\": \"located_between\",\n      \"object\": \"Luga River\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"between the Gulf of Finland in the north and the Luga River in the south\"}\n      ]\n    },\n    {\n      \"subject\": \"Izhora Plateau\",\n      \"relation\": \"has_edge_formed_by\",\n      \"object\": \"Baltic-Ladoga Klint\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is formed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Orekhovaya hill\",\n      \"relation\": \"part_of\",\n      \"object\": \"Duderhof Heights\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of\"}\n      ]\n    },\n    {\n      \"subject\": \"Orekhovaya hill\",\n      \"relation\": \"located_in\",\n      \"object\": \"Izhora Plateau\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"situated in\"}\n      ]\n    },\n    {\n      \"subject\": \"Izhora Plateau\",\n      \"relation\": \"was_heartland_of\",\n      \"object\": \"Ingria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"used to be the heartland of\"}\n      ]\n    }\n  ]\n}"
+}

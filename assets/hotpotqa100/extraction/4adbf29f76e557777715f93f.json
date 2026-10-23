@@ -1,0 +1,121 @@
+{
+  "entities": {
+    "FedEx Express Flight 80": "PRODUCT",
+    "Guangzhou Baiyun International Airport": "FAC",
+    "People's Republic of China": "GPE",
+    "Narita International Airport": "FAC",
+    "Narita": "GPE",
+    "Chiba Prefecture": "GPE",
+    "Japan": "GPE",
+    "McDonnell Douglas MD-11F": "PRODUCT",
+    "Runway 34L": "FAC",
+    "Tokyo": "GPE",
+    "March 23, 2009": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "FedEx Express Flight 80",
+      "relation": "operated_from",
+      "object": "Guangzhou Baiyun International Airport",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a scheduled cargo flight from Guangzhou Baiyun International Airport"
+        }
+      ]
+    },
+    {
+      "subject": "FedEx Express Flight 80",
+      "relation": "operated_to",
+      "object": "Narita International Airport",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to Narita International Airport"
+        }
+      ]
+    },
+    {
+      "subject": "Guangzhou Baiyun International Airport",
+      "relation": "located_in",
+      "object": "People's Republic of China",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the People's Republic of China"
+        }
+      ]
+    },
+    {
+      "subject": "Narita International Airport",
+      "relation": "located_in",
+      "object": "Narita",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Narita"
+        }
+      ]
+    },
+    {
+      "subject": "Narita",
+      "relation": "located_in",
+      "object": "Chiba Prefecture",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Narita, Chiba Prefecture"
+        }
+      ]
+    },
+    {
+      "subject": "FedEx Express Flight 80",
+      "relation": "crashed",
+      "object": "McDonnell Douglas MD-11F",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "a McDonnell Douglas MD-11F (N526FE) operating the flight crashed"
+        }
+      ]
+    },
+    {
+      "subject": "FedEx Express Flight 80",
+      "relation": "landed_on",
+      "object": "Runway 34L",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "attempting a landing on Runway 34L"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Chiba Prefecture",
+        "located_in",
+        "Japan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "FedEx Express Flight 80",
+        "had_occupants",
+        "captain and first officer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "captain and first officer",
+        "were_killed",
+        "FedEx Express Flight 80"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "FedEx Express Flight 80\nFedEx Express Flight 80 was a scheduled cargo flight from Guangzhou Baiyun International Airport in the People's Republic of China, to Narita International Airport in Narita, Chiba Prefecture (near Tokyo), Japan. On March 23, 2009, a McDonnell Douglas MD-11F (N526FE) operating the flight crashed at 6:48 am JST (21:48 UTC, March 22), while attempting a landing on Runway 34L in gusty wind conditions. The aircraft became destabilized at flare and touchdown resulting in an unrecovered \"bounced\" landing with structural failure of the landing gear and airframe, and came to rest off the runway, inverted, and burning fiercely. The captain and first officer, the jet's only occupants, were both killed."
+}

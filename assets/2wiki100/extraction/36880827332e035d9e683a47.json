@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Jazz Boat": "WORK_OF_ART",
+    "British": "NORP",
+    "Ken Hughes": "PERSON",
+    "Anthony Newley": "PERSON",
+    "Anne Aubrey": "PERSON",
+    "Lionel Jeffries": "PERSON",
+    "Ted Heath": "PERSON",
+    "his orchestra": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Jazz Boat",
+      "relation": "directed_by",
+      "object": "Ken Hughes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 48,
+          "char_start": 58,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jazz Boat",
+        "works_for",
+        "British"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jazz Boat",
+        "starring",
+        "Anthony Newley"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jazz Boat",
+        "starring",
+        "Anne Aubrey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jazz Boat",
+        "starring",
+        "Lionel Jeffries"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jazz Boat",
+        "starring",
+        "Ted Heath"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ted Heath",
+        "works_for",
+        "his orchestra"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Jazz Boat\nJazz Boat is a 1960 British musical comedy film directed by Ken Hughes and starring Anthony Newley, Anne Aubrey, Lionel Jeffries and big band leader Ted Heath and his orchestra.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Jazz Boat\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"British\", \"type\": \"NORP\"},\n    {\"name\": \"Ken Hughes\", \"type\": \"PERSON\"},\n    {\"name\": \"Anthony Newley\", \"type\": \"PERSON\"},\n    {\"name\": \"Anne Aubrey\", \"type\": \"PERSON\"},\n    {\"name\": \"Lionel Jeffries\", \"type\": \"PERSON\"},\n    {\"name\": \"Ted Heath\", \"type\": \"PERSON\"},\n    {\"name\": \"his orchestra\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Jazz Boat\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Ken Hughes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Jazz Boat\",\n      \"relation\": \"works_for\",\n      \"object\": \"British\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"British\"}\n      ]\n    },\n    {\n      \"subject\": \"Jazz Boat\",\n      \"relation\": \"starring\",\n      \"object\": \"Anthony Newley\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Anthony Newley\"}\n      ]\n    },\n    {\n      \"subject\": \"Jazz Boat\",\n      \"relation\": \"starring\",\n      \"object\": \"Anne Aubrey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Anthony Newley, Anne Aubrey\"}\n      ]\n    },\n    {\n      \"subject\": \"Jazz Boat\",\n      \"relation\": \"starring\",\n      \"object\": \"Lionel Jeffries\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Anthony Newley, Anne Aubrey, Lionel Jeffries\"}\n      ]\n    },\n    {\n      \"subject\": \"Jazz Boat\",\n      \"relation\": \"starring\",\n      \"object\": \"Ted Heath\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Anthony Newley, Anne Aubrey, Lionel Jeffries and big band leader Ted Heath\"}\n      ]\n    },\n    {\n      \"subject\": \"Ted Heath\",\n      \"relation\": \"works_for\",\n      \"object\": \"his orchestra\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and his orchestra\"}\n      ]\n    }\n  ]\n}"
+}

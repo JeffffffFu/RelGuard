@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Tagliatelle": "PRODUCT",
+    "Tagliolini": "PRODUCT",
+    "Emilia-Romagna": "GPE",
+    "Marche": "GPE",
+    "Italy": "GPE",
+    "fettuccine": "PRODUCT",
+    "Bolognese sauce": "PRODUCT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Tagliatelle",
+        "from",
+        "Emilia-Romagna"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tagliatelle",
+        "from",
+        "Marche"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Emilia-Romagna",
+        "located_in",
+        "Italy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marche",
+        "located_in",
+        "Italy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tagliatelle",
+        "similar_in_shape_to",
+        "fettuccine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tagliatelle",
+        "served_with",
+        "Bolognese sauce"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tagliolini",
+        "is_a",
+        "Tagliatelle"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tagliolini",
+        "shape",
+        "cylindrical"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tagliatelle",
+        "shape",
+        "flat"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Tagliatelle\nTagliatelle (] ) and tagliolini (from the Italian \"tagliare\", meaning \"to cut\") are a traditional type of pasta from Emilia-Romagna and Marche, regions of Italy. Individual pieces of \"tagliatelle\" are long, flat ribbons that are similar in shape to fettuccine and are typically about 6.5 mm to 10 mm (0.25 to 0.375 inch) wide. \"Tagliatelle\" can be served with a variety of sauces, though the classic is a meat sauce or Bolognese sauce. Tagliolini is another variety of tagliatelle that is long and cylindrical in shape, not long and flat.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Tagliatelle\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Tagliolini\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Emilia-Romagna\", \"type\": \"GPE\"},\n    {\"name\": \"Marche\", \"type\": \"GPE\"},\n    {\"name\": \"Italy\", \"type\": \"GPE\"},\n    {\"name\": \"fettuccine\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Bolognese sauce\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Tagliatelle\",\n      \"relation\": \"from\",\n      \"object\": \"Emilia-Romagna\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from Emilia-Romagna\"}\n      ]\n    },\n    {\n      \"subject\": \"Tagliatelle\",\n      \"relation\": \"from\",\n      \"object\": \"Marche\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Marche\"}\n      ]\n    },\n    {\n      \"subject\": \"Emilia-Romagna\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"regions of Italy\"}\n      ]\n    },\n    {\n      \"subject\": \"Marche\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"regions of Italy\"}\n      ]\n    },\n    {\n      \"subject\": \"Tagliatelle\",\n      \"relation\": \"similar_in_shape_to\",\n      \"object\": \"fettuccine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"similar in shape to fettuccine\"}\n      ]\n    },\n    {\n      \"subject\": \"Tagliatelle\",\n      \"relation\": \"served_with\",\n      \"object\": \"Bolognese sauce\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served with a variety of sauces, though the classic is a meat sauce or Bolognese sauce\"}\n      ]\n    },\n    {\n      \"subject\": \"Tagliolini\",\n      \"relation\": \"is_a\",\n      \"object\": \"Tagliatelle\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Tagliolini is another variety of tagliatelle\"}\n      ]\n    },\n    {\n      \"subject\": \"Tagliolini\",\n      \"relation\": \"shape\",\n      \"object\": \"cylindrical\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is long and cylindrical in shape\"}\n      ]\n    },\n    {\n      \"subject\": \"Tagliatelle\",\n      \"relation\": \"shape\",\n      \"object\": \"flat\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"long, flat ribbons\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,132 @@
+{
+  "entities": {
+    "Sherry Hormann": "PERSON",
+    "United States": "GPE",
+    "Germany": "GPE",
+    "Munich Academy for Television and Film": "ORG",
+    "Dominik Graf": "PERSON",
+    "Michael Ballhaus": "PERSON",
+    "Guys and Balls": "WORK_OF_ART",
+    "Desert Flower": "WORK_OF_ART",
+    "3096": "WORK_OF_ART",
+    "German": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Sherry Hormann",
+      "relation": "born_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born in",
+          "line_start": 179,
+          "char_start": 194,
+          "ambiguous": false,
+          "relation_mention": "was born in",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Sherry Hormann",
+      "relation": "moved_to",
+      "object": "Germany",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "moved to",
+          "line_start": 214,
+          "char_start": 229,
+          "ambiguous": false,
+          "relation_mention": "moved to",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Sherry Hormann",
+      "relation": "attended",
+      "object": "Munich Academy for Television and Film",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "attended",
+          "line_start": 272,
+          "char_start": 287,
+          "ambiguous": false,
+          "relation_mention": "attended",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Sherry Hormann",
+      "relation": "married_to",
+      "object": "Dominik Graf",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was married to",
+          "line_start": 369,
+          "char_start": 384,
+          "ambiguous": false,
+          "relation_mention": "was married to",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sherry Hormann",
+        "works_in",
+        "German"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sherry Hormann",
+        "married_to",
+        "Michael Ballhaus"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sherry Hormann",
+        "directed",
+        "Guys and Balls"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sherry Hormann",
+        "directed",
+        "Desert Flower"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sherry Hormann",
+        "directed",
+        "3096"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Michael Ballhaus",
+        "died_in",
+        "April 2017"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sherry Hormann\nSherry Hormann( born 20 April 1960) is a German- American film director. Hormann is best known for her movies Guys and Balls( 2004), Desert Flower( 2009) and 3096( 2013). Hormann was born in the United States, but moved to Germany in 1966, when she was six years old. She attended the Munich Academy for Television and Film( HFF) and mainly works in German cinema. She was married to film director Dominik Graf. In October 2011, she married cinematographer Michael Ballhaus; he died in April 2017.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Sherry Hormann\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Germany\", \"type\": \"GPE\"},\n    {\"name\": \"Munich Academy for Television and Film\", \"type\": \"ORG\"},\n    {\"name\": \"Dominik Graf\", \"type\": \"PERSON\"},\n    {\"name\": \"Michael Ballhaus\", \"type\": \"PERSON\"},\n    {\"name\": \"Guys and Balls\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Desert Flower\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"3096\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"German\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Sherry Hormann\",\n      \"relation\": \"born_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Sherry Hormann\",\n      \"relation\": \"moved_to\",\n      \"object\": \"Germany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"moved to\"}\n      ]\n    },\n    {\n      \"subject\": \"Sherry Hormann\",\n      \"relation\": \"attended\",\n      \"object\": \"Munich Academy for Television and Film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"attended\"}\n      ]\n    },\n    {\n      \"subject\": \"Sherry Hormann\",\n      \"relation\": \"works_in\",\n      \"object\": \"German\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"works in\"}\n      ]\n    },\n    {\n      \"subject\": \"Sherry Hormann\",\n      \"relation\": \"married_to\",\n      \"object\": \"Dominik Graf\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was married to\"}\n      ]\n    },\n    {\n      \"subject\": \"Sherry Hormann\",\n      \"relation\": \"married_to\",\n      \"object\": \"Michael Ballhaus\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"married\"}\n      ]\n    },\n    {\n      \"subject\": \"Sherry Hormann\",\n      \"relation\": \"directed\",\n      \"object\": \"Guys and Balls\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is best known for her movies Guys and Balls( 2004), Desert Flower( 2009) and 3096( 2013).\"}\n      ]\n    },\n    {\n      \"subject\": \"Sherry Hormann\",\n      \"relation\": \"directed\",\n      \"object\": \"Desert Flower\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is best known for her movies Guys and Balls( 2004), Desert Flower( 2009) and 3096( 2013).\"}\n      ]\n    },\n    {\n      \"subject\": \"Sherry Hormann\",\n      \"relation\": \"directed\",\n      \"object\": \"3096\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is best known for her movies Guys and Balls( 2004), Desert Flower( 2009) and 3096( 2013).\"}\n      ]\n    },\n    {\n      \"subject\": \"Michael Ballhaus\",\n      \"relation\": \"died_in\",\n      \"object\": \"April 2017\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"died in\"}\n      ]\n    }\n  ]\n}"
+}

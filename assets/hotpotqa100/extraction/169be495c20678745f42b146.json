@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "It Doesn't Have to Be That Way": "song",
+    "Jim Croce": "artist",
+    "Life and Times": "album",
+    "One Less Set of Footsteps": "single",
+    "Billboard": "chart"
+  },
+  "triples": [
+    {
+      "subject": "It Doesn't Have to Be That Way",
+      "relation": "written_by",
+      "object": "Jim Croce",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a song written and recorded by Jim Croce"
+        }
+      ]
+    },
+    {
+      "subject": "It Doesn't Have to Be That Way",
+      "relation": "reissued_as",
+      "object": "One Less Set of Footsteps",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was reissued that December as the third and final single from the album"
+        }
+      ]
+    },
+    {
+      "subject": "Jim Croce",
+      "relation": "released",
+      "object": "It Doesn't Have to Be That Way",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Croce's second posthumously-released single"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "It Doesn't Have to Be That Way",
+        "part_of",
+        "Life and Times"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "It Doesn't Have to Be That Way",
+        "released_as",
+        "One Less Set of Footsteps"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "It Doesn't Have to Be That Way",
+        "peaked_at",
+        "Billboard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "It Doesn't Have to Be That Way\n\"It Doesn't Have to Be That Way\" is a song written and recorded by Jim Croce for his 1973 album \"Life and Times\". Originally released early that year as the B-side of the \"One Less Set of Footsteps\" single, it was reissued that December as the third and final single from the album as well as Croce's second posthumously-released single. It reached a peak of #64 on the \"Billboard\" Hot 100, spending five weeks on the chart."
+}

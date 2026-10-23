@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Hassan Zee": "PERSON",
+    "Pakistani-American": "NORP",
+    "Chakwal": "GPE",
+    "Pakistan": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Hassan Zee",
+        "works_as",
+        "Pakistani-American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hassan Zee",
+        "born_in",
+        "Chakwal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Chakwal",
+        "located_in",
+        "Pakistan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Hassan Zee\nHassan Zee is a Pakistani- American film director who was born in Chakwal, Pakistan.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Hassan Zee\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Pakistani-American\",\n      \"type\": \"NORP\"\n    },\n    {\n      \"name\": \"Chakwal\",\n      \"type\": \"GPE\"\n    },\n    {\n      \"name\": \"Pakistan\",\n      \"type\": \"GPE\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Hassan Zee\",\n      \"relation\": \"works_as\",\n      \"object\": \"Pakistani-American\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a Pakistani- American\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Hassan Zee\",\n      \"relation\": \"born_in\",\n      \"object\": \"Chakwal\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was born in Chakwal\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Chakwal\",\n      \"relation\": \"located_in\",\n      \"object\": \"Pakistan\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Chakwal, Pakistan\"\n        }\n      ]\n    }\n  ]\n}"
+}

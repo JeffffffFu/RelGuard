@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "José Luis Garci": "PERSON",
+    "José Luis García Muñoz": "PERSON",
+    "Begin the Beguine": "WORK_OF_ART",
+    "Sesión continua": "WORK_OF_ART",
+    "Asignatura aprobada": "WORK_OF_ART",
+    "El abuelo": "WORK_OF_ART",
+    "Academy Award for Best Foreign Language Film": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "José Luis García Muñoz",
+      "relation": "aka",
+      "object": "José Luis Garci",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known professionally as",
+          "line_start": 47,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "known professionally as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Spain (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "José Luis Garci",
+        "located_in",
+        "Spain"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Begin the Beguine",
+        "won",
+        "Academy Award for Best Foreign Language Film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "José Luis Garci",
+        "created",
+        "Begin the Beguine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sesión continua",
+        "nominated_for",
+        "Academy Award for Best Foreign Language Film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Asignatura aprobada",
+        "nominated_for",
+        "Academy Award for Best Foreign Language Film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "El abuelo",
+        "nominated_for",
+        "Academy Award for Best Foreign Language Film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "José Luis Garci",
+        "created",
+        "Sesión continua"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "José Luis Garci",
+        "created",
+        "Asignatura aprobada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "José Luis Garci",
+        "created",
+        "El abuelo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "José Luis Garci\nJosé Luis García Muñoz( born 20 January 1944), known professionally as José Luis Garci, is a Spanish director, producer, critic, TV presenter, screenwriter and author. He earned worldwide acclaim and his country's first Best Foreign Language Film Academy Award for\" Begin the Beguine\"( 1982). Four of his films, including also\" Sesión continua\"( 1984),\" Asignatura aprobada\"( 1987) and\" El abuelo\"( 1998), have been nominated for the Academy Award for Best Foreign Language Film, more than any other Spanish director. His films are characterized for his classical style and the underlying sentimentality of their plots.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"José Luis Garci\", \"type\": \"PERSON\"},\n    {\"name\": \"José Luis García Muñoz\", \"type\": \"PERSON\"},\n    {\"name\": \"Spain\", \"type\": \"GPE\"},\n    {\"name\": \"Begin the Beguine\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Sesión continua\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Asignatura aprobada\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"El abuelo\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Academy Award for Best Foreign Language Film\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"José Luis García Muñoz\",\n      \"relation\": \"aka\",\n      \"object\": \"José Luis Garci\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known professionally as\"}\n      ]\n    },\n    {\n      \"subject\": \"José Luis Garci\",\n      \"relation\": \"located_in\",\n      \"object\": \"Spain\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Spanish\"}\n      ]\n    },\n    {\n      \"subject\": \"Begin the Beguine\",\n      \"relation\": \"won\",\n      \"object\": \"Academy Award for Best Foreign Language Film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"earned worldwide acclaim and his country's first Best Foreign Language Film Academy Award for\"}\n      ]\n    },\n    {\n      \"subject\": \"José Luis Garci\",\n      \"relation\": \"created\",\n      \"object\": \"Begin the Beguine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for\\\" Begin the Beguine\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Sesión continua\",\n      \"relation\": \"nominated_for\",\n      \"object\": \"Academy Award for Best Foreign Language Film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"have been nominated for the Academy Award for Best Foreign Language Film\"}\n      ]\n    },\n    {\n      \"subject\": \"Asignatura aprobada\",\n      \"relation\": \"nominated_for\",\n      \"object\": \"Academy Award for Best Foreign Language Film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"have been nominated for the Academy Award for Best Foreign Language Film\"}\n      ]\n    },\n    {\n      \"subject\": \"El abuelo\",\n      \"relation\": \"nominated_for\",\n      \"object\": \"Academy Award for Best Foreign Language Film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"have been nominated for the Academy Award for Best Foreign Language Film\"}\n      ]\n    },\n    {\n      \"subject\": \"José Luis Garci\",\n      \"relation\": \"created\",\n      \"object\": \"Sesión continua\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"including also\\\" Sesión continua\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"José Luis Garci\",\n      \"relation\": \"created\",\n      \"object\": \"Asignatura aprobada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\" Asignatura aprobada\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"José Luis Garci\",\n      \"relation\": \"created\",\n      \"object\": \"El abuelo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\" El abuelo\\\"\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,176 @@
+{
+  "entities": {
+    "Powder Coating": "PRODUCT",
+    "conventional liquid paint": "PRODUCT",
+    "solvent": "PRODUCT",
+    "binder": "PRODUCT",
+    "filler": "PRODUCT",
+    "thermoplastic polymer": "PRODUCT",
+    "thermoset polymer": "PRODUCT",
+    "metals": "PRODUCT",
+    "household appliances": "PRODUCT",
+    "aluminum extrusions": "PRODUCT",
+    "drum hardware": "PRODUCT",
+    "automobile parts": "PRODUCT",
+    "bicycle parts": "PRODUCT",
+    "MDF (medium-density fibreboard)": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Powder Coating",
+      "relation": "does_not_require",
+      "object": "solvent",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "does not require",
+          "line_start": 187,
+          "char_start": 202,
+          "ambiguous": false,
+          "relation_mention": "does not require",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Powder Coating",
+        "is_a_type_of",
+        "coating"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Powder Coating",
+        "applied_as",
+        "free-flowing, dry powder"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "solvent",
+        "keeps",
+        "binder"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "solvent",
+        "keeps",
+        "filler"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The coating",
+        "applied_electrostatically",
+        "The coating"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The coating",
+        "cured_under",
+        "heat"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The powder",
+        "may_be",
+        "thermoplastic polymer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The powder",
+        "may_be",
+        "thermoset polymer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Powder Coating",
+        "used_for_coating",
+        "metals"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "metals",
+        "such_as",
+        "household appliances"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "metals",
+        "such_as",
+        "aluminum extrusions"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "metals",
+        "such_as",
+        "drum hardware"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "metals",
+        "such_as",
+        "automobile parts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "metals",
+        "such_as",
+        "bicycle parts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Newer technologies",
+        "allow",
+        "other materials"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "other materials",
+        "such_as",
+        "MDF (medium-density fibreboard)"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "MDF (medium-density fibreboard)",
+        "to_be_powder_coated_using",
+        "different methods"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Powder coating\nPowder Coating is a type of coating that is applied as a free-flowing, dry powder. The main difference between a conventional liquid paint and a powder coating is that the powder coating does not require a solvent to keep the binder and filler parts in a liquid suspension form. The coating is typically applied electrostatically and is then cured under heat to allow it to flow and form a \"skin\". The powder may be a thermoplastic or a thermoset polymer. It is usually used to create a hard finish that is tougher than conventional paint. Powder coating is mainly used for coating of metals, such as household appliances, aluminum extrusions, drum hardware, and automobile and bicycle parts. Newer technologies allow other materials, such as MDF (medium-density fibreboard), to be powder coated using different methods.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Powder Coating\", \"type\": \"PRODUCT\"},\n    {\"name\": \"conventional liquid paint\", \"type\": \"PRODUCT\"},\n    {\"name\": \"solvent\", \"type\": \"PRODUCT\"},\n    {\"name\": \"binder\", \"type\": \"PRODUCT\"},\n    {\"name\": \"filler\", \"type\": \"PRODUCT\"},\n    {\"name\": \"thermoplastic polymer\", \"type\": \"PRODUCT\"},\n    {\"name\": \"thermoset polymer\", \"type\": \"PRODUCT\"},\n    {\"name\": \"metals\", \"type\": \"PRODUCT\"},\n    {\"name\": \"household appliances\", \"type\": \"PRODUCT\"},\n    {\"name\": \"aluminum extrusions\", \"type\": \"PRODUCT\"},\n    {\"name\": \"drum hardware\", \"type\": \"PRODUCT\"},\n    {\"name\": \"automobile parts\", \"type\": \"PRODUCT\"},\n    {\"name\": \"bicycle parts\", \"type\": \"PRODUCT\"},\n    {\"name\": \"MDF (medium-density fibreboard)\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Powder Coating\",\n      \"relation\": \"is_a_type_of\",\n      \"object\": \"coating\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a type of\"}\n      ]\n    },\n    {\n      \"subject\": \"Powder Coating\",\n      \"relation\": \"applied_as\",\n      \"object\": \"free-flowing, dry powder\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a type of coating that is applied as a free-flowing, dry powder\"}\n      ]\n    },\n    {\n      \"subject\": \"Powder Coating\",\n      \"relation\": \"does_not_require\",\n      \"object\": \"solvent\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"does not require\"}\n      ]\n    },\n    {\n      \"subject\": \"solvent\",\n      \"relation\": \"keeps\",\n      \"object\": \"binder\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to keep the binder\"}\n      ]\n    },\n    {\n      \"subject\": \"solvent\",\n      \"relation\": \"keeps\",\n      \"object\": \"filler\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to keep the binder and filler\"}\n      ]\n    },\n    {\n      \"subject\": \"The coating\",\n      \"relation\": \"applied_electrostatically\",\n      \"object\": \"The coating\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"applied electrostatically\"}\n      ]\n    },\n    {\n      \"subject\": \"The coating\",\n      \"relation\": \"cured_under\",\n      \"object\": \"heat\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is then cured under heat\"}\n      ]\n    },\n    {\n      \"subject\": \"The powder\",\n      \"relation\": \"may_be\",\n      \"object\": \"thermoplastic polymer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"may be a thermoplastic\"}\n      ]\n    },\n    {\n      \"subject\": \"The powder\",\n      \"relation\": \"may_be\",\n      \"object\": \"thermoset polymer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"may be a thermoplastic or a thermoset polymer\"}\n      ]\n    },\n    {\n      \"subject\": \"Powder Coating\",\n      \"relation\": \"used_for_coating\",\n      \"object\": \"metals\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"mainly used for coating of metals\"}\n      ]\n    },\n    {\n      \"subject\": \"metals\",\n      \"relation\": \"such_as\",\n      \"object\": \"household appliances\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"such as household appliances\"}\n      ]\n    },\n    {\n      \"subject\": \"metals\",\n      \"relation\": \"such_as\",\n      \"object\": \"aluminum extrusions\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"aluminum extrusions\"}\n      ]\n    },\n    {\n      \"subject\": \"metals\",\n      \"relation\": \"such_as\",\n      \"object\": \"drum hardware\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"drum hardware\"}\n      ]\n    },\n    {\n      \"subject\": \"metals\",\n      \"relation\": \"such_as\",\n      \"object\": \"automobile parts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"automobile and bicycle parts\"}\n      ]\n    },\n    {\n      \"subject\": \"metals\",\n      \"relation\": \"such_as\",\n      \"object\": \"bicycle parts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"automobile and bicycle parts\"}\n      ]\n    },\n    {\n      \"subject\": \"Newer technologies\",\n      \"relation\": \"allow\",\n      \"object\": \"other materials\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"allow other materials\"}\n      ]\n    },\n    {\n      \"subject\": \"other materials\",\n      \"relation\": \"such_as\",\n      \"object\": \"MDF (medium-density fibreboard)\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"such as MDF (medium-density fibreboard)\"}\n      ]\n    },\n    {\n      \"subject\": \"MDF (medium-density fibreboard)\",\n      \"relation\": \"to_be_powder_coated_using\",\n      \"object\": \"different methods\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to be powder coated using different methods\"}\n      ]\n    }\n  ]\n}"
+}

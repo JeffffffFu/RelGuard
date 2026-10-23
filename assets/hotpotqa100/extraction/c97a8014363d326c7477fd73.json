@@ -1,0 +1,143 @@
+{
+  "entities": {
+    "Triple Crown College Baseball League": "Organization",
+    "TCCBL": "Organization",
+    "Fort Collins": "Location",
+    "Colorado": "Location",
+    "Triple Crown Sports": "Organization",
+    "Dave King": "Person",
+    "NCAA Division I": "Organization",
+    "NAIA": "Organization",
+    "Junior-college players": "Group",
+    "Triple Crown Renegades": "Team",
+    "Colorado Khaos": "Team",
+    "Triple Crown Bandits": "Team",
+    "Triple Crown Bulldogs": "Team",
+    "Colorado Aliens": "Team"
+  },
+  "triples": [
+    {
+      "subject": "Triple Crown College Baseball League",
+      "relation": "is_based_in",
+      "object": "Fort Collins",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Fort Collins, Colorado"
+        }
+      ]
+    },
+    {
+      "subject": "Triple Crown Sports",
+      "relation": "is_based_in",
+      "object": "Fort Collins",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "also based out of Fort Collins, Colorado"
+        }
+      ]
+    },
+    {
+      "subject": "Dave King",
+      "relation": "was_instrumental_in",
+      "object": "TCCBL",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was instrumental in founding the league"
+        }
+      ]
+    },
+    {
+      "subject": "TCCBL",
+      "relation": "includes",
+      "object": "Triple Crown Renegades",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "the Triple Crown Renegades"
+        }
+      ]
+    },
+    {
+      "subject": "TCCBL",
+      "relation": "includes",
+      "object": "Colorado Khaos",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Colorado Khaos"
+        }
+      ]
+    },
+    {
+      "subject": "TCCBL",
+      "relation": "includes",
+      "object": "Triple Crown Bandits",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Triple Crown Bandits"
+        }
+      ]
+    },
+    {
+      "subject": "TCCBL",
+      "relation": "includes",
+      "object": "Triple Crown Bulldogs",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Triple Crown Bulldogs"
+        }
+      ]
+    },
+    {
+      "subject": "TCCBL",
+      "relation": "includes",
+      "object": "Colorado Aliens",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Colorado Aliens"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "TCCBL",
+        "was_founded_in",
+        "2007"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "TCCBL",
+        "was_founded_by",
+        "Triple Crown Sports"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "TCCBL",
+        "consists_of",
+        "players from all levels of collegiate baseball"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "TCCBL",
+        "will_consist_of",
+        "five teams"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Triple Crown College Baseball League\nThe Triple Crown College Baseball League (TCCBL) is a wood bat collegiate summer baseball league based in Fort Collins, Colorado. The TCCBL was founded in 2007 by Triple Crown Sports, a sports event marketing company also based out of Fort Collins, Colorado. Dave King, owner of Triple Crown Sports, was instrumental in founding the league. The league consists of players from all levels of collegiate baseball, from NCAA Division I to NAIA and Junior-college players. The 2009 edition of the league will consist of five teams, the Triple Crown Renegades, Colorado Khaos, Triple Crown Bandits, Triple Crown Bulldogs, and Colorado Aliens."
+}

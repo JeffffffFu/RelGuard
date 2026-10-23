@@ -1,0 +1,150 @@
+{
+  "entities": {
+    "Vincent Patar": "PERSON",
+    "Belgian": "NORP",
+    "A Town Called Panic": "WORK_OF_ART",
+    "Stéphane Aubier": "PERSON",
+    "Cannes Film Festival": "EVENT",
+    "Ernest & Celestine": "WORK_OF_ART",
+    "Benjamin Renner": "PERSON",
+    "Magritte Awards": "EVENT",
+    "Best Film": "WORK_OF_ART",
+    "Best Director": "WORK_OF_ART",
+    "86th Academy Awards": "EVENT",
+    "Best Animated Feature": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Vincent Patar",
+      "relation": "directed",
+      "object": "A Town Called Panic",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed the animated film",
+          "line_start": 104,
+          "char_start": 118,
+          "ambiguous": false,
+          "relation_mention": "directed the animated film",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Vincent Patar",
+      "relation": "wrote",
+      "object": "A Town Called Panic",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "wrote and directed",
+          "line_start": 94,
+          "char_start": 108,
+          "ambiguous": false,
+          "relation_mention": "wrote and directed",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vincent Patar",
+        "nationality",
+        "Belgian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vincent Patar",
+        "co_directed",
+        "Ernest & Celestine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vincent Patar",
+        "received",
+        "Magritte Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Magritte Awards",
+        "include_award",
+        "Best Film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Magritte Awards",
+        "include_award",
+        "Best Director"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ernest & Celestine",
+        "received_nomination",
+        "86th Academy Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "86th Academy Awards",
+        "has_category",
+        "Best Animated Feature"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vincent Patar",
+        "shared_award",
+        "Best Director"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Stéphane Aubier",
+        "co_directed",
+        "A Town Called Panic"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Stéphane Aubier",
+        "co_directed",
+        "Ernest & Celestine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Benjamin Renner",
+        "co_directed",
+        "Ernest & Celestine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A Town Called Panic",
+        "premiered_at",
+        "Cannes Film Festival"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Vincent Patar\nVincent Patar (born 2 September 1965) is a Belgian film director and screenwriter. In 2009 he wrote and directed the animated film \"A Town Called Panic\" along with Stéphane Aubier. It premiered at the 2009 Cannes Film Festival and was the first stop-motion film to be screened at the festival. In 2013 he co-directed with Aubier and Benjamin Renner the film \"Ernest & Celestine\", which received widespread critical acclaim. The film received three Magritte Awards, including Best Film and Best Director for Patar and Aubier. It also received a nomination at the 86th Academy Awards, in the category of Best Animated Feature, to be held on 2 March 2014.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Vincent Patar\", \"type\": \"PERSON\"},\n    {\"name\": \"Belgian\", \"type\": \"NORP\"},\n    {\"name\": \"A Town Called Panic\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Stéphane Aubier\", \"type\": \"PERSON\"},\n    {\"name\": \"Cannes Film Festival\", \"type\": \"EVENT\"},\n    {\"name\": \"Ernest & Celestine\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Benjamin Renner\", \"type\": \"PERSON\"},\n    {\"name\": \"Magritte Awards\", \"type\": \"EVENT\"},\n    {\"name\": \"Best Film\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Best Director\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"86th Academy Awards\", \"type\": \"EVENT\"},\n    {\"name\": \"Best Animated Feature\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Vincent Patar\",\n      \"relation\": \"nationality\",\n      \"object\": \"Belgian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Belgian\"}\n      ]\n    },\n    {\n      \"subject\": \"Vincent Patar\",\n      \"relation\": \"directed\",\n      \"object\": \"A Town Called Panic\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed the animated film\"}\n      ]\n    },\n    {\n      \"subject\": \"Vincent Patar\",\n      \"relation\": \"wrote\",\n      \"object\": \"A Town Called Panic\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"wrote and directed\"}\n      ]\n    },\n    {\n      \"subject\": \"Vincent Patar\",\n      \"relation\": \"co_directed\",\n      \"object\": \"Ernest & Celestine\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"co-directed with Aubier and Benjamin Renner the film\"}\n      ]\n    },\n    {\n      \"subject\": \"Vincent Patar\",\n      \"relation\": \"received\",\n      \"object\": \"Magritte Awards\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"received three Magritte Awards\"}\n      ]\n    },\n    {\n      \"subject\": \"Magritte Awards\",\n      \"relation\": \"include_award\",\n      \"object\": \"Best Film\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"including Best Film\"}\n      ]\n    },\n    {\n      \"subject\": \"Magritte Awards\",\n      \"relation\": \"include_award\",\n      \"object\": \"Best Director\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"and Best Director for Patar and Aubier\"}\n      ]\n    },\n    {\n      \"subject\": \"Ernest & Celestine\",\n      \"relation\": \"received_nomination\",\n      \"object\": \"86th Academy Awards\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"received a nomination at the 86th Academy Awards\"}\n      ]\n    },\n    {\n      \"subject\": \"86th Academy Awards\",\n      \"relation\": \"has_category\",\n      \"object\": \"Best Animated Feature\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"in the category of Best Animated Feature\"}\n      ]\n    },\n    {\n      \"subject\": \"Vincent Patar\",\n      \"relation\": \"shared_award\",\n      \"object\": \"Best Director\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"Best Director for Patar and Aubier\"}\n      ]\n    },\n    {\n      \"subject\": \"Stéphane Aubier\",\n      \"relation\": \"co_directed\",\n      \"object\": \"A Town Called Panic\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed the animated film \\\"A Town Called Panic\\\" along with Stéphane Aubier\"}\n      ]\n    },\n    {\n      \"subject\": \"Stéphane Aubier\",\n      \"relation\": \"co_directed\",\n      \"object\": \"Ernest & Celestine\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"co-directed with Aubier and Benjamin Renner the film\"}\n      ]\n    },\n    {\n      \"subject\": \"Benjamin Renner\",\n      \"relation\": \"co_directed\",\n      \"object\": \"Ernest & Celestine\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"co-directed with Aubier and Benjamin Renner the film\"}\n      ]\n    },\n    {\n      \"subject\": \"A Town Called Panic\",\n      \"relation\": \"premiered_at\",\n      \"object\": \"Cannes Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"It premiered at the 2009 Cannes Film Festival\"}\n      ]\n    }\n  ]\n}"
+}

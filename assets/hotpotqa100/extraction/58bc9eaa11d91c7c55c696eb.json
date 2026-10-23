@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "Bill Cosby": "PERSON",
+    "Bill Cosby Talks to Kids About Drugs": "WORK_OF_ART",
+    "Grammy Award": "EVENT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Bill Cosby Talks to Kids About Drugs",
+        "created_by",
+        "Bill Cosby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bill Cosby Talks to Kids About Drugs",
+        "won",
+        "Grammy Award"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Bill Cosby Talks to Kids About Drugs\nBill Cosby Talks to Kids About Drugs (1971) is an album by Bill Cosby. Unlike most of his recordings, this is not a full-fledged comedy album, but rather a record intended for children to school them on the dangers of drugs through songs and dialogue. It won the Grammy Award in 1972 for Best Recording for Children.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bill Cosby\", \"type\": \"PERSON\"},\n    {\"name\": \"Bill Cosby Talks to Kids About Drugs\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Grammy Award\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bill Cosby Talks to Kids About Drugs\",\n      \"relation\": \"created_by\",\n      \"object\": \"Bill Cosby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an album by\"}\n      ]\n    },\n    {\n      \"subject\": \"Bill Cosby Talks to Kids About Drugs\",\n      \"relation\": \"won\",\n      \"object\": \"Grammy Award\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the Grammy Award\"}\n      ]\n    }\n  ]\n}"
+}

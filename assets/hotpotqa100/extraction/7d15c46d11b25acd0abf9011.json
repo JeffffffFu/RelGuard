@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Greco Pizza Restaurant": "Organization",
+    "Eastern Canada": "Location",
+    "Atlantic Canada": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Greco Pizza Restaurant",
+      "relation": "located_in",
+      "object": "Eastern Canada",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "consisting of over 100 outlets in Eastern Canada."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Greco Pizza Restaurant",
+        "bills_itself_as",
+        "largest pizza chain in Atlantic Canada"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Greco Pizza Restaurant\nGreco Pizza Restaurant is a franchise restaurant chain consisting of over 100 outlets in Eastern Canada. The restaurants also deliver pizza. Greco bills itself as the largest pizza chain in Atlantic Canada."
+}

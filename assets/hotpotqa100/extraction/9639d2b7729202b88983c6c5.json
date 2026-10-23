@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Reef Hawaiian Pro": "event",
+    "North Shore": "location",
+    "Oahu": "location",
+    "Hawaii": "location",
+    "Triple Crown of Surfing": "event",
+    "ASP World Tour": "event"
+  },
+  "triples": [
+    {
+      "subject": "Reef Hawaiian Pro",
+      "relation": "held_annually_on",
+      "object": "North Shore",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "held annually on the North Shore"
+        }
+      ]
+    },
+    {
+      "subject": "Reef Hawaiian Pro",
+      "relation": "is_first_leg_of",
+      "object": "Triple Crown of Surfing",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the first leg of the Triple Crown of Surfing"
+        }
+      ]
+    },
+    {
+      "subject": "Reef Hawaiian Pro",
+      "relation": "is_critical_for",
+      "object": "ASP World Tour",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "is critical for those who want to qualify for the ASP World Tour"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Reef Hawaiian Pro",
+        "held_annually_on",
+        "Oahu"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Reef Hawaiian Pro",
+        "held_annually_on",
+        "Hawaii"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Reef Hawaiian Pro",
+        "competes_for_prize_money",
+        "$135,000 (men)"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Reef Hawaiian Pro",
+        "competes_for_prize_money",
+        "$35,000 (women)"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Reef Hawaiian Pro",
+        "carries_rating",
+        "6-star"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Reef Hawaiian Pro\nThe Reef Hawaiian Pro is a surfing event held annually on the North Shore, Oahu, Hawaii. It is currently the first leg of the Triple Crown of Surfing. Surfers compete for a share of $135,000 (men) or $35,000 (women) prize money. Since it carries a 6-star rating, the event is critical for those who want to qualify for the ASP World Tour."
+}

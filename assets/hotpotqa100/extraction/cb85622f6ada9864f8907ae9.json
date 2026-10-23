@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Daviesia": "genus",
+    "Bitter-peas": "common_name",
+    "Hugh Davies": "person",
+    "Australia": "location",
+    "western Australia": "location"
+  },
+  "triples": [
+    {
+      "subject": "Daviesia",
+      "relation": "known_as",
+      "object": "Bitter-peas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "commonly known as Bitter-peas"
+        }
+      ]
+    },
+    {
+      "subject": "Daviesia",
+      "relation": "named_in_honour_of",
+      "object": "Hugh Davies",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "is named in honour of Hugh Davies"
+        }
+      ]
+    },
+    {
+      "subject": "Daviesia",
+      "relation": "native_to",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "They are native to Australia"
+        }
+      ]
+    },
+    {
+      "subject": "Daviesia",
+      "relation": "center_of_diversity_in",
+      "object": "western Australia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "with a center of diversity in western Australia"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Daviesia",
+        "is_a",
+        "genus"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Daviesia\nDaviesia, commonly known as Bitter-peas, is a large genus of flowering plants in the legume family. They are native to Australia, with a center of diversity in western Australia. The genus is named in honour of Hugh Davies, a Welsh botanist. They have nitrogen-fixing bacteria contained in root nodules like other genera in their family."
+}

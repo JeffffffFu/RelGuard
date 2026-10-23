@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Eric Dupont": "PERSON",
+    "Incognito films": "ORG",
+    "Ave Maria": "WORK_OF_ART",
+    "Academy Award for Best Live Action Short Film": "EVENT",
+    "88th Academy Awards": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Eric Dupont",
+      "relation": "produced",
+      "object": "Ave Maria",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "producing",
+          "line_start": 69,
+          "char_start": 92,
+          "ambiguous": false,
+          "relation_mention": "producing",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "France (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Eric Dupont",
+        "located_in",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eric Dupont",
+        "works_for",
+        "Incognito films"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ave Maria",
+        "earned",
+        "Academy Award for Best Live Action Short Film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Academy Award for Best Live Action Short Film",
+        "nominated_at",
+        "88th Academy Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Eric Dupont (producer)\nEric Dupont is a French producer for Incognito films, best known for producing short- film\" Ave Maria\" that earned him Academy Award for Best Live Action Short Film nomination at the 88th Academy Awards.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Eric Dupont\", \"type\": \"PERSON\"},\n    {\"name\": \"France\", \"type\": \"GPE\"},\n    {\"name\": \"Incognito films\", \"type\": \"ORG\"},\n    {\"name\": \"Ave Maria\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Academy Award for Best Live Action Short Film\", \"type\": \"EVENT\"},\n    {\"name\": \"88th Academy Awards\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Eric Dupont\",\n      \"relation\": \"located_in\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a French\"}\n      ]\n    },\n    {\n      \"subject\": \"Eric Dupont\",\n      \"relation\": \"works_for\",\n      \"object\": \"Incognito films\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"producer for\"}\n      ]\n    },\n    {\n      \"subject\": \"Eric Dupont\",\n      \"relation\": \"produced\",\n      \"object\": \"Ave Maria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"producing\"}\n      ]\n    },\n    {\n      \"subject\": \"Ave Maria\",\n      \"relation\": \"earned\",\n      \"object\": \"Academy Award for Best Live Action Short Film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"earned him Academy Award for Best Live Action Short Film nomination\"}\n      ]\n    },\n    {\n      \"subject\": \"Academy Award for Best Live Action Short Film\",\n      \"relation\": \"nominated_at\",\n      \"object\": \"88th Academy Awards\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the 88th Academy Awards\"}\n      ]\n    }\n  ]\n}"
+}

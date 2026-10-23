@@ -1,0 +1,134 @@
+{
+  "entities": {
+    "Millennium Biltmore Hotel": "FAC",
+    "Los Angeles Biltmore Hotel": "FAC",
+    "Biltmore Hotels": "ORG",
+    "Pershing Square": "LOC",
+    "Downtown Los Angeles": "LOC",
+    "California": "GPE",
+    "US": "GPE",
+    "Los Angeles": "GPE",
+    "Chicago": "GPE",
+    "Illinois": "GPE",
+    "Regal Hotels": "ORG",
+    "Millennium & Copthorne Hotels": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Los Angeles Biltmore Hotel",
+      "relation": "originally_named",
+      "object": "Millennium Biltmore Hotel",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "originally named",
+          "line_start": 31,
+          "char_start": 57,
+          "ambiguous": false,
+          "relation_mention": "originally named",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Los Angeles Biltmore Hotel",
+        "of_group",
+        "Biltmore Hotels"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Millennium Biltmore Hotel",
+        "located_in",
+        "Downtown Los Angeles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Millennium Biltmore Hotel",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Millennium Biltmore Hotel",
+        "located_in",
+        "US"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Los Angeles Biltmore Hotel",
+        "located_in",
+        "Los Angeles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Los Angeles Biltmore Hotel",
+        "was_largest_west_of",
+        "Chicago"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Chicago",
+        "located_in",
+        "Illinois"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Los Angeles Biltmore Hotel",
+        "designated_by",
+        "Los Angeles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Regal Hotels",
+        "purchased",
+        "Biltmore Hotels"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Regal Hotels",
+        "purchased",
+        "Millennium Biltmore Hotel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Regal Hotels",
+        "sold_to",
+        "Millennium & Copthorne Hotels"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Millennium Biltmore Hotel",
+        "operated_as_part_of",
+        "Millennium & Copthorne Hotels"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Millennium Biltmore Hotel\nThe Millennium Biltmore Hotel, originally named the Los Angeles Biltmore Hotel of the Biltmore Hotels group, is a luxury hotel located across the street from Pershing Square in Downtown Los Angeles, California, US. Upon its grand opening in 1923, the Los Angeles Biltmore was the largest hotel west of Chicago, Illinois in the United States. In 1969 the Biltmore Hotel was designated a Los Angeles Historic-Cultural Monument by the City of Los Angeles. Regal Hotels purchased the Biltmore in 1996, and then sold it in 1999 to Millennium & Copthorne Hotels. As of 2009, the Los Angeles Biltmore is operated as part of the Millennium & Copthorne Hotels chain as the Millennium Biltmore Hotel. The hotel has 70000 sqft of meeting and banquet space. From its original 1500 guestrooms it now has 683, due to room reorganization.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Millennium Biltmore Hotel\", \"type\": \"FAC\"},\n    {\"name\": \"Los Angeles Biltmore Hotel\", \"type\": \"FAC\"},\n    {\"name\": \"Biltmore Hotels\", \"type\": \"ORG\"},\n    {\"name\": \"Pershing Square\", \"type\": \"LOC\"},\n    {\"name\": \"Downtown Los Angeles\", \"type\": \"LOC\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"US\", \"type\": \"GPE\"},\n    {\"name\": \"Los Angeles\", \"type\": \"GPE\"},\n    {\"name\": \"Chicago\", \"type\": \"GPE\"},\n    {\"name\": \"Illinois\", \"type\": \"GPE\"},\n    {\"name\": \"Regal Hotels\", \"type\": \"ORG\"},\n    {\"name\": \"Millennium & Copthorne Hotels\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Los Angeles Biltmore Hotel\",\n      \"relation\": \"originally_named\",\n      \"object\": \"Millennium Biltmore Hotel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"originally named\"}\n      ]\n    },\n    {\n      \"subject\": \"Los Angeles Biltmore Hotel\",\n      \"relation\": \"of_group\",\n      \"object\": \"Biltmore Hotels\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the Biltmore Hotels group\"}\n      ]\n    },\n    {\n      \"subject\": \"Millennium Biltmore Hotel\",\n      \"relation\": \"located_in\",\n      \"object\": \"Downtown Los Angeles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located across the street from Pershing Square in Downtown Los Angeles\"}\n      ]\n    },\n    {\n      \"subject\": \"Millennium Biltmore Hotel\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located across the street from Pershing Square in Downtown Los Angeles, California\"}\n      ]\n    },\n    {\n      \"subject\": \"Millennium Biltmore Hotel\",\n      \"relation\": \"located_in\",\n      \"object\": \"US\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located across the street from Pershing Square in Downtown Los Angeles, California, US\"}\n      ]\n    },\n    {\n      \"subject\": \"Los Angeles Biltmore Hotel\",\n      \"relation\": \"located_in\",\n      \"object\": \"Los Angeles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Downtown Los Angeles\"}\n      ]\n    },\n    {\n      \"subject\": \"Los Angeles Biltmore Hotel\",\n      \"relation\": \"was_largest_west_of\",\n      \"object\": \"Chicago\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"largest hotel west of Chicago, Illinois\"}\n      ]\n    },\n    {\n      \"subject\": \"Chicago\",\n      \"relation\": \"located_in\",\n      \"object\": \"Illinois\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Chicago, Illinois\"}\n      ]\n    },\n    {\n      \"subject\": \"Los Angeles Biltmore Hotel\",\n      \"relation\": \"designated_by\",\n      \"object\": \"Los Angeles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designated a Los Angeles Historic-Cultural Monument by the City of Los Angeles\"}\n      ]\n    },\n    {\n      \"subject\": \"Regal Hotels\",\n      \"relation\": \"purchased\",\n      \"object\": \"Biltmore Hotels\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"purchased the Biltmore\"}\n      ]\n    },\n    {\n      \"subject\": \"Regal Hotels\",\n      \"relation\": \"purchased\",\n      \"object\": \"Millennium Biltmore Hotel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"purchased the Biltmore\"}\n      ]\n    },\n    {\n      \"subject\": \"Regal Hotels\",\n      \"relation\": \"sold_to\",\n      \"object\": \"Millennium & Copthorne Hotels\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"sold it in 1999 to Millennium & Copthorne Hotels\"}\n      ]\n    },\n    {\n      \"subject\": \"Millennium Biltmore Hotel\",\n      \"relation\": \"operated_as_part_of\",\n      \"object\": \"Millennium & Copthorne Hotels\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"operated as part of the Millennium & Copthorne Hotels chain\"}\n      ]\n    }\n  ]\n}"
+}

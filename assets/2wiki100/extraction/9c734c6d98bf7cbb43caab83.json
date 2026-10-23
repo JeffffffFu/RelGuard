@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Tracy Rides": "Film",
+    "Harry S. Webb": "Person",
+    "Tom Tyler": "Person",
+    "Virginia Brown Faire": "Person",
+    "Edmund Cobb": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Tracy Rides",
+      "relation": "directed_by",
+      "object": "Harry S. Webb",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Harry S. Webb"
+        }
+      ]
+    },
+    {
+      "subject": "Tracy Rides",
+      "relation": "starring",
+      "object": "Tom Tyler",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Tom Tyler"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tracy Rides",
+        "starring",
+        "Virginia Brown Faire"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tracy Rides",
+        "starring",
+        "Edmund Cobb"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Tracy Rides\nTracy Rides is a 1935 American western film directed by Harry S. Webb and starring Tom Tyler, Virginia Brown Faire and Edmund Cobb."
+}

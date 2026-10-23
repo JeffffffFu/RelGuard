@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Anvil firing": "EVENT",
+    "USA": "GPE",
+    "UK": "GPE",
+    "anvil launching": "EVENT",
+    "anvil shooting": "EVENT",
+    "Anvil": "PRODUCT",
+    "black powder": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Anvil firing",
+      "relation": "uses",
+      "object": "Anvil",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "firing an anvil",
+          "line_start": 114,
+          "char_start": 127,
+          "ambiguous": false,
+          "relation_mention": "firing an anvil",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Anvil firing",
+        "also_known_as",
+        "anvil launching"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anvil firing",
+        "also_known_as",
+        "anvil shooting"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anvil firing",
+        "located_in",
+        "USA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anvil firing",
+        "located_in",
+        "UK"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anvil firing",
+        "uses",
+        "black powder"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Anvil firing\nAnvil firing (also known in the USA as an \"anvil launching\" or an \"anvil shooting\") in the USA is the practice of firing an anvil into the air with gunpowder. In the UK this is where black powder is filled onto the top of the Anvil and ignited. If the Anvil did not shatter it was deemed safe to use.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Anvil firing\", \"type\": \"EVENT\"},\n    {\"name\": \"USA\", \"type\": \"GPE\"},\n    {\"name\": \"UK\", \"type\": \"GPE\"},\n    {\"name\": \"anvil launching\", \"type\": \"EVENT\"},\n    {\"name\": \"anvil shooting\", \"type\": \"EVENT\"},\n    {\"name\": \"Anvil\", \"type\": \"PRODUCT\"},\n    {\"name\": \"black powder\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Anvil firing\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"anvil launching\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known in the USA as an \\\"anvil launching\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Anvil firing\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"anvil shooting\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known in the USA as an \\\"anvil launching\\\" or an \\\"anvil shooting\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Anvil firing\",\n      \"relation\": \"located_in\",\n      \"object\": \"USA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the USA\"}\n      ]\n    },\n    {\n      \"subject\": \"Anvil firing\",\n      \"relation\": \"located_in\",\n      \"object\": \"UK\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"In the UK\"}\n      ]\n    },\n    {\n      \"subject\": \"Anvil firing\",\n      \"relation\": \"uses\",\n      \"object\": \"Anvil\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"firing an anvil\"}\n      ]\n    },\n    {\n      \"subject\": \"Anvil firing\",\n      \"relation\": \"uses\",\n      \"object\": \"black powder\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"black powder is filled onto the top of the Anvil\"}\n      ]\n    }\n  ]\n}"
+}

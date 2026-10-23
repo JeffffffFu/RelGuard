@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Capellini": "PRODUCT",
+    "Italian": "NORP",
+    "spaghetti": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Capellini",
+      "relation": "originated_in",
+      "object": "Italian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Italian",
+          "line_start": 67,
+          "char_start": 77,
+          "ambiguous": false,
+          "relation_mention": "Italian",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Capellini",
+      "relation": "is_similar_to",
+      "object": "spaghetti",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Like spaghetti",
+          "line_start": 117,
+          "char_start": 127,
+          "ambiguous": false,
+          "relation_mention": "Like spaghetti",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Capellini",
+        "is_a",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Capellini\nCapellini (] , literally \"little hairs\") is a very thin variety of Italian pasta, with a diameter between 0.85 and . Like spaghetti, it is rod-shaped, in the form of long strands."
+}

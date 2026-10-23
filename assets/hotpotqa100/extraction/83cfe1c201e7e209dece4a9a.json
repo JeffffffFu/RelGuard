@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "Stéphane Aubier": "PERSON",
+    "A Town Called Panic": "WORK_OF_ART",
+    "Vincent Patar": "PERSON",
+    "Cannes Film Festival": "EVENT",
+    "Ernest & Celestine": "WORK_OF_ART",
+    "Benjamin Renner": "PERSON",
+    "Magritte Awards": "EVENT",
+    "86th Academy Awards": "EVENT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Belgium (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Stéphane Aubier",
+        "born_in_country",
+        "Belgium"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Stéphane Aubier",
+        "directed",
+        "A Town Called Panic"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Stéphane Aubier",
+        "wrote",
+        "A Town Called Panic"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Stéphane Aubier",
+        "worked_with",
+        "Vincent Patar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A Town Called Panic",
+        "premiered_at",
+        "Cannes Film Festival"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ernest & Celestine",
+        "co-directed_by",
+        "Stéphane Aubier"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ernest & Celestine",
+        "co-directed_by",
+        "Vincent Patar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ernest & Celestine",
+        "co-directed_by",
+        "Benjamin Renner"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ernest & Celestine",
+        "received_award",
+        "Magritte Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Stéphane Aubier",
+        "received_award",
+        "Magritte Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vincent Patar",
+        "received_award",
+        "Magritte Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ernest & Celestine",
+        "nominated_for",
+        "86th Academy Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Stéphane Aubier\nStéphane Aubier (born October 8, 1964) is a Belgian film director and screenwriter. In 2009, he wrote and directed the animated film \"A Town Called Panic\" along with Vincent Patar. It premiered at the 2009 Cannes Film Festival and was the first stop-motion film to be screened at the festival. In 2013, he co-directed with Patar and Benjamin Renner the film \"Ernest & Celestine\", which received widespread critical acclaim. The film received three Magritte Awards, including Best Film and Best Director for Aubier and Patar. It also received a nomination at the 86th Academy Awards, in the category of Best Animated Feature.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Stéphane Aubier\", \"type\": \"PERSON\"},\n    {\"name\": \"Belgium\", \"type\": \"GPE\"},\n    {\"name\": \"A Town Called Panic\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Vincent Patar\", \"type\": \"PERSON\"},\n    {\"name\": \"Cannes Film Festival\", \"type\": \"EVENT\"},\n    {\"name\": \"Ernest & Celestine\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Benjamin Renner\", \"type\": \"PERSON\"},\n    {\"name\": \"Magritte Awards\", \"type\": \"EVENT\"},\n    {\"name\": \"86th Academy Awards\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Stéphane Aubier\",\n      \"relation\": \"born_in_country\",\n      \"object\": \"Belgium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Belgian\"}\n      ]\n    },\n    {\n      \"subject\": \"Stéphane Aubier\",\n      \"relation\": \"directed\",\n      \"object\": \"A Town Called Panic\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed the animated film \\\"A Town Called Panic\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Stéphane Aubier\",\n      \"relation\": \"wrote\",\n      \"object\": \"A Town Called Panic\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"wrote and directed the animated film \\\"A Town Called Panic\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Stéphane Aubier\",\n      \"relation\": \"worked_with\",\n      \"object\": \"Vincent Patar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"along with Vincent Patar\"}\n      ]\n    },\n    {\n      \"subject\": \"A Town Called Panic\",\n      \"relation\": \"premiered_at\",\n      \"object\": \"Cannes Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"It premiered at the 2009 Cannes Film Festival\"}\n      ]\n    },\n    {\n      \"subject\": \"Ernest & Celestine\",\n      \"relation\": \"co-directed_by\",\n      \"object\": \"Stéphane Aubier\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"he co-directed with Patar and Benjamin Renner the film \\\"Ernest & Celestine\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Ernest & Celestine\",\n      \"relation\": \"co-directed_by\",\n      \"object\": \"Vincent Patar\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"he co-directed with Patar and Benjamin Renner the film \\\"Ernest & Celestine\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Ernest & Celestine\",\n      \"relation\": \"co-directed_by\",\n      \"object\": \"Benjamin Renner\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"he co-directed with Patar and Benjamin Renner the film \\\"Ernest & Celestine\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Ernest & Celestine\",\n      \"relation\": \"received_award\",\n      \"object\": \"Magritte Awards\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"The film received three Magritte Awards\"}\n      ]\n    },\n    {\n      \"subject\": \"Stéphane Aubier\",\n      \"relation\": \"received_award\",\n      \"object\": \"Magritte Awards\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"including Best Film and Best Director for Aubier and Patar\"}\n      ]\n    },\n    {\n      \"subject\": \"Vincent Patar\",\n      \"relation\": \"received_award\",\n      \"object\": \"Magritte Awards\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"including Best Film and Best Director for Aubier and Patar\"}\n      ]\n    },\n    {\n      \"subject\": \"Ernest & Celestine\",\n      \"relation\": \"nominated_for\",\n      \"object\": \"86th Academy Awards\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"It also received a nomination at the 86th Academy Awards\"}\n      ]\n    }\n  ]\n}"
+}

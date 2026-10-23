@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Anne Denman": "Person",
+    "Olde Hall": "Location",
+    "Retford": "Location",
+    "Nottinghamshire": "Location",
+    "Thomas Aylesbury": "Person",
+    "Lady Anne Hyde": "Person",
+    "Duchess of York": "Title",
+    "Queen Mary II": "Person",
+    "Queen Anne": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Anne Denman",
+      "relation": "born_in",
+      "object": "Olde Hall",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was born in Olde Hall"
+        }
+      ]
+    },
+    {
+      "subject": "Anne Denman",
+      "relation": "married_to",
+      "object": "Thomas Aylesbury",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Through a fortunate second marriage with Thomas Aylesbury"
+        }
+      ]
+    },
+    {
+      "subject": "Anne Denman",
+      "relation": "grandmother_of",
+      "object": "Lady Anne Hyde",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "she became the grandmother of Lady Anne Hyde"
+        }
+      ]
+    },
+    {
+      "subject": "Lady Anne Hyde",
+      "relation": "has_title",
+      "object": "Duchess of York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Lady Anne Hyde, Duchess of York"
+        }
+      ]
+    },
+    {
+      "subject": "Anne Denman",
+      "relation": "great_grandmother_of",
+      "object": "Queen Mary II",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "great- grandmother of Queen Mary II"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Anne Denman",
+        "born_in",
+        "Retford"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Anne Denman",
+        "born_in",
+        "Nottinghamshire"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Anne Denman",
+        "great_grandmother_of",
+        "Queen Anne"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Anne Denman\nAnne Denman( 1587–1661) was born in Olde Hall, Retford, Nottinghamshire. Through a fortunate second marriage with Thomas Aylesbury, she became the grandmother of Lady Anne Hyde, Duchess of York and great- grandmother of Queen Mary II and Queen Anne."
+}

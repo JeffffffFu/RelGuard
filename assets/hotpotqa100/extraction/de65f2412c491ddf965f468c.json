@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Manon Lescaut": "novel",
+    "Herbert Hall Winslow": "director",
+    "Lina Cavalieri": "actor",
+    "Lucien Muratore": "actor",
+    "Dorothy Arthur": "actor",
+    "Abbé Prévost": "author"
+  },
+  "triples": [
+    {
+      "subject": "Manon Lescaut",
+      "relation": "directed_by",
+      "object": "Herbert Hall Winslow",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Herbert Hall Winslow"
+        }
+      ]
+    },
+    {
+      "subject": "Manon Lescaut",
+      "relation": "starring",
+      "object": "Lina Cavalieri",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Lina Cavalieri"
+        }
+      ]
+    },
+    {
+      "subject": "Manon Lescaut",
+      "relation": "adaptation_of",
+      "object": "Manon Lescaut",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "adaptation of the Abbé Prévost's novel \"Manon Lescaut\""
+        }
+      ]
+    },
+    {
+      "subject": "Abbé Prévost",
+      "relation": "wrote",
+      "object": "Manon Lescaut",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Abbé Prévost's novel \"Manon Lescaut\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Manon Lescaut",
+        "starring",
+        "Lucien Muratore"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Manon Lescaut",
+        "starring",
+        "Dorothy Arthur"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Manon Lescaut (1914 film)\nManon Lescaut is a 1914 American silent drama film directed by Herbert Hall Winslow and starring Lina Cavalieri, Lucien Muratore and Dorothy Arthur. It is an adaptation of the Abbé Prévost's novel \"Manon Lescaut\" (1731). It is now considered a lost film."
+}

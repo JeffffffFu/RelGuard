@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Alex Cox": "Person",
+    "Repo Man": "Film",
+    "Sid and Nancy": "Film",
+    "Walker": "Film",
+    "Fear and Loathing in Las Vegas": "Film",
+    "Terry Gilliam": "Person",
+    "University of Colorado, Boulder": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Fear and Loathing in Las Vegas",
+      "relation": "rewritten_by",
+      "object": "Terry Gilliam",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "before it was completely rewritten by Gilliam"
+        }
+      ]
+    },
+    {
+      "subject": "Alex Cox",
+      "relation": "taught",
+      "object": "University of Colorado, Boulder",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Cox has taught screenwriting and film production at the University of Colorado, Boulder"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Alex Cox",
+        "born_on",
+        "15 December 1954"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alex Cox",
+        "directed",
+        "Repo Man"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alex Cox",
+        "directed",
+        "Sid and Nancy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alex Cox",
+        "directed",
+        "Walker"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alex Cox",
+        "co_wrote",
+        "Fear and Loathing in Las Vegas"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Alex Cox\nAlexander B. H. Cox( born 15 December 1954) is an English film director, screenwriter, nonfiction author, broadcaster and sometime actor. Cox experienced success early in his career with\" Repo Man\" and\" Sid and Nancy\", but since the release and commercial failure of\" Walker\", he has directed his career towards independent films. Cox received a co-writer credit for the screenplay of Terry Gilliam's\" Fear and Loathing in Las Vegas\"( 1998) for previous work on the script before it was completely rewritten by Gilliam. As of 2012, Cox has taught screenwriting and film production at the University of Colorado, Boulder."
+}

@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "His Chance in Life": "work",
+    "Rudyard Kipling": "person",
+    "Plain Tales from the Hills": "work",
+    "Kipling Society": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Rudyard Kipling",
+      "relation": "published",
+      "object": "His Chance in Life",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "\"His Chance in Life\" is a short story by Rudyard Kipling."
+        }
+      ]
+    },
+    {
+      "subject": "His Chance in Life",
+      "relation": "published_in",
+      "object": "Plain Tales from the Hills",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was first published in the first Indian edition of \"Plain Tales from the Hills\" (1888), and in subsequent editions of that collection."
+        }
+      ]
+    },
+    {
+      "subject": "Kipling Society",
+      "relation": "provides_notes_on",
+      "object": "His Chance in Life",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "(For some detail, see the Kipling Society notes.)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "His Chance in Life",
+        "is_a",
+        "work"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rudyard Kipling",
+        "has_attitude_towards",
+        "race"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rudyard Kipling",
+        "is_interesting_on",
+        "people of mixed race"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "His Chance in Life\n\"His Chance in Life\" is a short story by Rudyard Kipling. It was first published in the first Indian edition of \"Plain Tales from the Hills\" (1888), and in subsequent editions of that collection. The story is illuminating about Kipling's attitudes to race, which are less cut-and-dried than is often thought. Kipling is interesting, if not very detailed, on people of mixed race and the snobberies involved. (For some detail, see the Kipling Society notes.)"
+}

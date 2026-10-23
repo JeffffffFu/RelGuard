@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Hakuna Matata": "WORK_OF_ART",
+    "Disney": "ORG",
+    "The Lion King": "WORK_OF_ART",
+    "Timon": "PERSON",
+    "Pumbaa": "PERSON",
+    "Swahili": "LANGUAGE"
+  },
+  "triples": [
+    {
+      "subject": "Hakuna Matata",
+      "relation": "based_on",
+      "object": "Timon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is based on Timon and Pumbaa's catchphrase"
+        }
+      ]
+    },
+    {
+      "subject": "Hakuna Matata",
+      "relation": "from",
+      "object": "Disney",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a song from Disney's 32nd animated feature"
+        }
+      ]
+    },
+    {
+      "subject": "Timon",
+      "relation": "has_catchphrase",
+      "object": "Hakuna Matata",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on Timon and Pumbaa's catchphrase"
+        }
+      ]
+    },
+    {
+      "subject": "Pumbaa",
+      "relation": "has_catchphrase",
+      "object": "Hakuna Matata",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on Timon and Pumbaa's catchphrase"
+        }
+      ]
+    },
+    {
+      "subject": "Timon",
+      "relation": "speaks",
+      "object": "Swahili",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which is a Swahili phrase"
+        }
+      ]
+    },
+    {
+      "subject": "Pumbaa",
+      "relation": "speaks",
+      "object": "Swahili",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which is a Swahili phrase"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hakuna Matata",
+        "featured_in",
+        "The Lion King"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hakuna Matata",
+        "means",
+        "no worries"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Hakuna Matata (song)\n\"Hakuna Matata\" is a song from Disney's 32nd animated feature \"The Lion King\". The song is based on Timon and Pumbaa's catchphrase in the movie, \"Hakuna matata\", which is a Swahili phrase; it means 'no worries'. It is characterized by its simple 4/4 time, upbeat message and catchy lyrics."
+}

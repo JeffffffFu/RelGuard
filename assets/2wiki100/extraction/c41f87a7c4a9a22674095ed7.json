@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Kenneth A. Clarke": "Person",
+    "Blockland Cleveland": "Project",
+    "JumpStart, Inc.": "Organization",
+    "Pritzker Military Museum and Library": "Organization",
+    "Chicago": "Location",
+    "KC Clarke": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Kenneth A. Clarke",
+      "relation": "works_for",
+      "object": "Blockland Cleveland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "serves as the Project Manager for Blockland Cleveland"
+        }
+      ]
+    },
+    {
+      "subject": "Blockland Cleveland",
+      "relation": "initiative_of",
+      "object": "JumpStart, Inc.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a development initiative of JumpStart, Inc."
+        }
+      ]
+    },
+    {
+      "subject": "Kenneth A. Clarke",
+      "relation": "works_for",
+      "object": "Pritzker Military Museum and Library",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "President and CEO of Pritzker Military Museum and Library"
+        }
+      ]
+    },
+    {
+      "subject": "Pritzker Military Museum and Library",
+      "relation": "located_in",
+      "object": "Chicago",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Pritzker Military Museum and Library in Chicago"
+        }
+      ]
+    },
+    {
+      "subject": "Kenneth A. Clarke",
+      "relation": "published_as",
+      "object": "KC Clarke",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "He has also published and produced works as KC Clarke."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kenneth A. Clarke",
+        "serves_as",
+        "Project Manager"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kenneth A. Clarke",
+        "previously_served_as",
+        "President and CEO"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kenneth A. Clarke\nKenneth A. Clarke( or Ken Clarke) serves as the Project Manager for Blockland Cleveland, a development initiative of JumpStart, Inc. He had previously served as the President and CEO of Pritzker Military Museum and Library in Chicago. He has also published and produced works as KC Clarke."
+}

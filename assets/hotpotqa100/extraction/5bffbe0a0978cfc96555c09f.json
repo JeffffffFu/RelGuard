@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Civilian Public Service": "ORG",
+    "United States": "GPE",
+    "World War II": "EVENT",
+    "Puerto Rico": "GPE",
+    "U.S. Forest Service": "ORG",
+    "Soil Conservation Service": "ORG",
+    "National Park Service": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Civilian Public Service",
+        "was_program_of",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Civilian Public Service",
+        "provided_alternative_to",
+        "World War II"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Civilian Public Service",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Civilian Public Service",
+        "located_in",
+        "Puerto Rico"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Draftees",
+        "worked_under_supervision_of",
+        "U.S. Forest Service"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Draftees",
+        "worked_under_supervision_of",
+        "Soil Conservation Service"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Draftees",
+        "worked_under_supervision_of",
+        "National Park Service"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Civilian Public Service\nThe Civilian Public Service (CPS) was a program of the United States government that provided conscientious objectors with an alternative to military service during World War II. From 1941 to 1947, nearly 12,000 draftees, willing to serve their country in some capacity but unwilling to perform any type of military service, accepted assignments in \"work of national importance\" in 152 CPS camps throughout the United States and Puerto Rico. Draftees from the historic peace churches and other faiths worked in areas such as soil conservation, forestry, fire fighting, agriculture, under the supervision of such agencies as the U.S. Forest Service, the Soil Conservation Service, and the National Park Service. Others helped provide social services and mental health services.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Civilian Public Service\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"World War II\", \"type\": \"EVENT\"},\n    {\"name\": \"Puerto Rico\", \"type\": \"GPE\"},\n    {\"name\": \"U.S. Forest Service\", \"type\": \"ORG\"},\n    {\"name\": \"Soil Conservation Service\", \"type\": \"ORG\"},\n    {\"name\": \"National Park Service\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Civilian Public Service\",\n      \"relation\": \"was_program_of\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a program of the United States government\"}\n      ]\n    },\n    {\n      \"subject\": \"Civilian Public Service\",\n      \"relation\": \"provided_alternative_to\",\n      \"object\": \"World War II\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"provided conscientious objectors with an alternative to military service during World War II\"}\n      ]\n    },\n    {\n      \"subject\": \"Civilian Public Service\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"throughout the United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Civilian Public Service\",\n      \"relation\": \"located_in\",\n      \"object\": \"Puerto Rico\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Puerto Rico\"}\n      ]\n    },\n    {\n      \"subject\": \"Draftees\",\n      \"relation\": \"worked_under_supervision_of\",\n      \"object\": \"U.S. Forest Service\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"under the supervision of such agencies as the U.S. Forest Service\"}\n      ]\n    },\n    {\n      \"subject\": \"Draftees\",\n      \"relation\": \"worked_under_supervision_of\",\n      \"object\": \"Soil Conservation Service\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"the Soil Conservation Service\"}\n      ]\n    },\n    {\n      \"subject\": \"Draftees\",\n      \"relation\": \"worked_under_supervision_of\",\n      \"object\": \"National Park Service\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"and the National Park Service\"}\n      ]\n    }\n  ]\n}"
+}

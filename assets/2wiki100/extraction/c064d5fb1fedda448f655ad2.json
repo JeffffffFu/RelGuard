@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "J. Charles Haydon": "Person",
+    "Frederick, Maryland": "Location",
+    "Baltimore, Maryland": "Location"
+  },
+  "triples": [
+    {
+      "subject": "J. Charles Haydon",
+      "relation": "born_in",
+      "object": "Frederick, Maryland",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "He was born in Frederick, Maryland"
+        }
+      ]
+    },
+    {
+      "subject": "J. Charles Haydon",
+      "relation": "died_in",
+      "object": "Baltimore, Maryland",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "and died in Baltimore, Maryland"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "J. Charles Haydon",
+        "directed",
+        "twelve films"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "J. Charles Haydon",
+        "appeared_in",
+        "five films"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "J. Charles Haydon",
+        "played",
+        "the Wizard"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "J. Charles Haydon\nJames Charles Haydon (March 27, 1875 – October 15, 1943) was an American film director, actor and screenwriter of the silent film era. He directed twelve films between 1914 and 1920. He also appeared in five films between 1912 and 1914. He played the Wizard in \"His Majesty, the Scarecrow of Oz\". He was born in Frederick, Maryland and died in Baltimore, Maryland."
+}

@@ -1,0 +1,132 @@
+{
+  "entities": {
+    "Merrill": "GPE",
+    "Lincoln County": "GPE",
+    "Wisconsin": "GPE",
+    "United States": "GPE",
+    "Town of Merrill": "GPE",
+    "United States Census Bureau": "ORG",
+    "Merrill MSA": "GPE",
+    "Wausau MSA": "GPE",
+    "Marathon County": "GPE",
+    "Wausau-Merrill CSA": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Merrill MSA",
+      "relation": "included_in",
+      "object": "Lincoln County",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "includes",
+          "line_start": 281,
+          "char_start": 300,
+          "ambiguous": false,
+          "relation_mention": "includes",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Wausau MSA",
+      "relation": "included_in",
+      "object": "Marathon County",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "includes",
+          "line_start": 349,
+          "char_start": 368,
+          "ambiguous": false,
+          "relation_mention": "includes",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Merrill",
+        "located_in",
+        "Lincoln County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Merrill",
+        "located_in",
+        "Wisconsin"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Merrill",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Merrill",
+        "county_seat_of",
+        "Lincoln County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Merrill",
+        "located_in",
+        "Town of Merrill"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Merrill",
+        "part_of",
+        "Merrill MSA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Merrill MSA",
+        "forms_with",
+        "Wausau MSA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Merrill MSA",
+        "forms",
+        "Wausau-Merrill CSA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wausau MSA",
+        "forms",
+        "Wausau-Merrill CSA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "United States Census Bureau",
+        "has",
+        "Merrill MSA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Merrill, Wisconsin\nMerrill is a city in and the county seat of Lincoln County, Wisconsin, United States. It is located to the south of and adjacent to the Town of Merrill. The population was 9,661, according to the 2010 census. Merrill is part of the United States Census Bureau's Merrill MSA, which includes all of Lincoln County. Together with the Wausau MSA, which includes all of Marathon County, it forms the Wausau-Merrill CSA.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Merrill\", \"type\": \"GPE\"},\n    {\"name\": \"Lincoln County\", \"type\": \"GPE\"},\n    {\"name\": \"Wisconsin\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Town of Merrill\", \"type\": \"GPE\"},\n    {\"name\": \"United States Census Bureau\", \"type\": \"ORG\"},\n    {\"name\": \"Merrill MSA\", \"type\": \"GPE\"},\n    {\"name\": \"Wausau MSA\", \"type\": \"GPE\"},\n    {\"name\": \"Marathon County\", \"type\": \"GPE\"},\n    {\"name\": \"Wausau-Merrill CSA\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Merrill\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lincoln County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Merrill\",\n      \"relation\": \"located_in\",\n      \"object\": \"Wisconsin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Merrill\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Merrill\",\n      \"relation\": \"county_seat_of\",\n      \"object\": \"Lincoln County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the county seat of\"}\n      ]\n    },\n    {\n      \"subject\": \"Merrill\",\n      \"relation\": \"located_in\",\n      \"object\": \"Town of Merrill\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"adjacent to\"}\n      ]\n    },\n    {\n      \"subject\": \"Merrill\",\n      \"relation\": \"part_of\",\n      \"object\": \"Merrill MSA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"part of\"}\n      ]\n    },\n    {\n      \"subject\": \"Merrill MSA\",\n      \"relation\": \"included_in\",\n      \"object\": \"Lincoln County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"includes\"}\n      ]\n    },\n    {\n      \"subject\": \"Wausau MSA\",\n      \"relation\": \"included_in\",\n      \"object\": \"Marathon County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"includes\"}\n      ]\n    },\n    {\n      \"subject\": \"Merrill MSA\",\n      \"relation\": \"forms_with\",\n      \"object\": \"Wausau MSA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"forms\"}\n      ]\n    },\n    {\n      \"subject\": \"Merrill MSA\",\n      \"relation\": \"forms\",\n      \"object\": \"Wausau-Merrill CSA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"forms\"}\n      ]\n    },\n    {\n      \"subject\": \"Wausau MSA\",\n      \"relation\": \"forms\",\n      \"object\": \"Wausau-Merrill CSA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"forms\"}\n      ]\n    },\n    {\n      \"subject\": \"United States Census Bureau\",\n      \"relation\": \"has\",\n      \"object\": \"Merrill MSA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Merrill MSA\"}\n      ]\n    }\n  ]\n}"
+}

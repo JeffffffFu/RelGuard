@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Belgium": "GPE",
+    "Belgian women": "PERSON",
+    "Belgian man": "PERSON",
+    "European women": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Belgian women",
+      "relation": "live_in",
+      "object": "Belgium",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Women in Belgium are European women who live in or are from Belgium."
+        }
+      ]
+    },
+    {
+      "subject": "Belgian women",
+      "relation": "earnings_percentage_of",
+      "object": "Belgian man",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "In 1999, the average earnings of a Belgian woman was 91 percent of the salary of a Belgian man."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Belgian women",
+        "able_to_close",
+        "occupational gender gap"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Belgian women",
+        "do_more_of",
+        "domestic work"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Women in Belgium\nWomen in Belgium are European women who live in or are from Belgium. Generation after generation, Belgian women are able to close the \"occupational gender gap\". In younger generations, this is due to the increasing availability of \"part-time jobs in services\" for women. In 1999, the average earnings of a Belgian woman was 91 percent of the salary of a Belgian man. When not doing part-time jobs, Belgian women still \"do more of the domestic work\", depending on the agreement between female and male partners."
+}

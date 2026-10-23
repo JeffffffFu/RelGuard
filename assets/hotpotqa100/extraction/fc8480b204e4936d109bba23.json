@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Rick Dalzell": "Person",
+    "Amazon.com": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Rick Dalzell",
+      "relation": "works_for",
+      "object": "Amazon.com",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Chief Information Officer and Senior Vice President of Amazon.com"
+        },
+        {
+          "sentence_id": 2,
+          "relation_mention": "10 years at Amazon.com"
+        },
+        {
+          "sentence_id": 3,
+          "relation_mention": "corporate officer at Amazon"
+        },
+        {
+          "sentence_id": 4,
+          "relation_mention": "retired from Amazon.com"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rick Dalzell",
+        "born_in",
+        "1957"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rick Dalzell",
+        "held_position",
+        "Chief Information Officer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rick Dalzell",
+        "held_position",
+        "Senior Vice President"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rick Dalzell",
+        "retired_on",
+        "November 16, 2007"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rick Dalzell",
+        "named_to_position",
+        "Vice President"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rick Dalzell",
+        "styled_as",
+        "Senior VP"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rick Dalzell",
+        "named_to_position",
+        "Senior VP, Worldwide Architecture and Platform Software & CIO"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Rick Dalzell\nRick Dalzell (born 1957) was the Chief Information Officer and Senior Vice President of Amazon.com from 1997 until November 2007. During his 10 years at Amazon.com he was the driving force behind the growth of technology, software and services. Dalzell had been a corporate officer at Amazon since August 1997, when he was named Vice President (VP) and Chief Information Officer (CIO). He was styled a Senior VP in October 2000 and was named to Senior VP, Worldwide Architecture and Platform Software & CIO, in November 2001. He retired from Amazon.com on November 16, 2007."
+}

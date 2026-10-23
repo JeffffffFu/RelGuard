@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "Collinsville City Hall and Fire Station": "FAC",
+    "Collinsville City Hall": "FAC",
+    "Fire Station": "FAC",
+    "Collinsville": "GPE",
+    "Illinois": "GPE",
+    "City Hall": "FAC",
+    "Charles L. Oatman": "PERSON",
+    "Civil War monument": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Collinsville City Hall and Fire Station",
+      "relation": "located_in",
+      "object": "Collinsville",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at",
+          "line_start": 72,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "located at",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Collinsville City Hall and Fire Station",
+      "relation": "located_in",
+      "object": "Illinois",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at",
+          "line_start": 72,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "located at",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Collinsville City Hall",
+      "relation": "connected_to",
+      "object": "Fire Station",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "connected the two buildings",
+          "line_start": 559,
+          "char_start": 599,
+          "ambiguous": false,
+          "relation_mention": "connected the two buildings",
+          "sentence_id": 8
+        }
+      ]
+    },
+    {
+      "subject": "Civil War monument",
+      "relation": "located_in",
+      "object": "Collinsville City Hall and Fire Station",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "on the southeast corner the property",
+          "line_start": 609,
+          "char_start": 649,
+          "ambiguous": false,
+          "relation_mention": "on the southeast corner the property",
+          "sentence_id": 9
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Collinsville City Hall",
+        "built_in",
+        "1885"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fire Station",
+        "built_in",
+        "1910"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Civil War monument",
+        "dedicated_in",
+        "1926"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Charles L. Oatman",
+        "defeated_in",
+        "next election"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Collinsville City Hall and Fire Station\nThe Collinsville City Hall and Fire Station are two connected buildings located at 125 Center St. in Collinsville, Illinois. The Italianate City Hall was built in 1885. It was Collinsville's first dedicated city hall; prior to its completion, government meetings were held at the mayor's house. The new city hall, along with several other public works projects, created a large debt which contributed to mayor Charles L. Oatman's defeat in the next election. The Romanesque Revival fire station was built next to City Hall in 1910. Additions in 1972 and 1994 connected the two buildings. A Civil War monument on the southeast corner the property was dedicated in 1926; while it was originally located between the two buildings, it moved to its current location when the fire station expanded in 1956.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Collinsville City Hall and Fire Station\", \"type\": \"FAC\"},\n    {\"name\": \"Collinsville City Hall\", \"type\": \"FAC\"},\n    {\"name\": \"Fire Station\", \"type\": \"FAC\"},\n    {\"name\": \"Collinsville\", \"type\": \"GPE\"},\n    {\"name\": \"Illinois\", \"type\": \"GPE\"},\n    {\"name\": \"City Hall\", \"type\": \"FAC\"},\n    {\"name\": \"Charles L. Oatman\", \"type\": \"PERSON\"},\n    {\"name\": \"Civil War monument\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Collinsville City Hall and Fire Station\",\n      \"relation\": \"located_in\",\n      \"object\": \"Collinsville\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located at\"}\n      ]\n    },\n    {\n      \"subject\": \"Collinsville City Hall and Fire Station\",\n      \"relation\": \"located_in\",\n      \"object\": \"Illinois\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located at\"}\n      ]\n    },\n    {\n      \"subject\": \"Collinsville City Hall\",\n      \"relation\": \"built_in\",\n      \"object\": \"1885\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was built in\"}\n      ]\n    },\n    {\n      \"subject\": \"Fire Station\",\n      \"relation\": \"built_in\",\n      \"object\": \"1910\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was built next to City Hall in\"}\n      ]\n    },\n    {\n      \"subject\": \"Collinsville City Hall\",\n      \"relation\": \"connected_to\",\n      \"object\": \"Fire Station\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"connected the two buildings\"}\n      ]\n    },\n    {\n      \"subject\": \"Civil War monument\",\n      \"relation\": \"located_in\",\n      \"object\": \"Collinsville City Hall and Fire Station\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the southeast corner the property\"}\n      ]\n    },\n    {\n      \"subject\": \"Civil War monument\",\n      \"relation\": \"dedicated_in\",\n      \"object\": \"1926\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was dedicated in\"}\n      ]\n    },\n    {\n      \"subject\": \"Charles L. Oatman\",\n      \"relation\": \"defeated_in\",\n      \"object\": \"next election\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"defeat in\"}\n      ]\n    }\n  ]\n}"
+}

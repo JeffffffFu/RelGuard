@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Third officer": "PERSON",
+    "Pan American World Airways": "ORG",
+    "Clippers": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Third officer",
+      "relation": "was_used_by",
+      "object": "Pan American World Airways",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "used by",
+          "line_start": 69,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "used by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pan American World Airways",
+        "operated",
+        "Clippers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Third officer",
+        "served_as",
+        "relief pilot"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Third officer",
+        "served_as",
+        "aircrew member"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Third officer",
+        "could_move_between",
+        "pilot"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Third officer",
+        "could_move_between",
+        "co-pilot"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Third officer",
+        "could_move_between",
+        "radio officer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Third officer",
+        "could_move_between",
+        "flight engineer"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Third officer (aeronautics)\nThird officer is a lesser used civil aviation rank. It was primarily used by Pan American World Airways, particularly on its \"Clippers\" during the infancy of extended range airline routes. The third officer served as a relief pilot and aircrew member and could move between pilot, co-pilot, radio officer, and flight engineer positions to provide a rest period for the primary crews (\"Flying The World In Clipper Ships\"). Third officers in modern civil aviation are often not formally titled as such. Rather, these relief pilots take on a junior first officer rank or in some cases a second officer rank.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Third officer\", \"type\": \"PERSON\"},\n    {\"name\": \"Pan American World Airways\", \"type\": \"ORG\"},\n    {\"name\": \"Clippers\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Third officer\",\n      \"relation\": \"was_used_by\",\n      \"object\": \"Pan American World Airways\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"used by\"}\n      ]\n    },\n    {\n      \"subject\": \"Pan American World Airways\",\n      \"relation\": \"operated\",\n      \"object\": \"Clippers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on its \\\"Clippers\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Third officer\",\n      \"relation\": \"served_as\",\n      \"object\": \"relief pilot\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served as a relief pilot\"}\n      ]\n    },\n    {\n      \"subject\": \"Third officer\",\n      \"relation\": \"served_as\",\n      \"object\": \"aircrew member\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"aircrew member\"}\n      ]\n    },\n    {\n      \"subject\": \"Third officer\",\n      \"relation\": \"could_move_between\",\n      \"object\": \"pilot\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"move between pilot\"}\n      ]\n    },\n    {\n      \"subject\": \"Third officer\",\n      \"relation\": \"could_move_between\",\n      \"object\": \"co-pilot\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"pilot, co-pilot\"}\n      ]\n    },\n    {\n      \"subject\": \"Third officer\",\n      \"relation\": \"could_move_between\",\n      \"object\": \"radio officer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"radio officer\"}\n      ]\n    },\n    {\n      \"subject\": \"Third officer\",\n      \"relation\": \"could_move_between\",\n      \"object\": \"flight engineer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and flight engineer\"}\n      ]\n    }\n  ]\n}"
+}

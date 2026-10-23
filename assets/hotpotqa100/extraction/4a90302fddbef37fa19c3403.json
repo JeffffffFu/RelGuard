@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Dinner Rush": "WORK_OF_ART",
+    "Brian S. Kalata": "PERSON",
+    "Rick Shaughnessy": "PERSON",
+    "Bob Giraldi": "PERSON",
+    "Danny Aiello": "PERSON",
+    "Edoardo Ballerini": "PERSON",
+    "New York City": "GPE",
+    "Tribeca": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Dinner Rush",
+      "relation": "written_by",
+      "object": "Brian S. Kalata",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 57,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Dinner Rush",
+      "relation": "written_by",
+      "object": "Rick Shaughnessy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 57,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Dinner Rush",
+      "relation": "directed_by",
+      "object": "Bob Giraldi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 110,
+          "char_start": 122,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Dinner Rush",
+        "stars",
+        "Danny Aiello"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dinner Rush",
+        "stars",
+        "Edoardo Ballerini"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Danny Aiello",
+        "located_in",
+        "Tribeca"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tribeca",
+        "located_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Dinner Rush\nDinner Rush is a 2000 American independent feature film, written by Brian S. Kalata and Rick Shaughnessy, and directed by Bob Giraldi. It stars Danny Aiello as a restaurateur-bookmaker in New York City's Tribeca neighborhood and Edoardo Ballerini as his son, the restaurant's star chef.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Dinner Rush\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Brian S. Kalata\", \"type\": \"PERSON\"},\n    {\"name\": \"Rick Shaughnessy\", \"type\": \"PERSON\"},\n    {\"name\": \"Bob Giraldi\", \"type\": \"PERSON\"},\n    {\"name\": \"Danny Aiello\", \"type\": \"PERSON\"},\n    {\"name\": \"Edoardo Ballerini\", \"type\": \"PERSON\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"Tribeca\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Dinner Rush\",\n      \"relation\": \"written_by\",\n      \"object\": \"Brian S. Kalata\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Dinner Rush\",\n      \"relation\": \"written_by\",\n      \"object\": \"Rick Shaughnessy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Dinner Rush\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Bob Giraldi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Dinner Rush\",\n      \"relation\": \"stars\",\n      \"object\": \"Danny Aiello\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Dinner Rush\",\n      \"relation\": \"stars\",\n      \"object\": \"Edoardo Ballerini\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Danny Aiello\",\n      \"relation\": \"located_in\",\n      \"object\": \"Tribeca\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Tribeca\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    }\n  ]\n}"
+}

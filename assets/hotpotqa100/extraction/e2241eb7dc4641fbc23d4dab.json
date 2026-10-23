@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "The Daily Stormer": "ORG",
+    "American": "NORP",
+    "Andrew Anglin": "PERSON",
+    "alt-right": "NORP",
+    "Total Fascism": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Andrew Anglin",
+      "relation": "founded",
+      "object": "The Daily Stormer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded it",
+          "line_start": 174,
+          "char_start": 192,
+          "ambiguous": false,
+          "relation_mention": "founded it",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Daily Stormer",
+        "located_in",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Daily Stormer",
+        "works_for",
+        "alt-right"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Total Fascism",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Daily Stormer\nThe Daily Stormer is an American neo-Nazi and white supremacist news and commentary website. It considers itself a part of the alt-right movement. Its editor, Andrew Anglin, founded it on July 4, 2013 as a faster-paced replacement for his previous website \"Total Fascism\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Daily Stormer\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Andrew Anglin\", \"type\": \"PERSON\"},\n    {\"name\": \"alt-right\", \"type\": \"NORP\"},\n    {\"name\": \"Total Fascism\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Daily Stormer\",\n      \"relation\": \"located_in\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    },\n    {\n      \"subject\": \"The Daily Stormer\",\n      \"relation\": \"works_for\",\n      \"object\": \"alt-right\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"considers itself a part of the\"}\n      ]\n    },\n    {\n      \"subject\": \"Andrew Anglin\",\n      \"relation\": \"founded\",\n      \"object\": \"The Daily Stormer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded it\"}\n      ]\n    },\n    {\n      \"subject\": \"Total Fascism\",\n      \"relation\": \"is_a\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\"Total Fascism\\\"\"}\n      ]\n    }\n  ]\n}"
+}

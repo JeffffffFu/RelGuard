@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "APB": "ORG",
+    "Franz Ferdinand": "ORG",
+    "The Rapture": "ORG",
+    "Red Hot Chili Peppers": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Scotland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "APB",
+        "located_in",
+        "Scotland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "APB",
+        "influenced",
+        "Franz Ferdinand"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "APB",
+        "influenced",
+        "The Rapture"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "APB",
+        "influenced",
+        "Red Hot Chili Peppers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "APB (band)\nAPB was a Scottish post-punk band, formed in 1979, that blended funk rock, punk rock and new wave music. The group had only modest success during its brief run, yet their influence can be heard in the sound of such current bands as Franz Ferdinand, The Rapture, and Red Hot Chili Peppers.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"APB\", \"type\": \"ORG\"},\n    {\"name\": \"Scotland\", \"type\": \"GPE\"},\n    {\"name\": \"Franz Ferdinand\", \"type\": \"ORG\"},\n    {\"name\": \"The Rapture\", \"type\": \"ORG\"},\n    {\"name\": \"Red Hot Chili Peppers\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"APB\",\n      \"relation\": \"located_in\",\n      \"object\": \"Scotland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a Scottish\"}\n      ]\n    },\n    {\n      \"subject\": \"APB\",\n      \"relation\": \"influenced\",\n      \"object\": \"Franz Ferdinand\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"can be heard in the sound of such current bands as Franz Ferdinand\"}\n      ]\n    },\n    {\n      \"subject\": \"APB\",\n      \"relation\": \"influenced\",\n      \"object\": \"The Rapture\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"can be heard in the sound of such current bands as Franz Ferdinand, The Rapture\"}\n      ]\n    },\n    {\n      \"subject\": \"APB\",\n      \"relation\": \"influenced\",\n      \"object\": \"Red Hot Chili Peppers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"can be heard in the sound of such current bands as Franz Ferdinand, The Rapture, and Red Hot Chili Peppers\"}\n      ]\n    }\n  ]\n}"
+}

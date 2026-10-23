@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "One Less Set of Footsteps": "song",
+    "Jim Croce": "artist",
+    "Life and Times": "album",
+    "Billboard": "chart"
+  },
+  "triples": [
+    {
+      "subject": "One Less Set of Footsteps",
+      "relation": "written_by",
+      "object": "Jim Croce",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a song written and performed by Jim Croce"
+        }
+      ]
+    },
+    {
+      "subject": "One Less Set of Footsteps",
+      "relation": "spent_weeks_on",
+      "object": "Billboard",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "spending ten weeks on the chart"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "One Less Set of Footsteps",
+        "released_in",
+        "1973"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "One Less Set of Footsteps",
+        "first_single_from",
+        "Life and Times"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "One Less Set of Footsteps",
+        "reached_peak",
+        "#37"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "One Less Set of Footsteps\n\"One Less Set of Footsteps\" is a song written and performed by Jim Croce. It was released in 1973 as the first single from his album \"Life and Times\". It reached a peak of #37 on the \"Billboard\" Hot 100, spending ten weeks on the chart."
+}

@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "2016 Blancpain GT Series Sprint Cup": "EVENT",
+    "SRO Group": "ORG",
+    "FIA GT1 World Championship": "EVENT",
+    "Blancpain Sprint Series": "EVENT",
+    "Blancpain GT Series Sprint Cup": "EVENT",
+    "Blancpain": "ORG",
+    "SRO": "ORG",
+    "Endurance Series": "EVENT",
+    "Blancpain GT Series": "EVENT",
+    "Sprint Series": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Blancpain",
+      "relation": "developed_partnership_with",
+      "object": "SRO",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "developing their partnership",
+          "line_start": 283,
+          "char_start": 319,
+          "ambiguous": false,
+          "relation_mention": "developing their partnership",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "2016 Blancpain GT Series Sprint Cup",
+        "was_the_nth_season_of",
+        "Blancpain GT Series Sprint Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FIA GT1 World Championship",
+        "was_run_by",
+        "SRO Group"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FIA GT1 World Championship",
+        "is_a",
+        "EVENT"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Blancpain",
+        "decided_with",
+        "SRO"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Blancpain",
+        "integrated",
+        "Endurance Series"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Blancpain",
+        "integrated",
+        "Sprint Series"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sprint Series",
+        "changed_name_to",
+        "Blancpain GT Series Sprint Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "2016 Blancpain GT Series Sprint Cup\nThe 2016 Blancpain GT Series Sprint Cup was the fourth season following on from the demise of the SRO Group's FIA GT1 World Championship (an auto racing series for grand tourer cars), the third with the designation of Blancpain Sprint Series or Blancpain GT Series Sprint Cup. After developing their partnership, Blancpain and the SRO decided that 2016 would see both the Sprint and Endurance Series further integrated into the Blancpain GT Series, putting the emphasis on the prestigious overall drivers' and manufacturers' titles causing the Sprint Series name to change from Blancpain Sprint Series to Blancpain GT Series Sprint Cup.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"2016 Blancpain GT Series Sprint Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"SRO Group\", \"type\": \"ORG\"},\n    {\"name\": \"FIA GT1 World Championship\", \"type\": \"EVENT\"},\n    {\"name\": \"Blancpain Sprint Series\", \"type\": \"EVENT\"},\n    {\"name\": \"Blancpain GT Series Sprint Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"Blancpain\", \"type\": \"ORG\"},\n    {\"name\": \"SRO\", \"type\": \"ORG\"},\n    {\"name\": \"Endurance Series\", \"type\": \"EVENT\"},\n    {\"name\": \"Blancpain GT Series\", \"type\": \"EVENT\"},\n    {\"name\": \"Sprint Series\", \"type\": \"EVENT\"},\n    {\"name\": \"Blancpain Sprint Series\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"2016 Blancpain GT Series Sprint Cup\",\n      \"relation\": \"was_the_nth_season_of\",\n      \"object\": \"Blancpain GT Series Sprint Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the fourth season\"}\n      ]\n    },\n    {\n      \"subject\": \"FIA GT1 World Championship\",\n      \"relation\": \"was_run_by\",\n      \"object\": \"SRO Group\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the SRO Group's\"}\n      ]\n    },\n    {\n      \"subject\": \"FIA GT1 World Championship\",\n      \"relation\": \"is_a\",\n      \"object\": \"EVENT\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"an auto racing series\"}\n      ]\n    },\n    {\n      \"subject\": \"Blancpain\",\n      \"relation\": \"developed_partnership_with\",\n      \"object\": \"SRO\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"developing their partnership\"}\n      ]\n    },\n    {\n      \"subject\": \"Blancpain\",\n      \"relation\": \"decided_with\",\n      \"object\": \"SRO\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the SRO decided\"}\n      ]\n    },\n    {\n      \"subject\": \"Blancpain\",\n      \"relation\": \"integrated\",\n      \"object\": \"Endurance Series\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"both the Sprint and Endurance Series further integrated into the Blancpain GT Series\"}\n      ]\n    },\n    {\n      \"subject\": \"Blancpain\",\n      \"relation\": \"integrated\",\n      \"object\": \"Sprint Series\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"both the Sprint and Endurance Series further integrated into the Blancpain GT Series\"}\n      ]\n    },\n    {\n      \"subject\": \"Sprint Series\",\n      \"relation\": \"changed_name_to\",\n      \"object\": \"Blancpain GT Series Sprint Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to change from Blancpain Sprint Series to Blancpain GT Series Sprint Cup\"}\n      ]\n    }\n  ]\n}"
+}

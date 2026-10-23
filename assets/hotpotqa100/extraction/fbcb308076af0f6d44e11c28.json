@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Pilot": "WORK_OF_ART",
+    "Preacher": "WORK_OF_ART",
+    "AMC": "ORG",
+    "United States": "GPE",
+    "Seth Rogen": "PERSON",
+    "Evan Goldberg": "PERSON",
+    "Sam Catlin": "PERSON",
+    "Talking Preacher": "WORK_OF_ART",
+    "Chris Hardwick": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Pilot",
+      "relation": "is_episode_of",
+      "object": "Preacher",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "\"Pilot\" is the series premiere of the supernatural drama television series \"Preacher\""
+        }
+      ]
+    },
+    {
+      "subject": "Talking Preacher",
+      "relation": "is_after_show_of",
+      "object": "Pilot",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The pilot encore was followed by \"Talking Preacher\""
+        }
+      ]
+    },
+    {
+      "subject": "Talking Preacher",
+      "relation": "hosted_by",
+      "object": "Chris Hardwick",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "AMC's after-show hosted by Chris Hardwick"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pilot",
+        "aired_on",
+        "AMC"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pilot",
+        "set_in",
+        "United States"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pilot",
+        "written_by",
+        "Seth Rogen"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pilot",
+        "written_by",
+        "Evan Goldberg"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pilot",
+        "written_by",
+        "Sam Catlin"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Seth Rogen",
+        "directed",
+        "Pilot"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Evan Goldberg",
+        "directed",
+        "Pilot"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pilot (Preacher)\n\"Pilot\" is the series premiere of the supernatural drama television series \"Preacher\", which originally aired on AMC in the United States on May 22, 2016. The episode was written by the creators of the television adaptation, Seth Rogen, Evan Goldberg and Sam Catlin; with both Rogen and Goldberg directing. The pilot encore was followed by \"Talking Preacher\", AMC's after-show hosted by Chris Hardwick."
+}

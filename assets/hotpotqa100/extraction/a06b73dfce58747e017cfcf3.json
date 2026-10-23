@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Admiralty": "ORG",
+    "Glorious Revolution": "EVENT",
+    "Europe": "LOC",
+    "France": "GPE",
+    "Napoleonic Wars": "EVENT",
+    "17th century": "LOC",
+    "James II": "PERSON",
+    "William III": "PERSON",
+    "English fleets": "ORG",
+    "Scottish fleets": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Glorious Revolution",
+      "relation": "rearranged",
+      "object": "Europe",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "rearranged",
+          "line_start": 32,
+          "char_start": 62,
+          "ambiguous": false,
+          "relation_mention": "rearranged",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Glorious Revolution",
+      "relation": "led_to",
+      "object": "France",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "led to",
+          "line_start": 76,
+          "char_start": 106,
+          "ambiguous": false,
+          "relation_mention": "led to",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Napoleonic Wars",
+        "entailed",
+        "fleets of the 17th century"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James II",
+        "fled",
+        "country"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "William III",
+        "landed",
+        "country"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "landing of William III",
+        "was",
+        "gigantic effort"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "landing of William III",
+        "involved",
+        "warships"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "English fleets",
+        "opposed",
+        "landing of William III"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Scottish fleets",
+        "opposed",
+        "landing of William III"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Admiralty in the 18th century\nThe Glorious Revolution of 1688 rearranged the political map of Europe, and led to a series of wars with France that lasted well over a century. This was the classic age of sail; while the ships themselves evolved in only minor ways, technique and tactics were honed to a high degree, and the battles of the Napoleonic Wars entailed feats that would have been impossible for the fleets of the 17th century. Because of parliamentary opposition, James II fled the country. The landing of William III and the Glorious Revolution itself was a gigantic effort involving 100 warships and 400 transports carrying 11,000 infantry and 4,000 horses. It was not opposed by the English or Scottish fleets.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Admiralty\", \"type\": \"ORG\"},\n    {\"name\": \"Glorious Revolution\", \"type\": \"EVENT\"},\n    {\"name\": \"Europe\", \"type\": \"LOC\"},\n    {\"name\": \"France\", \"type\": \"GPE\"},\n    {\"name\": \"Napoleonic Wars\", \"type\": \"EVENT\"},\n    {\"name\": \"17th century\", \"type\": \"LOC\"},\n    {\"name\": \"James II\", \"type\": \"PERSON\"},\n    {\"name\": \"William III\", \"type\": \"PERSON\"},\n    {\"name\": \"English fleets\", \"type\": \"ORG\"},\n    {\"name\": \"Scottish fleets\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Glorious Revolution\",\n      \"relation\": \"rearranged\",\n      \"object\": \"Europe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"rearranged\"}\n      ]\n    },\n    {\n      \"subject\": \"Glorious Revolution\",\n      \"relation\": \"led_to\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"led to\"}\n      ]\n    },\n    {\n      \"subject\": \"Napoleonic Wars\",\n      \"relation\": \"entailed\",\n      \"object\": \"fleets of the 17th century\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"entailed\"}\n      ]\n    },\n    {\n      \"subject\": \"James II\",\n      \"relation\": \"fled\",\n      \"object\": \"country\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"fled\"}\n      ]\n    },\n    {\n      \"subject\": \"William III\",\n      \"relation\": \"landed\",\n      \"object\": \"country\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"landing of\"}\n      ]\n    },\n    {\n      \"subject\": \"landing of William III\",\n      \"relation\": \"was\",\n      \"object\": \"gigantic effort\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was\"}\n      ]\n    },\n    {\n      \"subject\": \"landing of William III\",\n      \"relation\": \"involved\",\n      \"object\": \"warships\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"involving\"}\n      ]\n    },\n    {\n      \"subject\": \"English fleets\",\n      \"relation\": \"opposed\",\n      \"object\": \"landing of William III\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"opposed\"}\n      ]\n    },\n    {\n      \"subject\": \"Scottish fleets\",\n      \"relation\": \"opposed\",\n      \"object\": \"landing of William III\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"opposed\"}\n      ]\n    }\n  ]\n}"
+}

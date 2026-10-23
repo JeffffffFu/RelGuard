@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Van de Graaff generator": "PRODUCT",
+    "Robert J. Van de Graaff": "PERSON",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Van de Graaff generator",
+      "relation": "invented_by",
+      "object": "Robert J. Van de Graaff",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was invented by",
+          "line_start": 298,
+          "char_start": 322,
+          "ambiguous": false,
+          "relation_mention": "was invented by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Robert J. Van de Graaff",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Van de Graaff generator\nA Van de Graaff generator is an electrostatic generator which uses a moving belt to accumulate electric charge on a hollow metal globe on the top of an insulated column, creating very high electric potentials. It produces very high voltage direct current (DC) electricity at low current levels. It was invented by American physicist Robert J. Van de Graaff during 1929.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Van de Graaff generator\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Robert J. Van de Graaff\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Van de Graaff generator\",\n      \"relation\": \"invented_by\",\n      \"object\": \"Robert J. Van de Graaff\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was invented by\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert J. Van de Graaff\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    }\n  ]\n}"
+}

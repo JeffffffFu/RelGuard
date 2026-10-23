@@ -1,0 +1,104 @@
+{
+  "entities": {
+    "Mallinckrodt Institute of Radiology": "organization",
+    "Washington University School of Medicine": "organization",
+    "Washington University Medical Center": "organization",
+    "St. Louis": "location",
+    "Missouri": "location",
+    "Barnes-Jewish Hospital": "organization",
+    "St. Louis Children's Hospital": "organization",
+    "National Institutes of Health": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Mallinckrodt Institute of Radiology",
+      "relation": "associated_with",
+      "object": "Washington University School of Medicine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "associated with the Washington University School of Medicine"
+        }
+      ]
+    },
+    {
+      "subject": "Mallinckrodt Institute of Radiology",
+      "relation": "located_in",
+      "object": "Washington University Medical Center",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located within the Washington University Medical Center"
+        }
+      ]
+    },
+    {
+      "subject": "Washington University Medical Center",
+      "relation": "located_in",
+      "object": "St. Louis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in St. Louis"
+        }
+      ]
+    },
+    {
+      "subject": "Mallinckrodt Institute of Radiology",
+      "relation": "provides_services_to",
+      "object": "Barnes-Jewish Hospital",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "provides radiology services to Barnes-Jewish"
+        }
+      ]
+    },
+    {
+      "subject": "Mallinckrodt Institute of Radiology",
+      "relation": "receives_funding_from",
+      "object": "National Institutes of Health",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "top recipients of National Institutes of Health funding"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Washington University Medical Center",
+        "located_in",
+        "Missouri"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Mallinckrodt Institute of Radiology",
+        "provides_services_to",
+        "St. Louis Children's Hospital"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Mallinckrodt Institute of Radiology",
+        "employs",
+        "academic staff"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mallinckrodt Institute of Radiology",
+        "performs",
+        "examinations and procedures"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mallinckrodt Institute of Radiology\nThe Mallinckrodt Institute of Radiology (MIR) is an academic radiology center associated with the Washington University School of Medicine, located within the Washington University Medical Center in St. Louis, Missouri. In addition to providing diagnostic and therapeutic patient-care services, the institute is a top research and education center. It employs over 140 academic staff and is among the top recipients of National Institutes of Health funding of radiology departments. The center provides radiology services to Barnes-Jewish and St. Louis Children's hospitals, as well as multiple other hospitals and outpatient centers in the St. Louis area. The center performs 700,000 examinations and procedures annually."
+}

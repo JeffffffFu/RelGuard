@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Curry and Pepper": "Film",
+    "Blackie Ko": "Director",
+    "Jacky Cheung": "Actor",
+    "Stephen Chow": "Actor",
+    "Faithfully Yours": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Curry and Pepper",
+      "relation": "directed_by",
+      "object": "Blackie Ko",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Blackie Ko"
+        }
+      ]
+    },
+    {
+      "subject": "Curry and Pepper",
+      "relation": "starring",
+      "object": "Jacky Cheung",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Jacky Cheung"
+        }
+      ]
+    },
+    {
+      "subject": "Jacky Cheung",
+      "relation": "collaborated_with",
+      "object": "Stephen Chow",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Cheung and Chow's second film collaboration"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Curry and Pepper",
+        "starring",
+        "Stephen Chow"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jacky Cheung",
+        "appeared_in",
+        "Faithfully Yours"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Stephen Chow",
+        "appeared_in",
+        "Faithfully Yours"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Curry and Pepper\nCurry and Pepper is a 1990 Hong Kong action comedy film directed by Blackie Ko and starring Jacky Cheung and Stephen Chow. This film is Cheung and Chow's second film collaboration after the 1988 film,\" Faithfully Yours\"."
+}

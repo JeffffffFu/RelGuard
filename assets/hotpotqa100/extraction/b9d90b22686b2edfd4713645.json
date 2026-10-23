@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Slasher.com": "WORK_OF_ART",
+    "Chip Gubera": "PERSON",
+    "Jewel Shepard": "PERSON",
+    "R.A. Mihailoff": "PERSON",
+    "Delious Kennedy": "PERSON",
+    "Ben Kaplan": "PERSON",
+    "Morgan Carter": "PERSON",
+    "All-4-One": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Slasher.com",
+      "relation": "directed_by",
+      "object": "Chip Gubera",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Chip Gubera"
+        }
+      ]
+    },
+    {
+      "subject": "Slasher.com",
+      "relation": "starring",
+      "object": "Jewel Shepard",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Jewel Shepard"
+        }
+      ]
+    },
+    {
+      "subject": "Delious Kennedy",
+      "relation": "part_of",
+      "object": "All-4-One",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "All-4-One's Delious Kennedy"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Slasher.com",
+        "starring",
+        "R.A. Mihailoff"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Slasher.com",
+        "starring",
+        "Delious Kennedy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Slasher.com",
+        "starring",
+        "Ben Kaplan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Slasher.com",
+        "starring",
+        "Morgan Carter"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Slasher.com\n\"Slasher.com\" is a 2017 horror feature film directed by Chip Gubera starring Jewel Shepard, R.A. Mihailoff, All-4-One's Delious Kennedy, Ben Kaplan, and Morgan Carter."
+}

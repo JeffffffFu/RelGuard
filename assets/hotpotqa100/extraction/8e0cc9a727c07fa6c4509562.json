@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Cain and Abel": "TV series",
+    "So Ji-sub": "actor",
+    "Shin Hyun-joon": "actor",
+    "Han Ji-min": "actor",
+    "Chae Jung-an": "actor",
+    "SBS": "network"
+  },
+  "triples": [
+    {
+      "subject": "Cain and Abel",
+      "relation": "starring",
+      "object": "So Ji-sub",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring So Ji-sub"
+        }
+      ]
+    },
+    {
+      "subject": "Cain and Abel",
+      "relation": "aired_on",
+      "object": "SBS",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It aired on SBS"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Cain and Abel",
+        "starring",
+        "Shin Hyun-joon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Cain and Abel",
+        "starring",
+        "Han Ji-min"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Cain and Abel",
+        "starring",
+        "Chae Jung-an"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Cain and Abel",
+        "aired_from",
+        "February 18 to April 23, 2009"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Cain and Abel",
+        "has_episodes",
+        "20"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Cain and Abel (TV series)\nCain and Abel () is a 2009 South Korean television series starring So Ji-sub, Shin Hyun-joon, Han Ji-min, and Chae Jung-an. It aired on SBS from February 18 to April 23, 2009 on Wednesdays and Thursdays at 21:55 for 20 episodes."
+}

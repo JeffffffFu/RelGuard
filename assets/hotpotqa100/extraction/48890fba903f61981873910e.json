@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "The Simpsons Theme": "music",
+    "The Simpsons": "television series",
+    "Danny Elfman": "person",
+    "Matt Groening": "person",
+    "Alf Clausen": "person"
+  },
+  "triples": [
+    {
+      "subject": "The Simpsons Theme",
+      "relation": "composed_by",
+      "object": "Danny Elfman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was composed by Danny Elfman"
+        }
+      ]
+    },
+    {
+      "subject": "Danny Elfman",
+      "relation": "requested_by",
+      "object": "Matt Groening",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "after series creator Matt Groening approached him requesting a retro-style theme"
+        }
+      ]
+    },
+    {
+      "subject": "The Simpsons Theme",
+      "relation": "rearranged_by",
+      "object": "Alf Clausen",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the current arrangement by Alf Clausen was introduced at the beginning of the third season"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Simpsons Theme",
+        "associated_with",
+        "The Simpsons"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Simpsons Theme\n\"The Simpsons\" Theme\", also referred to as \"The Simpsons\" Main Title Theme\" in album releases, is the theme music of the animated television series \"The Simpsons\". It plays during the opening sequence and was composed by Danny Elfman in 1989, after series creator Matt Groening approached him requesting a retro-style theme. The piece, which took 3 days, 2 hours, 48 minutes, and 19 seconds to create, has been noted by Elfman as the most popular of his career. The theme, as used for the opening sequence, was re-arranged during season 2, and the current arrangement by Alf Clausen was introduced at the beginning of the third season."
+}

@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "It's in the Air": "WORK_OF_ART",
+    "Anthony Kimmins": "PERSON",
+    "George Formby": "PERSON",
+    "Polly Ward": "PERSON",
+    "Jack Hobbs": "PERSON",
+    "United States": "GPE",
+    "George Takes the Air": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "It's in the Air",
+      "relation": "written_by",
+      "object": "Anthony Kimmins",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written and directed by",
+          "line_start": 47,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "written and directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "It's in the Air",
+      "relation": "directed_by",
+      "object": "Anthony Kimmins",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written and directed by",
+          "line_start": 47,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "written and directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "It's in the Air",
+        "stars",
+        "George Formby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "It's in the Air",
+        "stars",
+        "Polly Ward"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "It's in the Air",
+        "stars",
+        "Jack Hobbs"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "It's in the Air",
+        "released_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "It's in the Air",
+        "released_with_alternative_title",
+        "George Takes the Air"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "It's in the Air\nIt ’s in the Air is a 1938 British comedy film written and directed by Anthony Kimmins and starring George Formby, Polly Ward and Jack Hobbs. The film was released in the United States with the alternative title George Takes the Air in 1940. Although released in pre-war times, no mention of the imminent hostilities is in\" It's in the Air\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"It's in the Air\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Anthony Kimmins\", \"type\": \"PERSON\"},\n    {\"name\": \"George Formby\", \"type\": \"PERSON\"},\n    {\"name\": \"Polly Ward\", \"type\": \"PERSON\"},\n    {\"name\": \"Jack Hobbs\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"George Takes the Air\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"It's in the Air\",\n      \"relation\": \"written_by\",\n      \"object\": \"Anthony Kimmins\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"It's in the Air\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Anthony Kimmins\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"It's in the Air\",\n      \"relation\": \"stars\",\n      \"object\": \"George Formby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring George Formby, Polly Ward and Jack Hobbs\"}\n      ]\n    },\n    {\n      \"subject\": \"It's in the Air\",\n      \"relation\": \"stars\",\n      \"object\": \"Polly Ward\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring George Formby, Polly Ward and Jack Hobbs\"}\n      ]\n    },\n    {\n      \"subject\": \"It's in the Air\",\n      \"relation\": \"stars\",\n      \"object\": \"Jack Hobbs\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring George Formby, Polly Ward and Jack Hobbs\"}\n      ]\n    },\n    {\n      \"subject\": \"It's in the Air\",\n      \"relation\": \"released_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released in the United States\"}\n      ]\n    },\n    {\n      \"subject\": \"It's in the Air\",\n      \"relation\": \"released_with_alternative_title\",\n      \"object\": \"George Takes the Air\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with the alternative title George Takes the Air\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "NBA G League": "organization",
+    "National Basketball Association": "organization",
+    "National Basketball Development League": "organization",
+    "NBA Development League": "organization",
+    "David Stern": "person",
+    "NBA": "organization"
+  },
+  "triples": [
+    {
+      "subject": "NBA G League",
+      "relation": "is",
+      "object": "National Basketball Association",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The NBA G League is the National Basketball Association's official minor league basketball organization."
+        }
+      ]
+    },
+    {
+      "subject": "NBA G League",
+      "relation": "known_as",
+      "object": "NBA Development League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the NBA Development League (NBA D-League) from 2005 until 2017."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "NBA G League",
+        "known_as",
+        "National Basketball Development League"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "NBA G League",
+        "started_with",
+        "eight teams"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "David Stern",
+        "announced",
+        "NBA D-League"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "NBA D-League",
+        "affiliated_with",
+        "NBA teams"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "NBA players",
+        "spent_time_in",
+        "NBA D-League"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "NBA G League",
+        "consists_of",
+        "26 teams"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "NBA G League\nThe NBA G League is the National Basketball Association's official minor league basketball organization. The league was known as the National Basketball Development League (NBDL) from 2001 to 2005, and the NBA Development League (NBA D-League) from 2005 until 2017. The league started with eight teams until NBA commissioner David Stern announced a plan to expand the NBA D-League to fifteen teams and develop it into a true minor league farm system, with each NBA D-League team affiliated with one or more NBA teams in March 2005. At the conclusion of the 2013–14 NBA season, 33% of NBA players had spent time in the NBA D-League, up from 23% in 2011. As of the 2017–18 season, the league consists of 26 teams, all of which are either single-affiliated or owned by an NBA team."
+}

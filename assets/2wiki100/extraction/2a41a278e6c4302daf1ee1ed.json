@@ -1,0 +1,128 @@
+{
+  "entities": {
+    "Veerendra": "PERSON",
+    "Veerinder Singh": "PERSON",
+    "Teri Meri Ek Jindri": "WORK_OF_ART",
+    "Dharmendra": "PERSON",
+    "Lambhardarni, Balbiro Bhabhi": "WORK_OF_ART",
+    "Dushmani Dee Agg": "WORK_OF_ART",
+    "Punjabi": "LANGUAGE"
+  },
+  "triples": [
+    {
+      "subject": "Veerendra",
+      "relation": "also_known_as",
+      "object": "Veerinder Singh",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "often known as",
+          "line_start": 125,
+          "char_start": 135,
+          "ambiguous": false,
+          "relation_mention": "often known as",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Veerendra",
+      "relation": "made_debut_with",
+      "object": "Teri Meri Ek Jindri",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made his debut with",
+          "line_start": 151,
+          "char_start": 161,
+          "ambiguous": false,
+          "relation_mention": "made his debut with",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Teri Meri Ek Jindri",
+      "relation": "featuring",
+      "object": "Dharmendra",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "featuring",
+          "line_start": 221,
+          "char_start": 231,
+          "ambiguous": false,
+          "relation_mention": "featuring",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Veerendra",
+      "relation": "was_a",
+      "object": "Punjabi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was a Punjabi",
+          "line_start": 11,
+          "char_start": 21,
+          "ambiguous": false,
+          "relation_mention": "was a Punjabi",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Lambhardarni, Balbiro Bhabhi",
+      "relation": "was_a_popular_film_of",
+      "object": "Veerendra",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Some of his more popular films were",
+          "line_start": 291,
+          "char_start": 301,
+          "ambiguous": false,
+          "relation_mention": "Some of his more popular films were",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Dushmani Dee Agg",
+      "relation": "was_a_popular_film_of",
+      "object": "Veerendra",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Some of his more popular films were",
+          "line_start": 291,
+          "char_start": 301,
+          "ambiguous": false,
+          "relation_mention": "Some of his more popular films were",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Veerendra",
+        "was_a",
+        "PERSON"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Veerendra",
+        "was_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Veerendra\nVeerendra  was a Punjabi film actor, director, producer and writer who made 25 films in his 12-year career. Veerinder Singh, often known as Veerendra, made his debut with the film \"Teri Meri Ek Jindri,\" released in 1975, featuring Dharmendra. He was a regular in Punjabi films of the 1980s. Some of his more popular films were \"Lambhardarni, Balbiro Bhabhi\" and \"Dushmani Dee Agg,\" which was released after his death."
+}

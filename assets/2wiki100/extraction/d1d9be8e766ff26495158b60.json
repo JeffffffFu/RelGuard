@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Gisela of France": "person",
+    "Rollo": "person",
+    "Charles the Simple": "person",
+    "Charles the Bald": "person",
+    "Vikings": "TV series",
+    "Morgane Polanski": "person"
+  },
+  "triples": [
+    {
+      "subject": "Gisela of France",
+      "relation": "married_to",
+      "object": "Rollo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "married to Rollo, duke of Normandy"
+        }
+      ]
+    },
+    {
+      "subject": "Rollo",
+      "relation": "betrothed_to",
+      "object": "Gisela of France",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Rollo was betrothed to Gisela"
+        }
+      ]
+    },
+    {
+      "subject": "Gisela of France",
+      "relation": "daughter_of",
+      "object": "Charles the Simple",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "daughter to the king of West Francia, Charles the Simple"
+        }
+      ]
+    },
+    {
+      "subject": "Gisela of France",
+      "relation": "portrayed_in",
+      "object": "Vikings",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "is portrayed in the TV series Vikings"
+        }
+      ]
+    },
+    {
+      "subject": "Morgane Polanski",
+      "relation": "portrayed",
+      "object": "Gisela of France",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "by Morgane Polanski"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Charles the Simple",
+        "converted_to",
+        "Christianity"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Charles the Simple",
+        "ascended_as_ruler_of",
+        "Normandy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Gisela of France\nGisela( fl. 911) was a legendary French princess who was, according to legend, married to Rollo, duke of Normandy. According to tradition, Rollo was betrothed to Gisela, daughter to the king of West Francia, Charles the Simple, after his conversion to Christianity upon his ascension as ruler of Normandy in 911. The marriage and the existence of Gisela are not confirmed, supporting the mythical character of Gisela. Some suggested that, if she really did exist, she may have been an illegitimate daughter of Charles. A character named Gisla( presented as a daughter of Charles the Bald rather than his grandson Charles the Simple, and as the mother of Rollo's children) is portrayed in the TV series Vikings by Morgane Polanski."
+}

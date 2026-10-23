@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "Atma Ram": "Person",
+    "Afghanistan": "Location",
+    "India": "Location",
+    "Turan": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Atma Ram",
+      "relation": "located_in",
+      "object": "Afghanistan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Afghanistan"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Atma Ram",
+        "was_a",
+        "Hindu minister"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Atma Ram",
+        "dominated_trade_between",
+        "India and Turan"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Atma Ram\nAtma Ram was a Hindu minister in Afghanistan during the early 19th century. He was said to have dominated trade between India and Turan in this period."
+}

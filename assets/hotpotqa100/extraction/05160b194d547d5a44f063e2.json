@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Frederick W. Smith": "Person",
+    "FedEx": "Organization",
+    "Memphis": "Location",
+    "Tennessee": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Frederick W. Smith",
+      "relation": "founded",
+      "object": "FedEx",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the founder, chairman, president, and CEO of FedEx"
+        }
+      ]
+    },
+    {
+      "subject": "FedEx",
+      "relation": "located_in",
+      "object": "Memphis",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The company is headquartered in Memphis"
+        }
+      ]
+    },
+    {
+      "subject": "FedEx",
+      "relation": "located_in",
+      "object": "Tennessee",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The company is headquartered in Memphis, Tennessee"
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Frederick W. Smith\nFrederick Wallace \"Fred\" Smith (born August 11, 1944) is the founder, chairman, president, and CEO of FedEx, originally known as Federal Express. The company is headquartered in Memphis, Tennessee."
+}

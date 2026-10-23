@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Pacific Tigers": "ORG",
+    "University of the Pacific": "ORG",
+    "Stockton": "GPE",
+    "California": "GPE",
+    "Alex G. Spanos Center": "FAC",
+    "Damon Stoudamire": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Pacific Tigers",
+      "relation": "based_in",
+      "object": "Stockton",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "is based in Stockton"
+        }
+      ]
+    },
+    {
+      "subject": "Pacific Tigers",
+      "relation": "plays_home_games_at",
+      "object": "Alex G. Spanos Center",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "play their home games at the Alex G. Spanos Center"
+        }
+      ]
+    },
+    {
+      "subject": "Pacific Tigers",
+      "relation": "led_by",
+      "object": "Damon Stoudamire",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "are led by head coach Damon Stoudamire"
+        }
+      ]
+    },
+    {
+      "subject": "Stockton",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Stockton, California"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pacific Tigers",
+        "part_of",
+        "West Coast Conference"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Pacific Tigers men's basketball\nThe University of the Pacific Tigers men's basketball team is an NCAA Division I member, part of the West Coast Conference. The team is based in Stockton, California. They play their home games at the Alex G. Spanos Center and are led by head coach Damon Stoudamire."
+}

@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Sepideh Farsi": "Person",
+    "Tehran": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Sepideh Farsi",
+      "relation": "born_in",
+      "object": "Tehran",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born in Tehran"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sepideh Farsi",
+        "is_a",
+        "film director"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sepideh Farsi\nSepideh Farsi is an Iranian film director, born in Tehran in 1965."
+}

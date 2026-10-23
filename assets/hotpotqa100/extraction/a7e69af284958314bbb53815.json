@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "Happy Joe's Pizza & Ice Cream Parlor": "ORG",
+    "Bettendorf": "GPE",
+    "Iowa": "GPE",
+    "Lawrence Joseph \"Happy Joe\" Whitty": "PERSON",
+    "Shakey's Pizza": "ORG",
+    "Midwestern United States": "LOC",
+    "Illinois": "GPE",
+    "Missouri": "GPE",
+    "Minnesota": "GPE",
+    "North Dakota": "GPE",
+    "Wisconsin": "GPE",
+    "Arizona": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Happy Joe's Pizza & Ice Cream Parlor",
+      "relation": "located_in",
+      "object": "Bettendorf",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 71,
+          "char_start": 83,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Happy Joe's Pizza & Ice Cream Parlor",
+      "relation": "located_in",
+      "object": "Iowa",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 71,
+          "char_start": 83,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Happy Joe's Pizza & Ice Cream Parlor",
+      "relation": "founded",
+      "object": "Lawrence Joseph \"Happy Joe\" Whitty",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded in 1972 by",
+          "line_start": 119,
+          "char_start": 131,
+          "ambiguous": false,
+          "relation_mention": "was founded in 1972 by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lawrence Joseph \"Happy Joe\" Whitty",
+        "works_for",
+        "Shakey's Pizza"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Happy Joe's Pizza & Ice Cream Parlor",
+        "located_in",
+        "Midwestern United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Midwestern United States",
+        "located_in",
+        "Iowa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Midwestern United States",
+        "located_in",
+        "Illinois"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Midwestern United States",
+        "located_in",
+        "Missouri"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Midwestern United States",
+        "located_in",
+        "Minnesota"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Midwestern United States",
+        "located_in",
+        "North Dakota"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Midwestern United States",
+        "located_in",
+        "Wisconsin"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Happy Joe's Pizza & Ice Cream Parlor",
+        "located_in",
+        "Arizona"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Happy Joe's\nHappy Joe's Pizza & Ice Cream Parlor is an American pizza parlor chain based in Bettendorf, Iowa. The restaurant chain was founded in 1972 by Lawrence Joseph \"Happy Joe\" Whitty, a former Shakey's Pizza manager. Its 61 restaurants are mostly located in the Midwestern United States (in Iowa, Illinois, Missouri, Minnesota, North Dakota and Wisconsin)., although the company is also present in Arizona. The idea for Happy Joe's came from a combination of a pizza parlor and ice cream palace.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Happy Joe's Pizza & Ice Cream Parlor\", \"type\": \"ORG\"},\n    {\"name\": \"Bettendorf\", \"type\": \"GPE\"},\n    {\"name\": \"Iowa\", \"type\": \"GPE\"},\n    {\"name\": \"Lawrence Joseph \\\"Happy Joe\\\" Whitty\", \"type\": \"PERSON\"},\n    {\"name\": \"Shakey's Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"Midwestern United States\", \"type\": \"LOC\"},\n    {\"name\": \"Iowa\", \"type\": \"GPE\"},\n    {\"name\": \"Illinois\", \"type\": \"GPE\"},\n    {\"name\": \"Missouri\", \"type\": \"GPE\"},\n    {\"name\": \"Minnesota\", \"type\": \"GPE\"},\n    {\"name\": \"North Dakota\", \"type\": \"GPE\"},\n    {\"name\": \"Wisconsin\", \"type\": \"GPE\"},\n    {\"name\": \"Arizona\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Happy Joe's Pizza & Ice Cream Parlor\",\n      \"relation\": \"located_in\",\n      \"object\": \"Bettendorf\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Happy Joe's Pizza & Ice Cream Parlor\",\n      \"relation\": \"located_in\",\n      \"object\": \"Iowa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Happy Joe's Pizza & Ice Cream Parlor\",\n      \"relation\": \"founded\",\n      \"object\": \"Lawrence Joseph \\\"Happy Joe\\\" Whitty\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was founded in 1972 by\"}\n      ]\n    },\n    {\n      \"subject\": \"Lawrence Joseph \\\"Happy Joe\\\" Whitty\",\n      \"relation\": \"works_for\",\n      \"object\": \"Shakey's Pizza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"former Shakey's Pizza manager\"}\n      ]\n    },\n    {\n      \"subject\": \"Happy Joe's Pizza & Ice Cream Parlor\",\n      \"relation\": \"located_in\",\n      \"object\": \"Midwestern United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in the Midwestern United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Midwestern United States\",\n      \"relation\": \"located_in\",\n      \"object\": \"Iowa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Iowa\"}\n      ]\n    },\n    {\n      \"subject\": \"Midwestern United States\",\n      \"relation\": \"located_in\",\n      \"object\": \"Illinois\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Iowa, Illinois, Missouri, Minnesota, North Dakota and Wisconsin\"}\n      ]\n    },\n    {\n      \"subject\": \"Midwestern United States\",\n      \"relation\": \"located_in\",\n      \"object\": \"Missouri\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Iowa, Illinois, Missouri, Minnesota, North Dakota and Wisconsin\"}\n      ]\n    },\n    {\n      \"subject\": \"Midwestern United States\",\n      \"relation\": \"located_in\",\n      \"object\": \"Minnesota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Iowa, Illinois, Missouri, Minnesota, North Dakota and Wisconsin\"}\n      ]\n    },\n    {\n      \"subject\": \"Midwestern United States\",\n      \"relation\": \"located_in\",\n      \"object\": \"North Dakota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Iowa, Illinois, Missouri, Minnesota, North Dakota and Wisconsin\"}\n      ]\n    },\n    {\n      \"subject\": \"Midwestern United States\",\n      \"relation\": \"located_in\",\n      \"object\": \"Wisconsin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Iowa, Illinois, Missouri, Minnesota, North Dakota and Wisconsin\"}\n      ]\n    },\n    {\n      \"subject\": \"Happy Joe's Pizza & Ice Cream Parlor\",\n      \"relation\": \"located_in\",\n      \"object\": \"Arizona\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"present in Arizona\"}\n      ]\n    }\n  ]\n}"
+}

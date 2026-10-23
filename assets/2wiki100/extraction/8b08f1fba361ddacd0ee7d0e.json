@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Sunday Light": "WORK_OF_ART",
+    "Spanish": "NORP",
+    "José Luis Garci": "PERSON",
+    "Álex González": "PERSON",
+    "Paula Echevarría": "PERSON",
+    "Alfredo Landa": "PERSON",
+    "Asturias": "GPE",
+    "Ramón Pérez de Ayala": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Sunday Light",
+      "relation": "directed_by",
+      "object": "José Luis Garci",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 37,
+          "char_start": 50,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sunday Light",
+        "works_for",
+        "Spanish"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sunday Light",
+        "stars",
+        "Álex González"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sunday Light",
+        "stars",
+        "Paula Echevarría"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sunday Light",
+        "stars",
+        "Alfredo Landa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sunday Light",
+        "located_in",
+        "Asturias"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sunday Light",
+        "based_on",
+        "Ramón Pérez de Ayala"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Sunday Light\nSunday Light  is a 2007 Spanish film directed by José Luis Garci and starring Álex González, Paula Echevarría and Alfredo Landa. The plot, set in rural Asturias in the early 20th-century, is based on a novel by Ramón Pérez de Ayala.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Sunday Light\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Spanish\", \"type\": \"NORP\"},\n    {\"name\": \"José Luis Garci\", \"type\": \"PERSON\"},\n    {\"name\": \"Álex González\", \"type\": \"PERSON\"},\n    {\"name\": \"Paula Echevarría\", \"type\": \"PERSON\"},\n    {\"name\": \"Alfredo Landa\", \"type\": \"PERSON\"},\n    {\"name\": \"Asturias\", \"type\": \"GPE\"},\n    {\"name\": \"Ramón Pérez de Ayala\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Sunday Light\",\n      \"relation\": \"directed_by\",\n      \"object\": \"José Luis Garci\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Sunday Light\",\n      \"relation\": \"works_for\",\n      \"object\": \"Spanish\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a 2007 Spanish film\"}\n      ]\n    },\n    {\n      \"subject\": \"Sunday Light\",\n      \"relation\": \"stars\",\n      \"object\": \"Álex González\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Álex González\"}\n      ]\n    },\n    {\n      \"subject\": \"Sunday Light\",\n      \"relation\": \"stars\",\n      \"object\": \"Paula Echevarría\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Álex González, Paula Echevarría\"}\n      ]\n    },\n    {\n      \"subject\": \"Sunday Light\",\n      \"relation\": \"stars\",\n      \"object\": \"Alfredo Landa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Álex González, Paula Echevarría and Alfredo Landa\"}\n      ]\n    },\n    {\n      \"subject\": \"Sunday Light\",\n      \"relation\": \"located_in\",\n      \"object\": \"Asturias\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"set in rural Asturias\"}\n      ]\n    },\n    {\n      \"subject\": \"Sunday Light\",\n      \"relation\": \"based_on\",\n      \"object\": \"Ramón Pérez de Ayala\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on a novel by Ramón Pérez de Ayala\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "The Pulse of Life": "film",
+    "Rex Ingram": "person",
+    "Wedgwood Nowell": "person",
+    "Gypsy Hart": "person",
+    "Dorothy Barrett": "person"
+  },
+  "triples": [
+    {
+      "subject": "The Pulse of Life",
+      "relation": "directed_by",
+      "object": "Rex Ingram",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Rex Ingram"
+        }
+      ]
+    },
+    {
+      "subject": "The Pulse of Life",
+      "relation": "starring",
+      "object": "Wedgwood Nowell",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Wedgwood Nowell"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Pulse of Life",
+        "starring",
+        "Gypsy Hart"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Pulse of Life",
+        "starring",
+        "Dorothy Barrett"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Pulse of Life\nThe Pulse of Life is a 1917 American silent drama film directed by Rex Ingram and starring Wedgwood Nowell, Gypsy Hart and Dorothy Barrett."
+}

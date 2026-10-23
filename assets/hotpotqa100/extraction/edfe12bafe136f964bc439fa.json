@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Mitsubishi Motors Corporation": "ORG",
+    "Japanese": "NORP",
+    "Minato": "GPE",
+    "Tokyo": "GPE",
+    "Japan": "GPE",
+    "Nissan": "ORG",
+    "Renault–Nissan–Mitsubishi Alliance": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Mitsubishi Motors Corporation",
+      "relation": "located_in",
+      "object": "Minato",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "headquartered in",
+          "line_start": 146,
+          "char_start": 164,
+          "ambiguous": false,
+          "relation_mention": "headquartered in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Minato",
+      "relation": "located_in",
+      "object": "Tokyo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "headquartered in",
+          "line_start": 146,
+          "char_start": 164,
+          "ambiguous": false,
+          "relation_mention": "headquartered in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Tokyo",
+      "relation": "located_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "headquartered in",
+          "line_start": 146,
+          "char_start": 164,
+          "ambiguous": false,
+          "relation_mention": "headquartered in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mitsubishi Motors Corporation",
+        "has_nationality",
+        "Japanese"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mitsubishi Motors Corporation",
+        "part_of",
+        "Renault–Nissan–Mitsubishi Alliance"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Nissan",
+        "owns",
+        "Mitsubishi Motors Corporation"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Mitsubishi Motors\nMitsubishi Motors Corporation (Japanese: 三菱自動車工業株式会社 , Hepburn: Mitsubishi Jidōsha Kōgyō KK ) is a Japanese multinational automotive manufacturer headquartered in Minato, Tokyo, Japan. In 2011, Mitsubishi Motors was the sixth biggest Japanese automaker and the sixteenth biggest worldwide by production. From October 2016 onwards, Mitsubishi is one-third (34%) owned by Nissan, and thus a part of the Renault–Nissan–Mitsubishi Alliance.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Mitsubishi Motors Corporation\", \"type\": \"ORG\"},\n    {\"name\": \"Japanese\", \"type\": \"NORP\"},\n    {\"name\": \"Minato\", \"type\": \"GPE\"},\n    {\"name\": \"Tokyo\", \"type\": \"GPE\"},\n    {\"name\": \"Japan\", \"type\": \"GPE\"},\n    {\"name\": \"Nissan\", \"type\": \"ORG\"},\n    {\"name\": \"Renault–Nissan–Mitsubishi Alliance\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Mitsubishi Motors Corporation\",\n      \"relation\": \"located_in\",\n      \"object\": \"Minato\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"headquartered in\"}\n      ]\n    },\n    {\n      \"subject\": \"Minato\",\n      \"relation\": \"located_in\",\n      \"object\": \"Tokyo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"headquartered in\"}\n      ]\n    },\n    {\n      \"subject\": \"Tokyo\",\n      \"relation\": \"located_in\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"headquartered in\"}\n      ]\n    },\n    {\n      \"subject\": \"Mitsubishi Motors Corporation\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"Japanese\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Japanese multinational automotive manufacturer\"}\n      ]\n    },\n    {\n      \"subject\": \"Mitsubishi Motors Corporation\",\n      \"relation\": \"part_of\",\n      \"object\": \"Renault–Nissan–Mitsubishi Alliance\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"part of the Renault–Nissan–Mitsubishi Alliance\"}\n      ]\n    },\n    {\n      \"subject\": \"Nissan\",\n      \"relation\": \"owns\",\n      \"object\": \"Mitsubishi Motors Corporation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by Nissan\"}\n      ]\n    }\n  ]\n}"
+}

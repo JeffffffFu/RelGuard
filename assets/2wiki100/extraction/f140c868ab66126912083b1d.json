@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Pellam Oorelithe": "Film",
+    "S. V. Krishna Reddy": "Director",
+    "Srikanth": "Actor",
+    "Venu Thottempudi": "Actor",
+    "Sangeeta": "Actor",
+    "Rakshita": "Actor",
+    "Charlie Chaplin": "Film",
+    "Tamil film": "Film Genre",
+    "Telugu comedy film": "Film Genre"
+  },
+  "triples": [
+    {
+      "subject": "Pellam Oorelithe",
+      "relation": "directed_by",
+      "object": "S. V. Krishna Reddy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by S. V. Krishna Reddy"
+        }
+      ]
+    },
+    {
+      "subject": "Pellam Oorelithe",
+      "relation": "starring",
+      "object": "Srikanth",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Srikanth"
+        }
+      ]
+    },
+    {
+      "subject": "Pellam Oorelithe",
+      "relation": "remake_of",
+      "object": "Charlie Chaplin",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "remake of Tamil film \"Charlie Chaplin\""
+        }
+      ]
+    },
+    {
+      "subject": "Pellam Oorelithe",
+      "relation": "located_in",
+      "object": "Telugu comedy film",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "2003 Telugu comedy film"
+        }
+      ]
+    },
+    {
+      "subject": "Charlie Chaplin",
+      "relation": "located_in",
+      "object": "Tamil film",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "remake of Tamil film \"Charlie Chaplin\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pellam Oorelithe",
+        "starring",
+        "Venu Thottempudi"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pellam Oorelithe",
+        "starring",
+        "Sangeeta"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pellam Oorelithe",
+        "starring",
+        "Rakshita"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pellam Oorelithe\nPellam Oorelithe is 2003 Telugu comedy film directed by S. V. Krishna Reddy starring Srikanth, Venu Thottempudi, Sangeeta, and Rakshita in the lead roles. The film was a remake of Tamil film \"Charlie Chaplin\"."
+}

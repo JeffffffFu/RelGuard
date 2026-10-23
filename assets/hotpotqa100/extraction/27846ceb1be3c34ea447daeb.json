@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "1991 Ms. Olympia": "event",
+    "IFBB": "organization",
+    "Shrine Auditorium": "location",
+    "Los Angeles": "location",
+    "California": "location"
+  },
+  "triples": [
+    {
+      "subject": "Shrine Auditorium",
+      "relation": "located_in",
+      "object": "Los Angeles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the Shrine Auditorium in Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "Los Angeles",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Los Angeles, California"
+        }
+      ]
+    },
+    {
+      "subject": "1991 Ms. Olympia",
+      "relation": "organized_by",
+      "object": "IFBB",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "an IFBB professional bodybuilding competition"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "1991 Ms. Olympia",
+        "held_on",
+        "October 12 and 13, 1991"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "1991 Ms. Olympia",
+        "held_at",
+        "Shrine Auditorium"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "1991 Ms. Olympia",
+        "is_a",
+        "event"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "1991 Ms. Olympia",
+        "is_the",
+        "12th Ms. Olympia competition"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "1991 Ms. Olympia\nThe 1991 Ms. Olympia contest was an IFBB professional bodybuilding competition was held on October 12 and 13, 1991 at the Shrine Auditorium in Los Angeles, California. It was the 12th Ms. Olympia competition held."
+}

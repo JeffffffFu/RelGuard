@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "Shin Sang-ok": "PERSON",
+    "Kim Jong-il": "PERSON",
+    "Shin Tae-seo": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Shin Sang-ok",
+      "relation": "born_as",
+      "object": "Shin Tae-seo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born",
+          "line_start": 508,
+          "char_start": 521,
+          "ambiguous": false,
+          "relation_mention": "was born",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Shin Sang-ok",
+      "relation": "kidnapped_by",
+      "object": "Kim Jong-il",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "kidnapped by",
+          "line_start": 388,
+          "char_start": 401,
+          "ambiguous": false,
+          "relation_mention": "kidnapped by",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "South Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Shin Sang-ok",
+        "nationality",
+        "South Korea"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Shin Sang-ok\nShin Sang-ok (October 11, 1926 – April 11, 2006) was a prolific South Korean film producer and director with more than 100 producer and 70 director credits to his name. His best-known films were made in the 1950s and 60s when he was known as the \"Prince of Korean Cinema\". He received the Gold Crown Cultural Medal, the country's top honor for an artist. He is also known for having been kidnapped by the previous North Korean leader, Kim Jong-il, for the purpose of producing critically acclaimed films. He was born Shin Tae-seo; he later changed his name to Shin Sang-ok when he started working in the film industry.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Shin Sang-ok\", \"type\": \"PERSON\"},\n    {\"name\": \"South Korea\", \"type\": \"GPE\"},\n    {\"name\": \"Kim Jong-il\", \"type\": \"PERSON\"},\n    {\"name\": \"Shin Tae-seo\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Shin Sang-ok\",\n      \"relation\": \"born_as\",\n      \"object\": \"Shin Tae-seo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was born\"}\n      ]\n    },\n    {\n      \"subject\": \"Shin Sang-ok\",\n      \"relation\": \"nationality\",\n      \"object\": \"South Korea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"South Korean\"}\n      ]\n    },\n    {\n      \"subject\": \"Shin Sang-ok\",\n      \"relation\": \"kidnapped_by\",\n      \"object\": \"Kim Jong-il\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"kidnapped by\"}\n      ]\n    }\n  ]\n}"
+}

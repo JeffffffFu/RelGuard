@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Rakka": "WORK_OF_ART",
+    "YouTube": "ORG",
+    "Steam": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Rakka",
+      "relation": "released_on",
+      "object": "YouTube",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was released on YouTube"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rakka",
+        "released_on",
+        "Steam"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Rakka (film)\nThe film was released on YouTube and Steam on 14 June 2017."
+}

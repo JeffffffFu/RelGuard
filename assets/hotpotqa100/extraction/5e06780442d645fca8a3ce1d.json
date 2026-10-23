@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Patrick Barnewall": "Person",
+    "Thomas Cromwell": "Person",
+    "Irish Government": "Organization",
+    "Irish House of Commons": "Organization",
+    "Solicitor General for Ireland": "Position",
+    "Master of the Rolls in Ireland": "Position",
+    "King's Inns": "Organization",
+    "Lord Trimlestown": "Person",
+    "Viscount Barnewall of Kingsland": "Title"
+  },
+  "triples": [
+    {
+      "subject": "Patrick Barnewall",
+      "relation": "held",
+      "object": "Solicitor General for Ireland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "held the offices of Solicitor General for Ireland"
+        }
+      ]
+    },
+    {
+      "subject": "Patrick Barnewall",
+      "relation": "sat_in",
+      "object": "Irish House of Commons",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He sat in the Irish House of Commons"
+        }
+      ]
+    },
+    {
+      "subject": "Patrick Barnewall",
+      "relation": "founded",
+      "object": "King's Inns",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his role in founding the King's Inns"
+        }
+      ]
+    },
+    {
+      "subject": "Patrick Barnewall",
+      "relation": "linked_with",
+      "object": "Thomas Cromwell",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "due to his close links with Thomas Cromwell"
+        }
+      ]
+    },
+    {
+      "subject": "Patrick Barnewall",
+      "relation": "descendants_held",
+      "object": "Viscount Barnewall of Kingsland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his own descendants held the title Viscount Barnewall of Kingsland"
+        }
+      ]
+    },
+    {
+      "subject": "Irish Government",
+      "relation": "included",
+      "object": "Patrick Barnewall",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a leading figure in the Irish Government of the 1530s and 1540s"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Patrick Barnewall",
+        "held",
+        "Master of the Rolls in Ireland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Patrick Barnewall",
+        "belonged_to",
+        "junior branch of the family of Lord Trimlestown"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Patrick Barnewall (Solicitor General)\nPatrick Barnewall (c. 1500–1552) was a leading figure in the Irish Government of the 1530s and 1540s, due to his close links with Thomas Cromwell. He sat in the Irish House of Commons, and held the offices of Solicitor General for Ireland and Master of the Rolls in Ireland. Today he is mainly remembered for his role in founding the King's Inns. He belonged to a junior branch of the family of Lord Trimlestown: his own descendants held the title Viscount Barnewall of Kingsland."
+}

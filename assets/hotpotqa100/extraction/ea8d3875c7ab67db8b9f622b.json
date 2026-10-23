@@ -1,0 +1,135 @@
+{
+  "entities": {
+    "Central Avenue": "FAC",
+    "Albany": "GPE",
+    "New York": "GPE",
+    "Albany County": "GPE",
+    "Albany-Schenectady Turnpike": "FAC",
+    "Lark Street": "FAC",
+    "Colonie": "GPE",
+    "Niskayuna": "GPE",
+    "Schenectady": "GPE",
+    "Schenectady County": "GPE",
+    "Route 5": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Central Avenue",
+      "relation": "located_in",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Albany"
+        }
+      ]
+    },
+    {
+      "subject": "Central Avenue",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Albany, New York"
+        }
+      ]
+    },
+    {
+      "subject": "Central Avenue",
+      "relation": "located_in",
+      "object": "Albany County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Albany County"
+        }
+      ]
+    },
+    {
+      "subject": "Albany-Schenectady Turnpike",
+      "relation": "runs_from",
+      "object": "Lark Street",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which runs from Lark Street"
+        }
+      ]
+    },
+    {
+      "subject": "Albany-Schenectady Turnpike",
+      "relation": "runs_to",
+      "object": "Schenectady",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to the city of Schenectady"
+        }
+      ]
+    },
+    {
+      "subject": "Colonie",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Colonie"
+        }
+      ]
+    },
+    {
+      "subject": "Niskayuna",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Niskayuna, New York"
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the city of Schenectady, New York"
+        }
+      ]
+    },
+    {
+      "subject": "Route 5",
+      "relation": "also_called",
+      "object": "Central Avenue",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The entire route is also called Route 5"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Central Avenue",
+        "also_called",
+        "Albany Schenectady Road"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Central Avenue",
+        "also_called",
+        "State Street"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Central Avenue (Albany, New York)\nCentral Avenue, in Albany, New York, is an 11-mile (5 km) stretch in Albany County, of the 16-mile Albany-Schenectady Turnpike, which runs from Lark Street in the city of Albany, westward through the towns of Colonie, New York and Niskayuna, New York, to the city of Schenectady, New York. In the city of Albany it is called Central Avenue, in Colonie it is known as Central Avenue or Albany Schenectady Road, and in Schenectady County (Niskayuna and Schenectady) it is called State Street. The entire route is also called Route 5."
+}

@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Honda S660": "car",
+    "Honda": "manufacturer",
+    "Honda Beat": "car",
+    "Honda S500": "car",
+    "Tokyo Motor Show": "event"
+  },
+  "triples": [
+    {
+      "subject": "Honda S660",
+      "relation": "manufactured_by",
+      "object": "Honda",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It is manufactured by the Japanese manufacturer Honda."
+        }
+      ]
+    },
+    {
+      "subject": "Honda S660",
+      "relation": "successor_to",
+      "object": "Honda Beat",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "It is the successor to the Honda Beat."
+        }
+      ]
+    },
+    {
+      "subject": "Honda S660",
+      "relation": "shown_at",
+      "object": "Tokyo Motor Show",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "A prototype was shown at the November 2013 Tokyo Motor Show, the major Japanese auto show event."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Honda S660",
+        "weighs",
+        "830kg"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Honda S500",
+        "part_of_tradition",
+        "Honda"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Honda S660\nThe Honda S660 is a two-seat sports car which fits in the very small Kei car category. It is manufactured by the Japanese manufacturer Honda. The car weighs approx 830kg with manual transmission and 850kg with CVT auto. A prototype was shown at the November 2013 Tokyo Motor Show, the major Japanese auto show event. It is the successor to the Honda Beat. The naming convention of using the letter \"S\" followed by the engine displacement is a long held Honda tradition going back to Honda's first production car, the Honda S500."
+}

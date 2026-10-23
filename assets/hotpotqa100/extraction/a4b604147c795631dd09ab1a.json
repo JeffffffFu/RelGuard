@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Horace Bumstead": "PERSON",
+    "Atlanta University": "ORG",
+    "United States": "GPE",
+    "African Americans": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Horace Bumstead",
+      "relation": "fought_for",
+      "object": "African Americans",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "fight for African American education"
+        }
+      ]
+    },
+    {
+      "subject": "Horace Bumstead",
+      "relation": "became_president_of",
+      "object": "Atlanta University",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "became the second president of Atlanta University (1888-1907)"
+        }
+      ]
+    },
+    {
+      "subject": "African Americans",
+      "relation": "rallied_behind",
+      "object": "Horace Bumstead",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "African Americans rallied behind his efforts"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Horace Bumstead",
+        "condemned_by",
+        "many"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Horace Bumstead",
+        "viewed_as",
+        "spokesman"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Horace Bumstead\nHorace Bumstead ( September 1841- January 1919) was a Congregationalist minister and educator. He used his career to fight for African American education and became the second president of Atlanta University (1888-1907). Bumstead was one of the first white men in the United States to fight for educational rights for African Americans. As a white man, he was condemned by many for taking on this role, but African Americans rallied behind his efforts and viewed him as a spokesman."
+}

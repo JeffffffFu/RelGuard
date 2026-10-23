@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Noel Fitzpatrick": "PERSON",
+    "Martin Noel Galgani Fitzpatrick": "PERSON",
+    "small animal practice": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Noel Fitzpatrick",
+      "relation": "works_in",
+      "object": "small animal practice",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his work in small animal practice"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Ireland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Martin Noel Galgani Fitzpatrick",
+        "born_in",
+        "Ireland"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Noel Fitzpatrick\nMartin Noel Galgani Fitzpatrick (born 13 December 1967) is a specialist neuro-orthopaedic Irish veterinary surgeon best known for his work in small animal practice."
+}

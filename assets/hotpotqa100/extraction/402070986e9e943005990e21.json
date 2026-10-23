@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "James Younghusband": "Person",
+    "Davao Aguilas": "Team",
+    "Philippines national team": "Team",
+    "David Beckham": "Person"
+  },
+  "triples": [
+    {
+      "subject": "James Younghusband",
+      "relation": "plays_for",
+      "object": "Davao Aguilas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "plays as right midfielder or Striker for Davao Aguilas"
+        }
+      ]
+    },
+    {
+      "subject": "James Younghusband",
+      "relation": "idolized_by",
+      "object": "David Beckham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "due to his childhood idol David Beckham"
+        }
+      ]
+    },
+    {
+      "subject": "James Younghusband",
+      "relation": "similar_to",
+      "object": "David Beckham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his playing style is similar to Beckham"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James Younghusband",
+        "plays_for",
+        "Philippines national team"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "James Younghusband\nJames Joseph Younghusband (born 4 September 1986) is a Filipino footballer who plays as right midfielder or Striker for Davao Aguilas and the Philippines national team. He was also called as the \"David Beckham of the Philippines\" due to his childhood idol David Beckham and also his playing style is similar to Beckham."
+}

@@ -1,0 +1,118 @@
+{
+  "entities": {
+    "Coney Island Avenue": "roadway",
+    "New York City": "city",
+    "Brooklyn": "borough",
+    "Ocean Parkway": "roadway",
+    "Ocean Avenue": "roadway",
+    "Brighton Beach Avenue": "roadway",
+    "Park Circle": "location",
+    "Prospect Park": "park",
+    "Prospect Park Southwest": "roadway",
+    "Prospect Expressway": "roadway",
+    "New York State Route 27": "route"
+  },
+  "triples": [
+    {
+      "subject": "Coney Island Avenue",
+      "relation": "located_in",
+      "object": "Brooklyn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the New York City borough of Brooklyn"
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island Avenue",
+      "relation": "begins_at",
+      "object": "Brighton Beach Avenue",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It begins at Brighton Beach Avenue"
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island Avenue",
+      "relation": "goes_to",
+      "object": "Park Circle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and goes north to Park Circle"
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island Avenue",
+      "relation": "meets",
+      "object": "Prospect Park",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "where Coney Island Avenue meets Prospect Park"
+        }
+      ]
+    },
+    {
+      "subject": "Ocean Parkway",
+      "relation": "terminates",
+      "object": "Prospect Expressway",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Near-parallel Ocean Parkway terminates five blocks south"
+        }
+      ]
+    },
+    {
+      "subject": "Ocean Parkway",
+      "relation": "extended_to",
+      "object": "Park Circle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Ocean Parkway originally extended north to Park Circle"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Coney Island Avenue",
+        "is_a",
+        "roadway"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Coney Island Avenue",
+        "runs",
+        "north-south"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Prospect Expressway",
+        "replaced",
+        "northern half-mile of Ocean Parkway"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Prospect Expressway",
+        "included",
+        "ramps to the edge of Prospect Park"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Coney Island Avenue\nConey Island Avenue is a roadway in the New York City borough of Brooklyn that runs north-south for a distance of roughly five miles, almost parallel to Ocean Parkway and Ocean Avenue. It begins at Brighton Beach Avenue in Coney Island and goes north to Park Circle at the southwest corner of Prospect Park, where it becomes Prospect Park Southwest. Near-parallel Ocean Parkway terminates five blocks south and three blocks west of that intersection, becoming the Prospect Expressway (New York State Route 27). Ocean Parkway originally extended north to Park Circle, where Coney Island Avenue meets Prospect Park, until construction of the Prospect Expressway replaced the northern half-mile of Ocean Parkway but included ramps to the edge of Prospect Park."
+}

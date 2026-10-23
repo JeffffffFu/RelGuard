@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "Lincolnton–Lincoln County Regional Airport": "Airport",
+    "Lincolnton": "City",
+    "Lincoln County": "County",
+    "North Carolina": "State",
+    "United States": "Country",
+    "City of Lincolnton": "Government",
+    "FAA": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Lincolnton–Lincoln County Regional Airport",
+      "relation": "owned_by",
+      "object": "City of Lincolnton",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It is owned by the City of Lincolnton & Lincoln County"
+        }
+      ]
+    },
+    {
+      "subject": "Lincolnton–Lincoln County Regional Airport",
+      "relation": "owned_by",
+      "object": "Lincoln County",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It is owned by the City of Lincolnton & Lincoln County"
+        }
+      ]
+    },
+    {
+      "subject": "Lincolnton–Lincoln County Regional Airport",
+      "relation": "located_in",
+      "object": "Lincoln County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a city in Lincoln County"
+        }
+      ]
+    },
+    {
+      "subject": "Lincolnton–Lincoln County Regional Airport",
+      "relation": "located_in",
+      "object": "North Carolina",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Lincoln County, North Carolina, United States"
+        }
+      ]
+    },
+    {
+      "subject": "Lincolnton–Lincoln County Regional Airport",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Lincoln County, North Carolina, United States"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lincolnton–Lincoln County Regional Airport",
+        "located_east_of",
+        "Lincolnton"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Lincolnton–Lincoln County Regional Airport",
+        "identified_by",
+        "KIPJ"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lincolnton–Lincoln County Regional Airport",
+        "identified_by",
+        "IPJ"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lincolnton–Lincoln County Regional Airport",
+        "classified_as",
+        "general aviation"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lincolnton–Lincoln County Regional Airport",
+        "previously_classified_as",
+        "reliever airport"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lincolnton–Lincoln County Regional Airport\nLincolnton–Lincoln County Regional Airport (ICAO: KIPJ, FAA LID: IPJ) is a public use airport located five nautical miles (9 km) east of the central business district of Lincolnton, a city in Lincoln County, North Carolina, United States. It is owned by the City of Lincolnton & Lincoln County. According to the FAA's National Plan of Integrated Airport Systems for 2009–2013, it is a \"general aviation\" airport (it had previously been a \"reliever airport\")."
+}

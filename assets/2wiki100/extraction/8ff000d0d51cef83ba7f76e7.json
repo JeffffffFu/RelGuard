@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Juan Manuel Díaz": "Person",
+    "Uruguayan footballer": "Occupation"
+  },
+  "triples": [
+    {
+      "subject": "Juan Manuel Díaz",
+      "relation": "is",
+      "object": "Uruguayan footballer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a Uruguayan footballer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Juan Manuel Díaz",
+        "born_on",
+        "28 October 1987"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Juan Manuel Díaz\nJuan Manuel Díaz Martínez( born 28 October 1987) is a Uruguayan footballer."
+}

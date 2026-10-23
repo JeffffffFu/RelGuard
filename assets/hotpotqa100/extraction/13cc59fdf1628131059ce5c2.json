@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Baltimore Ravens": "Team",
+    "Brian Billick": "Person",
+    "National Football League": "League"
+  },
+  "triples": [
+    {
+      "subject": "Baltimore Ravens",
+      "relation": "season",
+      "object": "National Football League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the National Football League (NFL)"
+        }
+      ]
+    },
+    {
+      "subject": "Baltimore Ravens",
+      "relation": "under_coach",
+      "object": "Brian Billick",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the second under head coach Brian Billick"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Baltimore Ravens",
+        "has_season",
+        "5th season"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "2000 Baltimore Ravens season\nThe Baltimore Ravens season was the franchise's 5th season in the National Football League (NFL) and the second under head coach Brian Billick."
+}

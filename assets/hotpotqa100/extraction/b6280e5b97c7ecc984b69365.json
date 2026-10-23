@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Wanda R. Smith High School": "FAC",
+    "Keene High School": "FAC",
+    "Keene Independent School District": "ORG",
+    "Keene": "GPE",
+    "Texas": "GPE",
+    "Johnson County": "GPE",
+    "Texas Education Agency": "ORG",
+    "U.S. News & World Report": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Wanda R. Smith High School",
+      "relation": "formerly_known_as",
+      "object": "Keene High School",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "formerly Keene High School (KHS)"
+        }
+      ]
+    },
+    {
+      "subject": "Wanda R. Smith High School",
+      "relation": "located_in",
+      "object": "Keene",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in Keene, Texas"
+        }
+      ]
+    },
+    {
+      "subject": "Wanda R. Smith High School",
+      "relation": "part_of",
+      "object": "Keene Independent School District",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "part of the Keene Independent School District"
+        }
+      ]
+    },
+    {
+      "subject": "Keene Independent School District",
+      "relation": "located_in",
+      "object": "Johnson County",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "located in central Johnson County"
+        }
+      ]
+    },
+    {
+      "subject": "Wanda R. Smith High School",
+      "relation": "rated_by",
+      "object": "U.S. News & World Report",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "given a bronze rating from U.S. News & World Report"
+        }
+      ]
+    },
+    {
+      "subject": "U.S. News & World Report",
+      "relation": "ranked",
+      "object": "Wanda R. Smith High School",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "who ranked it as one of the best schools in Texas"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wanda R. Smith High School",
+        "classified_as",
+        "3A school"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wanda R. Smith High School",
+        "rated_by",
+        "Texas Education Agency"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Wanda R. Smith High School\nWanda R. Smith High School, formerly Keene High School (KHS), is a public high school located in Keene, Texas and classified as a 3A school by the UIL. It is part of the Keene Independent School District located in central Johnson County. In 2015, the school was rated \"Met Standard\" by the Texas Education Agency. The school has been given a bronze rating from U.S. News & World Report, who ranked it as one of the best schools in Texas."
+}

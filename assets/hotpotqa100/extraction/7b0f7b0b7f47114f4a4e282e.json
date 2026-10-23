@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "Northwestern Knitting Company Factory": "FAC",
+    "Munsingwear Corporation": "ORG",
+    "International Market Square": "FAC",
+    "Sumner-Glenwood": "LOC",
+    "Minneapolis": "GPE",
+    "Minnesota": "GPE",
+    "United States": "GPE",
+    "Northwestern Knitting Company": "ORG",
+    "George D. Munsing": "PERSON",
+    "Clinton Morrison": "PERSON",
+    "Charles Alfred Pillsbury": "PERSON",
+    "Munsingwear": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Northwestern Knitting Company Factory",
+      "relation": "also_known_as",
+      "object": "Munsingwear Corporation",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also known as",
+          "line_start": 43,
+          "char_start": 90,
+          "ambiguous": false,
+          "relation_mention": "also known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Northwestern Knitting Company Factory",
+      "relation": "also_known_as",
+      "object": "International Market Square",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also known as",
+          "line_start": 43,
+          "char_start": 90,
+          "ambiguous": false,
+          "relation_mention": "also known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Northwestern Knitting Company",
+      "relation": "founded",
+      "object": "George D. Munsing",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded in 1888 by",
+          "line_start": 242,
+          "char_start": 289,
+          "ambiguous": false,
+          "relation_mention": "was founded in 1888 by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Northwestern Knitting Company",
+      "relation": "changed_name_to",
+      "object": "Munsingwear",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "changed its name in 1919 to",
+          "line_start": 719,
+          "char_start": 766,
+          "ambiguous": false,
+          "relation_mention": "changed its name in 1919 to",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Northwestern Knitting Company Factory",
+        "located_in",
+        "Sumner-Glenwood"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sumner-Glenwood",
+        "located_in",
+        "Minneapolis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Minneapolis",
+        "located_in",
+        "Minnesota"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Minnesota",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "George D. Munsing",
+        "invented",
+        "union suit"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Northwestern Knitting Company",
+        "received_financial_backing_from",
+        "Clinton Morrison"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Northwestern Knitting Company",
+        "received_financial_backing_from",
+        "Charles Alfred Pillsbury"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Northwestern Knitting Company Factory building\nThe Northwestern Knitting Company Factory, also known as Munsingwear Corporation and later as International Market Square, is a former factory building in the Sumner-Glenwood neighborhood of Minneapolis, Minnesota, United States. The company was founded in 1888 by George D. Munsing, who invented a method of plating wool fibers with silk and cotton to make the union suit more comfortable. The company received financial backing from Clinton Morrison and Charles Alfred Pillsbury, who were prominent businessmen in the Minneapolis flour milling industry. This style of underwear, patented in 1891, proved to be very popular, and the company eventually became the world's largest manufacturer of underwear. The company changed its name in 1919 to Munsingwear.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Northwestern Knitting Company Factory\", \"type\": \"FAC\"},\n    {\"name\": \"Munsingwear Corporation\", \"type\": \"ORG\"},\n    {\"name\": \"International Market Square\", \"type\": \"FAC\"},\n    {\"name\": \"Sumner-Glenwood\", \"type\": \"LOC\"},\n    {\"name\": \"Minneapolis\", \"type\": \"GPE\"},\n    {\"name\": \"Minnesota\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Northwestern Knitting Company\", \"type\": \"ORG\"},\n    {\"name\": \"George D. Munsing\", \"type\": \"PERSON\"},\n    {\"name\": \"Clinton Morrison\", \"type\": \"PERSON\"},\n    {\"name\": \"Charles Alfred Pillsbury\", \"type\": \"PERSON\"},\n    {\"name\": \"Munsingwear\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Northwestern Knitting Company Factory\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Munsingwear Corporation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Northwestern Knitting Company Factory\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"International Market Square\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Northwestern Knitting Company Factory\",\n      \"relation\": \"located_in\",\n      \"object\": \"Sumner-Glenwood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Sumner-Glenwood neighborhood of Minneapolis, Minnesota, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Sumner-Glenwood\",\n      \"relation\": \"located_in\",\n      \"object\": \"Minneapolis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Sumner-Glenwood neighborhood of Minneapolis, Minnesota, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Minneapolis\",\n      \"relation\": \"located_in\",\n      \"object\": \"Minnesota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Sumner-Glenwood neighborhood of Minneapolis, Minnesota, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Minnesota\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Sumner-Glenwood neighborhood of Minneapolis, Minnesota, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Northwestern Knitting Company\",\n      \"relation\": \"founded\",\n      \"object\": \"George D. Munsing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was founded in 1888 by\"}\n      ]\n    },\n    {\n      \"subject\": \"George D. Munsing\",\n      \"relation\": \"invented\",\n      \"object\": \"union suit\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"who invented a method of plating wool fibers with silk and cotton to make the union suit more comfortable\"}\n      ]\n    },\n    {\n      \"subject\": \"Northwestern Knitting Company\",\n      \"relation\": \"received_financial_backing_from\",\n      \"object\": \"Clinton Morrison\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"received financial backing from Clinton Morrison and Charles Alfred Pillsbury\"}\n      ]\n    },\n    {\n      \"subject\": \"Northwestern Knitting Company\",\n      \"relation\": \"received_financial_backing_from\",\n      \"object\": \"Charles Alfred Pillsbury\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"received financial backing from Clinton Morrison and Charles Alfred Pillsbury\"}\n      ]\n    },\n    {\n      \"subject\": \"Northwestern Knitting Company\",\n      \"relation\": \"changed_name_to\",\n      \"object\": \"Munsingwear\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"changed its name in 1919 to\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Louis, Dauphin of France": "PERSON",
+    "Louis XV": "PERSON",
+    "Marie Leszczyńska": "PERSON",
+    "Philippe": "PERSON",
+    "Louis XVI": "PERSON",
+    "Louis XVIII": "PERSON",
+    "Charles X": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Louis, Dauphin of France",
+      "relation": "son_of",
+      "object": "Louis XV",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "son of King Louis XV of France"
+        }
+      ]
+    },
+    {
+      "subject": "Louis, Dauphin of France",
+      "relation": "husband_of",
+      "object": "Marie Leszczyńska",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his wife, Queen Marie Leszczyńska"
+        }
+      ]
+    },
+    {
+      "subject": "Louis, Dauphin of France",
+      "relation": "brother_of",
+      "object": "Philippe",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "younger brother, Philippe"
+        }
+      ]
+    },
+    {
+      "subject": "Louis, Dauphin of France",
+      "relation": "father_of",
+      "object": "Louis XVI",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Three of his sons became kings of France: Louis XVI"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Louis, Dauphin of France",
+        "became",
+        "Dauphin of France"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Louis, Dauphin of France",
+        "died_before",
+        "throne"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Louis, Dauphin of France",
+        "father_of",
+        "Louis XVIII"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Louis, Dauphin of France",
+        "father_of",
+        "Charles X"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Louis, Dauphin of France (son of Louis XV)\nLouis, Dauphin of France (4 September 1729 – 20 December 1765) was the elder and only surviving son of King Louis XV of France and his wife, Queen Marie Leszczyńska. He had a younger brother, Philippe, who died as a toddler. As a son of the king, Louis was a \"fils de France\". As heir apparent, he became Dauphin of France. However, he died before ascending to the throne. Three of his sons became kings of France: Louis XVI (reign: 1774–1792), Louis XVIII (reign: 1814–1815; 1815–1824) and Charles X (reign: 1824–1830)."
+}

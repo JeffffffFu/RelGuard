@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Kalaya Tasmai Namaha": "movie",
+    "Chandrashekar Shrivastav": "person",
+    "Yogesh": "person",
+    "Madhubala": "person",
+    "Snake Shyam": "person",
+    "A. M. Neel": "person"
+  },
+  "triples": [
+    {
+      "subject": "Kalaya Tasmai Namaha",
+      "relation": "directed_by",
+      "object": "Chandrashekar Shrivastav",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed and written by Chandrashekar Shrivastav"
+        }
+      ]
+    },
+    {
+      "subject": "Kalaya Tasmai Namaha",
+      "relation": "starring",
+      "object": "Yogesh",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars Yogesh"
+        }
+      ]
+    },
+    {
+      "subject": "Kalaya Tasmai Namaha",
+      "relation": "features",
+      "object": "Snake Shyam",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "makes a special appearance in a song sequence"
+        }
+      ]
+    },
+    {
+      "subject": "Kalaya Tasmai Namaha",
+      "relation": "composed_by",
+      "object": "A. M. Neel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The music is composed by A. M. Neel"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kalaya Tasmai Namaha",
+        "starring",
+        "Madhubala"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Kalaya Tasmai Namaha\nKalaya Tasmai Namaha is a 2012 Kannada Crime drama movie directed and written by Chandrashekar Shrivastav. The film stars Yogesh and debutante Madhubala in the lead roles. Snake Shyam makes a special appearance in a song sequence. The music is composed by A. M. Neel."
+}

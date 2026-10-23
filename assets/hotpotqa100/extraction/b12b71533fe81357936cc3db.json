@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "The Simpsons": "WORK_OF_ART",
+    "Danny Elfman": "PERSON",
+    "Matt Groening": "PERSON",
+    "Alf Clausen": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Danny Elfman",
+      "relation": "composed",
+      "object": "The Simpsons",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was composed by",
+          "line_start": 205,
+          "char_start": 224,
+          "ambiguous": false,
+          "relation_mention": "was composed by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Matt Groening",
+      "relation": "approached",
+      "object": "Danny Elfman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "approached him requesting",
+          "line_start": 278,
+          "char_start": 297,
+          "ambiguous": false,
+          "relation_mention": "approached him requesting",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Alf Clausen",
+        "arranged",
+        "The Simpsons"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Simpsons Theme\n\"The Simpsons\" Theme\", also referred to as \"The Simpsons\" Main Title Theme\" in album releases, is the theme music of the animated television series \"The Simpsons\". It plays during the opening sequence and was composed by Danny Elfman in 1989, after series creator Matt Groening approached him requesting a retro-style theme. The piece, which took 3 days, 2 hours, 48 minutes, and 19 seconds to create, has been noted by Elfman as the most popular of his career. The theme, as used for the opening sequence, was re-arranged during season 2, and the current arrangement by Alf Clausen was introduced at the beginning of the third season.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Simpsons\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Danny Elfman\", \"type\": \"PERSON\"},\n    {\"name\": \"Matt Groening\", \"type\": \"PERSON\"},\n    {\"name\": \"Alf Clausen\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Simpsons\",\n      \"relation\": \"has_theme_music_of\",\n      \"object\": \"The Simpsons\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Danny Elfman\",\n      \"relation\": \"composed\",\n      \"object\": \"The Simpsons\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was composed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Matt Groening\",\n      \"relation\": \"approached\",\n      \"object\": \"Danny Elfman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"approached him requesting\"}\n      ]\n    },\n    {\n      \"subject\": \"Alf Clausen\",\n      \"relation\": \"arranged\",\n      \"object\": \"The Simpsons\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"arrangement by Alf Clausen was introduced\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "KWPW": "ORG",
+    "Power 108": "WORK_OF_ART",
+    "Robinson": "GPE",
+    "Texas": "GPE",
+    "United States": "GPE",
+    "Waco": "GPE",
+    "Bill McCutcheon": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "KWPW",
+      "relation": "licensed_to",
+      "object": "Robinson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Licensed to",
+          "line_start": 94,
+          "char_start": 99,
+          "ambiguous": false,
+          "relation_mention": "Licensed to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "KWPW",
+      "relation": "owned_by",
+      "object": "Bill McCutcheon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned by",
+          "line_start": 197,
+          "char_start": 202,
+          "ambiguous": false,
+          "relation_mention": "owned by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "KWPW",
+        "also_called",
+        "Power 108"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robinson",
+        "located_in",
+        "Texas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Texas",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KWPW",
+        "serves",
+        "Waco"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "KWPW\nKWPW (107.9 FM, \"Power 108\") is a radio station broadcasting a contemporary hit radio format. Licensed to Robinson, Texas, United States, the station serves the Waco area. The station is currently owned by Bill McCutcheon.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"KWPW\", \"type\": \"ORG\"},\n    {\"name\": \"Power 108\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Robinson\", \"type\": \"GPE\"},\n    {\"name\": \"Texas\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Waco\", \"type\": \"GPE\"},\n    {\"name\": \"Bill McCutcheon\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"KWPW\",\n      \"relation\": \"also_called\",\n      \"object\": \"Power 108\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(107.9 FM, \\\"Power 108\\\")\"}\n      ]\n    },\n    {\n      \"subject\": \"KWPW\",\n      \"relation\": \"licensed_to\",\n      \"object\": \"Robinson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Licensed to\"}\n      ]\n    },\n    {\n      \"subject\": \"Robinson\",\n      \"relation\": \"located_in\",\n      \"object\": \"Texas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Robinson, Texas\"}\n      ]\n    },\n    {\n      \"subject\": \"Texas\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Texas, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"KWPW\",\n      \"relation\": \"serves\",\n      \"object\": \"Waco\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves the Waco area\"}\n      ]\n    },\n    {\n      \"subject\": \"KWPW\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Bill McCutcheon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by\"}\n      ]\n    }\n  ]\n}"
+}

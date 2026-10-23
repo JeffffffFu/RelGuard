@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Babette Bomberling": "WORK_OF_ART",
+    "Victor Janson": "PERSON",
+    "Xenia Desni": "PERSON",
+    "Karl Elzer": "PERSON",
+    "Ferdinand Hart": "PERSON",
+    "Jacek Rotmil": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Babette Bomberling",
+      "relation": "directed_by",
+      "object": "Victor Janson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Victor Janson"
+        }
+      ]
+    },
+    {
+      "subject": "Babette Bomberling",
+      "relation": "starring",
+      "object": "Xenia Desni",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Xenia Desni"
+        }
+      ]
+    },
+    {
+      "subject": "Babette Bomberling",
+      "relation": "art_direction_by",
+      "object": "Jacek Rotmil",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "art direction was by Jacek Rotmil"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Germany (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Babette Bomberling",
+        "starring",
+        "Karl Elzer"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Babette Bomberling",
+        "starring",
+        "Ferdinand Hart"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Babette Bomberling",
+        "located_in",
+        "Germany"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Babette Bomberling\nBabette Bomberling is a 1927 German silent comedy film directed by Victor Janson and starring Xenia Desni, Karl Elzer and Ferdinand Hart. The film's art direction was by Jacek Rotmil."
+}

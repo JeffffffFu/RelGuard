@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Richard Boleslawski": "PERSON",
+    "Richard Boleslavsky": "PERSON",
+    "theatre": "WORK_OF_ART",
+    "film": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Richard Boleslavsky",
+      "relation": "worked_as",
+      "object": "theatre",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "theatre and film director",
+          "line_start": 94,
+          "char_start": 114,
+          "ambiguous": false,
+          "relation_mention": "theatre and film director",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Richard Boleslavsky",
+      "relation": "worked_as",
+      "object": "film",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "theatre and film director",
+          "line_start": 94,
+          "char_start": 114,
+          "ambiguous": false,
+          "relation_mention": "theatre and film director",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Poland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Richard Boleslavsky",
+        "also_known_as",
+        "Richard Boleslawski"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Richard Boleslavsky",
+        "was_a",
+        "Poland"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Richard Boleslawski\nRichard Boleslavsky or Richard Boleslawski (February 4, 1889 – January 17, 1937) was a Polish theatre and film director, actor and teacher of acting."
+}

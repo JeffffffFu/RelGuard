@@ -1,0 +1,131 @@
+{
+  "entities": {
+    "A Rare Bird": "WORK_OF_ART",
+    "Un oiseau rare": "WORK_OF_ART",
+    "French": "NORP",
+    "Richard Pottier": "PERSON",
+    "Pierre Brasseur": "PERSON",
+    "Max Dearly": "PERSON",
+    "Monique Rolland": "PERSON",
+    "Robert Hubert": "PERSON",
+    "Jacques Krauss": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "A Rare Bird",
+      "relation": "directed_by",
+      "object": "Richard Pottier",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 66,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "starring",
+      "object": "Pierre Brasseur",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 98,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "starring",
+      "object": "Max Dearly",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 98,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "starring",
+      "object": "Monique Rolland",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 98,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "sets_designed_by",
+      "object": "Robert Hubert",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed by",
+          "line_start": 177,
+          "char_start": 189,
+          "ambiguous": false,
+          "relation_mention": "designed by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "sets_designed_by",
+      "object": "Jacques Krauss",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed by",
+          "line_start": 177,
+          "char_start": 189,
+          "ambiguous": false,
+          "relation_mention": "designed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "A Rare Bird",
+        "alternate_title",
+        "Un oiseau rare"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A Rare Bird",
+        "located_in",
+        "French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "A Rare Bird\nA Rare Bird (French: Un oiseau rare) is a 1935 French comedy film directed by Richard Pottier and starring Pierre Brasseur, Max Dearly and Monique Rolland. The film's sets were designed by the art directors Robert Hubert and Jacques Krauss.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"A Rare Bird\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Un oiseau rare\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"French\", \"type\": \"NORP\"},\n    {\"name\": \"Richard Pottier\", \"type\": \"PERSON\"},\n    {\"name\": \"Pierre Brasseur\", \"type\": \"PERSON\"},\n    {\"name\": \"Max Dearly\", \"type\": \"PERSON\"},\n    {\"name\": \"Monique Rolland\", \"type\": \"PERSON\"},\n    {\"name\": \"Robert Hubert\", \"type\": \"PERSON\"},\n    {\"name\": \"Jacques Krauss\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"A Rare Bird\",\n      \"relation\": \"alternate_title\",\n      \"object\": \"Un oiseau rare\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(French: Un oiseau rare)\"}\n      ]\n    },\n    {\n      \"subject\": \"A Rare Bird\",\n      \"relation\": \"located_in\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"French\"}\n      ]\n    },\n    {\n      \"subject\": \"A Rare Bird\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Richard Pottier\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"A Rare Bird\",\n      \"relation\": \"starring\",\n      \"object\": \"Pierre Brasseur\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"A Rare Bird\",\n      \"relation\": \"starring\",\n      \"object\": \"Max Dearly\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"A Rare Bird\",\n      \"relation\": \"starring\",\n      \"object\": \"Monique Rolland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"A Rare Bird\",\n      \"relation\": \"sets_designed_by\",\n      \"object\": \"Robert Hubert\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designed by\"}\n      ]\n    },\n    {\n      \"subject\": \"A Rare Bird\",\n      \"relation\": \"sets_designed_by\",\n      \"object\": \"Jacques Krauss\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designed by\"}\n      ]\n    }\n  ]\n}"
+}

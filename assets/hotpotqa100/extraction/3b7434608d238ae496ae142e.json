@@ -1,0 +1,47 @@
+{
+  "entities": {
+    "Grey: Fifty Shades of Grey as Told by Christian": "book",
+    "E. L. James": "author",
+    "Fifty Shades series": "series"
+  },
+  "triples": [
+    {
+      "subject": "Grey: Fifty Shades of Grey as Told by Christian",
+      "relation": "written_by",
+      "object": "E. L. James",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by British author E. L. James"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Grey: Fifty Shades of Grey as Told by Christian",
+        "published_in",
+        "2015"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Grey: Fifty Shades of Grey as Told by Christian",
+        "part_of",
+        "Fifty Shades series"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Fifty Shades series",
+        "originated_as",
+        "fanfiction"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Grey: Fifty Shades of Grey as Told by Christian\nGrey: Fifty Shades of Grey As Told by Christian, also referred to as Grey, is a 2015 erotic romance by British author E. L. James. It is the fourth installment in the \"Fifty Shades\" series, which had its start as fanfiction."
+}

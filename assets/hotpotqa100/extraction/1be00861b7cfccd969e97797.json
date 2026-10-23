@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "Snowy Hydro Limited": "ORG",
+    "Australia": "GPE",
+    "Snowy Mountains Hydro-electric Scheme": "FAC",
+    "Kosciuszko National Park": "LOC",
+    "Victoria": "GPE",
+    "New South Wales": "GPE",
+    "Red Energy": "ORG",
+    "Lumo Energy": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Snowy Hydro Limited",
+      "relation": "located_in",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "an electricity generation and retailing company in Australia"
+        }
+      ]
+    },
+    {
+      "subject": "Snowy Hydro Limited",
+      "relation": "owns",
+      "object": "Snowy Mountains Hydro-electric Scheme",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "owns, manages, and maintains the Snowy Mountains Hydro-electric Scheme"
+        }
+      ]
+    },
+    {
+      "subject": "Snowy Mountains Hydro-electric Scheme",
+      "relation": "located_in",
+      "object": "Kosciuszko National Park",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located mainly in the Kosciuszko National Park"
+        }
+      ]
+    },
+    {
+      "subject": "Snowy Hydro Limited",
+      "relation": "owns",
+      "object": "Red Energy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "two electricity retailing businesses (Red Energy and Lumo Energy)"
+        }
+      ]
+    },
+    {
+      "subject": "Snowy Hydro Limited",
+      "relation": "owns",
+      "object": "Lumo Energy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "two electricity retailing businesses (Red Energy and Lumo Energy)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Snowy Hydro Limited",
+        "owns",
+        "two gas-fired power stations"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Snowy Hydro Limited",
+        "owns",
+        "two electricity retailing businesses"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Snowy Hydro Limited",
+        "owns",
+        "one gas-fired power station"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Snowy Hydro\nSnowy Hydro Limited is an electricity generation and retailing company in Australia that owns, manages, and maintains the Snowy Mountains Hydro-electric Scheme which consists of nine hydro-electric power stations and sixteen large dams connected by 145 kilometres (90 mi) of tunnels and 80 kilometres (50 mi) of aqueducts located mainly in the Kosciuszko National Park. Snowy Hydro also owns and operates two gas-fired power stations in Victoria and one in New South Wales, and owns two electricity retailing businesses (Red Energy and Lumo Energy)."
+}

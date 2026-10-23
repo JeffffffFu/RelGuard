@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Once Upon a Time in China and America": "film",
+    "Lau Kar-wing": "director",
+    "Sammo Hung": "director",
+    "Jet Li": "actor",
+    "Wong Fei-hung": "character",
+    "Vincent Zhao": "actor",
+    "The Bodyguard": "film",
+    "Once Upon a Time in China": "film series"
+  },
+  "triples": [
+    {
+      "subject": "Once Upon a Time in China and America",
+      "relation": "directed_by",
+      "object": "Lau Kar-wing",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Lau Kar-wing"
+        }
+      ]
+    },
+    {
+      "subject": "Once Upon a Time in China and America",
+      "relation": "directed_by",
+      "object": "Sammo Hung",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Lau Kar-wing and Sammo Hung"
+        }
+      ]
+    },
+    {
+      "subject": "Once Upon a Time in China and America",
+      "relation": "features",
+      "object": "Jet Li",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "saw the return of Jet Li as Chinese folk hero Wong Fei-hung"
+        }
+      ]
+    },
+    {
+      "subject": "Jet Li",
+      "relation": "plays",
+      "object": "Wong Fei-hung",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as Chinese folk hero Wong Fei-hung"
+        }
+      ]
+    },
+    {
+      "subject": "Wong Fei-hung",
+      "relation": "replaced_by",
+      "object": "Vincent Zhao",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who was replaced by Vincent Zhao in the fourth and fifth films"
+        }
+      ]
+    },
+    {
+      "subject": "Sammo Hung",
+      "relation": "worked_on",
+      "object": "Once Upon a Time in China and America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who also worked on the film's fight choreography"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Once Upon a Time in China and America",
+        "also_known_as",
+        "Once Upon a Time in China VI"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Once Upon a Time in China and America",
+        "released_on",
+        "1 February 1997"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Once Upon a Time in China and America",
+        "part_of",
+        "Once Upon a Time in China"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Once Upon a Time in China and America\nOnce Upon a Time in China and America, also known as Once Upon a Time in China VI, is a 1997 Hong Kong martial arts film directed by Lau Kar-wing and Sammo Hung in his last directorial effort until \"The Bodyguard\", who also worked on the film's fight choreography. The film is the sixth and final installment in the \"Once Upon a Time in China\" film series. It also saw the return of Jet Li as Chinese folk hero Wong Fei-hung, who was replaced by Vincent Zhao in the fourth and fifth films. The film was released in the Hong Kong on 1 February 1997."
+}

@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "The Mission": "WORK_OF_ART",
+    "Parviz Sayyad": "PERSON",
+    "Berlin International Film Festival": "EVENT",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "The Mission",
+      "relation": "directed_by",
+      "object": "Parviz Sayyad",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 43,
+          "char_start": 67,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Mission",
+      "relation": "works_for",
+      "object": "Parviz Sayyad",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 59,
+          "char_start": 83,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Mission",
+      "relation": "located_in",
+      "object": "Berlin International Film Festival",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "entered into",
+          "line_start": 90,
+          "char_start": 114,
+          "ambiguous": false,
+          "relation_mention": "entered into",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Mission",
+        "located_in",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Mission (1983 film)\nThe Mission  is a 1983 American drama film directed by and starring Parviz Sayyad. It was entered into the 33rd Berlin International Film Festival.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Mission\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Parviz Sayyad\", \"type\": \"PERSON\"},\n    {\"name\": \"Berlin International Film Festival\", \"type\": \"EVENT\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Mission\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Parviz Sayyad\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Mission\",\n      \"relation\": \"works_for\",\n      \"object\": \"Parviz Sayyad\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"The Mission\",\n      \"relation\": \"located_in\",\n      \"object\": \"Berlin International Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"entered into\"}\n      ]\n    },\n    {\n      \"subject\": \"The Mission\",\n      \"relation\": \"located_in\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    }\n  ]\n}"
+}

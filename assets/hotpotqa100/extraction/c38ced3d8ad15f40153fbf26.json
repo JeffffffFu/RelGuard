@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Stoltzfus": "PERSON",
+    "Force et al.": "PERSON",
+    "Subfunctionalization": "WORK_OF_ART",
+    "gene duplication": "EVENT",
+    "paralogs": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Subfunctionalization",
+      "relation": "proposed_by",
+      "object": "Stoltzfus",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was proposed by",
+          "line_start": 21,
+          "char_start": 42,
+          "ambiguous": false,
+          "relation_mention": "was proposed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Subfunctionalization",
+      "relation": "proposed_by",
+      "object": "Force et al.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was proposed by",
+          "line_start": 21,
+          "char_start": 42,
+          "ambiguous": false,
+          "relation_mention": "was proposed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Subfunctionalization",
+        "occurs_after",
+        "gene duplication"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "paralogs",
+        "originate_from",
+        "gene duplication"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "paralogs",
+        "take_on",
+        "separate functions"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Subfunctionalization\nSubfunctionalization was proposed by Stoltzfus (1999) and Force et al. (1999) as one of the possible outcomes of functional divergence that occurs after a gene duplication event, in which pairs of genes that originate from duplication, or paralogs, take on separate functions. Subfunctionalization is a neutral mutation process; meaning that no new adaptations are formed. During the process of gene duplication paralogs simply undergo a division of labor by retaining different parts (subfunctions) of their original ancestral function. This partitioning event occurs because of segmental gene silencing leading to the formation of paralogs that are no longer duplicates, because each gene only retains a single function. It is important to note that the ancestral gene was capable of performing both functions and the descendant duplicate genes can now only perform one of the original ancestral functions.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Stoltzfus\", \"type\": \"PERSON\"},\n    {\"name\": \"Force et al.\", \"type\": \"PERSON\"},\n    {\"name\": \"Subfunctionalization\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"gene duplication\", \"type\": \"EVENT\"},\n    {\"name\": \"paralogs\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Subfunctionalization\",\n      \"relation\": \"proposed_by\",\n      \"object\": \"Stoltzfus\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was proposed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Subfunctionalization\",\n      \"relation\": \"proposed_by\",\n      \"object\": \"Force et al.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was proposed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Subfunctionalization\",\n      \"relation\": \"occurs_after\",\n      \"object\": \"gene duplication\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"occurs after\"}\n      ]\n    },\n    {\n      \"subject\": \"paralogs\",\n      \"relation\": \"originate_from\",\n      \"object\": \"gene duplication\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"originate from\"}\n      ]\n    },\n    {\n      \"subject\": \"paralogs\",\n      \"relation\": \"take_on\",\n      \"object\": \"separate functions\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"take on\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Dragon Ball Z: Dead Zone": "WORK_OF_ART",
+    "Japan": "GPE",
+    "Toei Manga Matsuri": "EVENT",
+    "Himitsu no Akko-chan": "WORK_OF_ART",
+    "Akuma-kun": "WORK_OF_ART",
+    "Kidou Keiji Jiban": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Dragon Ball Z: Dead Zone",
+      "relation": "released_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "originally released theatrically in Japan"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Dragon Ball Z: Dead Zone",
+        "part_of",
+        "Dragon Ball"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dragon Ball Z: Dead Zone",
+        "released_at",
+        "Toei Manga Matsuri"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Toei Manga Matsuri",
+        "featured",
+        "Himitsu no Akko-chan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Toei Manga Matsuri",
+        "featured",
+        "Akuma-kun"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Toei Manga Matsuri",
+        "featured",
+        "Kidou Keiji Jiban"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Dragon Ball Z: Dead Zone\nDragon Ball Z: Dead Zone, originally released theatrically in Japan as simply Dragon Ball Z and later as Dragon Ball Z: Return My Gohan!! (Japanese: ドラゴンボールZ オラの悟飯をかえせッ!! , Hepburn: Doragon Bōru Zetto Ora no Gohan o Kaese!! ) for its Japanese VHS and Laserdisc release, is the fourth anime film in the \"Dragon Ball\" franchise and the first one under the \"Dragon Ball Z\" moniker. It was originally released in Japan on July 15, 1989 at the \"Toei Manga Matsuri\" film festival along with the 1989 film version of \"Himitsu no Akko-chan\", the first \"Akuma-kun\" movie, and the film version of \"Kidou Keiji Jiban\"."
+}

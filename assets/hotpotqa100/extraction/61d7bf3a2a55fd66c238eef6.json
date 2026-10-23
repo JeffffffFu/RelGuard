@@ -1,0 +1,150 @@
+{
+  "entities": {
+    "75 Rockefeller Plaza": "building",
+    "New York City": "location",
+    "Rockefeller Center": "location",
+    "Esso Building": "building",
+    "Standard Oil Company": "company",
+    "Exxon": "company",
+    "1251 Avenue of the Americas": "location",
+    "Time Warner Building": "building",
+    "Time Warner": "company",
+    "Time Warner Center": "location",
+    "Mohamed Al Fayed": "person",
+    "RXR Realty": "company"
+  },
+  "triples": [
+    {
+      "subject": "75 Rockefeller Plaza",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "75 Rockefeller Plaza is a skyscraper in New York City"
+        }
+      ]
+    },
+    {
+      "subject": "75 Rockefeller Plaza",
+      "relation": "built_as_extension_to",
+      "object": "Rockefeller Center",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "originally built as an extension to Rockefeller Center"
+        }
+      ]
+    },
+    {
+      "subject": "75 Rockefeller Plaza",
+      "relation": "originally_known_as",
+      "object": "Esso Building",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It was originally the Esso Building"
+        }
+      ]
+    },
+    {
+      "subject": "Esso Building",
+      "relation": "built_for",
+      "object": "Standard Oil Company",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "built for the Standard Oil Company (Esso)"
+        }
+      ]
+    },
+    {
+      "subject": "Standard Oil Company",
+      "relation": "succeeded_by",
+      "object": "Exxon",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "After Standard Oil's successor, Exxon"
+        }
+      ]
+    },
+    {
+      "subject": "Exxon",
+      "relation": "moved_to",
+      "object": "1251 Avenue of the Americas",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "moved to the newly built 1251 Avenue of the Americas"
+        }
+      ]
+    },
+    {
+      "subject": "75 Rockefeller Plaza",
+      "relation": "known_as",
+      "object": "Time Warner Building",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the building became known as the Time Warner Building"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Building",
+      "relation": "named_after",
+      "object": "Time Warner",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "after the Time Warner media conglomerate"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner",
+      "relation": "moved_to",
+      "object": "Time Warner Center",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "until they moved to the Time Warner Center"
+        }
+      ]
+    },
+    {
+      "subject": "75 Rockefeller Plaza",
+      "relation": "owned_by",
+      "object": "Mohamed Al Fayed",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "It is owned by Mohamed Al Fayed"
+        }
+      ]
+    },
+    {
+      "subject": "75 Rockefeller Plaza",
+      "relation": "managed_by",
+      "object": "RXR Realty",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "managed and leased by RXR Realty"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "75 Rockefeller Plaza",
+        "completed_in",
+        "1947"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "75 Rockefeller Plaza\n75 Rockefeller Plaza is a skyscraper in New York City, originally built as an extension to Rockefeller Center. It was completed in 1947 in early Modernist style. It was originally the Esso Building, built for the Standard Oil Company (Esso). At completion it was the tallest completely air-conditioned building in New York City, and the first one in Rockefeller Center. After Standard Oil's successor, Exxon, moved to the newly built 1251 Avenue of the Americas, the building became known as the Time Warner Building, after the Time Warner media conglomerate, until they moved to the Time Warner Center. It is owned by Mohamed Al Fayed and managed and leased by RXR Realty."
+}

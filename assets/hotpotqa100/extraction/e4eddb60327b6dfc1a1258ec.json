@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Vegepet": "PRODUCT",
+    "Harbingers of a New Age": "ORG",
+    "Troy": "GPE",
+    "Montana": "GPE",
+    "United States": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Harbingers of a New Age",
+      "relation": "located_in",
+      "object": "Troy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 85,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Troy",
+      "relation": "located_in",
+      "object": "Montana",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 85,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Montana",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 85,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vegepet",
+        "works_for",
+        "Harbingers of a New Age"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Vegepet\nVegepet is the brand of a line of vegan dog and cat food by Harbingers of a New Age, based in Troy, Montana, United States.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Vegepet\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Harbingers of a New Age\", \"type\": \"ORG\"},\n    {\"name\": \"Troy\", \"type\": \"GPE\"},\n    {\"name\": \"Montana\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Vegepet\",\n      \"relation\": \"works_for\",\n      \"object\": \"Harbingers of a New Age\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    },\n    {\n      \"subject\": \"Harbingers of a New Age\",\n      \"relation\": \"located_in\",\n      \"object\": \"Troy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Troy\",\n      \"relation\": \"located_in\",\n      \"object\": \"Montana\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Montana\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    }\n  ]\n}"
+}

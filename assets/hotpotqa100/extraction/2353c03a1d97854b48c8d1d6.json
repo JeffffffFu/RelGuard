@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "foxhound packs": "entity",
+    "Masters of Foxhounds Association": "organization",
+    "United Kingdom": "location",
+    "Northern Ireland": "location"
+  },
+  "triples": [
+    {
+      "subject": "foxhound packs",
+      "relation": "recognized_by",
+      "object": "Masters of Foxhounds Association",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "recognized by the Masters of Foxhounds Association"
+        }
+      ]
+    },
+    {
+      "subject": "foxhound packs",
+      "relation": "located_in",
+      "object": "United Kingdom",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the United Kingdom"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "foxhound packs",
+        "obliged_to",
+        "alternatives"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "alternatives",
+        "involves",
+        "trail hunting"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "alternatives",
+        "involves",
+        "legal fox control methods"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "limitations",
+        "imposed_by",
+        "legislation"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "legislation",
+        "excludes",
+        "Northern Ireland"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "List of foxhound packs of the United Kingdom\nThe following is a list of foxhound packs, recognized by the Masters of Foxhounds Association, in the United Kingdom who would formerly have hunted foxes, but are now obliged to undertake alternatives-either trail hunting or legal fox control methods- due to limitations imposed by legislation (excluding Northern Ireland)."
+}

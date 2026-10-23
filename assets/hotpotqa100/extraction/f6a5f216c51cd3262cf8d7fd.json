@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Le Royal Monceau Raffles Paris": "hotel",
+    "Philippe Starck": "designer",
+    "Il Carpaccio": "restaurant",
+    "Le Bar Long": "restaurant",
+    "Nobu Matsuhisa": "chef",
+    "Matsuhisa": "restaurant"
+  },
+  "triples": [
+    {
+      "subject": "Le Royal Monceau Raffles Paris",
+      "relation": "partnered_with",
+      "object": "Nobu Matsuhisa",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Chef Nobu Matsuhisa and le Royal Monceau partnered"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Le Royal Monceau Raffles Paris",
+        "located_at",
+        "37 avenue Hoche, 8th arrondissement, Paris, France"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Le Royal Monceau Raffles Paris",
+        "has",
+        "149 rooms"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Le Royal Monceau Raffles Paris",
+        "has",
+        "61 suites"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Le Royal Monceau Raffles Paris",
+        "has",
+        "3 luxury apartments"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "3 luxury apartments",
+        "refurbished_by",
+        "Philippe Starck"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Il Carpaccio",
+        "serves",
+        "Italian cuisine"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Le Bar Long",
+        "serves",
+        "lighter dishes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Le Bar Long",
+        "has",
+        "full bar"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Le Royal Monceau Raffles Paris",
+        "opened",
+        "Matsuhisa"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Royal Monceau Raffles Paris\nThe Le Royal Monceau Raffles Paris is a luxury hotel located at 37 avenue Hoche, 8th arrondissement, Paris, France. The hotel has 149 rooms with 61 suites and 3 luxury apartments that have been recently refurbished by the designer Philippe Starck. One of its restaurants has a Michelin star : \"Il Carpaccio\" serves Italian cuisine for lunch and dinner only and \"Le Bar Long\" serves lighter dishes all day from 8am to 2am with also a full bar available. Chef Nobu Matsuhisa and le Royal Monceau partnered and opened a Japanese restaurant, \"Matsuhisa\"."
+}

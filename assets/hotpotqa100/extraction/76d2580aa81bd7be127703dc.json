@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Mass Slaughter: The Best of Slaughter": "WORK_OF_ART",
+    "Slaughter": "ORG",
+    "American": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Mass Slaughter: The Best of Slaughter",
+        "is_a",
+        "compilation album"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mass Slaughter: The Best of Slaughter",
+        "by",
+        "Slaughter"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Slaughter",
+        "has_norp",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Mass Slaughter: The Best of Slaughter\nMass Slaughter: The Best of Slaughter is a compilation album by American glam metal band Slaughter .",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Mass Slaughter: The Best of Slaughter\",\n      \"type\": \"WORK_OF_ART\"\n    },\n    {\n      \"name\": \"Slaughter\",\n      \"type\": \"ORG\"\n    },\n    {\n      \"name\": \"American\",\n      \"type\": \"NORP\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Mass Slaughter: The Best of Slaughter\",\n      \"relation\": \"is_a\",\n      \"object\": \"compilation album\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Mass Slaughter: The Best of Slaughter\",\n      \"relation\": \"by\",\n      \"object\": \"Slaughter\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Slaughter\",\n      \"relation\": \"has_norp\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"American\"\n        }\n      ]\n    }\n  ]\n}"
+}

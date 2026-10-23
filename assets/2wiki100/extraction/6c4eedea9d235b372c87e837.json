@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Kai Rabe gegen die Vatikankiller": "WORK_OF_ART",
+    "Kai Rabe vs. the Vatican Killers": "WORK_OF_ART",
+    "1998": "EVENT",
+    "Thomas Jahn": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Kai Rabe gegen die Vatikankiller",
+      "relation": "directed_by",
+      "object": "Thomas Jahn",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 99,
+          "char_start": 132,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Germany (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Kai Rabe gegen die Vatikankiller",
+        "located_in",
+        "Germany"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kai Rabe gegen die Vatikankiller",
+        "works_for",
+        "Kai Rabe vs. the Vatican Killers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kai Rabe gegen die Vatikankiller",
+        "founded",
+        "1998"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kai Rabe gegen die Vatikankiller\nKai Rabe gegen die Vatikankiller(\" Kai Rabe vs. the Vatican Killers\") is a 1998 German comedy film directed by Thomas Jahn.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kai Rabe gegen die Vatikankiller\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Kai Rabe vs. the Vatican Killers\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"1998\", \"type\": \"EVENT\"},\n    {\"name\": \"Germany\", \"type\": \"GPE\"},\n    {\"name\": \"Thomas Jahn\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kai Rabe gegen die Vatikankiller\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Thomas Jahn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Kai Rabe gegen die Vatikankiller\",\n      \"relation\": \"located_in\",\n      \"object\": \"Germany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"German\"}\n      ]\n    },\n    {\n      \"subject\": \"Kai Rabe gegen die Vatikankiller\",\n      \"relation\": \"works_for\",\n      \"object\": \"Kai Rabe vs. the Vatican Killers\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"\"}\n      ]\n    },\n    {\n      \"subject\": \"Kai Rabe gegen die Vatikankiller\",\n      \"relation\": \"founded\",\n      \"object\": \"1998\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a 1998\"}\n      ]\n    }\n  ]\n}"
+}

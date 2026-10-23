@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Blancpain GT Series": "event",
+    "Stéphane Ratel Organisation": "organization",
+    "Fédération Internationale de l'Automobile": "organization",
+    "Blancpain GT Series Sprint Cup": "event",
+    "Blancpain GT Series Endurance Cup": "event",
+    "FIA GT Series": "event",
+    "Blancpain Sprint Series": "event",
+    "Blancpain": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Blancpain GT Series",
+      "relation": "organized_by",
+      "object": "Stéphane Ratel Organisation",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "organized by the Stéphane Ratel Organisation (SRO)"
+        }
+      ]
+    },
+    {
+      "subject": "Blancpain GT Series",
+      "relation": "approved_by",
+      "object": "Fédération Internationale de l'Automobile",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with the approval of the Fédération Internationale de l'Automobile (FIA)"
+        }
+      ]
+    },
+    {
+      "subject": "Blancpain GT Series",
+      "relation": "divided_into",
+      "object": "Blancpain GT Series Sprint Cup",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "divided into two separate championships, the Blancpain GT Series Sprint Cup"
+        }
+      ]
+    },
+    {
+      "subject": "FIA GT Series",
+      "relation": "became",
+      "object": "Blancpain Sprint Series",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the FIA GT Series became the Blancpain Sprint Series"
+        }
+      ]
+    },
+    {
+      "subject": "Blancpain Sprint Series",
+      "relation": "now_known_as",
+      "object": "Blancpain GT Series Sprint Cup",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "which is now the Blancpain GT Series Sprint Cup"
+        }
+      ]
+    },
+    {
+      "subject": "Blancpain GT Series",
+      "relation": "sponsored_by",
+      "object": "Blancpain",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "is primarily sponsored by Swiss watchmaker Blancpain"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Blancpain GT Series",
+        "divided_into",
+        "Blancpain GT Series Endurance Cup"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Blancpain GT Series Endurance Cup",
+        "organised_since",
+        "2011"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Blancpain GT Series",
+        "inaugural_season",
+        "2014"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Blancpain GT Series\nThe Blancpain GT Series is a sports car racing series organized by the Stéphane Ratel Organisation (SRO) with the approval of the Fédération Internationale de l'Automobile (FIA). It features grand tourer racing cars modified from production road cars complying with the FIA's GT3 regulations. The series is divided into two separate championships, the Blancpain GT Series Sprint Cup and the Blancpain GT Series Endurance Cup. Although the Blancpain GT Series Endurance Cup is organised since 2011, the inaugural season of the Blancpain GT Series is 2014, because in that year the FIA GT Series became the Blancpain Sprint Series, which is now the Blancpain GT Series Sprint Cup. The series is primarily sponsored by Swiss watchmaker Blancpain."
+}

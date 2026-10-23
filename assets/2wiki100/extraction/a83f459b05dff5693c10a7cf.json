@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Phillip J. Roth": "PERSON",
+    "Unified Film Organization": "ORG",
+    "UFO": "ORG",
+    "Bulgaria": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Phillip J. Roth",
+      "relation": "works_for",
+      "object": "Unified Film Organization",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is the founder of the Unified Film Organization( UFO)",
+          "line_start": 139,
+          "char_start": 155,
+          "ambiguous": false,
+          "relation_mention": "is the founder of the Unified Film Organization( UFO)",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Unified Film Organization",
+      "relation": "located_in",
+      "object": "Bulgaria",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in America and Bulgaria",
+          "line_start": 193,
+          "char_start": 209,
+          "ambiguous": false,
+          "relation_mention": "in America and Bulgaria",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Unified Film Organization",
+      "relation": "alias",
+      "object": "UFO",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Unified Film Organization( UFO)",
+          "line_start": 161,
+          "char_start": 177,
+          "ambiguous": false,
+          "relation_mention": "Unified Film Organization( UFO)",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Phillip J. Roth",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Unified Film Organization",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Phillip J. Roth\nPhillip J. Roth( born June 10, 1959) is an American film producer, director and screenwriter who is known for making low- budget films. He is the founder of the Unified Film Organization( UFO) in America and Bulgaria, which have released various action and science fiction films for television and home video markets."
+}

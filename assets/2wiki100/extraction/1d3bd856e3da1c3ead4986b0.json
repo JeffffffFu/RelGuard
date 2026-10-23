@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Christ Walking on the Water": "WORK_OF_ART",
+    "French": "NORP",
+    "Georges Méliès": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Christ Walking on the Water",
+      "relation": "directed_by",
+      "object": "Georges Méliès",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 64,
+          "char_start": 92,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Christ Walking on the Water",
+        "located_in",
+        "French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Christ Walking on the Water\nChrist Walking on the Water is an 1899 French short silent film directed by Georges Méliès.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Christ Walking on the Water\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"French\", \"type\": \"NORP\"},\n    {\"name\": \"Georges Méliès\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Christ Walking on the Water\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Georges Méliès\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Christ Walking on the Water\",\n      \"relation\": \"located_in\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"French\"}\n      ]\n    }\n  ]\n}"
+}

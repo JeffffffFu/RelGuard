@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Branch Rickey Arena": "Location",
+    "Ohio Wesleyan University": "Organization",
+    "Delaware": "Location",
+    "Edwards Gymnasium": "Location",
+    "Wesleyan Battling Bishops": "Team",
+    "Branch Rickey": "Person",
+    "Brooklyn Dodgers": "Team"
+  },
+  "triples": [
+    {
+      "subject": "Branch Rickey Arena",
+      "relation": "located_in",
+      "object": "Ohio Wesleyan University",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at Ohio Wesleyan University"
+        }
+      ]
+    },
+    {
+      "subject": "Branch Rickey Arena",
+      "relation": "located_in",
+      "object": "Delaware",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Delaware, Ohio"
+        }
+      ]
+    },
+    {
+      "subject": "Branch Rickey Arena",
+      "relation": "home_to",
+      "object": "Wesleyan Battling Bishops",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "home to the Wesleyan Battling Bishops basketball and volleyball teams"
+        }
+      ]
+    },
+    {
+      "subject": "Branch Rickey Arena",
+      "relation": "replaced",
+      "object": "Edwards Gymnasium",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "replacing Edwards Gymnasium"
+        }
+      ]
+    },
+    {
+      "subject": "Branch Rickey",
+      "relation": "benefactor_to",
+      "object": "Ohio Wesleyan University",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "a major benefactor to the university"
+        }
+      ]
+    },
+    {
+      "subject": "Branch Rickey",
+      "relation": "manager_of",
+      "object": "Brooklyn Dodgers",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "a manager of the Brooklyn Dodgers"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Branch Rickey Arena",
+        "opened_in",
+        "June 1976"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Edwards Gymnasium",
+        "remodeled_to",
+        "exercise facility"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Branch Rickey",
+        "class_of",
+        "1904"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Branch Rickey Arena\nBranch Rickey Arena is a 2,300-seat multi-purpose arena at Ohio Wesleyan University in Delaware, Ohio, located centrally on campus and adjacent to Edwards Gymnasium. It is home to the Wesleyan Battling Bishops basketball and volleyball teams. It opened in June 1976, replacing Edwards Gymnasium, which was remodeled to become a full-time exercise facility. It was named for the late Branch Rickey, Class of 1904, a major benefactor to the university and a manager of the Brooklyn Dodgers."
+}

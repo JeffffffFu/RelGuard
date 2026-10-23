@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "United States Soccer Federation": "ORG",
+    "2022 FIFA World Cup": "EVENT",
+    "U.S. Soccer": "ORG",
+    "2018 World Cup": "EVENT",
+    "2018 Cups": "EVENT",
+    "2022 Cups": "EVENT",
+    "2022 edition": "EVENT",
+    "Qatar": "GPE",
+    "Bill Clinton": "PERSON",
+    "FIFA": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "United States Soccer Federation",
+      "relation": "submitted_bid_for",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "submitted a bid with the hope of hosting",
+          "line_start": 36,
+          "char_start": 74,
+          "ambiguous": false,
+          "relation_mention": "submitted a bid with the hope of hosting",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Qatar",
+      "relation": "was_announced_host_of",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "would be the host of the 2022 FIFA World Cup",
+          "line_start": 439,
+          "char_start": 477,
+          "ambiguous": false,
+          "relation_mention": "would be the host of the 2022 FIFA World Cup",
+          "sentence_id": 7
+        }
+      ]
+    },
+    {
+      "subject": "Bill Clinton",
+      "relation": "remarked_about",
+      "object": "FIFA",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "remarked \"The FIFA people were in a mood to give it to people who didn’t have it.",
+          "line_start": 498,
+          "char_start": 536,
+          "ambiguous": false,
+          "relation_mention": "remarked \"The FIFA people were in a mood to give it to people who didn’t have it.",
+          "sentence_id": 8
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "U.S. Soccer",
+        "said",
+        "it would put forth a bid for the 2018 World Cup"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "U.S. Soccer",
+        "announced",
+        "it would submit bids for both the 2018 and 2022 Cups"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "U.S. Soccer",
+        "withdrew_from",
+        "2018 bid process"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "United States 2022 FIFA World Cup bid\nThe United States Soccer Federation submitted a bid with the hope of hosting the 2022 FIFA World Cup. U.S. Soccer first said in February 2007 that it would put forth a bid for the 2018 World Cup. On January 28, 2009, U.S. Soccer announced that it would submit bids for both the 2018 and 2022 Cups. In October 2010 it withdrew from the 2018 bid process to focus on winning the 2022 edition. On December 2, 2010, it was announced that Qatar would be the host of the 2022 FIFA World Cup. Bill Clinton remarked \"The FIFA people were in a mood to give it to people who didn’t have it. I think they wanted to make soccer a world sport.\""
+}

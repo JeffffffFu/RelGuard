@@ -1,0 +1,136 @@
+{
+  "entities": {
+    "Boreel Baronetcy": "title",
+    "William Boreel": "person",
+    "James Boreel": "person",
+    "John Hieronymous Boreel": "person",
+    "Boreel baronets": "family",
+    "Netherlands": "location",
+    "England": "location",
+    "Sweden": "location",
+    "Venice": "location"
+  },
+  "triples": [
+    {
+      "subject": "Boreel Baronetcy",
+      "relation": "created_for",
+      "object": "William Boreel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "created on 21 March 1645 for William Boreel"
+        }
+      ]
+    },
+    {
+      "subject": "William Boreel",
+      "relation": "was_ambassador_to",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He was Dutch Ambassador to England"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "William Boreel",
+        "was_ambassador_to",
+        "Sweden"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "William Boreel",
+        "was_ambassador_to",
+        "Venice"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Boreel baronets",
+        "descended_in_direct_line_until",
+        "1710"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Boreel baronets",
+        "succeeded_by",
+        "fourth Baronet"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fourth Baronet",
+        "died_without_male_issue",
+        "fifth Baronet"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fifth Baronet",
+        "was_son_of",
+        "James Boreel"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fifth Baronet",
+        "succeeded_by",
+        "sixth Baronet"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "sixth Baronet",
+        "was_son_of",
+        "James Boreel"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "sixth Baronet",
+        "never_married",
+        "seventh Baronet"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "seventh Baronet",
+        "was_grandson_of",
+        "John Hieronymous Boreel"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "eighth Baronet",
+        "was_created_a",
+        "Jonkheer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Boreel baronets",
+        "descended_from_father_to_son_until",
+        "1937"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Boreel baronets\nThe Boreel, later Boreel Baronetcy, of Amsterdam in the Netherlands, is a title in the Baronetage of England. It was created on 21 March 1645 for William Boreel. He was Dutch Ambassador to England, Sweden and Venice. The title descended in the direct line until the death of his grandson, the third Baronet, in 1710. The late Baronet died unmarried and was succeeded by his younger brother, the fourth Baronet. He died without male issue and was succeeded by his first cousin, the fifth Baronet. He was the son of James Boreel, younger son of the first Baronet. He died childless and was succeeded by his nephew, the sixth Baronet. He was the son of James Boreel, younger brother of the fifth Baronet. He never married and was succeeded by his first cousin once removed, the seventh Baronet. He was the grandson of John Hieronymous Boreel, younger brother of the fifth Baronet. His son, the eighth Baronet, was created a Jonkheer in the Dutch nobility. The title descended from father to son until the death of his grandson, the tenth Baronet, in 1937."
+}

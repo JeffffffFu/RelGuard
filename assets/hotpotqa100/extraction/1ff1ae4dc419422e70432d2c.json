@@ -1,0 +1,124 @@
+{
+  "entities": {
+    "Contra-rotating propellers": "PRODUCT",
+    "CRP": "PRODUCT",
+    "coaxial contra-rotating propellers": "PRODUCT",
+    "high-speed propellers": "PRODUCT",
+    "piston engine": "PRODUCT",
+    "turboprop engine": "PRODUCT",
+    "planetary gear": "PRODUCT",
+    "spur gear transmission": "PRODUCT",
+    "counter-rotating propellers": "PRODUCT",
+    "airscrews": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Contra-rotating propellers",
+      "relation": "should_not_be_confused_with",
+      "object": "counter-rotating propellers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "should not be confused with",
+          "line_start": 481,
+          "char_start": 508,
+          "ambiguous": false,
+          "relation_mention": "should not be confused with",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Aircraft equipped with contra-rotating propellers",
+        "also_referred_to_as",
+        "CRP"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aircraft equipped with contra-rotating propellers",
+        "also_referred_to_as",
+        "coaxial contra-rotating propellers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aircraft equipped with contra-rotating propellers",
+        "also_referred_to_as",
+        "high-speed propellers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Contra-rotating propellers",
+        "driven_by",
+        "piston engine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Contra-rotating propellers",
+        "driven_by",
+        "turboprop engine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Two propellers",
+        "arranged_as",
+        "one behind the other"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "power",
+        "transferred_via",
+        "planetary gear"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "power",
+        "transferred_via",
+        "spur gear transmission"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "counter-rotating propellers",
+        "are",
+        "airscrews"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "counter-rotating propellers",
+        "located_on",
+        "separate shafts"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "counter-rotating propellers",
+        "turning_in",
+        "opposite directions"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Contra-rotating propellers\nAircraft equipped with contra-rotating propellers, also referred to as CRP, coaxial contra-rotating propellers, or high-speed propellers, apply the maximum power of usually a single piston or turboprop engine to drive two coaxial propellers in contra-rotation (rotation about the same axis in opposite directions). Two propellers are arranged one behind the other, and power is transferred from the engine via a planetary gear or spur gear transmission. Contra-rotating propellers should not be confused with counter-rotating propellers—airscrews on separate shafts turning in opposite directions.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Contra-rotating propellers\", \"type\": \"PRODUCT\"},\n    {\"name\": \"CRP\", \"type\": \"PRODUCT\"},\n    {\"name\": \"coaxial contra-rotating propellers\", \"type\": \"PRODUCT\"},\n    {\"name\": \"high-speed propellers\", \"type\": \"PRODUCT\"},\n    {\"name\": \"piston engine\", \"type\": \"PRODUCT\"},\n    {\"name\": \"turboprop engine\", \"type\": \"PRODUCT\"},\n    {\"name\": \"planetary gear\", \"type\": \"PRODUCT\"},\n    {\"name\": \"spur gear transmission\", \"type\": \"PRODUCT\"},\n    {\"name\": \"counter-rotating propellers\", \"type\": \"PRODUCT\"},\n    {\"name\": \"airscrews\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Aircraft equipped with contra-rotating propellers\",\n      \"relation\": \"also_referred_to_as\",\n      \"object\": \"CRP\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also referred to as\"}\n      ]\n    },\n    {\n      \"subject\": \"Aircraft equipped with contra-rotating propellers\",\n      \"relation\": \"also_referred_to_as\",\n      \"object\": \"coaxial contra-rotating propellers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also referred to as\"}\n      ]\n    },\n    {\n      \"subject\": \"Aircraft equipped with contra-rotating propellers\",\n      \"relation\": \"also_referred_to_as\",\n      \"object\": \"high-speed propellers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also referred to as\"}\n      ]\n    },\n    {\n      \"subject\": \"Contra-rotating propellers\",\n      \"relation\": \"driven_by\",\n      \"object\": \"piston engine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"drive\"}\n      ]\n    },\n    {\n      \"subject\": \"Contra-rotating propellers\",\n      \"relation\": \"driven_by\",\n      \"object\": \"turboprop engine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"drive\"}\n      ]\n    },\n    {\n      \"subject\": \"Two propellers\",\n      \"relation\": \"arranged_as\",\n      \"object\": \"one behind the other\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"arranged one behind the other\"}\n      ]\n    },\n    {\n      \"subject\": \"power\",\n      \"relation\": \"transferred_via\",\n      \"object\": \"planetary gear\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"via a planetary gear\"}\n      ]\n    },\n    {\n      \"subject\": \"power\",\n      \"relation\": \"transferred_via\",\n      \"object\": \"spur gear transmission\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"via a planetary gear or spur gear transmission\"}\n      ]\n    },\n    {\n      \"subject\": \"Contra-rotating propellers\",\n      \"relation\": \"should_not_be_confused_with\",\n      \"object\": \"counter-rotating propellers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"should not be confused with\"}\n      ]\n    },\n    {\n      \"subject\": \"counter-rotating propellers\",\n      \"relation\": \"are\",\n      \"object\": \"airscrews\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"airscrews\"}\n      ]\n    },\n    {\n      \"subject\": \"counter-rotating propellers\",\n      \"relation\": \"located_on\",\n      \"object\": \"separate shafts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on separate shafts\"}\n      ]\n    },\n    {\n      \"subject\": \"counter-rotating propellers\",\n      \"relation\": \"turning_in\",\n      \"object\": \"opposite directions\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"turning in opposite directions\"}\n      ]\n    }\n  ]\n}"
+}

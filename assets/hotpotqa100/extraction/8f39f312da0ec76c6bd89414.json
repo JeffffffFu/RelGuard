@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Henry Covered Bridge": "Location",
+    "Bartlett": "Location",
+    "Ohio": "Location",
+    "Washington County": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Henry Covered Bridge",
+      "relation": "located_near",
+      "object": "Bartlett",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Henry Covered Bridge near Bartlett, Ohio is a historic covered bridge."
+        }
+      ]
+    },
+    {
+      "subject": "Henry Covered Bridge",
+      "relation": "located_in",
+      "object": "Ohio",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Henry Covered Bridge near Bartlett, Ohio is a historic covered bridge."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Henry Covered Bridge",
+        "located_in",
+        "Washington County"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Henry Covered Bridge",
+        "built_in",
+        "1894"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Henry Covered Bridge (Ohio)\nThe Henry Covered Bridge near Bartlett, Ohio is a historic covered bridge. The bridge is on TR61 off OH550 southeast of Bartlett, Ohio, in Washington County, Ohio. It is a \"Multiple Kingpost\" truss type, and it is 45 feet long, and was built in 1894."
+}

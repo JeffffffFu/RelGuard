@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Tobacconist": "WORK_OF_ART",
+    "tobacco shop": "FAC",
+    "smoke shop": "FAC",
+    "USA": "GPE",
+    "United Kingdom": "GPE",
+    "CONTOB": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Tobacconist",
+        "also_called",
+        "tobacco shop"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tobacconist",
+        "also_called",
+        "smoke shop"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "tobacconist",
+        "represented_by",
+        "wooden Indian"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "supermarkets",
+        "located_in",
+        "many countries"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "CONTOB",
+        "aka",
+        "confectionery and tobacco"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "newsagent",
+        "sells",
+        "newspapers and magazines"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Tobacconist\nA tobacconist, also called a tobacco shop or smoke shop, is a retailer of tobacco products in various forms and the related accoutrements, such as pipes, lighters, matches, pipe cleaners, pipe tampers. More specialized retailers may sell ashtrays, humidification devices, hygrometers, humidors, cigar cutters, and more. Books and magazines, especially ones related to tobacco are commonly offered. Items irrelevant to tobacco such as puzzles, games, figurines, hip flasks, canes or other walking sticks, and candy are sometimes sold. In the USA, a tobacconist shop is traditionally represented by a wooden Indian positioned nearby. Most retailers of tobacco sell other types of product; today supermarkets, in many countries with a special counter, are usually the main sellers of the common brands of cigarette. In the United Kingdom, a common combination in small shops has been a newsagent selling newspapers and magazines, as well as confectionery and tobacco. In UK retailing this sector is known as \"CONTOB\" (\"confectionery and tobacco\").",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Tobacconist\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"tobacco shop\", \"type\": \"FAC\"},\n    {\"name\": \"smoke shop\", \"type\": \"FAC\"},\n    {\"name\": \"USA\", \"type\": \"GPE\"},\n    {\"name\": \"United Kingdom\", \"type\": \"GPE\"},\n    {\"name\": \"CONTOB\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Tobacconist\",\n      \"relation\": \"also_called\",\n      \"object\": \"tobacco shop\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also called a tobacco shop\"}\n      ]\n    },\n    {\n      \"subject\": \"Tobacconist\",\n      \"relation\": \"also_called\",\n      \"object\": \"smoke shop\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also called a tobacco shop or smoke shop\"}\n      ]\n    },\n    {\n      \"subject\": \"tobacconist\",\n      \"relation\": \"represented_by\",\n      \"object\": \"wooden Indian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"represented by a wooden Indian\"}\n      ]\n    },\n    {\n      \"subject\": \"supermarkets\",\n      \"relation\": \"located_in\",\n      \"object\": \"many countries\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in many countries\"}\n      ]\n    },\n    {\n      \"subject\": \"CONTOB\",\n      \"relation\": \"aka\",\n      \"object\": \"confectionery and tobacco\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\"CONTOB\\\" (\\\"confectionery and tobacco\\\")\"}\n      ]\n    },\n    {\n      \"subject\": \"newsagent\",\n      \"relation\": \"sells\",\n      \"object\": \"newspapers and magazines\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"selling newspapers and magazines\"}\n      ]\n    }\n  ]\n}"
+}

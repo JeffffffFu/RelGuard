@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "The Cove": "novel",
+    "Ron Rash": "author",
+    "Serena": "novel",
+    "New York Times": "publication",
+    "New York Times Bestseller list": "list",
+    "The New York Times Book Review": "publication"
+  },
+  "triples": [
+    {
+      "subject": "The Cove",
+      "relation": "written_by",
+      "object": "Ron Rash",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a 2012 novel by American author Ron Rash"
+        }
+      ]
+    },
+    {
+      "subject": "Ron Rash",
+      "relation": "fifth_novel",
+      "object": "The Cove",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Rash's fifth novel"
+        }
+      ]
+    },
+    {
+      "subject": "The Cove",
+      "relation": "listed_on",
+      "object": "New York Times Bestseller list",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was listed as #16 on the New York Times Bestseller list"
+        }
+      ]
+    },
+    {
+      "subject": "The Cove",
+      "relation": "remained_on",
+      "object": "New York Times Bestseller list",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "remained on the list as #29, #22, and #31 for the three subsequent weeks"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Cove",
+        "acclaimed_as",
+        "Serena"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "New York Times Bestseller list",
+        "published_in",
+        "The New York Times Book Review"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Cove (novel)\nThe Cove is a 2012 novel by American author Ron Rash. It is Rash's fifth novel, his most acclaimed novel being the \"New York Times\" bestseller, \"Serena\". \"The Cove\" was listed as #16 on the New York Times Bestseller list for Hardcover Fiction in the April 29, 2012 issue of \"The New York Times Book Review\" and remained on the list as #29, #22, and #31 for the three subsequent weeks."
+}

@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "The Half-Way Girl": "WORK_OF_ART",
+    "John Francis Dillon": "PERSON",
+    "Jersey Shore": "LOC",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "The Half-Way Girl",
+      "relation": "directed_by",
+      "object": "John Francis Dillon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 55,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Half-Way Girl",
+      "relation": "located_in",
+      "object": "Jersey Shore",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "filmed around",
+          "line_start": 96,
+          "char_start": 114,
+          "ambiguous": false,
+          "relation_mention": "filmed around",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Half-Way Girl",
+        "has_norp",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Half-Way Girl\nThe Half-Way Girl is a 1925 American silent drama film directed by John Francis Dillon that was filmed around the Jersey Shore.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Half-Way Girl\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"John Francis Dillon\", \"type\": \"PERSON\"},\n    {\"name\": \"Jersey Shore\", \"type\": \"LOC\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Half-Way Girl\",\n      \"relation\": \"directed_by\",\n      \"object\": \"John Francis Dillon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Half-Way Girl\",\n      \"relation\": \"located_in\",\n      \"object\": \"Jersey Shore\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"filmed around\"}\n      ]\n    },\n    {\n      \"subject\": \"The Half-Way Girl\",\n      \"relation\": \"has_norp\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    }\n  ]\n}"
+}

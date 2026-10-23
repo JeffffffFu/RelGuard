@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Querelle": "Film",
+    "Rainer Werner Fassbinder": "Person",
+    "Brad Davis": "Person",
+    "Jean Genet": "Person",
+    "Querelle of Brest": "Book"
+  },
+  "triples": [
+    {
+      "subject": "Querelle",
+      "relation": "directed_by",
+      "object": "Rainer Werner Fassbinder",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Rainer Werner Fassbinder"
+        }
+      ]
+    },
+    {
+      "subject": "Querelle",
+      "relation": "starring",
+      "object": "Brad Davis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Brad Davis"
+        }
+      ]
+    },
+    {
+      "subject": "Rainer Werner Fassbinder",
+      "relation": "final_film",
+      "object": "Querelle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Fassbinder's final film as a writer/ director"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Querelle",
+        "adapted_from",
+        "Querelle of Brest"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rainer Werner Fassbinder",
+        "died_of",
+        "drug overdose"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Querelle\nQuerelle is a 1982 West German- French English- language drama film directed by Rainer Werner Fassbinder and starring Brad Davis, adapted from French author Jean Genet's 1947 novel\" Querelle of Brest\". It marked Fassbinder's final film as a writer/ director; it was posthumously released just months after the director died of a drug overdose in June 1982."
+}

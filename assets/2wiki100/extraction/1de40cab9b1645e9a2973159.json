@@ -1,0 +1,165 @@
+{
+  "entities": {
+    "Thiruvannamalai": "WORK_OF_ART",
+    "Perarasu": "PERSON",
+    "Arjun Sarja": "PERSON",
+    "Pooja Gandhi": "PERSON",
+    "Karunaas": "PERSON",
+    "Sai Kumar": "PERSON",
+    "Vidharth": "PERSON",
+    "Srikanth Deva": "PERSON",
+    "Main Hoon Vinashak": "WORK_OF_ART",
+    "Jai Sambasiva": "WORK_OF_ART",
+    "Tamil": "LANGUAGE",
+    "Hindi": "LANGUAGE",
+    "Telugu": "LANGUAGE"
+  },
+  "triples": [
+    {
+      "subject": "Thiruvannamalai",
+      "relation": "directed_by",
+      "object": "Perarasu",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 63,
+          "char_start": 86,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Thiruvannamalai",
+      "relation": "written_by",
+      "object": "Perarasu",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written and directed by",
+          "line_start": 51,
+          "char_start": 74,
+          "ambiguous": false,
+          "relation_mention": "written and directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Thiruvannamalai",
+      "relation": "music_composed_by",
+      "object": "Srikanth Deva",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "composed by",
+          "line_start": 170,
+          "char_start": 193,
+          "ambiguous": false,
+          "relation_mention": "composed by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "India (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Thiruvannamalai",
+        "stars",
+        "Arjun Sarja"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thiruvannamalai",
+        "stars",
+        "Pooja Gandhi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thiruvannamalai",
+        "stars",
+        "Karunaas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thiruvannamalai",
+        "stars",
+        "Sai Kumar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thiruvannamalai",
+        "stars",
+        "Vidharth"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thiruvannamalai",
+        "language",
+        "Tamil"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thiruvannamalai",
+        "located_in",
+        "India"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Thiruvannamalai",
+        "dubbed_in",
+        "Hindi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thiruvannamalai",
+        "dubbed_in",
+        "Telugu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thiruvannamalai",
+        "has_dubbed_title",
+        "Main Hoon Vinashak"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thiruvannamalai",
+        "has_dubbed_title",
+        "Jai Sambasiva"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Thiruvannamalai (film)\nThiruvannamalai is a 2008 Indian Tamil masala film written and directed by Perarasu. It stars Arjun Sarja, Pooja Gandhi, Karunaas, Sai Kumar, and Vidharth. The music was composed by Srikanth Deva. The film was later dubbed in Hindi as \"Main Hoon Vinashak\" and in Telugu as \"Jai Sambasiva\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Thiruvannamalai\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Perarasu\", \"type\": \"PERSON\"},\n    {\"name\": \"Arjun Sarja\", \"type\": \"PERSON\"},\n    {\"name\": \"Pooja Gandhi\", \"type\": \"PERSON\"},\n    {\"name\": \"Karunaas\", \"type\": \"PERSON\"},\n    {\"name\": \"Sai Kumar\", \"type\": \"PERSON\"},\n    {\"name\": \"Vidharth\", \"type\": \"PERSON\"},\n    {\"name\": \"Srikanth Deva\", \"type\": \"PERSON\"},\n    {\"name\": \"Main Hoon Vinashak\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Jai Sambasiva\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Tamil\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Hindi\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Telugu\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"India\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Perarasu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"written_by\",\n      \"object\": \"Perarasu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"stars\",\n      \"object\": \"Arjun Sarja\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"stars\",\n      \"object\": \"Pooja Gandhi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"stars\",\n      \"object\": \"Karunaas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"stars\",\n      \"object\": \"Sai Kumar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"stars\",\n      \"object\": \"Vidharth\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"music_composed_by\",\n      \"object\": \"Srikanth Deva\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"composed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"language\",\n      \"object\": \"Tamil\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Tamil\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"located_in\",\n      \"object\": \"India\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Indian\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"dubbed_in\",\n      \"object\": \"Hindi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"dubbed in Hindi as \\\"Main Hoon Vinashak\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"dubbed_in\",\n      \"object\": \"Telugu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and in Telugu as \\\"Jai Sambasiva\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"has_dubbed_title\",\n      \"object\": \"Main Hoon Vinashak\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"dubbed in Hindi as \\\"Main Hoon Vinashak\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Thiruvannamalai\",\n      \"relation\": \"has_dubbed_title\",\n      \"object\": \"Jai Sambasiva\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and in Telugu as \\\"Jai Sambasiva\\\"\"}\n      ]\n    }\n  ]\n}"
+}

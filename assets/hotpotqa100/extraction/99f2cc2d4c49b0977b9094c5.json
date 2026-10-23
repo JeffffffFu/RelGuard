@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "KKBN": "ORG",
+    "The Cabin": "WORK_OF_ART",
+    "Twain Harte": "GPE",
+    "California": "GPE",
+    "United States": "GPE",
+    "Mother Lode": "LOC",
+    "Clarke Broadcasting Corporation": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "Tuolumne County (GPE)",
+        "Calaveras County (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "KKBN",
+        "also_known_as",
+        "The Cabin"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KKBN",
+        "located_in",
+        "Twain Harte"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Twain Harte",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "California",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KKBN",
+        "serves",
+        "Mother Lode"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mother Lode",
+        "comprising",
+        "Tuolumne County"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mother Lode",
+        "comprising",
+        "Calaveras County"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "KKBN",
+        "owned_by",
+        "Clarke Broadcasting Corporation"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "KKBN\nKKBN (93.5 FM) The Cabin a radio station since 1986 broadcasting a Country music format since March 2000. Licensed to Twain Harte, California, United States, the station serves the greater Mother Lode area comprising Tuolumne and Calaveras Counties with a combined population of approximately 110,000. The station is currently owned by Clarke Broadcasting Corporation.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"KKBN\", \"type\": \"ORG\"},\n    {\"name\": \"The Cabin\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Twain Harte\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Mother Lode\", \"type\": \"LOC\"},\n    {\"name\": \"Tuolumne County\", \"type\": \"GPE\"},\n    {\"name\": \"Calaveras County\", \"type\": \"GPE\"},\n    {\"name\": \"Clarke Broadcasting Corporation\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"KKBN\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"The Cabin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(93.5 FM) The Cabin\"}\n      ]\n    },\n    {\n      \"subject\": \"KKBN\",\n      \"relation\": \"located_in\",\n      \"object\": \"Twain Harte\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Licensed to Twain Harte\"}\n      ]\n    },\n    {\n      \"subject\": \"Twain Harte\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Twain Harte, California\"}\n      ]\n    },\n    {\n      \"subject\": \"California\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"California, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"KKBN\",\n      \"relation\": \"serves\",\n      \"object\": \"Mother Lode\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves the greater Mother Lode area\"}\n      ]\n    },\n    {\n      \"subject\": \"Mother Lode\",\n      \"relation\": \"comprising\",\n      \"object\": \"Tuolumne County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"comprising Tuolumne\"}\n      ]\n    },\n    {\n      \"subject\": \"Mother Lode\",\n      \"relation\": \"comprising\",\n      \"object\": \"Calaveras County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Calaveras Counties\"}\n      ]\n    },\n    {\n      \"subject\": \"KKBN\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Clarke Broadcasting Corporation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by Clarke Broadcasting Corporation\"}\n      ]\n    }\n  ]\n}"
+}

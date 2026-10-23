@@ -1,0 +1,128 @@
+{
+  "entities": {
+    "Henry Edwards": "PERSON",
+    "Chrissie White": "PERSON",
+    "Weston-super-Mare": "GPE",
+    "Somerset": "GPE",
+    "Chobham": "GPE",
+    "Surrey": "GPE",
+    "English": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Henry Edwards",
+      "relation": "married_to",
+      "object": "Chrissie White",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was married to",
+          "line_start": 196,
+          "char_start": 218,
+          "ambiguous": false,
+          "relation_mention": "was married to",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Chrissie White",
+      "relation": "co_starred_in",
+      "object": "Henry Edwards",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "co-starred in",
+          "line_start": 239,
+          "char_start": 261,
+          "ambiguous": false,
+          "relation_mention": "co-starred in",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Henry Edwards",
+      "relation": "was_born_in",
+      "object": "Weston-super-Mare",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 283,
+          "char_start": 305,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Weston-super-Mare",
+      "relation": "located_in",
+      "object": "Somerset",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Weston-super-Mare, Somerset",
+          "line_start": 291,
+          "char_start": 313,
+          "ambiguous": false,
+          "relation_mention": "Weston-super-Mare, Somerset",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Henry Edwards",
+      "relation": "died_in",
+      "object": "Chobham",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died in",
+          "line_start": 323,
+          "char_start": 345,
+          "ambiguous": false,
+          "relation_mention": "died in",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Chobham",
+      "relation": "located_in",
+      "object": "Surrey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Chobham, Surrey",
+          "line_start": 331,
+          "char_start": 353,
+          "ambiguous": false,
+          "relation_mention": "Chobham, Surrey",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Henry Edwards",
+        "was_a",
+        "English"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henry Edwards",
+        "worked_as",
+        "PERSON"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Henry Edwards (actor)\nHenry Edwards (18 September 1882 – 2 November 1952) was an English actor and film director. He appeared in 81 films between 1915 and 1952. He also directed 67 films between 1915 and 1937. Edwards was married to actress Chrissie White, who co-starred in a number of his films. He was born in Weston-super-Mare, Somerset and died in Chobham, Surrey."
+}

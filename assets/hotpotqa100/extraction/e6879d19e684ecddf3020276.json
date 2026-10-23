@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Lewis Young": "PERSON",
+    "Lewis Jack Young": "PERSON",
+    "Crawley Town": "ORG",
+    "Ashley Young": "PERSON",
+    "Manchester United": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Lewis Young",
+      "relation": "full_name",
+      "object": "Lewis Jack Young",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Lewis Jack Young"
+        }
+      ]
+    },
+    {
+      "subject": "Lewis Jack Young",
+      "relation": "plays_for",
+      "object": "Crawley Town",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "plays for Crawley Town"
+        }
+      ]
+    },
+    {
+      "subject": "Lewis Jack Young",
+      "relation": "brother_of",
+      "object": "Ashley Young",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "younger brother of Manchester United footballer Ashley Young"
+        }
+      ]
+    },
+    {
+      "subject": "Ashley Young",
+      "relation": "plays_for",
+      "object": "Manchester United",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Manchester United footballer Ashley Young"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lewis Jack Young",
+        "born_on",
+        "27 September 1989"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lewis Young\nLewis Jack Young (born 27 September 1989) is an English professional footballer who plays for Crawley Town. He can play either as a striker, as a right winger or as, most recently, a right back. He is the younger brother of Manchester United footballer Ashley Young."
+}

@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Rick Clausen": "PERSON",
+    "Richard James Clausen": "PERSON",
+    "Calabasas High School": "ORG",
+    "Louisiana State University": "ORG",
+    "University of Tennessee": "ORG",
+    "Casey Clausen": "PERSON",
+    "Jimmy Clausen": "PERSON",
+    "Baltimore Ravens": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Richard James Clausen",
+      "relation": "works_for",
+      "object": "Calabasas High School",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "offensive coordinator/quarterbacks coach at Calabasas High School"
+        }
+      ]
+    },
+    {
+      "subject": "Richard James Clausen",
+      "relation": "played_for",
+      "object": "Louisiana State University",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played college football for Louisiana State University"
+        }
+      ]
+    },
+    {
+      "subject": "Casey Clausen",
+      "relation": "played_for",
+      "object": "University of Tennessee",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also played college football for Tennessee in 2000-2003"
+        }
+      ]
+    },
+    {
+      "subject": "Casey Clausen",
+      "relation": "works_for",
+      "object": "Calabasas High School",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the head football coach at Calabasas High School"
+        }
+      ]
+    },
+    {
+      "subject": "Jimmy Clausen",
+      "relation": "played_for",
+      "object": "Baltimore Ravens",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "formerly played quarterback for the Baltimore Ravens of the NFL"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Richard James Clausen",
+        "played_for",
+        "University of Tennessee"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Rick Clausen\nRichard James Clausen (born June 29, 1982) is the current offensive coordinator/quarterbacks coach at Calabasas High School. He is also a former American football player who played college football for Louisiana State University and University of Tennessee. During his two years at LSU (2001 Redshirt and 2002), he played in three games, starting the 2002 game against Ole Miss. At the end of the 2002 season, he transferred to Tennessee, where he walked on to the football team as a backup quarterback, sitting out the 2003 season under the NCAA transfer rules. His older brother, Casey, also played college football for Tennessee in 2000-2003 and is the head football coach at Calabasas High School. His youngest brother, Jimmy, formerly played quarterback for the Baltimore Ravens of the NFL."
+}

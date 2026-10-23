@@ -1,0 +1,129 @@
+{
+  "entities": {
+    "Rwandan genocide": "event",
+    "Tutsi": "ethnic_group",
+    "Hutu": "ethnic_group",
+    "Rwanda": "location",
+    "Rwandan Patriotic Front (RPF)": "organization",
+    "Paul Kagame": "person",
+    "Pygmy Batwa": "ethnic_group",
+    "Rwandans": "people"
+  },
+  "triples": [
+    {
+      "subject": "Rwandan genocide",
+      "relation": "killed",
+      "object": "Tutsi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "mass slaughter of Tutsi"
+        }
+      ]
+    },
+    {
+      "subject": "Rwandan genocide",
+      "relation": "occurred_in",
+      "object": "Rwanda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Rwanda"
+        }
+      ]
+    },
+    {
+      "subject": "Hutu",
+      "relation": "committed",
+      "object": "Rwandan genocide",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by members of the Hutu majority government"
+        }
+      ]
+    },
+    {
+      "subject": "Rwandan genocide",
+      "relation": "estimated_killed",
+      "object": "Rwandans",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "An estimated 500,000–1,000,000 Rwandans were killed"
+        }
+      ]
+    },
+    {
+      "subject": "Pygmy Batwa",
+      "relation": "killed_in",
+      "object": "Rwandan genocide",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "30% of the Pygmy Batwa were killed"
+        }
+      ]
+    },
+    {
+      "subject": "Rwandan Patriotic Front (RPF)",
+      "relation": "led_by",
+      "object": "Paul Kagame",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Tutsi-backed and heavily armed Rwandan Patriotic Front (RPF) led by Paul Kagame"
+        }
+      ]
+    },
+    {
+      "subject": "Rwandan Patriotic Front (RPF)",
+      "relation": "took_control_of",
+      "object": "Rwanda",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "took control of the country"
+        }
+      ]
+    },
+    {
+      "subject": "Rwandan genocide",
+      "relation": "caused_displacement_of",
+      "object": "Rwandans",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "An estimated 2,000,000 Rwandans, mostly Hutus, were displaced"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rwandan genocide",
+        "known_as",
+        "genocide against the Tutsi"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rwandan genocide",
+        "percentage_killed",
+        "Tutsi population"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rwandans",
+        "became",
+        "refugees"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Rwandan genocide\nThe Rwandan genocide, also known as the genocide against the Tutsi, was a genocidal mass slaughter of Tutsi in Rwanda by members of the Hutu majority government. An estimated 500,000–1,000,000 Rwandans were killed during the 100-day period from April 7 to mid-July 1994, constituting as many as 70% of the Tutsi population. Additionally, 30% of the Pygmy Batwa were killed. The genocide and widespread slaughter of Rwandans ended when the Tutsi-backed and heavily armed Rwandan Patriotic Front (RPF) led by Paul Kagame took control of the country. An estimated 2,000,000 Rwandans, mostly Hutus, were displaced and became refugees."
+}

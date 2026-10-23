@@ -1,0 +1,146 @@
+{
+  "entities": {
+    "LeRoy W. Homer Jr. Foundation": "ORG",
+    "LeRoy W. Homer Jr.": "PERSON",
+    "United Airlines Flight #93": "PRODUCT",
+    "Shanksville": "GPE",
+    "Pennsylvania": "GPE",
+    "Washington, D.C.": "GPE",
+    "Dahl": "PERSON",
+    "Jarrah": "PERSON",
+    "Pentagon": "FAC",
+    "Stonycreek Township": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "LeRoy W. Homer Jr. Foundation",
+      "relation": "founded",
+      "object": "LeRoy W. Homer Jr.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "founded in memory of First Officer LeRoy W. Homer Jr."
+        }
+      ]
+    },
+    {
+      "subject": "LeRoy W. Homer Jr.",
+      "relation": "co_pilot_of",
+      "object": "United Airlines Flight #93",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "LeRoy Homer was the co-pilot of United Airlines Flight #93"
+        }
+      ]
+    },
+    {
+      "subject": "United Airlines Flight #93",
+      "relation": "crashed_in",
+      "object": "Shanksville",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "which crashed in Shanksville, Pennsylvania"
+        }
+      ]
+    },
+    {
+      "subject": "United Airlines Flight #93",
+      "relation": "crashed_in",
+      "object": "Pennsylvania",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "which crashed in Shanksville, Pennsylvania"
+        }
+      ]
+    },
+    {
+      "subject": "Dahl",
+      "relation": "survived_with",
+      "object": "LeRoy W. Homer Jr.",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Dahl and Homer survived the initial attack"
+        }
+      ]
+    },
+    {
+      "subject": "Dahl",
+      "relation": "took_actions_with",
+      "object": "LeRoy W. Homer Jr.",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Dahl and Homer took actions to interfere with the hijackers"
+        }
+      ]
+    },
+    {
+      "subject": "LeRoy W. Homer Jr.",
+      "relation": "attempted_to_communicate_with",
+      "object": "Jarrah",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "so that Jarrah's attempts to communicate with the passengers would instead be heard by air traffic controllers"
+        }
+      ]
+    },
+    {
+      "subject": "United Airlines Flight #93",
+      "relation": "crashed_in",
+      "object": "Stonycreek Township",
+      "occurrences": [
+        {
+          "sentence_id": 9,
+          "relation_mention": "the plane crashed into a field in Stonycreek Township, Pennsylvania"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "Laurel Homer (PERSON)",
+        "World Trade Center (FAC)"
+      ]
+    },
+    {
+      "triple": [
+        "United Airlines Flight #93",
+        "attempted_to_foil",
+        "hijacking"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dahl",
+        "struggled_in",
+        "cockpit"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "hijackers",
+        "attempted_to_deactivate",
+        "autopilot"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "United Airlines Flight #93",
+        "killed_everyone_on_board",
+        "everyone"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "LeRoy W. Homer Jr. Foundation\nThe LeRoy W. Homer Jr. Foundation is a national 501(c)(3) non-profit organization founded in memory of First Officer LeRoy W. Homer Jr.. LeRoy Homer was the co-pilot of United Airlines Flight #93, which crashed in Shanksville, Pennsylvania on September 11, 2001. The flight recordings revealed that Dahl and Homer survived the initial attack and were still alive after the hijackers took over the plane. It is believed that Dahl and Homer took actions to interfere with the hijackers, including disengaging the autopilot just before the hijackers took over in order to prevent them from setting the plane's target coordinates for Washington, D.C., and switching the output of the pilots' microphones from the cabin address speakers to the radio transmitter so that Jarrah's attempts to communicate with the passengers would instead be heard by air traffic controllers. After learning of the earlier crashes at the thumb|right|World Trade CenterMelodie and the Pentagon, the crew and passengers attempted to foil the hijacking and reclaim the aircraft. Meanwhile, the hijackers were not able to disengage the autopilot. Dahl continued to struggle in the cockpit, refusing to allow a hijacker to deactivate the autopilot so he could fly the plane manually. The hijackers were heard to say \"Inform them, and tell him to talk to the pilot; bring back the pilot\", possibly referring toLaurel Homer (CVR transcripts). However, the uprising of crew and passengers took place and during the attempt the plane crashed into a field in Stonycreek Township, Pennsylvania2002. The crash killed everyone on board. Before the plane went down, she says, he had regained consciousness and was part of the final attack that forced the plane to abort its intended target, which was somewhere in Washington, D.C., and crash.ref>]]"
+}

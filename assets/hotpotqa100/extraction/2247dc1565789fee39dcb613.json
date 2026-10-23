@@ -1,0 +1,180 @@
+{
+  "entities": {
+    "Washington Redskins": "Sports Team",
+    "National Football League": "Sports League",
+    "National Football Conference": "Sports Conference",
+    "FedExField": "Stadium",
+    "Inova Sports Performance Center": "Facility",
+    "Redskins Park": "Facility",
+    "Ashburn": "Location",
+    "Richmond": "Location",
+    "Virginia": "Location",
+    "Maryland": "Location",
+    "2015": "Year"
+  },
+  "triples": [
+    {
+      "subject": "Washington Redskins",
+      "relation": "competes_in",
+      "object": "National Football League",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "compete in the National Football League (NFL)"
+        }
+      ]
+    },
+    {
+      "subject": "Washington Redskins",
+      "relation": "member_of",
+      "object": "National Football Conference",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "as a member of the National Football Conference (NFC) East division"
+        }
+      ]
+    },
+    {
+      "subject": "Washington Redskins",
+      "relation": "plays_at",
+      "object": "FedExField",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "plays its home games at FedExField"
+        }
+      ]
+    },
+    {
+      "subject": "Washington Redskins",
+      "relation": "has_headquarters_at",
+      "object": "Inova Sports Performance Center",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "its headquarters and training facility are at Inova Sports Performance Center"
+        }
+      ]
+    },
+    {
+      "subject": "Washington Redskins",
+      "relation": "has_training_facility_at",
+      "object": "Redskins Park",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "its headquarters and training facility are at Inova Sports Performance Center at Redskins Park"
+        }
+      ]
+    },
+    {
+      "subject": "Inova Sports Performance Center",
+      "relation": "located_in",
+      "object": "Ashburn",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "at Inova Sports Performance Center at Redskins Park in Ashburn"
+        }
+      ]
+    },
+    {
+      "subject": "Redskins Park",
+      "relation": "located_in",
+      "object": "Virginia",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "at Redskins Park in Ashburn, Virginia"
+        }
+      ]
+    },
+    {
+      "subject": "Washington Redskins",
+      "relation": "reached_mark_in",
+      "object": "2015",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "reaching that mark in 2015"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Washington Redskins",
+        "located_in",
+        "Washington metropolitan area"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Washington Redskins",
+        "has_complex_at",
+        "Redskins Complex"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Redskins Complex",
+        "located_in",
+        "Richmond"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Washington Redskins",
+        "has_won",
+        "five NFL Championships"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Washington Redskins",
+        "has_won",
+        "three Super Bowls"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Washington Redskins",
+        "has_captured",
+        "14 NFL divisional titles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Washington Redskins",
+        "has_captured",
+        "six NFL conference championships"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Washington Redskins",
+        "was_first_team_with",
+        "official marching band"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Washington Redskins",
+        "was_first_team_with",
+        "fight song"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Washington Redskins\nThe Washington Redskins are a professional American football team based in the Washington metropolitan area. The Redskins compete in the National Football League (NFL) as a member of the National Football Conference (NFC) East division. The team plays its home games at FedExField in Landover, Maryland; its headquarters and training facility are at Inova Sports Performance Center at Redskins Park in Ashburn, Virginia, and the Redskins Complex in Richmond, Virginia, respectively. The Redskins have played more than 1,000 games since 1932, and are one of only five franchises in the NFL to record over 600 regular season and postseason wins, reaching that mark in 2015. The Redskins have won five NFL Championships (two pre-1966 merger announcement, and three Super Bowls). The franchise has captured 14 NFL divisional titles and six NFL conference championships. The Redskins were the first team in the NFL with an official marching band, and also the first team to have a fight song, \"Hail to the Redskins\"."
+}

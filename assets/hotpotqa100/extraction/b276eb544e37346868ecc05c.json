@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "What Are We Doin' Lonesome": "WORK_OF_ART",
+    "Larry Gatlin": "PERSON",
+    "Larry Gatlin & the Gatlin Brothers Band": "ORG",
+    "American": "NORP",
+    "Not Guilty": "WORK_OF_ART",
+    "Billboard": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "What Are We Doin' Lonesome",
+      "relation": "written_by",
+      "object": "Larry Gatlin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a song written by Larry Gatlin"
+        }
+      ]
+    },
+    {
+      "subject": "What Are We Doin' Lonesome",
+      "relation": "recorded_by",
+      "object": "Larry Gatlin & the Gatlin Brothers Band",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "recorded by American country music group Larry Gatlin & the Gatlin Brothers Band"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "What Are We Doin' Lonesome",
+        "released_as_single_from",
+        "Not Guilty"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "What Are We Doin' Lonesome",
+        "reached_chart_position",
+        "Billboard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "What Are We Doin' Lonesome\n\"What Are We Doin' Lonesome\" is a song written by Larry Gatlin, and recorded by American country music group Larry Gatlin & the Gatlin Brothers Band. It was released in October 1981 as the first single from the album \"Not Guilty\". The song reached number 4 on the \"Billboard\" Hot Country Singles & Tracks chart."
+}

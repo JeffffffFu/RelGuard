@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Shetland Islands Council": "organization",
+    "Scottish local Regional elections": "event",
+    "Home Rule": "political concept",
+    "Shetland Movement": "organization",
+    "Shetland council": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Shetland Islands Council",
+      "relation": "part_of",
+      "object": "Scottish local Regional elections",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as part of the Scottish local Regional elections, 1982"
+        }
+      ]
+    },
+    {
+      "subject": "Shetland Islands Council",
+      "relation": "yielded_swing_to",
+      "object": "Home Rule",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and yielded a swing to candidates supportive of Home Rule for the islands"
+        }
+      ]
+    },
+    {
+      "subject": "Shetland council",
+      "relation": "has_members",
+      "object": "Shetland Movement",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Ultimately of the 25 members of the Shetland council, 14 were supporters of the movement"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Shetland Islands Council",
+        "held_on",
+        "6 May 1982"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Shetland Movement",
+        "published",
+        "list of candidates supportive of Shetland Home Rule"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Shetland Islands Area Council election, 1982\nAn election to Shetland Islands Council was held on 6 May 1982 as part of the Scottish local Regional elections, 1982 and yielded a swing to candidates supportive of Home Rule for the islands. Whilst no candidates appeared on the ballot as members of the Shetland Movement (all Shetland candidates were independents), the Shetland Movement did publish a list of candidates supportive of Shetland Home Rule. Ultimately of the 25 members of the Shetland council, 14 were supporters of the movement."
+}

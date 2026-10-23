@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Pineapple Express": "film",
+    "David Gordon Green": "person",
+    "Seth Rogen": "person",
+    "Evan Goldberg": "person",
+    "James Franco": "person",
+    "Judd Apatow": "person"
+  },
+  "triples": [
+    {
+      "subject": "Pineapple Express",
+      "relation": "directed_by",
+      "object": "David Gordon Green",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by David Gordon Green"
+        }
+      ]
+    },
+    {
+      "subject": "Pineapple Express",
+      "relation": "written_by",
+      "object": "Seth Rogen",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Seth Rogen"
+        }
+      ]
+    },
+    {
+      "subject": "Pineapple Express",
+      "relation": "starring",
+      "object": "Seth Rogen",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Rogen"
+        }
+      ]
+    },
+    {
+      "subject": "Pineapple Express",
+      "relation": "starring",
+      "object": "James Franco",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Rogen and James Franco"
+        }
+      ]
+    },
+    {
+      "subject": "Judd Apatow",
+      "relation": "worked_with",
+      "object": "Seth Rogen",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "who previously worked with Rogen"
+        }
+      ]
+    },
+    {
+      "subject": "Judd Apatow",
+      "relation": "worked_with",
+      "object": "Evan Goldberg",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "who previously worked with Rogen and Goldberg"
+        }
+      ]
+    },
+    {
+      "subject": "Judd Apatow",
+      "relation": "assisted_in",
+      "object": "Pineapple Express",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "assisted in developing the story"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pineapple Express",
+        "written_by",
+        "Evan Goldberg"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pineapple Express (film)\nPineapple Express is a 2008 American stoner action comedy film directed by David Gordon Green, written by Seth Rogen and Evan Goldberg and starring Rogen and James Franco. The plot concerns a process server and his marijuana dealer friend forced to flee from hitmen and a corrupt police officer after witnessing them commit a murder. Producer Judd Apatow, who previously worked with Rogen and Goldberg on \"Knocked Up\" and \"Superbad\", assisted in developing the story, which was partially inspired by the bromantic comedy subgenre. In the (2013) comedy \"This is the End\" the cast make a fake parody sequel."
+}

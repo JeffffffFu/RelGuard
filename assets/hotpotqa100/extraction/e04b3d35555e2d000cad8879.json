@@ -1,0 +1,61 @@
+{
+  "entities": {
+    "Orenda OE600": "PRODUCT",
+    "Orenda Aerospace": "ORG",
+    "Pratt & Whitney Canada PT6": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Orenda OE600",
+      "relation": "intended_to_re-introduce_power_to",
+      "object": "Pratt & Whitney Canada PT6",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "intended to re-introduce piston power to",
+          "line_start": 84,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "intended to re-introduce piston power to",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Orenda OE600",
+      "relation": "was_canceled_by",
+      "object": "Orenda Aerospace",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "led to the project being canceled",
+          "line_start": 442,
+          "char_start": 455,
+          "ambiguous": false,
+          "relation_mention": "led to the project being canceled",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Orenda OE600",
+        "offered",
+        "Orenda Aerospace"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Orenda Aerospace",
+        "felt_would_be_attractive_for",
+        "Orenda OE600"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Orenda OE600\nThe Orenda OE600 is a 600 hp-class liquid-cooled 8-cylinder V-block aircraft engine intended to re-introduce piston power to aircraft normally powered by the famous Pratt & Whitney Canada PT6 turboprop. The piston engine offers much better fuel economy, which Orenda Aerospace felt would be attractive for older aircraft whose engines were reaching the end of their lifespan. However, changes in Orenda's business in the post-9/11 time frame led to the project being canceled.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Orenda OE600\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Orenda Aerospace\", \"type\": \"ORG\"},\n    {\"name\": \"Pratt & Whitney Canada PT6\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Orenda OE600\",\n      \"relation\": \"intended_to_re-introduce_power_to\",\n      \"object\": \"Pratt & Whitney Canada PT6\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"intended to re-introduce piston power to\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Orenda OE600\",\n      \"relation\": \"offered\",\n      \"object\": \"Orenda Aerospace\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"offers\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Orenda Aerospace\",\n      \"relation\": \"felt_would_be_attractive_for\",\n      \"object\": \"Orenda OE600\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"felt would be attractive for\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Orenda OE600\",\n      \"relation\": \"was_canceled_by\",\n      \"object\": \"Orenda Aerospace\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"led to the project being canceled\"\n        }\n      ]\n    }\n  ]\n}"
+}

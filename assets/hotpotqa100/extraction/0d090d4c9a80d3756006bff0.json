@@ -1,0 +1,110 @@
+{
+  "entities": {
+    "Andy Finch": "Person",
+    "United States": "Location",
+    "Bullard High School": "Organization",
+    "Fresno, California": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Andy Finch",
+      "relation": "represents",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "for the United States"
+        }
+      ]
+    },
+    {
+      "subject": "Andy Finch",
+      "relation": "attended",
+      "object": "Bullard High School",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "He attended Bullard High School"
+        }
+      ]
+    },
+    {
+      "subject": "Bullard High School",
+      "relation": "located_in",
+      "object": "Fresno, California",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "in Fresno, California"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Andy Finch",
+        "born_on",
+        "March 20, 1981"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Andy Finch",
+        "is_a",
+        "American snowboarder"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Andy Finch",
+        "competed_in",
+        "2006 Winter Olympics"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Andy Finch",
+        "won",
+        "overall U.S. Grand Prix Halfpipe Title"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Andy Finch",
+        "won",
+        "Arctic Challenge"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Andy Finch",
+        "won",
+        "Vans Triple Crown"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Andy Finch",
+        "won",
+        "O’Neill Snowboard Jam"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Andy Finch",
+        "finished_in",
+        "second place in Northstar Resort’s Vans Tahoe Cup"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Andy Finch\nAndrew Joseph \"Andy\" Finch (born March 20, 1981) is an American snowboarder. His accomplishments include winning the overall U.S. Grand Prix Halfpipe Title in 2003 and 2004, taking first place in the Arctic Challenge in Norway in April 2004, winning the Vans Triple Crown in February 2004, winning the O’Neill Snowboard Jam in January 2005, and finishing in second place in Northstar Resort’s Vans Tahoe Cup. In addition, Finch competed in the 2006 Winter Olympics for the United States. He attended Bullard High School in Fresno, California."
+}

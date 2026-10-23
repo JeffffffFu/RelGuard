@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Herndon High School": "ORG",
+    "Herndon, Kansas": "GPE",
+    "USA": "GPE",
+    "St. Mary's High School": "ORG",
+    "Atwood USD #318": "ORG",
+    "Unified School District #105": "ORG",
+    "Rawlins County Junior-Senior High School": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Herndon High School",
+      "relation": "located_in",
+      "object": "Herndon, Kansas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 44,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Herndon High School",
+        "located_in",
+        "USA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Herndon High School",
+        "was_within",
+        "Herndon, Kansas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Herndon High School",
+        "was_rebuilt_at",
+        "St. Mary's High School"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Herndon High School",
+        "consolidated_with",
+        "Atwood USD #318"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Atwood USD #318",
+        "formed",
+        "Unified School District #105"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Atwood USD #318",
+        "formed",
+        "Rawlins County Junior-Senior High School"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Herndon High School (Kansas)\nHerndon High School is a former high school located in Herndon, Kansas, USA, which served students in grades 9-12. Herndon High School was the only high school within the city limits of Herndon, Kansas. The school colors were blue and yellow and the school mascot was a Beaver. The average annual enrollment was approximately 200 students from several communities. Herndon High School was established in either 1912 or 1915. A new building was erected in the spring of 1917 because of the growing population of the city. In 1923, Herndon High School became Herndon Rural High School District #2. The school was rebuilt in 1949 and classes were held at St. Mary's High School. Classes resumed at the rebuilt high school in 1950. This remained until the fall of 2003 when the decision was made to consolidate with Atwood USD #318. The new district that was formed is now Unified School District #105 and Rawlins County Junior-Senior High School.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Herndon High School\", \"type\": \"ORG\"},\n    {\"name\": \"Herndon, Kansas\", \"type\": \"GPE\"},\n    {\"name\": \"USA\", \"type\": \"GPE\"},\n    {\"name\": \"St. Mary's High School\", \"type\": \"ORG\"},\n    {\"name\": \"Atwood USD #318\", \"type\": \"ORG\"},\n    {\"name\": \"Unified School District #105\", \"type\": \"ORG\"},\n    {\"name\": \"Rawlins County Junior-Senior High School\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Herndon High School\",\n      \"relation\": \"located_in\",\n      \"object\": \"Herndon, Kansas\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"located in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Herndon High School\",\n      \"relation\": \"located_in\",\n      \"object\": \"USA\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"located in Herndon, Kansas, USA\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Herndon High School\",\n      \"relation\": \"was_within\",\n      \"object\": \"Herndon, Kansas\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was the only high school within the city limits of Herndon, Kansas\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Herndon High School\",\n      \"relation\": \"was_rebuilt_at\",\n      \"object\": \"St. Mary's High School\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"classes were held at St. Mary's High School\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Herndon High School\",\n      \"relation\": \"consolidated_with\",\n      \"object\": \"Atwood USD #318\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"consolidate with Atwood USD #318\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Atwood USD #318\",\n      \"relation\": \"formed\",\n      \"object\": \"Unified School District #105\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"The new district that was formed is now Unified School District #105\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Atwood USD #318\",\n      \"relation\": \"formed\",\n      \"object\": \"Rawlins County Junior-Senior High School\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"The new district that was formed is now Unified School District #105 and Rawlins County Junior-Senior High School\"\n        }\n      ]\n    }\n  ]\n}"
+}

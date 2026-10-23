@@ -1,0 +1,159 @@
+{
+  "entities": {
+    "J.B. Scott's": "nightclub",
+    "Central Avenue": "location",
+    "Albany": "city",
+    "New York": "state",
+    "U2": "performer",
+    "John Mellencamp": "performer",
+    "Bryan Adams": "performer",
+    "Thin Lizzy": "performer",
+    "Pat Benatar": "performer",
+    "Iggy Pop": "performer",
+    "Douglas Jacobs": "owner",
+    "J.B.'s Theatre": "nightclub"
+  },
+  "triples": [
+    {
+      "subject": "J.B. Scott's",
+      "relation": "located_on",
+      "object": "Central Avenue",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located on Central Avenue"
+        }
+      ]
+    },
+    {
+      "subject": "J.B. Scott's",
+      "relation": "located_in",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located on Central Avenue in Albany"
+        }
+      ]
+    },
+    {
+      "subject": "Albany",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Albany, New York"
+        }
+      ]
+    },
+    {
+      "subject": "J.B. Scott's",
+      "relation": "performed_by",
+      "object": "U2",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Its performers included U2"
+        }
+      ]
+    },
+    {
+      "subject": "Douglas Jacobs",
+      "relation": "opened",
+      "object": "J.B.'s Theatre",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "club owner Douglas Jacobs opened another nightclub in Albany named J.B.'s Theatre"
+        }
+      ]
+    },
+    {
+      "subject": "J.B.'s Theatre",
+      "relation": "located_in",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "another nightclub in Albany named J.B.'s Theatre"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "J.B. Scott's",
+        "has_capacity",
+        "700"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "J.B. Scott's",
+        "open_from",
+        "1979"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "J.B. Scott's",
+        "open_to",
+        "1982"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "J.B. Scott's",
+        "burned_down",
+        "1982"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "J.B. Scott's",
+        "performed_by",
+        "John Mellencamp"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "J.B. Scott's",
+        "performed_by",
+        "Bryan Adams"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "J.B. Scott's",
+        "performed_by",
+        "Thin Lizzy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "J.B. Scott's",
+        "performed_by",
+        "Pat Benatar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "J.B. Scott's",
+        "performed_by",
+        "Iggy Pop"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "J.B. Scott's\nJ.B. Scott's was a nightclub located on Central Avenue in Albany, New York. Its capacity was approximately 700. It was open from 1979 to 1982 when it burned down. Its performers included U2, John Mellencamp, Bryan Adams, Thin Lizzy, Pat Benatar and Iggy Pop. In 1985 club owner Douglas Jacobs opened another nightclub in Albany named J.B.'s Theatre."
+}

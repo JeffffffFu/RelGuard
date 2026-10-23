@@ -1,0 +1,61 @@
+{
+  "entities": {
+    "Preston Tylk": "WORK_OF_ART",
+    "Jon Bokenkamp": "PERSON",
+    "Luke Wilson": "PERSON",
+    "Norman Reedus": "PERSON",
+    "Dennis Farina": "PERSON",
+    "Mili Avital": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Preston Tylk",
+      "relation": "written_and_directed_by",
+      "object": "Jon Bokenkamp",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Jon Bokenkamp"
+        }
+      ]
+    },
+    {
+      "subject": "Preston Tylk",
+      "relation": "starring",
+      "object": "Luke Wilson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Luke Wilson"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Preston Tylk",
+        "starring",
+        "Norman Reedus"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Preston Tylk",
+        "starring",
+        "Dennis Farina"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Preston Tylk",
+        "starring",
+        "Mili Avital"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Preston Tylk\nPreston Tylk, also known as Bad Seed, is a 2000 American mystery thriller film written and directed by Jon Bokenkamp and starring Luke Wilson, Norman Reedus, Dennis Farina and Mili Avital."
+}

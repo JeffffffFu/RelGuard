@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Frankie Darro": "PERSON",
+    "Frank Johnson, Jr.": "PERSON",
+    "Pinocchio": "WORK_OF_ART",
+    "Walt Disney": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Frankie Darro",
+        "also_called",
+        "Frank Johnson, Jr."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Frankie Darro",
+        "known_for",
+        "Pinocchio"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pinocchio",
+        "created_by",
+        "Walt Disney"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Frankie Darro\nFrankie Darro (born Frank Johnson, Jr. December 22, 1917 – December 25, 1976) was an American actor and later in his career a stuntman. He began his career as a child actor in silent films, progressed to lead roles and co-starring roles in adventure, western, dramatic, and comedy films, and later became a character actor and voice-over artist. He is known for his role as Lampwick, the unlucky boy turned into a donkey in Walt Disney's 2nd animated feature, \"Pinocchio\", which was originally released in February 1940.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Frankie Darro\", \"type\": \"PERSON\"},\n    {\"name\": \"Frank Johnson, Jr.\", \"type\": \"PERSON\"},\n    {\"name\": \"Pinocchio\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Walt Disney\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Frankie Darro\",\n      \"relation\": \"also_called\",\n      \"object\": \"Frank Johnson, Jr.\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"(born Frank Johnson, Jr.\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Frankie Darro\",\n      \"relation\": \"known_for\",\n      \"object\": \"Pinocchio\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"known for his role as Lampwick, the unlucky boy turned into a donkey in Walt Disney's 2nd animated feature, \\\"Pinocchio\\\"\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Pinocchio\",\n      \"relation\": \"created_by\",\n      \"object\": \"Walt Disney\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in Walt Disney's 2nd animated feature, \\\"Pinocchio\\\"\"\n        }\n      ]\n    }\n  ]\n}"
+}

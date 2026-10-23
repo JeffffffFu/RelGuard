@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Point Grey Pictures": "ORG",
+    "Point Grey": "ORG",
+    "Seth Rogen": "PERSON",
+    "Evan Goldberg": "PERSON",
+    "Vancouver": "GPE",
+    "Point Grey Secondary School": "FAC",
+    "2011": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Point Grey",
+      "relation": "founded",
+      "object": "Seth Rogen",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded by",
+          "line_start": 50,
+          "char_start": 70,
+          "ambiguous": false,
+          "relation_mention": "founded by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Point Grey",
+      "relation": "founded",
+      "object": "Evan Goldberg",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded by",
+          "line_start": 50,
+          "char_start": 70,
+          "ambiguous": false,
+          "relation_mention": "founded by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Point Grey",
+        "located_in",
+        "Vancouver"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Point Grey",
+        "named_after",
+        "Point Grey Secondary School"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Point Grey",
+        "founded",
+        "2011"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Point Grey Pictures\nPoint Grey is an American film production company founded by Seth Rogen and Evan Goldberg in 2011. The company is named after Vancouver's Point Grey Secondary School, where Rogen and Goldberg first met.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Point Grey Pictures\", \"type\": \"ORG\"},\n    {\"name\": \"Point Grey\", \"type\": \"ORG\"},\n    {\"name\": \"Seth Rogen\", \"type\": \"PERSON\"},\n    {\"name\": \"Evan Goldberg\", \"type\": \"PERSON\"},\n    {\"name\": \"Vancouver\", \"type\": \"GPE\"},\n    {\"name\": \"Point Grey Secondary School\", \"type\": \"FAC\"},\n    {\"name\": \"2011\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Point Grey\",\n      \"relation\": \"located_in\",\n      \"object\": \"Vancouver\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"named after Vancouver's\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Point Grey\",\n      \"relation\": \"founded\",\n      \"object\": \"Seth Rogen\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"founded by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Point Grey\",\n      \"relation\": \"founded\",\n      \"object\": \"Evan Goldberg\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"founded by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Point Grey\",\n      \"relation\": \"named_after\",\n      \"object\": \"Point Grey Secondary School\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"named after Vancouver's Point Grey Secondary School\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Point Grey\",\n      \"relation\": \"founded\",\n      \"object\": \"2011\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in 2011\"\n        }\n      ]\n    }\n  ]\n}"
+}

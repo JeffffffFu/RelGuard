@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Sergio Gobbi": "PERSON",
+    "Sergio Ehrlich": "PERSON",
+    "Milan": "GPE",
+    "Italy": "GPE",
+    "Jocelyn Wildenstein": "PERSON",
+    "Italian-French": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Sergio Gobbi",
+      "relation": "born_as",
+      "object": "Sergio Ehrlich",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born as",
+          "line_start": 49,
+          "char_start": 62,
+          "ambiguous": false,
+          "relation_mention": "born as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Sergio Gobbi",
+      "relation": "born_in",
+      "object": "Milan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born 13 May 1938 in",
+          "line_start": 14,
+          "char_start": 27,
+          "ambiguous": false,
+          "relation_mention": "born 13 May 1938 in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Sergio Gobbi",
+      "relation": "was_married_to",
+      "object": "Jocelyn Wildenstein",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was married to",
+          "line_start": 109,
+          "char_start": 122,
+          "ambiguous": false,
+          "relation_mention": "was married to",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sergio Gobbi",
+        "nationality",
+        "Italian-French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Milan",
+        "located_in",
+        "Italy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Sergio Gobbi\nSergio Gobbi (born 13 May 1938 in Milan, Italy), born as Sergio Ehrlich, is an Italian-French filmmaker, who was married to Jocelyn Wildenstein.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Sergio Gobbi\", \"type\": \"PERSON\"},\n    {\"name\": \"Sergio Ehrlich\", \"type\": \"PERSON\"},\n    {\"name\": \"Milan\", \"type\": \"GPE\"},\n    {\"name\": \"Italy\", \"type\": \"GPE\"},\n    {\"name\": \"Jocelyn Wildenstein\", \"type\": \"PERSON\"},\n    {\"name\": \"Italian-French\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Sergio Gobbi\",\n      \"relation\": \"born_as\",\n      \"object\": \"Sergio Ehrlich\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born as\"}\n      ]\n    },\n    {\n      \"subject\": \"Sergio Gobbi\",\n      \"relation\": \"born_in\",\n      \"object\": \"Milan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born 13 May 1938 in\"}\n      ]\n    },\n    {\n      \"subject\": \"Sergio Gobbi\",\n      \"relation\": \"nationality\",\n      \"object\": \"Italian-French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an Italian-French\"}\n      ]\n    },\n    {\n      \"subject\": \"Sergio Gobbi\",\n      \"relation\": \"was_married_to\",\n      \"object\": \"Jocelyn Wildenstein\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was married to\"}\n      ]\n    },\n    {\n      \"subject\": \"Milan\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Milan, Italy\"}\n      ]\n    }\n  ]\n}"
+}

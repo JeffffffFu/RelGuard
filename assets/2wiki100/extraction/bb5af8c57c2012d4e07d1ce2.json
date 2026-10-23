@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Abhishek Saxena": "Person",
+    "Phullu": "Movie",
+    "Sharib Hashmi": "Person",
+    "Patiala Dreamz": "Movie"
+  },
+  "triples": [
+    {
+      "subject": "Abhishek Saxena",
+      "relation": "directed",
+      "object": "Phullu",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who directed the movie Phullu"
+        }
+      ]
+    },
+    {
+      "subject": "Phullu",
+      "relation": "has_lead_role",
+      "object": "Sharib Hashmi",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in which film Sharib Hashmi is the lead role"
+        }
+      ]
+    },
+    {
+      "subject": "Abhishek Saxena",
+      "relation": "directed",
+      "object": "Patiala Dreamz",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "he has also directed Patiala Dreamz"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Phullu",
+        "released_on",
+        "16 June 2017"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Patiala Dreamz",
+        "screened_in",
+        "2014"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Abhishek Saxena\nAbhishek Saxena is an Indian Bollywood and Punjabi film director who directed the movie Phullu. The Phullu movie was released in theaters on 16 June 2017, in which film Sharib Hashmi is the lead role. Apart from these, he has also directed Patiala Dreamz, this is a Punjabi film. This film was screened in cinemas in 2014."
+}

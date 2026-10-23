@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Claude Weisz": "PERSON",
+    "Paris": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Claude Weisz",
+      "relation": "located_in",
+      "object": "Paris",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 39,
+          "char_start": 52,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "France (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Claude Weisz",
+        "works_for",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Claude Weisz\nClaude Weisz is a French film director born in Paris.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Claude Weisz\", \"type\": \"PERSON\"},\n    {\"name\": \"France\", \"type\": \"GPE\"},\n    {\"name\": \"Paris\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Claude Weisz\",\n      \"relation\": \"works_for\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a French\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Claude Weisz\",\n      \"relation\": \"located_in\",\n      \"object\": \"Paris\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"born in\"\n        }\n      ]\n    }\n  ]\n}"
+}

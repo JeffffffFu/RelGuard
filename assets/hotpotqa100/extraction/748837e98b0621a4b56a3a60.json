@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "Pictou County Pizza": "food",
+    "Pictou County": "location",
+    "Nova Scotia": "location",
+    "Halifax-made pepperoni": "food",
+    "Canada": "location",
+    "Fort McMurray": "location",
+    "Alberta": "location",
+    "local pizza shop": "business",
+    "local UPS agent": "business",
+    "pizza makers": "people",
+    "People's Choice category": "award",
+    "panel of judges": "group"
+  },
+  "triples": [
+    {
+      "subject": "Pictou County Pizza",
+      "relation": "found_in",
+      "object": "Pictou County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Pictou County Pizza is a regional variant of pizza found in Pictou County"
+        }
+      ]
+    },
+    {
+      "subject": "Pictou County Pizza",
+      "relation": "located_in",
+      "object": "Nova Scotia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "found in Pictou County, Nova Scotia"
+        }
+      ]
+    },
+    {
+      "subject": "Pictou County Pizza",
+      "relation": "has_ingredient",
+      "object": "Halifax-made pepperoni",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and Halifax-made pepperoni"
+        }
+      ]
+    },
+    {
+      "subject": "local pizza shop",
+      "relation": "arrangement_with",
+      "object": "local UPS agent",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "an arrangement between a local pizza shop and the local UPS agent"
+        }
+      ]
+    },
+    {
+      "subject": "local pizza shop",
+      "relation": "ships",
+      "object": "Pictou County Pizza",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The pizza can be shipped frozen across Canada"
+        }
+      ]
+    },
+    {
+      "subject": "Pictou County Pizza",
+      "relation": "shipped_to",
+      "object": "Fort McMurray",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The most common destination being Fort McMurray"
+        }
+      ]
+    },
+    {
+      "subject": "Fort McMurray",
+      "relation": "located_in",
+      "object": "Alberta",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Fort McMurray, Alberta"
+        }
+      ]
+    },
+    {
+      "subject": "pizza makers",
+      "relation": "compete_in",
+      "object": "Pictou County",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "an annual competition between pizza makers in Pictou County has been held"
+        }
+      ]
+    },
+    {
+      "subject": "pizza makers",
+      "relation": "awarded_in",
+      "object": "People's Choice category",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "with awards being given under a People's Choice category"
+        }
+      ]
+    },
+    {
+      "subject": "pizza makers",
+      "relation": "selected_by",
+      "object": "panel of judges",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "as selected by a panel of judges"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pictou County Pizza",
+        "has_ingredient",
+        "brown sauce"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Pictou County pizza\nPictou County Pizza is a regional variant of pizza found in Pictou County, Nova Scotia. The style of pizza is unique, owing to its \"brown sauce\" and Halifax-made pepperoni. The pizza can be shipped frozen across Canada via an arrangement between a local pizza shop and the local UPS agent. The most common destination being Fort McMurray, Alberta with a two-day delivery time. Since 2014 an annual competition between pizza makers in Pictou County has been held, with awards being given under a People's Choice category and as selected by a panel of judges."
+}

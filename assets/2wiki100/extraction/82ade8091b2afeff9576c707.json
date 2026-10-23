@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Charles the Younger": "Person",
+    "Charlemagne": "Person",
+    "Hildegard of Swabia": "Person",
+    "Louis the Pious": "Person",
+    "Pepin Carloman": "Person",
+    "Carolingian dynasty": "Dynasty",
+    "King of the Franks": "Title"
+  },
+  "triples": [
+    {
+      "subject": "Charles the Younger",
+      "relation": "son_of",
+      "object": "Charlemagne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the second son of Charlemagne"
+        }
+      ]
+    },
+    {
+      "subject": "Charles the Younger",
+      "relation": "son_of",
+      "object": "Hildegard of Swabia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first by his second wife, Hildegard of Swabia"
+        }
+      ]
+    },
+    {
+      "subject": "Charles the Younger",
+      "relation": "brother_of",
+      "object": "Louis the Pious",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "brother of Louis the Pious"
+        }
+      ]
+    },
+    {
+      "subject": "Charles the Younger",
+      "relation": "member_of",
+      "object": "Carolingian dynasty",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a member of the Carolingian dynasty"
+        }
+      ]
+    },
+    {
+      "subject": "Charlemagne",
+      "relation": "designated",
+      "object": "Charles the Younger",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "his son Charles was designated King of the Franks"
+        }
+      ]
+    },
+    {
+      "subject": "Charles the Younger",
+      "relation": "held_title",
+      "object": "King of the Franks",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was designated King of the Franks"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Charles the Younger",
+        "brother_of",
+        "Pepin Carloman"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Charles the Younger\nCharles the Younger or Charles of Ingelheim (c. 772 – 4 December 811) was a member of the Carolingian dynasty, the second son of Charlemagne and the first by his second wife, Hildegard of Swabia and brother of Louis the Pious and Pepin Carloman. When Charlemagne divided his empire among his sons, his son Charles was designated King of the Franks."
+}

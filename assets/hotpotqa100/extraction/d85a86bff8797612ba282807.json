@@ -1,0 +1,134 @@
+{
+  "entities": {
+    "Missouri Photo Workshop": "ORG",
+    "Lee Hills Hall": "FAC",
+    "Missouri School of Journalism": "ORG",
+    "Columbia": "GPE",
+    "Missouri": "GPE",
+    "Cliff Edom": "PERSON",
+    "Roy Stryker": "PERSON",
+    "Russell Lee": "PERSON",
+    "Farm Security Administration": "ORG",
+    "United States": "GPE",
+    "Sandra Eisert": "PERSON",
+    "NPPA": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Missouri Photo Workshop",
+      "relation": "located_in",
+      "object": "Lee Hills Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 74,
+          "char_start": 98,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Missouri Photo Workshop",
+      "relation": "founded",
+      "object": "Cliff Edom",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Founded in 1949 by",
+          "line_start": 158,
+          "char_start": 182,
+          "ambiguous": false,
+          "relation_mention": "Founded in 1949 by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Missouri Photo Workshop",
+      "relation": "founded",
+      "object": "Roy Stryker",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Founded in 1949 by",
+          "line_start": 158,
+          "char_start": 182,
+          "ambiguous": false,
+          "relation_mention": "Founded in 1949 by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Missouri Photo Workshop",
+      "relation": "founded",
+      "object": "Russell Lee",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Founded in 1949 by",
+          "line_start": 158,
+          "char_start": 182,
+          "ambiguous": false,
+          "relation_mention": "Founded in 1949 by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lee Hills Hall",
+        "located_in",
+        "Missouri School of Journalism"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Missouri School of Journalism",
+        "located_in",
+        "Columbia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Columbia",
+        "located_in",
+        "Missouri"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Farm Security Administration",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sandra Eisert",
+        "works_for",
+        "White House"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sandra Eisert",
+        "works_for",
+        "NPPA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Missouri Photo Workshop\nThe Missouri Photo Workshop is an annual week-long photojournalism school based in Lee Hills Hall at the Missouri School of Journalism in Columbia, Missouri. Founded in 1949 by the \"Father of Photojournalism\" Cliff Edom along with American economist, federal government official, and photographer Roy Stryker and photographer Russell Lee, the workshop originally sought to instruct others in photojournalism based on the \"gritty, content-rich photographs\" produced by the pre-World War II (pre-1939) Farm Security Administration, a United States government effort during the Great Depression to combat American rural poverty. Following Edom's credo - \"Show truth with a camera. Ideally truth is a matter of personal integrity. In no circumstances will a posed or faked photograph be tolerated.\" - each workshop originates in a different small town in Missouri, which is used as a backdrop for attendees from the United States and other countries to work on photograph storytelling methods such as research, observation, and timing. Missouri Photo Workshop faculty members have included the White House's first photo editor and NPPA Picture Editor of the Year Sandra Eisert and other prominent photojournalists.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Missouri Photo Workshop\", \"type\": \"ORG\"},\n    {\"name\": \"Lee Hills Hall\", \"type\": \"FAC\"},\n    {\"name\": \"Missouri School of Journalism\", \"type\": \"ORG\"},\n    {\"name\": \"Columbia\", \"type\": \"GPE\"},\n    {\"name\": \"Missouri\", \"type\": \"GPE\"},\n    {\"name\": \"Cliff Edom\", \"type\": \"PERSON\"},\n    {\"name\": \"Roy Stryker\", \"type\": \"PERSON\"},\n    {\"name\": \"Russell Lee\", \"type\": \"PERSON\"},\n    {\"name\": \"Farm Security Administration\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Sandra Eisert\", \"type\": \"PERSON\"},\n    {\"name\": \"NPPA\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Missouri Photo Workshop\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lee Hills Hall\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Lee Hills Hall\",\n      \"relation\": \"located_in\",\n      \"object\": \"Missouri School of Journalism\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the\"}\n      ]\n    },\n    {\n      \"subject\": \"Missouri School of Journalism\",\n      \"relation\": \"located_in\",\n      \"object\": \"Columbia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Columbia\",\n      \"relation\": \"located_in\",\n      \"object\": \"Missouri\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Missouri Photo Workshop\",\n      \"relation\": \"founded\",\n      \"object\": \"Cliff Edom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Founded in 1949 by\"}\n      ]\n    },\n    {\n      \"subject\": \"Missouri Photo Workshop\",\n      \"relation\": \"founded\",\n      \"object\": \"Roy Stryker\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Founded in 1949 by\"}\n      ]\n    },\n    {\n      \"subject\": \"Missouri Photo Workshop\",\n      \"relation\": \"founded\",\n      \"object\": \"Russell Lee\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Founded in 1949 by\"}\n      ]\n    },\n    {\n      \"subject\": \"Farm Security Administration\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a United States government\"}\n      ]\n    },\n    {\n      \"subject\": \"Sandra Eisert\",\n      \"relation\": \"works_for\",\n      \"object\": \"White House\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the White House's\"}\n      ]\n    },\n    {\n      \"subject\": \"Sandra Eisert\",\n      \"relation\": \"works_for\",\n      \"object\": \"NPPA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"NPPA Picture Editor of the Year\"}\n      ]\n    }\n  ]\n}"
+}

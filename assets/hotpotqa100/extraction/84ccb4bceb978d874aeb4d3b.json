@@ -1,0 +1,168 @@
+{
+  "entities": {
+    "Breakfast burrito": "PRODUCT",
+    "breakfast wrap": "PRODUCT",
+    "American": "NORP",
+    "flour tortilla": "PRODUCT",
+    "burrito": "PRODUCT",
+    "New Mexican cuisine": "NORP",
+    "Southwestern cuisine": "NORP",
+    "Tex-Mex": "NORP",
+    "Southwestern breakfast burritos": "PRODUCT",
+    "scrambled eggs": "PRODUCT",
+    "potatoes": "PRODUCT",
+    "onions": "PRODUCT",
+    "chorizo": "PRODUCT",
+    "bacon": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "breakfast wrap",
+      "relation": "alias_of",
+      "object": "Breakfast burrito",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "referred to as",
+          "line_start": 33,
+          "char_start": 51,
+          "ambiguous": false,
+          "relation_mention": "referred to as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Southwestern breakfast burritos",
+      "relation": "may_include",
+      "object": "scrambled eggs",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "may include",
+          "line_start": 350,
+          "char_start": 368,
+          "ambiguous": false,
+          "relation_mention": "may include",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Southwestern breakfast burritos",
+      "relation": "may_include",
+      "object": "potatoes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "may include",
+          "line_start": 350,
+          "char_start": 368,
+          "ambiguous": false,
+          "relation_mention": "may include",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Southwestern breakfast burritos",
+      "relation": "may_include",
+      "object": "onions",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "may include",
+          "line_start": 350,
+          "char_start": 368,
+          "ambiguous": false,
+          "relation_mention": "may include",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Southwestern breakfast burritos",
+      "relation": "may_include",
+      "object": "chorizo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "may include",
+          "line_start": 350,
+          "char_start": 368,
+          "ambiguous": false,
+          "relation_mention": "may include",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Southwestern breakfast burritos",
+      "relation": "may_include",
+      "object": "bacon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "may include",
+          "line_start": 350,
+          "char_start": 368,
+          "ambiguous": false,
+          "relation_mention": "may include",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Breakfast burrito",
+        "composed_of",
+        "breakfast items"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "breakfast items",
+        "wrapped_inside",
+        "flour tortilla burrito"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Breakfast burrito",
+        "originated_in",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "This style",
+        "invented_and_popularized_in",
+        "New Mexican cuisine"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "This style",
+        "invented_and_popularized_in",
+        "Southwestern cuisine"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "This style",
+        "invented_and_popularized_in",
+        "Tex-Mex"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Breakfast burrito\nThe breakfast burrito, sometimes referred to as a breakfast wrap, is a variety of American breakfast composed of breakfast items wrapped inside a flour tortilla burrito. This style was invented and popularized in several regional American cuisines, most notably New Mexican cuisine, Southwestern cuisine, and Tex-Mex. Southwestern breakfast burritos may include scrambled eggs, potatoes, onions, chorizo, or bacon.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Breakfast burrito\", \"type\": \"PRODUCT\"},\n    {\"name\": \"breakfast wrap\", \"type\": \"PRODUCT\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"flour tortilla\", \"type\": \"PRODUCT\"},\n    {\"name\": \"burrito\", \"type\": \"PRODUCT\"},\n    {\"name\": \"New Mexican cuisine\", \"type\": \"NORP\"},\n    {\"name\": \"Southwestern cuisine\", \"type\": \"NORP\"},\n    {\"name\": \"Tex-Mex\", \"type\": \"NORP\"},\n    {\"name\": \"Southwestern breakfast burritos\", \"type\": \"PRODUCT\"},\n    {\"name\": \"scrambled eggs\", \"type\": \"PRODUCT\"},\n    {\"name\": \"potatoes\", \"type\": \"PRODUCT\"},\n    {\"name\": \"onions\", \"type\": \"PRODUCT\"},\n    {\"name\": \"chorizo\", \"type\": \"PRODUCT\"},\n    {\"name\": \"bacon\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"breakfast wrap\",\n      \"relation\": \"alias_of\",\n      \"object\": \"Breakfast burrito\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"referred to as\"}\n      ]\n    },\n    {\n      \"subject\": \"Breakfast burrito\",\n      \"relation\": \"composed_of\",\n      \"object\": \"breakfast items\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"composed of\"}\n      ]\n    },\n    {\n      \"subject\": \"breakfast items\",\n      \"relation\": \"wrapped_inside\",\n      \"object\": \"flour tortilla burrito\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"wrapped inside\"}\n      ]\n    },\n    {\n      \"subject\": \"Breakfast burrito\",\n      \"relation\": \"originated_in\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    },\n    {\n      \"subject\": \"This style\",\n      \"relation\": \"invented_and_popularized_in\",\n      \"object\": \"New Mexican cuisine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"invented and popularized in\"}\n      ]\n    },\n    {\n      \"subject\": \"This style\",\n      \"relation\": \"invented_and_popularized_in\",\n      \"object\": \"Southwestern cuisine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"invented and popularized in\"}\n      ]\n    },\n    {\n      \"subject\": \"This style\",\n      \"relation\": \"invented_and_popularized_in\",\n      \"object\": \"Tex-Mex\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"invented and popularized in\"}\n      ]\n    },\n    {\n      \"subject\": \"Southwestern breakfast burritos\",\n      \"relation\": \"may_include\",\n      \"object\": \"scrambled eggs\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"may include\"}\n      ]\n    },\n    {\n      \"subject\": \"Southwestern breakfast burritos\",\n      \"relation\": \"may_include\",\n      \"object\": \"potatoes\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"may include\"}\n      ]\n    },\n    {\n      \"subject\": \"Southwestern breakfast burritos\",\n      \"relation\": \"may_include\",\n      \"object\": \"onions\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"may include\"}\n      ]\n    },\n    {\n      \"subject\": \"Southwestern breakfast burritos\",\n      \"relation\": \"may_include\",\n      \"object\": \"chorizo\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"may include\"}\n      ]\n    },\n    {\n      \"subject\": \"Southwestern breakfast burritos\",\n      \"relation\": \"may_include\",\n      \"object\": \"bacon\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"may include\"}\n      ]\n    }\n  ]\n}"
+}

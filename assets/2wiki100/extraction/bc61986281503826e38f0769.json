@@ -1,0 +1,147 @@
+{
+  "entities": {
+    "King Charles the Martyr": "title",
+    "Charles I": "person",
+    "England": "location",
+    "Scotland": "location",
+    "Ireland": "location",
+    "Anglican calendar of saints": "calendar",
+    "Tories": "political_group",
+    "Book of Common Prayer": "book",
+    "Church of England": "organization",
+    "Church of Ireland": "organization",
+    "Society of King Charles the Martyr": "organization"
+  },
+  "triples": [
+    {
+      "subject": "King Charles the Martyr",
+      "relation": "is_a_title_of",
+      "object": "Charles I",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "King Charles the Martyr, or Charles, King and Martyr, is a title of Charles I"
+        }
+      ]
+    },
+    {
+      "subject": "Charles I",
+      "relation": "was_king_of",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who was King of England"
+        }
+      ]
+    },
+    {
+      "subject": "King Charles the Martyr",
+      "relation": "has_feast_day_in",
+      "object": "Anglican calendar of saints",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "His feast day in the Anglican calendar of saints is 30 January"
+        }
+      ]
+    },
+    {
+      "subject": "King Charles the Martyr",
+      "relation": "was_popular_with",
+      "object": "Tories",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The cult of Charles the Martyr was popular with Tories"
+        }
+      ]
+    },
+    {
+      "subject": "Church of England",
+      "relation": "has_dedicated_churches",
+      "object": "King Charles the Martyr",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "There remain some churches and parishes dedicated to Charles the Martyr"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Charles I",
+        "was_king_of",
+        "Scotland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Charles I",
+        "was_king_of",
+        "Ireland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Charles I",
+        "executed_on",
+        "30 January 1649"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "King Charles the Martyr",
+        "used_by",
+        "high church Anglicans"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Book of Common Prayer",
+        "removed_services_in",
+        "1859"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Church of England",
+        "removed_services",
+        "state services"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Church of Ireland",
+        "removed_services",
+        "state services"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anglo-Catholic societies",
+        "maintains_cult_of",
+        "King Charles the Martyr"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Society of King Charles the Martyr",
+        "founded_in",
+        "1894"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "King Charles the Martyr\nKing Charles the Martyr, or Charles, King and Martyr, is a title of Charles I, who was King of England, Scotland and Ireland from 1625 until his execution on 30 January 1649. The title was used by high church Anglicans who regarded Charles's execution as a martyrdom. His feast day in the Anglican calendar of saints is 30 January, the anniversary of his execution in 1649. The cult of Charles the Martyr was popular with Tories. The observance was one of several\" state services\" removed in 1859 from the Book of Common Prayer of the Church of England and the Church of Ireland. There remain some churches and parishes dedicated to Charles the Martyr, and his cult is maintained by some Anglo- Catholic societies, including the Society of King Charles the Martyr founded in 1894."
+}

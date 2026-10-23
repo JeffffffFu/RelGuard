@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Love Story 1999": "Film",
+    "K. Raghavendra Rao": "Person",
+    "Prabhu Deva": "Person",
+    "Vadde Naveen": "Person",
+    "Ramya Krishna": "Person",
+    "Rambha": "Person",
+    "Laila": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Love Story 1999",
+      "relation": "directed_by",
+      "object": "K. Raghavendra Rao",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by K. Raghavendra Rao"
+        }
+      ]
+    },
+    {
+      "subject": "Love Story 1999",
+      "relation": "starring",
+      "object": "Prabhu Deva",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Prabhu Deva"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Love Story 1999",
+        "starring",
+        "Vadde Naveen"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Love Story 1999",
+        "starring",
+        "Ramya Krishna"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Love Story 1999",
+        "starring",
+        "Rambha"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Love Story 1999",
+        "starring",
+        "Laila"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Love Story 1999\nLove Story 1999 is a 1998 Indian Telugu-language romantic comedy film directed by K. Raghavendra Rao. The film had an ensemble cast starring Prabhu Deva, Vadde Naveen, Ramya Krishna, Rambha and Laila in the lead roles."
+}

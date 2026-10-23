@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Westinghouse Atom Smasher": "PRODUCT",
+    "Westinghouse Electric": "ORG",
+    "Forest Hills": "GPE",
+    "Pennsylvania": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Westinghouse Atom Smasher",
+      "relation": "operated_by",
+      "object": "Westinghouse Electric",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "operated by",
+          "line_start": 86,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "operated by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Westinghouse Atom Smasher",
+        "located_in",
+        "Forest Hills"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Forest Hills",
+        "located_in",
+        "Pennsylvania"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Westinghouse Atom Smasher\nWestinghouse Atom Smasher was a 5 MeV Van de Graaff electrostatic nuclear accelerator operated by the Westinghouse Electric company at their research center in Forest Hills, Pennsylvania. It was instrumental in the development in practical applications of nuclear science for energy production. It was the first industrial Van de Graaff generator in the world, and marked the beginning of nuclear research for civilian applications. Built in 1937, it was a 65 ft tall pear-shaped tower. It went dormant in 1958.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Westinghouse Atom Smasher\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Westinghouse Electric\", \"type\": \"ORG\"},\n    {\"name\": \"Forest Hills\", \"type\": \"GPE\"},\n    {\"name\": \"Pennsylvania\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Westinghouse Atom Smasher\",\n      \"relation\": \"operated_by\",\n      \"object\": \"Westinghouse Electric\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"operated by\"}\n      ]\n    },\n    {\n      \"subject\": \"Westinghouse Atom Smasher\",\n      \"relation\": \"located_in\",\n      \"object\": \"Forest Hills\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at their research center in\"}\n      ]\n    },\n    {\n      \"subject\": \"Forest Hills\",\n      \"relation\": \"located_in\",\n      \"object\": \"Pennsylvania\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Forest Hills, Pennsylvania\"}\n      ]\n    }\n  ]\n}"
+}

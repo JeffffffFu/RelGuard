@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "John Coffin Talbot": "Person",
+    "Maine": "Location",
+    "Maine Legislature": "Organization",
+    "Maine House of Representatives": "Organization",
+    "Maine Senate": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "John Coffin Talbot",
+      "relation": "served_in",
+      "object": "Maine Legislature",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "served 6 one-year terms in the Maine Legislature"
+        }
+      ]
+    },
+    {
+      "subject": "John Coffin Talbot",
+      "relation": "member_of",
+      "object": "Maine House of Representatives",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "two in the Maine House of Representatives"
+        }
+      ]
+    },
+    {
+      "subject": "John Coffin Talbot",
+      "relation": "member_of",
+      "object": "Maine Senate",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "four in the Maine Senate"
+        }
+      ]
+    },
+    {
+      "subject": "Maine Senate",
+      "relation": "part_of",
+      "object": "Maine Legislature",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "four in the Maine Senate"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John Coffin Talbot",
+        "elected_as",
+        "Senate President"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John C. Talbot\nJohn Coffin Talbot (1784–1860) was an American businessperson and politician from Maine. Talbot, a Democrat, served 6 one-year terms in the Maine Legislature, including two in the Maine House of Representatives (1825; 1831) and four in the Maine Senate (1832-1833; 1836-1837). In his 4th and final Senate term, Talbot was elected Senate President."
+}

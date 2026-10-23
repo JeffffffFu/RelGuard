@@ -1,0 +1,110 @@
+{
+  "entities": {
+    "Memorial Hermann–Texas Medical Center": "Organization",
+    "Texas Medical Center": "Location",
+    "Houston, Texas": "Location",
+    "McGovern Medical School": "Organization",
+    "Memorial Hermann Healthcare System": "Organization",
+    "Memorial Hermann Life Flight": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Memorial Hermann–Texas Medical Center",
+      "relation": "located_in",
+      "object": "Texas Medical Center",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the Texas Medical Center"
+        }
+      ]
+    },
+    {
+      "subject": "Memorial Hermann–Texas Medical Center",
+      "relation": "founded",
+      "object": "Texas Medical Center",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "its founding predates the Texas Medical Center"
+        }
+      ]
+    },
+    {
+      "subject": "Memorial Hermann–Texas Medical Center",
+      "relation": "primary_teaching_hospital_for",
+      "object": "McGovern Medical School",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the primary teaching hospital for McGovern Medical School"
+        }
+      ]
+    },
+    {
+      "subject": "Memorial Hermann–Texas Medical Center",
+      "relation": "flagship_location_of",
+      "object": "Memorial Hermann Healthcare System",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the flagship location of 13 hospitals in the Memorial Hermann Healthcare System"
+        }
+      ]
+    },
+    {
+      "subject": "Memorial Hermann Life Flight",
+      "relation": "operates_from",
+      "object": "Memorial Hermann–Texas Medical Center",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "operates its fleet of helicopters from Memorial Hermann–Texas Medical Center"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Memorial Hermann–Texas Medical Center",
+        "founded",
+        "1925"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "McGovern Medical School",
+        "formerly_known_as",
+        "The University of Texas Medical School at Houston"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Memorial Hermann–Texas Medical Center",
+        "certified_as",
+        "Level I Trauma Center"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Memorial Hermann–Texas Medical Center",
+        "has_admissions",
+        "33,614"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Memorial Hermann–Texas Medical Center",
+        "performs_surgeries",
+        "14,937 inpatient and 3,972 outpatient surgeries"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Memorial Hermann–Texas Medical Center\nMemorial Hermann–Texas Medical Center is a nationally ranked hospital at the Texas Medical Center. It is the first hospital founded in the Texas Medical Center in Houston, Texas (and its founding predates the Texas Medical Center). Founded in 1925, it is the primary teaching hospital for McGovern Medical School (formerly The University of Texas Medical School at Houston (UTHealth Medical School)) and the flagship location of 13 hospitals in the Memorial Hermann Healthcare System. It is one of three certified Level I Trauma Centers in the greater Houston area. The Memorial Hermann Life Flight air ambulance service operates its fleet of helicopters from Memorial Hermann–Texas Medical Center. The hospital has 33,614 admissions and performs 14,937 inpatient and 3,972 outpatient surgeries."
+}

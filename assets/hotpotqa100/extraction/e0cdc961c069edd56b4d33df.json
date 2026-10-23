@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "The Dangerous World of Butterflies": "WORK_OF_ART",
+    "Peter Laufer": "PERSON",
+    "Forbidden Creatures": "WORK_OF_ART",
+    "No Animals Were Harmed": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "The Dangerous World of Butterflies",
+      "relation": "precedes",
+      "object": "Forbidden Creatures",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "preceding",
+          "line_start": 214,
+          "char_start": 249,
+          "ambiguous": false,
+          "relation_mention": "preceding",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Dangerous World of Butterflies",
+      "relation": "precedes",
+      "object": "No Animals Were Harmed",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "preceding",
+          "line_start": 214,
+          "char_start": 249,
+          "ambiguous": false,
+          "relation_mention": "preceding",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Dangerous World of Butterflies",
+        "authored_by",
+        "Peter Laufer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Dangerous World of Butterflies",
+        "part_of",
+        "untitled animal trilogy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Dangerous World of Butterflies\nThe Dangerous World of Butterflies: The Startling Subculture of Criminals, Collectors, and Conservationists is a 2009 book by Doctor of Philosophy Peter Laufer. It is the first book in his untitled animal trilogy, preceding \"Forbidden Creatures\" in 2010 and \"No Animals Were Harmed\" in 2011. The book explores the presence of the butterfly in the fields of organized crime, ecological devastation, species depletion, natural history museum integrity, and chaos theory.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Dangerous World of Butterflies\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Peter Laufer\", \"type\": \"PERSON\"},\n    {\"name\": \"Forbidden Creatures\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"No Animals Were Harmed\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Dangerous World of Butterflies\",\n      \"relation\": \"authored_by\",\n      \"object\": \"Peter Laufer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a 2009 book by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Dangerous World of Butterflies\",\n      \"relation\": \"precedes\",\n      \"object\": \"Forbidden Creatures\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"preceding\"}\n      ]\n    },\n    {\n      \"subject\": \"The Dangerous World of Butterflies\",\n      \"relation\": \"precedes\",\n      \"object\": \"No Animals Were Harmed\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"preceding\"}\n      ]\n    },\n    {\n      \"subject\": \"The Dangerous World of Butterflies\",\n      \"relation\": \"part_of\",\n      \"object\": \"untitled animal trilogy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the first book in\"}\n      ]\n    }\n  ]\n}"
+}

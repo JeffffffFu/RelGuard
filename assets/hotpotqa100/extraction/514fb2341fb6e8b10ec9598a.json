@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Toyota IMV platform": "PRODUCT",
+    "Toyota": "ORG",
+    "IMV": "PRODUCT",
+    "Innovative International Multi-purpose Vehicle": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "IMV",
+      "relation": "stands_for",
+      "object": "Innovative International Multi-purpose Vehicle",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "stands for",
+          "line_start": 119,
+          "char_start": 139,
+          "ambiguous": false,
+          "relation_mention": "stands for",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Toyota IMV platform",
+        "works_for",
+        "Toyota"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota IMV platform",
+        "is_a",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Toyota IMV platform\nThe Toyota IMV platform is an automobile platform for SUVs, pickups/light trucks and passenger cars from Toyota. \"IMV\" stands for \"Innovative International Multi-purpose Vehicle\"."
+}

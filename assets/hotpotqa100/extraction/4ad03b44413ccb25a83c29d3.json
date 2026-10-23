@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Bryan Edward McClendon": "PERSON",
+    "University of South Carolina": "ORG",
+    "University of Georgia": "ORG",
+    "TaxSlayer Bowl": "EVENT",
+    "Mark Richt": "PERSON",
+    "Thomas Brown": "PERSON",
+    "Wisconsin Badgers": "ORG",
+    "Georgia": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Bryan Edward McClendon",
+      "relation": "worked_for",
+      "object": "University of Georgia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "formerly coached wide receivers at",
+          "line_start": 214,
+          "char_start": 230,
+          "ambiguous": false,
+          "relation_mention": "formerly coached wide receivers at",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Mark Richt",
+      "relation": "no_longer_coaching",
+      "object": "University of Georgia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "no longer coaching the team",
+          "line_start": 350,
+          "char_start": 366,
+          "ambiguous": false,
+          "relation_mention": "no longer coaching the team",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bryan Edward McClendon",
+        "works_for",
+        "University of South Carolina"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bryan Edward McClendon",
+        "was_interim_head_coach_for",
+        "TaxSlayer Bowl"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bryan Edward McClendon",
+        "coached",
+        "running backs"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bryan Edward McClendon",
+        "coached",
+        "wide receivers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Thomas Brown",
+        "was_hired_from",
+        "Wisconsin Badgers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thomas Brown",
+        "served_as",
+        "Recruiting Coordinator"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bryan Edward McClendon",
+        "was_promoted_and_given_title",
+        "Assistant Head Coach"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bryan McClendon\nBryan Edward McClendon (born December 28, 1983) is an American football coach and former player. He is currently the co-offensive coordinator and wide receivers coach at the University of South Carolina. McClendon formerly coached wide receivers at the University of Georgia and was interim head coach for the 2015 TaxSlayer Bowl due to Mark Richt's no longer coaching the team. He had coached the running backs since 2009 but took over the role of coaching the wide receivers when Thomas Brown was hired from Wisconsin Badgers. Brown also served as the Recruiting Coordinator for Georgia. On January 12, 2015, he was promoted and given the title of Assistant Head Coach.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bryan Edward McClendon\", \"type\": \"PERSON\"},\n    {\"name\": \"University of South Carolina\", \"type\": \"ORG\"},\n    {\"name\": \"University of Georgia\", \"type\": \"ORG\"},\n    {\"name\": \"TaxSlayer Bowl\", \"type\": \"EVENT\"},\n    {\"name\": \"Mark Richt\", \"type\": \"PERSON\"},\n    {\"name\": \"Thomas Brown\", \"type\": \"PERSON\"},\n    {\"name\": \"Wisconsin Badgers\", \"type\": \"ORG\"},\n    {\"name\": \"Georgia\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bryan Edward McClendon\",\n      \"relation\": \"works_for\",\n      \"object\": \"University of South Carolina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is currently the co-offensive coordinator and wide receivers coach at\"}\n      ]\n    },\n    {\n      \"subject\": \"Bryan Edward McClendon\",\n      \"relation\": \"worked_for\",\n      \"object\": \"University of Georgia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"formerly coached wide receivers at\"}\n      ]\n    },\n    {\n      \"subject\": \"Bryan Edward McClendon\",\n      \"relation\": \"was_interim_head_coach_for\",\n      \"object\": \"TaxSlayer Bowl\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was interim head coach for the 2015 TaxSlayer Bowl\"}\n      ]\n    },\n    {\n      \"subject\": \"Mark Richt\",\n      \"relation\": \"no_longer_coaching\",\n      \"object\": \"University of Georgia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"no longer coaching the team\"}\n      ]\n    },\n    {\n      \"subject\": \"Bryan Edward McClendon\",\n      \"relation\": \"coached\",\n      \"object\": \"running backs\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"had coached the running backs since 2009\"}\n      ]\n    },\n    {\n      \"subject\": \"Bryan Edward McClendon\",\n      \"relation\": \"coached\",\n      \"object\": \"wide receivers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"took over the role of coaching the wide receivers\"}\n      ]\n    },\n    {\n      \"subject\": \"Thomas Brown\",\n      \"relation\": \"was_hired_from\",\n      \"object\": \"Wisconsin Badgers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"hired from Wisconsin Badgers\"}\n      ]\n    },\n    {\n      \"subject\": \"Thomas Brown\",\n      \"relation\": \"served_as\",\n      \"object\": \"Recruiting Coordinator\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served as the Recruiting Coordinator for Georgia\"}\n      ]\n    },\n    {\n      \"subject\": \"Bryan Edward McClendon\",\n      \"relation\": \"was_promoted_and_given_title\",\n      \"object\": \"Assistant Head Coach\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was promoted and given the title of Assistant Head Coach\"}\n      ]\n    }\n  ]\n}"
+}

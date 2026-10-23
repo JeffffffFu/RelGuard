@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "Secret Garden": "WORK_OF_ART",
+    "Apink": "ORG",
+    "Unee Anee": "WORK_OF_ART",
+    "Hush": "WORK_OF_ART",
+    "Bubibu": "WORK_OF_ART",
+    "Mnet": "ORG",
+    "NoNoNo": "WORK_OF_ART",
+    "Shinsadong Tiger": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Secret Garden",
+      "relation": "released_by",
+      "object": "Apink",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Secret Garden is the third mini-album by South Korean girl group Apink, released on July 5, 2013."
+        }
+      ]
+    },
+    {
+      "subject": "Apink",
+      "relation": "produced_by",
+      "object": "Shinsadong Tiger",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "including the title track “NoNoNo” produced by Shinsadong Tiger."
+        }
+      ]
+    },
+    {
+      "subject": "Secret Garden",
+      "relation": "has_title_track",
+      "object": "NoNoNo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "including the title track “NoNoNo” produced by Shinsadong Tiger."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "South Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Apink",
+        "located_in",
+        "South Korea"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Apink",
+        "released_album",
+        "Unee Anee"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Apink",
+        "released_album",
+        "Hush"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Apink",
+        "released_album",
+        "Bubibu"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Secret Garden",
+        "has_theme",
+        "healing"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Secret Garden (EP)\nSecret Garden is the third mini-album by South Korean girl group Apink, released on July 5, 2013. This is their first official release as six-member group and they returned after 14 months since they last promoted their last album \"Unee Anee\" with \"Hush\" and \"Bubibu\" in May 2012. They made first comeback stage on Mnet’s “M! Countdown\" one day before the official release. The theme of the album is healing, aim to that will soothe the listeners’ eyes and ears. The album consist of five new songs including the title track “NoNoNo” produced by Shinsadong Tiger."
+}

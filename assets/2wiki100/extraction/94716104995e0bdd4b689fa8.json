@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "A Race for Life": "film",
+    "D. Ross Lederman": "person",
+    "Library of Congress Database": "organization",
+    "Netherlands": "location"
+  },
+  "triples": [
+    {
+      "subject": "A Race for Life",
+      "relation": "directed_by",
+      "object": "D. Ross Lederman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by D. Ross Lederman"
+        }
+      ]
+    },
+    {
+      "subject": "A Race for Life",
+      "relation": "presumed_to_be_lost",
+      "object": "A Race for Life",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the film was presumed to be lost"
+        }
+      ]
+    },
+    {
+      "subject": "A Race for Life",
+      "relation": "found_in",
+      "object": "Netherlands",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the film was found in the Netherlands"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "A Race for Life",
+        "released_with",
+        "Vitaphone soundtrack"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "A Race for Life\nA Race for Life is a 1928 American silent drama film directed by D. Ross Lederman. Originally, the film was presumed to be lost. However, according to the Library of Congress Database, the film was found in the Netherlands. The film was released with a Vitaphone soundtrack with a synchronised musical score and sound effects."
+}

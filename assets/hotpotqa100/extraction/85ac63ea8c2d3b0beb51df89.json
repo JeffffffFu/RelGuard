@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "René Llense": "PERSON",
+    "FC Sète": "ORG",
+    "AS Saint-Étienne": "ORG",
+    "Collioure": "GPE",
+    "Pyrénées-Orientales": "GPE",
+    "France": "GPE",
+    "1934 FIFA World Cup": "EVENT",
+    "1938 FIFA World Cup": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "René Llense",
+      "relation": "played_for",
+      "object": "FC Sète",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who played for FC Sète"
+        }
+      ]
+    },
+    {
+      "subject": "René Llense",
+      "relation": "born_in",
+      "object": "Collioure",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He was born in Collioure"
+        }
+      ]
+    },
+    {
+      "subject": "Collioure",
+      "relation": "located_in",
+      "object": "Pyrénées-Orientales",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Collioure, Pyrénées-Orientales"
+        }
+      ]
+    },
+    {
+      "subject": "René Llense",
+      "relation": "earned_caps_for",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "earned 11 caps for the France national football team"
+        }
+      ]
+    },
+    {
+      "subject": "René Llense",
+      "relation": "participated_in",
+      "object": "1934 FIFA World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "participated in the 1934 FIFA World Cup"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "René Llense",
+        "played_for",
+        "AS Saint-Étienne"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "René Llense",
+        "participated_in",
+        "1938 FIFA World Cup"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "René Llense\nRené Llense (14 July 1913 – 12 March 2014) was a French football goalkeeper, who played for FC Sète and AS Saint-Étienne during his club career. He was born in Collioure, Pyrénées-Orientales. He earned 11 caps for the France national football team from 1935 to 1939, and participated in the 1934 FIFA World Cup and the 1938 FIFA World Cup. He was their last surviving player to have participated in either of the pre-war World Cups. . He turned 100 in July 2013 and died on 12 March 2014 from natural causes."
+}

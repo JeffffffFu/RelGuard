@@ -1,0 +1,57 @@
+{
+  "entities": {
+    "Lee Harvey Oswald": "Person",
+    "John F. Kennedy": "Person",
+    "United States": "Country",
+    "Dallas": "City",
+    "Texas": "State"
+  },
+  "triples": [
+    {
+      "subject": "Lee Harvey Oswald",
+      "relation": "assassinated",
+      "object": "John F. Kennedy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who assassinated United States President John F. Kennedy on November 22, 1963."
+        }
+      ]
+    },
+    {
+      "subject": "Lee Harvey Oswald",
+      "relation": "shot_and_killed",
+      "object": "John F. Kennedy",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Oswald shot and killed Kennedy as the President traveled by motorcade through Dealey Plaza in the city of Dallas, Texas."
+        }
+      ]
+    },
+    {
+      "subject": "John F. Kennedy",
+      "relation": "located_in",
+      "object": "Dallas",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "as the President traveled by motorcade through Dealey Plaza in the city of Dallas, Texas."
+        }
+      ]
+    },
+    {
+      "subject": "Dallas",
+      "relation": "located_in",
+      "object": "Texas",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in the city of Dallas, Texas."
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Lee Harvey Oswald\nLee Harvey Oswald (October 18, 1939 – November 24, 1963) was an American former U.S. Marine who assassinated United States President John F. Kennedy on November 22, 1963. According to four federal government investigations and one municipal investigation, Oswald shot and killed Kennedy as the President traveled by motorcade through Dealey Plaza in the city of Dallas, Texas."
+}

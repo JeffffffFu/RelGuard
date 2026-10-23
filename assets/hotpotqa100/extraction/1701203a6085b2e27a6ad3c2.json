@@ -1,0 +1,128 @@
+{
+  "entities": {
+    "Wiser for the Time": "album",
+    "The Black Crowes": "band",
+    "March 18, 2013": "date",
+    "Warpaint Live": "album",
+    "New York City": "location",
+    "Croweology": "album",
+    "The Flying Burrito Brothers": "band",
+    "Little Feat": "band",
+    "Bob Dylan": "person"
+  },
+  "triples": [
+    {
+      "subject": "Wiser for the Time",
+      "relation": "released_on",
+      "object": "March 18, 2013",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released on March 18, 2013"
+        }
+      ]
+    },
+    {
+      "subject": "The Black Crowes",
+      "relation": "recorded_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Recorded during a five-night run in New York City (NYC)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wiser for the Time",
+        "is_a",
+        "album"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Black Crowes",
+        "is_a",
+        "band"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Black Crowes",
+        "returned_from",
+        "hiatus"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wiser for the Time",
+        "is_first_live_album_since",
+        "Warpaint Live"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Black Crowes",
+        "supported_tour_for",
+        "Croweology"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wiser for the Time",
+        "includes",
+        "live recordings"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wiser for the Time",
+        "includes",
+        "covers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Flying Burrito Brothers",
+        "performed",
+        "Hot Burrito #1"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Flying Burrito Brothers",
+        "performed",
+        "Hot Burrito #2"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Little Feat",
+        "performed",
+        "Willin"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bob Dylan",
+        "performed",
+        "Tonight I'll Be Staying Here with You"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Wiser for the Time\nWiser for the Time is the fifth live album by American southern rock band The Black Crowes, released on March 18, 2013. This marks their return from hiatus and is the first Black Crowes live album since \"Warpaint Live\" in 2009. Recorded during a five-night run in New York City (NYC) in their supporting tour for the 2010 album \"Croweology\" and released as vinyl or download. It includes live recordings (15 acoustic & 11 electric) from the band's 2010 NYC performances and four covers: \"Hot Burrito #1\" and \"Hot Burrito #2\" from The Flying Burrito Brothers, Little Feat's \"Willin\" and Bob Dylan's \"Tonight I'll Be Staying Here with You\"."
+}

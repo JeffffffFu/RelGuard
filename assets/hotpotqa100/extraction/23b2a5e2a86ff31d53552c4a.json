@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Daniel Kaluuya": "Person",
+    "Get Out": "Film",
+    "Skins": "TV Show",
+    "Black Mirror": "TV Show",
+    "Fifteen Million Merits": "Episode"
+  },
+  "triples": [
+    {
+      "subject": "Daniel Kaluuya",
+      "relation": "is_best_known_for",
+      "object": "Get Out",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for playing Chris Washington in the 2017 horror film \"Get Out\""
+        }
+      ]
+    },
+    {
+      "subject": "Black Mirror",
+      "relation": "has_episode",
+      "object": "Fifteen Million Merits",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "\"Black Mirror\" episode \"Fifteen Million Merits\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Daniel Kaluuya",
+        "born_on",
+        "8 May 1989"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Daniel Kaluuya",
+        "is_best_known_for",
+        "Skins"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Daniel Kaluuya",
+        "is_best_known_for",
+        "Black Mirror"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Daniel Kaluuya\nDaniel Kaluuya (born 8 May 1989) is an English actor and writer. Kaluuya is best known for playing Chris Washington in the 2017 horror film \"Get Out\", Posh Kenneth in the E4 teen-drama \"Skins\", and Bing in the \"Black Mirror\" episode \"Fifteen Million Merits\"."
+}

@@ -1,0 +1,254 @@
+{
+  "entities": {
+    "Stephen Carpenter": "Person",
+    "Weatherford, Texas": "Location",
+    "Kansas City, Missouri": "Location",
+    "University of California, Los Angeles School of Theater, Film and Television": "Organization",
+    "University of Southern California's School of Cinematic Arts": "Organization",
+    "The Man": "Film",
+    "Samuel L. Jackson": "Person",
+    "Eugene Levy": "Person",
+    "Blue Streak": "Film",
+    "Martin Lawrence": "Person",
+    "Soul Survivors": "Film",
+    "Eliza Dushku": "Person",
+    "Casey Affleck": "Person",
+    "Grimm": "Television Series",
+    "Killer": "Book",
+    "Amazon": "Organization",
+    "Killer in the Hills": "Book",
+    "Entertainment Weekly": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Stephen Carpenter",
+      "relation": "born_in",
+      "object": "Weatherford, Texas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born in Weatherford, Texas"
+        }
+      ]
+    },
+    {
+      "subject": "Stephen Carpenter",
+      "relation": "raised_in",
+      "object": "Kansas City, Missouri",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "raised in Kansas City, Missouri"
+        }
+      ]
+    },
+    {
+      "subject": "Stephen Carpenter",
+      "relation": "graduated_from",
+      "object": "University of California, Los Angeles School of Theater, Film and Television",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He graduated from the University of California, Los Angeles School of Theater, Film and Television"
+        }
+      ]
+    },
+    {
+      "subject": "Stephen Carpenter",
+      "relation": "lectures_at",
+      "object": "University of Southern California's School of Cinematic Arts",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "He lectures on writing and story structure at the University of Southern California's School of Cinematic Arts"
+        }
+      ]
+    },
+    {
+      "subject": "The Man",
+      "relation": "starring",
+      "object": "Samuel L. Jackson",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "starring Samuel L. Jackson"
+        }
+      ]
+    },
+    {
+      "subject": "Blue Streak",
+      "relation": "starring",
+      "object": "Martin Lawrence",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "starring Martin Lawrence"
+        }
+      ]
+    },
+    {
+      "subject": "Soul Survivors",
+      "relation": "starring",
+      "object": "Eliza Dushku",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "starring Eliza Dushku"
+        }
+      ]
+    },
+    {
+      "subject": "Killer",
+      "relation": "published_by",
+      "object": "Amazon",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "published in 2010 on Amazon Kindle"
+        }
+      ]
+    },
+    {
+      "subject": "Killer in the Hills",
+      "relation": "published_by",
+      "object": "Amazon",
+      "occurrences": [
+        {
+          "sentence_id": 8,
+          "relation_mention": "was published by Amazon in December 2011"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Stephen Carpenter",
+        "works_as",
+        "writer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Stephen Carpenter",
+        "works_as",
+        "director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Stephen Carpenter",
+        "works_as",
+        "cinematographer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Stephen Carpenter",
+        "wrote",
+        "The Man"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Man",
+        "starring",
+        "Eugene Levy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Stephen Carpenter",
+        "wrote",
+        "Blue Streak"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Stephen Carpenter",
+        "wrote_and_directed",
+        "Soul Survivors"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Soul Survivors",
+        "starring",
+        "Casey Affleck"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Stephen Carpenter",
+        "created",
+        "Grimm"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Grimm",
+        "premiered_in",
+        "2011 fall season"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Stephen Carpenter",
+        "wrote",
+        "Killer"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Killer",
+        "ranked",
+        "No. 1 on Amazon's Mystery/Thriller lists"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Killer",
+        "characterized_as",
+        "a blockbuster debut"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Stephen Carpenter",
+        "published",
+        "Killer in the Hills"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Stephen Carpenter",
+        "developing",
+        "one-hour mystery series"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "one-hour mystery series",
+        "developed_for",
+        "NBC"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Stephen Carpenter (writer)\nStephen Carpenter, born in Weatherford, Texas, and raised in Kansas City, Missouri, is an American writer, director, and cinematographer with nine films and two television works to his credit, and more in development. Carpenter has been writing since 7th grade. He graduated from the University of California, Los Angeles School of Theater, Film and Television. He lectures on writing and story structure at the University of Southern California's School of Cinematic Arts. His screenplays include \"The Man\", starring Samuel L. Jackson and Eugene Levy, \"Blue Streak\", starring Martin Lawrence, and others. He has written and directed several thrillers, including \"Soul Survivors\", starring Eliza Dushku and Casey Affleck. His most recent (2011) creation is the NBC television series, \"Grimm\", which premiered in the 2011 fall season. Carpenter's first novel, \"Killer\", published in 2010 on Amazon Kindle was No. 1 on Amazon's Mystery/Thriller lists, and was characterized as \"a blockbuster debut\" by Entertainment Weekly. His latest book, \"Killer in the Hills\", was published by Amazon in December 2011. He is currently (December 2011) developing a one-hour mystery series for NBC."
+}

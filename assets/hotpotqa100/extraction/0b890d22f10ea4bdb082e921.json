@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "King Electric": "ORG",
+    "Chris Isepp": "PERSON",
+    "Peter Hartwig": "PERSON",
+    "Viennese": "NORP",
+    "the Basket Boys": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Chris Isepp",
+      "relation": "met",
+      "object": "Peter Hartwig",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "met each other",
+          "line_start": 135,
+          "char_start": 149,
+          "ambiguous": false,
+          "relation_mention": "met each other",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Peter Hartwig",
+      "relation": "toured_with",
+      "object": "the Basket Boys",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was touring with",
+          "line_start": 231,
+          "char_start": 245,
+          "ambiguous": false,
+          "relation_mention": "was touring with",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "King Electric",
+        "consists_of",
+        "Chris Isepp"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "King Electric",
+        "consists_of",
+        "Peter Hartwig"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "King Electric",
+        "associated_with",
+        "Viennese"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "King Electric\nKing Electric is Chris Isepp and Peter Hartwig. They took their first musical attempts at the end of 1980s / beginning 1990s and first met each other at the upcoming and flourishing Viennese techno scene back in '92. While Hartwig was touring with the well known noise-pop band the Basket Boys, Isepp made first attentions as Electro DJ & Producer.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"King Electric\", \"type\": \"ORG\"},\n    {\"name\": \"Chris Isepp\", \"type\": \"PERSON\"},\n    {\"name\": \"Peter Hartwig\", \"type\": \"PERSON\"},\n    {\"name\": \"Viennese\", \"type\": \"NORP\"},\n    {\"name\": \"the Basket Boys\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"King Electric\",\n      \"relation\": \"consists_of\",\n      \"object\": \"Chris Isepp\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is\"}\n      ]\n    },\n    {\n      \"subject\": \"King Electric\",\n      \"relation\": \"consists_of\",\n      \"object\": \"Peter Hartwig\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is\"}\n      ]\n    },\n    {\n      \"subject\": \"Chris Isepp\",\n      \"relation\": \"met\",\n      \"object\": \"Peter Hartwig\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"met each other\"}\n      ]\n    },\n    {\n      \"subject\": \"Peter Hartwig\",\n      \"relation\": \"toured_with\",\n      \"object\": \"the Basket Boys\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was touring with\"}\n      ]\n    },\n    {\n      \"subject\": \"King Electric\",\n      \"relation\": \"associated_with\",\n      \"object\": \"Viennese\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Viennese techno scene\"}\n      ]\n    }\n  ]\n}"
+}

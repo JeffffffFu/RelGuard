@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Allison T38": "PRODUCT",
+    "Allison Engine Company": "ORG",
+    "Allison T56": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Allison T38",
+      "relation": "developed_by",
+      "object": "Allison Engine Company",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "developed by",
+          "line_start": 72,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "developed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Allison T38",
+        "became_basis_for",
+        "Allison T56"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Allison T38\nThe Allison T38 (company Model 501) was an early large turboprop engine developed by Allison Engine Company during the late 1940s. The T38 became the basis for the very successful family of Allison T56 turboprop engine.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Allison T38\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Allison Engine Company\", \"type\": \"ORG\"},\n    {\"name\": \"Allison T56\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Allison T38\",\n      \"relation\": \"developed_by\",\n      \"object\": \"Allison Engine Company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"developed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Allison T38\",\n      \"relation\": \"became_basis_for\",\n      \"object\": \"Allison T56\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became the basis for\"}\n      ]\n    }\n  ]\n}"
+}

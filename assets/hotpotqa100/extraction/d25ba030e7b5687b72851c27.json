@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "Archbold Gymnasium": "FAC",
+    "Syracuse University": "ORG",
+    "Syracuse": "GPE",
+    "New York": "GPE",
+    "John Dustin Archbold": "PERSON",
+    "Archbold Stadium": "FAC",
+    "Carrier Dome": "FAC",
+    "Manley Field House": "FAC",
+    "Flanagan Gymnasium": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Archbold Gymnasium",
+      "relation": "located_in",
+      "object": "Syracuse University",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located on the campus of",
+          "line_start": 34,
+          "char_start": 53,
+          "ambiguous": false,
+          "relation_mention": "located on the campus of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Archbold Gymnasium",
+      "relation": "founded",
+      "object": "Archbold Stadium",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "funded the building of",
+          "line_start": 214,
+          "char_start": 233,
+          "ambiguous": false,
+          "relation_mention": "funded the building of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "John Dustin Archbold",
+      "relation": "funded",
+      "object": "Archbold Gymnasium",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "donated by",
+          "line_start": 134,
+          "char_start": 153,
+          "ambiguous": false,
+          "relation_mention": "donated by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "John Dustin Archbold",
+      "relation": "funded",
+      "object": "Archbold Stadium",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "funded the building of",
+          "line_start": 214,
+          "char_start": 233,
+          "ambiguous": false,
+          "relation_mention": "funded the building of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Archbold Gymnasium",
+        "located_in",
+        "Syracuse"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Archbold Gymnasium",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Archbold Stadium",
+        "located_in",
+        "Archbold Gymnasium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Carrier Dome",
+        "located_in",
+        "Archbold Gymnasium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Archbold Gymnasium",
+        "served_as",
+        "men's basketball team"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Manley Field House",
+        "built_in",
+        "1962"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Flanagan Gymnasium",
+        "built_in",
+        "1989"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Archbold Gymnasium\nArchbold Gymnasium is a gymnasium located on the campus of Syracuse University in Syracuse, New York. It was built in 1908 with money donated by John Dustin Archbold, a major benefactor of the university, who also funded the building of Archbold Stadium, just to the west of the gymnasium (now the site of the Carrier Dome). It served as the home to the men's basketball team until the building of the Manley Field House in 1962, with the exception of the time from January, 1947 to 1949. This was due to a large fire which gutted most of the building. The building was rebuilt from 1948 to 1949, and a southern addition was made in 1952, as well as a neighboring gymnasium (Flanagan Gymnasium), which was built in 1989. The building now houses the school's ROTC programs, men's and women's rowing indoor facilities, as well as the bursar, financial aid services, aerospace studies and undergraduate processing.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Archbold Gymnasium\", \"type\": \"FAC\"},\n    {\"name\": \"Syracuse University\", \"type\": \"ORG\"},\n    {\"name\": \"Syracuse\", \"type\": \"GPE\"},\n    {\"name\": \"New York\", \"type\": \"GPE\"},\n    {\"name\": \"John Dustin Archbold\", \"type\": \"PERSON\"},\n    {\"name\": \"Archbold Stadium\", \"type\": \"FAC\"},\n    {\"name\": \"Carrier Dome\", \"type\": \"FAC\"},\n    {\"name\": \"Manley Field House\", \"type\": \"FAC\"},\n    {\"name\": \"Flanagan Gymnasium\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Archbold Gymnasium\",\n      \"relation\": \"located_in\",\n      \"object\": \"Syracuse University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located on the campus of\"}\n      ]\n    },\n    {\n      \"subject\": \"Archbold Gymnasium\",\n      \"relation\": \"located_in\",\n      \"object\": \"Syracuse\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located on the campus of Syracuse University in\"}\n      ]\n    },\n    {\n      \"subject\": \"Archbold Gymnasium\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located on the campus of Syracuse University in Syracuse, New York\"}\n      ]\n    },\n    {\n      \"subject\": \"Archbold Gymnasium\",\n      \"relation\": \"founded\",\n      \"object\": \"Archbold Stadium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"funded the building of\"}\n      ]\n    },\n    {\n      \"subject\": \"John Dustin Archbold\",\n      \"relation\": \"funded\",\n      \"object\": \"Archbold Gymnasium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"donated by\"}\n      ]\n    },\n    {\n      \"subject\": \"John Dustin Archbold\",\n      \"relation\": \"funded\",\n      \"object\": \"Archbold Stadium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"funded the building of\"}\n      ]\n    },\n    {\n      \"subject\": \"Archbold Stadium\",\n      \"relation\": \"located_in\",\n      \"object\": \"Archbold Gymnasium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"just to the west of\"}\n      ]\n    },\n    {\n      \"subject\": \"Carrier Dome\",\n      \"relation\": \"located_in\",\n      \"object\": \"Archbold Gymnasium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"now the site of the Carrier Dome\"}\n      ]\n    },\n    {\n      \"subject\": \"Archbold Gymnasium\",\n      \"relation\": \"served_as\",\n      \"object\": \"men's basketball team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served as the home to\"}\n      ]\n    },\n    {\n      \"subject\": \"Manley Field House\",\n      \"relation\": \"built_in\",\n      \"object\": \"1962\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the building of the Manley Field House in 1962\"}\n      ]\n    },\n    {\n      \"subject\": \"Flanagan Gymnasium\",\n      \"relation\": \"built_in\",\n      \"object\": \"1989\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"which was built in 1989\"}\n      ]\n    }\n  ]\n}"
+}

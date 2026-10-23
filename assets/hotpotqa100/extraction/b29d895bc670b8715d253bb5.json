@@ -1,0 +1,140 @@
+{
+  "entities": {
+    "Contra-rotating propellers": "PRODUCT",
+    "CRP": "PRODUCT",
+    "coaxial contra-rotating propellers": "PRODUCT",
+    "high-speed propellers": "PRODUCT",
+    "single piston engine": "PRODUCT",
+    "turboprop engine": "PRODUCT",
+    "two coaxial propellers": "PRODUCT",
+    "planetary gear": "PRODUCT",
+    "spur gear transmission": "PRODUCT",
+    "counter-rotating propellers": "PRODUCT",
+    "airscrews": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "single piston engine",
+      "relation": "drives",
+      "object": "two coaxial propellers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to drive two coaxial propellers",
+          "line_start": 209,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "to drive two coaxial propellers",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "turboprop engine",
+      "relation": "drives",
+      "object": "two coaxial propellers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to drive two coaxial propellers",
+          "line_start": 209,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "to drive two coaxial propellers",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Contra-rotating propellers",
+      "relation": "should_not_be_confused_with",
+      "object": "counter-rotating propellers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "should not be confused with",
+          "line_start": 481,
+          "char_start": 508,
+          "ambiguous": false,
+          "relation_mention": "should not be confused with",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "counter-rotating propellers",
+      "relation": "are",
+      "object": "airscrews",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "airscrews on separate shafts turning in opposite directions",
+          "line_start": 537,
+          "char_start": 564,
+          "ambiguous": false,
+          "relation_mention": "airscrews on separate shafts turning in opposite directions",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Aircraft equipped with contra-rotating propellers",
+        "also_referred_to_as",
+        "CRP"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aircraft equipped with contra-rotating propellers",
+        "also_referred_to_as",
+        "coaxial contra-rotating propellers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aircraft equipped with contra-rotating propellers",
+        "also_referred_to_as",
+        "high-speed propellers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aircraft equipped with contra-rotating propellers",
+        "apply_power_of",
+        "single piston engine"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aircraft equipped with contra-rotating propellers",
+        "apply_power_of",
+        "turboprop engine"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "power",
+        "transferred_via",
+        "planetary gear"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "power",
+        "transferred_via",
+        "spur gear transmission"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Contra-rotating propellers\nAircraft equipped with contra-rotating propellers, also referred to as CRP, coaxial contra-rotating propellers, or high-speed propellers, apply the maximum power of usually a single piston or turboprop engine to drive two coaxial propellers in contra-rotation (rotation about the same axis in opposite directions). Two propellers are arranged one behind the other, and power is transferred from the engine via a planetary gear or spur gear transmission. Contra-rotating propellers should not be confused with counter-rotating propellers—airscrews on separate shafts turning in opposite directions."
+}

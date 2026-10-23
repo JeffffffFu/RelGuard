@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "Schenectady": "City",
+    "Schenectady County": "County",
+    "New York": "State",
+    "United States": "Country",
+    "Mohawk": "Language",
+    "Dutch colonists": "Group",
+    "Albany": "City"
+  },
+  "triples": [
+    {
+      "subject": "Schenectady",
+      "relation": "located_in",
+      "object": "Schenectady County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a city in Schenectady County"
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady County",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Schenectady County, New York"
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady",
+      "relation": "county_seat_of",
+      "object": "Schenectady County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of which it is the county seat"
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady",
+      "relation": "founded_by",
+      "object": "Dutch colonists",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The city was founded on the south side of the Mohawk River by Dutch colonists"
+        }
+      ]
+    },
+    {
+      "subject": "Dutch colonists",
+      "relation": "from",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "many from the Albany area"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Schenectady",
+        "has_population",
+        "66,135"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Schenectady",
+        "derived_from",
+        "Mohawk"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Dutch colonists",
+        "prohibited_from",
+        "fur trade"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Albany monopoly",
+        "kept_control_after",
+        "English takeover"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Schenectady",
+        "developed_farms_on",
+        "strip plots"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "strip plots",
+        "along",
+        "Mohawk River"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Schenectady, New York\nSchenectady ( ) is a city in Schenectady County, New York, United States, of which it is the county seat. As of the 2010 census, the city had a population of 66,135. The name \"Schenectady\" is derived from a Mohawk word \"skahnéhtati\" meaning \"beyond the pines\". The city was founded on the south side of the Mohawk River by Dutch colonists in the 17th century, many from the Albany area. They were prohibited from the fur trade by the Albany monopoly, which kept its control after the English takeover in 1664. Residents of the new village developed farms on strip plots along the river."
+}

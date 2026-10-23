@@ -1,0 +1,135 @@
+{
+  "entities": {
+    "Craig Johnston": "PERSON",
+    "Craig Peter Johnston": "PERSON",
+    "Liverpool": "ORG",
+    "Adidas": "ORG",
+    "Predator": "PRODUCT",
+    "England U-21": "ORG",
+    "English Football League": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Craig Peter Johnston",
+      "relation": "played_in",
+      "object": "English Football League",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played in the English Football League",
+          "line_start": 98,
+          "char_start": 113,
+          "ambiguous": false,
+          "relation_mention": "played in the English Football League",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Craig Peter Johnston",
+      "relation": "won_titles_with",
+      "object": "Liverpool",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "with Liverpool",
+          "line_start": 186,
+          "char_start": 201,
+          "ambiguous": false,
+          "relation_mention": "with Liverpool",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Craig Peter Johnston",
+      "relation": "designed",
+      "object": "Predator",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed and created the prototype for Adidas' Predator football boot",
+          "line_start": 221,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "designed and created the prototype for Adidas' Predator football boot",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Predator",
+      "relation": "manufactured_by",
+      "object": "Adidas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Adidas' Predator",
+          "line_start": 260,
+          "char_start": 275,
+          "ambiguous": false,
+          "relation_mention": "Adidas' Predator",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Craig Peter Johnston",
+      "relation": "made_appearance_for",
+      "object": "England U-21",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made an appearance for the England U-21",
+          "line_start": 419,
+          "char_start": 434,
+          "ambiguous": false,
+          "relation_mention": "made an appearance for the England U-21",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "South Africa (GPE)",
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Craig Peter Johnston",
+        "born_in",
+        "South Africa"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Craig Peter Johnston",
+        "nationality",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Craig Peter Johnston",
+        "eligible_for",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Craig Peter Johnston",
+        "eligible_for",
+        "South Africa"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Craig Johnston\nCraig Peter Johnston (born 25 June 1960) is a South African-born Australian former footballer. He played in the English Football League between 1977 and 1988, winning five league titles with Liverpool. After retiring, he designed and created the prototype for Adidas' Predator football boot, worn by many footballers and rugby players. He was eligible for the Australian and South African national teams, but only ever made an appearance for the England U-21 youth team."
+}

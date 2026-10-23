@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "The Half-Way Girl": "WORK_OF_ART",
+    "1925": "WORK_OF_ART",
+    "American": "NORP",
+    "John Francis Dillon": "PERSON",
+    "Jersey Shore": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "The Half-Way Girl",
+      "relation": "directed_by",
+      "object": "John Francis Dillon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 55,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Half-Way Girl",
+      "relation": "located_in",
+      "object": "Jersey Shore",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "around the Jersey Shore",
+          "line_start": 103,
+          "char_start": 121,
+          "ambiguous": false,
+          "relation_mention": "around the Jersey Shore",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Half-Way Girl",
+      "relation": "has_attribute",
+      "object": "American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "American",
+          "line_start": 28,
+          "char_start": 46,
+          "ambiguous": false,
+          "relation_mention": "American",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Half-Way Girl",
+        "has_attribute",
+        "1925"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Half-Way Girl\nThe Half-Way Girl is a 1925 American silent drama film directed by John Francis Dillon that was filmed around the Jersey Shore."
+}

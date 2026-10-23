@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Spencer Park": "Location",
+    "Corporate Travel Management Stadium": "Location",
+    "Newmarket": "Location",
+    "Brisbane": "Location",
+    "Queensland": "Location",
+    "Australia": "Location",
+    "Brisbane City FC": "Organization",
+    "Gino Merlo Stand": "Location",
+    "La Rustica": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Spencer Park",
+      "relation": "currently_known_as",
+      "object": "Corporate Travel Management Stadium",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently known as Corporate Travel Management Stadium"
+        }
+      ]
+    },
+    {
+      "subject": "Corporate Travel Management Stadium",
+      "relation": "located_in",
+      "object": "Newmarket",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in the suburb of Newmarket"
+        }
+      ]
+    },
+    {
+      "subject": "Newmarket",
+      "relation": "north_of",
+      "object": "Brisbane",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "north of Brisbane"
+        }
+      ]
+    },
+    {
+      "subject": "Corporate Travel Management Stadium",
+      "relation": "home_to",
+      "object": "Brisbane City FC",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "home to National Premier Leagues Queensland team Brisbane City FC"
+        }
+      ]
+    },
+    {
+      "subject": "Corporate Travel Management Stadium",
+      "relation": "constructed",
+      "object": "Gino Merlo Stand",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "with the construction of the Gino Merlo Stand"
+        }
+      ]
+    },
+    {
+      "subject": "Corporate Travel Management Stadium",
+      "relation": "home_to",
+      "object": "La Rustica",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "home to La Rustica restaurant"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Corporate Travel Management Stadium",
+        "opened_in",
+        "1963"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Corporate Travel Management Stadium",
+        "underwent_renovation_in",
+        "1981"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "La Rustica",
+        "serves",
+        "traditional Italian foods"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Spencer Park, Queensland\nSpencer Park (currently known as Corporate Travel Management Stadium) is a football stadium located in the suburb of Newmarket, north of Brisbane, Queensland, Australia. It is home to National Premier Leagues Queensland team Brisbane City FC. The stadium, while officially holding 10,000, seats only 3,000 under the grandstand, the \"Gino Merlo Stand\". The stadium opened in 1963 on the site of an old Brisbane City Council waste disposal site, and underwent a major renovation in 1981 with the construction of the Gino Merlo Stand. The stadium is home to La Rustica restaurant, where traditional Italian foods, including pizza, are served."
+}

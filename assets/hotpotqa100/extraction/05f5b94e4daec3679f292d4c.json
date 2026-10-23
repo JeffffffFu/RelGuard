@@ -1,0 +1,172 @@
+{
+  "entities": {
+    "Elkay Apartments": "FAC",
+    "Kelton Avenue": "FAC",
+    "Westwood": "GPE",
+    "Los Angeles": "GPE",
+    "California": "GPE",
+    "Richard Neutra": "PERSON",
+    "Louis Kievman": "PERSON",
+    "Karen Bruderlin": "PERSON",
+    "Kelton Apartments": "FAC",
+    "City of Los Angeles": "ORG",
+    "Los Angeles Historic-Cultural Monument": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Elkay Apartments",
+      "relation": "located_at",
+      "object": "Kelton Avenue",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at",
+          "line_start": 78,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "located at",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Elkay Apartments",
+      "relation": "located_in",
+      "object": "Westwood",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the Westwood neighborhood of Los Angeles",
+          "line_start": 112,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "in the Westwood neighborhood of Los Angeles",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Elkay Apartments",
+      "relation": "located_in",
+      "object": "Los Angeles",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the Westwood neighborhood of Los Angeles",
+          "line_start": 112,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "in the Westwood neighborhood of Los Angeles",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Elkay Apartments",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the Westwood neighborhood of Los Angeles, California",
+          "line_start": 112,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "in the Westwood neighborhood of Los Angeles, California",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Elkay Apartments",
+      "relation": "completed_for",
+      "object": "Louis Kievman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "completed in 1948 for",
+          "line_start": 298,
+          "char_start": 315,
+          "ambiguous": false,
+          "relation_mention": "completed in 1948 for",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Elkay Apartments",
+      "relation": "owned_by",
+      "object": "Karen Bruderlin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned today by",
+          "line_start": 410,
+          "char_start": 427,
+          "ambiguous": false,
+          "relation_mention": "owned today by",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Elkay Apartments",
+      "relation": "next_to",
+      "object": "Kelton Apartments",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "It is next door to the Kelton Apartments",
+          "line_start": 454,
+          "char_start": 471,
+          "ambiguous": false,
+          "relation_mention": "It is next door to the Kelton Apartments",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Kelton Apartments",
+      "relation": "designed_by",
+      "object": "Richard Neutra",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed by Neutra",
+          "line_start": 495,
+          "char_start": 512,
+          "ambiguous": false,
+          "relation_mention": "designed by Neutra",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "City of Los Angeles",
+      "relation": "designated",
+      "object": "Los Angeles Historic-Cultural Monument",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designated the building a Los Angeles Historic-Cultural Monument",
+          "line_start": 637,
+          "char_start": 654,
+          "ambiguous": false,
+          "relation_mention": "designated the building a Los Angeles Historic-Cultural Monument",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Elkay Apartments",
+        "designed_by",
+        "Richard Neutra"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Elkay Apartments\nThe Elkay Apartments is an historic five-unit two-story multi-family building located at 638-642 Kelton Avenue, in the Westwood neighborhood of Los Angeles, California. Designed in 1948 in the international or modernistic style of architecture by noted Los Angeles architect Richard Neutra, it was completed in 1948 for noted violist Louis Kievman. The name Elkay is derived from his initials. The building is owned today by his daughter Karen Bruderlin It is next door to the Kelton Apartments designed by Neutra in 1941 for himself. Despite objections from the owners of the Elkay Apartments, on June 21, 1988, the City of Los Angeles designated the building a Los Angeles Historic-Cultural Monument."
+}

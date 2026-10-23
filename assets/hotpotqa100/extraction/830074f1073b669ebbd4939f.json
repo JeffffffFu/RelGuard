@@ -1,0 +1,191 @@
+{
+  "entities": {
+    "Stéphane Aubier": "PERSON",
+    "A Town Called Panic": "WORK_OF_ART",
+    "Vincent Patar": "PERSON",
+    "Cannes Film Festival": "EVENT",
+    "Ernest & Celestine": "WORK_OF_ART",
+    "Benjamin Renner": "PERSON",
+    "Magritte Awards": "EVENT",
+    "Academy Awards": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Stéphane Aubier",
+      "relation": "wrote_and_directed",
+      "object": "A Town Called Panic",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "wrote and directed",
+          "line_start": 96,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "wrote and directed",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Stéphane Aubier",
+      "relation": "co-directed",
+      "object": "Ernest & Celestine",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "co-directed",
+          "line_start": 306,
+          "char_start": 322,
+          "ambiguous": false,
+          "relation_mention": "co-directed",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "A Town Called Panic",
+      "relation": "directed_with",
+      "object": "Vincent Patar",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "along with",
+          "line_start": 155,
+          "char_start": 171,
+          "ambiguous": false,
+          "relation_mention": "along with",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "A Town Called Panic",
+      "relation": "premiered_at",
+      "object": "Cannes Film Festival",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "premiered at the 2009 Cannes Film Festival",
+          "line_start": 184,
+          "char_start": 200,
+          "ambiguous": false,
+          "relation_mention": "premiered at the 2009 Cannes Film Festival",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "A Town Called Panic",
+      "relation": "is_first_stop-motion_screened_at",
+      "object": "Cannes Film Festival",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was the first stop-motion film to be screened at the festival",
+          "line_start": 231,
+          "char_start": 247,
+          "ambiguous": false,
+          "relation_mention": "was the first stop-motion film to be screened at the festival",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Ernest & Celestine",
+      "relation": "co-directed_with",
+      "object": "Vincent Patar",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "co-directed with Patar",
+          "line_start": 306,
+          "char_start": 322,
+          "ambiguous": false,
+          "relation_mention": "co-directed with Patar",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Ernest & Celestine",
+      "relation": "co-directed_with",
+      "object": "Benjamin Renner",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "co-directed with Patar and Benjamin Renner",
+          "line_start": 306,
+          "char_start": 322,
+          "ambiguous": false,
+          "relation_mention": "co-directed with Patar and Benjamin Renner",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Ernest & Celestine",
+      "relation": "received",
+      "object": "Magritte Awards",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "received three Magritte Awards",
+          "line_start": 433,
+          "char_start": 449,
+          "ambiguous": false,
+          "relation_mention": "received three Magritte Awards",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Magritte Awards",
+      "relation": "awarded",
+      "object": "Stéphane Aubier",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "including Best Film and Best Director for Aubier and Patar",
+          "line_start": 465,
+          "char_start": 481,
+          "ambiguous": false,
+          "relation_mention": "including Best Film and Best Director for Aubier and Patar",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Ernest & Celestine",
+      "relation": "nominated_for",
+      "object": "Academy Awards",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "received a nomination at the 86th Academy Awards",
+          "line_start": 533,
+          "char_start": 549,
+          "ambiguous": false,
+          "relation_mention": "received a nomination at the 86th Academy Awards",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Belgium (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Stéphane Aubier",
+        "born_in_country",
+        "Belgium"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Stéphane Aubier\nStéphane Aubier (born October 8, 1964) is a Belgian film director and screenwriter. In 2009, he wrote and directed the animated film \"A Town Called Panic\" along with Vincent Patar. It premiered at the 2009 Cannes Film Festival and was the first stop-motion film to be screened at the festival. In 2013, he co-directed with Patar and Benjamin Renner the film \"Ernest & Celestine\", which received widespread critical acclaim. The film received three Magritte Awards, including Best Film and Best Director for Aubier and Patar. It also received a nomination at the 86th Academy Awards, in the category of Best Animated Feature."
+}

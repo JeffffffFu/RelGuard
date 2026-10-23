@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Curry and Pepper": "WORK_OF_ART",
+    "Hong Kong": "GPE",
+    "Blackie Ko": "PERSON",
+    "Jacky Cheung": "PERSON",
+    "Stephen Chow": "PERSON",
+    "Faithfully Yours": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Curry and Pepper",
+      "relation": "directed_by",
+      "object": "Blackie Ko",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 56,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Curry and Pepper",
+      "relation": "starring",
+      "object": "Jacky Cheung",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 83,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Curry and Pepper",
+      "relation": "starring",
+      "object": "Stephen Chow",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 83,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Curry and Pepper",
+        "located_in",
+        "Hong Kong"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cheung and Chow",
+        "founded",
+        "Faithfully Yours"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Curry and Pepper\nCurry and Pepper is a 1990 Hong Kong action comedy film directed by Blackie Ko and starring Jacky Cheung and Stephen Chow. This film is Cheung and Chow's second film collaboration after the 1988 film,\" Faithfully Yours\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Curry and Pepper\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Hong Kong\", \"type\": \"GPE\"},\n    {\"name\": \"Blackie Ko\", \"type\": \"PERSON\"},\n    {\"name\": \"Jacky Cheung\", \"type\": \"PERSON\"},\n    {\"name\": \"Stephen Chow\", \"type\": \"PERSON\"},\n    {\"name\": \"Faithfully Yours\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Curry and Pepper\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hong Kong\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Hong Kong\"}\n      ]\n    },\n    {\n      \"subject\": \"Curry and Pepper\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Blackie Ko\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Curry and Pepper\",\n      \"relation\": \"starring\",\n      \"object\": \"Jacky Cheung\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Curry and Pepper\",\n      \"relation\": \"starring\",\n      \"object\": \"Stephen Chow\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Cheung and Chow\",\n      \"relation\": \"founded\",\n      \"object\": \"Faithfully Yours\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"after the 1988 film,\\\" Faithfully Yours\\\"\"}\n      ]\n    }\n  ]\n}"
+}

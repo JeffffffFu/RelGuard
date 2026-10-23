@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Hätteberget": "FAC",
+    "Marstrand": "GPE",
+    "Tjörn": "GPE",
+    "Pater Noster Lighthouse": "FAC"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Sweden (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Hätteberget",
+        "located_in",
+        "Sweden"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hätteberget",
+        "located_in",
+        "Marstrand"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hätteberget",
+        "located_in",
+        "Tjörn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hätteberget",
+        "replaced",
+        "Pater Noster Lighthouse"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Hätteberget\nHätteberget is the name of a Swedish docking lighthouse situated in the sea west of Marstrand and south of Tjörn. It was built in 1977 as a replacement for the old Pater Noster Lighthouse. The lighthouse is a 26 metre high concrete tower with helicopter landing. It is painted with a red belt and has a gray cap on top. The light from the white sector can reach 21.5 nmi .",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Hätteberget\", \"type\": \"FAC\"},\n    {\"name\": \"Sweden\", \"type\": \"GPE\"},\n    {\"name\": \"Marstrand\", \"type\": \"GPE\"},\n    {\"name\": \"Tjörn\", \"type\": \"GPE\"},\n    {\"name\": \"Pater Noster Lighthouse\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Hätteberget\",\n      \"relation\": \"located_in\",\n      \"object\": \"Sweden\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a Swedish\"}\n      ]\n    },\n    {\n      \"subject\": \"Hätteberget\",\n      \"relation\": \"located_in\",\n      \"object\": \"Marstrand\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"west of\"}\n      ]\n    },\n    {\n      \"subject\": \"Hätteberget\",\n      \"relation\": \"located_in\",\n      \"object\": \"Tjörn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"south of\"}\n      ]\n    },\n    {\n      \"subject\": \"Hätteberget\",\n      \"relation\": \"replaced\",\n      \"object\": \"Pater Noster Lighthouse\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as a replacement for\"}\n      ]\n    }\n  ]\n}"
+}

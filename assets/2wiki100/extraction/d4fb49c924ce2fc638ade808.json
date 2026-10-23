@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Thomas Jahn": "PERSON",
+    "German": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Thomas Jahn",
+      "relation": "nationality",
+      "object": "German",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a German",
+          "line_start": 31,
+          "char_start": 43,
+          "ambiguous": false,
+          "relation_mention": "is a German",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Thomas Jahn",
+        "born_in_year",
+        "1965"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Thomas Jahn",
+        "occupation",
+        "film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Thomas Jahn",
+        "occupation",
+        "television"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Thomas Jahn\nThomas Jahn( born 9 July 1965) is a German film and television director."
+}

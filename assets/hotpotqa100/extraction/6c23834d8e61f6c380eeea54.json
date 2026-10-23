@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "Khwae Noi Railway Station": "Location",
+    "Makham Sung Subdistrict": "Location",
+    "Phitsanulok City": "Location",
+    "Phitsanulok": "Location",
+    "Bangkok Railway Station": "Location",
+    "State Railway of Thailand": "Organization",
+    "Allied planes": "Organization",
+    "Second World War": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Khwae Noi Railway Station",
+      "relation": "located_in",
+      "object": "Makham Sung Subdistrict",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in Makham Sung Subdistrict"
+        }
+      ]
+    },
+    {
+      "subject": "Khwae Noi Railway Station",
+      "relation": "located_in",
+      "object": "Phitsanulok",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Phitsanulok"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Khwae Noi Railway Station",
+        "located_in",
+        "Phitsanulok City"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Khwae Noi Railway Station",
+        "located_405.313_km_from",
+        "Bangkok Railway Station"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Khwae Noi Railway Station",
+        "on",
+        "Northern Line of the State Railway of Thailand"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Khwae Noi Railway Station",
+        "has",
+        "railway bridge"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "railway bridge",
+        "bombed_by",
+        "Allied planes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "railway bridge",
+        "during",
+        "Second World War"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Khwae Noi Railway Station",
+        "has",
+        "monument"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Khwae Noi Railway Station\nKhwae Noi Railway Station is a railway station located in Makham Sung Subdistrict, Phitsanulok City, Phitsanulok. It is located 405.313 km from Bangkok Railway Station and is a class 3 railway station. It is on the Northern Line of the State Railway of Thailand. About 500 m north of the railway station is a railway bridge once bombed by Allied planes during the Second World War. A monument to the bombing exists at the station."
+}

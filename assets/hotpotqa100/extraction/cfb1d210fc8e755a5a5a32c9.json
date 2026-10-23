@@ -1,0 +1,101 @@
+{
+  "entities": {
+    "Can't Fight the Moonlight": "song",
+    "Diane Warren": "person",
+    "LeAnn Rimes": "person",
+    "Coyote Ugly": "film",
+    "Billboard": "publication",
+    "Australia": "country",
+    "Ireland": "country",
+    "United Kingdom": "country"
+  },
+  "triples": [
+    {
+      "subject": "Can't Fight the Moonlight",
+      "relation": "written_by",
+      "object": "Diane Warren",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a song written by Diane Warren"
+        }
+      ]
+    },
+    {
+      "subject": "Can't Fight the Moonlight",
+      "relation": "recorded_by",
+      "object": "LeAnn Rimes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "recorded by country pop singer LeAnn Rimes"
+        }
+      ]
+    },
+    {
+      "subject": "Can't Fight the Moonlight",
+      "relation": "topped_charts_in",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "topped the charts in eight countries, including Australia"
+        }
+      ]
+    },
+    {
+      "subject": "Can't Fight the Moonlight",
+      "relation": "best_selling_single_of",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "became Australia's best-selling single of 2001"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Can't Fight the Moonlight",
+        "theme_song_of",
+        "Coyote Ugly"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Can't Fight the Moonlight",
+        "released_on",
+        "August 22, 2000"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Can't Fight the Moonlight",
+        "charted_in",
+        "Billboard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Can't Fight the Moonlight",
+        "topped_charts_in",
+        "Ireland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Can't Fight the Moonlight",
+        "topped_charts_in",
+        "United Kingdom"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Can't Fight the Moonlight\n\"Can't Fight the Moonlight\" is a song written by Diane Warren, recorded by country pop singer LeAnn Rimes. It was the theme song of the film \"Coyote Ugly\". Released as a single on August 22, 2000 by Rimes, the song reached the top twenty in every country it charted in, and peaked at number eleven on the \"Billboard\" Hot 100. Internationally, the song topped the charts in eight countries, including Australia, Ireland and the United Kingdom. \"Can't Fight the Moonlight\" became Australia's best-selling single of 2001."
+}

@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Garuda Indonesia Flight 200": "WORK_OF_ART",
+    "Boeing 737-400": "PRODUCT",
+    "Garuda Indonesia": "ORG",
+    "Jakarta": "GPE",
+    "Yogyakarta": "GPE",
+    "Indonesia": "GPE",
+    "Adisucipto International Airport": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Garuda Indonesia Flight 200",
+      "relation": "operated_by",
+      "object": "Garuda Indonesia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "operated by",
+          "line_start": 106,
+          "char_start": 134,
+          "ambiguous": false,
+          "relation_mention": "operated by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Garuda Indonesia Flight 200",
+        "was_a",
+        "scheduled domestic passenger flight"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Garuda Indonesia Flight 200",
+        "used_aircraft",
+        "Boeing 737-400"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Garuda Indonesia Flight 200",
+        "between",
+        "Jakarta"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Garuda Indonesia Flight 200",
+        "between",
+        "Yogyakarta"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jakarta",
+        "located_in",
+        "Indonesia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Yogyakarta",
+        "located_in",
+        "Indonesia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Garuda Indonesia Flight 200",
+        "landed_at",
+        "Adisucipto International Airport"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The aircraft",
+        "crashed_into",
+        "a rice field"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The aircraft",
+        "overran",
+        "the runway"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The aircraft",
+        "burst_into",
+        "flames"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Garuda Indonesia Flight 200\nGaruda Indonesia Flight 200 (GA200/GIA 200) was a scheduled domestic passenger flight of a Boeing 737-400 operated by Garuda Indonesia between Jakarta and Yogyakarta, Indonesia. The aircraft overran the runway, crashed into a rice field and burst into flames while landing at Adisucipto International Airport on 7 March 2007. Twenty passengers and one crew member were killed. Both the captain and the first officer survived.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Garuda Indonesia Flight 200\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Boeing 737-400\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Garuda Indonesia\", \"type\": \"ORG\"},\n    {\"name\": \"Jakarta\", \"type\": \"GPE\"},\n    {\"name\": \"Yogyakarta\", \"type\": \"GPE\"},\n    {\"name\": \"Indonesia\", \"type\": \"GPE\"},\n    {\"name\": \"Adisucipto International Airport\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Garuda Indonesia Flight 200\",\n      \"relation\": \"operated_by\",\n      \"object\": \"Garuda Indonesia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"operated by\"}\n      ]\n    },\n    {\n      \"subject\": \"Garuda Indonesia Flight 200\",\n      \"relation\": \"was_a\",\n      \"object\": \"scheduled domestic passenger flight\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Garuda Indonesia Flight 200\",\n      \"relation\": \"used_aircraft\",\n      \"object\": \"Boeing 737-400\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of a Boeing 737-400\"}\n      ]\n    },\n    {\n      \"subject\": \"Garuda Indonesia Flight 200\",\n      \"relation\": \"between\",\n      \"object\": \"Jakarta\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"between Jakarta and Yogyakarta, Indonesia\"}\n      ]\n    },\n    {\n      \"subject\": \"Garuda Indonesia Flight 200\",\n      \"relation\": \"between\",\n      \"object\": \"Yogyakarta\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"between Jakarta and Yogyakarta, Indonesia\"}\n      ]\n    },\n    {\n      \"subject\": \"Jakarta\",\n      \"relation\": \"located_in\",\n      \"object\": \"Indonesia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Jakarta and Yogyakarta, Indonesia\"}\n      ]\n    },\n    {\n      \"subject\": \"Yogyakarta\",\n      \"relation\": \"located_in\",\n      \"object\": \"Indonesia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Jakarta and Yogyakarta, Indonesia\"}\n      ]\n    },\n    {\n      \"subject\": \"Garuda Indonesia Flight 200\",\n      \"relation\": \"landed_at\",\n      \"object\": \"Adisucipto International Airport\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"landing at Adisucipto International Airport\"}\n      ]\n    },\n    {\n      \"subject\": \"The aircraft\",\n      \"relation\": \"crashed_into\",\n      \"object\": \"a rice field\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"crashed into a rice field\"}\n      ]\n    },\n    {\n      \"subject\": \"The aircraft\",\n      \"relation\": \"overran\",\n      \"object\": \"the runway\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"overran the runway\"}\n      ]\n    },\n    {\n      \"subject\": \"The aircraft\",\n      \"relation\": \"burst_into\",\n      \"object\": \"flames\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"burst into flames\"}\n      ]\n    }\n  ]\n}"
+}

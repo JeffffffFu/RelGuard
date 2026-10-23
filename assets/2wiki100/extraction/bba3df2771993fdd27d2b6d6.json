@@ -1,0 +1,61 @@
+{
+  "entities": {
+    "Side by Side": "band",
+    "Revelation Records": "record label",
+    "NY": "location"
+  },
+  "triples": [
+    {
+      "subject": "Side by Side",
+      "relation": "works_for",
+      "object": "Revelation Records",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on Revelation Records"
+        }
+      ]
+    },
+    {
+      "subject": "Side by Side",
+      "relation": "located_in",
+      "object": "NY",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "They were a band from NY"
+        }
+      ]
+    },
+    {
+      "subject": "Revelation Records",
+      "relation": "released",
+      "object": "Side by Side",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Their 7\" was the fifth record released by Revelation Records"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Side by Side",
+        "was",
+        "band"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Side by Side",
+        "produced",
+        "You're Only Young Once"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Side by Side (band)\nSide By Side was an American hardcore punk band on Revelation Records. They were a band from NY of youth crew persuasion. Recorded output was limited to a single 7 You're Only Young Once ...\" Their 7\" was the fifth record released by Revelation Records."
+}

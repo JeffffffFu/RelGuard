@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "Mountain Air Cargo": "ORG",
+    "MAC": "ORG",
+    "American": "NORP",
+    "Denver, North Carolina": "GPE",
+    "FedEx Express": "ORG",
+    "United States": "GPE",
+    "Caribbean": "LOC",
+    "South America": "LOC",
+    "Kinston Regional Jetport": "FAC",
+    "ATR": "PRODUCT",
+    "C208": "PRODUCT",
+    "Fedex Express": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Mountain Air Cargo",
+      "relation": "located_in",
+      "object": "Denver, North Carolina",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 54,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "ATR",
+      "relation": "operated_by",
+      "object": "Mountain Air Cargo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "operated by MAC",
+          "line_start": 548,
+          "char_start": 567,
+          "ambiguous": false,
+          "relation_mention": "operated by MAC",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "C208",
+      "relation": "operated_by",
+      "object": "Mountain Air Cargo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "operated by MAC",
+          "line_start": 548,
+          "char_start": 567,
+          "ambiguous": false,
+          "relation_mention": "operated by MAC",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mountain Air Cargo",
+        "alias",
+        "MAC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mountain Air Cargo",
+        "has_nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mountain Air Cargo",
+        "works_for",
+        "FedEx Express"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FedEx Express",
+        "operates_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FedEx Express",
+        "operates_in",
+        "Caribbean"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FedEx Express",
+        "operates_in",
+        "South America"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mountain Air Cargo",
+        "main_maintenance_facility",
+        "Kinston Regional Jetport"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "ATR",
+        "owned_by",
+        "Fedex Express"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "C208",
+        "owned_by",
+        "Fedex Express"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Mountain Air Cargo\nMountain Air Cargo (MAC) is an American cargo airline based in Denver, North Carolina. It is a major contract carrier for FedEx Express, operating in the eastern United States and the Caribbean region. Previous turboprop operations in South America have been discontinued by FedEx, which now operates jet aircraft in that area. MAC is one of the largest feeder airlines in the United States. Its main maintenance facility is at Kinston Regional Jetport. All of the ATR and C208 aircraft operated by Mountain Air are owned by Fedex Express, and are operated by MAC on a \"dry lease\" basis.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Mountain Air Cargo\", \"type\": \"ORG\"},\n    {\"name\": \"MAC\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Denver, North Carolina\", \"type\": \"GPE\"},\n    {\"name\": \"FedEx Express\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Caribbean\", \"type\": \"LOC\"},\n    {\"name\": \"South America\", \"type\": \"LOC\"},\n    {\"name\": \"Kinston Regional Jetport\", \"type\": \"FAC\"},\n    {\"name\": \"ATR\", \"type\": \"PRODUCT\"},\n    {\"name\": \"C208\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Fedex Express\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Mountain Air Cargo\",\n      \"relation\": \"alias\",\n      \"object\": \"MAC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \" (MAC)\"}\n      ]\n    },\n    {\n      \"subject\": \"Mountain Air Cargo\",\n      \"relation\": \"located_in\",\n      \"object\": \"Denver, North Carolina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Mountain Air Cargo\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Mountain Air Cargo\",\n      \"relation\": \"works_for\",\n      \"object\": \"FedEx Express\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"contract carrier for\"}\n      ]\n    },\n    {\n      \"subject\": \"FedEx Express\",\n      \"relation\": \"operates_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"operating in the eastern United States\"}\n      ]\n    },\n    {\n      \"subject\": \"FedEx Express\",\n      \"relation\": \"operates_in\",\n      \"object\": \"Caribbean\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and the Caribbean region\"}\n      ]\n    },\n    {\n      \"subject\": \"FedEx Express\",\n      \"relation\": \"operates_in\",\n      \"object\": \"South America\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in South America\"}\n      ]\n    },\n    {\n      \"subject\": \"Mountain Air Cargo\",\n      \"relation\": \"main_maintenance_facility\",\n      \"object\": \"Kinston Regional Jetport\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is at\"}\n      ]\n    },\n    {\n      \"subject\": \"ATR\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Fedex Express\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are owned by Fedex Express\"}\n      ]\n    },\n    {\n      \"subject\": \"C208\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Fedex Express\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are owned by Fedex Express\"}\n      ]\n    },\n    {\n      \"subject\": \"ATR\",\n      \"relation\": \"operated_by\",\n      \"object\": \"Mountain Air Cargo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"operated by MAC\"}\n      ]\n    },\n    {\n      \"subject\": \"C208\",\n      \"relation\": \"operated_by\",\n      \"object\": \"Mountain Air Cargo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"operated by MAC\"}\n      ]\n    }\n  ]\n}"
+}

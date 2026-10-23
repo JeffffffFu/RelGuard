@@ -1,0 +1,125 @@
+{
+  "entities": {
+    "Yellow Cab Pizza Company": "ORG",
+    "Filipino": "NORP",
+    "Eric Puno": "PERSON",
+    "Henry Lee": "PERSON",
+    "Albert Tan": "PERSON",
+    "Max's Group": "ORG",
+    "Max's of Manila": "ORG",
+    "Qatar": "GPE",
+    "United Arab Emirates": "GPE",
+    "China": "GPE",
+    "Yellow Cab Pizza": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Yellow Cab Pizza Company",
+      "relation": "founded_by",
+      "object": "Eric Puno",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded by",
+          "line_start": 120,
+          "char_start": 137,
+          "ambiguous": false,
+          "relation_mention": "was founded by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Yellow Cab Pizza Company",
+      "relation": "founded_by",
+      "object": "Henry Lee",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded by",
+          "line_start": 120,
+          "char_start": 137,
+          "ambiguous": false,
+          "relation_mention": "was founded by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Yellow Cab Pizza Company",
+      "relation": "founded_by",
+      "object": "Albert Tan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded by",
+          "line_start": 120,
+          "char_start": 137,
+          "ambiguous": false,
+          "relation_mention": "was founded by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Max's Group",
+      "relation": "owns",
+      "object": "Yellow Cab Pizza Company",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owns the brand",
+          "line_start": 229,
+          "char_start": 246,
+          "ambiguous": false,
+          "relation_mention": "owns the brand",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Yellow Cab Pizza Company",
+        "located_in",
+        "Filipino"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Max's Group",
+        "owns",
+        "Max's of Manila"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Yellow Cab Pizza",
+        "operates_in",
+        "Qatar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Yellow Cab Pizza",
+        "operates_in",
+        "United Arab Emirates"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Yellow Cab Pizza",
+        "operates_in",
+        "China"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Yellow Cab Pizza\nYellow Cab Pizza Company is a Filipino chain that retails fast food, primarily pizza. In 2001, Yellow Cab Pizza Company was founded by Eric Puno, Henry Lee, and Albert Tan. Max's Group, owner of restaurant chain Max's of Manila, owns the brand. The restaurant also operates 145 branches in Qatar, United Arab Emirates, and China.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Yellow Cab Pizza Company\", \"type\": \"ORG\"},\n    {\"name\": \"Filipino\", \"type\": \"NORP\"},\n    {\"name\": \"Eric Puno\", \"type\": \"PERSON\"},\n    {\"name\": \"Henry Lee\", \"type\": \"PERSON\"},\n    {\"name\": \"Albert Tan\", \"type\": \"PERSON\"},\n    {\"name\": \"Max's Group\", \"type\": \"ORG\"},\n    {\"name\": \"Max's of Manila\", \"type\": \"ORG\"},\n    {\"name\": \"Qatar\", \"type\": \"GPE\"},\n    {\"name\": \"United Arab Emirates\", \"type\": \"GPE\"},\n    {\"name\": \"China\", \"type\": \"GPE\"},\n    {\"name\": \"Yellow Cab Pizza\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Yellow Cab Pizza Company\",\n      \"relation\": \"located_in\",\n      \"object\": \"Filipino\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Filipino chain\"}\n      ]\n    },\n    {\n      \"subject\": \"Yellow Cab Pizza Company\",\n      \"relation\": \"founded_by\",\n      \"object\": \"Eric Puno\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was founded by\"}\n      ]\n    },\n    {\n      \"subject\": \"Yellow Cab Pizza Company\",\n      \"relation\": \"founded_by\",\n      \"object\": \"Henry Lee\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was founded by\"}\n      ]\n    },\n    {\n      \"subject\": \"Yellow Cab Pizza Company\",\n      \"relation\": \"founded_by\",\n      \"object\": \"Albert Tan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was founded by\"}\n      ]\n    },\n    {\n      \"subject\": \"Max's Group\",\n      \"relation\": \"owns\",\n      \"object\": \"Yellow Cab Pizza Company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owns the brand\"}\n      ]\n    },\n    {\n      \"subject\": \"Max's Group\",\n      \"relation\": \"owns\",\n      \"object\": \"Max's of Manila\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owner of\"}\n      ]\n    },\n    {\n      \"subject\": \"Yellow Cab Pizza\",\n      \"relation\": \"operates_in\",\n      \"object\": \"Qatar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Qatar\"}\n      ]\n    },\n    {\n      \"subject\": \"Yellow Cab Pizza\",\n      \"relation\": \"operates_in\",\n      \"object\": \"United Arab Emirates\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"United Arab Emirates\"}\n      ]\n    },\n    {\n      \"subject\": \"Yellow Cab Pizza\",\n      \"relation\": \"operates_in\",\n      \"object\": \"China\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and China\"}\n      ]\n    }\n  ]\n}"
+}

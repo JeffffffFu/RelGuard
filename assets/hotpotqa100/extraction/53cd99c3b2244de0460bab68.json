@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "Curtis Carlson": "PERSON",
+    "Curtis Raymond Carlson": "PERSON",
+    "SRI International": "ORG",
+    "Siri": "PRODUCT",
+    "Steve Jobs": "PERSON",
+    "Apple": "ORG",
+    "Mayfield Ventures": "ORG",
+    "David Ladd": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Siri",
+      "relation": "was_bought_by",
+      "object": "Steve Jobs",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was bought by",
+          "line_start": 393,
+          "char_start": 408,
+          "ambiguous": false,
+          "relation_mention": "was bought by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Siri",
+      "relation": "was_bought_by",
+      "object": "Apple",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was bought by",
+          "line_start": 393,
+          "char_start": 408,
+          "ambiguous": false,
+          "relation_mention": "was bought by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Curtis Raymond Carlson",
+        "works_for",
+        "SRI International"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Curtis Carlson",
+        "worked_as",
+        "SRI International"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "David Ladd",
+        "works_for",
+        "Mayfield Ventures"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Curtis Carlson\nCurtis Raymond Carlson (born May 22, 1945) was president and CEO of SRI International from 1998 to 2014 and is a prominent technologist and pioneer in developing and using innovation best practices. While CEO of SRI International, revenue tripled to $550 million per year and tens of billions of dollars of new marketplace value was created, such as through Siri, an SRI spin-off company that was bought by Steve Jobs at Apple. While Carlson was CEO Mayfield Ventures partner, David Ladd, said, “SRI is now the best enterprise at turning its technology into economic value.”",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Curtis Carlson\", \"type\": \"PERSON\"},\n    {\"name\": \"Curtis Raymond Carlson\", \"type\": \"PERSON\"},\n    {\"name\": \"SRI International\", \"type\": \"ORG\"},\n    {\"name\": \"Siri\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Steve Jobs\", \"type\": \"PERSON\"},\n    {\"name\": \"Apple\", \"type\": \"ORG\"},\n    {\"name\": \"Mayfield Ventures\", \"type\": \"ORG\"},\n    {\"name\": \"David Ladd\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Curtis Raymond Carlson\",\n      \"relation\": \"works_for\",\n      \"object\": \"SRI International\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was president and CEO of\"}\n      ]\n    },\n    {\n      \"subject\": \"Siri\",\n      \"relation\": \"was_bought_by\",\n      \"object\": \"Steve Jobs\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was bought by\"}\n      ]\n    },\n    {\n      \"subject\": \"Siri\",\n      \"relation\": \"was_bought_by\",\n      \"object\": \"Apple\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was bought by\"}\n      ]\n    },\n    {\n      \"subject\": \"Curtis Carlson\",\n      \"relation\": \"worked_as\",\n      \"object\": \"SRI International\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"While CEO of SRI International\"}\n      ]\n    },\n    {\n      \"subject\": \"David Ladd\",\n      \"relation\": \"works_for\",\n      \"object\": \"Mayfield Ventures\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Mayfield Ventures partner\"}\n      ]\n    }\n  ]\n}"
+}

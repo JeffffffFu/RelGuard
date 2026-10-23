@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Craig Johnston": "PERSON",
+    "Craig Peter Johnston": "PERSON",
+    "English Football League": "ORG",
+    "Liverpool": "ORG",
+    "Adidas": "ORG",
+    "Predator": "PRODUCT",
+    "Australian national team": "ORG",
+    "South African national team": "ORG",
+    "England U-21": "ORG",
+    "rugby": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Craig Peter Johnston",
+      "relation": "designed",
+      "object": "Predator",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed",
+          "line_start": 221,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "designed",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "South Africa (GPE)",
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Craig Peter Johnston",
+        "born_in",
+        "South Africa"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Craig Peter Johnston",
+        "is_national_of",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Craig Peter Johnston",
+        "played_in",
+        "English Football League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Craig Peter Johnston",
+        "won_titles_with",
+        "Liverpool"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Predator",
+        "manufactured_by",
+        "Adidas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Predator",
+        "worn_by",
+        "rugby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Craig Peter Johnston",
+        "eligible_for",
+        "Australian national team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Craig Peter Johnston",
+        "eligible_for",
+        "South African national team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Craig Peter Johnston",
+        "made_appearance_for",
+        "England U-21"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Craig Johnston\nCraig Peter Johnston (born 25 June 1960) is a South African-born Australian former footballer. He played in the English Football League between 1977 and 1988, winning five league titles with Liverpool. After retiring, he designed and created the prototype for Adidas' Predator football boot, worn by many footballers and rugby players. He was eligible for the Australian and South African national teams, but only ever made an appearance for the England U-21 youth team.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Craig Johnston\", \"type\": \"PERSON\"},\n    {\"name\": \"Craig Peter Johnston\", \"type\": \"PERSON\"},\n    {\"name\": \"South Africa\", \"type\": \"GPE\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"},\n    {\"name\": \"English Football League\", \"type\": \"ORG\"},\n    {\"name\": \"Liverpool\", \"type\": \"ORG\"},\n    {\"name\": \"Adidas\", \"type\": \"ORG\"},\n    {\"name\": \"Predator\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Australian national team\", \"type\": \"ORG\"},\n    {\"name\": \"South African national team\", \"type\": \"ORG\"},\n    {\"name\": \"England U-21\", \"type\": \"ORG\"},\n    {\"name\": \"rugby\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Craig Peter Johnston\",\n      \"relation\": \"born_in\",\n      \"object\": \"South Africa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"South African-born\"}\n      ]\n    },\n    {\n      \"subject\": \"Craig Peter Johnston\",\n      \"relation\": \"is_national_of\",\n      \"object\": \"Australia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Australian\"}\n      ]\n    },\n    {\n      \"subject\": \"Craig Peter Johnston\",\n      \"relation\": \"played_in\",\n      \"object\": \"English Football League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played in the English Football League\"}\n      ]\n    },\n    {\n      \"subject\": \"Craig Peter Johnston\",\n      \"relation\": \"won_titles_with\",\n      \"object\": \"Liverpool\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with Liverpool\"}\n      ]\n    },\n    {\n      \"subject\": \"Craig Peter Johnston\",\n      \"relation\": \"designed\",\n      \"object\": \"Predator\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designed\"}\n      ]\n    },\n    {\n      \"subject\": \"Predator\",\n      \"relation\": \"manufactured_by\",\n      \"object\": \"Adidas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Adidas' Predator\"}\n      ]\n    },\n    {\n      \"subject\": \"Predator\",\n      \"relation\": \"worn_by\",\n      \"object\": \"rugby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"worn by many footballers and rugby players\"}\n      ]\n    },\n    {\n      \"subject\": \"Craig Peter Johnston\",\n      \"relation\": \"eligible_for\",\n      \"object\": \"Australian national team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"eligible for the Australian\"}\n      ]\n    },\n    {\n      \"subject\": \"Craig Peter Johnston\",\n      \"relation\": \"eligible_for\",\n      \"object\": \"South African national team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and South African national teams\"}\n      ]\n    },\n    {\n      \"subject\": \"Craig Peter Johnston\",\n      \"relation\": \"made_appearance_for\",\n      \"object\": \"England U-21\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made an appearance for the England U-21 youth team\"}\n      ]\n    }\n  ]\n}"
+}

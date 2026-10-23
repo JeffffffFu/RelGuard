@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Noé Murayama": "Person",
+    "Mexico": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Noé Murayama",
+      "relation": "nationality",
+      "object": "Mexico",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a Mexican actor"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Noé Murayama",
+        "born_on",
+        "July 4, 1930"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Noé Murayama",
+        "died_on",
+        "August 25, 1997"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Noé Murayama",
+        "starred_in",
+        "numerous Mexican films"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Noé Murayama\nNoé Murayama (July 4, 1930 – August 25, 1997) was a Mexican actor, who starred in numerous Mexican films."
+}

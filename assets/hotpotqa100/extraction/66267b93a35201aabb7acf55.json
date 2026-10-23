@@ -1,0 +1,101 @@
+{
+  "entities": {
+    "De Neve Square Park": "Park",
+    "Holmby Hills": "Neighborhood",
+    "West Los Angeles": "City",
+    "Los Angeles": "City",
+    "California": "State",
+    "Mapleton Drive": "Road",
+    "Saint Pierre Road": "Road",
+    "Beverly Glen Boulevard": "Road",
+    "East Gate Bel Air": "Neighborhood",
+    "Holmby Park": "Park"
+  },
+  "triples": [
+    {
+      "subject": "De Neve Square Park",
+      "relation": "located_in",
+      "object": "Holmby Hills",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in the neighborhood of Holmby Hills"
+        }
+      ]
+    },
+    {
+      "subject": "De Neve Square Park",
+      "relation": "located_in",
+      "object": "West Los Angeles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in West Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "De Neve Square Park",
+      "relation": "located_at",
+      "object": "Mapleton Drive",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located at the northern terminus of Mapleton Drive"
+        }
+      ]
+    },
+    {
+      "subject": "De Neve Square Park",
+      "relation": "meets",
+      "object": "Saint Pierre Road",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "where it meets Saint Pierre Road"
+        }
+      ]
+    },
+    {
+      "subject": "De Neve Square Park",
+      "relation": "borders",
+      "object": "East Gate Bel Air",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "where Holmby Hills borders East Gate Bel Air"
+        }
+      ]
+    },
+    {
+      "subject": "De Neve Square Park",
+      "relation": "is_one_of",
+      "object": "Holmby Park",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "is one of two parks in Holmby Hills (the other being Holmby Park)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "De Neve Square Park",
+        "located_in",
+        "Los Angeles"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "De Neve Square Park",
+        "located_in",
+        "California"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "De Neve Square Park\nDe Neve Square Park is a quaint urban pocket park located in the neighborhood of Holmby Hills in West Los Angeles, Los Angeles, California. It is located at the northern terminus of Mapleton Drive where it meets Saint Pierre Road at Beverly Glen Boulevard, where Holmby Hills borders East Gate Bel Air to the west. The trapezoidal (rather than square) park is ringed by mature sycamore trees as well as English-style street lamps from the 1920s (created exclusively for Holmby Hills). De Neve Square Park is one of two parks in Holmby Hills (the other being Holmby Park)."
+}

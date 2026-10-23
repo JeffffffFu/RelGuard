@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Famous Smoke Shop": "Organization",
+    "United States": "Location",
+    "Midtown Manhattan": "Location",
+    "Easton, Pennsylvania": "Location",
+    "1939": "Date",
+    "2000": "Date"
+  },
+  "triples": [
+    {
+      "subject": "Famous Smoke Shop",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one of the largest cigar mail order businesses in the United States."
+        }
+      ]
+    },
+    {
+      "subject": "Famous Smoke Shop",
+      "relation": "founded",
+      "object": "1939",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The company was formed in October, 1939"
+        }
+      ]
+    },
+    {
+      "subject": "Famous Smoke Shop",
+      "relation": "located_in",
+      "object": "Midtown Manhattan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Midtown Manhattan as a cigar and gift shop."
+        }
+      ]
+    },
+    {
+      "subject": "Famous Smoke Shop",
+      "relation": "moved_to",
+      "object": "Easton, Pennsylvania",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "forced the company to move its operations to Easton, Pennsylvania"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Easton, Pennsylvania",
+        "imposes_no_tax_on",
+        "cigar"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Famous Smoke Shop",
+        "engaged_in",
+        "retail and wholesale of cigars"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Famous Smoke Shop\nFamous Smoke Shop is one of the largest cigar mail order businesses in the United States. The company was formed in October, 1939 in Midtown Manhattan as a cigar and gift shop. In 2000, increasing rents and taxes forced the company to move its operations to Easton, Pennsylvania, a state that currently imposes no cigar tax. Famous Smoke Shop is engaged primarily in the retail and wholesale of cigars, humidors, and cigar accessories through mail order catalogs, a brick and mortar retail shop, and several websites."
+}

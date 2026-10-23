@@ -1,0 +1,153 @@
+{
+  "entities": {
+    "Culver Depot": "FAC",
+    "Culver Terminal": "FAC",
+    "Culver Plaza": "FAC",
+    "Coney Island": "LOC",
+    "Brooklyn": "GPE",
+    "New York City": "GPE",
+    "United States": "GPE",
+    "Surf Avenue": "FAC",
+    "West 5th Street": "FAC",
+    "Luna Park": "FAC",
+    "New York Aquarium": "FAC",
+    "Prospect Park and Coney Island Railroad": "ORG",
+    "Culver surface line": "PRODUCT",
+    "Brooklyn Rapid Transit Company": "ORG",
+    "BRT": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Culver Depot",
+      "relation": "also_called",
+      "object": "Culver Terminal",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also called",
+          "line_start": 14,
+          "char_start": 27,
+          "ambiguous": false,
+          "relation_mention": "also called",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Culver Depot",
+      "relation": "also_called",
+      "object": "Culver Plaza",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also called",
+          "line_start": 14,
+          "char_start": 27,
+          "ambiguous": false,
+          "relation_mention": "also called",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Culver Depot",
+        "located_in",
+        "Coney Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coney Island",
+        "located_in",
+        "Brooklyn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Brooklyn",
+        "located_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "New York City",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Culver Depot",
+        "located_in",
+        "Surf Avenue"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Culver Depot",
+        "located_in",
+        "West 5th Street"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Culver Depot",
+        "near",
+        "Luna Park"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Culver Depot",
+        "across_from",
+        "New York Aquarium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Culver Depot",
+        "originally_built_by",
+        "Prospect Park and Coney Island Railroad"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Prospect Park and Coney Island Railroad",
+        "built_for",
+        "Culver surface line"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Culver Depot",
+        "became",
+        "major terminal for the Brooklyn Rapid Transit Company"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Brooklyn Rapid Transit Company",
+        "abbreviated_as",
+        "BRT"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Culver Depot\nCulver Depot, also called Culver Terminal or Culver Plaza, was a railroad and streetcar terminal in Coney Island, Brooklyn, New York City, United States, located on the northern side of Surf Avenue near West 5th Street. It was just north of the boardwalk, near the former Luna Park amusement complex, and across from the current New York Aquarium. Originally built by the Prospect Park and Coney Island Railroad for the Culver surface line, it later became a major terminal for the Brooklyn Rapid Transit Company (BRT).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Culver Depot\", \"type\": \"FAC\"},\n    {\"name\": \"Culver Terminal\", \"type\": \"FAC\"},\n    {\"name\": \"Culver Plaza\", \"type\": \"FAC\"},\n    {\"name\": \"Coney Island\", \"type\": \"LOC\"},\n    {\"name\": \"Brooklyn\", \"type\": \"GPE\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Surf Avenue\", \"type\": \"FAC\"},\n    {\"name\": \"West 5th Street\", \"type\": \"FAC\"},\n    {\"name\": \"Luna Park\", \"type\": \"FAC\"},\n    {\"name\": \"New York Aquarium\", \"type\": \"FAC\"},\n    {\"name\": \"Prospect Park and Coney Island Railroad\", \"type\": \"ORG\"},\n    {\"name\": \"Culver surface line\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Brooklyn Rapid Transit Company\", \"type\": \"ORG\"},\n    {\"name\": \"BRT\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Culver Depot\",\n      \"relation\": \"also_called\",\n      \"object\": \"Culver Terminal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also called\"}\n      ]\n    },\n    {\n      \"subject\": \"Culver Depot\",\n      \"relation\": \"also_called\",\n      \"object\": \"Culver Plaza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also called\"}\n      ]\n    },\n    {\n      \"subject\": \"Culver Depot\",\n      \"relation\": \"located_in\",\n      \"object\": \"Coney Island\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Coney Island\",\n      \"relation\": \"located_in\",\n      \"object\": \"Brooklyn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Brooklyn\"}\n      ]\n    },\n    {\n      \"subject\": \"Brooklyn\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"New York City\"}\n      ]\n    },\n    {\n      \"subject\": \"New York City\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Culver Depot\",\n      \"relation\": \"located_in\",\n      \"object\": \"Surf Avenue\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the northern side of Surf Avenue\"}\n      ]\n    },\n    {\n      \"subject\": \"Culver Depot\",\n      \"relation\": \"located_in\",\n      \"object\": \"West 5th Street\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"near West 5th Street\"}\n      ]\n    },\n    {\n      \"subject\": \"Culver Depot\",\n      \"relation\": \"near\",\n      \"object\": \"Luna Park\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"near the former Luna Park amusement complex\"}\n      ]\n    },\n    {\n      \"subject\": \"Culver Depot\",\n      \"relation\": \"across_from\",\n      \"object\": \"New York Aquarium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"across from the current New York Aquarium\"}\n      ]\n    },\n    {\n      \"subject\": \"Culver Depot\",\n      \"relation\": \"originally_built_by\",\n      \"object\": \"Prospect Park and Coney Island Railroad\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"built by the Prospect Park and Coney Island Railroad\"}\n      ]\n    },\n    {\n      \"subject\": \"Prospect Park and Coney Island Railroad\",\n      \"relation\": \"built_for\",\n      \"object\": \"Culver surface line\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for the Culver surface line\"}\n      ]\n    },\n    {\n      \"subject\": \"Culver Depot\",\n      \"relation\": \"became\",\n      \"object\": \"major terminal for the Brooklyn Rapid Transit Company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"later became a major terminal for the Brooklyn Rapid Transit Company (BRT)\"}\n      ]\n    },\n    {\n      \"subject\": \"Brooklyn Rapid Transit Company\",\n      \"relation\": \"abbreviated_as\",\n      \"object\": \"BRT\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"BRT\"}\n      ]\n    }\n  ]\n}"
+}

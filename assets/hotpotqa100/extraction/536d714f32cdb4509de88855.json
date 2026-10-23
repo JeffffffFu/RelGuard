@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Brian Patrick Kennedy": "PERSON",
+    "Toledo Museum of Art": "ORG",
+    "Ohio": "GPE",
+    "Hood Museum of Art": "ORG",
+    "National Gallery of Australia": "ORG",
+    "Canberra": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Ireland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Brian Patrick Kennedy",
+        "born_in",
+        "Ireland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Brian Patrick Kennedy",
+        "works_for",
+        "Toledo Museum of Art"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toledo Museum of Art",
+        "located_in",
+        "Ohio"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Brian Patrick Kennedy",
+        "worked_for",
+        "Hood Museum of Art"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Brian Patrick Kennedy",
+        "worked_for",
+        "National Gallery of Australia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "National Gallery of Australia",
+        "located_in",
+        "Canberra"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Brian Kennedy (gallery director)\nBrian Patrick Kennedy (born 5 November 1961) is an Irish-born art museum director who works internationally. He is currently the Director of the Toledo Museum of Art in Ohio. He was the Director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia (Canberra) from 1997-2004.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Brian Patrick Kennedy\", \"type\": \"PERSON\"},\n    {\"name\": \"Toledo Museum of Art\", \"type\": \"ORG\"},\n    {\"name\": \"Ohio\", \"type\": \"GPE\"},\n    {\"name\": \"Hood Museum of Art\", \"type\": \"ORG\"},\n    {\"name\": \"National Gallery of Australia\", \"type\": \"ORG\"},\n    {\"name\": \"Canberra\", \"type\": \"GPE\"},\n    {\"name\": \"Ireland\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Brian Patrick Kennedy\",\n      \"relation\": \"born_in\",\n      \"object\": \"Ireland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Irish-born\"}\n      ]\n    },\n    {\n      \"subject\": \"Brian Patrick Kennedy\",\n      \"relation\": \"works_for\",\n      \"object\": \"Toledo Museum of Art\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Director of the Toledo Museum of Art\"}\n      ]\n    },\n    {\n      \"subject\": \"Toledo Museum of Art\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ohio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Ohio\"}\n      ]\n    },\n    {\n      \"subject\": \"Brian Patrick Kennedy\",\n      \"relation\": \"worked_for\",\n      \"object\": \"Hood Museum of Art\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Director of the Hood Museum of Art\"}\n      ]\n    },\n    {\n      \"subject\": \"Brian Patrick Kennedy\",\n      \"relation\": \"worked_for\",\n      \"object\": \"National Gallery of Australia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the National Gallery of Australia\"}\n      ]\n    },\n    {\n      \"subject\": \"National Gallery of Australia\",\n      \"relation\": \"located_in\",\n      \"object\": \"Canberra\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(Canberra)\"}\n      ]\n    }\n  ]\n}"
+}

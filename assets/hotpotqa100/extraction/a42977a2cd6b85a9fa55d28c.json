@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Al Lewis": "PERSON",
+    "Albert Meister": "PERSON",
+    "Fred Gwynne": "PERSON",
+    "Yvonne De Carlo": "PERSON",
+    "The Munsters": "WORK_OF_ART",
+    "CBS": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Al Lewis",
+        "also_named",
+        "Albert Meister"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Al Lewis",
+        "worked_with",
+        "Fred Gwynne"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Al Lewis",
+        "worked_with",
+        "Yvonne De Carlo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Al Lewis",
+        "acted_in",
+        "The Munsters"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Munsters",
+        "broadcast_on",
+        "CBS"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Al Lewis (actor)\nAl Lewis (born Albert Meister; April 30, 1923February 3, 2006) was an American character actor best known for his role as Count Dracula lookalike \"Grandpa\", opposite Fred Gwynne's and Yvonne De Carlo's characters on the CBS television series \"The Munsters\" from 1964 to 1966 and its subsequent film versions. Later in life, he was also a restaurant owner, political candidate, and radio broadcaster.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Al Lewis\", \"type\": \"PERSON\"},\n    {\"name\": \"Albert Meister\", \"type\": \"PERSON\"},\n    {\"name\": \"Fred Gwynne\", \"type\": \"PERSON\"},\n    {\"name\": \"Yvonne De Carlo\", \"type\": \"PERSON\"},\n    {\"name\": \"The Munsters\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"CBS\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Al Lewis\",\n      \"relation\": \"also_named\",\n      \"object\": \"Albert Meister\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born Albert Meister\"}\n      ]\n    },\n    {\n      \"subject\": \"Al Lewis\",\n      \"relation\": \"worked_with\",\n      \"object\": \"Fred Gwynne\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"opposite Fred Gwynne's\"}\n      ]\n    },\n    {\n      \"subject\": \"Al Lewis\",\n      \"relation\": \"worked_with\",\n      \"object\": \"Yvonne De Carlo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Yvonne De Carlo's\"}\n      ]\n    },\n    {\n      \"subject\": \"Al Lewis\",\n      \"relation\": \"acted_in\",\n      \"object\": \"The Munsters\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the CBS television series \\\"The Munsters\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"The Munsters\",\n      \"relation\": \"broadcast_on\",\n      \"object\": \"CBS\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the CBS television series\"}\n      ]\n    }\n  ]\n}"
+}

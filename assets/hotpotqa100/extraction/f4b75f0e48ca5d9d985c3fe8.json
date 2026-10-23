@@ -1,0 +1,44 @@
+{
+  "entities": {
+    "English": "LANGUAGE",
+    "French": "LANGUAGE",
+    "Latin": "LANGUAGE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "words of French origin",
+        "entered",
+        "the English language"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "words of French origin",
+        "have_origin",
+        "French"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Latin words",
+        "have_come_to",
+        "the English language"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "all English words",
+        "have_origin",
+        "French"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "List of English words of French origin\nA great number of words of French origin have entered the English language to the extent that many Latin words have come to the English language. According to different sources, 45% of all English words have a French origin. This suggests that 80,000 words should appear in this list; this list, however, only includes words imported directly from French, such as both and , and does not include derivatives formed in English of words borrowed from French, including , , , and . It also excludes both combinations of words of French origin with words whose origin is a language other than French — e. g.: , , , , , and — and English-made combinations of words of French origin — e. g.: ( + ), ( + ), , , , , , and . This list also excludes words that come from French but were introduced into the English language via a language other than French, which include , , , , , , , , , , , , , , and .",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"English\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"French\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Latin\", \"type\": \"LANGUAGE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"words of French origin\",\n      \"relation\": \"entered\",\n      \"object\": \"the English language\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"have entered\"}\n      ]\n    },\n    {\n      \"subject\": \"words of French origin\",\n      \"relation\": \"have_origin\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of French origin\"}\n      ]\n    },\n    {\n      \"subject\": \"Latin words\",\n      \"relation\": \"have_come_to\",\n      \"object\": \"the English language\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"have come to\"}\n      ]\n    },\n    {\n      \"subject\": \"all English words\",\n      \"relation\": \"have_origin\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"have a French origin\"}\n      ]\n    }\n  ]\n}"
+}

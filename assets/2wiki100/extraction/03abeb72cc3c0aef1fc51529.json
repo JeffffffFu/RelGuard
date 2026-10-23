@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Eric XIV": "PERSON",
+    "Sweden": "GPE",
+    "Gustav I": "PERSON",
+    "Catherine of Saxe-Lauenburg": "PERSON",
+    "Estonia": "GPE",
+    "Sture murders": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Eric XIV",
+      "relation": "works_for",
+      "object": "Sweden",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was King of",
+          "line_start": 44,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "was King of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Eric XIV",
+      "relation": "founded",
+      "object": "Estonia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was also ruler of",
+          "line_start": 201,
+          "char_start": 220,
+          "ambiguous": false,
+          "relation_mention": "was also ruler of",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Eric XIV",
+      "relation": "was_child_of",
+      "object": "Gustav I",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was the eldest son of",
+          "line_start": 112,
+          "char_start": 131,
+          "ambiguous": false,
+          "relation_mention": "was the eldest son of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Eric XIV",
+      "relation": "was_child_of",
+      "object": "Catherine of Saxe-Lauenburg",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was the eldest son of",
+          "line_start": 112,
+          "char_start": 131,
+          "ambiguous": false,
+          "relation_mention": "was the eldest son of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Eric XIV",
+      "relation": "associated_with",
+      "object": "Sture murders",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "with the Sture murders",
+          "line_start": 584,
+          "char_start": 603,
+          "ambiguous": false,
+          "relation_mention": "with the Sture murders",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eric XIV",
+        "died_of",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Eric XIV of Sweden\nEric XIV (13 December 153326 February 1577) was King of Sweden from 1560 until he was deposed in 1568. Eric XIV was the eldest son of Gustav I (1496–1560) and Catherine of Saxe-Lauenburg (1513–35). He was also ruler of Estonia, after its conquest by Sweden in 1561. While he has been regarded as intelligent and artistically skilled, as well as politically ambitious, early in his reign he showed signs of mental instability, a condition that eventually led to insanity. Some scholars claim that his illness began early during his reign, while others believe that it first manifested with the Sture murders. Eric, having been deposed and imprisoned, was most likely murdered. An examination of his remains in 1958 confirmed that he probably died of arsenic poisoning."
+}

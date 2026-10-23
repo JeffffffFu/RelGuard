@@ -1,0 +1,124 @@
+{
+  "entities": {
+    "Newport Chemical Depot": "facility",
+    "Wabash River Ordnance Works": "facility",
+    "Newport Army Ammunition Plant": "facility",
+    "United States Army": "organization",
+    "Newport": "location",
+    "Indiana": "location",
+    "Terre Haute": "location",
+    "trinitrotoluene": "chemical",
+    "RDX": "chemical",
+    "heavy water": "chemical",
+    "VX": "chemical"
+  },
+  "triples": [
+    {
+      "subject": "Newport Chemical Depot",
+      "relation": "previously_known_as",
+      "object": "Wabash River Ordnance Works",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "previously known as the Wabash River Ordnance Works"
+        }
+      ]
+    },
+    {
+      "subject": "Newport Chemical Depot",
+      "relation": "operated_by",
+      "object": "United States Army",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was operated by the United States Army"
+        }
+      ]
+    },
+    {
+      "subject": "Newport Chemical Depot",
+      "relation": "located_near",
+      "object": "Newport",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is located near Newport"
+        }
+      ]
+    },
+    {
+      "subject": "Newport Chemical Depot",
+      "relation": "located_in",
+      "object": "Indiana",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in west central Indiana"
+        }
+      ]
+    },
+    {
+      "subject": "Newport Chemical Depot",
+      "relation": "used_as_production_site_for",
+      "object": "trinitrotoluene",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "used as a production site for the solid explosives trinitrotoluene"
+        }
+      ]
+    },
+    {
+      "subject": "Newport Chemical Depot",
+      "relation": "used_as_production_site_for",
+      "object": "heavy water",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as well as for heavy water"
+        }
+      ]
+    },
+    {
+      "subject": "Newport Chemical Depot",
+      "relation": "served_as_production_site_for",
+      "object": "VX",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "served as the production site for all of the U.S. military's nerve agent VX"
+        }
+      ]
+    },
+    {
+      "subject": "Newport Chemical Depot",
+      "relation": "located_north_of",
+      "object": "Terre Haute",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "thirty-two miles north of Terre Haute"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Newport Chemical Depot",
+        "previously_known_as",
+        "Newport Army Ammunition Plant"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Newport Chemical Depot",
+        "used_as_production_site_for",
+        "RDX"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Newport Chemical Depot\nThe Newport Chemical Depot, previously known as the Wabash River Ordnance Works and the Newport Army Ammunition Plant, was a 6,990 acres bulk chemical storage and destruction facility that was operated by the United States Army. It is located near Newport, in west central Indiana, thirty-two miles north of Terre Haute. The site was used as a production site for the solid explosives trinitrotoluene and RDX, as well as for heavy water. It also served as the production site for all of the U.S. military's nerve agent VX, when it was in use."
+}

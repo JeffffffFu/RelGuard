@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Il sogno di un giorno": "WORK_OF_ART",
+    "Augusto Genina": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Il sogno di un giorno",
+      "relation": "directed_by",
+      "object": "Augusto Genina",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 45,
+          "char_start": 67,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Il sogno di un giorno",
+        "located_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Il sogno di un giorno\nIl sogno di un giorno is a 1916 Italian film directed by Augusto Genina.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Il sogno di un giorno\",\n      \"type\": \"WORK_OF_ART\"\n    },\n    {\n      \"name\": \"Augusto Genina\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Italy\",\n      \"type\": \"GPE\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Il sogno di un giorno\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Augusto Genina\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"directed by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Il sogno di un giorno\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Italian\"\n        }\n      ]\n    }\n  ]\n}"
+}

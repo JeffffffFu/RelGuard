@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "Married to the Mob": "WORK_OF_ART",
+    "Jonathan Demme": "PERSON",
+    "Michelle Pfeiffer": "PERSON",
+    "Matthew Modine": "PERSON",
+    "Brooklyn": "GPE",
+    "Dean Stockwell": "PERSON",
+    "Academy Award for Best Supporting Actor": "WORK_OF_ART",
+    "FBI": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Married to the Mob",
+      "relation": "directed_by",
+      "object": "Jonathan Demme",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 50,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Married to the Mob",
+      "relation": "starring",
+      "object": "Michelle Pfeiffer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 78,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Married to the Mob",
+      "relation": "starring",
+      "object": "Matthew Modine",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 78,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Matthew Modine",
+      "relation": "works_for",
+      "object": "FBI",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the undercover FBI agent",
+          "line_start": 279,
+          "char_start": 298,
+          "ambiguous": false,
+          "relation_mention": "the undercover FBI agent",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Dean Stockwell",
+      "relation": "nominated_for",
+      "object": "Academy Award for Best Supporting Actor",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was nominated for the Academy Award for Best Supporting Actor",
+          "line_start": 430,
+          "char_start": 449,
+          "ambiguous": false,
+          "relation_mention": "was nominated for the Academy Award for Best Supporting Actor",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Michelle Pfeiffer",
+        "played_as",
+        "Brooklyn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Married to the Mob\nMarried to the Mob is a 1988 American comedy film directed by Jonathan Demme, starring Michelle Pfeiffer and Matthew Modine. Pfeiffer, in something of a departure from her previous roles, gave an acclaimed lead performance as a gangster's widow from Brooklyn, opposite Modine as the undercover FBI agent assigned the task of investigating her mafia connections. As a slippery mob boss romantically pursuing Angela, Dean Stockwell was nominated for the Academy Award for Best Supporting Actor."
+}

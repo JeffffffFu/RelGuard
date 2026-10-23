@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "Overland Adventure": "WORK_OF_ART",
+    "1954 Redex Reliability Trial": "EVENT",
+    "Ken G. Hall": "PERSON",
+    "Tough Assignment": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Overland Adventure",
+      "relation": "directed_by",
+      "object": "Ken G. Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 88,
+          "char_start": 107,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Overland Adventure",
+      "relation": "also_known_as",
+      "object": "Tough Assignment",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known as",
+          "line_start": 181,
+          "char_start": 200,
+          "ambiguous": false,
+          "relation_mention": "known as",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Overland Adventure: The Story of the 1954 Redex Reliability Trial",
+        "about",
+        "1954 Redex Reliability Trial"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Overland Adventure\nOverland Adventure: The Story of the 1954 Redex Reliability Trial is a 1954 documentary directed by Ken G. Hall about the 1954 Redex Reliability Trial. It appears to have also been known as \"Tough Assignment\"."
+}

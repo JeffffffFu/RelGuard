@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "Central Avenue": "location",
+    "Albany": "location",
+    "New York": "location",
+    "Albany County": "location",
+    "Albany-Schenectady Turnpike": "location",
+    "Lark Street": "location",
+    "Colonie": "location",
+    "Niskayuna": "location",
+    "Schenectady": "location",
+    "Schenectady County": "location",
+    "Route 5": "location"
+  },
+  "triples": [
+    {
+      "subject": "Central Avenue",
+      "relation": "located_in",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Albany, New York, is an 11-mile (5 km) stretch in Albany County"
+        }
+      ]
+    },
+    {
+      "subject": "Central Avenue",
+      "relation": "located_in",
+      "object": "Albany County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Albany County, of the 16-mile Albany-Schenectady Turnpike"
+        }
+      ]
+    },
+    {
+      "subject": "Central Avenue",
+      "relation": "part_of",
+      "object": "Albany-Schenectady Turnpike",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of the 16-mile Albany-Schenectady Turnpike"
+        }
+      ]
+    },
+    {
+      "subject": "Albany-Schenectady Turnpike",
+      "relation": "runs_from",
+      "object": "Lark Street",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which runs from Lark Street in the city of Albany"
+        }
+      ]
+    },
+    {
+      "subject": "Albany-Schenectady Turnpike",
+      "relation": "runs_to",
+      "object": "Schenectady",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to the city of Schenectady, New York"
+        }
+      ]
+    },
+    {
+      "subject": "Central Avenue",
+      "relation": "also_called",
+      "object": "Route 5",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The entire route is also called Route 5"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Central Avenue",
+        "known_as",
+        "Albany Schenectady Road"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Central Avenue",
+        "called",
+        "State Street"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Central Avenue (Albany, New York)\nCentral Avenue, in Albany, New York, is an 11-mile (5 km) stretch in Albany County, of the 16-mile Albany-Schenectady Turnpike, which runs from Lark Street in the city of Albany, westward through the towns of Colonie, New York and Niskayuna, New York, to the city of Schenectady, New York. In the city of Albany it is called Central Avenue, in Colonie it is known as Central Avenue or Albany Schenectady Road, and in Schenectady County (Niskayuna and Schenectady) it is called State Street. The entire route is also called Route 5."
+}

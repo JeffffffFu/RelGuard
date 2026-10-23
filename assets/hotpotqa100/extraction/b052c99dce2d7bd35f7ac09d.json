@@ -1,0 +1,104 @@
+{
+  "entities": {
+    "Commitment": "song",
+    "Tony Colton": "person",
+    "Tony Marty": "person",
+    "Bobby Wood": "person",
+    "LeAnn Rimes": "person",
+    "Sittin' on Top of the World": "album",
+    "Greatest Hits": "album",
+    "The Best of LeAnn Rimes": "album"
+  },
+  "triples": [
+    {
+      "subject": "Commitment",
+      "relation": "written_by",
+      "object": "Tony Colton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Tony Colton"
+        }
+      ]
+    },
+    {
+      "subject": "Commitment",
+      "relation": "recorded_by",
+      "object": "LeAnn Rimes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "recorded by American country music artist LeAnn Rimes"
+        }
+      ]
+    },
+    {
+      "subject": "Commitment",
+      "relation": "released_as_single_from",
+      "object": "Sittin' on Top of the World",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released in April 1998 as the lead single from her album \"Sittin' on Top of the World\""
+        }
+      ]
+    },
+    {
+      "subject": "Commitment",
+      "relation": "featured_on",
+      "object": "Greatest Hits",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "later featured on Rimes' \"Greatest Hits\""
+        }
+      ]
+    },
+    {
+      "subject": "Commitment",
+      "relation": "featured_on",
+      "object": "The Best of LeAnn Rimes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "its international version, \"The Best of LeAnn Rimes\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Commitment",
+        "written_by",
+        "Tony Marty"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Commitment",
+        "written_by",
+        "Bobby Wood"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Commitment",
+        "placed_at",
+        "US country charts"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Commitment",
+        "placed_at",
+        "UK"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Commitment (song)\n\"Commitment\" is a song written by Tony Colton, Tony Marty and Bobby Wood, and recorded by American country music artist LeAnn Rimes. It was released in April 1998 as the lead single from her album \"Sittin' on Top of the World\". The song placed at number 4 on the US country charts, number 38 in the UK. It was later featured on Rimes' \"Greatest Hits\" and its international version, \"The Best of LeAnn Rimes\"."
+}

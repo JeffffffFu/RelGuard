@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "Live at the Greek": "event",
+    "Excess All Areas": "album",
+    "Jimmy Page": "person",
+    "The Black Crowes": "band",
+    "musicmaker.com": "company",
+    "TVT Records": "company",
+    "Led Zeppelin": "band",
+    "Wiser Time": "song",
+    "No Speak No Slave": "song",
+    "Remedy": "song",
+    "Hard to Handle": "song",
+    "Misty Mountain Hop": "song",
+    "In the Light": "song"
+  },
+  "triples": [
+    {
+      "subject": "Excess All Areas",
+      "relation": "released_by",
+      "object": "musicmaker.com",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released by musicmaker.com on 29 February 2000"
+        }
+      ]
+    },
+    {
+      "subject": "Excess All Areas",
+      "relation": "released_by",
+      "object": "TVT Records",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "later by TVT Records on 4 July 2000"
+        }
+      ]
+    },
+    {
+      "subject": "Jimmy Page",
+      "relation": "teamed_up_with",
+      "object": "The Black Crowes",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Page teamed up with The Black Crowes"
+        }
+      ]
+    },
+    {
+      "subject": "Jimmy Page",
+      "relation": "played_with",
+      "object": "The Black Crowes",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "on which Jimmy Page played with the Crowes"
+        }
+      ]
+    },
+    {
+      "subject": "Jimmy Page",
+      "relation": "performed_material_from",
+      "object": "Led Zeppelin",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "performance of material from the Led Zeppelin catalogue"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Black Crowes",
+        "unable_to_release",
+        "their own songs"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Excess All Areas",
+        "released_on",
+        "4 July 2000"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Excess All Areas",
+        "features",
+        "Misty Mountain Hop"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Excess All Areas",
+        "features",
+        "In the Light"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Live at the Greek\nLive at the Greek: Excess All Areas is a double live album by Jimmy Page and The Black Crowes, released by musicmaker.com on 29 February 2000 and later by TVT Records on 4 July 2000. In October 1999, Page teamed up with The Black Crowes for a two-night performance of material from the Led Zeppelin catalogue and old blues and rock standards. Due to contractual problems with their record company, The Black Crowes were unable to release any of their own songs which were played at the Greek shows. These songs, on which Jimmy Page played with the Crowes, included: \"Wiser Time\", \"No Speak No Slave\", \"Remedy\", and \"Hard to Handle\". The double CD was released in stores by TVT Records on 4 July 2000, and featured a different track running order, an extra song, an enhanced QuickTime video and photographs taken during the concert. The Japanese version of the album also features \"Misty Mountain Hop\" and \"In the Light\", recorded in 2000."
+}

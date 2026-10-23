@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Helmut Weiss": "Person",
+    "Tell the Truth": "Film",
+    "West Germany": "Location",
+    "Hamburg": "Location",
+    "British Zone of Occupation": "Location",
+    "UFA studios": "Location",
+    "Berlin": "Location",
+    "Red Army": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Tell the Truth",
+      "relation": "produced_in",
+      "object": "West Germany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first film produced in what was to become the future West Germany"
+        }
+      ]
+    },
+    {
+      "subject": "Tell the Truth",
+      "relation": "made_in",
+      "object": "Hamburg",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was made in Hamburg"
+        }
+      ]
+    },
+    {
+      "subject": "Tell the Truth",
+      "relation": "located_in",
+      "object": "British Zone of Occupation",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the British Zone of Occupation"
+        }
+      ]
+    },
+    {
+      "subject": "Tell the Truth",
+      "relation": "had_parts_made_at",
+      "object": "UFA studios",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Much of the film had already been made at the UFA studios"
+        }
+      ]
+    },
+    {
+      "subject": "UFA studios",
+      "relation": "located_in",
+      "object": "Berlin",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "at the UFA studios in Berlin"
+        }
+      ]
+    },
+    {
+      "subject": "Tell the Truth",
+      "relation": "re_shot_by",
+      "object": "Helmut Weiss",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Weiss dramatically re-shot it"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Helmut Weiss",
+        "directed",
+        "Tell the Truth"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tell the Truth",
+        "significant_for",
+        "outdoor locations"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tell the Truth",
+        "common_with",
+        "other post-war rubble films"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Helmut Weiss\nHelmut Weiss( January 25, 1907 – January 13, 1969) was a German actor, screenwriter and film director. He was notable for directing\" Tell the Truth\" the first film produced in what was to become the future West Germany after the Second World War. It was made in Hamburg in the British Zone of Occupation. Much of the film had already been made at the UFA studios in Berlin shortly before the arrival of the Red Army, but Weiss dramatically re-shot it. The film was significant in its use of outdoor locations in common with other post-war rubble films."
+}

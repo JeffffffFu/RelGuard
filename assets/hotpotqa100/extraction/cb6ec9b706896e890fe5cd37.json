@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Gino's East": "ORG",
+    "Chicago": "GPE",
+    "deep-dish pizza": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Gino's East",
+      "relation": "located_in",
+      "object": "Chicago",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a Chicago-based",
+          "line_start": 12,
+          "char_start": 24,
+          "ambiguous": false,
+          "relation_mention": "is a Chicago-based",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Gino's East",
+      "relation": "serves",
+      "object": "deep-dish pizza",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "notable for its deep-dish pizza",
+          "line_start": 49,
+          "char_start": 61,
+          "ambiguous": false,
+          "relation_mention": "notable for its deep-dish pizza",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Gino's East\nGino's East is a Chicago-based restaurant chain, notable for its deep-dish pizza (sometimes called Chicago-style pizza), and for its interior walls, which patrons have covered in graffiti and etchings. The restaurant features deep-dish pizza baked in cast-iron pans, as well as sandwiches, soups and salads."
+}

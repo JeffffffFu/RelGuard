@@ -1,0 +1,195 @@
+{
+  "entities": {
+    "Al-Ahsa Governorate": "GPE",
+    "Saudi Arabia": "GPE",
+    "Eastern Province": "GPE",
+    "Al-Ahsa oasis": "LOC",
+    "Hofuf": "GPE",
+    "Classical Arabic": "LANGUAGE",
+    "Persian Gulf": "LOC",
+    "Empty Quarter": "LOC",
+    "Qatar": "GPE",
+    "Oman": "GPE",
+    "Bahrain": "GPE",
+    "Qatif": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Al-Ahsa Governorate",
+      "relation": "is_largest_governorate_in",
+      "object": "Eastern Province",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is the largest governorate in",
+          "line_start": 72,
+          "char_start": 92,
+          "ambiguous": false,
+          "relation_mention": "is the largest governorate in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Al-Ahsa Governorate",
+      "relation": "named_after",
+      "object": "Al-Ahsa oasis",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "named after",
+          "line_start": 135,
+          "char_start": 155,
+          "ambiguous": false,
+          "relation_mention": "named after",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hofuf",
+      "relation": "is_also_given_to",
+      "object": "Al-Ahsa Governorate",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is also given to",
+          "line_start": 183,
+          "char_start": 203,
+          "ambiguous": false,
+          "relation_mention": "is also given to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Al-Ahsa oasis",
+      "relation": "is_located",
+      "object": "Persian Gulf",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is located",
+          "line_start": 414,
+          "char_start": 434,
+          "ambiguous": false,
+          "relation_mention": "is located",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Al-Ahsa Governorate",
+      "relation": "includes",
+      "object": "Empty Quarter",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "includes",
+          "line_start": 574,
+          "char_start": 594,
+          "ambiguous": false,
+          "relation_mention": "includes",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "Empty Quarter",
+      "relation": "connects_to",
+      "object": "Saudi Arabia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "connects",
+          "line_start": 740,
+          "char_start": 760,
+          "ambiguous": false,
+          "relation_mention": "connects",
+          "sentence_id": 7
+        }
+      ]
+    },
+    {
+      "subject": "Empty Quarter",
+      "relation": "connects_to",
+      "object": "Qatar",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "connects",
+          "line_start": 740,
+          "char_start": 760,
+          "ambiguous": false,
+          "relation_mention": "connects",
+          "sentence_id": 7
+        }
+      ]
+    },
+    {
+      "subject": "Empty Quarter",
+      "relation": "connects_to",
+      "object": "Oman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "connects",
+          "line_start": 740,
+          "char_start": 760,
+          "ambiguous": false,
+          "relation_mention": "connects",
+          "sentence_id": 7
+        }
+      ]
+    },
+    {
+      "subject": "Al-Ahsa Governorate",
+      "relation": "belonged_to",
+      "object": "Bahrain",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "belonged to",
+          "line_start": 874,
+          "char_start": 894,
+          "ambiguous": false,
+          "relation_mention": "belonged to",
+          "sentence_id": 8
+        }
+      ]
+    },
+    {
+      "subject": "Qatif",
+      "relation": "belonged_to",
+      "object": "Bahrain",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "belonged to",
+          "line_start": 874,
+          "char_start": 894,
+          "ambiguous": false,
+          "relation_mention": "belonged to",
+          "sentence_id": 8
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United Arab Emirates (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Empty Quarter",
+        "connects_to",
+        "United Arab Emirates"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Al-Ahsa Governorate\nAl Ahsa (Arabic: الأحساء‎ ‎ \" al-Aḥsāʾ\", locally pronounced \"al-Ḥasāʾ\") is the largest governorate in Saudi Arabia's Eastern Province, named after the Al-Ahsa oasis. The name Al-Ahsa is also given to the biggest city in the governorate, Hofuf. In Classical Arabic, Ahsa means the sound of water underground. It has one of the largest oases in the world with Date Palms known to be the best in the world, the oasis is located about 60 km inland from the Persian Gulf. All urban areas are located in the traditional oasis of Al-Hasa. In addition to the oasis, the county also includes the giant Empty Quarter desert, making it the largest governorate in Saudi Arabia in terms of area. The Empty Quarter has the world's largest oil fields and connects Saudi Arabia to Qatar, the UAE, and Oman. The Governorate's population is over 908,366 (2005 estimate ).In the past, Al-Ahsa belonged to the historical region known as Bahrain, along with Qatif and the present-day Bahrain islands."
+}

@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Savage": "GPE",
+    "Howard County": "GPE",
+    "Maryland": "GPE",
+    "Baltimore": "GPE",
+    "Washington, D.C.": "GPE",
+    "Laurel": "GPE",
+    "Columbia": "GPE",
+    "Savage Mill Historic District": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Savage",
+      "relation": "located_in",
+      "object": "Howard County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in Howard County"
+        }
+      ]
+    },
+    {
+      "subject": "Savage",
+      "relation": "located_in",
+      "object": "Maryland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Savage is an unincorporated community and census-designated place located in Howard County, Maryland"
+        }
+      ]
+    },
+    {
+      "subject": "Savage",
+      "relation": "located_near",
+      "object": "Baltimore",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "about 18 mi south of Baltimore"
+        }
+      ]
+    },
+    {
+      "subject": "Savage",
+      "relation": "located_near",
+      "object": "Washington, D.C.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "21 mi north of Washington, D.C."
+        }
+      ]
+    },
+    {
+      "subject": "Savage",
+      "relation": "located_near",
+      "object": "Laurel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "situated close to the city of Laurel"
+        }
+      ]
+    },
+    {
+      "subject": "Savage Mill Historic District",
+      "relation": "preserves",
+      "object": "Savage",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "has many original buildings preserved within and around the Savage Mill Historic District"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Savage",
+        "located_near",
+        "Columbia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Savage, Maryland\nSavage is an unincorporated community and census-designated place located in Howard County, Maryland, about 18 mi south of Baltimore and 21 mi north of Washington, D.C. It is situated close to the city of Laurel and to the planned community of Columbia. As of the 2010 census it had a population of 7,054. The former mill town is a registered historic place, and has many original buildings preserved within and around the Savage Mill Historic District."
+}

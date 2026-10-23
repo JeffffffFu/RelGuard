@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Wale Adebanwi": "PERSON",
+    "Rhodes Professor": "WORK_OF_ART",
+    "St Antony's College, Oxford": "ORG",
+    "Oxford": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Nigeria (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Wale Adebanwi",
+        "born_in",
+        "Nigeria"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wale Adebanwi",
+        "holds_position",
+        "Rhodes Professor"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rhodes Professor",
+        "located_in",
+        "St Antony's College, Oxford"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "St Antony's College, Oxford",
+        "located_in",
+        "Oxford"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Wale Adebanwi\nWale Adebanwi( born 1969) is a Nigerian- born first Black Rhodes Professor at St Antony's College, Oxford.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Wale Adebanwi\", \"type\": \"PERSON\"},\n    {\"name\": \"Nigeria\", \"type\": \"GPE\"},\n    {\"name\": \"Rhodes Professor\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"St Antony's College, Oxford\", \"type\": \"ORG\"},\n    {\"name\": \"Oxford\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Wale Adebanwi\",\n      \"relation\": \"born_in\",\n      \"object\": \"Nigeria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born 1969) is a Nigerian- born\"}\n      ]\n    },\n    {\n      \"subject\": \"Wale Adebanwi\",\n      \"relation\": \"holds_position\",\n      \"object\": \"Rhodes Professor\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"first Black Rhodes Professor\"}\n      ]\n    },\n    {\n      \"subject\": \"Rhodes Professor\",\n      \"relation\": \"located_in\",\n      \"object\": \"St Antony's College, Oxford\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at St Antony's College, Oxford\"}\n      ]\n    },\n    {\n      \"subject\": \"St Antony's College, Oxford\",\n      \"relation\": \"located_in\",\n      \"object\": \"Oxford\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"St Antony's College, Oxford\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Palm Court": "FAC",
+    "Hotel Alexandria": "ORG",
+    "Los Angeles": "GPE",
+    "California": "GPE",
+    "William Howard Taft": "PERSON",
+    "Woodrow Wilson": "PERSON",
+    "John J. Pershing": "PERSON",
+    "Paul Whiteman": "PERSON",
+    "Rudolph Valentino": "PERSON",
+    "Jack Smith": "PERSON",
+    "City of Los Angeles Historic-Cultural Monument": "LAW"
+  },
+  "triples": [
+    {
+      "subject": "Jack Smith",
+      "relation": "called",
+      "object": "Palm Court",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "called it",
+          "line_start": 715,
+          "char_start": 745,
+          "ambiguous": false,
+          "relation_mention": "called it",
+          "sentence_id": 7
+        }
+      ]
+    },
+    {
+      "subject": "Palm Court",
+      "relation": "designated_as",
+      "object": "City of Los Angeles Historic-Cultural Monument",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designated as a",
+          "line_start": 793,
+          "char_start": 823,
+          "ambiguous": false,
+          "relation_mention": "designated as a",
+          "sentence_id": 8
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Palm Court",
+        "located_in",
+        "Hotel Alexandria"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hotel Alexandria",
+        "located_in",
+        "Los Angeles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Los Angeles",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Palm Court",
+        "was_scene_of_speeches_by",
+        "William Howard Taft"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Palm Court",
+        "was_scene_of_speeches_by",
+        "Woodrow Wilson"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Palm Court",
+        "was_scene_of_speeches_by",
+        "John J. Pershing"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Palm Court",
+        "was_room_where",
+        "Paul Whiteman"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Palm Court",
+        "was_room_where",
+        "Rudolph Valentino"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Palm Court (Alexandria Hotel)\nThe Palm Court, also known at other times as the Franco-Italian Dining Room, the Grand Ballroom and the Continental Room, is a ballroom at the Hotel Alexandria in downtown Los Angeles, California. In its heyday from 1911 to 1922, it was the scene of speeches by U.S. Presidents William Howard Taft and Woodrow Wilson and Gen. John J. Pershing. It is also the room where Paul Whiteman, later known as the \"Jazz King\", got his start as a bandleader in 1919, where Rudolph Valentino danced with movie starlets, and where Hollywood held its most significant balls during the early days of the motion picture business. Known for its history and its stained-glass Tiffany skylight, noted Los Angeles columnist Jack Smith called it \"surely the most beautiful room in Los Angeles\". The Palm Court was designated as a City of Los Angeles Historic-Cultural Monument (HCM#80) in 1971.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Palm Court\", \"type\": \"FAC\"},\n    {\"name\": \"Hotel Alexandria\", \"type\": \"ORG\"},\n    {\"name\": \"Los Angeles\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"William Howard Taft\", \"type\": \"PERSON\"},\n    {\"name\": \"Woodrow Wilson\", \"type\": \"PERSON\"},\n    {\"name\": \"John J. Pershing\", \"type\": \"PERSON\"},\n    {\"name\": \"Paul Whiteman\", \"type\": \"PERSON\"},\n    {\"name\": \"Rudolph Valentino\", \"type\": \"PERSON\"},\n    {\"name\": \"Jack Smith\", \"type\": \"PERSON\"},\n    {\"name\": \"City of Los Angeles Historic-Cultural Monument\", \"type\": \"LAW\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Palm Court\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hotel Alexandria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the\"}\n      ]\n    },\n    {\n      \"subject\": \"Hotel Alexandria\",\n      \"relation\": \"located_in\",\n      \"object\": \"Los Angeles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in downtown\"}\n      ]\n    },\n    {\n      \"subject\": \"Los Angeles\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"California\"}\n      ]\n    },\n    {\n      \"subject\": \"Palm Court\",\n      \"relation\": \"was_scene_of_speeches_by\",\n      \"object\": \"William Howard Taft\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"speeches by\"}\n      ]\n    },\n    {\n      \"subject\": \"Palm Court\",\n      \"relation\": \"was_scene_of_speeches_by\",\n      \"object\": \"Woodrow Wilson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"speeches by\"}\n      ]\n    },\n    {\n      \"subject\": \"Palm Court\",\n      \"relation\": \"was_scene_of_speeches_by\",\n      \"object\": \"John J. Pershing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"speeches by\"}\n      ]\n    },\n    {\n      \"subject\": \"Palm Court\",\n      \"relation\": \"was_room_where\",\n      \"object\": \"Paul Whiteman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"where Paul Whiteman\"}\n      ]\n    },\n    {\n      \"subject\": \"Palm Court\",\n      \"relation\": \"was_room_where\",\n      \"object\": \"Rudolph Valentino\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"where Rudolph Valentino danced\"}\n      ]\n    },\n    {\n      \"subject\": \"Jack Smith\",\n      \"relation\": \"called\",\n      \"object\": \"Palm Court\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"called it\"}\n      ]\n    },\n    {\n      \"subject\": \"Palm Court\",\n      \"relation\": \"designated_as\",\n      \"object\": \"City of Los Angeles Historic-Cultural Monument\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designated as a\"}\n      ]\n    }\n  ]\n}"
+}

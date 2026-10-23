@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Spencer Park": "FAC",
+    "Corporate Travel Management Stadium": "FAC",
+    "Newmarket": "GPE",
+    "Brisbane": "GPE",
+    "Queensland": "GPE",
+    "Australia": "GPE",
+    "National Premier Leagues Queensland": "ORG",
+    "Brisbane City FC": "ORG",
+    "Gino Merlo Stand": "FAC",
+    "Brisbane City Council": "ORG",
+    "La Rustica": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Spencer Park",
+      "relation": "located_in",
+      "object": "Newmarket",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in the suburb of",
+          "line_start": 92,
+          "char_start": 117,
+          "ambiguous": false,
+          "relation_mention": "located in the suburb of",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Spencer Park",
+        "also_known_as",
+        "Corporate Travel Management Stadium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Newmarket",
+        "located_in",
+        "Brisbane"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Brisbane",
+        "located_in",
+        "Queensland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Queensland",
+        "located_in",
+        "Australia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Spencer Park",
+        "home_to",
+        "Brisbane City FC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Brisbane City FC",
+        "member_of",
+        "National Premier Leagues Queensland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gino Merlo Stand",
+        "part_of",
+        "Spencer Park"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Spencer Park",
+        "opened_on",
+        "Brisbane City Council"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gino Merlo Stand",
+        "constructed_in",
+        "Spencer Park"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Spencer Park",
+        "home_to",
+        "La Rustica"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Spencer Park, Queensland\nSpencer Park (currently known as Corporate Travel Management Stadium) is a football stadium located in the suburb of Newmarket, north of Brisbane, Queensland, Australia. It is home to National Premier Leagues Queensland team Brisbane City FC. The stadium, while officially holding 10,000, seats only 3,000 under the grandstand, the \"Gino Merlo Stand\". The stadium opened in 1963 on the site of an old Brisbane City Council waste disposal site, and underwent a major renovation in 1981 with the construction of the Gino Merlo Stand. The stadium is home to La Rustica restaurant, where traditional Italian foods, including pizza, are served.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Spencer Park\", \"type\": \"FAC\"},\n    {\"name\": \"Corporate Travel Management Stadium\", \"type\": \"FAC\"},\n    {\"name\": \"Newmarket\", \"type\": \"GPE\"},\n    {\"name\": \"Brisbane\", \"type\": \"GPE\"},\n    {\"name\": \"Queensland\", \"type\": \"GPE\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"},\n    {\"name\": \"National Premier Leagues Queensland\", \"type\": \"ORG\"},\n    {\"name\": \"Brisbane City FC\", \"type\": \"ORG\"},\n    {\"name\": \"Gino Merlo Stand\", \"type\": \"FAC\"},\n    {\"name\": \"Brisbane City Council\", \"type\": \"ORG\"},\n    {\"name\": \"La Rustica\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Spencer Park\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Corporate Travel Management Stadium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(currently known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Spencer Park\",\n      \"relation\": \"located_in\",\n      \"object\": \"Newmarket\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in the suburb of\"}\n      ]\n    },\n    {\n      \"subject\": \"Newmarket\",\n      \"relation\": \"located_in\",\n      \"object\": \"Brisbane\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"north of Brisbane\"}\n      ]\n    },\n    {\n      \"subject\": \"Brisbane\",\n      \"relation\": \"located_in\",\n      \"object\": \"Queensland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Brisbane, Queensland\"}\n      ]\n    },\n    {\n      \"subject\": \"Queensland\",\n      \"relation\": \"located_in\",\n      \"object\": \"Australia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Queensland, Australia\"}\n      ]\n    },\n    {\n      \"subject\": \"Spencer Park\",\n      \"relation\": \"home_to\",\n      \"object\": \"Brisbane City FC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"It is home to\"}\n      ]\n    },\n    {\n      \"subject\": \"Brisbane City FC\",\n      \"relation\": \"member_of\",\n      \"object\": \"National Premier Leagues Queensland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"National Premier Leagues Queensland team\"}\n      ]\n    },\n    {\n      \"subject\": \"Gino Merlo Stand\",\n      \"relation\": \"part_of\",\n      \"object\": \"Spencer Park\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the \\\"Gino Merlo Stand\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Spencer Park\",\n      \"relation\": \"opened_on\",\n      \"object\": \"Brisbane City Council\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the site of an old Brisbane City Council\"}\n      ]\n    },\n    {\n      \"subject\": \"Gino Merlo Stand\",\n      \"relation\": \"constructed_in\",\n      \"object\": \"Spencer Park\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"construction of the Gino Merlo Stand\"}\n      ]\n    },\n    {\n      \"subject\": \"Spencer Park\",\n      \"relation\": \"home_to\",\n      \"object\": \"La Rustica\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The stadium is home to\"}\n      ]\n    }\n  ]\n}"
+}

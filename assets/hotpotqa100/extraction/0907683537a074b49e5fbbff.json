@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Kentucky Vehicle Enforcement": "organization",
+    "Kentucky State Police Division of Commercial Vehicle Enforcement": "organization",
+    "Commonwealth of Kentucky": "location",
+    "Steve Beshear": "person",
+    "Kentucky State Police": "organization",
+    "D.E.S.I.": "organization",
+    "Frankfort": "location"
+  },
+  "triples": [
+    {
+      "subject": "Kentucky State Police Division of Commercial Vehicle Enforcement",
+      "relation": "commonly_known_as",
+      "object": "Kentucky Vehicle Enforcement",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "commonly known in the Commonwealth as \"Kentucky Vehicle Enforcement\" (KVE)"
+        }
+      ]
+    },
+    {
+      "subject": "Kentucky State Police Division of Commercial Vehicle Enforcement",
+      "relation": "is_a_division_of",
+      "object": "Kentucky State Police",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "is now a division of the Kentucky State Police (KSP)"
+        }
+      ]
+    },
+    {
+      "subject": "Kentucky State Police Division of Commercial Vehicle Enforcement",
+      "relation": "works_jointly_with",
+      "object": "D.E.S.I.",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "working jointly with the KSP's Special Operations Division D.E.S.I."
+        }
+      ]
+    },
+    {
+      "subject": "Kentucky State Police Division of Commercial Vehicle Enforcement",
+      "relation": "headquarters_located_in",
+      "object": "Frankfort",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "Their headquarters is located in Frankfort"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kentucky State Police Division of Commercial Vehicle Enforcement",
+        "is_a",
+        "organization"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kentucky State Police Division of Commercial Vehicle Enforcement",
+        "employs",
+        "sworn officers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kentucky State Police Division of Commercial Vehicle Enforcement",
+        "enforces",
+        "state laws/regulations"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kentucky State Police Division of Commercial Vehicle Enforcement",
+        "conducts",
+        "drug interdiction operations"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kentucky State Police Division of Commercial Vehicle Enforcement",
+        "operates",
+        "commercial vehicle weigh stations"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kentucky Vehicle Enforcement\nThe Kentucky State Police Division of Commercial Vehicle Enforcement (CVE), commonly known in the Commonwealth as \"Kentucky Vehicle Enforcement\" (KVE), is a statewide law enforcement agency for the Commonwealth of Kentucky. The department, which was a stand-alone department until July 14, 2008 executive order from then-Governor Steve Beshear, is now a division of the Kentucky State Police (KSP). The division employs both sworn officers and civilian commercial vehicle inspectors. CVE's primary mission is the enforcement of all state laws/regulations on commercial and non commercial vehicles traveling throughout the Commonwealth of Kentucky. CVE's secondary mission is to conduct drug interdiction operations on the Commonwealth's state and county highways, working jointly with the KSP's Special Operations Division D.E.S.I. (Drug Enforcement and Special Investigations) unit. The CVE division operates and monitors the Commonwealth's system of commercial vehicle weigh stations throughout Kentucky. Their headquarters is located in Frankfort."
+}

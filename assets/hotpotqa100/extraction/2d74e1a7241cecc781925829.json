@@ -1,0 +1,172 @@
+{
+  "entities": {
+    "The Baldy Man": "WORK_OF_ART",
+    "Gregor Fisher": "PERSON",
+    "Scottish": "NORP",
+    "ITV": "ORG",
+    "The Comedy Unit": "ORG",
+    "Colin Gilbert": "PERSON",
+    "Rab C. Nesbitt": "WORK_OF_ART",
+    "Philip Differ": "PERSON",
+    "Naked Video": "WORK_OF_ART",
+    "BBC Scotland": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "The Baldy Man",
+      "relation": "stars",
+      "object": "Gregor Fisher",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 37,
+          "char_start": 51,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Baldy Man",
+      "relation": "made_by",
+      "object": "The Comedy Unit",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was made by",
+          "line_start": 178,
+          "char_start": 192,
+          "ambiguous": false,
+          "relation_mention": "was made by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Baldy Man",
+      "relation": "produced_by",
+      "object": "Colin Gilbert",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced and directed by",
+          "line_start": 333,
+          "char_start": 347,
+          "ambiguous": false,
+          "relation_mention": "produced and directed by",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "The Baldy Man",
+      "relation": "directed_by",
+      "object": "Colin Gilbert",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced and directed by",
+          "line_start": 333,
+          "char_start": 347,
+          "ambiguous": false,
+          "relation_mention": "produced and directed by",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Colin Gilbert",
+      "relation": "worked_with",
+      "object": "Gregor Fisher",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "worked with",
+          "line_start": 376,
+          "char_start": 390,
+          "ambiguous": false,
+          "relation_mention": "worked with",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "The Baldy Man",
+      "relation": "written_by",
+      "object": "Philip Differ",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 480,
+          "char_start": 494,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "The Baldy Man",
+      "relation": "first_appeared_in",
+      "object": "Naked Video",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "first appeared in",
+          "line_start": 563,
+          "char_start": 577,
+          "ambiguous": false,
+          "relation_mention": "first appeared in",
+          "sentence_id": 7
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gregor Fisher",
+        "nationality",
+        "Scottish"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Baldy Man",
+        "broadcast_on",
+        "ITV"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Colin Gilbert",
+        "worked_on",
+        "Rab C. Nesbitt"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Philip Differ",
+        "was_script_editor_on",
+        "Naked Video"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Naked Video",
+        "produced_by",
+        "BBC Scotland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Baldy Man\nThe Baldy Man is a television series starring Gregor Fisher, a Scottish comedian. It was broadcast in two series comprising thirteen episodes on ITV, screening in 1995 and 1997, was made by The Comedy Unit. The character's chief attributes were his comb over hairstyle as well as his bumbling nature and plump figure. The series was produced and directed by Colin Gilbert who worked with Fisher in Scotland's well known situation comedy \"Rab C. Nesbitt\" among many others. It was written by Philip Differ who was the script editor on \"Naked Video\". The character first appeared in a series of sketches in the BBC Scotland show \"Naked Video\" (1986-1991)",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Baldy Man\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Gregor Fisher\", \"type\": \"PERSON\"},\n    {\"name\": \"Scottish\", \"type\": \"NORP\"},\n    {\"name\": \"ITV\", \"type\": \"ORG\"},\n    {\"name\": \"The Comedy Unit\", \"type\": \"ORG\"},\n    {\"name\": \"Colin Gilbert\", \"type\": \"PERSON\"},\n    {\"name\": \"Rab C. Nesbitt\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Philip Differ\", \"type\": \"PERSON\"},\n    {\"name\": \"Naked Video\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"BBC Scotland\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Baldy Man\",\n      \"relation\": \"stars\",\n      \"object\": \"Gregor Fisher\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Gregor Fisher\",\n      \"relation\": \"nationality\",\n      \"object\": \"Scottish\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a Scottish\"}\n      ]\n    },\n    {\n      \"subject\": \"The Baldy Man\",\n      \"relation\": \"broadcast_on\",\n      \"object\": \"ITV\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on ITV\"}\n      ]\n    },\n    {\n      \"subject\": \"The Baldy Man\",\n      \"relation\": \"made_by\",\n      \"object\": \"The Comedy Unit\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was made by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Baldy Man\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Colin Gilbert\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Baldy Man\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Colin Gilbert\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Colin Gilbert\",\n      \"relation\": \"worked_with\",\n      \"object\": \"Gregor Fisher\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"worked with\"}\n      ]\n    },\n    {\n      \"subject\": \"Colin Gilbert\",\n      \"relation\": \"worked_on\",\n      \"object\": \"Rab C. Nesbitt\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Scotland's well known situation comedy \\\"Rab C. Nesbitt\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"The Baldy Man\",\n      \"relation\": \"written_by\",\n      \"object\": \"Philip Differ\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Philip Differ\",\n      \"relation\": \"was_script_editor_on\",\n      \"object\": \"Naked Video\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the script editor on\"}\n      ]\n    },\n    {\n      \"subject\": \"The Baldy Man\",\n      \"relation\": \"first_appeared_in\",\n      \"object\": \"Naked Video\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"first appeared in\"}\n      ]\n    },\n    {\n      \"subject\": \"Naked Video\",\n      \"relation\": \"produced_by\",\n      \"object\": \"BBC Scotland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the BBC Scotland show\"}\n      ]\n    }\n  ]\n}"
+}

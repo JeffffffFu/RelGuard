@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Iowa": "Location",
+    "Governor of Iowa": "Position",
+    "Iowa State Legislature": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Governor of Iowa",
+      "relation": "convenes",
+      "object": "Iowa State Legislature",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to convene the legislature"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Governor of Iowa",
+        "is_head_of",
+        "Iowa's state government"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Governor of Iowa",
+        "enforces",
+        "state laws"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Governor of Iowa",
+        "has_power_to",
+        "approve or veto bills"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Governor of Iowa",
+        "grants",
+        "pardons"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Governor of Iowa",
+        "is_commander_in_chief_of",
+        "state's military forces"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "List of Governors of Iowa\nThe Governor of Iowa is the chief executive of the U.S. state of Iowa. The governor is the head of the executive branch of Iowa's state government and is charged with enforcing state laws. The governor has the power to either approve or veto bills passed by the Iowa State Legislature, to convene the legislature, and to grant pardons, except in cases of treason and impeachment. The governor is also the commander-in-chief of the state's military forces."
+}

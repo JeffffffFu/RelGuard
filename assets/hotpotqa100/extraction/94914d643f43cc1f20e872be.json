@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Brisbane Blitz": "ORG",
+    "Brisbane": "GPE",
+    "Queensland": "GPE",
+    "Australian Junior Ice Hockey League": "ORG",
+    "AJIHL Tier 2": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Brisbane Blitz",
+      "relation": "located_in",
+      "object": "Brisbane",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 60,
+          "char_start": 75,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Brisbane Blitz",
+        "located_in",
+        "Queensland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Brisbane Blitz",
+        "works_for",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Brisbane Blitz",
+        "plays_in",
+        "AJIHL Tier 2"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "AJIHL Tier 2",
+        "part_of",
+        "Australian Junior Ice Hockey League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Brisbane Blitz\nThe Brisbane Blitz are an Australian junior ice hockey team based in Brisbane, Queensland playing in the second tier of the Australian Junior Ice Hockey League referred to as AJIHL Tier 2. They represent the first junior ice hockey team from Queensland as part of the proposed 2nd expansion of the AJIHL, which is the most elite level for ice hockey at a national level for ages between 16–20 years old.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Brisbane Blitz\", \"type\": \"ORG\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"},\n    {\"name\": \"Brisbane\", \"type\": \"GPE\"},\n    {\"name\": \"Queensland\", \"type\": \"GPE\"},\n    {\"name\": \"Australian Junior Ice Hockey League\", \"type\": \"ORG\"},\n    {\"name\": \"AJIHL Tier 2\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Brisbane Blitz\",\n      \"relation\": \"located_in\",\n      \"object\": \"Brisbane\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Brisbane Blitz\",\n      \"relation\": \"located_in\",\n      \"object\": \"Queensland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in Brisbane, Queensland\"}\n      ]\n    },\n    {\n      \"subject\": \"Brisbane Blitz\",\n      \"relation\": \"works_for\",\n      \"object\": \"Australia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are an Australian\"}\n      ]\n    },\n    {\n      \"subject\": \"Brisbane Blitz\",\n      \"relation\": \"plays_in\",\n      \"object\": \"AJIHL Tier 2\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"playing in the second tier of the Australian Junior Ice Hockey League referred to as AJIHL Tier 2\"}\n      ]\n    },\n    {\n      \"subject\": \"AJIHL Tier 2\",\n      \"relation\": \"part_of\",\n      \"object\": \"Australian Junior Ice Hockey League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Australian Junior Ice Hockey League referred to as AJIHL Tier 2\"}\n      ]\n    }\n  ]\n}"
+}

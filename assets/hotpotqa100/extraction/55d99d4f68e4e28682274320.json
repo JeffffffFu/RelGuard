@@ -1,0 +1,147 @@
+{
+  "entities": {
+    "Australia": "GPE",
+    "2022 FIFA World Cup": "EVENT",
+    "2018 World Cup": "EVENT",
+    "Qatar": "GPE",
+    "FIFA": "ORG",
+    "Frank Lowy": "PERSON",
+    "Ben Buckley": "PERSON",
+    "Quentin Bryce": "PERSON",
+    "Elle Macpherson": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Australia",
+      "relation": "submitted_bid_for",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "submitted an unsuccessful bid for",
+          "line_start": 10,
+          "char_start": 44,
+          "ambiguous": false,
+          "relation_mention": "submitted an unsuccessful bid for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Australia",
+      "relation": "lodged_bid_for",
+      "object": "2018 World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "lodged a bid for",
+          "line_start": 157,
+          "char_start": 191,
+          "ambiguous": false,
+          "relation_mention": "lodged a bid for",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Australia",
+      "relation": "withdrew_bid_on",
+      "object": "2018 World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "withdrew the bid on",
+          "line_start": 198,
+          "char_start": 232,
+          "ambiguous": false,
+          "relation_mention": "withdrew the bid on",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "FIFA",
+        "announced_event_would_be_held_in",
+        "Qatar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "2018 World Cup",
+        "is_edition_of",
+        "FIFA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "2022 FIFA World Cup",
+        "is_edition_of",
+        "FIFA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bidding procedure",
+        "began_in",
+        "January 2009"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The bid",
+        "presented_by",
+        "Frank Lowy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The bid",
+        "presented_by",
+        "Ben Buckley"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The bid",
+        "presented_by",
+        "Quentin Bryce"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The bid",
+        "presented_by",
+        "Elle Macpherson"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Qatar",
+        "hosting_rights_for",
+        "2022 FIFA World Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Australia",
+        "possible_host_if_fifa_strips",
+        "2022 FIFA World Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Australia 2022 FIFA World Cup bid\nAustralia submitted an unsuccessful bid for the 2022 FIFA World Cup. On 2 December 2010 FIFA announced that the event would be held in Qatar. Australia also lodged a bid for the 2018 World Cup, but withdrew the bid on 10 June 2010. The 2018 and 2022 World Cups will be the 21st and 22nd editions of the FIFA World Cup. The bidding procedure to host both the 2018 and 2022 FIFA World Cup began in January 2009, and national associations had until 2 February 2009 to register their interest. The bid was presented by Frank Lowy, Ben Buckley, Quentin Bryce and Elle Macpherson. However, due to controversies of Qatar hosting, Australia's bid is possible if FIFA decides to strip Qatar's 2022 hosting rights.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Australia\", \"type\": \"GPE\"},\n    {\"name\": \"2022 FIFA World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"2018 World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"Qatar\", \"type\": \"GPE\"},\n    {\"name\": \"FIFA\", \"type\": \"ORG\"},\n    {\"name\": \"Frank Lowy\", \"type\": \"PERSON\"},\n    {\"name\": \"Ben Buckley\", \"type\": \"PERSON\"},\n    {\"name\": \"Quentin Bryce\", \"type\": \"PERSON\"},\n    {\"name\": \"Elle Macpherson\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Australia\",\n      \"relation\": \"submitted_bid_for\",\n      \"object\": \"2022 FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"submitted an unsuccessful bid for\"}\n      ]\n    },\n    {\n      \"subject\": \"FIFA\",\n      \"relation\": \"announced_event_would_be_held_in\",\n      \"object\": \"Qatar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"announced that the event would be held in\"}\n      ]\n    },\n    {\n      \"subject\": \"Australia\",\n      \"relation\": \"lodged_bid_for\",\n      \"object\": \"2018 World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"lodged a bid for\"}\n      ]\n    },\n    {\n      \"subject\": \"Australia\",\n      \"relation\": \"withdrew_bid_on\",\n      \"object\": \"2018 World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"withdrew the bid on\"}\n      ]\n    },\n    {\n      \"subject\": \"2018 World Cup\",\n      \"relation\": \"is_edition_of\",\n      \"object\": \"FIFA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"editions of the FIFA World Cup\"}\n      ]\n    },\n    {\n      \"subject\": \"2022 FIFA World Cup\",\n      \"relation\": \"is_edition_of\",\n      \"object\": \"FIFA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"editions of the FIFA World Cup\"}\n      ]\n    },\n    {\n      \"subject\": \"Bidding procedure\",\n      \"relation\": \"began_in\",\n      \"object\": \"January 2009\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"The bid\",\n      \"relation\": \"presented_by\",\n      \"object\": \"Frank Lowy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"presented by\"}\n      ]\n    },\n    {\n      \"subject\": \"The bid\",\n      \"relation\": \"presented_by\",\n      \"object\": \"Ben Buckley\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"presented by\"}\n      ]\n    },\n    {\n      \"subject\": \"The bid\",\n      \"relation\": \"presented_by\",\n      \"object\": \"Quentin Bryce\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"presented by\"}\n      ]\n    },\n    {\n      \"subject\": \"The bid\",\n      \"relation\": \"presented_by\",\n      \"object\": \"Elle Macpherson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"presented by\"}\n      ]\n    },\n    {\n      \"subject\": \"Qatar\",\n      \"relation\": \"hosting_rights_for\",\n      \"object\": \"2022 FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"hosting,\"}\n      ]\n    },\n    {\n      \"subject\": \"Australia\",\n      \"relation\": \"possible_host_if_fifa_strips\",\n      \"object\": \"2022 FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is possible if FIFA decides to strip Qatar's 2022 hosting rights\"}\n      ]\n    }\n  ]\n}"
+}

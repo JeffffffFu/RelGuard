@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Powerful: Energy for Everyone": "document",
+    "David Chernushenko": "person",
+    "Canada": "location",
+    "renewable energy": "concept",
+    "sustainable lifestyle": "concept",
+    "communities": "group"
+  },
+  "triples": [
+    {
+      "subject": "Powerful: Energy for Everyone",
+      "relation": "explores",
+      "object": "renewable energy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that explores different sources of renewable energy"
+        }
+      ]
+    },
+    {
+      "subject": "David Chernushenko",
+      "relation": "discovers",
+      "object": "sustainable lifestyle",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "to discover different ways of achieving a more sustainable lifestyle"
+        }
+      ]
+    },
+    {
+      "subject": "Powerful: Energy for Everyone",
+      "relation": "introduces",
+      "object": "communities",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The film introduces audiences to communities"
+        }
+      ]
+    },
+    {
+      "subject": "communities",
+      "relation": "embrace",
+      "object": "renewable energy",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and embrace renewable energy"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Powerful: Energy for Everyone",
+        "is_a",
+        "2010 Canadian documentary"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "David Chernushenko",
+        "takes",
+        "audiences"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "communities",
+        "managed_to_adapt",
+        "way of life"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Powerful: Energy for Everyone\nPowerful: Energy for Everyone is a 2010 Canadian documentary that explores different sources of renewable energy. David Chernushenko takes audiences on a global journey to discover different ways of achieving a more sustainable lifestyle. The film introduces audiences to communities, both small and large, that have managed to adapt their way of life and embrace renewable energy."
+}

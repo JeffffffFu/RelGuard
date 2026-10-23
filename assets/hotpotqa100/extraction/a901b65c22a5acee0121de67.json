@@ -1,0 +1,144 @@
+{
+  "entities": {
+    "Chinese Taipei": "GPE",
+    "2006 Asian Games": "EVENT",
+    "Doha": "GPE",
+    "Qatar": "GPE",
+    "China": "GPE",
+    "Japan": "GPE",
+    "South Korea": "GPE",
+    "Taiwan": "GPE",
+    "2002 Asian Games": "EVENT",
+    "Busan": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Chinese Taipei",
+      "relation": "competed_in",
+      "object": "2006 Asian Games",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Chinese Taipei () competed in the 2006 Asian Games"
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games",
+      "relation": "located_in",
+      "object": "Doha",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Doha"
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games",
+      "relation": "located_in",
+      "object": "Qatar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Doha, Qatar"
+        }
+      ]
+    },
+    {
+      "subject": "Chinese Taipei",
+      "relation": "largest_delegation_after",
+      "object": "China",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "making Chinese Taipei the fourth largest delegation after China"
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games",
+      "relation": "drop_from",
+      "object": "2002 Asian Games",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "a slight drop from its performance in the 2002 Asian Games"
+        }
+      ]
+    },
+    {
+      "subject": "2002 Asian Games",
+      "relation": "located_in",
+      "object": "Busan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Busan, South Korea"
+        }
+      ]
+    },
+    {
+      "subject": "South Korea",
+      "relation": "located_in",
+      "object": "Busan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Busan, South Korea"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Chinese Taipei",
+        "sent",
+        "399 athletes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chinese Taipei",
+        "largest_delegation_after",
+        "Japan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Chinese Taipei",
+        "largest_delegation_after",
+        "South Korea"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Chinese Taipei",
+        "is",
+        "second-rank Asian sports power"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chinese Taipei",
+        "finished",
+        "tenth in gold medals"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chinese Taipei",
+        "finished",
+        "seventh in overall medals"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Chinese Taipei at the 2006 Asian Games\nChinese Taipei () competed in the 2006 Asian Games in Doha, Qatar in November and December 2006. The Chinese Taipei team sent 399 athletes to the games, making Chinese Taipei the fourth largest delegation after China, Japan, and South Korea. Despite Taiwan's small size, Chinese Taipei is a second-rank Asian sports power, finishing tenth in gold medals and seventh in overall medals at the 2006 Asian Games, a slight drop from its performance in the 2002 Asian Games in Busan, South Korea."
+}

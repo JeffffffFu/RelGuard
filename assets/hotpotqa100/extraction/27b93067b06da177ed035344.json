@@ -1,0 +1,61 @@
+{
+  "entities": {
+    "Clayton Beddoes": "PERSON",
+    "Italy": "GPE",
+    "National Hockey League": "ORG",
+    "ERC Ingolstadt": "ORG",
+    "Italy men's national ice hockey team": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Clayton Beddoes",
+      "relation": "played_in",
+      "object": "National Hockey League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played two seasons in the National Hockey League"
+        }
+      ]
+    },
+    {
+      "subject": "Clayton Beddoes",
+      "relation": "coaches",
+      "object": "Italy men's national ice hockey team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently serving as head coach of the Italy men's national ice hockey team"
+        }
+      ]
+    },
+    {
+      "subject": "Clayton Beddoes",
+      "relation": "coaches",
+      "object": "ERC Ingolstadt",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as assistant coach at ERC Ingolstadt"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Clayton Beddoes",
+        "born_in",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Clayton Beddoes\nClayton Beddoes (born November 10, 1970) is a Canadian ice hockey coach and former professional ice hockey centre. He played two seasons in the National Hockey League. He is currently serving as head coach of the Italy men's national ice hockey team and as assistant coach at ERC Ingolstadt."
+}

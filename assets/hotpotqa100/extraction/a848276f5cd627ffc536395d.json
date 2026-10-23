@@ -1,0 +1,135 @@
+{
+  "entities": {
+    "KKBN": "ORG",
+    "The Cabin": "ORG",
+    "Twain Harte": "GPE",
+    "California": "GPE",
+    "United States": "GPE",
+    "Mother Lode": "LOC",
+    "Clarke Broadcasting Corporation": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "KKBN",
+      "relation": "aka",
+      "object": "The Cabin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "The Cabin",
+          "line_start": 15,
+          "char_start": 20,
+          "ambiguous": false,
+          "relation_mention": "The Cabin",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "KKBN",
+      "relation": "located_in",
+      "object": "Twain Harte",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Licensed to",
+          "line_start": 106,
+          "char_start": 111,
+          "ambiguous": false,
+          "relation_mention": "Licensed to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Twain Harte",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Licensed to",
+          "line_start": 106,
+          "char_start": 111,
+          "ambiguous": false,
+          "relation_mention": "Licensed to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "California",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Licensed to",
+          "line_start": 106,
+          "char_start": 111,
+          "ambiguous": false,
+          "relation_mention": "Licensed to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "KKBN",
+      "relation": "serves",
+      "object": "Mother Lode",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "serves",
+          "line_start": 170,
+          "char_start": 175,
+          "ambiguous": false,
+          "relation_mention": "serves",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "KKBN",
+      "relation": "works_for",
+      "object": "Clarke Broadcasting Corporation",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is currently owned by",
+          "line_start": 314,
+          "char_start": 319,
+          "ambiguous": false,
+          "relation_mention": "is currently owned by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "Tuolumne County (GPE)",
+        "Calaveras County (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Mother Lode",
+        "comprising",
+        "Tuolumne County"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mother Lode",
+        "comprising",
+        "Calaveras County"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "KKBN\nKKBN (93.5 FM) The Cabin a radio station since 1986 broadcasting a Country music format since March 2000. Licensed to Twain Harte, California, United States, the station serves the greater Mother Lode area comprising Tuolumne and Calaveras Counties with a combined population of approximately 110,000. The station is currently owned by Clarke Broadcasting Corporation."
+}

@@ -1,0 +1,148 @@
+{
+  "entities": {
+    "Creature from the Black Lagoon": "WORK_OF_ART",
+    "Universal-International": "ORG",
+    "William Alland": "PERSON",
+    "Jack Arnold": "PERSON",
+    "Richard Carlson": "PERSON",
+    "Julia Adams": "PERSON",
+    "Richard Denning": "PERSON",
+    "Antonio Moreno": "PERSON",
+    "Whit Bissell": "PERSON",
+    "Ben Chapman": "PERSON",
+    "Ricou Browning": "PERSON",
+    "Detroit": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Creature from the Black Lagoon",
+      "relation": "produced_by",
+      "object": "William Alland",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 119,
+          "char_start": 150,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Creature from the Black Lagoon",
+      "relation": "directed_by",
+      "object": "Jack Arnold",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 147,
+          "char_start": 178,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Creature from the Black Lagoon",
+      "relation": "premiered_in",
+      "object": "Detroit",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "premiered in",
+          "line_start": 354,
+          "char_start": 385,
+          "ambiguous": false,
+          "relation_mention": "premiered in",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Creature from the Black Lagoon",
+        "released_in_country",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Creature from the Black Lagoon",
+        "works_for",
+        "Universal-International"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Creature from the Black Lagoon",
+        "stars",
+        "Richard Carlson"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Creature from the Black Lagoon",
+        "stars",
+        "Julia Adams"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Creature from the Black Lagoon",
+        "stars",
+        "Richard Denning"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Creature from the Black Lagoon",
+        "stars",
+        "Antonio Moreno"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Creature from the Black Lagoon",
+        "stars",
+        "Whit Bissell"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Creature",
+        "played_by",
+        "Ben Chapman"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Creature",
+        "played_by",
+        "Ricou Browning"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Creature from the Black Lagoon\nCreature from the Black Lagoon is a 1954 American black-and-white 3D monster horror film from Universal-International, produced by William Alland, directed by Jack Arnold, that stars Richard Carlson, Julia Adams, Richard Denning, Antonio Moreno, and Whit Bissell. The Creature was played by Ben Chapman on land and by Ricou Browning underwater. The film premiered in Detroit on February 12 and was released on a regional basis, opening on various dates.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Creature from the Black Lagoon\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Universal-International\", \"type\": \"ORG\"},\n    {\"name\": \"William Alland\", \"type\": \"PERSON\"},\n    {\"name\": \"Jack Arnold\", \"type\": \"PERSON\"},\n    {\"name\": \"Richard Carlson\", \"type\": \"PERSON\"},\n    {\"name\": \"Julia Adams\", \"type\": \"PERSON\"},\n    {\"name\": \"Richard Denning\", \"type\": \"PERSON\"},\n    {\"name\": \"Antonio Moreno\", \"type\": \"PERSON\"},\n    {\"name\": \"Whit Bissell\", \"type\": \"PERSON\"},\n    {\"name\": \"Ben Chapman\", \"type\": \"PERSON\"},\n    {\"name\": \"Ricou Browning\", \"type\": \"PERSON\"},\n    {\"name\": \"Detroit\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Creature from the Black Lagoon\",\n      \"relation\": \"released_in_country\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"American\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon\",\n      \"relation\": \"works_for\",\n      \"object\": \"Universal-International\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"from\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon\",\n      \"relation\": \"produced_by\",\n      \"object\": \"William Alland\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"produced by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Jack Arnold\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"directed by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon\",\n      \"relation\": \"stars\",\n      \"object\": \"Richard Carlson\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"stars\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon\",\n      \"relation\": \"stars\",\n      \"object\": \"Julia Adams\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"stars\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon\",\n      \"relation\": \"stars\",\n      \"object\": \"Richard Denning\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"stars\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon\",\n      \"relation\": \"stars\",\n      \"object\": \"Antonio Moreno\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"stars\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon\",\n      \"relation\": \"stars\",\n      \"object\": \"Whit Bissell\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"stars\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"The Creature\",\n      \"relation\": \"played_by\",\n      \"object\": \"Ben Chapman\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was played by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"The Creature\",\n      \"relation\": \"played_by\",\n      \"object\": \"Ricou Browning\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"and by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon\",\n      \"relation\": \"premiered_in\",\n      \"object\": \"Detroit\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"premiered in\"\n        }\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,44 @@
+{
+  "entities": {
+    "controlling interest": "concept",
+    "corporation": "entity",
+    "voting stock shares": "concept",
+    "majority of voting shares": "concept",
+    "party": "entity"
+  },
+  "triples": [
+    {
+      "subject": "majority of voting shares",
+      "relation": "is",
+      "object": "controlling interest",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "A majority of voting shares (over 50%) is always a controlling interest."
+        }
+      ]
+    },
+    {
+      "subject": "party",
+      "relation": "holds",
+      "object": "voting stock shares",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "When a party holds less than the majority of the voting shares, other present circumstances can be considered to determine whether that party is still considered to hold a controlling ownership interest."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "controlling interest",
+        "is",
+        "ownership interest"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Controlling interest\nA controlling interest is an ownership interest in a corporation with enough voting stock shares to prevail in any stockholders' motion. A majority of voting shares (over 50%) is always a controlling interest. When a party holds less than the majority of the voting shares, other present circumstances can be considered to determine whether that party is still considered to hold a controlling ownership interest."
+}

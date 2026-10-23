@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "EGGER": "company",
+    "Tyrol": "location",
+    "Austria": "location",
+    "Rădăuți": "location",
+    "Romania": "location"
+  },
+  "triples": [
+    {
+      "subject": "EGGER",
+      "relation": "located_in",
+      "object": "Tyrol",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Tyrol"
+        }
+      ]
+    },
+    {
+      "subject": "EGGER",
+      "relation": "located_in",
+      "object": "Austria",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Tyrol, Austria"
+        }
+      ]
+    },
+    {
+      "subject": "EGGER",
+      "relation": "has_production_site_in",
+      "object": "Romania",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "production site located in Rădăuți, Romania"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "EGGER",
+        "founded",
+        "1961"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "EGGER",
+        "invested_in",
+        "€210 million"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "EGGER",
+        "operates",
+        "cogeneration power station"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "cogeneration power station",
+        "has_capacity",
+        "40.5 MW"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Egger (company)\nEGGER is a global family company founded in 1961 in Tyrol, Austria (where its headquarters are held) that produces wood-based panel Products. EGGER is represented by 17 production sites in Europe (Austria, Germany, France, United Kingdom, Romania, Russia and Turkey) and currently has 23 sales offices worldwide (France, Belgium, Denmark, Italy, Switzerland, Slovenia, Lithuania, Ukraine, China, Japan, India, Chile, Australia, Romania, Croatia, Czech Republic, Hungary, Poland, Serbia, Bulgaria, Turkey, Russia and Belarus). In 2006 the company invested €210 million in the construction of a new production site located in Rădăuți, Romania with a capacity of 600,000 cubic meters of melamine faced chipboard. At the Romanian site the company operates a combined heat and electricity cogeneration power station with a capacity of 40.5 MW."
+}

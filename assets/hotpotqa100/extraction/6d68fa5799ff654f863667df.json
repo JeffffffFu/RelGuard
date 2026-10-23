@@ -1,0 +1,160 @@
+{
+  "entities": {
+    "Manley Field House": "location",
+    "Syracuse": "location",
+    "New York": "location",
+    "Syracuse Orange men's basketball team": "team",
+    "Syracuse Orange women's basketball team": "team",
+    "indoor track team": "team",
+    "women's volleyball team": "team",
+    "Carrier Dome": "location",
+    "Dr. George L. Manley": "person",
+    "University": "organization",
+    "College of Medicine": "organization",
+    "Archbold Gymnasium": "location"
+  },
+  "triples": [
+    {
+      "subject": "Manley Field House",
+      "relation": "located_in",
+      "object": "Syracuse",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Manley Field House is a multi-purpose arena in Syracuse, New York."
+        }
+      ]
+    },
+    {
+      "subject": "Manley Field House",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Manley Field House is a multi-purpose arena in Syracuse, New York."
+        }
+      ]
+    },
+    {
+      "subject": "Manley Field House",
+      "relation": "home_to",
+      "object": "Syracuse Orange men's basketball team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was home to the Syracuse Orange men's and women's basketball teams"
+        }
+      ]
+    },
+    {
+      "subject": "Manley Field House",
+      "relation": "home_to",
+      "object": "Syracuse Orange women's basketball team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was home to the Syracuse Orange men's and women's basketball teams"
+        }
+      ]
+    },
+    {
+      "subject": "Manley Field House",
+      "relation": "replaced_by",
+      "object": "Carrier Dome",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "before the Carrier Dome opened in 1980."
+        }
+      ]
+    },
+    {
+      "subject": "Manley Field House",
+      "relation": "named_after",
+      "object": "Dr. George L. Manley",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is named for Dr. George L. Manley"
+        }
+      ]
+    },
+    {
+      "subject": "Dr. George L. Manley",
+      "relation": "benefactor_of",
+      "object": "Manley Field House",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who was the benefactor of the building."
+        }
+      ]
+    },
+    {
+      "subject": "Dr. George L. Manley",
+      "relation": "graduate_of",
+      "object": "College of Medicine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a University trustee and graduate of the College of Medicine"
+        }
+      ]
+    },
+    {
+      "subject": "Manley Field House",
+      "relation": "built_to_replace",
+      "object": "Archbold Gymnasium",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was built to replace the old Archbold Gymnasium"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Manley Field House",
+        "opened_in",
+        "1962"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Manley Field House",
+        "held_capacity",
+        "9500"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Manley Field House",
+        "home_to",
+        "indoor track team"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Manley Field House",
+        "home_to",
+        "women's volleyball team"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Archbold Gymnasium",
+        "served_for",
+        "60 years"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Manley Field House\nManley Field House is a multi-purpose arena in Syracuse, New York. The arena opened in 1962 and at one time held 9500 people for home games. It was home to the Syracuse Orange men's and women's basketball teams, the indoor track team, and the women's volleyball team before the Carrier Dome opened in 1980. It is named for Dr. George L. Manley, a University trustee and graduate of the College of Medicine, who was the benefactor of the building. It was built to replace the old Archbold Gymnasium, which had served for almost 60 years prior."
+}

@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "Legal name": "Concept",
+    "Person": "Entity",
+    "Birth certificate": "Document",
+    "Marriage": "Event",
+    "Government issued documents": "Document",
+    "Individual": "Entity",
+    "Legal age": "Concept",
+    "European nations": "Region"
+  },
+  "triples": [
+    {
+      "subject": "Legal name",
+      "relation": "identifies",
+      "object": "Person",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Legal name is the name that identifies a person for legal, administrative and other official purposes."
+        }
+      ]
+    },
+    {
+      "subject": "Legal age",
+      "relation": "is_in",
+      "object": "European nations",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "(usually eighteen or over, though it can be as low as fourteen in several European nations)."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Person",
+        "given_name_for",
+        "Birth certificate"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Legal name",
+        "requires_use_for",
+        "Legal and administrative purposes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jurisdictions",
+        "permit_or_require_name_change_at",
+        "Marriage"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Legal name",
+        "used_on",
+        "Government issued documents"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Individual",
+        "changes_name_after",
+        "Legal age"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Legal age",
+        "is",
+        "Eighteen"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Legal age",
+        "is_as_low_as",
+        "Fourteen"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Legal name\nLegal name is the name that identifies a person for legal, administrative and other official purposes. A person's first legal name generally is the name of the person that was given for the purpose of registration of the birth and which then appears on a birth certificate (see \"birth name\"), but may change subsequently. Most jurisdictions require the use of a legal name for all legal and administrative purposes, and some jurisdictions permit or require a name change to be recorded at marriage. The legal name may need to be used on various government issued documents (e.g., a court order). The term is also used when an individual changes his/her first or full name, typically after reaching a certain legal age (usually eighteen or over, though it can be as low as fourteen in several European nations)."
+}

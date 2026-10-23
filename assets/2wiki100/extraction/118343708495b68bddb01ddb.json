@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Purnima Das Verma": "Person",
+    "Meherbhano Mohammad Ali": "Person",
+    "Emraan Hashmi": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Purnima Das Verma",
+      "relation": "born_as",
+      "object": "Meherbhano Mohammad Ali",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born Meherbhano Mohammad Ali"
+        }
+      ]
+    },
+    {
+      "subject": "Purnima Das Verma",
+      "relation": "grandmother_of",
+      "object": "Emraan Hashmi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "She is the grandmother of actor Emraan Hashmi"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Purnima Das Verma",
+        "works_in",
+        "Hindi language films"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Purnima (Hindi actress)\nPurnima Das Verma( born Meherbhano Mohammad Ali) was an Indian film actress who worked predominantly in Hindi language films. She is the grandmother of actor Emraan Hashmi."
+}

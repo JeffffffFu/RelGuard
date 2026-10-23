@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Scaregivers": "WORK_OF_ART",
+    "Filipino": "NORP",
+    "Jourdan Sebastian": "PERSON",
+    "Uro Q. dela Cruz": "PERSON",
+    "Wally Bayola": "PERSON",
+    "Jose Manalo": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Scaregivers",
+      "relation": "written_by",
+      "object": "Jourdan Sebastian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 51,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Scaregivers",
+      "relation": "directed_by",
+      "object": "Uro Q. dela Cruz",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 84,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Scaregivers",
+      "relation": "starring",
+      "object": "Wally Bayola",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 114,
+          "char_start": 126,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Scaregivers",
+      "relation": "starring",
+      "object": "Jose Manalo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 114,
+          "char_start": 126,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Scaregivers",
+        "has_nationality",
+        "Filipino"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Scaregivers\nScaregivers is a 2008 Filipino horror- comedy film written by Jourdan Sebastian and directed by Uro Q. dela Cruz, starring Wally Bayola and Jose Manalo.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Scaregivers\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Filipino\", \"type\": \"NORP\"},\n    {\"name\": \"Jourdan Sebastian\", \"type\": \"PERSON\"},\n    {\"name\": \"Uro Q. dela Cruz\", \"type\": \"PERSON\"},\n    {\"name\": \"Wally Bayola\", \"type\": \"PERSON\"},\n    {\"name\": \"Jose Manalo\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Scaregivers\",\n      \"relation\": \"written_by\",\n      \"object\": \"Jourdan Sebastian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Scaregivers\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Uro Q. dela Cruz\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Scaregivers\",\n      \"relation\": \"starring\",\n      \"object\": \"Wally Bayola\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Scaregivers\",\n      \"relation\": \"starring\",\n      \"object\": \"Jose Manalo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Scaregivers\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"Filipino\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Filipino\"}\n      ]\n    }\n  ]\n}"
+}

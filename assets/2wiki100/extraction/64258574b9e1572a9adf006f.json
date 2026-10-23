@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Blondy": "film",
+    "Sergio Gobbi": "person",
+    "Rod Taylor": "person",
+    "Bibi Andersson": "person",
+    "Catherine Jourdan": "person",
+    "Mathieu Carrière": "person",
+    "Paris": "location",
+    "September 1975": "date",
+    "1976": "year"
+  },
+  "triples": [
+    {
+      "subject": "Blondy",
+      "relation": "directed_by",
+      "object": "Sergio Gobbi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Sergio Gobbi"
+        }
+      ]
+    },
+    {
+      "subject": "Blondy",
+      "relation": "starring",
+      "object": "Rod Taylor",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Rod Taylor"
+        }
+      ]
+    },
+    {
+      "subject": "Blondy",
+      "relation": "shot_in",
+      "object": "Paris",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "shot in Paris"
+        }
+      ]
+    },
+    {
+      "subject": "Blondy",
+      "relation": "released_in",
+      "object": "1976",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a 1976 erotic thriller film"
+        }
+      ]
+    },
+    {
+      "subject": "Blondy",
+      "relation": "filming_date",
+      "object": "September 1975",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "shot in Paris in September 1975"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Blondy",
+        "starring",
+        "Bibi Andersson"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Blondy",
+        "starring",
+        "Catherine Jourdan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Blondy",
+        "starring",
+        "Mathieu Carrière"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Vortex (1976 film)\nBlondy (also known as Blondie, Germacide, and Vortex) is a 1976 erotic thriller film directed by Sergio Gobbi and starring Rod Taylor, Bibi Andersson, Catherine Jourdan, and Mathieu Carrière. It was shot in Paris in September 1975."
+}

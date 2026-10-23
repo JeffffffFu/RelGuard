@@ -1,0 +1,134 @@
+{
+  "entities": {
+    "Chief executive officer": "WORK_OF_ART",
+    "CEO": "NORP",
+    "corporation": "ORG",
+    "company": "ORG",
+    "non-profit organization": "ORG",
+    "government organizations": "ORG",
+    "Crown corporations": "ORG",
+    "board of directors": "ORG",
+    "president": "PERSON",
+    "chief executive": "PERSON",
+    "managing director": "PERSON",
+    "representative director": "PERSON",
+    "Japan": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Chief executive officer",
+        "is",
+        "position"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "CEO",
+        "is",
+        "Chief executive officer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CEOs",
+        "lead",
+        "corporation"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "CEOs",
+        "lead",
+        "company"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "CEOs",
+        "lead",
+        "non-profit organization"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "CEOs",
+        "lead",
+        "government organizations"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "government organizations",
+        "include",
+        "Crown corporations"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CEO",
+        "reports_to",
+        "board of directors"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CEO",
+        "is_charged_with",
+        "maximizing the value of the entity"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Titles also often given to the holder of CEO position",
+        "include",
+        "president"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Titles also often given to the holder of CEO position",
+        "include",
+        "chief executive"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Titles also often given to the holder of CEO position",
+        "include",
+        "managing director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Titles also often given to the holder of CEO position",
+        "include",
+        "representative director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "representative director",
+        "in",
+        "Japan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Chief executive officer\nA chief executive officer (CEO) is the position of the most senior corporate officer, executive, leader or administrator in charge of managing an organization. CEOs lead a range of organizations, including public and private corporations, non-profit organizations and even some government organizations (e.g., Crown corporations). The CEO of a corporation or company typically reports to the board of directors and is charged with maximizing the value of the entity, which may include maximizing the share price, market share, revenues, or another element. In the non-profit and government sector, CEOs typically aim at achieving outcomes related to the organization's mission, such as reducing poverty, increasing literacy, etc. Titles also often given to the holder of CEO position include president, chief executive (CE), and managing director (MD), as well as representative director (RD) in Japan.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Chief executive officer\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"CEO\", \"type\": \"NORP\"},\n    {\"name\": \"corporation\", \"type\": \"ORG\"},\n    {\"name\": \"company\", \"type\": \"ORG\"},\n    {\"name\": \"non-profit organization\", \"type\": \"ORG\"},\n    {\"name\": \"government organizations\", \"type\": \"ORG\"},\n    {\"name\": \"Crown corporations\", \"type\": \"ORG\"},\n    {\"name\": \"board of directors\", \"type\": \"ORG\"},\n    {\"name\": \"president\", \"type\": \"PERSON\"},\n    {\"name\": \"chief executive\", \"type\": \"PERSON\"},\n    {\"name\": \"managing director\", \"type\": \"PERSON\"},\n    {\"name\": \"representative director\", \"type\": \"PERSON\"},\n    {\"name\": \"Japan\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Chief executive officer\",\n      \"relation\": \"is\",\n      \"object\": \"position\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the position of\"}\n      ]\n    },\n    {\n      \"subject\": \"CEO\",\n      \"relation\": \"is\",\n      \"object\": \"Chief executive officer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the position of\"}\n      ]\n    },\n    {\n      \"subject\": \"CEOs\",\n      \"relation\": \"lead\",\n      \"object\": \"corporation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"lead a range of organizations, including\"}\n      ]\n    },\n    {\n      \"subject\": \"CEOs\",\n      \"relation\": \"lead\",\n      \"object\": \"company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"lead a range of organizations, including\"}\n      ]\n    },\n    {\n      \"subject\": \"CEOs\",\n      \"relation\": \"lead\",\n      \"object\": \"non-profit organization\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"lead a range of organizations, including\"}\n      ]\n    },\n    {\n      \"subject\": \"CEOs\",\n      \"relation\": \"lead\",\n      \"object\": \"government organizations\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"lead a range of organizations, including\"}\n      ]\n    },\n    {\n      \"subject\": \"government organizations\",\n      \"relation\": \"include\",\n      \"object\": \"Crown corporations\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"including public and private corporations, non-profit organizations and even some government organizations (e.g., Crown corporations).\"}\n      ]\n    },\n    {\n      \"subject\": \"CEO\",\n      \"relation\": \"reports_to\",\n      \"object\": \"board of directors\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"typically reports to the board of directors\"}\n      ]\n    },\n    {\n      \"subject\": \"CEO\",\n      \"relation\": \"is_charged_with\",\n      \"object\": \"maximizing the value of the entity\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and is charged with maximizing the value of the entity\"}\n      ]\n    },\n    {\n      \"subject\": \"Titles also often given to the holder of CEO position\",\n      \"relation\": \"include\",\n      \"object\": \"president\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Titles also often given to the holder of CEO position include\"}\n      ]\n    },\n    {\n      \"subject\": \"Titles also often given to the holder of CEO position\",\n      \"relation\": \"include\",\n      \"object\": \"chief executive\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Titles also often given to the holder of CEO position include\"}\n      ]\n    },\n    {\n      \"subject\": \"Titles also often given to the holder of CEO position\",\n      \"relation\": \"include\",\n      \"object\": \"managing director\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Titles also often given to the holder of CEO position include\"}\n      ]\n    },\n    {\n      \"subject\": \"Titles also often given to the holder of CEO position\",\n      \"relation\": \"include\",\n      \"object\": \"representative director\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Titles also often given to the holder of CEO position include\"}\n      ]\n    },\n    {\n      \"subject\": \"representative director\",\n      \"relation\": \"in\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as well as representative director (RD) in Japan.\"}\n      ]\n    }\n  ]\n}"
+}

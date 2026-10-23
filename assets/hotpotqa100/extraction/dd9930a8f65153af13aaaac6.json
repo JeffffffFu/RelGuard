@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Vickers Viscount": "PRODUCT",
+    "Vickers-Armstrongs": "ORG",
+    "Brabazon Committee": "ORG",
+    "turboprop engine": "PRODUCT",
+    "British": "NORP",
+    "the world": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Vickers Viscount",
+      "relation": "first_flown_by",
+      "object": "Vickers-Armstrongs",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "first flown in 1948 by",
+          "line_start": 67,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "first flown in 1948 by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vickers Viscount",
+        "was_a",
+        "British"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vickers Viscount",
+        "product_of",
+        "Brabazon Committee"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vickers Viscount",
+        "used",
+        "turboprop engine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vickers Viscount",
+        "entered_service_in",
+        "the world"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Vickers Viscount\nThe Vickers Viscount was a British medium-range turboprop airliner first flown in 1948 by Vickers-Armstrongs, the first such aircraft to enter service in the world. A product of the Brabazon Committee, it used a new form of propulsion, the turboprop engine, replacing the conventional piston engine.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Vickers Viscount\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Vickers-Armstrongs\", \"type\": \"ORG\"},\n    {\"name\": \"Brabazon Committee\", \"type\": \"ORG\"},\n    {\"name\": \"turboprop engine\", \"type\": \"PRODUCT\"},\n    {\"name\": \"British\", \"type\": \"NORP\"},\n    {\"name\": \"the world\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Vickers Viscount\",\n      \"relation\": \"first_flown_by\",\n      \"object\": \"Vickers-Armstrongs\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"first flown in 1948 by\"}\n      ]\n    },\n    {\n      \"subject\": \"Vickers Viscount\",\n      \"relation\": \"was_a\",\n      \"object\": \"British\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a British\"}\n      ]\n    },\n    {\n      \"subject\": \"Vickers Viscount\",\n      \"relation\": \"product_of\",\n      \"object\": \"Brabazon Committee\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"A product of the\"}\n      ]\n    },\n    {\n      \"subject\": \"Vickers Viscount\",\n      \"relation\": \"used\",\n      \"object\": \"turboprop engine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"it used a new form of propulsion, the turboprop engine\"}\n      ]\n    },\n    {\n      \"subject\": \"Vickers Viscount\",\n      \"relation\": \"entered_service_in\",\n      \"object\": \"the world\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to enter service in the world\"}\n      ]\n    }\n  ]\n}"
+}

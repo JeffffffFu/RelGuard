@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "Anthony McPartlin": "Person",
+    "Declan Donnelly": "Person",
+    "Ant & Dec": "Group",
+    "Newcastle upon Tyne": "Location",
+    "England": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Anthony McPartlin",
+      "relation": "part_of",
+      "object": "Ant & Dec",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "known collectively as Ant & Dec"
+        }
+      ]
+    },
+    {
+      "subject": "Declan Donnelly",
+      "relation": "part_of",
+      "object": "Ant & Dec",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "known collectively as Ant & Dec"
+        }
+      ]
+    },
+    {
+      "subject": "Ant & Dec",
+      "relation": "located_in",
+      "object": "Newcastle upon Tyne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Newcastle upon Tyne"
+        }
+      ]
+    },
+    {
+      "subject": "Ant & Dec",
+      "relation": "located_in",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Newcastle upon Tyne, England"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Anthony McPartlin",
+        "born_on",
+        "18 November 1975"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Declan Donnelly",
+        "born_on",
+        "25 September 1975"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ant &amp; Dec\nAnthony McPartlin, OBE (born 18 November 1975) and Declan Donnelly, OBE (born 25 September 1975), known collectively as Ant & Dec, are an English comedy TV presenting, television producing, acting and former music duo from Newcastle upon Tyne, England."
+}

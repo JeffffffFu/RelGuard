@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Q101 Chicago": "radio_station",
+    "WKQX 101.1": "radio_station",
+    "Chicago Matt Dubiel": "person",
+    "Mike Noonan": "person",
+    "Broadcast Barter Radio Networks": "company",
+    "Cumulus Media": "company",
+    "101WKQX": "radio_station"
+  },
+  "triples": [
+    {
+      "subject": "Q101 Chicago",
+      "relation": "continuation_of",
+      "object": "WKQX 101.1",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "\"Q101 Chicago\" is a direct continuation of the programming that was featured on terrestrial radio station WKQX 101.1 from 1992 until 2011."
+        }
+      ]
+    },
+    {
+      "subject": "Cumulus Media",
+      "relation": "owns",
+      "object": "101WKQX",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The RADIO station on FM 101.1 is owned by Cumulus Media."
+        }
+      ]
+    },
+    {
+      "subject": "101WKQX",
+      "relation": "is_called",
+      "object": "101WKQX",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "It is an alternative format and is called \"101WKQX\" and is in no way currently affiliated with the name \"Q101\"."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Q101 Chicago",
+        "is_a",
+        "radio_station"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chicago Matt Dubiel",
+        "purchased",
+        "Q101"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mike Noonan",
+        "purchased",
+        "Q101"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Broadcast Barter Radio Networks",
+        "owns",
+        "Q101"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Q101 Chicago\nQ101 Chicago is an alternative Internet radio station in the Chicago metropolitan area. \"Q101 Chicago\" is a direct continuation of the programming that was featured on terrestrial radio station WKQX 101.1 from 1992 until 2011. Following a sale of the radio station and closedown of the format on July 14, 2011, the intellectual property of \"Q101\" was purchased by Chicago Matt Dubiel and Mike Noonan under the Broadcast Barter Radio Networks banner. The company owns the name Q101, Q101.com, @Q101Chicago on all social media.The RADIO station on FM 101.1 is owned by Cumulus Media. It is an alternative format and is called \"101WKQX\" and is in no way currently affiliated with the name \"Q101\"."
+}

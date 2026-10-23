@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Unchained Memories": "documentary film",
+    "Ed Bell": "director",
+    "Thomas Lennon": "director",
+    "Federal Writers' Project": "program",
+    "WPA Slave Narrative Collection": "collection",
+    "slaves": "group",
+    "Master": "role"
+  },
+  "triples": [
+    {
+      "subject": "Unchained Memories",
+      "relation": "directed_by",
+      "object": "Ed Bell",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Ed Bell"
+        }
+      ]
+    },
+    {
+      "subject": "Unchained Memories",
+      "relation": "directed_by",
+      "object": "Thomas Lennon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Ed Bell and Thomas Lennon"
+        }
+      ]
+    },
+    {
+      "subject": "Federal Writers' Project",
+      "relation": "preserved_in",
+      "object": "WPA Slave Narrative Collection",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as part of the Federal Writers' Project and preserved in the WPA Slave Narrative Collection"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Unchained Memories",
+        "is_a",
+        "documentary film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "WPA Slave Narrative Collection",
+        "contains",
+        "slave narratives"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "slave narratives",
+        "narrated_by",
+        "actors"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "slaves",
+        "are",
+        "former slaves"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Master",
+        "had_opportunity_to",
+        "sell, trade, or kill the enslaved"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Master",
+        "should",
+        "one slave not obey"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Unchained Memories\nUnchained Memories is a 2003 documentary film about the stories of former slaves interviewed during the 1930s as part of the Federal Writers' Project and preserved in the WPA Slave Narrative Collection. This HBO film interpretation directed by Ed Bell and Thomas Lennon is a compilation of slave narratives, narrated by actors, emulating the original conversation with the interviewer. The slave narratives may be the most accurate in terms of the everyday activities of the enslaved, serving as personal memoirs of more than two thousand former slaves. The documentary depicts the emotions of the slaves and what they endured. The \"Master\" had the opportunity to sell, trade, or kill the enslaved, for retribution should one slave not obey."
+}

@@ -1,0 +1,112 @@
+{
+  "entities": {
+    "Prime Minister of Zimbabwe": "political office",
+    "Robert Mugabe": "person",
+    "United Kingdom": "country",
+    "Republic of Zimbabwe": "country",
+    "Canaan Banana": "person",
+    "Morgan Tsvangirai": "person",
+    "2013 Constitution of Zimbabwe": "legal document",
+    "2009": "year",
+    "1980": "year",
+    "1987": "year"
+  },
+  "triples": [
+    {
+      "subject": "Prime Minister of Zimbabwe",
+      "relation": "was_held_by",
+      "object": "Robert Mugabe",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The first person to hold the position was Robert Mugabe"
+        }
+      ]
+    },
+    {
+      "subject": "Robert Mugabe",
+      "relation": "held_position_from",
+      "object": "1980",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from 1980 to 1987"
+        }
+      ]
+    },
+    {
+      "subject": "Robert Mugabe",
+      "relation": "held_position_until",
+      "object": "1987",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from 1980 to 1987"
+        }
+      ]
+    },
+    {
+      "subject": "Canaan Banana",
+      "relation": "was_replaced_by",
+      "object": "Robert Mugabe",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "replacing Canaan Banana as the head of state"
+        }
+      ]
+    },
+    {
+      "subject": "Prime Minister of Zimbabwe",
+      "relation": "was_restored_in",
+      "object": "2009",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The office of Prime Minister was restored in 2009"
+        }
+      ]
+    },
+    {
+      "subject": "Morgan Tsvangirai",
+      "relation": "held_position_until",
+      "object": "2013 Constitution of Zimbabwe",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "held by Morgan Tsvangirai until the position was again abolished by the 2013 Constitution of Zimbabwe"
+        }
+      ]
+    },
+    {
+      "subject": "Prime Minister of Zimbabwe",
+      "relation": "was_abolished_by",
+      "object": "2013 Constitution of Zimbabwe",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the position was again abolished by the 2013 Constitution of Zimbabwe"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Southern Rhodesia",
+        "became",
+        "Republic of Zimbabwe"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Robert Mugabe",
+        "became",
+        "President of Zimbabwe"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Prime Minister of Zimbabwe\nThe Prime Minister of Zimbabwe was a political office in the government of Zimbabwe that existed on two separate occasions. The first person to hold the position was Robert Mugabe from 1980 to 1987 following independence from the United Kingdom. He took office when Southern Rhodesia became the Republic of Zimbabwe on 18 April 1980. This position was abolished when the constitution was amended in 1987 and Mugabe became President of Zimbabwe, replacing Canaan Banana as the head of state while also remaining the head of government. The office of Prime Minister was restored in 2009 and held by Morgan Tsvangirai until the position was again abolished by the 2013 Constitution of Zimbabwe."
+}

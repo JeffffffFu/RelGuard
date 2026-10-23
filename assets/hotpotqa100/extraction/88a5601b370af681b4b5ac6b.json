@@ -1,0 +1,121 @@
+{
+  "entities": {
+    "Toyota Hilux": "vehicle",
+    "Toyota": "manufacturer",
+    "North America": "location",
+    "SR5": "option package",
+    "Corolla": "vehicle",
+    "Toyota Trekker": "vehicle",
+    "4Runner": "vehicle",
+    "Hilux Surf": "vehicle",
+    "Tacoma": "vehicle"
+  },
+  "triples": [
+    {
+      "subject": "Toyota Hilux",
+      "relation": "produced_by",
+      "object": "Toyota",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced and marketed by the Japanese manufacturer Toyota"
+        }
+      ]
+    },
+    {
+      "subject": "SR5",
+      "relation": "used_on",
+      "object": "Corolla",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was also used on other Toyota models like the 1972 to 1979 Corolla"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Trekker",
+      "relation": "renamed_as",
+      "object": "4Runner",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was renamed as the 4Runner in Australia and North America"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Trekker",
+      "relation": "renamed_as",
+      "object": "Hilux Surf",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and as the Hilux Surf in Japan"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota",
+      "relation": "introduced",
+      "object": "Tacoma",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Toyota introduced a new pickup model, the Tacoma in North America"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Toyota Hilux",
+        "sold_as",
+        "pickup truck"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Toyota Hilux",
+        "retired_in",
+        "North America"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "SR5",
+        "used_as",
+        "model name"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tacoma",
+        "discontinued",
+        "Hilux"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "4Runner",
+        "is_now",
+        "full SUV"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "recent models",
+        "do_not_resemble",
+        "Tacoma"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Toyota Hilux\nThe Toyota Hilux (also stylized as HiLux and historically as Hi-Lux) is a series of light commercial vehicles produced and marketed by the Japanese manufacturer Toyota. The majority of these vehicles were sold as pickup truck or cab chassis variants although they could be configured in a variety of body styles. Most countries used the Hilux name for the entire life of the series but in North America, the Hilux name was retired in 1976 in favor of \"Truck\", \"Pickup Truck\", or \"Compact Truck\". In North America the popular option package, the SR5 (Sport Rally 5-Speed), was colloquially used as a model name for the truck, even though the option package was also used on other Toyota models like the 1972 to 1979 Corolla. In 1984, the Toyota Trekker, the camper version of the Hilux, was renamed as the 4Runner in Australia and North America, and as the Hilux Surf in Japan. In 1995, Toyota introduced a new pickup model, the Tacoma in North America, discontinuing the Hilux/Pickup there. The 4Runner is now a full SUV, and the more recent models do not resemble the Tacoma."
+}

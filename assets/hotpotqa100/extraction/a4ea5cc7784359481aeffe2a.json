@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Merv": "LOC",
+    "Turkmenistan": "GPE",
+    "Mary": "GPE",
+    "Achaemenid Satrapy of Margiana": "ORG",
+    "Alexandria (Margiana)": "LOC",
+    "Antiochia in Margiana": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Merv",
+      "relation": "located_in",
+      "object": "Turkmenistan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located near today's Mary in Turkmenistan"
+        }
+      ]
+    },
+    {
+      "subject": "Merv",
+      "relation": "formerly_part_of",
+      "object": "Achaemenid Satrapy of Margiana",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "formerly Achaemenid Satrapy of Margiana"
+        }
+      ]
+    },
+    {
+      "subject": "Merv",
+      "relation": "formerly_known_as",
+      "object": "Alexandria (Margiana)",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "later Alexandria (Margiana)"
+        }
+      ]
+    },
+    {
+      "subject": "Merv",
+      "relation": "located_in",
+      "object": "Mary",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located near today's Mary"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Merv",
+        "formerly_known_as",
+        "Antiochia in Margiana"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Merv\nMerv (Turkmen: Merw , \"Мерв\", مرو; Persian: مرو‎ ‎ , \"Marv\"), formerly Achaemenid Satrapy of Margiana, and later Alexandria (Margiana) (Ἀλεξάνδρεια) and Antiochia in Margiana (Greek: Ἀντιόχεια τῆς Μαργιανῆς ), was a major oasis-city in Central Asia, on the historical Silk Road, located near today's Mary in Turkmenistan."
+}

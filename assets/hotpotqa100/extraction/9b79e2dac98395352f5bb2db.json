@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Tazza": "TV series",
+    "Jang Hyuk": "Person",
+    "Han Ye-seul": "Person",
+    "Kim Min-joon": "Person",
+    "Kang Sung-yeon": "Person",
+    "Son Hyun-joo": "Person",
+    "Kim Kap-soo": "Person",
+    "SBS": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Tazza",
+      "relation": "starring",
+      "object": "Jang Hyuk",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Jang Hyuk"
+        }
+      ]
+    },
+    {
+      "subject": "Tazza",
+      "relation": "aired_on",
+      "object": "SBS",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It aired on SBS"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tazza",
+        "starring",
+        "Han Ye-seul"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tazza",
+        "starring",
+        "Kim Min-joon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tazza",
+        "starring",
+        "Kang Sung-yeon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tazza",
+        "starring",
+        "Son Hyun-joo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tazza",
+        "starring",
+        "Kim Kap-soo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tazza",
+        "aired_from",
+        "September 16, 2008"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tazza",
+        "aired_to",
+        "November 25, 2008"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tazza",
+        "has_episodes",
+        "18"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Tazza (TV series)\nTazza () is a 2008 South Korean television series starring Jang Hyuk, Han Ye-seul, Kim Min-joon, Kang Sung-yeon, Son Hyun-joo and Kim Kap-soo. It aired on SBS from September 16 to November 25, 2008 on Mondays and Tuesdays at 21:55 for 18 episodes."
+}

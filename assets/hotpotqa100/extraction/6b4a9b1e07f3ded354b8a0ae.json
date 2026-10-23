@@ -1,0 +1,134 @@
+{
+  "entities": {
+    "Seattle Seahawks": "ORG",
+    "Seattle": "GPE",
+    "Washington": "GPE",
+    "National Football League": "ORG",
+    "National Football Conference": "ORG",
+    "Paul Allen": "PERSON",
+    "Pete Carroll": "PERSON",
+    "CenturyLink Field": "FAC",
+    "Qwest Field": "FAC",
+    "downtown Seattle": "LOC",
+    "Kingdome": "FAC",
+    "Husky Stadium": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Seattle Seahawks",
+      "relation": "located_in",
+      "object": "Seattle",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 68,
+          "char_start": 85,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Seattle Seahawks",
+      "relation": "founded",
+      "object": "National Football League",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "joined the NFL in 1976",
+          "line_start": 253,
+          "char_start": 270,
+          "ambiguous": false,
+          "relation_mention": "joined the NFL in 1976",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Seattle Seahawks",
+        "located_in",
+        "Washington"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Seattle Seahawks",
+        "works_for",
+        "National Football League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Seattle Seahawks",
+        "works_for",
+        "National Football Conference"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Seattle Seahawks",
+        "owned_by",
+        "Paul Allen"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Seattle Seahawks",
+        "coached_by",
+        "Pete Carroll"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Seattle Seahawks",
+        "played_home_games_at",
+        "CenturyLink Field"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CenturyLink Field",
+        "formerly_named",
+        "Qwest Field"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CenturyLink Field",
+        "located_in",
+        "downtown Seattle"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Seattle Seahawks",
+        "played_home_games_at",
+        "Kingdome"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Seattle Seahawks",
+        "played_home_games_at",
+        "Husky Stadium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Seattle Seahawks\nThe Seattle Seahawks are a professional American football franchise based in Seattle, Washington. The Seahawks compete in the National Football League (NFL) as a member club of the league's National Football Conference (NFC) West division. The Seahawks joined the NFL in 1976 as an expansion team. The Seahawks are owned by Paul Allen and are currently coached by Pete Carroll. Since 2002, the Seahawks have played their home games at CenturyLink Field (formerly Qwest Field), located south of downtown Seattle. The Seahawks previously played home games in the Kingdome (1976–1999) and Husky Stadium (1994, 2000–2001).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Seattle Seahawks\", \"type\": \"ORG\"},\n    {\"name\": \"Seattle\", \"type\": \"GPE\"},\n    {\"name\": \"Washington\", \"type\": \"GPE\"},\n    {\"name\": \"National Football League\", \"type\": \"ORG\"},\n    {\"name\": \"National Football Conference\", \"type\": \"ORG\"},\n    {\"name\": \"Paul Allen\", \"type\": \"PERSON\"},\n    {\"name\": \"Pete Carroll\", \"type\": \"PERSON\"},\n    {\"name\": \"CenturyLink Field\", \"type\": \"FAC\"},\n    {\"name\": \"Qwest Field\", \"type\": \"FAC\"},\n    {\"name\": \"downtown Seattle\", \"type\": \"LOC\"},\n    {\"name\": \"Kingdome\", \"type\": \"FAC\"},\n    {\"name\": \"Husky Stadium\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Seattle Seahawks\",\n      \"relation\": \"located_in\",\n      \"object\": \"Seattle\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Seattle Seahawks\",\n      \"relation\": \"located_in\",\n      \"object\": \"Washington\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in Seattle, Washington\"}\n      ]\n    },\n    {\n      \"subject\": \"Seattle Seahawks\",\n      \"relation\": \"works_for\",\n      \"object\": \"National Football League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"compete in the National Football League\"}\n      ]\n    },\n    {\n      \"subject\": \"Seattle Seahawks\",\n      \"relation\": \"works_for\",\n      \"object\": \"National Football Conference\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"member club of the league's National Football Conference\"}\n      ]\n    },\n    {\n      \"subject\": \"Seattle Seahawks\",\n      \"relation\": \"founded\",\n      \"object\": \"National Football League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"joined the NFL in 1976\"}\n      ]\n    },\n    {\n      \"subject\": \"Seattle Seahawks\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Paul Allen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by Paul Allen\"}\n      ]\n    },\n    {\n      \"subject\": \"Seattle Seahawks\",\n      \"relation\": \"coached_by\",\n      \"object\": \"Pete Carroll\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"coached by Pete Carroll\"}\n      ]\n    },\n    {\n      \"subject\": \"Seattle Seahawks\",\n      \"relation\": \"played_home_games_at\",\n      \"object\": \"CenturyLink Field\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played their home games at CenturyLink Field\"}\n      ]\n    },\n    {\n      \"subject\": \"CenturyLink Field\",\n      \"relation\": \"formerly_named\",\n      \"object\": \"Qwest Field\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"formerly Qwest Field\"}\n      ]\n    },\n    {\n      \"subject\": \"CenturyLink Field\",\n      \"relation\": \"located_in\",\n      \"object\": \"downtown Seattle\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located south of downtown Seattle\"}\n      ]\n    },\n    {\n      \"subject\": \"Seattle Seahawks\",\n      \"relation\": \"played_home_games_at\",\n      \"object\": \"Kingdome\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played home games in the Kingdome\"}\n      ]\n    },\n    {\n      \"subject\": \"Seattle Seahawks\",\n      \"relation\": \"played_home_games_at\",\n      \"object\": \"Husky Stadium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played home games in the Kingdome (1976–1999) and Husky Stadium (1994, 2000–2001)\"}\n      ]\n    }\n  ]\n}"
+}

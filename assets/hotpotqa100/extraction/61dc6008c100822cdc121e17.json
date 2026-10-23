@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Anvil": "PRODUCT",
+    "USA": "GPE",
+    "UK": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Anvil",
+      "relation": "ignited_in",
+      "object": "UK",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "this is where black powder is filled onto the top of the Anvil and ignited"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Anvil",
+        "known_as",
+        "anvil launching"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anvil",
+        "known_as",
+        "anvil shooting"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anvil",
+        "filled_with",
+        "black powder"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anvil",
+        "deemed_safe_if",
+        "shatter"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Anvil firing\nAnvil firing (also known in the USA as an \"anvil launching\" or an \"anvil shooting\") in the USA is the practice of firing an anvil into the air with gunpowder. In the UK this is where black powder is filled onto the top of the Anvil and ignited. If the Anvil did not shatter it was deemed safe to use."
+}

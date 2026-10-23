@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Bill Cosby": "PERSON",
+    "San Francisco Jazz Center": "FAC",
+    "California": "GPE",
+    "Enrico Banducci": "PERSON",
+    "the hungry i": "FAC",
+    "Camille Cosby": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Bill Cosby",
+        "featured_in",
+        "Bill Cosby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bill Cosby",
+        "filmed_at",
+        "San Francisco Jazz Center"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "San Francisco Jazz Center",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bill Cosby",
+        "chose_venue_in_honor_of",
+        "Enrico Banducci"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bill Cosby",
+        "chose_venue_in_honor_of",
+        "the hungry i"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Camille Cosby",
+        "helped_with",
+        "Bill Cosby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Bill Cosby 77\nBill Cosby 77 is an unreleased 2014 stand-up comedy film featuring Bill Cosby, filmed before a live audience at the San Francisco Jazz Center in California. Cosby chose the venue in honor of his friend Enrico Banducci and his establishment the hungry i. The comedian said his wife Camille Cosby helped with the editing process of the film. At approximately 60 minutes in duration, the film features Cosby pontificating on matters of children, romance, and matrimony. The film was named in honor of the fact that it was taped on Cosby's 77th birthday on July 12, 2014.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bill Cosby\", \"type\": \"PERSON\"},\n    {\"name\": \"San Francisco Jazz Center\", \"type\": \"FAC\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"Enrico Banducci\", \"type\": \"PERSON\"},\n    {\"name\": \"the hungry i\", \"type\": \"FAC\"},\n    {\"name\": \"Camille Cosby\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bill Cosby\",\n      \"relation\": \"featured_in\",\n      \"object\": \"Bill Cosby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"featuring Bill Cosby\"}\n      ]\n    },\n    {\n      \"subject\": \"Bill Cosby\",\n      \"relation\": \"filmed_at\",\n      \"object\": \"San Francisco Jazz Center\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"filmed before a live audience at the San Francisco Jazz Center\"}\n      ]\n    },\n    {\n      \"subject\": \"San Francisco Jazz Center\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in California\"}\n      ]\n    },\n    {\n      \"subject\": \"Bill Cosby\",\n      \"relation\": \"chose_venue_in_honor_of\",\n      \"object\": \"Enrico Banducci\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in honor of his friend Enrico Banducci\"}\n      ]\n    },\n    {\n      \"subject\": \"Bill Cosby\",\n      \"relation\": \"chose_venue_in_honor_of\",\n      \"object\": \"the hungry i\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in honor of his friend Enrico Banducci and his establishment the hungry i\"}\n      ]\n    },\n    {\n      \"subject\": \"Camille Cosby\",\n      \"relation\": \"helped_with\",\n      \"object\": \"Bill Cosby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"helped with the editing process of the film\"}\n      ]\n    }\n  ]\n}"
+}

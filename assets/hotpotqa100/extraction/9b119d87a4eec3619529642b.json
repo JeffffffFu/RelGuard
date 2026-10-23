@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Barton Lynch": "Person",
+    "ASP World Tour": "Event",
+    "Rip Curl Pro": "Event",
+    "Australian Surfing Hall of Fame": "Organization",
+    "Australian Sporting Hall of Fame": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Barton Lynch",
+      "relation": "won",
+      "object": "Rip Curl Pro",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "He also won the 1991 Rip Curl Pro"
+        }
+      ]
+    },
+    {
+      "subject": "Barton Lynch",
+      "relation": "inducted_into",
+      "object": "Australian Surfing Hall of Fame",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "he was inducted into the Australian Surfing Hall of Fame"
+        }
+      ]
+    },
+    {
+      "subject": "Barton Lynch",
+      "relation": "inducted_into",
+      "object": "Australian Sporting Hall of Fame",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "he was inducted into the Australian Sporting Hall of Fame"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Barton Lynch",
+        "born_on",
+        "August 9, 1963"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Barton Lynch",
+        "known_for",
+        "competitive prowess and style"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Barton Lynch",
+        "crowned",
+        "ASP World Tour Champion"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Barton Lynch\nBarton Lynch (born August 9, 1963) is an Australian surfer known for his competitive prowess and style. In 1988, he was crowned ASP World Tour Champion. He also won the 1991 Rip Curl Pro. In 1998, he was inducted into the Australian Surfing Hall of Fame, and in 2000, he was inducted into the Australian Sporting Hall of Fame."
+}

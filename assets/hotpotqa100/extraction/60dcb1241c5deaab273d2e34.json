@@ -1,0 +1,159 @@
+{
+  "entities": {
+    "Hilal railway station": "Location",
+    "Istravoz railway station": "Location",
+    "İzmir": "Location",
+    "Turkey": "Location",
+    "Basmane": "Location",
+    "Hilal Junction": "Location",
+    "Oriental Railway Company": "Organization",
+    "Alsancak-Aydın Main Line": "Infrastructure",
+    "Smyrna Cassaba Railway": "Infrastructure",
+    "Basmane-Afyon Main Line": "Infrastructure",
+    "Republic of Turkey": "Political Entity",
+    "Hilal subway station": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Hilal railway station",
+      "relation": "formerly",
+      "object": "Istravoz railway station",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Hilal railway station formerly Istravoz railway station"
+        }
+      ]
+    },
+    {
+      "subject": "Hilal railway station",
+      "relation": "located_in",
+      "object": "İzmir",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a railway station located in İzmir"
+        }
+      ]
+    },
+    {
+      "subject": "Hilal railway station",
+      "relation": "located_next_to",
+      "object": "Basmane",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located east of Basmane"
+        }
+      ]
+    },
+    {
+      "subject": "Hilal railway station",
+      "relation": "located_next_to",
+      "object": "Hilal Junction",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "next to the famous Hilal Junction"
+        }
+      ]
+    },
+    {
+      "subject": "Oriental Railway Company",
+      "relation": "crossed_with",
+      "object": "Smyrna Cassaba Railway",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Oriental Railway Company's Alsancak-Aydın Main Line crossed with the Smyrna Cassaba Railway's Basmane-Afyon Main Line"
+        }
+      ]
+    },
+    {
+      "subject": "Hilal subway station",
+      "relation": "located_adjacent_to",
+      "object": "Hilal railway station",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Hilal subway station, which opened in 2000, is located adjacent to the railway station"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hilal railway station",
+        "located_on",
+        "Izmir-Afyon railway"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hilal railway station",
+        "famous_for",
+        "level crossing in Turkey"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hilal railway station",
+        "first_named",
+        "Istravoz railway station"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Istravoz",
+        "means",
+        "Cross in Turkish"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Republic of Turkey",
+        "formed_in",
+        "1923"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hilal railway station",
+        "name_changed_to",
+        "Hilal"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hilal railway station",
+        "population_majority",
+        "Muslim"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "electrification of the tracks around İzmir",
+        "started_in",
+        "2001"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hilal railway station",
+        "closed",
+        "N/A"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Hilal railway station\nHilal railway station formerly Istravoz railway station is a railway station located in İzmir, Turkey. It is located east of Basmane next to the famous Hilal Junction on the Izmir-Afyon railway. The station was famous for being located next to the only level crossing in Turkey. The Oriental Railway Company's Alsancak-Aydın Main Line crossed with the Smyrna Cassaba Railway's Basmane-Afyon Main Line. Due to the layout of the tracks, the station was first named \"Istravoz railway station\" in 1866. \"Istravoz\" (from Greek σταυρóς) means Cross in Turkish. After the Republic of Turkey was formed in 1923, the station's name was changed to \"Hilal\" which means 'crescent', due to the majority of the city's population being Muslim. The Hilal subway station, which opened in 2000, is located adjacent to the railway station. When the electrification of the tracks around İzmir started in 2001, the station was closed."
+}

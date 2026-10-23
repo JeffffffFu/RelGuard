@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Rosemary Lane": "album",
+    "Bert Jansch": "musician",
+    "Heather Jansch": "designer"
+  },
+  "triples": [
+    {
+      "subject": "Rosemary Lane",
+      "relation": "is_album_by",
+      "object": "Bert Jansch",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the seventh album by contemporary British folk musician Bert Jansch"
+        }
+      ]
+    },
+    {
+      "subject": "Rosemary Lane",
+      "relation": "designed_by",
+      "object": "Heather Jansch",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The sleeve was designed by Heather Jansch"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rosemary Lane",
+        "released_in",
+        "1971"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Rosemary Lane (album)\nRosemary Lane is the seventh album by contemporary British folk musician Bert Jansch, released in 1971. The sleeve was designed by Heather Jansch."
+}

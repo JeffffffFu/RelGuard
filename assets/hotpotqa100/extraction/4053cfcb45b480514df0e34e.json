@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "British Rail Mark 5": "Product",
+    "Mark 5A": "Product",
+    "Caledonian Sleeper": "Company",
+    "TransPennine Express": "Company",
+    "Great Britain": "Location"
+  },
+  "triples": [
+    {
+      "subject": "British Rail Mark 5",
+      "relation": "designated_as",
+      "object": "Mark 5A",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The British Rail Mark 5 and Mark 5A is the designation given to new locomotive hauled rail carriages"
+        }
+      ]
+    },
+    {
+      "subject": "British Rail Mark 5",
+      "relation": "built_for",
+      "object": "Caledonian Sleeper",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "being built for operation by two train operating companies in Great Britain, Caledonian Sleeper"
+        }
+      ]
+    },
+    {
+      "subject": "Caledonian Sleeper",
+      "relation": "located_in",
+      "object": "Great Britain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "being built for operation by two train operating companies in Great Britain, Caledonian Sleeper"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "British Rail Mark 5",
+        "built_for",
+        "TransPennine Express"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "TransPennine Express",
+        "located_in",
+        "Great Britain"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "British Rail Mark 5 (CAF)\nThe British Rail Mark 5 and Mark 5A is the designation given to new locomotive hauled rail carriages being built for operation by two train operating companies in Great Britain, Caledonian Sleeper and TransPennine Express"
+}

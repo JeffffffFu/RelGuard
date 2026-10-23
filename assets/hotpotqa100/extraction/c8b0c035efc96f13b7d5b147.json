@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Wilton": "GPE",
+    "Maine": "GPE",
+    "Franklin County": "GPE",
+    "United States": "GPE",
+    "Wilson Pond": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Wilton",
+      "relation": "situated_beside",
+      "object": "Wilson Pond",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Situated beside",
+          "line_start": 104,
+          "char_start": 118,
+          "ambiguous": false,
+          "relation_mention": "Situated beside",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wilton",
+        "located_in",
+        "Franklin County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wilton",
+        "located_in",
+        "Maine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wilton",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Wilton, Maine\nWilton is a town in Franklin County, Maine, United States. The population was 4,116 at the 2010 census. Situated beside Wilson Pond, the former mill town is today primarily a recreation area."
+}

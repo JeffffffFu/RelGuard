@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "Alumni Field": "FAC",
+    "Keene": "GPE",
+    "New Hampshire": "GPE",
+    "United States": "GPE",
+    "Arch Street": "LOC",
+    "Keene Swamp Bats": "ORG",
+    "New England Collegiate Baseball League": "ORG",
+    "Keene High School": "ORG",
+    "Alumni Association": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Alumni Field",
+      "relation": "located_in",
+      "object": "Keene",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 33,
+          "char_start": 54,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Alumni Field",
+      "relation": "located_in",
+      "object": "New Hampshire",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 33,
+          "char_start": 54,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Alumni Field",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 33,
+          "char_start": 54,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Alumni Field",
+      "relation": "located_in",
+      "object": "Arch Street",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located on",
+          "line_start": 92,
+          "char_start": 113,
+          "ambiguous": false,
+          "relation_mention": "located on",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Alumni Field",
+      "relation": "served_as_home_of",
+      "object": "Keene Swamp Bats",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has served as the home of",
+          "line_start": 144,
+          "char_start": 165,
+          "ambiguous": false,
+          "relation_mention": "has served as the home of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Alumni Field",
+      "relation": "owned_by",
+      "object": "Alumni Association",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is owned by",
+          "line_start": 336,
+          "char_start": 357,
+          "ambiguous": false,
+          "relation_mention": "is owned by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Keene Swamp Bats",
+        "plays_in",
+        "New England Collegiate Baseball League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alumni Field",
+        "part_of",
+        "Keene High School"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Keene High School",
+        "uses",
+        "Alumni Field"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Alumni Field (Keene)\nAlumni Field is a baseball field located in Keene, New Hampshire, United States. The field, located on Arch Street, was constructed in 1948 and has served as the home of the Keene Swamp Bats of the New England Collegiate Baseball League since the 1997 NECBL season. The field is part of the athletic facilities at Keene High School and is owned by the Alumni Association. The football, soccer, and track & field teams of Keene High School also use the facility. It holds a capacity of approximately 4,100 fans.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Alumni Field\", \"type\": \"FAC\"},\n    {\"name\": \"Keene\", \"type\": \"GPE\"},\n    {\"name\": \"New Hampshire\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Arch Street\", \"type\": \"LOC\"},\n    {\"name\": \"Keene Swamp Bats\", \"type\": \"ORG\"},\n    {\"name\": \"New England Collegiate Baseball League\", \"type\": \"ORG\"},\n    {\"name\": \"Keene High School\", \"type\": \"ORG\"},\n    {\"name\": \"Alumni Association\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Alumni Field\",\n      \"relation\": \"located_in\",\n      \"object\": \"Keene\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Alumni Field\",\n      \"relation\": \"located_in\",\n      \"object\": \"New Hampshire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Alumni Field\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Alumni Field\",\n      \"relation\": \"located_in\",\n      \"object\": \"Arch Street\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located on\"}\n      ]\n    },\n    {\n      \"subject\": \"Alumni Field\",\n      \"relation\": \"served_as_home_of\",\n      \"object\": \"Keene Swamp Bats\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has served as the home of\"}\n      ]\n    },\n    {\n      \"subject\": \"Keene Swamp Bats\",\n      \"relation\": \"plays_in\",\n      \"object\": \"New England Collegiate Baseball League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the New England Collegiate Baseball League\"}\n      ]\n    },\n    {\n      \"subject\": \"Alumni Field\",\n      \"relation\": \"part_of\",\n      \"object\": \"Keene High School\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is part of\"}\n      ]\n    },\n    {\n      \"subject\": \"Alumni Field\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Alumni Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"Keene High School\",\n      \"relation\": \"uses\",\n      \"object\": \"Alumni Field\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"use the facility\"}\n      ]\n    }\n  ]\n}"
+}

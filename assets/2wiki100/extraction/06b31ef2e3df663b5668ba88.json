@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Yuliya Baraley": "PERSON",
+    "World Youth Championships": "EVENT",
+    "World Junior Championships": "EVENT",
+    "European Junior Championships": "EVENT",
+    "World Championships": "EVENT",
+    "Yalta": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Yuliya Baraley",
+      "relation": "won",
+      "object": "World Youth Championships",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "won the gold medal at the 2007 World Youth Championships"
+        }
+      ]
+    },
+    {
+      "subject": "Yuliya Baraley",
+      "relation": "finished",
+      "object": "World Junior Championships",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "finished fifth at the 2008 World Junior Championships"
+        }
+      ]
+    },
+    {
+      "subject": "Yuliya Baraley",
+      "relation": "won",
+      "object": "European Junior Championships",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "won two gold medals at the 2009 European Junior Championships"
+        }
+      ]
+    },
+    {
+      "subject": "Yuliya Baraley",
+      "relation": "competed_in",
+      "object": "World Championships",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "competed in the 4 x 400 metres relay at the 2009 World Championships"
+        }
+      ]
+    },
+    {
+      "subject": "Yuliya Baraley",
+      "relation": "achieved_best_time_in",
+      "object": "Yalta",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "achieved in June 2008 in Yalta"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Ukraine (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Yuliya Baraley",
+        "born_in",
+        "Ukraine"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Yuliya Baraley\nYuliya Baraley( born 25 April 1990) is a Ukrainian sprinter who specializes in the 400 metres. She won the gold medal at the 2007 World Youth Championships, finished fifth at the 2008 World Junior Championships, and won two gold medals at the 2009 European Junior Championships. She also competed in the 4 x 400 metres relay at the 2009 World Championships. Her personal best time is 52.40 seconds, achieved in June 2008 in Yalta."
+}

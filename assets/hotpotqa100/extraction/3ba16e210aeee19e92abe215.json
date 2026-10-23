@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Prince Motor Company": "Company",
+    "Nissan": "Company",
+    "Tachikawa Aircraft Company": "Company",
+    "Fuji Precision Industries": "Company",
+    "Prince Akihito": "Person",
+    "Tama": "Product"
+  },
+  "triples": [
+    {
+      "subject": "Prince Motor Company",
+      "relation": "merged_with",
+      "object": "Nissan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "its merger with Nissan in 1966"
+        }
+      ]
+    },
+    {
+      "subject": "Fuji Precision Industries",
+      "relation": "changed_name_to",
+      "object": "Prince Motor Company",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "changed the name back again to Prince Motor Company"
+        }
+      ]
+    },
+    {
+      "subject": "Prince Motor Company",
+      "relation": "changed_name_to",
+      "object": "Fuji Precision Industries",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "changed their name back to Fuji Precision Industries"
+        }
+      ]
+    },
+    {
+      "subject": "Prince Motor Company",
+      "relation": "produced",
+      "object": "Tama",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "producing an electric car, the Tama, in 1946"
+        }
+      ]
+    },
+    {
+      "subject": "Prince Motor Company",
+      "relation": "part_of",
+      "object": "Nissan",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "they became part of Nissan"
+        }
+      ]
+    },
+    {
+      "subject": "Prince Motor Company",
+      "relation": "remained_in_existence_inside",
+      "object": "Nissan",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "the Prince organization remained in existence inside Nissan"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Prince Motor Company",
+        "founded",
+        "1952"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tachikawa Aircraft Company",
+        "dissolved",
+        "after the war"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tachikawa Aircraft Company",
+        "produced",
+        "airplanes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nissan",
+        "consolidated",
+        "Prince dealership network"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Prince Motor Company\nThe Prince Motor Company was a Japanese automobile manufacturer from 1952 until its merger with Nissan in 1966. Prince began as the Tachikawa Aircraft Company, a manufacturer of various airplanes for the Japanese Army in World War II, e.g., the Ki-36, Ki-55 and Ki-74. Tachikawa Aircraft Company was dissolved after the war and the company took the name Fuji Precision Industries. It diversified into automobiles, producing an electric car, the Tama, in 1946, named for the region the company originated in, Tama, using the Ohta series PC/PD platform. The company changed its name to Prince in 1952 to honor Prince Akihito's formal investiture as Crown Prince. In 1954 they changed their name back to Fuji Precision Industries, and in 1961 changed the name back again to Prince Motor Company. In 1966, they became part of Nissan, while the Prince organization remained in existence inside Nissan, as \"Nissan Prince Store\" in Japan until Nissan consolidated the Prince dealership network into \"Nissan Blue Stage\" in 1999."
+}

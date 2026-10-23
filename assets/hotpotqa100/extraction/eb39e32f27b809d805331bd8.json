@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Wau State": "Geopolitical Entity",
+    "South Sudan": "Geopolitical Entity",
+    "Bahr el Ghazal": "Geopolitical Entity",
+    "Wau": "City",
+    "Sudan": "Geopolitical Entity",
+    "Central African Republic": "Geopolitical Entity",
+    "Raga County": "Geopolitical Entity",
+    "Dar Fertit": "Geopolitical Entity"
+  },
+  "triples": [
+    {
+      "subject": "Wau State",
+      "relation": "located_in",
+      "object": "South Sudan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Wau State was one of the 28 states of South Sudan."
+        }
+      ]
+    },
+    {
+      "subject": "Wau State",
+      "relation": "least_populous_state_in",
+      "object": "South Sudan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was the least populous state in South Sudan"
+        }
+      ]
+    },
+    {
+      "subject": "Wau State",
+      "relation": "part_of",
+      "object": "Bahr el Ghazal",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "It was part of the Bahr el Ghazal region."
+        }
+      ]
+    },
+    {
+      "subject": "Wau State",
+      "relation": "has_capital",
+      "object": "Wau",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Its capital was Wau."
+        }
+      ]
+    },
+    {
+      "subject": "Wau State",
+      "relation": "shares_international_borders_with",
+      "object": "Sudan",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "The state shared international borders with Sudan to the north"
+        }
+      ]
+    },
+    {
+      "subject": "Wau State",
+      "relation": "shares_international_borders_with",
+      "object": "Central African Republic",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "and the Central African Republic to the west."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wau State",
+        "has_area",
+        "93900 km2"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Raga County",
+        "is_part_of",
+        "Dar Fertit"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Western Bahr el Ghazal\nWau State was one of the 28 states of South Sudan. It had an area of 93900 km2 and was the least populous state in South Sudan, according to the controversial Sudanese census conducted in 2008. It was part of the Bahr el Ghazal region. Its capital was Wau. The state shared international borders with Sudan to the north and the Central African Republic to the west. The portion now occupied by Raga County (pronounced 'Raja') is the southern part of the historical region known as \"Dar Fertit\"."
+}

@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Emphatic Diaglott": "Book",
+    "Benjamin Wilson": "Person",
+    "New Testament": "Text",
+    "Vatican Manuscript": "Manuscript"
+  },
+  "triples": [
+    {
+      "subject": "Emphatic Diaglott",
+      "relation": "translated_by",
+      "object": "Benjamin Wilson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Benjamin Wilson"
+        }
+      ]
+    },
+    {
+      "subject": "Emphatic Diaglott",
+      "relation": "based_on",
+      "object": "Vatican Manuscript",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "various readings of the Vatican Manuscript"
+        }
+      ]
+    },
+    {
+      "subject": "Emphatic Diaglott",
+      "relation": "contains",
+      "object": "New Testament",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "translation, of the New Testament"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Emphatic Diaglott",
+        "published_in",
+        "1864"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Emphatic Diaglott\nThe Emphatic Diaglott is a diaglot, or two-language polyglot translation, of the New Testament by Benjamin Wilson, first published in 1864. It is an interlinear translation with the original Greek text and a word-for-word English translation in the left column, and a full English translation in the right column. It is based on the interlinear translation, the renderings of eminent critics, and various readings of the Vatican Manuscript. It includes illustrative and explanatory footnotes, references, and an alphabetical appendix."
+}

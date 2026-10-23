@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "The Whisperers": "Film",
+    "Bryan Forbes": "Person",
+    "Edith Evans": "Person",
+    "Robert Nicolson": "Person",
+    "Oldham": "Location",
+    "Manchester": "Location"
+  },
+  "triples": [
+    {
+      "subject": "The Whisperers",
+      "relation": "directed_by",
+      "object": "Bryan Forbes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Bryan Forbes"
+        }
+      ]
+    },
+    {
+      "subject": "The Whisperers",
+      "relation": "starring",
+      "object": "Edith Evans",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Edith Evans"
+        }
+      ]
+    },
+    {
+      "subject": "The Whisperers",
+      "relation": "based_on",
+      "object": "Robert Nicolson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on the 1961 novel by Robert Nicolson"
+        }
+      ]
+    },
+    {
+      "subject": "The Whisperers",
+      "relation": "shot_in",
+      "object": "Oldham",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "shot on location in the Lancashire town of Oldham"
+        }
+      ]
+    },
+    {
+      "subject": "Oldham",
+      "relation": "located_near",
+      "object": "Manchester",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "near Manchester"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Edith Evans",
+        "received_honors",
+        "Oscar nomination"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Whisperers\nThe Whisperers is a 1967 British drama film directed by Bryan Forbes and starring Edith Evans. It is based on the 1961 novel by Robert Nicolson. Although the fictional setting of the film is not named, it was mainly shot on location in the Lancashire town of Oldham, a once- thriving textile centre near Manchester which by 1967 had fallen into decline. Star Edith Evans received many honors for her leading performance, including her third Oscar nomination."
+}

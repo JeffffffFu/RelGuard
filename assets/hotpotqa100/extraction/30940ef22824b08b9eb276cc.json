@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Trilochanpala": "Person",
+    "Anandapala": "Person",
+    "Kabul Shahis": "Dynasty"
+  },
+  "triples": [
+    {
+      "subject": "Trilochanpala",
+      "relation": "son_of",
+      "object": "Anandapala",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the son of Anandapala"
+        }
+      ]
+    },
+    {
+      "subject": "Trilochanpala",
+      "relation": "last_king_of",
+      "object": "Kabul Shahis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the last king of the Kabul Shahis"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Trilochanpala",
+        "assassinated_by",
+        "his own troops"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Trilochanpala",
+        "assassination_year",
+        "1021 A.D."
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Trilochanapala\nTrilochanpala was the son of Anandapala and was the last king of the Kabul Shahis. He was assassinated by his own troops at the year of 1021 A.D."
+}

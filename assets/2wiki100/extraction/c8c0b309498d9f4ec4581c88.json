@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Charles Maigne": "Person",
+    "Richmond, Virginia": "Location",
+    "San Francisco, California": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Charles Maigne",
+      "relation": "born_in",
+      "object": "Richmond, Virginia",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "He was born in Richmond, Virginia"
+        }
+      ]
+    },
+    {
+      "subject": "Charles Maigne",
+      "relation": "died_in",
+      "object": "San Francisco, California",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "died in San Francisco, California"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Charles Maigne",
+        "wrote_for",
+        "32 films"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Charles Maigne",
+        "directed",
+        "18 films"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Charles Maigne\nCharles Maigne (November 11, 1879 – November 28, 1929) was an American screenwriter and film director of the silent era. He wrote for 32 films between 1916 and 1928. He also directed 18 films between 1918 and 1923. He was born in Richmond, Virginia and died in San Francisco, California."
+}

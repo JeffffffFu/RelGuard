@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "Boulevard Solitude": "work",
+    "Hans Werner Henze": "person",
+    "Grete Weil": "person",
+    "Walter Jockisch": "person",
+    "François Prévost": "person",
+    "Manon Lescaut": "work",
+    "Auber": "person",
+    "Massenet": "person",
+    "Puccini": "person",
+    "Paris": "location",
+    "Second World War": "event",
+    "Armand des Grieux": "person",
+    "Grove": "work"
+  },
+  "triples": [
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "composed_by",
+      "object": "Hans Werner Henze",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Hans Werner Henze"
+        }
+      ]
+    },
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "libretto_by",
+      "object": "Grete Weil",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to a German libretto by Grete Weil"
+        }
+      ]
+    },
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "based_on",
+      "object": "Walter Jockisch",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "after the play by Walter Jockisch"
+        }
+      ]
+    },
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "retelling_of",
+      "object": "Manon Lescaut",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a modern retelling of François Prévost's \"Manon Lescaut\""
+        }
+      ]
+    },
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "relocated_to",
+      "object": "Paris",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "here relocated to Paris after the Second World War"
+        }
+      ]
+    },
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "focus_on",
+      "object": "Armand des Grieux",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the focus of the story moves away from Manon and towards Armand des Grieux"
+        }
+      ]
+    },
+    {
+      "subject": "Boulevard Solitude",
+      "relation": "is_first_opera_of",
+      "object": "Hans Werner Henze",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It became Henze’s first fully-fledged opera"
+        }
+      ]
+    },
+    {
+      "subject": "Manon Lescaut",
+      "relation": "adapted_by",
+      "object": "Auber",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "already adapted operatically by Auber"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Boulevard Solitude",
+        "is_a",
+        "work"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hans Werner Henze",
+        "associated_with",
+        "twelve tone technique"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Manon Lescaut",
+        "adapted_by",
+        "Massenet"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Manon Lescaut",
+        "adapted_by",
+        "Puccini"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Boulevard Solitude\nBoulevard Solitude is a \"Lyrisches Drama \" (lyric drama) or opera in one act by Hans Werner Henze to a German libretto by Grete Weil after the play by Walter Jockisch, in its turn a modern retelling of François Prévost's \"Manon Lescaut\". The piece is a reworking of the Manon Lescaut story, already adapted operatically by Auber, Massenet and Puccini, and here relocated to Paris after the Second World War where, as is noted in Grove, the focus of the story moves away from Manon and towards Armand des Grieux. It became Henze’s first fully-fledged opera. The work stands out for its strong jazz influences, from a composer who had hitherto been associated with twelve tone technique."
+}

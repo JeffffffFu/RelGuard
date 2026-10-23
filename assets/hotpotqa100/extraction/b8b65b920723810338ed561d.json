@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Marie Bonfanti": "PERSON",
+    "New York City": "GPE",
+    "Niblo's Garden": "FAC",
+    "The Black Crook": "WORK_OF_ART",
+    "Sylvia": "WORK_OF_ART",
+    "Léo Delibes": "PERSON",
+    "Metropolitan Alcazar concert hall": "FAC",
+    "Rita Sangalli": "PERSON",
+    "Metropolitan Opera House": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Marie Bonfanti",
+      "relation": "had_premiere_at",
+      "object": "Niblo's Garden",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "première came at",
+          "line_start": 80,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "première came at",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Marie Bonfanti",
+      "relation": "appeared_in",
+      "object": "Sylvia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "appeared in",
+          "line_start": 254,
+          "char_start": 269,
+          "ambiguous": false,
+          "relation_mention": "appeared in",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marie Bonfanti",
+        "was_prima_ballerina_in",
+        "The Black Crook"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Black Crook",
+        "premiered_at",
+        "Niblo's Garden"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sylvia",
+        "was_by",
+        "Léo Delibes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marie Bonfanti",
+        "appeared_at",
+        "Metropolitan Alcazar concert hall"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marie Bonfanti",
+        "performed_with",
+        "Rita Sangalli"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marie Bonfanti",
+        "performed_at",
+        "Metropolitan Opera House"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Metropolitan Opera House",
+        "located_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Marie Bonfanti\nMarie Bonfanti (1845-1921) was a 19th-century ballet dancer whose New York City première came at Niblo's Garden on Monday, September 10, 1866. She then was the prima ballerina in \"The Black Crook\" at the same theatre, which premièred two days later. She appeared in \"Sylvia\" by Léo Delibes at the Metropolitan Alcazar concert hall on July 15, 1882. In August 1901, Bonfanti performed with Rita Sangalli at the Metropolitan Opera House, during the inaugural season of ballet at the New York City venue. Her talent for expressionist dancing and her private life were covered widely from the mid-1860s until the early 20th century.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Marie Bonfanti\", \"type\": \"PERSON\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"Niblo's Garden\", \"type\": \"FAC\"},\n    {\"name\": \"The Black Crook\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Sylvia\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Léo Delibes\", \"type\": \"PERSON\"},\n    {\"name\": \"Metropolitan Alcazar concert hall\", \"type\": \"FAC\"},\n    {\"name\": \"Rita Sangalli\", \"type\": \"PERSON\"},\n    {\"name\": \"Metropolitan Opera House\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Marie Bonfanti\",\n      \"relation\": \"had_premiere_at\",\n      \"object\": \"Niblo's Garden\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"première came at\"}\n      ]\n    },\n    {\n      \"subject\": \"Marie Bonfanti\",\n      \"relation\": \"was_prima_ballerina_in\",\n      \"object\": \"The Black Crook\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the prima ballerina in\"}\n      ]\n    },\n    {\n      \"subject\": \"The Black Crook\",\n      \"relation\": \"premiered_at\",\n      \"object\": \"Niblo's Garden\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the same theatre, which premièred\"}\n      ]\n    },\n    {\n      \"subject\": \"Marie Bonfanti\",\n      \"relation\": \"appeared_in\",\n      \"object\": \"Sylvia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"appeared in\"}\n      ]\n    },\n    {\n      \"subject\": \"Sylvia\",\n      \"relation\": \"was_by\",\n      \"object\": \"Léo Delibes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by Léo Delibes\"}\n      ]\n    },\n    {\n      \"subject\": \"Marie Bonfanti\",\n      \"relation\": \"appeared_at\",\n      \"object\": \"Metropolitan Alcazar concert hall\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the Metropolitan Alcazar concert hall\"}\n      ]\n    },\n    {\n      \"subject\": \"Marie Bonfanti\",\n      \"relation\": \"performed_with\",\n      \"object\": \"Rita Sangalli\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"performed with Rita Sangalli\"}\n      ]\n    },\n    {\n      \"subject\": \"Marie Bonfanti\",\n      \"relation\": \"performed_at\",\n      \"object\": \"Metropolitan Opera House\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the Metropolitan Opera House\"}\n      ]\n    },\n    {\n      \"subject\": \"Metropolitan Opera House\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the New York City venue\"}\n      ]\n    }\n  ]\n}"
+}

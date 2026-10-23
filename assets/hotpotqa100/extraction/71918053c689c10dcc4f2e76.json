@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Farallon Islands": "Location",
+    "Gulf of the Farallones": "Location",
+    "San Francisco": "Location",
+    "California": "Location",
+    "United States": "Location",
+    "Devil's Teeth Islands": "Alias",
+    "Golden Gate": "Location",
+    "Point Reyes": "Location",
+    "City and County of San Francisco": "Organization",
+    "Southeast Farallon Island": "Location",
+    "Point Blue Conservation Science": "Organization",
+    "U.S. Fish and Wildlife Service": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Farallon Islands",
+      "relation": "located_in",
+      "object": "Gulf of the Farallones",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "are a group of islands and sea stacks in the Gulf of the Farallones"
+        }
+      ]
+    },
+    {
+      "subject": "Farallon Islands",
+      "relation": "located_in",
+      "object": "San Francisco",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "off the coast of San Francisco"
+        }
+      ]
+    },
+    {
+      "subject": "Farallon Islands",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "off the coast of San Francisco, California"
+        }
+      ]
+    },
+    {
+      "subject": "Farallon Islands",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "off the coast of San Francisco, California, United States"
+        }
+      ]
+    },
+    {
+      "subject": "Farallon Islands",
+      "relation": "part_of",
+      "object": "City and County of San Francisco",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "are officially part of the City and County of San Francisco"
+        }
+      ]
+    },
+    {
+      "subject": "Southeast Farallon Island",
+      "relation": "inhabited_by",
+      "object": "U.S. Fish and Wildlife Service",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "where researchers from Point Blue Conservation Science and the U.S. Fish and Wildlife Service stay"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Farallon Islands",
+        "also_known_as",
+        "Devil's Teeth Islands"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Southeast Farallon Island",
+        "inhabited_by",
+        "Point Blue Conservation Science"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Farallon Islands\nThe Farallon Islands, or Farallones (from the Spanish \"farallón\" meaning \"pillar\" or \"sea cliff\"), are a group of islands and sea stacks in the Gulf of the Farallones, off the coast of San Francisco, California, United States. The islands are also sometimes referred to by mariners as the \"Devil's Teeth Islands,\" in reference to the many treacherous underwater shoals in their vicinity. The islands lie 30 mi outside the Golden Gate and 20 mi south of Point Reyes, and are visible from the mainland on clear days. The islands are officially part of the City and County of San Francisco. The only inhabited portion of the islands is on Southeast Farallon Island (SEFI), where researchers from Point Blue Conservation Science and the U.S. Fish and Wildlife Service stay. The islands are closed to the public."
+}

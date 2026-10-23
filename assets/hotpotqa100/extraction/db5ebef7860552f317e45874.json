@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Halifax County High School": "ORG",
+    "South Boston": "GPE",
+    "Virginia": "GPE",
+    "United States": "GPE",
+    "Halifax County Middle School": "ORG",
+    "Halifax County Public Schools": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Halifax County High School",
+      "relation": "located_in",
+      "object": "South Boston",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 51,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "South Boston",
+      "relation": "located_in",
+      "object": "Virginia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 51,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Virginia",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Halifax County High School",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Halifax County High School",
+        "located_in",
+        "Halifax County Middle School"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Halifax County High School",
+        "works_for",
+        "Halifax County Public Schools"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Halifax County High School\nHalifax County High School is a public high school located in South Boston, Virginia, United States. It is located less than 2 mi from Halifax County Middle School. Having 1,793 students currently enrolled in the 2012–13 school year, there are 118 faculty members with a 15.1 student/teacher ratio. At Halifax County High, students have the opportunity to take Advanced Placement course work and testing. Halifax county high school is equipped with two football fields, one soccer field, one field for baseball, and a basketball arena. Halifax County high school currently runs on the semester system. The student body makeup is 49 percent male and 51 percent female, and the total minority enrollment is 51 percent. Halifax County High is the only high school in the Halifax County Public Schools. Halifax County High School has an 82.2 percent on-time graduation rate and a 2.1 percent drop out rate.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Halifax County High School\", \"type\": \"ORG\"},\n    {\"name\": \"South Boston\", \"type\": \"GPE\"},\n    {\"name\": \"Virginia\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Halifax County Middle School\", \"type\": \"ORG\"},\n    {\"name\": \"Halifax County Public Schools\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Halifax County High School\",\n      \"relation\": \"located_in\",\n      \"object\": \"South Boston\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"South Boston\",\n      \"relation\": \"located_in\",\n      \"object\": \"Virginia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Virginia\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Halifax County High School\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Halifax County High School\",\n      \"relation\": \"located_in\",\n      \"object\": \"Halifax County Middle School\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"less than 2 mi from\"}\n      ]\n    },\n    {\n      \"subject\": \"Halifax County High School\",\n      \"relation\": \"works_for\",\n      \"object\": \"Halifax County Public Schools\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Halifax County Public Schools\"}\n      ]\n    }\n  ]\n}"
+}

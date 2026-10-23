@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Revenge of the Creature": "film",
+    "Return of the Creature": "film",
+    "Return of the Creature from the Black Lagoon": "film",
+    "Creature from the Black Lagoon": "film",
+    "Jack Arnold": "person",
+    "John Agar": "person",
+    "Lori Nelson": "person",
+    "Clint Eastwood": "person"
+  },
+  "triples": [
+    {
+      "subject": "Revenge of the Creature",
+      "relation": "also_known_as",
+      "object": "Return of the Creature",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "(also known as Return of the Creature"
+        }
+      ]
+    },
+    {
+      "subject": "Revenge of the Creature",
+      "relation": "also_known_as",
+      "object": "Return of the Creature from the Black Lagoon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and Return of the Creature from the Black Lagoon)"
+        }
+      ]
+    },
+    {
+      "subject": "Revenge of the Creature",
+      "relation": "is_sequel_to",
+      "object": "Creature from the Black Lagoon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the first sequel to \"Creature from the Black Lagoon\""
+        }
+      ]
+    },
+    {
+      "subject": "Revenge of the Creature",
+      "relation": "directed_by",
+      "object": "Jack Arnold",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Directed by Jack Arnold"
+        }
+      ]
+    },
+    {
+      "subject": "Revenge of the Creature",
+      "relation": "stars",
+      "object": "John Agar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the film stars John Agar"
+        }
+      ]
+    },
+    {
+      "subject": "Clint Eastwood",
+      "relation": "film_debut_in",
+      "object": "Revenge of the Creature",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "This was Clint Eastwood's film debut."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Revenge of the Creature",
+        "released_in",
+        "1955"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Revenge of the Creature",
+        "is_only_3D_sequel_to",
+        "3-D film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Revenge of the Creature",
+        "stars",
+        "Lori Nelson"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Revenge of the Creature\nRevenge of the Creature (also known as Return of the Creature and Return of the Creature from the Black Lagoon) is the first sequel to \"Creature from the Black Lagoon\", being the only 3-D film released in 1955 and the only 3-D sequel to a 3-D film released during \"the golden age of 3-D\". Directed by Jack Arnold, the film stars John Agar and Lori Nelson. This was Clint Eastwood's film debut."
+}

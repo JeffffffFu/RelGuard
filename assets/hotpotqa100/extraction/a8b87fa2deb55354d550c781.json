@@ -1,0 +1,202 @@
+{
+  "entities": {
+    "Midnite Movies": "WORK_OF_ART",
+    "MGM Home Entertainment": "ORG",
+    "MGM": "ORG",
+    "Orion Pictures": "ORG",
+    "Filmways": "ORG",
+    "American International Pictures": "ORG",
+    "AIP": "ORG",
+    "Roger Corman": "PERSON",
+    "Vincent Price": "PERSON",
+    "Hammer Film Productions": "ORG",
+    "Amicus Productions": "ORG",
+    "United Artists": "ORG",
+    "Empire International Pictures": "ORG",
+    "Sony Pictures Home Entertainment": "ORG",
+    "20th Century Fox Home Entertainment": "ORG",
+    "20th Century Fox": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Midnite Movies",
+      "relation": "founded_by",
+      "object": "MGM",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was begun by",
+          "line_start": 112,
+          "char_start": 127,
+          "ambiguous": false,
+          "relation_mention": "was begun by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Orion Pictures",
+      "relation": "bought_out",
+      "object": "Filmways",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "bought out",
+          "line_start": 194,
+          "char_start": 209,
+          "ambiguous": false,
+          "relation_mention": "bought out",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Midnite Movies",
+      "relation": "derived_from",
+      "object": "AIP",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is primarily derived from",
+          "line_start": 407,
+          "char_start": 422,
+          "ambiguous": false,
+          "relation_mention": "is primarily derived from",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Midnite Movies",
+      "relation": "included",
+      "object": "Hammer Film Productions",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "included",
+          "line_start": 527,
+          "char_start": 542,
+          "ambiguous": false,
+          "relation_mention": "included",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Midnite Movies",
+      "relation": "included",
+      "object": "Amicus Productions",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "included",
+          "line_start": 527,
+          "char_start": 542,
+          "ambiguous": false,
+          "relation_mention": "included",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Midnite Movies",
+      "relation": "included",
+      "object": "United Artists",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "included",
+          "line_start": 527,
+          "char_start": 542,
+          "ambiguous": false,
+          "relation_mention": "included",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Midnite Movies",
+      "relation": "included",
+      "object": "Empire International Pictures",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "included",
+          "line_start": 527,
+          "char_start": 542,
+          "ambiguous": false,
+          "relation_mention": "included",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Midnite Movies",
+        "works_for",
+        "MGM Home Entertainment"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "MGM",
+        "acquired",
+        "Orion Pictures"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Filmways",
+        "owned",
+        "American International Pictures"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "AIP",
+        "had_library_of",
+        "Midnite Movies"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sony Pictures Home Entertainment",
+        "became_owner_of",
+        "MGM library"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sony Pictures Home Entertainment",
+        "continued",
+        "Midnite Movies"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sony Pictures Home Entertainment",
+        "worked_with",
+        "20th Century Fox Home Entertainment"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "All double feature titles released on the 20th Century Fox label",
+        "were",
+        "two-disc packages"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Midnite Movies\nMidnite Movies is a line of B movies released first on VHS and later on DVD by MGM Home Entertainment. The line was begun by MGM in March 2001 following its acquisition of Orion Pictures, which bought out Filmways, the owner of American International Pictures. AIP had a library of B movies from the 1950s and 1960s that were science fiction, horror, and exploitation films. The \"Midnite Movies\" collection is primarily derived from the AIP library (including most of Roger Corman's and Vincent Price's horror movies) but also included Hammer Film Productions, Amicus Productions, United Artists, and Empire International Pictures movies as well. The DVDs were first released as single films but most later releases would be double features on single double-sided discs. Sony Pictures Home Entertainment later became owners of the MGM library and continued the \"Midnite Movies\" line with distributor 20th Century Fox Home Entertainment. All double feature titles released on the 20th Century Fox label were two-disc packages. By 2011, no new titles were forthcoming; the previous catalog titles slowly went out of print and the \"Midnite Movies\" website was taken down.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Midnite Movies\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"MGM Home Entertainment\", \"type\": \"ORG\"},\n    {\"name\": \"MGM\", \"type\": \"ORG\"},\n    {\"name\": \"Orion Pictures\", \"type\": \"ORG\"},\n    {\"name\": \"Filmways\", \"type\": \"ORG\"},\n    {\"name\": \"American International Pictures\", \"type\": \"ORG\"},\n    {\"name\": \"AIP\", \"type\": \"ORG\"},\n    {\"name\": \"Roger Corman\", \"type\": \"PERSON\"},\n    {\"name\": \"Vincent Price\", \"type\": \"PERSON\"},\n    {\"name\": \"Hammer Film Productions\", \"type\": \"ORG\"},\n    {\"name\": \"Amicus Productions\", \"type\": \"ORG\"},\n    {\"name\": \"United Artists\", \"type\": \"ORG\"},\n    {\"name\": \"Empire International Pictures\", \"type\": \"ORG\"},\n    {\"name\": \"Sony Pictures Home Entertainment\", \"type\": \"ORG\"},\n    {\"name\": \"20th Century Fox Home Entertainment\", \"type\": \"ORG\"},\n    {\"name\": \"20th Century Fox\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Midnite Movies\",\n      \"relation\": \"works_for\",\n      \"object\": \"MGM Home Entertainment\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released first on VHS and later on DVD by\"}\n      ]\n    },\n    {\n      \"subject\": \"Midnite Movies\",\n      \"relation\": \"founded_by\",\n      \"object\": \"MGM\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was begun by\"}\n      ]\n    },\n    {\n      \"subject\": \"MGM\",\n      \"relation\": \"acquired\",\n      \"object\": \"Orion Pictures\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"acquisition of\"}\n      ]\n    },\n    {\n      \"subject\": \"Orion Pictures\",\n      \"relation\": \"bought_out\",\n      \"object\": \"Filmways\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"bought out\"}\n      ]\n    },\n    {\n      \"subject\": \"Filmways\",\n      \"relation\": \"owned\",\n      \"object\": \"American International Pictures\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the owner of\"}\n      ]\n    },\n    {\n      \"subject\": \"Midnite Movies\",\n      \"relation\": \"derived_from\",\n      \"object\": \"AIP\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"is primarily derived from\"}\n      ]\n    },\n    {\n      \"subject\": \"AIP\",\n      \"relation\": \"had_library_of\",\n      \"object\": \"Midnite Movies\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"AIP had a library of\"}\n      ]\n    },\n    {\n      \"subject\": \"Midnite Movies\",\n      \"relation\": \"included\",\n      \"object\": \"Hammer Film Productions\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"included\"}\n      ]\n    },\n    {\n      \"subject\": \"Midnite Movies\",\n      \"relation\": \"included\",\n      \"object\": \"Amicus Productions\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"included\"}\n      ]\n    },\n    {\n      \"subject\": \"Midnite Movies\",\n      \"relation\": \"included\",\n      \"object\": \"United Artists\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"included\"}\n      ]\n    },\n    {\n      \"subject\": \"Midnite Movies\",\n      \"relation\": \"included\",\n      \"object\": \"Empire International Pictures\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"included\"}\n      ]\n    },\n    {\n      \"subject\": \"Sony Pictures Home Entertainment\",\n      \"relation\": \"became_owner_of\",\n      \"object\": \"MGM library\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"became owners of the MGM library\"}\n      ]\n    },\n    {\n      \"subject\": \"Sony Pictures Home Entertainment\",\n      \"relation\": \"continued\",\n      \"object\": \"Midnite Movies\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"continued the \\\"Midnite Movies\\\" line\"}\n      ]\n    },\n    {\n      \"subject\": \"Sony Pictures Home Entertainment\",\n      \"relation\": \"worked_with\",\n      \"object\": \"20th Century Fox Home Entertainment\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"with distributor 20th Century Fox Home Entertainment\"}\n      ]\n    },\n    {\n      \"subject\": \"All double feature titles released on the 20th Century Fox label\",\n      \"relation\": \"were\",\n      \"object\": \"two-disc packages\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"were two-disc packages\"}\n      ]\n    }\n  ]\n}"
+}

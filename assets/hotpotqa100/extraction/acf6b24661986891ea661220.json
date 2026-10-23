@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Schenectady County": "GPE",
+    "New York": "GPE",
+    "Schenectady": "GPE",
+    "Mohawk": "NORP",
+    "Albany": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Schenectady County",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 35,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady",
+      "relation": "works_for",
+      "object": "Schenectady County",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "The county seat is",
+          "line_start": 125,
+          "char_start": 154,
+          "ambiguous": false,
+          "relation_mention": "The county seat is",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady County",
+      "relation": "name_from",
+      "object": "Mohawk",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is from a Mohawk language word meaning",
+          "line_start": 166,
+          "char_start": 195,
+          "ambiguous": false,
+          "relation_mention": "is from a Mohawk language word meaning",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Mohawk",
+      "relation": "applied_to",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "originally applied to",
+          "line_start": 256,
+          "char_start": 285,
+          "ambiguous": false,
+          "relation_mention": "originally applied to",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Schenectady County",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Schenectady County, New York\nSchenectady County ( ) is a county located in the U.S. state of New York. As of the 2010 census, the population was 154,727. The county seat is Schenectady. The name is from a Mohawk language word meaning \"on the other side of the pine lands,\" a term that originally applied to Albany."
+}

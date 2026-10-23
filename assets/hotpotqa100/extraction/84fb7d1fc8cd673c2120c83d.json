@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Sleepy Hollow": "GPE",
+    "Tim Burton": "PERSON",
+    "Washington Irving": "PERSON",
+    "Johnny Depp": "PERSON",
+    "Christina Ricci": "PERSON",
+    "Miranda Richardson": "PERSON",
+    "Michael Gambon": "PERSON",
+    "Casper Van Dien": "PERSON",
+    "Jeffrey Jones": "PERSON",
+    "New York City": "GPE",
+    "Headless Horseman": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Sleepy Hollow",
+      "relation": "directed_by",
+      "object": "Tim Burton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Tim Burton"
+        }
+      ]
+    },
+    {
+      "subject": "Sleepy Hollow",
+      "relation": "stars",
+      "object": "Johnny Depp",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars Johnny Depp"
+        }
+      ]
+    },
+    {
+      "subject": "Sleepy Hollow",
+      "relation": "features",
+      "object": "Miranda Richardson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with Miranda Richardson"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sleepy Hollow",
+        "adaptation_of",
+        "The Legend of Sleepy Hollow"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sleepy Hollow",
+        "stars",
+        "Christina Ricci"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sleepy Hollow",
+        "features",
+        "Michael Gambon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sleepy Hollow",
+        "features",
+        "Casper Van Dien"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sleepy Hollow",
+        "features",
+        "Jeffrey Jones"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ichabod Crane",
+        "sent_from",
+        "New York City"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ichabod Crane",
+        "investigates",
+        "Sleepy Hollow"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ichabod Crane",
+        "investigates",
+        "Headless Horseman"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sleepy Hollow (film)\nSleepy Hollow is a 1999 American Gothic supernatural horror film directed by Tim Burton. It is a film adaptation loosely inspired by the 1820 short story \"The Legend of Sleepy Hollow\" by Washington Irving and stars Johnny Depp and Christina Ricci, with Miranda Richardson, Michael Gambon, Casper Van Dien, and Jeffrey Jones in supporting roles. The plot follows police constable Ichabod Crane (Depp) sent from New York City to investigate a series of murders in the village of Sleepy Hollow by a mysterious Headless Horseman."
+}

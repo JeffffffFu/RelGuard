@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "J. Neely Johnson": "Person",
+    "California": "Location",
+    "Nevada Supreme Court": "Organization",
+    "American Party": "Organization",
+    "Frederick Low": "Person",
+    "National Union Party": "Organization",
+    "Hiram Johnson": "Person",
+    "Progressive Party": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "J. Neely Johnson",
+      "relation": "elected_as",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "elected as the fourth governor of California from 1856 to 1858"
+        }
+      ]
+    },
+    {
+      "subject": "J. Neely Johnson",
+      "relation": "appointed_justice_to",
+      "object": "Nevada Supreme Court",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "later appointed justice to the Nevada Supreme Court from 1867 to 1871"
+        }
+      ]
+    },
+    {
+      "subject": "J. Neely Johnson",
+      "relation": "member_of",
+      "object": "American Party",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "As a member of the American Party"
+        }
+      ]
+    },
+    {
+      "subject": "Frederick Low",
+      "relation": "member_of",
+      "object": "National Union Party",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the others are Frederick Low of the National Union Party"
+        }
+      ]
+    },
+    {
+      "subject": "Hiram Johnson",
+      "relation": "member_of",
+      "object": "Progressive Party",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and Hiram Johnson of the Progressive Party"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "J. Neely Johnson",
+        "one_of",
+        "three members of a third party"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "J. Neely Johnson\nJohn Neely Johnson (August 2, 1825 – August 31, 1872) was an American lawyer and politician. He was elected as the fourth governor of California from 1856 to 1858, and later appointed justice to the Nevada Supreme Court from 1867 to 1871. As a member of the American Party, Johnson remains one of only three members of a third party to be elected to the California governorship (the others are Frederick Low of the National Union Party and Hiram Johnson of the Progressive Party)."
+}

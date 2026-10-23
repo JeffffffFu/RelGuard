@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "CIO-Plus": "movement",
+    "Peter High": "person",
+    "Forbes": "organization",
+    "World Class IT": "book",
+    "chief information officer": "title",
+    "chief innovation officer": "title",
+    "chief improvement officer": "title",
+    "head of business transformation": "title",
+    "Senior Vice President – Technology, Logistics and Customer Service": "title"
+  },
+  "triples": [
+    {
+      "subject": "CIO-Plus",
+      "relation": "coined_by",
+      "object": "Peter High",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "coined by Peter High"
+        }
+      ]
+    },
+    {
+      "subject": "Peter High",
+      "relation": "works_for",
+      "object": "Forbes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a columnist for Forbes"
+        }
+      ]
+    },
+    {
+      "subject": "Peter High",
+      "relation": "authored",
+      "object": "World Class IT",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "author of the book World Class IT"
+        }
+      ]
+    },
+    {
+      "subject": "chief information officer",
+      "relation": "is_a_title_for",
+      "object": "CIO-Plus",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "chief information officers, usually the heads of the IT function of companies"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "chief innovation officer",
+        "is_a_title_for",
+        "CIO-Plus"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "chief improvement officer",
+        "is_a_title_for",
+        "CIO-Plus"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "head of business transformation",
+        "is_a_title_for",
+        "CIO-Plus"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Senior Vice President – Technology, Logistics and Customer Service",
+        "is_a_title_for",
+        "CIO-Plus"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "CIO-plus\nCIO-Plus is a movement which is coined by Peter High, a columnist for Forbes and author of the book World Class IT, which signifies the growing trend that chief information officers, usually the heads of the IT function of companies, are increasingly taking on titles in addition to \"chief information officer\", such as \"chief innovation officer\", \"chief improvement officer\", \"head of business transformation\" and \"Senior Vice President – Technology, Logistics and Customer Service\"."
+}

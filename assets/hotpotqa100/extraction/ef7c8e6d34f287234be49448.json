@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Cartoon Saloon": "organization",
+    "Kilkenny": "location",
+    "Skunk Fu!": "product",
+    "The Secret of Kells": "product",
+    "Brendan Gleeson": "person",
+    "Book of Kells": "artifact",
+    "Jameson Dublin International Film Festival": "event",
+    "82nd Academy Awards": "event"
+  },
+  "triples": [
+    {
+      "subject": "Cartoon Saloon",
+      "relation": "based_in",
+      "object": "Kilkenny",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The company is based in Kilkenny."
+        }
+      ]
+    },
+    {
+      "subject": "The Secret of Kells",
+      "relation": "premiered_at",
+      "object": "Jameson Dublin International Film Festival",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "The film premiered on February 22, 2009 at the closing Gala of the Jameson Dublin International Film Festival."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Cartoon Saloon",
+        "developed",
+        "Skunk Fu!"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Cartoon Saloon",
+        "developed",
+        "The Secret of Kells"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Secret of Kells",
+        "features_voice_of",
+        "Brendan Gleeson"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Secret of Kells",
+        "set_in",
+        "9th century AD"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Secret of Kells",
+        "nominated_for",
+        "82nd Academy Awards"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Cartoon Saloon\nCartoon Saloon is an Irish animation film and television studio which provides illustration, design, film and TV services. The company is based in Kilkenny. The company developed the successful cartoon series \"Skunk Fu!\". It was nominated for a BAFTA Children's Award in October 2008. The company has also developed the animated film \"The Secret of Kells\". The film features the voice of Brendan Gleeson and is set in the 9th century AD when the Book of Kells was written. The film premiered on February 22, 2009 at the closing Gala of the Jameson Dublin International Film Festival. On February 2, 2010 \"The Secret of Kells\" was nominated in the category of best animated film at the 82nd Academy Awards."
+}

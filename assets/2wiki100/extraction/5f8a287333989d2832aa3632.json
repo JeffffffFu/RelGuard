@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Way ... Way Out": "WORK_OF_ART",
+    "Gordon Douglas": "PERSON",
+    "Jerry Lewis": "PERSON",
+    "20th Century Fox": "ORG",
+    "Malcolm Stuart": "PERSON",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Way ... Way Out",
+      "relation": "directed_by",
+      "object": "Gordon Douglas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 51,
+          "char_start": 65,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Way ... Way Out",
+      "relation": "starring",
+      "object": "Jerry Lewis",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 82,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Way ... Way Out",
+      "relation": "distributed_by",
+      "object": "20th Century Fox",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "distributed by",
+          "line_start": 111,
+          "char_start": 125,
+          "ambiguous": false,
+          "relation_mention": "distributed by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Way ... Way Out",
+      "relation": "produced_by",
+      "object": "Malcolm Stuart",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 147,
+          "char_start": 161,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Way ... Way Out",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Way...Way Out\nWay ... Way Out is a 1966 American sex comedy film directed by Gordon Douglas and starring Jerry Lewis. It was distributed by 20th Century Fox and produced by Malcolm Stuart. The film, released on October 21, 1966, was both a critical and commercial flop, recouping less than half of its production budget.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Way ... Way Out\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Gordon Douglas\", \"type\": \"PERSON\"},\n    {\"name\": \"Jerry Lewis\", \"type\": \"PERSON\"},\n    {\"name\": \"20th Century Fox\", \"type\": \"ORG\"},\n    {\"name\": \"Malcolm Stuart\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Way ... Way Out\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Gordon Douglas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Way ... Way Out\",\n      \"relation\": \"starring\",\n      \"object\": \"Jerry Lewis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Way ... Way Out\",\n      \"relation\": \"distributed_by\",\n      \"object\": \"20th Century Fox\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"distributed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Way ... Way Out\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Malcolm Stuart\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Way ... Way Out\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    }\n  ]\n}"
+}

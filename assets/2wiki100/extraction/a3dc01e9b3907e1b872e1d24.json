@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Return of the Hero": "WORK_OF_ART",
+    "Le retour du héros": "WORK_OF_ART",
+    "Laurent Tirard": "PERSON",
+    "Jean Dujardin": "PERSON",
+    "Mélanie Laurent": "PERSON",
+    "Franco- Belgian": "NORP",
+    "2018": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Return of the Hero",
+      "relation": "has_original_title",
+      "object": "Le retour du héros",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "original title: Le retour du héros"
+        }
+      ]
+    },
+    {
+      "subject": "Return of the Hero",
+      "relation": "directed_by",
+      "object": "Laurent Tirard",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Laurent Tirard"
+        }
+      ]
+    },
+    {
+      "subject": "Return of the Hero",
+      "relation": "starring",
+      "object": "Jean Dujardin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Jean Dujardin"
+        }
+      ]
+    },
+    {
+      "subject": "Return of the Hero",
+      "relation": "produced_in",
+      "object": "Franco- Belgian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "2018 Franco- Belgian film"
+        }
+      ]
+    },
+    {
+      "subject": "Return of the Hero",
+      "relation": "released_in",
+      "object": "2018",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "2018 Franco- Belgian film"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Return of the Hero",
+        "starring",
+        "Mélanie Laurent"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Return of the Hero\nReturn of the Hero( original title: Le retour du héros) is a 2018 Franco- Belgian film directed by Laurent Tirard and starring Jean Dujardin and Mélanie Laurent."
+}

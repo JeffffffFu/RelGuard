@@ -1,0 +1,140 @@
+{
+  "entities": {
+    "Joseph Junior Adenuga": "PERSON",
+    "Skepta": "PERSON",
+    "Greatest Hits": "WORK_OF_ART",
+    "Microphone Champion": "WORK_OF_ART",
+    "Doin' It Again": "WORK_OF_ART",
+    "AATW": "ORG",
+    "Konnichiwa": "WORK_OF_ART",
+    "Mercury Prize": "EVENT",
+    "Jme": "PERSON",
+    "British": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Joseph Junior Adenuga",
+      "relation": "better_known_as",
+      "object": "Skepta",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "better known by his stage name",
+          "line_start": 48,
+          "char_start": 55,
+          "ambiguous": false,
+          "relation_mention": "better known by his stage name",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Joseph Junior Adenuga",
+      "relation": "released",
+      "object": "Greatest Hits",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released his debut studio album",
+          "line_start": 184,
+          "char_start": 191,
+          "ambiguous": false,
+          "relation_mention": "released his debut studio album",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Joseph Junior Adenuga",
+      "relation": "released",
+      "object": "Doin' It Again",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was released",
+          "line_start": 358,
+          "char_start": 365,
+          "ambiguous": true,
+          "relation_mention": "was released",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Joseph Junior Adenuga",
+      "relation": "released",
+      "object": "Konnichiwa",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was released",
+          "line_start": 358,
+          "char_start": 365,
+          "ambiguous": false,
+          "relation_mention": "was released",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Joseph Junior Adenuga",
+        "nationality",
+        "British"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Joseph Junior Adenuga",
+        "released",
+        "Microphone Champion"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Doin' It Again",
+        "released_by",
+        "AATW"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Konnichiwa",
+        "won",
+        "Mercury Prize"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Skepta",
+        "has_brother",
+        "Jme"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Skepta",
+        "labelmate_with",
+        "Jme"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Skepta",
+        "collaborated_on",
+        "Konnichiwa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Skepta\nJoseph Junior Adenuga (born 19 September 1982), better known by his stage name Skepta, is a British grime artist, rapper, songwriter, record producer and music video director. Adenuga released his debut studio album \"Greatest Hits\" in late-2007 and his second, \"Microphone Champion\" in 2009, both independently, while his third studio album \"Doin' It Again\" was released in 2011 by AATW. His fourth studio album, \"Konnichiwa\", was released on 6 May 2016 to critical acclaim, winning that year's Mercury Prize. Skepta's brother, and labelmate is the well known grime artist Jme.They have collaborated many times, most recently on his album \"Konnichiwa\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Joseph Junior Adenuga\", \"type\": \"PERSON\"},\n    {\"name\": \"Skepta\", \"type\": \"PERSON\"},\n    {\"name\": \"Greatest Hits\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Microphone Champion\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Doin' It Again\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"AATW\", \"type\": \"ORG\"},\n    {\"name\": \"Konnichiwa\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Mercury Prize\", \"type\": \"EVENT\"},\n    {\"name\": \"Jme\", \"type\": \"PERSON\"},\n    {\"name\": \"British\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Joseph Junior Adenuga\",\n      \"relation\": \"better_known_as\",\n      \"object\": \"Skepta\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"better known by his stage name\"}\n      ]\n    },\n    {\n      \"subject\": \"Joseph Junior Adenuga\",\n      \"relation\": \"nationality\",\n      \"object\": \"British\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a British\"}\n      ]\n    },\n    {\n      \"subject\": \"Joseph Junior Adenuga\",\n      \"relation\": \"released\",\n      \"object\": \"Greatest Hits\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released his debut studio album\"}\n      ]\n    },\n    {\n      \"subject\": \"Joseph Junior Adenuga\",\n      \"relation\": \"released\",\n      \"object\": \"Microphone Champion\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"his second, \\\"Microphone Champion\\\" in 2009, both independently, while his third studio album \\\"Doin' It Again\\\" was released in 2011 by AATW. His fourth studio album, \\\"Konnichiwa\\\", was released on 6 May 2016 to critical acclaim, winning that year's Mercury Prize. Skepta's brother, and labelmate is the well known grime artist Jme.They have collaborated many times, most recently on his album \\\"Konnichiwa\\\".\"}\n      ]\n    },\n    {\n      \"subject\": \"Joseph Junior Adenuga\",\n      \"relation\": \"released\",\n      \"object\": \"Doin' It Again\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was released\"}\n      ]\n    },\n    {\n      \"subject\": \"Doin' It Again\",\n      \"relation\": \"released_by\",\n      \"object\": \"AATW\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released in 2011 by AATW\"}\n      ]\n    },\n    {\n      \"subject\": \"Joseph Junior Adenuga\",\n      \"relation\": \"released\",\n      \"object\": \"Konnichiwa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was released\"}\n      ]\n    },\n    {\n      \"subject\": \"Konnichiwa\",\n      \"relation\": \"won\",\n      \"object\": \"Mercury Prize\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"winning that year's Mercury Prize\"}\n      ]\n    },\n    {\n      \"subject\": \"Skepta\",\n      \"relation\": \"has_brother\",\n      \"object\": \"Jme\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Skepta's brother\"}\n      ]\n    },\n    {\n      \"subject\": \"Skepta\",\n      \"relation\": \"labelmate_with\",\n      \"object\": \"Jme\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and labelmate is the well known grime artist Jme\"}\n      ]\n    },\n    {\n      \"subject\": \"Skepta\",\n      \"relation\": \"collaborated_on\",\n      \"object\": \"Konnichiwa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"They have collaborated many times, most recently on his album \\\"Konnichiwa\\\"\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Missing": "WORK_OF_ART",
+    "Karin Alvtegen": "PERSON",
+    "STV": "ORG",
+    "United States": "GPE",
+    "Joanne Froggatt": "PERSON",
+    "Gregor Fisher": "PERSON",
+    "Mhairi Morrison": "PERSON",
+    "Sybil Foster": "PERSON",
+    "Region 1 DVD": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Missing",
+      "relation": "created_by",
+      "object": "Karin Alvtegen",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "created by",
+          "line_start": 52,
+          "char_start": 77,
+          "ambiguous": false,
+          "relation_mention": "created by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Missing",
+      "relation": "shown_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "shown in",
+          "line_start": 184,
+          "char_start": 209,
+          "ambiguous": false,
+          "relation_mention": "shown in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Missing",
+      "relation": "released_on",
+      "object": "Region 1 DVD",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released on",
+          "line_start": 607,
+          "char_start": 632,
+          "ambiguous": false,
+          "relation_mention": "released on",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Missing",
+        "broadcast_on",
+        "STV"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Joanne Froggatt",
+        "stars_in",
+        "Missing"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gregor Fisher",
+        "stars_in",
+        "Missing"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mhairi Morrison",
+        "stars_in",
+        "Missing"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sybil Foster",
+        "is_character_of",
+        "Missing"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Missing (2006 TV series)\nMissing is a British crime drama television series, created by crime author Karin Alvtegen, which was first broadcast on STV on 2 November 2008. Despite being filmed for broadcast and shown in the United States in 2006, the series was not aired in its native country until over two years later. Joanne Froggatt, Gregor Fisher and Mhairi Morrison star in the two-part drama (separated into three-parts for repeat viewings), with Froggatt's character, Sybil Foster, becoming the prime suspect in a murder investigation, and Fisher and Morrison's characters acting as the investigating officers. \"Missing\" was released on Region 1 DVD on 5 September 2006.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Missing\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Karin Alvtegen\", \"type\": \"PERSON\"},\n    {\"name\": \"STV\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Joanne Froggatt\", \"type\": \"PERSON\"},\n    {\"name\": \"Gregor Fisher\", \"type\": \"PERSON\"},\n    {\"name\": \"Mhairi Morrison\", \"type\": \"PERSON\"},\n    {\"name\": \"Sybil Foster\", \"type\": \"PERSON\"},\n    {\"name\": \"Region 1 DVD\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"created_by\",\n      \"object\": \"Karin Alvtegen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"created by\"}\n      ]\n    },\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"broadcast_on\",\n      \"object\": \"STV\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"broadcast on\"}\n      ]\n    },\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"shown_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"shown in\"}\n      ]\n    },\n    {\n      \"subject\": \"Joanne Froggatt\",\n      \"relation\": \"stars_in\",\n      \"object\": \"Missing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"star in\"}\n      ]\n    },\n    {\n      \"subject\": \"Gregor Fisher\",\n      \"relation\": \"stars_in\",\n      \"object\": \"Missing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"star in\"}\n      ]\n    },\n    {\n      \"subject\": \"Mhairi Morrison\",\n      \"relation\": \"stars_in\",\n      \"object\": \"Missing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"star in\"}\n      ]\n    },\n    {\n      \"subject\": \"Sybil Foster\",\n      \"relation\": \"is_character_of\",\n      \"object\": \"Missing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"character,\"}\n      ]\n    },\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"released_on\",\n      \"object\": \"Region 1 DVD\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released on\"}\n      ]\n    }\n  ]\n}"
+}

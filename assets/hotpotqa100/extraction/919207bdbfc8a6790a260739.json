@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "So Alive": "song",
+    "Skepta": "artist",
+    "N-Dubz": "artist",
+    "Doin' It Again": "album",
+    "Love.Live.Life": "album",
+    "UK Singles Chart": "chart"
+  },
+  "triples": [
+    {
+      "subject": "So Alive",
+      "relation": "released_by",
+      "object": "Skepta",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by British MC Skepta"
+        }
+      ]
+    },
+    {
+      "subject": "So Alive",
+      "relation": "released_by",
+      "object": "N-Dubz",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and British trio, N-Dubz"
+        }
+      ]
+    },
+    {
+      "subject": "So Alive",
+      "relation": "part_of",
+      "object": "Doin' It Again",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "released Skepta's third album \"Doin' It Again\""
+        }
+      ]
+    },
+    {
+      "subject": "So Alive",
+      "relation": "part_of",
+      "object": "Love.Live.Life",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and N-Dubz's third album \"Love.Live.Life\""
+        }
+      ]
+    },
+    {
+      "subject": "So Alive",
+      "relation": "peaked_at",
+      "object": "UK Singles Chart",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The single peaked at #99 on the UK Singles Chart"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "So Alive",
+        "is_a",
+        "song"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "So Alive",
+        "released_on",
+        "6 February 2011"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "So Alive (Skepta and N-Dubz song)\n\"So Alive\" is a song by British MC Skepta and British trio, N-Dubz. It was released as an official single on 6 February 2011. It is the fourth single released Skepta's third album \"Doin' It Again\" and N-Dubz's third album \"Love.Live.Life\". The single peaked at #99 on the UK Singles Chart."
+}

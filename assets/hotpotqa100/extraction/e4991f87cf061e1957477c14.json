@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Ashes and Light": "WORK_OF_ART",
+    "Mark Heard": "PERSON",
+    "Home Sweet Home Records": "ORG",
+    "Mosaics": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Ashes and Light",
+      "relation": "released_on",
+      "object": "Home Sweet Home Records",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released in 1984 on",
+          "line_start": 43,
+          "char_start": 59,
+          "ambiguous": false,
+          "relation_mention": "released in 1984 on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Home Sweet Home Records",
+      "relation": "wanted_released_first",
+      "object": "Ashes and Light",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "wanted this album released first",
+          "line_start": 171,
+          "char_start": 187,
+          "ambiguous": false,
+          "relation_mention": "wanted this album released first",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ashes and Light",
+        "created_by",
+        "Mark Heard"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mark Heard",
+        "recorded_before",
+        "Mosaics"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Ashes and Light\nAshes and Light is an album by Mark Heard, released in 1984 on Home Sweet Home Records. According to the liner notes, Heard recorded Mosaics first, but the record company wanted this album released first.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Ashes and Light\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Mark Heard\", \"type\": \"PERSON\"},\n    {\"name\": \"Home Sweet Home Records\", \"type\": \"ORG\"},\n    {\"name\": \"Mosaics\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Ashes and Light\",\n      \"relation\": \"created_by\",\n      \"object\": \"Mark Heard\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an album by\"}\n      ]\n    },\n    {\n      \"subject\": \"Ashes and Light\",\n      \"relation\": \"released_on\",\n      \"object\": \"Home Sweet Home Records\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released in 1984 on\"}\n      ]\n    },\n    {\n      \"subject\": \"Mark Heard\",\n      \"relation\": \"recorded_before\",\n      \"object\": \"Mosaics\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"recorded Mosaics first\"}\n      ]\n    },\n    {\n      \"subject\": \"Home Sweet Home Records\",\n      \"relation\": \"wanted_released_first\",\n      \"object\": \"Ashes and Light\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"wanted this album released first\"}\n      ]\n    }\n  ]\n}"
+}

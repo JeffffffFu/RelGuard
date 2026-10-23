@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Robert Petre, 8th Baron Petre": "Person",
+    "Robert Petre, 7th Baron Petre": "Person",
+    "Catherine Walmesley": "Person",
+    "Walmesley family": "Family",
+    "Ingatestone Hall": "Location",
+    "Thorndon Hall": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Robert Petre, 8th Baron Petre",
+      "relation": "son_of",
+      "object": "Robert Petre, 7th Baron Petre",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was the son of Robert Petre, 7th Baron Petre"
+        }
+      ]
+    },
+    {
+      "subject": "Catherine Walmesley",
+      "relation": "heiress_of",
+      "object": "Walmesley family",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "heiress of the Walmesley family of Lancashire"
+        }
+      ]
+    },
+    {
+      "subject": "Robert Petre, 8th Baron Petre",
+      "relation": "born_at",
+      "object": "Ingatestone Hall",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "spent his childhood at Ingatestone Hall"
+        }
+      ]
+    },
+    {
+      "subject": "Robert Petre, 8th Baron Petre",
+      "relation": "not_born_at",
+      "object": "Thorndon Hall",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "instead of at Thorndon Hall, the family seat"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Robert Petre, 8th Baron Petre",
+        "heiress_of",
+        "Catherine Walmesley"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Robert Petre, 8th Baron Petre\nRobert James Petre, 8th Baron Petre (3 June 1713 – 2 July 1742) was a renowned horticulturist and a British peer. Lord Petre was the son of Robert Petre, 7th Baron Petre (1689–1713) and his wife Catherine Walmesley (1697 – 31 January 1785), heiress of the Walmesley family of Lancashire. Petre was born three months after his father's death and spent his childhood at Ingatestone Hall, instead of at Thorndon Hall, the family seat, as his grandmother was still in residence there."
+}

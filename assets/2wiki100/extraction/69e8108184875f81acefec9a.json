@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Let's Make Music": "musical",
+    "Bob Crosby": "person",
+    "Nathanael West": "person",
+    "Big Noise from Winnetka": "song"
+  },
+  "triples": [
+    {
+      "subject": "Let's Make Music",
+      "relation": "starring",
+      "object": "Bob Crosby",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Bob Crosby"
+        }
+      ]
+    },
+    {
+      "subject": "Let's Make Music",
+      "relation": "written_by",
+      "object": "Nathanael West",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Nathanael West"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Let's Make Music",
+        "includes",
+        "Big Noise from Winnetka"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Let's Make Music\nLet's Make Music is a 1941 musical starring Bob Crosby and written by Nathanael West. The songs in\" Let's Make Music\" include the classic\" Big Noise from Winnetka\"."
+}

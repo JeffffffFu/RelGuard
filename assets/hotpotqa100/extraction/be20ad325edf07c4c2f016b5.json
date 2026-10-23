@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Noel Fitzpatrick": "Person",
+    "Martin Noel Galgani Fitzpatrick": "Person",
+    "Ireland": "Location",
+    "small animal practice": "Field"
+  },
+  "triples": [
+    {
+      "subject": "Noel Fitzpatrick",
+      "relation": "best_known_for",
+      "object": "small animal practice",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his work in small animal practice"
+        }
+      ]
+    },
+    {
+      "subject": "Noel Fitzpatrick",
+      "relation": "located_in",
+      "object": "Ireland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Irish veterinary surgeon"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Martin Noel Galgani Fitzpatrick",
+        "born_on",
+        "13 December 1967"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Noel Fitzpatrick",
+        "works_as",
+        "specialist neuro-orthopaedic veterinary surgeon"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Noel Fitzpatrick\nMartin Noel Galgani Fitzpatrick (born 13 December 1967) is a specialist neuro-orthopaedic Irish veterinary surgeon best known for his work in small animal practice."
+}

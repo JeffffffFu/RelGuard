@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "Attica": "LOC",
+    "Athens": "GPE",
+    "Greece": "GPE",
+    "Aegean Sea": "LOC",
+    "Saronic Islands": "LOC",
+    "Cythera": "LOC",
+    "Troizinia": "GPE",
+    "Peloponnesian mainland": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Attica",
+      "relation": "encompasses",
+      "object": "Athens",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "encompasses the city of Athens"
+        }
+      ]
+    },
+    {
+      "subject": "Athens",
+      "relation": "is_capital_of",
+      "object": "Greece",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the capital of present-day Greece"
+        }
+      ]
+    },
+    {
+      "subject": "Attica",
+      "relation": "is_centered_on",
+      "object": "Aegean Sea",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Attic peninsula, which projects into the Aegean Sea"
+        }
+      ]
+    },
+    {
+      "subject": "Attica",
+      "relation": "includes",
+      "object": "Saronic Islands",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "includes the Saronic Islands"
+        }
+      ]
+    },
+    {
+      "subject": "Attica",
+      "relation": "includes",
+      "object": "Troizinia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the municipality of Troizinia"
+        }
+      ]
+    },
+    {
+      "subject": "Troizinia",
+      "relation": "is_located_in",
+      "object": "Peloponnesian mainland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on the Peloponnesian mainland"
+        }
+      ]
+    },
+    {
+      "subject": "Attica",
+      "relation": "is_linked_with",
+      "object": "Athens",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The history of Attica is tightly linked with that of Athens"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Attica",
+        "includes",
+        "Cythera"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Attica\nAttica (Greek: Αττική , \"Attikḗ\" or \"Attikī́\" ; ] or ] ) is a historical region that encompasses the city of Athens, the capital of present-day Greece. The historical region is centered on the Attic peninsula, which projects into the Aegean Sea. The modern administrative region of Attica is more extensive than the historical region and includes the Saronic Islands, Cythera, and the municipality of Troizinia on the Peloponnesian mainland. The history of Attica is tightly linked with that of Athens, which, from the classical period, was one of the most important cities in the ancient world."
+}

@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Beatrice of England": "PERSON",
+    "House of Plantagenet": "ORG",
+    "Henry III of England": "PERSON",
+    "Eleanor of Provence": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Beatrice of England",
+      "relation": "member_of",
+      "object": "House of Plantagenet",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a member of the House of Plantagenet"
+        }
+      ]
+    },
+    {
+      "subject": "Beatrice of England",
+      "relation": "daughter_of",
+      "object": "Henry III of England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the daughter of Henry III of England"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Beatrice of England",
+        "daughter_of",
+        "Eleanor of Provence"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Beatrice of England\nBeatrice of England( 25 June 1242 – 24 March 1275) was a member of the House of Plantagenet, the daughter of Henry III of England and Eleanor of Provence."
+}

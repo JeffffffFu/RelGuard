@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Lewis Jack Young": "PERSON",
+    "Crawley Town": "ORG",
+    "Ashley Young": "PERSON",
+    "Manchester United": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Lewis Jack Young",
+      "relation": "works_for",
+      "object": "Crawley Town",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "plays for",
+          "line_start": 84,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "plays for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Ashley Young",
+      "relation": "works_for",
+      "object": "Manchester United",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Manchester United footballer",
+          "line_start": 224,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "Manchester United footballer",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Lewis Jack Young",
+      "relation": "located_in",
+      "object": "Crawley Town",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "plays for",
+          "line_start": 84,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "plays for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Lewis Jack Young",
+      "relation": "works_for",
+      "object": "Manchester United",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "younger brother of Manchester United footballer",
+          "line_start": 205,
+          "char_start": 217,
+          "ambiguous": false,
+          "relation_mention": "younger brother of Manchester United footballer",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Lewis Jack Young",
+      "relation": "related_to",
+      "object": "Ashley Young",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "He is the younger brother of",
+          "line_start": 195,
+          "char_start": 207,
+          "ambiguous": false,
+          "relation_mention": "He is the younger brother of",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "England (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Lewis Jack Young",
+        "located_in",
+        "England"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lewis Young\nLewis Jack Young (born 27 September 1989) is an English professional footballer who plays for Crawley Town. He can play either as a striker, as a right winger or as, most recently, a right back. He is the younger brother of Manchester United footballer Ashley Young."
+}

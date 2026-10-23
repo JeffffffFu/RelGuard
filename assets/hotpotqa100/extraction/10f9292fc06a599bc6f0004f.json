@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Walloon church": "entity",
+    "Walloon Reformed Church": "entity",
+    "Dutch Reformed Church": "entity",
+    "Southern Netherlands": "entity",
+    "France": "entity",
+    "Netherlands": "entity"
+  },
+  "triples": [
+    {
+      "subject": "Walloon church",
+      "relation": "located_in",
+      "object": "Netherlands",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Netherlands and its former colonies"
+        }
+      ]
+    },
+    {
+      "subject": "Walloon church",
+      "relation": "originated_from",
+      "object": "Southern Netherlands",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "whose members originally came from the Southern Netherlands"
+        }
+      ]
+    },
+    {
+      "subject": "Walloon church",
+      "relation": "originated_from",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and France"
+        }
+      ]
+    },
+    {
+      "subject": "Walloon Reformed Church",
+      "relation": "belongs_to",
+      "object": "Walloon church",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Members of these churches belong to the Walloon Reformed Church"
+        }
+      ]
+    },
+    {
+      "subject": "Walloon Reformed Church",
+      "relation": "denomination_of",
+      "object": "Dutch Reformed Church",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a denomination of the long-distinguished Dutch-speaking Dutch Reformed Church"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Walloon church",
+        "describes",
+        "Calvinist church"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Walloon church\nA Walloon church (French: \"Église Wallonne\"; Dutch: \"Waalse kerk\") describes any Calvinist church in the Netherlands and its former colonies whose members originally came from the Southern Netherlands and France and whose native language is French. Members of these churches belong to the Walloon Reformed Church (French: \"Réformé wallon\"; Dutch: \"Waals Hervormd\" or, prior to 1815, \"Waals Gereformeerd\"), a denomination of the long-distinguished Dutch-speaking Dutch Reformed Church."
+}

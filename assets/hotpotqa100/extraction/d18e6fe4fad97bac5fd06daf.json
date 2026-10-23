@@ -1,0 +1,133 @@
+{
+  "entities": {
+    "Baltimore Ravens": "ORG",
+    "National Football League": "ORG",
+    "John Harbaugh": "PERSON",
+    "Sports Illustrated": "ORG",
+    "Peter King": "PERSON",
+    "Super Bowl": "EVENT",
+    "Joe Flacco": "PERSON",
+    "Justin Forsett": "PERSON",
+    "Steve Smith, Sr.": "PERSON",
+    "Terrell Suggs": "PERSON",
+    "Seattle Seahawks": "ORG",
+    "Brian Billick": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Baltimore Ravens",
+      "relation": "works_for",
+      "object": "National Football League",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the National Football League (NFL)",
+          "line_start": 60,
+          "char_start": 89,
+          "ambiguous": false,
+          "relation_mention": "in the National Football League (NFL)",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "John Harbaugh",
+      "relation": "works_for",
+      "object": "Baltimore Ravens",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "head coach",
+          "line_start": 119,
+          "char_start": 148,
+          "ambiguous": false,
+          "relation_mention": "head coach",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Peter King",
+      "relation": "works_for",
+      "object": "Sports Illustrated",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Sports Illustrated\"'s",
+          "line_start": 181,
+          "char_start": 210,
+          "ambiguous": false,
+          "relation_mention": "Sports Illustrated\"'s",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Baltimore Ravens",
+      "relation": "eliminated_by",
+      "object": "Seattle Seahawks",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "with a loss to the Seattle Seahawks",
+          "line_start": 509,
+          "char_start": 538,
+          "ambiguous": false,
+          "relation_mention": "with a loss to the Seattle Seahawks",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Baltimore Ravens",
+      "relation": "had_first_losing_season_since",
+      "object": "Brian Billick",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "first since the collapse of the Brian Billick era",
+          "line_start": 659,
+          "char_start": 688,
+          "ambiguous": false,
+          "relation_mention": "first since the collapse of the Brian Billick era",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Joe Flacco",
+        "suffered",
+        "season ending injuries"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Justin Forsett",
+        "suffered",
+        "season ending injuries"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Steve Smith, Sr.",
+        "suffered",
+        "season ending injuries"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Terrell Suggs",
+        "suffered",
+        "season ending injuries"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "2015 Baltimore Ravens season\nThe Baltimore Ravens season was the franchise's 20th season in the National Football League (NFL) and the eighth under head coach John Harbaugh. Although picked by some, including \"Sports Illustrated\"'s Peter King, to reach the Super Bowl, they had a disappointing season in part due to injuries. 14 of their games were decided by 8 points or less and Joe Flacco, Justin Forsett, Steve Smith, Sr., and Terrell Suggs all suffered season ending injuries. They were eliminated from playoff contention in Week 14 with a loss to the Seattle Seahawks, in which they also suffered their ninth loss, resulting their first losing season in the Harbaugh–Flacco era and first since the collapse of the Brian Billick era. Ultimately the Ravens finished with a 5–11 record and twenty-two players ended the season on Injured Reserve."
+}

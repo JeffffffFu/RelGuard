@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Herbert Erhardt": "Person",
+    "SpVgg Fürth": "Team",
+    "Bayern Munich": "Team",
+    "DFB German Football Association": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Herbert Erhardt",
+      "relation": "played_for",
+      "object": "SpVgg Fürth",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "he played for SpVgg Fürth"
+        }
+      ]
+    },
+    {
+      "subject": "DFB German Football Association",
+      "relation": "list",
+      "object": "Herbert Erhardt",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The DFB German Football Association (German FA) list him in the top 20 best German defenders of all time"
+        }
+      ]
+    },
+    {
+      "subject": "Bayern Munich",
+      "relation": "included",
+      "object": "Herbert Erhardt",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Bayern Munich included him in their best 16 in a team made up in the 1980s of famous past players"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Herbert Erhardt",
+        "played_for",
+        "Bayern Munich"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Herbert Erhardt\nHerbert 'Ertl' Erhard (6 July 1930 – 3 July 2010), also known as Herbert Erhardt, was a German footballer. As a central defender, he played for SpVgg Fürth and Bayern Munich. He was known for his hard tackling, doggedness and captain like performances. The DFB German Football Association (German FA) list him in the top 20 best German defenders of all time, and Bayern Munich included him in their best 16 in a team made up in the 1980s of famous past players."
+}

@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Diary of a Maniac": "WORK_OF_ART",
+    "Italian": "NORP",
+    "Marco Ferreri": "PERSON",
+    "Berlin International Film Festival": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Diary of a Maniac",
+      "relation": "directed_by",
+      "object": "Marco Ferreri",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 47,
+          "char_start": 65,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Diary of a Maniac",
+      "relation": "entered_into",
+      "object": "Berlin International Film Festival",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "entered into",
+          "line_start": 81,
+          "char_start": 99,
+          "ambiguous": false,
+          "relation_mention": "entered into",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Diary of a Maniac",
+        "located_in",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Diary of a Maniac\nDiary of a Maniac is a 1993 Italian drama film directed by Marco Ferreri. It was entered into the 43rd Berlin International Film Festival.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Diary of a Maniac\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Italian\", \"type\": \"NORP\"},\n    {\"name\": \"Marco Ferreri\", \"type\": \"PERSON\"},\n    {\"name\": \"Berlin International Film Festival\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Diary of a Maniac\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Marco Ferreri\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Diary of a Maniac\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Italian\"}\n      ]\n    },\n    {\n      \"subject\": \"Diary of a Maniac\",\n      \"relation\": \"entered_into\",\n      \"object\": \"Berlin International Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"entered into\"}\n      ]\n    }\n  ]\n}"
+}

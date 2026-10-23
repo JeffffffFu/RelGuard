@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Anja Salomonowitz": "PERSON",
+    "Vienna": "GPE",
+    "film director": "PERSON",
+    "screenwriter": "PERSON",
+    "documentary films": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Anja Salomonowitz",
+      "relation": "born_in",
+      "object": "Vienna",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 19,
+          "char_start": 37,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Austria (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Anja Salomonowitz",
+        "nationality",
+        "Austria"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anja Salomonowitz",
+        "works_as",
+        "film director"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anja Salomonowitz",
+        "works_as",
+        "screenwriter"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anja Salomonowitz",
+        "specialised_on",
+        "documentary films"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Anja Salomonowitz\nAnja Salomonowitz (born in Vienna) is an Austrian film director and screenwriter, specialised on documentary films with political or social background.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Anja Salomonowitz\", \"type\": \"PERSON\"},\n    {\"name\": \"Vienna\", \"type\": \"GPE\"},\n    {\"name\": \"Austria\", \"type\": \"GPE\"},\n    {\"name\": \"film director\", \"type\": \"PERSON\"},\n    {\"name\": \"screenwriter\", \"type\": \"PERSON\"},\n    {\"name\": \"documentary films\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Anja Salomonowitz\",\n      \"relation\": \"born_in\",\n      \"object\": \"Vienna\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Anja Salomonowitz\",\n      \"relation\": \"nationality\",\n      \"object\": \"Austria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an Austrian\"}\n      ]\n    },\n    {\n      \"subject\": \"Anja Salomonowitz\",\n      \"relation\": \"works_as\",\n      \"object\": \"film director\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"film director\"}\n      ]\n    },\n    {\n      \"subject\": \"Anja Salomonowitz\",\n      \"relation\": \"works_as\",\n      \"object\": \"screenwriter\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"screenwriter\"}\n      ]\n    },\n    {\n      \"subject\": \"Anja Salomonowitz\",\n      \"relation\": \"specialised_on\",\n      \"object\": \"documentary films\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"specialised on documentary films\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Mike Ott": "PERSON",
+    "Mike Rigoberto Gelito Ott": "PERSON",
+    "Filipino": "NORP",
+    "Ceres–Negros F.C.": "ORG",
+    "Philippines": "GPE",
+    "Philippines national team": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Mike Rigoberto Gelito Ott",
+      "relation": "has_nationality",
+      "object": "Filipino",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a Filipino",
+          "line_start": 46,
+          "char_start": 55,
+          "ambiguous": false,
+          "relation_mention": "is a Filipino",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Mike Rigoberto Gelito Ott",
+      "relation": "plays_for",
+      "object": "Ceres–Negros F.C.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "plays as an attacking midfielder for",
+          "line_start": 75,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "plays as an attacking midfielder for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Mike Rigoberto Gelito Ott",
+      "relation": "plays_for",
+      "object": "Philippines national team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and the Philippines national team",
+          "line_start": 130,
+          "char_start": 139,
+          "ambiguous": false,
+          "relation_mention": "and the Philippines national team",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Philippines national team",
+      "relation": "located_in",
+      "object": "Philippines",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the Philippines national team",
+          "line_start": 134,
+          "char_start": 143,
+          "ambiguous": false,
+          "relation_mention": "the Philippines national team",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mike Rigoberto Gelito Ott",
+        "has_nickname",
+        "Mike Ott"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Mike Ott\nMike Rigoberto Gelito Ott (born 2 March 1995) is a Filipino footballer who plays as an attacking midfielder for Ceres–Negros F.C. and the Philippines national team."
+}

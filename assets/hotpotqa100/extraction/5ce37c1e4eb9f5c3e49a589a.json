@@ -1,0 +1,175 @@
+{
+  "entities": {
+    "Move Over, Darling": "WORK_OF_ART",
+    "Doris Day": "PERSON",
+    "James Garner": "PERSON",
+    "Polly Bergen": "PERSON",
+    "Michael Gordon": "PERSON",
+    "My Favorite Wife": "WORK_OF_ART",
+    "Irene Dunne": "PERSON",
+    "Cary Grant": "PERSON",
+    "Gail Patrick": "PERSON",
+    "Something's Got to Give": "WORK_OF_ART",
+    "George Cukor": "PERSON",
+    "Marilyn Monroe": "PERSON",
+    "Dean Martin": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Move Over, Darling",
+      "relation": "directed_by",
+      "object": "Michael Gordon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 105,
+          "char_start": 124,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Move Over, Darling",
+      "relation": "stars",
+      "object": "Doris Day",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 50,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Move Over, Darling",
+      "relation": "stars",
+      "object": "James Garner",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 50,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Move Over, Darling",
+      "relation": "stars",
+      "object": "Polly Bergen",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 50,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Something's Got to Give",
+      "relation": "directed_by",
+      "object": "George Cukor",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 364,
+          "char_start": 383,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Something's Got to Give",
+      "relation": "stars",
+      "object": "Marilyn Monroe",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 393,
+          "char_start": 412,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Something's Got to Give",
+      "relation": "stars",
+      "object": "Dean Martin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 393,
+          "char_start": 412,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Move Over, Darling",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "My Favorite Wife",
+        "stars",
+        "Irene Dunne"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "My Favorite Wife",
+        "stars",
+        "Cary Grant"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "My Favorite Wife",
+        "stars",
+        "Gail Patrick"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "My Favorite Wife",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Move Over, Darling\nMove Over, Darling is a 1963 American comedy film starring Doris Day, James Garner, and Polly Bergen and directed by Michael Gordon. The picture was a remake of a 1940 screwball comedy film, \"My Favorite Wife\", with Irene Dunne, Cary Grant and Gail Patrick. In between these movies, an unfinished version entitled \"Something's Got to Give\" began shooting in 1962, directed by George Cukor and starring Marilyn Monroe (she got fired but hired again and died soon after) and Dean Martin.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Move Over, Darling\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Doris Day\", \"type\": \"PERSON\"},\n    {\"name\": \"James Garner\", \"type\": \"PERSON\"},\n    {\"name\": \"Polly Bergen\", \"type\": \"PERSON\"},\n    {\"name\": \"Michael Gordon\", \"type\": \"PERSON\"},\n    {\"name\": \"My Favorite Wife\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Irene Dunne\", \"type\": \"PERSON\"},\n    {\"name\": \"Cary Grant\", \"type\": \"PERSON\"},\n    {\"name\": \"Gail Patrick\", \"type\": \"PERSON\"},\n    {\"name\": \"Something's Got to Give\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"George Cukor\", \"type\": \"PERSON\"},\n    {\"name\": \"Marilyn Monroe\", \"type\": \"PERSON\"},\n    {\"name\": \"Dean Martin\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Move Over, Darling\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Michael Gordon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Move Over, Darling\",\n      \"relation\": \"stars\",\n      \"object\": \"Doris Day\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Move Over, Darling\",\n      \"relation\": \"stars\",\n      \"object\": \"James Garner\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Move Over, Darling\",\n      \"relation\": \"stars\",\n      \"object\": \"Polly Bergen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Move Over, Darling\",\n      \"relation\": \"is_a\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a\"}\n      ]\n    },\n    {\n      \"subject\": \"My Favorite Wife\",\n      \"relation\": \"stars\",\n      \"object\": \"Irene Dunne\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with\"}\n      ]\n    },\n    {\n      \"subject\": \"My Favorite Wife\",\n      \"relation\": \"stars\",\n      \"object\": \"Cary Grant\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with\"}\n      ]\n    },\n    {\n      \"subject\": \"My Favorite Wife\",\n      \"relation\": \"stars\",\n      \"object\": \"Gail Patrick\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with\"}\n      ]\n    },\n    {\n      \"subject\": \"My Favorite Wife\",\n      \"relation\": \"is_a\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"comedy film\"}\n      ]\n    },\n    {\n      \"subject\": \"Something's Got to Give\",\n      \"relation\": \"directed_by\",\n      \"object\": \"George Cukor\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Something's Got to Give\",\n      \"relation\": \"stars\",\n      \"object\": \"Marilyn Monroe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Something's Got to Give\",\n      \"relation\": \"stars\",\n      \"object\": \"Dean Martin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    }\n  ]\n}"
+}

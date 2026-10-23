@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "SAS Braathens": "airline",
+    "Scandinavian Airlines": "airline",
+    "Norway": "country",
+    "Oslo Airport, Gardermoen": "airport",
+    "Diamanten": "building",
+    "Fornebu Airport": "airport",
+    "Fornebu": "location",
+    "Bærum": "location",
+    "2004": "year",
+    "June 1, 2007": "date"
+  },
+  "triples": [
+    {
+      "subject": "SAS Braathens",
+      "relation": "created_by_merger",
+      "object": "Scandinavian Airlines",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "created by a merger between Scandinavian Airlines' Norwegian division and Braathens in 2004"
+        }
+      ]
+    },
+    {
+      "subject": "SAS Braathens",
+      "relation": "operated_from",
+      "object": "Oslo Airport, Gardermoen",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The airline operated from its hub at Oslo Airport, Gardermoen"
+        }
+      ]
+    },
+    {
+      "subject": "SAS Braathens",
+      "relation": "largest_branch_of",
+      "object": "Scandinavian Airlines",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was also the largest national branch of Scandinavian Airlines"
+        }
+      ]
+    },
+    {
+      "subject": "SAS Braathens",
+      "relation": "had_head_office_in",
+      "object": "Diamanten",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "SAS Braathens had its head office in Diamanten on the grounds of Fornebu Airport"
+        }
+      ]
+    },
+    {
+      "subject": "Diamanten",
+      "relation": "located_in",
+      "object": "Fornebu",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "on the grounds of Fornebu Airport in Fornebu"
+        }
+      ]
+    },
+    {
+      "subject": "Fornebu Airport",
+      "relation": "located_in",
+      "object": "Bærum",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "on the grounds of Fornebu Airport in Fornebu, Bærum, Norway"
+        }
+      ]
+    },
+    {
+      "subject": "SAS Braathens",
+      "relation": "founded_in",
+      "object": "2004",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "created by a merger between Scandinavian Airlines' Norwegian division and Braathens in 2004"
+        }
+      ]
+    },
+    {
+      "subject": "SAS Braathens",
+      "relation": "integrated_on",
+      "object": "June 1, 2007",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "On June 1, 2007, the airline was integrated into mainline SAS"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "SAS Braathens",
+        "integrated_into",
+        "SAS Scandinavian Airlines Norge"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "SAS Braathens\nSAS Braathens was the name of Norway's largest airline, created by a merger between Scandinavian Airlines' Norwegian division and Braathens in 2004. On June 1, 2007, the airline was integrated into mainline SAS, and changed its name to SAS Scandinavian Airlines Norge. The airline operated from its hub at Oslo Airport, Gardermoen, and was also the largest national branch of Scandinavian Airlines. SAS Braathens had its head office in Diamanten on the grounds of Fornebu Airport in Fornebu, Bærum, Norway."
+}

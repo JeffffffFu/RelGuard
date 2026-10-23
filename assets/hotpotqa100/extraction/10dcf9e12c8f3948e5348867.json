@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "Gustav Berdel": "PERSON",
+    "Neckarbischofsheim": "GPE",
+    "Frankfurt": "GPE",
+    "Berlin Veterinary College": "ORG",
+    "First World War": "EVENT",
+    "Reserve Field Artillery Regiment No. 21": "ORG",
+    "Senckenberg Nature Research Society": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Gustav Berdel",
+      "relation": "born_in",
+      "object": "Neckarbischofsheim",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born 28 February 1872 in",
+          "line_start": 21,
+          "char_start": 35,
+          "ambiguous": false,
+          "relation_mention": "born 28 February 1872 in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Gustav Berdel",
+      "relation": "died_in",
+      "object": "Frankfurt",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died 13 February 1949 in",
+          "line_start": 66,
+          "char_start": 80,
+          "ambiguous": false,
+          "relation_mention": "died 13 February 1949 in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Germany (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Gustav Berdel",
+        "nationality",
+        "Germany"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gustav Berdel",
+        "works_for",
+        "Frankfurt"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gustav Berdel",
+        "works_for",
+        "Frankfurt"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gustav Berdel",
+        "licensed_as",
+        "Berlin Veterinary College"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gustav Berdel",
+        "educated_at",
+        "Berlin Veterinary College"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gustav Berdel",
+        "served_in",
+        "First World War"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gustav Berdel",
+        "served_for",
+        "Reserve Field Artillery Regiment No. 21"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gustav Berdel",
+        "member_of",
+        "Senckenberg Nature Research Society"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Gustav Berdel\nJakob Gustav Berdel (born 28 February 1872 in Neckarbischofsheim, died 13 February 1949 in Frankfurt) was a German veterinarian, who served as municipal chief veterinarian (\"städtischer Obertierarzt\") in Frankfurt and managing director of the slaughterhouse in Frankfurt Municipality, at the time one of the largest and most modern in Europe. He was licensed as a veterinarian in 1898 and obtained a doctorate in veterinary medicine (Dr.med.vet.) from the Berlin Veterinary College in 1920. During the First World War, he was also a military veterinarian (captain of the Reserve) of the Reserve Field Artillery Regiment No. 21 staff. He received the honorary title \"Oberveterinärrat\" (senior veterinary councillor). He was also involved with several veterinary societies. He was a member of the Senckenberg Nature Research Society.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Gustav Berdel\", \"type\": \"PERSON\"},\n    {\"name\": \"Neckarbischofsheim\", \"type\": \"GPE\"},\n    {\"name\": \"Frankfurt\", \"type\": \"GPE\"},\n    {\"name\": \"Germany\", \"type\": \"GPE\"},\n    {\"name\": \"Berlin Veterinary College\", \"type\": \"ORG\"},\n    {\"name\": \"First World War\", \"type\": \"EVENT\"},\n    {\"name\": \"Reserve Field Artillery Regiment No. 21\", \"type\": \"ORG\"},\n    {\"name\": \"Senckenberg Nature Research Society\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Gustav Berdel\",\n      \"relation\": \"born_in\",\n      \"object\": \"Neckarbischofsheim\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born 28 February 1872 in\"}\n      ]\n    },\n    {\n      \"subject\": \"Gustav Berdel\",\n      \"relation\": \"died_in\",\n      \"object\": \"Frankfurt\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"died 13 February 1949 in\"}\n      ]\n    },\n    {\n      \"subject\": \"Gustav Berdel\",\n      \"relation\": \"nationality\",\n      \"object\": \"Germany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a German\"}\n      ]\n    },\n    {\n      \"subject\": \"Gustav Berdel\",\n      \"relation\": \"works_for\",\n      \"object\": \"Frankfurt\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served as municipal chief veterinarian (\\\"städtischer Obertierarzt\\\") in\"}\n      ]\n    },\n    {\n      \"subject\": \"Gustav Berdel\",\n      \"relation\": \"works_for\",\n      \"object\": \"Frankfurt\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"managing director of the slaughterhouse in Frankfurt Municipality\"}\n      ]\n    },\n    {\n      \"subject\": \"Gustav Berdel\",\n      \"relation\": \"licensed_as\",\n      \"object\": \"Berlin Veterinary College\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"licensed as a veterinarian in 1898 and obtained a doctorate in veterinary medicine (Dr.med.vet.) from the Berlin Veterinary College in 1920\"}\n      ]\n    },\n    {\n      \"subject\": \"Gustav Berdel\",\n      \"relation\": \"educated_at\",\n      \"object\": \"Berlin Veterinary College\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from the Berlin Veterinary College\"}\n      ]\n    },\n    {\n      \"subject\": \"Gustav Berdel\",\n      \"relation\": \"served_in\",\n      \"object\": \"First World War\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"During the First World War, he was also a military veterinarian\"}\n      ]\n    },\n    {\n      \"subject\": \"Gustav Berdel\",\n      \"relation\": \"served_for\",\n      \"object\": \"Reserve Field Artillery Regiment No. 21\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"captain of the Reserve) of the Reserve Field Artillery Regiment No. 21 staff\"}\n      ]\n    },\n    {\n      \"subject\": \"Gustav Berdel\",\n      \"relation\": \"member_of\",\n      \"object\": \"Senckenberg Nature Research Society\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"He was a member of the Senckenberg Nature Research Society\"}\n      ]\n    }\n  ]\n}"
+}

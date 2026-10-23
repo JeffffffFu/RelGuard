@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "Gardnerville Branch Jail": "location",
+    "Douglas County": "location",
+    "Genoa": "location",
+    "Minden": "location",
+    "Nevada": "location"
+  },
+  "triples": [
+    {
+      "subject": "Douglas County",
+      "relation": "has_only_jail",
+      "object": "Gardnerville Branch Jail",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Douglas County's only jail"
+        }
+      ]
+    },
+    {
+      "subject": "Genoa",
+      "relation": "was_county_seat_of",
+      "object": "Douglas County",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the only county jail was in Genoa, the county seat"
+        }
+      ]
+    },
+    {
+      "subject": "Minden",
+      "relation": "became_county_seat_of",
+      "object": "Douglas County",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "when Minden became the county seat"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gardnerville Branch Jail",
+        "located_at",
+        "1440 Courthouse St."
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gardnerville Branch Jail",
+        "built_in",
+        "1910"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gardnerville Branch Jail",
+        "served_as",
+        "Douglas County's only jail"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gardnerville",
+        "is_several_miles_from",
+        "Genoa"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "community",
+        "petitioned",
+        "county"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "local leaders in Minden",
+        "protested",
+        "move"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "county",
+        "approved_construction_of",
+        "Gardnerville Branch Jail"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Genoa jail",
+        "burned_down",
+        "Gardnerville Branch Jail"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Minden",
+        "opened_own_jail",
+        "county jail"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Gardnerville Branch Jail\nThe Gardnerville Branch Jail is a historic jail located at 1440 Courthouse St. in Gardnerville, Nevada. The jail was built in 1910 and served as Douglas County's only jail from 1910 to 1915. Prior to 1910, the only county jail was in Genoa, the county seat; however, since Gardnerville was several miles from Genoa, it resorted to housing prisoners in the local judge's granary. As the granary was considered unfit for holding prisoners, the community petitioned the county to construct a new jail. However, local leaders in Minden, who wanted to move the county seat to their town, protested the move, as they suspected that Gardnerville was attempting to claim the county seat itself. Nonetheless, the county approved the construction of the new jail. The jail housed its first prisoners before construction even finished, as the Genoa jail burned down; one prisoner was briefly chained to a post until the new jail could accommodate him. Once completed, the jail served the county until 1915, when Minden became the county seat and opened its own county jail."
+}

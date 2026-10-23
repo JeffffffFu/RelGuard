@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "Orenda OE600": "PRODUCT",
+    "Pratt & Whitney Canada PT6": "PRODUCT",
+    "Orenda Aerospace": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Orenda OE600",
+      "relation": "intended_to_reintroduce",
+      "object": "Pratt & Whitney Canada PT6",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "intended to re-introduce piston power to aircraft normally powered by the famous Pratt & Whitney Canada PT6 turboprop."
+        }
+      ]
+    },
+    {
+      "subject": "Orenda Aerospace",
+      "relation": "felt",
+      "object": "Orenda OE600",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "which Orenda Aerospace felt would be attractive for older aircraft whose engines were reaching the end of their lifespan."
+        }
+      ]
+    },
+    {
+      "subject": "Orenda Aerospace",
+      "relation": "canceled",
+      "object": "Orenda OE600",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "led to the project being canceled."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Orenda OE600",
+        "offers",
+        "fuel economy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Orenda OE600\nThe Orenda OE600 is a 600 hp-class liquid-cooled 8-cylinder V-block aircraft engine intended to re-introduce piston power to aircraft normally powered by the famous Pratt & Whitney Canada PT6 turboprop. The piston engine offers much better fuel economy, which Orenda Aerospace felt would be attractive for older aircraft whose engines were reaching the end of their lifespan. However, changes in Orenda's business in the post-9/11 time frame led to the project being canceled."
+}

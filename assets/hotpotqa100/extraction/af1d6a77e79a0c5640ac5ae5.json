@@ -1,0 +1,101 @@
+{
+  "entities": {
+    "Eurovision Song Contest 2012": "event",
+    "Baku": "location",
+    "Azerbaijan": "location",
+    "Ell & Nikki": "person",
+    "2011 contest": "event",
+    "Düsseldorf": "location",
+    "Germany": "location",
+    "Baku Crystal Hall": "location",
+    "Montenegro": "country",
+    "2009": "event",
+    "Armenia": "country",
+    "Nagorno-Karabakh conflict": "event",
+    "Poland": "country"
+  },
+  "triples": [
+    {
+      "subject": "Eurovision Song Contest 2012",
+      "relation": "took_place_in",
+      "object": "Baku",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It took place in Baku, Azerbaijan"
+        }
+      ]
+    },
+    {
+      "subject": "Eurovision Song Contest 2012",
+      "relation": "held_in",
+      "object": "Baku Crystal Hall",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The contest was held at the newly constructed Baku Crystal Hall"
+        }
+      ]
+    },
+    {
+      "subject": "2011 contest",
+      "relation": "held_in",
+      "object": "Düsseldorf",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Düsseldorf, Germany"
+        }
+      ]
+    },
+    {
+      "subject": "Montenegro",
+      "relation": "returned_to",
+      "object": "Eurovision Song Contest 2012",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "with Montenegro returning for the first time since 2009"
+        }
+      ]
+    },
+    {
+      "subject": "Armenia",
+      "relation": "withdrew_due_to",
+      "object": "Nagorno-Karabakh conflict",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "the withdrawal of Armenia due to security concerns in relation to the ongoing Nagorno-Karabakh conflict"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eurovision Song Contest 2012",
+        "competed_in",
+        "Forty-two countries"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ell & Nikki",
+        "won",
+        "2011 contest"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Poland",
+        "withdrew_due_to",
+        "financial concerns"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Eurovision Song Contest 2012\nThe Eurovision Song Contest 2012 was the 57th edition of the annual Eurovision Song Contest. It took place in Baku, Azerbaijan, following Ell & Nikki's win at the 2011 contest in Düsseldorf, Germany with the song \"Running Scared\" — marking the first time that the country had won the contest. The contest was held at the newly constructed Baku Crystal Hall, with semi-finals held on 22 and 24 May 2012, followed by the final held on 26 May 2012. Forty-two countries competed in the contest — one less than the record number of 43 set at the previous contest, with Montenegro returning for the first time since 2009, and the withdrawal of Armenia due to security concerns in relation to the ongoing Nagorno-Karabakh conflict with Azerbaijan, and Poland due to financial concerns."
+}

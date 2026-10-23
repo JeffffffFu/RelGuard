@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Creature from the Black Lagoon": "pinball_machine",
+    "John Trudeau": "designer",
+    "Midway": "company",
+    "Bally": "brand",
+    "Universal Studios": "company"
+  },
+  "triples": [
+    {
+      "subject": "Creature from the Black Lagoon",
+      "relation": "designed_by",
+      "object": "John Trudeau",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "designed by John Trudeau"
+        }
+      ]
+    },
+    {
+      "subject": "Creature from the Black Lagoon",
+      "relation": "released_by",
+      "object": "Midway",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released by Midway"
+        }
+      ]
+    },
+    {
+      "subject": "Creature from the Black Lagoon",
+      "relation": "licensed_from",
+      "object": "Universal Studios",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "licensed from Universal Studios"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Midway",
+        "under_brand_name",
+        "Bally"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Creature from the Black Lagoon (pinball)\nCreature from the Black Lagoon is a pinball machine designed by John Trudeau (\"Dr. Flash\") and released by Midway (under the \"Bally\" brand name). It is loosely based on the movie of the same name. The game's theme is 1950's drive-in theater. The pinball machine was licensed from Universal Studios by Bally so that the backglass artwork, the cabinet artwork, and the creature looked like the original movie actors and monsters."
+}

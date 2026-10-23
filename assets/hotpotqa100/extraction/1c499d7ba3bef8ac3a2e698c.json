@@ -1,0 +1,39 @@
+{
+  "entities": {
+    "Robert J. Van de Graaff": "Person",
+    "Princeton University": "Organization",
+    "Massachusetts Institute of Technology": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Robert J. Van de Graaff",
+      "relation": "taught_at",
+      "object": "Princeton University",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He taught at Princeton University"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Robert J. Van de Graaff",
+        "taught_at",
+        "Massachusetts Institute of Technology"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Robert J. Van de Graaff",
+        "noted_for",
+        "high-voltage Van de Graaff generators"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Robert J. Van de Graaff\nRobert Jemison Van de Graaff (December 20, 1901 – January 16, 1967) was an American engineer, physicist, and noted for his design and construction of high-voltage Van de Graaff generators. He taught at Princeton University and Massachusetts Institute of Technology."
+}

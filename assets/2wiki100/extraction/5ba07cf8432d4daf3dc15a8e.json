@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Juan Alberto Díaz Rodríguez": "Person",
+    "San Salvador": "Location",
+    "El Salvador": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Juan Alberto Díaz Rodríguez",
+      "relation": "born_in",
+      "object": "San Salvador",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born November 8, 1985 in San Salvador"
+        }
+      ]
+    },
+    {
+      "subject": "Juan Alberto Díaz Rodríguez",
+      "relation": "located_in",
+      "object": "El Salvador",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in San Salvador, El Salvador"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Juan Alberto Díaz Rodríguez",
+        "is",
+        "Salvadoran footballer"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Juan Díaz Rodríguez\nJuan Alberto Díaz Rodríguez( born November 8, 1985 in San Salvador, El Salvador) is a Salvadoran footballer."
+}

@@ -1,0 +1,143 @@
+{
+  "entities": {
+    "Anna Lewandowska": "PERSON",
+    "Anna Stachurska": "PERSON",
+    "Academy of Physical Education in Warsaw": "ORG",
+    "Warsaw": "GPE",
+    "karate": "NORP",
+    "World Championships": "EVENT",
+    "European Championships": "EVENT",
+    "Robert Lewandowski": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Anna Lewandowska",
+      "relation": "born_as",
+      "object": "Anna Stachurska",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born Anna Stachurska",
+          "line_start": 18,
+          "char_start": 35,
+          "ambiguous": false,
+          "relation_mention": "born Anna Stachurska",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anna Lewandowska",
+      "relation": "graduated_from",
+      "object": "Academy of Physical Education in Warsaw",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "a graduate of the Academy of Physical Education in Warsaw",
+          "line_start": 78,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "a graduate of the Academy of Physical Education in Warsaw",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Academy of Physical Education in Warsaw",
+      "relation": "located_in",
+      "object": "Warsaw",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Warsaw",
+          "line_start": 126,
+          "char_start": 143,
+          "ambiguous": false,
+          "relation_mention": "in Warsaw",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anna Lewandowska",
+      "relation": "represents",
+      "object": "karate",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "representative of the country in traditional karate",
+          "line_start": 175,
+          "char_start": 192,
+          "ambiguous": false,
+          "relation_mention": "representative of the country in traditional karate",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anna Lewandowska",
+      "relation": "medalist_of",
+      "object": "World Championships",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "multiple medalist of the World",
+          "line_start": 237,
+          "char_start": 254,
+          "ambiguous": false,
+          "relation_mention": "multiple medalist of the World",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Anna Lewandowska",
+      "relation": "medalist_of",
+      "object": "European Championships",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "European",
+          "line_start": 269,
+          "char_start": 286,
+          "ambiguous": false,
+          "relation_mention": "European",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Anna Lewandowska",
+      "relation": "married_to",
+      "object": "Robert Lewandowski",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "married to",
+          "line_start": 314,
+          "char_start": 331,
+          "ambiguous": false,
+          "relation_mention": "married to",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Poland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Anna Lewandowska",
+        "nationality",
+        "Poland"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Anna Lewandowska\nAnna Lewandowska (born Anna Stachurska 7 September 1988) is a Polish athlete, a graduate of the Academy of Physical Education in Warsaw, a specialist on nutrition, karate and representative of the country in traditional karate. She is a multiple medalist of the World, European, and national Championships. She is married to footballer Robert Lewandowski."
+}

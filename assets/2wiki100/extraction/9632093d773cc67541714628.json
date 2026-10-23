@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Un giorno speciale": "film",
+    "Francesca Comencini": "person",
+    "Golden Lion": "award",
+    "69th Venice International Film Festival": "event"
+  },
+  "triples": [
+    {
+      "subject": "Un giorno speciale",
+      "relation": "directed_by",
+      "object": "Francesca Comencini",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Francesca Comencini"
+        }
+      ]
+    },
+    {
+      "subject": "Un giorno speciale",
+      "relation": "selected_for",
+      "object": "Golden Lion",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was selected to compete for the Golden Lion"
+        }
+      ]
+    },
+    {
+      "subject": "Un giorno speciale",
+      "relation": "competed_at",
+      "object": "69th Venice International Film Festival",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "at the 69th Venice International Film Festival"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Un giorno speciale",
+        "also_known_as",
+        "A Special Day"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Un giorno speciale\nUn giorno speciale( also known as\" A Special Day\") is a 2012 Italian drama film directed by Francesca Comencini. The film was selected to compete for the Golden Lion at the 69th Venice International Film Festival."
+}

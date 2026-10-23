@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Paul Winters": "Person",
+    "Ricco Ross": "Person",
+    "Nate and the Colonel": "Film",
+    "Colonel Ben Loftin": "Character"
+  },
+  "triples": [
+    {
+      "subject": "Paul Winters",
+      "relation": "played",
+      "object": "Colonel Ben Loftin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played Colonel Ben Loftin"
+        }
+      ]
+    },
+    {
+      "subject": "Nate and the Colonel",
+      "relation": "starred",
+      "object": "Ricco Ross",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which also starred Ricco Ross"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Paul Winters",
+        "born_on",
+        "April 20, 1954"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Paul Winters",
+        "located_in",
+        "Pennsylvania"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Paul Winters\nPaul Winters (born April 20, 1954 in Pennsylvania) is an American filmmaker, writer, and actor. He played Colonel Ben Loftin in the film \"Nate and the Colonel\" (which also starred Ricco Ross as Nate)."
+}

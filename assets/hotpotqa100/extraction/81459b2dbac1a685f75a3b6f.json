@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Rowneybury House": "Building",
+    "Beckingham Palace": "Building",
+    "David Beckham": "Person",
+    "Victoria Beckham": "Person",
+    "England": "Location",
+    "Buckingham Palace": "Building"
+  },
+  "triples": [
+    {
+      "subject": "Rowneybury House",
+      "relation": "also_known_as",
+      "object": "Beckingham Palace",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also known as Beckingham Palace"
+        }
+      ]
+    },
+    {
+      "subject": "Rowneybury House",
+      "relation": "located_in",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in England"
+        }
+      ]
+    },
+    {
+      "subject": "Rowneybury House",
+      "relation": "previously_owned_by",
+      "object": "David Beckham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "previously owned by footballer David Beckham"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rowneybury House",
+        "previously_owned_by",
+        "Victoria Beckham"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Beckingham Palace",
+        "is_a_portmanteau_of",
+        "Beckham"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Beckingham Palace",
+        "is_a_portmanteau_of",
+        "Buckingham Palace"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Beckingham Palace\nRowneybury House , also known as Beckingham Palace , is a Grade II listed building in England that was previously owned by footballer David Beckham and singer and businesswoman Victoria Beckham. The name \"Beckingham Palace\" is a portmanteau of Beckham and Buckingham Palace."
+}

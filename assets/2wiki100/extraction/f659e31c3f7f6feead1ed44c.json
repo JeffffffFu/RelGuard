@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Face à l'Océan": "WORK_OF_ART",
+    "René Leprince": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Face à l'Océan",
+      "relation": "directed_by",
+      "object": "René Leprince",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 44,
+          "char_start": 59,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "France (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Face à l'Océan",
+        "located_in",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Face à l'Océan\nFace à l'Océan is a 1920 French silent film directed by René Leprince.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Face à l'Océan\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"France\", \"type\": \"GPE\"},\n    {\"name\": \"René Leprince\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Face à l'Océan\",\n      \"relation\": \"located_in\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"French\"}\n      ]\n    },\n    {\n      \"subject\": \"Face à l'Océan\",\n      \"relation\": \"directed_by\",\n      \"object\": \"René Leprince\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    }\n  ]\n}"
+}

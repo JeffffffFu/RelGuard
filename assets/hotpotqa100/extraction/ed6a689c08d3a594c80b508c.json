@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Reef Hawaiian Pro": "EVENT",
+    "North Shore": "LOC",
+    "Oahu": "GPE",
+    "Hawaii": "GPE",
+    "Triple Crown of Surfing": "EVENT",
+    "ASP World Tour": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Reef Hawaiian Pro",
+      "relation": "located_in",
+      "object": "North Shore",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "held annually on",
+          "line_start": 41,
+          "char_start": 59,
+          "ambiguous": false,
+          "relation_mention": "held annually on",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "North Shore",
+        "located_in",
+        "Oahu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Oahu",
+        "located_in",
+        "Hawaii"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Reef Hawaiian Pro",
+        "works_for",
+        "Triple Crown of Surfing"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Reef Hawaiian Pro",
+        "critical_for",
+        "ASP World Tour"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Reef Hawaiian Pro\nThe Reef Hawaiian Pro is a surfing event held annually on the North Shore, Oahu, Hawaii. It is currently the first leg of the Triple Crown of Surfing. Surfers compete for a share of $135,000 (men) or $35,000 (women) prize money. Since it carries a 6-star rating, the event is critical for those who want to qualify for the ASP World Tour.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Reef Hawaiian Pro\", \"type\": \"EVENT\"},\n    {\"name\": \"North Shore\", \"type\": \"LOC\"},\n    {\"name\": \"Oahu\", \"type\": \"GPE\"},\n    {\"name\": \"Hawaii\", \"type\": \"GPE\"},\n    {\"name\": \"Triple Crown of Surfing\", \"type\": \"EVENT\"},\n    {\"name\": \"ASP World Tour\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Reef Hawaiian Pro\",\n      \"relation\": \"located_in\",\n      \"object\": \"North Shore\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"held annually on\"}\n      ]\n    },\n    {\n      \"subject\": \"North Shore\",\n      \"relation\": \"located_in\",\n      \"object\": \"Oahu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the North Shore, Oahu,\"}\n      ]\n    },\n    {\n      \"subject\": \"Oahu\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hawaii\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Oahu, Hawaii.\"}\n      ]\n    },\n    {\n      \"subject\": \"Reef Hawaiian Pro\",\n      \"relation\": \"works_for\",\n      \"object\": \"Triple Crown of Surfing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is currently the first leg of the\"}\n      ]\n    },\n    {\n      \"subject\": \"Reef Hawaiian Pro\",\n      \"relation\": \"critical_for\",\n      \"object\": \"ASP World Tour\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"critical for those who want to qualify for the\"}\n      ]\n    }\n  ]\n}"
+}

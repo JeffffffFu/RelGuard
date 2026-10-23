@@ -1,0 +1,56 @@
+{
+  "entities": {
+    "Marie of Artois": "PERSON",
+    "Philip of Artois": "PERSON",
+    "Blanche of Brittany": "PERSON",
+    "Méraude": "FAC",
+    "John the Blind": "PERSON",
+    "Bohemia": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Marie of Artois",
+      "relation": "daughter_of",
+      "object": "Philip of Artois",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the fourth daughter of Philip of Artois"
+        }
+      ]
+    },
+    {
+      "subject": "Marie of Artois",
+      "relation": "purchased",
+      "object": "Méraude",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "she purchased it from John the Blind"
+        }
+      ]
+    },
+    {
+      "subject": "John the Blind",
+      "relation": "king_of",
+      "object": "Bohemia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from John the Blind, King of Bohemia"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marie of Artois",
+        "daughter_of",
+        "Blanche of Brittany"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Marie of Artois\nMarie of Artois (French: Marie d'Artois, Dutch: Maria van Artesië.) Born in 1291, was the fourth daughter of Philip of Artois and Blanche of Brittany. She became the Lady of Méraude (Merode) when she purchased it from John the Blind, King of Bohemia, in 1342."
+}

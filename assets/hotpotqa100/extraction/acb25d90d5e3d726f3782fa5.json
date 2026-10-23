@@ -1,0 +1,112 @@
+{
+  "entities": {
+    "Kızılay Milli İrade Meydanı": "location",
+    "Kızılay Square": "location",
+    "Hürriyet Meydanı": "location",
+    "Ankara": "location",
+    "Turkey": "location",
+    "Ankara Metropolitan Municipality": "organization",
+    "15 Temmuz Kızılay Demokrasi Meydanı": "location",
+    "15 Temmuz": "event",
+    "27 May 1960 coup d'état": "event",
+    "15 July 2016": "event"
+  },
+  "triples": [
+    {
+      "subject": "Kızılay Milli İrade Meydanı",
+      "relation": "formerly_named",
+      "object": "Kızılay Square",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "originally Kızılay Square (Turkish: \"Kızılay Meydanı\")"
+        }
+      ]
+    },
+    {
+      "subject": "Kızılay Milli İrade Meydanı",
+      "relation": "renamed_as",
+      "object": "Hürriyet Meydanı",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "it was formally renamed as Hürriyet Meydanı (Liberty Square)"
+        }
+      ]
+    },
+    {
+      "subject": "Ankara Metropolitan Municipality",
+      "relation": "decided_on",
+      "object": "15 Temmuz Kızılay Demokrasi Meydanı",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Ankara Metropolitan Municipality initially decided on 26 July 2016 to rename the square as 15 Temmuz Kızılay Demokrasi Meydanı"
+        }
+      ]
+    },
+    {
+      "subject": "Kızılay Milli İrade Meydanı",
+      "relation": "located_in",
+      "object": "Ankara",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is one of the most important centers and junction points of Ankara, Turkey"
+        }
+      ]
+    },
+    {
+      "subject": "Ankara",
+      "relation": "located_in",
+      "object": "Turkey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is one of the most important centers and junction points of Ankara, Turkey"
+        }
+      ]
+    },
+    {
+      "subject": "15 Temmuz",
+      "relation": "related_to",
+      "object": "15 July 2016",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Following the failed coup attempt of 15 July 2016"
+        }
+      ]
+    },
+    {
+      "subject": "27 May 1960 coup d'état",
+      "relation": "related_to",
+      "object": "Hürriyet Meydanı",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "After the 27 May 1960 coup d'état it was formally renamed as Hürriyet Meydanı"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hürriyet Meydanı",
+        "popularly_used_as",
+        "Kızılay Meydanı"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "15 Temmuz Kızılay Demokrasi Meydanı",
+        "renamed_as",
+        "15 Temmuz Kızılay Milli İrade Meydanı"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "15 Temmuz Kızılay Milli İrade Meydanı\nJuly 15th Kızılay National Will Square, originally Kızılay Square (Turkish: \"Kızılay Meydanı\"), is one of the most important centers and junction points of Ankara, Turkey. After the 27 May 1960 coup d'état it was formally renamed as Hürriyet Meydanı (Liberty Square) but the popular use of \"Kızılay Meydanı\" continued. Following the failed coup attempt of 15 July 2016, Ankara Metropolitan Municipality initially decided on 26 July 2016 to rename the square as 15 Temmuz Kızılay Demokrasi Meydanı (July 15th Kızılay Democracy Square), which was later amended as 15 Temmuz Kızılay Milli İrade Meydanı (July 15th Kızılay National Will Square) on 9 August 2016."
+}

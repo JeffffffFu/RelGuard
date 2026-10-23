@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "O'Shaughnessy's Boy": "WORK_OF_ART",
+    "Wallace Beery": "PERSON",
+    "Jackie Cooper": "PERSON",
+    "Richard Boleslawski": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "O'Shaughnessy's Boy",
+      "relation": "stars",
+      "object": "Wallace Beery",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 35,
+          "char_start": 55,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "O'Shaughnessy's Boy",
+      "relation": "directed_by",
+      "object": "Richard Boleslawski",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 80,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "O'Shaughnessy's Boy",
+        "stars",
+        "Jackie Cooper"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "O'Shaughnessy's Boy\nO'Shaughnessy's Boy is a 1935 film starring Wallace Beery and Jackie Cooper and directed by Richard Boleslawski.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"O'Shaughnessy's Boy\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Wallace Beery\", \"type\": \"PERSON\"},\n    {\"name\": \"Jackie Cooper\", \"type\": \"PERSON\"},\n    {\"name\": \"Richard Boleslawski\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"O'Shaughnessy's Boy\",\n      \"relation\": \"stars\",\n      \"object\": \"Wallace Beery\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"O'Shaughnessy's Boy\",\n      \"relation\": \"stars\",\n      \"object\": \"Jackie Cooper\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Wallace Beery and Jackie Cooper\"}\n      ]\n    },\n    {\n      \"subject\": \"O'Shaughnessy's Boy\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Richard Boleslawski\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    }\n  ]\n}"
+}

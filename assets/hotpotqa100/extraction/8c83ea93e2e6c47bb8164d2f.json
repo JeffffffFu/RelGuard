@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "fictional_actor": "entity",
+    "fictional_movie_or_play": "entity",
+    "real_famous_actor": "entity",
+    "fictional_person": "entity"
+  },
+  "triples": [
+    {
+      "subject": "fictional_movie_or_play",
+      "relation": "features",
+      "object": "fictional_actor",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a fictional movie or play"
+        }
+      ]
+    },
+    {
+      "subject": "fictional_actor",
+      "relation": "appears_in",
+      "object": "fictional_movie_or_play",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a fictional actor appears"
+        }
+      ]
+    },
+    {
+      "subject": "real_famous_actor",
+      "relation": "plays_role_of",
+      "object": "fictional_person",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "a real, famous actor plays the role of a fictional person"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "fictional_person",
+        "is_also",
+        "actor"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "List of fictional actors\nFictional stories sometimes feature a fictional movie or play. In these cases, occasionally, a fictional actor appears. In movies, it is not infrequent that a real, famous actor plays the role of a fictional person who is also an actor."
+}

@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Guai ai vinti": "WORK_OF_ART",
+    "Raffaello Matarazzo": "PERSON",
+    "Annie Vivanti": "PERSON",
+    "Vae Victis": "WORK_OF_ART",
+    "Italian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Guai ai vinti",
+      "relation": "directed_by",
+      "object": "Raffaello Matarazzo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 78,
+          "char_start": 92,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Guai ai vinti",
+      "relation": "based_on",
+      "object": "Vae Victis",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 117,
+          "char_start": 131,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Guai ai vinti",
+      "relation": "has_nationality",
+      "object": "Italian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Italian",
+          "line_start": 55,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "Italian",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vae Victis",
+        "written_by",
+        "Annie Vivanti"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Guai ai vinti\nGuai ai vinti (\"Woe to the Vanquished Ones\") is a 1954 Italian melodrama film directed by Raffaello Matarazzo. It is based on the novel \"Vae Victis\" by Annie Vivanti."
+}

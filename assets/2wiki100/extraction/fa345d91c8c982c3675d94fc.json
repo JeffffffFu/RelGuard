@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Volavérunt": "WORK_OF_ART",
+    "1999": "EVENT",
+    "Spain": "GPE",
+    "Bigas Luna": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Volavérunt",
+      "relation": "directed_by",
+      "object": "Bigas Luna",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 58,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Volavérunt",
+      "relation": "located_in",
+      "object": "Spain",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "French-Spanish",
+          "line_start": 21,
+          "char_start": 32,
+          "ambiguous": false,
+          "relation_mention": "French-Spanish",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "France (GPE)",
+        "Spain (country) (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Volavérunt",
+        "located_in",
+        "Spain (country)"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Volavérunt",
+        "located_in",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Volavérunt",
+        "located_in",
+        "1999"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Volavérunt\nVolavérunt is a 1999 French-Spanish historical drama film directed by Bigas Luna. It is set in Spain at the beginning of the nineteenth century."
+}

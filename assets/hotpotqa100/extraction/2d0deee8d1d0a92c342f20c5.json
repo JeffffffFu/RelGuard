@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Stefan Edberg": "Person",
+    "Pete Sampras": "Person",
+    "Michael Chang": "Person",
+    "John McEnroe": "Person",
+    "Jimmy Connors": "Person",
+    "1992 US Open": "Event",
+    "Men's Singles": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Stefan Edberg",
+      "relation": "defeated",
+      "object": "Pete Sampras",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "defeating Pete Sampras"
+        }
+      ]
+    },
+    {
+      "subject": "Stefan Edberg",
+      "relation": "retained",
+      "object": "Men's Singles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "retained his title"
+        }
+      ]
+    },
+    {
+      "subject": "Stefan Edberg",
+      "relation": "won",
+      "object": "1992 US Open",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to win the men's singles title at the 1992 US Open"
+        }
+      ]
+    },
+    {
+      "subject": "Stefan Edberg",
+      "relation": "won",
+      "object": "Michael Chang",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Edberg won in five sets"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John McEnroe",
+        "played",
+        "Grand Slams"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jimmy Connors",
+        "played",
+        "Grand Slams"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "1992 US Open – Men's Singles\nStefan Edberg was the defending champion and retained his title, defeating Pete Sampras 3–6, 6–4, 7–6, 6–2 in the final to win the men's singles title at the 1992 US Open. The semifinal between Edberg and Michael Chang was a battle wherein Edberg won in five sets after 5 hours and 26 minutes, then the longest match in the Open Era. This is also where John McEnroe and Jimmy Connors played their last Grand Slams."
+}

@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Jules White": "PERSON",
+    "Julius Weiss": "PERSON",
+    "The Three Stooges": "ORG",
+    "American": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Hungary (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Jules White",
+        "born_as",
+        "Julius Weiss"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jules White",
+        "born_in",
+        "Hungary"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jules White",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jules White",
+        "directed",
+        "The Three Stooges"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Jules White\nJules White( born Julius Weiss; 17 September 190030 April 1985) was a Hungarian- born American film director and producer best known for his short- subject comedies starring The Three Stooges.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Jules White\", \"type\": \"PERSON\"},\n    {\"name\": \"Julius Weiss\", \"type\": \"PERSON\"},\n    {\"name\": \"Hungary\", \"type\": \"GPE\"},\n    {\"name\": \"The Three Stooges\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Jules White\",\n      \"relation\": \"born_as\",\n      \"object\": \"Julius Weiss\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"( born Julius Weiss;\"}\n      ]\n    },\n    {\n      \"subject\": \"Jules White\",\n      \"relation\": \"born_in\",\n      \"object\": \"Hungary\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Hungarian- born\"}\n      ]\n    },\n    {\n      \"subject\": \"Jules White\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    },\n    {\n      \"subject\": \"Jules White\",\n      \"relation\": \"directed\",\n      \"object\": \"The Three Stooges\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"best known for his short- subject comedies starring\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "Qwirkle": "game",
+    "Susan McKinley Ross": "person",
+    "MindWare": "company",
+    "Outset Media": "company",
+    "Rummikub": "game",
+    "Scrabble": "game",
+    "Qwirkle Cubes": "game",
+    "Spiel des Jahres": "award"
+  },
+  "triples": [
+    {
+      "subject": "Qwirkle",
+      "relation": "designed_by",
+      "object": "Susan McKinley Ross",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "designed by Susan McKinley Ross"
+        }
+      ]
+    },
+    {
+      "subject": "Qwirkle",
+      "relation": "published_by",
+      "object": "MindWare",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "published by MindWare"
+        }
+      ]
+    },
+    {
+      "subject": "Qwirkle",
+      "relation": "considered_by",
+      "object": "MindWare",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "considered by MindWare"
+        }
+      ]
+    },
+    {
+      "subject": "Qwirkle",
+      "relation": "won",
+      "object": "Spiel des Jahres",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "won the Spiel des Jahres"
+        }
+      ]
+    },
+    {
+      "subject": "Qwirkle",
+      "relation": "shares_characteristics_with",
+      "object": "Rummikub",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "shares some characteristics with the games \"Rummikub\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Qwirkle",
+        "distributed_in",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Qwirkle Cubes",
+        "released_by",
+        "Mindware"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Qwirkle",
+        "shares_characteristics_with",
+        "Scrabble"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Qwirkle\nQwirkle is a tile-based game for 2 to 4 players, designed by Susan McKinley Ross and published by MindWare. Qwirkle shares some characteristics with the games \"Rummikub\" and \"Scrabble\". It is distributed in Canada by game and puzzle company, Outset Media. Qwirkle is considered by MindWare to be its most awarded game of all time. In 2011, Qwirkle won the Spiel des Jahres, widely considered the most prestigious award in the board and card game industry. A sequel, Qwirkle Cubes, was released by Mindware in 2009."
+}

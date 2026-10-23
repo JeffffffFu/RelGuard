@@ -1,0 +1,120 @@
+{
+  "entities": {
+    "Melora Walters": "PERSON",
+    "American": "NORP",
+    "Wanda Henrickson": "PERSON",
+    "Big Love": "WORK_OF_ART",
+    "Paul Thomas Anderson": "PERSON",
+    "Boogie Nights": "WORK_OF_ART",
+    "Magnolia": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Melora Walters",
+      "relation": "born_on",
+      "object": "American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is an American",
+          "line_start": 39,
+          "char_start": 54,
+          "ambiguous": false,
+          "relation_mention": "is an American",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Melora Walters",
+      "relation": "played",
+      "object": "Wanda Henrickson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "She played",
+          "line_start": 63,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "She played",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Wanda Henrickson",
+      "relation": "appears_in",
+      "object": "Big Love",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the television series",
+          "line_start": 91,
+          "char_start": 106,
+          "ambiguous": false,
+          "relation_mention": "in the television series",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Melora Walters",
+      "relation": "starred_in",
+      "object": "Boogie Nights",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "including",
+          "line_start": 182,
+          "char_start": 197,
+          "ambiguous": false,
+          "relation_mention": "including",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Boogie Nights",
+      "relation": "directed_by",
+      "object": "Paul Thomas Anderson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Paul Thomas Anderson's films",
+          "line_start": 152,
+          "char_start": 167,
+          "ambiguous": false,
+          "relation_mention": "Paul Thomas Anderson's films",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Magnolia",
+      "relation": "directed_by",
+      "object": "Paul Thomas Anderson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Paul Thomas Anderson's films",
+          "line_start": 152,
+          "char_start": 167,
+          "ambiguous": false,
+          "relation_mention": "Paul Thomas Anderson's films",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Melora Walters",
+        "starred_in",
+        "Magnolia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Melora Walters\nMelora Walters( born October 21, 1959) is an American actress. She played Wanda Henrickson in the television series\" Big Love\". She has also starred in Paul Thomas Anderson's films, including\" Boogie Nights\"( 1997) and\" Magnolia\"( 1999)."
+}

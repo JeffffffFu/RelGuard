@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Glorious Revolution": "EVENT",
+    "Scotland": "GPE",
+    "Glorious Revolution or Revolution of 1688": "EVENT",
+    "British kingdoms": "GPE",
+    "Stuart monarchy": "ORG",
+    "England": "GPE",
+    "James VII of Scotland and II of England": "PERSON",
+    "Ireland": "GPE",
+    "Mary": "PERSON",
+    "William of Orange": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "England (throne) (GPE)",
+        "Scotland (throne) (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Glorious Revolution",
+        "located_in",
+        "Scotland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Glorious Revolution in Scotland",
+        "was_part_of",
+        "Glorious Revolution or Revolution of 1688"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Glorious Revolution or Revolution of 1688",
+        "located_in",
+        "British kingdoms"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Stuart monarchy",
+        "works_for",
+        "British kingdoms"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "It",
+        "began_in",
+        "England"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James VII of Scotland and II of England",
+        "removed_from",
+        "England (throne)"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James VII of Scotland and II of England",
+        "removed_from",
+        "Scotland (throne)"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James VII of Scotland and II of England",
+        "removed_from",
+        "Ireland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "James VII of Scotland and II of England",
+        "replaced_by",
+        "Mary"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "James VII of Scotland and II of England",
+        "replaced_by",
+        "William of Orange"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Glorious Revolution in Scotland\nThe Glorious Revolution in Scotland was part of a wider change of regime, known as the Glorious Revolution or Revolution of 1688, in the British kingdoms of the Stuart monarchy in 1688–89. It began in England and saw the removal of the Catholic James VII of Scotland and II of England from the thrones of England, Scotland and Ireland and his replacement with his Protestant daughter Mary and her husband William of Orange.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Glorious Revolution\", \"type\": \"EVENT\"},\n    {\"name\": \"Scotland\", \"type\": \"GPE\"},\n    {\"name\": \"Glorious Revolution or Revolution of 1688\", \"type\": \"EVENT\"},\n    {\"name\": \"British kingdoms\", \"type\": \"GPE\"},\n    {\"name\": \"Stuart monarchy\", \"type\": \"ORG\"},\n    {\"name\": \"England\", \"type\": \"GPE\"},\n    {\"name\": \"James VII of Scotland and II of England\", \"type\": \"PERSON\"},\n    {\"name\": \"England (throne)\", \"type\": \"GPE\"},\n    {\"name\": \"Scotland (throne)\", \"type\": \"GPE\"},\n    {\"name\": \"Ireland\", \"type\": \"GPE\"},\n    {\"name\": \"Mary\", \"type\": \"PERSON\"},\n    {\"name\": \"William of Orange\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Glorious Revolution\",\n      \"relation\": \"located_in\",\n      \"object\": \"Scotland\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"in Scotland\"}\n      ]\n    },\n    {\n      \"subject\": \"Glorious Revolution in Scotland\",\n      \"relation\": \"was_part_of\",\n      \"object\": \"Glorious Revolution or Revolution of 1688\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was part of\"}\n      ]\n    },\n    {\n      \"subject\": \"Glorious Revolution or Revolution of 1688\",\n      \"relation\": \"located_in\",\n      \"object\": \"British kingdoms\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the British kingdoms\"}\n      ]\n    },\n    {\n      \"subject\": \"Stuart monarchy\",\n      \"relation\": \"works_for\",\n      \"object\": \"British kingdoms\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the British kingdoms of the Stuart monarchy\"}\n      ]\n    },\n    {\n      \"subject\": \"It\",\n      \"relation\": \"began_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"began in England\"}\n      ]\n    },\n    {\n      \"subject\": \"James VII of Scotland and II of England\",\n      \"relation\": \"removed_from\",\n      \"object\": \"England (throne)\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"removal of the Catholic James VII of Scotland and II of England from the thrones of England\"}\n      ]\n    },\n    {\n      \"subject\": \"James VII of Scotland and II of England\",\n      \"relation\": \"removed_from\",\n      \"object\": \"Scotland (throne)\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"removal of the Catholic James VII of Scotland and II of England from the thrones of England, Scotland\"}\n      ]\n    },\n    {\n      \"subject\": \"James VII of Scotland and II of England\",\n      \"relation\": \"removed_from\",\n      \"object\": \"Ireland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"removal of the Catholic James VII of Scotland and II of England from the thrones of England, Scotland and Ireland\"}\n      ]\n    },\n    {\n      \"subject\": \"James VII of Scotland and II of England\",\n      \"relation\": \"replaced_by\",\n      \"object\": \"Mary\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"his replacement with his Protestant daughter Mary\"}\n      ]\n    },\n    {\n      \"subject\": \"James VII of Scotland and II of England\",\n      \"relation\": \"replaced_by\",\n      \"object\": \"William of Orange\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and her husband William of Orange\"}\n      ]\n    }\n  ]\n}"
+}

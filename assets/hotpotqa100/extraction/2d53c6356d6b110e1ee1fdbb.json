@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Tenko": "TV series",
+    "BBC": "organization",
+    "ABC": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Tenko",
+      "relation": "co_produced_by",
+      "object": "BBC",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "co-produced by the BBC"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tenko",
+        "co_produced_by",
+        "ABC"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Tenko (TV series)\nTenko was a television drama, co-produced by the BBC and the ABC."
+}

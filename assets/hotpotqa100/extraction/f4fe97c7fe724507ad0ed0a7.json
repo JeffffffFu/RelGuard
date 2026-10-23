@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Freek van de Graaff": "Person",
+    "Marius Klumperbeek": "Person",
+    "Lex Mullink": "Person",
+    "Bobbie van de Graaf": "Person",
+    "Jan van de Graaff": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Freek van de Graaff",
+      "relation": "teammates_with",
+      "object": "Marius Klumperbeek",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "His team mates were Marius Klumperbeek (cox)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Freek van de Graaff",
+        "won",
+        "bronze medal"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Freek van de Graaff",
+        "teammates_with",
+        "Lex Mullink"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Freek van de Graaff",
+        "teammates_with",
+        "Bobbie van de Graaf"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Freek van de Graaff",
+        "teammates_with",
+        "Jan van de Graaff"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Marius Klumperbeek",
+        "born_in",
+        "1944"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lex Mullink",
+        "born_in",
+        "1944"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bobbie van de Graaf",
+        "born_in",
+        "1944"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jan van de Graaff",
+        "born_in",
+        "1944"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Freek van de Graaff\nFrederik Robbert \"Freek\" van de Graaff (20 February 1944 – 24 June 2009) was a Dutch rower who won a bronze medal in the coxed fours at the 1964 Summer Olympics. His team mates were Marius Klumperbeek (cox), Lex Mullink, Bobbie van de Graaf and Jan van de Graaff. The three \"van de Graaf(f)s\" were all born in 1944."
+}

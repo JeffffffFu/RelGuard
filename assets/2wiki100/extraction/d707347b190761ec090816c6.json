@@ -1,0 +1,135 @@
+{
+  "entities": {
+    "Dead Mine": "WORK_OF_ART",
+    "Steven Sheil": "PERSON",
+    "Ario Bayu": "PERSON",
+    "Joe Taslim": "PERSON",
+    "Infinite Frameworks": "ORG",
+    "Meraih Mimpi": "WORK_OF_ART",
+    "Batam Island": "GPE",
+    "English": "LANGUAGE"
+  },
+  "triples": [
+    {
+      "subject": "Dead Mine",
+      "relation": "directed_by",
+      "object": "Steven Sheil",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 61,
+          "char_start": 71,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Dead Mine",
+      "relation": "starring",
+      "object": "Ario Bayu",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 90,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Dead Mine",
+      "relation": "starring",
+      "object": "Joe Taslim",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 90,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Dead Mine",
+      "relation": "produced_by",
+      "object": "Infinite Frameworks",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 138,
+          "char_start": 148,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Infinite Frameworks",
+      "relation": "produced",
+      "object": "Meraih Mimpi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 138,
+          "char_start": 148,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Dead Mine",
+      "relation": "language",
+      "object": "English",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "English- language",
+          "line_start": 20,
+          "char_start": 30,
+          "ambiguous": false,
+          "relation_mention": "English- language",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Indonesia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Dead Mine",
+        "located_in",
+        "Batam Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dead Mine",
+        "located_in",
+        "Indonesia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Dead Mine\nDead Mine is a 2012 English- language Indonesian horror film directed by Steven Sheil and starring Ario Bayu and Joe Taslim. The Film was produced by Infinite Frameworks, the production house before working on the musical animated film\" Meraih Mimpi\"( Achieved a dream) in 2009. Filming and production of the film was done in the filming facility integrated in Batam Island."
+}

@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Søren Rasted": "Person",
+    "Søren Nystrøm Rasted": "Person",
+    "Blovstrød": "Location",
+    "Denmark": "Location",
+    "Aqua": "Organization",
+    "Lene Nystrøm": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Søren Rasted",
+      "relation": "born_in",
+      "object": "Blovstrød",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born Søren Rasted on 13 June 1969 in Blovstrød"
+        }
+      ]
+    },
+    {
+      "subject": "Søren Rasted",
+      "relation": "born_in",
+      "object": "Denmark",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born Søren Rasted on 13 June 1969 in Blovstrød, Denmark"
+        }
+      ]
+    },
+    {
+      "subject": "Søren Rasted",
+      "relation": "member_of",
+      "object": "Aqua",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one of the four members of Danish eurodance group Aqua"
+        }
+      ]
+    },
+    {
+      "subject": "Søren Rasted",
+      "relation": "married_to",
+      "object": "Lene Nystrøm",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was married to the Aqua vocalist Lene Nystrøm"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Søren Rasted",
+        "plays",
+        "keyboard"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Søren Rasted",
+        "plays",
+        "guitar"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Søren Rasted",
+        "sings",
+        "backing vocals"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Søren Rasted\nSøren Nystrøm Rasted (born Søren Rasted on 13 June 1969 in Blovstrød, Denmark) is a Danish musician, singer, songwriter and record producer. He plays keyboard, guitar and sings backing vocals. He is one of the four members of Danish eurodance group Aqua, and was married to the Aqua vocalist Lene Nystrøm."
+}

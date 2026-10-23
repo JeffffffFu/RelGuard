@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "American Humane Association": "ORG",
+    "American Humane": "ORG",
+    "International Humane Association": "ORG",
+    "Hollywood": "GPE",
+    "Washington D.C.": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "American Humane Association",
+      "relation": "founded",
+      "object": "American Humane",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "an organization founded in 1877"
+        }
+      ]
+    },
+    {
+      "subject": "American Humane",
+      "relation": "previously_called",
+      "object": "International Humane Association",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It was previously called the International Humane Association"
+        }
+      ]
+    },
+    {
+      "subject": "American Humane",
+      "relation": "located_in",
+      "object": "Washington D.C.",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "American Humane is currently headquartered in Washington D.C."
+        }
+      ]
+    },
+    {
+      "subject": "American Humane",
+      "relation": "became",
+      "object": "Hollywood",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "it became the sole monitoring body for the humane treatment of animals on the sets of Hollywood films"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "American Humane",
+        "best_known_for",
+        "No Animals Were Harmed"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "American Humane",
+        "run",
+        "Red Star Animal Emergency Services"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "American Humane",
+        "formed",
+        "Farm Animal Services program"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "American Humane Association\nAmerican Humane (AH) is an organization founded in 1877, committed to ensuring the safety, welfare and well-being of animals. American Humane's leadership programs are first to serve in promoting and nurturing the bonds between animals and humans. It was previously called the International Humane Association, before changing its name in 1878. In 1940, it became the sole monitoring body for the humane treatment of animals on the sets of Hollywood films and other broadcast productions. American Humane is best known for its trademarked certification \"No Animals Were Harmed\", which appears at the end of film or television credits. It has also run the Red Star Animal Emergency Services since 1916. In 2000, American Humane formed the Farm Animal Services program, an animal welfare label system for food products. American Humane is currently headquartered in Washington D.C. It is a section 501(c)(3) nonprofit organization."
+}

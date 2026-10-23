@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Operation Blue Hearts": "EVENT",
+    "Korean War": "EVENT",
+    "Pohang": "GPE",
+    "First Cavalry Division": "ORG",
+    "American units": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Operation Blue Hearts",
+      "relation": "occurred_during",
+      "object": "Korean War",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "During the Korean War",
+          "line_start": 0,
+          "char_start": 22,
+          "ambiguous": false,
+          "relation_mention": "During the Korean War",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Operation Blue Hearts",
+      "relation": "was_conducted_at",
+      "object": "Pohang",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "at Pohang",
+          "line_start": 90,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "at Pohang",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Operation Blue Hearts",
+      "relation": "was_conducted_by",
+      "object": "First Cavalry Division",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "by the First Cavalry Division",
+          "line_start": 116,
+          "char_start": 138,
+          "ambiguous": false,
+          "relation_mention": "by the First Cavalry Division",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "North Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Pohang",
+        "located_in",
+        "North Korea"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "American units",
+        "joined",
+        "defenders"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Operation Blue Hearts\nDuring the Korean War, Operation Bluehearts was the American amphibious landing conducted at Pohang on 18 July 1950 by the First Cavalry Division. The town was still in friendly hands, but was in the path of the rapid North Korean advance. The American units quickly joined the defenders."
+}

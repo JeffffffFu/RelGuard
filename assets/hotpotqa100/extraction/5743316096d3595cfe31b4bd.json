@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Pelletron": "PRODUCT",
+    "Van de Graaff generator": "PRODUCT",
+    "SF": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Pelletron",
+      "relation": "is_a_type_of",
+      "object": "Van de Graaff generator",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "A pelletron is a type of electrostatic particle accelerator similar to a Van de Graaff generator."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pelletron",
+        "produces",
+        "voltages"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pelletron",
+        "has_reached",
+        "DC voltage"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pelletron",
+        "produced",
+        "ion beams"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pelletron",
+        "is_enclosed_by",
+        "pressure vessel"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "pressure vessel",
+        "is_filled_with",
+        "insulating gas"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pelletron",
+        "uses",
+        "mechanical transportation system"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Pelletron\nA pelletron is a type of electrostatic particle accelerator similar to a Van de Graaff generator. Pelletrons have been built in many sizes, from small units producing voltages up to 500 kilovolts (kV) and beam energies up to 1 megaelectronvolt (MeV) of kinetic energy, to the largest system, which has reached a DC voltage of over 25 megavolts and produced ion beams with energies over 900 MeV. Generating electric charge is done by a mechanical transportation system made of a chain of pellets (short conductive tubes connected by links made of insulating material), that is used to build up high voltages on the Pelletron terminal. The system is enclosed by a pressure vessel filled with insulating gas, such as SF (sulfur hexafluoride), and an evacuated beamline. The potential difference between the terminal and ground is used to accelerate several kinds of particles, such as positrons, electrons and negative and positive ions."
+}

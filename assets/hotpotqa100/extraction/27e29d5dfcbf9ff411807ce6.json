@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "Shadow on the Land": "WORK_OF_ART",
+    "United States: It Can't Happen Here": "WORK_OF_ART",
+    "It Can't Happen Here": "WORK_OF_ART",
+    "Sinclair Lewis": "PERSON",
+    "Nedrick Young": "PERSON",
+    "Richard C. Sarafian": "PERSON",
+    "ABC": "ORG",
+    "United States": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Shadow on the Land",
+      "relation": "also_known_as",
+      "object": "United States: It Can't Happen Here",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also known as",
+          "line_start": 20,
+          "char_start": 39,
+          "ambiguous": false,
+          "relation_mention": "also known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Shadow on the Land",
+      "relation": "aired_on",
+      "object": "ABC",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "aired on",
+          "line_start": 103,
+          "char_start": 122,
+          "ambiguous": false,
+          "relation_mention": "aired on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Shadow on the Land",
+      "relation": "adapted_from",
+      "object": "It Can't Happen Here",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "adapted from",
+          "line_start": 124,
+          "char_start": 143,
+          "ambiguous": false,
+          "relation_mention": "adapted from",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Shadow on the Land",
+      "relation": "directed_by",
+      "object": "Richard C. Sarafian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 207,
+          "char_start": 226,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Shadow on the Land",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "It Can't Happen Here",
+        "written_by",
+        "Sinclair Lewis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Shadow on the Land",
+        "adapted_by",
+        "Nedrick Young"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Shadow on the Land",
+        "involves",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Shadow on the Land\nShadow on the Land, also known as United States: It Can't Happen Here, is a 1968 television film which aired on ABC. It was adapted from the Sinclair Lewis novel \"It Can't Happen Here\" by Nedrick Young, and directed by Richard C. Sarafian. The plot involves a President creating a fascist, totalitarian regime in the United States, and a resistance movement forming against it.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Shadow on the Land\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"United States: It Can't Happen Here\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"It Can't Happen Here\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Sinclair Lewis\", \"type\": \"PERSON\"},\n    {\"name\": \"Nedrick Young\", \"type\": \"PERSON\"},\n    {\"name\": \"Richard C. Sarafian\", \"type\": \"PERSON\"},\n    {\"name\": \"ABC\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Shadow on the Land\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"United States: It Can't Happen Here\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Shadow on the Land\",\n      \"relation\": \"is_a\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Shadow on the Land\",\n      \"relation\": \"aired_on\",\n      \"object\": \"ABC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"aired on\"}\n      ]\n    },\n    {\n      \"subject\": \"Shadow on the Land\",\n      \"relation\": \"adapted_from\",\n      \"object\": \"It Can't Happen Here\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"adapted from\"}\n      ]\n    },\n    {\n      \"subject\": \"It Can't Happen Here\",\n      \"relation\": \"written_by\",\n      \"object\": \"Sinclair Lewis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Sinclair Lewis\"}\n      ]\n    },\n    {\n      \"subject\": \"Shadow on the Land\",\n      \"relation\": \"adapted_by\",\n      \"object\": \"Nedrick Young\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by Nedrick Young\"}\n      ]\n    },\n    {\n      \"subject\": \"Shadow on the Land\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Richard C. Sarafian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Shadow on the Land\",\n      \"relation\": \"involves\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the United States\"}\n      ]\n    }\n  ]\n}"
+}

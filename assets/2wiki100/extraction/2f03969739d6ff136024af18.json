@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Je fais le mort": "film",
+    "Jean-Paul Salomé": "person",
+    "François Damiens": "person",
+    "Géraldine Nakache": "person",
+    "Lucien Jean-Baptiste": "person",
+    "Rome Film Festival": "event",
+    "Playing Dead": "title"
+  },
+  "triples": [
+    {
+      "subject": "Je fais le mort",
+      "relation": "written_and_directed_by",
+      "object": "Jean-Paul Salomé",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Jean-Paul Salomé"
+        }
+      ]
+    },
+    {
+      "subject": "Je fais le mort",
+      "relation": "stars",
+      "object": "François Damiens",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars François Damiens"
+        }
+      ]
+    },
+    {
+      "subject": "Je fais le mort",
+      "relation": "screened_at",
+      "object": "Rome Film Festival",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "screened at the Rome Film Festival"
+        }
+      ]
+    },
+    {
+      "subject": "Je fais le mort",
+      "relation": "under_title",
+      "object": "Playing Dead",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "under the title Playing Dead"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Je fais le mort",
+        "stars",
+        "Géraldine Nakache"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Je fais le mort",
+        "stars",
+        "Lucien Jean-Baptiste"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Je fais le mort\nJe fais le mort is a 2013 French comedy film written and directed by Jean-Paul Salomé. The film stars François Damiens, Géraldine Nakache and Lucien Jean-Baptiste. It was screened at the Rome Film Festival, under the title Playing Dead."
+}

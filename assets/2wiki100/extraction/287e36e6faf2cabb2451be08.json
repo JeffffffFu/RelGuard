@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Scaregivers": "Film",
+    "Jourdan Sebastian": "Person",
+    "Uro Q. dela Cruz": "Person",
+    "Wally Bayola": "Person",
+    "Jose Manalo": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Scaregivers",
+      "relation": "written_by",
+      "object": "Jourdan Sebastian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Jourdan Sebastian"
+        }
+      ]
+    },
+    {
+      "subject": "Scaregivers",
+      "relation": "directed_by",
+      "object": "Uro Q. dela Cruz",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Uro Q. dela Cruz"
+        }
+      ]
+    },
+    {
+      "subject": "Scaregivers",
+      "relation": "starring",
+      "object": "Wally Bayola",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Wally Bayola"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Scaregivers",
+        "starring",
+        "Jose Manalo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Scaregivers\nScaregivers is a 2008 Filipino horror- comedy film written by Jourdan Sebastian and directed by Uro Q. dela Cruz, starring Wally Bayola and Jose Manalo."
+}

@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Isabel Luísa": "PERSON",
+    "Peter II of Portugal": "PERSON",
+    "Maria Francisca of Savoy": "PERSON",
+    "Portugal": "GPE",
+    "John": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Isabel Luísa",
+      "relation": "daughter_of",
+      "object": "Peter II of Portugal",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the sole daughter of Peter II of Portugal"
+        }
+      ]
+    },
+    {
+      "subject": "Isabel Luísa",
+      "relation": "heir_presumptive_to",
+      "object": "Portugal",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the heir presumptive to the throne of Portugal"
+        }
+      ]
+    },
+    {
+      "subject": "Isabel Luísa",
+      "relation": "sibling_of",
+      "object": "John",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "when her half-brother John was born"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Isabel Luísa",
+        "daughter_of",
+        "Maria Francisca of Savoy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Isabel Luísa",
+        "styled_as",
+        "Princess of Beira"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Isabel Luísa, Princess of Beira\nInfanta Isabel Luísa of Portugal (6 January 1669 – 21 October 1690) was a Portuguese \"infanta\" and the sole daughter of Peter II of Portugal and his first wife and former sister-in-law Maria Francisca of Savoy. She was the heir presumptive to the throne of Portugal between 1668 and 1689, when her half-brother John was born. As such, she was styled Princess of Beira."
+}

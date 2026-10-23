@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Marcus Rashford": "PERSON",
+    "English": "NORP",
+    "Premier League": "ORG",
+    "Manchester United": "ORG",
+    "England national team": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Marcus Rashford",
+        "nationality",
+        "English"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marcus Rashford",
+        "plays_for",
+        "Manchester United"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marcus Rashford",
+        "plays_for",
+        "England national team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Manchester United",
+        "located_in",
+        "Premier League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Marcus Rashford\nMarcus Rashford (born 31 October 1997) is an English professional footballer who plays as a forward for Premier League club Manchester United and the England national team.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Marcus Rashford\", \"type\": \"PERSON\"},\n    {\"name\": \"English\", \"type\": \"NORP\"},\n    {\"name\": \"Premier League\", \"type\": \"ORG\"},\n    {\"name\": \"Manchester United\", \"type\": \"ORG\"},\n    {\"name\": \"England national team\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Marcus Rashford\",\n      \"relation\": \"nationality\",\n      \"object\": \"English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an English\"}\n      ]\n    },\n    {\n      \"subject\": \"Marcus Rashford\",\n      \"relation\": \"plays_for\",\n      \"object\": \"Manchester United\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"plays as a forward for Premier League club Manchester United\"}\n      ]\n    },\n    {\n      \"subject\": \"Marcus Rashford\",\n      \"relation\": \"plays_for\",\n      \"object\": \"England national team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and the England national team\"}\n      ]\n    },\n    {\n      \"subject\": \"Manchester United\",\n      \"relation\": \"located_in\",\n      \"object\": \"Premier League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Premier League club Manchester United\"}\n      ]\n    }\n  ]\n}"
+}

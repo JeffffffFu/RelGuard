@@ -1,0 +1,143 @@
+{
+  "entities": {
+    "Value America": "Company",
+    "Craig Winn": "Person",
+    "Rex Scatena": "Person",
+    "Charlottesville": "Location",
+    "Virginia": "Location",
+    "Microsoft": "Company",
+    "Paul Allen": "Person",
+    "Vulcan Ventures": "Company",
+    "FedEx": "Company",
+    "Frederick W. Smith": "Person",
+    "Wal-Mart": "Company",
+    "Dell": "Company"
+  },
+  "triples": [
+    {
+      "subject": "Value America",
+      "relation": "founded_by",
+      "object": "Craig Winn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "founded in Nevada in 1996 by Craig Winn"
+        }
+      ]
+    },
+    {
+      "subject": "Value America",
+      "relation": "relocated_to",
+      "object": "Charlottesville",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "relocated to Charlottesville, Virginia in February 1998"
+        }
+      ]
+    },
+    {
+      "subject": "Value America",
+      "relation": "relocated_to",
+      "object": "Virginia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "relocated to Charlottesville, Virginia in February 1998"
+        }
+      ]
+    },
+    {
+      "subject": "Value America",
+      "relation": "backed_by",
+      "object": "Microsoft",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "backed by Microsoft co-founder Paul Allen's Vulcan Ventures"
+        }
+      ]
+    },
+    {
+      "subject": "Value America",
+      "relation": "backed_by",
+      "object": "Vulcan Ventures",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "backed by Microsoft co-founder Paul Allen's Vulcan Ventures"
+        }
+      ]
+    },
+    {
+      "subject": "Value America",
+      "relation": "similar_to",
+      "object": "Wal-Mart",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "similar to those used by Wal-Mart"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Value America",
+        "founded",
+        "Nevada"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Value America",
+        "founded_by",
+        "Rex Scatena"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Value America",
+        "backed_by",
+        "FedEx"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Value America",
+        "backed_by",
+        "Frederick W. Smith"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Value America",
+        "involved_in",
+        "convergence commerce"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Value America",
+        "business_model",
+        "just-in-time model"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Value America",
+        "similar_to",
+        "Dell"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Value America\nValue America or VA was a dot-com company founded in Nevada in 1996 by Craig Winn and Rex Scatena, and relocated to Charlottesville, Virginia in February 1998. Its business model involved connecting customers on the Web directly to manufacturers, with the intent of providing better pricing and faster shipping (a just-in-time model similar to those used by Wal-Mart and Dell). Customers could order a wide range of products from VA's website, then VA would transmit the orders directly to the manufacturers, and the manufacturers would then package the products and ship them directly to the customer. Winn referred to this concept as \"convergence commerce\". Value America was backed by Microsoft co-founder Paul Allen's Vulcan Ventures and FedEx co-founder Frederick W. Smith."
+}

@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "Rwandan Revolution": "event",
+    "Rwanda": "location",
+    "Hutu": "ethnic_group",
+    "Tutsi": "ethnic_group",
+    "Belgium": "location",
+    "Tutsi monarchy": "government",
+    "Hutu-dominated republic": "government"
+  },
+  "triples": [
+    {
+      "subject": "Rwandan Revolution",
+      "relation": "occurred_in",
+      "object": "Rwanda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a period of ethnic violence in Rwanda"
+        }
+      ]
+    },
+    {
+      "subject": "Rwandan Revolution",
+      "relation": "occurred_between",
+      "object": "Hutu",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "between the Hutu and the Tutsi"
+        }
+      ]
+    },
+    {
+      "subject": "Rwandan Revolution",
+      "relation": "occurred_between",
+      "object": "Tutsi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "between the Hutu and the Tutsi"
+        }
+      ]
+    },
+    {
+      "subject": "Rwanda",
+      "relation": "transitioned_from",
+      "object": "Belgium",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "transition from a Belgian colony"
+        }
+      ]
+    },
+    {
+      "subject": "Rwanda",
+      "relation": "transitioned_to",
+      "object": "Hutu-dominated republic",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "to an independent Hutu-dominated republic"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rwandan Revolution",
+        "also_known_as",
+        "Social Revolution"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rwandan Revolution",
+        "also_known_as",
+        "Wind of Destruction"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rwanda",
+        "transitioned_from",
+        "Tutsi monarchy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Rwandan Revolution\nThe Rwandan Revolution, also known as the Social Revolution or Wind of Destruction (Kinyarwanda: \"muyaga\" ), was a period of ethnic violence in Rwanda from 1959 to 1961 between the Hutu and the Tutsi, two of the three ethnic groups in Rwanda. The revolution saw the country transition from a Belgian colony with a Tutsi monarchy to an independent Hutu-dominated republic."
+}

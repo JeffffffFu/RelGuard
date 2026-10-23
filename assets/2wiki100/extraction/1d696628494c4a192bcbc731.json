@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Raffaello Matarazzo": "PERSON",
+    "Rome": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Raffaello Matarazzo",
+      "relation": "was_born_in",
+      "object": "Rome",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Raffaello Matarazzo (Rome, 17 August 1909 – Rome, 17 May 1966)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Raffaello Matarazzo",
+        "was_a_filmmaker_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Raffaello Matarazzo\nRaffaello Matarazzo (Rome, 17 August 1909 – Rome, 17 May 1966) was an Italian filmmaker."
+}

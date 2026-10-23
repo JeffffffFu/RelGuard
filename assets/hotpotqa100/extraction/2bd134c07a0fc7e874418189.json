@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "Lenin Peak": "Mountain",
+    "Gorno-Badakhshan": "Region",
+    "Tajikistan": "Country",
+    "Kyrgyzstan": "Country",
+    "Ismoil Somoni Peak": "Mountain",
+    "Trans-Alay Range": "Mountain Range",
+    "Pamir Mountains": "Mountain Range",
+    "Kongur Tagh": "Mountain",
+    "Muztagh Ata": "Mountain"
+  },
+  "triples": [
+    {
+      "subject": "Lenin Peak",
+      "relation": "located_in",
+      "object": "Gorno-Badakhshan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Gorno-Badakhshan (GBAO)"
+        }
+      ]
+    },
+    {
+      "subject": "Lenin Peak",
+      "relation": "located_in",
+      "object": "Tajikistan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on the border of Tajikistan"
+        }
+      ]
+    },
+    {
+      "subject": "Lenin Peak",
+      "relation": "is_highest_in",
+      "object": "Trans-Alay Range",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the highest mountain in the Trans-Alay Range"
+        }
+      ]
+    },
+    {
+      "subject": "Lenin Peak",
+      "relation": "is_exceeded_by",
+      "object": "Ismoil Somoni Peak",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "it is exceeded only by Ismoil Somoni Peak"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lenin Peak",
+        "located_in",
+        "Kyrgyzstan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ismoil Somoni Peak",
+        "known_as",
+        "Stalin Peak"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kongur Tagh",
+        "is_higher_than",
+        "Tajik summits"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Muztagh Ata",
+        "is_higher_than",
+        "Tajik summits"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lenin Peak\nLenin Peak (Kyrgyz: Ленин Чокусу , \"Lenin Çoqusu\", لەنىن چوقۇسۇ; Russian: Пик Ленина , \"Pik Lenina\"; Tajik: қуллаи Ленин, \"qulla‘i Lenin/qullaji Lenin\" , renamed қуллаи Абӯалӣ ибни Сино (qulla‘i Abûalî ibni Sino) in July 2006), or Ibn Sina (Avicenna) Peak, rises to 7,134 metres (23,406 ft) in Gorno-Badakhshan (GBAO) on the border of Tajikistan and Kyrgyzstan, and is the second-highest point of both countries. It is considered one of the easiest 7000 m peaks in the world to climb and it has by far the most ascents of any 7000 m or higher peak on Earth, with every year seeing hundreds of climbers make their way to the summit. Lenin Peak is the highest mountain in the Trans-Alay Range of Central Asia, and in the Pamir Mountains in Tajikistan it is exceeded only by Ismoil Somoni Peak (7,495 m). It was thought to be the highest point in the Pamirs in Tajikistan until 1933, when Ismoil Somoni Peak (known as \"Stalin Peak\" at the time) was climbed and found to be more than 300 metres higher. Two mountains in the Pamirs in China, Kongur Tagh (7,649 m) and Muztagh Ata (7,546 m), are higher than the Tajik summits."
+}

@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Par la Fenetre": "WORK_OF_ART",
+    "Bourvil": "PERSON",
+    "Saint- Maurice Studios": "FAC",
+    "Paris": "GPE",
+    "French": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Par la Fenetre",
+      "relation": "stars",
+      "object": "Bourvil",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 44,
+          "char_start": 59,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Par la Fenetre",
+        "located_in",
+        "Paris"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Par la Fenetre",
+        "shot_at",
+        "Saint- Maurice Studios"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Par la Fenetre",
+        "has_nationality",
+        "French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Par la fenêtre\nPar la Fenetre is a 1948 French comedy film starring Bourvil. It was a sizeable box office hit. It was shot at the Saint- Maurice Studios in Paris.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Par la Fenetre\",\n      \"type\": \"WORK_OF_ART\"\n    },\n    {\n      \"name\": \"Bourvil\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Saint- Maurice Studios\",\n      \"type\": \"FAC\"\n    },\n    {\n      \"name\": \"Paris\",\n      \"type\": \"GPE\"\n    },\n    {\n      \"name\": \"French\",\n      \"type\": \"NORP\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Par la Fenetre\",\n      \"relation\": \"stars\",\n      \"object\": \"Bourvil\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"starring\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Par la Fenetre\",\n      \"relation\": \"located_in\",\n      \"object\": \"Paris\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in Paris\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Par la Fenetre\",\n      \"relation\": \"shot_at\",\n      \"object\": \"Saint- Maurice Studios\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"shot at the Saint- Maurice Studios\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Par la Fenetre\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"French\"\n        }\n      ]\n    }\n  ]\n}"
+}

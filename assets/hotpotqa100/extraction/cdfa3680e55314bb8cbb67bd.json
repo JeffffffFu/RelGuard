@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "The Casual Vacancy": "book",
+    "J. K. Rowling": "author",
+    "Little, Brown Book Group": "publisher",
+    "Harry Potter series": "book series"
+  },
+  "triples": [
+    {
+      "subject": "The Casual Vacancy",
+      "relation": "written_by",
+      "object": "J. K. Rowling",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by J. K. Rowling"
+        }
+      ]
+    },
+    {
+      "subject": "The Casual Vacancy",
+      "relation": "published_by",
+      "object": "Little, Brown Book Group",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "published worldwide by the Little, Brown Book Group"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Casual Vacancy",
+        "published_on",
+        "27 September 2012"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Casual Vacancy",
+        "released_on",
+        "23 July 2013"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "J. K. Rowling",
+        "first_publication_since",
+        "Harry Potter series"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "J. K. Rowling",
+        "first_novel_for",
+        "adult readership"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Casual Vacancy\nThe Casual Vacancy is a 2012 novel written by J. K. Rowling. The book was published worldwide by the Little, Brown Book Group on 27 September 2012. A paperback edition was released on 23 July 2013. It was Rowling's first publication since the \"Harry Potter\" series, her first apart from that series, and her first novel for adult readership."
+}

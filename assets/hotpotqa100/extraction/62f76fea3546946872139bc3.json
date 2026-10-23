@@ -1,0 +1,118 @@
+{
+  "entities": {
+    "Primer": "PRODUCT",
+    "firearm": "PRODUCT",
+    "pistol": "PRODUCT",
+    "rifle": "PRODUCT",
+    "shotgun shells": "PRODUCT",
+    "black powder": "PRODUCT",
+    "ignition source": "PRODUCT",
+    "slow match": "PRODUCT",
+    "flintlock": "PRODUCT",
+    "gun barrel": "PRODUCT",
+    "main charge": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Primer",
+      "relation": "is_a_component_of",
+      "object": "firearm",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the primer ( ) is a component of pistol and rifle cartridges, as well as shotgun shells."
+        }
+      ]
+    },
+    {
+      "subject": "Primer",
+      "relation": "is_a_component_of",
+      "object": "pistol",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the primer ( ) is a component of pistol and rifle cartridges, as well as shotgun shells."
+        }
+      ]
+    },
+    {
+      "subject": "Primer",
+      "relation": "is_a_component_of",
+      "object": "rifle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the primer ( ) is a component of pistol and rifle cartridges, as well as shotgun shells."
+        }
+      ]
+    },
+    {
+      "subject": "Primer",
+      "relation": "is_a_component_of",
+      "object": "shotgun shells",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the primer ( ) is a component of pistol and rifle cartridges, as well as shotgun shells."
+        }
+      ]
+    },
+    {
+      "subject": "black powder",
+      "relation": "used_in",
+      "object": "firearm",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Early primers were simply the same black powder used to fire the weapon"
+        }
+      ]
+    },
+    {
+      "subject": "ignition source",
+      "relation": "ignites",
+      "object": "Primer",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "where it could be ignited by an ignition source such as a slow match or a flintlock."
+        }
+      ]
+    },
+    {
+      "subject": "slow match",
+      "relation": "is_a_type_of",
+      "object": "ignition source",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "such as a slow match or a flintlock."
+        }
+      ]
+    },
+    {
+      "subject": "flintlock",
+      "relation": "is_a_type_of",
+      "object": "ignition source",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "such as a slow match or a flintlock."
+        }
+      ]
+    },
+    {
+      "subject": "gun barrel",
+      "relation": "leads_to",
+      "object": "main charge",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "This external powder was connected through a small opening at the rear of the gun barrel that led to the main charge."
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Primer (firearm)\nIn firearm ballistics, the primer ( ) is a component of pistol and rifle cartridges, as well as shotgun shells. Early primers were simply the same black powder used to fire the weapon but poured into an external flash pan where it could be ignited by an ignition source such as a slow match or a flintlock. This external powder was connected through a small opening at the rear of the gun barrel that led to the main charge. As powder will not burn when wet, this made it difficult, or even impossible, to fire these types of weapons in rainy or humid conditions."
+}

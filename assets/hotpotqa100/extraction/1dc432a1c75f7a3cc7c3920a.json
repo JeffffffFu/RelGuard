@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "Vanda & Young": "duo",
+    "Harry Vanda": "person",
+    "George Young": "person",
+    "The Easybeats": "band",
+    "Malcolm Young": "person",
+    "Angus Young": "person",
+    "AC/DC": "band"
+  },
+  "triples": [
+    {
+      "subject": "Vanda & Young",
+      "relation": "composed_of",
+      "object": "Harry Vanda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a songwriting/producing duo composed of Harry Vanda and George Young"
+        }
+      ]
+    },
+    {
+      "subject": "Vanda & Young",
+      "relation": "composed_of",
+      "object": "George Young",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a songwriting/producing duo composed of Harry Vanda and George Young"
+        }
+      ]
+    },
+    {
+      "subject": "Vanda & Young",
+      "relation": "performed_as_members_of",
+      "object": "The Easybeats",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "They performed as members of 1960s Australian rock group The Easybeats"
+        }
+      ]
+    },
+    {
+      "subject": "Vanda & Young",
+      "relation": "co_wrote",
+      "object": "The Easybeats",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Vanda & Young co-wrote most of The Easybeats later hits"
+        }
+      ]
+    },
+    {
+      "subject": "Vanda & Young",
+      "relation": "record_producers_for",
+      "object": "The Easybeats",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "they were the record producers for the group from 1967"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Young",
+        "is_older_brother_of",
+        "Malcolm Young"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Young",
+        "is_older_brother_of",
+        "Angus Young"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Young",
+        "record_producer_behind",
+        "AC/DC"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Vanda &amp; Young\nVanda & Young were a songwriting/producing duo composed of Harry Vanda and George Young. They performed as members of 1960s Australian rock group The Easybeats where Vanda was their lead guitarist and backing singer and Young was their rhythm guitarist and backing singer. Vanda & Young co-wrote most of The Easybeats later hits including their international hit \"Friday on My Mind\" and they were the record producers for the group from 1967. Young is the older brother of Malcolm and Angus Young of the hard rock band AC/DC, being the record producer behind several of the band's biggest albums (such as 1976's \"Dirty Deeds Done Dirt Cheap\")."
+}

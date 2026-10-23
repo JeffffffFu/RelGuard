@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "Geoffrey Wright": "Person",
+    "Russell Crowe": "Person",
+    "Romper Stomper": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Geoffrey Wright",
+      "relation": "gained_success_with",
+      "object": "Romper Stomper",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "gained cult success with the 1992 film \"Romper Stomper\""
+        }
+      ]
+    },
+    {
+      "subject": "Romper Stomper",
+      "relation": "starred",
+      "object": "Russell Crowe",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which starred Russell Crowe"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Geoffrey Wright",
+        "born_in",
+        "1959"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Geoffrey Wright",
+        "is_a",
+        "Australian film director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Geoffrey Wright",
+        "is_a",
+        "screenwriter"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Geoffrey Wright\nGeoffrey Wright (born 1959) is an Australian film director and screenwriter, who gained cult success with the 1992 film \"Romper Stomper\", which starred Russell Crowe."
+}

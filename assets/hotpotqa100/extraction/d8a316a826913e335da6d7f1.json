@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Andy": "WORK_OF_ART",
+    "Norman Alden": "PERSON",
+    "Richard C. Sarafian": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Andy",
+      "relation": "stars",
+      "object": "Norman Alden",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 29,
+          "char_start": 41,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Andy",
+      "relation": "directed_by",
+      "object": "Richard C. Sarafian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 67,
+          "char_start": 79,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Andy",
+        "written_by",
+        "Richard C. Sarafian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Andy (film)\nAndy is a 1965 dramatic film starring Norman Alden and written and directed by Richard C. Sarafian. It was Sarafian' s first directing credit for a feature film."
+}

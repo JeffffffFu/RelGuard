@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Manon Lescaut": "novel",
+    "Abbé Prévost": "author",
+    "Mémoires et aventures d'un homme de qualité": "work",
+    "France": "location",
+    "1753 edition": "edition"
+  },
+  "triples": [
+    {
+      "subject": "Manon Lescaut",
+      "relation": "is_written_by",
+      "object": "Abbé Prévost",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a novel by French author Abbé Prévost."
+        }
+      ]
+    },
+    {
+      "subject": "Manon Lescaut",
+      "relation": "was_banned_in",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was banned in France upon publication."
+        }
+      ]
+    },
+    {
+      "subject": "Abbé Prévost",
+      "relation": "published",
+      "object": "Manon Lescaut",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Published in 1731"
+        }
+      ]
+    },
+    {
+      "subject": "1753 edition",
+      "relation": "is_a_version_of",
+      "object": "Manon Lescaut",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "In a subsequent 1753 edition"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Manon Lescaut",
+        "is_part_of",
+        "Mémoires et aventures d'un homme de qualité"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Manon Lescaut\nManon Lescaut (\"L'Histoire du chevalier des Grieux et de Manon Lescaut\") is a novel by French author Abbé Prévost. Published in 1731, it is the seventh and final volume of \"Mémoires et aventures d'un homme de qualité\" (\"Memoirs and Adventures of a Man of Quality\"). It was controversial in its time and was banned in France upon publication. Despite this, it became very popular and pirated editions were widely distributed. In a subsequent 1753 edition, the Abbé Prévost toned down some scandalous details and injected more moralizing disclaimers."
+}

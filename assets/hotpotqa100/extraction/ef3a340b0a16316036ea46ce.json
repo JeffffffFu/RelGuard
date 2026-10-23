@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Advance Thresher/Emerson-Newton Implement Company": "Company",
+    "Minneapolis": "City",
+    "Minnesota": "State",
+    "United States": "Country",
+    "Kees and Colburn": "Architects",
+    "Advance Thresher Company building": "Building",
+    "Emerson-Newton Plow Company building": "Building"
+  },
+  "triples": [
+    {
+      "subject": "Advance Thresher/Emerson-Newton Implement Company",
+      "relation": "located_in",
+      "object": "Minneapolis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Advance Thresher/Emerson-Newton Implement Company buildings in Minneapolis, Minnesota, United States"
+        }
+      ]
+    },
+    {
+      "subject": "Advance Thresher/Emerson-Newton Implement Company",
+      "relation": "located_in",
+      "object": "Minnesota",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Advance Thresher/Emerson-Newton Implement Company buildings in Minneapolis, Minnesota, United States"
+        }
+      ]
+    },
+    {
+      "subject": "Advance Thresher/Emerson-Newton Implement Company",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Advance Thresher/Emerson-Newton Implement Company buildings in Minneapolis, Minnesota, United States"
+        }
+      ]
+    },
+    {
+      "subject": "Advance Thresher Company building",
+      "relation": "designed_by",
+      "object": "Kees and Colburn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "designed by Kees and Colburn"
+        }
+      ]
+    },
+    {
+      "subject": "Emerson-Newton Plow Company building",
+      "relation": "designed_by",
+      "object": "Kees and Colburn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "designed by Kees and Colburn"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Advance Thresher Company building",
+        "built_in",
+        "1900"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Advance Thresher Company building",
+        "has_floors",
+        "six"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Emerson-Newton Plow Company building",
+        "built_in",
+        "1904"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Emerson-Newton Plow Company building",
+        "has_floors",
+        "seven"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Advance Thresher/Emerson-Newton Implement Company\nThe Advance Thresher/Emerson-Newton Implement Company buildings in Minneapolis, Minnesota, United States, are a pair of buildings designed by Kees and Colburn. The two buildings are united under a common cornice and appear to be a single structure. However, the two buildings were actually built four years apart. The Advance Thresher Company building was built in 1900 and has six floors. The adjacent Emerson-Newton Plow Company building was built in 1904 and has seven floors."
+}

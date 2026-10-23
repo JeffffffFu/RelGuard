@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "contra-rotating propellers": "technology",
+    "CRP": "abbreviation",
+    "coaxial contra-rotating propellers": "technology",
+    "high-speed propellers": "technology",
+    "piston engine": "engine",
+    "turboprop engine": "engine",
+    "planetary gear": "mechanism",
+    "spur gear": "mechanism",
+    "counter-rotating propellers": "technology"
+  },
+  "triples": [
+    {
+      "subject": "contra-rotating propellers",
+      "relation": "also_referred_to_as",
+      "object": "CRP",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also referred to as CRP"
+        }
+      ]
+    },
+    {
+      "subject": "contra-rotating propellers",
+      "relation": "applies_power_of",
+      "object": "piston engine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "apply the maximum power of usually a single piston"
+        }
+      ]
+    },
+    {
+      "subject": "contra-rotating propellers",
+      "relation": "should_not_be_confused_with",
+      "object": "counter-rotating propellers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Contra-rotating propellers should not be confused with counter-rotating propellers"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "aircraft equipped with contra-rotating propellers",
+        "equipped_with",
+        "contra-rotating propellers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "contra-rotating propellers",
+        "also_referred_to_as",
+        "coaxial contra-rotating propellers"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "contra-rotating propellers",
+        "also_referred_to_as",
+        "high-speed propellers"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "contra-rotating propellers",
+        "applies_power_of",
+        "turboprop engine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "power",
+        "transferred_via",
+        "planetary gear"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "power",
+        "transferred_via",
+        "spur gear"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Contra-rotating propellers\nAircraft equipped with contra-rotating propellers, also referred to as CRP, coaxial contra-rotating propellers, or high-speed propellers, apply the maximum power of usually a single piston or turboprop engine to drive two coaxial propellers in contra-rotation (rotation about the same axis in opposite directions). Two propellers are arranged one behind the other, and power is transferred from the engine via a planetary gear or spur gear transmission. Contra-rotating propellers should not be confused with counter-rotating propellers—airscrews on separate shafts turning in opposite directions."
+}

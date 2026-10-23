@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Aghajari oil field": "location",
+    "National Iranian Oil Company": "organization",
+    "National Iranian South Oil Company": "organization",
+    "Khuzestan Province": "location"
+  },
+  "triples": [
+    {
+      "subject": "Aghajari oil field",
+      "relation": "located_in",
+      "object": "Khuzestan Province",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in Khuzestan Province"
+        }
+      ]
+    },
+    {
+      "subject": "Aghajari oil field",
+      "relation": "developed_by",
+      "object": "National Iranian Oil Company",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "developed by National Iranian Oil Company"
+        }
+      ]
+    },
+    {
+      "subject": "Aghajari oil field",
+      "relation": "owned_by",
+      "object": "National Iranian Oil Company",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "is owned by state-owned National Iranian Oil Company (NIOC)"
+        }
+      ]
+    },
+    {
+      "subject": "Aghajari oil field",
+      "relation": "operated_by",
+      "object": "National Iranian South Oil Company",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "operated by National Iranian South Oil Company (NISOC)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Aghajari oil field",
+        "discovered_in",
+        "1938"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aghajari oil field",
+        "began_production_in",
+        "1940"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aghajari oil field",
+        "produces",
+        "oil"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Aghajari oil field\nThe Aghajari oil field is an iranian oil field located in Khuzestan Province. It was discovered in 1938 and developed by National Iranian Oil Company. It began production in 1940 and produces oil. The total proven reserves of the Aghajari oil field are around 30 billion barrels (3758×10tonnes), and production is centered on 300000 oilbbl/d . The field is owned by state-owned National Iranian Oil Company (NIOC) and operated by National Iranian South Oil Company (NISOC)."
+}

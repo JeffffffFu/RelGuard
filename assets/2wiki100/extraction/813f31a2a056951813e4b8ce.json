@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "Hardcase": "WORK_OF_ART",
+    "John Llewellyn Moxey": "PERSON",
+    "Clint Walker": "PERSON",
+    "Stefanie Powers": "PERSON",
+    "Hanna-Barbera": "ORG",
+    "ABC Movie of the Week": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Hardcase",
+      "relation": "directed_by",
+      "object": "John Llewellyn Moxey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 61,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hardcase",
+      "relation": "stars",
+      "object": "Clint Walker",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 98,
+          "char_start": 119,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hardcase",
+      "relation": "stars",
+      "object": "Stefanie Powers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 98,
+          "char_start": 119,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hardcase",
+      "relation": "produced_by",
+      "object": "Hanna-Barbera",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "of the Hanna-Barbera studios",
+          "line_start": 189,
+          "char_start": 210,
+          "ambiguous": false,
+          "relation_mention": "of the Hanna-Barbera studios",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Hardcase",
+      "relation": "appeared_on",
+      "object": "ABC Movie of the Week",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "appeared on the \"ABC Movie of the Week\"",
+          "line_start": 229,
+          "char_start": 250,
+          "ambiguous": false,
+          "relation_mention": "appeared on the \"ABC Movie of the Week\"",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Hardcase",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Hardcase (1972 film)\nHardcase is a 1972 American made-for-television Western film directed by John Llewellyn Moxey and starring Clint Walker and Stefanie Powers. It was the first fully live-action feature film of the Hanna-Barbera studios. The movie appeared on the \"ABC Movie of the Week\" on February 1, 1972 where it was a ratings surprise; becoming the seventh most popular show of the week."
+}

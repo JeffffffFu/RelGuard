@@ -1,0 +1,125 @@
+{
+  "entities": {
+    "Q101 Chicago": "ORG",
+    "Chicago": "GPE",
+    "WKQX 101.1": "ORG",
+    "Broadcast Barter Radio Networks": "ORG",
+    "Chicago Matt Dubiel": "PERSON",
+    "Mike Noonan": "PERSON",
+    "Q101": "ORG",
+    "Q101.com": "PRODUCT",
+    "@Q101Chicago": "PRODUCT",
+    "Cumulus Media": "ORG",
+    "101WKQX": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Q101",
+      "relation": "was_purchased_by",
+      "object": "Broadcast Barter Radio Networks",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was purchased by",
+          "line_start": 347,
+          "char_start": 360,
+          "ambiguous": false,
+          "relation_mention": "was purchased by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Q101 Chicago",
+        "located_in",
+        "Chicago"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Q101 Chicago",
+        "is_a",
+        "ORG"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Q101 Chicago",
+        "is_a",
+        "ORG"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Q101 Chicago",
+        "continues_programming_from",
+        "WKQX 101.1"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Broadcast Barter Radio Networks",
+        "includes_person",
+        "Chicago Matt Dubiel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Broadcast Barter Radio Networks",
+        "includes_person",
+        "Mike Noonan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Broadcast Barter Radio Networks",
+        "owns",
+        "Q101"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Broadcast Barter Radio Networks",
+        "owns",
+        "Q101.com"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Broadcast Barter Radio Networks",
+        "owns",
+        "@Q101Chicago"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "101WKQX",
+        "works_for",
+        "Cumulus Media"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "101WKQX",
+        "is_same_as",
+        "WKQX 101.1"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Q101 Chicago\nQ101 Chicago is an alternative Internet radio station in the Chicago metropolitan area. \"Q101 Chicago\" is a direct continuation of the programming that was featured on terrestrial radio station WKQX 101.1 from 1992 until 2011. Following a sale of the radio station and closedown of the format on July 14, 2011, the intellectual property of \"Q101\" was purchased by Chicago Matt Dubiel and Mike Noonan under the Broadcast Barter Radio Networks banner. The company owns the name Q101, Q101.com, @Q101Chicago on all social media.The RADIO station on FM 101.1 is owned by Cumulus Media. It is an alternative format and is called \"101WKQX\" and is in no way currently affiliated with the name \"Q101\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Q101 Chicago\", \"type\": \"ORG\"},\n    {\"name\": \"Chicago\", \"type\": \"GPE\"},\n    {\"name\": \"WKQX 101.1\", \"type\": \"ORG\"},\n    {\"name\": \"Broadcast Barter Radio Networks\", \"type\": \"ORG\"},\n    {\"name\": \"Chicago Matt Dubiel\", \"type\": \"PERSON\"},\n    {\"name\": \"Mike Noonan\", \"type\": \"PERSON\"},\n    {\"name\": \"Q101\", \"type\": \"ORG\"},\n    {\"name\": \"Q101.com\", \"type\": \"PRODUCT\"},\n    {\"name\": \"@Q101Chicago\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Cumulus Media\", \"type\": \"ORG\"},\n    {\"name\": \"101WKQX\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Q101 Chicago\",\n      \"relation\": \"located_in\",\n      \"object\": \"Chicago\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Q101 Chicago\",\n      \"relation\": \"is_a\",\n      \"object\": \"ORG\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an alternative Internet radio station\"}\n      ]\n    },\n    {\n      \"subject\": \"Q101 Chicago\",\n      \"relation\": \"is_a\",\n      \"object\": \"ORG\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\"Q101 Chicago\\\" is a direct continuation of the programming\"}\n      ]\n    },\n    {\n      \"subject\": \"Q101 Chicago\",\n      \"relation\": \"continues_programming_from\",\n      \"object\": \"WKQX 101.1\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a direct continuation of the programming that was featured on terrestrial radio station WKQX 101.1\"}\n      ]\n    },\n    {\n      \"subject\": \"Q101\",\n      \"relation\": \"was_purchased_by\",\n      \"object\": \"Broadcast Barter Radio Networks\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was purchased by\"}\n      ]\n    },\n    {\n      \"subject\": \"Broadcast Barter Radio Networks\",\n      \"relation\": \"includes_person\",\n      \"object\": \"Chicago Matt Dubiel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by Chicago Matt Dubiel and Mike Noonan under the Broadcast Barter Radio Networks banner\"}\n      ]\n    },\n    {\n      \"subject\": \"Broadcast Barter Radio Networks\",\n      \"relation\": \"includes_person\",\n      \"object\": \"Mike Noonan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by Chicago Matt Dubiel and Mike Noonan under the Broadcast Barter Radio Networks banner\"}\n      ]\n    },\n    {\n      \"subject\": \"Broadcast Barter Radio Networks\",\n      \"relation\": \"owns\",\n      \"object\": \"Q101\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The company owns the name Q101\"}\n      ]\n    },\n    {\n      \"subject\": \"Broadcast Barter Radio Networks\",\n      \"relation\": \"owns\",\n      \"object\": \"Q101.com\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The company owns the name Q101, Q101.com\"}\n      ]\n    },\n    {\n      \"subject\": \"Broadcast Barter Radio Networks\",\n      \"relation\": \"owns\",\n      \"object\": \"@Q101Chicago\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The company owns the name Q101, Q101.com, @Q101Chicago on all social media\"}\n      ]\n    },\n    {\n      \"subject\": \"101WKQX\",\n      \"relation\": \"works_for\",\n      \"object\": \"Cumulus Media\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is owned by Cumulus Media\"}\n      ]\n    },\n    {\n      \"subject\": \"101WKQX\",\n      \"relation\": \"is_same_as\",\n      \"object\": \"WKQX 101.1\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"called \\\"101WKQX\\\"\"}\n      ]\n    }\n  ]\n}"
+}

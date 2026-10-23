@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Hans Zimmer": "Person",
+    "The Lion King": "Film",
+    "Academy Award for Best Original Score": "Award",
+    "Pirates of the Caribbean": "Film",
+    "The Thin Red Line": "Film",
+    "Gladiator": "Film",
+    "The Last Samurai": "Film",
+    "The Dark Knight Trilogy": "Film",
+    "Inception": "Film",
+    "Interstellar": "Film",
+    "Dunkirk": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Hans Zimmer",
+      "relation": "composed_music_for",
+      "object": "The Lion King",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "composed music for over 150 films. His works include \"The Lion King\""
+        }
+      ]
+    },
+    {
+      "subject": "Hans Zimmer",
+      "relation": "won",
+      "object": "Academy Award for Best Original Score",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "for which he won the Academy Award for Best Original Score in 1995"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hans Zimmer",
+        "composed_music_for",
+        "Pirates of the Caribbean"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hans Zimmer",
+        "composed_music_for",
+        "The Thin Red Line"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hans Zimmer",
+        "composed_music_for",
+        "Gladiator"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hans Zimmer",
+        "composed_music_for",
+        "The Last Samurai"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hans Zimmer",
+        "composed_music_for",
+        "The Dark Knight Trilogy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hans Zimmer",
+        "composed_music_for",
+        "Inception"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hans Zimmer",
+        "composed_music_for",
+        "Interstellar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hans Zimmer",
+        "composed_music_for",
+        "Dunkirk"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Hans Zimmer\nHans Florian Zimmer (] ; born 12 September 1957) is a German film score composer and record producer. Since the 1980s, he has composed music for over 150 films. His works include \"The Lion King\", for which he won the Academy Award for Best Original Score in 1995, the \"Pirates of the Caribbean\" series, \"The Thin Red Line\", \"Gladiator\", \"The Last Samurai\", \"The Dark Knight Trilogy\", \"Inception\", \"Interstellar\" and \"Dunkirk\"."
+}

@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Inner Mongolia First Machinery Group Corporation": "ORG",
+    "Inner Mongolia": "GPE",
+    "China": "GPE",
+    "First Inner Mongolia Machinery Factory": "ORG",
+    "Factory 617": "ORG",
+    "Baotou Tank Plant": "ORG",
+    "PLA Army": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Inner Mongolia First Machinery Group Corporation",
+        "previously_named",
+        "First Inner Mongolia Machinery Factory"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia First Machinery Group Corporation",
+        "located_in",
+        "China"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia First Machinery Group Corporation",
+        "located_in",
+        "Inner Mongolia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia First Machinery Group Corporation",
+        "is_a",
+        "military manufacturing company"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Inner Mongolia First Machinery Group Corporation",
+        "supplier_of",
+        "PLA Army"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia First Machinery Group Corporation",
+        "also_known_as",
+        "Factory 617"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia First Machinery Group Corporation",
+        "also_known_as",
+        "Baotou Tank Plant"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Inner Mongolia First Machinery Group Corporation\nInner Mongolia First Machinery Group Corporation (内蒙古第一机械集团有限公司, abbrev. 一机), previously First Inner Mongolia Machinery Factory, is a military manufacturing company in China. It is a facility in Inner Mongolia and supplier of various military equipment to the PLA Army. It has also been known as Factory 617 (六一七厂) and the Baotou Tank Plant.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Inner Mongolia First Machinery Group Corporation\", \"type\": \"ORG\"},\n    {\"name\": \"Inner Mongolia\", \"type\": \"GPE\"},\n    {\"name\": \"China\", \"type\": \"GPE\"},\n    {\"name\": \"First Inner Mongolia Machinery Factory\", \"type\": \"ORG\"},\n    {\"name\": \"Factory 617\", \"type\": \"ORG\"},\n    {\"name\": \"Baotou Tank Plant\", \"type\": \"ORG\"},\n    {\"name\": \"PLA Army\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Inner Mongolia First Machinery Group Corporation\",\n      \"relation\": \"previously_named\",\n      \"object\": \"First Inner Mongolia Machinery Factory\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"previously First Inner Mongolia Machinery Factory\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia First Machinery Group Corporation\",\n      \"relation\": \"located_in\",\n      \"object\": \"China\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in China\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia First Machinery Group Corporation\",\n      \"relation\": \"located_in\",\n      \"object\": \"Inner Mongolia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Inner Mongolia\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia First Machinery Group Corporation\",\n      \"relation\": \"is_a\",\n      \"object\": \"military manufacturing company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a military manufacturing company\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia First Machinery Group Corporation\",\n      \"relation\": \"supplier_of\",\n      \"object\": \"PLA Army\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"supplier of various military equipment to the PLA Army\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia First Machinery Group Corporation\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Factory 617\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known as Factory 617\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia First Machinery Group Corporation\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Baotou Tank Plant\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and the Baotou Tank Plant\"}\n      ]\n    }\n  ]\n}"
+}

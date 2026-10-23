@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Perarasu": "Person",
+    "Vijay": "Person",
+    "Ajith Kumar": "Person",
+    "Tamil cinema": "Industry",
+    "Nattarasankottai": "Location",
+    "Sivagangai": "Location",
+    "Tamil Nadu": "Location",
+    "India": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Perarasu",
+      "relation": "works_in",
+      "object": "Tamil cinema",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "works primarily in Tamil cinema"
+        }
+      ]
+    },
+    {
+      "subject": "Perarasu",
+      "relation": "best_known_for",
+      "object": "Vijay",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his commercial movies with actors Vijay"
+        }
+      ]
+    },
+    {
+      "subject": "Perarasu",
+      "relation": "from",
+      "object": "Nattarasankottai",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He is from Nattarasankottai"
+        }
+      ]
+    },
+    {
+      "subject": "Nattarasankottai",
+      "relation": "near",
+      "object": "Sivagangai",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "near Sivagangai in Tamil Nadu"
+        }
+      ]
+    },
+    {
+      "subject": "Sivagangai",
+      "relation": "located_in",
+      "object": "Tamil Nadu",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "near Sivagangai in Tamil Nadu"
+        }
+      ]
+    },
+    {
+      "subject": "Tamil Nadu",
+      "relation": "located_in",
+      "object": "India",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Tamil Nadu, India"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Perarasu",
+        "best_known_for",
+        "Ajith Kumar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Perarasu\nPerarasu is an Indian film director who works primarily in Tamil cinema. As a director, he is best known for his commercial movies with actors Vijay and Ajith Kumar. He has also been credited as an actor, music director, singer and lyricist in some of his ventures. He has mentioned that all his movies are named for cities in Tamil Nadu, India. He is from Nattarasankottai, near Sivagangai in Tamil Nadu."
+}

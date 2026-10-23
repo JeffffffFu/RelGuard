@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "An Inconvenient Sequel: Truth to Power": "WORK_OF_ART",
+    "Bonni Cohen": "PERSON",
+    "Jon Shenk": "PERSON",
+    "Al Gore": "PERSON",
+    "United States": "GPE",
+    "An Inconvenient Truth": "WORK_OF_ART",
+    "Paris Agreement": "WORK_OF_ART",
+    "Paramount Pictures": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "An Inconvenient Sequel: Truth to Power",
+      "relation": "directed_by",
+      "object": "Bonni Cohen",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Bonni Cohen"
+        }
+      ]
+    },
+    {
+      "subject": "An Inconvenient Sequel: Truth to Power",
+      "relation": "culminates_in",
+      "object": "Paris Agreement",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "culminating in the landmark signing of 2016's Paris Agreement"
+        }
+      ]
+    },
+    {
+      "subject": "An Inconvenient Sequel: Truth to Power",
+      "relation": "released_by",
+      "object": "Paramount Pictures",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film was released on July 28, 2017, by Paramount Pictures"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "An Inconvenient Sequel: Truth to Power",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "An Inconvenient Sequel: Truth to Power",
+        "directed_by",
+        "Jon Shenk"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Al Gore",
+        "is_a",
+        "PERSON"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Al Gore",
+        "battles",
+        "climate change"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "An Inconvenient Sequel: Truth to Power",
+        "addresses",
+        "An Inconvenient Truth"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Al Gore",
+        "persuades",
+        "governmental leaders"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "governmental leaders",
+        "invest_in",
+        "renewable energy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "An Inconvenient Sequel: Truth to Power\nAn Inconvenient Sequel: Truth to Power is a 2017 American documentary film directed by Bonni Cohen and Jon Shenk about former United States Vice President Al Gore's continuing mission to battle climate change. The sequel to \"An Inconvenient Truth\" (2006), the film addresses the progress made to tackle the problem and Gore's global efforts to persuade governmental leaders to invest in renewable energy, culminating in the landmark signing of 2016's Paris Agreement. The film was released on July 28, 2017, by Paramount Pictures."
+}

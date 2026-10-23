@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Charles Teague": "Person",
+    "Wake Forest University": "Organization",
+    "National College Baseball Hall of Fame": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Charles Teague",
+      "relation": "played_for",
+      "object": "Wake Forest University",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "As a college baseball player for Wake Forest University"
+        }
+      ]
+    },
+    {
+      "subject": "Charles Teague",
+      "relation": "inducted_into",
+      "object": "National College Baseball Hall of Fame",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he was inducted into the National College Baseball Hall of Fame"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Charles Teague",
+        "named",
+        "All-American"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Charles Teague (baseball)\nCharles Clyde Teague (born 1924) was an American professional baseball player. A second baseman, he played in minor league baseball. As a college baseball player for Wake Forest University, he was named an All-American in three seasons. In 2010, he was inducted into the National College Baseball Hall of Fame."
+}

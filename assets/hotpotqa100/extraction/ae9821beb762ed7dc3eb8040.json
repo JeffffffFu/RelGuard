@@ -1,0 +1,148 @@
+{
+  "entities": {
+    "Mountain Air Cargo": "ORG",
+    "Denver": "GPE",
+    "North Carolina": "GPE",
+    "FedEx Express": "ORG",
+    "United States": "GPE",
+    "Caribbean": "LOC",
+    "South America": "LOC",
+    "Kinston Regional Jetport": "FAC",
+    "ATR": "PRODUCT",
+    "C208": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Mountain Air Cargo",
+      "relation": "located_in",
+      "object": "Denver",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Denver"
+        }
+      ]
+    },
+    {
+      "subject": "Mountain Air Cargo",
+      "relation": "located_in",
+      "object": "North Carolina",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Denver, North Carolina"
+        }
+      ]
+    },
+    {
+      "subject": "Mountain Air Cargo",
+      "relation": "operates_for",
+      "object": "FedEx Express",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "major contract carrier for FedEx Express"
+        }
+      ]
+    },
+    {
+      "subject": "Mountain Air Cargo",
+      "relation": "operates_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "operating in the eastern United States"
+        }
+      ]
+    },
+    {
+      "subject": "Mountain Air Cargo",
+      "relation": "operates_in",
+      "object": "Caribbean",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "operating in the eastern United States and the Caribbean region"
+        }
+      ]
+    },
+    {
+      "subject": "FedEx Express",
+      "relation": "discontinued_operations_in",
+      "object": "South America",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Previous turboprop operations in South America have been discontinued by FedEx"
+        }
+      ]
+    },
+    {
+      "subject": "Mountain Air Cargo",
+      "relation": "has_facility_at",
+      "object": "Kinston Regional Jetport",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Its main maintenance facility is at Kinston Regional Jetport"
+        }
+      ]
+    },
+    {
+      "subject": "ATR",
+      "relation": "owned_by",
+      "object": "FedEx Express",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "are owned by Fedex Express"
+        }
+      ]
+    },
+    {
+      "subject": "C208",
+      "relation": "owned_by",
+      "object": "FedEx Express",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "are owned by Fedex Express"
+        }
+      ]
+    },
+    {
+      "subject": "Mountain Air Cargo",
+      "relation": "operates",
+      "object": "ATR",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "are operated by MAC"
+        }
+      ]
+    },
+    {
+      "subject": "Mountain Air Cargo",
+      "relation": "operates",
+      "object": "C208",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "are operated by MAC"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "FedEx Express",
+        "operates",
+        "jet aircraft"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mountain Air Cargo\nMountain Air Cargo (MAC) is an American cargo airline based in Denver, North Carolina. It is a major contract carrier for FedEx Express, operating in the eastern United States and the Caribbean region. Previous turboprop operations in South America have been discontinued by FedEx, which now operates jet aircraft in that area. MAC is one of the largest feeder airlines in the United States. Its main maintenance facility is at Kinston Regional Jetport. All of the ATR and C208 aircraft operated by Mountain Air are owned by Fedex Express, and are operated by MAC on a \"dry lease\" basis."
+}

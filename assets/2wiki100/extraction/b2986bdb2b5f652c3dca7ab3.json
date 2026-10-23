@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Sunday Light": "Film",
+    "José Luis Garci": "Director",
+    "Álex González": "Actor",
+    "Paula Echevarría": "Actor",
+    "Alfredo Landa": "Actor",
+    "Ramón Pérez de Ayala": "Author",
+    "Asturias": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Sunday Light",
+      "relation": "directed_by",
+      "object": "José Luis Garci",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by José Luis Garci"
+        }
+      ]
+    },
+    {
+      "subject": "Sunday Light",
+      "relation": "starring",
+      "object": "Álex González",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Álex González"
+        }
+      ]
+    },
+    {
+      "subject": "Sunday Light",
+      "relation": "based_on",
+      "object": "Ramón Pérez de Ayala",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on a novel by Ramón Pérez de Ayala"
+        }
+      ]
+    },
+    {
+      "subject": "Sunday Light",
+      "relation": "located_in",
+      "object": "Asturias",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "set in rural Asturias"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sunday Light",
+        "starring",
+        "Paula Echevarría"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sunday Light",
+        "starring",
+        "Alfredo Landa"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Sunday Light\nSunday Light  is a 2007 Spanish film directed by José Luis Garci and starring Álex González, Paula Echevarría and Alfredo Landa. The plot, set in rural Asturias in the early 20th-century, is based on a novel by Ramón Pérez de Ayala."
+}

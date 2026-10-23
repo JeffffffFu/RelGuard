@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "WingStreet": "ORG",
+    "Yum! Brands": "ORG",
+    "Pizza Hut": "ORG",
+    "U.S.": "GPE",
+    "Canada": "GPE",
+    "Australia": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "WingStreet",
+      "relation": "works_for",
+      "object": "Yum! Brands",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is owned by",
+          "line_start": 79,
+          "char_start": 90,
+          "ambiguous": false,
+          "relation_mention": "is owned by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Yum! Brands",
+      "relation": "owns",
+      "object": "Pizza Hut",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also owns",
+          "line_start": 110,
+          "char_start": 121,
+          "ambiguous": false,
+          "relation_mention": "also owns",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "WingStreet",
+      "relation": "located_in",
+      "object": "U.S.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the U.S., Canada, and Australia",
+          "line_start": 210,
+          "char_start": 221,
+          "ambiguous": false,
+          "relation_mention": "in the U.S., Canada, and Australia",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "WingStreet",
+      "relation": "located_in",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the U.S., Canada, and Australia",
+          "line_start": 210,
+          "char_start": 221,
+          "ambiguous": false,
+          "relation_mention": "in the U.S., Canada, and Australia",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "WingStreet",
+      "relation": "located_in",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the U.S., Canada, and Australia",
+          "line_start": 210,
+          "char_start": 221,
+          "ambiguous": false,
+          "relation_mention": "in the U.S., Canada, and Australia",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "WingStreet",
+      "relation": "co_located_with",
+      "object": "Pizza Hut",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "co-located with Pizza Hut",
+          "line_start": 269,
+          "char_start": 280,
+          "ambiguous": false,
+          "relation_mention": "co-located with Pizza Hut",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "WingStreet",
+        "specializes_in",
+        "chicken"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "WingStreet\nWingStreet is a restaurant chain specializing in chicken. The restaurant chain is owned by Yum! Brands, which also owns its sister franchise Pizza Hut. As of September 2008, there were close to 1,600 locations in the U.S., Canada, and Australia. They are almost always co-located with Pizza Hut."
+}

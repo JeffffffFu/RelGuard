@@ -1,0 +1,156 @@
+{
+  "entities": {
+    "Masa Takayama": "PERSON",
+    "Masa": "ORG",
+    "Bar Masa": "ORG",
+    "Manhattan": "GPE",
+    "New York City": "GPE",
+    "Aria Resort & Casino": "FAC",
+    "Las Vegas Strip": "LOC",
+    "Paradise, Nevada": "GPE",
+    "Japanese": "NORP",
+    "sushi": "PRODUCT",
+    "Kuroiso, Tochigi, Japan": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Masa Takayama",
+      "relation": "works_as_owner_of",
+      "object": "Masa",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is the chef and owner of",
+          "line_start": 101,
+          "char_start": 115,
+          "ambiguous": false,
+          "relation_mention": "is the chef and owner of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Masa",
+      "relation": "has_cuisine_type",
+      "object": "Japanese",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Japanese",
+          "line_start": 157,
+          "char_start": 171,
+          "ambiguous": false,
+          "relation_mention": "Japanese",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Masa",
+      "relation": "has_cuisine_type",
+      "object": "sushi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "sushi",
+          "line_start": 170,
+          "char_start": 184,
+          "ambiguous": false,
+          "relation_mention": "sushi",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Masa Takayama",
+      "relation": "owns",
+      "object": "Bar Masa",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owner of Bar Masa",
+          "line_start": 227,
+          "char_start": 241,
+          "ambiguous": false,
+          "relation_mention": "owner of Bar Masa",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Bar Masa",
+      "relation": "has_location_in",
+      "object": "Aria Resort & Casino",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the Aria Resort & Casino",
+          "line_start": 320,
+          "char_start": 334,
+          "ambiguous": false,
+          "relation_mention": "in the Aria Resort & Casino",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Aria Resort & Casino",
+      "relation": "located_in",
+      "object": "Las Vegas Strip",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "on the Las Vegas Strip",
+          "line_start": 348,
+          "char_start": 362,
+          "ambiguous": false,
+          "relation_mention": "on the Las Vegas Strip",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Las Vegas Strip",
+      "relation": "located_in",
+      "object": "Paradise, Nevada",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Paradise, Nevada",
+          "line_start": 371,
+          "char_start": 385,
+          "ambiguous": false,
+          "relation_mention": "in Paradise, Nevada",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Masa Takayama",
+      "relation": "born_in",
+      "object": "Kuroiso, Tochigi, Japan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born 1 May 1954 in Kuroiso, Tochigi, Japan",
+          "line_start": 57,
+          "char_start": 71,
+          "ambiguous": false,
+          "relation_mention": "born 1 May 1954 in Kuroiso, Tochigi, Japan",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Masa",
+        "located_in",
+        "Manhattan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Masa Takayama\nMasayoshi \"Masa\" Takayama (高山 雅氏 , Takayama Masayoshi ) (born 1 May 1954 in Kuroiso, Tochigi, Japan) is the chef and owner of Masa, a three-Michelin-starred Japanese and sushi restaurant in Manhattan, New York City. He is also owner of Bar Masa, with two locations: one adjacent to his New York City restaurant, and one in the Aria Resort & Casino on the Las Vegas Strip in Paradise, Nevada."
+}

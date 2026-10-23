@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "2017 Blancpain GT Series Sprint Cup": "Event",
+    "Blancpain GT Series Sprint Cup": "Event",
+    "SRO Group": "Organization",
+    "FIA GT1 World Championship": "Event",
+    "Blancpain Sprint Series": "Event"
+  },
+  "triples": [
+    {
+      "subject": "2017 Blancpain GT Series Sprint Cup",
+      "relation": "is_season_of",
+      "object": "Blancpain GT Series Sprint Cup",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the fifth season of the Blancpain GT Series Sprint Cup"
+        }
+      ]
+    },
+    {
+      "subject": "Blancpain GT Series Sprint Cup",
+      "relation": "follows_on_from",
+      "object": "FIA GT1 World Championship",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "following on from the demise of the SRO Group's FIA GT1 World Championship"
+        }
+      ]
+    },
+    {
+      "subject": "Blancpain GT Series Sprint Cup",
+      "relation": "is_fourth_with_designation_of",
+      "object": "Blancpain Sprint Series",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the fourth with the designation of Blancpain Sprint Series"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "FIA GT1 World Championship",
+        "is_auto_racing_series_for",
+        "grand tourer cars"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "2017 Blancpain GT Series Sprint Cup\nThe 2017 Blancpain GT Series Sprint Cup was the fifth season of the Blancpain GT Series Sprint Cup following on from the demise of the SRO Group's FIA GT1 World Championship (an auto racing series for grand tourer cars), the fourth with the designation of Blancpain Sprint Series or Blancpain GT Series Sprint Cup."
+}

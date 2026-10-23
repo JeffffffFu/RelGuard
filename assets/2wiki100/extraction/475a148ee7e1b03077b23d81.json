@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Andy Summers": "PERSON",
+    "Andrew James Somers": "PERSON",
+    "Poulton-le-Fylde": "GPE",
+    "Lancashire": "GPE",
+    "English": "NORP",
+    "the Police": "ORG",
+    "Rock and Roll Hall of Fame": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Andrew James Somers",
+      "relation": "known_as",
+      "object": "Andy Summers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known professionally as",
+          "line_start": 81,
+          "char_start": 94,
+          "ambiguous": false,
+          "relation_mention": "known professionally as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Andrew James Somers",
+        "born_in",
+        "Poulton-le-Fylde"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Poulton-le-Fylde",
+        "located_in",
+        "Lancashire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Andrew James Somers",
+        "nationality",
+        "English"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Andy Summers",
+        "works_as",
+        "PERSON"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Andy Summers",
+        "was_member_of",
+        "the Police"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Andy Summers",
+        "inducted_into",
+        "Rock and Roll Hall of Fame"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Andy Summers",
+        "inducted_as_member_of",
+        "the Police"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Andy Summers\nAndrew James Somers( born 31 December 1942 from Poulton- le- Fylde, Lancashire), known professionally as Andy Summers, is an English singer and guitarist who was a member of the rock band the Police. He was inducted into the Rock and Roll Hall of Fame as a member of the band in 2003. Summers has recorded solo albums, collaborated with other musicians, composed film scores, and exhibited his photography in galleries.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Andy Summers\", \"type\": \"PERSON\"},\n    {\"name\": \"Andrew James Somers\", \"type\": \"PERSON\"},\n    {\"name\": \"Poulton-le-Fylde\", \"type\": \"GPE\"},\n    {\"name\": \"Lancashire\", \"type\": \"GPE\"},\n    {\"name\": \"English\", \"type\": \"NORP\"},\n    {\"name\": \"the Police\", \"type\": \"ORG\"},\n    {\"name\": \"Rock and Roll Hall of Fame\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Andrew James Somers\",\n      \"relation\": \"known_as\",\n      \"object\": \"Andy Summers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known professionally as\"}\n      ]\n    },\n    {\n      \"subject\": \"Andrew James Somers\",\n      \"relation\": \"born_in\",\n      \"object\": \"Poulton-le-Fylde\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from Poulton- le- Fylde\"}\n      ]\n    },\n    {\n      \"subject\": \"Poulton-le-Fylde\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lancashire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Lancashire\"}\n      ]\n    },\n    {\n      \"subject\": \"Andrew James Somers\",\n      \"relation\": \"nationality\",\n      \"object\": \"English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an English\"}\n      ]\n    },\n    {\n      \"subject\": \"Andy Summers\",\n      \"relation\": \"works_as\",\n      \"object\": \"PERSON\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Andy Summers\",\n      \"relation\": \"was_member_of\",\n      \"object\": \"the Police\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a member of\"}\n      ]\n    },\n    {\n      \"subject\": \"Andy Summers\",\n      \"relation\": \"inducted_into\",\n      \"object\": \"Rock and Roll Hall of Fame\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"inducted into the Rock and Roll Hall of Fame\"}\n      ]\n    },\n    {\n      \"subject\": \"Andy Summers\",\n      \"relation\": \"inducted_as_member_of\",\n      \"object\": \"the Police\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as a member of the band\"}\n      ]\n    }\n  ]\n}"
+}

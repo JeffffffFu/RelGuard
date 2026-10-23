@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Rodrigo de la Rosa": "Person",
+    "Mexican actor": "Occupation",
+    "Daniela 2002": "Telenovela",
+    "El Alma Herida 2003": "Telenovela",
+    "La Ley del Silencio 2005": "Telenovela",
+    "Man of La Mancha": "Musical",
+    "Jesus Christ Superstar": "Musical",
+    "Les Miserables": "Musical",
+    "Marius": "Character"
+  },
+  "triples": [
+    {
+      "subject": "Rodrigo de la Rosa",
+      "relation": "is_a",
+      "object": "Mexican actor",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Rodrigo de la Rosa is a Mexican actor"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rodrigo de la Rosa",
+        "starred_in",
+        "Daniela 2002"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rodrigo de la Rosa",
+        "starred_in",
+        "El Alma Herida 2003"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rodrigo de la Rosa",
+        "starred_in",
+        "La Ley del Silencio 2005"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rodrigo de la Rosa",
+        "appeared_in",
+        "Man of La Mancha"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rodrigo de la Rosa",
+        "appeared_in",
+        "Jesus Christ Superstar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rodrigo de la Rosa",
+        "appeared_in",
+        "Les Miserables"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rodrigo de la Rosa",
+        "played_role",
+        "Marius"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Rodrigo de la Rosa\nRodrigo de la Rosa is a Mexican actor, best known for a list of telenovas. He starred in 3 successful Mexican telenovas, \"Daniela 2002\", \"El Alma Herida 2003\", and \"La Ley del Silencio 2005\", although he has appeared in musicals such as \"Man of La Mancha\" (1999), \"Jesus Christ Superstar\" (2000) and \"Les Miserables\" (2002-2003) playing the role of \"Marius\"."
+}

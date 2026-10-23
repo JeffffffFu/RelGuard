@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Craig Johnston": "PERSON",
+    "Liverpool": "ORG",
+    "Adidas": "ORG",
+    "England U-21": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Craig Johnston",
+      "relation": "plays_for",
+      "object": "England U-21",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "made an appearance for the England U-21 youth team"
+        }
+      ]
+    },
+    {
+      "subject": "Craig Johnston",
+      "relation": "played_for",
+      "object": "Liverpool",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "winning five league titles with Liverpool"
+        }
+      ]
+    },
+    {
+      "subject": "Craig Johnston",
+      "relation": "designed",
+      "object": "Adidas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "designed and created the prototype for Adidas' Predator football boot"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "South Africa (GPE)",
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Craig Johnston",
+        "born_in",
+        "South Africa"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Craig Johnston",
+        "plays_for",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Craig Johnston",
+        "plays_for",
+        "South Africa"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Craig Johnston\nCraig Peter Johnston (born 25 June 1960) is a South African-born Australian former footballer. He played in the English Football League between 1977 and 1988, winning five league titles with Liverpool. After retiring, he designed and created the prototype for Adidas' Predator football boot, worn by many footballers and rugby players. He was eligible for the Australian and South African national teams, but only ever made an appearance for the England U-21 youth team."
+}

@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Pizza 73": "ORG",
+    "Pizza Pizza": "ORG",
+    "Toronto": "GPE",
+    "British Columbia": "GPE",
+    "Alberta": "GPE",
+    "Saskatchewan": "GPE",
+    "David Tougas": "PERSON",
+    "Guy Goodwin": "PERSON",
+    "Edmonton": "GPE",
+    "Canada": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Pizza 73",
+      "relation": "operated_by",
+      "object": "Pizza Pizza",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "operated by Pizza Pizza since 2007"
+        }
+      ]
+    },
+    {
+      "subject": "Pizza Pizza",
+      "relation": "acquired",
+      "object": "Pizza 73",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Pizza Pizza had acquired the restaurant"
+        }
+      ]
+    },
+    {
+      "subject": "Pizza 73",
+      "relation": "founded_by",
+      "object": "David Tougas",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Founded by David Tougas"
+        }
+      ]
+    },
+    {
+      "subject": "Pizza 73",
+      "relation": "headquartered_in",
+      "object": "Edmonton",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Pizza 73 is headquartered in Edmonton"
+        }
+      ]
+    },
+    {
+      "subject": "Edmonton",
+      "relation": "located_in",
+      "object": "Alberta",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "in Edmonton, Alberta"
+        }
+      ]
+    },
+    {
+      "subject": "Pizza 73",
+      "relation": "located_in",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Pizza 73 is headquartered in Edmonton, Alberta, Canada"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pizza 73",
+        "founded_by",
+        "Guy Goodwin"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pizza 73",
+        "located_in",
+        "British Columbia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pizza 73",
+        "located_in",
+        "Alberta"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pizza 73",
+        "located_in",
+        "Saskatchewan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pizza 73\nPizza 73 is a Canadian restaurant chain that offers a number of different styles of pizza, along with chicken wings. It has been operated by Pizza Pizza since 2007. Toronto-based Pizza Pizza had acquired the restaurant for a total of $CAN70.2 million. There are 89 locations throughout Western Canada, which include the provinces of British Columbia, Alberta, and Saskatchewan. The restaurant's name originates from its original phone number: 473–7373. Founded by David Tougas and Guy Goodwin in 1985, Pizza 73 is headquartered in Edmonton, Alberta, Canada."
+}

@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Zimbabwe": "GPE",
+    "Robert Mugabe": "PERSON",
+    "United Kingdom": "GPE",
+    "Southern Rhodesia": "GPE",
+    "Republic of Zimbabwe": "GPE",
+    "Canaan Banana": "PERSON",
+    "Morgan Tsvangirai": "PERSON",
+    "Constitution of Zimbabwe": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Prime Minister of Zimbabwe",
+        "located_in",
+        "Zimbabwe"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Robert Mugabe",
+        "held",
+        "Prime Minister of Zimbabwe"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Robert Mugabe",
+        "took_office_when",
+        "Southern Rhodesia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Southern Rhodesia",
+        "became",
+        "Republic of Zimbabwe"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert Mugabe",
+        "became",
+        "President of Zimbabwe"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mugabe",
+        "replaced",
+        "Canaan Banana"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Prime Minister of Zimbabwe",
+        "held_by",
+        "Morgan Tsvangirai"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Prime Minister of Zimbabwe",
+        "abolished_by",
+        "Constitution of Zimbabwe"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Prime Minister of Zimbabwe",
+        "established_in",
+        "1980"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Prime Minister of Zimbabwe\nThe Prime Minister of Zimbabwe was a political office in the government of Zimbabwe that existed on two separate occasions. The first person to hold the position was Robert Mugabe from 1980 to 1987 following independence from the United Kingdom. He took office when Southern Rhodesia became the Republic of Zimbabwe on 18 April 1980. This position was abolished when the constitution was amended in 1987 and Mugabe became President of Zimbabwe, replacing Canaan Banana as the head of state while also remaining the head of government. The office of Prime Minister was restored in 2009 and held by Morgan Tsvangirai until the position was again abolished by the 2013 Constitution of Zimbabwe.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Zimbabwe\", \"type\": \"GPE\"},\n    {\"name\": \"Robert Mugabe\", \"type\": \"PERSON\"},\n    {\"name\": \"United Kingdom\", \"type\": \"GPE\"},\n    {\"name\": \"Southern Rhodesia\", \"type\": \"GPE\"},\n    {\"name\": \"Republic of Zimbabwe\", \"type\": \"GPE\"},\n    {\"name\": \"Canaan Banana\", \"type\": \"PERSON\"},\n    {\"name\": \"Morgan Tsvangirai\", \"type\": \"PERSON\"},\n    {\"name\": \"Constitution of Zimbabwe\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Prime Minister of Zimbabwe\",\n      \"relation\": \"located_in\",\n      \"object\": \"Zimbabwe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the government of\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Mugabe\",\n      \"relation\": \"held\",\n      \"object\": \"Prime Minister of Zimbabwe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to hold the position was Robert Mugabe\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Mugabe\",\n      \"relation\": \"took_office_when\",\n      \"object\": \"Southern Rhodesia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"took office when Southern Rhodesia became the Republic of Zimbabwe\"}\n      ]\n    },\n    {\n      \"subject\": \"Southern Rhodesia\",\n      \"relation\": \"became\",\n      \"object\": \"Republic of Zimbabwe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became the Republic of Zimbabwe\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Mugabe\",\n      \"relation\": \"became\",\n      \"object\": \"President of Zimbabwe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Mugabe became President of Zimbabwe\"}\n      ]\n    },\n    {\n      \"subject\": \"Mugabe\",\n      \"relation\": \"replaced\",\n      \"object\": \"Canaan Banana\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"replacing Canaan Banana as the head of state\"}\n      ]\n    },\n    {\n      \"subject\": \"Prime Minister of Zimbabwe\",\n      \"relation\": \"held_by\",\n      \"object\": \"Morgan Tsvangirai\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"held by Morgan Tsvangirai\"}\n      ]\n    },\n    {\n      \"subject\": \"Prime Minister of Zimbabwe\",\n      \"relation\": \"abolished_by\",\n      \"object\": \"Constitution of Zimbabwe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"abolished by the 2013 Constitution of Zimbabwe\"}\n      ]\n    },\n    {\n      \"subject\": \"Prime Minister of Zimbabwe\",\n      \"relation\": \"established_in\",\n      \"object\": \"1980\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on 18 April 1980\"}\n      ]\n    }\n  ]\n}"
+}

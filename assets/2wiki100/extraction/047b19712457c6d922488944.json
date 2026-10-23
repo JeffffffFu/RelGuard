@@ -1,0 +1,152 @@
+{
+  "entities": {
+    "To Walk with Lions": "film",
+    "Carl Schultz": "director",
+    "Richard Harris": "actor",
+    "George Adamson": "person",
+    "John Michie": "actor",
+    "Tony Fitzjohn": "person",
+    "Joy Adamson": "person",
+    "Born Free": "book",
+    "Kora National Reserve": "location",
+    "Kenya": "location",
+    "poachers": "group",
+    "government corruption": "issue"
+  },
+  "triples": [
+    {
+      "subject": "To Walk with Lions",
+      "relation": "directed_by",
+      "object": "Carl Schultz",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Carl Schultz"
+        }
+      ]
+    },
+    {
+      "subject": "To Walk with Lions",
+      "relation": "starring",
+      "object": "Richard Harris",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Richard Harris"
+        }
+      ]
+    },
+    {
+      "subject": "Richard Harris",
+      "relation": "portrays",
+      "object": "George Adamson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as George Adamson"
+        }
+      ]
+    },
+    {
+      "subject": "John Michie",
+      "relation": "portrays",
+      "object": "Tony Fitzjohn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as Tony Fitzjohn"
+        }
+      ]
+    },
+    {
+      "subject": "George Adamson",
+      "relation": "married_to",
+      "object": "Joy Adamson",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "his marriage to Joy Adamson"
+        }
+      ]
+    },
+    {
+      "subject": "George Adamson",
+      "relation": "located_in",
+      "object": "Kora National Reserve",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in the Kora National Reserve"
+        }
+      ]
+    },
+    {
+      "subject": "Kora National Reserve",
+      "relation": "located_in",
+      "object": "Kenya",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in the Kora National Reserve, Kenya"
+        }
+      ]
+    },
+    {
+      "subject": "George Adamson",
+      "relation": "encounters",
+      "object": "poachers",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "encounters poachers"
+        }
+      ]
+    },
+    {
+      "subject": "George Adamson",
+      "relation": "encounters",
+      "object": "government corruption",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "government corruption blocking his quest"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "To Walk with Lions",
+        "starring",
+        "John Michie"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Joy Adamson",
+        "famous_for",
+        "Born Free"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "George Adamson",
+        "protecting",
+        "lions"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "George Adamson",
+        "protecting",
+        "wildlife"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "To Walk with Lions\nTo Walk with Lions is a 1999 film directed by Carl Schultz and starring Richard Harris as George Adamson and John Michie as Tony Fitzjohn. It follows the later years of wild game preserver/ naturalist Adamson. After his marriage to Joy Adamson of\" Born Free\" fame, Adamson spent the latter part of his life protecting the lions and other wildlife in the Kora National Reserve, Kenya. He encounters poachers and government corruption blocking his quest for wildlife preservation."
+}

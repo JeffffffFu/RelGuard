@@ -1,0 +1,131 @@
+{
+  "entities": {
+    "Russell Crowe": "Person",
+    "Maximus Decimus Meridius": "Character",
+    "Ridley Scott": "Person",
+    "Gladiator": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Russell Crowe",
+      "relation": "played",
+      "object": "Maximus Decimus Meridius",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "his role as the Roman General Maximus Decimus Meridius"
+        }
+      ]
+    },
+    {
+      "subject": "Gladiator",
+      "relation": "directed_by",
+      "object": "Ridley Scott",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "directed by Ridley Scott"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Russell Crowe",
+        "born_on",
+        "7 April 1964"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Russell Crowe",
+        "is_a",
+        "actor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Russell Crowe",
+        "is_a",
+        "film producer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Russell Crowe",
+        "is_a",
+        "musician"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Russell Crowe",
+        "is_a_citizen_of",
+        "New Zealand"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Russell Crowe",
+        "lives_in",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Maximus Decimus Meridius",
+        "is_in",
+        "Gladiator"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Russell Crowe",
+        "won",
+        "Academy Award for Best Actor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Russell Crowe",
+        "won",
+        "Broadcast Film Critics Association Award for Best Actor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Russell Crowe",
+        "won",
+        "Empire Award for Best Actor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Russell Crowe",
+        "won",
+        "London Film Critics Circle Award for Best Actor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Russell Crowe",
+        "nominated_for",
+        "10 further nominations for best actor"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Russell Crowe\nRussell Ira Crowe (born 7 April 1964) is an actor, film producer and musician. Although a New Zealand citizen, he has lived most of his life in Australia. He came to international attention for his role as the Roman General Maximus Decimus Meridius in the 2000 historical epic film \"Gladiator\", directed by Ridley Scott, for which Crowe won an Academy Award for Best Actor, a Broadcast Film Critics Association Award for Best Actor, an Empire Award for Best Actor and a London Film Critics Circle Award for Best Actor and 10 further nominations for best actor."
+}

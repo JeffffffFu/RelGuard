@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "National Library of Nicaragua Rubén Darío": "Organization",
+    "Nicaragua": "Location",
+    "Managua": "Location",
+    "Rubén Darío": "Person"
+  },
+  "triples": [
+    {
+      "subject": "National Library of Nicaragua Rubén Darío",
+      "relation": "located_in",
+      "object": "Managua",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in the city of Managua"
+        }
+      ]
+    },
+    {
+      "subject": "National Library of Nicaragua Rubén Darío",
+      "relation": "renamed_in_honour_of",
+      "object": "Rubén Darío",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "in whose honour it was renamed"
+        }
+      ]
+    },
+    {
+      "subject": "Rubén Darío",
+      "relation": "was_librarian_of",
+      "object": "National Library of Nicaragua Rubén Darío",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "One of its librarians was the poet Rubén Darío"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "National Library of Nicaragua Rubén Darío",
+        "founded",
+        "1880"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "National Library of Nicaragua Rubén Darío",
+        "damaged_in",
+        "1931 earthquake"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "National Library of Nicaragua Rubén Darío",
+        "damaged_in",
+        "1972 earthquake"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "National Library of Nicaragua Rubén Darío",
+        "looted",
+        "N/A"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "National Library of Nicaragua Rubén Darío\nThe National Library of Nicaragua Rubén Darío is the national library of Nicaragua, located in the city of Managua. It was founded in 1880, and damaged in the 1931 earthquake. Another earthquake in 1972 caused further damage, furthermore, it was looted. One of its librarians was the poet Rubén Darío, in whose honour it was renamed."
+}

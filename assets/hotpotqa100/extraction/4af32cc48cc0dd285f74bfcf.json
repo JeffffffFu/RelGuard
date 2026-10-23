@@ -1,0 +1,110 @@
+{
+  "entities": {
+    "Interstellar": "film",
+    "Christopher Nolan": "person",
+    "Hans Zimmer": "person",
+    "Batman": "film",
+    "Inception": "film",
+    "Academy Award": "award",
+    "Hollywood Music in Media Awards": "award",
+    "WaterTower": "label"
+  },
+  "triples": [
+    {
+      "subject": "Interstellar",
+      "relation": "soundtrack_of",
+      "object": "Interstellar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Interstellar: Original Motion Picture Soundtrack is the soundtrack album to the 2014 film \"Interstellar\""
+        }
+      ]
+    },
+    {
+      "subject": "Interstellar",
+      "relation": "directed_by",
+      "object": "Christopher Nolan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "subject": "Hans Zimmer",
+      "relation": "composed_for",
+      "object": "Interstellar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film score is composed by Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "subject": "Hans Zimmer",
+      "relation": "scored",
+      "object": "Batman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who previously scored Nolan's \"Batman\" film trilogy"
+        }
+      ]
+    },
+    {
+      "subject": "Hans Zimmer",
+      "relation": "scored",
+      "object": "Inception",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and \"Inception\""
+        }
+      ]
+    },
+    {
+      "subject": "Interstellar",
+      "relation": "nominated_for",
+      "object": "Academy Award",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "it was nominated for an Academy Award"
+        }
+      ]
+    },
+    {
+      "subject": "Interstellar",
+      "relation": "released_via",
+      "object": "WaterTower",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "via the WaterTower label"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Interstellar",
+        "nominated_for",
+        "Original Score"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Interstellar",
+        "released_on",
+        "November 17, 2014"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Interstellar (soundtrack)\nInterstellar: Original Motion Picture Soundtrack is the soundtrack album to the 2014 film \"Interstellar\" directed by Christopher Nolan. The film score is composed by Hans Zimmer who previously scored Nolan's \"Batman\" film trilogy and \"Inception\". The soundtrack garnered critical acclaim. Prior to its digital release, it was nominated for an Academy Award and Original Score at the Hollywood Music in Media Awards. The soundtrack was released on November 17, 2014 via the WaterTower label."
+}

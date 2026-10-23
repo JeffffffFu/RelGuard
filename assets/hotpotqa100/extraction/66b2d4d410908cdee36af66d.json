@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Chanthaly": "Film",
+    "Mattie Do": "Person",
+    "Christopher Larsen": "Person",
+    "Amphaiphun Phimmapunya": "Person",
+    "Douangmany Soliphanh": "Person",
+    "Soukchinda Duangkhamchan": "Person",
+    "Luang Prabang Film Festival": "Event",
+    "Fantastic Fest": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Chanthaly",
+      "relation": "directed_by",
+      "object": "Mattie Do",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Mattie Do"
+        }
+      ]
+    },
+    {
+      "subject": "Chanthaly",
+      "relation": "written_by",
+      "object": "Christopher Larsen",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Christopher Larsen"
+        }
+      ]
+    },
+    {
+      "subject": "Chanthaly",
+      "relation": "screened_at",
+      "object": "Luang Prabang Film Festival",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was screened at the 2012 Luang Prabang Film Festival"
+        }
+      ]
+    },
+    {
+      "subject": "Amphaiphun Phimmapunya",
+      "relation": "stars_in",
+      "object": "Chanthaly",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars in the leading role as Chanthaly"
+        }
+      ]
+    },
+    {
+      "subject": "Chanthaly",
+      "relation": "features",
+      "object": "Douangmany Soliphanh",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "alongside Douangmany Soliphanh"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Chanthaly",
+        "screened_at",
+        "Fantastic Fest"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Chanthaly",
+        "features",
+        "Soukchinda Duangkhamchan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Chanthaly\nChanthaly (Lao: ຈັນທະລີ) is a 2012 Lao horror film directed by Mattie Do and written by Christopher Larsen. It is the first horror film to be written and directed entirely in Laos and the first Lao feature film directed by a woman. \"Chanthaly\" was screened at the 2012 Luang Prabang Film Festival and the 2013 Fantastic Fest. Pop singer Amphaiphun Phimmapunya stars in the leading role as Chanthaly, alongside Douangmany Soliphanh and Soukchinda Duangkhamchan."
+}

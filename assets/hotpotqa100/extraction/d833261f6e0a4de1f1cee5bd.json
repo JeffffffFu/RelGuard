@@ -1,0 +1,175 @@
+{
+  "entities": {
+    "Chief information officer": "WORK_OF_ART",
+    "Chief information officer (CIO)": "WORK_OF_ART",
+    "chief digital information officer (CDIO)": "WORK_OF_ART",
+    "information technology (IT) director": "WORK_OF_ART",
+    "enterprise": "ORG",
+    "chief executive officer": "PERSON",
+    "chief operating officer": "PERSON",
+    "chief financial officer": "PERSON",
+    "military organizations": "ORG",
+    "commanding officer": "PERSON",
+    "William R. Synnott": "PERSON",
+    "Bank of Boston": "ORG",
+    "William H. Gruber": "PERSON",
+    "MIT Sloan School of Management": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Chief information officer (CIO)",
+      "relation": "is_a",
+      "object": "Chief information officer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a job title",
+          "line_start": 115,
+          "char_start": 141,
+          "ambiguous": false,
+          "relation_mention": "is a job title",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Chief information officer (CIO)",
+      "relation": "given_to",
+      "object": "enterprise",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "given to the most senior executive in an enterprise",
+          "line_start": 139,
+          "char_start": 165,
+          "ambiguous": false,
+          "relation_mention": "given to the most senior executive in an enterprise",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Chief information officer (CIO)",
+      "relation": "responsible_for",
+      "object": "information technology (IT) director",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "responsible for the information technology and computer systems",
+          "line_start": 191,
+          "char_start": 217,
+          "ambiguous": false,
+          "relation_mention": "responsible for the information technology and computer systems",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Chief information officer (CIO)",
+      "relation": "reports_to",
+      "object": "chief executive officer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "reports directly to the chief executive officer",
+          "line_start": 305,
+          "char_start": 331,
+          "ambiguous": false,
+          "relation_mention": "reports directly to the chief executive officer",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Chief information officer (CIO)",
+      "relation": "may_report_to",
+      "object": "chief operating officer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "may also report to the chief operating officer",
+          "line_start": 357,
+          "char_start": 383,
+          "ambiguous": false,
+          "relation_mention": "may also report to the chief operating officer",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Chief information officer (CIO)",
+      "relation": "may_report_to",
+      "object": "chief financial officer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "may also report to the chief operating officer or chief financial officer",
+          "line_start": 357,
+          "char_start": 383,
+          "ambiguous": false,
+          "relation_mention": "may also report to the chief operating officer or chief financial officer",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "William R. Synnott",
+      "relation": "worked_at",
+      "object": "Bank of Boston",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "former Senior Vice President of the Bank of Boston",
+          "line_start": 582,
+          "char_start": 608,
+          "ambiguous": false,
+          "relation_mention": "former Senior Vice President of the Bank of Boston",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "William H. Gruber",
+      "relation": "worked_at",
+      "object": "MIT Sloan School of Management",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "former professor at the MIT Sloan School of Management",
+          "line_start": 657,
+          "char_start": 683,
+          "ambiguous": false,
+          "relation_mention": "former professor at the MIT Sloan School of Management",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "they",
+        "report_to",
+        "commanding officer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Chief Information Officer role",
+        "was_defined_by",
+        "William R. Synnott"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Chief Information Officer role",
+        "was_defined_by",
+        "William H. Gruber"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Chief information officer\nChief information officer (CIO), chief digital information officer (CDIO) or information technology (IT) director, is a job title commonly given to the most senior executive in an enterprise responsible for the information technology and computer systems that support enterprise goals. Typically, the CIO reports directly to the chief executive officer but may also report to the chief operating officer or chief financial officer. In military organizations, they report to the commanding officer. The Chief Information Officer role was first defined in 1981 by William R. Synnott, former Senior Vice President of the Bank of Boston, and William H. Gruber, former professor at the MIT Sloan School of Management."
+}

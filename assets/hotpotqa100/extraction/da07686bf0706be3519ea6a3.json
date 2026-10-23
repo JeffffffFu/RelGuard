@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "North Korea": "GPE",
+    "North Korean cinema": "WORK_OF_ART",
+    "the country": "LOC",
+    "the world's filmdom": "LOC",
+    "the revolutionary people of the world": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "North Korean cinema",
+        "located_in",
+        "North Korea"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "North Korea",
+        "described_as",
+        "the country"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "the revolutionary people of the world",
+        "praise",
+        "North Korean cinema"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "North Korean cinema",
+        "praised_by",
+        "the world's filmdom"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Cinema of North Korea\nBecause of the isolated nature of the country, information—particularly unbiased information—on North Korean cinema is difficult to find. Outsider appraisal of North Korean cinema is often condescending, while statements from official North Korean sources include claims like, \"In recent years our film art has created an unprecedented sensation in the world's filmdom... The revolutionary people of the world are unstinting in their praise of this feature film and other monumental works, calling them 'the first-class films by international standards', 'the most wonderful movies ever produced' and 'immortal revolutionary and popular films'.\"",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"North Korea\", \"type\": \"GPE\"},\n    {\"name\": \"North Korean cinema\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"the country\", \"type\": \"LOC\"},\n    {\"name\": \"the world's filmdom\", \"type\": \"LOC\"},\n    {\"name\": \"the revolutionary people of the world\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"North Korean cinema\",\n      \"relation\": \"located_in\",\n      \"object\": \"North Korea\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"of North Korea\"}\n      ]\n    },\n    {\n      \"subject\": \"North Korea\",\n      \"relation\": \"described_as\",\n      \"object\": \"the country\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the country\"}\n      ]\n    },\n    {\n      \"subject\": \"the revolutionary people of the world\",\n      \"relation\": \"praise\",\n      \"object\": \"North Korean cinema\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"unstinting in their praise of this feature film\"}\n      ]\n    },\n    {\n      \"subject\": \"North Korean cinema\",\n      \"relation\": \"praised_by\",\n      \"object\": \"the world's filmdom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the world's filmdom\"}\n      ]\n    }\n  ]\n}"
+}

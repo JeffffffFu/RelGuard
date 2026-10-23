@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "The Barry Building": "FAC",
+    "San Vicente Boulevard": "FAC",
+    "Brentwood": "GPE",
+    "Los Angeles": "GPE",
+    "California": "GPE",
+    "Milton Caughey": "PERSON",
+    "Los Angeles Cultural Heritage Commission": "ORG",
+    "Los Angeles Historic-Cultural Monument": "LAW"
+  },
+  "triples": [
+    {
+      "subject": "The Barry Building",
+      "relation": "located_in",
+      "object": "San Vicente Boulevard",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at",
+          "line_start": 82,
+          "char_start": 101,
+          "ambiguous": false,
+          "relation_mention": "located at",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Barry Building",
+      "relation": "designed_by",
+      "object": "Milton Caughey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed by",
+          "line_start": 199,
+          "char_start": 218,
+          "ambiguous": false,
+          "relation_mention": "designed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Barry Building",
+        "located_in",
+        "Brentwood"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Brentwood",
+        "located_in",
+        "Los Angeles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Los Angeles",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Barry Building",
+        "listed_as",
+        "Los Angeles Historic-Cultural Monument"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Barry Building",
+        "identified_by",
+        "Los Angeles Cultural Heritage Commission"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Barry Building\nThe Barry Building is a landmark commercial mid-twentieth century modern building located at 11973 San Vicente Boulevard in the heart of the Brentwood neighborhood of Los Angeles, California. It was designed by architect Milton Caughey (1911-1958) and completed in 1951. In 2007, the building was listed as a Los Angeles Historic-Cultural Monument,(Historical Cultural Monument #887), making it one of the few mid-century modern commercial buildings to gain such status. It was identified by the Los Angeles Cultural Heritage Commission as being a well-preserved and notable example of the California-style modern design.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Barry Building\", \"type\": \"FAC\"},\n    {\"name\": \"San Vicente Boulevard\", \"type\": \"FAC\"},\n    {\"name\": \"Brentwood\", \"type\": \"GPE\"},\n    {\"name\": \"Los Angeles\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"Milton Caughey\", \"type\": \"PERSON\"},\n    {\"name\": \"Los Angeles Cultural Heritage Commission\", \"type\": \"ORG\"},\n    {\"name\": \"Los Angeles Historic-Cultural Monument\", \"type\": \"LAW\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Barry Building\",\n      \"relation\": \"located_in\",\n      \"object\": \"San Vicente Boulevard\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located at\"}\n      ]\n    },\n    {\n      \"subject\": \"The Barry Building\",\n      \"relation\": \"located_in\",\n      \"object\": \"Brentwood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the heart of the Brentwood neighborhood of\"}\n      ]\n    },\n    {\n      \"subject\": \"Brentwood\",\n      \"relation\": \"located_in\",\n      \"object\": \"Los Angeles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"neighborhood of Los Angeles\"}\n      ]\n    },\n    {\n      \"subject\": \"Los Angeles\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Los Angeles, California\"}\n      ]\n    },\n    {\n      \"subject\": \"The Barry Building\",\n      \"relation\": \"designed_by\",\n      \"object\": \"Milton Caughey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Barry Building\",\n      \"relation\": \"listed_as\",\n      \"object\": \"Los Angeles Historic-Cultural Monument\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"listed as a Los Angeles Historic-Cultural Monument\"}\n      ]\n    },\n    {\n      \"subject\": \"The Barry Building\",\n      \"relation\": \"identified_by\",\n      \"object\": \"Los Angeles Cultural Heritage Commission\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"identified by the Los Angeles Cultural Heritage Commission as being\"}\n      ]\n    }\n  ]\n}"
+}

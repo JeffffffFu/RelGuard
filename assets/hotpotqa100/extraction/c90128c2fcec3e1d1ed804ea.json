@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Skepta": "Person",
+    "Joseph Junior Adenuga": "Person",
+    "Jme": "Person",
+    "AATW": "Organization",
+    "Greatest Hits": "Album",
+    "Microphone Champion": "Album",
+    "Doin' It Again": "Album",
+    "Konnichiwa": "Album",
+    "Mercury Prize": "Award"
+  },
+  "triples": [
+    {
+      "subject": "Joseph Junior Adenuga",
+      "relation": "known_as",
+      "object": "Skepta",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "better known by his stage name Skepta"
+        }
+      ]
+    },
+    {
+      "subject": "Doin' It Again",
+      "relation": "released_by",
+      "object": "AATW",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was released in 2011 by AATW"
+        }
+      ]
+    },
+    {
+      "subject": "Joseph Junior Adenuga",
+      "relation": "released",
+      "object": "Konnichiwa",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was released on 6 May 2016"
+        }
+      ]
+    },
+    {
+      "subject": "Konnichiwa",
+      "relation": "won",
+      "object": "Mercury Prize",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "winning that year's Mercury Prize"
+        }
+      ]
+    },
+    {
+      "subject": "Skepta",
+      "relation": "has_brother",
+      "object": "Jme",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Skepta's brother, and labelmate is the well known grime artist Jme"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Joseph Junior Adenuga",
+        "born_on",
+        "19 September 1982"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Joseph Junior Adenuga",
+        "released",
+        "Greatest Hits"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Joseph Junior Adenuga",
+        "released",
+        "Microphone Champion"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Joseph Junior Adenuga",
+        "released",
+        "Doin' It Again"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Skepta",
+        "collaborated_with",
+        "Jme"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Skepta\nJoseph Junior Adenuga (born 19 September 1982), better known by his stage name Skepta, is a British grime artist, rapper, songwriter, record producer and music video director. Adenuga released his debut studio album \"Greatest Hits\" in late-2007 and his second, \"Microphone Champion\" in 2009, both independently, while his third studio album \"Doin' It Again\" was released in 2011 by AATW. His fourth studio album, \"Konnichiwa\", was released on 6 May 2016 to critical acclaim, winning that year's Mercury Prize. Skepta's brother, and labelmate is the well known grime artist Jme.They have collaborated many times, most recently on his album \"Konnichiwa\"."
+}

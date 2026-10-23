@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Kuznetsov NK-12": "PRODUCT",
+    "Soviet": "NORP",
+    "Kuznetsov design bureau": "ORG",
+    "NK-12MA": "PRODUCT",
+    "NK-12MV": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Kuznetsov NK-12",
+      "relation": "designed_by",
+      "object": "Kuznetsov design bureau",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed by",
+          "line_start": 63,
+          "char_start": 79,
+          "ambiguous": false,
+          "relation_mention": "designed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Kuznetsov NK-12",
+      "relation": "variant_of",
+      "object": "NK-12MA",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the NK-12MA",
+          "line_start": 242,
+          "char_start": 258,
+          "ambiguous": false,
+          "relation_mention": "in the NK-12MA",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Kuznetsov NK-12",
+      "relation": "variant_of",
+      "object": "NK-12MV",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and NK-12MV",
+          "line_start": 257,
+          "char_start": 273,
+          "ambiguous": false,
+          "relation_mention": "and NK-12MV",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kuznetsov NK-12",
+        "is_a",
+        "Soviet"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kuznetsov NK-12\nThe Kuznetsov NK-12 is a Soviet turboprop engine of the 1950s, designed by the Kuznetsov design bureau. It drives two large four-bladed (eight per engine) contra-rotating propellers, 5.6 m (18 ft 4.5 in) in diameter, and 6.2 m (20 ft 4.1 in) in the NK-12MA and NK-12MV. It is the most powerful turboprop engine ever built."
+}

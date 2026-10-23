@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "2016 Blancpain GT Series": "Event",
+    "Misano": "Location",
+    "Barcelona": "Location"
+  },
+  "triples": [
+    {
+      "subject": "2016 Blancpain GT Series",
+      "relation": "started_in",
+      "object": "Misano",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "started on 10 April in Misano"
+        }
+      ]
+    },
+    {
+      "subject": "2016 Blancpain GT Series",
+      "relation": "ended_in",
+      "object": "Barcelona",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "ended on 2 October in Barcelona"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "2016 Blancpain GT Series",
+        "started_on",
+        "10 April"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2016 Blancpain GT Series",
+        "ended_on",
+        "2 October"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2016 Blancpain GT Series",
+        "featured",
+        "ten rounds"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2016 Blancpain GT Series",
+        "included",
+        "five Endurance Cup rounds"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2016 Blancpain GT Series",
+        "included",
+        "five Sprint Cup rounds"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "2016 Blancpain GT Series\nThe 2016 Blancpain GT Series was the third season of the Blancpain GT Series. The season started on 10 April in Misano and ended on 2 October in Barcelona. The season featured ten rounds, five Endurance Cup rounds and five Sprint Cup rounds."
+}

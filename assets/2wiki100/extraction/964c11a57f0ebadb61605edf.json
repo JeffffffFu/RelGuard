@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Goffredo Parise": "PERSON",
+    "Vicenza": "GPE",
+    "Treviso": "GPE",
+    "Italian": "NORP",
+    "Viareggio Prize": "WORK_OF_ART",
+    "Il padrone(The Boss)": "WORK_OF_ART",
+    "Strega Prize": "WORK_OF_ART",
+    "Sillabario n.2": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Goffredo Parise",
+      "relation": "won",
+      "object": "Viareggio Prize",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "won the",
+          "line_start": 129,
+          "char_start": 145,
+          "ambiguous": false,
+          "relation_mention": "won the",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Goffredo Parise",
+      "relation": "won",
+      "object": "Strega Prize",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "won the",
+          "line_start": 129,
+          "char_start": 145,
+          "ambiguous": false,
+          "relation_mention": "won the",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Goffredo Parise",
+        "born_in",
+        "Vicenza"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Goffredo Parise",
+        "died_in",
+        "Treviso"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Goffredo Parise",
+        "nationality",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Viareggio Prize",
+        "for_work",
+        "Il padrone(The Boss)"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Strega Prize",
+        "for_work",
+        "Sillabario n.2"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Goffredo Parise\nGoffredo Parise (8 December 1929 in Vicenza – 31 August 1986 in Treviso) was an Italian writer, journalist, and screenwriter. He won the Viareggio Prize in 1965 for his novel \"Il padrone(The Boss)\" and the Strega Prize in 1982 for \"Sillabario n.2\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Goffredo Parise\", \"type\": \"PERSON\"},\n    {\"name\": \"Vicenza\", \"type\": \"GPE\"},\n    {\"name\": \"Treviso\", \"type\": \"GPE\"},\n    {\"name\": \"Italian\", \"type\": \"NORP\"},\n    {\"name\": \"Viareggio Prize\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Il padrone(The Boss)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Strega Prize\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Sillabario n.2\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Goffredo Parise\",\n      \"relation\": \"born_in\",\n      \"object\": \"Vicenza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Goffredo Parise\",\n      \"relation\": \"died_in\",\n      \"object\": \"Treviso\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Goffredo Parise\",\n      \"relation\": \"nationality\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an\"}\n      ]\n    },\n    {\n      \"subject\": \"Goffredo Parise\",\n      \"relation\": \"won\",\n      \"object\": \"Viareggio Prize\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the\"}\n      ]\n    },\n    {\n      \"subject\": \"Viareggio Prize\",\n      \"relation\": \"for_work\",\n      \"object\": \"Il padrone(The Boss)\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for his novel\"}\n      ]\n    },\n    {\n      \"subject\": \"Goffredo Parise\",\n      \"relation\": \"won\",\n      \"object\": \"Strega Prize\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the\"}\n      ]\n    },\n    {\n      \"subject\": \"Strega Prize\",\n      \"relation\": \"for_work\",\n      \"object\": \"Sillabario n.2\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for\"}\n      ]\n    }\n  ]\n}"
+}

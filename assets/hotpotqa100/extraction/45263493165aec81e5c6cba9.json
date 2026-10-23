@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Lolly-Madonna XXX": "WORK_OF_ART",
+    "The Lolly-Madonna War": "WORK_OF_ART",
+    "Richard C. Sarafian": "PERSON",
+    "Rodney Carr-Smith": "PERSON",
+    "Sue Grafton": "PERSON",
+    "Grafton": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Lolly-Madonna XXX",
+      "relation": "directed_by",
+      "object": "Richard C. Sarafian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 64,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Lolly-Madonna XXX",
+      "relation": "based_on",
+      "object": "The Lolly-Madonna War",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 159,
+          "char_start": 177,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lolly-Madonna XXX",
+        "co_written_by",
+        "Rodney Carr-Smith"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lolly-Madonna XXX",
+        "co_written_by",
+        "Sue Grafton"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Lolly-Madonna War",
+        "written_by",
+        "Grafton"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Lolly-Madonna XXX\nLolly-Madonna XXX (a.k.a. The Lolly-Madonna War) is a 1973 film directed by Richard C. Sarafian. The film was co-written by Rodney Carr-Smith and Sue Grafton, based on the novel \"The Lolly-Madonna War\" by Grafton.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Lolly-Madonna XXX\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Lolly-Madonna War\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Richard C. Sarafian\", \"type\": \"PERSON\"},\n    {\"name\": \"Rodney Carr-Smith\", \"type\": \"PERSON\"},\n    {\"name\": \"Sue Grafton\", \"type\": \"PERSON\"},\n    {\"name\": \"Grafton\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Lolly-Madonna XXX\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Richard C. Sarafian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Lolly-Madonna XXX\",\n      \"relation\": \"co_written_by\",\n      \"object\": \"Rodney Carr-Smith\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Lolly-Madonna XXX\",\n      \"relation\": \"co_written_by\",\n      \"object\": \"Sue Grafton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Lolly-Madonna XXX\",\n      \"relation\": \"based_on\",\n      \"object\": \"The Lolly-Madonna War\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on\"}\n      ]\n    },\n    {\n      \"subject\": \"The Lolly-Madonna War\",\n      \"relation\": \"written_by\",\n      \"object\": \"Grafton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,57 @@
+{
+  "entities": {
+    "Anne de La Tour d'Auvergne": "Person",
+    "Auvergne": "Place",
+    "John Stewart": "Person",
+    "Duke of Albany": "Title",
+    "Albany": "Place",
+    "Jehan Comte de Boulogne": "Person",
+    "Boulogne": "Place"
+  },
+  "triples": [
+    {
+      "subject": "Anne de La Tour d'Auvergne",
+      "relation": "was_countess_of",
+      "object": "Auvergne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was sovereign Countess of Auvergne from 1501 until 1524"
+        }
+      ]
+    },
+    {
+      "subject": "Anne de La Tour d'Auvergne",
+      "relation": "was_duchess_of",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Duchess of Albany by marriage to John Stewart"
+        }
+      ]
+    },
+    {
+      "subject": "John Stewart",
+      "relation": "holds_title",
+      "object": "Duke of Albany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "marriage to John Stewart, Duke of Albany"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Anne de La Tour d'Auvergne",
+        "called",
+        "Anne de Boulogne fille de Jehan Comte de Boulogne et Auvergne"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Anne de La Tour d'Auvergne\nAnne de La Tour d'Auvergne (1496–1524) was sovereign Countess of Auvergne from 1501 until 1524, and Duchess of Albany by marriage to John Stewart, Duke of Albany. In her marriage contract, she was called 'Anne de Boulogne fille de Jehan Comte de Boulogne et Auvergne.'"
+}

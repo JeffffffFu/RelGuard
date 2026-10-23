@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "The Black Marble": "Film",
+    "Harold Becker": "Director",
+    "Joseph Wambaugh": "Author",
+    "Robert Foxworth": "Actor",
+    "Paula Prentiss": "Actor",
+    "Harry Dean Stanton": "Actor"
+  },
+  "triples": [
+    {
+      "subject": "The Black Marble",
+      "relation": "directed_by",
+      "object": "Harold Becker",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Harold Becker"
+        }
+      ]
+    },
+    {
+      "subject": "The Black Marble",
+      "relation": "based_on",
+      "object": "Joseph Wambaugh",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on a novel by Joseph Wambaugh"
+        }
+      ]
+    },
+    {
+      "subject": "The Black Marble",
+      "relation": "stars",
+      "object": "Robert Foxworth",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It stars Robert Foxworth"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Black Marble",
+        "stars",
+        "Paula Prentiss"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Black Marble",
+        "stars",
+        "Harry Dean Stanton"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Black Marble\nThe Black Marble is a 1980 mystery/ romantic comedy film directed by Harold Becker, based on a novel by Joseph Wambaugh. It stars Robert Foxworth, Paula Prentiss and Harry Dean Stanton."
+}

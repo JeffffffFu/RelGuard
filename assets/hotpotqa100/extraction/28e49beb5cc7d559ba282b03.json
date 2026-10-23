@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Teatro Regio Ducal": "FAC",
+    "Milan": "GPE",
+    "Mozart": "PERSON",
+    "Ascanio in Alba": "WORK_OF_ART",
+    "Mitridate, re di Ponto": "WORK_OF_ART",
+    "Lucio Silla": "WORK_OF_ART",
+    "Maria Teresa Agnesi Pinottini": "PERSON",
+    "Ciro in Armenia": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Mozart",
+      "relation": "associated_with",
+      "object": "Teatro Regio Ducal",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "associated with it",
+          "line_start": 225,
+          "char_start": 244,
+          "ambiguous": false,
+          "relation_mention": "associated with it",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Teatro Regio Ducal",
+        "located_in",
+        "Milan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ascanio in Alba",
+        "premiered_at",
+        "Teatro Regio Ducal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mitridate, re di Ponto",
+        "premiered_at",
+        "Teatro Regio Ducal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lucio Silla",
+        "premiered_at",
+        "Teatro Regio Ducal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Maria Teresa Agnesi Pinottini",
+        "saw_premiere_at",
+        "Teatro Regio Ducal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ciro in Armenia",
+        "premiered_at",
+        "Teatro Regio Ducal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Teatro Regio Ducal\nThe Teatro Regio Ducal (Italian, \"Royal Ducal Theatre\") was the opera house in Milan from 26 December 1717 until 25 February 1776, when it was burned down following a carnival gala. Many famous composers and their operas are associated with it, including the premieres of Mozart's \"Ascanio in Alba\", \"Mitridate, re di Ponto\", and \"Lucio Silla\". The opera house also saw the premiere of Maria Teresa Agnesi Pinottini's \"Ciro in Armenia\" in 1753; one of the earliest successfully received operas by a female composer. Variant forms such as \"Regio-Ducal Teatro\" and \"Teatro Regio Ducale\" are also seen.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Teatro Regio Ducal\", \"type\": \"FAC\"},\n    {\"name\": \"Milan\", \"type\": \"GPE\"},\n    {\"name\": \"Mozart\", \"type\": \"PERSON\"},\n    {\"name\": \"Ascanio in Alba\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Mitridate, re di Ponto\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Lucio Silla\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Maria Teresa Agnesi Pinottini\", \"type\": \"PERSON\"},\n    {\"name\": \"Ciro in Armenia\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Teatro Regio Ducal\",\n      \"relation\": \"located_in\",\n      \"object\": \"Milan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Milan\"}\n      ]\n    },\n    {\n      \"subject\": \"Ascanio in Alba\",\n      \"relation\": \"premiered_at\",\n      \"object\": \"Teatro Regio Ducal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"premieres of Mozart's \\\"Ascanio in Alba\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Mitridate, re di Ponto\",\n      \"relation\": \"premiered_at\",\n      \"object\": \"Teatro Regio Ducal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"premieres of Mozart's \\\"Mitridate, re di Ponto\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Lucio Silla\",\n      \"relation\": \"premiered_at\",\n      \"object\": \"Teatro Regio Ducal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"premieres of Mozart's \\\"Lucio Silla\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Maria Teresa Agnesi Pinottini\",\n      \"relation\": \"saw_premiere_at\",\n      \"object\": \"Teatro Regio Ducal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"saw the premiere of Maria Teresa Agnesi Pinottini's \\\"Ciro in Armenia\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Ciro in Armenia\",\n      \"relation\": \"premiered_at\",\n      \"object\": \"Teatro Regio Ducal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"saw the premiere of Maria Teresa Agnesi Pinottini's \\\"Ciro in Armenia\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Mozart\",\n      \"relation\": \"associated_with\",\n      \"object\": \"Teatro Regio Ducal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"associated with it\"}\n      ]\n    }\n  ]\n}"
+}

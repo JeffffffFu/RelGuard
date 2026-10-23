@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "Raju Rocket": "TV Show",
+    "Hum TV": "TV Network",
+    "Saima Waseem": "Director",
+    "Imran Ali Safir": "Writer",
+    "Danish Taimoor": "Actor",
+    "Sumbul Iqbal": "Actor",
+    "Madiha Rizvi": "Actor",
+    "Rubina Ashraf": "Actor",
+    "Nadia Afghan": "Actor",
+    "Qazi Wajid": "Actor"
+  },
+  "triples": [
+    {
+      "subject": "Raju Rocket",
+      "relation": "aired_on",
+      "object": "Hum TV",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "aired on the Hum TV"
+        }
+      ]
+    },
+    {
+      "subject": "Raju Rocket",
+      "relation": "directed_by",
+      "object": "Saima Waseem",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is directed by \"Saima Waseem\""
+        }
+      ]
+    },
+    {
+      "subject": "Raju Rocket",
+      "relation": "written_by",
+      "object": "Imran Ali Safir",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by \"Imran Ali Safir\""
+        }
+      ]
+    },
+    {
+      "subject": "Raju Rocket",
+      "relation": "starring",
+      "object": "Danish Taimoor",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Danish Taimoor"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Raju Rocket",
+        "first_aired_on",
+        "27 August 2012"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Raju Rocket",
+        "starring",
+        "Sumbul Iqbal"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Raju Rocket",
+        "starring",
+        "Madiha Rizvi"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Raju Rocket",
+        "starring",
+        "Rubina Ashraf"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Raju Rocket",
+        "starring",
+        "Nadia Afghan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Raju Rocket",
+        "starring",
+        "Qazi Wajid"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Raju Rocket\nRaju Rocket is a 2012 Pakistani comedy drama serial aired on the Hum TV. Serial was first aired on 27 August 2012; and is directed by \"Saima Waseem\" and written by \"Imran Ali Safir\", starring Danish Taimoor, Sumbul Iqbal, Madiha Rizvi, Rubina Ashraf, Nadia Afghan and Qazi Wajid."
+}

@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "Nissan Rasheen": "Vehicle",
+    "Nissan": "Company",
+    "Takada Kogyo": "Company",
+    "Nissan Red Stage": "Dealership",
+    "Wartburg 353": "Vehicle",
+    "Be-1": "Vehicle",
+    "Pao": "Vehicle",
+    "Figaro": "Vehicle",
+    "S-Cargo": "Vehicle"
+  },
+  "triples": [
+    {
+      "subject": "Nissan Rasheen",
+      "relation": "produced_by",
+      "object": "Nissan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced from November 1994 to August 2000 by Nissan"
+        }
+      ]
+    },
+    {
+      "subject": "Nissan Rasheen",
+      "relation": "compared_to",
+      "object": "Wartburg 353",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "often compared to Eastern European cars in design, particularly the Wartburg 353"
+        }
+      ]
+    },
+    {
+      "subject": "Nissan Rasheen",
+      "relation": "produced_by",
+      "object": "Takada Kogyo",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Rasheen production was carried out by Nissan's specialist subsidiary Takada Kogyo"
+        }
+      ]
+    },
+    {
+      "subject": "Nissan Rasheen",
+      "relation": "exclusive_to",
+      "object": "Nissan Red Stage",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "It was exclusive to Nissan Japanese dealership network called Nissan Red Stage"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nissan Rasheen",
+        "shown_at",
+        "Tokyo Auto show"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nissan Rasheen",
+        "reminiscent_of",
+        "Be-1"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Nissan Rasheen",
+        "reminiscent_of",
+        "Pao"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Nissan Rasheen",
+        "reminiscent_of",
+        "Figaro"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Nissan Rasheen",
+        "reminiscent_of",
+        "S-Cargo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Nissan Rasheen\nThe Nissan Rasheen is a small SUV with four-wheel drive capabilities produced from November 1994 to August 2000 by Nissan. A prototype was first shown at the October 1993 Tokyo Auto show. It was offered with three different inline-four engines: from the original 1.5-liter \"GA15DE\", to a larger 1.8-liter \"SR18DE\", and finally a 2.0-liter \"SR20DE\" in the Rasheen Forza. The car has five seats and a rugged, quirky and angularly styled body. It is a very small and short four-wheel drive that is often compared to Eastern European cars in design, particularly the Wartburg 353, but is also reminiscent of Nissan's \"Pike\" cars (Be-1, Pao, Figaro, and S-Cargo). As for the Be-1 and Figaro, Rasheen production was carried out by Nissan's specialist subsidiary Takada Kogyo. It was exclusive to Nissan Japanese dealership network called Nissan Red Stage."
+}

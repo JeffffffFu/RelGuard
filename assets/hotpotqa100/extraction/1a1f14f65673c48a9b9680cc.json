@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Andy": "WORK_OF_ART",
+    "Norman Alden": "PERSON",
+    "Richard C. Sarafian": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Andy",
+      "relation": "stars",
+      "object": "Norman Alden",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 29,
+          "char_start": 41,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Andy",
+      "relation": "written_by",
+      "object": "Richard C. Sarafian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written",
+          "line_start": 55,
+          "char_start": 67,
+          "ambiguous": false,
+          "relation_mention": "written",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Andy",
+      "relation": "directed_by",
+      "object": "Richard C. Sarafian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 67,
+          "char_start": 79,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Andy (film)\nAndy is a 1965 dramatic film starring Norman Alden and written and directed by Richard C. Sarafian. It was Sarafian' s first directing credit for a feature film.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Andy\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Norman Alden\", \"type\": \"PERSON\"},\n    {\"name\": \"Richard C. Sarafian\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Andy\",\n      \"relation\": \"stars\",\n      \"object\": \"Norman Alden\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Andy\",\n      \"relation\": \"written_by\",\n      \"object\": \"Richard C. Sarafian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written\"}\n      ]\n    },\n    {\n      \"subject\": \"Andy\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Richard C. Sarafian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    }\n  ]\n}"
+}

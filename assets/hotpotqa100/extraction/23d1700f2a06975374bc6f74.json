@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "Toyota Fortuner": "PRODUCT",
+    "Toyota": "ORG",
+    "Thailand": "GPE",
+    "Indonesia": "GPE",
+    "Toyota Hilux": "PRODUCT",
+    "Kijang Innova": "PRODUCT",
+    "Egypt": "GPE",
+    "Pakistan": "GPE",
+    "India": "GPE",
+    "Argentina": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Toyota Fortuner",
+      "relation": "manufactured_by",
+      "object": "Toyota",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a mid-size SUV manufactured by Toyota."
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Fortuner",
+      "relation": "assembled_in",
+      "object": "Thailand",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Originally assembled only in Thailand"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Fortuner",
+      "relation": "assembled_in",
+      "object": "Indonesia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "but later also in Indonesia"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Fortuner",
+      "relation": "built_on",
+      "object": "Toyota Hilux",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is built on the Toyota Hilux pickup truck platform."
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Fortuner",
+      "relation": "built_in",
+      "object": "Egypt",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "is now built in a number of countries including Egypt"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Fortuner",
+      "relation": "built_in",
+      "object": "India",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "India"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Fortuner",
+      "relation": "built_in",
+      "object": "Argentina",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Argentina"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Fortuner",
+      "relation": "built_in",
+      "object": "Indonesia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and Indonesia."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Toyota Fortuner",
+        "part_of",
+        "Toyota's IMV project"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Toyota's IMV project",
+        "includes",
+        "Toyota Hilux"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Toyota's IMV project",
+        "includes",
+        "Kijang Innova"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Toyota Fortuner",
+        "built_in",
+        "Pakistan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Toyota Fortuner\nThe Toyota Fortuner (Japanese: トヨタ フォーチュナー , Toyota fōchunā ) , also known as the Toyota SW4, is a mid-size SUV manufactured by Toyota. Originally assembled only in Thailand but later also in Indonesia and other countries, the Fortuner is built on the Toyota Hilux pickup truck platform. It features three rows of seats and is available in rear-wheel drive or four-wheel drive. The Fortuner is part of Toyota's IMV project in Thailand, which also includes the Toyota Hilux and the Kijang Innova (in Indonesia). Developed in large part by Toyota’s Thai operations, the Fortuner has piggybacked the success of the Hilux and is now built in a number of countries including Egypt, Pakistan, India, Argentina and Indonesia."
+}

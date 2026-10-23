@@ -1,0 +1,141 @@
+{
+  "entities": {
+    "Time Warner Cable": "Organization",
+    "Charter Communications": "Organization",
+    "Comcast": "Organization",
+    "Time Warner Center": "Location",
+    "Midtown Manhattan": "Location",
+    "New York City": "Location",
+    "Stamford": "Location",
+    "Connecticut": "Location",
+    "Charlotte": "Location",
+    "North Carolina": "Location",
+    "Herndon": "Location",
+    "Virginia": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Time Warner Cable",
+      "relation": "purchased_by",
+      "object": "Charter Communications",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "its purchase by Charter Communications in 2016"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Cable",
+      "relation": "ranked",
+      "object": "Comcast",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "ranked the second largest cable company in the United States by revenue behind only Comcast"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Cable",
+      "relation": "located_in",
+      "object": "Time Warner Center",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Its corporate headquarters were located in the Time Warner Center"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Center",
+      "relation": "located_in",
+      "object": "Midtown Manhattan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Midtown Manhattan"
+        }
+      ]
+    },
+    {
+      "subject": "Midtown Manhattan",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Midtown Manhattan, New York City"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Cable",
+      "relation": "has_office_in",
+      "object": "Stamford",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with other corporate offices in Stamford"
+        }
+      ]
+    },
+    {
+      "subject": "Time Warner Cable",
+      "relation": "has_office_in",
+      "object": "Herndon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and Herndon"
+        }
+      ]
+    },
+    {
+      "subject": "Stamford",
+      "relation": "located_in",
+      "object": "Connecticut",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Stamford, Connecticut"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Time Warner Cable",
+        "operated_in",
+        "29 states"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Time Warner Cable",
+        "has_office_in",
+        "Charlotte"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Charlotte",
+        "located_in",
+        "North Carolina"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Herndon",
+        "located_in",
+        "Virginia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Time Warner Cable\nTime Warner Cable (TWC) was an American cable television company. Prior to its purchase by Charter Communications in 2016, it was ranked the second largest cable company in the United States by revenue behind only Comcast, operating in 29 states. Its corporate headquarters were located in the Time Warner Center in Midtown Manhattan, New York City, with other corporate offices in Stamford, Connecticut; Charlotte, North Carolina; and Herndon, Virginia."
+}

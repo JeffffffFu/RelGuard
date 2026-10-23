@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Mindless Behavior": "ORG",
+    "Steven Goldfried": "PERSON",
+    "All Around the World": "WORK_OF_ART",
+    "AMC Theatres": "ORG",
+    "AwesomenessTV Films": "ORG",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Mindless Behavior",
+      "relation": "directed_by",
+      "object": "Steven Goldfried",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed and produced by Steven Goldfried"
+        }
+      ]
+    },
+    {
+      "subject": "Mindless Behavior",
+      "relation": "based_on",
+      "object": "All Around the World",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that is based on the making of American boy band Mindless Behavior"
+        }
+      ]
+    },
+    {
+      "subject": "All Around the World",
+      "relation": "released_by",
+      "object": "AMC Theatres",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "released on March 15, 2013 through AMC Theatres"
+        }
+      ]
+    },
+    {
+      "subject": "All Around the World",
+      "relation": "distributed_by",
+      "object": "AwesomenessTV Films",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "being distributed by AwesomenessTV Films"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mindless Behavior",
+        "shares_name_with",
+        "All Around the World"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Mindless Behavior: All Around the World\nMindless Behavior: All Around the World is a 2013 American documentary film directed and produced by Steven Goldfried, that is based on the making of American boy band Mindless Behavior. The film was released on March 15, 2013 through AMC Theatres while being distributed by AwesomenessTV Films. The film also shares the same name as the band's second studio album, \"All Around the World\" and was released in the same week of the album's release."
+}

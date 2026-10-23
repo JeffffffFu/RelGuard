@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "John Allen": "PERSON",
+    "Oxford University": "ORG",
+    "Windsor, New South Wales": "GPE",
+    "Oxford University Cricket Club": "ORG",
+    "varsity match": "EVENT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "John Allen",
+        "born_in",
+        "Windsor, New South Wales"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Allen",
+        "nationality",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John Allen",
+        "played_for",
+        "Oxford University Cricket Club"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Allen",
+        "played_for",
+        "Oxford University"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Allen",
+        "played_in",
+        "varsity match"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "John Allen (Oxford University cricketer)\nJohn Aubrey Allen( born 19 July 1974 in Windsor, New South Wales) is an Australian- born first- class cricketer who played for Oxford University Cricket Club. Both his first- class games were for Oxford University, one of which was a varsity match.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"John Allen\", \"type\": \"PERSON\"},\n    {\"name\": \"Oxford University\", \"type\": \"ORG\"},\n    {\"name\": \"Windsor, New South Wales\", \"type\": \"GPE\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"},\n    {\"name\": \"Oxford University Cricket Club\", \"type\": \"ORG\"},\n    {\"name\": \"varsity match\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"John Allen\",\n      \"relation\": \"born_in\",\n      \"object\": \"Windsor, New South Wales\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born 19 July 1974 in Windsor, New South Wales\"}\n      ]\n    },\n    {\n      \"subject\": \"John Allen\",\n      \"relation\": \"nationality\",\n      \"object\": \"Australia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an Australian- born\"}\n      ]\n    },\n    {\n      \"subject\": \"John Allen\",\n      \"relation\": \"played_for\",\n      \"object\": \"Oxford University Cricket Club\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played for Oxford University Cricket Club\"}\n      ]\n    },\n    {\n      \"subject\": \"John Allen\",\n      \"relation\": \"played_for\",\n      \"object\": \"Oxford University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Both his first- class games were for Oxford University\"}\n      ]\n    },\n    {\n      \"subject\": \"John Allen\",\n      \"relation\": \"played_in\",\n      \"object\": \"varsity match\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"one of which was a varsity match\"}\n      ]\n    }\n  ]\n}"
+}

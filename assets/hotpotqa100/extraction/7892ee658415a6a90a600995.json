@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Barton Lynch": "PERSON",
+    "ASP World Tour": "EVENT",
+    "Rip Curl Pro": "EVENT",
+    "Australian Surfing Hall of Fame": "ORG",
+    "Australian Sporting Hall of Fame": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Barton Lynch",
+        "located_in",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Barton Lynch",
+        "won",
+        "ASP World Tour"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Barton Lynch",
+        "won",
+        "Rip Curl Pro"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Barton Lynch",
+        "inducted_into",
+        "Australian Surfing Hall of Fame"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Barton Lynch",
+        "inducted_into",
+        "Australian Sporting Hall of Fame"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Barton Lynch\nBarton Lynch (born August 9, 1963) is an Australian surfer known for his competitive prowess and style. In 1988, he was crowned ASP World Tour Champion. He also won the 1991 Rip Curl Pro. In 1998, he was inducted into the Australian Surfing Hall of Fame, and in 2000, he was inducted into the Australian Sporting Hall of Fame.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Barton Lynch\", \"type\": \"PERSON\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"},\n    {\"name\": \"ASP World Tour\", \"type\": \"EVENT\"},\n    {\"name\": \"Rip Curl Pro\", \"type\": \"EVENT\"},\n    {\"name\": \"Australian Surfing Hall of Fame\", \"type\": \"ORG\"},\n    {\"name\": \"Australian Sporting Hall of Fame\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Barton Lynch\",\n      \"relation\": \"located_in\",\n      \"object\": \"Australia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an Australian\"}\n      ]\n    },\n    {\n      \"subject\": \"Barton Lynch\",\n      \"relation\": \"won\",\n      \"object\": \"ASP World Tour\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was crowned ASP World Tour Champion\"}\n      ]\n    },\n    {\n      \"subject\": \"Barton Lynch\",\n      \"relation\": \"won\",\n      \"object\": \"Rip Curl Pro\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the 1991 Rip Curl Pro\"}\n      ]\n    },\n    {\n      \"subject\": \"Barton Lynch\",\n      \"relation\": \"inducted_into\",\n      \"object\": \"Australian Surfing Hall of Fame\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was inducted into the Australian Surfing Hall of Fame\"}\n      ]\n    },\n    {\n      \"subject\": \"Barton Lynch\",\n      \"relation\": \"inducted_into\",\n      \"object\": \"Australian Sporting Hall of Fame\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was inducted into the Australian Sporting Hall of Fame\"}\n      ]\n    }\n  ]\n}"
+}

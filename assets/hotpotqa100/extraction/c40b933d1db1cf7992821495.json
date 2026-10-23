@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "3rd Minnesota Light Artillery Battery": "military_unit",
+    "Union Army": "military_force",
+    "American Civil War": "historical_event",
+    "American Indian Wars": "historical_event"
+  },
+  "triples": [
+    {
+      "subject": "3rd Minnesota Light Artillery Battery",
+      "relation": "served_in",
+      "object": "Union Army",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "served in the Union Army"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "3rd Minnesota Light Artillery Battery",
+        "participated_in",
+        "American Civil War"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "3rd Minnesota Light Artillery Battery",
+        "participated_in",
+        "American Indian Wars"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "3rd Minnesota Light Artillery Battery\nThe 3rd Minnesota Light Artillery Battery was an artillery battery that served in the Union Army during the American Civil War and the American Indian Wars."
+}

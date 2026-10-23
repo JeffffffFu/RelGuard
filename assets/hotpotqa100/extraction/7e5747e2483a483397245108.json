@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Imo's Pizza": "ORG",
+    "St. Louis": "GPE",
+    "Missouri": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Imo's Pizza",
+        "works_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Imo's Pizza",
+        "based_in",
+        "St. Louis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Imo's Pizza",
+        "headquartered_in",
+        "St. Louis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "St. Louis",
+        "located_in",
+        "Missouri"
+      ],
+      "why": "2 predicate(s) not locatable"
+    }
+  ],
+  "document": "Imo's Pizza\nImo's Pizza is a U.S. chain of pizza restaurants based in the greater St. Louis, Missouri area. It is headquartered in St. Louis, Missouri.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Imo's Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"St. Louis\", \"type\": \"GPE\"},\n    {\"name\": \"Missouri\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Imo's Pizza\",\n      \"relation\": \"works_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a U.S. chain of pizza restaurants\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Imo's Pizza\",\n      \"relation\": \"based_in\",\n      \"object\": \"St. Louis\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"based in the greater St. Louis, Missouri area\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Imo's Pizza\",\n      \"relation\": \"headquartered_in\",\n      \"object\": \"St. Louis\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"headquartered in St. Louis, Missouri\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"St. Louis\",\n      \"relation\": \"located_in\",\n      \"object\": \"Missouri\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"St. Louis, Missouri\"\n        },\n        {\n          \"line\": 2,\n          \"predicate\": \"St. Louis, Missouri\"\n        }\n      ]\n    }\n  ]\n}"
+}

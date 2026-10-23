@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Concert of Intrigue": "film",
+    "Mario Bonnard": "person",
+    "Brigitte Bardot": "person",
+    "France": "location"
+  },
+  "triples": [
+    {
+      "subject": "Concert of Intrigue",
+      "relation": "directed_by",
+      "object": "Mario Bonnard",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Mario Bonnard"
+        }
+      ]
+    },
+    {
+      "subject": "Concert of Intrigue",
+      "relation": "starring",
+      "object": "Brigitte Bardot",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Brigitte Bardot"
+        }
+      ]
+    },
+    {
+      "subject": "Concert of Intrigue",
+      "relation": "located_in",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in France"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Concert of Intrigue",
+        "recorded_admissions",
+        "959,000"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Concert of Intrigue\nConcert of Intrigue is a 1954 Italian historical melodrama film directed by Mario Bonnard and starring Brigitte Bardot. It recorded admissions of 959,000 in France."
+}

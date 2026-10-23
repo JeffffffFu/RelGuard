@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Critters 3": "film",
+    "Kristine Peterson": "person",
+    "Leonardo DiCaprio": "person",
+    "Cary Elwes": "person",
+    "Saw": "film",
+    "Josh": "character"
+  },
+  "triples": [
+    {
+      "subject": "Critters 3",
+      "relation": "directed_by",
+      "object": "Kristine Peterson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Kristine Peterson"
+        }
+      ]
+    },
+    {
+      "subject": "Critters 3",
+      "relation": "film_debut_of",
+      "object": "Leonardo DiCaprio",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and is also Leonardo DiCaprio's film debut"
+        }
+      ]
+    },
+    {
+      "subject": "Cary Elwes",
+      "relation": "passed_on_role_of",
+      "object": "Josh",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "that he passed on the role of Josh"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Critters 3",
+        "is_a",
+        "film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Critters 3",
+        "is_part_of",
+        "Critters series"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Cary Elwes",
+        "mentioned_in",
+        "Saw"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Critters 3\nCritters 3 is a 1991 American science fiction horror comedy film and is the third installment of the \"Critters\" series, directed by Kristine Peterson, and is also Leonardo DiCaprio's film debut. Cary Elwes mentioned on the commentary for the uncut edition DVD of \"Saw\" that he passed on the role of Josh. It was shot simultaneously"
+}

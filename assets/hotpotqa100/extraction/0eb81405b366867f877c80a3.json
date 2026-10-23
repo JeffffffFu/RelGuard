@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Alexander Baird Burt": "PERSON",
+    "Scottish team": "ORG",
+    "John Burt": "PERSON",
+    "1908 Summer Olympics": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Alexander Baird Burt",
+      "relation": "competed_in",
+      "object": "1908 Summer Olympics",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "competed in",
+          "line_start": 82,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "competed in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Baird Burt",
+      "relation": "works_for",
+      "object": "Scottish team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "member of the Scottish team",
+          "line_start": 124,
+          "char_start": 139,
+          "ambiguous": false,
+          "relation_mention": "member of the Scottish team",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "John Burt",
+      "relation": "works_for",
+      "object": "Scottish team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "member of the Scottish team",
+          "line_start": 124,
+          "char_start": 139,
+          "ambiguous": true,
+          "relation_mention": "member of the Scottish team",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Scotland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Scottish team",
+        "located_in",
+        "Scotland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Scottish team",
+        "won",
+        "bronze medal"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Alexander Burt\nAlexander Baird Burt (9 April 1884 – 1967) was a Scottish field hockey player who competed in the 1908 Summer Olympics as a member of the Scottish team, which won the bronze medal. His brother, John, also was a member of the Scottish team."
+}

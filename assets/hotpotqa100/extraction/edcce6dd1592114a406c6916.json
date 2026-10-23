@@ -1,0 +1,61 @@
+{
+  "entities": {
+    "Italian War of 1551–59": "EVENT",
+    "Henry II of France": "PERSON",
+    "Francis I": "PERSON",
+    "Holy Roman Emperor Charles V": "PERSON",
+    "Habsburg": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Italian War of 1551–59",
+      "relation": "declared_by",
+      "object": "Henry II of France",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Italian War of 1551 (1551–1559), sometimes known as the Habsburg–Valois War and the Last Italian War, began when Henry II of France, who had succeeded Francis I to the throne, declared war against Holy Roman Emperor Charles V with the intent of recapturing Italy and ensuring French, rather than Habsburg, domination of European affairs."
+        }
+      ]
+    },
+    {
+      "subject": "Henry II of France",
+      "relation": "succeeded",
+      "object": "Francis I",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who had succeeded Francis I to the throne"
+        }
+      ]
+    },
+    {
+      "subject": "Henry II of France",
+      "relation": "declared_war_against",
+      "object": "Holy Roman Emperor Charles V",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "declared war against Holy Roman Emperor Charles V"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Europe (LOC)"
+      ]
+    },
+    {
+      "triple": [
+        "Habsburg",
+        "domination_of",
+        "Europe"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Italian War of 1551–59\nThe Italian War of 1551 (1551–1559), sometimes known as the Habsburg–Valois War and the Last Italian War, began when Henry II of France, who had succeeded Francis I to the throne, declared war against Holy Roman Emperor Charles V with the intent of recapturing Italy and ensuring French, rather than Habsburg, domination of European affairs. The war was the last of a series of wars between the same parties since 1521. Historians have emphasized the importance of gun powder technology, new styles of fortification to resist cannon fire, and the increased professionalization of the soldiers."
+}

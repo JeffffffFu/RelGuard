@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Gibraltar Nature Reserve": "location",
+    "Upper Rock Nature Reserve": "location",
+    "British Overseas Territory of Gibraltar": "location",
+    "International Union for Conservation of Nature": "organization",
+    "Barbary macaques": "species"
+  },
+  "triples": [
+    {
+      "subject": "Gibraltar Nature Reserve",
+      "relation": "formerly_known_as",
+      "object": "Upper Rock Nature Reserve",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "(formerly the Upper Rock Nature Reserve)"
+        }
+      ]
+    },
+    {
+      "subject": "Gibraltar Nature Reserve",
+      "relation": "located_in",
+      "object": "British Overseas Territory of Gibraltar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the British Overseas Territory of Gibraltar"
+        }
+      ]
+    },
+    {
+      "subject": "Gibraltar Nature Reserve",
+      "relation": "established_as",
+      "object": "Upper Rock Nature Reserve",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "established as the Upper Rock Nature Reserve in 1993"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gibraltar Nature Reserve",
+        "covers",
+        "40% of the country's land area"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gibraltar Nature Reserve",
+        "last_extended_in",
+        "2013"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gibraltar Nature Reserve",
+        "known_for",
+        "semi-wild population of Barbary macaques"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gibraltar Nature Reserve",
+        "important_resting_point_for",
+        "migrating birds"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Gibraltar Nature Reserve\nThe Gibraltar Nature Reserve (formerly the Upper Rock Nature Reserve) is a protected nature reserve in the British Overseas Territory of Gibraltar that covers over 40% of the country's land area. It was established as the Upper Rock Nature Reserve in 1993 under the International Union for Conservation of Nature's category Ia (strict nature reserve) and was last extended in 2013. It is known for its semi-wild population of Barbary macaques, and is an important resting point for migrating birds."
+}

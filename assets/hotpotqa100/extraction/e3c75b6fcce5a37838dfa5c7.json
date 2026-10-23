@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "2006 Asian Games Opening Ceremony": "event",
+    "Doha": "location",
+    "Qatar": "location",
+    "Khalifa International Stadium": "location",
+    "Jacques Rogge": "person",
+    "Asian Games": "event"
+  },
+  "triples": [
+    {
+      "subject": "2006 Asian Games Opening Ceremony",
+      "relation": "held_in",
+      "object": "Doha",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was held in Doha"
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games Opening Ceremony",
+      "relation": "held_in",
+      "object": "Qatar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was held in Doha, Qatar"
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games Opening Ceremony",
+      "relation": "took_place_in",
+      "object": "Khalifa International Stadium",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The ceremony took place in the multi-purpose Khalifa International Stadium"
+        }
+      ]
+    },
+    {
+      "subject": "Khalifa International Stadium",
+      "relation": "renovated_for",
+      "object": "Asian Games",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "which was specifically renovated for the Asian Games"
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games Opening Ceremony",
+      "relation": "attended_by",
+      "object": "Jacques Rogge",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the President of the International Olympic Committee Jacques Rogge were in attendance"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "2006 Asian Games Opening Ceremony",
+        "attended_by",
+        "over 50,000 spectators"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2006 Asian Games Opening Ceremony",
+        "attended_by",
+        "approximately 20,000 athletes and performers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2006 Asian Games Opening Ceremony",
+        "described_as",
+        "most breath-taking and technologically spectacular multi-sports event ceremony"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2006 Asian Games Opening Ceremony",
+        "described_as",
+        "most expensive multi-sports event ceremony"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "2006 Asian Games opening ceremony\nThe 2006 Asian Games Opening Ceremony was held in Doha, Qatar on 1 December 2006 to mark the start of the 15th Asian Games. The ceremony took place in the multi-purpose Khalifa International Stadium, which was specifically renovated for the Asian Games. The ceremony was attended by over 50,000 spectators, as well as approximately 20,000 athletes and performers. Several Asian heads-of-state and the President of the International Olympic Committee Jacques Rogge were in attendance. The officials and organizers of the ceremony promised it to be the most spectacular opening ceremony in recent years. The Opening Ceremony was described by the media to be one of the most breath-taking and technologically spectacular multi-sports event ceremony, and the most expensive multi-sports event ceremony (including both Opening and Closing ceremonies) in the history of Asian Games."
+}

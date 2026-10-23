@@ -1,0 +1,138 @@
+{
+  "entities": {
+    "Superbad": "WORK_OF_ART",
+    "Greg Mottola": "PERSON",
+    "Judd Apatow": "PERSON",
+    "Jonah Hill": "PERSON",
+    "Michael Cera": "PERSON",
+    "Seth": "PERSON",
+    "Evan": "PERSON",
+    "Seth Rogen": "PERSON",
+    "Evan Goldberg": "PERSON",
+    "Vancouver": "GPE",
+    "Hill": "PERSON",
+    "Rogen": "PERSON",
+    "Officer Michaels": "PERSON",
+    "Saturday Night Live": "WORK_OF_ART",
+    "Bill Hader": "PERSON",
+    "Officer Slater": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Superbad",
+      "relation": "directed_by",
+      "object": "Greg Mottola",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 45,
+          "char_start": 61,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Superbad",
+      "relation": "produced_by",
+      "object": "Judd Apatow",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 74,
+          "char_start": 90,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Seth Rogen",
+      "relation": "wrote",
+      "object": "Superbad",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Written by",
+          "line_start": 335,
+          "char_start": 351,
+          "ambiguous": false,
+          "relation_mention": "Written by",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Evan Goldberg",
+      "relation": "wrote",
+      "object": "Superbad",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Written by",
+          "line_start": 335,
+          "char_start": 351,
+          "ambiguous": false,
+          "relation_mention": "Written by",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The film",
+        "stars",
+        "Jonah Hill"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The film",
+        "stars",
+        "Michael Cera"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rogen",
+        "portrayed",
+        "Officer Michaels"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hill",
+        "portrayed",
+        "Seth"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bill Hader",
+        "portrayed",
+        "Officer Slater"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Superbad",
+        "located_in",
+        "Vancouver"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Superbad (film)\nSuperbad is a 2007 American teen comedy film directed by Greg Mottola and produced by Judd Apatow. The film stars Jonah Hill and Michael Cera as Seth and Evan, two teenagers about to graduate high-school. Before graduating, the boys want to go to a party and each lose their virginity. However, their plan proves harder than expected. Written by Seth Rogen and Evan Goldberg, the script began development when Rogen and Goldberg were 13 years old, and was loosely based on their experience in Grade 12 in Vancouver during the 1990s. The main characters have the same given names as the two writers. Rogen was also initially intended to play Seth, but due to age and physical size this was changed, and Hill went on to portray Seth, while Rogen portrayed the irresponsible Officer Michaels, opposite \"Saturday Night Live\" star Bill Hader as Officer Slater.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Superbad\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Greg Mottola\", \"type\": \"PERSON\"},\n    {\"name\": \"Judd Apatow\", \"type\": \"PERSON\"},\n    {\"name\": \"Jonah Hill\", \"type\": \"PERSON\"},\n    {\"name\": \"Michael Cera\", \"type\": \"PERSON\"},\n    {\"name\": \"Seth\", \"type\": \"PERSON\"},\n    {\"name\": \"Evan\", \"type\": \"PERSON\"},\n    {\"name\": \"Seth Rogen\", \"type\": \"PERSON\"},\n    {\"name\": \"Evan Goldberg\", \"type\": \"PERSON\"},\n    {\"name\": \"Vancouver\", \"type\": \"GPE\"},\n    {\"name\": \"Hill\", \"type\": \"PERSON\"},\n    {\"name\": \"Rogen\", \"type\": \"PERSON\"},\n    {\"name\": \"Officer Michaels\", \"type\": \"PERSON\"},\n    {\"name\": \"Saturday Night Live\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Bill Hader\", \"type\": \"PERSON\"},\n    {\"name\": \"Officer Slater\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Superbad\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Greg Mottola\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Superbad\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Judd Apatow\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"The film\",\n      \"relation\": \"stars\",\n      \"object\": \"Jonah Hill\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The film\",\n      \"relation\": \"stars\",\n      \"object\": \"Michael Cera\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Seth Rogen\",\n      \"relation\": \"wrote\",\n      \"object\": \"Superbad\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Evan Goldberg\",\n      \"relation\": \"wrote\",\n      \"object\": \"Superbad\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Rogen\",\n      \"relation\": \"portrayed\",\n      \"object\": \"Officer Michaels\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"portrayed\"}\n      ]\n    },\n    {\n      \"subject\": \"Hill\",\n      \"relation\": \"portrayed\",\n      \"object\": \"Seth\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"portray Seth\"}\n      ]\n    },\n    {\n      \"subject\": \"Bill Hader\",\n      \"relation\": \"portrayed\",\n      \"object\": \"Officer Slater\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as Officer Slater\"}\n      ]\n    },\n    {\n      \"subject\": \"Superbad\",\n      \"relation\": \"located_in\",\n      \"object\": \"Vancouver\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Vancouver\"}\n      ]\n    }\n  ]\n}"
+}

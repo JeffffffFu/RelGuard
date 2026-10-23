@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Schmidt Field House": "FAC",
+    "Xavier University": "ORG",
+    "Cincinnati": "GPE",
+    "Ohio": "GPE",
+    "Walter Schmidt": "PERSON",
+    "St. Xavier College": "ORG",
+    "Schmidt Hall": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Schmidt Field House",
+      "relation": "named_for",
+      "object": "Walter Schmidt",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "named for",
+          "line_start": 180,
+          "char_start": 200,
+          "ambiguous": false,
+          "relation_mention": "named for",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Walter Schmidt",
+      "relation": "donated_for",
+      "object": "Schmidt Hall",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "donated money for",
+          "line_start": 270,
+          "char_start": 290,
+          "ambiguous": false,
+          "relation_mention": "donated money for",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Schmidt Field House",
+        "located_in",
+        "Xavier University"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Schmidt Field House",
+        "located_in",
+        "Cincinnati"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Schmidt Field House",
+        "located_in",
+        "Ohio"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Walter Schmidt",
+        "benefactor_to",
+        "St. Xavier College"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Schmidt Field House\nSchmidt Field House is an on-campus arena at Xavier University in Cincinnati, Ohio. It was built in 1927 and opened on March 7, 1928 with a win against archrival Cincinnati. It is named for Walter Schmidt, Class of 1905, a benefactor to then-St. Xavier College who also donated money for Schmidt Hall (formerly the library, now the President's office) on campus.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Schmidt Field House\", \"type\": \"FAC\"},\n    {\"name\": \"Xavier University\", \"type\": \"ORG\"},\n    {\"name\": \"Cincinnati\", \"type\": \"GPE\"},\n    {\"name\": \"Ohio\", \"type\": \"GPE\"},\n    {\"name\": \"Walter Schmidt\", \"type\": \"PERSON\"},\n    {\"name\": \"St. Xavier College\", \"type\": \"ORG\"},\n    {\"name\": \"Schmidt Hall\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Schmidt Field House\",\n      \"relation\": \"located_in\",\n      \"object\": \"Xavier University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at\"}\n      ]\n    },\n    {\n      \"subject\": \"Schmidt Field House\",\n      \"relation\": \"located_in\",\n      \"object\": \"Cincinnati\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Schmidt Field House\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ohio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Schmidt Field House\",\n      \"relation\": \"named_for\",\n      \"object\": \"Walter Schmidt\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"named for\"}\n      ]\n    },\n    {\n      \"subject\": \"Walter Schmidt\",\n      \"relation\": \"benefactor_to\",\n      \"object\": \"St. Xavier College\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"benefactor to\"}\n      ]\n    },\n    {\n      \"subject\": \"Walter Schmidt\",\n      \"relation\": \"donated_for\",\n      \"object\": \"Schmidt Hall\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"donated money for\"}\n      ]\n    }\n  ]\n}"
+}

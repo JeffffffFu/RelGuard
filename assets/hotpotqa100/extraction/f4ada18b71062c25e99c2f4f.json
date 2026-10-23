@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Give a Man a Job": "WORK_OF_ART",
+    "National Recovery Administration": "ORG",
+    "Great Depression": "EVENT",
+    "Jimmy Durante": "PERSON",
+    "Moe Howard": "PERSON",
+    "Franklin Roosevelt": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Give a Man a Job",
+      "relation": "in_conjunction_with",
+      "object": "National Recovery Administration",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in conjunction with the National Recovery Administration"
+        }
+      ]
+    },
+    {
+      "subject": "Give a Man a Job",
+      "relation": "features",
+      "object": "Jimmy Durante",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film featured Jimmy Durante"
+        }
+      ]
+    },
+    {
+      "subject": "Franklin Roosevelt",
+      "relation": "gives_message",
+      "object": "Give a Man a Job",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "take this message, straight from the President"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Give a Man a Job",
+        "produced_in",
+        "1933"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jimmy Durante",
+        "suggests",
+        "Moe Howard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Moe Howard",
+        "plays",
+        "exterminator"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Give a Man a Job",
+        "closes_with",
+        "Franklin Roosevelt"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Great Depression",
+        "encourages",
+        "audience members"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Give a Man a Job\nGive a Man a Job is a short film produced in 1933 in conjunction with the National Recovery Administration in which audience members were encouraged to offer jobs to the unemployed in the midst of the Great Depression. The film featured Jimmy Durante explaining to an audience through a comic song how they could generate employment. Upon learning that a banker drives his own car, Durante suggests that he \"hire a chauffeur / And keep a good man from becoming a loafer.\" He also has an exchange with Moe Howard playing an exterminator, suggesting that NRA stands for \"No Rats Allowed.\" The film closes with an image of President Franklin Roosevelt and the words \"If the old name of Roosevelt / Makes your old heart throb / Then take this message, straight from the President / And give a man a job!\""
+}

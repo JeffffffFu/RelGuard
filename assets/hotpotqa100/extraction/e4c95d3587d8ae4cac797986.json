@@ -1,0 +1,124 @@
+{
+  "entities": {
+    "Palm Court": "location",
+    "Alexandria Hotel": "location",
+    "Los Angeles": "location",
+    "California": "location",
+    "William Howard Taft": "person",
+    "Woodrow Wilson": "person",
+    "John J. Pershing": "person",
+    "Paul Whiteman": "person",
+    "Rudolph Valentino": "person",
+    "Jack Smith": "person"
+  },
+  "triples": [
+    {
+      "subject": "Palm Court",
+      "relation": "located_in",
+      "object": "Alexandria Hotel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a ballroom at the Hotel Alexandria"
+        }
+      ]
+    },
+    {
+      "subject": "Alexandria Hotel",
+      "relation": "located_in",
+      "object": "Los Angeles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in downtown Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "Los Angeles",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in downtown Los Angeles, California"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Palm Court",
+        "known_as",
+        "Franco-Italian Dining Room"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Palm Court",
+        "known_as",
+        "Grand Ballroom"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Palm Court",
+        "known_as",
+        "Continental Room"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Palm Court",
+        "scene_of",
+        "speeches"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Paul Whiteman",
+        "got_start_as",
+        "bandleader"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rudolph Valentino",
+        "danced_with",
+        "movie starlets"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Palm Court",
+        "held_balls",
+        "Hollywood"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Palm Court",
+        "designated_as",
+        "City of Los Angeles Historic-Cultural Monument"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jack Smith",
+        "called",
+        "Palm Court"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Palm Court (Alexandria Hotel)\nThe Palm Court, also known at other times as the Franco-Italian Dining Room, the Grand Ballroom and the Continental Room, is a ballroom at the Hotel Alexandria in downtown Los Angeles, California. In its heyday from 1911 to 1922, it was the scene of speeches by U.S. Presidents William Howard Taft and Woodrow Wilson and Gen. John J. Pershing. It is also the room where Paul Whiteman, later known as the \"Jazz King\", got his start as a bandleader in 1919, where Rudolph Valentino danced with movie starlets, and where Hollywood held its most significant balls during the early days of the motion picture business. Known for its history and its stained-glass Tiffany skylight, noted Los Angeles columnist Jack Smith called it \"surely the most beautiful room in Los Angeles\". The Palm Court was designated as a City of Los Angeles Historic-Cultural Monument (HCM#80) in 1971."
+}

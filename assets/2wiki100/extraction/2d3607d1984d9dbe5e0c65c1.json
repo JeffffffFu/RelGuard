@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "A Monster and a Half": "WORK_OF_ART",
+    "Steno": "PERSON",
+    "Italian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "A Monster and a Half",
+      "relation": "directed_by",
+      "object": "Steno",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 51,
+          "char_start": 72,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "A Monster and a Half",
+        "located_in",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "A Monster and a Half\nA Monster and a Half is a 1964 Italian comedy film directed by Steno.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"A Monster and a Half\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Steno\", \"type\": \"PERSON\"},\n    {\"name\": \"Italian\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"A Monster and a Half\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Steno\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"A Monster and a Half\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Italian\"}\n      ]\n    }\n  ]\n}"
+}

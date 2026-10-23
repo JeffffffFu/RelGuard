@@ -1,0 +1,171 @@
+{
+  "entities": {
+    "Alexander Singer": "PERSON",
+    "New York City": "GPE",
+    "New York": "GPE",
+    "Stanley Kubrick": "PERSON",
+    "A Cold Wind in August": "WORK_OF_ART",
+    "Captain Apache": "WORK_OF_ART",
+    "Glass Houses": "WORK_OF_ART",
+    "Judith Singer": "PERSON",
+    "Dr. Kildare": "WORK_OF_ART",
+    "The F.B.I.": "WORK_OF_ART",
+    "The Monkees": "WORK_OF_ART",
+    "Star Trek": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Alexander Singer",
+      "relation": "born_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born 18 April 1928, in New York City"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Singer",
+      "relation": "born_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born 18 April 1928, in New York"
+        }
+      ]
+    },
+    {
+      "subject": "Judith Singer",
+      "relation": "wrote",
+      "object": "Glass Houses",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a film of the book which his wife, Judith Singer, wrote"
+        }
+      ]
+    },
+    {
+      "subject": "Stanley Kubrick",
+      "relation": "is_friend_of",
+      "object": "Alexander Singer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by his high school friend, Stanley Kubrick"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "5 entities not in the document",
+      "entities": [
+        "Alias Smith and Jones (WORK_OF_ART)",
+        "Nakia (WORK_OF_ART)",
+        "Police Woman (WORK_OF_ART)",
+        "Cagney & Lacey (WORK_OF_ART)",
+        "MacGyver (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "A Cold Wind in August"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Captain Apache"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Glass Houses"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Dr. Kildare"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "The F.B.I."
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Alias Smith and Jones"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Nakia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Police Woman"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Cagney & Lacey"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "MacGyver"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "The Monkees"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alexander Singer",
+        "directed",
+        "Star Trek"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Alexander Singer\nAlexander Singer( born 18 April 1928, in New York City, New York) is an American director. He began his career behind the camera in 1951 as a cinematographer on the short documentary\" Day of the Fight\", directed by his high school friend, Stanley Kubrick. Singer himself turned to directing a decade later with the film,\" A Cold Wind in August\". Although he would direct other feature films, such as the Lee Van Cleef western,\" Captain Apache\"( 1971), and\" Glass Houses\"( 1972), a film of the book which his wife, Judith Singer, wrote, the bulk of Singer's credits are in television. The long list of series to which Singer has lent his directorial talents include\" Dr. Kildare The F.B.I.Alias Smith and JonesNakiaPolice WomanCagney& LaceyMacGyver\", six episodes of\" The Monkees\", and three\" Star Trek\" series:,, and."
+}

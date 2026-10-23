@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Diwa de Leon": "Person",
+    "Manila": "Location",
+    "Philippines": "Location",
+    "GMA Network": "Organization",
+    "Survivor Philippines": "Media",
+    "Emir": "Media",
+    "Kolorete": "Media",
+    "Kamera Obskura": "Media",
+    "Cinemalaya Independent Film Festival": "Event",
+    "Makiling": "Group",
+    "Mamarazzi": "Media",
+    "Regal Films": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Diwa de Leon",
+      "relation": "based_in",
+      "object": "Manila",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Manila"
+        }
+      ]
+    },
+    {
+      "subject": "Diwa de Leon",
+      "relation": "based_in",
+      "object": "Philippines",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Manila, Philippines"
+        }
+      ]
+    },
+    {
+      "subject": "Diwa de Leon",
+      "relation": "founding_member_of",
+      "object": "Makiling",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "founding member of the world music group Makiling"
+        }
+      ]
+    },
+    {
+      "subject": "Mamarazzi",
+      "relation": "produced_by",
+      "object": "Regal Films",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "His first mainstream film project is Mamarazzi produced by Regal Films"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Diwa de Leon",
+        "makes_music_for",
+        "television shows"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Diwa de Leon",
+        "makes_music_for",
+        "films"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Diwa de Leon",
+        "makes_music_for",
+        "stage productions"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Diwa de Leon",
+        "notable_work",
+        "Survivor Philippines"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Diwa de Leon",
+        "won_award",
+        "Cinema One Originals Best Musical Score"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Diwa de Leon",
+        "won_award",
+        "Best Music Score"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Diwa de Leon\nDiwa de Leon is a composer, arranger and musician based in Manila, Philippines. He makes music mainly for television shows, films, and stage productions. His most notable work is his arrangement of GMA Network's \"Survivor Philippines\" theme music. His songs included in \"Emir\". He won the Cinema One Originals Best Musical Score award for his work on the film \"Kolorete\" and Best Music Score for \"Kamera Obskura\" at the 8th Cinemalaya Independent Film Festival. He is also a founding member of the world music group Makiling. His first mainstream film project is Mamarazzi produced by Regal Films."
+}

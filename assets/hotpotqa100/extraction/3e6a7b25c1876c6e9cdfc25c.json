@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "Subaru Tribeca": "Vehicle",
+    "Subaru": "Company",
+    "Canada": "Location",
+    "Subaru B9 Tribeca": "Vehicle",
+    "Tribeca": "Location",
+    "New York City": "Location",
+    "Subaru Legacy": "Vehicle",
+    "Saab 9-6": "Vehicle",
+    "Saab": "Company",
+    "General Motors": "Company",
+    "FHI": "Company"
+  },
+  "triples": [
+    {
+      "subject": "Subaru Tribeca",
+      "relation": "sold_by",
+      "object": "Subaru",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "sold since 2005 by Subaru"
+        }
+      ]
+    },
+    {
+      "subject": "Subaru Tribeca",
+      "relation": "released_in",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Released in some markets, including Canada"
+        }
+      ]
+    },
+    {
+      "subject": "Tribeca",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the Tribeca neighborhood of New York City"
+        }
+      ]
+    },
+    {
+      "subject": "Subaru Tribeca",
+      "relation": "built_on",
+      "object": "Subaru Legacy",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Built on the Subaru Legacy platform"
+        }
+      ]
+    },
+    {
+      "subject": "Subaru Tribeca",
+      "relation": "intended_to_be_sold_alongside",
+      "object": "Saab 9-6",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "intended to be sold alongside a slightly revised version known as the Saab 9-6"
+        }
+      ]
+    },
+    {
+      "subject": "Saab",
+      "relation": "abandoned",
+      "object": "Saab 9-6",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Saab, at the time a subsidiary of General Motors (GM), abandoned the 9-6 program"
+        }
+      ]
+    },
+    {
+      "subject": "General Motors",
+      "relation": "divested",
+      "object": "FHI",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "GM's 2005 divestiture of its 20 percent stake in FHI"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Subaru Tribeca",
+        "derived_from",
+        "Tribeca"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Subaru Tribeca\nThe Subaru Tribeca is a mid-size crossover SUV sold since 2005 by Subaru. Released in some markets, including Canada, as the Subaru B9 Tribeca, the name \"Tribeca\" derives from the Tribeca neighborhood of New York City. Built on the Subaru Legacy platform and sold in five- and seven-seat configurations, the Tribeca was intended to be sold alongside a slightly revised version known as the Saab 9-6. Saab, at the time a subsidiary of General Motors (GM), abandoned the 9-6 program just prior to its release subsequent to GM's 2005 divestiture of its 20 percent stake in FHI."
+}

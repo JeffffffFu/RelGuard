@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Single Dad in Love": "television series",
+    "Oh Ji-ho": "actor",
+    "Huh E-jae": "actor",
+    "Kang Sung-yeon": "actor",
+    "KBS2": "television network"
+  },
+  "triples": [
+    {
+      "subject": "Single Dad in Love",
+      "relation": "starring",
+      "object": "Oh Ji-ho",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Oh Ji-ho"
+        }
+      ]
+    },
+    {
+      "subject": "Single Dad in Love",
+      "relation": "aired_on",
+      "object": "KBS2",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It aired on KBS2"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Single Dad in Love",
+        "starring",
+        "Huh E-jae"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Single Dad in Love",
+        "starring",
+        "Kang Sung-yeon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Single Dad in Love",
+        "aired_from",
+        "February 18 to April 8, 2008"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Single Dad in Love",
+        "has_episodes",
+        "16"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Single Dad in Love\nSingle Dad in Love () is a 2008 South Korean television series starring Oh Ji-ho, Huh E-jae and Kang Sung-yeon. It aired on KBS2 from February 18 to April 8, 2008 on Mondays and Tuesdays at 21:55 for 16 episodes."
+}

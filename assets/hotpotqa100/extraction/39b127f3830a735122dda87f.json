@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Get a Horse!": "WORK_OF_ART",
+    "Walt Disney Animation Studios": "ORG",
+    "Mickey Mouse": "PERSON",
+    "Walt Disney": "PERSON",
+    "Oswald the Lucky Rabbit": "PERSON",
+    "Runaway Brain": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Get a Horse!",
+      "relation": "produced_by",
+      "object": "Walt Disney Animation Studios",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Walt Disney Animation Studios"
+        }
+      ]
+    },
+    {
+      "subject": "Walt Disney",
+      "relation": "recorded_in",
+      "object": "Get a Horse!",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "features archival recordings of Walt Disney in his posthumous role as Mickey Mouse"
+        }
+      ]
+    },
+    {
+      "subject": "Get a Horse!",
+      "relation": "first_appearance_of",
+      "object": "Oswald the Lucky Rabbit",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first appearance of Oswald the Lucky Rabbit in a Disney animated production"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Get a Horse!",
+        "features_character",
+        "Mickey Mouse"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Get a Horse!",
+        "first_original_short_since",
+        "Runaway Brain"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Get a Horse!\nGet a Horse! is a 2013 American 3D animated slapstick comedy short film, produced by Walt Disney Animation Studios. Combining black-and-white hand-drawn animation and color CGI animation, the short features the characters of the late 1920s \"Mickey Mouse\" cartoons, and features archival recordings of Walt Disney in his posthumous role as Mickey Mouse. It is the first original Mickey Mouse theatrical animated short since \"Runaway Brain\" (1995), and the first appearance of Oswald the Lucky Rabbit in a Disney animated production in 85 years."
+}

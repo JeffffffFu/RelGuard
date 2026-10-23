@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "Olle Nordin": "Person",
+    "Sweden": "Location",
+    "Vålerenga": "Organization",
+    "Lyn": "Organization",
+    "Västra Frölunda IF": "Organization",
+    "IFK Norrköping": "Organization",
+    "AIK": "Organization",
+    "1978 FIFA World Cup": "Event",
+    "1990 FIFA World Cup": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Olle Nordin",
+      "relation": "played_in",
+      "object": "1978 FIFA World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played at the 1978 FIFA World Cup"
+        }
+      ]
+    },
+    {
+      "subject": "Olle Nordin",
+      "relation": "led",
+      "object": "Sweden",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "he led Sweden to the 1990 FIFA World Cup"
+        }
+      ]
+    },
+    {
+      "subject": "Sweden",
+      "relation": "participated_in",
+      "object": "1990 FIFA World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "its first World Cup since Nordin participated as a player"
+        }
+      ]
+    },
+    {
+      "subject": "Olle Nordin",
+      "relation": "managed",
+      "object": "Vålerenga",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "managed Norwegian clubs (Vålerenga"
+        }
+      ]
+    },
+    {
+      "subject": "Olle Nordin",
+      "relation": "managed",
+      "object": "Västra Frölunda IF",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "as well as Swedish Västra Frölunda IF"
+        }
+      ]
+    },
+    {
+      "subject": "Olle Nordin",
+      "relation": "managed",
+      "object": "IFK Norrköping",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "IFK Norrköping"
+        }
+      ]
+    },
+    {
+      "subject": "Olle Nordin",
+      "relation": "managed",
+      "object": "AIK",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and AIK"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Olle Nordin",
+        "born_in",
+        "Delary"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Olle Nordin",
+        "capped",
+        "national team"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Olle Nordin",
+        "managed",
+        "Lyn"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Olle Nordin\nOlle Nordin (born 23 November 1949 in Delary, Småland) is a Swedish football coach and former player. He was capped 19 times for the national team and played at the 1978 FIFA World Cup, but he is best remembered for his coaching merits. As national team coach, he led Sweden to the 1990 FIFA World Cup — its first World Cup since Nordin participated as a player. The tournament was a failure, however, as Sweden lost all three matches with 1-2. Nordin was fired shortly thereafter. He managed Norwegian clubs (Vålerenga, Lyn) as well as Swedish Västra Frölunda IF, IFK Norrköping and AIK."
+}

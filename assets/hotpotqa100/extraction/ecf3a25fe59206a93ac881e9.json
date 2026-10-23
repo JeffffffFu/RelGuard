@@ -1,0 +1,149 @@
+{
+  "entities": {
+    "The Ones": "ORG",
+    "American": "NORP",
+    "Flawless": "WORK_OF_ART",
+    "UK Singles Chart": "ORG",
+    "United Kingdom": "GPE",
+    "Paul Alexander": "PERSON",
+    "JoJo Americo": "PERSON",
+    "Nashom Wooden": "PERSON",
+    "Greenwich Village": "LOC",
+    "Patricia Field": "FAC",
+    "New York": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "The Ones",
+      "relation": "best_known_for",
+      "object": "Flawless",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "best known for",
+          "line_start": 54,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "best known for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Paul Alexander",
+      "relation": "met_while_working_at",
+      "object": "Patricia Field",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "met while working at",
+          "line_start": 313,
+          "char_start": 322,
+          "ambiguous": false,
+          "relation_mention": "met while working at",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "JoJo Americo",
+      "relation": "met_while_working_at",
+      "object": "Patricia Field",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "met while working at",
+          "line_start": 313,
+          "char_start": 322,
+          "ambiguous": false,
+          "relation_mention": "met while working at",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Nashom Wooden",
+      "relation": "met_while_working_at",
+      "object": "Patricia Field",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "met while working at",
+          "line_start": 313,
+          "char_start": 322,
+          "ambiguous": false,
+          "relation_mention": "met while working at",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Ones",
+        "is_a",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Flawless",
+        "peaked_on",
+        "UK Singles Chart"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "UK Singles Chart",
+        "located_in",
+        "United Kingdom"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Ones",
+        "consists_of",
+        "Paul Alexander"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Ones",
+        "consists_of",
+        "JoJo Americo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Ones",
+        "consists_of",
+        "Nashom Wooden"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Patricia Field",
+        "located_in",
+        "Greenwich Village"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Greenwich Village",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Ones\nThe Ones are an American electronic dance music band, best known for their 2001 hit single \"Flawless\", which achieved transatlantic success when it peaked at number seven on the UK Singles Chart in the United Kingdom. The trio consists of three male vocalists Paul Alexander, JoJo Americo, and Nashom Wooden, who met while working at the Greenwich Village boutique Patricia Field. Each of them has a background in performing, DJing, and being stylists within the underground New York club and fashion scenes.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Ones\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Flawless\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"UK Singles Chart\", \"type\": \"ORG\"},\n    {\"name\": \"United Kingdom\", \"type\": \"GPE\"},\n    {\"name\": \"Paul Alexander\", \"type\": \"PERSON\"},\n    {\"name\": \"JoJo Americo\", \"type\": \"PERSON\"},\n    {\"name\": \"Nashom Wooden\", \"type\": \"PERSON\"},\n    {\"name\": \"Greenwich Village\", \"type\": \"LOC\"},\n    {\"name\": \"Patricia Field\", \"type\": \"FAC\"},\n    {\"name\": \"New York\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Ones\",\n      \"relation\": \"is_a\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are an\"}\n      ]\n    },\n    {\n      \"subject\": \"The Ones\",\n      \"relation\": \"best_known_for\",\n      \"object\": \"Flawless\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"best known for\"}\n      ]\n    },\n    {\n      \"subject\": \"Flawless\",\n      \"relation\": \"peaked_on\",\n      \"object\": \"UK Singles Chart\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"peaked at number seven on the UK Singles Chart\"}\n      ]\n    },\n    {\n      \"subject\": \"UK Singles Chart\",\n      \"relation\": \"located_in\",\n      \"object\": \"United Kingdom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the United Kingdom\"}\n      ]\n    },\n    {\n      \"subject\": \"The Ones\",\n      \"relation\": \"consists_of\",\n      \"object\": \"Paul Alexander\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"consists of\"}\n      ]\n    },\n    {\n      \"subject\": \"The Ones\",\n      \"relation\": \"consists_of\",\n      \"object\": \"JoJo Americo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"consists of\"}\n      ]\n    },\n    {\n      \"subject\": \"The Ones\",\n      \"relation\": \"consists_of\",\n      \"object\": \"Nashom Wooden\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"consists of\"}\n      ]\n    },\n    {\n      \"subject\": \"Paul Alexander\",\n      \"relation\": \"met_while_working_at\",\n      \"object\": \"Patricia Field\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"met while working at\"}\n      ]\n    },\n    {\n      \"subject\": \"JoJo Americo\",\n      \"relation\": \"met_while_working_at\",\n      \"object\": \"Patricia Field\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"met while working at\"}\n      ]\n    },\n    {\n      \"subject\": \"Nashom Wooden\",\n      \"relation\": \"met_while_working_at\",\n      \"object\": \"Patricia Field\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"met while working at\"}\n      ]\n    },\n    {\n      \"subject\": \"Patricia Field\",\n      \"relation\": \"located_in\",\n      \"object\": \"Greenwich Village\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Greenwich Village boutique Patricia Field\"}\n      ]\n    },\n    {\n      \"subject\": \"Greenwich Village\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"within the underground New York\"}\n      ]\n    }\n  ]\n}"
+}

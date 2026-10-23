@@ -1,0 +1,47 @@
+{
+  "entities": {
+    "Dreamland": "FAC",
+    "Coney Island": "LOC",
+    "Brooklyn": "GPE",
+    "New York City": "GPE",
+    "Steeplechase Park": "FAC",
+    "Luna Park": "FAC"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Dreamland",
+        "located_in",
+        "Coney Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dreamland",
+        "located_in",
+        "Brooklyn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dreamland",
+        "located_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dreamland",
+        "founded",
+        "1904"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Dreamland (amusement park)\nDreamland was an ambitious amusement park at Coney Island, Brooklyn, New York City from 1904 to 1911. It was the last, and considered the grandest, of the three original iconic large parks built on Coney Island, the other two being Steeplechase Park and Luna Park.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Dreamland\", \"type\": \"FAC\"},\n    {\"name\": \"Coney Island\", \"type\": \"LOC\"},\n    {\"name\": \"Brooklyn\", \"type\": \"GPE\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"Steeplechase Park\", \"type\": \"FAC\"},\n    {\"name\": \"Luna Park\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Dreamland\",\n      \"relation\": \"located_in\",\n      \"object\": \"Coney Island\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at\"}\n      ]\n    },\n    {\n      \"subject\": \"Dreamland\",\n      \"relation\": \"located_in\",\n      \"object\": \"Brooklyn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at Coney Island, Brooklyn, New York City\"}\n      ]\n    },\n    {\n      \"subject\": \"Dreamland\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at Coney Island, Brooklyn, New York City\"}\n      ]\n    },\n    {\n      \"subject\": \"Dreamland\",\n      \"relation\": \"founded\",\n      \"object\": \"1904\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Dreamland\",\n      \"relation\": \"located_in\",\n      \"object\": \"Steeplechase Park\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Dreamland\",\n      \"relation\": \"located_in\",\n      \"object\": \"Luna Park\",\n      \"occurrences\": []\n    }\n  ]\n}"
+}

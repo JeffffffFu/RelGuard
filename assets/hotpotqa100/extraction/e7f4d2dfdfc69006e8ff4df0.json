@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "The Shame of a City": "WORK_OF_ART",
+    "Philadelphia Film Festival": "EVENT",
+    "Tigre Hill": "PERSON",
+    "Philadelphia": "GPE",
+    "John Street": "PERSON",
+    "Sam Katz": "PERSON",
+    "Democrat": "NORP",
+    "Republican": "NORP",
+    "FBI": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "The Shame of a City",
+      "relation": "premiered_at",
+      "object": "Philadelphia Film Festival",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "premiered at the Philadelphia Film Festival",
+          "line_start": 64,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "premiered at the Philadelphia Film Festival",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Tigre Hill",
+      "relation": "directed",
+      "object": "The Shame of a City",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Filmmaker Tigre Hill chronicles",
+          "line_start": 109,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "Filmmaker Tigre Hill chronicles",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tigre Hill",
+      "relation": "works_in",
+      "object": "Philadelphia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "chronicles the 2003 Philadelphia mayoral race",
+          "line_start": 130,
+          "char_start": 150,
+          "ambiguous": false,
+          "relation_mention": "chronicles the 2003 Philadelphia mayoral race",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "John Street",
+      "relation": "is_affiliated_with",
+      "object": "Democrat",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Democrat incumbent mayor John Street",
+          "line_start": 184,
+          "char_start": 204,
+          "ambiguous": false,
+          "relation_mention": "Democrat incumbent mayor John Street",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sam Katz",
+      "relation": "is_affiliated_with",
+      "object": "Republican",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Republican challenger Sam Katz",
+          "line_start": 225,
+          "char_start": 245,
+          "ambiguous": false,
+          "relation_mention": "Republican challenger Sam Katz",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "John Street",
+      "relation": "won_re_election_in",
+      "object": "Philadelphia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Street won re-election",
+          "line_start": 795,
+          "char_start": 815,
+          "ambiguous": false,
+          "relation_mention": "Street won re-election",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "FBI",
+        "found",
+        "bug"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Shame of a City\nThe Shame of a City is a 2006 feature-length documentary, which premiered at the Philadelphia Film Festival. Filmmaker Tigre Hill chronicles the 2003 Philadelphia mayoral race between Democrat incumbent mayor John Street and Republican challenger Sam Katz. Early polls showed Katz with a small lead in this predominantly Democratic city but twenty-seven days before the election, an FBI bug was found in the mayor’s office. The discovery at first seemed like a death knell to the Street campaign and a near certain victory for Katz. Yet this prediction was proven wrong when Street and his supporters successfully polarized the campaign by leveling accusations of instituational racial prejudice and playing on historical skepticism of the Republican-controlled federal government. As a result, Street won re-election by a sixteen-point margin."
+}

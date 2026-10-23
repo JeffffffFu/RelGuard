@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Domino's Pizza Enterprises": "ORG",
+    "Australia": "GPE",
+    "New Zealand": "GPE",
+    "France": "GPE",
+    "Belgium": "GPE",
+    "Netherlands": "GPE",
+    "Principality of Monaco": "GPE",
+    "Japan": "GPE",
+    "Germany": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Domino's Pizza Enterprises",
+      "relation": "exclusive_master_franchise",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "DPE is the exclusive master franchise for the Domino’s brand network in Australia"
+        }
+      ]
+    },
+    {
+      "subject": "Domino's Pizza Enterprises",
+      "relation": "largest_pizza_chain",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "largest pizza chain in Australia in terms of network store numbers and network sales"
+        }
+      ]
+    },
+    {
+      "subject": "Domino's Pizza Enterprises",
+      "relation": "first_publicly_listed",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "DPE became the first publicly listed pizza company in Australia"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Domino's Pizza Enterprises",
+        "largest_franchisee",
+        "Domino's Pizza"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Domino's Pizza Enterprises",
+        "exclusive_master_franchise",
+        "New Zealand"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Domino's Pizza Enterprises",
+        "exclusive_master_franchise",
+        "France"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Domino's Pizza Enterprises",
+        "exclusive_master_franchise",
+        "Belgium"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Domino's Pizza Enterprises",
+        "exclusive_master_franchise",
+        "Netherlands"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Domino's Pizza Enterprises",
+        "exclusive_master_franchise",
+        "Principality of Monaco"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Domino's Pizza Enterprises",
+        "exclusive_master_franchise",
+        "Japan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Domino's Pizza Enterprises",
+        "exclusive_master_franchise",
+        "Germany"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Domino's Pizza Enterprises\nDomino's Pizza Enterprises Limited (DPE) is the largest pizza chain in Australia in terms of network store numbers and network sales, as well as the largest franchisee for the Domino’s Pizza brand in the world. DPE is the exclusive master franchise for the Domino’s brand network in Australia, New Zealand, France, Belgium, the Netherlands, the Principality of Monaco, Japan and Germany. Across these markets, DPE has over 1900 stores. In May 2005 DPE became the first publicly listed pizza company in Australia."
+}

@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "King Electric": "ORG",
+    "Chris Isepp": "PERSON",
+    "Peter Hartwig": "PERSON",
+    "Viennese": "NORP",
+    "the Basket Boys": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Chris Isepp",
+      "relation": "met",
+      "object": "Peter Hartwig",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "met",
+          "line_start": 135,
+          "char_start": 149,
+          "ambiguous": false,
+          "relation_mention": "met",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Peter Hartwig",
+      "relation": "toured_with",
+      "object": "the Basket Boys",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was touring with",
+          "line_start": 231,
+          "char_start": 245,
+          "ambiguous": false,
+          "relation_mention": "was touring with",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "King Electric",
+      "relation": "associated_with",
+      "object": "Viennese",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "at the upcoming and flourishing Viennese techno scene",
+          "line_start": 150,
+          "char_start": 164,
+          "ambiguous": false,
+          "relation_mention": "at the upcoming and flourishing Viennese techno scene",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "King Electric",
+        "consists_of",
+        "Chris Isepp"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "King Electric",
+        "consists_of",
+        "Peter Hartwig"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Chris Isepp",
+        "performed_as",
+        "King Electric"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "King Electric\nKing Electric is Chris Isepp and Peter Hartwig. They took their first musical attempts at the end of 1980s / beginning 1990s and first met each other at the upcoming and flourishing Viennese techno scene back in '92. While Hartwig was touring with the well known noise-pop band the Basket Boys, Isepp made first attentions as Electro DJ & Producer."
+}

@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Universal life insurance": "PRODUCT",
+    "UL": "PRODUCT",
+    "United States of America": "GPE",
+    "Indexed Universal Life": "PRODUCT",
+    "whole life": "PRODUCT",
+    "ILIT": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Universal life insurance",
+      "relation": "shortened_to",
+      "object": "UL",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "shortened to",
+          "line_start": 32,
+          "char_start": 57,
+          "ambiguous": false,
+          "relation_mention": "shortened to",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Universal life insurance",
+        "sold_in",
+        "United States of America"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Indexed Universal Life",
+        "is_a",
+        "Universal life insurance"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "whole life",
+        "compared_with",
+        "Universal life insurance"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "ILIT",
+        "works_with",
+        "Universal life insurance"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Universal life insurance\nUniversal life insurance (often shortened to UL) is a type of cash value life insurance, sold primarily in the United States of America. Under the terms of the policy, the excess of premium payments above the current cost of insurance is credited to the cash value of the policy. The cash value is credited each month with interest, and the policy is debited each month by a cost of insurance (COI) charge, as well as any other policy charges and fees drawn from the cash value, even if no premium payment is made that month. Interest credited to the account is determined by the insurer, but has a contractual minimum rate (often 2%). When an earnings rate is pegged to a financial index such as a stock, bond or other interest rate index, the policy is an \"Indexed Universal Life\" contract. These types of policies offer the advantage of guaranteed level premiums throughout the insured's lifetime at substantially lower premium cost than an equivalent whole life policy at first; the cost of insurance is always increasing as found on the cost index table (usually p. 3 of a contract). This not only allows for easy comparison of costs between carriers, but also works well in irrevocable life insurance trusts (ILIT's) since cash is of no consequence.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Universal life insurance\", \"type\": \"PRODUCT\"},\n    {\"name\": \"UL\", \"type\": \"PRODUCT\"},\n    {\"name\": \"United States of America\", \"type\": \"GPE\"},\n    {\"name\": \"Indexed Universal Life\", \"type\": \"PRODUCT\"},\n    {\"name\": \"whole life\", \"type\": \"PRODUCT\"},\n    {\"name\": \"ILIT\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Universal life insurance\",\n      \"relation\": \"shortened_to\",\n      \"object\": \"UL\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"shortened to\"}\n      ]\n    },\n    {\n      \"subject\": \"Universal life insurance\",\n      \"relation\": \"sold_in\",\n      \"object\": \"United States of America\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"sold primarily in the United States of America\"}\n      ]\n    },\n    {\n      \"subject\": \"Indexed Universal Life\",\n      \"relation\": \"is_a\",\n      \"object\": \"Universal life insurance\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the policy is an \\\"Indexed Universal Life\\\" contract\"}\n      ]\n    },\n    {\n      \"subject\": \"whole life\",\n      \"relation\": \"compared_with\",\n      \"object\": \"Universal life insurance\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"an equivalent whole life policy\"}\n      ]\n    },\n    {\n      \"subject\": \"ILIT\",\n      \"relation\": \"works_with\",\n      \"object\": \"Universal life insurance\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"works well in irrevocable life insurance trusts (ILIT's)\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "The Notorious Miss Lisle": "film",
+    "James Young": "director",
+    "Katherine MacDonald": "actor",
+    "Nigel Barrie": "actor",
+    "Margaret Campbell": "actor",
+    "Milton Menasco": "art director"
+  },
+  "triples": [
+    {
+      "subject": "The Notorious Miss Lisle",
+      "relation": "directed_by",
+      "object": "James Young",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by James Young"
+        }
+      ]
+    },
+    {
+      "subject": "The Notorious Miss Lisle",
+      "relation": "starring",
+      "object": "Katherine MacDonald",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Katherine MacDonald"
+        }
+      ]
+    },
+    {
+      "subject": "The Notorious Miss Lisle",
+      "relation": "designed_by",
+      "object": "Milton Menasco",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "designed by the art director Milton Menasco"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Notorious Miss Lisle",
+        "starring",
+        "Nigel Barrie"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Notorious Miss Lisle",
+        "starring",
+        "Margaret Campbell"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Notorious Miss Lisle\nThe Notorious Miss Lisle is a 1920 American silent drama film directed by James Young and starring Katherine MacDonald, Nigel Barrie, and Margaret Campbell. The film's sets were designed by the art director Milton Menasco."
+}

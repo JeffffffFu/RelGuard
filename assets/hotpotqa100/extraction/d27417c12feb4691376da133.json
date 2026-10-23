@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "King Electric": "Organization",
+    "Chris Isepp": "Person",
+    "Peter Hartwig": "Person",
+    "Basket Boys": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "King Electric",
+      "relation": "founded_by",
+      "object": "Chris Isepp",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "King Electric is Chris Isepp and Peter Hartwig."
+        }
+      ]
+    },
+    {
+      "subject": "King Electric",
+      "relation": "founded_by",
+      "object": "Peter Hartwig",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "King Electric is Chris Isepp and Peter Hartwig."
+        }
+      ]
+    },
+    {
+      "subject": "Chris Isepp",
+      "relation": "met_with",
+      "object": "Peter Hartwig",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "first met each other at the upcoming and flourishing Viennese techno scene back in '92."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Peter Hartwig",
+        "toured_with",
+        "Basket Boys"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Chris Isepp",
+        "made_attempts_as",
+        "Electro DJ & Producer"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "King Electric\nKing Electric is Chris Isepp and Peter Hartwig. They took their first musical attempts at the end of 1980s / beginning 1990s and first met each other at the upcoming and flourishing Viennese techno scene back in '92. While Hartwig was touring with the well known noise-pop band the Basket Boys, Isepp made first attentions as Electro DJ & Producer."
+}

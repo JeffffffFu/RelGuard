@@ -1,0 +1,141 @@
+{
+  "entities": {
+    "No. 78 Wing": "military_unit",
+    "Royal Australian Air Force": "organization",
+    "RAAF Base Williamtown": "location",
+    "New South Wales": "location",
+    "Nos. 76 and 79 Squadrons": "military_unit",
+    "BAE Hawk 127": "aircraft",
+    "No. 278 Squadron": "military_unit",
+    "No. 79 Squadron": "military_unit",
+    "RAAF Base Pearce": "location",
+    "Western Australia": "location",
+    "Royal Australian Navy": "organization",
+    "Australian Army": "organization"
+  },
+  "triples": [
+    {
+      "subject": "No. 78 Wing",
+      "relation": "is_a",
+      "object": "Royal Australian Air Force",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "No. 78 Wing is a Royal Australian Air Force (RAAF) operational training wing"
+        }
+      ]
+    },
+    {
+      "subject": "No. 78 Wing",
+      "relation": "headquartered_at",
+      "object": "RAAF Base Williamtown",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "headquartered at RAAF Base Williamtown"
+        }
+      ]
+    },
+    {
+      "subject": "RAAF Base Williamtown",
+      "relation": "located_in",
+      "object": "New South Wales",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "RAAF Base Williamtown, New South Wales"
+        }
+      ]
+    },
+    {
+      "subject": "No. 78 Wing",
+      "relation": "comprises",
+      "object": "Nos. 76 and 79 Squadrons",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It comprises Nos. 76 and 79 Squadrons"
+        }
+      ]
+    },
+    {
+      "subject": "Nos. 76 and 79 Squadrons",
+      "relation": "operates",
+      "object": "BAE Hawk 127",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "operating the BAE Hawk 127 lead-in fighter"
+        }
+      ]
+    },
+    {
+      "subject": "No. 78 Wing",
+      "relation": "comprises",
+      "object": "No. 278 Squadron",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and No. 278 Squadron, a technical training unit"
+        }
+      ]
+    },
+    {
+      "subject": "RAAF Base Pearce",
+      "relation": "located_in",
+      "object": "Western Australia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "RAAF Base Pearce, Western Australia"
+        }
+      ]
+    },
+    {
+      "subject": "Nos. 76 and 79 Squadrons",
+      "relation": "fly_support_missions_for",
+      "object": "Royal Australian Navy",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "both units also fly support missions for the Royal Australian Navy"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "No. 79 Squadron",
+        "located_at",
+        "RAAF Base Pearce"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "No. 79 Squadron",
+        "is_responsible_for",
+        "converting new pilots to fast jets"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "No. 76 Squadron",
+        "conducts",
+        "introductory fighter courses"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nos. 76 and 79 Squadrons",
+        "fly_support_missions_for",
+        "Australian Army"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "No. 78 Wing RAAF\nNo. 78 Wing is a Royal Australian Air Force (RAAF) operational training wing, headquartered at RAAF Base Williamtown, New South Wales. It comprises Nos. 76 and 79 Squadrons, operating the BAE Hawk 127 lead-in fighter, and No. 278 Squadron, a technical training unit. No. 79 Squadron, located at RAAF Base Pearce, Western Australia, is responsible for converting new pilots to fast jets, while No. 76 Squadron at Williamtown conducts introductory fighter courses; both units also fly support missions for the Royal Australian Navy and the Australian Army."
+}

@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "DeMarcus Cousins": "PERSON",
+    "New Orleans Pelicans": "ORG",
+    "National Basketball Association": "ORG",
+    "University of Kentucky": "ORG",
+    "Sacramento Kings": "ORG",
+    "NBA All-Rookie First Team": "ORG",
+    "NBA All-Star": "ORG",
+    "United States national team": "ORG",
+    "FIBA Basketball World Cup": "EVENT",
+    "Rio Olympics": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "DeMarcus Cousins",
+      "relation": "played_for",
+      "object": "University of Kentucky",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played college basketball for the",
+          "line_start": 189,
+          "char_start": 206,
+          "ambiguous": false,
+          "relation_mention": "played college basketball for the",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "DeMarcus Cousins",
+        "works_for",
+        "New Orleans Pelicans"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "DeMarcus Cousins",
+        "works_for",
+        "National Basketball Association"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "DeMarcus Cousins",
+        "was_selected_by",
+        "Sacramento Kings"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "DeMarcus Cousins",
+        "named_to",
+        "NBA All-Rookie First Team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "DeMarcus Cousins",
+        "named_to",
+        "NBA All-Star"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "DeMarcus Cousins",
+        "member_of",
+        "United States national team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "DeMarcus Cousins",
+        "won_event",
+        "FIBA Basketball World Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "DeMarcus Cousins",
+        "won_event",
+        "Rio Olympics"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "DeMarcus Cousins\nDeMarcus Amir Cousins (born August 13, 1990) is an American professional basketball player for the New Orleans Pelicans of the National Basketball Association (NBA). Nicknamed \"Boogie\", he played college basketball for the University of Kentucky, where he was an All-American in 2010. He left Kentucky after one season, and was selected with the fifth overall pick in the 2010 NBA draft by the Sacramento Kings. In his first season with the Kings, Cousins was named to the NBA All-Rookie First Team, and from 2015 to 2017, he was named an NBA All-Star. He is also a two-time gold medal winner as a member of the United States national team, winning his first in 2014 at the FIBA Basketball World Cup and his second in 2016 at the Rio Olympics.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"DeMarcus Cousins\", \"type\": \"PERSON\"},\n    {\"name\": \"New Orleans Pelicans\", \"type\": \"ORG\"},\n    {\"name\": \"National Basketball Association\", \"type\": \"ORG\"},\n    {\"name\": \"University of Kentucky\", \"type\": \"ORG\"},\n    {\"name\": \"Sacramento Kings\", \"type\": \"ORG\"},\n    {\"name\": \"NBA All-Rookie First Team\", \"type\": \"ORG\"},\n    {\"name\": \"NBA All-Star\", \"type\": \"ORG\"},\n    {\"name\": \"United States national team\", \"type\": \"ORG\"},\n    {\"name\": \"FIBA Basketball World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"Rio Olympics\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"DeMarcus Cousins\",\n      \"relation\": \"works_for\",\n      \"object\": \"New Orleans Pelicans\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"player for the\"}\n      ]\n    },\n    {\n      \"subject\": \"DeMarcus Cousins\",\n      \"relation\": \"works_for\",\n      \"object\": \"National Basketball Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the\"}\n      ]\n    },\n    {\n      \"subject\": \"DeMarcus Cousins\",\n      \"relation\": \"played_for\",\n      \"object\": \"University of Kentucky\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played college basketball for the\"}\n      ]\n    },\n    {\n      \"subject\": \"DeMarcus Cousins\",\n      \"relation\": \"was_selected_by\",\n      \"object\": \"Sacramento Kings\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"selected with the fifth overall pick in the 2010 NBA draft by the\"}\n      ]\n    },\n    {\n      \"subject\": \"DeMarcus Cousins\",\n      \"relation\": \"named_to\",\n      \"object\": \"NBA All-Rookie First Team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was named to the NBA All-Rookie First Team\"}\n      ]\n    },\n    {\n      \"subject\": \"DeMarcus Cousins\",\n      \"relation\": \"named_to\",\n      \"object\": \"NBA All-Star\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"he was named an NBA All-Star\"}\n      ]\n    },\n    {\n      \"subject\": \"DeMarcus Cousins\",\n      \"relation\": \"member_of\",\n      \"object\": \"United States national team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as a member of the\"}\n      ]\n    },\n    {\n      \"subject\": \"DeMarcus Cousins\",\n      \"relation\": \"won_event\",\n      \"object\": \"FIBA Basketball World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"winning his first in 2014 at the FIBA Basketball World Cup\"}\n      ]\n    },\n    {\n      \"subject\": \"DeMarcus Cousins\",\n      \"relation\": \"won_event\",\n      \"object\": \"Rio Olympics\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and his second in 2016 at the Rio Olympics\"}\n      ]\n    }\n  ]\n}"
+}

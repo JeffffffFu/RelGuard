@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Jaime Fernández": "PERSON",
+    "Jaime Fernández Reyes": "PERSON",
+    "Luis Buñuel": "PERSON",
+    "Robinson Crusoe": "WORK_OF_ART",
+    "Emilio Fernández": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Jaime Fernández Reyes",
+      "relation": "was_a",
+      "object": "Jaime Fernández",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Jaime Fernández Reyes (December 6, 1937 – April 15, 2005) was a Mexican actor."
+        }
+      ]
+    },
+    {
+      "subject": "Jaime Fernández",
+      "relation": "is_brother_of",
+      "object": "Emilio Fernández",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "His older brother was actor/director Emilio Fernández."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Mexico (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Jaime Fernández",
+        "won",
+        "Silver Ariel awards"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jaime Fernández",
+        "played",
+        "Robinson Crusoe"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jaime Fernández",
+        "served_as",
+        "General Secretary of the Mexican actors' union"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jaime Fernández",
+        "is_from",
+        "Mexico"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Luis Buñuel",
+        "directed",
+        "Robinson Crusoe"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Jaime Fernández (actor)\nJaime Fernández Reyes (December 6, 1937 – April 15, 2005) was a Mexican actor. Over his career, he won 3 Silver Ariel awards - the Mexican equivalent of the Oscar - including one for what is arguably his best-known role, playing Friday in Luis Buñuel's \"Robinson Crusoe\". He appeared in over 200 films and served as the General Secretary of the Mexican actors' union for 11 years. His older brother was actor/director Emilio Fernández."
+}

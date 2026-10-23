@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "2006 Asian Games": "EVENT",
+    "Doha": "GPE",
+    "Qatar": "GPE",
+    "Tehran": "GPE",
+    "West Asia": "LOC",
+    "Asian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "2006 Asian Games",
+      "relation": "held_in",
+      "object": "Doha",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "held in",
+          "line_start": 160,
+          "char_start": 177,
+          "ambiguous": false,
+          "relation_mention": "held in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games",
+      "relation": "held_in",
+      "object": "Qatar",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "held in",
+          "line_start": 160,
+          "char_start": 177,
+          "ambiguous": false,
+          "relation_mention": "held in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Doha",
+      "relation": "first_city_in_region",
+      "object": "West Asia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "first city in its region and only the second in West Asia (following Tehran in 1974) to host the games",
+          "line_start": 298,
+          "char_start": 315,
+          "ambiguous": false,
+          "relation_mention": "first city in its region and only the second in West Asia (following Tehran in 1974) to host the games",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tehran",
+      "relation": "hosted",
+      "object": "2006 Asian Games",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "following Tehran in 1974) to host the games",
+          "line_start": 357,
+          "char_start": 374,
+          "ambiguous": false,
+          "relation_mention": "following Tehran in 1974) to host the games",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games",
+      "relation": "associated_with",
+      "object": "Asian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was an Asian multi-sport event",
+          "line_start": 129,
+          "char_start": 146,
+          "ambiguous": false,
+          "relation_mention": "was an Asian multi-sport event",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Doha",
+        "located_in",
+        "Qatar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "2006 Asian Games",
+        "named",
+        "XV Asiad"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "2006 Asian Games\nThe 2006 Asian Games (Arabic: دورة الألعاب الآسيوية 2006‎ ‎ , \"Dawrat al-ʼAl‘ab al-Asīawīah\"), officially known as the XV Asiad, was an Asian multi-sport event held in Doha, Qatar from December 1 to December 15, 2006 with 424 events in 39 sports and disciplines featured in the games. Doha was the first city in its region and only the second in West Asia (following Tehran in 1974) to host the games."
+}

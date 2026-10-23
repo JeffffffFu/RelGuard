@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "J. Charles Haydon": "PERSON",
+    "James Charles Haydon": "PERSON",
+    "American": "NORP",
+    "His Majesty, the Scarecrow of Oz": "WORK_OF_ART",
+    "Frederick": "GPE",
+    "Maryland": "GPE",
+    "Baltimore": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "James Charles Haydon",
+      "relation": "directed",
+      "object": "His Majesty, the Scarecrow of Oz",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed",
+          "line_start": 138,
+          "char_start": 156,
+          "ambiguous": false,
+          "relation_mention": "directed",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "James Charles Haydon",
+      "relation": "played_role_in",
+      "object": "His Majesty, the Scarecrow of Oz",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played the Wizard in",
+          "line_start": 240,
+          "char_start": 258,
+          "ambiguous": false,
+          "relation_mention": "played the Wizard in",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "James Charles Haydon",
+      "relation": "born_in",
+      "object": "Frederick",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born in",
+          "line_start": 300,
+          "char_start": 318,
+          "ambiguous": false,
+          "relation_mention": "was born in",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "James Charles Haydon",
+      "relation": "died_in",
+      "object": "Baltimore",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died in",
+          "line_start": 336,
+          "char_start": 354,
+          "ambiguous": false,
+          "relation_mention": "died in",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James Charles Haydon",
+        "also_known_as",
+        "J. Charles Haydon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "James Charles Haydon",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Frederick",
+        "located_in",
+        "Maryland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Baltimore",
+        "located_in",
+        "Maryland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "J. Charles Haydon\nJames Charles Haydon (March 27, 1875 – October 15, 1943) was an American film director, actor and screenwriter of the silent film era. He directed twelve films between 1914 and 1920. He also appeared in five films between 1912 and 1914. He played the Wizard in \"His Majesty, the Scarecrow of Oz\". He was born in Frederick, Maryland and died in Baltimore, Maryland.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"J. Charles Haydon\", \"type\": \"PERSON\"},\n    {\"name\": \"James Charles Haydon\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"His Majesty, the Scarecrow of Oz\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Frederick\", \"type\": \"GPE\"},\n    {\"name\": \"Maryland\", \"type\": \"GPE\"},\n    {\"name\": \"Baltimore\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"James Charles Haydon\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"J. Charles Haydon\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"J. Charles Haydon\"}\n      ]\n    },\n    {\n      \"subject\": \"James Charles Haydon\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an American\"}\n      ]\n    },\n    {\n      \"subject\": \"James Charles Haydon\",\n      \"relation\": \"directed\",\n      \"object\": \"His Majesty, the Scarecrow of Oz\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed\"}\n      ]\n    },\n    {\n      \"subject\": \"James Charles Haydon\",\n      \"relation\": \"played_role_in\",\n      \"object\": \"His Majesty, the Scarecrow of Oz\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played the Wizard in\"}\n      ]\n    },\n    {\n      \"subject\": \"James Charles Haydon\",\n      \"relation\": \"born_in\",\n      \"object\": \"Frederick\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Frederick\",\n      \"relation\": \"located_in\",\n      \"object\": \"Maryland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Frederick, Maryland\"}\n      ]\n    },\n    {\n      \"subject\": \"James Charles Haydon\",\n      \"relation\": \"died_in\",\n      \"object\": \"Baltimore\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"died in\"}\n      ]\n    },\n    {\n      \"subject\": \"Baltimore\",\n      \"relation\": \"located_in\",\n      \"object\": \"Maryland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Baltimore, Maryland\"}\n      ]\n    }\n  ]\n}"
+}

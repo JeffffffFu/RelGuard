@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Creature from the Black Lagoon": "WORK_OF_ART",
+    "John Trudeau": "PERSON",
+    "Midway": "ORG",
+    "Bally": "ORG",
+    "Universal Studios": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Creature from the Black Lagoon",
+      "relation": "designed_by",
+      "object": "John Trudeau",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "designed by John Trudeau"
+        }
+      ]
+    },
+    {
+      "subject": "Creature from the Black Lagoon",
+      "relation": "released_by",
+      "object": "Midway",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released by Midway"
+        }
+      ]
+    },
+    {
+      "subject": "Creature from the Black Lagoon",
+      "relation": "licensed_from",
+      "object": "Universal Studios",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "licensed from Universal Studios"
+        }
+      ]
+    },
+    {
+      "subject": "Bally",
+      "relation": "licensed_artwork",
+      "object": "Creature from the Black Lagoon",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "so that the backglass artwork, the cabinet artwork, and the creature looked like the original movie actors and monsters"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Midway",
+        "under_brand_name",
+        "Bally"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Creature from the Black Lagoon (pinball)\nCreature from the Black Lagoon is a pinball machine designed by John Trudeau (\"Dr. Flash\") and released by Midway (under the \"Bally\" brand name). It is loosely based on the movie of the same name. The game's theme is 1950's drive-in theater. The pinball machine was licensed from Universal Studios by Bally so that the backglass artwork, the cabinet artwork, and the creature looked like the original movie actors and monsters."
+}

@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "This Is 40": "WORK_OF_ART",
+    "Judd Apatow": "PERSON",
+    "Paul Rudd": "PERSON",
+    "Leslie Mann": "PERSON",
+    "Knocked Up": "WORK_OF_ART",
+    "Seth Rogen": "PERSON",
+    "Katherine Heigl": "PERSON",
+    "North America": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "This Is 40",
+      "relation": "directed_by",
+      "object": "Judd Apatow",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 67,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "This Is 40",
+      "relation": "written_by",
+      "object": "Judd Apatow",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written, co-produced and directed by",
+          "line_start": 42,
+          "char_start": 53,
+          "ambiguous": false,
+          "relation_mention": "written, co-produced and directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "This Is 40",
+      "relation": "co-produced_by",
+      "object": "Judd Apatow",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written, co-produced and directed by",
+          "line_start": 42,
+          "char_start": 53,
+          "ambiguous": false,
+          "relation_mention": "written, co-produced and directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "This Is 40",
+        "starring",
+        "Paul Rudd"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "This Is 40",
+        "starring",
+        "Leslie Mann"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "This Is 40",
+        "spin_off_of",
+        "Knocked Up"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Knocked Up",
+        "starring",
+        "Seth Rogen"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Knocked Up",
+        "starring",
+        "Katherine Heigl"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "This Is 40",
+        "released_in",
+        "North America"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "This Is 40\nThis Is 40 is a 2012 American comedy film written, co-produced and directed by Judd Apatow, and starring Paul Rudd and Leslie Mann. It is the spin-off sequel of \"Knocked Up\", which starred Seth Rogen and Katherine Heigl. Filming was conducted in mid-2011, and the film was released in North America on December 21, 2012. The film follows the lives of middle-aged married couple Pete and Debbie as they each turn 40, with their jobs and daughters adding stress to their relationship.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"This Is 40\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Judd Apatow\", \"type\": \"PERSON\"},\n    {\"name\": \"Paul Rudd\", \"type\": \"PERSON\"},\n    {\"name\": \"Leslie Mann\", \"type\": \"PERSON\"},\n    {\"name\": \"Knocked Up\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Seth Rogen\", \"type\": \"PERSON\"},\n    {\"name\": \"Katherine Heigl\", \"type\": \"PERSON\"},\n    {\"name\": \"North America\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"This Is 40\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Judd Apatow\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"This Is 40\",\n      \"relation\": \"written_by\",\n      \"object\": \"Judd Apatow\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written, co-produced and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"This Is 40\",\n      \"relation\": \"co-produced_by\",\n      \"object\": \"Judd Apatow\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written, co-produced and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"This Is 40\",\n      \"relation\": \"starring\",\n      \"object\": \"Paul Rudd\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Paul Rudd and Leslie Mann\"}\n      ]\n    },\n    {\n      \"subject\": \"This Is 40\",\n      \"relation\": \"starring\",\n      \"object\": \"Leslie Mann\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Paul Rudd and Leslie Mann\"}\n      ]\n    },\n    {\n      \"subject\": \"This Is 40\",\n      \"relation\": \"spin_off_of\",\n      \"object\": \"Knocked Up\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"spin-off sequel of \\\"Knocked Up\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Knocked Up\",\n      \"relation\": \"starring\",\n      \"object\": \"Seth Rogen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"which starred Seth Rogen and Katherine Heigl\"}\n      ]\n    },\n    {\n      \"subject\": \"Knocked Up\",\n      \"relation\": \"starring\",\n      \"object\": \"Katherine Heigl\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"which starred Seth Rogen and Katherine Heigl\"}\n      ]\n    },\n    {\n      \"subject\": \"This Is 40\",\n      \"relation\": \"released_in\",\n      \"object\": \"North America\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released in North America\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "Matadi Bridge": "bridge",
+    "OEBK Bridge": "bridge",
+    "Congo River": "river",
+    "Matadi": "city",
+    "Democratic Republic of Congo": "country",
+    "Japanese companies": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Matadi Bridge",
+      "relation": "also_known_as",
+      "object": "OEBK Bridge",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also known as the OEBK Bridge"
+        }
+      ]
+    },
+    {
+      "subject": "Matadi Bridge",
+      "relation": "located_in",
+      "object": "Congo River",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "across the Congo River"
+        }
+      ]
+    },
+    {
+      "subject": "Matadi Bridge",
+      "relation": "located_in",
+      "object": "Matadi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the port of Matadi"
+        }
+      ]
+    },
+    {
+      "subject": "Matadi Bridge",
+      "relation": "located_in",
+      "object": "Democratic Republic of Congo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Democratic Republic of Congo"
+        }
+      ]
+    },
+    {
+      "subject": "Matadi Bridge",
+      "relation": "constructed_by",
+      "object": "Japanese companies",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "by a consortium of Japanese companies"
+        }
+      ]
+    },
+    {
+      "subject": "Matadi Bridge",
+      "relation": "crosses",
+      "object": "Congo River",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "crosses the Congo River"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Matadi Bridge",
+        "completed_in",
+        "1983"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Matadi Bridge",
+        "has_main_span",
+        "520 m"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Matadi Bridge",
+        "is_largest",
+        "suspension bridge in Africa"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Matadi Bridge\nThe Matadi Bridge, also known as the OEBK Bridge, is a suspension bridge across the Congo River at the port of Matadi, Democratic Republic of Congo. It is the largest suspension bridge in Africa. It was completed in 1983 by a consortium of Japanese companies. It has a main span of 520 m , and crosses the Congo River."
+}

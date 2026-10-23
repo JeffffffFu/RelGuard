@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Gregor Fisher": "Person",
+    "Rab C. Nesbitt": "TV Show",
+    "Love Actually": "Film",
+    "Lassie": "Film",
+    "Wild Target": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Gregor Fisher",
+      "relation": "is_best_known_for",
+      "object": "Rab C. Nesbitt",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "best known for his long portrayal as protagonist and suffering Glasgow alcoholic Rab, in the popular comedy series \"Rab C. Nesbitt\""
+        }
+      ]
+    },
+    {
+      "subject": "Gregor Fisher",
+      "relation": "has_role_in",
+      "object": "Love Actually",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "roles in films such as \"Love Actually\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gregor Fisher",
+        "born_on",
+        "22 December 1953"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gregor Fisher",
+        "has_role_in",
+        "Lassie"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Gregor Fisher",
+        "has_role_in",
+        "Wild Target"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rab C. Nesbitt",
+        "first_episode_year",
+        "1988"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Gregor Fisher\nGregor Fisher (born 22 December 1953) is a Scottish comedian and actor. He is perhaps best known for his long portrayal as protagonist and suffering Glasgow alcoholic Rab, in the popular comedy series \"Rab C. Nesbitt\", a role he has held since the show's first episode in 1988. He has also had roles in films such as \"Love Actually\", \"Lassie\" and \"Wild Target\"."
+}

@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Baltimore Ravens": "Team",
+    "Brian Billick": "Person",
+    "National Football League": "League"
+  },
+  "triples": [
+    {
+      "subject": "Baltimore Ravens",
+      "relation": "season",
+      "object": "National Football League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the National Football League (NFL)"
+        }
+      ]
+    },
+    {
+      "subject": "Baltimore Ravens",
+      "relation": "under_head_coach",
+      "object": "Brian Billick",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the third under head coach Brian Billick"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Baltimore Ravens",
+        "has_season",
+        "6th season"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "2001 Baltimore Ravens season\nThe Baltimore Ravens season was the franchise's 6th season in the National Football League (NFL) and the third under head coach Brian Billick."
+}

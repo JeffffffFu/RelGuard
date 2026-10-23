@@ -1,0 +1,176 @@
+{
+  "entities": {
+    "Fiat": "ORG",
+    "Marengo": "PRODUCT",
+    "Fiat 131 Marengo": "PRODUCT",
+    "Regata": "PRODUCT",
+    "Tempra": "PRODUCT",
+    "Marea": "PRODUCT",
+    "Fiat Stilo Multiwagon": "PRODUCT",
+    "Fiorino": "PRODUCT",
+    "Penny": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Marengo",
+      "relation": "works_for",
+      "object": "Fiat",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "that Italian car maker Fiat has given to",
+          "line_start": 24,
+          "char_start": 37,
+          "ambiguous": false,
+          "relation_mention": "that Italian car maker Fiat has given to",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Fiat 131 Marengo",
+      "relation": "is_a",
+      "object": "Marengo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the \"Fiat 131 Marengo\"",
+          "line_start": 122,
+          "char_start": 135,
+          "ambiguous": false,
+          "relation_mention": "the \"Fiat 131 Marengo\"",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Marengo",
+      "relation": "succeeded_by",
+      "object": "Fiat Stilo Multiwagon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "succeeded by the van version of the Fiat Stilo Multiwagon",
+          "line_start": 360,
+          "char_start": 373,
+          "ambiguous": false,
+          "relation_mention": "succeeded by the van version of the Fiat Stilo Multiwagon",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Marengo",
+      "relation": "related_to",
+      "object": "Regata",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "continuing with the Regata",
+          "line_start": 157,
+          "char_start": 170,
+          "ambiguous": false,
+          "relation_mention": "continuing with the Regata",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Marengo",
+      "relation": "related_to",
+      "object": "Tempra",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Tempra",
+          "line_start": 185,
+          "char_start": 198,
+          "ambiguous": false,
+          "relation_mention": "Tempra",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Marengo",
+      "relation": "related_to",
+      "object": "Marea",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and Marea",
+          "line_start": 193,
+          "char_start": 206,
+          "ambiguous": false,
+          "relation_mention": "and Marea",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Fiat",
+      "relation": "has_product",
+      "object": "Fiorino",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "compare with the Fiorino",
+          "line_start": 540,
+          "char_start": 553,
+          "ambiguous": false,
+          "relation_mention": "compare with the Fiorino",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Fiat",
+      "relation": "has_product",
+      "object": "Penny",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and the Penny",
+          "line_start": 565,
+          "char_start": 578,
+          "ambiguous": false,
+          "relation_mention": "and the Penny",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Marengo",
+        "is_a",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fiat 131 Marengo",
+        "released_in",
+        "1979"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fiat",
+        "located_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Fiat Marengo\nMarengo is a model name that Italian car maker Fiat has given to the van derivatives of its mid-size cars, beginning with the \"Fiat 131 Marengo\" in 1979 and continuing with the Regata, Tempra, and Marea. The Marengo light commercial vehicle derivatives only have two seats and have only been equipped with diesel engines. The nameplate was retired in 2001 and succeeded by the van version of the Fiat Stilo Multiwagon. Fiat has a tradition of naming their commercial vehicle derivatives differently from the cars upon which they are based, compare with the Fiorino and the Penny."
+}

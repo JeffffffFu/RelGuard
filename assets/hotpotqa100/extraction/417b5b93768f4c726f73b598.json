@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Veterinary physician": "Profession",
+    "vet": "Alias",
+    "veterinarian": "Alias",
+    "veterinary surgeon": "Alias",
+    "veterinary medicine": "Field",
+    "animals": "Entity"
+  },
+  "triples": [
+    {
+      "subject": "Veterinary physician",
+      "relation": "also_called",
+      "object": "vet",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is usually called a vet"
+        }
+      ]
+    },
+    {
+      "subject": "vet",
+      "relation": "shortened_from",
+      "object": "veterinarian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which is shortened from veterinarian"
+        }
+      ]
+    },
+    {
+      "subject": "vet",
+      "relation": "shortened_from",
+      "object": "veterinary surgeon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which is shortened from veterinarian (American English, Australian English) or veterinary surgeon (British English)"
+        }
+      ]
+    },
+    {
+      "subject": "Veterinary physician",
+      "relation": "practices",
+      "object": "veterinary medicine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who practices veterinary medicine"
+        }
+      ]
+    },
+    {
+      "subject": "Veterinary physician",
+      "relation": "treats",
+      "object": "animals",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by treating diseases, disorders, and injuries in animals"
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Veterinary physician\nA veterinary physician, is usually called a vet, which is shortened from veterinarian (American English, Australian English) or veterinary surgeon (British English), which is a professional who practices veterinary medicine by treating diseases, disorders, and injuries in animals."
+}

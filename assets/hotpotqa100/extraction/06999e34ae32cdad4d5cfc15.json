@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Alf Clausen": "Person",
+    "The Simpsons": "TV Show",
+    "Moonlighting": "TV Show",
+    "The Naked Gun": "Film",
+    "ALF": "TV Show",
+    "Ferris Bueller's Day Off": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Alf Clausen",
+      "relation": "is_best_known_for",
+      "object": "The Simpsons",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his work scoring many episodes of \"The Simpsons\""
+        }
+      ]
+    },
+    {
+      "subject": "Alf Clausen",
+      "relation": "composed_for",
+      "object": "The Simpsons",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he had been the sole composer between 1990 and 2017"
+        }
+      ]
+    },
+    {
+      "subject": "Alf Clausen",
+      "relation": "scored_or_orchestrated_music_for",
+      "object": "Moonlighting",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "scored or orchestrated music for more than 30 films and television shows, including \"Moonlighting\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Alf Clausen",
+        "born_on",
+        "March 28, 1941"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alf Clausen",
+        "scored_or_orchestrated_music_for",
+        "The Naked Gun"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alf Clausen",
+        "scored_or_orchestrated_music_for",
+        "ALF"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alf Clausen",
+        "scored_or_orchestrated_music_for",
+        "Ferris Bueller's Day Off"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Alf Clausen\nAlf Heiberg Clausen (born March 28, 1941) is an American film and television composer. He is best known for his work scoring many episodes of \"The Simpsons\", of which he had been the sole composer between 1990 and 2017. Clausen has scored or orchestrated music for more than 30 films and television shows, including \"Moonlighting\", \"The Naked Gun\", \"ALF\" and \"Ferris Bueller's Day Off\"."
+}

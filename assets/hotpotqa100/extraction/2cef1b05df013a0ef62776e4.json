@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "Caladium": "genus",
+    "Araceae": "family",
+    "Alocasia": "genus",
+    "Colocasia": "genus",
+    "Xanthosoma": "genus",
+    "Caladium bicolor": "cultivar",
+    "South America": "location"
+  },
+  "triples": [
+    {
+      "subject": "Caladium",
+      "relation": "belongs_to",
+      "object": "Araceae",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Caladium is a genus of flowering plants in the family Araceae."
+        }
+      ]
+    },
+    {
+      "subject": "Caladium",
+      "relation": "originated_in",
+      "object": "South America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from the original South American plant."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Caladium",
+        "known_as",
+        "elephant ear"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Caladium",
+        "known_as",
+        "Heart of Jesus"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Caladium",
+        "known_as",
+        "Angel Wings"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Caladium bicolor",
+        "cultivated_from",
+        "Caladium"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Caladium",
+        "related_to",
+        "Alocasia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Caladium",
+        "related_to",
+        "Colocasia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Caladium",
+        "related_to",
+        "Xanthosoma"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Caladium\nCaladium is a genus of flowering plants in the family Araceae. They are often known by the common name elephant ear (which they share with the closely related genera \"Alocasia\", \"Colocasia\", and \"Xanthosoma\"), Heart of Jesus, and Angel Wings. There are over 1000 named cultivars of \"Caladium bicolor\" from the original South American plant."
+}

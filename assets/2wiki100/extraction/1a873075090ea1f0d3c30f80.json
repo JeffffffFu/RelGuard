@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Wojciech Has": "PERSON",
+    "Wojciech Jerzy Has": "PERSON",
+    "Kraków": "GPE",
+    "Łódź": "GPE",
+    "Polish": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Wojciech Jerzy Has",
+      "relation": "born_in",
+      "object": "Kraków",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "(1 April 1925, Kraków –",
+          "line_start": 19,
+          "char_start": 32,
+          "ambiguous": false,
+          "relation_mention": "(1 April 1925, Kraków –",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Wojciech Jerzy Has",
+      "relation": "died_in",
+      "object": "Łódź",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "– 3 October 2000, Łódź)",
+          "line_start": 41,
+          "char_start": 54,
+          "ambiguous": false,
+          "relation_mention": "– 3 October 2000, Łódź)",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Wojciech Jerzy Has",
+      "relation": "nationality",
+      "object": "Polish",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was a Polish",
+          "line_start": 65,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "was a Polish",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wojciech Jerzy Has",
+        "works_for",
+        "film director"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Wojciech Has\nWojciech Jerzy Has (1 April 1925, Kraków – 3 October 2000, Łódź) was a Polish film director, screenwriter and film producer."
+}

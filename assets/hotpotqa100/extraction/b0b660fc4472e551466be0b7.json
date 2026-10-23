@@ -1,0 +1,27 @@
+{
+  "entities": {
+    "Bill Cosby": "PERSON",
+    "Bill Cosby Is Not Himself These Days": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Bill Cosby Is Not Himself These Days",
+        "created_by",
+        "Bill Cosby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bill Cosby Is Not Himself These Days",
+        "instance_of",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bill Cosby Is Not Himself These Days\nBill Cosby Is Not Himself These Days (1976) is a musical comedy album by Bill Cosby.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bill Cosby\", \"type\": \"PERSON\"},\n    {\"name\": \"Bill Cosby Is Not Himself These Days\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bill Cosby Is Not Himself These Days\",\n      \"relation\": \"created_by\",\n      \"object\": \"Bill Cosby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    },\n    {\n      \"subject\": \"Bill Cosby Is Not Himself These Days\",\n      \"relation\": \"instance_of\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a musical comedy album\"}\n      ]\n    }\n  ]\n}"
+}

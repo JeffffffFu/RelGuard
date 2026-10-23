@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Frederick Elliott Brown": "Person",
+    "World War I": "Event",
+    "World War II": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Frederick Elliott Brown",
+      "relation": "returned_to_service_during",
+      "object": "World War II",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "returned to military service during World War II"
+        }
+      ]
+    },
+    {
+      "subject": "Frederick Elliott Brown",
+      "relation": "served_in",
+      "object": "World War I",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Captain Frederick Elliott Brown was a Canadian World War I flying ace"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Frederick Elliott Brown",
+        "credited_with",
+        "10 aerial victories"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Frederick Elliott Brown\nCaptain Frederick Elliott Brown was a Canadian World War I flying ace credited with 10 aerial victories. He returned to military service during World War II."
+}

@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Margiana": "LOC",
+    "Merv": "LOC",
+    "Achaemenid": "NORP",
+    "Bactria": "LOC",
+    "Seleucid": "NORP",
+    "Parthian": "NORP",
+    "Sasanian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Margiana",
+      "relation": "centred_on",
+      "object": "Merv",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "centred on the oasis of",
+          "line_start": 99,
+          "char_start": 108,
+          "ambiguous": false,
+          "relation_mention": "centred on the oasis of",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Margiana",
+        "was_satrapy_within",
+        "Achaemenid"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Achaemenid",
+        "located_in",
+        "Bactria"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Margiana",
+        "was_province_within",
+        "Seleucid"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Margiana",
+        "was_province_within",
+        "Parthian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Margiana",
+        "was_province_within",
+        "Sasanian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Margiana\nMargiana (Greek: \"Margianḗ\", Old Persian: \"Marguš\", Middle Persian: \"Marv\") is a historical region centred on the oasis of Merv and was a minor satrapy within the Achaemenid satrapy of Bactria, and a province within its successors, the Seleucid, Parthian and Sasanian empires.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Margiana\", \"type\": \"LOC\"},\n    {\"name\": \"Merv\", \"type\": \"LOC\"},\n    {\"name\": \"Achaemenid\", \"type\": \"NORP\"},\n    {\"name\": \"Bactria\", \"type\": \"LOC\"},\n    {\"name\": \"Seleucid\", \"type\": \"NORP\"},\n    {\"name\": \"Parthian\", \"type\": \"NORP\"},\n    {\"name\": \"Sasanian\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Margiana\",\n      \"relation\": \"centred_on\",\n      \"object\": \"Merv\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"centred on the oasis of\"}\n      ]\n    },\n    {\n      \"subject\": \"Margiana\",\n      \"relation\": \"was_satrapy_within\",\n      \"object\": \"Achaemenid\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a minor satrapy within the Achaemenid satrapy of\"}\n      ]\n    },\n    {\n      \"subject\": \"Achaemenid\",\n      \"relation\": \"located_in\",\n      \"object\": \"Bactria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Bactria\"}\n      ]\n    },\n    {\n      \"subject\": \"Margiana\",\n      \"relation\": \"was_province_within\",\n      \"object\": \"Seleucid\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a province within its successors, the Seleucid\"}\n      ]\n    },\n    {\n      \"subject\": \"Margiana\",\n      \"relation\": \"was_province_within\",\n      \"object\": \"Parthian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Seleucid, Parthian and Sasanian empires\"}\n      ]\n    },\n    {\n      \"subject\": \"Margiana\",\n      \"relation\": \"was_province_within\",\n      \"object\": \"Sasanian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Seleucid, Parthian and Sasanian empires\"}\n      ]\n    }\n  ]\n}"
+}

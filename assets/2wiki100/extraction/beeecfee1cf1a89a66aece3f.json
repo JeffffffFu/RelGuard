@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Tarcisio Fusco": "Person",
+    "Giovanni Fusco": "Person",
+    "Cecilia Fusco": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Tarcisio Fusco",
+      "relation": "brother_of",
+      "object": "Giovanni Fusco",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He was the brother of the composer Giovanni Fusco"
+        }
+      ]
+    },
+    {
+      "subject": "Tarcisio Fusco",
+      "relation": "uncle_of",
+      "object": "Cecilia Fusco",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and the uncle of operatic soprano Cecilia Fusco"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tarcisio Fusco",
+        "composer_of",
+        "film scores"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Tarcisio Fusco\nTarcisio Fusco was an Italian composer of film scores. He was the brother of the composer Giovanni Fusco and the uncle of operatic soprano Cecilia Fusco."
+}

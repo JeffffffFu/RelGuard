@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Half a Sinner": "film",
+    "Al Christie": "director",
+    "Heather Angel": "actor",
+    "Public Enemy Number One": "title",
+    "Pennsylvania": "location",
+    "Dalton Trumbo": "author",
+    "Lady Takes a Chance": "short story",
+    "Everything Happens to Ann": "working title"
+  },
+  "triples": [
+    {
+      "subject": "Half a Sinner",
+      "relation": "directed_by",
+      "object": "Al Christie",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Al Christie"
+        }
+      ]
+    },
+    {
+      "subject": "Half a Sinner",
+      "relation": "stars",
+      "object": "Heather Angel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It stars Heather Angel"
+        }
+      ]
+    },
+    {
+      "subject": "Heather Angel",
+      "relation": "plays",
+      "object": "Public Enemy Number One",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who in one day becomes Public Enemy Number One"
+        }
+      ]
+    },
+    {
+      "subject": "Public Enemy Number One",
+      "relation": "located_in",
+      "object": "Pennsylvania",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Pennsylvania"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Half a Sinner",
+        "based_on",
+        "Lady Takes a Chance"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Half a Sinner",
+        "has_working_title",
+        "Everything Happens to Ann"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Half a Sinner",
+        "has_working_title",
+        "The Lady Takes a Chance"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dalton Trumbo",
+        "wrote",
+        "Lady Takes a Chance"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Half a Sinner (1940 film)\nHalf a Sinner is a 1940 American film directed by Al Christie. It stars Heather Angel as a schoolteacher who in one day becomes Public Enemy Number One in Pennsylvania. The film is based on Dalton Trumbo's short story\" Lady Takes a Chance\". The working titles of this film were\" Everything Happens to Ann\" and\" The Lady Takes a Chance\"."
+}

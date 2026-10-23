@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "John's Incredible Pizza Company": "ORG",
+    "John Parlet": "PERSON",
+    "United States": "GPE",
+    "Rancho Santa Margarita": "GPE",
+    "California": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "John's Incredible Pizza Company",
+      "relation": "founded_by",
+      "object": "John Parlet",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded by",
+          "line_start": 108,
+          "char_start": 140,
+          "ambiguous": false,
+          "relation_mention": "founded by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "John's Incredible Pizza Company",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "on the United States West Coast",
+          "line_start": 169,
+          "char_start": 201,
+          "ambiguous": false,
+          "relation_mention": "on the United States West Coast",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "John's Incredible Pizza Company",
+      "relation": "located_in",
+      "object": "Rancho Santa Margarita",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in Rancho Santa Margarita",
+          "line_start": 226,
+          "char_start": 258,
+          "ambiguous": false,
+          "relation_mention": "located in Rancho Santa Margarita",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Rancho Santa Margarita",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Rancho Santa Margarita, California",
+          "line_start": 237,
+          "char_start": 269,
+          "ambiguous": false,
+          "relation_mention": "Rancho Santa Margarita, California",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "John's Incredible Pizza Company\nJohn’s Incredible Pizza Company is an American all-you-can-eat buffet restaurant and entertainment business founded by John Parlet in 1997. The company has 11 locations on the United States West Coast. Its corporate office is located in Rancho Santa Margarita, California."
+}

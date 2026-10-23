@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Carolyn Jones": "PERSON",
+    "American": "NORP",
+    "The Bachelor Party": "WORK_OF_ART",
+    "Golden Globe Award": "WORK_OF_ART",
+    "Morticia Addams": "PERSON",
+    "Ophelia": "PERSON",
+    "Thing": "PERSON",
+    "Lady Fingers": "PERSON",
+    "The Addams Family": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Carolyn Jones",
+      "relation": "is_a",
+      "object": "American",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was an American actress of television and film."
+        }
+      ]
+    },
+    {
+      "subject": "Carolyn Jones",
+      "relation": "received",
+      "object": "Golden Globe Award",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a Golden Globe Award as one of the most promising actresses of 1959."
+        }
+      ]
+    },
+    {
+      "subject": "Carolyn Jones",
+      "relation": "played",
+      "object": "Morticia Addams",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "she began playing the role of Morticia Addams"
+        }
+      ]
+    },
+    {
+      "subject": "Carolyn Jones",
+      "relation": "played",
+      "object": "Ophelia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "as well as her sister Ophelia"
+        }
+      ]
+    },
+    {
+      "subject": "Carolyn Jones",
+      "relation": "played",
+      "object": "Thing",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the feminine counterpart of Thing"
+        }
+      ]
+    },
+    {
+      "subject": "Carolyn Jones",
+      "relation": "played",
+      "object": "Lady Fingers",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the feminine counterpart of Thing, Lady Fingers"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Carolyn Jones",
+        "acted_in",
+        "The Bachelor Party"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Morticia Addams",
+        "appeared_in",
+        "The Addams Family"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Carolyn Jones\nCarolyn Sue Jones (April 28, 1930 – August 3, 1983) was an American actress of television and film. Jones began her film career in the early 1950s, and by the end of the decade had achieved recognition with a nomination for an Academy Award for Best Supporting Actress for \"The Bachelor Party\" (1957) and a Golden Globe Award as one of the most promising actresses of 1959. Her film career continued for another 20 years. In 1964, she began playing the role of Morticia Addams (as well as her sister Ophelia and the feminine counterpart of Thing, Lady Fingers), in the original black and white television series \"The Addams Family\", receiving a Golden Globe Award nomination for her work."
+}

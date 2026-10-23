@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "U. E. Baughman": "Person",
+    "United States Secret Service": "Organization",
+    "Harry S. Truman": "Person",
+    "James J. Maloney": "Person",
+    "Thomas E. Dewey": "Person",
+    "Stephen Hunter": "Person",
+    "John Bainbridge Jr.": "Person",
+    "American Gunfight": "Book"
+  },
+  "triples": [
+    {
+      "subject": "U. E. Baughman",
+      "relation": "chief_of",
+      "object": "United States Secret Service",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the chief of the United States Secret Service between 1948 and 1961"
+        }
+      ]
+    },
+    {
+      "subject": "U. E. Baughman",
+      "relation": "appointed_by",
+      "object": "Harry S. Truman",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Baughman was appointed to head the Secret Service by President Harry S. Truman shortly after the 1948 election"
+        }
+      ]
+    },
+    {
+      "subject": "Harry S. Truman",
+      "relation": "dismissed",
+      "object": "James J. Maloney",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Truman dismissed Baughman's predecessor James J. Maloney"
+        }
+      ]
+    },
+    {
+      "subject": "Thomas E. Dewey",
+      "relation": "expected_to_be_elected_president",
+      "object": "U. E. Baughman",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Dewey was widely expected to be elected president"
+        }
+      ]
+    },
+    {
+      "subject": "American Gunfight",
+      "relation": "authored_by",
+      "object": "Stephen Hunter",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "by Stephen Hunter and John Bainbridge Jr."
+        }
+      ]
+    },
+    {
+      "subject": "American Gunfight",
+      "relation": "authored_by",
+      "object": "John Bainbridge Jr.",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "by Stephen Hunter and John Bainbridge Jr."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James J. Maloney",
+        "dispatched_to",
+        "New York"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "U. E. Baughman",
+        "wrote",
+        "American Gunfight"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "U. E. Baughman\nUrbanus Edmund Baughman( 21 May 1905 – 6 November 1978) was the chief of the United States Secret Service between 1948 and 1961, under Presidents Truman, Eisenhower, and Kennedy. Baughman was the first Secret Service Chief to pen a memoir concerning the office he held. Entitled\" Secret Service Chief\", it was a veritable tell- all on the intricacies and inner workings of the Secret Service and its evolution from a counterfeit detection department to the presidential protection unit. Baughman was appointed to head the Secret Service by President Harry S. Truman shortly after the 1948 election. According to the book\" American Gunfight\", by Stephen Hunter and John Bainbridge Jr., Truman dismissed Baughman's predecessor James J. Maloney in part because he had dispatched most of Truman's Secret Service detail to New York to prepare to guard New York Governor Thomas E. Dewey. Dewey was widely expected to be elected president but was beaten by Truman in one of the greatest upsets in presidential election history."
+}

@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Bommalattam": "film",
+    "Bharathiraja": "person",
+    "Arjun Sarja": "person",
+    "Nana Patekar": "person"
+  },
+  "triples": [
+    {
+      "subject": "Bommalattam",
+      "relation": "directed_by",
+      "object": "Bharathiraja",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Bharathiraja"
+        }
+      ]
+    },
+    {
+      "subject": "Bommalattam",
+      "relation": "starring",
+      "object": "Arjun Sarja",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Arjun Sarja"
+        }
+      ]
+    },
+    {
+      "subject": "Nana Patekar",
+      "relation": "debut_in",
+      "object": "Bommalattam",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "This marked Nana Patekar's Tamil film debut"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bommalattam",
+        "starring",
+        "Nana Patekar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bommalattam",
+        "released_in",
+        "2008"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bommalattam",
+        "filmed_in",
+        "Hindi"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hindi version",
+        "retitled",
+        "Final Cut of Director"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bommalattam (2008 film)\nBommalattam is a 2008 Indian Tamil film directed by Bharathiraja starring Arjun Sarja and Nana Patekar in the lead roles. Originally filmed in Hindi under the title\" Cinema\", the film was released first in Tamil. Hindi version retitled\" Final Cut of Director\" had a limited release in 2016. This marked Nana Patekar's Tamil film debut."
+}

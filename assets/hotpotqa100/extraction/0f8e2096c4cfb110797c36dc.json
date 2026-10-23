@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "New York Korean Film Festival": "EVENT",
+    "Korea Society": "ORG",
+    "Museum of Modern Art": "ORG",
+    "Brooklyn Academy of Music": "ORG",
+    "BAM Rose Cinema": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "New York Korean Film Festival",
+      "relation": "held_by",
+      "object": "Korea Society",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was held by the Korea Society"
+        }
+      ]
+    },
+    {
+      "subject": "New York Korean Film Festival",
+      "relation": "featured",
+      "object": "Museum of Modern Art",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "featured eight films in a collaborative effort with the Museum of Modern Art (MoMA)"
+        }
+      ]
+    },
+    {
+      "subject": "Brooklyn Academy of Music",
+      "relation": "located_in",
+      "object": "BAM Rose Cinema",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Brooklyn Academy of Music (BAM) Rose Cinema"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "New York Korean Film Festival",
+        "featured",
+        "Brooklyn Academy of Music"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "New York Korean Film Festival 2010\n9th New York Korean Film Festival was held by the Korea Society showcasing a selection of the best of contemporary Korean cinema. The 2010 New York Korean Film Festival featured eight films in a collaborative effort with the Museum of Modern Art (MoMA) and the Brooklyn Academy of Music (BAM) Rose Cinema. Like previous festivals, the 2010 New York Korean Film Festival screened contemporary Korean films and also featured panel discussions with directors and other icons of Korean Cinema. The festival lasted from September 22, 2010 to October 3, 2010. Ranging from action to comedy, sci-fi to horror, to genre-bending altogether, this year's films represented not only Korea's top box-office hits but also some of the industry's most creative and substantial movies to date."
+}

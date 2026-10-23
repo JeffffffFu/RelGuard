@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Elliot Silverstein": "Person",
+    "Cat Ballou": "Movie",
+    "Boston": "Location",
+    "Massachusetts": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Elliot Silverstein",
+      "relation": "born_in",
+      "object": "Boston",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born August 3, 1927, in Boston"
+        }
+      ]
+    },
+    {
+      "subject": "Elliot Silverstein",
+      "relation": "born_in",
+      "object": "Massachusetts",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born August 3, 1927, in Boston, Massachusetts"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Elliot Silverstein",
+        "directed",
+        "Cat Ballou"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Elliot Silverstein\nElliot Silverstein( born August 3, 1927, in Boston, Massachusetts) is an American director, who is best known for being the director of the movie\" Cat Ballou\"( 1965)."
+}

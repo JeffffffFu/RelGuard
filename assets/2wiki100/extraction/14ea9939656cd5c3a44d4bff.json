@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Life Hits": "WORK_OF_ART",
+    "Danish": "NORP",
+    "Christian E. Christiansen": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Life Hits",
+      "relation": "directed_by",
+      "object": "Christian E. Christiansen",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 38,
+          "char_start": 48,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Life Hits",
+        "located_in",
+        "Danish"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Life Hits\nLife Hits is a 2006 Danish drama film directed by Christian E. Christiansen.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Life Hits\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Danish\", \"type\": \"NORP\"},\n    {\"name\": \"Christian E. Christiansen\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Life Hits\",\n      \"relation\": \"located_in\",\n      \"object\": \"Danish\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Danish\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Hits\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Christian E. Christiansen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    }\n  ]\n}"
+}

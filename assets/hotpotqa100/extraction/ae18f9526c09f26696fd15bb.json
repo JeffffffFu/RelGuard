@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Wise Blood": "WORK_OF_ART",
+    "John Huston": "PERSON",
+    "Flannery O'Connor": "PERSON",
+    "Macon": "GPE",
+    "Georgia": "GPE",
+    "Andalusia": "FAC",
+    "Baldwin County": "GPE",
+    "Alex North": "PERSON",
+    "Germany": "GPE",
+    "France": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Wise Blood",
+      "relation": "directed_by",
+      "object": "John Huston",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 42,
+          "char_start": 60,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Wise Blood",
+      "relation": "based_on",
+      "object": "Wise Blood",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 70,
+          "char_start": 88,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Wise Blood",
+      "relation": "filmed_in",
+      "object": "Macon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "filmed mostly in and around",
+          "line_start": 136,
+          "char_start": 154,
+          "ambiguous": false,
+          "relation_mention": "filmed mostly in and around",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Alex North",
+      "relation": "composed",
+      "object": "Wise Blood",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "composed by",
+          "line_start": 440,
+          "char_start": 458,
+          "ambiguous": false,
+          "relation_mention": "composed by",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Macon",
+        "located_in",
+        "Georgia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Andalusia",
+        "located_in",
+        "Baldwin County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wise Blood",
+        "released_in",
+        "Germany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wise Blood",
+        "released_in",
+        "France"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Wise Blood (film)\nWise Blood is an American 1979 drama film directed by John Huston and based on the 1952 novel \"Wise Blood\" by Flannery O'Connor. It was filmed mostly in and around Macon, Georgia, near O'Connor's home Andalusia in Baldwin County, using many local residents as extras. Though largely faithful to O'Connor's novel, Huston reframes many scenes from the book as broad comedy accompanied by a bluegrass banjo score. The original music score was composed by Alex North. The film was titled Der Ketzer or Die Weisheit des Blutes when released in Germany, and Le Malin when released in France.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Wise Blood\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"John Huston\", \"type\": \"PERSON\"},\n    {\"name\": \"Flannery O'Connor\", \"type\": \"PERSON\"},\n    {\"name\": \"Macon\", \"type\": \"GPE\"},\n    {\"name\": \"Georgia\", \"type\": \"GPE\"},\n    {\"name\": \"Andalusia\", \"type\": \"FAC\"},\n    {\"name\": \"Baldwin County\", \"type\": \"GPE\"},\n    {\"name\": \"Alex North\", \"type\": \"PERSON\"},\n    {\"name\": \"Germany\", \"type\": \"GPE\"},\n    {\"name\": \"France\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Wise Blood\",\n      \"relation\": \"directed_by\",\n      \"object\": \"John Huston\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Wise Blood\",\n      \"relation\": \"based_on\",\n      \"object\": \"Wise Blood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on\"}\n      ]\n    },\n    {\n      \"subject\": \"Wise Blood\",\n      \"relation\": \"filmed_in\",\n      \"object\": \"Macon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"filmed mostly in and around\"}\n      ]\n    },\n    {\n      \"subject\": \"Macon\",\n      \"relation\": \"located_in\",\n      \"object\": \"Georgia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in and around Macon, Georgia\"}\n      ]\n    },\n    {\n      \"subject\": \"Andalusia\",\n      \"relation\": \"located_in\",\n      \"object\": \"Baldwin County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Baldwin County\"}\n      ]\n    },\n    {\n      \"subject\": \"Alex North\",\n      \"relation\": \"composed\",\n      \"object\": \"Wise Blood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"composed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Wise Blood\",\n      \"relation\": \"released_in\",\n      \"object\": \"Germany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released in Germany\"}\n      ]\n    },\n    {\n      \"subject\": \"Wise Blood\",\n      \"relation\": \"released_in\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released in France\"}\n      ]\n    }\n  ]\n}"
+}

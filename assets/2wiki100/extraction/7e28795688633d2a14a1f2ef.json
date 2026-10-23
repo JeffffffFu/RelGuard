@@ -1,0 +1,164 @@
+{
+  "entities": {
+    "Li Zhong": "PERSON",
+    "Emperor Gaozong": "PERSON",
+    "Empress Wang": "PERSON",
+    "Empress Wu": "PERSON",
+    "Wu Zetian": "PERSON",
+    "Li Hong": "PERSON",
+    "Shangguan Yi": "PERSON",
+    "Emperor Zhongzong": "PERSON",
+    "Tang Dynasty": "ORG",
+    "Prince of Yan": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Li Zhong",
+      "relation": "created_crown_prince_in",
+      "object": "Prince of Yan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was created crown prince in 652",
+          "line_start": 206,
+          "char_start": 215,
+          "ambiguous": false,
+          "relation_mention": "was created crown prince in 652",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Shangguan Yi",
+      "relation": "was_executed",
+      "object": "Tang Dynasty",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was executed",
+          "line_start": 741,
+          "char_start": 750,
+          "ambiguous": false,
+          "relation_mention": "was executed",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Li Zhong",
+        "born_into",
+        "Tang Dynasty"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Li Zhong",
+        "was_crown_prince_of",
+        "Tang Dynasty"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Li Zhong",
+        "son_of",
+        "Emperor Gaozong"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Empress Wang",
+        "was_displaced_by",
+        "Empress Wu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Empress Wu",
+        "also_known_as",
+        "Wu Zetian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Li Zhong",
+        "yielded_position_to",
+        "Li Hong"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Li Hong",
+        "son_of",
+        "Empress Wu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Li Zhong",
+        "was_put_under",
+        "house arrest"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Shangguan Yi",
+        "attempted_to_persuade",
+        "Emperor Gaozong"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Empress Wu",
+        "accused_of_complicity",
+        "Li Zhong"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Emperor Gaozong",
+        "ordered_to_commit_suicide",
+        "Li Zhong"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Li Zhong",
+        "was_posthumously_honored_as",
+        "imperial prince"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Li Zhong",
+        "not_honored_as",
+        "crown prince"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Li Zhong",
+        "was_honored_during_reign_of",
+        "Emperor Zhongzong"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Li Zhong\nLi Zhong (李忠) (643 – January 6, 665), courtesy name Zhengben (正本), formally Prince of Yan (燕王), was a crown prince of the Chinese dynasty Tang Dynasty. He was the oldest son of Emperor Gaozong (Li Zhi) and was created crown prince in 652 even though he was not the son of his then-wife Empress Wang. After Empress Wang was displaced by Empress Wu (later known as Wu Zetian) in 655, however, Li Zhong was caught in Empress Wu's crosshairs and was forced to yield the crown prince position to his younger brother Li Hong, born of Empress Wu, in 656. He was later further reduced to commoner rank and put under house arrest, and when the chancellor Shangguan Yi failed in his attempt to persuade Emperor Gaozong to depose Empress Wu in 664 and was executed, Empress Wu took the opportunity to accuse Li Zhong of being complicit in Shangguan's plans. Around the new year 665, Emperor Gaozong ordered Li Zhong to commit suicide. He was posthumously honored an imperial prince, but not a crown prince, during the second reign of his brother Emperor Zhongzong.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Li Zhong\", \"type\": \"PERSON\"},\n    {\"name\": \"Emperor Gaozong\", \"type\": \"PERSON\"},\n    {\"name\": \"Empress Wang\", \"type\": \"PERSON\"},\n    {\"name\": \"Empress Wu\", \"type\": \"PERSON\"},\n    {\"name\": \"Wu Zetian\", \"type\": \"PERSON\"},\n    {\"name\": \"Li Hong\", \"type\": \"PERSON\"},\n    {\"name\": \"Shangguan Yi\", \"type\": \"PERSON\"},\n    {\"name\": \"Emperor Zhongzong\", \"type\": \"PERSON\"},\n    {\"name\": \"Tang Dynasty\", \"type\": \"ORG\"},\n    {\"name\": \"Prince of Yan\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Li Zhong\",\n      \"relation\": \"born_into\",\n      \"object\": \"Tang Dynasty\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the Chinese dynasty Tang Dynasty\"}\n      ]\n    },\n    {\n      \"subject\": \"Li Zhong\",\n      \"relation\": \"was_crown_prince_of\",\n      \"object\": \"Tang Dynasty\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a crown prince of the Chinese dynasty Tang Dynasty\"}\n      ]\n    },\n    {\n      \"subject\": \"Li Zhong\",\n      \"relation\": \"son_of\",\n      \"object\": \"Emperor Gaozong\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"son of Emperor Gaozong\"}\n      ]\n    },\n    {\n      \"subject\": \"Li Zhong\",\n      \"relation\": \"created_crown_prince_in\",\n      \"object\": \"Prince of Yan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was created crown prince in 652\"}\n      ]\n    },\n    {\n      \"subject\": \"Empress Wang\",\n      \"relation\": \"was_displaced_by\",\n      \"object\": \"Empress Wu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was displaced by Empress Wu\"}\n      ]\n    },\n    {\n      \"subject\": \"Empress Wu\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Wu Zetian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"later known as Wu Zetian\"}\n      ]\n    },\n    {\n      \"subject\": \"Li Zhong\",\n      \"relation\": \"yielded_position_to\",\n      \"object\": \"Li Hong\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"yield the crown prince position to his younger brother Li Hong\"}\n      ]\n    },\n    {\n      \"subject\": \"Li Hong\",\n      \"relation\": \"son_of\",\n      \"object\": \"Empress Wu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born of Empress Wu\"}\n      ]\n    },\n    {\n      \"subject\": \"Li Zhong\",\n      \"relation\": \"was_put_under\",\n      \"object\": \"house arrest\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"put under house arrest\"}\n      ]\n    },\n    {\n      \"subject\": \"Shangguan Yi\",\n      \"relation\": \"attempted_to_persuade\",\n      \"object\": \"Emperor Gaozong\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"attempt to persuade Emperor Gaozong to depose Empress Wu\"}\n      ]\n    },\n    {\n      \"subject\": \"Shangguan Yi\",\n      \"relation\": \"was_executed\",\n      \"object\": \"Tang Dynasty\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was executed\"}\n      ]\n    },\n    {\n      \"subject\": \"Empress Wu\",\n      \"relation\": \"accused_of_complicity\",\n      \"object\": \"Li Zhong\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to accuse Li Zhong of being complicit in Shangguan's plans\"}\n      ]\n    },\n    {\n      \"subject\": \"Emperor Gaozong\",\n      \"relation\": \"ordered_to_commit_suicide\",\n      \"object\": \"Li Zhong\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"ordered Li Zhong to commit suicide\"}\n      ]\n    },\n    {\n      \"subject\": \"Li Zhong\",\n      \"relation\": \"was_posthumously_honored_as\",\n      \"object\": \"imperial prince\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was posthumously honored an imperial prince\"}\n      ]\n    },\n    {\n      \"subject\": \"Li Zhong\",\n      \"relation\": \"not_honored_as\",\n      \"object\": \"crown prince\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"but not a crown prince\"}\n      ]\n    },\n    {\n      \"subject\": \"Li Zhong\",\n      \"relation\": \"was_honored_during_reign_of\",\n      \"object\": \"Emperor Zhongzong\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"during the second reign of his brother Emperor Zhongzong\"}\n      ]\n    }\n  ]\n}"
+}

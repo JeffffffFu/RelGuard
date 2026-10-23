@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Kurt Gödel Society": "ORG",
+    "Vienna": "GPE",
+    "Austria": "GPE",
+    "Kurt Gödel": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Kurt Gödel Society",
+      "relation": "named_in_honour_of",
+      "object": "Kurt Gödel",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in whose honour it was named",
+          "line_start": 245,
+          "char_start": 264,
+          "ambiguous": false,
+          "relation_mention": "in whose honour it was named",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kurt Gödel Society",
+        "founded_in",
+        "Vienna"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kurt Gödel Society",
+        "founded_in",
+        "Austria"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kurt Gödel Society\nThe Kurt Gödel Society was founded in Vienna, Austria in 1987. It is an international organization aimed at promoting research primarily on logic, philosophy and the history of mathematics, with special attention to connections with Kurt Gödel, in whose honour it was named.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kurt Gödel Society\", \"type\": \"ORG\"},\n    {\"name\": \"Vienna\", \"type\": \"GPE\"},\n    {\"name\": \"Austria\", \"type\": \"GPE\"},\n    {\"name\": \"Kurt Gödel\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kurt Gödel Society\",\n      \"relation\": \"founded_in\",\n      \"object\": \"Vienna\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in Vienna\"}\n      ]\n    },\n    {\n      \"subject\": \"Kurt Gödel Society\",\n      \"relation\": \"founded_in\",\n      \"object\": \"Austria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in Vienna, Austria\"}\n      ]\n    },\n    {\n      \"subject\": \"Kurt Gödel Society\",\n      \"relation\": \"named_in_honour_of\",\n      \"object\": \"Kurt Gödel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in whose honour it was named\"}\n      ]\n    }\n  ]\n}"
+}

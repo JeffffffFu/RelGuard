@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Ramna Stacks": "Location",
+    "Shetland islands": "Location",
+    "Mainland": "Location",
+    "Gruney": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Ramna Stacks",
+      "relation": "located_in",
+      "object": "Shetland islands",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Ramna Stacks are a group of skerries in the Shetland islands."
+        }
+      ]
+    },
+    {
+      "subject": "Ramna Stacks",
+      "relation": "special_protection_area_with",
+      "object": "Gruney",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "along with nearby Gruney they are a special protection area"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ramna Stacks",
+        "north_of",
+        "Mainland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Ramna Stacks\nThe Ramna Stacks are a group of skerries in the Shetland islands. They are north of the northern tip of Mainland, and along with nearby Gruney they are a special protection area on account of their birdlife."
+}

@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "Fifty Shades": "novel series",
+    "E. L. James": "author",
+    "Anastasia Steele": "character",
+    "Christian Grey": "character"
+  },
+  "triples": [
+    {
+      "subject": "Fifty Shades",
+      "relation": "written_by",
+      "object": "E. L. James",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by E. L. James"
+        }
+      ]
+    },
+    {
+      "subject": "Anastasia Steele",
+      "relation": "in_relationship_with",
+      "object": "Christian Grey",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Fifty Shades",
+        "consists_of",
+        "Fifty Shades of Grey"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fifty Shades",
+        "consists_of",
+        "Fifty Shades Darker"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fifty Shades",
+        "consists_of",
+        "Fifty Shades Freed"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Fifty Shades (novel series)\nThe \"Fifty Shades\" trilogy is a series of erotic novels by E. L. James. The trilogy consists of \"Fifty Shades of Grey\" (2011), \"Fifty Shades Darker\" and \"Fifty Shades Freed\" (2012). The trilogy traces the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey."
+}

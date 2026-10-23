@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Donald Duck": "character",
+    "buccal speech": "vocalization",
+    "Clarence Nash": "voice actor",
+    "Tony Anselmo": "voice actor",
+    "Disney": "company"
+  },
+  "triples": [
+    {
+      "subject": "Donald Duck",
+      "relation": "associated_with",
+      "object": "buccal speech",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The speech is most closely associated with the Disney cartoon character Donald Duck whose voice was created and performed by voice actor Clarence Nash, and by Tony Anselmo after Nash's death in 1985."
+        }
+      ]
+    },
+    {
+      "subject": "Donald Duck",
+      "relation": "performed_by",
+      "object": "Clarence Nash",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "whose voice was created and performed by voice actor Clarence Nash"
+        }
+      ]
+    },
+    {
+      "subject": "Donald Duck",
+      "relation": "performed_by",
+      "object": "Tony Anselmo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and by Tony Anselmo after Nash's death in 1985."
+        }
+      ]
+    },
+    {
+      "subject": "Donald Duck",
+      "relation": "created_by",
+      "object": "Disney",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "most closely associated with the Disney cartoon character Donald Duck"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "buccal speech",
+        "is_a",
+        "alaryngeal form of vocalization"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Donald Duck talk\nDonald Duck voice, formally called buccal speech, is an alaryngeal form of vocalization which uses the inner cheek to produce sound rather than the larynx. The speech is most closely associated with the Disney cartoon character Donald Duck whose voice was created and performed by voice actor Clarence Nash, and by Tony Anselmo after Nash's death in 1985."
+}

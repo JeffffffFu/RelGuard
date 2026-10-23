@@ -1,0 +1,149 @@
+{
+  "entities": {
+    "Russia": "GPE",
+    "FIFA World Cup": "EVENT",
+    "Vladimir Putin": "PERSON",
+    "Vitaly Mutko": "PERSON",
+    "Minister of Sports": "ORG",
+    "Russian Football Union": "ORG",
+    "Alexey Sorokin": "PERSON",
+    "Alexander Djordjadze": "PERSON",
+    "RFU": "ORG",
+    "2018 FIFA World Cup": "EVENT",
+    "2022 FIFA World Cup": "EVENT",
+    "FIFA": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Russia",
+      "relation": "made_bid_for",
+      "object": "FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "announced its intent to bid for",
+          "line_start": 7,
+          "char_start": 38,
+          "ambiguous": false,
+          "relation_mention": "announced its intent to bid for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Vladimir Putin",
+      "relation": "ordered",
+      "object": "Vitaly Mutko",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "ordering",
+          "line_start": 210,
+          "char_start": 241,
+          "ambiguous": false,
+          "relation_mention": "ordering",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Vitaly Mutko",
+      "relation": "served_as",
+      "object": "Russian Football Union",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "served that time as President of the Russian Football Union (RFU)",
+          "line_start": 381,
+          "char_start": 412,
+          "ambiguous": false,
+          "relation_mention": "served that time as President of the Russian Football Union (RFU)",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Vitaly Mutko",
+      "relation": "submitted_report_to",
+      "object": "Russia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "submitted by Vitaly Mutko",
+          "line_start": 345,
+          "char_start": 376,
+          "ambiguous": false,
+          "relation_mention": "submitted by Vitaly Mutko",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Russia",
+      "relation": "pulled_out_of",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "pulled out of the race to host the 2022 FIFA World Cup",
+          "line_start": 675,
+          "char_start": 706,
+          "ambiguous": false,
+          "relation_mention": "pulled out of the race to host the 2022 FIFA World Cup",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Russia",
+      "relation": "chosen_as_host_for",
+      "object": "2018 FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "chosen as the host country for the 2018 FIFA World Cup",
+          "line_start": 762,
+          "char_start": 793,
+          "ambiguous": false,
+          "relation_mention": "chosen as the host country for the 2018 FIFA World Cup",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "Russia",
+      "relation": "submitted_request_to",
+      "object": "FIFA",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "submitted its request to FIFA",
+          "line_start": 77,
+          "char_start": 108,
+          "ambiguous": false,
+          "relation_mention": "submitted its request to FIFA",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Alexey Sorokin",
+        "is_member_of",
+        "bid committee"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Alexander Djordjadze",
+        "is_member_of",
+        "bid committee"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Russia 2018 FIFA World Cup bid\nRussia announced its intent to bid for the FIFA World Cup in early 2009, and submitted its request to FIFA in time. Russia's President Vladimir Putin has taken a keen interest in the bid and has gone so far as ordering Vitaly Mutko, the Minister of Sports, to \"prepare a bid for Russia to hold the 2018 World Cup\". According to a report earlier submitted by Vitaly Mutko, who also served that time as President of the Russian Football Union (RFU), the country is ready to spend some $10 billion on the tournament. The bid committee also includes RFU CEO Alexey Sorokin and Alexander Djordjadze as the Director of Bid Planning and Operations. In October 2010, Russia formally pulled out of the race to host the 2022 FIFA World Cup. On December 2, 2010 Russia was chosen as the host country for the 2018 FIFA World Cup."
+}

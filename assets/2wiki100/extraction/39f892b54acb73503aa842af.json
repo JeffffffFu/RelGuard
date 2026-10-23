@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Yennsy Díaz": "Person",
+    "Toronto Blue Jays": "Organization",
+    "Major League Baseball": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Yennsy Díaz",
+      "relation": "works_for",
+      "object": "Toronto Blue Jays",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a Dominican professional baseball pitcher for the Toronto Blue Jays"
+        }
+      ]
+    },
+    {
+      "subject": "Toronto Blue Jays",
+      "relation": "part_of",
+      "object": "Major League Baseball",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of Major League Baseball( MLB)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Yennsy Díaz",
+        "born_on",
+        "November 15, 1996"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Yennsy Díaz\nYennsy Manuel Díaz( born November 15, 1996) is a Dominican professional baseball pitcher for the Toronto Blue Jays of Major League Baseball( MLB)."
+}

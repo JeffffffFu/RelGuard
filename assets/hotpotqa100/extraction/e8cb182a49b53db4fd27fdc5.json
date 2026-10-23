@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Famous Smoke Shop": "ORG",
+    "United States": "GPE",
+    "Midtown Manhattan": "LOC",
+    "Easton, Pennsylvania": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Famous Smoke Shop",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Famous Smoke Shop",
+        "formed_in",
+        "Midtown Manhattan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Famous Smoke Shop",
+        "moved_to",
+        "Easton, Pennsylvania"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Famous Smoke Shop",
+        "engaged_in",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Famous Smoke Shop\nFamous Smoke Shop is one of the largest cigar mail order businesses in the United States. The company was formed in October, 1939 in Midtown Manhattan as a cigar and gift shop. In 2000, increasing rents and taxes forced the company to move its operations to Easton, Pennsylvania, a state that currently imposes no cigar tax. Famous Smoke Shop is engaged primarily in the retail and wholesale of cigars, humidors, and cigar accessories through mail order catalogs, a brick and mortar retail shop, and several websites.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Famous Smoke Shop\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Midtown Manhattan\", \"type\": \"LOC\"},\n    {\"name\": \"Easton, Pennsylvania\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Famous Smoke Shop\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Famous Smoke Shop\",\n      \"relation\": \"formed_in\",\n      \"object\": \"Midtown Manhattan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Midtown Manhattan\"}\n      ]\n    },\n    {\n      \"subject\": \"Famous Smoke Shop\",\n      \"relation\": \"moved_to\",\n      \"object\": \"Easton, Pennsylvania\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"move its operations to Easton, Pennsylvania\"}\n      ]\n    },\n    {\n      \"subject\": \"Famous Smoke Shop\",\n      \"relation\": \"engaged_in\",\n      \"object\": \"PRODUCT\",\n      \"occurrences\": []\n    }\n  ]\n}"
+}

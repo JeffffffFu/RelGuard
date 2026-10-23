@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Anton Shunto": "Person",
+    "Denis Shunto": "Person",
+    "Krumkachy Minsk": "Organization",
+    "Molodechno": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Anton Shunto",
+      "relation": "plays_for",
+      "object": "Molodechno",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "he plays for Molodechno"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Anton Shunto",
+        "born_on",
+        "31 May 1988"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Denis Shunto",
+        "is_a",
+        "founder"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Denis Shunto",
+        "is_a",
+        "former president"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Denis Shunto",
+        "founded",
+        "Krumkachy Minsk"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Anton Shunto",
+        "is_a",
+        "younger brother"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Anton Shunto\nAnton Shunto( born 31 May 1988) is a Belarusian professional footballer. As of 2019, he plays for Molodechno. He is a younger brother of Denis Shunto, who is a founder and former president of Krumkachy Minsk."
+}

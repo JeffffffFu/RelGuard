@@ -1,0 +1,56 @@
+{
+  "entities": {
+    "Jim Rogers": "PERSON",
+    "Jimmie Hugh Rogers Sr.": "PERSON",
+    "United States": "GPE",
+    "Oklahoma": "GPE",
+    "Democratic Party": "ORG",
+    "Tom Coburn": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Jimmie Hugh Rogers Sr.",
+      "relation": "nominated_by",
+      "object": "Democratic Party",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Democratic Party nominee"
+        }
+      ]
+    },
+    {
+      "subject": "Jimmie Hugh Rogers Sr.",
+      "relation": "located_in",
+      "object": "Oklahoma",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Oklahoma"
+        }
+      ]
+    },
+    {
+      "subject": "Tom Coburn",
+      "relation": "competed_against",
+      "object": "Jimmie Hugh Rogers Sr.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in a race against incumbent Senator Tom Coburn"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jimmie Hugh Rogers Sr.",
+        "ran_for",
+        "United States Senate"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jim Rogers (Oklahoma politician)\nJimmie Hugh Rogers Sr. (March 25, 1935 – November 11, 2014) was an American perennial political candidate. He ran for various offices and in 2010 was the Democratic Party nominee for the United States Senate in Oklahoma in a race against incumbent Senator Tom Coburn."
+}

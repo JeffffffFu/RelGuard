@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "A Groom from the Other World": "WORK_OF_ART",
+    "Soviet": "NORP",
+    "Leonid Gaidai": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "A Groom from the Other World",
+      "relation": "directed_by",
+      "object": "Leonid Gaidai",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 61,
+          "char_start": 90,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "A Groom from the Other World",
+        "located_in",
+        "Soviet"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "A Groom from the Other World\nA Groom from the Other World or is a 1958 Soviet comedy film directed by Leonid Gaidai.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"A Groom from the Other World\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Soviet\", \"type\": \"NORP\"},\n    {\"name\": \"Leonid Gaidai\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"A Groom from the Other World\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Leonid Gaidai\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"A Groom from the Other World\",\n      \"relation\": \"located_in\",\n      \"object\": \"Soviet\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Soviet\"}\n      ]\n    }\n  ]\n}"
+}

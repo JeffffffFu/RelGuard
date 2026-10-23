@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "WVNH": "radio station",
+    "New Hampshire Gospel Radio, Inc.": "organization",
+    "WANH": "radio station",
+    "Concord": "location",
+    "Meredith": "location",
+    "Lakes Region": "location",
+    "New Hampshire": "location",
+    "United States": "location"
+  },
+  "triples": [
+    {
+      "subject": "WVNH",
+      "relation": "licensed_to",
+      "object": "Concord",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Licensed to Concord"
+        }
+      ]
+    },
+    {
+      "subject": "WVNH",
+      "relation": "owned_by",
+      "object": "New Hampshire Gospel Radio, Inc.",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "currently owned by New Hampshire Gospel Radio, Inc."
+        }
+      ]
+    },
+    {
+      "subject": "WVNH",
+      "relation": "serves",
+      "object": "Concord",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the station serves the Concord area"
+        }
+      ]
+    },
+    {
+      "subject": "WANH",
+      "relation": "simulcast_on",
+      "object": "WVNH",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Programming is simulcast on WANH (91.5 FM)"
+        }
+      ]
+    },
+    {
+      "subject": "WANH",
+      "relation": "serves",
+      "object": "Lakes Region",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "serving the Lakes Region"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "WVNH",
+        "broadcasting_format",
+        "Christian radio format"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "WVNH\nWVNH (91.1 FM) is a radio station broadcasting a Christian radio format. Licensed to Concord, New Hampshire, United States, the station serves the Concord area. The station is currently owned by New Hampshire Gospel Radio, Inc. Programming is simulcast on WANH (91.5 FM) in Meredith, serving the Lakes Region."
+}

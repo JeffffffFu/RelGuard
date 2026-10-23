@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Rodrigo de la Rosa": "PERSON",
+    "Daniela 2002": "WORK_OF_ART",
+    "El Alma Herida 2003": "WORK_OF_ART",
+    "La Ley del Silencio 2005": "WORK_OF_ART",
+    "Man of La Mancha": "WORK_OF_ART",
+    "Jesus Christ Superstar": "WORK_OF_ART",
+    "Les Miserables": "WORK_OF_ART",
+    "Marius": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Rodrigo de la Rosa",
+      "relation": "starred_in",
+      "object": "Daniela 2002",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He starred in 3 successful Mexican telenovas, \"Daniela 2002\""
+        }
+      ]
+    },
+    {
+      "subject": "Rodrigo de la Rosa",
+      "relation": "starred_in",
+      "object": "El Alma Herida 2003",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "\"El Alma Herida 2003\""
+        }
+      ]
+    },
+    {
+      "subject": "Rodrigo de la Rosa",
+      "relation": "starred_in",
+      "object": "La Ley del Silencio 2005",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "\"La Ley del Silencio 2005\""
+        }
+      ]
+    },
+    {
+      "subject": "Rodrigo de la Rosa",
+      "relation": "appeared_in",
+      "object": "Man of La Mancha",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "he has appeared in musicals such as \"Man of La Mancha\""
+        }
+      ]
+    },
+    {
+      "subject": "Rodrigo de la Rosa",
+      "relation": "appeared_in",
+      "object": "Jesus Christ Superstar",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "\"Jesus Christ Superstar\""
+        }
+      ]
+    },
+    {
+      "subject": "Rodrigo de la Rosa",
+      "relation": "appeared_in",
+      "object": "Les Miserables",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "\"Les Miserables\""
+        }
+      ]
+    },
+    {
+      "subject": "Rodrigo de la Rosa",
+      "relation": "played_role",
+      "object": "Marius",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "playing the role of \"Marius\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Mexico (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Rodrigo de la Rosa",
+        "nationality",
+        "Mexico"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Rodrigo de la Rosa\nRodrigo de la Rosa is a Mexican actor, best known for a list of telenovas. He starred in 3 successful Mexican telenovas, \"Daniela 2002\", \"El Alma Herida 2003\", and \"La Ley del Silencio 2005\", although he has appeared in musicals such as \"Man of La Mancha\" (1999), \"Jesus Christ Superstar\" (2000) and \"Les Miserables\" (2002-2003) playing the role of \"Marius\"."
+}

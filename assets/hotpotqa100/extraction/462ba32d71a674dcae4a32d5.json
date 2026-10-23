@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "Operation River Falcon": "military_operation",
+    "Iraq War": "conflict",
+    "United States Army 2nd Brigade Combat Team": "military_unit",
+    "4th Infantry Division": "military_unit",
+    "2nd Battalion, 8th Infantry Regiment": "military_unit",
+    "1st Battalion, 10th Cavalry Regiment": "military_unit",
+    "Sayifiyeh": "location",
+    "Coalition": "military_alliance",
+    "Iraqi Security Forces": "military_force"
+  },
+  "triples": [
+    {
+      "subject": "Operation River Falcon",
+      "relation": "in_location",
+      "object": "Sayifiyeh",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in and around the town of Sayifiyeh in Iraq"
+        }
+      ]
+    },
+    {
+      "subject": "Operation River Falcon",
+      "relation": "part_of",
+      "object": "Iraq War",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Operation River Falcon was a military operation in the Iraq War"
+        }
+      ]
+    },
+    {
+      "subject": "United States Army 2nd Brigade Combat Team",
+      "relation": "part_of",
+      "object": "4th Infantry Division",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "elements of the United States Army 2nd Brigade Combat Team, 4th Infantry Division"
+        }
+      ]
+    },
+    {
+      "subject": "United States Army 2nd Brigade Combat Team",
+      "relation": "includes",
+      "object": "2nd Battalion, 8th Infantry Regiment",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "including elements of the 2nd Battalion, 8th Infantry Regiment"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Operation River Falcon",
+        "conducted_by",
+        "United States Army 2nd Brigade Combat Team"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Operation River Falcon",
+        "aimed_at",
+        "denying terrorists the use of the town as a safe haven"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Operation River Falcon",
+        "disrupted",
+        "insurgent attacks on Coalition and Iraqi Security Forces"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "United States Army 2nd Brigade Combat Team",
+        "includes",
+        "1st Battalion, 10th Cavalry Regiment"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Operation River Falcon\nOperation River Falcon was a military operation in the Iraq War. From 25–27 July 2006, elements of the United States Army 2nd Brigade Combat Team, 4th Infantry Division (including elements of the 2nd Battalion, 8th Infantry Regiment, and the 1st Battalion, 10th Cavalry Regiment) conducted Operation River Falcon in and around the town of Sayifiyeh in Iraq. The operation was aimed at denying terrorists the use of the town as a safe haven, disrupting insurgent attacks on Coalition and Iraqi Security Forces, and on collecting and destroying insurgent munitions."
+}

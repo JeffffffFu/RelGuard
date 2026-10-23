@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Nation and Destiny": "WORK_OF_ART",
+    "Kim Jong-Il": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Kim Jong-Il",
+      "relation": "chose_title",
+      "object": "Nation and Destiny",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Kim Jong-Il personally chose the title"
+        }
+      ]
+    },
+    {
+      "subject": "Nation and Destiny",
+      "relation": "involved_in",
+      "object": "Kim Jong-Il",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was extensively involved in the early episodes."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "North Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Nation and Destiny",
+        "released_in",
+        "North Korea"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nation and Destiny",
+        "produced_in",
+        "North Korea"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Nation and Destiny\nNation and Destiny (Chosŏn'gŭl: 민족과 운명 ; MR: \"Minjokgwa ummyeong \" ) is a 62-part North Korean film series released between 1992 and 2002. It aims to show that the Korean people \"can live a glorious life only in the bosom of the Great Leader and socialist fatherland\". Kim Jong-Il personally chose the title and was extensively involved in the early episodes. Conceived as the largest film series ever produced in any country, it was the largest investment ever made in the history of North Korean cinema. Initially, the most senior writers, directors and actors were involved in the project and it was heavily promoted and eulogized by the North Korean media. The series was projected to reach 100 episodes, but none have been released since 2002."
+}

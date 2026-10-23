@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "FIA GT1 World Championship": "EVENT",
+    "SRO Group": "ORG",
+    "Fédération Internationale de l'Automobile": "ORG",
+    "FIA": "ORG",
+    "GT1": "PRODUCT",
+    "GT3": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "FIA GT1 World Championship",
+      "relation": "developed_by",
+      "object": "SRO Group",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "developed by",
+          "line_start": 81,
+          "char_start": 108,
+          "ambiguous": false,
+          "relation_mention": "developed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "FIA GT1 World Championship",
+      "relation": "regulated_by",
+      "object": "Fédération Internationale de l'Automobile",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "regulated by",
+          "line_start": 112,
+          "char_start": 139,
+          "ambiguous": false,
+          "relation_mention": "regulated by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "FIA GT1 World Championship",
+      "relation": "featured",
+      "object": "GT1",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "featured",
+          "line_start": 205,
+          "char_start": 232,
+          "ambiguous": false,
+          "relation_mention": "featured",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "FIA GT1 World Championship",
+      "relation": "featured",
+      "object": "GT3",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "featured",
+          "line_start": 205,
+          "char_start": 232,
+          "ambiguous": false,
+          "relation_mention": "featured",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Fédération Internationale de l'Automobile",
+        "aka",
+        "FIA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "FIA GT1 World Championship\nThe FIA GT1 World Championship was a world championship sports car racing series developed by the SRO Group and regulated by the Fédération Internationale de l'Automobile (FIA), held from 2010 to 2012. It featured multiple grand tourer race cars based on production road cars and conforming with the GT1 (2010–2011) and GT3 (2012) regulations competing in one-hour races on multiple continents. All cars were performance balanced with weight and restrictor adjustments to artificially equalise their performance. Championships were awarded each season for drivers and teams.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"FIA GT1 World Championship\", \"type\": \"EVENT\"},\n    {\"name\": \"SRO Group\", \"type\": \"ORG\"},\n    {\"name\": \"Fédération Internationale de l'Automobile\", \"type\": \"ORG\"},\n    {\"name\": \"FIA\", \"type\": \"ORG\"},\n    {\"name\": \"GT1\", \"type\": \"PRODUCT\"},\n    {\"name\": \"GT3\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"FIA GT1 World Championship\",\n      \"relation\": \"developed_by\",\n      \"object\": \"SRO Group\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"developed by\"}\n      ]\n    },\n    {\n      \"subject\": \"FIA GT1 World Championship\",\n      \"relation\": \"regulated_by\",\n      \"object\": \"Fédération Internationale de l'Automobile\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"regulated by\"}\n      ]\n    },\n    {\n      \"subject\": \"Fédération Internationale de l'Automobile\",\n      \"relation\": \"aka\",\n      \"object\": \"FIA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(FIA)\"}\n      ]\n    },\n    {\n      \"subject\": \"FIA GT1 World Championship\",\n      \"relation\": \"featured\",\n      \"object\": \"GT1\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"featured\"}\n      ]\n    },\n    {\n      \"subject\": \"FIA GT1 World Championship\",\n      \"relation\": \"featured\",\n      \"object\": \"GT3\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"featured\"}\n      ]\n    }\n  ]\n}"
+}

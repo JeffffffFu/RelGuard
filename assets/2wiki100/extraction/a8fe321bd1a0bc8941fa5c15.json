@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "William Henry Francis, 11th Baron Petre": "PERSON",
+    "Baron Petre": "PERSON",
+    "House of Lords": "ORG",
+    "Catholic Relief Act 1829": "LAW",
+    "Essex": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "William Henry Francis, 11th Baron Petre",
+      "relation": "located_in",
+      "object": "Essex",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 97,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "William Henry Francis, 11th Baron Petre",
+      "relation": "works_for",
+      "object": "House of Lords",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "take his seat in the",
+          "line_start": 145,
+          "char_start": 177,
+          "ambiguous": false,
+          "relation_mention": "take his seat in the",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "England (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "William Henry Francis, 11th Baron Petre",
+        "located_in",
+        "England"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "William Henry Francis, 11th Baron Petre",
+        "founded",
+        "Catholic Relief Act 1829"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "William Petre, 11th Baron Petre\nWilliam Henry Francis, 11th Baron Petre( 22 January 1793 – 3 July 1850) was an English nobleman, based in Essex. He was the first Baron Petre to take his seat in the House of Lords after the passing of the Catholic Relief Act 1829.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"William Henry Francis, 11th Baron Petre\", \"type\": \"PERSON\"},\n    {\"name\": \"Baron Petre\", \"type\": \"PERSON\"},\n    {\"name\": \"House of Lords\", \"type\": \"ORG\"},\n    {\"name\": \"Catholic Relief Act 1829\", \"type\": \"LAW\"},\n    {\"name\": \"Essex\", \"type\": \"GPE\"},\n    {\"name\": \"England\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"William Henry Francis, 11th Baron Petre\",\n      \"relation\": \"located_in\",\n      \"object\": \"Essex\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"William Henry Francis, 11th Baron Petre\",\n      \"relation\": \"works_for\",\n      \"object\": \"House of Lords\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"take his seat in the\"}\n      ]\n    },\n    {\n      \"subject\": \"William Henry Francis, 11th Baron Petre\",\n      \"relation\": \"located_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an English\"}\n      ]\n    },\n    {\n      \"subject\": \"William Henry Francis, 11th Baron Petre\",\n      \"relation\": \"founded\",\n      \"object\": \"Catholic Relief Act 1829\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"after the passing of the\"}\n      ]\n    }\n  ]\n}"
+}

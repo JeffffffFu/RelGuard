@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Invasion of the Neptune Men": "film",
+    "Japan": "location",
+    "United States": "location",
+    "Mystery Science Theater 3000": "television_show"
+  },
+  "triples": [
+    {
+      "subject": "Invasion of the Neptune Men",
+      "relation": "released_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was released in 1961 in Japan"
+        }
+      ]
+    },
+    {
+      "subject": "Invasion of the Neptune Men",
+      "relation": "released_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was later released in the United States on television"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Invasion of the Neptune Men",
+        "featured_on",
+        "Mystery Science Theater 3000"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Invasion of the Neptune Men\nThe film was released in 1961 in Japan and was later released in the United States on television. In 1998, the film was featured on an episode of\" Mystery Science Theater 3000\"."
+}

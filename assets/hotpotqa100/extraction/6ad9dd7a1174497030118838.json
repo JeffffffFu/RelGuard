@@ -1,0 +1,154 @@
+{
+  "entities": {
+    "Tagliatelle": "PRODUCT",
+    "tagliolini": "PRODUCT",
+    "Italian": "NORP",
+    "Emilia-Romagna": "GPE",
+    "Marche": "GPE",
+    "Italy": "GPE",
+    "fettuccine": "PRODUCT",
+    "Bolognese sauce": "PRODUCT",
+    "meat sauce": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Tagliatelle",
+      "relation": "from",
+      "object": "Emilia-Romagna",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "from Emilia-Romagna",
+          "line_start": 112,
+          "char_start": 124,
+          "ambiguous": false,
+          "relation_mention": "from Emilia-Romagna",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Tagliatelle",
+      "relation": "from",
+      "object": "Marche",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and Marche",
+          "line_start": 132,
+          "char_start": 144,
+          "ambiguous": false,
+          "relation_mention": "and Marche",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Tagliatelle",
+      "relation": "from",
+      "object": "Italy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "of Italy",
+          "line_start": 152,
+          "char_start": 164,
+          "ambiguous": false,
+          "relation_mention": "of Italy",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "tagliolini",
+      "relation": "from",
+      "object": "Italian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "from the Italian",
+          "line_start": 33,
+          "char_start": 45,
+          "ambiguous": false,
+          "relation_mention": "from the Italian",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Tagliatelle",
+      "relation": "similar_to",
+      "object": "fettuccine",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "similar in shape to fettuccine",
+          "line_start": 229,
+          "char_start": 241,
+          "ambiguous": false,
+          "relation_mention": "similar in shape to fettuccine",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tagliatelle",
+      "relation": "served_with",
+      "object": "Bolognese sauce",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "served with a variety of sauces, though the classic is a meat sauce or Bolognese sauce",
+          "line_start": 348,
+          "char_start": 360,
+          "ambiguous": false,
+          "relation_mention": "served with a variety of sauces, though the classic is a meat sauce or Bolognese sauce",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Tagliatelle",
+      "relation": "served_with",
+      "object": "meat sauce",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "served with a variety of sauces, though the classic is a meat sauce or Bolognese sauce",
+          "line_start": 348,
+          "char_start": 360,
+          "ambiguous": false,
+          "relation_mention": "served with a variety of sauces, though the classic is a meat sauce or Bolognese sauce",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "tagliolini",
+      "relation": "variety_of",
+      "object": "Tagliatelle",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Tagliolini is another variety of tagliatelle",
+          "line_start": 436,
+          "char_start": 448,
+          "ambiguous": false,
+          "relation_mention": "Tagliolini is another variety of tagliatelle",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "tagliolini",
+        "has_shape",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Tagliatelle\nTagliatelle (] ) and tagliolini (from the Italian \"tagliare\", meaning \"to cut\") are a traditional type of pasta from Emilia-Romagna and Marche, regions of Italy. Individual pieces of \"tagliatelle\" are long, flat ribbons that are similar in shape to fettuccine and are typically about 6.5 mm to 10 mm (0.25 to 0.375 inch) wide. \"Tagliatelle\" can be served with a variety of sauces, though the classic is a meat sauce or Bolognese sauce. Tagliolini is another variety of tagliatelle that is long and cylindrical in shape, not long and flat."
+}

@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Kurt Gödel Society": "ORG",
+    "Vienna": "GPE",
+    "Austria": "GPE",
+    "Kurt Gödel": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Kurt Gödel Society",
+      "relation": "founded",
+      "object": "Vienna",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was founded in Vienna"
+        }
+      ]
+    },
+    {
+      "subject": "Kurt Gödel Society",
+      "relation": "named_after",
+      "object": "Kurt Gödel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in whose honour it was named"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kurt Gödel Society",
+        "founded",
+        "Austria"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Kurt Gödel Society\nThe Kurt Gödel Society was founded in Vienna, Austria in 1987. It is an international organization aimed at promoting research primarily on logic, philosophy and the history of mathematics, with special attention to connections with Kurt Gödel, in whose honour it was named."
+}

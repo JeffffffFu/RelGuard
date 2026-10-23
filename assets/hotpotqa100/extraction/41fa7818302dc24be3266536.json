@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Tobacconist": "ORG",
+    "tobacco shop": "ORG",
+    "smoke shop": "ORG",
+    "United Kingdom": "GPE",
+    "CONTOB": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "tobacco shop",
+      "relation": "alias_of",
+      "object": "Tobacconist",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also called a tobacco shop",
+          "line_start": 15,
+          "char_start": 27,
+          "ambiguous": false,
+          "relation_mention": "also called a tobacco shop",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "smoke shop",
+      "relation": "alias_of",
+      "object": "Tobacconist",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "or smoke shop",
+          "line_start": 42,
+          "char_start": 54,
+          "ambiguous": false,
+          "relation_mention": "or smoke shop",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "CONTOB",
+      "relation": "located_in",
+      "object": "United Kingdom",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "In UK retailing this sector is known as \"CONTOB\" (\"confectionery and tobacco\").",
+          "line_start": 965,
+          "char_start": 977,
+          "ambiguous": false,
+          "relation_mention": "In UK retailing this sector is known as \"CONTOB\" (\"confectionery and tobacco\").",
+          "sentence_id": 8
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "tobacco shop",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Tobacconist\nA tobacconist, also called a tobacco shop or smoke shop, is a retailer of tobacco products in various forms and the related accoutrements, such as pipes, lighters, matches, pipe cleaners, pipe tampers. More specialized retailers may sell ashtrays, humidification devices, hygrometers, humidors, cigar cutters, and more. Books and magazines, especially ones related to tobacco are commonly offered. Items irrelevant to tobacco such as puzzles, games, figurines, hip flasks, canes or other walking sticks, and candy are sometimes sold. In the USA, a tobacconist shop is traditionally represented by a wooden Indian positioned nearby. Most retailers of tobacco sell other types of product; today supermarkets, in many countries with a special counter, are usually the main sellers of the common brands of cigarette. In the United Kingdom, a common combination in small shops has been a newsagent selling newspapers and magazines, as well as confectionery and tobacco. In UK retailing this sector is known as \"CONTOB\" (\"confectionery and tobacco\")."
+}

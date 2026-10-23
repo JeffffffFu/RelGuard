@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Michael Govan": "PERSON",
+    "Los Angeles County Museum of Art": "ORG",
+    "Dia Art Foundation": "ORG",
+    "New York City": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Michael Govan",
+      "relation": "works_for",
+      "object": "Dia Art Foundation",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "worked as the director of",
+          "line_start": 115,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "worked as the director of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Michael Govan",
+        "works_for",
+        "Los Angeles County Museum of Art"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dia Art Foundation",
+        "located_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Michael Govan\nMichael Govan( born 1963) is the director of the Los Angeles County Museum of Art since 2006. Prior to this, Govan worked as the director of the Dia Art Foundation in New York City.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Michael Govan\", \"type\": \"PERSON\"},\n    {\"name\": \"Los Angeles County Museum of Art\", \"type\": \"ORG\"},\n    {\"name\": \"Dia Art Foundation\", \"type\": \"ORG\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Michael Govan\",\n      \"relation\": \"works_for\",\n      \"object\": \"Los Angeles County Museum of Art\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the director of\"}\n      ]\n    },\n    {\n      \"subject\": \"Michael Govan\",\n      \"relation\": \"works_for\",\n      \"object\": \"Dia Art Foundation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"worked as the director of\"}\n      ]\n    },\n    {\n      \"subject\": \"Dia Art Foundation\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    }\n  ]\n}"
+}

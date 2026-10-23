@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Jim": "comic book series",
+    "Jim Woodring": "cartoonist",
+    "Fantagraphics Books": "publisher",
+    "Gil Kane": "cartoonist",
+    "Gary Groth": "co-owner"
+  },
+  "triples": [
+    {
+      "subject": "Jim",
+      "relation": "created_by",
+      "object": "Jim Woodring",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Jim is a comic book series by Jim Woodring."
+        }
+      ]
+    },
+    {
+      "subject": "Jim",
+      "relation": "picked_up_by",
+      "object": "Fantagraphics Books",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was picked up by Fantagraphics Books in 1986"
+        }
+      ]
+    },
+    {
+      "subject": "Gil Kane",
+      "relation": "introduced",
+      "object": "Jim Woodring",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "after cartoonist Gil Kane introduced Woodring to Fantagraphics co-owner Gary Groth."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jim",
+        "began_in",
+        "1980"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fantagraphics Books",
+        "released",
+        "four magazine-sized black-and-white issues"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jim Volume II",
+        "began_in",
+        "1993"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jim Volume II",
+        "ran_until",
+        "1996"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jim (comics)\nJim is a comic book series by Jim Woodring. It began in 1980 as a self-published zine and was picked up by Fantagraphics Books in 1986 after cartoonist Gil Kane introduced Woodring to Fantagraphics co-owner Gary Groth. The publisher released four magazine-sized black-and-white issues starting in September 1987. A comic book-sized continuation, \"Jim Volume II\", with some color, began in 1993 and ran for six issues until 1996."
+}

@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Under the Cards": "WORK_OF_ART",
+    "André Cayatte": "PERSON",
+    "Madeleine Sologne": "PERSON",
+    "Serge Reggiani": "PERSON",
+    "Paul Meurisse": "PERSON",
+    "Stavisky Affair": "EVENT",
+    "René Moulaert": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Under the Cards",
+      "relation": "directed_by",
+      "object": "André Cayatte",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by André Cayatte"
+        }
+      ]
+    },
+    {
+      "subject": "Under the Cards",
+      "relation": "starring",
+      "object": "Madeleine Sologne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Madeleine Sologne"
+        }
+      ]
+    },
+    {
+      "subject": "Under the Cards",
+      "relation": "based_on",
+      "object": "Stavisky Affair",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "loosely based on the Stavisky Affair"
+        }
+      ]
+    },
+    {
+      "subject": "Under the Cards",
+      "relation": "designed_by",
+      "object": "René Moulaert",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "designed by the art director René Moulaert"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Under the Cards",
+        "starring",
+        "Serge Reggiani"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Under the Cards",
+        "starring",
+        "Paul Meurisse"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Under the Cards\nUnder the Cards (French: Le dessous des cartes) is a 1948 French crime film directed by André Cayatte and starring Madeleine Sologne, Serge Reggiani and Paul Meurisse. The story is loosely based on the Stavisky Affair of the 1930s. The film's sets were designed by the art director René Moulaert."
+}

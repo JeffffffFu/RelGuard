@@ -1,0 +1,136 @@
+{
+  "entities": {
+    "Collinsville City Hall": "building",
+    "Fire Station": "building",
+    "Collinsville": "city",
+    "Illinois": "state",
+    "Charles L. Oatman": "person",
+    "Civil War monument": "monument"
+  },
+  "triples": [
+    {
+      "subject": "Collinsville City Hall",
+      "relation": "first_dedicated_city_hall_of",
+      "object": "Collinsville",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Collinsville's first dedicated city hall"
+        }
+      ]
+    },
+    {
+      "subject": "Fire Station",
+      "relation": "built_next_to",
+      "object": "Collinsville City Hall",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "was built next to City Hall"
+        }
+      ]
+    },
+    {
+      "subject": "Fire Station",
+      "relation": "connected_to",
+      "object": "Collinsville City Hall",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "connected the two buildings"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Collinsville City Hall",
+        "located_at",
+        "125 Center St."
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fire Station",
+        "located_at",
+        "125 Center St."
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Collinsville City Hall",
+        "built_in",
+        "1885"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "government meetings",
+        "held_at",
+        "mayor's house"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Collinsville City Hall",
+        "created_debt",
+        "large debt"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "large debt",
+        "contributed_to",
+        "Charles L. Oatman's defeat"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fire Station",
+        "built_in",
+        "1910"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Civil War monument",
+        "dedicated_in",
+        "1926"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Civil War monument",
+        "originally_located_between",
+        "Collinsville City Hall and Fire Station"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Civil War monument",
+        "moved_to",
+        "current location"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fire Station",
+        "expanded_in",
+        "1956"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Collinsville City Hall and Fire Station\nThe Collinsville City Hall and Fire Station are two connected buildings located at 125 Center St. in Collinsville, Illinois. The Italianate City Hall was built in 1885. It was Collinsville's first dedicated city hall; prior to its completion, government meetings were held at the mayor's house. The new city hall, along with several other public works projects, created a large debt which contributed to mayor Charles L. Oatman's defeat in the next election. The Romanesque Revival fire station was built next to City Hall in 1910. Additions in 1972 and 1994 connected the two buildings. A Civil War monument on the southeast corner the property was dedicated in 1926; while it was originally located between the two buildings, it moved to its current location when the fire station expanded in 1956."
+}

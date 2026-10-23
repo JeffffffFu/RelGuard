@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Matilda Lutz": "PERSON",
+    "Matilda Anna Ingrid Lutz": "PERSON",
+    "Italian": "NORP",
+    "Rings": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Matilda Anna Ingrid Lutz",
+      "relation": "starred_in",
+      "object": "Rings",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starred in",
+          "line_start": 86,
+          "char_start": 99,
+          "ambiguous": false,
+          "relation_mention": "starred in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Matilda Anna Ingrid Lutz",
+        "is_a",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Matilda Lutz",
+        "same_as",
+        "Matilda Anna Ingrid Lutz"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Matilda Lutz\nMatilda Anna Ingrid Lutz (born January 28, 1991) is an Italian model and actress. She starred in the 2017 horror film \"Rings\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Matilda Lutz\", \"type\": \"PERSON\"},\n    {\"name\": \"Matilda Anna Ingrid Lutz\", \"type\": \"PERSON\"},\n    {\"name\": \"Italian\", \"type\": \"NORP\"},\n    {\"name\": \"Rings\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Matilda Anna Ingrid Lutz\",\n      \"relation\": \"born_on\",\n      \"object\": \"Matilda Anna Ingrid Lutz\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Matilda Anna Ingrid Lutz\",\n      \"relation\": \"is_a\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an\"}\n      ]\n    },\n    {\n      \"subject\": \"Matilda Anna Ingrid Lutz\",\n      \"relation\": \"starred_in\",\n      \"object\": \"Rings\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starred in\"}\n      ]\n    },\n    {\n      \"subject\": \"Matilda Lutz\",\n      \"relation\": \"same_as\",\n      \"object\": \"Matilda Anna Ingrid Lutz\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Matilda Lutz\"}\n      ]\n    }\n  ]\n}"
+}

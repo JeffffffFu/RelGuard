@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Hartley W Lobban": "PERSON",
+    "Worcestershire": "ORG",
+    "cricketer": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Jamaica (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Hartley W Lobban",
+        "born_in",
+        "Jamaica"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hartley W Lobban",
+        "works_as",
+        "cricketer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hartley W Lobban",
+        "played_for",
+        "Worcestershire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Hartley Lobban\nHartley W Lobban (9 May 1926 – 15 October 2004) was a Jamaican-born first-class cricketer who played 17 matches for Worcestershire in the early 1950s.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Hartley W Lobban\", \"type\": \"PERSON\"},\n    {\"name\": \"Jamaica\", \"type\": \"GPE\"},\n    {\"name\": \"Worcestershire\", \"type\": \"ORG\"},\n    {\"name\": \"cricketer\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Hartley W Lobban\",\n      \"relation\": \"born_in\",\n      \"object\": \"Jamaica\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Jamaican-born\"}\n      ]\n    },\n    {\n      \"subject\": \"Hartley W Lobban\",\n      \"relation\": \"works_as\",\n      \"object\": \"cricketer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a Jamaican-born first-class cricketer\"}\n      ]\n    },\n    {\n      \"subject\": \"Hartley W Lobban\",\n      \"relation\": \"played_for\",\n      \"object\": \"Worcestershire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played 17 matches for Worcestershire\"}\n      ]\n    }\n  ]\n}"
+}

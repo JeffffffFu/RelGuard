@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Royal Tramp II": "WORK_OF_ART",
+    "Hong Kong": "GPE",
+    "Louis Cha": "PERSON",
+    "The Deer and the Cauldron": "WORK_OF_ART",
+    "Royal Tramp": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Royal Tramp II",
+      "relation": "based_on",
+      "object": "The Deer and the Cauldron",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on Louis Cha's novel\" The Deer and the Cauldron\""
+        }
+      ]
+    },
+    {
+      "subject": "Royal Tramp II",
+      "relation": "released_in",
+      "object": "Hong Kong",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a 1992 Hong Kong film"
+        }
+      ]
+    },
+    {
+      "subject": "Royal Tramp II",
+      "relation": "sequel_to",
+      "object": "Royal Tramp",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film is a sequel to\" Royal Tramp\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Royal Tramp",
+        "released_in",
+        "1992"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Royal Tramp II\nRoyal Tramp II is a 1992 Hong Kong film based on Louis Cha's novel\" The Deer and the Cauldron\". The film is a sequel to\" Royal Tramp\", which was released earlier in the same year."
+}

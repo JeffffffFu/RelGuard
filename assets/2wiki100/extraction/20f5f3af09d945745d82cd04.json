@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Hardcase": "WORK_OF_ART",
+    "John Llewellyn Moxey": "PERSON",
+    "Clint Walker": "PERSON",
+    "Stefanie Powers": "PERSON",
+    "Hanna-Barbera": "ORG",
+    "ABC Movie of the Week": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Hardcase",
+      "relation": "directed_by",
+      "object": "John Llewellyn Moxey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by John Llewellyn Moxey"
+        }
+      ]
+    },
+    {
+      "subject": "Hardcase",
+      "relation": "starring",
+      "object": "Clint Walker",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Clint Walker"
+        }
+      ]
+    },
+    {
+      "subject": "Hardcase",
+      "relation": "produced_by",
+      "object": "Hanna-Barbera",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of the Hanna-Barbera studios"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hardcase",
+        "starring",
+        "Stefanie Powers"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hardcase",
+        "appeared_on",
+        "ABC Movie of the Week"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Hardcase (1972 film)\nHardcase is a 1972 American made-for-television Western film directed by John Llewellyn Moxey and starring Clint Walker and Stefanie Powers. It was the first fully live-action feature film of the Hanna-Barbera studios. The movie appeared on the \"ABC Movie of the Week\" on February 1, 1972 where it was a ratings surprise; becoming the seventh most popular show of the week."
+}

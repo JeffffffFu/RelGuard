@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Bu Xiaolin": "PERSON",
+    "Inner Mongolia Autonomous Region": "ORG",
+    "Buhe": "PERSON",
+    "Ulanhu": "PERSON",
+    "China": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Bu Xiaolin",
+      "relation": "served_as",
+      "object": "Inner Mongolia Autonomous Region",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "served as Chairwoman (governor) of Inner Mongolia Autonomous Region since March 2016"
+        }
+      ]
+    },
+    {
+      "subject": "Bu Xiaolin",
+      "relation": "daughter_of",
+      "object": "Buhe",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "She is the daughter of Buhe"
+        }
+      ]
+    },
+    {
+      "subject": "Ulanhu",
+      "relation": "vice_president_of",
+      "object": "China",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a vice-president of China"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Buhe",
+        "chairman_of",
+        "Inner Mongolia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ulanhu",
+        "founding_chairman_of",
+        "Inner Mongolia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bu Xiaolin\nBu Xiaolin (; born August 1958) is a Chinese politician of Mongol descent. She has served as Chairwoman (governor) of Inner Mongolia Autonomous Region since March 2016. She is the daughter of Buhe, a former chairman of Inner Mongolia, and the granddaughter of Ulanhu, the founding chairman of Inner Mongolia and a vice-president of China."
+}

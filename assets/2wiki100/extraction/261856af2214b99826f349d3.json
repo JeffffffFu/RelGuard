@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Zoran Švonja": "Person",
+    "Goran Švonja": "Person",
+    "Lokomotiv Sofia": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Zoran Švonja",
+      "relation": "plays_for",
+      "object": "Lokomotiv Sofia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "plays for Bulgarian club Lokomotiv Sofia"
+        }
+      ]
+    },
+    {
+      "subject": "Zoran Švonja",
+      "relation": "younger_brother_of",
+      "object": "Goran Švonja",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "younger brother of Goran Švonja"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Zoran Švonja",
+        "born_on",
+        "4 October 1995"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Zoran Švonja\nZoran Švonja( born 4 October 1995) is a Serbian football midfielder who plays for Bulgarian club Lokomotiv Sofia. He is younger brother of Goran Švonja."
+}

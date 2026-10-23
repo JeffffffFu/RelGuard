@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "People's Prize": "award",
+    "People's Prize Awarding Commission": "organization",
+    "Cabinet of North Korea": "government",
+    "North Korea": "country",
+    "North Korean cinema": "field"
+  },
+  "triples": [
+    {
+      "subject": "People's Prize",
+      "relation": "awarded_by",
+      "object": "People's Prize Awarding Commission",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is awarded by the People's Prize Awarding Commission"
+        }
+      ]
+    },
+    {
+      "subject": "People's Prize Awarding Commission",
+      "relation": "working_under",
+      "object": "Cabinet of North Korea",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which is working directly under the Cabinet of North Korea"
+        }
+      ]
+    },
+    {
+      "subject": "People's Prize",
+      "relation": "important_in",
+      "object": "North Korean cinema",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "People's Prize has been an important award in the field of North Korean cinema"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "People's Prize",
+        "granted_to",
+        "works of art or people"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "People's Prize\nThe People's Prize (Korean: 인민상 ) is a North Korean arts and sciences award. It is awarded by the People's Prize Awarding Commission, which is working directly under the Cabinet of North Korea. The prize can be granted to works of art or people. People's Prize has been an important award in the field of North Korean cinema."
+}

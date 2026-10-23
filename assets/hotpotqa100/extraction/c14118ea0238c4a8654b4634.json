@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Ubuhake": "WORK_OF_ART",
+    "Rwanda": "GPE",
+    "Burundi": "GPE",
+    "European feudalism": "EVENT",
+    "Tutsi": "NORP",
+    "uburetwa": "WORK_OF_ART",
+    "igikingi": "WORK_OF_ART",
+    "Northwest of Rwanda": "LOC",
+    "Hutu": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Ubuhake",
+      "relation": "compared_to",
+      "object": "European feudalism",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "compared to",
+          "line_start": 136,
+          "char_start": 144,
+          "ambiguous": false,
+          "relation_mention": "compared to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Hutu",
+      "relation": "refused_to_submit",
+      "object": "igikingi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "refused to submit",
+          "line_start": 558,
+          "char_start": 566,
+          "ambiguous": false,
+          "relation_mention": "refused to submit",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ubuhake",
+        "located_in",
+        "Rwanda"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ubuhake",
+        "located_in",
+        "Burundi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "uburetwa",
+        "located_in",
+        "Rwanda"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tutsi",
+        "used",
+        "uburetwa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tutsi",
+        "founded",
+        "igikingi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "igikingi",
+        "located_in",
+        "Rwanda"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Northwest of Rwanda",
+        "not_part_of",
+        "igikingi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Ubuhake\nUbuhake is the name given to the social order in Rwanda and Burundi from approximately the 15th century to 1958. It has been frequently compared to European feudalism. Based on cattle distribution, it was, however, a much smaller system than the one of \"uburetwa,\" which affected a much larger segment of the population and was based on land distribution. The Tutsi monarchy used the land distribution system of \"uburetwa\" to centralise control of the lands in most of Rwanda in a system called igikingi. Only the northwest of Rwanda, where Hutu land owners refused to submit, were not part of igikingi.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Ubuhake\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Rwanda\", \"type\": \"GPE\"},\n    {\"name\": \"Burundi\", \"type\": \"GPE\"},\n    {\"name\": \"European feudalism\", \"type\": \"EVENT\"},\n    {\"name\": \"Tutsi\", \"type\": \"NORP\"},\n    {\"name\": \"uburetwa\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"igikingi\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Northwest of Rwanda\", \"type\": \"LOC\"},\n    {\"name\": \"Hutu\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Ubuhake\",\n      \"relation\": \"located_in\",\n      \"object\": \"Rwanda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Rwanda\"}\n      ]\n    },\n    {\n      \"subject\": \"Ubuhake\",\n      \"relation\": \"located_in\",\n      \"object\": \"Burundi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Burundi\"}\n      ]\n    },\n    {\n      \"subject\": \"Ubuhake\",\n      \"relation\": \"compared_to\",\n      \"object\": \"European feudalism\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"compared to\"}\n      ]\n    },\n    {\n      \"subject\": \"uburetwa\",\n      \"relation\": \"located_in\",\n      \"object\": \"Rwanda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the one of \\\"uburetwa,\\\" which affected a much larger segment of the population and was based on land distribution. The Tutsi monarchy used the land distribution system of \\\"uburetwa\\\" to centralise control of the lands in most of Rwanda\"}\n      ]\n    },\n    {\n      \"subject\": \"Tutsi\",\n      \"relation\": \"used\",\n      \"object\": \"uburetwa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"used the land distribution system of \\\"uburetwa\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Tutsi\",\n      \"relation\": \"founded\",\n      \"object\": \"igikingi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in a system called igikingi\"}\n      ]\n    },\n    {\n      \"subject\": \"igikingi\",\n      \"relation\": \"located_in\",\n      \"object\": \"Rwanda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in most of Rwanda\"}\n      ]\n    },\n    {\n      \"subject\": \"Northwest of Rwanda\",\n      \"relation\": \"not_part_of\",\n      \"object\": \"igikingi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were not part of igikingi\"}\n      ]\n    },\n    {\n      \"subject\": \"Hutu\",\n      \"relation\": \"refused_to_submit\",\n      \"object\": \"igikingi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"refused to submit\"}\n      ]\n    }\n  ]\n}"
+}

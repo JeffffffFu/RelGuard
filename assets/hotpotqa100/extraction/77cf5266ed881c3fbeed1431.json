@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Curtis Carlson": "PERSON",
+    "SRI International": "ORG",
+    "Steve Jobs": "PERSON",
+    "Apple": "ORG",
+    "Siri": "PRODUCT",
+    "Mayfield Ventures": "ORG",
+    "David Ladd": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Curtis Carlson",
+      "relation": "was_ceo_of",
+      "object": "SRI International",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was president and CEO of SRI International"
+        }
+      ]
+    },
+    {
+      "subject": "SRI International",
+      "relation": "founded",
+      "object": "Siri",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "such as through Siri, an SRI spin-off company"
+        }
+      ]
+    },
+    {
+      "subject": "Steve Jobs",
+      "relation": "bought",
+      "object": "Siri",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was bought by Steve Jobs at Apple"
+        }
+      ]
+    },
+    {
+      "subject": "Curtis Carlson",
+      "relation": "worked_with",
+      "object": "David Ladd",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Mayfield Ventures partner, David Ladd, said"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "SRI International",
+        "is_best_enterprise_at",
+        "economic_value"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Curtis Carlson\nCurtis Raymond Carlson (born May 22, 1945) was president and CEO of SRI International from 1998 to 2014 and is a prominent technologist and pioneer in developing and using innovation best practices. While CEO of SRI International, revenue tripled to $550 million per year and tens of billions of dollars of new marketplace value was created, such as through Siri, an SRI spin-off company that was bought by Steve Jobs at Apple. While Carlson was CEO Mayfield Ventures partner, David Ladd, said, “SRI is now the best enterprise at turning its technology into economic value.”"
+}

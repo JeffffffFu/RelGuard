@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "Eduard von Lewinski": "PERSON",
+    "Münster": "GPE",
+    "Province of Westphalia": "GPE",
+    "Danish-Prussian War": "EVENT",
+    "1st Guard fortress company": "ORG",
+    "First Army division": "ORG",
+    "Lewinski": "PERSON",
+    "general staff": "ORG",
+    "Franco-Prussian War": "EVENT",
+    "quartermaster corps of the South Army": "ORG",
+    "9th Army corps": "ORG",
+    "South Army's 24th artillery regiment": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Eduard von Lewinski",
+      "relation": "born_in",
+      "object": "Münster",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born in",
+          "line_start": 13,
+          "char_start": 33,
+          "ambiguous": false,
+          "relation_mention": "was born in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Eduard von Lewinski",
+      "relation": "served_in",
+      "object": "Danish-Prussian War",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "served in",
+          "line_start": 67,
+          "char_start": 87,
+          "ambiguous": true,
+          "relation_mention": "served in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Münster",
+        "located_in",
+        "Province of Westphalia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eduard von Lewinski",
+        "was_a_of",
+        "1st Guard fortress company"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eduard von Lewinski",
+        "assigned_as",
+        "staff officer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eduard von Lewinski",
+        "assigned_to",
+        "First Army division"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lewinski",
+        "promoted_to",
+        "major on the general staff"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eduard von Lewinski",
+        "served_in",
+        "Franco-Prussian War"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eduard von Lewinski",
+        "served_on_staff_of",
+        "First Army division"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eduard von Lewinski",
+        "commanded",
+        "quartermaster corps of the South Army"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eduard von Lewinski",
+        "became_commander_of",
+        "general staff"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "general staff",
+        "of_which",
+        "9th Army corps"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eduard von Lewinski",
+        "assumed_command_of",
+        "South Army's 24th artillery regiment"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Eduard von Lewinski\nVon Lewinski was born in Münster in the Province of Westphalia. He served in the 1864 Danish-Prussian War as a captain of the 1st Guard fortress company. In the 1866 German war he was assigned as a staff officer to the First Army division. In 1867 Lewinski was promoted to major on the general staff. He later served in the Franco-Prussian War of 1870, first on the staff of the First Army division and later commanding the quartermaster corps of the South Army. In 1871 he became commander of the general staff of the 9th Army corps. In 1872 he was promoted to lieutenant colonel and assumed command of the South Army's 24th artillery regiment.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Eduard von Lewinski\", \"type\": \"PERSON\"},\n    {\"name\": \"Münster\", \"type\": \"GPE\"},\n    {\"name\": \"Province of Westphalia\", \"type\": \"GPE\"},\n    {\"name\": \"Danish-Prussian War\", \"type\": \"EVENT\"},\n    {\"name\": \"1st Guard fortress company\", \"type\": \"ORG\"},\n    {\"name\": \"First Army division\", \"type\": \"ORG\"},\n    {\"name\": \"Lewinski\", \"type\": \"PERSON\"},\n    {\"name\": \"general staff\", \"type\": \"ORG\"},\n    {\"name\": \"Franco-Prussian War\", \"type\": \"EVENT\"},\n    {\"name\": \"quartermaster corps of the South Army\", \"type\": \"ORG\"},\n    {\"name\": \"9th Army corps\", \"type\": \"ORG\"},\n    {\"name\": \"South Army's 24th artillery regiment\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Eduard von Lewinski\",\n      \"relation\": \"born_in\",\n      \"object\": \"Münster\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Münster\",\n      \"relation\": \"located_in\",\n      \"object\": \"Province of Westphalia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Eduard von Lewinski\",\n      \"relation\": \"served_in\",\n      \"object\": \"Danish-Prussian War\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served in\"}\n      ]\n    },\n    {\n      \"subject\": \"Eduard von Lewinski\",\n      \"relation\": \"was_a_of\",\n      \"object\": \"1st Guard fortress company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as a captain of the 1st Guard fortress company\"}\n      ]\n    },\n    {\n      \"subject\": \"Eduard von Lewinski\",\n      \"relation\": \"assigned_as\",\n      \"object\": \"staff officer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was assigned as a staff officer to the First Army division\"}\n      ]\n    },\n    {\n      \"subject\": \"Eduard von Lewinski\",\n      \"relation\": \"assigned_to\",\n      \"object\": \"First Army division\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to the First Army division\"}\n      ]\n    },\n    {\n      \"subject\": \"Lewinski\",\n      \"relation\": \"promoted_to\",\n      \"object\": \"major on the general staff\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was promoted to major on the general staff\"}\n      ]\n    },\n    {\n      \"subject\": \"Eduard von Lewinski\",\n      \"relation\": \"served_in\",\n      \"object\": \"Franco-Prussian War\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served in the Franco-Prussian War\"}\n      ]\n    },\n    {\n      \"subject\": \"Eduard von Lewinski\",\n      \"relation\": \"served_on_staff_of\",\n      \"object\": \"First Army division\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the staff of the First Army division\"}\n      ]\n    },\n    {\n      \"subject\": \"Eduard von Lewinski\",\n      \"relation\": \"commanded\",\n      \"object\": \"quartermaster corps of the South Army\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"commanding the quartermaster corps of the South Army\"}\n      ]\n    },\n    {\n      \"subject\": \"Eduard von Lewinski\",\n      \"relation\": \"became_commander_of\",\n      \"object\": \"general staff\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became commander of the general staff of the 9th Army corps\"}\n      ]\n    },\n    {\n      \"subject\": \"general staff\",\n      \"relation\": \"of_which\",\n      \"object\": \"9th Army corps\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the 9th Army corps\"}\n      ]\n    },\n    {\n      \"subject\": \"Eduard von Lewinski\",\n      \"relation\": \"assumed_command_of\",\n      \"object\": \"South Army's 24th artillery regiment\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"assumed command of the South Army's 24th artillery regiment\"}\n      ]\n    }\n  ]\n}"
+}

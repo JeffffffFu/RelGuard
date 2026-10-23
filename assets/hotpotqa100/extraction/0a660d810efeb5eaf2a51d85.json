@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Bill's Best Friend": "WORK_OF_ART",
+    "Bill Cosby": "PERSON",
+    "Himself": "WORK_OF_ART",
+    "Fat Albert": "WORK_OF_ART",
+    "Charlie Waynes": "PERSON",
+    "1941 Mercury": "PRODUCT",
+    "1942 DeSoto": "PRODUCT",
+    "Capitol Records": "ORG",
+    "Australia": "GPE",
+    "The Bill Cosby Collection": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Bill's Best Friend",
+      "relation": "material_recycled_in",
+      "object": "Himself",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was recycled in",
+          "line_start": 80,
+          "char_start": 99,
+          "ambiguous": false,
+          "relation_mention": "was recycled in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bill's Best Friend",
+        "is_work_by",
+        "Bill Cosby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "car with the airplane engine",
+        "previously_attributed_to",
+        "Fat Albert"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "owner",
+        "referred_to_as",
+        "Charlie Waynes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "car in the Fat Albert sketch",
+        "was",
+        "1941 Mercury"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "car on this album",
+        "is",
+        "1942 DeSoto"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "This album",
+        "and_previous_album_repackaged_in",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "This album",
+        "repackaged_as",
+        "The Bill Cosby Collection"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "previous Capitol Records album",
+        "works_for",
+        "Capitol Records"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bill's Best Friend\nBill's Best Friend is the 17th comedy album by Bill Cosby. Much of the material was recycled in the film and accompanying album \"Himself\". The story of the car with the airplane engine was previously attributed to Fat Albert, while on this album the owner is referred to as \"Charlie Waynes\". The car in the Fat Albert sketch was a 1941 Mercury. The car on this album is a 1942 DeSoto. This album and his previous Capitol Records album were repackaged in Australia as a two-CD set in 1992 called \"The Bill Cosby Collection\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bill's Best Friend\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Bill Cosby\", \"type\": \"PERSON\"},\n    {\"name\": \"Himself\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Fat Albert\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Charlie Waynes\", \"type\": \"PERSON\"},\n    {\"name\": \"1941 Mercury\", \"type\": \"PRODUCT\"},\n    {\"name\": \"1942 DeSoto\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Capitol Records\", \"type\": \"ORG\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"},\n    {\"name\": \"The Bill Cosby Collection\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bill's Best Friend\",\n      \"relation\": \"is_work_by\",\n      \"object\": \"Bill Cosby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the 17th comedy album by\"}\n      ]\n    },\n    {\n      \"subject\": \"Bill's Best Friend\",\n      \"relation\": \"material_recycled_in\",\n      \"object\": \"Himself\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was recycled in\"}\n      ]\n    },\n    {\n      \"subject\": \"car with the airplane engine\",\n      \"relation\": \"previously_attributed_to\",\n      \"object\": \"Fat Albert\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"was previously attributed to\"}\n      ]\n    },\n    {\n      \"subject\": \"owner\",\n      \"relation\": \"referred_to_as\",\n      \"object\": \"Charlie Waynes\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"is referred to as\"}\n      ]\n    },\n    {\n      \"subject\": \"car in the Fat Albert sketch\",\n      \"relation\": \"was\",\n      \"object\": \"1941 Mercury\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"was a\"}\n      ]\n    },\n    {\n      \"subject\": \"car on this album\",\n      \"relation\": \"is\",\n      \"object\": \"1942 DeSoto\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"is a\"}\n      ]\n    },\n    {\n      \"subject\": \"This album\",\n      \"relation\": \"and_previous_album_repackaged_in\",\n      \"object\": \"Australia\",\n      \"occurrences\": [\n        {\"line\": 6, \"predicate\": \"were repackaged in\"}\n      ]\n    },\n    {\n      \"subject\": \"This album\",\n      \"relation\": \"repackaged_as\",\n      \"object\": \"The Bill Cosby Collection\",\n      \"occurrences\": [\n        {\"line\": 6, \"predicate\": \"called\"}\n      ]\n    },\n    {\n      \"subject\": \"previous Capitol Records album\",\n      \"relation\": \"works_for\",\n      \"object\": \"Capitol Records\",\n      \"occurrences\": [\n        {\"line\": 6, \"predicate\": \"Capitol Records\"}\n      ]\n    }\n  ]\n}"
+}

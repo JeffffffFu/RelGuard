@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Lord of the Fries": "game",
+    "James Ernest": "person",
+    "Cheapass Games": "company",
+    "Steve Jackson Games": "company"
+  },
+  "triples": [
+    {
+      "subject": "Lord of the Fries",
+      "relation": "created_by",
+      "object": "James Ernest",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "created by James Ernest"
+        }
+      ]
+    },
+    {
+      "subject": "Lord of the Fries",
+      "relation": "published_by",
+      "object": "Cheapass Games",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "published by Cheapass Games"
+        }
+      ]
+    },
+    {
+      "subject": "Steve Jackson Games",
+      "relation": "released",
+      "object": "Lord of the Fries",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Steve Jackson Games released a new edition"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lord of the Fries",
+        "published_by",
+        "Steve Jackson Games"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Lord of the Fries\nLord of the Fries is a card game created by James Ernest and published by Cheapass Games and Steve Jackson Games. In 2008 Steve Jackson Games released a new edition with revised game components."
+}

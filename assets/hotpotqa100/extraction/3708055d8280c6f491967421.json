@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Stewart Stacks": "Geographical Feature",
+    "Rugged Island": "Geographical Feature",
+    "Astor Island": "Geographical Feature",
+    "Osogovo Bay": "Geographical Feature",
+    "Livingston Island": "Geographical Feature",
+    "South Shetland Islands": "Geographical Feature",
+    "Antarctica": "Geographical Feature"
+  },
+  "triples": [
+    {
+      "subject": "Stewart Stacks",
+      "relation": "located_between",
+      "object": "Rugged Island",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "lying between Rugged Island and Astor Island"
+        }
+      ]
+    },
+    {
+      "subject": "Stewart Stacks",
+      "relation": "located_between",
+      "object": "Astor Island",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "lying between Rugged Island and Astor Island"
+        }
+      ]
+    },
+    {
+      "subject": "Stewart Stacks",
+      "relation": "located_in",
+      "object": "Osogovo Bay",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the northeast of Osogovo Bay"
+        }
+      ]
+    },
+    {
+      "subject": "Stewart Stacks",
+      "relation": "located_in",
+      "object": "Livingston Island",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "western Livingston Island"
+        }
+      ]
+    },
+    {
+      "subject": "Livingston Island",
+      "relation": "located_in",
+      "object": "South Shetland Islands",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the South Shetland Islands"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "South Shetland Islands",
+        "located_in",
+        "Antarctica"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Stewart Stacks\nStewart Stacks is a group of prominent sea stacks, one of them rising to 25 m, lying between Rugged Island and Astor Island in the northeast of Osogovo Bay, western Livingston Island in the South Shetland Islands, Antarctica. The area was visited by early 19th century sealers."
+}

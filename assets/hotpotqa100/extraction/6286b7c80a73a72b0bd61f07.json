@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Qionghai": "GPE",
+    "Hainan": "GPE",
+    "China": "GPE",
+    "Qionghai City": "GPE",
+    "Wanquan River": "LOC",
+    "Haikou": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Qionghai",
+        "located_in",
+        "Hainan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Qionghai",
+        "located_in",
+        "China"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Qionghai City",
+        "located_in",
+        "Qionghai"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Qionghai City",
+        "located_in",
+        "Wanquan River"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Qionghai City",
+        "located_in",
+        "Haikou"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Qionghai\nQionghai () is one of the seven county-level cities of Hainan province, China. Although called a \"city\", Qionghai refers to a large land area in Hainan - an area which was once a county. Within this area is the main city, Qionghai City. It is located in the east of the island at the mouth of the Wanquan River, 86 km from the provincial capital of Haikou. It has an area of 1692 km2 and in 2010, it had a population of 483,217.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Qionghai\", \"type\": \"GPE\"},\n    {\"name\": \"Hainan\", \"type\": \"GPE\"},\n    {\"name\": \"China\", \"type\": \"GPE\"},\n    {\"name\": \"Qionghai City\", \"type\": \"GPE\"},\n    {\"name\": \"Wanquan River\", \"type\": \"LOC\"},\n    {\"name\": \"Haikou\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Qionghai\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hainan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Hainan province\"}\n      ]\n    },\n    {\n      \"subject\": \"Qionghai\",\n      \"relation\": \"located_in\",\n      \"object\": \"China\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Hainan province, China\"}\n      ]\n    },\n    {\n      \"subject\": \"Qionghai City\",\n      \"relation\": \"located_in\",\n      \"object\": \"Qionghai\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Within this area is the main city\"}\n      ]\n    },\n    {\n      \"subject\": \"Qionghai City\",\n      \"relation\": \"located_in\",\n      \"object\": \"Wanquan River\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the mouth of the Wanquan River\"}\n      ]\n    },\n    {\n      \"subject\": \"Qionghai City\",\n      \"relation\": \"located_in\",\n      \"object\": \"Haikou\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"86 km from the provincial capital of Haikou\"}\n      ]\n    }\n  ]\n}"
+}

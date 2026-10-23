@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "La Yuma": "WORK_OF_ART",
+    "2009": "EVENT",
+    "Florence Jaugey": "PERSON",
+    "Nicaraguan": "NORP",
+    "Best Foreign Language Film": "WORK_OF_ART",
+    "83rd Academy Awards": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "La Yuma",
+      "relation": "directed_by",
+      "object": "Florence Jaugey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 40,
+          "char_start": 48,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Nicaragua (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "La Yuma",
+        "located_in",
+        "Nicaragua"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "La Yuma",
+        "was_selected_as",
+        "Nicaraguan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "La Yuma",
+        "was_selected_for",
+        "Best Foreign Language Film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "La Yuma",
+        "was_selected_for",
+        "83rd Academy Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "La Yuma\nLa Yuma is a 2009 Nicaraguan drama film directed by Florence Jaugey. The film was selected as the Nicaraguan entry for the Best Foreign Language Film at the 83rd Academy Awards, but did not make the final shortlist.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"La Yuma\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"2009\", \"type\": \"EVENT\"},\n    {\"name\": \"Nicaragua\", \"type\": \"GPE\"},\n    {\"name\": \"Florence Jaugey\", \"type\": \"PERSON\"},\n    {\"name\": \"Nicaraguan\", \"type\": \"NORP\"},\n    {\"name\": \"Best Foreign Language Film\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"83rd Academy Awards\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"La Yuma\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Florence Jaugey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"La Yuma\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nicaragua\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Nicaraguan\"}\n      ]\n    },\n    {\n      \"subject\": \"La Yuma\",\n      \"relation\": \"was_selected_as\",\n      \"object\": \"Nicaraguan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"selected as the Nicaraguan entry for the Best Foreign Language Film at the 83rd Academy Awards\"}\n      ]\n    },\n    {\n      \"subject\": \"La Yuma\",\n      \"relation\": \"was_selected_for\",\n      \"object\": \"Best Foreign Language Film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"selected as the Nicaraguan entry for the Best Foreign Language Film at the 83rd Academy Awards\"}\n      ]\n    },\n    {\n      \"subject\": \"La Yuma\",\n      \"relation\": \"was_selected_for\",\n      \"object\": \"83rd Academy Awards\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"selected as the Nicaraguan entry for the Best Foreign Language Film at the 83rd Academy Awards\"}\n      ]\n    }\n  ]\n}"
+}

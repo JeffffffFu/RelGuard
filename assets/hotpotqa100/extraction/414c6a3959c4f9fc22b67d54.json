@@ -1,0 +1,121 @@
+{
+  "entities": {
+    "Tosca": "opera",
+    "Giacomo Puccini": "composer",
+    "Luigi Illica": "librettist",
+    "Giuseppe Giacosa": "librettist",
+    "Teatro Costanzi": "theater",
+    "Rome": "location",
+    "Victorien Sardou": "playwright",
+    "La Tosca": "play",
+    "Kingdom of Naples": "kingdom",
+    "Napoleon": "historical_figure",
+    "Italy": "country"
+  },
+  "triples": [
+    {
+      "subject": "Tosca",
+      "relation": "is_an_opera",
+      "object": "Giacomo Puccini",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Tosca (] ) is an opera in three acts by Giacomo Puccini"
+        }
+      ]
+    },
+    {
+      "subject": "Tosca",
+      "relation": "has_libretto_by",
+      "object": "Luigi Illica",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to an Italian libretto by Luigi Illica"
+        }
+      ]
+    },
+    {
+      "subject": "Tosca",
+      "relation": "premiered_at",
+      "object": "Teatro Costanzi",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It premiered at the Teatro Costanzi"
+        }
+      ]
+    },
+    {
+      "subject": "Tosca",
+      "relation": "is_set_in",
+      "object": "Rome",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "is a melodramatic piece set in Rome"
+        }
+      ]
+    },
+    {
+      "subject": "Rome",
+      "relation": "is_controlled_by",
+      "object": "Kingdom of Naples",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "with the Kingdom of Naples's control of Rome threatened"
+        }
+      ]
+    },
+    {
+      "subject": "Napoleon",
+      "relation": "threatened",
+      "object": "Rome",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "threatened by Napoleon's invasion of Italy"
+        }
+      ]
+    },
+    {
+      "subject": "Napoleon",
+      "relation": "invaded",
+      "object": "Italy",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "threatened by Napoleon's invasion of Italy"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tosca",
+        "has_libretto_by",
+        "Giuseppe Giacosa"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tosca",
+        "is_based_on",
+        "La Tosca"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "La Tosca",
+        "was_written_by",
+        "Victorien Sardou"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Tosca\nTosca (] ) is an opera in three acts by Giacomo Puccini to an Italian libretto by Luigi Illica and Giuseppe Giacosa. It premiered at the Teatro Costanzi in Rome on 14 January 1900. The work, based on Victorien Sardou's 1887 French-language dramatic play, \"La Tosca\", is a melodramatic piece set in Rome in June 1800, with the Kingdom of Naples's control of Rome threatened by Napoleon's invasion of Italy. It contains depictions of torture, murder and suicide, as well as some of Puccini's best-known lyrical arias."
+}

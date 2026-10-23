@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "The Daou": "ORG",
+    "Peter Daou": "PERSON",
+    "Vanessa Daou": "PERSON",
+    "Mike Caro": "PERSON",
+    "Leon Dorsey": "PERSON",
+    "Anthony Johnson": "PERSON",
+    "Head Music": "WORK_OF_ART",
+    "Surrender Yourself": "WORK_OF_ART",
+    "U.S.": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "The Daou",
+      "relation": "composed_of",
+      "object": "Peter Daou",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "composed of Peter Daou (keyboards)"
+        }
+      ]
+    },
+    {
+      "subject": "The Daou",
+      "relation": "released",
+      "object": "Head Music",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Their only album \"Head Music\" was released in 1992"
+        }
+      ]
+    },
+    {
+      "subject": "Head Music",
+      "relation": "has_single",
+      "object": "Surrender Yourself",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "its debut single \"Surrender Yourself\""
+        }
+      ]
+    },
+    {
+      "subject": "Surrender Yourself",
+      "relation": "ranked_on_chart",
+      "object": "U.S.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "rising to number one on the U.S. Hot Dance Club Play chart"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Daou",
+        "composed_of",
+        "Vanessa Daou"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Daou",
+        "composed_of",
+        "Mike Caro"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Daou",
+        "composed_of",
+        "Leon Dorsey"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Daou",
+        "composed_of",
+        "Anthony Johnson"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Daou\nThe Daou were a New York-based dance music quintet composed of Peter Daou (keyboards), Vanessa Daou (vocals), Mike Caro (guitar), Leon Dorsey (bass), and former 24-7 Spyz member Anthony Johnson (drums). Their only album \"Head Music\" was released in 1992, with its debut single \"Surrender Yourself\" rising to number one on the U.S. Hot Dance Club Play chart, where it remained for 11 weeks."
+}

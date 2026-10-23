@@ -1,0 +1,101 @@
+{
+  "entities": {
+    "Bashneft": "ORG",
+    "Russian": "NORP",
+    "Bashkortostan": "GPE",
+    "Republic of Bashkortostan": "GPE",
+    "Boris Yeltsin": "PERSON",
+    "Murtaza Rakhimov": "PERSON",
+    "Bashkir Capital": "ORG",
+    "Ural Rakhimov": "PERSON",
+    "Vladimir P. Yevtushenkov": "PERSON",
+    "Sistema": "ORG",
+    "Russian government": "ORG",
+    "Ufa": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Bashneft",
+        "located_in",
+        "Bashkortostan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bashneft",
+        "founded_by",
+        "Boris Yeltsin"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bashneft",
+        "privatized_by",
+        "Murtaza Rakhimov"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Murtaza Rakhimov",
+        "has_control_of",
+        "Bashkir Capital"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bashkir Capital",
+        "controlled_by",
+        "Ural Rakhimov"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vladimir P. Yevtushenkov",
+        "acquired",
+        "Bashneft"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vladimir P. Yevtushenkov",
+        "placed_in",
+        "Sistema"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sistema",
+        "had_interest_seized_by",
+        "Russian government"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bashneft",
+        "operates",
+        "oil and natural gas fields in Russia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bashneft",
+        "owns",
+        "oil refineries located in Ufa"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bashneft\nBashneft is a Russian oil company formed by the transfer of the oil related assets of the Soviet oil ministry in Bashkortostan to the regional government of the Republic of Bashkortostan by Boris Yeltsin. It was then privatized during 2002-3 by Murtaza Rakhimov, the president of Bashkortostan, an ally of Yeltsin's, with a controlling interest in Bashkir Capital, a holding company controlled by Rakhimov's son, Ural Rakhimov. In 2009 a controlling interest in Bashneft was acquired for $2 billion by Vladimir P. Yevtushenkov and placed in his holding company, Sistema, but in July 2014 he was jailed and 72% of Sistema's interest in Bashneft seized by the Russian government. Following seizure of the company in December 2014 Yevtushenkov was released from jail, \"charges not proven,\" but Ural Rakhimov was reported to have fled the country. It is one of the larger producers of oil products in the country. The company operates 140 oil and natural gas fields in Russia and has an annual oil production of 16 million tonnes. Bashneft owns three oil refineries located in Ufa with a combined capacity of 820000 oilbbl/d and 100 petrol stations.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bashneft\", \"type\": \"ORG\"},\n    {\"name\": \"Russian\", \"type\": \"NORP\"},\n    {\"name\": \"Bashkortostan\", \"type\": \"GPE\"},\n    {\"name\": \"Republic of Bashkortostan\", \"type\": \"GPE\"},\n    {\"name\": \"Boris Yeltsin\", \"type\": \"PERSON\"},\n    {\"name\": \"Murtaza Rakhimov\", \"type\": \"PERSON\"},\n    {\"name\": \"Bashkir Capital\", \"type\": \"ORG\"},\n    {\"name\": \"Ural Rakhimov\", \"type\": \"PERSON\"},\n    {\"name\": \"Vladimir P. Yevtushenkov\", \"type\": \"PERSON\"},\n    {\"name\": \"Sistema\", \"type\": \"ORG\"},\n    {\"name\": \"Russian government\", \"type\": \"ORG\"},\n    {\"name\": \"Ufa\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bashneft\",\n      \"relation\": \"located_in\",\n      \"object\": \"Bashkortostan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Bashkortostan\"}\n      ]\n    },\n    {\n      \"subject\": \"Bashneft\",\n      \"relation\": \"founded_by\",\n      \"object\": \"Boris Yeltsin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by Boris Yeltsin\"}\n      ]\n    },\n    {\n      \"subject\": \"Bashneft\",\n      \"relation\": \"privatized_by\",\n      \"object\": \"Murtaza Rakhimov\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"privatized during 2002-3 by Murtaza Rakhimov\"}\n      ]\n    },\n    {\n      \"subject\": \"Murtaza Rakhimov\",\n      \"relation\": \"has_control_of\",\n      \"object\": \"Bashkir Capital\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"controlling interest in Bashkir Capital\"}\n      ]\n    },\n    {\n      \"subject\": \"Bashkir Capital\",\n      \"relation\": \"controlled_by\",\n      \"object\": \"Ural Rakhimov\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"controlled by Rakhimov's son, Ural Rakhimov\"}\n      ]\n    },\n    {\n      \"subject\": \"Vladimir P. Yevtushenkov\",\n      \"relation\": \"acquired\",\n      \"object\": \"Bashneft\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"acquired for $2 billion by Vladimir P. Yevtushenkov\"}\n      ]\n    },\n    {\n      \"subject\": \"Vladimir P. Yevtushenkov\",\n      \"relation\": \"placed_in\",\n      \"object\": \"Sistema\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"placed in his holding company, Sistema\"}\n      ]\n    },\n    {\n      \"subject\": \"Sistema\",\n      \"relation\": \"had_interest_seized_by\",\n      \"object\": \"Russian government\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"seized by the Russian government\"}\n      ]\n    },\n    {\n      \"subject\": \"Bashneft\",\n      \"relation\": \"operates\",\n      \"object\": \"oil and natural gas fields in Russia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"operates 140 oil and natural gas fields in Russia\"}\n      ]\n    },\n    {\n      \"subject\": \"Bashneft\",\n      \"relation\": \"owns\",\n      \"object\": \"oil refineries located in Ufa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owns three oil refineries located in Ufa\"}\n      ]\n    }\n  ]\n}"
+}

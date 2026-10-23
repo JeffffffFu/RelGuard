@@ -1,0 +1,145 @@
+{
+  "entities": {
+    "The Infernal Rapist": "WORK_OF_ART",
+    "El violador infernal": "WORK_OF_ART",
+    "Mexican": "NORP",
+    "Damián Acosta Esparza": "PERSON",
+    "Noé Murayama": "PERSON",
+    "Princesa Lea": "PERSON",
+    "Ana Luisa Peluffo": "PERSON",
+    "Marisol Cervantes": "PERSON",
+    "Manuel 'Flaco' Ibáñez": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "The Infernal Rapist",
+      "relation": "directed_by",
+      "object": "Damián Acosta Esparza",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 94,
+          "char_start": 114,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Infernal Rapist",
+      "relation": "stars",
+      "object": "Noé Murayama",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 138,
+          "char_start": 158,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Infernal Rapist",
+      "relation": "stars",
+      "object": "Princesa Lea",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 138,
+          "char_start": 158,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Infernal Rapist",
+      "relation": "stars",
+      "object": "Ana Luisa Peluffo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 138,
+          "char_start": 158,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Infernal Rapist",
+      "relation": "stars",
+      "object": "Marisol Cervantes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 138,
+          "char_start": 158,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Infernal Rapist",
+      "relation": "stars",
+      "object": "Manuel 'Flaco' Ibáñez",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 138,
+          "char_start": 158,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Fidel Abrego (PERSON)"
+      ]
+    },
+    {
+      "triple": [
+        "The Infernal Rapist",
+        "also_named",
+        "El violador infernal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Infernal Rapist",
+        "is_a",
+        "Mexican"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Infernal Rapist",
+        "stars",
+        "Fidel Abrego"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Infernal Rapist\nThe Infernal Rapist (Spanish:El violador infernal) is a 1988 Mexican horror and thriller film directed by Damián Acosta Esparza. The film starring Noé Murayama, Princesa Lea, Ana Luisa Peluffo, Marisol Cervantes, Manuel 'Flaco' Ibáñez and Fidel Abregoin the lead roles.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Infernal Rapist\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"El violador infernal\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Mexican\", \"type\": \"NORP\"},\n    {\"name\": \"Damián Acosta Esparza\", \"type\": \"PERSON\"},\n    {\"name\": \"Noé Murayama\", \"type\": \"PERSON\"},\n    {\"name\": \"Princesa Lea\", \"type\": \"PERSON\"},\n    {\"name\": \"Ana Luisa Peluffo\", \"type\": \"PERSON\"},\n    {\"name\": \"Marisol Cervantes\", \"type\": \"PERSON\"},\n    {\"name\": \"Manuel 'Flaco' Ibáñez\", \"type\": \"PERSON\"},\n    {\"name\": \"Fidel Abrego\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Infernal Rapist\",\n      \"relation\": \"also_named\",\n      \"object\": \"El violador infernal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(Spanish:El violador infernal)\"}\n      ]\n    },\n    {\n      \"subject\": \"The Infernal Rapist\",\n      \"relation\": \"is_a\",\n      \"object\": \"Mexican\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Mexican\"}\n      ]\n    },\n    {\n      \"subject\": \"The Infernal Rapist\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Damián Acosta Esparza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Infernal Rapist\",\n      \"relation\": \"stars\",\n      \"object\": \"Noé Murayama\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"The Infernal Rapist\",\n      \"relation\": \"stars\",\n      \"object\": \"Princesa Lea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"The Infernal Rapist\",\n      \"relation\": \"stars\",\n      \"object\": \"Ana Luisa Peluffo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"The Infernal Rapist\",\n      \"relation\": \"stars\",\n      \"object\": \"Marisol Cervantes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"The Infernal Rapist\",\n      \"relation\": \"stars\",\n      \"object\": \"Manuel 'Flaco' Ibáñez\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"The Infernal Rapist\",\n      \"relation\": \"stars\",\n      \"object\": \"Fidel Abrego\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Summer Wars": "Film",
+    "Denshin-Bashira Elemi no Koi": "Film",
+    "Mainichi Film Awards": "Award",
+    "Ōfuji Noburō Award": "Award",
+    "Japan Academy Prize for Animation of the Year": "Award",
+    "The Sky Crawlers": "Film",
+    "First Squad": "Film",
+    "Asia Pacific Screen Award for Best Animated Feature Film": "Award"
+  },
+  "triples": [
+    {
+      "subject": "Denshin-Bashira Elemi no Koi",
+      "relation": "won",
+      "object": "Ōfuji Noburō Award",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "\"Denshin-Bashira Elemi no Koi\" won the Ōfuji Noburō Award"
+        }
+      ]
+    },
+    {
+      "subject": "Summer Wars",
+      "relation": "won",
+      "object": "Japan Academy Prize for Animation of the Year",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "\"Summer Wars\" also won the Japan Academy Prize for Animation of the Year"
+        }
+      ]
+    },
+    {
+      "subject": "Summer Wars",
+      "relation": "nominated_for",
+      "object": "Asia Pacific Screen Award for Best Animated Feature Film",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "\"Summer Wars\" and \"First Squad\" were nominated for the Asia Pacific Screen Award for Best Animated Feature Film"
+        }
+      ]
+    },
+    {
+      "subject": "First Squad",
+      "relation": "nominated_for",
+      "object": "Asia Pacific Screen Award for Best Animated Feature Film",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "\"Summer Wars\" and \"First Squad\" were nominated for the Asia Pacific Screen Award for Best Animated Feature Film"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Summer Wars",
+        "won",
+        "Animation Film Award"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Sky Crawlers",
+        "nominated_for",
+        "Asia Pacific Screen Award for Best Animated Feature Film"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "2009 in anime\nAt the Mainichi Film Awards, \"Summer Wars\" won the Animation Film Award and \"Denshin-Bashira Elemi no Koi\" won the Ōfuji Noburō Award. \"Summer Wars\" also won the Japan Academy Prize for Animation of the Year. Internationally, \"The Sky Crawlers\", \"Summer Wars\" and \"First Squad\" were nominated for the Asia Pacific Screen Award for Best Animated Feature Film."
+}

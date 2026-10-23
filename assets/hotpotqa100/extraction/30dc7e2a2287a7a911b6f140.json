@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "United States": "Country",
+    "2022 FIFA World Cup": "Event",
+    "United States Soccer Federation": "Organization",
+    "U.S. Soccer": "Organization",
+    "Qatar": "Country",
+    "Bill Clinton": "Person"
+  },
+  "triples": [
+    {
+      "subject": "United States Soccer Federation",
+      "relation": "submitted",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The United States Soccer Federation submitted a bid with the hope of hosting the 2022 FIFA World Cup."
+        }
+      ]
+    },
+    {
+      "subject": "U.S. Soccer",
+      "relation": "announced",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "On January 28, 2009, U.S. Soccer announced that it would submit bids for both the 2018 and 2022 Cups."
+        }
+      ]
+    },
+    {
+      "subject": "Qatar",
+      "relation": "hosted",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "On December 2, 2010, it was announced that Qatar would be the host of the 2022 FIFA World Cup."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "U.S. Soccer",
+        "put_forth_bid_for",
+        "2018 World Cup"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "U.S. Soccer",
+        "withdrew_from",
+        "2018 bid process"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bill Clinton",
+        "remarked",
+        "FIFA people"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "United States 2022 FIFA World Cup bid\nThe United States Soccer Federation submitted a bid with the hope of hosting the 2022 FIFA World Cup. U.S. Soccer first said in February 2007 that it would put forth a bid for the 2018 World Cup. On January 28, 2009, U.S. Soccer announced that it would submit bids for both the 2018 and 2022 Cups. In October 2010 it withdrew from the 2018 bid process to focus on winning the 2022 edition. On December 2, 2010, it was announced that Qatar would be the host of the 2022 FIFA World Cup. Bill Clinton remarked \"The FIFA people were in a mood to give it to people who didn’t have it. I think they wanted to make soccer a world sport.\""
+}

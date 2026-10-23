@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Manuel Díaz Gil": "Person",
+    "Liz": "Alias",
+    "Spain": "Location",
+    "footballer": "Occupation",
+    "forward": "Position"
+  },
+  "triples": [
+    {
+      "subject": "Manuel Díaz Gil",
+      "relation": "commonly_known_as",
+      "object": "Liz",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "commonly known as Liz"
+        }
+      ]
+    },
+    {
+      "subject": "Manuel Díaz Gil",
+      "relation": "nationality",
+      "object": "Spain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Spanish"
+        }
+      ]
+    },
+    {
+      "subject": "Manuel Díaz Gil",
+      "relation": "occupation",
+      "object": "footballer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "former footballer"
+        }
+      ]
+    },
+    {
+      "subject": "Manuel Díaz Gil",
+      "relation": "position",
+      "object": "forward",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played as a forward"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Manuel Díaz Gil",
+        "born_on",
+        "29 March 1929"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Manuel Díaz Gil\nManuel Díaz Gil( born 29 March 1929), commonly known as Liz, is a Spanish former footballer who played as a forward."
+}

@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Las Vegas Sands Corporation": "ORG",
+    "American": "NORP",
+    "Paradise": "GPE",
+    "Nevada": "GPE",
+    "United States": "GPE",
+    "Singapore": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Las Vegas Sands Corporation",
+      "relation": "located_in",
+      "object": "Paradise",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 79,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Paradise",
+      "relation": "located_in",
+      "object": "Nevada",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Paradise, Nevada",
+          "line_start": 88,
+          "char_start": 104,
+          "ambiguous": false,
+          "relation_mention": "Paradise, Nevada",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Nevada",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Nevada, United States",
+          "line_start": 98,
+          "char_start": 114,
+          "ambiguous": false,
+          "relation_mention": "Nevada, United States",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Las Vegas Sands Corporation",
+      "relation": "has_facility_in",
+      "object": "Singapore",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Singapore",
+          "line_start": 281,
+          "char_start": 297,
+          "ambiguous": false,
+          "relation_mention": "in Singapore",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Las Vegas Sands Corporation",
+        "is_a",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Las Vegas Sands\nLas Vegas Sands Corporation is an American casino and resort operating company based in Paradise, Nevada, United States. Its resorts feature accommodations, gaming and entertainment, convention and exhibition facilities, restaurants and clubs, as well as an art and science museum in Singapore."
+}

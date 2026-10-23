@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "The Bionic Vet": "TV Series",
+    "Noel Fitzpatrick": "Person",
+    "Surrey": "Location",
+    "veterinary practice": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "The Bionic Vet",
+      "relation": "follows",
+      "object": "Noel Fitzpatrick",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "following the work of veterinarian Noel Fitzpatrick"
+        }
+      ]
+    },
+    {
+      "subject": "Noel Fitzpatrick",
+      "relation": "works_at",
+      "object": "veterinary practice",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at his veterinary practice"
+        }
+      ]
+    },
+    {
+      "subject": "Noel Fitzpatrick",
+      "relation": "located_in",
+      "object": "Surrey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Surrey"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Noel Fitzpatrick",
+        "has_team_of",
+        "over 100 vets, nurses and support staff"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Bionic Vet\nThe Bionic Vet is a BBC documentary television series following the work of veterinarian Noel Fitzpatrick at his veterinary practice in Surrey. Fitzpatrick and his team of over 100 vets, nurses and support staff find new methods and techniques to help pets within more unique problems that would often leave euthanasia as the only option."
+}

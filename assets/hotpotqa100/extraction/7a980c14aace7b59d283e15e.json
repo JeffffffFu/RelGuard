@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "light commercial vehicle": "vehicle",
+    "European Union": "region",
+    "Australia": "region",
+    "New Zealand": "region",
+    "Canada": "region",
+    "Ireland": "region",
+    "Commercial Van": "vehicle",
+    "light goods vehicle": "vehicle",
+    "Large goods vehicle": "vehicle"
+  },
+  "triples": [
+    {
+      "subject": "light commercial vehicle",
+      "relation": "used_in",
+      "object": "European Union",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the official term used within the European Union"
+        }
+      ]
+    },
+    {
+      "subject": "light commercial vehicle",
+      "relation": "used_in",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "occasionally in both Canada"
+        }
+      ]
+    },
+    {
+      "subject": "light commercial vehicle",
+      "relation": "also_called",
+      "object": "light goods vehicle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the term light goods vehicle (LGV) may also be used"
+        }
+      ]
+    },
+    {
+      "subject": "light goods vehicle",
+      "relation": "confused_with",
+      "object": "Large goods vehicle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "may also be used by member countries which can be confused with Large goods vehicle"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "light commercial vehicle",
+        "used_in",
+        "Australia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "light commercial vehicle",
+        "used_in",
+        "New Zealand"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "light commercial vehicle",
+        "used_in",
+        "Ireland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Large goods vehicle",
+        "also_called",
+        "LGV"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Light commercial vehicle\nA light commercial vehicle is the official term used within the European Union, Australia, New Zealand, and occasionally in both Canada and Ireland (where Commercial Van is more frequently used) for a commercial carrier vehicle with a gross vehicle weight of not more than 3.5 tonnes; the term light goods vehicle (LGV) may also be used by member countries which can be confused with Large goods vehicle (also 'LGV') which is the official EU term for a vehicle with a gross vehicle weight of over 3.5 tonnes."
+}

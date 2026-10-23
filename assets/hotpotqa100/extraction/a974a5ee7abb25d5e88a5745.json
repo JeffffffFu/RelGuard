@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Boomershoot": "EVENT",
+    "Orofino": "GPE",
+    "Idaho": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Boomershoot",
+      "relation": "located_in",
+      "object": "Orofino",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "held near",
+          "line_start": 54,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "held near",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Orofino",
+        "located_in",
+        "Idaho"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Boomershoot",
+        "held_in_time",
+        "late spring"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Boomershoot\nThe Boomershoot is a long range precision rifle event held near Orofino, Idaho, each year in late spring. The targets are filled with explosives at ranges from 375 to . Shooters are allowed to engage as many targets as they are able during the all-day event. Nearly every year the amount of explosives has increased; in 2004, the amount of explosives put out for people to shoot was greater than all of the other years combined. In 2005, new targets were introduced with smaller amounts of explosives to reduce window breakage in the surrounding countryside. In recent years, the event has also featured an explosive fireball and an Anvil firing to start the event and entertain the participants.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Boomershoot\", \"type\": \"EVENT\"},\n    {\"name\": \"Orofino\", \"type\": \"GPE\"},\n    {\"name\": \"Idaho\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Boomershoot\",\n      \"relation\": \"located_in\",\n      \"object\": \"Orofino\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"held near\"}\n      ]\n    },\n    {\n      \"subject\": \"Orofino\",\n      \"relation\": \"located_in\",\n      \"object\": \"Idaho\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Orofino, Idaho\"}\n      ]\n    },\n    {\n      \"subject\": \"Boomershoot\",\n      \"relation\": \"held_in_time\",\n      \"object\": \"late spring\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"held near\"}\n      ]\n    }\n  ]\n}"
+}

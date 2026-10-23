@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "E. L. James": "Person",
+    "Erika Mitchell": "Person",
+    "Fifty Shades of Grey": "Book",
+    "Fifty Shades Darker": "Book",
+    "Fifty Shades Freed": "Book",
+    "Snowqueen's Icedragon": "Book",
+    "Master of the Universe": "Book",
+    "Twilight": "Book"
+  },
+  "triples": [
+    {
+      "subject": "Erika Mitchell",
+      "relation": "known_by_pen_name",
+      "object": "E. L. James",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "known by her pen name E. L. James"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "E. L. James",
+        "wrote",
+        "Fifty Shades of Grey"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "E. L. James",
+        "wrote",
+        "Fifty Shades Darker"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "E. L. James",
+        "wrote",
+        "Fifty Shades Freed"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "E. L. James",
+        "wrote",
+        "Snowqueen's Icedragon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "E. L. James",
+        "wrote",
+        "Master of the Universe"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Master of the Universe",
+        "was_basis_for",
+        "Fifty Shades trilogy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "E. L. James\nErika Mitchell (born 7 March 1963), known by her pen name E. L. James, is an English author. She wrote the bestselling erotic romance trilogy \"Fifty Shades of Grey\", \"Fifty Shades Darker\", and \"Fifty Shades Freed\", along with the companion novel \"\"; and under \"Snowqueen's Icedragon\" the Twilight fan fiction \"Master of the Universe\" that was the basis for the Fifty Shades trilogy."
+}

@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Tribute to the Teachers": "WORK_OF_ART",
+    "1977": "EVENT",
+    "Iranian": "NORP",
+    "short film": "WORK_OF_ART",
+    "Abbas Kiarostami": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Tribute to the Teachers",
+      "relation": "directed_by",
+      "object": "Abbas Kiarostami",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 53,
+          "char_start": 77,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tribute to the Teachers",
+        "located_in",
+        "Iranian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tribute to the Teachers",
+        "founded",
+        "short film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tribute to the Teachers",
+        "located_in",
+        "1977"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Tribute to the Teachers\nTribute to the Teachers is a 1977 Iranian short film directed by Abbas Kiarostami. By means of interviews with different school teachers, the film pays tribute to the teaching profession.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Tribute to the Teachers\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"1977\", \"type\": \"EVENT\"},\n    {\"name\": \"Iranian\", \"type\": \"NORP\"},\n    {\"name\": \"short film\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Abbas Kiarostami\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Tribute to the Teachers\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Abbas Kiarostami\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Tribute to the Teachers\",\n      \"relation\": \"located_in\",\n      \"object\": \"Iranian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Iranian\"}\n      ]\n    },\n    {\n      \"subject\": \"Tribute to the Teachers\",\n      \"relation\": \"founded\",\n      \"object\": \"short film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"short film\"}\n      ]\n    },\n    {\n      \"subject\": \"Tribute to the Teachers\",\n      \"relation\": \"located_in\",\n      \"object\": \"1977\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"1977\"}\n      ]\n    }\n  ]\n}"
+}

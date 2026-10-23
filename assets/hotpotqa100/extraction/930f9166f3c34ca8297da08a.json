@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Supertubos": "LOC",
+    "Peniche": "GPE",
+    "Portugal": "GPE",
+    "MEO Rip Curl Pro Portugal": "EVENT",
+    "World Surf League Men's Championship Tour": "EVENT",
+    "Portuguese": "LANGUAGE"
+  },
+  "triples": [
+    {
+      "subject": "Supertubos",
+      "relation": "located_in",
+      "object": "Peniche",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 56,
+          "char_start": 67,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Peniche",
+        "located_in",
+        "Portugal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Supertubos",
+        "named_in_language",
+        "Portuguese"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Supertubos",
+        "hosts",
+        "MEO Rip Curl Pro Portugal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "MEO Rip Curl Pro Portugal",
+        "part_of",
+        "World Surf League Men's Championship Tour"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Supertubos\nThe Supertubos (Portuguese for \"Supertubes\") is a beach located in Peniche, Portugal, which due to its great conditions of surfing and its curvy waves and tubes helds every year the MEO Rip Curl Pro Portugal, one of the World Surf League Men's Championship Tour events.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Supertubos\", \"type\": \"LOC\"},\n    {\"name\": \"Peniche\", \"type\": \"GPE\"},\n    {\"name\": \"Portugal\", \"type\": \"GPE\"},\n    {\"name\": \"MEO Rip Curl Pro Portugal\", \"type\": \"EVENT\"},\n    {\"name\": \"World Surf League Men's Championship Tour\", \"type\": \"EVENT\"},\n    {\"name\": \"Portuguese\", \"type\": \"LANGUAGE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Supertubos\",\n      \"relation\": \"located_in\",\n      \"object\": \"Peniche\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Peniche\",\n      \"relation\": \"located_in\",\n      \"object\": \"Portugal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Peniche, Portugal\"}\n      ]\n    },\n    {\n      \"subject\": \"Supertubos\",\n      \"relation\": \"named_in_language\",\n      \"object\": \"Portuguese\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(Portuguese for \\\"Supertubes\\\")\"}\n      ]\n    },\n    {\n      \"subject\": \"Supertubos\",\n      \"relation\": \"hosts\",\n      \"object\": \"MEO Rip Curl Pro Portugal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"helds every year the MEO Rip Curl Pro Portugal\"}\n      ]\n    },\n    {\n      \"subject\": \"MEO Rip Curl Pro Portugal\",\n      \"relation\": \"part_of\",\n      \"object\": \"World Surf League Men's Championship Tour\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"one of the World Surf League Men's Championship Tour events\"}\n      ]\n    }\n  ]\n}"
+}

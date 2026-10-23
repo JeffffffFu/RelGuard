@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Dreamland": "FAC",
+    "Coney Island": "LOC",
+    "Brooklyn": "GPE",
+    "New York City": "GPE",
+    "Steeplechase Park": "FAC",
+    "Luna Park": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Dreamland",
+      "relation": "located_in",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at Coney Island"
+        }
+      ]
+    },
+    {
+      "subject": "Dreamland",
+      "relation": "located_in",
+      "object": "Brooklyn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Brooklyn"
+        }
+      ]
+    },
+    {
+      "subject": "Dreamland",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "New York City"
+        }
+      ]
+    },
+    {
+      "subject": "Dreamland",
+      "relation": "part_of",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the three original iconic large parks built on Coney Island"
+        }
+      ]
+    },
+    {
+      "subject": "Steeplechase Park",
+      "relation": "part_of",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the other two being Steeplechase Park"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Luna Park",
+        "part_of",
+        "Coney Island"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Dreamland (amusement park)\nDreamland was an ambitious amusement park at Coney Island, Brooklyn, New York City from 1904 to 1911. It was the last, and considered the grandest, of the three original iconic large parks built on Coney Island, the other two being Steeplechase Park and Luna Park."
+}

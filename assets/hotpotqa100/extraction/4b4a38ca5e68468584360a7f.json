@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Brian Kennedy": "Person",
+    "Toledo Museum of Art": "Organization",
+    "Hood Museum of Art": "Organization",
+    "National Gallery of Australia": "Organization",
+    "Ohio": "Location",
+    "Canberra": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Brian Kennedy",
+      "relation": "works_for",
+      "object": "Toledo Museum of Art",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He is currently the Director of the Toledo Museum of Art in Ohio."
+        }
+      ]
+    },
+    {
+      "subject": "Brian Kennedy",
+      "relation": "was_director_of",
+      "object": "National Gallery of Australia",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and the National Gallery of Australia (Canberra) from 1997-2004."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Brian Kennedy",
+        "was_director_of",
+        "Hood Museum of Art"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Brian Kennedy (gallery director)\nBrian Patrick Kennedy (born 5 November 1961) is an Irish-born art museum director who works internationally. He is currently the Director of the Toledo Museum of Art in Ohio. He was the Director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia (Canberra) from 1997-2004."
+}

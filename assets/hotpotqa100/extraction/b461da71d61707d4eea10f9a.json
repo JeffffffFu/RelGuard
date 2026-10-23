@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Rivington Hall Barn": "Location",
+    "Rivington Hall": "Location",
+    "Rivington": "Location",
+    "Lancashire": "Location",
+    "Chorley": "Location",
+    "Bolton": "Location",
+    "Jonathan Simpson": "Person",
+    "Lord Leverhulme": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Rivington Hall Barn",
+      "relation": "adjoins",
+      "object": "Rivington Hall",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Rivington Hall Barn adjoins Rivington Hall"
+        }
+      ]
+    },
+    {
+      "subject": "Rivington Hall Barn",
+      "relation": "restored_by",
+      "object": "Jonathan Simpson",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was restored, altered and enlarged in 1905 by Jonathan Simpson"
+        }
+      ]
+    },
+    {
+      "subject": "Rivington Hall Barn",
+      "relation": "owned_by",
+      "object": "Lord Leverhulme",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "for Lord Leverhulme"
+        }
+      ]
+    },
+    {
+      "subject": "Rivington Hall Barn",
+      "relation": "located_in",
+      "object": "Lancashire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Rivington, Lancashire"
+        }
+      ]
+    },
+    {
+      "subject": "Rivington Hall Barn",
+      "relation": "located_near",
+      "object": "Chorley",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "near Chorley"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rivington Hall Barn",
+        "located_in",
+        "Rivington"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rivington Hall Barn",
+        "located_near",
+        "Bolton"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Rivington Hall Barn\nRivington Hall Barn adjoins Rivington Hall in Rivington, Lancashire, near Chorley and Bolton. The barn may date from between the 9th and 13th centuries, but more likely the 16th century, and was restored, altered and enlarged in 1905 by Jonathan Simpson for Lord Leverhulme. It is a Grade II Listed building."
+}

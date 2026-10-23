@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "José Juan Bigas Luna": "PERSON",
+    "Bigas Luna": "PERSON",
+    "Barcelona": "GPE",
+    "la Riera de Gaià": "GPE",
+    "Catalonia": "GPE",
+    "Spanish": "NORP",
+    "Catalan": "LANGUAGE",
+    "Italian": "LANGUAGE",
+    "French": "LANGUAGE",
+    "English": "LANGUAGE"
+  },
+  "triples": [
+    {
+      "subject": "José Juan Bigas Luna",
+      "relation": "known_as",
+      "object": "Bigas Luna",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known artistically as",
+          "line_start": 93,
+          "char_start": 104,
+          "ambiguous": false,
+          "relation_mention": "known artistically as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "José Juan Bigas Luna",
+      "relation": "occupation",
+      "object": "Bigas Luna",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known artistically as",
+          "line_start": 93,
+          "char_start": 104,
+          "ambiguous": false,
+          "relation_mention": "known artistically as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Spanish language (LANGUAGE)"
+      ]
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "born_in",
+        "Barcelona"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "died_in",
+        "la Riera de Gaià"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "nationality",
+        "Spanish"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "worked_in_language",
+        "Spanish language"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "worked_in_language",
+        "Catalan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "worked_in_language",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "worked_in_language",
+        "French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "José Juan Bigas Luna",
+        "worked_in_language",
+        "English"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Bigas Luna\nJosé Juan Bigas Luna (Barcelona, 19 March 1946 - la Riera de Gaià, Catalonia, 5 April 2013), known artistically as Bigas Luna, was a Spanish film director, designer and artist. His films are typically characterised by a strong emphasis on the erotic, often related to food, something for which he admitted a strong passion. His work often explores and parodies clichés of Spanish identity, but he had an international career and has made films in the Spanish, Catalan, Italian, French and English languages.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"José Juan Bigas Luna\", \"type\": \"PERSON\"},\n    {\"name\": \"Bigas Luna\", \"type\": \"PERSON\"},\n    {\"name\": \"Barcelona\", \"type\": \"GPE\"},\n    {\"name\": \"la Riera de Gaià\", \"type\": \"GPE\"},\n    {\"name\": \"Catalonia\", \"type\": \"GPE\"},\n    {\"name\": \"Spanish\", \"type\": \"NORP\"},\n    {\"name\": \"Spanish language\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Catalan\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Italian\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"French\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"English\", \"type\": \"LANGUAGE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"José Juan Bigas Luna\",\n      \"relation\": \"known_as\",\n      \"object\": \"Bigas Luna\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known artistically as\"}\n      ]\n    },\n    {\n      \"subject\": \"José Juan Bigas Luna\",\n      \"relation\": \"born_in\",\n      \"object\": \"Barcelona\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(Barcelona,\"}\n      ]\n    },\n    {\n      \"subject\": \"José Juan Bigas Luna\",\n      \"relation\": \"died_in\",\n      \"object\": \"la Riera de Gaià\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"la Riera de Gaià,\"}\n      ]\n    },\n    {\n      \"subject\": \"José Juan Bigas Luna\",\n      \"relation\": \"nationality\",\n      \"object\": \"Spanish\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a Spanish\"}\n      ]\n    },\n    {\n      \"subject\": \"José Juan Bigas Luna\",\n      \"relation\": \"occupation\",\n      \"object\": \"Bigas Luna\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known artistically as\"}\n      ]\n    },\n    {\n      \"subject\": \"José Juan Bigas Luna\",\n      \"relation\": \"worked_in_language\",\n      \"object\": \"Spanish language\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Spanish,\"}\n      ]\n    },\n    {\n      \"subject\": \"José Juan Bigas Luna\",\n      \"relation\": \"worked_in_language\",\n      \"object\": \"Catalan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Catalan,\"}\n      ]\n    },\n    {\n      \"subject\": \"José Juan Bigas Luna\",\n      \"relation\": \"worked_in_language\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Italian,\"}\n      ]\n    },\n    {\n      \"subject\": \"José Juan Bigas Luna\",\n      \"relation\": \"worked_in_language\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"French and English languages.\"}\n      ]\n    },\n    {\n      \"subject\": \"José Juan Bigas Luna\",\n      \"relation\": \"worked_in_language\",\n      \"object\": \"English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"French and English languages.\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Veerendra": "PERSON",
+    "Punjabi": "NORP",
+    "Veerinder Singh": "PERSON",
+    "Teri Meri Ek Jindri": "WORK_OF_ART",
+    "Dharmendra": "PERSON",
+    "Lambhardarni": "WORK_OF_ART",
+    "Balbiro Bhabhi": "WORK_OF_ART",
+    "Dushmani Dee Agg": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Veerendra",
+      "relation": "made_number_of",
+      "object": "Teri Meri Ek Jindri",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made his debut with the film",
+          "line_start": 151,
+          "char_start": 161,
+          "ambiguous": false,
+          "relation_mention": "made his debut with the film",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Veerinder Singh",
+      "relation": "also_known_as",
+      "object": "Veerendra",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "often known as",
+          "line_start": 125,
+          "char_start": 135,
+          "ambiguous": false,
+          "relation_mention": "often known as",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Teri Meri Ek Jindri",
+      "relation": "featured",
+      "object": "Dharmendra",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "featuring",
+          "line_start": 221,
+          "char_start": 231,
+          "ambiguous": false,
+          "relation_mention": "featuring",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Veerendra",
+        "was_a",
+        "Punjabi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Veerendra",
+        "starred_in",
+        "Lambhardarni"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Veerendra",
+        "starred_in",
+        "Balbiro Bhabhi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Veerendra",
+        "starred_in",
+        "Dushmani Dee Agg"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Veerendra\nVeerendra  was a Punjabi film actor, director, producer and writer who made 25 films in his 12-year career. Veerinder Singh, often known as Veerendra, made his debut with the film \"Teri Meri Ek Jindri,\" released in 1975, featuring Dharmendra. He was a regular in Punjabi films of the 1980s. Some of his more popular films were \"Lambhardarni, Balbiro Bhabhi\" and \"Dushmani Dee Agg,\" which was released after his death.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Veerendra\", \"type\": \"PERSON\"},\n    {\"name\": \"Punjabi\", \"type\": \"NORP\"},\n    {\"name\": \"Veerinder Singh\", \"type\": \"PERSON\"},\n    {\"name\": \"Teri Meri Ek Jindri\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Dharmendra\", \"type\": \"PERSON\"},\n    {\"name\": \"Lambhardarni\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Balbiro Bhabhi\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Dushmani Dee Agg\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Veerendra\",\n      \"relation\": \"was_a\",\n      \"object\": \"Punjabi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a Punjabi\"}\n      ]\n    },\n    {\n      \"subject\": \"Veerendra\",\n      \"relation\": \"made_number_of\",\n      \"object\": \"Teri Meri Ek Jindri\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made his debut with the film\"}\n      ]\n    },\n    {\n      \"subject\": \"Veerinder Singh\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Veerendra\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"often known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Teri Meri Ek Jindri\",\n      \"relation\": \"featured\",\n      \"object\": \"Dharmendra\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"featuring\"}\n      ]\n    },\n    {\n      \"subject\": \"Veerendra\",\n      \"relation\": \"starred_in\",\n      \"object\": \"Lambhardarni\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Some of his more popular films were\"}\n      ]\n    },\n    {\n      \"subject\": \"Veerendra\",\n      \"relation\": \"starred_in\",\n      \"object\": \"Balbiro Bhabhi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Some of his more popular films were\"}\n      ]\n    },\n    {\n      \"subject\": \"Veerendra\",\n      \"relation\": \"starred_in\",\n      \"object\": \"Dushmani Dee Agg\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Some of his more popular films were\"}\n      ]\n    }\n  ]\n}"
+}

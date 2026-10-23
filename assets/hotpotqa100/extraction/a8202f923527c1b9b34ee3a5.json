@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Deputy Prime Minister of Malaysia": "Political Office",
+    "Malaysia": "Country",
+    "Tunku Abdul Rahman": "Person",
+    "Prime Minister of Malaysia": "Political Office"
+  },
+  "triples": [
+    {
+      "subject": "Deputy Prime Minister of Malaysia",
+      "relation": "appointed_by",
+      "object": "Prime Minister of Malaysia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The first Prime Minister of Malaysia, Tunku Abdul Rahman, started the convention of appointing a Deputy Prime Minister."
+        }
+      ]
+    },
+    {
+      "subject": "Deputy Prime Minister of Malaysia",
+      "relation": "located_in",
+      "object": "Malaysia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Deputy Prime Minister of Malaysia (Malay: \"Timbalan Perdana Menteri Malaysia\" ) is the second highest political office in Malaysia."
+        }
+      ]
+    },
+    {
+      "subject": "Tunku Abdul Rahman",
+      "relation": "started",
+      "object": "Deputy Prime Minister of Malaysia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The first Prime Minister of Malaysia, Tunku Abdul Rahman, started the convention of appointing a Deputy Prime Minister."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Deputy Prime Minister of Malaysia",
+        "is_a",
+        "Political Office"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Prime Minister of Malaysia",
+        "is_a",
+        "Political Office"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Deputy Prime Minister of Malaysia\nThe Deputy Prime Minister of Malaysia (Malay: \"Timbalan Perdana Menteri Malaysia\" ) is the second highest political office in Malaysia. There have been eleven deputy prime ministers since the office was created in 1957. The first Prime Minister of Malaysia, Tunku Abdul Rahman, started the convention of appointing a Deputy Prime Minister."
+}

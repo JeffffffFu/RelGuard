@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Millennium Biltmore Hotel": "FAC",
+    "Los Angeles Biltmore Hotel": "FAC",
+    "Biltmore Hotels": "ORG",
+    "Pershing Square": "LOC",
+    "Downtown Los Angeles": "GPE",
+    "California": "GPE",
+    "US": "GPE",
+    "Chicago": "GPE",
+    "Illinois": "GPE",
+    "City of Los Angeles": "ORG",
+    "Regal Hotels": "ORG",
+    "Millennium & Copthorne Hotels": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Millennium Biltmore Hotel",
+      "relation": "originally_named",
+      "object": "Los Angeles Biltmore Hotel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "originally named the Los Angeles Biltmore Hotel"
+        }
+      ]
+    },
+    {
+      "subject": "Millennium Biltmore Hotel",
+      "relation": "located_in",
+      "object": "Downtown Los Angeles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located across the street from Pershing Square in Downtown Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "Los Angeles Biltmore Hotel",
+      "relation": "largest_hotel_west_of",
+      "object": "Chicago",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the largest hotel west of Chicago"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Los Angeles Biltmore Hotel",
+        "designated_as",
+        "Los Angeles Historic-Cultural Monument"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Biltmore Hotels",
+        "purchased",
+        "Biltmore Hotel"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Biltmore Hotel",
+        "sold_to",
+        "Millennium & Copthorne Hotels"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Los Angeles Biltmore",
+        "operated_as_part_of",
+        "Millennium & Copthorne Hotels"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Millennium Biltmore Hotel\nThe Millennium Biltmore Hotel, originally named the Los Angeles Biltmore Hotel of the Biltmore Hotels group, is a luxury hotel located across the street from Pershing Square in Downtown Los Angeles, California, US. Upon its grand opening in 1923, the Los Angeles Biltmore was the largest hotel west of Chicago, Illinois in the United States. In 1969 the Biltmore Hotel was designated a Los Angeles Historic-Cultural Monument by the City of Los Angeles. Regal Hotels purchased the Biltmore in 1996, and then sold it in 1999 to Millennium & Copthorne Hotels. As of 2009, the Los Angeles Biltmore is operated as part of the Millennium & Copthorne Hotels chain as the Millennium Biltmore Hotel. The hotel has 70000 sqft of meeting and banquet space. From its original 1500 guestrooms it now has 683, due to room reorganization."
+}

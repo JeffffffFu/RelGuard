@@ -1,0 +1,125 @@
+{
+  "entities": {
+    "Standard Oil Company of Iowa": "ORG",
+    "Standard Oil Trust": "ORG",
+    "Idaho": "GPE",
+    "Oregon": "GPE",
+    "Washington": "GPE",
+    "California": "GPE",
+    "Arizona": "GPE",
+    "Standard Oil of California": "ORG",
+    "Chevron Oil Company": "ORG",
+    "Chevron Corporation": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Standard Oil Company of Iowa",
+      "relation": "created",
+      "object": "Standard Oil Trust",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was created in 1885 as a subsidiary of the Standard Oil Trust"
+        }
+      ]
+    },
+    {
+      "subject": "Standard Oil Company of Iowa",
+      "relation": "located_in",
+      "object": "Idaho",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "along the Pacific Coast states of Idaho"
+        }
+      ]
+    },
+    {
+      "subject": "Standard Oil of California",
+      "relation": "formed",
+      "object": "Standard Oil Trust",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "A prior company named Standard Oil of California had been formed in 1877"
+        }
+      ]
+    },
+    {
+      "subject": "Standard Oil of California",
+      "relation": "renamed",
+      "object": "Chevron Oil Company",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "later Chevron Oil Company"
+        }
+      ]
+    },
+    {
+      "subject": "Chevron Oil Company",
+      "relation": "renamed",
+      "object": "Chevron Corporation",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and now the Chevron Corporation"
+        }
+      ]
+    },
+    {
+      "subject": "Standard Oil Company of Iowa",
+      "relation": "is_original_company_of",
+      "object": "Chevron Corporation",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "is thus the original company that is now Chevron"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Standard Oil Company of Iowa",
+        "located_in",
+        "Oregon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Standard Oil Company of Iowa",
+        "located_in",
+        "Washington"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Standard Oil Company of Iowa",
+        "located_in",
+        "California"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Standard Oil Company of Iowa",
+        "located_in",
+        "Arizona"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Standard Oil of Iowa",
+        "dissolved",
+        "Standard Oil of California"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Standard Oil of Iowa\nStandard Oil Company of Iowa was created in 1885 as a subsidiary of the Standard Oil Trust to handle marketing along the Pacific Coast states of Idaho, Oregon, Washington, California, and Arizona. Though named for the midwestern state, it never included Iowa as one of its primary marketing areas. A prior company named Standard Oil of California had been formed in 1877, and was not associated with the Standard Oil Trust. In 1906, Standard Oil of Iowa was dissolved and its assets handed over to a new Standard Oil of California, later Chevron Oil Company, and now the Chevron Corporation. Standard Oil Company of Iowa is thus the original company that is now Chevron."
+}

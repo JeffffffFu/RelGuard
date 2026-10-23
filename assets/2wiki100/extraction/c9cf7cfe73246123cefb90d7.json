@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Ken Karpoff": "Person",
+    "Canada": "Location",
+    "1988 Winter Olympics": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Ken Karpoff",
+      "relation": "competed_in",
+      "object": "1988 Winter Olympics",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "competed in the 1988 Winter Olympics"
+        }
+      ]
+    },
+    {
+      "subject": "Ken Karpoff",
+      "relation": "located_in",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Canadian former biathlete"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ken Karpoff",
+        "born_on",
+        "14 January 1956"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ken Karpoff\nKen Karpoff( born 14 January 1956) is a Canadian former biathlete who competed in the 1988 Winter Olympics."
+}

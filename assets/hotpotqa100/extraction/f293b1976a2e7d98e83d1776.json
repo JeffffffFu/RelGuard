@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Mark Javier": "Person",
+    "Philippines": "Location",
+    "Doha": "Location",
+    "Qatar": "Location",
+    "Im Dong Hyun": "Person",
+    "2006 Asian Games": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Mark Javier",
+      "relation": "competed_in",
+      "object": "2006 Asian Games",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He competed in Archery at the 2006 Asian Games"
+        }
+      ]
+    },
+    {
+      "subject": "Mark Javier",
+      "relation": "from",
+      "object": "Philippines",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a professional archer from the Philippines"
+        }
+      ]
+    },
+    {
+      "subject": "2006 Asian Games",
+      "relation": "located_in",
+      "object": "Doha",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Doha, Qatar"
+        }
+      ]
+    },
+    {
+      "subject": "Doha",
+      "relation": "part_of",
+      "object": "Qatar",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Doha, Qatar"
+        }
+      ]
+    },
+    {
+      "subject": "Mark Javier",
+      "relation": "defeated_by",
+      "object": "Im Dong Hyun",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was defeated by the Korean Im Dong Hyun"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mark Javier",
+        "born_on",
+        "October 20, 1981"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mark Javier",
+        "placed",
+        "9th place"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mark Javier\nMark Pinili Javier (born October 20, 1981) is a professional archer from the Philippines. He competed in Archery at the 2006 Asian Games in Doha, Qatar but was defeated by the Korean Im Dong Hyun 113-104 in the 1/16 Elimination Round. During the 2006 Asian Games he landed 9th place in the individual category."
+}

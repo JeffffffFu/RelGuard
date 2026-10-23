@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Dinner Rush": "WORK_OF_ART",
+    "Brian S. Kalata": "PERSON",
+    "Rick Shaughnessy": "PERSON",
+    "Bob Giraldi": "PERSON",
+    "Danny Aiello": "PERSON",
+    "Edoardo Ballerini": "PERSON",
+    "New York City": "GPE",
+    "Tribeca": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Dinner Rush",
+      "relation": "written_by",
+      "object": "Brian S. Kalata",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Brian S. Kalata"
+        }
+      ]
+    },
+    {
+      "subject": "Dinner Rush",
+      "relation": "directed_by",
+      "object": "Bob Giraldi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Bob Giraldi"
+        }
+      ]
+    },
+    {
+      "subject": "Dinner Rush",
+      "relation": "stars",
+      "object": "Danny Aiello",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars Danny Aiello"
+        }
+      ]
+    },
+    {
+      "subject": "New York City",
+      "relation": "located_in",
+      "object": "Tribeca",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in New York City's Tribeca neighborhood"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Dinner Rush",
+        "written_by",
+        "Rick Shaughnessy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Dinner Rush",
+        "stars",
+        "Edoardo Ballerini"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Danny Aiello",
+        "role",
+        "restaurateur-bookmaker"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Edoardo Ballerini",
+        "role",
+        "star chef"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Dinner Rush\nDinner Rush is a 2000 American independent feature film, written by Brian S. Kalata and Rick Shaughnessy, and directed by Bob Giraldi. It stars Danny Aiello as a restaurateur-bookmaker in New York City's Tribeca neighborhood and Edoardo Ballerini as his son, the restaurant's star chef."
+}

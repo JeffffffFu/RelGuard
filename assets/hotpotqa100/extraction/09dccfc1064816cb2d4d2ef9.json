@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "Northwestern Knitting Company": "ORG",
+    "Munsingwear Corporation": "ORG",
+    "International Market Square": "FAC",
+    "Sumner-Glenwood": "LOC",
+    "Minneapolis": "GPE",
+    "Minnesota": "GPE",
+    "United States": "GPE",
+    "George D. Munsing": "PERSON",
+    "Clinton Morrison": "PERSON",
+    "Charles Alfred Pillsbury": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Northwestern Knitting Company",
+      "relation": "also_known_as",
+      "object": "Munsingwear Corporation",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also known as Munsingwear Corporation"
+        }
+      ]
+    },
+    {
+      "subject": "Northwestern Knitting Company",
+      "relation": "also_known_as",
+      "object": "International Market Square",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "later as International Market Square"
+        }
+      ]
+    },
+    {
+      "subject": "Northwestern Knitting Company",
+      "relation": "founded",
+      "object": "George D. Munsing",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "founded in 1888 by George D. Munsing"
+        }
+      ]
+    },
+    {
+      "subject": "Northwestern Knitting Company",
+      "relation": "received_financial_backing_from",
+      "object": "Clinton Morrison",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "received financial backing from Clinton Morrison"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Northwestern Knitting Company",
+        "received_financial_backing_from",
+        "Charles Alfred Pillsbury"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Northwestern Knitting Company",
+        "patented",
+        "style of underwear"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Northwestern Knitting Company",
+        "became",
+        "world's largest manufacturer of underwear"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Northwestern Knitting Company",
+        "changed_name_to",
+        "Munsingwear"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Northwestern Knitting Company Factory building\nThe Northwestern Knitting Company Factory, also known as Munsingwear Corporation and later as International Market Square, is a former factory building in the Sumner-Glenwood neighborhood of Minneapolis, Minnesota, United States. The company was founded in 1888 by George D. Munsing, who invented a method of plating wool fibers with silk and cotton to make the union suit more comfortable. The company received financial backing from Clinton Morrison and Charles Alfred Pillsbury, who were prominent businessmen in the Minneapolis flour milling industry. This style of underwear, patented in 1891, proved to be very popular, and the company eventually became the world's largest manufacturer of underwear. The company changed its name in 1919 to Munsingwear."
+}

@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Regina Richards": "Person",
+    "Regina": "Person",
+    "Baby Love": "Song",
+    "Billboard Hot 100": "Chart",
+    "UK Singles Chart": "Chart",
+    "Brooklyn, New York": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Regina Richards",
+      "relation": "born_in",
+      "object": "Brooklyn, New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born in Brooklyn, New York"
+        }
+      ]
+    },
+    {
+      "subject": "Regina Richards",
+      "relation": "known_as",
+      "object": "Regina",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known by her stage name Regina"
+        }
+      ]
+    },
+    {
+      "subject": "Baby Love",
+      "relation": "charted_on",
+      "object": "UK Singles Chart",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "reached #50 on the UK Singles Chart"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Regina Richards",
+        "best_known_for",
+        "Baby Love"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Baby Love",
+        "charted_on",
+        "Billboard Hot 100"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Regina Richards",
+        "is_a",
+        "one hit wonder"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Regina Richards\nRegina Richards (born 1961), best known by her stage name Regina, is an American pop music singer born in Brooklyn, New York. She is best known for her hit song \"Baby Love,\" which reached Number 10 on the \"Billboard\" Hot 100 in 1986. \"Baby Love\" was her only song to chart on the Hot 100, making her a one hit wonder. The song also reached #50 on the UK Singles Chart that same year."
+}

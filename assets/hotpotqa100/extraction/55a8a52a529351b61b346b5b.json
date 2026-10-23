@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "What Are We Doin' Lonesome": "WORK_OF_ART",
+    "Larry Gatlin": "PERSON",
+    "Larry Gatlin & the Gatlin Brothers Band": "ORG",
+    "Not Guilty": "WORK_OF_ART",
+    "Billboard": "ORG",
+    "Hot Country Singles & Tracks": "WORK_OF_ART",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "What Are We Doin' Lonesome",
+      "relation": "written_by",
+      "object": "Larry Gatlin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a song written by",
+          "line_start": 29,
+          "char_start": 56,
+          "ambiguous": false,
+          "relation_mention": "is a song written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "What Are We Doin' Lonesome",
+      "relation": "recorded_by",
+      "object": "Larry Gatlin & the Gatlin Brothers Band",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and recorded by",
+          "line_start": 64,
+          "char_start": 91,
+          "ambiguous": false,
+          "relation_mention": "and recorded by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Larry Gatlin & the Gatlin Brothers Band",
+        "has_norp",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "What Are We Doin' Lonesome",
+        "released_as_single_from",
+        "Not Guilty"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "What Are We Doin' Lonesome",
+        "reached_on_chart",
+        "Hot Country Singles & Tracks"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hot Country Singles & Tracks",
+        "published_by",
+        "Billboard"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "What Are We Doin' Lonesome\n\"What Are We Doin' Lonesome\" is a song written by Larry Gatlin, and recorded by American country music group Larry Gatlin & the Gatlin Brothers Band. It was released in October 1981 as the first single from the album \"Not Guilty\". The song reached number 4 on the \"Billboard\" Hot Country Singles & Tracks chart.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"What Are We Doin' Lonesome\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Larry Gatlin\", \"type\": \"PERSON\"},\n    {\"name\": \"Larry Gatlin & the Gatlin Brothers Band\", \"type\": \"ORG\"},\n    {\"name\": \"Not Guilty\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Billboard\", \"type\": \"ORG\"},\n    {\"name\": \"Hot Country Singles & Tracks\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"What Are We Doin' Lonesome\",\n      \"relation\": \"written_by\",\n      \"object\": \"Larry Gatlin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a song written by\"}\n      ]\n    },\n    {\n      \"subject\": \"What Are We Doin' Lonesome\",\n      \"relation\": \"recorded_by\",\n      \"object\": \"Larry Gatlin & the Gatlin Brothers Band\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and recorded by\"}\n      ]\n    },\n    {\n      \"subject\": \"Larry Gatlin & the Gatlin Brothers Band\",\n      \"relation\": \"has_norp\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    },\n    {\n      \"subject\": \"What Are We Doin' Lonesome\",\n      \"relation\": \"released_as_single_from\",\n      \"object\": \"Not Guilty\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as the first single from the album\"}\n      ]\n    },\n    {\n      \"subject\": \"What Are We Doin' Lonesome\",\n      \"relation\": \"reached_on_chart\",\n      \"object\": \"Hot Country Singles & Tracks\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the \\\"Billboard\\\" Hot Country Singles & Tracks chart\"}\n      ]\n    },\n    {\n      \"subject\": \"Hot Country Singles & Tracks\",\n      \"relation\": \"published_by\",\n      \"object\": \"Billboard\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\"Billboard\\\" Hot Country Singles & Tracks\"}\n      ]\n    }\n  ]\n}"
+}

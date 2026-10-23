@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Daniel Doherty": "PERSON",
+    "San Francisco": "GPE",
+    "Mission District": "LOC",
+    "Clarion Alley Mural Project": "ORG",
+    "Mohamed Bouazizi": "PERSON",
+    "Tunisian Revolution": "EVENT",
+    "Laura Lengel": "PERSON",
+    "Symbolic Interaction and New Social Media": "WORK_OF_ART",
+    "Everything Must Go!": "WORK_OF_ART",
+    "Dolores Park": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Daniel Doherty",
+      "relation": "is_a",
+      "object": "San Francisco",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Daniel Doherty is a San Franciscan street artist."
+        }
+      ]
+    },
+    {
+      "subject": "Daniel Doherty",
+      "relation": "created",
+      "object": "Mohamed Bouazizi",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Doherty painted an informative mural of Mohamed Bouazizi."
+        }
+      ]
+    },
+    {
+      "subject": "Daniel Doherty",
+      "relation": "captured",
+      "object": "Dolores Park",
+      "occurrences": [
+        {
+          "sentence_id": 10,
+          "relation_mention": "He has also captured a famous location in San Francisco, Dolores Park, where he used pointillism."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Clarion Alley Mural Project",
+        "participates_in",
+        "spreading awareness of heroes worldwide"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Daniel Doherty",
+        "described_as",
+        "alternative offline media form"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Daniel Doherty",
+        "educated",
+        "visitors"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Daniel Doherty",
+        "created",
+        "murals"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Daniel Doherty\nDaniel Doherty is a San Franciscan street artist. He is widely known for creating graffiti murals in the Mission District. Clarion Alley Mural Project participates in spreading awareness of heroes worldwide. Every year, 200,000 people visit these murals in San Francisco's Mission District. In 2011, Doherty painted an informative mural of Mohamed Bouazizi. The mural consists of a painting of Bouazizi surrounded by an explanation of how he became a catalyst for the Tunisian Revolution. Laura Lengel, author of \"Symbolic Interaction and New Social Media,\" mention the significance of Doherty's mural of Mohamed Bouazizi. They describe Doherty's work of art as an \"alternative offline media form.\" Doherty’s mural educated each visitor about this Tunisian martyr while promoting local art, helping spread Bouazizi's actions worldwide. Doherty has created several murals that consist of a local homeless man. These images touch on social problems. In one of them titles \"Everything Must Go!\" a bookstore filled with books about San Francisco is going out of business. He has also captured a famous location in San Francisco, Dolores Park, where he used pointillism."
+}

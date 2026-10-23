@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Sanxiang noodle": "PRODUCT",
+    "Zhongshan city": "GPE",
+    "Guangdong province": "GPE",
+    "China": "GPE",
+    "Guiling noodle": "PRODUCT",
+    "meat": "PRODUCT",
+    "chicken": "PRODUCT",
+    "vegetables": "PRODUCT",
+    "roast pork": "PRODUCT",
+    "pork liver": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Sanxiang noodle",
+      "relation": "located_in",
+      "object": "Zhongshan city",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one of the famous local food of Zhongshan city"
+        }
+      ]
+    },
+    {
+      "subject": "Sanxiang noodle",
+      "relation": "located_in",
+      "object": "Guangdong province",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one of the famous local food of Zhongshan city, Guangdong province"
+        }
+      ]
+    },
+    {
+      "subject": "Sanxiang noodle",
+      "relation": "located_in",
+      "object": "China",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one of the famous local food of Zhongshan city, Guangdong province, China"
+        }
+      ]
+    },
+    {
+      "subject": "Sanxiang noodle",
+      "relation": "similar_to",
+      "object": "Guiling noodle",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "which is similar to Guiling noodle"
+        }
+      ]
+    },
+    {
+      "subject": "Sanxiang noodle",
+      "relation": "served_with",
+      "object": "meat",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "People usually eat it with the company of meat"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sanxiang noodle",
+        "served_with",
+        "chicken"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sanxiang noodle",
+        "served_with",
+        "vegetables"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sanxiang noodle",
+        "served_with",
+        "roast pork"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sanxiang noodle",
+        "served_with",
+        "pork liver"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Sanxiang noodle\nSanxiang noodle ( ) is one of the famous local food of Zhongshan city, Guangdong province, China. It has a history of more than 200 years. Because of the special recipe and techniques, the noodle is round and stretchy, which is similar to Guiling noodle, another well-known noodle of China. There are many different types of sanxiang noodle according to people’s favor. People usually eat it with the company of meat, chicken, vegetables, roast pork, pork liver and so on. Everyone can make their favorite Sanxiang noodle. They can boil it as well as fry it."
+}

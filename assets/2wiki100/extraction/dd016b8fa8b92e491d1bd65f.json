@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "To Walk with Lions": "WORK_OF_ART",
+    "Carl Schultz": "PERSON",
+    "Richard Harris": "PERSON",
+    "George Adamson": "PERSON",
+    "John Michie": "PERSON",
+    "Tony Fitzjohn": "PERSON",
+    "Joy Adamson": "PERSON",
+    "Born Free": "WORK_OF_ART",
+    "Kora National Reserve": "LOC",
+    "Kenya": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "To Walk with Lions",
+      "relation": "directed_by",
+      "object": "Carl Schultz",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Carl Schultz"
+        }
+      ]
+    },
+    {
+      "subject": "To Walk with Lions",
+      "relation": "starring",
+      "object": "Richard Harris",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Richard Harris"
+        }
+      ]
+    },
+    {
+      "subject": "George Adamson",
+      "relation": "married_to",
+      "object": "Joy Adamson",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "marriage to Joy Adamson"
+        }
+      ]
+    },
+    {
+      "subject": "George Adamson",
+      "relation": "located_in",
+      "object": "Kora National Reserve",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "protecting the lions and other wildlife in the Kora National Reserve"
+        }
+      ]
+    },
+    {
+      "subject": "Kora National Reserve",
+      "relation": "located_in",
+      "object": "Kenya",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Kora National Reserve, Kenya"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "To Walk with Lions",
+        "starring",
+        "John Michie"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "To Walk with Lions\nTo Walk with Lions is a 1999 film directed by Carl Schultz and starring Richard Harris as George Adamson and John Michie as Tony Fitzjohn. It follows the later years of wild game preserver/ naturalist Adamson. After his marriage to Joy Adamson of\" Born Free\" fame, Adamson spent the latter part of his life protecting the lions and other wildlife in the Kora National Reserve, Kenya. He encounters poachers and government corruption blocking his quest for wildlife preservation."
+}

@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Henry Edwards": "PERSON",
+    "Chrissie White": "PERSON",
+    "Weston-super-Mare": "GPE",
+    "Somerset": "GPE",
+    "Chobham": "GPE",
+    "Surrey": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Henry Edwards",
+      "relation": "was_married_to",
+      "object": "Chrissie White",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was married to",
+          "line_start": 196,
+          "char_start": 218,
+          "ambiguous": false,
+          "relation_mention": "was married to",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Henry Edwards",
+      "relation": "born_in",
+      "object": "Weston-super-Mare",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 283,
+          "char_start": 305,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Henry Edwards",
+      "relation": "died_in",
+      "object": "Chobham",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died in",
+          "line_start": 323,
+          "char_start": 345,
+          "ambiguous": false,
+          "relation_mention": "died in",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Weston-super-Mare",
+        "located_in",
+        "Somerset"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Chobham",
+        "located_in",
+        "Surrey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henry Edwards",
+        "nationality",
+        "English"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Henry Edwards (actor)\nHenry Edwards (18 September 1882 – 2 November 1952) was an English actor and film director. He appeared in 81 films between 1915 and 1952. He also directed 67 films between 1915 and 1937. Edwards was married to actress Chrissie White, who co-starred in a number of his films. He was born in Weston-super-Mare, Somerset and died in Chobham, Surrey.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Henry Edwards\", \"type\": \"PERSON\"},\n    {\"name\": \"Chrissie White\", \"type\": \"PERSON\"},\n    {\"name\": \"Weston-super-Mare\", \"type\": \"GPE\"},\n    {\"name\": \"Somerset\", \"type\": \"GPE\"},\n    {\"name\": \"Chobham\", \"type\": \"GPE\"},\n    {\"name\": \"Surrey\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Henry Edwards\",\n      \"relation\": \"was_married_to\",\n      \"object\": \"Chrissie White\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was married to\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Henry Edwards\",\n      \"relation\": \"born_in\",\n      \"object\": \"Weston-super-Mare\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"born in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Weston-super-Mare\",\n      \"relation\": \"located_in\",\n      \"object\": \"Somerset\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Weston-super-Mare, Somerset\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Henry Edwards\",\n      \"relation\": \"died_in\",\n      \"object\": \"Chobham\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"died in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Chobham\",\n      \"relation\": \"located_in\",\n      \"object\": \"Surrey\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Chobham, Surrey\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Henry Edwards\",\n      \"relation\": \"nationality\",\n      \"object\": \"English\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was an English actor\"\n        }\n      ]\n    }\n  ]\n}"
+}

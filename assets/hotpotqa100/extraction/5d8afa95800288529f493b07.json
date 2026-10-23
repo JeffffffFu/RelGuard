@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Gameel Al-Batouti": "PERSON",
+    "EgyptAir": "ORG",
+    "Egyptian Air Force": "ORG",
+    "EgyptAir Flight 990": "PRODUCT",
+    "Atlantic Ocean": "LOC",
+    "Nantucket Island": "GPE",
+    "Massachusetts": "GPE",
+    "US National Transportation Safety Board": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "EgyptAir Flight 990",
+      "relation": "located_in",
+      "object": "Atlantic Ocean",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "crashed into",
+          "line_start": 311,
+          "char_start": 329,
+          "ambiguous": false,
+          "relation_mention": "crashed into",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "US National Transportation Safety Board",
+      "relation": "concluded",
+      "object": "Gameel Al-Batouti",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "concluded that",
+          "line_start": 452,
+          "char_start": 470,
+          "ambiguous": false,
+          "relation_mention": "concluded that",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gameel Al-Batouti",
+        "works_for",
+        "EgyptAir"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gameel Al-Batouti",
+        "works_for",
+        "Egyptian Air Force"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Atlantic Ocean",
+        "located_in",
+        "Nantucket Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Nantucket Island",
+        "located_in",
+        "Massachusetts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Gameel Al-Batouti\nGameel Al-Batouti (Arabic: جميل البطوطي‎ ‎ ; also rendered \"Gamil El Batouti\" or \"El Batouty\" in U.S. official reports; 2 February 1940 – 31 October 1999) was a pilot for EgyptAir and a former officer for the Egyptian Air Force. On 31 October 1999, all 217 people aboard EgyptAir Flight 990 were killed when it crashed into the Atlantic Ocean about 60 mi southeast of Nantucket Island, Massachusetts. The US National Transportation Safety Board (NTSB) concluded that the official probable cause of the crash was a series of control inputs made by Al-Batouti, who was in the position of relief first officer in command at the time of the crash.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Gameel Al-Batouti\", \"type\": \"PERSON\"},\n    {\"name\": \"EgyptAir\", \"type\": \"ORG\"},\n    {\"name\": \"Egyptian Air Force\", \"type\": \"ORG\"},\n    {\"name\": \"EgyptAir Flight 990\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Atlantic Ocean\", \"type\": \"LOC\"},\n    {\"name\": \"Nantucket Island\", \"type\": \"GPE\"},\n    {\"name\": \"Massachusetts\", \"type\": \"GPE\"},\n    {\"name\": \"US National Transportation Safety Board\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Gameel Al-Batouti\",\n      \"relation\": \"works_for\",\n      \"object\": \"EgyptAir\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a pilot for\"}\n      ]\n    },\n    {\n      \"subject\": \"Gameel Al-Batouti\",\n      \"relation\": \"works_for\",\n      \"object\": \"Egyptian Air Force\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"former officer for\"}\n      ]\n    },\n    {\n      \"subject\": \"EgyptAir Flight 990\",\n      \"relation\": \"located_in\",\n      \"object\": \"Atlantic Ocean\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"crashed into\"}\n      ]\n    },\n    {\n      \"subject\": \"Atlantic Ocean\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nantucket Island\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"southeast of\"}\n      ]\n    },\n    {\n      \"subject\": \"Nantucket Island\",\n      \"relation\": \"located_in\",\n      \"object\": \"Massachusetts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Nantucket Island, Massachusetts\"}\n      ]\n    },\n    {\n      \"subject\": \"US National Transportation Safety Board\",\n      \"relation\": \"concluded\",\n      \"object\": \"Gameel Al-Batouti\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"concluded that\"}\n      ]\n    }\n  ]\n}"
+}

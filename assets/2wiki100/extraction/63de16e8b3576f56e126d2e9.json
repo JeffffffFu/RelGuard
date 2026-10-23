@@ -1,0 +1,128 @@
+{
+  "entities": {
+    "A Trip to Chinatown": "film",
+    "Fox Film Corporation": "company",
+    "Margaret Livingston": "person",
+    "Anna May Wong": "person",
+    "Charles Farrell": "person",
+    "Beatrice Van": "person",
+    "Charles Hale Hoyt": "person",
+    "Robert P. Kerr": "person",
+    "F. W. Murnau": "person",
+    "Janet Gaynor": "person"
+  },
+  "triples": [
+    {
+      "subject": "A Trip to Chinatown",
+      "relation": "produced_by",
+      "object": "Fox Film Corporation",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced and distributed by the Fox Film Corporation"
+        }
+      ]
+    },
+    {
+      "subject": "A Trip to Chinatown",
+      "relation": "starring",
+      "object": "Margaret Livingston",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Margaret Livingston"
+        }
+      ]
+    },
+    {
+      "subject": "A Trip to Chinatown",
+      "relation": "includes",
+      "object": "Anna May Wong",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The supporting cast includes Anna May Wong"
+        }
+      ]
+    },
+    {
+      "subject": "A Trip to Chinatown",
+      "relation": "scripted_by",
+      "object": "Beatrice Van",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "scripted by Beatrice Van"
+        }
+      ]
+    },
+    {
+      "subject": "A Trip to Chinatown",
+      "relation": "based_on",
+      "object": "Charles Hale Hoyt",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Charles Hale Hoyt's hit Broadway musical of the same name"
+        }
+      ]
+    },
+    {
+      "subject": "A Trip to Chinatown",
+      "relation": "directed_by",
+      "object": "Robert P. Kerr",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Robert P. Kerr"
+        }
+      ]
+    },
+    {
+      "subject": "Charles Farrell",
+      "relation": "partner_of",
+      "object": "Janet Gaynor",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Farrell's future screen partner Janet Gaynor"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "A Trip to Chinatown",
+        "includes",
+        "Charles Farrell"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Margaret Livingston",
+        "played",
+        "Woman from the City"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "F. W. Murnau",
+        "directed",
+        "Sunrise"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "A Trip to Chinatown",
+        "considered",
+        "lost"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "A Trip to Chinatown (film)\nA Trip to Chinatown is a 1926 silent film produced and distributed by the Fox Film Corporation and starring Margaret Livingston. The supporting cast includes Anna May Wong and Charles Farrell. The movie was scripted by Beatrice Van from Charles Hale Hoyt's hit Broadway musical of the same name and directed by Robert P. Kerr. Livingston played the \"Woman from the City\" the following year in F. W. Murnau's \"Sunrise\", the rival to Farrell's future screen partner Janet Gaynor. This film is considered by historians to be lost."
+}

@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Vadim Beroev": "Person",
+    "Egor Beroev": "Person",
+    "RSFSR": "Organization",
+    "Major Whirlwind": "Film",
+    "No Path Through Fire": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Vadim Beroev",
+      "relation": "best_known_for",
+      "object": "Major Whirlwind",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for roles in Major Whirlwind( 1967)"
+        }
+      ]
+    },
+    {
+      "subject": "Vadim Beroev",
+      "relation": "grandfather_of",
+      "object": "Egor Beroev",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He is the grandfather of actor Egor Beroev"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vadim Beroev",
+        "best_known_for",
+        "No Path Through Fire"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Vadim Beroev",
+        "awarded",
+        "Honored Artist of the RSFSR"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Vadim Beroev\nVadim Borisovich Beroev( 1937–1972) was a Soviet theatre and film actor of Ossetian origin, best known for roles in Major Whirlwind( 1967) and No Path Through Fire( 1968). He was awarded Honored Artist of the RSFSR in 1969. He is the grandfather of actor Egor Beroev."
+}

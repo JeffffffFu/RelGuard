@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "America's Incredible Pizza Company": "ORG",
+    "Springfield": "GPE",
+    "Missouri": "GPE",
+    "America": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "America's Incredible Pizza Company",
+      "relation": "based_in",
+      "object": "Springfield",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Springfield"
+        }
+      ]
+    },
+    {
+      "subject": "America's Incredible Pizza Company",
+      "relation": "located_in",
+      "object": "Missouri",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Springfield, Missouri"
+        }
+      ]
+    },
+    {
+      "subject": "America's Incredible Pizza Company",
+      "relation": "founded_in",
+      "object": "Springfield",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The first restaurant opened in Springfield"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "America's Incredible Pizza Company",
+        "has_employees",
+        "1,200 employees"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "America's Incredible Pizza Company",
+        "has_revenue",
+        "$64.1 million"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "America's Incredible Pizza Company\nAmerica's Incredible Pizza Company (AIPC) is an American restaurant chain based in Springfield, Missouri. The restaurants are pizza buffets and entertainment centers. The first restaurant opened in Springfield in 2002. The company has 1,200 employees, and a revenue of $64.1 million."
+}

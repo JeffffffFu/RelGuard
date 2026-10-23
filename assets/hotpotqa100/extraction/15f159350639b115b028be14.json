@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "EgyptAir Flight 990": "EVENT",
+    "EgyptAir": "ORG",
+    "Los Angeles International Airport": "FAC",
+    "United States": "GPE",
+    "Cairo International Airport": "FAC",
+    "Egypt": "GPE",
+    "John F. Kennedy International Airport": "FAC",
+    "New York City": "GPE",
+    "Boeing 767": "PRODUCT",
+    "Atlantic Ocean": "LOC",
+    "Nantucket Island": "LOC",
+    "Massachusetts": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "EgyptAir Flight 990",
+      "relation": "departed_from",
+      "object": "Los Angeles International Airport",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was a regularly scheduled flight from",
+          "line_start": 35,
+          "char_start": 55,
+          "ambiguous": false,
+          "relation_mention": "was a regularly scheduled flight from",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "EgyptAir Flight 990",
+      "relation": "stopped_at",
+      "object": "John F. Kennedy International Airport",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "with a stop at",
+          "line_start": 162,
+          "char_start": 182,
+          "ambiguous": false,
+          "relation_mention": "with a stop at",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Boeing 767",
+      "relation": "crashed_into",
+      "object": "Atlantic Ocean",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "crashed into",
+          "line_start": 287,
+          "char_start": 307,
+          "ambiguous": false,
+          "relation_mention": "crashed into",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Atlantic Ocean",
+      "relation": "south_of",
+      "object": "Nantucket Island",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "south of",
+          "line_start": 331,
+          "char_start": 351,
+          "ambiguous": false,
+          "relation_mention": "south of",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "EgyptAir Flight 990\nEgyptAir Flight 990 (MS990/MSR990) was a regularly scheduled flight from Los Angeles International Airport, United States, to Cairo International Airport, Egypt, with a stop at John F. Kennedy International Airport, New York City. On October 31, 1999, the Boeing 767 operating the route crashed into the Atlantic Ocean about 60 mi south of Nantucket Island, Massachusetts, killing all 217 people on board. The official probable cause of the crash was deliberate action by the relief first officer."
+}

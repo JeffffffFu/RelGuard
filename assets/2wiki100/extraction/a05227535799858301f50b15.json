@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Gary Thomas Rowe Jr.": "PERSON",
+    "Don Meredith": "PERSON",
+    "Ku Klux Klan": "NORP",
+    "My Undercover Years with the Ku Klux Klan": "WORK_OF_ART",
+    "NBC": "ORG",
+    "Undercover with the KKK": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Undercover with the KKK",
+      "relation": "based_on",
+      "object": "My Undercover Years with the Ku Klux Klan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on the autobiography\" My Undercover Years with the Ku Klux Klan\""
+        }
+      ]
+    },
+    {
+      "subject": "My Undercover Years with the Ku Klux Klan",
+      "relation": "written_by",
+      "object": "Gary Thomas Rowe Jr.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Gary Thomas Rowe Jr."
+        }
+      ]
+    },
+    {
+      "subject": "Undercover with the KKK",
+      "relation": "starring",
+      "object": "Don Meredith",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Don Meredith as Rowe"
+        }
+      ]
+    },
+    {
+      "subject": "Undercover with the KKK",
+      "relation": "aired_on",
+      "object": "NBC",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a 1979 NBC TV movie"
+        }
+      ]
+    },
+    {
+      "subject": "Ku Klux Klan",
+      "relation": "featured_in",
+      "object": "Undercover with the KKK",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with the KKK"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gary Thomas Rowe Jr.",
+        "alias",
+        "Rowe"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Undercover with the KKK\nUndercover with the KKK is a 1979 NBC TV movie based on the autobiography\" My Undercover Years with the Ku Klux Klan\" by Gary Thomas Rowe Jr. and starring Don Meredith as Rowe."
+}

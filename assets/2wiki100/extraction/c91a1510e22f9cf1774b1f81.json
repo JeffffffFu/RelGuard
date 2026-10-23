@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Michael Govan": "Person",
+    "Los Angeles County Museum of Art": "Organization",
+    "Dia Art Foundation": "Organization",
+    "New York City": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Michael Govan",
+      "relation": "director_of",
+      "object": "Los Angeles County Museum of Art",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the director of the Los Angeles County Museum of Art since 2006"
+        }
+      ]
+    },
+    {
+      "subject": "Dia Art Foundation",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the Dia Art Foundation in New York City"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Michael Govan",
+        "born_in",
+        "1963"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Michael Govan",
+        "worked_as",
+        "director of the Dia Art Foundation"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Michael Govan\nMichael Govan( born 1963) is the director of the Los Angeles County Museum of Art since 2006. Prior to this, Govan worked as the director of the Dia Art Foundation in New York City."
+}

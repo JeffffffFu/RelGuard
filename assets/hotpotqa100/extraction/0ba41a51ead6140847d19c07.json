@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Italian War of 1551–59": "EVENT",
+    "Habsburg–Valois War": "EVENT",
+    "Last Italian War": "EVENT",
+    "Henry II of France": "PERSON",
+    "Francis I": "PERSON",
+    "Holy Roman Emperor Charles V": "PERSON",
+    "France": "GPE",
+    "Italy": "GPE",
+    "Habsburg": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Holy Roman Empire (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Italian War of 1551–59",
+        "also_known_as",
+        "Habsburg–Valois War"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Italian War of 1551–59",
+        "also_known_as",
+        "Last Italian War"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henry II of France",
+        "succeeded",
+        "Francis I"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henry II of France",
+        "declared_war_on",
+        "Holy Roman Emperor Charles V"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henry II of France",
+        "works_for",
+        "France"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Holy Roman Emperor Charles V",
+        "works_for",
+        "Holy Roman Empire"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Henry II of France",
+        "intended_to_recapture",
+        "Italy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henry II of France",
+        "intended_to_prevent",
+        "Habsburg"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Italian War of 1551–59\nThe Italian War of 1551 (1551–1559), sometimes known as the Habsburg–Valois War and the Last Italian War, began when Henry II of France, who had succeeded Francis I to the throne, declared war against Holy Roman Emperor Charles V with the intent of recapturing Italy and ensuring French, rather than Habsburg, domination of European affairs. The war was the last of a series of wars between the same parties since 1521. Historians have emphasized the importance of gun powder technology, new styles of fortification to resist cannon fire, and the increased professionalization of the soldiers.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Italian War of 1551–59\", \"type\": \"EVENT\"},\n    {\"name\": \"Habsburg–Valois War\", \"type\": \"EVENT\"},\n    {\"name\": \"Last Italian War\", \"type\": \"EVENT\"},\n    {\"name\": \"Henry II of France\", \"type\": \"PERSON\"},\n    {\"name\": \"Francis I\", \"type\": \"PERSON\"},\n    {\"name\": \"Holy Roman Emperor Charles V\", \"type\": \"PERSON\"},\n    {\"name\": \"France\", \"type\": \"GPE\"},\n    {\"name\": \"Holy Roman Empire\", \"type\": \"GPE\"},\n    {\"name\": \"Italy\", \"type\": \"GPE\"},\n    {\"name\": \"Habsburg\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Italian War of 1551–59\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Habsburg–Valois War\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"sometimes known as the Habsburg–Valois War\"}\n      ]\n    },\n    {\n      \"subject\": \"Italian War of 1551–59\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Last Italian War\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and the Last Italian War\"}\n      ]\n    },\n    {\n      \"subject\": \"Henry II of France\",\n      \"relation\": \"succeeded\",\n      \"object\": \"Francis I\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"who had succeeded Francis I to the throne\"}\n      ]\n    },\n    {\n      \"subject\": \"Henry II of France\",\n      \"relation\": \"declared_war_on\",\n      \"object\": \"Holy Roman Emperor Charles V\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"declared war against Holy Roman Emperor Charles V\"}\n      ]\n    },\n    {\n      \"subject\": \"Henry II of France\",\n      \"relation\": \"works_for\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Henry II of France\"}\n      ]\n    },\n    {\n      \"subject\": \"Holy Roman Emperor Charles V\",\n      \"relation\": \"works_for\",\n      \"object\": \"Holy Roman Empire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Holy Roman Emperor Charles V\"}\n      ]\n    },\n    {\n      \"subject\": \"Henry II of France\",\n      \"relation\": \"intended_to_recapture\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with the intent of recapturing Italy\"}\n      ]\n    },\n    {\n      \"subject\": \"Henry II of France\",\n      \"relation\": \"intended_to_prevent\",\n      \"object\": \"Habsburg\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"ensuring French, rather than Habsburg, domination\"}\n      ]\n    }\n  ]\n}"
+}

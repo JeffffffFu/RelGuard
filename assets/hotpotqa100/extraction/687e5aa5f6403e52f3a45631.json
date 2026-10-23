@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Matt Lubick": "Person",
+    "Washington": "Organization",
+    "Duke": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Matt Lubick",
+      "relation": "works_for",
+      "object": "Washington",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "co-offensive coordinator/wide receivers coach at Washington"
+        }
+      ]
+    },
+    {
+      "subject": "Matt Lubick",
+      "relation": "coached_at",
+      "object": "Duke",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "coaching at Duke"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Matt Lubick",
+        "awarded",
+        "2012 Football Scoop Wide Receivers Coach of the Year"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Matt Lubick\nMatt Lubick (born January 26, 1972) is an American football coach. He currently serves as the co-offensive coordinator/wide receivers coach at Washington. He was named the 2012 Football Scoop Wide Receivers Coach of the Year while coaching at Duke."
+}

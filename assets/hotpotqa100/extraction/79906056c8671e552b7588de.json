@@ -1,0 +1,104 @@
+{
+  "entities": {
+    "Invasive species": "concept",
+    "South America": "location",
+    "native biodiversity": "concept",
+    "South American agriculture": "concept",
+    "non-native species": "concept",
+    "residents": "group",
+    "ecosystems": "concept",
+    "awareness": "concept",
+    "research": "concept",
+    "policy": "concept",
+    "species": "concept"
+  },
+  "triples": [
+    {
+      "subject": "Invasive species",
+      "relation": "threat_to",
+      "object": "native biodiversity",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "are a serious threat to the native biodiversity of South America"
+        }
+      ]
+    },
+    {
+      "subject": "Invasive species",
+      "relation": "ongoing_cost_to",
+      "object": "South American agriculture",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "are an ongoing cost to South American agriculture"
+        }
+      ]
+    },
+    {
+      "subject": "non-native species",
+      "relation": "are_invasive",
+      "object": "Invasive species",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "many of these non-native species are invasive"
+        }
+      ]
+    },
+    {
+      "subject": "residents",
+      "relation": "value",
+      "object": "non-native species",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "residents of the region often value these species"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "South America",
+        "important_region_for",
+        "worlds biodiversity"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Introduced species",
+        "potential_to_pose_harm_to",
+        "ecosystems"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "awareness",
+        "necessary_steps_in_solving",
+        "invasive issues"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "research",
+        "necessary_steps_in_solving",
+        "invasive issues"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "policy",
+        "necessary_steps_in_solving",
+        "invasive issues"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Invasive species in South America\nInvasive species are a serious threat to the native biodiversity of South America and are an ongoing cost to South American agriculture. South America is an important region for the worlds biodiversity, and includes a wide variety of native species, many of which provide . Introduced species in South America, have the potential to pose harm to ecosystems of the region and the aforementioned biodiversity. Although many of these non-native species are invasive, residents of the region often value these species, making it more difficult to organize efforts to get rid of them. Because of the instrumental and cultural value placed on these species, greater awareness, research, and policy are all necessary steps in solving invasive issues in South America. Here is a list of just a few of the species that have invaded South America and where they originate."
+}

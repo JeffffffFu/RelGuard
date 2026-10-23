@@ -1,0 +1,126 @@
+{
+  "entities": {
+    "Tudor's Biscuit World": "restaurant_chain",
+    "Huntington": "city",
+    "West Virginia": "state",
+    "Gino's Pizza and Spaghetti": "restaurant",
+    "southern Ohio": "region",
+    "eastern Kentucky": "region",
+    "southwestern Virginia": "region",
+    "Panama City": "city",
+    "Florida": "state",
+    "Charleston": "city",
+    "Marshall University": "university",
+    "West Virginia University": "university",
+    "The University of Charleston": "university"
+  },
+  "triples": [
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "based_in",
+      "object": "Huntington",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Huntington"
+        }
+      ]
+    },
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "located_in",
+      "object": "West Virginia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "most commonly found in West Virginia"
+        }
+      ]
+    },
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "shares_building_with",
+      "object": "Gino's Pizza and Spaghetti",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "share a building with Gino's Pizza and Spaghetti"
+        }
+      ]
+    },
+    {
+      "subject": "Gino's Pizza and Spaghetti",
+      "relation": "exclusive_to",
+      "object": "West Virginia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "which is exclusive to West Virginia"
+        }
+      ]
+    },
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "opened_franchise_in",
+      "object": "Panama City",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "a franchise was opened in Panama City"
+        }
+      ]
+    },
+    {
+      "subject": "Panama City",
+      "relation": "located_in",
+      "object": "Florida",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "in Panama City, Florida"
+        }
+      ]
+    },
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "originally_based_in",
+      "object": "Charleston",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "originally based in Charleston"
+        }
+      ]
+    },
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "named_for",
+      "object": "Marshall University",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "named for sports teams of interest in that area, including teams at Marshall University"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tudor's Biscuit World",
+        "named_for",
+        "West Virginia University"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tudor's Biscuit World",
+        "named_for",
+        "The University of Charleston"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Tudor's Biscuit World\nTudor's Biscuit World is a restaurant chain based in Huntington, West Virginia, most commonly found in West Virginia. Many West Virginia locations share a building with Gino's Pizza and Spaghetti, although the chain is more extensive than Gino's (which is exclusive to West Virginia), having locations in southern Ohio, eastern Kentucky, and southwestern Virginia. In 2016 a franchise was opened in Panama City, Florida. Tudor's serves biscuits, biscuit sandwiches, homestyle breakfasts and dinners, muffins, and several side dishes. The chain was originally based in Charleston, West Virginia and many of the biscuit sandwiches are named for sports teams of interest in that area, including teams at Marshall University, West Virginia University, and The University of Charleston."
+}

@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Piola": "station",
+    "Milan Metro": "transportation_system",
+    "Line 2": "metro_line",
+    "Via Giovanni Pacini": "street",
+    "Via Antonio Bazzini": "street",
+    "Piazzale Gabrio Piola": "landmark",
+    "Lambrate": "neighborhood",
+    "Città Studi": "district",
+    "Politecnico di Milano": "university",
+    "Milan University": "university"
+  },
+  "triples": [
+    {
+      "subject": "Piola",
+      "relation": "located_on",
+      "object": "Line 2",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Piola is a station on Line 2 of the Milan Metro."
+        }
+      ]
+    },
+    {
+      "subject": "Piola",
+      "relation": "located_near",
+      "object": "Piazzale Gabrio Piola",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "just east of the Piazzale Gabrio Piola."
+        }
+      ]
+    },
+    {
+      "subject": "Piola",
+      "relation": "serves",
+      "object": "Lambrate",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The station serves Lambrate neighborhood"
+        }
+      ]
+    },
+    {
+      "subject": "Città Studi",
+      "relation": "comprises",
+      "object": "Politecnico di Milano",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "a big urban university area comprising Politecnico di Milano"
+        }
+      ]
+    },
+    {
+      "subject": "Città Studi",
+      "relation": "comprises",
+      "object": "Milan University",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "and the Milan University campuses."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Piola",
+        "located_at",
+        "corner between Via Giovanni Pacini and Via Antonio Bazzini"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Piola",
+        "located_in",
+        "Città Studi"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Piola (Milan Metro)\nPiola is a station on Line 2 of the Milan Metro. The station is located on the corner between Via Giovanni Pacini and Via Antonio Bazzini, just east of the Piazzale Gabrio Piola. The station serves Lambrate neighborhood and the district called \"Città Studi\" (study city), a big urban university area comprising Politecnico di Milano and the Milan University campuses."
+}

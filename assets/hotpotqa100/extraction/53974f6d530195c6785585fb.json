@@ -1,0 +1,131 @@
+{
+  "entities": {
+    "Landford": "GPE",
+    "County of Southampton": "GPE",
+    "Peerage of the United Kingdom": "ORG",
+    "Sir Alfred Mond": "PERSON",
+    "Imperial Chemical Industries": "ORG",
+    "Hartford Hill": "LOC",
+    "Great Budworth": "GPE",
+    "County of Chester": "GPE",
+    "James Callaghan": "PERSON",
+    "Greenpeace UK": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "3 entities outside the eleven types",
+      "entities": [
+        "Baron Melchett (TITLE)",
+        "First Commissioner of Works (TITLE)",
+        "Minister of Health (TITLE)"
+      ]
+    },
+    {
+      "triple": [
+        "Baron Melchett",
+        "located_in",
+        "Landford"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baron Melchett",
+        "located_in",
+        "County of Southampton"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baron Melchett",
+        "belongs_to",
+        "Peerage of the United Kingdom"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sir Alfred Mond",
+        "held_title",
+        "Baron Melchett"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sir Alfred Mond",
+        "worked_as",
+        "Chairman of Imperial Chemical Industries"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sir Alfred Mond",
+        "was",
+        "First Commissioner of Works"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sir Alfred Mond",
+        "was",
+        "Minister of Health"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sir Alfred Mond",
+        "located_in",
+        "Hartford Hill"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hartford Hill",
+        "located_in",
+        "Great Budworth"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Great Budworth",
+        "located_in",
+        "County of Chester"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Baron Melchett",
+        "held_by",
+        "the fourth Baron"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "the fourth Baron",
+        "worked_under",
+        "James Callaghan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "the fourth Baron",
+        "worked_as",
+        "Executive Director of Greenpeace UK"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Baron Melchett\nBaron Melchett, of Landford in the County of Southampton, is a title in the Peerage of the United Kingdom. It was created on 5 June 1928 for Sir Alfred Mond, 1st Baronet, Chairman of Imperial Chemical Industries and a former First Commissioner of Works and Minister of Health. He had already been created a Baronet, of Hartford Hill in Great Budworth in the County of Chester, on 8 July 1910. He was succeeded by his only son, the second Baron. He was also a politician and businessman. His second but only surviving son, the third Baron, was a businessman. s of 2010 the titles are held by the latter's son, the fourth Baron, who succeeded in 1973. He held political office under James Callaghan in the late 1970s and was later Executive Director of Greenpeace UK.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Baron Melchett\", \"type\": \"TITLE\"},\n    {\"name\": \"Landford\", \"type\": \"GPE\"},\n    {\"name\": \"County of Southampton\", \"type\": \"GPE\"},\n    {\"name\": \"Peerage of the United Kingdom\", \"type\": \"ORG\"},\n    {\"name\": \"Sir Alfred Mond\", \"type\": \"PERSON\"},\n    {\"name\": \"Imperial Chemical Industries\", \"type\": \"ORG\"},\n    {\"name\": \"First Commissioner of Works\", \"type\": \"TITLE\"},\n    {\"name\": \"Minister of Health\", \"type\": \"TITLE\"},\n    {\"name\": \"Hartford Hill\", \"type\": \"LOC\"},\n    {\"name\": \"Great Budworth\", \"type\": \"GPE\"},\n    {\"name\": \"County of Chester\", \"type\": \"GPE\"},\n    {\"name\": \"James Callaghan\", \"type\": \"PERSON\"},\n    {\"name\": \"Greenpeace UK\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Baron Melchett\",\n      \"relation\": \"located_in\",\n      \"object\": \"Landford\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Landford\"}\n      ]\n    },\n    {\n      \"subject\": \"Baron Melchett\",\n      \"relation\": \"located_in\",\n      \"object\": \"County of Southampton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the County of Southampton\"}\n      ]\n    },\n    {\n      \"subject\": \"Baron Melchett\",\n      \"relation\": \"belongs_to\",\n      \"object\": \"Peerage of the United Kingdom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a title in the Peerage of the United Kingdom\"}\n      ]\n    },\n    {\n      \"subject\": \"Sir Alfred Mond\",\n      \"relation\": \"held_title\",\n      \"object\": \"Baron Melchett\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for Sir Alfred Mond\"}\n      ]\n    },\n    {\n      \"subject\": \"Sir Alfred Mond\",\n      \"relation\": \"worked_as\",\n      \"object\": \"Chairman of Imperial Chemical Industries\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Chairman of Imperial Chemical Industries\"}\n      ]\n    },\n    {\n      \"subject\": \"Sir Alfred Mond\",\n      \"relation\": \"was\",\n      \"object\": \"First Commissioner of Works\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a former First Commissioner of Works\"}\n      ]\n    },\n    {\n      \"subject\": \"Sir Alfred Mond\",\n      \"relation\": \"was\",\n      \"object\": \"Minister of Health\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Minister of Health\"}\n      ]\n    },\n    {\n      \"subject\": \"Sir Alfred Mond\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hartford Hill\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Hartford Hill\"}\n      ]\n    },\n    {\n      \"subject\": \"Hartford Hill\",\n      \"relation\": \"located_in\",\n      \"object\": \"Great Budworth\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Great Budworth\"}\n      ]\n    },\n    {\n      \"subject\": \"Great Budworth\",\n      \"relation\": \"located_in\",\n      \"object\": \"County of Chester\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the County of Chester\"}\n      ]\n    },\n    {\n      \"subject\": \"Baron Melchett\",\n      \"relation\": \"held_by\",\n      \"object\": \"the fourth Baron\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the fourth Baron\"}\n      ]\n    },\n    {\n      \"subject\": \"the fourth Baron\",\n      \"relation\": \"worked_under\",\n      \"object\": \"James Callaghan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"under James Callaghan\"}\n      ]\n    },\n    {\n      \"subject\": \"the fourth Baron\",\n      \"relation\": \"worked_as\",\n      \"object\": \"Executive Director of Greenpeace UK\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Executive Director of Greenpeace UK\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,123 @@
+{
+  "entities": {
+    "John Dustin Archbold": "Person",
+    "Standard Oil Company": "Company",
+    "John D Rockefeller": "Person",
+    "Standard Oil of New Jersey": "Company",
+    "Supreme Court": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "John Dustin Archbold",
+      "relation": "founded",
+      "object": "Standard Oil Company",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one of the United States' earliest oil refiners"
+        }
+      ]
+    },
+    {
+      "subject": "Standard Oil Company",
+      "relation": "bought_out_by",
+      "object": "John D Rockefeller",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was bought out by John D Rockefeller's Standard Oil Company"
+        }
+      ]
+    },
+    {
+      "subject": "John D Rockefeller",
+      "relation": "was_associate_of",
+      "object": "John Dustin Archbold",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "he was Rockefeller's closest associate"
+        }
+      ]
+    },
+    {
+      "subject": "John D Rockefeller",
+      "relation": "left_business_matters_to",
+      "object": "John Dustin Archbold",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Rockefeller after 1896 left business matters to Archbold"
+        }
+      ]
+    },
+    {
+      "subject": "John Dustin Archbold",
+      "relation": "ran",
+      "object": "Standard Oil Company",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Archbold effectively ran Standard Oil until his death in 1916"
+        }
+      ]
+    },
+    {
+      "subject": "Standard Oil Company",
+      "relation": "broken_up_by",
+      "object": "Supreme Court",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "The company was broken up by the Supreme Court in 1911"
+        }
+      ]
+    },
+    {
+      "subject": "John Dustin Archbold",
+      "relation": "became_president_of",
+      "object": "Standard Oil of New Jersey",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Archbold became president of the largest one, Standard Oil of New Jersey"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John Dustin Archbold",
+        "born_in",
+        "Leesburg, Ohio"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John Dustin Archbold",
+        "died_in",
+        "Tarrytown, New York"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John Dustin Archbold",
+        "was_a",
+        "American capitalist"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "John Dustin Archbold",
+        "acted_as",
+        "primary spokesman"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John Dustin Archbold\nJohn Dustin Archbold (July 26, 1848 in Leesburg, Ohio – December 6, 1916 in Tarrytown, New York) was an American capitalist and one of the United States' earliest oil refiners. His small oil company was bought out by John D Rockefeller's Standard Oil Company. Archbold rose rapidly at Standard Oil, handling many of the complex secret negotiations over the years. By 1882 he was Rockefeller's closest associate, and typically acted as the company's primary spokesman. Rockefeller after 1896 left business matters to Archbold while he pursued his philanthropy; as vice president Archbold effectively ran Standard Oil until his death in 1916. Inspired by Rockefeller's policies, Archbold's main goals were stabilization, efficiency, and minimizing waste in refining and distributing petroleum products. The company was broken up by the Supreme Court in 1911 into three dozen smaller operations, Archbold became president of the largest one, Standard Oil of New Jersey."
+}

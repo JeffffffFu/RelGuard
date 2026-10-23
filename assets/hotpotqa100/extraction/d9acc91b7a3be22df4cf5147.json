@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Kirk Humphreys": "PERSON",
+    "American": "NORP",
+    "Mayor of Oklahoma City": "WORK_OF_ART",
+    "Oklahoma City": "GPE",
+    "Republican party": "NORP",
+    "U.S. Senator": "WORK_OF_ART",
+    "Tom Coburn": "PERSON",
+    "The Humphreys Company": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Kirk Humphreys",
+      "relation": "served_as",
+      "object": "Mayor of Oklahoma City",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "served as",
+          "line_start": 71,
+          "char_start": 86,
+          "ambiguous": false,
+          "relation_mention": "served as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Kirk Humphreys",
+      "relation": "considered_favorite_of",
+      "object": "Republican party",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "a favorite candidate of",
+          "line_start": 162,
+          "char_start": 177,
+          "ambiguous": false,
+          "relation_mention": "a favorite candidate of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Kirk Humphreys",
+      "relation": "is_chairman_of",
+      "object": "The Humphreys Company",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is the chairman of",
+          "line_start": 317,
+          "char_start": 332,
+          "ambiguous": false,
+          "relation_mention": "is the chairman of",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kirk Humphreys",
+        "born_in_nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mayor of Oklahoma City",
+        "located_in",
+        "Oklahoma City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kirk Humphreys",
+        "was_candidate_for",
+        "U.S. Senator"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tom Coburn",
+        "is_a",
+        "PERSON"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kirk Humphreys\nKirk Humphreys (born September 13, 1950) is an American politician who served as Mayor of Oklahoma City from April 9, 1998 to November 3, 2003. He was considered a favorite candidate of the Republican party establishment for U.S. Senator in 2004, losing to former Congressman Tom Coburn, MD in the primary. Humphreys is the chairman of The Humphreys Company."
+}

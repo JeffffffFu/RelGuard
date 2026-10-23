@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Theodred II": "Person",
+    "Elmham": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Theodred II",
+      "relation": "was_bishop_of",
+      "object": "Elmham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bishop of Elmham"
+        },
+        {
+          "sentence_id": 2,
+          "relation_mention": "Bishop of Elmham"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Theodred II",
+        "died_between",
+        "995 and 997"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Theodred II",
+        "consecration_date_unknown",
+        "unknown"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Theodred II (Bishop of Elmham)\nTheodred II was a medieval Bishop of Elmham. The date of Theodred's consecration unknown, but the date of his death was sometime between 995 and 997."
+}

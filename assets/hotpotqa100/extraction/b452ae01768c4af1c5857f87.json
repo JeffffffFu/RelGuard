@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Bashneft": "Company",
+    "Boris Yeltsin": "Person",
+    "Murtaza Rakhimov": "Person",
+    "Ural Rakhimov": "Person",
+    "Vladimir P. Yevtushenkov": "Person",
+    "Sistema": "Company",
+    "Russian government": "Government",
+    "Republic of Bashkortostan": "Location",
+    "Bashkir Capital": "Company",
+    "Ufa": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Bashneft",
+      "relation": "formed_by",
+      "object": "Republic of Bashkortostan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "formed by the transfer of the oil related assets of the Soviet oil ministry in Bashkortostan to the regional government of the Republic of Bashkortostan by Boris Yeltsin."
+        }
+      ]
+    },
+    {
+      "subject": "Murtaza Rakhimov",
+      "relation": "controlled_by",
+      "object": "Ural Rakhimov",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with a controlling interest in Bashkir Capital, a holding company controlled by Rakhimov's son, Ural Rakhimov."
+        }
+      ]
+    },
+    {
+      "subject": "Sistema",
+      "relation": "seized_by",
+      "object": "Russian government",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "but in July 2014 he was jailed and 72% of Sistema's interest in Bashneft seized by the Russian government."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bashneft",
+        "privatized_by",
+        "Murtaza Rakhimov"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bashneft",
+        "acquired_by",
+        "Vladimir P. Yevtushenkov"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Vladimir P. Yevtushenkov",
+        "placed_in",
+        "Sistema"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bashneft",
+        "operates_in",
+        "Russia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bashneft",
+        "annual_oil_production",
+        "16 million tonnes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bashneft",
+        "owns",
+        "three oil refineries"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "three oil refineries",
+        "located_in",
+        "Ufa"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bashneft\nBashneft is a Russian oil company formed by the transfer of the oil related assets of the Soviet oil ministry in Bashkortostan to the regional government of the Republic of Bashkortostan by Boris Yeltsin. It was then privatized during 2002-3 by Murtaza Rakhimov, the president of Bashkortostan, an ally of Yeltsin's, with a controlling interest in Bashkir Capital, a holding company controlled by Rakhimov's son, Ural Rakhimov. In 2009 a controlling interest in Bashneft was acquired for $2 billion by Vladimir P. Yevtushenkov and placed in his holding company, Sistema, but in July 2014 he was jailed and 72% of Sistema's interest in Bashneft seized by the Russian government. Following seizure of the company in December 2014 Yevtushenkov was released from jail, \"charges not proven,\" but Ural Rakhimov was reported to have fled the country. It is one of the larger producers of oil products in the country. The company operates 140 oil and natural gas fields in Russia and has an annual oil production of 16 million tonnes. Bashneft owns three oil refineries located in Ufa with a combined capacity of 820000 oilbbl/d and 100 petrol stations."
+}

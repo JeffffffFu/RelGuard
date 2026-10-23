@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Luna Park, Coney Island (2010)": "WORK_OF_ART",
+    "Luna Park": "WORK_OF_ART",
+    "Coney Island": "LOC",
+    "Brooklyn": "GPE",
+    "New York City": "GPE",
+    "Astroland": "WORK_OF_ART",
+    "Luna Park (1903)": "WORK_OF_ART",
+    "1000 Surf Avenue": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Luna Park, Coney Island (2010)",
+      "relation": "opened_on",
+      "object": "Luna Park (1903)",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "opened on",
+          "line_start": 111,
+          "char_start": 142,
+          "ambiguous": false,
+          "relation_mention": "opened on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Luna Park (1903)",
+      "relation": "existed_until",
+      "object": "Luna Park, Coney Island (2010)",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "existed until",
+          "line_start": 279,
+          "char_start": 310,
+          "ambiguous": false,
+          "relation_mention": "existed until",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Luna Park, Coney Island (2010)",
+        "located_in",
+        "Coney Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Luna Park, Coney Island (2010)",
+        "located_in",
+        "Brooklyn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Luna Park, Coney Island (2010)",
+        "located_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Luna Park, Coney Island (2010)",
+        "opened_on",
+        "Astroland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Luna Park, Coney Island (2010)",
+        "located_in",
+        "1000 Surf Avenue"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Astroland",
+        "located_in",
+        "1000 Surf Avenue"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Luna Park, Coney Island (2010)\nLuna Park is the name of an amusement park in the neighborhood of Coney Island, Brooklyn in New York City that opened on May 29, 2010 at the former site of Astroland, an amusement park that had been in operation for 46 years. It was named after the original 1903 Luna Park which existed until 1944 on a site just north of the current park's 1000 Surf Avenue location.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Luna Park, Coney Island (2010)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Luna Park\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Coney Island\", \"type\": \"LOC\"},\n    {\"name\": \"Brooklyn\", \"type\": \"GPE\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"Astroland\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Luna Park (1903)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"1000 Surf Avenue\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Luna Park, Coney Island (2010)\",\n      \"relation\": \"located_in\",\n      \"object\": \"Coney Island\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the neighborhood of\"}\n      ]\n    },\n    {\n      \"subject\": \"Luna Park, Coney Island (2010)\",\n      \"relation\": \"located_in\",\n      \"object\": \"Brooklyn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the neighborhood of Coney Island, Brooklyn in\"}\n      ]\n    },\n    {\n      \"subject\": \"Luna Park, Coney Island (2010)\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in New York City\"}\n      ]\n    },\n    {\n      \"subject\": \"Luna Park, Coney Island (2010)\",\n      \"relation\": \"opened_on\",\n      \"object\": \"Luna Park (1903)\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"opened on\"}\n      ]\n    },\n    {\n      \"subject\": \"Luna Park, Coney Island (2010)\",\n      \"relation\": \"opened_on\",\n      \"object\": \"Astroland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the former site of\"}\n      ]\n    },\n    {\n      \"subject\": \"Luna Park (1903)\",\n      \"relation\": \"existed_until\",\n      \"object\": \"Luna Park, Coney Island (2010)\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"existed until\"}\n      ]\n    },\n    {\n      \"subject\": \"Luna Park, Coney Island (2010)\",\n      \"relation\": \"located_in\",\n      \"object\": \"1000 Surf Avenue\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"location\"}\n      ]\n    },\n    {\n      \"subject\": \"Astroland\",\n      \"relation\": \"located_in\",\n      \"object\": \"1000 Surf Avenue\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"site\"}\n      ]\n    }\n  ]\n}"
+}

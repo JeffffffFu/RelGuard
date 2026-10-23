@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Swimming with Sharks": "Film",
+    "The Boss and Buddy Factor": "Film",
+    "George Huang": "Person",
+    "Kevin Spacey": "Person",
+    "Frank Whaley": "Person",
+    "Michelle Forbes": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Swimming with Sharks",
+      "relation": "also_known_as",
+      "object": "The Boss and Buddy Factor",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also known as The Boss and Buddy Factor"
+        }
+      ]
+    },
+    {
+      "subject": "Swimming with Sharks",
+      "relation": "written_and_directed_by",
+      "object": "George Huang",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by George Huang"
+        }
+      ]
+    },
+    {
+      "subject": "Swimming with Sharks",
+      "relation": "starring",
+      "object": "Kevin Spacey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Kevin Spacey"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Swimming with Sharks",
+        "starring",
+        "Frank Whaley"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Swimming with Sharks",
+        "starring",
+        "Michelle Forbes"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Swimming with Sharks\nSwimming with Sharks( also known as The Boss and Buddy Factor) is a 1994 American dark comedy- drama film written and directed by George Huang and starring Kevin Spacey, Frank Whaley and Michelle Forbes."
+}

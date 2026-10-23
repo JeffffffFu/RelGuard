@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Mandarin Oriental, New York": "Hotel",
+    "Manhattan's Time Warner Center": "Location",
+    "New York City": "Location",
+    "Mandarin Oriental Hotel Group": "Organization",
+    "Time Warner Center": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Mandarin Oriental, New York",
+      "relation": "located_in",
+      "object": "Manhattan's Time Warner Center",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in Manhattan's Time Warner Center"
+        }
+      ]
+    },
+    {
+      "subject": "Mandarin Oriental, New York",
+      "relation": "managed_by",
+      "object": "Mandarin Oriental Hotel Group",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "managed by Mandarin Oriental Hotel Group"
+        }
+      ]
+    },
+    {
+      "subject": "Mandarin Oriental, New York",
+      "relation": "part_of",
+      "object": "Time Warner Center",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "part of the multi-use Time Warner Center development"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mandarin Oriental, New York",
+        "opened",
+        "December 2003"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mandarin Oriental, New York",
+        "provides_services_for",
+        "64 residences"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mandarin Oriental, New York",
+        "received",
+        "many national and international awards"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mandarin Oriental, New York",
+        "operates",
+        "one of only two Forbes Five-Star spas in Manhattan"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mandarin Oriental, New York\nMandarin Oriental, New York, is a five-star hotel located in Manhattan's Time Warner Center at Columbus Circle in New York City, managed by Mandarin Oriental Hotel Group. A part of the multi-use Time Warner Center development, the hotel opened its doors in December 2003. In addition to the 248 guestrooms and suites, the hotel provides services for 64 residences. The hotel has received many national and international awards, and operates one of only two Forbes Five-Star spas in Manhattan."
+}

@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Hutu": "ethnic_group",
+    "Tutsi": "ethnic_group",
+    "Twa": "ethnic_group",
+    "Rwanda": "country",
+    "Burundi": "country",
+    "Great Lakes region of Africa": "region",
+    "Rwandan genocide": "event",
+    "Burundian genocide": "event",
+    "First Congo War": "event",
+    "Second Congo War": "event"
+  },
+  "triples": [
+    {
+      "subject": "Hutu",
+      "relation": "largest_social_group_in",
+      "object": "Rwanda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Hutu are the largest social group in Rwanda"
+        }
+      ]
+    },
+    {
+      "subject": "Tutsi",
+      "relation": "settled_amongst",
+      "object": "Hutu",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Tutsi were often identified as a separate race and also foreign, that settled amongst and intermarried with the Hutu"
+        }
+      ]
+    },
+    {
+      "subject": "Hutu",
+      "relation": "intermarried_with",
+      "object": "Tutsi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that settled amongst and intermarried with the Hutu"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tutsi",
+        "identified_as",
+        "separate race"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hutu",
+        "derived_from",
+        "perceived origins"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tutsi",
+        "derived_from",
+        "perceived origins"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rwandan genocide",
+        "related_to",
+        "origins of Hutu and Tutsi"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Burundian genocide",
+        "related_to",
+        "origins of Hutu and Tutsi"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "First Congo War",
+        "related_to",
+        "origins of Hutu and Tutsi"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Second Congo War",
+        "related_to",
+        "origins of Hutu and Tutsi"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Origins of Hutu, Tutsi and Twa\nThe origins of the Tutsi and Hutu peoples is a major issue in the histories of Rwanda and Burundi, as well as the Great Lakes region of Africa. While the Hutu are the largest social group in Rwanda, (although in racialist ideology originally introduced by European colonizers, the Tutsi were often identified as a separate race and also foreign, that settled amongst and intermarried with the Hutu, a Bantu group that had arrived in the region earlier, during the Bantu expansion). The relationship between the two modern populations is thus, in many ways, derived from the perceived origins and claim to \"Rwandan-ness\". The largest conflicts related to this question were the Rwandan genocide, the Burundian genocide, and the First and Second Congo Wars."
+}

@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Luigi Cozzi": "PERSON",
+    "Dario Argento": "PERSON",
+    "The Tunnel Under the World": "WORK_OF_ART",
+    "Hercules": "WORK_OF_ART",
+    "Blood on Méliès' Moon": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Luigi Cozzi",
+        "born_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Luigi Cozzi",
+        "works_as",
+        "Luigi Cozzi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Luigi Cozzi",
+        "founded_fan_of",
+        "science fiction"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Luigi Cozzi",
+        "was_overseas_correspondent_for",
+        "Western film magazines"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Luigi Cozzi",
+        "directed",
+        "The Tunnel Under the World"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Luigi Cozzi",
+        "befriended",
+        "Dario Argento"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Luigi Cozzi",
+        "worked_with",
+        "Dario Argento"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Luigi Cozzi",
+        "directed",
+        "Hercules"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Luigi Cozzi",
+        "directed",
+        "Blood on Méliès' Moon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Luigi Cozzi\nLuigi Cozzi( born 7 September 1947) is an Italian film director and screenwriter. At a young age, Cozzi became a fan of science fiction and began his career as an overseas correspondent for Western film magazines. After directing his first film\" The Tunnel Under the World\", Cozzi befriended director Dario Argento and began working with him in film and television as well as directing his own features including\" Hercules\" as well as continuing work with Argento. In the 2010s, he returned to directing with the film\" Blood on Méliès' Moon\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Luigi Cozzi\", \"type\": \"PERSON\"},\n    {\"name\": \"Italy\", \"type\": \"GPE\"},\n    {\"name\": \"Dario Argento\", \"type\": \"PERSON\"},\n    {\"name\": \"The Tunnel Under the World\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Hercules\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Blood on Méliès' Moon\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Luigi Cozzi\",\n      \"relation\": \"born_in\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an Italian\"}\n      ]\n    },\n    {\n      \"subject\": \"Luigi Cozzi\",\n      \"relation\": \"works_as\",\n      \"object\": \"Luigi Cozzi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an Italian film director and screenwriter\"}\n      ]\n    },\n    {\n      \"subject\": \"Luigi Cozzi\",\n      \"relation\": \"founded_fan_of\",\n      \"object\": \"science fiction\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became a fan of\"}\n      ]\n    },\n    {\n      \"subject\": \"Luigi Cozzi\",\n      \"relation\": \"was_overseas_correspondent_for\",\n      \"object\": \"Western film magazines\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"began his career as an overseas correspondent for Western film magazines\"}\n      ]\n    },\n    {\n      \"subject\": \"Luigi Cozzi\",\n      \"relation\": \"directed\",\n      \"object\": \"The Tunnel Under the World\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directing his first film\\\" The Tunnel Under the World\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Luigi Cozzi\",\n      \"relation\": \"befriended\",\n      \"object\": \"Dario Argento\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"befriended director Dario Argento\"}\n      ]\n    },\n    {\n      \"subject\": \"Luigi Cozzi\",\n      \"relation\": \"worked_with\",\n      \"object\": \"Dario Argento\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"began working with him in film and television\"}\n      ]\n    },\n    {\n      \"subject\": \"Luigi Cozzi\",\n      \"relation\": \"directed\",\n      \"object\": \"Hercules\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directing his own features including\\\" Hercules\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Luigi Cozzi\",\n      \"relation\": \"directed\",\n      \"object\": \"Blood on Méliès' Moon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"returned to directing with the film\\\" Blood on Méliès' Moon\\\"\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Kalaya Tasmai Namaha": "WORK_OF_ART",
+    "Kannada": "LANGUAGE",
+    "Chandrashekar Shrivastav": "PERSON",
+    "Yogesh": "PERSON",
+    "Madhubala": "PERSON",
+    "Snake Shyam": "PERSON",
+    "A. M. Neel": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Kalaya Tasmai Namaha",
+      "relation": "directed_by",
+      "object": "Chandrashekar Shrivastav",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed and written by",
+          "line_start": 57,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "directed and written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Kalaya Tasmai Namaha",
+      "relation": "written_by",
+      "object": "Chandrashekar Shrivastav",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed and written by",
+          "line_start": 57,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "directed and written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Snake Shyam",
+      "relation": "makes_appearance_in",
+      "object": "Kalaya Tasmai Namaha",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "makes a special appearance in",
+          "line_start": 184,
+          "char_start": 205,
+          "ambiguous": false,
+          "relation_mention": "makes a special appearance in",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "A. M. Neel",
+      "relation": "composed_music_for",
+      "object": "Kalaya Tasmai Namaha",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "composed by",
+          "line_start": 244,
+          "char_start": 265,
+          "ambiguous": false,
+          "relation_mention": "composed by",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kalaya Tasmai Namaha",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kalaya Tasmai Namaha",
+        "in_language",
+        "Kannada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kalaya Tasmai Namaha",
+        "stars",
+        "Yogesh"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kalaya Tasmai Namaha",
+        "stars",
+        "Madhubala"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kalaya Tasmai Namaha\nKalaya Tasmai Namaha is a 2012 Kannada Crime drama movie directed and written by Chandrashekar Shrivastav. The film stars Yogesh and debutante Madhubala in the lead roles. Snake Shyam makes a special appearance in a song sequence. The music is composed by A. M. Neel.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kalaya Tasmai Namaha\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Kannada\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Chandrashekar Shrivastav\", \"type\": \"PERSON\"},\n    {\"name\": \"Yogesh\", \"type\": \"PERSON\"},\n    {\"name\": \"Madhubala\", \"type\": \"PERSON\"},\n    {\"name\": \"Snake Shyam\", \"type\": \"PERSON\"},\n    {\"name\": \"A. M. Neel\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kalaya Tasmai Namaha\",\n      \"relation\": \"is_a\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a 2012 Kannada Crime drama movie\"}\n      ]\n    },\n    {\n      \"subject\": \"Kalaya Tasmai Namaha\",\n      \"relation\": \"in_language\",\n      \"object\": \"Kannada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Kannada\"}\n      ]\n    },\n    {\n      \"subject\": \"Kalaya Tasmai Namaha\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Chandrashekar Shrivastav\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed and written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Kalaya Tasmai Namaha\",\n      \"relation\": \"written_by\",\n      \"object\": \"Chandrashekar Shrivastav\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed and written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Kalaya Tasmai Namaha\",\n      \"relation\": \"stars\",\n      \"object\": \"Yogesh\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars Yogesh\"}\n      ]\n    },\n    {\n      \"subject\": \"Kalaya Tasmai Namaha\",\n      \"relation\": \"stars\",\n      \"object\": \"Madhubala\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and debutante Madhubala in the lead roles\"}\n      ]\n    },\n    {\n      \"subject\": \"Snake Shyam\",\n      \"relation\": \"makes_appearance_in\",\n      \"object\": \"Kalaya Tasmai Namaha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"makes a special appearance in\"}\n      ]\n    },\n    {\n      \"subject\": \"A. M. Neel\",\n      \"relation\": \"composed_music_for\",\n      \"object\": \"Kalaya Tasmai Namaha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"composed by\"}\n      ]\n    }\n  ]\n}"
+}

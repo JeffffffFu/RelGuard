@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "A Rare Bird": "Film",
+    "Richard Pottier": "Director",
+    "Pierre Brasseur": "Actor",
+    "Max Dearly": "Actor",
+    "Monique Rolland": "Actor",
+    "Robert Hubert": "Art Director",
+    "Jacques Krauss": "Art Director"
+  },
+  "triples": [
+    {
+      "subject": "A Rare Bird",
+      "relation": "directed_by",
+      "object": "Richard Pottier",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Richard Pottier"
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "starring",
+      "object": "Pierre Brasseur",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Pierre Brasseur"
+        }
+      ]
+    },
+    {
+      "subject": "A Rare Bird",
+      "relation": "designed_by",
+      "object": "Robert Hubert",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "designed by the art directors Robert Hubert"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "A Rare Bird",
+        "starring",
+        "Max Dearly"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "A Rare Bird",
+        "starring",
+        "Monique Rolland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "A Rare Bird",
+        "designed_by",
+        "Jacques Krauss"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "A Rare Bird\nA Rare Bird (French: Un oiseau rare) is a 1935 French comedy film directed by Richard Pottier and starring Pierre Brasseur, Max Dearly and Monique Rolland. The film's sets were designed by the art directors Robert Hubert and Jacques Krauss."
+}

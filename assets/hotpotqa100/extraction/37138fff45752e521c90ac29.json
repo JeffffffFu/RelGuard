@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "Lawrence Nash Groupé": "PERSON",
+    "Larry Groupé": "PERSON",
+    "Immediate Music": "ORG",
+    "Imperativa Records": "ORG",
+    "Rod Lurie": "PERSON",
+    "Deterrence": "WORK_OF_ART",
+    "The Contender": "WORK_OF_ART",
+    "Emmy": "EVENT",
+    "Line of Fire": "WORK_OF_ART",
+    "Residue": "WORK_OF_ART",
+    "Cambodia": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Lawrence Nash Groupé",
+      "relation": "also_known_as",
+      "object": "Larry Groupé",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "best known as",
+          "line_start": 39,
+          "char_start": 52,
+          "ambiguous": false,
+          "relation_mention": "best known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Lawrence Nash Groupé",
+      "relation": "won",
+      "object": "Emmy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and won three",
+          "line_start": 402,
+          "char_start": 415,
+          "ambiguous": false,
+          "relation_mention": "and won three",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Lawrence Nash Groupé",
+        "nationality",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lawrence Nash Groupé",
+        "works_for",
+        "Immediate Music"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Immediate Music",
+        "has_offshoot_label",
+        "Imperativa Records"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lawrence Nash Groupé",
+        "composed",
+        "Deterrence"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lawrence Nash Groupé",
+        "composed",
+        "The Contender"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lawrence Nash Groupé",
+        "nominated_for",
+        "Emmy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lawrence Nash Groupé",
+        "nominated_for",
+        "Line of Fire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lawrence Nash Groupé",
+        "composed",
+        "Residue"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Residue",
+        "about",
+        "Cambodia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "United States",
+        "abbreviation",
+        "US"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Larry Groupé\nLawrence Nash Groupé, born April 1957, best known as Larry Groupé, is an American film score composer for Immediate Music's offshoot label, Imperativa Records. Groupé has composed and orchestrated music for dozens of films and television programs. His most popular works include the score for Rod Lurie's movies \"Deterrence\" and \"The Contender\". Groupé has been nominated four times for an Emmy award, and won three. In 2004, he was nominated for an Emmy for the best original score for the TV series \"Line of Fire\". He later won Emmys for the score of the documentary film \",\" for the short subject film \"Residue,\" about the US early involvement in Cambodia, and for .",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Lawrence Nash Groupé\", \"type\": \"PERSON\"},\n    {\"name\": \"Larry Groupé\", \"type\": \"PERSON\"},\n    {\"name\": \"Immediate Music\", \"type\": \"ORG\"},\n    {\"name\": \"Imperativa Records\", \"type\": \"ORG\"},\n    {\"name\": \"Rod Lurie\", \"type\": \"PERSON\"},\n    {\"name\": \"Deterrence\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Contender\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Emmy\", \"type\": \"EVENT\"},\n    {\"name\": \"Line of Fire\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Residue\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Cambodia\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Lawrence Nash Groupé\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Larry Groupé\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"best known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Lawrence Nash Groupé\",\n      \"relation\": \"nationality\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Lawrence Nash Groupé\",\n      \"relation\": \"works_for\",\n      \"object\": \"Immediate Music\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for\"}\n      ]\n    },\n    {\n      \"subject\": \"Immediate Music\",\n      \"relation\": \"has_offshoot_label\",\n      \"object\": \"Imperativa Records\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"offshoot label, Imperativa Records\"}\n      ]\n    },\n    {\n      \"subject\": \"Lawrence Nash Groupé\",\n      \"relation\": \"composed\",\n      \"object\": \"Deterrence\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"the score for Rod Lurie's movies \\\"Deterrence\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Lawrence Nash Groupé\",\n      \"relation\": \"composed\",\n      \"object\": \"The Contender\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"and \\\"The Contender\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Lawrence Nash Groupé\",\n      \"relation\": \"nominated_for\",\n      \"object\": \"Emmy\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"has been nominated four times for an Emmy\"}\n      ]\n    },\n    {\n      \"subject\": \"Lawrence Nash Groupé\",\n      \"relation\": \"won\",\n      \"object\": \"Emmy\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"and won three\"}\n      ]\n    },\n    {\n      \"subject\": \"Lawrence Nash Groupé\",\n      \"relation\": \"nominated_for\",\n      \"object\": \"Line of Fire\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"nominated for an Emmy for the best original score for the TV series \\\"Line of Fire\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Lawrence Nash Groupé\",\n      \"relation\": \"composed\",\n      \"object\": \"Residue\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"for the short subject film \\\"Residue,\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Residue\",\n      \"relation\": \"about\",\n      \"object\": \"Cambodia\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"about the US early involvement in Cambodia\"}\n      ]\n    },\n    {\n      \"subject\": \"United States\",\n      \"relation\": \"abbreviation\",\n      \"object\": \"US\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"US\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,174 @@
+{
+  "entities": {
+    "MrJims.Pizza": "ORG",
+    "Farmers Branch": "GPE",
+    "Texas": "GPE",
+    "Jim Johnson": "PERSON",
+    "Detroit": "GPE",
+    "Michigan": "GPE",
+    "Louisiana": "GPE",
+    "North Carolina": "GPE",
+    "Nevada": "GPE",
+    "Wyoming": "GPE",
+    "Mr. Jim's Pizza": "ORG",
+    "Nacho Stix": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "located_in",
+      "object": "Farmers Branch",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 50,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Farmers Branch",
+      "relation": "located_in",
+      "object": "Texas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 50,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jim Johnson",
+      "relation": "founded",
+      "object": "MrJims.Pizza",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "opened",
+          "line_start": 94,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "opened",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Jim Johnson",
+      "relation": "opened",
+      "object": "MrJims.Pizza",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "opened",
+          "line_start": 94,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "opened",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Jim Johnson",
+      "relation": "opened",
+      "object": "Detroit",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "opened",
+          "line_start": 94,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "opened",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "introduced",
+      "object": "Nacho Stix",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "introduced",
+          "line_start": 532,
+          "char_start": 548,
+          "ambiguous": false,
+          "relation_mention": "introduced",
+          "sentence_id": 8
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Detroit",
+        "located_in",
+        "Michigan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "MrJims.Pizza",
+        "has_locations_in",
+        "Louisiana"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "MrJims.Pizza",
+        "has_locations_in",
+        "Texas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "MrJims.Pizza",
+        "has_locations_in",
+        "North Carolina"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "MrJims.Pizza",
+        "has_locations_in",
+        "Nevada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "MrJims.Pizza",
+        "has_locations_in",
+        "Wyoming"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "MrJims.Pizza",
+        "known_for",
+        "crust"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mr. Jim's Pizza\nMrJims.Pizza is a U.S. chain of pizza restaurants based in Farmers Branch, Texas. Jim Johnson opened the first restaurant in Detroit, Michigan in 1975. There are currently 42 locations in Louisiana, Texas, North Carolina, Nevada and Wyoming, with the majority located in northern Texas. MrJims.Pizza is widely known for their crust. Their hand stretched pizza dough is made fresh in the store daily from flour containing 100% spring wheat. Every single MrJims.Pizza franchise has online ordering capabilities. In 2006, MrJims.Pizza introduced a unique new item, Nacho Stix, to their menu. It quickly became one of their bestsellers, and lead to a resurgence in the popularity of MrJims.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"MrJims.Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"Farmers Branch\", \"type\": \"GPE\"},\n    {\"name\": \"Texas\", \"type\": \"GPE\"},\n    {\"name\": \"Jim Johnson\", \"type\": \"PERSON\"},\n    {\"name\": \"Detroit\", \"type\": \"GPE\"},\n    {\"name\": \"Michigan\", \"type\": \"GPE\"},\n    {\"name\": \"Louisiana\", \"type\": \"GPE\"},\n    {\"name\": \"North Carolina\", \"type\": \"GPE\"},\n    {\"name\": \"Nevada\", \"type\": \"GPE\"},\n    {\"name\": \"Wyoming\", \"type\": \"GPE\"},\n    {\"name\": \"Mr. Jim's Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"Nacho Stix\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"MrJims.Pizza\",\n      \"relation\": \"located_in\",\n      \"object\": \"Farmers Branch\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Farmers Branch\",\n      \"relation\": \"located_in\",\n      \"object\": \"Texas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Jim Johnson\",\n      \"relation\": \"founded\",\n      \"object\": \"MrJims.Pizza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"opened\"}\n      ]\n    },\n    {\n      \"subject\": \"Jim Johnson\",\n      \"relation\": \"opened\",\n      \"object\": \"MrJims.Pizza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"opened\"}\n      ]\n    },\n    {\n      \"subject\": \"Jim Johnson\",\n      \"relation\": \"opened\",\n      \"object\": \"Detroit\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"opened\"}\n      ]\n    },\n    {\n      \"subject\": \"Detroit\",\n      \"relation\": \"located_in\",\n      \"object\": \"Michigan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"MrJims.Pizza\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Louisiana\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"MrJims.Pizza\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Texas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"MrJims.Pizza\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"North Carolina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"MrJims.Pizza\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Nevada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"MrJims.Pizza\",\n      \"relation\": \"has_locations_in\",\n      \"object\": \"Wyoming\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"MrJims.Pizza\",\n      \"relation\": \"known_for\",\n      \"object\": \"crust\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is widely known for\"}\n      ]\n    },\n    {\n      \"subject\": \"MrJims.Pizza\",\n      \"relation\": \"introduced\",\n      \"object\": \"Nacho Stix\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"introduced\"}\n      ]\n    }\n  ]\n}"
+}

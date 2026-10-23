@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Paganini Horror": "WORK_OF_ART",
+    "Italian": "NORP",
+    "Luigi Cozzi": "PERSON",
+    "Niccolò Paganini": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Paganini Horror",
+      "relation": "directed_by",
+      "object": "Luigi Cozzi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 46,
+          "char_start": 62,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Paganini Horror",
+        "has_nationality",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Paganini Horror",
+        "features_work_by",
+        "Niccolò Paganini"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Paganini Horror\nPaganini Horror is a 1989 Italian horror film directed by Luigi Cozzi. The film tells the story of a largely female rock band who acquires an unpublished score by composer Niccolò Paganini and decides to record it. When the band films a music video for the song in Paganini's ancient home, it awakens the spirit of the deceased composer and unlocks a portal to Hell.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Paganini Horror\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Italian\", \"type\": \"NORP\"},\n    {\"name\": \"Luigi Cozzi\", \"type\": \"PERSON\"},\n    {\"name\": \"Niccolò Paganini\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Paganini Horror\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Luigi Cozzi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Paganini Horror\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Italian\"}\n      ]\n    },\n    {\n      \"subject\": \"Paganini Horror\",\n      \"relation\": \"features_work_by\",\n      \"object\": \"Niccolò Paganini\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Niccolò Paganini\"}\n      ]\n    }\n  ]\n}"
+}

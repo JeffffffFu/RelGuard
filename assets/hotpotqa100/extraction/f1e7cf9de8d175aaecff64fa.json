@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Marc Ford": "Person",
+    "The Black Crowes": "Band",
+    "Burning Tree": "Band",
+    "Marc Ford & The Neptune Blues Club": "Band",
+    "Jefferson Steelflex": "Band",
+    "Fuzz Machine": "Band",
+    "Marc Ford & The Sinners": "Band",
+    "The Magpie Salute": "Band"
+  },
+  "triples": [
+    {
+      "subject": "Marc Ford",
+      "relation": "former_lead_guitarist_of",
+      "object": "The Black Crowes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "former lead guitarist of the rock and roll jam band The Black Crowes"
+        }
+      ]
+    },
+    {
+      "subject": "Marc Ford",
+      "relation": "leader_of",
+      "object": "Burning Tree",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "leader of his own bands: Burning Tree"
+        }
+      ]
+    },
+    {
+      "subject": "Marc Ford",
+      "relation": "performing_with",
+      "object": "The Magpie Salute",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently performing with other former Black Crowes members in The Magpie Salute"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marc Ford",
+        "born_on",
+        "April 13, 1966"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Marc Ford",
+        "is_a",
+        "American blues-rock guitarist"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Marc Ford",
+        "leader_of",
+        "Marc Ford & The Neptune Blues Club"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Marc Ford",
+        "leader_of",
+        "Jefferson Steelflex"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Marc Ford",
+        "leader_of",
+        "Fuzz Machine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Marc Ford",
+        "leader_of",
+        "Marc Ford & The Sinners"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Marc Ford\nMarc Ford (born April 13, 1966), is an American blues-rock guitarist. He's a former lead guitarist of the rock and roll jam band The Black Crowes and the leader of his own bands: Burning Tree, Marc Ford & The Neptune Blues Club, Jefferson Steelflex, Fuzz Machine, Marc Ford & The Sinners. He is currently performing with other former Black Crowes members in The Magpie Salute."
+}

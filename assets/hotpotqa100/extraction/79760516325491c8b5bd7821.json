@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Belarusian Second League": "league",
+    "Belarusian First League": "league",
+    "Belarusian Football Federation": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Belarusian Second League",
+      "relation": "promotes",
+      "object": "Belarusian First League",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "At the end of the season two best teams will be promoted to Belarusian First League."
+        }
+      ]
+    },
+    {
+      "subject": "Belarusian Second League",
+      "relation": "organized_by",
+      "object": "Belarusian Football Federation",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "The competition is organized by the Belarusian Football Federation."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Belarusian Second League",
+        "is_a",
+        "league"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Belarusian Second League",
+        "consists_of",
+        "14 teams"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Belarusian Second League\nBelarusian Second League is the third division of professional football in Belarus. A strict number of teams is not set for the competition and every season it depends on how many teams are able to obtain a license or have an intention to apply for one. As of 2017, the league consists of 14 teams. At the end of the season two best teams will be promoted to Belarusian First League. The competition is organized by the Belarusian Football Federation."
+}

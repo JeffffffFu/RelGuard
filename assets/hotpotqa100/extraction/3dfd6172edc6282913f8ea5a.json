@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Matt Gorman": "Person",
+    "Scranton/Wilkes-Barre Steamers": "Team",
+    "Syracuse University": "University",
+    "Steve Gorman": "Person",
+    "The Black Crowes": "Band"
+  },
+  "triples": [
+    {
+      "subject": "Matt Gorman",
+      "relation": "played_for",
+      "object": "Scranton/Wilkes-Barre Steamers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "last played for the Scranton/Wilkes-Barre Steamers"
+        }
+      ]
+    },
+    {
+      "subject": "Matt Gorman",
+      "relation": "played_for",
+      "object": "Syracuse University",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played college basketball for Syracuse University"
+        }
+      ]
+    },
+    {
+      "subject": "Matt Gorman",
+      "relation": "uncle",
+      "object": "Steve Gorman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Matt's uncle is Steve Gorman"
+        }
+      ]
+    },
+    {
+      "subject": "Steve Gorman",
+      "relation": "member_of",
+      "object": "The Black Crowes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "drummer for The Black Crowes rock band"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Matt Gorman",
+        "born_on",
+        "May 1, 1984"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Matt Gorman\nMatt Gorman (born on May 1, 1984) is a former professional basketball player who last played for the Scranton/Wilkes-Barre Steamers. He played college basketball for Syracuse University during their first National Championship in 2003. He also played three years of professional basketball in Europe. Matt's uncle is Steve Gorman, drummer for The Black Crowes rock band."
+}

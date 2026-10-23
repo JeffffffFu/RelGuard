@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "Indonesia": "GPE",
+    "FIFA World Cup": "EVENT",
+    "Football Association of Indonesia": "ORG",
+    "PSSI": "ORG",
+    "Dutch East Indies": "GPE",
+    "Hungary": "GPE",
+    "Japan": "GPE",
+    "South Korea": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Indonesia",
+      "relation": "bid_for",
+      "object": "FIFA World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Indonesia 2022 FIFA World Cup bid was the first official bid from the Football Association of Indonesia (PSSI) to host the FIFA World Cup."
+        }
+      ]
+    },
+    {
+      "subject": "PSSI",
+      "relation": "located_in",
+      "object": "Indonesia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Indonesia 2022 FIFA World Cup bid was the first official bid from the Football Association of Indonesia (PSSI) to host the FIFA World Cup."
+        }
+      ]
+    },
+    {
+      "subject": "Indonesia",
+      "relation": "lost_to",
+      "object": "Hungary",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "and they lost to Hungary in the first round."
+        }
+      ]
+    },
+    {
+      "subject": "FIFA World Cup",
+      "relation": "held_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the 2002 tournament having been played in Japan and South Korea."
+        }
+      ]
+    },
+    {
+      "subject": "FIFA World Cup",
+      "relation": "held_in",
+      "object": "South Korea",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the 2002 tournament having been played in Japan and South Korea."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "FIFA World Cup",
+        "rejected_by",
+        "FIFA"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Indonesia",
+        "competed_in",
+        "FIFA World Cup"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Dutch East Indies",
+        "competed_in",
+        "FIFA World Cup"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Indonesia 2022 FIFA World Cup bid\nThe Indonesia 2022 FIFA World Cup bid was the first official bid from the Football Association of Indonesia (PSSI) to host the FIFA World Cup. FIFA rejected the bid for lack of government support on 19 March 2010. Indonesia was one of four Asian countries bidding to bring the tournament to Asia for a second time, the 2002 tournament having been played in Japan and South Korea. Indonesia, under the name of the Dutch East Indies, had been the first Asian nation to compete in the World Cup, when they participated in the 1938 event, and they lost to Hungary in the first round."
+}

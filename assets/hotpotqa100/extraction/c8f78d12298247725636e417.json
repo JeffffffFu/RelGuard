@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "General Blood": "ORG",
+    "FDA": "ORG",
+    "AABB": "ORG",
+    "United States": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "General Blood",
+        "registered_with",
+        "FDA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "General Blood",
+        "accredited_by",
+        "AABB"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "General Blood",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "General Blood\nGeneral Blood is a FDA registered and AABB accredited distributor of human blood, platelets, and plasma for hospitals, non-transfusion facilities, and group-purchasing organizations. General Blood's process is designed to balance excesses and shortages of blood by improving supply chain efficiencies and logistical models within the blood distribution industry. The company’s goal is to redistribute blood supplies, increase competition in the distribution market, and lower the cost of health care in the United States. General Blood was established by creating an online marketplace where medical centers are able to post excess quantities of blood for sale and place orders to replenish blood supplies.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"General Blood\", \"type\": \"ORG\"},\n    {\"name\": \"FDA\", \"type\": \"ORG\"},\n    {\"name\": \"AABB\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"General Blood\",\n      \"relation\": \"registered_with\",\n      \"object\": \"FDA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a FDA registered\"}\n      ]\n    },\n    {\n      \"subject\": \"General Blood\",\n      \"relation\": \"accredited_by\",\n      \"object\": \"AABB\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and AABB accredited\"}\n      ]\n    },\n    {\n      \"subject\": \"General Blood\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the United States\"}\n      ]\n    }\n  ]\n}"
+}

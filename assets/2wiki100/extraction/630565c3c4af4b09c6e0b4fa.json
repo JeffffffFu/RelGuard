@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Dead Mine": "WORK_OF_ART",
+    "Steven Sheil": "PERSON",
+    "Ario Bayu": "PERSON",
+    "Joe Taslim": "PERSON",
+    "Infinite Frameworks": "ORG",
+    "Meraih Mimpi": "WORK_OF_ART",
+    "Batam Island": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Dead Mine",
+      "relation": "directed_by",
+      "object": "Steven Sheil",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Steven Sheil"
+        }
+      ]
+    },
+    {
+      "subject": "Dead Mine",
+      "relation": "starring",
+      "object": "Ario Bayu",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Ario Bayu"
+        }
+      ]
+    },
+    {
+      "subject": "Dead Mine",
+      "relation": "produced_by",
+      "object": "Infinite Frameworks",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "produced by Infinite Frameworks"
+        }
+      ]
+    },
+    {
+      "subject": "Dead Mine",
+      "relation": "filmed_in",
+      "object": "Batam Island",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "filming facility integrated in Batam Island"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Dead Mine",
+        "starring",
+        "Joe Taslim"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Infinite Frameworks",
+        "worked_on",
+        "Meraih Mimpi"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Dead Mine\nDead Mine is a 2012 English- language Indonesian horror film directed by Steven Sheil and starring Ario Bayu and Joe Taslim. The Film was produced by Infinite Frameworks, the production house before working on the musical animated film\" Meraih Mimpi\"( Achieved a dream) in 2009. Filming and production of the film was done in the filming facility integrated in Batam Island."
+}

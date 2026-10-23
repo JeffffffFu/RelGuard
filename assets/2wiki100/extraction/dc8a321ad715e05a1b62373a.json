@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Gordon Douglas": "Person",
+    "New York City": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Gordon Douglas",
+      "relation": "born_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He was a native of New York City."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gordon Douglas",
+        "directed",
+        "films"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Gordon Douglas (director)\nGordon Douglas( December 15, 1907 – September 29, 1993) was an American film director, who directed many different genres of films over the course of a five- decade career in motion pictures. He was a native of New York City."
+}

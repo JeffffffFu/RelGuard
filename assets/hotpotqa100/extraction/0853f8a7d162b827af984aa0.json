@@ -1,0 +1,120 @@
+{
+  "entities": {
+    "Charles Dill": "PERSON",
+    "Rameau": "PERSON",
+    "Voltaire": "PERSON",
+    "Castor et Pollux": "WORK_OF_ART",
+    "Samson": "WORK_OF_ART",
+    "Telaire": "PERSON",
+    "Phoebe": "PERSON",
+    "Pollux": "PERSON",
+    "Lynceus": "PERSON",
+    "Jupiter": "PERSON",
+    "Underworld": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Rameau",
+      "relation": "composed",
+      "object": "Castor et Pollux",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Rameau had composed the 1737 opera just after working with Voltaire on the opera \"Samson\" that was never completed, after which he composed \"Castor et Pollux\""
+        }
+      ]
+    },
+    {
+      "subject": "Voltaire",
+      "relation": "worked_with",
+      "object": "Rameau",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "working with Voltaire on the opera \"Samson\""
+        }
+      ]
+    },
+    {
+      "subject": "Pollux",
+      "relation": "must_kill",
+      "object": "Lynceus",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he must kill Lynceus"
+        }
+      ]
+    },
+    {
+      "subject": "Pollux",
+      "relation": "persuaded_by",
+      "object": "Jupiter",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "persuade Jupiter not to oppose his journey into the Underworld"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Voltaire",
+        "sought",
+        "presentation of static tableaus"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Castor",
+        "is_tomb_of",
+        "Chorus of Spartans"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Telaire",
+        "grieving_for",
+        "Castor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Telaire",
+        "lamented",
+        "Castor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pollux",
+        "faces_dilemma",
+        "moral dilemma between love and duty"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pollux",
+        "chooses",
+        "rescue his brother"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Castor",
+        "accepts_gift_of",
+        "immortality"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Castor et Pollux\nCharles Dill proposes that Rameau had composed the 1737 opera just after working with Voltaire on the opera \"Samson\" that was never completed, after which he composed \"Castor et Pollux\" implementing Voltaire's aesthetics. For example, Voltaire sought the presentation of static tableaus that expressed emotion, as in the first act of the 1737 version which begins at the scene of Castor's tomb with a Chorus of Spartans singing \"Que tout gemisse\", followed by a recitative between Telaire and Phoebe in which the former is grieving the loss of her lover Castor, and culminating in Telaire's lament aria \"Tristes apprets\". Dill notes that in contrast, the 1754 version begins with much more background behind the story of Telaire's love for Castor and depicts his death at the end. The events in Act I of the 1737 version appear in Act II of the 1754 version. Dill claims that Voltaire was more interested in music than action in opera. Moreover, Dill notes a difference in the plots between in the two versions. In the 1737 version, the main concern is for the moral dilemma between love and duty that Pollux faces: should he pursue his love of Telaira or rescue his brother? Of course, he chooses the latter. In the 1754 version, Dill remarks that that plot is more concerned with the tests that Pollux must face: he must kill Lynceus, persuade Jupiter not to oppose his journey into the Underworld, and persuade Castor not to accept the gift of immortality."
+}

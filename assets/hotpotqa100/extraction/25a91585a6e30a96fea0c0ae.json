@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Stauntonia": "PRODUCT",
+    "Lardizabalaceae": "ORG",
+    "George Staunton": "PERSON",
+    "Britain": "GPE",
+    "China": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Stauntonia",
+      "relation": "named_after",
+      "object": "George Staunton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "named after",
+          "line_start": 78,
+          "char_start": 89,
+          "ambiguous": false,
+          "relation_mention": "named after",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "George Staunton",
+      "relation": "brought_to",
+      "object": "Britain",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "brought it to",
+          "line_start": 111,
+          "char_start": 122,
+          "ambiguous": false,
+          "relation_mention": "brought it to",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Stauntonia",
+        "located_in",
+        "Lardizabalaceae"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "George Staunton",
+        "brought_from",
+        "China"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Stauntonia\nStauntonia is a genus of flowering plant in the Lardizabalaceae family. It is named after George Staunton, who brought it to Britain from China in the 19th Century.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Stauntonia\",\n      \"type\": \"PRODUCT\"\n    },\n    {\n      \"name\": \"Lardizabalaceae\",\n      \"type\": \"ORG\"\n    },\n    {\n      \"name\": \"George Staunton\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Britain\",\n      \"type\": \"GPE\"\n    },\n    {\n      \"name\": \"China\",\n      \"type\": \"GPE\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Stauntonia\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lardizabalaceae\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Stauntonia\",\n      \"relation\": \"named_after\",\n      \"object\": \"George Staunton\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"named after\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"George Staunton\",\n      \"relation\": \"brought_to\",\n      \"object\": \"Britain\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"brought it to\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"George Staunton\",\n      \"relation\": \"brought_from\",\n      \"object\": \"China\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"from\"\n        }\n      ]\n    }\n  ]\n}"
+}

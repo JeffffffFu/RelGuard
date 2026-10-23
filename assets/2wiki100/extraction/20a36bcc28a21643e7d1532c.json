@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "La Bestia humana": "film",
+    "Émile Zola": "author",
+    "La Bête Humaine": "novel",
+    "Argentina": "country"
+  },
+  "triples": [
+    {
+      "subject": "La Bestia humana",
+      "relation": "released_in",
+      "object": "Argentina",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a 1957 Argentine film"
+        }
+      ]
+    },
+    {
+      "subject": "La Bête Humaine",
+      "relation": "written_by",
+      "object": "Émile Zola",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by the French writer Émile Zola"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "La Bestia humana",
+        "based_on",
+        "La Bête Humaine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "La Bestia humana\nLa Bestia humana is a 1957 Argentine film whose story is based on the novel\" La Bête Humaine\" by the French writer Émile Zola."
+}

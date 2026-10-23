@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Manon Lescaut": "WORK_OF_ART",
+    "Abbé Prévost": "PERSON",
+    "France": "GPE",
+    "Mémoires et aventures d'un homme de qualité": "WORK_OF_ART",
+    "Memoirs and Adventures of a Man of Quality": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Manon Lescaut",
+      "relation": "written_by",
+      "object": "Abbé Prévost",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a novel by French author Abbé Prévost"
+        }
+      ]
+    },
+    {
+      "subject": "Manon Lescaut",
+      "relation": "banned_in",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was banned in France upon publication"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Manon Lescaut",
+        "part_of",
+        "Mémoires et aventures d'un homme de qualité"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Mémoires et aventures d'un homme de qualité",
+        "also_known_as",
+        "Memoirs and Adventures of a Man of Quality"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Manon Lescaut\nManon Lescaut (\"L'Histoire du chevalier des Grieux et de Manon Lescaut\") is a novel by French author Abbé Prévost. Published in 1731, it is the seventh and final volume of \"Mémoires et aventures d'un homme de qualité\" (\"Memoirs and Adventures of a Man of Quality\"). It was controversial in its time and was banned in France upon publication. Despite this, it became very popular and pirated editions were widely distributed. In a subsequent 1753 edition, the Abbé Prévost toned down some scandalous details and injected more moralizing disclaimers."
+}

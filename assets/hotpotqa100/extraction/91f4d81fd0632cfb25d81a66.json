@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Qionghai": "City",
+    "Hainan province": "Province",
+    "China": "Country",
+    "Qionghai City": "City",
+    "Wanquan River": "River",
+    "Haikou": "City"
+  },
+  "triples": [
+    {
+      "subject": "Qionghai",
+      "relation": "located_in",
+      "object": "Hainan province",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Qionghai () is one of the seven county-level cities of Hainan province, China."
+        }
+      ]
+    },
+    {
+      "subject": "Qionghai",
+      "relation": "refers_to",
+      "object": "Qionghai City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Although called a \"city\", Qionghai refers to a large land area in Hainan - an area which was once a county."
+        }
+      ]
+    },
+    {
+      "subject": "Qionghai",
+      "relation": "distance_from",
+      "object": "Haikou",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "86 km from the provincial capital of Haikou."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Qionghai",
+        "located_at",
+        "Wanquan River"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Qionghai",
+        "has_area",
+        "1692 km2"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Qionghai",
+        "had_population",
+        "483,217"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Qionghai\nQionghai () is one of the seven county-level cities of Hainan province, China. Although called a \"city\", Qionghai refers to a large land area in Hainan - an area which was once a county. Within this area is the main city, Qionghai City. It is located in the east of the island at the mouth of the Wanquan River, 86 km from the provincial capital of Haikou. It has an area of 1692 km2 and in 2010, it had a population of 483,217."
+}

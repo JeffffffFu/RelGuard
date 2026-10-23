@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "BroadPoint Communications": "Company",
+    "Perry Kamel": "Person",
+    "Landover, Maryland": "Location",
+    "FreeWay": "Service",
+    "GEICO": "Company",
+    "Maxamine": "Company",
+    "Elateral": "Company"
+  },
+  "triples": [
+    {
+      "subject": "BroadPoint Communications",
+      "relation": "founded",
+      "object": "Perry Kamel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Perry Kamel was founder and CEO of the company"
+        }
+      ]
+    },
+    {
+      "subject": "BroadPoint Communications",
+      "relation": "located_in",
+      "object": "Landover, Maryland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Landover, Maryland"
+        }
+      ]
+    },
+    {
+      "subject": "BroadPoint Communications",
+      "relation": "offered",
+      "object": "FreeWay",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "offering free long-distance calling"
+        }
+      ]
+    },
+    {
+      "subject": "BroadPoint Communications",
+      "relation": "advertised_by",
+      "object": "GEICO",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "GEICO was a frequent advertiser"
+        }
+      ]
+    },
+    {
+      "subject": "Perry Kamel",
+      "relation": "became_CEO_of",
+      "object": "Maxamine",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "Kamel went on to become CEO of Maxamine"
+        }
+      ]
+    },
+    {
+      "subject": "Perry Kamel",
+      "relation": "is_CEO_of",
+      "object": "Elateral",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "is now CEO of Elateral"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "FreeWay",
+        "supported_by",
+        "advertising"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Broadpoint\nBroadPoint Communications was a US telecommunications company in the late 1990s offering free long-distance calling supported by advertising, a service the company called \"Sponsored Communications.\" Perry Kamel was founder and CEO of the company, based in Landover, Maryland. Users would sign up online for the company's FreeWay service by filling out a questionnaire. To make calls, users dialed the BroadPoint toll-free number, then entered their PIN, followed by the desired number. Users could then earn minutes of calling time by listening to brief advertisements, five to fifteen seconds in length, targeted to their interests and location. GEICO was a frequent advertiser. However, the minutes earned could not be carried over to another call, so users would sometimes accrue many minutes of free calling, only to lose them when their intended party was busy or did not answer. Perhaps because of such shortcomings, the FreeWay service soon ended. The company filed for Chapter 7 liquidation in January 2002. Broadpoint's former URL is no longer associated with the company, and is now made up only of advertising links. Kamel went on to become CEO of Maxamine, a Web analysis company, and is now CEO of Elateral, which describes itself as a \"global branding, marketing and design consultancy.\""
+}

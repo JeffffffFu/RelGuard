@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Maianthemum": "PRODUCT",
+    "North America": "GPE",
+    "Europe": "GPE",
+    "Asia": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Maianthemum",
+      "relation": "native_to",
+      "object": "North America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "native to the understory of woodlands"
+        }
+      ]
+    },
+    {
+      "subject": "Maianthemum",
+      "relation": "native_to",
+      "object": "Europe",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "native to the understory of woodlands"
+        }
+      ]
+    },
+    {
+      "subject": "Maianthemum",
+      "relation": "native_to",
+      "object": "Asia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "native to the understory of woodlands"
+        }
+      ]
+    },
+    {
+      "subject": "Maianthemum",
+      "relation": "widespread_in",
+      "object": "North America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "widespread across much of North America"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Maianthemum",
+        "widespread_in",
+        "Europe"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Maianthemum",
+        "widespread_in",
+        "Asia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Maianthemum\nMaianthemum (Latin \"Māia \" \"May\" and Greek \"ánthemon \" \"flower\"; including former \"Smilacina\") is a genus of rhizomatous, herbaceous, perennial flowering plants, native to the understory of woodlands. It is widespread across much of North America, Europe and Asia."
+}

@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Teleforce": "PRODUCT",
+    "Nikola Tesla": "PERSON",
+    "Van de Graaff generator": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Teleforce",
+      "relation": "was_proposed_by",
+      "object": "Nikola Tesla",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was a proposed defensive weapon by",
+          "line_start": 10,
+          "char_start": 20,
+          "ambiguous": false,
+          "relation_mention": "was a proposed defensive weapon by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nikola Tesla",
+        "claimed_conceived_after_studying",
+        "Van de Graaff generator"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Teleforce\nTeleforce was a proposed defensive weapon by Nikola Tesla that accelerated pellets or slugs of material to a high velocity inside a vacuum chamber via electrostatic repulsion and then fired them out of aimed nozzles at intended targets. Tesla claimed to have conceived of it after studying the Van de Graaff generator. Tesla described the weapon as being able to be used against ground-based infantry or for anti-aircraft purposes.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Teleforce\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Nikola Tesla\", \"type\": \"PERSON\"},\n    {\"name\": \"Van de Graaff generator\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Teleforce\",\n      \"relation\": \"was_proposed_by\",\n      \"object\": \"Nikola Tesla\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a proposed defensive weapon by\"}\n      ]\n    },\n    {\n      \"subject\": \"Nikola Tesla\",\n      \"relation\": \"claimed_conceived_after_studying\",\n      \"object\": \"Van de Graaff generator\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"claimed to have conceived of it after studying the\"}\n      ]\n    }\n  ]\n}"
+}

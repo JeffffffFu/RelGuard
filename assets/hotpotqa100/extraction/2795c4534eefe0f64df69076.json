@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Aurelio's Pizza": "ORG",
+    "Illinois": "GPE",
+    "Chicago-style pizza": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Aurelio's Pizza",
+      "relation": "located_in",
+      "object": "Illinois",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is an Illinois",
+          "line_start": 16,
+          "char_start": 32,
+          "ambiguous": false,
+          "relation_mention": "is an Illinois",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Aurelio's Pizza",
+      "relation": "centers_its_business_around",
+      "object": "Chicago-style pizza",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "centers its business around",
+          "line_start": 54,
+          "char_start": 70,
+          "ambiguous": false,
+          "relation_mention": "centers its business around",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Aurelio's Pizza",
+        "is_a",
+        "ORG"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Aurelio's Pizza\nAurelio's Pizza is an Illinois restaurant chain which centers its business around the thin crust variety of Chicago-style pizza. Aurelio's Pizza has three corporate owned stores and 37 franchised locations in 6 states. Aurelio's Pizza is the oldest Chicago pizza franchise restaurant, franchising since 1974."
+}

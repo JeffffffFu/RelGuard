@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Maria Theresa of Austria-Este": "Person",
+    "Archduke Ferdinand of Austria-Este": "Person",
+    "Archduchess Elisabeth of Austria": "Person",
+    "Bavaria": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Maria Theresa of Austria-Este",
+      "relation": "was_last_queen_of",
+      "object": "Bavaria",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the last Queen of Bavaria"
+        }
+      ]
+    },
+    {
+      "subject": "Maria Theresa of Austria-Este",
+      "relation": "daughter_of",
+      "object": "Archduke Ferdinand of Austria-Este",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the daughter and only child of Archduke Ferdinand of Austria-Este"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Maria Theresa of Austria-Este",
+        "daughter_of",
+        "Archduchess Elisabeth of Austria"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Maria Theresa of Austria-Este (1849–1919)\nMaria Theresa of Austria-Este (Maria Theresa Henriette Dorothee; 2 July 1849 – 3 February 1919) was the last Queen of Bavaria. She was the daughter and only child of Archduke Ferdinand of Austria-Este and his wife, Archduchess Elisabeth of Austria."
+}

@@ -1,0 +1,406 @@
+{
+  "model": "gpt-4o-mini",
+  "classes": [
+    "Person",
+    "Organization",
+    "Location",
+    "Work",
+    "Event",
+    "Product",
+    "Category"
+  ],
+  "signatures": {
+    "country": [
+      "Location",
+      "Location"
+    ],
+    "located in the administrative territorial entity": [
+      "Location",
+      "Location"
+    ],
+    "country of citizenship": [
+      "Person",
+      "Location"
+    ],
+    "occupation": [
+      "Person",
+      "Category"
+    ],
+    "place of birth": [
+      "Person",
+      "Location"
+    ],
+    "performer": [
+      "Work",
+      "Person"
+    ],
+    "member of sports team": [
+      "Person",
+      "Organization"
+    ],
+    "genre": [
+      "Work",
+      "Category"
+    ],
+    "country of origin": [
+      "Work",
+      "Location"
+    ],
+    "languages spoken, written or signed": [
+      "Person",
+      "Category"
+    ],
+    "place of death": [
+      "Person",
+      "Location"
+    ],
+    "participant in": [
+      "Person",
+      "Event"
+    ],
+    "author": [
+      "Work",
+      "Person"
+    ],
+    "director": [
+      "Work",
+      "Person"
+    ],
+    "cast member": [
+      "Work",
+      "Person"
+    ],
+    "educated at": [
+      "Person",
+      "Organization"
+    ],
+    "headquarters location": [
+      "Organization",
+      "Location"
+    ],
+    "record label": [
+      "Work",
+      "Organization"
+    ],
+    "original language of film or TV show": [
+      "Work",
+      "Category"
+    ],
+    "position played on team / speciality": [
+      "Person",
+      "Category"
+    ],
+    "operator": [
+      "Product",
+      "Organization"
+    ],
+    "employer": [
+      "Person",
+      "Organization"
+    ],
+    "member of political party": [
+      "Person",
+      "Organization"
+    ],
+    "conflict": [
+      "Event",
+      "Event"
+    ],
+    "screenwriter": [
+      "Work",
+      "Person"
+    ],
+    "shares border with": [
+      "Location",
+      "Location"
+    ],
+    "military branch": [
+      "Organization",
+      "Category"
+    ],
+    "part of the series": [
+      "Work",
+      "Work"
+    ],
+    "located on terrain feature": [
+      "Location",
+      "Location"
+    ],
+    "manufacturer": [
+      "Product",
+      "Organization"
+    ],
+    "original broadcaster": [
+      "Work",
+      "Organization"
+    ],
+    "publisher": [
+      "Work",
+      "Organization"
+    ],
+    "has part": [
+      "Product",
+      "Product"
+    ],
+    "position held": [
+      "Person",
+      "Category"
+    ],
+    "instrument": [
+      "Person",
+      "Category"
+    ],
+    "member of": [
+      "Person",
+      "Organization"
+    ],
+    "sports season of league or competition": [
+      "Event",
+      "Category"
+    ],
+    "native language": [
+      "Person",
+      "Category"
+    ],
+    "owned by": [
+      "Product",
+      "Organization"
+    ],
+    "father": [
+      "Person",
+      "Person"
+    ],
+    "location of formation": [
+      "Organization",
+      "Location"
+    ],
+    "producer": [
+      "Work",
+      "Organization"
+    ],
+    "capital": [
+      "Location",
+      "Location"
+    ],
+    "developer": [
+      "Product",
+      "Organization"
+    ],
+    "continent": [
+      "Location",
+      "Location"
+    ],
+    "creator": [
+      "Work",
+      "Person"
+    ],
+    "award received": [
+      "Work",
+      "Category"
+    ],
+    "facet of": [
+      "Work",
+      "Work"
+    ],
+    "spouse": [
+      "Person",
+      "Person"
+    ],
+    "platform": [
+      "Work",
+      "Category"
+    ],
+    "composer": [
+      "Work",
+      "Person"
+    ],
+    "religion": [
+      "Person",
+      "Category"
+    ],
+    "child": [
+      "Person",
+      "Person"
+    ],
+    "sports discipline competed in": [
+      "Person",
+      "Category"
+    ],
+    "language of work or name": [
+      "Work",
+      "Category"
+    ],
+    "contains administrative territorial entity": [
+      "Location",
+      "Location"
+    ],
+    "mouth of the watercourse": [
+      "Location",
+      "Location"
+    ],
+    "field of work": [
+      "Person",
+      "Category"
+    ],
+    "work location": [
+      "Work",
+      "Location"
+    ],
+    "league": [
+      "Event",
+      "Category"
+    ],
+    "sibling": [
+      "Person",
+      "Person"
+    ],
+    "follows": [
+      "Person",
+      "Person"
+    ],
+    "main subject": [
+      "Work",
+      "Work"
+    ],
+    "followed by": [
+      "Work",
+      "Work"
+    ],
+    "is a list of": [
+      "Work",
+      "Work"
+    ],
+    "applies to jurisdiction": [
+      "Work",
+      "Location"
+    ],
+    "voice type": [
+      "Person",
+      "Category"
+    ],
+    "founded by": [
+      "Organization",
+      "Person"
+    ],
+    "located on astronomical location": [
+      "Location",
+      "Location"
+    ],
+    "capital of": [
+      "Location",
+      "Location"
+    ],
+    "crosses": [
+      "Location",
+      "Location"
+    ],
+    "coordinate location": [
+      "Location",
+      "Location"
+    ],
+    "located in or next to body of water": [
+      "Location",
+      "Location"
+    ],
+    "religious order": [
+      "Person",
+      "Category"
+    ],
+    "present in work": [
+      "Person",
+      "Work"
+    ],
+    "distributed by": [
+      "Work",
+      "Organization"
+    ],
+    "lyrics by": [
+      "Work",
+      "Person"
+    ],
+    "production company": [
+      "Work",
+      "Organization"
+    ],
+    "movement": [
+      "Work",
+      "Category"
+    ],
+    "winner": [
+      "Event",
+      "Person"
+    ],
+    "family": [
+      "Person",
+      "Person"
+    ],
+    "competition class": [
+      "Event",
+      "Category"
+    ],
+    "licensed to broadcast to": [
+      "Organization",
+      "Location"
+    ],
+    "narrative location": [
+      "Work",
+      "Location"
+    ],
+    "occupant": [
+      "Location",
+      "Person"
+    ],
+    "place served by transport hub": [
+      "Location",
+      "Location"
+    ],
+    "drafted by": [
+      "Person",
+      "Organization"
+    ],
+    "given name": [
+      "Person",
+      "Category"
+    ],
+    "constellation": [
+      "Location",
+      "Category"
+    ],
+    "based on": [
+      "Work",
+      "Work"
+    ],
+    "basin country": [
+      "Location",
+      "Location"
+    ],
+    "legislated by": [
+      "Location",
+      "Organization"
+    ],
+    "mother": [
+      "Person",
+      "Person"
+    ],
+    "residence": [
+      "Person",
+      "Location"
+    ],
+    "vessel class": [
+      "Product",
+      "Category"
+    ],
+    "notable work": [
+      "Person",
+      "Work"
+    ],
+    "participant": [
+      "Event",
+      "Person"
+    ],
+    "twinned administrative body": [
+      "Organization",
+      "Organization"
+    ]
+  }
+}

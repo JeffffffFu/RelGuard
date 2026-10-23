@@ -1,0 +1,150 @@
+{
+  "entities": {
+    "Émerson Ferreira da Rosa": "PERSON",
+    "Brazil": "GPE",
+    "Miami Dade FC": "ORG",
+    "Brazil national team": "ORG",
+    "1999 Copa America": "EVENT",
+    "2005 FIFA Confederations Cup": "EVENT",
+    "1998 World Cup Final": "EVENT",
+    "1998 FIFA World Cup": "EVENT",
+    "2006 FIFA World Cup": "EVENT",
+    "2002 FIFA World Cup": "EVENT",
+    "1999 Confederation Cup": "EVENT",
+    "2003 Confederation Cup": "EVENT",
+    "2005 Confederation Cup": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Émerson Ferreira da Rosa",
+      "relation": "played_for",
+      "object": "Brazil national team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played 73 games for",
+          "line_start": 165,
+          "char_start": 197,
+          "ambiguous": false,
+          "relation_mention": "played 73 games for",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "1999 Copa América (EVENT)",
+        "2001 Copa América (EVENT)"
+      ]
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "works_for",
+        "Miami Dade FC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "located_in",
+        "Brazil"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "won",
+        "1999 Copa America"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "won",
+        "2005 FIFA Confederations Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "reached",
+        "1998 World Cup Final"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "participated_in",
+        "1998 FIFA World Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "participated_in",
+        "2006 FIFA World Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "missed",
+        "2002 FIFA World Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "participated_in",
+        "1999 Copa América"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "participated_in",
+        "2001 Copa América"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "participated_in",
+        "1999 Confederation Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "participated_in",
+        "2003 Confederation Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Émerson Ferreira da Rosa",
+        "participated_in",
+        "2005 Confederation Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Emerson (footballer, born 1976)\nÉmerson Ferreira da Rosa (born 4 April 1976), simply known as Emerson, is a Brazilian footballer who currently plays for Miami Dade FC as a defensive midfielder. He played 73 games for the Brazil national team between 1997 and 2006, winning the 1999 Copa America and the 2005 FIFA Confederations Cup, also reaching the 1998 World Cup Final. With Brazil, he has taken part in two FIFA World Cups (1998, 2006, missing out on the 2002 FIFA World Cup due to injury), two Copa Américas (1999, 2001), and three Confederation Cups (1999, 2003, 2005).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Émerson Ferreira da Rosa\", \"type\": \"PERSON\"},\n    {\"name\": \"Brazil\", \"type\": \"GPE\"},\n    {\"name\": \"Miami Dade FC\", \"type\": \"ORG\"},\n    {\"name\": \"Brazil national team\", \"type\": \"ORG\"},\n    {\"name\": \"1999 Copa America\", \"type\": \"EVENT\"},\n    {\"name\": \"2005 FIFA Confederations Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"1998 World Cup Final\", \"type\": \"EVENT\"},\n    {\"name\": \"1998 FIFA World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"2006 FIFA World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"2002 FIFA World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"1999 Copa América\", \"type\": \"EVENT\"},\n    {\"name\": \"2001 Copa América\", \"type\": \"EVENT\"},\n    {\"name\": \"1999 Confederation Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"2003 Confederation Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"2005 Confederation Cup\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"works_for\",\n      \"object\": \"Miami Dade FC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"plays for\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"located_in\",\n      \"object\": \"Brazil\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Brazilian\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"played_for\",\n      \"object\": \"Brazil national team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played 73 games for\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"won\",\n      \"object\": \"1999 Copa America\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"winning the 1999 Copa America\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"won\",\n      \"object\": \"2005 FIFA Confederations Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and the 2005 FIFA Confederations Cup\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"reached\",\n      \"object\": \"1998 World Cup Final\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also reaching the 1998 World Cup Final\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"participated_in\",\n      \"object\": \"1998 FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"two FIFA World Cups (1998, 2006\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"participated_in\",\n      \"object\": \"2006 FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"two FIFA World Cups (1998, 2006\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"missed\",\n      \"object\": \"2002 FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"missing out on the 2002 FIFA World Cup\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"participated_in\",\n      \"object\": \"1999 Copa América\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"two Copa Américas (1999, 2001\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"participated_in\",\n      \"object\": \"2001 Copa América\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"two Copa Américas (1999, 2001\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"participated_in\",\n      \"object\": \"1999 Confederation Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and three Confederation Cups (1999, 2003, 2005\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"participated_in\",\n      \"object\": \"2003 Confederation Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and three Confederation Cups (1999, 2003, 2005\"}\n      ]\n    },\n    {\n      \"subject\": \"Émerson Ferreira da Rosa\",\n      \"relation\": \"participated_in\",\n      \"object\": \"2005 Confederation Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and three Confederation Cups (1999, 2003, 2005\"}\n      ]\n    }\n  ]\n}"
+}

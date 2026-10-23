@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Austrian": "NORP",
+    "Edelweiss Club Salzburg": "ORG",
+    "Salzburg": "GPE",
+    "Eight-thousanders": "EVENT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Austria (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Edelweiss Club Salzburg",
+        "founded_in",
+        "Salzburg"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Edelweiss Club Salzburg",
+        "founded_in",
+        "Salzburg"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Austria",
+        "associated_with",
+        "Eight-thousanders"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "List of Austrian mountain climbers\nThis is a list of Austrian mountaineers. On 5 of the 14 Eight-thousanders Austrians have made the first ascent, more than any other nation can claim. Out of the total of 9 Austrian mountaineers who made first ascents of Eight-thousanders, 3 have been members of the Edelweiss Club Salzburg, an association of mountaineers founded in Salzburg in 1881",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Austria\", \"type\": \"GPE\"},\n    {\"name\": \"Austrian\", \"type\": \"NORP\"},\n    {\"name\": \"Edelweiss Club Salzburg\", \"type\": \"ORG\"},\n    {\"name\": \"Salzburg\", \"type\": \"GPE\"},\n    {\"name\": \"Eight-thousanders\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Edelweiss Club Salzburg\",\n      \"relation\": \"founded_in\",\n      \"object\": \"Salzburg\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in Salzburg\"}\n      ]\n    },\n    {\n      \"subject\": \"Edelweiss Club Salzburg\",\n      \"relation\": \"founded_in\",\n      \"object\": \"Salzburg\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in Salzburg\"}\n      ]\n    },\n    {\n      \"subject\": \"Austria\",\n      \"relation\": \"associated_with\",\n      \"object\": \"Eight-thousanders\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Eight-thousanders Austrians have made the first ascent\"}\n      ]\n    }\n  ]\n}"
+}

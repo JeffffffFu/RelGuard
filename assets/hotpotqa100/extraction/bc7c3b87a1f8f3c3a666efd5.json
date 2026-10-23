@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Henry Raspe": "PERSON",
+    "Hermann II": "PERSON",
+    "Conrad IV of Germany": "PERSON",
+    "Thuringia": "GPE",
+    "Germany": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Henry Raspe",
+      "relation": "succeeded",
+      "object": "Hermann II",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "succeeded his nephew Hermann II as Landgrave of Thuringia"
+        }
+      ]
+    },
+    {
+      "subject": "Henry Raspe",
+      "relation": "opposed",
+      "object": "Conrad IV of Germany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in opposition to Conrad IV of Germany"
+        }
+      ]
+    },
+    {
+      "subject": "Henry Raspe",
+      "relation": "located_in",
+      "object": "Thuringia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as Landgrave of Thuringia"
+        }
+      ]
+    },
+    {
+      "subject": "Thuringia",
+      "relation": "located_in",
+      "object": "Germany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in central Germany"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Henry Raspe",
+        "elected",
+        "anti-king"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Henry Raspe, Landgrave of Thuringia\nHenry Raspe (German: \"Heinrich Raspe\" ) (1204 – 16 February 1247) succeeded his nephew Hermann II as Landgrave of Thuringia in central Germany in 1241; he later was elected anti-king in 1246–1247 in opposition to Conrad IV of Germany."
+}

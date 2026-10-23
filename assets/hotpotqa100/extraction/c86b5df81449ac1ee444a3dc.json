@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Hillary Clinton": "PERSON",
+    "Daou": "PERSON",
+    "Shareblue": "ORG",
+    "Business Insider": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Daou",
+      "relation": "adviser_to",
+      "object": "Hillary Clinton",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "an adviser to Clinton's 2008 presidential campaign"
+        }
+      ]
+    },
+    {
+      "subject": "Daou",
+      "relation": "chief_executive_of",
+      "object": "Shareblue",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "prior chief executive of Shareblue"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Daou",
+        "intended",
+        "Verrit"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Verrit",
+        "reflects_worldview_of",
+        "Hillary Clinton"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Daou",
+        "described_as",
+        "Verrit"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Verrit",
+        "has_no_financial_ties_to",
+        "Hillary Clinton"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Business Insider",
+        "reported_on",
+        "Daou"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Verrit\nThe website's slogan says it is \"media for the 65.8 million,\" referring to the number of votes Hillary Clinton won in the 2016 presidential election. Daou, an adviser to Clinton's 2008 presidential campaign, and prior chief executive of Shareblue told \"Business Insider\" that he intended the website to \"reflect the worldview\" of those who voted for Clinton and described the site as an \"online hub for Clinton backers so that they can find easy-to-share facts, stats and other information you can take out to social media when you’re having debates on key issues people are discussing\". Daou also said the website had no financial ties to Clinton."
+}

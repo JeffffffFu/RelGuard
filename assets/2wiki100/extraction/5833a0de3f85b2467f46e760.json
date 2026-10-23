@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Ze'ev Chafets": "Person",
+    "American-Israeli": "Nationality",
+    "author": "Occupation",
+    "columnist": "Occupation"
+  },
+  "triples": [
+    {
+      "subject": "Ze'ev Chafets",
+      "relation": "nationality",
+      "object": "American-Israeli",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "American- Israeli"
+        }
+      ]
+    },
+    {
+      "subject": "Ze'ev Chafets",
+      "relation": "works_as",
+      "object": "author",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "author"
+        }
+      ]
+    },
+    {
+      "subject": "Ze'ev Chafets",
+      "relation": "works_as",
+      "object": "columnist",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "columnist"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ze'ev Chafets",
+        "born_in",
+        "1947"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ze'ev Chafets\nZe'ev Chafets( born 1947) is an American- Israeli author and columnist."
+}

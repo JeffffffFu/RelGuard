@@ -1,0 +1,136 @@
+{
+  "entities": {
+    "John I, Marquis of Namur": "PERSON",
+    "Namur": "GPE",
+    "House of Dampierre": "ORG",
+    "Guy of Dampierre": "PERSON",
+    "Flanders": "GPE",
+    "Isabelle of Luxembourg": "PERSON",
+    "Blanche of Namur": "PERSON",
+    "Sweden": "GPE",
+    "Norway": "GPE",
+    "Guy of Namur": "PERSON",
+    "French Kingdom": "ORG",
+    "Battle of the Golden Spurs": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "John I, Marquis of Namur",
+      "relation": "ruler_of",
+      "object": "Namur",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the ruler of Namur from 1305 to 1330"
+        }
+      ]
+    },
+    {
+      "subject": "John I, Marquis of Namur",
+      "relation": "member_of",
+      "object": "House of Dampierre",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a member of the House of Dampierre"
+        }
+      ]
+    },
+    {
+      "subject": "John I, Marquis of Namur",
+      "relation": "son_of",
+      "object": "Guy of Dampierre",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the son of Guy of Dampierre"
+        }
+      ]
+    },
+    {
+      "subject": "John I, Marquis of Namur",
+      "relation": "husband_of",
+      "object": "Isabelle of Luxembourg",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his second wife Isabelle of Luxembourg"
+        }
+      ]
+    },
+    {
+      "subject": "John I, Marquis of Namur",
+      "relation": "father_of",
+      "object": "Blanche of Namur",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the father of Blanche of Namur"
+        }
+      ]
+    },
+    {
+      "subject": "Blanche of Namur",
+      "relation": "queen_of",
+      "object": "Sweden",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Queen of Sweden"
+        }
+      ]
+    },
+    {
+      "subject": "John I, Marquis of Namur",
+      "relation": "brother_of",
+      "object": "Guy of Namur",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the elder brother of Guy of Namur"
+        }
+      ]
+    },
+    {
+      "subject": "Guy of Namur",
+      "relation": "against",
+      "object": "French Kingdom",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "against the French Kingdom"
+        }
+      ]
+    },
+    {
+      "subject": "Guy of Namur",
+      "relation": "participated_in",
+      "object": "Battle of the Golden Spurs",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the 1302 Battle of the Golden Spurs"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Blanche of Namur",
+        "queen_of",
+        "Norway"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Guy of Namur",
+        "commanded",
+        "Flemish rebels"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John I, Marquis of Namur\nJohn I of Namur (1267 – 31 January 1330) was the ruler of Namur from 1305 to 1330. He was a member of the House of Dampierre, the son of Guy of Dampierre, Count of Flanders and Marquis of Namur, and his second wife Isabelle of Luxembourg. John was the father of Blanche of Namur, Queen of Sweden and Norway. He was the elder brother of Guy of Namur, whom he sent to command the Flemish rebels against the French Kingdom in the 1302 Battle of the Golden Spurs."
+}

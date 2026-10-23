@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "U.S. Bancorp": "Organization",
+    "Minneapolis": "Location",
+    "Minnesota": "Location",
+    "U.S. Bank": "Organization",
+    "United States": "Location",
+    "Elavon": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "U.S. Bancorp",
+      "relation": "based_in",
+      "object": "Minneapolis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Minneapolis"
+        }
+      ]
+    },
+    {
+      "subject": "U.S. Bancorp",
+      "relation": "based_in",
+      "object": "Minnesota",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Minneapolis, Minnesota"
+        }
+      ]
+    },
+    {
+      "subject": "U.S. Bancorp",
+      "relation": "parent_company_of",
+      "object": "U.S. Bank",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "parent company of U.S. Bank"
+        }
+      ]
+    },
+    {
+      "subject": "U.S. Bancorp",
+      "relation": "owns",
+      "object": "Elavon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also owns Elavon"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "U.S. Bank",
+        "ranked",
+        "7th"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "U.S. Bancorp",
+        "provides",
+        "banking, investment, mortgage, trust, and payment services products"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "U.S. Bancorp",
+        "has",
+        "3,106 branches"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "U.S. Bancorp",
+        "has",
+        "4,842 ATMs"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Elavon",
+        "is_a",
+        "processor of credit card transactions"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "U.S. Bancorp\nU.S. Bancorp is a bank holding company based in Minneapolis, Minnesota. It is the parent company of U.S. Bank, National Association, known as U.S. Bank, which is ranked 7th on the list of largest banks in the United States. The company provides banking, investment, mortgage, trust, and payment services products to individuals, businesses, governmental entities, and other financial institutions. It has 3,106 branches and 4,842 ATMs, primarily in the Midwestern United States. The company also owns Elavon, a processor of credit card transactions."
+}

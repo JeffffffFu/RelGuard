@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "Mindless Behavior: All Around the World": "WORK_OF_ART",
+    "Steven Goldfried": "PERSON",
+    "Mindless Behavior": "ORG",
+    "AMC Theatres": "ORG",
+    "AwesomenessTV Films": "ORG",
+    "All Around the World": "WORK_OF_ART",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Mindless Behavior: All Around the World",
+      "relation": "produced_by",
+      "object": "Steven Goldfried",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 89,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Mindless Behavior: All Around the World",
+      "relation": "based_on",
+      "object": "Mindless Behavior",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 127,
+          "char_start": 167,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Mindless Behavior: All Around the World",
+      "relation": "distributed_by",
+      "object": "AwesomenessTV Films",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "distributed by",
+          "line_start": 260,
+          "char_start": 300,
+          "ambiguous": false,
+          "relation_mention": "distributed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mindless Behavior: All Around the World",
+        "directed_by",
+        "Steven Goldfried"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mindless Behavior: All Around the World",
+        "released_through",
+        "AMC Theatres"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mindless Behavior: All Around the World",
+        "shares_name_with",
+        "All Around the World"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mindless Behavior: All Around the World",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mindless Behavior",
+        "type",
+        "ORG"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mindless Behavior: All Around the World\nMindless Behavior: All Around the World is a 2013 American documentary film directed and produced by Steven Goldfried, that is based on the making of American boy band Mindless Behavior. The film was released on March 15, 2013 through AMC Theatres while being distributed by AwesomenessTV Films. The film also shares the same name as the band's second studio album, \"All Around the World\" and was released in the same week of the album's release.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Mindless Behavior: All Around the World\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Steven Goldfried\", \"type\": \"PERSON\"},\n    {\"name\": \"Mindless Behavior\", \"type\": \"ORG\"},\n    {\"name\": \"AMC Theatres\", \"type\": \"ORG\"},\n    {\"name\": \"AwesomenessTV Films\", \"type\": \"ORG\"},\n    {\"name\": \"All Around the World\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Mindless Behavior: All Around the World\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Steven Goldfried\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Mindless Behavior: All Around the World\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Steven Goldfried\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Mindless Behavior: All Around the World\",\n      \"relation\": \"based_on\",\n      \"object\": \"Mindless Behavior\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on\"}\n      ]\n    },\n    {\n      \"subject\": \"Mindless Behavior: All Around the World\",\n      \"relation\": \"released_through\",\n      \"object\": \"AMC Theatres\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released on March 15, 2013 through AMC Theatres while being distributed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Mindless Behavior: All Around the World\",\n      \"relation\": \"distributed_by\",\n      \"object\": \"AwesomenessTV Films\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"distributed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Mindless Behavior: All Around the World\",\n      \"relation\": \"shares_name_with\",\n      \"object\": \"All Around the World\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"shares the same name as\"}\n      ]\n    },\n    {\n      \"subject\": \"Mindless Behavior: All Around the World\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    },\n    {\n      \"subject\": \"Mindless Behavior\",\n      \"relation\": \"type\",\n      \"object\": \"ORG\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American boy band Mindless Behavior\"}\n      ]\n    }\n  ]\n}"
+}

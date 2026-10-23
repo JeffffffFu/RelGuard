@@ -1,0 +1,132 @@
+{
+  "entities": {
+    "Steeplechase Park": "FAC",
+    "Coney Island": "LOC",
+    "Brooklyn": "GPE",
+    "New York": "GPE",
+    "George C. Tilyou": "PERSON",
+    "Luna Park": "FAC",
+    "Dreamland": "FAC",
+    "Tilyou family": "NORP",
+    "Parachute Jump": "PRODUCT",
+    "Great Depression": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Steeplechase Park",
+      "relation": "founded",
+      "object": "George C. Tilyou",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "created by",
+          "line_start": 87,
+          "char_start": 105,
+          "ambiguous": false,
+          "relation_mention": "created by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Steeplechase Park",
+      "relation": "founded",
+      "object": "Tilyou family",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "created by",
+          "line_start": 87,
+          "char_start": 105,
+          "ambiguous": false,
+          "relation_mention": "created by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Dreamland",
+      "relation": "burned_in",
+      "object": "Dreamland",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "burned in a fire in 1911",
+          "line_start": 379,
+          "char_start": 397,
+          "ambiguous": false,
+          "relation_mention": "burned in a fire in 1911",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Steeplechase Park",
+        "located_in",
+        "Coney Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Steeplechase Park",
+        "located_in",
+        "Brooklyn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Steeplechase Park",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Luna Park",
+        "located_in",
+        "Coney Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dreamland",
+        "located_in",
+        "Coney Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Luna Park",
+        "suffered",
+        "Great Depression"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tilyou family",
+        "adapted",
+        "Steeplechase Park"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tilyou family",
+        "brought_in",
+        "Parachute Jump"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Steeplechase Park\nSteeplechase Park was an amusement park in the Coney Island area of Brooklyn, New York created by George C. Tilyou (1862–1914) which operated from 1897 to 1964. It was the first of the three original iconic large parks built on Coney Island, the other two being Luna Park (1903) and Dreamland (1904). Steeplechase was Coney Island's longest lasting park. Unlike Dreamland, which burned in a fire in 1911, and Luna Park which, despite early success, saw its profitability disappear during the Great Depression, Steeplechase had kept itself financially profitable. The Tilyou family had been able to adapt the park to the changing times, bringing in new rides and new amusements to Steeplechase such as the Parachute Jump.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Steeplechase Park\", \"type\": \"FAC\"},\n    {\"name\": \"Coney Island\", \"type\": \"LOC\"},\n    {\"name\": \"Brooklyn\", \"type\": \"GPE\"},\n    {\"name\": \"New York\", \"type\": \"GPE\"},\n    {\"name\": \"George C. Tilyou\", \"type\": \"PERSON\"},\n    {\"name\": \"Luna Park\", \"type\": \"FAC\"},\n    {\"name\": \"Dreamland\", \"type\": \"FAC\"},\n    {\"name\": \"Tilyou family\", \"type\": \"NORP\"},\n    {\"name\": \"Parachute Jump\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Great Depression\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Steeplechase Park\",\n      \"relation\": \"located_in\",\n      \"object\": \"Coney Island\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Coney Island area of Brooklyn, New York\"}\n      ]\n    },\n    {\n      \"subject\": \"Steeplechase Park\",\n      \"relation\": \"located_in\",\n      \"object\": \"Brooklyn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Coney Island area of Brooklyn, New York\"}\n      ]\n    },\n    {\n      \"subject\": \"Steeplechase Park\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Coney Island area of Brooklyn, New York\"}\n      ]\n    },\n    {\n      \"subject\": \"Steeplechase Park\",\n      \"relation\": \"founded\",\n      \"object\": \"George C. Tilyou\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"created by\"}\n      ]\n    },\n    {\n      \"subject\": \"Steeplechase Park\",\n      \"relation\": \"founded\",\n      \"object\": \"Tilyou family\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"created by\"}\n      ]\n    },\n    {\n      \"subject\": \"Steeplechase Park\",\n      \"relation\": \"operated_from\",\n      \"object\": \"Steeplechase Park\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Luna Park\",\n      \"relation\": \"located_in\",\n      \"object\": \"Coney Island\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"built on Coney Island\"}\n      ]\n    },\n    {\n      \"subject\": \"Dreamland\",\n      \"relation\": \"located_in\",\n      \"object\": \"Coney Island\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"built on Coney Island\"}\n      ]\n    },\n    {\n      \"subject\": \"Dreamland\",\n      \"relation\": \"burned_in\",\n      \"object\": \"Dreamland\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"burned in a fire in 1911\"}\n      ]\n    },\n    {\n      \"subject\": \"Luna Park\",\n      \"relation\": \"suffered\",\n      \"object\": \"Great Depression\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"during the Great Depression\"}\n      ]\n    },\n    {\n      \"subject\": \"Tilyou family\",\n      \"relation\": \"adapted\",\n      \"object\": \"Steeplechase Park\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"adapt the park to the changing times\"}\n      ]\n    },\n    {\n      \"subject\": \"Tilyou family\",\n      \"relation\": \"brought_in\",\n      \"object\": \"Parachute Jump\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"bringing in new rides and new amusements to Steeplechase such as the Parachute Jump\"}\n      ]\n    }\n  ]\n}"
+}

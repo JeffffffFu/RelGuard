@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Elliott R. Brown": "Person",
+    "University of California, Los Angeles": "Organization",
+    "American Physical Society": "Organization",
+    "Forum on Industrial and Applied Physics": "Organization",
+    "2007": "Date",
+    "THz science and technology": "Field"
+  },
+  "triples": [
+    {
+      "subject": "Elliott R. Brown",
+      "relation": "nominated_by",
+      "object": "Forum on Industrial and Applied Physics",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "after they were nominated by their Forum on Industrial and Applied Physics"
+        }
+      ]
+    },
+    {
+      "subject": "Elliott R. Brown",
+      "relation": "affiliated_with",
+      "object": "University of California, Los Angeles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Elliott R. Brown from the University of California, Los Angeles"
+        }
+      ]
+    },
+    {
+      "subject": "Forum on Industrial and Applied Physics",
+      "relation": "nominated",
+      "object": "Elliott R. Brown",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "nominated by their Forum on Industrial and Applied Physics"
+        }
+      ]
+    },
+    {
+      "subject": "2007",
+      "relation": "year_of_nomination",
+      "object": "Elliott R. Brown",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in 2007"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Elliott R. Brown",
+        "awarded_status",
+        "Fellow in the American Physical Society"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Elliott R. Brown",
+        "achievements_in",
+        "THz science and technology"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Elliott R. Brown\nElliott R. Brown from the University of California, Los Angeles, was awarded the status of Fellow in the American Physical Society, after they were nominated by their Forum on Industrial and Applied Physics in 2007, for\" breakthroughs in THz science and technology including new solid- state coherent sources:( 1) resonant- tunneling oscillators, and( 2) photomixers; new detectors based on single- crystal, semimetal- semiconductor junctions; and high- resolution spectroscopy of solids.\""
+}

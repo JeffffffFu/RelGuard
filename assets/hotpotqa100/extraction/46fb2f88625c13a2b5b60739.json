@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Rolls-Royce RB.53 Dart": "PRODUCT",
+    "Rolls-Royce Limited": "ORG",
+    "Vickers Viscount": "PRODUCT",
+    "British European Airways": "ORG",
+    "BEA": "ORG",
+    "Northolt": "GPE",
+    "Paris–Le Bourget Airport": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Rolls-Royce RB.53 Dart",
+      "relation": "designed_built_and_manufactured_by",
+      "object": "Rolls-Royce Limited",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed, built and manufactured by",
+          "line_start": 68,
+          "char_start": 85,
+          "ambiguous": false,
+          "relation_mention": "designed, built and manufactured by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rolls-Royce RB.53 Dart",
+        "powered",
+        "Vickers Viscount"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vickers Viscount",
+        "entered_service_with",
+        "British European Airways"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "British European Airways",
+        "abbreviated_as",
+        "BEA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rolls-Royce RB.53 Dart",
+        "powered",
+        "Vickers Viscount"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "flight",
+        "between",
+        "Northolt"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "flight",
+        "between",
+        "Paris–Le Bourget Airport"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Rolls-Royce Dart\nThe Rolls-Royce RB.53 Dart is a long-lived British turboprop engine designed, built and manufactured by Rolls-Royce Limited. First run in 1946, it powered the first Vickers Viscount maiden flight in 1948, and in the Viscount was the first turboprop engine to enter airline service, with British European Airways (BEA), in 1950. On 29 July 1948 a flight between Northolt and Paris–Le Bourget Airport with 14 paying passengers in a Dart-powered Viscount was the first scheduled airline flight by any turbine-powered aircraft.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Rolls-Royce RB.53 Dart\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Rolls-Royce Limited\", \"type\": \"ORG\"},\n    {\"name\": \"Vickers Viscount\", \"type\": \"PRODUCT\"},\n    {\"name\": \"British European Airways\", \"type\": \"ORG\"},\n    {\"name\": \"BEA\", \"type\": \"ORG\"},\n    {\"name\": \"Northolt\", \"type\": \"GPE\"},\n    {\"name\": \"Paris–Le Bourget Airport\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Rolls-Royce RB.53 Dart\",\n      \"relation\": \"designed_built_and_manufactured_by\",\n      \"object\": \"Rolls-Royce Limited\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"designed, built and manufactured by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Rolls-Royce RB.53 Dart\",\n      \"relation\": \"powered\",\n      \"object\": \"Vickers Viscount\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"it powered the first Vickers Viscount maiden flight\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Vickers Viscount\",\n      \"relation\": \"entered_service_with\",\n      \"object\": \"British European Airways\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"entered airline service, with British European Airways (BEA),\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"British European Airways\",\n      \"relation\": \"abbreviated_as\",\n      \"object\": \"BEA\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"British European Airways (BEA)\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Rolls-Royce RB.53 Dart\",\n      \"relation\": \"powered\",\n      \"object\": \"Vickers Viscount\",\n      \"occurrences\": [\n        {\n          \"line\": 3,\n          \"predicate\": \"a Dart-powered Viscount\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"flight\",\n      \"relation\": \"between\",\n      \"object\": \"Northolt\",\n      \"occurrences\": [\n        {\n          \"line\": 3,\n          \"predicate\": \"between Northolt and Paris–Le Bourget Airport\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"flight\",\n      \"relation\": \"between\",\n      \"object\": \"Paris–Le Bourget Airport\",\n      \"occurrences\": [\n        {\n          \"line\": 3,\n          \"predicate\": \"between Northolt and Paris–Le Bourget Airport\"\n        }\n      ]\n    }\n  ]\n}"
+}

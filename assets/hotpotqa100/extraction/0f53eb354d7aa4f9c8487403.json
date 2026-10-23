@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "The Barry Building": "Building",
+    "Milton Caughey": "Architect",
+    "Los Angeles": "City",
+    "California": "State",
+    "Brentwood": "Neighborhood",
+    "Los Angeles Cultural Heritage Commission": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "The Barry Building",
+      "relation": "located_in",
+      "object": "Brentwood",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the heart of the Brentwood neighborhood"
+        }
+      ]
+    },
+    {
+      "subject": "The Barry Building",
+      "relation": "designed_by",
+      "object": "Milton Caughey",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "designed by architect Milton Caughey"
+        }
+      ]
+    },
+    {
+      "subject": "The Barry Building",
+      "relation": "identified_by",
+      "object": "Los Angeles Cultural Heritage Commission",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "identified by the Los Angeles Cultural Heritage Commission"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Barry Building",
+        "located_at",
+        "11973 San Vicente Boulevard"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Barry Building",
+        "completed_in",
+        "1951"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Barry Building",
+        "listed_as",
+        "Los Angeles Historic-Cultural Monument"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Barry Building",
+        "notable_example_of",
+        "California-style modern design"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Barry Building\nThe Barry Building is a landmark commercial mid-twentieth century modern building located at 11973 San Vicente Boulevard in the heart of the Brentwood neighborhood of Los Angeles, California. It was designed by architect Milton Caughey (1911-1958) and completed in 1951. In 2007, the building was listed as a Los Angeles Historic-Cultural Monument,(Historical Cultural Monument #887), making it one of the few mid-century modern commercial buildings to gain such status. It was identified by the Los Angeles Cultural Heritage Commission as being a well-preserved and notable example of the California-style modern design."
+}

@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Woodford Halse Nature Reserve": "LOC",
+    "Woodford Halse": "GPE",
+    "Northamptonshire": "GPE",
+    "Wildlife Trust for Bedfordshire, Cambridgeshire and Northamptonshire": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Woodford Halse Nature Reserve",
+      "relation": "managed_by",
+      "object": "Wildlife Trust for Bedfordshire, Cambridgeshire and Northamptonshire",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is managed by",
+          "line_start": 110,
+          "char_start": 140,
+          "ambiguous": false,
+          "relation_mention": "is managed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Woodford Halse Nature Reserve",
+        "located_in",
+        "Woodford Halse"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Woodford Halse Nature Reserve",
+        "located_in",
+        "Northamptonshire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Woodford Halse Nature Reserve\nWoodford Halse Nature Reserve is a 5.7 hectare nature reserve south of Woodford Halse in Northamptonshire. It is managed by the Wildlife Trust for Bedfordshire, Cambridgeshire and Northamptonshire.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Woodford Halse Nature Reserve\", \"type\": \"LOC\"},\n    {\"name\": \"Woodford Halse\", \"type\": \"GPE\"},\n    {\"name\": \"Northamptonshire\", \"type\": \"GPE\"},\n    {\"name\": \"Wildlife Trust for Bedfordshire, Cambridgeshire and Northamptonshire\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Woodford Halse Nature Reserve\",\n      \"relation\": \"located_in\",\n      \"object\": \"Woodford Halse\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"south of\"}\n      ]\n    },\n    {\n      \"subject\": \"Woodford Halse Nature Reserve\",\n      \"relation\": \"located_in\",\n      \"object\": \"Northamptonshire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Woodford Halse Nature Reserve\",\n      \"relation\": \"managed_by\",\n      \"object\": \"Wildlife Trust for Bedfordshire, Cambridgeshire and Northamptonshire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is managed by\"}\n      ]\n    }\n  ]\n}"
+}

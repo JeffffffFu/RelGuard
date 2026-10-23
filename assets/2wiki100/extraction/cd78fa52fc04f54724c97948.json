@@ -1,0 +1,198 @@
+{
+  "entities": {
+    "William Reeves": "Person",
+    "John Lasseter": "Person",
+    "Luxo Jr.": "Film",
+    "The Adventures of André and Wally B.": "Film",
+    "University of Waterloo": "Organization",
+    "University of Toronto": "Organization",
+    "George Lucas": "Person",
+    "Lucasfilm": "Organization",
+    "Pixar": "Organization",
+    "Steve Jobs": "Person",
+    "Motion Blur algorithm": "Invention",
+    "Tin Toy": "Film",
+    "Toy Story": "Film",
+    "J.W. Graham Medal": "Award",
+    "Wes Graham": "Person"
+  },
+  "triples": [
+    {
+      "subject": "William Reeves",
+      "relation": "works_with",
+      "object": "John Lasseter",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "known for working with John Lasseter"
+        }
+      ]
+    },
+    {
+      "subject": "William Reeves",
+      "relation": "worked_on",
+      "object": "Luxo Jr.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on the animated shorts \"Luxo Jr.\""
+        }
+      ]
+    },
+    {
+      "subject": "William Reeves",
+      "relation": "hired_by",
+      "object": "George Lucas",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Reeves was hired by George Lucas"
+        }
+      ]
+    },
+    {
+      "subject": "William Reeves",
+      "relation": "founding_employee_of",
+      "object": "Pixar",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "He was one of the founding employees of Pixar"
+        }
+      ]
+    },
+    {
+      "subject": "Pixar",
+      "relation": "sold_to",
+      "object": "Steve Jobs",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "when it was sold in 1986 to Steve Jobs"
+        }
+      ]
+    },
+    {
+      "subject": "William Reeves",
+      "relation": "invented",
+      "object": "Motion Blur algorithm",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Reeves is the inventor of the first Motion Blur algorithm"
+        }
+      ]
+    },
+    {
+      "subject": "William Reeves",
+      "relation": "worked_on",
+      "object": "Toy Story",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "the first feature length, computer-animated film: \"Toy Story\""
+        }
+      ]
+    },
+    {
+      "subject": "William Reeves",
+      "relation": "became_awardee_of",
+      "object": "J.W. Graham Medal",
+      "occurrences": [
+        {
+          "sentence_id": 8,
+          "relation_mention": "In 1996 he became the 2nd awardee of the J.W. Graham Medal"
+        }
+      ]
+    },
+    {
+      "subject": "J.W. Graham Medal",
+      "relation": "named_in_honor_of",
+      "object": "Wes Graham",
+      "occurrences": [
+        {
+          "sentence_id": 8,
+          "relation_mention": "named in honor of Wes Graham an early influential Professor of Computer Science"
+        }
+      ]
+    },
+    {
+      "subject": "Wes Graham",
+      "relation": "influential_professor_of",
+      "object": "University of Waterloo",
+      "occurrences": [
+        {
+          "sentence_id": 8,
+          "relation_mention": "an early influential Professor of Computer Science at the University of Waterloo"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "William Reeves",
+        "born_on",
+        "May 5, 1959"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "William Reeves",
+        "worked_on",
+        "The Adventures of André and Wally B."
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "William Reeves",
+        "obtained_degree",
+        "Bachelor of Mathematics"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "William Reeves",
+        "completed_degree",
+        "Ph.D."
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "William Reeves",
+        "member_of",
+        "Lucasfilm's Computer Division"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "William Reeves",
+        "received_award",
+        "Academy Award for Best Animated Short Film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "William Reeves",
+        "acted_as",
+        "Supervising Technical Director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "J.W. Graham Medal",
+        "awarded_to",
+        "influential alumnus of the University's Faculty of Mathematics"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "William Reeves (animator)\nWilliam \"Bill\" Reeves (born May 5, 1959) is a Canadian animator and technical director known for working with John Lasseter on the animated shorts \"Luxo Jr.\" and \"The Adventures of André and Wally B.\" After obtaining a Bachelor of Mathematics from the University of Waterloo and completing a Ph.D. at the University of Toronto, Reeves was hired by George Lucas as a member of Lucasfilm's Computer Division, Computer Graphics Group. He was one of the founding employees of Pixar when it was sold in 1986 to Steve Jobs. Reeves is the inventor of the first Motion Blur algorithm and methods to simulate particle motion in CGI. Lasseter and Reeves received the Academy Award for Best Animated Short Film (Oscar) in 1988 for their work on the film \"Tin Toy\". Their collaboration continued with Reeves acting as the Supervising Technical Director of the first feature length, computer-animated film: \"Toy Story\". In 1996 he became the 2nd awardee of the J.W. Graham Medal, named in honor of Wes Graham an early influential Professor of Computer Science at the University of Waterloo, and annually awarded to an influential alumnus of the University's Faculty of Mathematics."
+}

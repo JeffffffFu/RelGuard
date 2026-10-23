@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "WLMR": "ORG",
+    "Chattanooga": "GPE",
+    "Tennessee": "GPE",
+    "USA": "GPE",
+    "Wilkins Communications Network, Inc.": "ORG",
+    "USA Radio Network": "ORG",
+    "WZRA": "ORG",
+    "Jeff Styles": "PERSON",
+    "Kelly McCoy": "PERSON",
+    "Robert T. Nash": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "WLMR",
+      "relation": "licensed_to",
+      "object": "Chattanooga",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Licensed to",
+          "line_start": 67,
+          "char_start": 72,
+          "ambiguous": false,
+          "relation_mention": "Licensed to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "WLMR",
+      "relation": "owned_by",
+      "object": "Wilkins Communications Network, Inc.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is currently owned by",
+          "line_start": 161,
+          "char_start": 166,
+          "ambiguous": false,
+          "relation_mention": "is currently owned by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "WLMR",
+      "relation": "features_programming_from",
+      "object": "USA Radio Network",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "features programming from",
+          "line_start": 224,
+          "char_start": 229,
+          "ambiguous": false,
+          "relation_mention": "features programming from",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "WLMR",
+        "located_in",
+        "Tennessee"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "WLMR",
+        "located_in",
+        "USA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "WZRA",
+        "held_call_letters_for",
+        "WLMR"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "WZRA",
+        "was_home_of",
+        "Jeff Styles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "WZRA",
+        "featured_personality",
+        "Kelly McCoy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "WZRA",
+        "featured_personality",
+        "Robert T. Nash"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "WLMR\nWLMR (1450 AM) is a radio station broadcasting a religious format. Licensed to Chattanooga, Tennessee, USA, the station serves the Chattanooga area. The station is currently owned by Wilkins Communications Network, Inc. and features programming from USA Radio Network. In the early 1980s, the station was automated and played country music from studios in a strip mall on Brainerd Rd. It was also Chattanooga's first talk radio station when it held the WZRA call letters. WZRA was the first home of Jeff Styles, and also featured well known personalities such as Kelly McCoy and Robert T. Nash.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"WLMR\", \"type\": \"ORG\"},\n    {\"name\": \"Chattanooga\", \"type\": \"GPE\"},\n    {\"name\": \"Tennessee\", \"type\": \"GPE\"},\n    {\"name\": \"USA\", \"type\": \"GPE\"},\n    {\"name\": \"Wilkins Communications Network, Inc.\", \"type\": \"ORG\"},\n    {\"name\": \"USA Radio Network\", \"type\": \"ORG\"},\n    {\"name\": \"WZRA\", \"type\": \"ORG\"},\n    {\"name\": \"Jeff Styles\", \"type\": \"PERSON\"},\n    {\"name\": \"Kelly McCoy\", \"type\": \"PERSON\"},\n    {\"name\": \"Robert T. Nash\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"WLMR\",\n      \"relation\": \"licensed_to\",\n      \"object\": \"Chattanooga\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Licensed to\"}\n      ]\n    },\n    {\n      \"subject\": \"WLMR\",\n      \"relation\": \"located_in\",\n      \"object\": \"Tennessee\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Licensed to Chattanooga, Tennessee, USA, the station serves\"}\n      ]\n    },\n    {\n      \"subject\": \"WLMR\",\n      \"relation\": \"located_in\",\n      \"object\": \"USA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Licensed to Chattanooga, Tennessee, USA, the station serves\"}\n      ]\n    },\n    {\n      \"subject\": \"WLMR\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Wilkins Communications Network, Inc.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is currently owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"WLMR\",\n      \"relation\": \"features_programming_from\",\n      \"object\": \"USA Radio Network\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"features programming from\"}\n      ]\n    },\n    {\n      \"subject\": \"WZRA\",\n      \"relation\": \"held_call_letters_for\",\n      \"object\": \"WLMR\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"when it held the WZRA call letters\"}\n      ]\n    },\n    {\n      \"subject\": \"WZRA\",\n      \"relation\": \"was_home_of\",\n      \"object\": \"Jeff Styles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"WZRA was the first home of\"}\n      ]\n    },\n    {\n      \"subject\": \"WZRA\",\n      \"relation\": \"featured_personality\",\n      \"object\": \"Kelly McCoy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also featured well known personalities such as\"}\n      ]\n    },\n    {\n      \"subject\": \"WZRA\",\n      \"relation\": \"featured_personality\",\n      \"object\": \"Robert T. Nash\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also featured well known personalities such as\"}\n      ]\n    }\n  ]\n}"
+}

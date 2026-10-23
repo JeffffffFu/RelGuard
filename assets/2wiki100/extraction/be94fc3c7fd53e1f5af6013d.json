@@ -1,0 +1,163 @@
+{
+  "entities": {
+    "Bruce Robinson": "Person",
+    "Withnail and I": "Film",
+    "Franco Zeffirelli": "Person",
+    "Uncle Monty": "Character",
+    "Romeo and Juliet": "Film",
+    "Ken Russell": "Person",
+    "François Truffaut": "Person",
+    "Camden Town": "Location",
+    "London": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Withnail and I",
+      "relation": "set_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a film with comic and tragic elements set in London"
+        }
+      ]
+    },
+    {
+      "subject": "Bruce Robinson",
+      "relation": "lived_in",
+      "object": "Camden Town",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "living in poverty in Camden Town"
+        }
+      ]
+    },
+    {
+      "subject": "Bruce Robinson",
+      "relation": "worked_with",
+      "object": "Franco Zeffirelli",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he has worked with Franco Zeffirelli"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bruce Robinson",
+        "born_on",
+        "2 May 1946"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bruce Robinson",
+        "is_a",
+        "English director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bruce Robinson",
+        "is_a",
+        "screenwriter"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bruce Robinson",
+        "is_a",
+        "novelist"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bruce Robinson",
+        "is_a",
+        "actor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bruce Robinson",
+        "wrote_and_directed",
+        "Withnail and I"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Withnail and I",
+        "released_in",
+        "1987"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Withnail and I",
+        "has_elements",
+        "comic and tragic elements"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bruce Robinson",
+        "drew_on_experiences",
+        "struggling actor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Franco Zeffirelli",
+        "based_character_on",
+        "Uncle Monty"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bruce Robinson",
+        "played",
+        "Benvolio"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Franco Zeffirelli",
+        "directed",
+        "Romeo and Juliet"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bruce Robinson",
+        "worked_with",
+        "Ken Russell"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bruce Robinson",
+        "worked_with",
+        "François Truffaut"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Bruce Robinson\nBruce Robinson( born 2 May 1946) is an English director, screenwriter, novelist and actor. He wrote and directed the cult classic\" Withnail and I\"( 1987), a film with comic and tragic elements set in London in the 1960s, which drew on his experiences as a struggling actor, living in poverty in Camden Town. As an actor, he has worked with Franco Zeffirelli( on whom he based the character of Uncle Monty in\" Withnail and I\") playing Benvolio in Zeffirelli's\" Romeo and Juliet\", Ken Russell and François Truffaut."
+}

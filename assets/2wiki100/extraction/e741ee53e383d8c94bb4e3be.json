@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Noose (1958 film)": "WORK_OF_ART",
+    "Wojciech Jerzy Has": "PERSON",
+    "Gustaw Holoubek": "PERSON",
+    "Marek Hłasko": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Noose (1958 film)",
+      "relation": "directed_by",
+      "object": "Wojciech Jerzy Has",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 46,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Noose (1958 film)",
+      "relation": "stars",
+      "object": "Gustaw Holoubek",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 82,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Poland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Noose (1958 film)",
+        "released_in",
+        "Poland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Noose (1958 film)",
+        "adaptation_of",
+        "Marek Hłasko"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Noose (1958 film)\nThe Noose  is a Polish film released in 1958, directed by Wojciech Jerzy Has, and starring Gustaw Holoubek. The film is an adaptation of a short story by Marek Hłasko, and follows a day in the life of an alcoholic.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Noose (1958 film)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Poland\", \"type\": \"GPE\"},\n    {\"name\": \"Wojciech Jerzy Has\", \"type\": \"PERSON\"},\n    {\"name\": \"Gustaw Holoubek\", \"type\": \"PERSON\"},\n    {\"name\": \"Marek Hłasko\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Noose (1958 film)\",\n      \"relation\": \"released_in\",\n      \"object\": \"Poland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Polish film\"}\n      ]\n    },\n    {\n      \"subject\": \"Noose (1958 film)\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Wojciech Jerzy Has\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Noose (1958 film)\",\n      \"relation\": \"stars\",\n      \"object\": \"Gustaw Holoubek\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Noose (1958 film)\",\n      \"relation\": \"adaptation_of\",\n      \"object\": \"Marek Hłasko\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"an adaptation of a short story by\"}\n      ]\n    }\n  ]\n}"
+}

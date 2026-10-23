@@ -1,0 +1,176 @@
+{
+  "entities": {
+    "surrogate model": "concept",
+    "engineering method": "concept",
+    "outcome of interest": "concept",
+    "engineering design problems": "concept",
+    "experiments": "concept",
+    "simulations": "concept",
+    "design objective": "concept",
+    "constraint functions": "concept",
+    "design variables": "concept",
+    "optimal airfoil shape": "concept",
+    "aircraft wing": "concept",
+    "engineer": "person",
+    "air flow": "concept",
+    "shape variables": "concept",
+    "real world problems": "concept",
+    "simulation": "concept",
+    "design optimization": "concept",
+    "design space exploration": "concept",
+    "sensitivity analysis": "concept",
+    "what-if analysis": "concept"
+  },
+  "triples": [
+    {
+      "subject": "surrogate model",
+      "relation": "is",
+      "object": "engineering method",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "A surrogate model is an engineering method"
+        }
+      ]
+    },
+    {
+      "subject": "surrogate model",
+      "relation": "used_when",
+      "object": "outcome of interest",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "used when an outcome of interest cannot be easily directly measured"
+        }
+      ]
+    },
+    {
+      "subject": "engineering design problems",
+      "relation": "require",
+      "object": "experiments",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Most engineering design problems require experiments"
+        }
+      ]
+    },
+    {
+      "subject": "experiments",
+      "relation": "evaluate",
+      "object": "design objective",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "to evaluate design objective"
+        }
+      ]
+    },
+    {
+      "subject": "design objective",
+      "relation": "as_function_of",
+      "object": "design variables",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "as function of design variables"
+        }
+      ]
+    },
+    {
+      "subject": "engineer",
+      "relation": "simulates",
+      "object": "air flow",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "an engineer simulates the air flow"
+        }
+      ]
+    },
+    {
+      "subject": "air flow",
+      "relation": "around",
+      "object": "aircraft wing",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "simulates the air flow around the wing"
+        }
+      ]
+    },
+    {
+      "subject": "aircraft wing",
+      "relation": "for",
+      "object": "optimal airfoil shape",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "to find the optimal airfoil shape for an aircraft wing"
+        }
+      ]
+    },
+    {
+      "subject": "real world problems",
+      "relation": "can_take",
+      "object": "simulation",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "a single simulation can take many minutes, hours, or even days to complete"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "engineering design problems",
+        "require",
+        "simulations"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "experiments",
+        "evaluate",
+        "constraint functions"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "routine tasks",
+        "become_impossible_since",
+        "design optimization"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "routine tasks",
+        "become_impossible_since",
+        "design space exploration"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "routine tasks",
+        "become_impossible_since",
+        "sensitivity analysis"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "routine tasks",
+        "become_impossible_since",
+        "what-if analysis"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Surrogate model\nA surrogate model is an engineering method used when an outcome of interest cannot be easily directly measured, so a model of the outcome is used instead. Most engineering design problems require experiments and/or simulations to evaluate design objective and constraint functions as function of design variables. For example, in order to find the optimal airfoil shape for an aircraft wing, an engineer simulates the air flow around the wing for different shape variables (length, curvature, material, ..). For many real world problems, however, a single simulation can take many minutes, hours, or even days to complete. As a result, routine tasks such as design optimization, design space exploration, sensitivity analysis and \"what-if\" analysis become impossible since they require thousands or even millions of simulation evaluations."
+}

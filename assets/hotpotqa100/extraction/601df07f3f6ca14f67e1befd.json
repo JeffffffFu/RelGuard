@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Arthur Q. Bryan": "Person",
+    "Dr. Gamble": "Character",
+    "Fibber McGee and Molly": "Show",
+    "Elmer Fudd": "Character",
+    "Warner Brothers": "Company"
+  },
+  "triples": [
+    {
+      "subject": "Arthur Q. Bryan",
+      "relation": "played",
+      "object": "Dr. Gamble",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his longtime recurring role as well-spoken, wisecracking Dr. Gamble"
+        }
+      ]
+    },
+    {
+      "subject": "Arthur Q. Bryan",
+      "relation": "created_voice_of",
+      "object": "Elmer Fudd",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "for creating the voice of the Warner Brothers cartoon character Elmer Fudd"
+        }
+      ]
+    },
+    {
+      "subject": "Elmer Fudd",
+      "relation": "produced_by",
+      "object": "Warner Brothers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Warner Brothers cartoon character Elmer Fudd"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Dr. Gamble",
+        "appears_in",
+        "Fibber McGee and Molly"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Arthur Q. Bryan\nArthur Quirk Bryan (May 8, 1899 – November 18, 1959) was an American actor, voice actor, comedian and radio personality, remembered best for his longtime recurring role as well-spoken, wisecracking Dr. Gamble on the radio comedy \"Fibber McGee and Molly\" and for creating the voice of the Warner Brothers cartoon character Elmer Fudd."
+}

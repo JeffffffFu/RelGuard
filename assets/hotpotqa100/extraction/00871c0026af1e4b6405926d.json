@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "The Datsuns": "band",
+    "Cambridge": "city",
+    "New Zealand": "country",
+    "United Kingdom": "country",
+    "Deep Sleep": "album",
+    "October 2014": "date"
+  },
+  "triples": [
+    {
+      "subject": "The Datsuns",
+      "relation": "located_in",
+      "object": "Cambridge",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Cambridge"
+        }
+      ]
+    },
+    {
+      "subject": "The Datsuns",
+      "relation": "located_in",
+      "object": "New Zealand",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Cambridge, New Zealand"
+        }
+      ]
+    },
+    {
+      "subject": "The Datsuns",
+      "relation": "released",
+      "object": "Deep Sleep",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "their latest record was released in October 2014"
+        }
+      ]
+    },
+    {
+      "subject": "Deep Sleep",
+      "relation": "released_in",
+      "object": "October 2014",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was released in October 2014"
+        }
+      ]
+    },
+    {
+      "subject": "The Datsuns",
+      "relation": "charted_in",
+      "object": "New Zealand",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "most of which have charted in New Zealand"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Datsuns",
+        "formed_in",
+        "2000"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Datsuns",
+        "released",
+        "six albums"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Datsuns",
+        "released",
+        "several singles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Datsuns",
+        "charted_in",
+        "United Kingdom"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Datsuns\nThe Datsuns are a hard rock band from Cambridge, New Zealand, formed in 2000. To date they have released six albums and several singles, most of which have charted in New Zealand and/or the United Kingdom. \"Deep Sleep\", their latest record was released in October 2014."
+}

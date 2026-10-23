@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "British Rail Mark 5": "PRODUCT",
+    "CAF": "ORG",
+    "Mark 5A": "PRODUCT",
+    "Caledonian Sleeper": "ORG",
+    "TransPennine Express": "ORG",
+    "Great Britain": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "British Rail Mark 5",
+      "relation": "being_built_for_operation_by",
+      "object": "Caledonian Sleeper",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "being built for operation by",
+          "line_start": 101,
+          "char_start": 127,
+          "ambiguous": false,
+          "relation_mention": "being built for operation by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "British Rail Mark 5",
+      "relation": "being_built_for_operation_by",
+      "object": "TransPennine Express",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "being built for operation by",
+          "line_start": 101,
+          "char_start": 127,
+          "ambiguous": false,
+          "relation_mention": "being built for operation by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "British Rail Mark 5",
+        "associated_with",
+        "CAF"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "British Rail Mark 5",
+        "designation_for",
+        "Mark 5A"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "British Rail Mark 5",
+        "located_in",
+        "Great Britain"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "British Rail Mark 5 (CAF)\nThe British Rail Mark 5 and Mark 5A is the designation given to new locomotive hauled rail carriages being built for operation by two train operating companies in Great Britain, Caledonian Sleeper and TransPennine Express",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"British Rail Mark 5\", \"type\": \"PRODUCT\"},\n    {\"name\": \"CAF\", \"type\": \"ORG\"},\n    {\"name\": \"Mark 5A\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Caledonian Sleeper\", \"type\": \"ORG\"},\n    {\"name\": \"TransPennine Express\", \"type\": \"ORG\"},\n    {\"name\": \"Great Britain\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"British Rail Mark 5\",\n      \"relation\": \"associated_with\",\n      \"object\": \"CAF\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"(CAF)\"}\n      ]\n    },\n    {\n      \"subject\": \"British Rail Mark 5\",\n      \"relation\": \"designation_for\",\n      \"object\": \"Mark 5A\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Mark 5A is the designation given to\"}\n      ]\n    },\n    {\n      \"subject\": \"British Rail Mark 5\",\n      \"relation\": \"being_built_for_operation_by\",\n      \"object\": \"Caledonian Sleeper\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"being built for operation by\"}\n      ]\n    },\n    {\n      \"subject\": \"British Rail Mark 5\",\n      \"relation\": \"being_built_for_operation_by\",\n      \"object\": \"TransPennine Express\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"being built for operation by\"}\n      ]\n    },\n    {\n      \"subject\": \"British Rail Mark 5\",\n      \"relation\": \"located_in\",\n      \"object\": \"Great Britain\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Great Britain\"}\n      ]\n    }\n  ]\n}"
+}

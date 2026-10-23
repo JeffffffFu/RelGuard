@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "Wayne Sykes": "PERSON",
+    "English": "NORP",
+    "Super League": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Wayne Sykes",
+      "relation": "also_known_as",
+      "object": "Wayne Sykes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also known by the nicknames",
+          "line_start": 37,
+          "char_start": 49,
+          "ambiguous": false,
+          "relation_mention": "also known by the nicknames",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wayne Sykes",
+        "birth_named",
+        "Wayne Sykes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wayne Sykes",
+        "nationality",
+        "English"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wayne Sykes",
+        "played_in",
+        "Super League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Wayne Sykes\nWayne Sykes( born 27 February 1979), also known by the nicknames of\" Psycho\" and\" Sykesy\", is an English former rugby league footballer who played in the 1990s and 2000s. He played in the Super League for the( Heritage № 358), as a or.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Wayne Sykes\", \"type\": \"PERSON\"},\n    {\"name\": \"English\", \"type\": \"NORP\"},\n    {\"name\": \"Super League\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Wayne Sykes\",\n      \"relation\": \"birth_named\",\n      \"object\": \"Wayne Sykes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born\"}\n      ]\n    },\n    {\n      \"subject\": \"Wayne Sykes\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Wayne Sykes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known by the nicknames\"}\n      ]\n    },\n    {\n      \"subject\": \"Wayne Sykes\",\n      \"relation\": \"nationality\",\n      \"object\": \"English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an English\"}\n      ]\n    },\n    {\n      \"subject\": \"Wayne Sykes\",\n      \"relation\": \"played_in\",\n      \"object\": \"Super League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played in the Super League\"}\n      ]\n    }\n  ]\n}"
+}

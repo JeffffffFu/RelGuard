@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Doctor Jones": "song",
+    "Aqua": "music_group",
+    "Barbie Girl": "song",
+    "Lollipop (Candyman)": "song"
+  },
+  "triples": [
+    {
+      "subject": "Doctor Jones",
+      "relation": "released_by",
+      "object": "Aqua",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "\"Doctor Jones\" is a song by Danish dance-pop group Aqua."
+        }
+      ]
+    },
+    {
+      "subject": "Doctor Jones",
+      "relation": "followed_by",
+      "object": "Lollipop (Candyman)",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "until \"Lollipop (Candyman)\" was released and hit the top 40 on the Hot 100."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Doctor Jones",
+        "is_a",
+        "song"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aqua",
+        "founded",
+        "Barbie Girl"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Doctor Jones\n\"Doctor Jones\" is a song by Danish dance-pop group Aqua. Released as the band's fifth single overall, it was the follow-up to their most successful song \"Barbie Girl\" in many regions. \"Doctor Jones\" was a similarly pop-oriented hit which sold well across the globe and ended the assumptions that Aqua would be a one-hit wonder; although they would remain so in America as \"Barbie Girl\" was their only hit there until \"Lollipop (Candyman)\" was released and hit the top 40 on the Hot 100."
+}

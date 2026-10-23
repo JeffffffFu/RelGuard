@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Veterinary education": "WORK_OF_ART",
+    "veterinarians": "PERSON",
+    "veterinary degree": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Veterinary education",
+      "relation": "is_a",
+      "object": "veterinarians",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Veterinary education is the tertiary education of veterinarians."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "veterinarians",
+        "requires",
+        "veterinary degree"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Veterinary education\nVeterinary education is the tertiary education of veterinarians. To become a veterinarian, one must first complete a veterinary degree (DVM, VMD, BVS, BVSc, BVMS, BVM, cand.med.vet)."
+}

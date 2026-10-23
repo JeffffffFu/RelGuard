@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "Advance Thresher/Emerson-Newton Implement Company": "ORG",
+    "Minneapolis": "GPE",
+    "Minnesota": "GPE",
+    "United States": "GPE",
+    "Kees": "PERSON",
+    "Colburn": "PERSON",
+    "Advance Thresher Company building": "FAC",
+    "Emerson-Newton Plow Company building": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Advance Thresher/Emerson-Newton Implement Company",
+      "relation": "designed_by",
+      "object": "Kees",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed by",
+          "line_start": 130,
+          "char_start": 180,
+          "ambiguous": false,
+          "relation_mention": "designed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Advance Thresher/Emerson-Newton Implement Company",
+      "relation": "designed_by",
+      "object": "Colburn",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed by",
+          "line_start": 130,
+          "char_start": 180,
+          "ambiguous": false,
+          "relation_mention": "designed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Advance Thresher/Emerson-Newton Implement Company",
+        "located_in",
+        "Minneapolis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Advance Thresher/Emerson-Newton Implement Company",
+        "located_in",
+        "Minnesota"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Advance Thresher/Emerson-Newton Implement Company",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Advance Thresher Company building",
+        "built_in",
+        "1900"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Advance Thresher Company building",
+        "has",
+        "six floors"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Emerson-Newton Plow Company building",
+        "built_in",
+        "1904"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Emerson-Newton Plow Company building",
+        "has",
+        "seven floors"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Advance Thresher/Emerson-Newton Implement Company\nThe Advance Thresher/Emerson-Newton Implement Company buildings in Minneapolis, Minnesota, United States, are a pair of buildings designed by Kees and Colburn. The two buildings are united under a common cornice and appear to be a single structure. However, the two buildings were actually built four years apart. The Advance Thresher Company building was built in 1900 and has six floors. The adjacent Emerson-Newton Plow Company building was built in 1904 and has seven floors."
+}

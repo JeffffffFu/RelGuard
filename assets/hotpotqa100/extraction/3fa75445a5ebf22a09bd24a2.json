@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Lincolnton": "GPE",
+    "North Carolina": "GPE",
+    "Lincoln County": "GPE",
+    "United States": "GPE",
+    "Charlotte": "GPE",
+    "South Fork of the Catawba River": "LOC",
+    "State Highway 27": "FAC",
+    "U.S. Route 321": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "State Highway 27",
+      "relation": "located_near",
+      "object": "U.S. Route 321",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is located nearby",
+          "line_start": 293,
+          "char_start": 320,
+          "ambiguous": false,
+          "relation_mention": "is located nearby",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lincolnton",
+        "located_in",
+        "Lincoln County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lincolnton",
+        "located_in",
+        "North Carolina"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lincolnton",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lincolnton",
+        "within",
+        "Charlotte"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lincolnton",
+        "located_on",
+        "South Fork of the Catawba River"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lincolnton",
+        "is_county_seat_of",
+        "Lincoln County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Lincolnton, North Carolina\nLincolnton is a small city in Lincoln County, North Carolina, United States, within the Charlotte metropolitan area. The population was 10,683 at the 2010 census. Lincolnton is northwest of Charlotte, on the South Fork of the Catawba River. The junction of State Highway 27 and U.S. Route 321 is located nearby. The city is the county seat of Lincoln County, and is the only legally incorporated municipality wholly within the rural county.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Lincolnton\", \"type\": \"GPE\"},\n    {\"name\": \"North Carolina\", \"type\": \"GPE\"},\n    {\"name\": \"Lincoln County\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Charlotte\", \"type\": \"GPE\"},\n    {\"name\": \"South Fork of the Catawba River\", \"type\": \"LOC\"},\n    {\"name\": \"State Highway 27\", \"type\": \"FAC\"},\n    {\"name\": \"U.S. Route 321\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Lincolnton\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lincoln County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Lincolnton\",\n      \"relation\": \"located_in\",\n      \"object\": \"North Carolina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Lincolnton\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Lincolnton\",\n      \"relation\": \"within\",\n      \"object\": \"Charlotte\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"within\"}\n      ]\n    },\n    {\n      \"subject\": \"Lincolnton\",\n      \"relation\": \"located_on\",\n      \"object\": \"South Fork of the Catawba River\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on\"}\n      ]\n    },\n    {\n      \"subject\": \"State Highway 27\",\n      \"relation\": \"located_near\",\n      \"object\": \"U.S. Route 321\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is located nearby\"}\n      ]\n    },\n    {\n      \"subject\": \"Lincolnton\",\n      \"relation\": \"is_county_seat_of\",\n      \"object\": \"Lincoln County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the county seat of\"}\n      ]\n    }\n  ]\n}"
+}

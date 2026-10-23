@@ -1,0 +1,124 @@
+{
+  "entities": {
+    "Toyota Innova": "PRODUCT",
+    "Japanese": "NORP",
+    "Toyota": "ORG",
+    "Indonesia": "GPE",
+    "Toyota Astra Motor": "ORG",
+    "Kijang": "PRODUCT",
+    "IMV program": "ORG",
+    "Hilux": "PRODUCT",
+    "Fortuner": "PRODUCT",
+    "Toyota Kijang Innova": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Toyota Innova",
+      "relation": "manufactured_by",
+      "object": "Toyota",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "manufactured by",
+          "line_start": 77,
+          "char_start": 91,
+          "ambiguous": false,
+          "relation_mention": "manufactured by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Innova",
+      "relation": "produced_in",
+      "object": "Indonesia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced in",
+          "line_start": 130,
+          "char_start": 144,
+          "ambiguous": false,
+          "relation_mention": "produced in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Innova",
+      "relation": "replaced",
+      "object": "Kijang",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "which it replaced",
+          "line_start": 220,
+          "char_start": 234,
+          "ambiguous": false,
+          "relation_mention": "which it replaced",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Toyota Innova",
+        "produced_by",
+        "Toyota Astra Motor"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Innova",
+        "part_of",
+        "IMV program"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "IMV program",
+        "includes",
+        "Hilux"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "IMV program",
+        "includes",
+        "Fortuner"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Innova",
+        "official_name_in",
+        "Toyota Kijang Innova"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Kijang Innova",
+        "located_in",
+        "Indonesia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Innova",
+        "known_as",
+        "Innova"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Toyota Innova\nThe Toyota Innova (Japanese: トヨタイノーバ \"Toyota Inōba\") is a compact MPV or MUV manufactured by the Japanese automaker Toyota. It is produced in Indonesia under supervision by Toyota Astra Motor since 2004. As with Kijang, which it replaced, the Innova is produced and first marketed in 2004 in Indonesia. The Innova is part of Toyota's IMV program together with the Hilux pickup truck and the Fortuner SUV. Its official name in Indonesia is Toyota Kijang Innova, while for other countries it is Innova.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Toyota Innova\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Japanese\", \"type\": \"NORP\"},\n    {\"name\": \"Toyota\", \"type\": \"ORG\"},\n    {\"name\": \"Indonesia\", \"type\": \"GPE\"},\n    {\"name\": \"Toyota Astra Motor\", \"type\": \"ORG\"},\n    {\"name\": \"Kijang\", \"type\": \"PRODUCT\"},\n    {\"name\": \"IMV program\", \"type\": \"ORG\"},\n    {\"name\": \"Hilux\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Fortuner\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Toyota Kijang Innova\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Toyota Innova\",\n      \"relation\": \"manufactured_by\",\n      \"object\": \"Toyota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"manufactured by\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Innova\",\n      \"relation\": \"produced_in\",\n      \"object\": \"Indonesia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced in\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Innova\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Toyota Astra Motor\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by Toyota Astra Motor\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Innova\",\n      \"relation\": \"replaced\",\n      \"object\": \"Kijang\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"which it replaced\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Innova\",\n      \"relation\": \"part_of\",\n      \"object\": \"IMV program\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"part of\"}\n      ]\n    },\n    {\n      \"subject\": \"IMV program\",\n      \"relation\": \"includes\",\n      \"object\": \"Hilux\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"together with the Hilux\"}\n      ]\n    },\n    {\n      \"subject\": \"IMV program\",\n      \"relation\": \"includes\",\n      \"object\": \"Fortuner\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"and the Fortuner\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Innova\",\n      \"relation\": \"official_name_in\",\n      \"object\": \"Toyota Kijang Innova\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"official name in Indonesia is\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Kijang Innova\",\n      \"relation\": \"located_in\",\n      \"object\": \"Indonesia\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"in Indonesia\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Innova\",\n      \"relation\": \"known_as\",\n      \"object\": \"Innova\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"it is Innova\"}\n      ]\n    }\n  ]\n}"
+}

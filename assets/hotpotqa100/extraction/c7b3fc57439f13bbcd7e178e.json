@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Stephen King": "PERSON",
+    "The Stand": "WORK_OF_ART",
+    "Gary Sinise": "PERSON",
+    "American Broadcasting Company": "ORG",
+    "Marvel Comics": "ORG",
+    "Warner Bros. Pictures": "ORG",
+    "King": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "The Stand",
+      "relation": "authored_by",
+      "object": "Stephen King",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "from Stephen King's novel",
+          "line_start": 46,
+          "char_start": 75,
+          "ambiguous": false,
+          "relation_mention": "from Stephen King's novel",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Stand",
+        "adapted_into",
+        "television mini-series"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "television mini-series",
+        "starred",
+        "Gary Sinise"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "television mini-series",
+        "released_by",
+        "American Broadcasting Company"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Marvel Comics",
+        "published",
+        "comic book adaptation"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Warner Bros. Pictures",
+        "released_announcement",
+        "movie remake"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "movie remake",
+        "of",
+        "King"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "List of The Stand characters\nThe following is a partial list of characters from Stephen King's novel \"The Stand\". The novel was published in 1978, with its narrative set during the 1980s; however, a second edition was released in 1990, is considerably longer than the first version (1,200 pages compared to 800 pages), and is set in the 1990s. The two versions are essentially the same, although some content was added in the second version, including a new ending. The book was also adapted into a television mini-series, starring Gary Sinise, and was released by the American Broadcasting Company (ABC) network in 1994. In 2008, Marvel Comics published a comic book adaptation that was ended in 2012. Warner Bros. Pictures released an announcement in January 2011 that the company would be producing a movie remake of the King novel."
+}

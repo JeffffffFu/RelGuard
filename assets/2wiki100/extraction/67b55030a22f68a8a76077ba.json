@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "John Allen": "PERSON",
+    "Oxford University": "ORG",
+    "Windsor": "GPE",
+    "New South Wales": "GPE",
+    "Oxford University Cricket Club": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "John Allen",
+      "relation": "born_in",
+      "object": "Windsor",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born 19 July 1974 in Windsor",
+          "line_start": 19,
+          "char_start": 60,
+          "ambiguous": false,
+          "relation_mention": "born 19 July 1974 in Windsor",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Windsor",
+      "relation": "located_in",
+      "object": "New South Wales",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Windsor, New South Wales",
+          "line_start": 40,
+          "char_start": 81,
+          "ambiguous": false,
+          "relation_mention": "Windsor, New South Wales",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "John Allen",
+      "relation": "played_for",
+      "object": "Oxford University Cricket Club",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played for Oxford University Cricket Club",
+          "line_start": 116,
+          "char_start": 157,
+          "ambiguous": false,
+          "relation_mention": "played for Oxford University Cricket Club",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "John Allen",
+      "relation": "played_for",
+      "object": "Oxford University",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played for Oxford University Cricket Club. Both his first- class games were for Oxford University",
+          "line_start": 116,
+          "char_start": 157,
+          "ambiguous": false,
+          "relation_mention": "played for Oxford University Cricket Club. Both his first- class games were for Oxford University",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "John Allen",
+        "nationality",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "John Allen (Oxford University cricketer)\nJohn Aubrey Allen( born 19 July 1974 in Windsor, New South Wales) is an Australian- born first- class cricketer who played for Oxford University Cricket Club. Both his first- class games were for Oxford University, one of which was a varsity match."
+}

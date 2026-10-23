@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "William Bromley-Davenport": "Person",
+    "British Army": "Organization",
+    "Arthur Balfour": "Person",
+    "War Office": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "William Bromley-Davenport",
+      "relation": "held_office_under",
+      "object": "Arthur Balfour",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "he held political office under Arthur Balfour as Financial Secretary to the War Office from 1903 to 1905."
+        }
+      ]
+    },
+    {
+      "subject": "William Bromley-Davenport",
+      "relation": "works_for",
+      "object": "War Office",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "he held political office under Arthur Balfour as Financial Secretary to the War Office from 1903 to 1905."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "William Bromley-Davenport",
+        "fought_in",
+        "Second Boer War"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "William Bromley-Davenport",
+        "fought_in",
+        "First World War"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "William Bromley-Davenport (British Army officer)\nBrigadier-General Sir William Bromley-Davenport, (21 January 1862 – 6 February 1949) was a British soldier, footballer and Conservative politician. He fought with distinction in both the Second Boer War and the First World War. An MP from 1886 to 1906, he held political office under Arthur Balfour as Financial Secretary to the War Office from 1903 to 1905."
+}

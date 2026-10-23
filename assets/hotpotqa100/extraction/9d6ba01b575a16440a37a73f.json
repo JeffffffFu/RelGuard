@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "Big Deal": "WORK_OF_ART",
+    "Jeffrey Steele": "PERSON",
+    "Al Anderson": "PERSON",
+    "LeAnn Rimes": "PERSON",
+    "Leaving's Not Leaving": "WORK_OF_ART",
+    "Anywhere But Here": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Big Deal",
+      "relation": "written_by",
+      "object": "Jeffrey Steele",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 21,
+          "char_start": 49,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Big Deal",
+      "relation": "written_by",
+      "object": "Al Anderson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 21,
+          "char_start": 49,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Big Deal",
+      "relation": "recorded_by",
+      "object": "LeAnn Rimes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "recorded by",
+          "line_start": 68,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "recorded by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Big Deal",
+      "relation": "released_on",
+      "object": "LeAnn Rimes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released on",
+          "line_start": 130,
+          "char_start": 158,
+          "ambiguous": false,
+          "relation_mention": "released on",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Big Deal",
+        "charted_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Leaving's Not Leaving",
+        "released_on",
+        "Anywhere But Here"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Big Deal (LeAnn Rimes song)\n\"Big Deal\" is a song written by Jeffrey Steele and Al Anderson, and recorded by American country music artist LeAnn Rimes. It was released on September 28, 1999 as the first single from her album \"LeAnn Rimes\". The song charted at number 6 on the US country charts and number 23 on the US Hot 100 chart. The B-side track, \"Leaving's Not Leaving,\" was released on the soundtrack for the film, \"Anywhere But Here\" on November 2, 1999.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Big Deal\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Jeffrey Steele\", \"type\": \"PERSON\"},\n    {\"name\": \"Al Anderson\", \"type\": \"PERSON\"},\n    {\"name\": \"LeAnn Rimes\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Leaving's Not Leaving\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Anywhere But Here\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Big Deal\",\n      \"relation\": \"written_by\",\n      \"object\": \"Jeffrey Steele\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Big Deal\",\n      \"relation\": \"written_by\",\n      \"object\": \"Al Anderson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Big Deal\",\n      \"relation\": \"recorded_by\",\n      \"object\": \"LeAnn Rimes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"recorded by\"}\n      ]\n    },\n    {\n      \"subject\": \"Big Deal\",\n      \"relation\": \"released_on\",\n      \"object\": \"LeAnn Rimes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released on\"}\n      ]\n    },\n    {\n      \"subject\": \"Big Deal\",\n      \"relation\": \"charted_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the US country charts\"}\n      ]\n    },\n    {\n      \"subject\": \"Leaving's Not Leaving\",\n      \"relation\": \"released_on\",\n      \"object\": \"Anywhere But Here\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released on the soundtrack for the film\"}\n      ]\n    }\n  ]\n}"
+}

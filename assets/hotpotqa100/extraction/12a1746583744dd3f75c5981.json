@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Walter Bernard": "Person",
+    "University of New Mexico": "Organization",
+    "San Diego Chargers": "Organization",
+    "Indianapolis Colts": "Organization",
+    "Seattle Seahawks": "Organization",
+    "National Football League": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Walter Bernard",
+      "relation": "played_for",
+      "object": "University of New Mexico",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "played college football for the University of New Mexico"
+        }
+      ]
+    },
+    {
+      "subject": "Walter Bernard",
+      "relation": "played_professionally_for",
+      "object": "San Diego Chargers",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "signed by the San Diego Chargers as an undrafted free agent"
+        },
+        {
+          "sentence_id": 5,
+          "relation_mention": "played professionally for the Chargers"
+        }
+      ]
+    },
+    {
+      "subject": "Walter Bernard",
+      "relation": "played_in",
+      "object": "National Football League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the National Football League (NFL)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Walter Bernard",
+        "born_on",
+        "May 3, 1978"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Walter Bernard",
+        "played_professionally_for",
+        "Indianapolis Colts"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Walter Bernard",
+        "played_professionally_for",
+        "Seattle Seahawks"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Walter Bernard",
+        "was_a",
+        "defensive back"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Walter Bernard",
+        "played_professionally_from",
+        "2001 to 2005"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Walter Bernard\nWalter Bernard (born May 3, 1978) is a former American college and professional football player who was a defensive back in the National Football League (NFL). He played college football for the University of New Mexico. He played professionally from 2001 to 2005. He was signed by the San Diego Chargers as an undrafted free agent in 2001. He played professionally for the Chargers, Indianapolis Colts and Seattle Seahawks of the NFL."
+}

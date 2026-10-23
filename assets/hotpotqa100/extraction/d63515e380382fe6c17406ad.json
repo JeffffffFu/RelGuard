@@ -1,0 +1,128 @@
+{
+  "entities": {
+    "General Blood": "ORG",
+    "FDA": "ORG",
+    "AABB": "ORG",
+    "United States": "GPE",
+    "General Blood's process": "WORK_OF_ART",
+    "online marketplace": "PRODUCT",
+    "medical centers": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "General Blood",
+      "relation": "registered_with",
+      "object": "FDA",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a FDA registered",
+          "line_start": 14,
+          "char_start": 28,
+          "ambiguous": false,
+          "relation_mention": "is a FDA registered",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "General Blood",
+      "relation": "accredited_by",
+      "object": "AABB",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and AABB accredited",
+          "line_start": 34,
+          "char_start": 48,
+          "ambiguous": false,
+          "relation_mention": "and AABB accredited",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "General Blood",
+      "relation": "serves",
+      "object": "medical centers",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "for hospitals, non-transfusion facilities, and group-purchasing organizations",
+          "line_start": 104,
+          "char_start": 118,
+          "ambiguous": false,
+          "relation_mention": "for hospitals, non-transfusion facilities, and group-purchasing organizations",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "General Blood",
+      "relation": "was_established_by",
+      "object": "online marketplace",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was established by creating an online marketplace",
+          "line_start": 536,
+          "char_start": 550,
+          "ambiguous": false,
+          "relation_mention": "was established by creating an online marketplace",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "General Blood",
+        "distributes",
+        "human blood"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "General Blood",
+        "distributes",
+        "platelets"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "General Blood",
+        "distributes",
+        "plasma"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The company’s goal",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "medical centers",
+        "able_to_post",
+        "excess quantities of blood"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "medical centers",
+        "able_to_place_orders",
+        "blood supplies"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "General Blood\nGeneral Blood is a FDA registered and AABB accredited distributor of human blood, platelets, and plasma for hospitals, non-transfusion facilities, and group-purchasing organizations. General Blood's process is designed to balance excesses and shortages of blood by improving supply chain efficiencies and logistical models within the blood distribution industry. The company’s goal is to redistribute blood supplies, increase competition in the distribution market, and lower the cost of health care in the United States. General Blood was established by creating an online marketplace where medical centers are able to post excess quantities of blood for sale and place orders to replenish blood supplies."
+}

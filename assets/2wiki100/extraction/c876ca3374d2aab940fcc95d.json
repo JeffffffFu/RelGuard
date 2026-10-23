@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Kaoru Hatoyama": "PERSON",
+    "Yukio Hatoyama": "PERSON",
+    "Kunio Hatoyama": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Kaoru Hatoyama",
+      "relation": "grandmother_of",
+      "object": "Yukio Hatoyama",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the grandmother of Prime Minister Yukio Hatoyama"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kaoru Hatoyama",
+        "grandmother_of",
+        "Kunio Hatoyama"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Kaoru Hatoyama\nAfter the elections of 2009, she became more widely known as the grandmother of Prime Minister Yukio Hatoyama and his politician brother Kunio Hatoyama."
+}

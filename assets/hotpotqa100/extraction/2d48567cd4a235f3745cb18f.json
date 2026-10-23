@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Yukshin Gardan Sar": "peak",
+    "Hispar Muztagh": "mountain range",
+    "Karakoram": "mountain range",
+    "Pakistan": "country",
+    "Khunyang Chhish": "peak",
+    "Kanjut Sar": "peak",
+    "Yazghil Glacier": "glacier",
+    "Yukshin Gardan Glacier": "glacier",
+    "Shimshal River": "river"
+  },
+  "triples": [
+    {
+      "subject": "Yukshin Gardan Sar",
+      "relation": "located_in",
+      "object": "Pakistan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a subrange of the Karakoram range in Pakistan"
+        }
+      ]
+    },
+    {
+      "subject": "Yukshin Gardan Sar",
+      "relation": "flanked_by",
+      "object": "Yazghil Glacier",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "It is flanked on the northwest by the Yazghil Glacier"
+        }
+      ]
+    },
+    {
+      "subject": "Yukshin Gardan Sar",
+      "relation": "flanked_by",
+      "object": "Yukshin Gardan Glacier",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "and on the northeast by the Yukshin Gardan Glacier"
+        }
+      ]
+    },
+    {
+      "subject": "Yazghil Glacier",
+      "relation": "drains_into",
+      "object": "Shimshal River",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "both drain into the Shimshal River"
+        }
+      ]
+    },
+    {
+      "subject": "Yukshin Gardan Glacier",
+      "relation": "drains_into",
+      "object": "Shimshal River",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "both drain into the Shimshal River"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Yukshin Gardan Sar",
+        "is_a",
+        "peak"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Yukshin Gardan Sar",
+        "has_height",
+        "7,469 m"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Yukshin Gardan Sar",
+        "has_height",
+        "7,641 m"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Yukshin Gardan Sar",
+        "located_northeast_of",
+        "Khunyang Chhish"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Yukshin Gardan Sar",
+        "located_northwest_of",
+        "Kanjut Sar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Yukshin Gardan Sar\nYukshin Gardan Sar (Urdu: ‎ ) is a high peak of the Hispar Muztagh, a subrange of the Karakoram range in Pakistan. Its height is also often given as 7,469 m (24,505 ft) or 7,641 m (25,069 ft). It lies about 15 km (9 mi) northeast of Khunyang Chhish and 5 km (3 mi) northwest of Kanjut Sar. It is flanked on the northwest by the Yazghil Glacier and on the northeast by the Yukshin Gardan Glacier; both drain into the Shimshal River."
+}

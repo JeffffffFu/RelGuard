@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Steno": "PERSON",
+    "Stefano Vanzina": "PERSON",
+    "Un giorno in pretura": "WORK_OF_ART",
+    "Febbre da cavallo": "WORK_OF_ART",
+    "Venice International Film Festival": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Un giorno in pretura",
+      "relation": "shown_in",
+      "object": "Venice International Film Festival",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were shown in",
+          "line_start": 222,
+          "char_start": 239,
+          "ambiguous": false,
+          "relation_mention": "were shown in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Febbre da cavallo",
+      "relation": "shown_in",
+      "object": "Venice International Film Festival",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were shown in",
+          "line_start": 222,
+          "char_start": 239,
+          "ambiguous": false,
+          "relation_mention": "were shown in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Steno",
+        "alias_of",
+        "Stefano Vanzina"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Stefano Vanzina",
+        "nationality",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Stefano Vanzina",
+        "directed",
+        "Un giorno in pretura"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Stefano Vanzina",
+        "directed",
+        "Febbre da cavallo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Venice International Film Festival",
+        "located_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Steno (director)\nSteno, the artistic name of Stefano Vanzina( 19 January 1917 – 13 March 1988) was an Italian film director, screenwriter and cinematographer. Two of his films,\" Un giorno in pretura\"( 1954) and\" Febbre da cavallo\"( 1976), were shown in a retrospective section on Italian comedy at the 67th Venice International Film Festival.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Steno\", \"type\": \"PERSON\"},\n    {\"name\": \"Stefano Vanzina\", \"type\": \"PERSON\"},\n    {\"name\": \"Un giorno in pretura\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Febbre da cavallo\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Italy\", \"type\": \"GPE\"},\n    {\"name\": \"Venice International Film Festival\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Steno\",\n      \"relation\": \"alias_of\",\n      \"object\": \"Stefano Vanzina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the artistic name of\"}\n      ]\n    },\n    {\n      \"subject\": \"Stefano Vanzina\",\n      \"relation\": \"nationality\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an Italian\"}\n      ]\n    },\n    {\n      \"subject\": \"Stefano Vanzina\",\n      \"relation\": \"directed\",\n      \"object\": \"Un giorno in pretura\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Two of his films\"}\n      ]\n    },\n    {\n      \"subject\": \"Stefano Vanzina\",\n      \"relation\": \"directed\",\n      \"object\": \"Febbre da cavallo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Two of his films\"}\n      ]\n    },\n    {\n      \"subject\": \"Un giorno in pretura\",\n      \"relation\": \"shown_in\",\n      \"object\": \"Venice International Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were shown in\"}\n      ]\n    },\n    {\n      \"subject\": \"Febbre da cavallo\",\n      \"relation\": \"shown_in\",\n      \"object\": \"Venice International Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were shown in\"}\n      ]\n    },\n    {\n      \"subject\": \"Venice International Film Festival\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Italian\"}\n      ]\n    }\n  ]\n}"
+}

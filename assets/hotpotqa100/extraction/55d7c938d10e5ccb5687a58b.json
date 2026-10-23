@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "2005 West Asian Games": "Event",
+    "Khalifa International Stadium": "Location",
+    "Doha": "Location",
+    "Qatar": "Location",
+    "Athletics at the 2006 Asian Games": "Event"
+  },
+  "triples": [
+    {
+      "subject": "2005 West Asian Games",
+      "relation": "held_at",
+      "object": "Khalifa International Stadium",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the athletics events were held at the Khalifa International Stadium in Doha, Qatar."
+        }
+      ]
+    },
+    {
+      "subject": "Khalifa International Stadium",
+      "relation": "located_in",
+      "object": "Doha",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Khalifa International Stadium in Doha, Qatar."
+        }
+      ]
+    },
+    {
+      "subject": "Doha",
+      "relation": "located_in",
+      "object": "Qatar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Khalifa International Stadium in Doha, Qatar."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "2005 West Asian Games",
+        "test_event_for",
+        "Athletics at the 2006 Asian Games"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Athletics at the 2005 West Asian Games\nAt the 2005 West Asian Games, the athletics events were held at the Khalifa International Stadium in Doha, Qatar. Contested over three days, from 7 to 9 December, it was the first time that women were allowed to compete in athletics events at the Games. A total of 28 events were contested, of which 23 by male and 5 by female athletes. The event was seen as a test event for the Athletics at the 2006 Asian Games, which Doha hosted the following year."
+}

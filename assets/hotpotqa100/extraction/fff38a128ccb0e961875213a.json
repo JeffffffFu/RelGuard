@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Solomon Islands Broadcasting Corporation": "Organization",
+    "Solomon Islands": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Solomon Islands Broadcasting Corporation",
+      "relation": "is_broadcaster_of",
+      "object": "Solomon Islands",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the official radio broadcaster of Solomon Islands"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Solomon Islands Broadcasting Corporation",
+        "self_defined_as",
+        "public service broadcaster"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Solomon Islands Broadcasting Corporation\nSolomon Islands Broadcasting Corporation (SIBC) is the official radio broadcaster of Solomon Islands. SIBC is self-defined as a public service broadcaster."
+}

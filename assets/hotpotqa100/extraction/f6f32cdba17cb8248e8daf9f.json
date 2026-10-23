@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Kaadu": "film",
+    "William Berke": "person",
+    "Mr. T. R. Sundaram": "person",
+    "The Modern Theatres Ltd": "company",
+    "William Berke Production": "company",
+    "Rod Cameron": "person",
+    "Cesar Romero": "person",
+    "Marie Windsor": "person",
+    "M.N. Nambiar": "person",
+    "India": "location"
+  },
+  "triples": [
+    {
+      "subject": "Kaadu",
+      "relation": "directed_by",
+      "object": "William Berke",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by William Berke"
+        }
+      ]
+    },
+    {
+      "subject": "Kaadu",
+      "relation": "produced_by",
+      "object": "Mr. T. R. Sundaram",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Mr. T. R. Sundaram (The Modern Theatres Ltd) & William Berke Production"
+        }
+      ]
+    },
+    {
+      "subject": "Kaadu",
+      "relation": "produced_by",
+      "object": "William Berke Production",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Mr. T. R. Sundaram (The Modern Theatres Ltd) & William Berke Production"
+        }
+      ]
+    },
+    {
+      "subject": "Kaadu",
+      "relation": "stars",
+      "object": "Rod Cameron",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It stars Rod Cameron"
+        }
+      ]
+    },
+    {
+      "subject": "Kaadu",
+      "relation": "located_in",
+      "object": "India",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first science fiction film in India"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kaadu",
+        "stars",
+        "Cesar Romero"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kaadu",
+        "stars",
+        "Marie Windsor"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kaadu",
+        "stars",
+        "M.N. Nambiar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kaadu",
+        "released_on",
+        "1 August 1952"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kaadu (1952 film)\nKaadu or The Jungle is a 1952 Indian-American science fiction film directed by William Berke. Mr. T. R. Sundaram (The Modern Theatres Ltd) & William Berke Production. It stars Rod Cameron, Cesar Romero, Marie Windsor and M.N. Nambiar in lead roles. The film was the first science fiction film in India. \"Kaadu\" was released on 1 August 1952."
+}

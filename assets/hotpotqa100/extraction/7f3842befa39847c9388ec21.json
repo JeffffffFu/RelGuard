@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Baltimore Ravens": "ORG",
+    "National Football League": "ORG",
+    "Baltimore": "GPE",
+    "M&T Bank Stadium": "FAC",
+    "AFC North": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Baltimore Ravens",
+        "works_for",
+        "National Football League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Baltimore Ravens",
+        "located_in",
+        "Baltimore"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Baltimore Ravens",
+        "located_in",
+        "M&T Bank Stadium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Baltimore Ravens",
+        "won",
+        "AFC North"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "2011 Baltimore Ravens season\nThe Baltimore Ravens season was the team's 16th in the National Football League and city of Baltimore, and the 14th to host home games at M&T Bank Stadium. 2011 marked one of the most successful seasons in Baltimore Ravens franchise history. The Ravens completed the season with a 12–4 record, matching their record from 2010, and winning the AFC North division title for the third time in franchise history. By earning a playoff berth in 2011, the Ravens set a franchise record by going to the postseason for four consecutive seasons.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Baltimore Ravens\", \"type\": \"ORG\"},\n    {\"name\": \"National Football League\", \"type\": \"ORG\"},\n    {\"name\": \"Baltimore\", \"type\": \"GPE\"},\n    {\"name\": \"M&T Bank Stadium\", \"type\": \"FAC\"},\n    {\"name\": \"AFC North\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Baltimore Ravens\",\n      \"relation\": \"works_for\",\n      \"object\": \"National Football League\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in the National Football League\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Baltimore Ravens\",\n      \"relation\": \"located_in\",\n      \"object\": \"Baltimore\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"city of Baltimore\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Baltimore Ravens\",\n      \"relation\": \"located_in\",\n      \"object\": \"M&T Bank Stadium\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"host home games at M&T Bank Stadium\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Baltimore Ravens\",\n      \"relation\": \"won\",\n      \"object\": \"AFC North\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"winning the AFC North division title\"\n        }\n      ]\n    }\n  ]\n}"
+}

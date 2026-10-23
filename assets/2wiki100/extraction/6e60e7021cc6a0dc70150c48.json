@@ -1,0 +1,41 @@
+{
+  "entities": {
+    "The Boss and the Worker": "WORK_OF_ART",
+    "Steno": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "The Boss and the Worker",
+      "relation": "directed_by",
+      "object": "Steno",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 54,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "The Boss and the Worker",
+        "located_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Boss and the Worker\nThe Boss and the Worker is a 1975 Italian comedy film directed by Steno."
+}

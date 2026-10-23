@@ -1,0 +1,182 @@
+{
+  "entities": {
+    "Treaty of London": "event",
+    "United Kingdom": "country",
+    "France": "country",
+    "Russia": "country",
+    "Greece": "country",
+    "Ottoman Empire": "country",
+    "Turkey": "country",
+    "Sultan": "person",
+    "Allied powers": "group",
+    "Greeks": "group",
+    "Turks": "group"
+  },
+  "triples": [
+    {
+      "subject": "Treaty of London",
+      "relation": "signed_by",
+      "object": "United Kingdom",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Treaty of London was signed by the United Kingdom"
+        }
+      ]
+    },
+    {
+      "subject": "United Kingdom",
+      "relation": "called_upon",
+      "object": "Greece",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The three main European powers had called upon Greece"
+        }
+      ]
+    },
+    {
+      "subject": "Greece",
+      "relation": "revolted_against",
+      "object": "Ottoman Empire",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the Greeks had revolted against Ottoman rule"
+        }
+      ]
+    },
+    {
+      "subject": "Sultan",
+      "relation": "supreme_ruler_of",
+      "object": "Greece",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "the Sultan would be the supreme ruler of Greece"
+        }
+      ]
+    },
+    {
+      "subject": "Allied powers",
+      "relation": "mediate_between",
+      "object": "Greeks",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "the intention of the three Allied powers to mediate between the Greeks"
+        }
+      ]
+    },
+    {
+      "subject": "Allied powers",
+      "relation": "form_partnership_with",
+      "object": "Greeks",
+      "occurrences": [
+        {
+          "sentence_id": 8,
+          "relation_mention": "the Allied powers would form a partnership with the Greeks"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Treaty of London",
+        "signed_by",
+        "France"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Treaty of London",
+        "signed_by",
+        "Russia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "United Kingdom",
+        "called_upon",
+        "Ottoman Empire"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Allied powers",
+        "decided_to_intervene_in",
+        "war"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Allied powers",
+        "wanted",
+        "treaty"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ottoman Empire",
+        "create",
+        "independent Greek state"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ottoman Empire",
+        "recognize",
+        "independence of Greece"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Allied powers",
+        "mediate_between",
+        "Ottoman Turks"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Greece",
+        "become",
+        "dependency of Turkey"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Greece",
+        "pay_tribute_as",
+        "dependency of Turkey"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Turks",
+        "refuse",
+        "mediation"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Allied powers",
+        "use_force_to_ensure",
+        "adoption of the armistice"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Treaty of London (1827)\nThe Treaty of London was signed by the United Kingdom, France, and Russia on 6 July 1827. The three main European powers had called upon Greece and the Ottoman Empire (Turkey) to cease hostilities that had been going on since the Greeks had revolted against Ottoman rule on 6 March 1821. After years of negotiation, the European allied powers had finally decided to intervene in the war on the side of the Greeks. The allied powers mainly wanted this treaty to cause the Ottoman Empire to create an independent Greek state. It stated that while the Ottoman Empire should recognize the independence of Greece, the Sultan would be the supreme ruler of Greece. The treaty declared the intention of the three Allied powers to mediate between the Greeks and the Ottoman Turks. The base arrangement was that Greece would become a dependency of Turkey and pay tribute as such Additional articles were added to detail the response should the Turkish Sultan refuse the offer of mediation and continue hostilities in Greece. These articles detailed that the Turks had 1 month to accept the mediation or that the Allied powers would form a partnership with the Greeks through commercial relations. Measures were also adopted that if the Ottoman Sultan refused the armistice, the Allies would use the appropriate force to ensure the adoption of the armistice."
+}

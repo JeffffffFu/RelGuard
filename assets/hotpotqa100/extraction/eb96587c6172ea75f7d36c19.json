@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Royal Worcester Corset Company": "ORG",
+    "The Worcester Skirt Company": "ORG",
+    "David Hale Fanning": "PERSON",
+    "Worcester, MA": "GPE",
+    "Worcester Corset Co.": "ORG",
+    "Royal Worcester Company": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "The Worcester Skirt Company",
+        "founded_by",
+        "David Hale Fanning"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Worcester Skirt Company",
+        "founded_in",
+        "Worcester, MA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Worcester Skirt Company",
+        "founded_in",
+        "1861"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Worcester Skirt Company",
+        "changed_name_to",
+        "Worcester Corset Co."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Worcester Corset Co.",
+        "changed_name_to",
+        "Royal Worcester Corset Company"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Royal Worcester Corset Company",
+        "became_known_as",
+        "Royal Worcester Company"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Royal Worcester Corset Company\nThe Royal Worcester Corset Company, was founded as The Worcester Skirt Company by David Hale Fanning in 1861 in Worcester, MA, and first specialized in making hoop skirts. In 1872 the company changed its name to the Worcester Corset Co., to reflect its change of direction from hoop skirts to torso shaping. The company changed its name again in 1901, to the Royal Worcester Corset Company. In 1949 the company dropped the word 'corset' from its name and became known as the Royal Worcester Company, in response to falling interest in corsets.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Royal Worcester Corset Company\", \"type\": \"ORG\"},\n    {\"name\": \"The Worcester Skirt Company\", \"type\": \"ORG\"},\n    {\"name\": \"David Hale Fanning\", \"type\": \"PERSON\"},\n    {\"name\": \"Worcester, MA\", \"type\": \"GPE\"},\n    {\"name\": \"Worcester Corset Co.\", \"type\": \"ORG\"},\n    {\"name\": \"Royal Worcester Company\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Worcester Skirt Company\",\n      \"relation\": \"founded_by\",\n      \"object\": \"David Hale Fanning\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded as The Worcester Skirt Company by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Worcester Skirt Company\",\n      \"relation\": \"founded_in\",\n      \"object\": \"Worcester, MA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"The Worcester Skirt Company\",\n      \"relation\": \"founded_in\",\n      \"object\": \"The Worcester Skirt Company\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"The Worcester Skirt Company\",\n      \"relation\": \"founded_in\",\n      \"object\": \"1861\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"The Worcester Skirt Company\",\n      \"relation\": \"changed_name_to\",\n      \"object\": \"Worcester Corset Co.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"changed its name to the Worcester Corset Co.\"}\n      ]\n    },\n    {\n      \"subject\": \"Worcester Corset Co.\",\n      \"relation\": \"changed_name_to\",\n      \"object\": \"Royal Worcester Corset Company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"changed its name again in 1901, to the Royal Worcester Corset Company.\"}\n      ]\n    },\n    {\n      \"subject\": \"Royal Worcester Corset Company\",\n      \"relation\": \"became_known_as\",\n      \"object\": \"Royal Worcester Company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became known as the Royal Worcester Company\"}\n      ]\n    }\n  ]\n}"
+}

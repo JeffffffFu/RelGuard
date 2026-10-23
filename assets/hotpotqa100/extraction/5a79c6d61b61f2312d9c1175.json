@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Édouard Roger-Vasselin": "Person",
+    "Julien Benneteau": "Person",
+    "Christophe Roger-Vasselin": "Person",
+    "Roland Garros": "Event",
+    "France": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Édouard Roger-Vasselin",
+      "relation": "partnered_with",
+      "object": "Julien Benneteau",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "partnering Julien Benneteau"
+        }
+      ]
+    },
+    {
+      "subject": "Édouard Roger-Vasselin",
+      "relation": "son_of",
+      "object": "Christophe Roger-Vasselin",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "He is the son of 1983 French Open semifinalist Christophe Roger-Vasselin"
+        }
+      ]
+    },
+    {
+      "subject": "Édouard Roger-Vasselin",
+      "relation": "located_in",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from France"
+        }
+      ]
+    },
+    {
+      "subject": "Édouard Roger-Vasselin",
+      "relation": "won_at",
+      "object": "Roland Garros",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "at Roland Garros"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Édouard Roger-Vasselin",
+        "born_on",
+        "28 November 1983"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Édouard Roger-Vasselin",
+        "is_a",
+        "male tennis player"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Édouard Roger-Vasselin",
+        "won",
+        "men's doubles title"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Christophe Roger-Vasselin",
+        "was_a",
+        "French Open semifinalist"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Édouard Roger-Vasselin\nÉdouard Roger-Vasselin (] ; born 28 November 1983) is a male tennis player from France. He won the men's doubles title at Roland Garros in 2014, partnering Julien Benneteau. He is the son of 1983 French Open semifinalist Christophe Roger-Vasselin."
+}

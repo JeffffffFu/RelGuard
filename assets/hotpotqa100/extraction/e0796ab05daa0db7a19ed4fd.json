@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Habeas Corpus Suspension Acts of 1688": "legislation",
+    "Parliament of England": "government_body",
+    "King James II": "person",
+    "Glorious Revolution": "event"
+  },
+  "triples": [
+    {
+      "subject": "Habeas Corpus Suspension Acts of 1688",
+      "relation": "passed_by",
+      "object": "Parliament of England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "were passed in the wake of the Glorious Revolution"
+        }
+      ]
+    },
+    {
+      "subject": "Glorious Revolution",
+      "relation": "involves",
+      "object": "King James II",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in which King James II had recently been deposed"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Habeas Corpus Suspension Acts of 1688",
+        "temporarily_suspended",
+        "habeas corpus"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Habeas Corpus Suspension Acts of 1688\nThe Habeas Corpus Suspension Acts of 1688 were three Acts of the Parliament of England (1 Will. & Mar. cc. 2, 7 & 19) which temporarily suspended the right of \"habeas corpus\" in England until 17 April, 25 May and 23 October 1689 respectively. They were passed in the wake of the Glorious Revolution, in which King James II had recently been deposed."
+}

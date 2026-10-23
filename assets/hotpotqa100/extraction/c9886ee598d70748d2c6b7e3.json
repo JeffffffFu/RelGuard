@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Operation International Children": "ORG",
+    "Iraqi children": "PERSON",
+    "Gary Sinise": "PERSON",
+    "Laura Hillenbrand": "PERSON",
+    "People to People International": "ORG",
+    "Mary Jean Eisenhower": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Operation International Children",
+      "relation": "administered_by",
+      "object": "People to People International",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "OIC is a program administered by People to People International"
+        }
+      ]
+    },
+    {
+      "subject": "Mary Jean Eisenhower",
+      "relation": "is_President_and_CEO_of",
+      "object": "People to People International",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "PTPI's President and CEO, Mary Jean Eisenhower"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Operation International Children",
+        "formerly_known_as",
+        "Operation Iraqi Children"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Operation International Children",
+        "created_in",
+        "2004"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gary Sinise",
+        "announced",
+        "Operation International Children"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Laura Hillenbrand",
+        "announced",
+        "Operation International Children"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "People to People International",
+        "has_tax_rating",
+        "U.S., not-for-profit [501(c)(3)] tax rating"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Operation Iraqi Children\nOperation International Children (formerly Operation Iraqi Children) was a charitable program created in 2004 to send school supplies to Iraqi children. In March 2004, actor Gary Sinise (\"Forrest Gump\", \"Apollo 13\") and author Laura Hillenbrand (\"\",\"\") announced the launch of Operation Iraqi Children, a program that will enable Americans to send School Supply Kits to Iraqi children. OIC is a program administered by People to People International (PTPI), an NGO with a U.S., not-for-profit [501(c)(3)] tax rating. The executive committee consists of Sinise, Hillenbrand and PTPI's President and CEO, Mary Jean Eisenhower."
+}

@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "The Baldy Man": "television series",
+    "Gregor Fisher": "person",
+    "The Comedy Unit": "production company",
+    "Colin Gilbert": "person",
+    "Rab C. Nesbitt": "television series",
+    "Philip Differ": "person",
+    "Naked Video": "television series"
+  },
+  "triples": [
+    {
+      "subject": "The Baldy Man",
+      "relation": "starring",
+      "object": "Gregor Fisher",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Gregor Fisher"
+        }
+      ]
+    },
+    {
+      "subject": "The Baldy Man",
+      "relation": "produced_by",
+      "object": "The Comedy Unit",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was made by The Comedy Unit"
+        }
+      ]
+    },
+    {
+      "subject": "Colin Gilbert",
+      "relation": "produced_and_directed",
+      "object": "The Baldy Man",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The series was produced and directed by Colin Gilbert"
+        }
+      ]
+    },
+    {
+      "subject": "Colin Gilbert",
+      "relation": "worked_with",
+      "object": "Gregor Fisher",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who worked with Fisher"
+        }
+      ]
+    },
+    {
+      "subject": "Philip Differ",
+      "relation": "written_by",
+      "object": "The Baldy Man",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was written by Philip Differ"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Baldy Man",
+        "broadcast_on",
+        "ITV"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Philip Differ",
+        "script_editor_on",
+        "Naked Video"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Baldy Man",
+        "first_appeared_in",
+        "Naked Video"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rab C. Nesbitt",
+        "among_others",
+        "The Baldy Man"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Baldy Man\nThe Baldy Man is a television series starring Gregor Fisher, a Scottish comedian. It was broadcast in two series comprising thirteen episodes on ITV, screening in 1995 and 1997, was made by The Comedy Unit. The character's chief attributes were his comb over hairstyle as well as his bumbling nature and plump figure. The series was produced and directed by Colin Gilbert who worked with Fisher in Scotland's well known situation comedy \"Rab C. Nesbitt\" among many others. It was written by Philip Differ who was the script editor on \"Naked Video\". The character first appeared in a series of sketches in the BBC Scotland show \"Naked Video\" (1986-1991)"
+}

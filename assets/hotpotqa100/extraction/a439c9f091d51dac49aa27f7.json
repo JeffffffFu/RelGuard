@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Frank Lowy": "PERSON",
+    "Westfield Corporation": "ORG",
+    "Scentre Group": "ORG",
+    "Australia": "GPE",
+    "New Zealand": "GPE",
+    "United States": "GPE",
+    "United Kingdom": "GPE",
+    "Europe": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Frank Lowy",
+      "relation": "chairman_of",
+      "object": "Westfield Corporation",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Chairman of Westfield Corporation"
+        }
+      ]
+    },
+    {
+      "subject": "Frank Lowy",
+      "relation": "former_chairman_of",
+      "object": "Scentre Group",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a former Chairman of Scentre Group"
+        }
+      ]
+    },
+    {
+      "subject": "Westfield Corporation",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the United States"
+        }
+      ]
+    },
+    {
+      "subject": "Scentre Group",
+      "relation": "located_in",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Australia"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Scentre Group",
+        "owner_of",
+        "Westfield-branded shopping centres"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Westfield Corporation",
+        "located_in",
+        "United Kingdom"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Westfield Corporation",
+        "located_in",
+        "Europe"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Scentre Group",
+        "located_in",
+        "New Zealand"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Frank Lowy\nSir Frank P. Lowy, {'1': \", '2': \", '3': \", '4': \"} (born 22 October 1930) is an Australian-Israeli businessman and Chairman of Westfield Corporation, a global shopping centre company with US$29.3 billion of assets under management in the United States, United Kingdom and Europe. He is a former Chairman of Scentre Group, the owner and manager of Westfield-branded shopping centres in Australia and New Zealand."
+}

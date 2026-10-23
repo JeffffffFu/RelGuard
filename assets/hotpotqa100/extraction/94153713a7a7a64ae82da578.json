@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Paul Bravo": "PERSON",
+    "Campbell": "GPE",
+    "California": "GPE",
+    "Major League Soccer": "ORG",
+    "American Professional Soccer League": "ORG",
+    "USISL": "ORG",
+    "United States men's national soccer team": "ORG",
+    "NCAA": "ORG",
+    "Colorado Rapids": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Paul Bravo",
+      "relation": "born_in",
+      "object": "Campbell",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born June 19, 1968 in",
+          "line_start": 12,
+          "char_start": 23,
+          "ambiguous": false,
+          "relation_mention": "born June 19, 1968 in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Paul Bravo",
+      "relation": "born_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born June 19, 1968 in",
+          "line_start": 12,
+          "char_start": 23,
+          "ambiguous": false,
+          "relation_mention": "born June 19, 1968 in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Paul Bravo",
+      "relation": "played_in",
+      "object": "Major League Soccer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played six seasons in",
+          "line_start": 111,
+          "char_start": 122,
+          "ambiguous": false,
+          "relation_mention": "played six seasons in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Paul Bravo",
+        "played_in",
+        "American Professional Soccer League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Paul Bravo",
+        "played_in",
+        "USISL"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Paul Bravo",
+        "earned_caps_for",
+        "United States men's national soccer team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Paul Bravo",
+        "served_as_assistant_coach_in",
+        "Major League Soccer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Paul Bravo",
+        "served_as_assistant_coach_in",
+        "NCAA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Paul Bravo",
+        "was_technical_director_for",
+        "Colorado Rapids"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Paul Bravo\nPaul Bravo (born June 19, 1968 in Campbell, California) is a former American soccer midfielder and forward who played six seasons in Major League Soccer, two in the American Professional Soccer League and two in the USISL. He also earned four caps, scoring one goal, with the United States men's national soccer team. After his retirement from playing, Bravo served for several years as an assistant coach in both Major League Soccer and the NCAA and was most recently Technical Director for the Colorado Rapids.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Paul Bravo\", \"type\": \"PERSON\"},\n    {\"name\": \"Campbell\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"Major League Soccer\", \"type\": \"ORG\"},\n    {\"name\": \"American Professional Soccer League\", \"type\": \"ORG\"},\n    {\"name\": \"USISL\", \"type\": \"ORG\"},\n    {\"name\": \"United States men's national soccer team\", \"type\": \"ORG\"},\n    {\"name\": \"NCAA\", \"type\": \"ORG\"},\n    {\"name\": \"Colorado Rapids\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Paul Bravo\",\n      \"relation\": \"born_in\",\n      \"object\": \"Campbell\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born June 19, 1968 in\"}\n      ]\n    },\n    {\n      \"subject\": \"Paul Bravo\",\n      \"relation\": \"born_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born June 19, 1968 in\"}\n      ]\n    },\n    {\n      \"subject\": \"Paul Bravo\",\n      \"relation\": \"played_in\",\n      \"object\": \"Major League Soccer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played six seasons in\"}\n      ]\n    },\n    {\n      \"subject\": \"Paul Bravo\",\n      \"relation\": \"played_in\",\n      \"object\": \"American Professional Soccer League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"two in the\"}\n      ]\n    },\n    {\n      \"subject\": \"Paul Bravo\",\n      \"relation\": \"played_in\",\n      \"object\": \"USISL\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"two in the\"}\n      ]\n    },\n    {\n      \"subject\": \"Paul Bravo\",\n      \"relation\": \"earned_caps_for\",\n      \"object\": \"United States men's national soccer team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with the\"}\n      ]\n    },\n    {\n      \"subject\": \"Paul Bravo\",\n      \"relation\": \"served_as_assistant_coach_in\",\n      \"object\": \"Major League Soccer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"assistant coach in\"}\n      ]\n    },\n    {\n      \"subject\": \"Paul Bravo\",\n      \"relation\": \"served_as_assistant_coach_in\",\n      \"object\": \"NCAA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"assistant coach in\"}\n      ]\n    },\n    {\n      \"subject\": \"Paul Bravo\",\n      \"relation\": \"was_technical_director_for\",\n      \"object\": \"Colorado Rapids\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Technical Director for the\"}\n      ]\n    }\n  ]\n}"
+}

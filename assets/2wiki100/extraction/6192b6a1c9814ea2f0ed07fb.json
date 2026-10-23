@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Esmail Koushan": "Person",
+    "Georges Sadoul": "Person",
+    "Persian cinema": "Concept",
+    "Mitrafilm": "Organization",
+    "The Storm of Life": "Film",
+    "Germany": "Location",
+    "Universum Film Aktiengesellschaft": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Esmail Koushan",
+      "relation": "founded",
+      "object": "Mitrafilm",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He then set up the Mitrafilm company"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Esmail Koushan",
+        "called",
+        "the father of the Iranian film industry"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Esmail Koushan",
+        "studied_in",
+        "Germany"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Mitrafilm",
+        "produced",
+        "The Storm of Life"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Esmail Koushan",
+        "was_a",
+        "pioneering figure of Persian cinema"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Universum Film Aktiengesellschaft",
+        "is_located_in",
+        "Germany"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Esmail Koushan\nEsmail Koushan\" or Kooshan\"( 1917-1981) was an Iranian film director who was one of the pioneering figures of Persian cinema. He has been called\" the father of the Iranian film industry\" by Georges Sadoul. Koushan, who studied film- making in Germany at Universum Film Aktienge- Sellschafe( UFA), began by dubbing foreign- language films into Parsi. He then set up the Mitrafilm company, which produced the first Iranian\" talkie\" feature film in 1948,\" The Storm of Life\"."
+}

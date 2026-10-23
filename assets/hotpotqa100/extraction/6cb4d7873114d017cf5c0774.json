@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "EGGER": "ORG",
+    "Tyrol": "GPE",
+    "Austria": "GPE",
+    "Rădăuți": "GPE",
+    "Romania": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "EGGER",
+      "relation": "founded_in",
+      "object": "Tyrol",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in",
+          "line_start": 33,
+          "char_start": 49,
+          "ambiguous": false,
+          "relation_mention": "founded in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "EGGER",
+      "relation": "has_headquarters_in",
+      "object": "Austria",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "where its headquarters are held",
+          "line_start": 68,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "where its headquarters are held",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "EGGER",
+        "located_in",
+        "Austria"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "EGGER",
+        "represented_by_production_site_in",
+        "Romania"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "EGGER",
+        "invested_in_construction_of_site_located_in",
+        "Rădăuți"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "EGGER",
+        "operates_site_in",
+        "Rădăuți"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rădăuți",
+        "located_in",
+        "Romania"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Egger (company)\nEGGER is a global family company founded in 1961 in Tyrol, Austria (where its headquarters are held) that produces wood-based panel Products. EGGER is represented by 17 production sites in Europe (Austria, Germany, France, United Kingdom, Romania, Russia and Turkey) and currently has 23 sales offices worldwide (France, Belgium, Denmark, Italy, Switzerland, Slovenia, Lithuania, Ukraine, China, Japan, India, Chile, Australia, Romania, Croatia, Czech Republic, Hungary, Poland, Serbia, Bulgaria, Turkey, Russia and Belarus). In 2006 the company invested €210 million in the construction of a new production site located in Rădăuți, Romania with a capacity of 600,000 cubic meters of melamine faced chipboard. At the Romanian site the company operates a combined heat and electricity cogeneration power station with a capacity of 40.5 MW.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"EGGER\", \"type\": \"ORG\"},\n    {\"name\": \"Tyrol\", \"type\": \"GPE\"},\n    {\"name\": \"Austria\", \"type\": \"GPE\"},\n    {\"name\": \"Rădăuți\", \"type\": \"GPE\"},\n    {\"name\": \"Romania\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"EGGER\",\n      \"relation\": \"founded_in\",\n      \"object\": \"Tyrol\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in\"}\n      ]\n    },\n    {\n      \"subject\": \"EGGER\",\n      \"relation\": \"located_in\",\n      \"object\": \"Austria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Tyrol, Austria\"}\n      ]\n    },\n    {\n      \"subject\": \"EGGER\",\n      \"relation\": \"has_headquarters_in\",\n      \"object\": \"Austria\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"where its headquarters are held\"}\n      ]\n    },\n    {\n      \"subject\": \"EGGER\",\n      \"relation\": \"represented_by_production_site_in\",\n      \"object\": \"Romania\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Romania\"}\n      ]\n    },\n    {\n      \"subject\": \"EGGER\",\n      \"relation\": \"invested_in_construction_of_site_located_in\",\n      \"object\": \"Rădăuți\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Rădăuți, Romania\"}\n      ]\n    },\n    {\n      \"subject\": \"EGGER\",\n      \"relation\": \"operates_site_in\",\n      \"object\": \"Rădăuți\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"At the Romanian site the company operates\"}\n      ]\n    },\n    {\n      \"subject\": \"Rădăuți\",\n      \"relation\": \"located_in\",\n      \"object\": \"Romania\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Rădăuți, Romania\"}\n      ]\n    }\n  ]\n}"
+}

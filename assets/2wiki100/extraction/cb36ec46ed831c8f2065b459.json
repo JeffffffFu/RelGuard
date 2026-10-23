@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Wojciech Has": "PERSON",
+    "Wojciech Jerzy Has": "PERSON",
+    "Kraków": "GPE",
+    "Łódź": "GPE",
+    "Polish": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Wojciech Jerzy Has",
+        "born_in",
+        "Kraków"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wojciech Jerzy Has",
+        "died_in",
+        "Łódź"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wojciech Jerzy Has",
+        "nationality",
+        "Polish"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Wojciech Has",
+        "alias_of",
+        "Wojciech Jerzy Has"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Wojciech Has\nWojciech Jerzy Has (1 April 1925, Kraków – 3 October 2000, Łódź) was a Polish film director, screenwriter and film producer.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Wojciech Has\", \"type\": \"PERSON\"},\n    {\"name\": \"Wojciech Jerzy Has\", \"type\": \"PERSON\"},\n    {\"name\": \"Kraków\", \"type\": \"GPE\"},\n    {\"name\": \"Łódź\", \"type\": \"GPE\"},\n    {\"name\": \"Polish\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Wojciech Jerzy Has\",\n      \"relation\": \"born_in\",\n      \"object\": \"Kraków\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \" (1 April 1925, Kraków –\"}\n      ]\n    },\n    {\n      \"subject\": \"Wojciech Jerzy Has\",\n      \"relation\": \"died_in\",\n      \"object\": \"Łódź\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"– 3 October 2000, Łódź) was\"}\n      ]\n    },\n    {\n      \"subject\": \"Wojciech Jerzy Has\",\n      \"relation\": \"nationality\",\n      \"object\": \"Polish\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a Polish film director\"}\n      ]\n    },\n    {\n      \"subject\": \"Wojciech Has\",\n      \"relation\": \"alias_of\",\n      \"object\": \"Wojciech Jerzy Has\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Wojciech Has\"}\n      ]\n    }\n  ]\n}"
+}

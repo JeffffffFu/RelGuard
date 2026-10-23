@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Arismendi": "PERSON",
+    "Basque people": "NORP",
+    "Basque Country": "LOC",
+    "Spain": "GPE",
+    "France": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Basque people",
+      "relation": "indigenous_to",
+      "object": "Basque Country",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Basque people are indigenous to the area of northeast Spain and southwest France, a historical region known as the Basque Country."
+        }
+      ]
+    },
+    {
+      "subject": "Basque Country",
+      "relation": "located_in",
+      "object": "Spain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "northeast Spain"
+        }
+      ]
+    },
+    {
+      "subject": "Basque Country",
+      "relation": "located_in",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "southwest France"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Arismendi",
+        "means",
+        "mountain of oaks"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Arismendi (surname)\nArismendi is a Basque surname. The Basque people are indigenous to the area of northeast Spain and southwest France, a historical region known as the Basque Country. Arismendi means \"mountain of oaks\"; \"aris\" meaning \"oak\" and \"mendi\" meaning \"mountain.\""
+}

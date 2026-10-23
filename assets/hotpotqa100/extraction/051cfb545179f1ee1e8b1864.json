@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Laurie David": "PERSON",
+    "An Inconvenient Truth": "WORK_OF_ART",
+    "Katie Couric": "PERSON",
+    "Fed Up": "WORK_OF_ART",
+    "United States": "GPE",
+    "Natural Resources Defense Council": "ORG",
+    "Children's Nature Institute": "ORG",
+    "The Huffington Post": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Laurie David",
+      "relation": "produced",
+      "object": "An Inconvenient Truth",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced",
+          "line_start": 97,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "produced",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Laurie David",
+      "relation": "teamed_up_with",
+      "object": "Katie Couric",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "teamed up with",
+          "line_start": 176,
+          "char_start": 189,
+          "ambiguous": false,
+          "relation_mention": "teamed up with",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Laurie David",
+      "relation": "executive_produce",
+      "object": "Fed Up",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to executive produce",
+          "line_start": 204,
+          "char_start": 217,
+          "ambiguous": false,
+          "relation_mention": "to executive produce",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Laurie David",
+      "relation": "contributing_blogger_to",
+      "object": "The Huffington Post",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "contributing blogger to",
+          "line_start": 436,
+          "char_start": 449,
+          "ambiguous": false,
+          "relation_mention": "contributing blogger to",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Fed Up",
+        "about",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Laurie David",
+        "serves_as_trustee_on",
+        "Natural Resources Defense Council"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Laurie David",
+        "member_of",
+        "Children's Nature Institute"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Laurie David\nLaurie Ellen David (née Lennard; born March 22, 1958) is an American environmental activist. She produced the Academy Award-winning \"An Inconvenient Truth\" and, most recently, teamed up with Katie Couric to executive produce \"Fed Up\", a film about the causes of obesity in the United States. She serves as a trustee on the Natural Resources Defense Council and a member of the Advisory Board of the Children's Nature Institute and is a contributing blogger to \"The Huffington Post\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Laurie David\", \"type\": \"PERSON\"},\n    {\"name\": \"An Inconvenient Truth\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Katie Couric\", \"type\": \"PERSON\"},\n    {\"name\": \"Fed Up\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Natural Resources Defense Council\", \"type\": \"ORG\"},\n    {\"name\": \"Children's Nature Institute\", \"type\": \"ORG\"},\n    {\"name\": \"The Huffington Post\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Laurie David\",\n      \"relation\": \"produced\",\n      \"object\": \"An Inconvenient Truth\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced\"}\n      ]\n    },\n    {\n      \"subject\": \"Laurie David\",\n      \"relation\": \"teamed_up_with\",\n      \"object\": \"Katie Couric\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"teamed up with\"}\n      ]\n    },\n    {\n      \"subject\": \"Laurie David\",\n      \"relation\": \"executive_produce\",\n      \"object\": \"Fed Up\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to executive produce\"}\n      ]\n    },\n    {\n      \"subject\": \"Fed Up\",\n      \"relation\": \"about\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Laurie David\",\n      \"relation\": \"serves_as_trustee_on\",\n      \"object\": \"Natural Resources Defense Council\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves as a trustee on\"}\n      ]\n    },\n    {\n      \"subject\": \"Laurie David\",\n      \"relation\": \"member_of\",\n      \"object\": \"Children's Nature Institute\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a member of the Advisory Board of the\"}\n      ]\n    },\n    {\n      \"subject\": \"Laurie David\",\n      \"relation\": \"contributing_blogger_to\",\n      \"object\": \"The Huffington Post\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"contributing blogger to\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "John Farrell": "PERSON",
+    "YouTube": "ORG",
+    "Latin America": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "John Farrell",
+      "relation": "works_for",
+      "object": "YouTube",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is the director of",
+          "line_start": 13,
+          "char_start": 40,
+          "ambiguous": false,
+          "relation_mention": "is the director of",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "YouTube",
+        "located_in",
+        "Latin America"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "John Farrell (businessman)\nJohn Farrell is the director of YouTube in Latin America."
+}

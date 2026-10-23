@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Circular flow of income": "WORK_OF_ART",
+    "circular flow": "WORK_OF_ART",
+    "national accounts": "ORG",
+    "macroeconomics": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities outside the eleven types",
+      "entities": [
+        "the economy (ORGANIZATION)"
+      ]
+    },
+    {
+      "triple": [
+        "Circular flow of income",
+        "is_a",
+        "model"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "circular flow",
+        "is_a",
+        "model"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Circular flow of income",
+        "represents",
+        "flows of money"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "circular flow",
+        "represents",
+        "flows of money"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The circular flow analysis",
+        "is_basis_of",
+        "national accounts"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The circular flow analysis",
+        "is_basis_of",
+        "macroeconomics"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Circular flow of income\nThe circular flow of income or circular flow is a model of the economy in which the major exchanges are represented as flows of money, goods and services, etc. between economic agents. The flows of money and goods exchanged in a closed circuit correspond in value, but run in the opposite direction. The circular flow analysis is the basis of national accounts and hence of macroeconomics.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Circular flow of income\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"circular flow\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"the economy\", \"type\": \"ORGANIZATION\"},\n    {\"name\": \"national accounts\", \"type\": \"ORG\"},\n    {\"name\": \"macroeconomics\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Circular flow of income\",\n      \"relation\": \"is_a\",\n      \"object\": \"model\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a model of the economy\"}\n      ]\n    },\n    {\n      \"subject\": \"circular flow\",\n      \"relation\": \"is_a\",\n      \"object\": \"model\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a model of the economy\"}\n      ]\n    },\n    {\n      \"subject\": \"Circular flow of income\",\n      \"relation\": \"represents\",\n      \"object\": \"flows of money\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"represented as flows of money\"}\n      ]\n    },\n    {\n      \"subject\": \"circular flow\",\n      \"relation\": \"represents\",\n      \"object\": \"flows of money\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"represented as flows of money\"}\n      ]\n    },\n    {\n      \"subject\": \"The circular flow analysis\",\n      \"relation\": \"is_basis_of\",\n      \"object\": \"national accounts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the basis of national accounts\"}\n      ]\n    },\n    {\n      \"subject\": \"The circular flow analysis\",\n      \"relation\": \"is_basis_of\",\n      \"object\": \"macroeconomics\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the basis of national accounts and hence of macroeconomics\"}\n      ]\n    }\n  ]\n}"
+}

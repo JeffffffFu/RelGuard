@@ -1,0 +1,125 @@
+{
+  "entities": {
+    "Subaru Tribeca": "PRODUCT",
+    "Subaru": "ORG",
+    "Canada": "GPE",
+    "Tribeca": "LOC",
+    "New York City": "GPE",
+    "Subaru Legacy": "PRODUCT",
+    "Saab 9-6": "PRODUCT",
+    "Saab": "ORG",
+    "General Motors": "ORG",
+    "GM": "ORG",
+    "FHI": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Subaru Tribeca",
+      "relation": "sold_by",
+      "object": "Subaru",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "sold since 2005 by",
+          "line_start": 47,
+          "char_start": 62,
+          "ambiguous": false,
+          "relation_mention": "sold since 2005 by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Subaru Tribeca",
+      "relation": "intended_to_be_sold_alongside",
+      "object": "Saab 9-6",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "intended to be sold alongside",
+          "line_start": 320,
+          "char_start": 335,
+          "ambiguous": false,
+          "relation_mention": "intended to be sold alongside",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "General Motors",
+      "relation": "abandoned",
+      "object": "Saab 9-6",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "abandoned the 9-6 program",
+          "line_start": 455,
+          "char_start": 470,
+          "ambiguous": false,
+          "relation_mention": "abandoned the 9-6 program",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Subaru Tribeca",
+        "released_in",
+        "Canada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Subaru Tribeca",
+        "also_known_as",
+        "Subaru B9 Tribeca"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Subaru Tribeca",
+        "name_derived_from",
+        "Tribeca"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tribeca",
+        "located_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Subaru Tribeca",
+        "built_on",
+        "Subaru Legacy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Saab",
+        "was_subsidiary_of",
+        "General Motors"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "General Motors",
+        "divested_stake_in",
+        "FHI"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Subaru Tribeca\nThe Subaru Tribeca is a mid-size crossover SUV sold since 2005 by Subaru. Released in some markets, including Canada, as the Subaru B9 Tribeca, the name \"Tribeca\" derives from the Tribeca neighborhood of New York City. Built on the Subaru Legacy platform and sold in five- and seven-seat configurations, the Tribeca was intended to be sold alongside a slightly revised version known as the Saab 9-6. Saab, at the time a subsidiary of General Motors (GM), abandoned the 9-6 program just prior to its release subsequent to GM's 2005 divestiture of its 20 percent stake in FHI.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Subaru Tribeca\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Subaru\", \"type\": \"ORG\"},\n    {\"name\": \"Canada\", \"type\": \"GPE\"},\n    {\"name\": \"Tribeca\", \"type\": \"LOC\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"Subaru Legacy\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Saab 9-6\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Saab\", \"type\": \"ORG\"},\n    {\"name\": \"General Motors\", \"type\": \"ORG\"},\n    {\"name\": \"GM\", \"type\": \"ORG\"},\n    {\"name\": \"FHI\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Subaru Tribeca\",\n      \"relation\": \"sold_by\",\n      \"object\": \"Subaru\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"sold since 2005 by\"}\n      ]\n    },\n    {\n      \"subject\": \"Subaru Tribeca\",\n      \"relation\": \"released_in\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Released in some markets, including Canada, as\"}\n      ]\n    },\n    {\n      \"subject\": \"Subaru Tribeca\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Subaru B9 Tribeca\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Released in some markets, including Canada, as the Subaru B9 Tribeca\"}\n      ]\n    },\n    {\n      \"subject\": \"Subaru Tribeca\",\n      \"relation\": \"name_derived_from\",\n      \"object\": \"Tribeca\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"derives from\"}\n      ]\n    },\n    {\n      \"subject\": \"Tribeca\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"neighborhood of New York City\"}\n      ]\n    },\n    {\n      \"subject\": \"Subaru Tribeca\",\n      \"relation\": \"built_on\",\n      \"object\": \"Subaru Legacy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Built on the Subaru Legacy platform\"}\n      ]\n    },\n    {\n      \"subject\": \"Subaru Tribeca\",\n      \"relation\": \"intended_to_be_sold_alongside\",\n      \"object\": \"Saab 9-6\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"intended to be sold alongside\"}\n      ]\n    },\n    {\n      \"subject\": \"Saab\",\n      \"relation\": \"was_subsidiary_of\",\n      \"object\": \"General Motors\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the time a subsidiary of General Motors (GM)\"}\n      ]\n    },\n    {\n      \"subject\": \"General Motors\",\n      \"relation\": \"abandoned\",\n      \"object\": \"Saab 9-6\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"abandoned the 9-6 program\"}\n      ]\n    },\n    {\n      \"subject\": \"General Motors\",\n      \"relation\": \"divested_stake_in\",\n      \"object\": \"FHI\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"divestiture of its 20 percent stake in FHI\"}\n      ]\n    }\n  ]\n}"
+}

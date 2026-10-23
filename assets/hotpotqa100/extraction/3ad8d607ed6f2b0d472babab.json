@@ -1,0 +1,56 @@
+{
+  "entities": {
+    "Critters 3": "WORK_OF_ART",
+    "Kristine Peterson": "PERSON",
+    "Leonardo DiCaprio": "PERSON",
+    "Cary Elwes": "PERSON",
+    "Saw": "WORK_OF_ART",
+    "Josh": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Critters 3",
+      "relation": "directed_by",
+      "object": "Kristine Peterson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 120,
+          "char_start": 131,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Critters 3",
+        "works_for",
+        "Leonardo DiCaprio"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cary Elwes",
+        "mentioned",
+        "Saw"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cary Elwes",
+        "passed_on_role_of",
+        "Josh"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Critters 3\nCritters 3 is a 1991 American science fiction horror comedy film and is the third installment of the \"Critters\" series, directed by Kristine Peterson, and is also Leonardo DiCaprio's film debut. Cary Elwes mentioned on the commentary for the uncut edition DVD of \"Saw\" that he passed on the role of Josh. It was shot simultaneously",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Critters 3\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Kristine Peterson\", \"type\": \"PERSON\"},\n    {\"name\": \"Leonardo DiCaprio\", \"type\": \"PERSON\"},\n    {\"name\": \"Cary Elwes\", \"type\": \"PERSON\"},\n    {\"name\": \"Saw\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Josh\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Critters 3\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Kristine Peterson\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"directed by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Critters 3\",\n      \"relation\": \"works_for\",\n      \"object\": \"Leonardo DiCaprio\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is also Leonardo DiCaprio's film debut\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Cary Elwes\",\n      \"relation\": \"mentioned\",\n      \"object\": \"Saw\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"mentioned on the commentary for the uncut edition DVD of \\\"Saw\\\"\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Cary Elwes\",\n      \"relation\": \"passed_on_role_of\",\n      \"object\": \"Josh\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"he passed on the role of Josh\"\n        }\n      ]\n    }\n  ]\n}"
+}

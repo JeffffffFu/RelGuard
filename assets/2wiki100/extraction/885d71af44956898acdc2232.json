@@ -1,0 +1,65 @@
+{
+  "entities": {
+    "Cordélia": "WORK_OF_ART",
+    "La lampe dans la fenêtre": "WORK_OF_ART",
+    "Pauline Cadieux": "PERSON",
+    "Jean Beaudin": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Cordélia",
+      "relation": "directed_by",
+      "object": "Jean Beaudin",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It was directed and written by Jean Beaudin."
+        }
+      ]
+    },
+    {
+      "subject": "Cordélia",
+      "relation": "written_by",
+      "object": "Jean Beaudin",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It was directed and written by Jean Beaudin."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Cordélia",
+        "based_on",
+        "La lampe dans la fenêtre"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "La lampe dans la fenêtre",
+        "written_by",
+        "Pauline Cadieux"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Cordélia",
+        "located_in",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Cordélia\nCordélia is a 1980 Canadian French language film based on the book\" La lampe dans la fenêtre\" by Pauline Cadieux. It was directed and written by Jean Beaudin."
+}

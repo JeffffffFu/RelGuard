@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Karin Alvtegen": "PERSON",
+    "Sweden": "GPE",
+    "Missing": "WORK_OF_ART",
+    "Glass Key": "WORK_OF_ART",
+    "Ian Madden": "PERSON",
+    "Joanne Frogatt": "PERSON",
+    "Gregor Fisher": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Missing",
+      "relation": "written_by",
+      "object": "Karin Alvtegen",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a 2000 crime fiction novel by Swedish author Karin Alvtegen."
+        }
+      ]
+    },
+    {
+      "subject": "Missing",
+      "relation": "set_in",
+      "object": "Sweden",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The psychological thriller is set in Alvtegen's native Sweden."
+        }
+      ]
+    },
+    {
+      "subject": "Missing",
+      "relation": "received_award",
+      "object": "Glass Key",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It received the 2001 Glass Key, the Nordic literature award for best crime fiction."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Missing",
+        "translated_into",
+        "English"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Missing",
+        "adapted_as",
+        "2006 movie"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2006 movie",
+        "directed_by",
+        "Ian Madden"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2006 movie",
+        "starring",
+        "Joanne Frogatt"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2006 movie",
+        "starring",
+        "Gregor Fisher"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Missing (Alvtegen novel)\nMissing (Swedish: Saknad ) is a 2000 crime fiction novel by Swedish author Karin Alvtegen. The psychological thriller is set in Alvtegen's native Sweden. It received the 2001 Glass Key, the Nordic literature award for best crime fiction. The story was translated into English in 2003, and later adapted for television as a 2006 movie, directed by Ian Madden and starring Joanne Frogatt and Gregor Fisher."
+}

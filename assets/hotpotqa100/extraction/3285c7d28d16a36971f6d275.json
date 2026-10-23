@@ -1,0 +1,47 @@
+{
+  "entities": {
+    "Kirk Humphreys": "PERSON",
+    "Oklahoma City": "GPE",
+    "Republican party": "NORP",
+    "Tom Coburn": "PERSON",
+    "The Humphreys Company": "ORG",
+    "U.S. Senator": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Kirk Humphreys",
+        "served_as",
+        "Mayor of Oklahoma City"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kirk Humphreys",
+        "was_considered_favorite_candidate_of",
+        "Republican party"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kirk Humphreys",
+        "lost_to",
+        "Tom Coburn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kirk Humphreys",
+        "is_chairman_of",
+        "The Humphreys Company"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kirk Humphreys\nKirk Humphreys (born September 13, 1950) is an American politician who served as Mayor of Oklahoma City from April 9, 1998 to November 3, 2003. He was considered a favorite candidate of the Republican party establishment for U.S. Senator in 2004, losing to former Congressman Tom Coburn, MD in the primary. Humphreys is the chairman of The Humphreys Company.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kirk Humphreys\", \"type\": \"PERSON\"},\n    {\"name\": \"Oklahoma City\", \"type\": \"GPE\"},\n    {\"name\": \"Republican party\", \"type\": \"NORP\"},\n    {\"name\": \"Tom Coburn\", \"type\": \"PERSON\"},\n    {\"name\": \"The Humphreys Company\", \"type\": \"ORG\"},\n    {\"name\": \"U.S. Senator\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kirk Humphreys\",\n      \"relation\": \"served_as\",\n      \"object\": \"Mayor of Oklahoma City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served as Mayor of Oklahoma City\"}\n      ]\n    },\n    {\n      \"subject\": \"Kirk Humphreys\",\n      \"relation\": \"was_considered_favorite_candidate_of\",\n      \"object\": \"Republican party\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"considered a favorite candidate of the Republican party\"}\n      ]\n    },\n    {\n      \"subject\": \"Kirk Humphreys\",\n      \"relation\": \"lost_to\",\n      \"object\": \"Tom Coburn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"losing to former Congressman Tom Coburn, MD in the primary\"}\n      ]\n    },\n    {\n      \"subject\": \"Kirk Humphreys\",\n      \"relation\": \"is_chairman_of\",\n      \"object\": \"The Humphreys Company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the chairman of The Humphreys Company\"}\n      ]\n    }\n  ]\n}"
+}

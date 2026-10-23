@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Life Classes": "WORK_OF_ART",
+    "William D. MacGillivray": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Life Classes",
+      "relation": "directed_by",
+      "object": "William D. MacGillivray",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by William D. MacGillivray"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Life Classes",
+        "located_in",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Life Classes\nLife Classes is a 1987 Canadian drama film directed by William D. MacGillivray."
+}

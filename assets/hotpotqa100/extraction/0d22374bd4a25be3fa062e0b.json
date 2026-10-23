@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Dr. Croke Cup": "trophy",
+    "All Ireland Secondary Schools Senior 'A' hurling championship": "event",
+    "Clare": "team",
+    "Ulster": "team",
+    "Thomas Croke": "person",
+    "Croke Park": "location"
+  },
+  "triples": [
+    {
+      "subject": "Clare",
+      "relation": "was_the_first_winner_of",
+      "object": "Dr. Croke Cup",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the first winner of the Dr Croke Cup for Hurling in 1896"
+        }
+      ]
+    },
+    {
+      "subject": "Dr. Croke Cup",
+      "relation": "named_after",
+      "object": "Thomas Croke",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "named after Thomas Croke"
+        }
+      ]
+    },
+    {
+      "subject": "Croke Park",
+      "relation": "is_named_after",
+      "object": "Thomas Croke",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "in whose honour Croke Park is also named"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Dr. Croke Cup",
+        "presented_to",
+        "All Ireland Secondary Schools Senior 'A' hurling championship"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Dr. Croke Cup",
+        "was_an",
+        "inter-county GAA competition"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ulster",
+        "were_expelled_from",
+        "Dr. Croke Cup"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Dr. Croke Cup",
+        "is_the_pinnacle_of",
+        "colleges hurling"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Thomas Croke",
+        "is_archbishop_of",
+        "Cashel"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Dr. Croke Cup\nThe Dr. Croke Cup is the trophy presented to the winner of the All Ireland Secondary Schools Senior \"A\" hurling championship. Before that it was an inter-county GAA competition in hurling. The first Croke Cups (which included Hurling and Gaelic Football) took place between 1896 and 1915. Clare was the first winner of the Dr Croke Cup for Hurling in 1896. In 1909 Ulster were expelled from the Dr. Croke Cup because of \"bad gates\" but the decision was later rescinded. Since 1944 however, it is the pinnacle of colleges hurling to win the \"Dr. Croke Cup\", named after Thomas Croke, Archbishop of Cashel in whose honour Croke Park is also named."
+}

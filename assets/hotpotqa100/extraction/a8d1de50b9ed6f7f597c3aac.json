@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Harry Vail": "Person",
+    "University of Wisconsin–Madison": "Organization",
+    "Dad Vail Regatta": "Event",
+    "Philadelphia": "Location",
+    "Pennsylvania": "Location",
+    "United States": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Harry Vail",
+      "relation": "works_as",
+      "object": "University of Wisconsin–Madison",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a rowing (crew) coach at the University of Wisconsin–Madison"
+        }
+      ]
+    },
+    {
+      "subject": "Dad Vail Regatta",
+      "relation": "named_in_honor_of",
+      "object": "Harry Vail",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is named in his honor"
+        }
+      ]
+    },
+    {
+      "subject": "Dad Vail Regatta",
+      "relation": "held_in",
+      "object": "Philadelphia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "held annually in Philadelphia"
+        }
+      ]
+    },
+    {
+      "subject": "Philadelphia",
+      "relation": "located_in",
+      "object": "Pennsylvania",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Philadelphia, Pennsylvania"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pennsylvania",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Harry Vail\nHarry Emerson \"Dad\" Vail, was a rowing (crew) coach at the University of Wisconsin–Madison, United States. The Dad Vail Regatta, held annually in Philadelphia, Pennsylvania, is named in his honor."
+}

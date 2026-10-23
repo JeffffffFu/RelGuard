@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "NCAA Division I Men's Tournament": "Event",
+    "teams": "Group",
+    "seeds": "Concept",
+    "conference": "Concept"
+  },
+  "triples": [
+    {
+      "subject": "teams",
+      "relation": "were_placed_in",
+      "object": "NCAA Division I Men's Tournament",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Teams were placed in the tournament"
+        }
+      ]
+    },
+    {
+      "subject": "seeds",
+      "relation": "were_assigned_based_on",
+      "object": "conference",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "seeds were assigned 1-8, based on how many teams played in a conference"
+        }
+      ]
+    },
+    {
+      "subject": "seeds",
+      "relation": "is_a_compilation_of",
+      "object": "teams",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "This list is a compilation of the seeds held by teams"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "NCAA Division I Men's Tournament",
+        "has_been_played_since",
+        "1939"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "seeds",
+        "are_referred_to_as",
+        "spots"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "seeds",
+        "are_assigned",
+        "1-16"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "NCAA March Madness: School Appearances by Seed\nThe NCAA Division I Men's Tournament is a basketball tournament that has been played annually since 1939. Teams were placed in the tournament based on their records and performance against other teams. The spots in which the teams were placed are referred to as \"seeds.\" When the tournament first started, seeds were assigned 1-8, based on how many teams played in a conference. As the number of teams in the tournament grew, more seeds were added. Currently, seeds are assigned 1-16. This list is a compilation of the seeds held by teams each time they competed in the tournament."
+}

@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Gerald Irons": "Person",
+    "Grant Irons": "Person",
+    "Gerald Irons, Jr.": "Person",
+    "Jarrett Irons": "Person",
+    "David Irons": "Person",
+    "Kenny Irons": "Person",
+    "Paul Irons": "Person",
+    "Oakland Raiders": "Team",
+    "Nebraska Cornhuskers": "Team",
+    "Michigan Wolverines": "Team",
+    "Cleveland Browns": "Team"
+  },
+  "triples": [
+    {
+      "subject": "Gerald Irons",
+      "relation": "played_for",
+      "object": "Cleveland Browns",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "has been listed among the 100 greatest Cleveland Browns of all time"
+        }
+      ]
+    },
+    {
+      "subject": "Grant Irons",
+      "relation": "played_for",
+      "object": "Oakland Raiders",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Grant Irons played for the Oakland Raiders"
+        }
+      ]
+    },
+    {
+      "subject": "Gerald Irons, Jr.",
+      "relation": "played_for",
+      "object": "Nebraska Cornhuskers",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Gerald, Jr. played for the Nebraska Cornhuskers"
+        }
+      ]
+    },
+    {
+      "subject": "Jarrett Irons",
+      "relation": "elected_captain_for",
+      "object": "Michigan Wolverines",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "middle son Jarrett was the fifth junior elected captain for the Michigan Wolverines"
+        }
+      ]
+    },
+    {
+      "subject": "Gerald Irons",
+      "relation": "has_nephew",
+      "object": "David Irons",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "has several NFL nephews and great nephews: David Irons"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gerald Irons",
+        "born_in",
+        "Gary, Indiana"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gerald Irons",
+        "has_nephew",
+        "Kenny Irons"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Gerald Irons",
+        "has_nephew",
+        "Paul Irons"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Gerald Irons\nGerald Irons (born May 2, 1947 in Gary, Indiana) is a former American professional football player who played ten seasons in the National Football League. His youngest son Grant Irons played for the Oakland Raiders. Eldest son Gerald, Jr. played for the Nebraska Cornhuskers and middle son Jarrett was the fifth junior elected captain for the Michigan Wolverines. He has several NFL nephews and great nephews: David Irons, Kenny Irons and Paul Irons. Gerald has been listed among the 100 greatest Cleveland Browns of all time."
+}

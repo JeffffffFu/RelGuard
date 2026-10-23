@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "Elkay Apartments": "FAC",
+    "Kelton Avenue": "FAC",
+    "Westwood": "LOC",
+    "Los Angeles": "GPE",
+    "California": "GPE",
+    "Richard Neutra": "PERSON",
+    "Louis Kievman": "PERSON",
+    "Karen Bruderlin": "PERSON",
+    "Kelton Apartments": "FAC",
+    "City of Los Angeles": "ORG",
+    "Los Angeles Historic-Cultural Monument": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Elkay Apartments",
+      "relation": "located_in",
+      "object": "Kelton Avenue",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at",
+          "line_start": 78,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "located at",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Elkay Apartments",
+        "located_in",
+        "Westwood"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Westwood",
+        "located_in",
+        "Los Angeles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Los Angeles",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Richard Neutra",
+        "designed",
+        "Elkay Apartments"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Elkay Apartments",
+        "completed_for",
+        "Louis Kievman"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Elkay Apartments",
+        "owned_by",
+        "Karen Bruderlin"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kelton Apartments",
+        "designed",
+        "Richard Neutra"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "City of Los Angeles",
+        "designated",
+        "Los Angeles Historic-Cultural Monument"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "City of Los Angeles",
+        "designated",
+        "Elkay Apartments"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Elkay Apartments\nThe Elkay Apartments is an historic five-unit two-story multi-family building located at 638-642 Kelton Avenue, in the Westwood neighborhood of Los Angeles, California. Designed in 1948 in the international or modernistic style of architecture by noted Los Angeles architect Richard Neutra, it was completed in 1948 for noted violist Louis Kievman. The name Elkay is derived from his initials. The building is owned today by his daughter Karen Bruderlin It is next door to the Kelton Apartments designed by Neutra in 1941 for himself. Despite objections from the owners of the Elkay Apartments, on June 21, 1988, the City of Los Angeles designated the building a Los Angeles Historic-Cultural Monument.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Elkay Apartments\", \"type\": \"FAC\"},\n    {\"name\": \"Kelton Avenue\", \"type\": \"FAC\"},\n    {\"name\": \"Westwood\", \"type\": \"LOC\"},\n    {\"name\": \"Los Angeles\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"Richard Neutra\", \"type\": \"PERSON\"},\n    {\"name\": \"Louis Kievman\", \"type\": \"PERSON\"},\n    {\"name\": \"Karen Bruderlin\", \"type\": \"PERSON\"},\n    {\"name\": \"Kelton Apartments\", \"type\": \"FAC\"},\n    {\"name\": \"City of Los Angeles\", \"type\": \"ORG\"},\n    {\"name\": \"Los Angeles Historic-Cultural Monument\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Elkay Apartments\",\n      \"relation\": \"located_in\",\n      \"object\": \"Kelton Avenue\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located at\"}\n      ]\n    },\n    {\n      \"subject\": \"Elkay Apartments\",\n      \"relation\": \"located_in\",\n      \"object\": \"Westwood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Westwood neighborhood of Los Angeles\"}\n      ]\n    },\n    {\n      \"subject\": \"Westwood\",\n      \"relation\": \"located_in\",\n      \"object\": \"Los Angeles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Westwood neighborhood of Los Angeles\"}\n      ]\n    },\n    {\n      \"subject\": \"Los Angeles\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Los Angeles, California\"}\n      ]\n    },\n    {\n      \"subject\": \"Richard Neutra\",\n      \"relation\": \"designed\",\n      \"object\": \"Elkay Apartments\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Designed in 1948 in the international or modernistic style of architecture by noted Los Angeles architect Richard Neutra\"}\n      ]\n    },\n    {\n      \"subject\": \"Elkay Apartments\",\n      \"relation\": \"completed_for\",\n      \"object\": \"Louis Kievman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"it was completed in 1948 for noted violist Louis Kievman\"}\n      ]\n    },\n    {\n      \"subject\": \"Elkay Apartments\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Karen Bruderlin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The building is owned today by his daughter Karen Bruderlin\"}\n      ]\n    },\n    {\n      \"subject\": \"Kelton Apartments\",\n      \"relation\": \"designed\",\n      \"object\": \"Richard Neutra\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designed by Neutra in 1941 for himself\"}\n      ]\n    },\n    {\n      \"subject\": \"City of Los Angeles\",\n      \"relation\": \"designated\",\n      \"object\": \"Los Angeles Historic-Cultural Monument\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designated the building a Los Angeles Historic-Cultural Monument\"}\n      ]\n    },\n    {\n      \"subject\": \"City of Los Angeles\",\n      \"relation\": \"designated\",\n      \"object\": \"Elkay Apartments\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designated the building a Los Angeles Historic-Cultural Monument\"}\n      ]\n    }\n  ]\n}"
+}

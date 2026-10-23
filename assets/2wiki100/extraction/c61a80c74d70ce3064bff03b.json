@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Operation Leopard": "film",
+    "Raoul Coutard": "director",
+    "French Guiana": "location",
+    "Battle of Kolwezi": "event",
+    "Pierre Sergent": "author",
+    "1 REP": "military_unit"
+  },
+  "triples": [
+    {
+      "subject": "Operation Leopard",
+      "relation": "directed_by",
+      "object": "Raoul Coutard",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Raoul Coutard"
+        }
+      ]
+    },
+    {
+      "subject": "Operation Leopard",
+      "relation": "filmed_in",
+      "object": "French Guiana",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "filmed in French Guiana"
+        }
+      ]
+    },
+    {
+      "subject": "Operation Leopard",
+      "relation": "based_on",
+      "object": "Battle of Kolwezi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on the true story of the Battle of Kolwezi"
+        }
+      ]
+    },
+    {
+      "subject": "Pierre Sergent",
+      "relation": "published",
+      "object": "Operation Leopard",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "published his book in 1979; the film came out in 1980"
+        }
+      ]
+    },
+    {
+      "subject": "Pierre Sergent",
+      "relation": "was_a",
+      "object": "1 REP",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "former 1 REP Captain Pierre Sergent"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Battle of Kolwezi",
+        "happened_in",
+        "1978"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Operation Leopard\nLa légion saute sur Kolwezi also known as\" Operation Leopard\" is a French war film directed by Raoul Coutard filmed in French Guiana. The script is based on the true story of the Battle of Kolwezi that happened in 1978. It was diligently described in a book of the same name by former 1 REP Captain Pierre Sergent. He published his book in 1979; the film came out in 1980. Raoul Coutard shot the film in a documentary style."
+}

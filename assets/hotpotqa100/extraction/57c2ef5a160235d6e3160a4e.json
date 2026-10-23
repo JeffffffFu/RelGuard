@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "Hyuk Shin": "Person",
+    "A-Rex": "Organization",
+    "Justin Bieber": "Person",
+    "Exo": "Organization",
+    "Shinee": "Organization",
+    "f(x)": "Organization",
+    "Girls' Generation": "Organization",
+    "Teen Top": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Hyuk Shin",
+      "relation": "works_with",
+      "object": "A-Rex",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "His team, A-Rex"
+        }
+      ]
+    },
+    {
+      "subject": "Hyuk Shin",
+      "relation": "worked_with",
+      "object": "Exo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "worked with many major artist in K-pop music industry, including Exo"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hyuk Shin",
+        "born_on",
+        "June 5, 1985"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "A-Rex",
+        "created",
+        "One Less Lonely Girl"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "One Less Lonely Girl",
+        "performed_by",
+        "Justin Bieber"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hyuk Shin",
+        "worked_with",
+        "Shinee"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hyuk Shin",
+        "worked_with",
+        "f(x)"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hyuk Shin",
+        "worked_with",
+        "Girls' Generation"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hyuk Shin",
+        "worked_with",
+        "Teen Top"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Hyuk Shin\nHyuk Shin (Hangul: 신혁; born June 5, 1985) is a South Korean record producer and singer-songwriter. His team, A-Rex, created a song, \"One Less Lonely Girl\" by Justin Bieber in 2009. He has worked with many major artist in K-pop music industry, including Exo, Shinee, f(x), Girls' Generation, Teen Top, and many more."
+}

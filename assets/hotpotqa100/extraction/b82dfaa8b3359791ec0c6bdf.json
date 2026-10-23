@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "English Language Proficiency Test": "test",
+    "SAT II": "test",
+    "The College Board": "organization",
+    "Test of English as a Foreign Language": "test",
+    "TOEFL": "test"
+  },
+  "triples": [
+    {
+      "subject": "English Language Proficiency Test",
+      "relation": "was_a",
+      "object": "SAT II",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the name of a SAT II"
+        }
+      ]
+    },
+    {
+      "subject": "English Language Proficiency Test",
+      "relation": "given_by",
+      "object": "The College Board",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "given on English language proficiency by The College Board"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "English Language Proficiency Test",
+        "was_administered_in",
+        "January 2005"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "student",
+        "could_have_chosen_to_take",
+        "English Language Proficiency Test"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "student",
+        "could_have_chosen_to_take",
+        "Test of English as a Foreign Language"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "SAT II",
+        "were_known_as",
+        "Achievement Tests"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "English Language Proficiency Test",
+        "assessed",
+        "understanding of spoken and written standard American English"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "English Language Proficiency Test",
+        "assessed",
+        "ability to function in a classroom where English is spoken"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "student",
+        "was_intended_for",
+        "English Language Proficiency Test"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "English Language Proficiency Test",
+        "was_scored_on",
+        "scale of 901 to 999"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "English Language Proficiency Test\nThe English Language Proficiency Test (ELPT) was the name of a SAT II last administered in January 2005. It was a one-hour multiple choice test given on English language proficiency by The College Board. A student whose native language was not English could have chosen to take this test instead of or in addition to Test of English as a Foreign Language (TOEFL) for college entrance depending upon requirements of the schools in which the student was planning to apply. Until 1994, the SAT II's were known as Achievement Tests. The ELPT assessed both the understanding of spoken and written standard American English and the ability to function in a classroom where English is spoken. The test was intended for students whose best language was not English; who attend U.S. high schools, or who had studied in an international school where courses were taught in English; had completed two to four years of English language instruction in an English as a Second Language program or in English enrichment courses; and/or students who spoke a language other than English at home or work. It was scored on a scale of 901 to 999"
+}

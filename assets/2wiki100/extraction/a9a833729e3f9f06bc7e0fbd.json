@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "Conny and Peter Make Music": "film",
+    "Werner Jacobs": "director",
+    "Cornelia Froboess": "actor",
+    "Peter Kraus": "actor",
+    "Gustav Knuth": "actor",
+    "Lake Lugano": "lake",
+    "southern Switzerland": "region",
+    "Northern Italy": "region",
+    "Lake Como": "lake",
+    "Lago Maggiore": "lake",
+    "Franz Bi": "art director",
+    "Bruno Monden": "art director"
+  },
+  "triples": [
+    {
+      "subject": "Conny and Peter Make Music",
+      "relation": "directed_by",
+      "object": "Werner Jacobs",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Werner Jacobs"
+        }
+      ]
+    },
+    {
+      "subject": "Conny and Peter Make Music",
+      "relation": "starring",
+      "object": "Cornelia Froboess",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Cornelia Froboess"
+        }
+      ]
+    },
+    {
+      "subject": "Lake Lugano",
+      "relation": "located_in",
+      "object": "southern Switzerland",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "border between southern Switzerland and Northern Italy"
+        }
+      ]
+    },
+    {
+      "subject": "Lake Lugano",
+      "relation": "located_in",
+      "object": "Northern Italy",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "border between southern Switzerland and Northern Italy"
+        }
+      ]
+    },
+    {
+      "subject": "Lake Lugano",
+      "relation": "situated_between",
+      "object": "Lake Como",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "situated between Lake Como and Lago Maggiore"
+        }
+      ]
+    },
+    {
+      "subject": "Lake Lugano",
+      "relation": "situated_between",
+      "object": "Lago Maggiore",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "situated between Lake Como and Lago Maggiore"
+        }
+      ]
+    },
+    {
+      "subject": "Conny and Peter Make Music",
+      "relation": "designed_by",
+      "object": "Franz Bi",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "designed by the art directors Franz Bi"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Conny and Peter Make Music",
+        "starring",
+        "Peter Kraus"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Conny and Peter Make Music",
+        "starring",
+        "Gustav Knuth"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Conny and Peter Make Music",
+        "designed_by",
+        "Bruno Monden"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Conny and Peter Make Music\nConny and Peter Make Music is a 1960 West German musical comedy film directed by Werner Jacobs and starring Cornelia Froboess, Peter Kraus and Gustav Knuth. It is set in a hotel in Lake Lugano, which is a glacial lake situated on the border between southern Switzerland and Northern Italy. The lake, named after the city of Lugano, is situated between Lake Como and Lago Maggiore. The film's sets were designed by the art directors Franz Bi and Bruno Monden."
+}

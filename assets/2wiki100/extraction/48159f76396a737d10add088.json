@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Jerome Storm": "PERSON",
+    "Denver": "GPE",
+    "Colorado": "GPE",
+    "Desert Hot Springs": "GPE",
+    "California": "GPE",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Jerome Storm",
+      "relation": "born_in",
+      "object": "Denver",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 193,
+          "char_start": 206,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Jerome Storm",
+      "relation": "died_in",
+      "object": "Desert Hot Springs",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died in",
+          "line_start": 223,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "died in",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jerome Storm",
+        "was_a",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Denver",
+        "located_in",
+        "Colorado"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Desert Hot Springs",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Jerome Storm\nJerome Storm( November 11, 1890 – July 10, 1958) was an American film director, actor and writer. He acted in 48 films between 1914 and 1941 and directed 47 films between 1918 and 1932. He was born in Denver, Colorado, and died in Desert Hot Springs, California."
+}

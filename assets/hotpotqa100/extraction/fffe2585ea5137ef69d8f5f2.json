@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "Sam Clemmett": "Person",
+    "Brundall": "Location",
+    "Norfolk": "Location",
+    "Harry Potter and the Cursed Child": "Play",
+    "J.K. Rowling": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Sam Clemmett",
+      "relation": "born_in",
+      "object": "Brundall",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Born in Brundall"
+        }
+      ]
+    },
+    {
+      "subject": "Sam Clemmett",
+      "relation": "located_in",
+      "object": "Norfolk",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Norfolk"
+        }
+      ]
+    },
+    {
+      "subject": "Sam Clemmett",
+      "relation": "performed_in",
+      "object": "Harry Potter and the Cursed Child",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "performance in the play"
+        }
+      ]
+    },
+    {
+      "subject": "J.K. Rowling",
+      "relation": "stated",
+      "object": "Sam Clemmett",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Rowling stated that, \"There's much I could say about Sam-as-Albus"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sam Clemmett",
+        "began_career_in",
+        "2013"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sam Clemmett",
+        "cast_as",
+        "Albus Potter"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sam Clemmett",
+        "popular_with",
+        "Harry Potter fans"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sam Clemmett",
+        "played_role_in",
+        "West End"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sam Clemmett",
+        "until",
+        "late-Spring 2017"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sam Clemmett\nSam Clemmett is a British actor. Born in Brundall, Norfolk, Clemmett began his acting career in 2013. He is known for being cast as Albus Potter in 2015 for the British play Harry Potter and the Cursed Child. His performance in the play has made him popular with Harry Potter fans, as well as the creator of Harry Potter, J.K. Rowling. Rowling stated that, \"There's much I could say about Sam-as-Albus, but we'd be into spoiler territory so quickly I'll just say we couldn't have cast better.\" He played the role in the West End, until late-Spring 2017."
+}

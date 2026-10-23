@@ -1,0 +1,130 @@
+{
+  "entities": {
+    "Mattel, Inc.": "Company",
+    "MCA Records, Inc.": "Company",
+    "Aqua": "Music Group",
+    "Barbie Girl": "Song",
+    "9th Circuit": "Court",
+    "2002": "Year"
+  },
+  "triples": [
+    {
+      "subject": "Mattel, Inc.",
+      "relation": "sued",
+      "object": "MCA Records, Inc.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Mattel v. MCA Records"
+        }
+      ]
+    },
+    {
+      "subject": "MCA Records, Inc.",
+      "relation": "sued",
+      "object": "Mattel, Inc.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Mattel v. MCA Records"
+        }
+      ]
+    },
+    {
+      "subject": "Mattel, Inc.",
+      "relation": "involved_in",
+      "object": "Aqua",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "resulted from the 1997 Aqua song, \"Barbie Girl\""
+        }
+      ]
+    },
+    {
+      "subject": "MCA Records, Inc.",
+      "relation": "involved_in",
+      "object": "Aqua",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "resulted from the 1997 Aqua song, \"Barbie Girl\""
+        }
+      ]
+    },
+    {
+      "subject": "Aqua",
+      "relation": "performed",
+      "object": "Barbie Girl",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "1997 Aqua song, \"Barbie Girl\""
+        }
+      ]
+    },
+    {
+      "subject": "Mattel, Inc.",
+      "relation": "dismissed_case",
+      "object": "MCA Records, Inc.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The case was ultimately dismissed"
+        }
+      ]
+    },
+    {
+      "subject": "Mattel, Inc.",
+      "relation": "court",
+      "object": "9th Circuit",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "(9th Cir. 2002)"
+        }
+      ]
+    },
+    {
+      "subject": "MCA Records, Inc.",
+      "relation": "court",
+      "object": "9th Circuit",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "(9th Cir. 2002)"
+        }
+      ]
+    },
+    {
+      "subject": "9th Circuit",
+      "relation": "year",
+      "object": "2002",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "(9th Cir. 2002)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mattel, Inc.",
+        "case_number",
+        "296 F.3d 894"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "MCA Records, Inc.",
+        "case_number",
+        "296 F.3d 894"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mattel, Inc. v. MCA Records, Inc.\nMattel v. MCA Records, 296 F.3d 894 (9th Cir. 2002), was a series of lawsuits between Mattel and MCA Records that resulted from the 1997 Aqua song, \"Barbie Girl\". The case was ultimately dismissed."
+}

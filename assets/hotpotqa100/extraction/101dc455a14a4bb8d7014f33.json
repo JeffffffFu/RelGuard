@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Shareblue": "ORG",
+    "Blue Nation Review": "ORG",
+    "American": "NORP",
+    "David Brock": "PERSON",
+    "Peter Daou": "PERSON",
+    "Clinton": "NORP",
+    "Donald Trump": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Shareblue",
+      "relation": "formerly_known_as",
+      "object": "Blue Nation Review",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "formerly known as",
+          "line_start": 11,
+          "char_start": 21,
+          "ambiguous": false,
+          "relation_mention": "formerly known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Shareblue",
+      "relation": "owned_by",
+      "object": "David Brock",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned by",
+          "line_start": 87,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "owned by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Shareblue",
+      "relation": "headed_by",
+      "object": "Peter Daou",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is headed by",
+          "line_start": 159,
+          "char_start": 169,
+          "ambiguous": false,
+          "relation_mention": "is headed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Shareblue",
+        "is_a",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Peter Daou",
+        "former_affiliation",
+        "Clinton"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Shareblue",
+        "opposes_policies_of",
+        "Donald Trump"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Shareblue\nShareblue, formerly known as Blue Nation Review, is an American left-wing news website owned by the journalist and political activist David Brock. The website is headed by former Clinton staffer Peter Daou. Shareblue is within a consortium of political groups in Democratic strategist David Brock’s network that will raise a roughly $40 million budget to oppose President Donald Trump's policies.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Shareblue\", \"type\": \"ORG\"},\n    {\"name\": \"Blue Nation Review\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"David Brock\", \"type\": \"PERSON\"},\n    {\"name\": \"Peter Daou\", \"type\": \"PERSON\"},\n    {\"name\": \"Clinton\", \"type\": \"NORP\"},\n    {\"name\": \"Donald Trump\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Shareblue\",\n      \"relation\": \"formerly_known_as\",\n      \"object\": \"Blue Nation Review\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"formerly known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Shareblue\",\n      \"relation\": \"is_a\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Shareblue\",\n      \"relation\": \"owned_by\",\n      \"object\": \"David Brock\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"Shareblue\",\n      \"relation\": \"headed_by\",\n      \"object\": \"Peter Daou\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is headed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Peter Daou\",\n      \"relation\": \"former_affiliation\",\n      \"object\": \"Clinton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"former Clinton\"}\n      ]\n    },\n    {\n      \"subject\": \"Shareblue\",\n      \"relation\": \"opposes_policies_of\",\n      \"object\": \"Donald Trump\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"oppose President Donald Trump's policies\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Arismendi": "surname",
+    "Basque Country": "region",
+    "Basque people": "ethnic group",
+    "Spain": "country",
+    "France": "country",
+    "oak": "tree",
+    "mountain": "landform"
+  },
+  "triples": [
+    {
+      "subject": "Arismendi",
+      "relation": "means",
+      "object": "mountain",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Arismendi means \"mountain of oaks\""
+        }
+      ]
+    },
+    {
+      "subject": "Arismendi",
+      "relation": "means",
+      "object": "oak",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "\"aris\" meaning \"oak\""
+        }
+      ]
+    },
+    {
+      "subject": "Basque people",
+      "relation": "indigenous_to",
+      "object": "Basque Country",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The Basque people are indigenous to the area of northeast Spain and southwest France, a historical region known as the Basque Country."
+        }
+      ]
+    },
+    {
+      "subject": "Basque Country",
+      "relation": "located_in",
+      "object": "Spain",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "northeast Spain"
+        }
+      ]
+    },
+    {
+      "subject": "Basque Country",
+      "relation": "located_in",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "southwest France"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Arismendi",
+        "means",
+        "mountain"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Arismendi (surname)\nArismendi is a Basque surname. The Basque people are indigenous to the area of northeast Spain and southwest France, a historical region known as the Basque Country. Arismendi means \"mountain of oaks\"; \"aris\" meaning \"oak\" and \"mendi\" meaning \"mountain.\""
+}

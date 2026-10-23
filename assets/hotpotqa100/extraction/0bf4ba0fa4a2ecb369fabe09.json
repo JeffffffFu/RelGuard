@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Chinese Taipei": "NORP",
+    "2006 Asian Games": "EVENT",
+    "Doha": "GPE",
+    "Qatar": "GPE",
+    "China": "GPE",
+    "Japan": "GPE",
+    "South Korea": "GPE",
+    "Taiwan": "GPE",
+    "2002 Asian Games": "EVENT",
+    "Busan": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Chinese Taipei",
+      "relation": "competed_in",
+      "object": "2006 Asian Games",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "competed in",
+          "line_start": 18,
+          "char_start": 57,
+          "ambiguous": false,
+          "relation_mention": "competed in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "2006 Asian Games",
+        "located_in",
+        "Doha"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Doha",
+        "located_in",
+        "Qatar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Chinese Taipei",
+        "sent",
+        "399 athletes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chinese Taipei",
+        "ranked_after",
+        "China"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Chinese Taipei",
+        "ranked_after",
+        "Japan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Chinese Taipei",
+        "ranked_after",
+        "South Korea"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Chinese Taipei",
+        "finished",
+        "tenth in gold medals"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chinese Taipei",
+        "finished_overall",
+        "seventh in overall medals"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2002 Asian Games",
+        "located_in",
+        "Busan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Busan",
+        "located_in",
+        "South Korea"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Chinese Taipei at the 2006 Asian Games\nChinese Taipei () competed in the 2006 Asian Games in Doha, Qatar in November and December 2006. The Chinese Taipei team sent 399 athletes to the games, making Chinese Taipei the fourth largest delegation after China, Japan, and South Korea. Despite Taiwan's small size, Chinese Taipei is a second-rank Asian sports power, finishing tenth in gold medals and seventh in overall medals at the 2006 Asian Games, a slight drop from its performance in the 2002 Asian Games in Busan, South Korea.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Chinese Taipei\", \"type\": \"NORP\"},\n    {\"name\": \"2006 Asian Games\", \"type\": \"EVENT\"},\n    {\"name\": \"Doha\", \"type\": \"GPE\"},\n    {\"name\": \"Qatar\", \"type\": \"GPE\"},\n    {\"name\": \"China\", \"type\": \"GPE\"},\n    {\"name\": \"Japan\", \"type\": \"GPE\"},\n    {\"name\": \"South Korea\", \"type\": \"GPE\"},\n    {\"name\": \"Taiwan\", \"type\": \"GPE\"},\n    {\"name\": \"2002 Asian Games\", \"type\": \"EVENT\"},\n    {\"name\": \"Busan\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Chinese Taipei\",\n      \"relation\": \"competed_in\",\n      \"object\": \"2006 Asian Games\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"competed in\"}\n      ]\n    },\n    {\n      \"subject\": \"2006 Asian Games\",\n      \"relation\": \"located_in\",\n      \"object\": \"Doha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Doha\",\n      \"relation\": \"located_in\",\n      \"object\": \"Qatar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Qatar\"}\n      ]\n    },\n    {\n      \"subject\": \"Chinese Taipei\",\n      \"relation\": \"sent\",\n      \"object\": \"399 athletes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"sent 399 athletes to the games\"}\n      ]\n    },\n    {\n      \"subject\": \"Chinese Taipei\",\n      \"relation\": \"ranked_after\",\n      \"object\": \"China\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"after China, Japan, and South Korea\"}\n      ]\n    },\n    {\n      \"subject\": \"Chinese Taipei\",\n      \"relation\": \"ranked_after\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"after China, Japan, and South Korea\"}\n      ]\n    },\n    {\n      \"subject\": \"Chinese Taipei\",\n      \"relation\": \"ranked_after\",\n      \"object\": \"South Korea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"after China, Japan, and South Korea\"}\n      ]\n    },\n    {\n      \"subject\": \"Chinese Taipei\",\n      \"relation\": \"finished\",\n      \"object\": \"tenth in gold medals\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"finishing tenth in gold medals\"}\n      ]\n    },\n    {\n      \"subject\": \"Chinese Taipei\",\n      \"relation\": \"finished_overall\",\n      \"object\": \"seventh in overall medals\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and seventh in overall medals\"}\n      ]\n    },\n    {\n      \"subject\": \"2002 Asian Games\",\n      \"relation\": \"located_in\",\n      \"object\": \"Busan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Busan\"}\n      ]\n    },\n    {\n      \"subject\": \"Busan\",\n      \"relation\": \"located_in\",\n      \"object\": \"South Korea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Busan, South Korea\"}\n      ]\n    }\n  ]\n}"
+}

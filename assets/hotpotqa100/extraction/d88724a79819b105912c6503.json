@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Diogo Eletelba da Silva": "PERSON",
+    "America Futebol Clube": "ORG",
+    "Bonsucesso Futebol Clube": "ORG",
+    "Desportiva Ferroviaria": "ORG",
+    "Cariacica": "GPE",
+    "Espirito Santo": "GPE",
+    "Mexico City": "GPE",
+    "Club de Futbol Atlante": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Diogo Eletelba da Silva",
+      "relation": "played_for",
+      "object": "America Futebol Clube",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "playing for Brazilian sides, America Futebol Clube (Rio de Janeiro)"
+        }
+      ]
+    },
+    {
+      "subject": "Diogo Eletelba da Silva",
+      "relation": "played_for",
+      "object": "Bonsucesso Futebol Clube",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "then Bonsucesso Futebol Clube (Rio de Janeiro)"
+        }
+      ]
+    },
+    {
+      "subject": "Diogo Eletelba da Silva",
+      "relation": "signed_contract_with",
+      "object": "Desportiva Ferroviaria",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "he signed his first professional contract with Desportiva Ferroviaria (Cariacica, Espirito Santo)"
+        }
+      ]
+    },
+    {
+      "subject": "Desportiva Ferroviaria",
+      "relation": "located_in",
+      "object": "Cariacica",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Desportiva Ferroviaria (Cariacica, Espirito Santo)"
+        }
+      ]
+    },
+    {
+      "subject": "Cariacica",
+      "relation": "located_in",
+      "object": "Espirito Santo",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Desportiva Ferroviaria (Cariacica, Espirito Santo)"
+        }
+      ]
+    },
+    {
+      "subject": "Diogo Eletelba da Silva",
+      "relation": "played_for",
+      "object": "Club de Futbol Atlante",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "continuing his career playing for then Mexico City side, Club de Futbol Atlante"
+        }
+      ]
+    },
+    {
+      "subject": "Mexico City",
+      "relation": "located_in",
+      "object": "Club de Futbol Atlante",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "then Mexico City side, Club de Futbol Atlante"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Brazil (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Diogo Eletelba da Silva",
+        "born_in",
+        "Brazil"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Diogo Eletelba da Silva\nDiogo is a retired Brazilian professional soccer player. Born Eletelba da Silva, he began his career playing for Brazilian sides, America Futebol Clube (Rio de Janeiro), then Bonsucesso Futebol Clube (Rio de Janeiro) 1961. After playing on the development teams for each of these Rio de Janeiro clubs, he signed his first professional contract with Desportiva Ferroviaria (Cariacica, Espirito Santo) (1961-1966). He then went on to play for , from (1966-1967) (1967-1968), and (1968-1969), before continuing his career playing for then Mexico City side, Club de Futbol Atlante (1970-1971)."
+}

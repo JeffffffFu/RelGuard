@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "British Broadcasting Corporation": "Organization",
+    "London": "Location"
+  },
+  "triples": [
+    {
+      "subject": "British Broadcasting Corporation",
+      "relation": "located_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with its headquarters at Broadcasting House in London."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "British Broadcasting Corporation",
+        "employs",
+        "20,950 staff"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "British Broadcasting Corporation",
+        "largest_broadcaster_by_employees",
+        "world"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "British Broadcasting Corporation",
+        "oldest_national_broadcasting_organisation",
+        "world"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "British Broadcasting Corporation",
+        "total_staff",
+        "35,402"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "BBC\nThe British Broadcasting Corporation (BBC) is a British public service broadcaster with its headquarters at Broadcasting House in London. The BBC is the world's oldest national broadcasting organisation and the largest broadcaster in the world by number of employees. It employs over 20,950 staff in total, 16,672 of whom are in public sector broadcasting. The total number of staff is 35,402 when part-time, flexible, and fixed contract staff are included."
+}

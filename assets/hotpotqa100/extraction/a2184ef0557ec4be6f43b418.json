@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Snarleyow": "WORK_OF_ART",
+    "Rudyard Kipling": "PERSON",
+    "Staff Sergeant Nathaniel W. Bancroft": "PERSON",
+    "Bengal Horse Artillery": "ORG",
+    "Royal Horse Artillery": "ORG",
+    "G. F. Cobb": "PERSON",
+    "British army": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Snarleyow",
+      "relation": "based_on",
+      "object": "Staff Sergeant Nathaniel W. Bancroft",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 253,
+          "char_start": 263,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Snarleyow",
+      "relation": "depicts",
+      "object": "British army",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "depicting",
+          "line_start": 173,
+          "char_start": 183,
+          "ambiguous": false,
+          "relation_mention": "depicting",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Snarleyow",
+      "relation": "set_to_song_by",
+      "object": "G. F. Cobb",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "set to song by",
+          "line_start": 441,
+          "char_start": 451,
+          "ambiguous": false,
+          "relation_mention": "set to song by",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Snarleyow",
+        "written_by",
+        "Rudyard Kipling"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Staff Sergeant Nathaniel W. Bancroft",
+        "served_in",
+        "Bengal Horse Artillery"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Staff Sergeant Nathaniel W. Bancroft",
+        "served_in",
+        "Royal Horse Artillery"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Snarleyow\nSnarleyow is a poem by Rudyard Kipling, published in late 1890. The title character was a horse that was part of a team pulling a gun. The poem is one of many Kipling wrote depicting the life of soldiers in the British army. It appears that this one is based on an incident in the life of Staff Sergeant Nathaniel W. Bancroft, of the old Bengal Horse Artillery and later the Royal Horse Artillery. The poem was one of the many Kipling poems set to song by G. F. Cobb.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Snarleyow\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Rudyard Kipling\", \"type\": \"PERSON\"},\n    {\"name\": \"Staff Sergeant Nathaniel W. Bancroft\", \"type\": \"PERSON\"},\n    {\"name\": \"Bengal Horse Artillery\", \"type\": \"ORG\"},\n    {\"name\": \"Royal Horse Artillery\", \"type\": \"ORG\"},\n    {\"name\": \"G. F. Cobb\", \"type\": \"PERSON\"},\n    {\"name\": \"British army\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Snarleyow\",\n      \"relation\": \"written_by\",\n      \"object\": \"Rudyard Kipling\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    },\n    {\n      \"subject\": \"Snarleyow\",\n      \"relation\": \"based_on\",\n      \"object\": \"Staff Sergeant Nathaniel W. Bancroft\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"based on\"}\n      ]\n    },\n    {\n      \"subject\": \"Staff Sergeant Nathaniel W. Bancroft\",\n      \"relation\": \"served_in\",\n      \"object\": \"Bengal Horse Artillery\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"of\"}\n      ]\n    },\n    {\n      \"subject\": \"Staff Sergeant Nathaniel W. Bancroft\",\n      \"relation\": \"served_in\",\n      \"object\": \"Royal Horse Artillery\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"and later the\"}\n      ]\n    },\n    {\n      \"subject\": \"Snarleyow\",\n      \"relation\": \"depicts\",\n      \"object\": \"British army\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"depicting\"}\n      ]\n    },\n    {\n      \"subject\": \"Snarleyow\",\n      \"relation\": \"set_to_song_by\",\n      \"object\": \"G. F. Cobb\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"set to song by\"}\n      ]\n    }\n  ]\n}"
+}

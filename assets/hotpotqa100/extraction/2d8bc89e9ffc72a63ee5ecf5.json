@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "Nothing but the Truth": "WORK_OF_ART",
+    "Rod Lurie": "PERSON",
+    "Judith Miller": "PERSON",
+    "Valerie Plame": "PERSON",
+    "CIA": "ORG",
+    "DVD": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Nothing but the Truth",
+      "relation": "directed_by",
+      "object": "Rod Lurie",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 64,
+          "char_start": 107,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Nothing but the Truth",
+      "relation": "written_by",
+      "object": "Rod Lurie",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written and directed by",
+          "line_start": 52,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "written and directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Rod Lurie",
+      "relation": "made_comments_in",
+      "object": "DVD",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "on the DVD release",
+          "line_start": 161,
+          "char_start": 204,
+          "ambiguous": false,
+          "relation_mention": "on the DVD release",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Nothing but the Truth",
+      "relation": "based_on",
+      "object": "Judith Miller",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "his inspiration for the screenplay was the case of journalist Judith Miller",
+          "line_start": 181,
+          "char_start": 224,
+          "ambiguous": false,
+          "relation_mention": "his inspiration for the screenplay was the case of journalist Judith Miller",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Judith Miller",
+        "jailed_for",
+        "contempt of court"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Judith Miller",
+        "refused_to_testify_before",
+        "a federal grand jury"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Valerie Plame",
+        "was_a",
+        "covert CIA operative"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Valerie Plame",
+        "named_in",
+        "a leak"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Nothing but the Truth (2008 American film)\nNothing but the Truth is a 2008 American drama film written and directed by Rod Lurie. According to comments made by Lurie in \"The Truth Hurts\", a bonus feature on the DVD release, his inspiration for the screenplay was the case of journalist Judith Miller, who in July 2005 was jailed for contempt of court for refusing to testify before a federal grand jury investigating a leak naming Valerie Plame as a covert CIA operative, but this was merely a starting point for what is primarily a fictional story. In an April 2009 interview, Lurie stressed: \"I should say that the film is about neither of these women although certainly their stories as reported in the press went into the creation of their characters and the situation they find themselves in.\""
+}

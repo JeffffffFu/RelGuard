@@ -1,0 +1,157 @@
+{
+  "entities": {
+    "Her Husband's Trademark": "WORK_OF_ART",
+    "Sam Wood": "PERSON",
+    "Gloria Swanson": "PERSON",
+    "Richard Wayne": "PERSON",
+    "Famous Players-Lasky": "ORG",
+    "Paramount Pictures": "ORG",
+    "El Paso": "GPE",
+    "Texas": "GPE",
+    "George Eastman House": "ORG",
+    "Gosfilmofond": "ORG",
+    "Moscow": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Her Husband's Trademark",
+      "relation": "directed_by",
+      "object": "Sam Wood",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 61,
+          "char_start": 85,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Her Husband's Trademark",
+      "relation": "stars",
+      "object": "Gloria Swanson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 86,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Her Husband's Trademark",
+      "relation": "stars",
+      "object": "Richard Wayne",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring",
+          "line_start": 86,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "starring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Her Husband's Trademark",
+      "relation": "produced_by",
+      "object": "Famous Players-Lasky",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Produced by",
+          "line_start": 129,
+          "char_start": 153,
+          "ambiguous": false,
+          "relation_mention": "Produced by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Her Husband's Trademark",
+      "relation": "distributed_by",
+      "object": "Paramount Pictures",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "distributed by",
+          "line_start": 167,
+          "char_start": 191,
+          "ambiguous": false,
+          "relation_mention": "distributed by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Her Husband's Trademark",
+      "relation": "prints_held_at",
+      "object": "George Eastman House",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "held at the",
+          "line_start": 291,
+          "char_start": 315,
+          "ambiguous": false,
+          "relation_mention": "held at the",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Her Husband's Trademark",
+      "relation": "prints_held_at",
+      "object": "Gosfilmofond",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "held at the",
+          "line_start": 291,
+          "char_start": 315,
+          "ambiguous": false,
+          "relation_mention": "held at the",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Her Husband's Trademark",
+        "shot_on_location_in",
+        "El Paso"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "El Paso",
+        "located_in",
+        "Texas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gosfilmofond",
+        "located_in",
+        "Moscow"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Her Husband's Trademark\nHer Husband's Trademark is a 1922 American silent drama film directed by Sam Wood and starring Gloria Swanson and Richard Wayne. Produced by Famous Players- Lasky and distributed by Paramount Pictures, the film was shot on location in El Paso, Texas. Prints of\" Her Husband's Trademark\" are held at the George Eastman House and the Gosfilmofond archive in Moscow.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Her Husband's Trademark\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Sam Wood\", \"type\": \"PERSON\"},\n    {\"name\": \"Gloria Swanson\", \"type\": \"PERSON\"},\n    {\"name\": \"Richard Wayne\", \"type\": \"PERSON\"},\n    {\"name\": \"Famous Players-Lasky\", \"type\": \"ORG\"},\n    {\"name\": \"Paramount Pictures\", \"type\": \"ORG\"},\n    {\"name\": \"El Paso\", \"type\": \"GPE\"},\n    {\"name\": \"Texas\", \"type\": \"GPE\"},\n    {\"name\": \"George Eastman House\", \"type\": \"ORG\"},\n    {\"name\": \"Gosfilmofond\", \"type\": \"ORG\"},\n    {\"name\": \"Moscow\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Her Husband's Trademark\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Sam Wood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Her Husband's Trademark\",\n      \"relation\": \"stars\",\n      \"object\": \"Gloria Swanson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Her Husband's Trademark\",\n      \"relation\": \"stars\",\n      \"object\": \"Richard Wayne\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring\"}\n      ]\n    },\n    {\n      \"subject\": \"Her Husband's Trademark\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Famous Players-Lasky\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Her Husband's Trademark\",\n      \"relation\": \"distributed_by\",\n      \"object\": \"Paramount Pictures\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"distributed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Her Husband's Trademark\",\n      \"relation\": \"shot_on_location_in\",\n      \"object\": \"El Paso\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"shot on location in\"}\n      ]\n    },\n    {\n      \"subject\": \"El Paso\",\n      \"relation\": \"located_in\",\n      \"object\": \"Texas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Texas\"}\n      ]\n    },\n    {\n      \"subject\": \"Her Husband's Trademark\",\n      \"relation\": \"prints_held_at\",\n      \"object\": \"George Eastman House\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"held at the\"}\n      ]\n    },\n    {\n      \"subject\": \"Her Husband's Trademark\",\n      \"relation\": \"prints_held_at\",\n      \"object\": \"Gosfilmofond\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"held at the\"}\n      ]\n    },\n    {\n      \"subject\": \"Gosfilmofond\",\n      \"relation\": \"located_in\",\n      \"object\": \"Moscow\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Moscow\"}\n      ]\n    }\n  ]\n}"
+}

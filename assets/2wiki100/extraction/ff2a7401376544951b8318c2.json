@@ -1,0 +1,140 @@
+{
+  "entities": {
+    "Barry Levinson": "Person",
+    "Academy Award": "Award",
+    "Rain Man": "Film",
+    "Diner": "Film",
+    "The Natural": "Film",
+    "Good Morning, Vietnam": "Film",
+    "Bugsy": "Film",
+    "Wag the Dog": "Film",
+    "Best Director": "Award Category",
+    "Best Picture": "Award Category"
+  },
+  "triples": [
+    {
+      "subject": "Barry Levinson",
+      "relation": "won",
+      "object": "Academy Award",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "won the Academy Award"
+        }
+      ]
+    },
+    {
+      "subject": "Rain Man",
+      "relation": "won",
+      "object": "Academy Award",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "which also won the Academy Award"
+        }
+      ]
+    },
+    {
+      "subject": "Rain Man",
+      "relation": "is_a",
+      "object": "Best Picture",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "which also won the Academy Award for Best Picture"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Barry Levinson",
+        "born_on",
+        "April 6, 1942"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "is_a",
+        "American filmmaker"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "is_a",
+        "screenwriter"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "is_a",
+        "actor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rain Man",
+        "is_a",
+        "Film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "directed",
+        "Rain Man"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "best_known_for",
+        "Diner"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "best_known_for",
+        "The Natural"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "best_known_for",
+        "Good Morning, Vietnam"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "best_known_for",
+        "Bugsy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Barry Levinson",
+        "best_known_for",
+        "Wag the Dog"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Barry Levinson\nBarry Levinson( born April 6, 1942) is an American filmmaker, screenwriter, and actor. Levinson's best- known works are mid-budget comedy- drama and drama films such as\" Diner\"( 1982);\" The Natural\"( 1984);\" Good Morning, Vietnam\"( 1987);\" Bugsy\"( 1991); and\" Wag the Dog\"( 1997). He won the Academy Award for Best Director for\" Rain Man\"( 1988), which also won the Academy Award for Best Picture."
+}

@@ -1,0 +1,124 @@
+{
+  "entities": {
+    "Operation Woodrose": "EVENT",
+    "Indira Gandhi": "PERSON",
+    "Indian government": "ORG",
+    "Operation Blue Star": "EVENT",
+    "Punjab": "GPE",
+    "Akali Dal": "ORG",
+    "All India Sikh Students Federation": "ORG",
+    "Indian Army": "ORG",
+    "Sikh": "NORP",
+    "Punjab region": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Operation Woodrose",
+      "relation": "carried_out_by",
+      "object": "Indian government",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "carried out by",
+          "line_start": 44,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "carried out by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Indian Army",
+      "relation": "conducted",
+      "object": "Operation Woodrose",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "conducted operations",
+          "line_start": 421,
+          "char_start": 440,
+          "ambiguous": false,
+          "relation_mention": "conducted operations",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Indian Army",
+      "relation": "detained",
+      "object": "Sikh",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were detained for interrogation",
+          "line_start": 520,
+          "char_start": 539,
+          "ambiguous": false,
+          "relation_mention": "were detained for interrogation",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Operation Woodrose",
+        "carried_out_during_relation_to",
+        "Operation Blue Star"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Operation Woodrose",
+        "carried_out_in",
+        "Punjab"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Indian government",
+        "led_by",
+        "Indira Gandhi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The government",
+        "arrested",
+        "Akali Dal"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The government",
+        "banned",
+        "All India Sikh Students Federation"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Operation Woodrose",
+        "criticized_by",
+        "human-rights groups"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Operation Woodrose",
+        "affected",
+        "Punjab region"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Operation Woodrose\nOperation Woodrose was a military operation carried out by the Indira Gandhi-led Indian government in the months after Operation Blue Star to \"prevent the outbreak of widespread public protest\" in the state of Punjab. The government arrested all prominent members of the largest Sikh political party, the Akali Dal, and banned the All India Sikh Students Federation, a large students' union. In addition, the Indian Army conducted operations in the countryside during which thousands of Sikhs, overwhelmingly young men, were detained for interrogation and subsequently tortured. Despite its purported success in controlling the armed insurgency in the Punjab region, the operation was criticized by human-rights groups for the suspension of civil liberties and habeas corpus, resulting in the disappearances of thousands of Sikh men. After the operation, the central government was criticized for using \"draconian legislation\" to repress a minority community.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Operation Woodrose\", \"type\": \"EVENT\"},\n    {\"name\": \"Indira Gandhi\", \"type\": \"PERSON\"},\n    {\"name\": \"Indian government\", \"type\": \"ORG\"},\n    {\"name\": \"Operation Blue Star\", \"type\": \"EVENT\"},\n    {\"name\": \"Punjab\", \"type\": \"GPE\"},\n    {\"name\": \"Akali Dal\", \"type\": \"ORG\"},\n    {\"name\": \"All India Sikh Students Federation\", \"type\": \"ORG\"},\n    {\"name\": \"Indian Army\", \"type\": \"ORG\"},\n    {\"name\": \"Sikh\", \"type\": \"NORP\"},\n    {\"name\": \"Punjab region\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Operation Woodrose\",\n      \"relation\": \"carried_out_by\",\n      \"object\": \"Indian government\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"carried out by\"}\n      ]\n    },\n    {\n      \"subject\": \"Operation Woodrose\",\n      \"relation\": \"carried_out_during_relation_to\",\n      \"object\": \"Operation Blue Star\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"after\"}\n      ]\n    },\n    {\n      \"subject\": \"Operation Woodrose\",\n      \"relation\": \"carried_out_in\",\n      \"object\": \"Punjab\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the state of Punjab\"}\n      ]\n    },\n    {\n      \"subject\": \"Indian government\",\n      \"relation\": \"led_by\",\n      \"object\": \"Indira Gandhi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Indira Gandhi-led\"}\n      ]\n    },\n    {\n      \"subject\": \"The government\",\n      \"relation\": \"arrested\",\n      \"object\": \"Akali Dal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"arrested all prominent members of the largest Sikh political party, the Akali Dal\"}\n      ]\n    },\n    {\n      \"subject\": \"The government\",\n      \"relation\": \"banned\",\n      \"object\": \"All India Sikh Students Federation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"banned the All India Sikh Students Federation\"}\n      ]\n    },\n    {\n      \"subject\": \"Indian Army\",\n      \"relation\": \"conducted\",\n      \"object\": \"Operation Woodrose\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"conducted operations\"}\n      ]\n    },\n    {\n      \"subject\": \"Indian Army\",\n      \"relation\": \"detained\",\n      \"object\": \"Sikh\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were detained for interrogation\"}\n      ]\n    },\n    {\n      \"subject\": \"Operation Woodrose\",\n      \"relation\": \"criticized_by\",\n      \"object\": \"human-rights groups\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was criticized by human-rights groups\"}\n      ]\n    },\n    {\n      \"subject\": \"Operation Woodrose\",\n      \"relation\": \"affected\",\n      \"object\": \"Punjab region\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Punjab region\"}\n      ]\n    }\n  ]\n}"
+}

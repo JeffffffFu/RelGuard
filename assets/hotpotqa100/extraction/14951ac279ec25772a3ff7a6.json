@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Lewis Jack Young": "PERSON",
+    "Crawley Town": "ORG",
+    "Ashley Young": "PERSON",
+    "Manchester United": "ORG",
+    "English": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Lewis Jack Young",
+        "works_for",
+        "Crawley Town"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lewis Jack Young",
+        "born_in_nationality",
+        "English"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lewis Jack Young",
+        "sibling_of",
+        "Ashley Young"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ashley Young",
+        "works_for",
+        "Manchester United"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Lewis Young\nLewis Jack Young (born 27 September 1989) is an English professional footballer who plays for Crawley Town. He can play either as a striker, as a right winger or as, most recently, a right back. He is the younger brother of Manchester United footballer Ashley Young.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Lewis Jack Young\", \"type\": \"PERSON\"},\n    {\"name\": \"Crawley Town\", \"type\": \"ORG\"},\n    {\"name\": \"Ashley Young\", \"type\": \"PERSON\"},\n    {\"name\": \"Manchester United\", \"type\": \"ORG\"},\n    {\"name\": \"English\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Lewis Jack Young\",\n      \"relation\": \"works_for\",\n      \"object\": \"Crawley Town\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"plays for\"}\n      ]\n    },\n    {\n      \"subject\": \"Lewis Jack Young\",\n      \"relation\": \"born_in_nationality\", \n      \"object\": \"English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an English\"}\n      ]\n    },\n    {\n      \"subject\": \"Lewis Jack Young\",\n      \"relation\": \"sibling_of\",\n      \"object\": \"Ashley Young\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"brother of\"}\n      ]\n    },\n    {\n      \"subject\": \"Ashley Young\",\n      \"relation\": \"works_for\",\n      \"object\": \"Manchester United\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Manchester United footballer\"}\n      ]\n    }\n  ]\n}"
+}

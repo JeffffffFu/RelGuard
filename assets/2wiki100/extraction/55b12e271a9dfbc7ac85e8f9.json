@@ -1,0 +1,39 @@
+{
+  "entities": {
+    "My Little Eye": "film",
+    "Marc Evans": "person",
+    "Big Brother": "television_show"
+  },
+  "triples": [
+    {
+      "subject": "My Little Eye",
+      "relation": "directed_by",
+      "object": "Marc Evans",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Marc Evans"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "My Little Eye",
+        "released_in",
+        "2002"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "My Little Eye",
+        "based_on",
+        "Big Brother"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "My Little Eye\nMy Little Eye is a 2002 British horror film directed by Marc Evans about five adults who agree to spend six months together in an isolated mansion while being filmed at all times. The idea for the film came from reality television shows such as\" Big Brother\". The title refers to the guessing game I spy."
+}

@@ -1,0 +1,136 @@
+{
+  "entities": {
+    "Pretty Foe": "Film",
+    "Ahriman -e Ziba": "Title",
+    "Esmail Koushan": "Director",
+    "Azar Hekmat Shoar": "Actor",
+    "Ali Azad": "Actor",
+    "Soraya Bakisa": "Actor",
+    "Rahim Roshanian": "Actor",
+    "Moezzdivan Fekri": "Actor",
+    "Maliheh Nasiri": "Actor",
+    "Akbar Jannati Shirazi": "Actor",
+    "Hossein Mohseni": "Actor"
+  },
+  "triples": [
+    {
+      "subject": "Pretty Foe",
+      "relation": "has_title",
+      "object": "Ahriman -e Ziba",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Persian title: Ahriman -e Ziba"
+        }
+      ]
+    },
+    {
+      "subject": "Pretty Foe",
+      "relation": "directed_by",
+      "object": "Esmail Koushan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Esmail Koushan"
+        }
+      ]
+    },
+    {
+      "subject": "Esmail Koushan",
+      "relation": "directed",
+      "object": "Pretty Foe",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Esmail Koushan"
+        }
+      ]
+    },
+    {
+      "subject": "Pretty Foe",
+      "relation": "starring",
+      "object": "Azar Hekmat Shoar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Azar Hekmat Shoar"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pretty Foe",
+        "released_in",
+        "1962"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pretty Foe",
+        "genre",
+        "Persian- genre"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pretty Foe",
+        "starring",
+        "Ali Azad"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pretty Foe",
+        "starring",
+        "Soraya Bakisa"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pretty Foe",
+        "starring",
+        "Rahim Roshanian"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pretty Foe",
+        "starring",
+        "Moezzdivan Fekri"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pretty Foe",
+        "starring",
+        "Maliheh Nasiri"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pretty Foe",
+        "starring",
+        "Akbar Jannati Shirazi"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pretty Foe",
+        "starring",
+        "Hossein Mohseni"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pretty Foe\nPretty Foe\"( Persian title: Ahriman -e Ziba)\" is a 1962 Iranian\" Persian- genre\" romance drama film directed by Esmail Koushan and starring Azar Hekmat Shoar, Ali Azad, Soraya Bakisa( soheila), Rahim Roshanian, Moezzdivan Fekri, Maliheh Nasiri, Akbar Jannati Shirazi and Hossein Mohseni."
+}

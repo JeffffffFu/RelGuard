@@ -1,0 +1,199 @@
+{
+  "entities": {
+    "New York Buzz": "ORG",
+    "World TeamTennis": "ORG",
+    "WTT": "ORG",
+    "Schenectady": "GPE",
+    "New York": "GPE",
+    "Albany": "GPE",
+    "Guilderland": "GPE",
+    "New York OTBzz": "ORG",
+    "Schenectady County Electrics": "ORG",
+    "Eastern Conference Championship": "EVENT",
+    "Kansas City Explorers": "ORG",
+    "King Trophy": "PRODUCT",
+    "WTT Final": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "New York Buzz",
+      "relation": "works_for",
+      "object": "World TeamTennis",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "competing in",
+          "line_start": 49,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "competing in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "New York Buzz",
+      "relation": "located_in",
+      "object": "Schenectady",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 110,
+          "char_start": 124,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "New York Buzz",
+      "relation": "located_in",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "moving to",
+          "line_start": 167,
+          "char_start": 181,
+          "ambiguous": false,
+          "relation_mention": "moving to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "New York Buzz",
+      "relation": "founded",
+      "object": "New York OTBzz",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded as",
+          "line_start": 247,
+          "char_start": 261,
+          "ambiguous": false,
+          "relation_mention": "was founded as",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "New York OTBzz",
+      "relation": "founded",
+      "object": "Schenectady County Electrics",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "changing its name to",
+          "line_start": 297,
+          "char_start": 311,
+          "ambiguous": false,
+          "relation_mention": "changing its name to",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "New York Buzz",
+      "relation": "founded",
+      "object": "Schenectady County Electrics",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "changing its name to",
+          "line_start": 297,
+          "char_start": 311,
+          "ambiguous": false,
+          "relation_mention": "changing its name to",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "New York Buzz",
+      "relation": "founded",
+      "object": "New York Buzz",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "adopting the name",
+          "line_start": 372,
+          "char_start": 386,
+          "ambiguous": false,
+          "relation_mention": "adopting the name",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Schenectady",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Albany",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "New York Buzz",
+        "located_in",
+        "Guilderland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Guilderland",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "New York Buzz",
+        "won",
+        "Eastern Conference Championship"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "New York Buzz",
+        "defeated",
+        "Kansas City Explorers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "New York Buzz",
+        "captured",
+        "King Trophy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "King Trophy",
+        "located_in",
+        "WTT Final"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "New York Buzz\nThe New York Buzz was a professional tennis team competing in World TeamTennis (WTT). The team was originally based in Schenectady, New York from 1995 to 2007, before moving to Albany, New York in 2008, and Guilderland, New York in 2009. The team was founded as the New York OTBzz in 1995, before changing its name to the Schenectady County Electrics in 1999, and finally adopting the name New York Buzz in 2001. In 2008, the team won its third Eastern Conference Championship and went on to defeat the Kansas City Explorers to capture its first and only King Trophy in its fourth appearance in the WTT Final.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"New York Buzz\", \"type\": \"ORG\"},\n    {\"name\": \"World TeamTennis\", \"type\": \"ORG\"},\n    {\"name\": \"WTT\", \"type\": \"ORG\"},\n    {\"name\": \"Schenectady\", \"type\": \"GPE\"},\n    {\"name\": \"New York\", \"type\": \"GPE\"},\n    {\"name\": \"Albany\", \"type\": \"GPE\"},\n    {\"name\": \"Guilderland\", \"type\": \"GPE\"},\n    {\"name\": \"New York OTBzz\", \"type\": \"ORG\"},\n    {\"name\": \"Schenectady County Electrics\", \"type\": \"ORG\"},\n    {\"name\": \"Eastern Conference Championship\", \"type\": \"EVENT\"},\n    {\"name\": \"Kansas City Explorers\", \"type\": \"ORG\"},\n    {\"name\": \"King Trophy\", \"type\": \"PRODUCT\"},\n    {\"name\": \"WTT Final\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"New York Buzz\",\n      \"relation\": \"works_for\",\n      \"object\": \"World TeamTennis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"competing in\"}\n      ]\n    },\n    {\n      \"subject\": \"New York Buzz\",\n      \"relation\": \"located_in\",\n      \"object\": \"Schenectady\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Schenectady, New York\"}\n      ]\n    },\n    {\n      \"subject\": \"New York Buzz\",\n      \"relation\": \"located_in\",\n      \"object\": \"Albany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"moving to\"}\n      ]\n    },\n    {\n      \"subject\": \"Albany\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Albany, New York\"}\n      ]\n    },\n    {\n      \"subject\": \"New York Buzz\",\n      \"relation\": \"located_in\",\n      \"object\": \"Guilderland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Guilderland\"}\n      ]\n    },\n    {\n      \"subject\": \"Guilderland\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Guilderland, New York\"}\n      ]\n    },\n    {\n      \"subject\": \"New York Buzz\",\n      \"relation\": \"founded\",\n      \"object\": \"New York OTBzz\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was founded as\"}\n      ]\n    },\n    {\n      \"subject\": \"New York OTBzz\",\n      \"relation\": \"founded\",\n      \"object\": \"Schenectady County Electrics\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"changing its name to\"}\n      ]\n    },\n    {\n      \"subject\": \"New York Buzz\",\n      \"relation\": \"founded\",\n      \"object\": \"Schenectady County Electrics\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"changing its name to\"}\n      ]\n    },\n    {\n      \"subject\": \"New York Buzz\",\n      \"relation\": \"founded\",\n      \"object\": \"New York Buzz\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"adopting the name\"}\n      ]\n    },\n    {\n      \"subject\": \"New York Buzz\",\n      \"relation\": \"won\",\n      \"object\": \"Eastern Conference Championship\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"won its third Eastern Conference Championship\"}\n      ]\n    },\n    {\n      \"subject\": \"New York Buzz\",\n      \"relation\": \"defeated\",\n      \"object\": \"Kansas City Explorers\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"defeat the Kansas City Explorers\"}\n      ]\n    },\n    {\n      \"subject\": \"New York Buzz\",\n      \"relation\": \"captured\",\n      \"object\": \"King Trophy\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"to capture its first and only King Trophy\"}\n      ]\n    },\n    {\n      \"subject\": \"King Trophy\",\n      \"relation\": \"located_in\",\n      \"object\": \"WTT Final\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"in its fourth appearance in the WTT Final\"}\n      ]\n    }\n  ]\n}"
+}

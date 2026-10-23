@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Give a Man a Job": "WORK_OF_ART",
+    "National Recovery Administration": "ORG",
+    "Great Depression": "EVENT",
+    "Jimmy Durante": "PERSON",
+    "Moe Howard": "PERSON",
+    "NRA": "ORG",
+    "President Franklin Roosevelt": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Give a Man a Job",
+      "relation": "produced_in_conjunction_with",
+      "object": "National Recovery Administration",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced in 1933 in conjunction with",
+          "line_start": 33,
+          "char_start": 50,
+          "ambiguous": false,
+          "relation_mention": "produced in 1933 in conjunction with",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Give a Man a Job",
+        "featured",
+        "Jimmy Durante"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jimmy Durante",
+        "explained_to",
+        "audience"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Moe Howard",
+        "played",
+        "exterminator"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Give a Man a Job",
+        "closes_with_image_of",
+        "President Franklin Roosevelt"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Give a Man a Job",
+        "set_in",
+        "Great Depression"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Moe Howard",
+        "has_exchange_with",
+        "Jimmy Durante"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "NRA",
+        "stands_for",
+        "No Rats Allowed"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Give a Man a Job\nGive a Man a Job is a short film produced in 1933 in conjunction with the National Recovery Administration in which audience members were encouraged to offer jobs to the unemployed in the midst of the Great Depression. The film featured Jimmy Durante explaining to an audience through a comic song how they could generate employment. Upon learning that a banker drives his own car, Durante suggests that he \"hire a chauffeur / And keep a good man from becoming a loafer.\" He also has an exchange with Moe Howard playing an exterminator, suggesting that NRA stands for \"No Rats Allowed.\" The film closes with an image of President Franklin Roosevelt and the words \"If the old name of Roosevelt / Makes your old heart throb / Then take this message, straight from the President / And give a man a job!\"",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Give a Man a Job\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"National Recovery Administration\", \"type\": \"ORG\"},\n    {\"name\": \"Great Depression\", \"type\": \"EVENT\"},\n    {\"name\": \"Jimmy Durante\", \"type\": \"PERSON\"},\n    {\"name\": \"Moe Howard\", \"type\": \"PERSON\"},\n    {\"name\": \"NRA\", \"type\": \"ORG\"},\n    {\"name\": \"President Franklin Roosevelt\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Give a Man a Job\",\n      \"relation\": \"produced_in_conjunction_with\",\n      \"object\": \"National Recovery Administration\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"produced in 1933 in conjunction with\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Give a Man a Job\",\n      \"relation\": \"featured\",\n      \"object\": \"Jimmy Durante\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"featured Jimmy Durante\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Jimmy Durante\",\n      \"relation\": \"explained_to\",\n      \"object\": \"audience\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"explaining to an audience\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Moe Howard\",\n      \"relation\": \"played\",\n      \"object\": \"exterminator\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"playing an exterminator\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Give a Man a Job\",\n      \"relation\": \"closes_with_image_of\",\n      \"object\": \"President Franklin Roosevelt\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"closes with an image of\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Give a Man a Job\",\n      \"relation\": \"set_in\",\n      \"object\": \"Great Depression\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in the midst of the Great Depression\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Moe Howard\",\n      \"relation\": \"has_exchange_with\",\n      \"object\": \"Jimmy Durante\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"has an exchange with Moe Howard\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"NRA\",\n      \"relation\": \"stands_for\",\n      \"object\": \"No Rats Allowed\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"NRA stands for \\\"No Rats Allowed.\\\"\"\n        }\n      ]\n    }\n  ]\n}"
+}

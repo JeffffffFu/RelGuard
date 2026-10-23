@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "El Internacional Tapas Bar & Restaurant": "restaurant",
+    "Antoni Miralda": "artist",
+    "Montse Guillén": "chef",
+    "Tribeca": "neighborhood",
+    "New York City": "city"
+  },
+  "triples": [
+    {
+      "subject": "El Internacional Tapas Bar & Restaurant",
+      "relation": "carried_out_by",
+      "object": "Antoni Miralda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "carried out between 1984 and 1986 by artist Antoni Miralda"
+        }
+      ]
+    },
+    {
+      "subject": "El Internacional Tapas Bar & Restaurant",
+      "relation": "located_in",
+      "object": "Tribeca",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Tribeca neighborhood of Manhattan"
+        }
+      ]
+    },
+    {
+      "subject": "Tribeca",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Tribeca neighborhood of Manhattan, New York City"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "El Internacional Tapas Bar & Restaurant",
+        "conceived_as",
+        "artistic project"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "El Internacional Tapas Bar & Restaurant",
+        "carried_out_by",
+        "Montse Guillén"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "El Internacional Tapas Bar & Restaurant",
+        "merged_with",
+        "contemporary art and cuisine"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "El Internacional Tapas Bar & Restaurant",
+        "became",
+        "iconic symbol of the New York scene of the 80s"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "El Internacional Tapas Bar & Restaurant",
+        "engaged",
+        "artistic community"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "El Internacional Tapas Bar & Restaurant",
+        "engaged",
+        "neighbors and celebrities"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "El Internacional Tapas Bar & Restaurant",
+        "was",
+        "ongoing process of installation and performance art"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "El Internacional (New York City)\nEl Internacional Tapas Bar & Restaurant was conceived as an artistic project and social experiment, carried out between 1984 and 1986 by artist Antoni Miralda and chef Montse Guillén in the Tribeca neighborhood of Manhattan, New York City. It was an initiative merging the cultural contexts of contemporary art and cuisine. The restaurant's popularity and renown would become a daring exploration of cross-cultural, trans-disciplinary esthetics and somehow an iconic symbol of the New York scene of the 80s. The project engaged food, sensorial experiences and installation art as vehicles and rituals for transmitting and subverting traditions and blending social practices of the time. El Internacional was seen as a point of convergence for the artistic community, and, at the same time, as a real place that engaged neighbors and celebrities alike in its culinary inventions and exotic allure. El Internacional was an ongoing process of the almost 3-year day-by-day creation of a work of installation and performance art."
+}

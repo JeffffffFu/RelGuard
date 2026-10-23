@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "A Chrysanthemum Bursts in Cincoesquinas": "WORK_OF_ART",
+    "Daniel Burman": "PERSON",
+    "Diego Dubcovsky": "PERSON",
+    "José Luis Alfonzo": "PERSON",
+    "Pastora Vega": "PERSON",
+    "Martin Kalwill": "PERSON",
+    "Anthony Kaufman": "PERSON",
+    "indieWIRE": "ORG",
+    "New Argentine Cinema": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "A Chrysanthemum Bursts in Cincoesquinas",
+      "relation": "written_and_directed_by",
+      "object": "Daniel Burman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Daniel Burman"
+        }
+      ]
+    },
+    {
+      "subject": "A Chrysanthemum Bursts in Cincoesquinas",
+      "relation": "produced_by",
+      "object": "Diego Dubcovsky",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was produced by Diego Dubcovsky"
+        }
+      ]
+    },
+    {
+      "subject": "A Chrysanthemum Bursts in Cincoesquinas",
+      "relation": "stars",
+      "object": "José Luis Alfonzo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It stars José Luis Alfonzo"
+        }
+      ]
+    },
+    {
+      "subject": "Daniel Burman",
+      "relation": "directed",
+      "object": "A Chrysanthemum Bursts in Cincoesquinas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Daniel Burman"
+        }
+      ]
+    },
+    {
+      "subject": "Diego Dubcovsky",
+      "relation": "produced",
+      "object": "A Chrysanthemum Bursts in Cincoesquinas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was produced by Diego Dubcovsky"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "4 entities not in the document",
+      "entities": [
+        "Argentina (GPE)",
+        "Brazil (GPE)",
+        "France (GPE)",
+        "Spain (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "stars",
+        "Pastora Vega"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "stars",
+        "Martin Kalwill"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "cited_as",
+        "New Argentine Cinema"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "has_genre",
+        "comedy drama"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anthony Kaufman",
+        "wrote_for",
+        "indieWIRE"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "A Chrysanthemum Bursts in Cincoesquinas\nUn crisantemo estalla en cinco esquinas  is a 1998 Argentine, Brazilian, French, and Spanish comedy drama film written and directed by Daniel Burman, in feature film debut. It was produced by Diego Dubcovsky. It stars José Luis Alfonzo, Pastora Vega and Martin Kalwill, among others. Film critic Anthony Kaufman, writing for \"indieWIRE\", an online community of independent filmmakers and aficionados, said Burman's \"A Chrysanthemum Burst in Cincoesquinas\" (1998) has been cited as the beginning of the \"New Argentine Cinema\" wave."
+}

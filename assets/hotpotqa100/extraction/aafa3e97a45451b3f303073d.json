@@ -1,0 +1,176 @@
+{
+  "entities": {
+    "KYTC": "ORG",
+    "Northwood": "GPE",
+    "Iowa": "GPE",
+    "U.S.": "GPE",
+    "Alpha Media": "ORG",
+    "Digity 3E License, LLC": "ORG",
+    "Marlin Hanson": "PERSON",
+    "Dave Nolander": "PERSON",
+    "KATE": "ORG",
+    "Albert Lea": "GPE",
+    "MN": "GPE",
+    "Three Eagles Communications": "ORG",
+    "Mason City": "GPE",
+    "Digity, LLC": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "KYTC",
+      "relation": "licensed_to",
+      "object": "Northwood",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Licensed to",
+          "line_start": 100,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "Licensed to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Digity, LLC",
+      "relation": "purchased",
+      "object": "KYTC",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "purchased the station",
+          "line_start": 1211,
+          "char_start": 1221,
+          "ambiguous": false,
+          "relation_mention": "purchased the station",
+          "sentence_id": 12
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "KYTC",
+        "located_in",
+        "Iowa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KYTC",
+        "located_in",
+        "U.S."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KYTC",
+        "serves",
+        "northern Iowa"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "KYTC",
+        "serves",
+        "southern Minnesota"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "KYTC",
+        "owned_by",
+        "Alpha Media"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alpha Media",
+        "works_through",
+        "Digity 3E License, LLC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KYTC",
+        "operated_by",
+        "Marlin Hanson"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Marlin Hanson",
+        "sold_to",
+        "Dave Nolander"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dave Nolander",
+        "owned",
+        "KATE"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KATE",
+        "located_in",
+        "Albert Lea"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Albert Lea",
+        "located_in",
+        "MN"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KYTC",
+        "studio_located_in",
+        "Northwood"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KYTC",
+        "sold_to",
+        "Three Eagles Communications"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KYTC",
+        "studio_located_in",
+        "Mason City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Digity, LLC",
+        "purchased_date",
+        "September 12, 2014"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "KYTC (FM)\nKYTC (102.7 FM, \"Super Hits 102.7\") is a radio station that broadcasts a classic hits music format. Licensed to Northwood, Iowa, U.S., it serves northern Iowa and southern Minnesota. The station is currently owned by Alpha Media, through licensee Digity 3E License, LLC. The station was originally operated by Northwood businessman, Marlin Hanson as an oldies radio station with an effective radiated power of 3,000 watts, then 6,000 watts. Hanson built the station because he bought the tower from the local cable company after they abandoned it and decided a radio station would be a good use for the empty tower. It was sold to Dave Nolander who also owned KATE radio in Albert Lea, MN. It was operated as an oldies station featuring music of the 50's and 60's from a studio located in Northwood and satellite programming during the evening hours. The station was sold to Three Eagles Communications and the power increased to 25,000 watts. Between 2002 and 2012. the station changed from Oldies to Country to active rock and finally back to a hits of the 60's through the 80's. The station transmitter is located 3 miles north of Northwood and the studio is located in Mason City. Current owner Digity, LLC purchased the station in September 12, 2014.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"KYTC\", \"type\": \"ORG\"},\n    {\"name\": \"Northwood\", \"type\": \"GPE\"},\n    {\"name\": \"Iowa\", \"type\": \"GPE\"},\n    {\"name\": \"U.S.\", \"type\": \"GPE\"},\n    {\"name\": \"Alpha Media\", \"type\": \"ORG\"},\n    {\"name\": \"Digity 3E License, LLC\", \"type\": \"ORG\"},\n    {\"name\": \"Marlin Hanson\", \"type\": \"PERSON\"},\n    {\"name\": \"Dave Nolander\", \"type\": \"PERSON\"},\n    {\"name\": \"KATE\", \"type\": \"ORG\"},\n    {\"name\": \"Albert Lea\", \"type\": \"GPE\"},\n    {\"name\": \"MN\", \"type\": \"GPE\"},\n    {\"name\": \"Three Eagles Communications\", \"type\": \"ORG\"},\n    {\"name\": \"Mason City\", \"type\": \"GPE\"},\n    {\"name\": \"Digity, LLC\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"KYTC\",\n      \"relation\": \"licensed_to\",\n      \"object\": \"Northwood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Licensed to\"}\n      ]\n    },\n    {\n      \"subject\": \"KYTC\",\n      \"relation\": \"located_in\",\n      \"object\": \"Iowa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Licensed to Northwood, Iowa\"}\n      ]\n    },\n    {\n      \"subject\": \"KYTC\",\n      \"relation\": \"located_in\",\n      \"object\": \"U.S.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Licensed to Northwood, Iowa, U.S.\"}\n      ]\n    },\n    {\n      \"subject\": \"KYTC\",\n      \"relation\": \"serves\",\n      \"object\": \"northern Iowa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves northern Iowa\"}\n      ]\n    },\n    {\n      \"subject\": \"KYTC\",\n      \"relation\": \"serves\",\n      \"object\": \"southern Minnesota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and southern Minnesota\"}\n      ]\n    },\n    {\n      \"subject\": \"KYTC\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Alpha Media\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by Alpha Media\"}\n      ]\n    },\n    {\n      \"subject\": \"Alpha Media\",\n      \"relation\": \"works_through\",\n      \"object\": \"Digity 3E License, LLC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"through licensee Digity 3E License, LLC\"}\n      ]\n    },\n    {\n      \"subject\": \"KYTC\",\n      \"relation\": \"operated_by\",\n      \"object\": \"Marlin Hanson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"operated by Northwood businessman, Marlin Hanson\"}\n      ]\n    },\n    {\n      \"subject\": \"Marlin Hanson\",\n      \"relation\": \"sold_to\",\n      \"object\": \"Dave Nolander\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"It was sold to Dave Nolander\"}\n      ]\n    },\n    {\n      \"subject\": \"Dave Nolander\",\n      \"relation\": \"owned\",\n      \"object\": \"KATE\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"who also owned KATE radio\"}\n      ]\n    },\n    {\n      \"subject\": \"KATE\",\n      \"relation\": \"located_in\",\n      \"object\": \"Albert Lea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"KATE radio in Albert Lea\"}\n      ]\n    },\n    {\n      \"subject\": \"Albert Lea\",\n      \"relation\": \"located_in\",\n      \"object\": \"MN\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Albert Lea, MN\"}\n      ]\n    },\n    {\n      \"subject\": \"KYTC\",\n      \"relation\": \"studio_located_in\",\n      \"object\": \"Northwood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from a studio located in Northwood\"}\n      ]\n    },\n    {\n      \"subject\": \"KYTC\",\n      \"relation\": \"sold_to\",\n      \"object\": \"Three Eagles Communications\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The station was sold to Three Eagles Communications\"}\n      ]\n    },\n    {\n      \"subject\": \"KYTC\",\n      \"relation\": \"studio_located_in\",\n      \"object\": \"Mason City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the studio is located in Mason City\"}\n      ]\n    },\n    {\n      \"subject\": \"Digity, LLC\",\n      \"relation\": \"purchased\",\n      \"object\": \"KYTC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"purchased the station\"}\n      ]\n    },\n    {\n      \"subject\": \"Digity, LLC\",\n      \"relation\": \"purchased_date\",\n      \"object\": \"September 12, 2014\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in September 12, 2014\"}\n      ]\n    }\n  ]\n}"
+}

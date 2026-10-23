@@ -1,0 +1,131 @@
+{
+  "entities": {
+    "Aagadu": "film",
+    "S. Thaman": "person",
+    "Srinu Vaitla": "person",
+    "Mahesh Babu": "person",
+    "Tamannaah": "person",
+    "Sri Mani": "person",
+    "Bhaskarabhatla Ravikumar": "person",
+    "Lahari Music": "company",
+    "Shilpakala Vedika": "location",
+    "Hyderabad": "location"
+  },
+  "triples": [
+    {
+      "subject": "Aagadu",
+      "relation": "composed_by",
+      "object": "S. Thaman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Aagadu is the feature film soundtrack composed by S. Thaman"
+        }
+      ]
+    },
+    {
+      "subject": "Aagadu",
+      "relation": "directed_by",
+      "object": "Srinu Vaitla",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Srinu Vaitla"
+        }
+      ]
+    },
+    {
+      "subject": "Aagadu",
+      "relation": "features",
+      "object": "Mahesh Babu",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "features Mahesh Babu and Tamannaah in the lead roles"
+        }
+      ]
+    },
+    {
+      "subject": "Aagadu",
+      "relation": "features",
+      "object": "Tamannaah",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "features Mahesh Babu and Tamannaah in the lead roles"
+        }
+      ]
+    },
+    {
+      "subject": "S. Thaman",
+      "relation": "penned_by",
+      "object": "Sri Mani",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the lyrics were penned by Sri Mani"
+        }
+      ]
+    },
+    {
+      "subject": "Aagadu",
+      "relation": "released_by",
+      "object": "Lahari Music",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was released on 30 August 2014 through Lahari Music"
+        }
+      ]
+    },
+    {
+      "subject": "Aagadu",
+      "relation": "hosted_at",
+      "object": "Shilpakala Vedika",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by hosting a promotional event at Shilpakala Vedika in Hyderabad"
+        }
+      ]
+    },
+    {
+      "subject": "Shilpakala Vedika",
+      "relation": "located_in",
+      "object": "Hyderabad",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at Shilpakala Vedika in Hyderabad"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "S. Thaman",
+        "penned_by",
+        "Bhaskarabhatla Ravikumar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Aagadu",
+        "opened_to",
+        "positive reception"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aagadu",
+        "was_successful",
+        "highly successful"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Aagadu (soundtrack)\nAagadu is the feature film soundtrack composed by S. Thaman for the Telugu film of the same name directed by Srinu Vaitla which features Mahesh Babu and Tamannaah in the lead roles. This also marks Thaman's 50th film as a music composer. The soundtrack consists of 5 songs and a Theme music all composed by Thaman while the lyrics were penned by Sri Mani and Bhaskarabhatla Ravikumar. The film's soundtrack was released on 30 August 2014 through Lahari Music by hosting a promotional event at Shilpakala Vedika in Hyderabad. The soundtrack opened to positive reception from critics as well as audience and was highly successful."
+}

@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Sleeper Either class": "PRODUCT",
+    "SLE": "PRODUCT",
+    "Sleeper Either class with Pantry": "PRODUCT",
+    "SLEP": "PRODUCT",
+    "railway sleeping car": "PRODUCT",
+    "Great Britain": "GPE",
+    "Sleeper Either class Disabled": "PRODUCT",
+    "SLED": "PRODUCT",
+    "Denmark": "GPE",
+    "WLABr": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Sleeper Either class",
+      "relation": "used_in",
+      "object": "Great Britain",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "used in",
+          "line_start": 108,
+          "char_start": 129,
+          "ambiguous": false,
+          "relation_mention": "used in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sleeper Either class",
+        "also_known_as",
+        "SLE"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sleeper Either class with Pantry",
+        "also_known_as",
+        "SLEP"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sleeper Either class",
+        "is_a",
+        "railway sleeping car"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sleeper Either class Disabled",
+        "is_a",
+        "Sleeper Either class"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sleeper Either class Disabled",
+        "also_known_as",
+        "SLED"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "WLABr",
+        "classified_as",
+        "WLABr"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "some units",
+        "modified_for",
+        "better wheelchair access"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "A smaller number",
+        "reused_in",
+        "Denmark"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sleeper Either Class\nA Sleeper Either class (SLE) and Sleeper Either class with Pantry (SLEP) are a type of railway sleeping car used in Great Britain. Some units were later modified for better wheelchair access as Sleeper Either class Disabled (SLED). A smaller number reused in Denmark were classified as WLABr.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Sleeper Either class\", \"type\": \"PRODUCT\"},\n    {\"name\": \"SLE\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Sleeper Either class with Pantry\", \"type\": \"PRODUCT\"},\n    {\"name\": \"SLEP\", \"type\": \"PRODUCT\"},\n    {\"name\": \"railway sleeping car\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Great Britain\", \"type\": \"GPE\"},\n    {\"name\": \"Sleeper Either class Disabled\", \"type\": \"PRODUCT\"},\n    {\"name\": \"SLED\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Denmark\", \"type\": \"GPE\"},\n    {\"name\": \"WLABr\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Sleeper Either class\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"SLE\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \" (SLE) \"}\n      ]\n    },\n    {\n      \"subject\": \"Sleeper Either class with Pantry\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"SLEP\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \" (SLEP) \"}\n      ]\n    },\n    {\n      \"subject\": \"Sleeper Either class\",\n      \"relation\": \"is_a\",\n      \"object\": \"railway sleeping car\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \" are a type of \"}\n      ]\n    },\n    {\n      \"subject\": \"Sleeper Either class\",\n      \"relation\": \"used_in\",\n      \"object\": \"Great Britain\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \" used in \"}\n      ]\n    },\n    {\n      \"subject\": \"Sleeper Either class Disabled\",\n      \"relation\": \"is_a\",\n      \"object\": \"Sleeper Either class\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \" as Sleeper Either class Disabled (SLED).\"}\n      ]\n    },\n    {\n      \"subject\": \"Sleeper Either class Disabled\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"SLED\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \" (SLED).\"}\n      ]\n    },\n    {\n      \"subject\": \"WLABr\",\n      \"relation\": \"classified_as\",\n      \"object\": \"WLABr\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \" were classified as WLABr.\"}\n      ]\n    },\n    {\n      \"subject\": \"some units\",\n      \"relation\": \"modified_for\",\n      \"object\": \"better wheelchair access\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \" modified for better wheelchair access \"}\n      ]\n    },\n    {\n      \"subject\": \"A smaller number\",\n      \"relation\": \"reused_in\",\n      \"object\": \"Denmark\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \" reused in Denmark\"}\n      ]\n    }\n  ]\n}"
+}

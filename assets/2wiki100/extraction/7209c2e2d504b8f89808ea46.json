@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Henry Walter Moore": "PERSON",
+    "New Zealand": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Henry Walter Moore",
+      "relation": "spent_most_of_life_in",
+      "object": "New Zealand",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "spent most of his life in New Zealand",
+          "line_start": 91,
+          "char_start": 115,
+          "ambiguous": false,
+          "relation_mention": "spent most of his life in New Zealand",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "England (GPE)",
+        "first-class cricket (EVENT)"
+      ]
+    },
+    {
+      "triple": [
+        "Henry Walter Moore",
+        "born_in",
+        "England"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Henry Walter Moore",
+        "played",
+        "first-class cricket"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Henry Moore (cricketer)\nHenry Walter Moore( 1849 – 20 August 1916) was an English- born first- class cricketer who spent most of his life in New Zealand."
+}

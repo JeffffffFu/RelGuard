@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "Don Haskins": "PERSON",
+    "Donald Lee Haskins": "PERSON",
+    "Henry Iba": "PERSON",
+    "Oklahoma A&M": "ORG",
+    "Oklahoma State University": "ORG",
+    "Texas Western College": "ORG",
+    "University of Texas at El Paso": "ORG",
+    "NCAA Tournament": "EVENT",
+    "Wildcats": "ORG",
+    "University of Kentucky": "ORG",
+    "Adolph Rupp": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Donald Lee Haskins",
+      "relation": "played_for",
+      "object": "Oklahoma A&M",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "played college basketball for three years under coach Henry Iba at Oklahoma A&M"
+        }
+      ]
+    },
+    {
+      "subject": "Don Haskins",
+      "relation": "coached_at",
+      "object": "Texas Western College",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "head coach at Texas Western College"
+        }
+      ]
+    },
+    {
+      "subject": "Texas Western College",
+      "relation": "renamed_to",
+      "object": "University of Texas at El Paso",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "renamed the University of Texas at El Paso in 1967"
+        }
+      ]
+    },
+    {
+      "subject": "Don Haskins",
+      "relation": "won",
+      "object": "NCAA Tournament",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "his team won the NCAA Tournament"
+        }
+      ]
+    },
+    {
+      "subject": "NCAA Tournament",
+      "relation": "over",
+      "object": "Wildcats",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "over the Wildcats of the University of Kentucky"
+        }
+      ]
+    },
+    {
+      "subject": "Wildcats",
+      "relation": "coached_by",
+      "object": "Adolph Rupp",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "coached by Adolph Rupp"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Don Haskins",
+        "nicknamed",
+        "The Bear"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Don Haskins",
+        "coached_from",
+        "1961"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Don Haskins\nDonald Lee Haskins (March 14, 1930 – September 7, 2008), nicknamed \"The Bear\", was an American basketball player and coach. He played college basketball for three years under coach Henry Iba at Oklahoma A&M (now Oklahoma State University). He was the head coach at Texas Western College (renamed the University of Texas at El Paso in 1967) from 1961 to 1999. His greatest triumph occurred in 1966, when his team won the NCAA Tournament over the Wildcats of the University of Kentucky, coached by Adolph Rupp. The watershed game initiated the end of racial segregation in college basketball."
+}

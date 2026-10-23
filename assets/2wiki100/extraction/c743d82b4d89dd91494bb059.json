@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Empire": "film",
+    "John Leguizamo": "actor",
+    "Peter Sarsgaard": "actor"
+  },
+  "triples": [
+    {
+      "subject": "Empire",
+      "relation": "starring",
+      "object": "John Leguizamo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring John Leguizamo"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Empire",
+        "starring",
+        "Peter Sarsgaard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Empire (2002 film)\nEmpire is a 2002 gangster film starring John Leguizamo and Peter Sarsgaard."
+}

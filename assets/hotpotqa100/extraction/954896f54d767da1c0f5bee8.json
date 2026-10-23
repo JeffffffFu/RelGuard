@@ -1,0 +1,132 @@
+{
+  "entities": {
+    "MEO Rip Curl Pro Portugal": "EVENT",
+    "Moche Rip Curl Pro Portugal": "EVENT",
+    "Rip Curl Pro Portugal": "EVENT",
+    "ASP World Tour": "ORG",
+    "Supertubos beach": "LOC",
+    "Peniche": "GPE",
+    "Portugal": "GPE",
+    "Rip Curl Search Portugal": "EVENT",
+    "John John Florence": "PERSON",
+    "WSL": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "MEO Rip Curl Pro Portugal",
+      "relation": "formerly_known_as",
+      "object": "Moche Rip Curl Pro Portugal",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "formerly known as",
+          "line_start": 26,
+          "char_start": 52,
+          "ambiguous": false,
+          "relation_mention": "formerly known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "MEO Rip Curl Pro Portugal",
+      "relation": "formerly_known_as",
+      "object": "Rip Curl Pro Portugal",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "formerly known as",
+          "line_start": 26,
+          "char_start": 52,
+          "ambiguous": false,
+          "relation_mention": "formerly known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "MEO Rip Curl Pro Portugal",
+      "relation": "founded_as",
+      "object": "Rip Curl Search Portugal",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in 2009 as",
+          "line_start": 254,
+          "char_start": 280,
+          "ambiguous": false,
+          "relation_mention": "founded in 2009 as",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "John John Florence",
+      "relation": "is_champion_of",
+      "object": "MEO Rip Curl Pro Portugal",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "won the event in 2016",
+          "line_start": 373,
+          "char_start": 399,
+          "ambiguous": false,
+          "relation_mention": "won the event in 2016",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "MEO Rip Curl Pro Portugal",
+        "is_a",
+        "EVENT"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "MEO Rip Curl Pro Portugal",
+        "part_of",
+        "ASP World Tour"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "MEO Rip Curl Pro Portugal",
+        "held_at",
+        "Supertubos beach"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Supertubos beach",
+        "located_in",
+        "Peniche"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Peniche",
+        "located_in",
+        "Portugal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John John Florence",
+        "is_champion_of",
+        "WSL"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "MEO Rip Curl Pro Portugal\nMEO Rip Curl Pro Portugal formerly known as \"Moche Rip Curl Pro Portugal\" or \"Rip Curl Pro Portugal\" is a professional surfing competition of the ASP World Tour held every year in October at the Supertubos beach in Peniche, Portugal. The event was first founded in 2009 as \"Rip Curl Search Portugal\". The defending champion is the 2016 WSL champion, John John Florence who won the event in 2016.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"MEO Rip Curl Pro Portugal\", \"type\": \"EVENT\"},\n    {\"name\": \"Moche Rip Curl Pro Portugal\", \"type\": \"EVENT\"},\n    {\"name\": \"Rip Curl Pro Portugal\", \"type\": \"EVENT\"},\n    {\"name\": \"ASP World Tour\", \"type\": \"ORG\"},\n    {\"name\": \"Supertubos beach\", \"type\": \"LOC\"},\n    {\"name\": \"Peniche\", \"type\": \"GPE\"},\n    {\"name\": \"Portugal\", \"type\": \"GPE\"},\n    {\"name\": \"Rip Curl Search Portugal\", \"type\": \"EVENT\"},\n    {\"name\": \"John John Florence\", \"type\": \"PERSON\"},\n    {\"name\": \"WSL\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"MEO Rip Curl Pro Portugal\",\n      \"relation\": \"formerly_known_as\",\n      \"object\": \"Moche Rip Curl Pro Portugal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"formerly known as\"}\n      ]\n    },\n    {\n      \"subject\": \"MEO Rip Curl Pro Portugal\",\n      \"relation\": \"formerly_known_as\",\n      \"object\": \"Rip Curl Pro Portugal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"formerly known as\"}\n      ]\n    },\n    {\n      \"subject\": \"MEO Rip Curl Pro Portugal\",\n      \"relation\": \"is_a\",\n      \"object\": \"EVENT\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"MEO Rip Curl Pro Portugal\",\n      \"relation\": \"part_of\",\n      \"object\": \"ASP World Tour\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the ASP World Tour\"}\n      ]\n    },\n    {\n      \"subject\": \"MEO Rip Curl Pro Portugal\",\n      \"relation\": \"held_at\",\n      \"object\": \"Supertubos beach\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the Supertubos beach\"}\n      ]\n    },\n    {\n      \"subject\": \"Supertubos beach\",\n      \"relation\": \"located_in\",\n      \"object\": \"Peniche\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Peniche\"}\n      ]\n    },\n    {\n      \"subject\": \"Peniche\",\n      \"relation\": \"located_in\",\n      \"object\": \"Portugal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Portugal\"}\n      ]\n    },\n    {\n      \"subject\": \"MEO Rip Curl Pro Portugal\",\n      \"relation\": \"founded_as\",\n      \"object\": \"Rip Curl Search Portugal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in 2009 as\"}\n      ]\n    },\n    {\n      \"subject\": \"John John Florence\",\n      \"relation\": \"is_champion_of\",\n      \"object\": \"MEO Rip Curl Pro Portugal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the event in 2016\"}\n      ]\n    },\n    {\n      \"subject\": \"John John Florence\",\n      \"relation\": \"is_champion_of\",\n      \"object\": \"WSL\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"2016 WSL champion\"}\n      ]\n    }\n  ]\n}"
+}

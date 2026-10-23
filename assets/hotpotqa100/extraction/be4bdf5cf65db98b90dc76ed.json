@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Inquisitr": "ORG",
+    "Daniel Treisman": "PERSON",
+    "Israeli": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Inquisitr",
+      "relation": "works_for",
+      "object": "Daniel Treisman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned by",
+          "line_start": 49,
+          "char_start": 59,
+          "ambiguous": false,
+          "relation_mention": "owned by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Daniel Treisman",
+        "located_in",
+        "Israeli"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Inquisitr\nInquisitr is an aggregate news and media website owned by Daniel Treisman, an Israeli businessman who relaunched the website in 2011. The site views itself as a 'multi-news aggregator' that publishes both trending news and original articles. The news website caters to a global audience, and its newly introduced slogan is \"News Worth Sharing.\"",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Inquisitr\", \"type\": \"ORG\"},\n    {\"name\": \"Daniel Treisman\", \"type\": \"PERSON\"},\n    {\"name\": \"Israeli\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Inquisitr\",\n      \"relation\": \"works_for\",\n      \"object\": \"Daniel Treisman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"Daniel Treisman\",\n      \"relation\": \"located_in\",\n      \"object\": \"Israeli\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"an Israeli businessman\"}\n      ]\n    }\n  ]\n}"
+}

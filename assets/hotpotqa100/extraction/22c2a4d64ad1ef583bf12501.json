@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Pizza Inn": "ORG",
+    "The Colony": "GPE",
+    "Texas": "GPE",
+    "American": "NORP",
+    "Dallas": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Pizza Inn",
+      "relation": "is_a",
+      "object": "American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is an American",
+          "line_start": 10,
+          "char_start": 20,
+          "ambiguous": false,
+          "relation_mention": "is an American",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pizza Inn",
+      "relation": "located_in",
+      "object": "The Colony",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in the Dallas suburb of The Colony",
+          "line_start": 149,
+          "char_start": 159,
+          "ambiguous": false,
+          "relation_mention": "based in the Dallas suburb of The Colony",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Colony",
+      "relation": "located_in",
+      "object": "Texas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "The Colony, Texas",
+          "line_start": 179,
+          "char_start": 189,
+          "ambiguous": false,
+          "relation_mention": "The Colony, Texas",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Colony",
+      "relation": "located_in",
+      "object": "Dallas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Dallas suburb",
+          "line_start": 162,
+          "char_start": 172,
+          "ambiguous": false,
+          "relation_mention": "Dallas suburb",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Pizza Inn\nPizza Inn is an American restaurant chain and international food franchise, specializing in American-style pan pizza and side dishes. The company is based in the Dallas suburb of The Colony, Texas."
+}

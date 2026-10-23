@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Strangers of the Evening": "film",
+    "H. Bruce Humberstone": "person",
+    "ZaSu Pitts": "person",
+    "Lucien Littlefield": "person",
+    "Eugene Pallette": "person",
+    "The Hidden Corpse": "film"
+  },
+  "triples": [
+    {
+      "subject": "Strangers of the Evening",
+      "relation": "directed_by",
+      "object": "H. Bruce Humberstone",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by H. Bruce Humberstone"
+        }
+      ]
+    },
+    {
+      "subject": "Strangers of the Evening",
+      "relation": "starring",
+      "object": "ZaSu Pitts",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring ZaSu Pitts"
+        }
+      ]
+    },
+    {
+      "subject": "Strangers of the Evening",
+      "relation": "also_known_as",
+      "object": "The Hidden Corpse",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also known as The Hidden Corpse"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Strangers of the Evening",
+        "starring",
+        "Lucien Littlefield"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Strangers of the Evening",
+        "starring",
+        "Eugene Pallette"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Strangers of the Evening\nStrangers of the Evening is a 1932 American pre-Code film directed by H. Bruce Humberstone and starring ZaSu Pitts, Lucien Littlefield, and Eugene Pallette. The film is also known as The Hidden Corpse( American reissue title)."
+}

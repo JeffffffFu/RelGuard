@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "The Parson and the Outlaw": "Film",
+    "Oliver Drake": "Director",
+    "Charles' Buddy' Rogers Productions": "Production Company",
+    "Columbia Pictures": "Distributor",
+    "John Mantley": "Writer",
+    "Anthony Dexter": "Actor",
+    "Billy the Kid": "Character",
+    "Buddy Rogers": "Actor",
+    "Sonny Tufts": "Actor",
+    "Marie Windsor": "Actor",
+    "Jean Parker": "Actor"
+  },
+  "triples": [
+    {
+      "subject": "The Parson and the Outlaw",
+      "relation": "directed_by",
+      "object": "Oliver Drake",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Oliver Drake"
+        }
+      ]
+    },
+    {
+      "subject": "The Parson and the Outlaw",
+      "relation": "produced_by",
+      "object": "Charles' Buddy' Rogers Productions",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "for Charles' Buddy' Rogers Productions"
+        }
+      ]
+    },
+    {
+      "subject": "The Parson and the Outlaw",
+      "relation": "distributed_by",
+      "object": "Columbia Pictures",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "distributed by Columbia Pictures"
+        }
+      ]
+    },
+    {
+      "subject": "The Parson and the Outlaw",
+      "relation": "stars",
+      "object": "Anthony Dexter",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the film stars Anthony Dexter as Billy the Kid"
+        }
+      ]
+    },
+    {
+      "subject": "The Parson and the Outlaw",
+      "relation": "stars",
+      "object": "Buddy Rogers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "along with Buddy Rogers"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Parson and the Outlaw",
+        "written_by",
+        "Drake and John Mantley"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Parson and the Outlaw",
+        "stars",
+        "Sonny Tufts"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Parson and the Outlaw",
+        "stars",
+        "Marie Windsor"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Parson and the Outlaw",
+        "stars",
+        "Jean Parker"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Buddy Rogers",
+        "retired_from",
+        "films"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Parson and the Outlaw\nThe Parson and the Outlaw is a 1957 American western directed by Oliver Drake for Charles' Buddy' Rogers Productions and distributed by Columbia Pictures. Written by Drake and John Mantley, the film stars Anthony Dexter as Billy the Kid, along with Buddy Rogers, Sonny Tufts, Marie Windsor and Jean Parker. This was the final screen appearance for Rogers before his retirement from films."
+}

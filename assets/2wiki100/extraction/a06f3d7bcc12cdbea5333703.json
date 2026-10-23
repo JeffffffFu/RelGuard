@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "Quax in Africa": "WORK_OF_ART",
+    "Helmut Weiss": "PERSON",
+    "Heinz Rühmann": "PERSON",
+    "Hertha Feiler": "PERSON",
+    "Lothar Firmans": "PERSON",
+    "Quax the Crash Pilot": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Quax in Africa",
+      "relation": "directed_by",
+      "object": "Helmut Weiss",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 92,
+          "char_start": 107,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Quax in Africa",
+      "relation": "starring",
+      "object": "Heinz Rühmann",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring Heinz Rühmann",
+          "line_start": 121,
+          "char_start": 136,
+          "ambiguous": false,
+          "relation_mention": "starring Heinz Rühmann",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Quax in Africa",
+      "relation": "starring",
+      "object": "Hertha Feiler",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring Heinz Rühmann, Hertha Feiler",
+          "line_start": 121,
+          "char_start": 136,
+          "ambiguous": false,
+          "relation_mention": "starring Heinz Rühmann, Hertha Feiler",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Quax in Africa",
+      "relation": "starring",
+      "object": "Lothar Firmans",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring Heinz Rühmann, Hertha Feiler and Lothar Firmans",
+          "line_start": 121,
+          "char_start": 136,
+          "ambiguous": false,
+          "relation_mention": "starring Heinz Rühmann, Hertha Feiler and Lothar Firmans",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Quax in Africa",
+      "relation": "founded",
+      "object": "Quax the Crash Pilot",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a sequel to the 1941 film\" Quax the Crash Pilot\"",
+          "line_start": 182,
+          "char_start": 197,
+          "ambiguous": false,
+          "relation_mention": "is a sequel to the 1941 film\" Quax the Crash Pilot\"",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Germany (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Quax in Africa",
+        "located_in",
+        "Germany"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Quax in Africa\nQuax in Africa is a German comedy adventure film produced in 1943/ 44 and released in 1947, directed by Helmut Weiss and starring Heinz Rühmann, Hertha Feiler and Lothar Firmans. It is a sequel to the 1941 film\" Quax the Crash Pilot\"."
+}

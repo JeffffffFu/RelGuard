@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Nazty Nuisance": "WORK_OF_ART",
+    "Hal Roach": "PERSON",
+    "Glenn Tryon": "PERSON",
+    "Double Crossed Fool": "WORK_OF_ART",
+    "The Last Three": "WORK_OF_ART",
+    "The Devil with Hitler": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Nazty Nuisance",
+      "relation": "directed_by",
+      "object": "Glenn Tryon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Glenn Tryon"
+        }
+      ]
+    },
+    {
+      "subject": "Nazty Nuisance",
+      "relation": "is_known_as",
+      "object": "Double Crossed Fool",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also known as Double Crossed Fool"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nazty Nuisance",
+        "is_a_sequel_to",
+        "The Devil with Hitler"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Nazty Nuisance",
+        "is_known_as",
+        "The Last Three"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Nazty Nuisance",
+        "is_a_featurette",
+        "1943"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nazty Nuisance",
+        "is_part_of",
+        "Hal Roach's Streamliners"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "That Nazty Nuisance\nThat Nazty Nuisance is a 1943 American featurette that was one of Hal Roach's Streamliners and directed by Glenn Tryon. The film is also known as Double Crossed Fool (international TV title) and The Last Three. It is a sequel to \"The Devil with Hitler.\""
+}

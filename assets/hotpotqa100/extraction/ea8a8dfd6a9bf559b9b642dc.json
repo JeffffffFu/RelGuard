@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "LeAnn Rimes": "Person",
+    "The Best of LeAnn Rimes": "Album",
+    "Ronan Keating": "Person",
+    "Al Anderson": "Person"
+  },
+  "triples": [
+    {
+      "subject": "LeAnn Rimes",
+      "relation": "released",
+      "object": "The Best of LeAnn Rimes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by American country singer LeAnn Rimes, released in 2004"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Best of LeAnn Rimes",
+        "is_a",
+        "Album"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Best of LeAnn Rimes",
+        "tweaks",
+        "Greatest Hits"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "concentrates_on",
+        "big pop crossover hits"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "LeAnn Rimes",
+        "performed_with",
+        "Ronan Keating"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Al Anderson",
+        "wrote",
+        "Big Deal"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Best of LeAnn Rimes\nThe Best of LeAnn Rimes is a greatest hits album by American country singer LeAnn Rimes, released in 2004, it tweaks the 2003 U.S. release \"Greatest Hits\", leaving behind some of the purer country hits that didn't translate outside of the U.S.—notably, Al Anderson's \"Big Deal\"—and concentrating on her big pop crossover hits, including \"How Do I Live,\" \"Can't Fight the Moonlight” and her duet with Ronan Keating, \"Last Thing on My Mind."
+}

@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Canada": "GPE",
+    "Office of the Prime Minister": "ORG",
+    "Prime Minister's Office": "ORG",
+    "PMO": "ORG",
+    "Privy Council Office": "ORG",
+    "PCO": "ORG",
+    "Parliament Hill": "LOC",
+    "Ottawa": "GPE",
+    "civil service": "ORG",
+    "government": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Office of the Prime Minister",
+        "located_in",
+        "Canada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Prime Minister's Office",
+        "abbreviated_as",
+        "PMO"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Office of the Prime Minister",
+        "facing",
+        "Parliament Hill"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Office of the Prime Minister",
+        "located_in",
+        "Ottawa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Privy Council Office",
+        "abbreviated_as",
+        "PCO"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Privy Council Office",
+        "controls",
+        "civil service"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Privy Council Office",
+        "is_non_partisan",
+        "Privy Council Office"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "PMO",
+        "concerned_with",
+        "making policy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "PCO",
+        "concerned_with",
+        "executing the policy decisions"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "executing the policy decisions",
+        "decided_by",
+        "government"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Office of the Prime Minister (Canada)\nIn Canada, the Office of the Prime Minister (more commonly referred to as the Prime Minister's Office and abbreviated as PMO), located in the Office of the Prime Minister and Privy Council, facing Parliament Hill, in Ottawa, is one of the most powerful parts of the government. It is made up of the prime minister and his or her top political staff, who are charged with advising the prime minister on decisions, making the office a wholly partisan body. It should not be confused with the Privy Council Office (PCO), which is the top office that controls the civil service and is expressly non-partisan. The PMO is concerned with making policy whereas the PCO is concerned with executing the policy decisions decided by the government.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Canada\", \"type\": \"GPE\"},\n    {\"name\": \"Office of the Prime Minister\", \"type\": \"ORG\"},\n    {\"name\": \"Prime Minister's Office\", \"type\": \"ORG\"},\n    {\"name\": \"PMO\", \"type\": \"ORG\"},\n    {\"name\": \"Privy Council Office\", \"type\": \"ORG\"},\n    {\"name\": \"PCO\", \"type\": \"ORG\"},\n    {\"name\": \"Parliament Hill\", \"type\": \"LOC\"},\n    {\"name\": \"Ottawa\", \"type\": \"GPE\"},\n    {\"name\": \"civil service\", \"type\": \"ORG\"},\n    {\"name\": \"government\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Office of the Prime Minister\",\n      \"relation\": \"located_in\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"In Canada,\"}\n      ]\n    },\n    {\n      \"subject\": \"Prime Minister's Office\",\n      \"relation\": \"abbreviated_as\",\n      \"object\": \"PMO\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"abbreviated as PMO\"}\n      ]\n    },\n    {\n      \"subject\": \"Office of the Prime Minister\",\n      \"relation\": \"facing\",\n      \"object\": \"Parliament Hill\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"facing Parliament Hill\"}\n      ]\n    },\n    {\n      \"subject\": \"Office of the Prime Minister\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ottawa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Ottawa,\"}\n      ]\n    },\n    {\n      \"subject\": \"Privy Council Office\",\n      \"relation\": \"abbreviated_as\",\n      \"object\": \"PCO\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Privy Council Office (PCO)\"}\n      ]\n    },\n    {\n      \"subject\": \"Privy Council Office\",\n      \"relation\": \"controls\",\n      \"object\": \"civil service\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"controls the civil service\"}\n      ]\n    },\n    {\n      \"subject\": \"Privy Council Office\",\n      \"relation\": \"is_non_partisan\",\n      \"object\": \"Privy Council Office\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is expressly non-partisan\"}\n      ]\n    },\n    {\n      \"subject\": \"PMO\",\n      \"relation\": \"concerned_with\",\n      \"object\": \"making policy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"concerned with making policy\"}\n      ]\n    },\n    {\n      \"subject\": \"PCO\",\n      \"relation\": \"concerned_with\",\n      \"object\": \"executing the policy decisions\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"concerned with executing the policy decisions decided by the government\"}\n      ]\n    },\n    {\n      \"subject\": \"executing the policy decisions\",\n      \"relation\": \"decided_by\",\n      \"object\": \"government\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"decided by the government\"}\n      ]\n    }\n  ]\n}"
+}

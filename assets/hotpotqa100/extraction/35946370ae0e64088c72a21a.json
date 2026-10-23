@@ -1,0 +1,169 @@
+{
+  "entities": {
+    "Boston Bruins": "ORG",
+    "Boston": "GPE",
+    "Massachusetts": "GPE",
+    "Atlantic Division": "ORG",
+    "Eastern Conference": "ORG",
+    "National Hockey League": "ORG",
+    "NHL": "ORG",
+    "United States": "GPE",
+    "Original Six": "ORG",
+    "Chicago Blackhawks": "ORG",
+    "Detroit Red Wings": "ORG",
+    "Montreal Canadiens": "ORG",
+    "New York Rangers": "ORG",
+    "Toronto Maple Leafs": "ORG",
+    "Stanley Cup": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Boston Bruins",
+      "relation": "located_in",
+      "object": "Boston",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 53,
+          "char_start": 67,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Boston Bruins",
+      "relation": "located_in",
+      "object": "Massachusetts",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 53,
+          "char_start": 67,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Boston Bruins",
+      "relation": "won",
+      "object": "Stanley Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "have won",
+          "line_start": 481,
+          "char_start": 495,
+          "ambiguous": false,
+          "relation_mention": "have won",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Boston Bruins",
+        "works_for",
+        "Atlantic Division"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Atlantic Division",
+        "works_for",
+        "Eastern Conference"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eastern Conference",
+        "works_for",
+        "National Hockey League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "National Hockey League",
+        "alias",
+        "NHL"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Boston Bruins",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Boston Bruins",
+        "founded",
+        "1924"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Boston Bruins",
+        "member_of",
+        "Original Six"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Original Six",
+        "includes",
+        "Chicago Blackhawks"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Original Six",
+        "includes",
+        "Detroit Red Wings"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Original Six",
+        "includes",
+        "Montreal Canadiens"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Original Six",
+        "includes",
+        "New York Rangers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Original Six",
+        "includes",
+        "Toronto Maple Leafs"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Boston Bruins\nThe Boston Bruins are a professional ice hockey team based in Boston, Massachusetts. They are members of the Atlantic Division of the Eastern Conference of the National Hockey League (NHL). The team has been in existence since 1924, and is the league's third-oldest team overall and the oldest in the United States. It is also an Original Six franchise, along with the Chicago Blackhawks, Detroit Red Wings, Montreal Canadiens, New York Rangers and Toronto Maple Leafs. The Bruins have won six Stanley Cup championships, tied for fourth most of all-time with the Blackhawks and tied second-most of any American NHL team also with the Blackhawks (behind the Red Wings, who have 11).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Boston Bruins\", \"type\": \"ORG\"},\n    {\"name\": \"Boston\", \"type\": \"GPE\"},\n    {\"name\": \"Massachusetts\", \"type\": \"GPE\"},\n    {\"name\": \"Atlantic Division\", \"type\": \"ORG\"},\n    {\"name\": \"Eastern Conference\", \"type\": \"ORG\"},\n    {\"name\": \"National Hockey League\", \"type\": \"ORG\"},\n    {\"name\": \"NHL\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Original Six\", \"type\": \"ORG\"},\n    {\"name\": \"Chicago Blackhawks\", \"type\": \"ORG\"},\n    {\"name\": \"Detroit Red Wings\", \"type\": \"ORG\"},\n    {\"name\": \"Montreal Canadiens\", \"type\": \"ORG\"},\n    {\"name\": \"New York Rangers\", \"type\": \"ORG\"},\n    {\"name\": \"Toronto Maple Leafs\", \"type\": \"ORG\"},\n    {\"name\": \"Stanley Cup\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Boston Bruins\",\n      \"relation\": \"located_in\",\n      \"object\": \"Boston\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Boston Bruins\",\n      \"relation\": \"located_in\",\n      \"object\": \"Massachusetts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Boston Bruins\",\n      \"relation\": \"works_for\",\n      \"object\": \"Atlantic Division\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are members of\"}\n      ]\n    },\n    {\n      \"subject\": \"Atlantic Division\",\n      \"relation\": \"works_for\",\n      \"object\": \"Eastern Conference\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the\"}\n      ]\n    },\n    {\n      \"subject\": \"Eastern Conference\",\n      \"relation\": \"works_for\",\n      \"object\": \"National Hockey League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the\"}\n      ]\n    },\n    {\n      \"subject\": \"National Hockey League\",\n      \"relation\": \"alias\",\n      \"object\": \"NHL\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(NHL)\"}\n      ]\n    },\n    {\n      \"subject\": \"Boston Bruins\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Boston Bruins\",\n      \"relation\": \"founded\",\n      \"object\": \"1924\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"since 1924\"}\n      ]\n    },\n    {\n      \"subject\": \"Boston Bruins\",\n      \"relation\": \"member_of\",\n      \"object\": \"Original Six\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"an Original Six franchise\"}\n      ]\n    },\n    {\n      \"subject\": \"Original Six\",\n      \"relation\": \"includes\",\n      \"object\": \"Chicago Blackhawks\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"along with the Chicago Blackhawks\"}\n      ]\n    },\n    {\n      \"subject\": \"Original Six\",\n      \"relation\": \"includes\",\n      \"object\": \"Detroit Red Wings\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Detroit Red Wings\"}\n      ]\n    },\n    {\n      \"subject\": \"Original Six\",\n      \"relation\": \"includes\",\n      \"object\": \"Montreal Canadiens\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Montreal Canadiens\"}\n      ]\n    },\n    {\n      \"subject\": \"Original Six\",\n      \"relation\": \"includes\",\n      \"object\": \"New York Rangers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"New York Rangers\"}\n      ]\n    },\n    {\n      \"subject\": \"Original Six\",\n      \"relation\": \"includes\",\n      \"object\": \"Toronto Maple Leafs\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Toronto Maple Leafs\"}\n      ]\n    },\n    {\n      \"subject\": \"Boston Bruins\",\n      \"relation\": \"won\",\n      \"object\": \"Stanley Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"have won\"}\n      ]\n    }\n  ]\n}"
+}

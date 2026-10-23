@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "A Day for Lionhearts": "film",
+    "Nanni Loy": "person",
+    "Italian people": "group",
+    "Second World War": "event"
+  },
+  "triples": [
+    {
+      "subject": "A Day for Lionhearts",
+      "relation": "directed_by",
+      "object": "Nanni Loy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Nanni Loy"
+        }
+      ]
+    },
+    {
+      "subject": "A Day for Lionhearts",
+      "relation": "describes",
+      "object": "Italian people",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "describes the gradual evolution towards anti-fascism of Italian people"
+        }
+      ]
+    },
+    {
+      "subject": "Italian people",
+      "relation": "during",
+      "object": "Second World War",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "during the Second World War"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Italian people",
+        "evolution_towards",
+        "anti-fascism"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "A Day for Lionhearts\nUn giorno da leoni( internationally released as A Day for Lionhearts) is a 1961 Italian war- drama film directed by Nanni Loy. The film describes the gradual evolution towards anti-fascism of Italian people during the Second World War."
+}

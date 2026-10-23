@@ -1,0 +1,35 @@
+{
+  "entities": {
+    "Jason Moore": "PERSON",
+    "American": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Jason Moore",
+        "born_on",
+        "October 22, 1970"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jason Moore",
+        "is_a",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jason Moore",
+        "occupation_of",
+        "director"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jason Moore (director)\nJason Moore( born October 22, 1970) is an American director of film, theatre and television.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Jason Moore\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"American\",\n      \"type\": \"NORP\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Jason Moore\",\n      \"relation\": \"born_on\",\n      \"object\": \"October 22, 1970\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"born October 22, 1970\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Jason Moore\",\n      \"relation\": \"is_a\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is an American\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Jason Moore\",\n      \"relation\": \"occupation_of\",\n      \"object\": \"director\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is an American director\"\n        }\n      ]\n    }\n  ]\n}"
+}

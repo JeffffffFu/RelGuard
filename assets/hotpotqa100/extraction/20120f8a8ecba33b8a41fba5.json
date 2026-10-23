@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Qatar": "Location",
+    "2022 FIFA World Cup": "Event",
+    "FBI": "Organization",
+    "Sepp Blatter": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Qatar",
+      "relation": "bid_for",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a bid by Qatar to host the 2022 FIFA World Cup"
+        }
+      ]
+    },
+    {
+      "subject": "2022 FIFA World Cup",
+      "relation": "investigated_by",
+      "object": "FBI",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "has come under FBI investigation for bribery and corruption"
+        }
+      ]
+    },
+    {
+      "subject": "Qatar",
+      "relation": "hosted_by",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "will be the first Arab state to host the World Cup"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "FIFA President Sepp Blatter",
+        "resigned_due_to",
+        "2022 FIFA World Cup"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Qatar",
+        "population",
+        "2 million people"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Qatar 2022 FIFA World Cup bid\nThe Qatar 2022 FIFA World Cup bid was a bid by Qatar to host the 2022 FIFA World Cup. The bid has come under FBI investigation for bribery and corruption, leading to the resignation of FIFA President Sepp Blatter. With a population of 2 million people, Qatar will be the first Arab state to host the World Cup."
+}

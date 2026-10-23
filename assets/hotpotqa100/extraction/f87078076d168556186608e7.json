@@ -1,0 +1,151 @@
+{
+  "entities": {
+    "FedEx Express Flight 80": "EVENT",
+    "Guangzhou Baiyun International Airport": "FAC",
+    "People's Republic of China": "GPE",
+    "Narita International Airport": "FAC",
+    "Narita": "GPE",
+    "Chiba Prefecture": "GPE",
+    "Tokyo": "GPE",
+    "Japan": "GPE",
+    "McDonnell Douglas MD-11F": "PRODUCT",
+    "N526FE": "PRODUCT",
+    "Runway 34L": "FAC",
+    "captain": "PERSON",
+    "first officer": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "captain",
+      "relation": "killed_in",
+      "object": "FedEx Express Flight 80",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were both killed",
+          "line_start": 684,
+          "char_start": 708,
+          "ambiguous": false,
+          "relation_mention": "were both killed",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "first officer",
+      "relation": "killed_in",
+      "object": "FedEx Express Flight 80",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were both killed",
+          "line_start": 684,
+          "char_start": 708,
+          "ambiguous": false,
+          "relation_mention": "were both killed",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "FedEx Express Flight 80",
+        "originated_from",
+        "Guangzhou Baiyun International Airport"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Guangzhou Baiyun International Airport",
+        "located_in",
+        "People's Republic of China"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FedEx Express Flight 80",
+        "destined_for",
+        "Narita International Airport"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Narita International Airport",
+        "located_in",
+        "Narita"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Narita",
+        "located_in",
+        "Chiba Prefecture"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Chiba Prefecture",
+        "located_near",
+        "Tokyo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Narita",
+        "located_in",
+        "Japan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FedEx Express Flight 80",
+        "operated_by_product",
+        "McDonnell Douglas MD-11F"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "McDonnell Douglas MD-11F",
+        "has_registration",
+        "N526FE"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FedEx Express Flight 80",
+        "crashed_at",
+        "Runway 34L"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FedEx Express Flight 80",
+        "had_occupant",
+        "captain"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FedEx Express Flight 80",
+        "had_occupant",
+        "first officer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "FedEx Express Flight 80\nFedEx Express Flight 80 was a scheduled cargo flight from Guangzhou Baiyun International Airport in the People's Republic of China, to Narita International Airport in Narita, Chiba Prefecture (near Tokyo), Japan. On March 23, 2009, a McDonnell Douglas MD-11F (N526FE) operating the flight crashed at 6:48 am JST (21:48 UTC, March 22), while attempting a landing on Runway 34L in gusty wind conditions. The aircraft became destabilized at flare and touchdown resulting in an unrecovered \"bounced\" landing with structural failure of the landing gear and airframe, and came to rest off the runway, inverted, and burning fiercely. The captain and first officer, the jet's only occupants, were both killed.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"FedEx Express Flight 80\", \"type\": \"EVENT\"},\n    {\"name\": \"Guangzhou Baiyun International Airport\", \"type\": \"FAC\"},\n    {\"name\": \"People's Republic of China\", \"type\": \"GPE\"},\n    {\"name\": \"Narita International Airport\", \"type\": \"FAC\"},\n    {\"name\": \"Narita\", \"type\": \"GPE\"},\n    {\"name\": \"Chiba Prefecture\", \"type\": \"GPE\"},\n    {\"name\": \"Tokyo\", \"type\": \"GPE\"},\n    {\"name\": \"Japan\", \"type\": \"GPE\"},\n    {\"name\": \"McDonnell Douglas MD-11F\", \"type\": \"PRODUCT\"},\n    {\"name\": \"N526FE\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Runway 34L\", \"type\": \"FAC\"},\n    {\"name\": \"captain\", \"type\": \"PERSON\"},\n    {\"name\": \"first officer\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"FedEx Express Flight 80\",\n      \"relation\": \"originated_from\",\n      \"object\": \"Guangzhou Baiyun International Airport\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from Guangzhou Baiyun International Airport\"}\n      ]\n    },\n    {\n      \"subject\": \"Guangzhou Baiyun International Airport\",\n      \"relation\": \"located_in\",\n      \"object\": \"People's Republic of China\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the People's Republic of China\"}\n      ]\n    },\n    {\n      \"subject\": \"FedEx Express Flight 80\",\n      \"relation\": \"destined_for\",\n      \"object\": \"Narita International Airport\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to Narita International Airport\"}\n      ]\n    },\n    {\n      \"subject\": \"Narita International Airport\",\n      \"relation\": \"located_in\",\n      \"object\": \"Narita\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Narita, Chiba Prefecture\"}\n      ]\n    },\n    {\n      \"subject\": \"Narita\",\n      \"relation\": \"located_in\",\n      \"object\": \"Chiba Prefecture\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Narita, Chiba Prefecture\"}\n      ]\n    },\n    {\n      \"subject\": \"Chiba Prefecture\",\n      \"relation\": \"located_near\",\n      \"object\": \"Tokyo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(near Tokyo)\"}\n      ]\n    },\n    {\n      \"subject\": \"Narita\",\n      \"relation\": \"located_in\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Narita, Chiba Prefecture (near Tokyo), Japan\"}\n      ]\n    },\n    {\n      \"subject\": \"FedEx Express Flight 80\",\n      \"relation\": \"operated_by_product\",\n      \"object\": \"McDonnell Douglas MD-11F\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a McDonnell Douglas MD-11F\"}\n      ]\n    },\n    {\n      \"subject\": \"McDonnell Douglas MD-11F\",\n      \"relation\": \"has_registration\",\n      \"object\": \"N526FE\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(N526FE)\"}\n      ]\n    },\n    {\n      \"subject\": \"FedEx Express Flight 80\",\n      \"relation\": \"crashed_at\",\n      \"object\": \"Runway 34L\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on Runway 34L\"}\n      ]\n    },\n    {\n      \"subject\": \"FedEx Express Flight 80\",\n      \"relation\": \"had_occupant\",\n      \"object\": \"captain\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The captain\"}\n      ]\n    },\n    {\n      \"subject\": \"FedEx Express Flight 80\",\n      \"relation\": \"had_occupant\",\n      \"object\": \"first officer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"first officer\"}\n      ]\n    },\n    {\n      \"subject\": \"captain\",\n      \"relation\": \"killed_in\",\n      \"object\": \"FedEx Express Flight 80\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were both killed\"}\n      ]\n    },\n    {\n      \"subject\": \"first officer\",\n      \"relation\": \"killed_in\",\n      \"object\": \"FedEx Express Flight 80\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were both killed\"}\n      ]\n    }\n  ]\n}"
+}

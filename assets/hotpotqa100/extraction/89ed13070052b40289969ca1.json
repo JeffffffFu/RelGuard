@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Royal Worcester Corset Company": "ORG",
+    "The Worcester Skirt Company": "ORG",
+    "David Hale Fanning": "PERSON",
+    "Worcester, MA": "GPE",
+    "Worcester Corset Co.": "ORG",
+    "Royal Worcester Company": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "The Worcester Skirt Company",
+      "relation": "founded_by",
+      "object": "David Hale Fanning",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded as",
+          "line_start": 36,
+          "char_start": 67,
+          "ambiguous": false,
+          "relation_mention": "was founded as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Worcester Skirt Company",
+      "relation": "renamed_to",
+      "object": "Worcester Corset Co.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "changed its name to",
+          "line_start": 192,
+          "char_start": 223,
+          "ambiguous": false,
+          "relation_mention": "changed its name to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Worcester Corset Co.",
+      "relation": "renamed_to",
+      "object": "Royal Worcester Corset Company",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "changed its name again",
+          "line_start": 320,
+          "char_start": 351,
+          "ambiguous": false,
+          "relation_mention": "changed its name again",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Royal Worcester Corset Company",
+      "relation": "renamed_to",
+      "object": "Royal Worcester Company",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "became known as",
+          "line_start": 455,
+          "char_start": 486,
+          "ambiguous": false,
+          "relation_mention": "became known as",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Worcester Skirt Company",
+        "located_in",
+        "Worcester, MA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Royal Worcester Corset Company\nThe Royal Worcester Corset Company, was founded as The Worcester Skirt Company by David Hale Fanning in 1861 in Worcester, MA, and first specialized in making hoop skirts. In 1872 the company changed its name to the Worcester Corset Co., to reflect its change of direction from hoop skirts to torso shaping. The company changed its name again in 1901, to the Royal Worcester Corset Company. In 1949 the company dropped the word 'corset' from its name and became known as the Royal Worcester Company, in response to falling interest in corsets."
+}

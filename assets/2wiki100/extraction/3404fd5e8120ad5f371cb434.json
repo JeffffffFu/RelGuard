@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "The Blue Bead": "WORK_OF_ART",
+    "Turkey": "GPE",
+    "Ertem Eğilmez": "PERSON",
+    "Emel Sayın": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "The Blue Bead",
+      "relation": "directed_by",
+      "object": "Ertem Eğilmez",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 70,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Blue Bead",
+      "relation": "produced_by",
+      "object": "Ertem Eğilmez",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced",
+          "line_start": 45,
+          "char_start": 59,
+          "ambiguous": false,
+          "relation_mention": "produced",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Blue Bead",
+        "co_written_by",
+        "Ertem Eğilmez"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Blue Bead",
+        "featuring",
+        "Emel Sayın"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Blue Bead",
+        "located_in",
+        "Turkey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Blue Bead\nThe Blue Bead is a 1974 Turkish comedy film, produced, co-written and directed by Ertem Eğilmez, featuring Turkish classical music singer Emel Sayın as a nightclub singer who is kidnapped by a gang of slackers after they are beaten and thrown out of the club where she works. The film, which went on nationwide general release across Turkey on January 1, 1974, is considered a comedy classic in its homeland.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Blue Bead\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Turkey\", \"type\": \"GPE\"},\n    {\"name\": \"Ertem Eğilmez\", \"type\": \"PERSON\"},\n    {\"name\": \"Emel Sayın\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Blue Bead\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Ertem Eğilmez\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Blue Bead\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Ertem Eğilmez\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced\"}\n      ]\n    },\n    {\n      \"subject\": \"The Blue Bead\",\n      \"relation\": \"co_written_by\",\n      \"object\": \"Ertem Eğilmez\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-written\"}\n      ]\n    },\n    {\n      \"subject\": \"The Blue Bead\",\n      \"relation\": \"featuring\",\n      \"object\": \"Emel Sayın\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"featuring Turkish classical music singer Emel Sayın\"}\n      ]\n    },\n    {\n      \"subject\": \"The Blue Bead\",\n      \"relation\": \"located_in\",\n      \"object\": \"Turkey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"across Turkey\"}\n      ]\n    }\n  ]\n}"
+}

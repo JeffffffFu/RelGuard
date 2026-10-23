@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Andy Finch": "PERSON",
+    "United States": "GPE",
+    "Bullard High School": "ORG",
+    "Fresno": "GPE",
+    "California": "GPE",
+    "2006 Winter Olympics": "EVENT",
+    "Norway": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Andy Finch",
+        "is_a",
+        "American"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Andy Finch",
+        "competed_in",
+        "2006 Winter Olympics"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Andy Finch",
+        "competed_for",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Andy Finch",
+        "attended",
+        "Bullard High School"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bullard High School",
+        "located_in",
+        "Fresno"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fresno",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Andy Finch",
+        "won_event_in",
+        "Arctic Challenge"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Arctic Challenge",
+        "located_in",
+        "Norway"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Andy Finch\nAndrew Joseph \"Andy\" Finch (born March 20, 1981) is an American snowboarder. His accomplishments include winning the overall U.S. Grand Prix Halfpipe Title in 2003 and 2004, taking first place in the Arctic Challenge in Norway in April 2004, winning the Vans Triple Crown in February 2004, winning the O’Neill Snowboard Jam in January 2005, and finishing in second place in Northstar Resort’s Vans Tahoe Cup. In addition, Finch competed in the 2006 Winter Olympics for the United States. He attended Bullard High School in Fresno, California.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Andy Finch\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Bullard High School\", \"type\": \"ORG\"},\n    {\"name\": \"Fresno\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"2006 Winter Olympics\", \"type\": \"EVENT\"},\n    {\"name\": \"Norway\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Andy Finch\",\n      \"relation\": \"is_a\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is an American snowboarder\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Andy Finch\",\n      \"relation\": \"competed_in\",\n      \"object\": \"2006 Winter Olympics\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"competed in the 2006 Winter Olympics\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Andy Finch\",\n      \"relation\": \"competed_for\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"competed in the 2006 Winter Olympics for the United States\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Andy Finch\",\n      \"relation\": \"attended\",\n      \"object\": \"Bullard High School\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"attended Bullard High School\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Bullard High School\",\n      \"relation\": \"located_in\",\n      \"object\": \"Fresno\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in Fresno\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Fresno\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Fresno, California\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Andy Finch\",\n      \"relation\": \"won_event_in\",\n      \"object\": \"Arctic Challenge\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"taking first place in the Arctic Challenge in Norway\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Arctic Challenge\",\n      \"relation\": \"located_in\",\n      \"object\": \"Norway\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in Norway\"\n        }\n      ]\n    }\n  ]\n}"
+}

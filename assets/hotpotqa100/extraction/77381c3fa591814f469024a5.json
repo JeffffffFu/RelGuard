@@ -1,0 +1,190 @@
+{
+  "entities": {
+    "Powder Coating": "PRODUCT",
+    "liquid paint": "PRODUCT",
+    "solvent": "PRODUCT",
+    "binder": "PRODUCT",
+    "filler": "PRODUCT",
+    "thermoplastic": "PRODUCT",
+    "thermoset polymer": "PRODUCT",
+    "conventional paint": "PRODUCT",
+    "metals": "PRODUCT",
+    "household appliances": "PRODUCT",
+    "aluminum extrusions": "PRODUCT",
+    "drum hardware": "PRODUCT",
+    "automobile parts": "PRODUCT",
+    "bicycle parts": "PRODUCT",
+    "MDF (medium-density fibreboard)": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "metals",
+      "relation": "such_as",
+      "object": "household appliances",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "such as household appliances",
+          "line_start": 593,
+          "char_start": 608,
+          "ambiguous": false,
+          "relation_mention": "such as household appliances",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "metals",
+      "relation": "such_as",
+      "object": "aluminum extrusions",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "such as household appliances, aluminum extrusions",
+          "line_start": 593,
+          "char_start": 608,
+          "ambiguous": false,
+          "relation_mention": "such as household appliances, aluminum extrusions",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "metals",
+      "relation": "such_as",
+      "object": "drum hardware",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "aluminum extrusions, drum hardware",
+          "line_start": 623,
+          "char_start": 638,
+          "ambiguous": false,
+          "relation_mention": "aluminum extrusions, drum hardware",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "metals",
+      "relation": "such_as",
+      "object": "automobile parts",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "drum hardware, and automobile and bicycle parts",
+          "line_start": 644,
+          "char_start": 659,
+          "ambiguous": false,
+          "relation_mention": "drum hardware, and automobile and bicycle parts",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "metals",
+      "relation": "such_as",
+      "object": "bicycle parts",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "automobile and bicycle parts",
+          "line_start": 663,
+          "char_start": 678,
+          "ambiguous": false,
+          "relation_mention": "automobile and bicycle parts",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "electrostatics (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "Powder Coating",
+        "is_a",
+        "coating"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Powder Coating",
+        "applied_as",
+        "free-flowing, dry powder"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "powder coating",
+        "does_not_require",
+        "solvent"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "powder coating",
+        "is_applied_electrostatically",
+        "electrostatics"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "powder coating",
+        "cured_under",
+        "heat"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The powder",
+        "may_be",
+        "thermoplastic"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The powder",
+        "may_be",
+        "thermoset polymer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Powder Coating",
+        "used_for",
+        "coating of metals"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Newer technologies",
+        "allow",
+        "other materials to be powder coated"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "other materials",
+        "such_as",
+        "MDF (medium-density fibreboard)"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Powder coating\nPowder Coating is a type of coating that is applied as a free-flowing, dry powder. The main difference between a conventional liquid paint and a powder coating is that the powder coating does not require a solvent to keep the binder and filler parts in a liquid suspension form. The coating is typically applied electrostatically and is then cured under heat to allow it to flow and form a \"skin\". The powder may be a thermoplastic or a thermoset polymer. It is usually used to create a hard finish that is tougher than conventional paint. Powder coating is mainly used for coating of metals, such as household appliances, aluminum extrusions, drum hardware, and automobile and bicycle parts. Newer technologies allow other materials, such as MDF (medium-density fibreboard), to be powder coated using different methods."
+}

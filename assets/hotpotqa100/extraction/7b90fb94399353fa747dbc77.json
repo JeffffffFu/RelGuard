@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Subfunctionalization": "concept",
+    "Stoltzfus": "person",
+    "Force et al.": "person",
+    "gene duplication": "process",
+    "paralogs": "concept",
+    "ancestral gene": "concept",
+    "descendant duplicate genes": "concept"
+  },
+  "triples": [
+    {
+      "subject": "Subfunctionalization",
+      "relation": "proposed_by",
+      "object": "Stoltzfus",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Subfunctionalization was proposed by Stoltzfus (1999)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Subfunctionalization",
+        "proposed_by",
+        "Force et al."
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "gene duplication",
+        "occurs_after",
+        "functional divergence"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "paralogs",
+        "take_on",
+        "separate functions"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "paralogs",
+        "undergo",
+        "division of labor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "paralogs",
+        "retain",
+        "different parts"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "segmental gene silencing",
+        "leads_to",
+        "formation of paralogs"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "ancestral gene",
+        "was_capable_of",
+        "performing both functions"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "descendant duplicate genes",
+        "can_perform",
+        "one of the original ancestral functions"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Subfunctionalization\nSubfunctionalization was proposed by Stoltzfus (1999) and Force et al. (1999) as one of the possible outcomes of functional divergence that occurs after a gene duplication event, in which pairs of genes that originate from duplication, or paralogs, take on separate functions. Subfunctionalization is a neutral mutation process; meaning that no new adaptations are formed. During the process of gene duplication paralogs simply undergo a division of labor by retaining different parts (subfunctions) of their original ancestral function. This partitioning event occurs because of segmental gene silencing leading to the formation of paralogs that are no longer duplicates, because each gene only retains a single function. It is important to note that the ancestral gene was capable of performing both functions and the descendant duplicate genes can now only perform one of the original ancestral functions."
+}

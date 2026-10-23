@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "O'Shaughnessy's Boy": "Film",
+    "Wallace Beery": "Person",
+    "Jackie Cooper": "Person",
+    "Richard Boleslawski": "Person"
+  },
+  "triples": [
+    {
+      "subject": "O'Shaughnessy's Boy",
+      "relation": "starring",
+      "object": "Wallace Beery",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Wallace Beery"
+        }
+      ]
+    },
+    {
+      "subject": "O'Shaughnessy's Boy",
+      "relation": "directed_by",
+      "object": "Richard Boleslawski",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Richard Boleslawski"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "O'Shaughnessy's Boy",
+        "is_a",
+        "Film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "O'Shaughnessy's Boy",
+        "starring",
+        "Jackie Cooper"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "O'Shaughnessy's Boy\nO'Shaughnessy's Boy is a 1935 film starring Wallace Beery and Jackie Cooper and directed by Richard Boleslawski."
+}

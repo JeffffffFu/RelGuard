@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Macedonian Monument": "monument",
+    "United States Naval Academy": "institution",
+    "Mahan Hall": "building",
+    "Stribling Walk": "location",
+    "HMS Macedonian": "ship",
+    "Stephen Decatur": "person",
+    "United States": "ship",
+    "War of 1812": "event",
+    "Alexander the Great": "person",
+    "Figurehead of Hans Macedonian": "sculpture"
+  },
+  "triples": [
+    {
+      "subject": "Macedonian Monument",
+      "relation": "located_in",
+      "object": "United States Naval Academy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Macedonian Monument is on the campus of the United States Naval Academy"
+        }
+      ]
+    },
+    {
+      "subject": "Macedonian Monument",
+      "relation": "located_across_from",
+      "object": "Mahan Hall",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "across the street from Mahan Hall"
+        }
+      ]
+    },
+    {
+      "subject": "Macedonian Monument",
+      "relation": "located_at_end_of",
+      "object": "Stribling Walk",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the end of Stribling Walk"
+        }
+      ]
+    },
+    {
+      "subject": "HMS Macedonian",
+      "relation": "captured_by",
+      "object": "Stephen Decatur",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "captured by Stephen Decatur"
+        }
+      ]
+    },
+    {
+      "subject": "HMS Macedonian",
+      "relation": "part_of_event",
+      "object": "War of 1812",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in the opening days of the War of 1812"
+        }
+      ]
+    },
+    {
+      "subject": "Macedonian Monument",
+      "relation": "came_to",
+      "object": "United States Naval Academy",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "It came to the Academy in 1875"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "HMS Macedonian",
+        "captured_by",
+        "United States"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Macedonian Monument",
+        "also_known_as",
+        "Alexander the Great"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Macedonian Monument",
+        "also_known_as",
+        "Figurehead of Hans Macedonian"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Macedonian Monument",
+        "dates_to",
+        "1810"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Macedonian Monument\nThe Macedonian Monument is on the campus of the United States Naval Academy, across the street from Mahan Hall, at the end of Stribling Walk. The monument's sculpture is the figurehead of HMS \"Macedonian\", captured by Stephen Decatur and the American frigate \"United States\" in the opening days of the War of 1812. Also known as \"Alexander the Great\" and the \"Figurehead of Hans Macedonian\", the wooden sculpture dates to circa 1810. It came to the Academy in 1875."
+}

@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "Ian Barry": "PERSON",
+    "film": "PRODUCT",
+    "TV": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Ian Barry",
+      "relation": "works_for",
+      "object": "film",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "director of film",
+          "line_start": 27,
+          "char_start": 48,
+          "ambiguous": false,
+          "relation_mention": "director of film",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Ian Barry",
+      "relation": "works_for",
+      "object": "TV",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and TV",
+          "line_start": 44,
+          "char_start": 65,
+          "ambiguous": false,
+          "relation_mention": "and TV",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Ian Barry",
+        "located_in",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ian Barry (director)\nIan Barry is an Australian director of film and TV."
+}

@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Papa John's Pizza": "ORG",
+    "United States": "GPE",
+    "Jeffersontown": "GPE",
+    "Kentucky": "GPE",
+    "Louisville": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Papa John's Pizza",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Papa John's Pizza",
+        "located_in",
+        "Jeffersontown"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jeffersontown",
+        "located_in",
+        "Kentucky"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jeffersontown",
+        "located_in",
+        "Louisville"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Papa John's Pizza",
+        "located_in",
+        "Kentucky"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Papa John's Pizza\nPapa John's Pizza is an American restaurant franchise company. It runs the third largest take-out and pizza delivery restaurant chain in the United States, with headquarters in Jeffersontown, Kentucky, a suburb of Louisville.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Papa John's Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Jeffersontown\", \"type\": \"GPE\"},\n    {\"name\": \"Kentucky\", \"type\": \"GPE\"},\n    {\"name\": \"Louisville\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Papa John's Pizza\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Papa John's Pizza\",\n      \"relation\": \"located_in\",\n      \"object\": \"Jeffersontown\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with headquarters in Jeffersontown, Kentucky\"}\n      ]\n    },\n    {\n      \"subject\": \"Jeffersontown\",\n      \"relation\": \"located_in\",\n      \"object\": \"Kentucky\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Jeffersontown, Kentucky\"}\n      ]\n    },\n    {\n      \"subject\": \"Jeffersontown\",\n      \"relation\": \"located_in\",\n      \"object\": \"Louisville\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a suburb of Louisville\"}\n      ]\n    },\n    {\n      \"subject\": \"Papa John's Pizza\",\n      \"relation\": \"located_in\",\n      \"object\": \"Kentucky\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with headquarters in Jeffersontown, Kentucky\"}\n      ]\n    }\n  ]\n}"
+}

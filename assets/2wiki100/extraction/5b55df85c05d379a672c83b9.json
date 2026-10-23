@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "Ronaldo": "WORK_OF_ART",
+    "Anthony Wonke": "PERSON",
+    "Cristiano Ronaldo": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Ronaldo",
+      "relation": "directed_by",
+      "object": "Anthony Wonke",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Anthony Wonke"
+        }
+      ]
+    },
+    {
+      "subject": "Ronaldo",
+      "relation": "follows",
+      "object": "Cristiano Ronaldo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "follows the life and career of Portuguese professional footballer Cristiano Ronaldo"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Portugal (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Cristiano Ronaldo",
+        "from",
+        "Portugal"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ronaldo (film)\nRonaldo is a 2015 British documentary film directed by Anthony Wonke. It follows the life and career of Portuguese professional footballer Cristiano Ronaldo. The film was released worldwide on 9 November 2015. A trailer for the film was released on 28 September 2015."
+}

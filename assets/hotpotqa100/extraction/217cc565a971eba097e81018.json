@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Kyle Lafferty": "PERSON",
+    "Northern Ireland": "GPE",
+    "Hearts": "ORG",
+    "Northern Ireland national team": "ORG",
+    "Scottish Premiership": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Kyle Lafferty",
+        "nationality_is",
+        "Northern Ireland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kyle Lafferty",
+        "plays_for",
+        "Hearts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hearts",
+        "located_in",
+        "Scottish Premiership"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kyle Lafferty",
+        "plays_for",
+        "Northern Ireland national team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kyle Lafferty\nKyle Joseph George Lafferty (born 16 September 1987) is a Northern Irish professional footballer who plays as a forward for Scottish Premiership club Hearts and the Northern Ireland national team.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kyle Lafferty\", \"type\": \"PERSON\"},\n    {\"name\": \"Northern Ireland\", \"type\": \"GPE\"},\n    {\"name\": \"Hearts\", \"type\": \"ORG\"},\n    {\"name\": \"Northern Ireland national team\", \"type\": \"ORG\"},\n    {\"name\": \"Scottish Premiership\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kyle Lafferty\",\n      \"relation\": \"nationality_is\",\n      \"object\": \"Northern Ireland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Northern Irish\"}\n      ]\n    },\n    {\n      \"subject\": \"Kyle Lafferty\",\n      \"relation\": \"plays_for\",\n      \"object\": \"Hearts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"plays as a forward for Scottish Premiership club Hearts\"}\n      ]\n    },\n    {\n      \"subject\": \"Hearts\",\n      \"relation\": \"located_in\",\n      \"object\": \"Scottish Premiership\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Scottish Premiership club Hearts\"}\n      ]\n    },\n    {\n      \"subject\": \"Kyle Lafferty\",\n      \"relation\": \"plays_for\",\n      \"object\": \"Northern Ireland national team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and the Northern Ireland national team\"}\n      ]\n    }\n  ]\n}"
+}

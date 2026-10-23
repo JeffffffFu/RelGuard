@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Lee Valley Lions": "ORG",
+    "Leyton": "GPE",
+    "east London": "LOC",
+    "Lee Valley Ice Centre": "FAC",
+    "London Raiders": "ORG",
+    "Lee Valley Junior Ice Hockey Club": "ORG",
+    "Eastern Stars": "ORG",
+    "London Devils": "ORG",
+    "University of London Ice hockey Club": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Lee Valley Lions",
+      "relation": "located_in",
+      "object": "Leyton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 44,
+          "char_start": 61,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "located_in",
+        "east London"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "plays_at",
+        "Lee Valley Ice Centre"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "share_facility_with",
+        "London Raiders"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "share_facility_with",
+        "Lee Valley Junior Ice Hockey Club"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "share_facility_with",
+        "Eastern Stars"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "share_facility_with",
+        "London Devils"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "share_facility_with",
+        "University of London Ice hockey Club"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "type",
+        "Ice Hockey team"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lee Valley Lions\nThe Lee Valley Lions are an ice hockey team based in Leyton, east London where they play at the Lee Valley Ice Centre. They are the senior Ice Hockey team at the rink which they share with the London Raiders, Lee Valley Junior Ice Hockey Club, Eastern Stars and London Devils recreational teams and, the University of London Ice hockey Club.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Lee Valley Lions\", \"type\": \"ORG\"},\n    {\"name\": \"Leyton\", \"type\": \"GPE\"},\n    {\"name\": \"east London\", \"type\": \"LOC\"},\n    {\"name\": \"Lee Valley Ice Centre\", \"type\": \"FAC\"},\n    {\"name\": \"London Raiders\", \"type\": \"ORG\"},\n    {\"name\": \"Lee Valley Junior Ice Hockey Club\", \"type\": \"ORG\"},\n    {\"name\": \"Eastern Stars\", \"type\": \"ORG\"},\n    {\"name\": \"London Devils\", \"type\": \"ORG\"},\n    {\"name\": \"University of London Ice hockey Club\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Lee Valley Lions\",\n      \"relation\": \"located_in\",\n      \"object\": \"Leyton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Lee Valley Lions\",\n      \"relation\": \"located_in\",\n      \"object\": \"east London\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in Leyton, east London where they play at the Lee Valley Ice Centre\"}\n      ]\n    },\n    {\n      \"subject\": \"Lee Valley Lions\",\n      \"relation\": \"plays_at\",\n      \"object\": \"Lee Valley Ice Centre\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"play at the Lee Valley Ice Centre\"}\n      ]\n    },\n    {\n      \"subject\": \"Lee Valley Lions\",\n      \"relation\": \"share_facility_with\",\n      \"object\": \"London Raiders\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"share with the London Raiders\"}\n      ]\n    },\n    {\n      \"subject\": \"Lee Valley Lions\",\n      \"relation\": \"share_facility_with\",\n      \"object\": \"Lee Valley Junior Ice Hockey Club\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"share with the London Raiders, Lee Valley Junior Ice Hockey Club\"}\n      ]\n    },\n    {\n      \"subject\": \"Lee Valley Lions\",\n      \"relation\": \"share_facility_with\",\n      \"object\": \"Eastern Stars\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"share with the London Raiders, Lee Valley Junior Ice Hockey Club, Eastern Stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Lee Valley Lions\",\n      \"relation\": \"share_facility_with\",\n      \"object\": \"London Devils\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"share with the London Raiders, Lee Valley Junior Ice Hockey Club, Eastern Stars and London Devils recreational teams\"}\n      ]\n    },\n    {\n      \"subject\": \"Lee Valley Lions\",\n      \"relation\": \"share_facility_with\",\n      \"object\": \"University of London Ice hockey Club\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"share with the London Raiders, Lee Valley Junior Ice Hockey Club, Eastern Stars and London Devils recreational teams and, the University of London Ice hockey Club\"}\n      ]\n    },\n    {\n      \"subject\": \"Lee Valley Lions\",\n      \"relation\": \"type\",\n      \"object\": \"Ice Hockey team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are an ice hockey team\"}\n      ]\n    }\n  ]\n}"
+}

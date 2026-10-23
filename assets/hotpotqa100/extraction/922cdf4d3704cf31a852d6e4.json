@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Scotch and Wry": "TV Show",
+    "BBC Scotland": "Organization",
+    "Rikki Fulton": "Person",
+    "Gregor Fisher": "Person",
+    "Tony Roper": "Person",
+    "Claire Nielson": "Person",
+    "Juliet Cadzow": "Person",
+    "John Bett": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Scotch and Wry",
+      "relation": "produced_by",
+      "object": "BBC Scotland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by BBC Scotland"
+        }
+      ]
+    },
+    {
+      "subject": "Scotch and Wry",
+      "relation": "starring",
+      "object": "Rikki Fulton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Rikki Fulton"
+        }
+      ]
+    },
+    {
+      "subject": "Scotch and Wry",
+      "relation": "included",
+      "object": "Gregor Fisher",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "included Gregor Fisher"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Scotch and Wry",
+        "included",
+        "Tony Roper"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Scotch and Wry",
+        "included",
+        "Claire Nielson"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Scotch and Wry",
+        "included",
+        "Juliet Cadzow"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Scotch and Wry",
+        "included",
+        "John Bett"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Scotch and Wry\nScotch and Wry was a Scottish television comedy sketch show produced by BBC Scotland and starring Rikki Fulton and a revolving ensemble cast which over the years included Gregor Fisher, Tony Roper, Claire Nielson, Juliet Cadzow and John Bett."
+}

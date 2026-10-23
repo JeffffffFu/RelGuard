@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Stefan Walz": "PERSON",
+    "Swiss": "NORP",
+    "Sigmund Jähn": "PERSON",
+    "Good Bye, Lenin!": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Stefan Walz",
+        "type_of_person_nationality",
+        "Swiss"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Stefan Walz",
+        "portrayed",
+        "Sigmund Jähn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sigmund Jähn",
+        "appears_in",
+        "Good Bye, Lenin!"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Stefan Walz\nStefan Walz( born 1963) is a Swiss actor. His best known role is as Sigmund Jähn in the film\" Good Bye, Lenin!\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Stefan Walz\", \"type\": \"PERSON\"},\n    {\"name\": \"Swiss\", \"type\": \"NORP\"},\n    {\"name\": \"Sigmund Jähn\", \"type\": \"PERSON\"},\n    {\"name\": \"Good Bye, Lenin!\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Stefan Walz\",\n      \"relation\": \"type_of_person_nationality\",\n      \"object\": \"Swiss\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Stefan Walz\",\n      \"relation\": \"portrayed\",\n      \"object\": \"Sigmund Jähn\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is as\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Sigmund Jähn\",\n      \"relation\": \"appears_in\",\n      \"object\": \"Good Bye, Lenin!\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in the film\"\n        }\n      ]\n    }\n  ]\n}"
+}

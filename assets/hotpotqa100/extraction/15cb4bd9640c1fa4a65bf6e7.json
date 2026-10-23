@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Bill Cosby": "Person",
+    "Bill Cosby Talks to Kids About Drugs": "Album",
+    "Grammy Award": "Award",
+    "Best Recording for Children": "Award Category",
+    "1971": "Year",
+    "1972": "Year"
+  },
+  "triples": [
+    {
+      "subject": "Bill Cosby Talks to Kids About Drugs",
+      "relation": "won",
+      "object": "Grammy Award",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It won the Grammy Award in 1972"
+        }
+      ]
+    },
+    {
+      "subject": "Grammy Award",
+      "relation": "has_category",
+      "object": "Best Recording for Children",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "for Best Recording for Children."
+        }
+      ]
+    },
+    {
+      "subject": "Bill Cosby Talks to Kids About Drugs",
+      "relation": "released_in",
+      "object": "1971",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "(1971)"
+        }
+      ]
+    },
+    {
+      "subject": "Grammy Award",
+      "relation": "awarded_in",
+      "object": "1972",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in 1972"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bill Cosby Talks to Kids About Drugs",
+        "is_a",
+        "Album"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bill Cosby Talks to Kids About Drugs",
+        "intended_for",
+        "Kids"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bill Cosby Talks to Kids About Drugs\nBill Cosby Talks to Kids About Drugs (1971) is an album by Bill Cosby. Unlike most of his recordings, this is not a full-fledged comedy album, but rather a record intended for children to school them on the dangers of drugs through songs and dialogue. It won the Grammy Award in 1972 for Best Recording for Children."
+}

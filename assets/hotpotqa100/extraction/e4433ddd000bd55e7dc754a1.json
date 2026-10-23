@@ -1,0 +1,147 @@
+{
+  "entities": {
+    "Fiat": "ORG",
+    "Marengo": "PRODUCT",
+    "Fiat 131 Marengo": "PRODUCT",
+    "Regata": "PRODUCT",
+    "Tempra": "PRODUCT",
+    "Marea": "PRODUCT",
+    "Fiat Stilo Multiwagon": "PRODUCT",
+    "Fiorino": "PRODUCT",
+    "Penny": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Fiat",
+      "relation": "gave_name_to",
+      "object": "Marengo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has given to",
+          "line_start": 52,
+          "char_start": 65,
+          "ambiguous": false,
+          "relation_mention": "has given to",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Marengo",
+      "relation": "continued_with",
+      "object": "Regata",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "continuing with",
+          "line_start": 157,
+          "char_start": 170,
+          "ambiguous": false,
+          "relation_mention": "continuing with",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Marengo",
+      "relation": "continued_with",
+      "object": "Tempra",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "continuing with",
+          "line_start": 157,
+          "char_start": 170,
+          "ambiguous": false,
+          "relation_mention": "continuing with",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Marengo",
+      "relation": "continued_with",
+      "object": "Marea",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "continuing with",
+          "line_start": 157,
+          "char_start": 170,
+          "ambiguous": false,
+          "relation_mention": "continuing with",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Marengo",
+      "relation": "was_retired_in",
+      "object": "Fiat Stilo Multiwagon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "succeeded by",
+          "line_start": 360,
+          "char_start": 373,
+          "ambiguous": false,
+          "relation_mention": "succeeded by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Fiat",
+      "relation": "named",
+      "object": "Fiorino",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "naming",
+          "line_start": 443,
+          "char_start": 456,
+          "ambiguous": false,
+          "relation_mention": "naming",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Fiat",
+      "relation": "named",
+      "object": "Penny",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "naming",
+          "line_start": 443,
+          "char_start": 456,
+          "ambiguous": false,
+          "relation_mention": "naming",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marengo",
+        "is_model_name_of",
+        "Fiat"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fiat 131 Marengo",
+        "began_in_year",
+        "Marengo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Fiat Marengo\nMarengo is a model name that Italian car maker Fiat has given to the van derivatives of its mid-size cars, beginning with the \"Fiat 131 Marengo\" in 1979 and continuing with the Regata, Tempra, and Marea. The Marengo light commercial vehicle derivatives only have two seats and have only been equipped with diesel engines. The nameplate was retired in 2001 and succeeded by the van version of the Fiat Stilo Multiwagon. Fiat has a tradition of naming their commercial vehicle derivatives differently from the cars upon which they are based, compare with the Fiorino and the Penny.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Fiat\", \"type\": \"ORG\"},\n    {\"name\": \"Marengo\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Fiat 131 Marengo\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Regata\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Tempra\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Marea\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Fiat Stilo Multiwagon\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Fiorino\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Penny\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Fiat\",\n      \"relation\": \"gave_name_to\",\n      \"object\": \"Marengo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has given to\"}\n      ]\n    },\n    {\n      \"subject\": \"Marengo\",\n      \"relation\": \"is_model_name_of\",\n      \"object\": \"Fiat\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a model name that Italian car maker Fiat has given\"}\n      ]\n    },\n    {\n      \"subject\": \"Fiat 131 Marengo\",\n      \"relation\": \"began_in_year\",\n      \"object\": \"Marengo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in 1979\"}\n      ]\n    },\n    {\n      \"subject\": \"Marengo\",\n      \"relation\": \"continued_with\",\n      \"object\": \"Regata\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"continuing with\"}\n      ]\n    },\n    {\n      \"subject\": \"Marengo\",\n      \"relation\": \"continued_with\",\n      \"object\": \"Tempra\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"continuing with\"}\n      ]\n    },\n    {\n      \"subject\": \"Marengo\",\n      \"relation\": \"continued_with\",\n      \"object\": \"Marea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"continuing with\"}\n      ]\n    },\n    {\n      \"subject\": \"Marengo\",\n      \"relation\": \"was_retired_in\",\n      \"object\": \"Fiat Stilo Multiwagon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"succeeded by\"}\n      ]\n    },\n    {\n      \"subject\": \"Fiat\",\n      \"relation\": \"named\",\n      \"object\": \"Fiorino\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"naming\"}\n      ]\n    },\n    {\n      \"subject\": \"Fiat\",\n      \"relation\": \"named\",\n      \"object\": \"Penny\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"naming\"}\n      ]\n    }\n  ]\n}"
+}

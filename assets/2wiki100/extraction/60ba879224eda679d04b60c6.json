@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Melora Walters": "Person",
+    "Wanda Henrickson": "Character",
+    "Big Love": "Television Series",
+    "Paul Thomas Anderson": "Person",
+    "Boogie Nights": "Film",
+    "Magnolia": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Melora Walters",
+      "relation": "played",
+      "object": "Wanda Henrickson",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "played Wanda Henrickson"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Melora Walters",
+        "born_on",
+        "October 21, 1959"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Melora Walters",
+        "is_an",
+        "American actress"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wanda Henrickson",
+        "is_in",
+        "Big Love"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Melora Walters",
+        "starred_in",
+        "Boogie Nights"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Melora Walters",
+        "starred_in",
+        "Magnolia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Paul Thomas Anderson",
+        "directed",
+        "Boogie Nights"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Paul Thomas Anderson",
+        "directed",
+        "Magnolia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Melora Walters\nMelora Walters( born October 21, 1959) is an American actress. She played Wanda Henrickson in the television series\" Big Love\". She has also starred in Paul Thomas Anderson's films, including\" Boogie Nights\"( 1997) and\" Magnolia\"( 1999)."
+}

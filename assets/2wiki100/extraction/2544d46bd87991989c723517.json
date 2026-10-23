@@ -1,0 +1,126 @@
+{
+  "entities": {
+    "Sunday Light": "WORK_OF_ART",
+    "José Luis Garci": "PERSON",
+    "Álex González": "PERSON",
+    "Paula Echevarría": "PERSON",
+    "Alfredo Landa": "PERSON",
+    "Asturias": "GPE",
+    "Ramón Pérez de Ayala": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Sunday Light",
+      "relation": "directed_by",
+      "object": "José Luis Garci",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 37,
+          "char_start": 50,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Sunday Light",
+      "relation": "starring",
+      "object": "Álex González",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring Álex González",
+          "line_start": 69,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "starring Álex González",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Sunday Light",
+      "relation": "starring",
+      "object": "Paula Echevarría",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring Álex González, Paula Echevarría",
+          "line_start": 69,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "starring Álex González, Paula Echevarría",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Sunday Light",
+      "relation": "starring",
+      "object": "Alfredo Landa",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "starring Álex González, Paula Echevarría and Alfredo Landa",
+          "line_start": 69,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "starring Álex González, Paula Echevarría and Alfredo Landa",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Sunday Light",
+      "relation": "located_in",
+      "object": "Asturias",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "set in rural Asturias",
+          "line_start": 139,
+          "char_start": 152,
+          "ambiguous": false,
+          "relation_mention": "set in rural Asturias",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sunday Light",
+      "relation": "based_on",
+      "object": "Ramón Pérez de Ayala",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on a novel by Ramón Pérez de Ayala",
+          "line_start": 191,
+          "char_start": 204,
+          "ambiguous": false,
+          "relation_mention": "based on a novel by Ramón Pérez de Ayala",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Spain (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Sunday Light",
+        "works_for",
+        "Spain"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sunday Light\nSunday Light  is a 2007 Spanish film directed by José Luis Garci and starring Álex González, Paula Echevarría and Alfredo Landa. The plot, set in rural Asturias in the early 20th-century, is based on a novel by Ramón Pérez de Ayala."
+}

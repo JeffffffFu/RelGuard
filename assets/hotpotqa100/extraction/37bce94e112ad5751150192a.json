@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Faith Goldy": "Person",
+    "The Rebel Media": "Organization",
+    "On The Hunt with Faith Goldy": "Program",
+    "2017 Unite the Right rally": "Event",
+    "Charlottesville, Virginia": "Location",
+    "The Krypto Report": "Podcast",
+    "The Daily Stormer": "Website"
+  },
+  "triples": [
+    {
+      "subject": "Faith Goldy",
+      "relation": "noted_for",
+      "object": "The Rebel Media",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "noted for her sympathetic coverage of the alt-right for The Rebel Media"
+        }
+      ]
+    },
+    {
+      "subject": "Faith Goldy",
+      "relation": "covered_event",
+      "object": "2017 Unite the Right rally",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "her live coverage of events surrounding the 2017 Unite the Right rally"
+        }
+      ]
+    },
+    {
+      "subject": "2017 Unite the Right rally",
+      "relation": "located_in",
+      "object": "Charlottesville, Virginia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Charlottesville, Virginia"
+        }
+      ]
+    },
+    {
+      "subject": "Faith Goldy",
+      "relation": "fired_from",
+      "object": "The Rebel Media",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was fired from The Rebel"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Faith Goldy",
+        "has_program",
+        "On The Hunt with Faith Goldy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Faith Goldy",
+        "gave_interview_on",
+        "The Krypto Report"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Krypto Report",
+        "produced_by",
+        "The Daily Stormer"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Faith Goldy\nFaith Julia Goldy (born 1989) is a Canadian right-wing writer and commentator. She has been noted for her sympathetic coverage of the alt-right for The Rebel Media, particularly on her former programme \"On The Hunt with Faith Goldy\", and her live coverage of events surrounding the 2017 Unite the Right rally in Charlottesville, Virginia. She was fired from The Rebel on August 17, 2017, in response to an interview she gave on \"The Krypto Report\", a podcast produced by the white supremacist site \"The Daily Stormer\"."
+}

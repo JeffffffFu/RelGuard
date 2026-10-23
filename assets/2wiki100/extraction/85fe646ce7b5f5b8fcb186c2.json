@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "The Mark of the Renegade": "Film",
+    "Hugo Fregonese": "Person",
+    "Ricardo Montalban": "Person",
+    "Cyd Charisse": "Person",
+    "Don Renegade": "Novel",
+    "Johnston McCulley": "Person",
+    "Los Angeles": "Location"
+  },
+  "triples": [
+    {
+      "subject": "The Mark of the Renegade",
+      "relation": "directed_by",
+      "object": "Hugo Fregonese",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Hugo Fregonese"
+        }
+      ]
+    },
+    {
+      "subject": "The Mark of the Renegade",
+      "relation": "starring",
+      "object": "Ricardo Montalban",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Ricardo Montalban"
+        }
+      ]
+    },
+    {
+      "subject": "Don Renegade",
+      "relation": "written_by",
+      "object": "Johnston McCulley",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Johnston McCulley"
+        }
+      ]
+    },
+    {
+      "subject": "The Mark of the Renegade",
+      "relation": "set_in",
+      "object": "Los Angeles",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "set in Mexican- ruled Los Angeles in the 1820s"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Mark of the Renegade",
+        "starring",
+        "Cyd Charisse"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Mark of the Renegade",
+        "based_on",
+        "Don Renegade"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Mark of the Renegade\nThe Mark of the Renegade is a 1951 American Technicolor adventure western film directed by Hugo Fregonese starring Ricardo Montalban and Cyd Charisse. The film is based on the novel\" Don Renegade\" by Johnston McCulley, and is set in Mexican- ruled Los Angeles in the 1820s."
+}

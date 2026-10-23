@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Big Mama's & Papa's Pizzeria": "ORG",
+    "Southern California": "LOC",
+    "Giant Sicilian": "PRODUCT",
+    "the world": "LOC",
+    "2014 Academy Awards": "EVENT",
+    "Ellen Degeneres": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Big Mama's & Papa's Pizzeria",
+      "relation": "located_in",
+      "object": "Southern California",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 67,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Big Mama's & Papa's Pizzeria",
+        "produces",
+        "Giant Sicilian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Giant Sicilian",
+        "claimed_to_be_in",
+        "the world"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Big Mama's & Papa's Pizzeria",
+        "had_delivered_onstage_at",
+        "2014 Academy Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ellen Degeneres",
+        "hosted",
+        "2014 Academy Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Big Mama's &amp; Papa's Pizzeria\nBig Mama's & Papa's Pizzeria is a pizza restaurant chain primarily located in Southern California. The chain is notable for its extremely large \"Giant Sicilian\" pizza, which is claimed to be the largest deliverable pizza in the world. Additionally, the chain gained notoriety when, during the 2014 Academy Awards, host Ellen Degeneres had Big Mama's pizzas delivered onstage.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Big Mama's & Papa's Pizzeria\", \"type\": \"ORG\"},\n    {\"name\": \"Southern California\", \"type\": \"LOC\"},\n    {\"name\": \"Giant Sicilian\", \"type\": \"PRODUCT\"},\n    {\"name\": \"the world\", \"type\": \"LOC\"},\n    {\"name\": \"2014 Academy Awards\", \"type\": \"EVENT\"},\n    {\"name\": \"Ellen Degeneres\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Big Mama's & Papa's Pizzeria\",\n      \"relation\": \"located_in\",\n      \"object\": \"Southern California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Big Mama's & Papa's Pizzeria\",\n      \"relation\": \"produces\",\n      \"object\": \"Giant Sicilian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"its extremely large \\\"Giant Sicilian\\\" pizza\"}\n      ]\n    },\n    {\n      \"subject\": \"Giant Sicilian\",\n      \"relation\": \"claimed_to_be_in\",\n      \"object\": \"the world\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"claimed to be the largest deliverable pizza in the world\"}\n      ]\n    },\n    {\n      \"subject\": \"Big Mama's & Papa's Pizzeria\",\n      \"relation\": \"had_delivered_onstage_at\",\n      \"object\": \"2014 Academy Awards\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"had Big Mama's pizzas delivered onstage\"}\n      ]\n    },\n    {\n      \"subject\": \"Ellen Degeneres\",\n      \"relation\": \"hosted\",\n      \"object\": \"2014 Academy Awards\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"host Ellen Degeneres had Big Mama's pizzas delivered onstage\"}\n      ]\n    }\n  ]\n}"
+}

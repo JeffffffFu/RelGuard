@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Emerson": "PERSON",
+    "Brazil": "GPE",
+    "Miami Dade FC": "ORG",
+    "Copa America": "EVENT",
+    "FIFA Confederations Cup": "EVENT",
+    "World Cup": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Emerson",
+      "relation": "plays_for",
+      "object": "Miami Dade FC",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently plays for Miami Dade FC"
+        }
+      ]
+    },
+    {
+      "subject": "Emerson",
+      "relation": "national_team",
+      "object": "Brazil",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played 73 games for the Brazil national team"
+        }
+      ]
+    },
+    {
+      "subject": "Emerson",
+      "relation": "won",
+      "object": "Copa America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "winning the 1999 Copa America"
+        }
+      ]
+    },
+    {
+      "subject": "Emerson",
+      "relation": "reached",
+      "object": "World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also reaching the 1998 World Cup Final"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Emerson",
+        "won",
+        "FIFA Confederations Cup"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Emerson (footballer, born 1976)\nÉmerson Ferreira da Rosa (born 4 April 1976), simply known as Emerson, is a Brazilian footballer who currently plays for Miami Dade FC as a defensive midfielder. He played 73 games for the Brazil national team between 1997 and 2006, winning the 1999 Copa America and the 2005 FIFA Confederations Cup, also reaching the 1998 World Cup Final. With Brazil, he has taken part in two FIFA World Cups (1998, 2006, missing out on the 2002 FIFA World Cup due to injury), two Copa Américas (1999, 2001), and three Confederation Cups (1999, 2003, 2005)."
+}

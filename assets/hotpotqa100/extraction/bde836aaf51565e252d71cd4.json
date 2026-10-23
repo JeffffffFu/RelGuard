@@ -1,0 +1,49 @@
+{
+  "entities": {
+    "The Daily Stormer": "ORG",
+    "Andrew Anglin": "PERSON",
+    "Total Fascism": "WORK_OF_ART",
+    "alt-right movement": "NORP",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "The Daily Stormer",
+      "relation": "is_part_of",
+      "object": "alt-right movement",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It considers itself a part of the alt-right movement."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Daily Stormer",
+        "founded",
+        "Andrew Anglin"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Andrew Anglin",
+        "founded",
+        "The Daily Stormer"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Daily Stormer",
+        "replaced",
+        "Total Fascism"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Daily Stormer\nThe Daily Stormer is an American neo-Nazi and white supremacist news and commentary website. It considers itself a part of the alt-right movement. Its editor, Andrew Anglin, founded it on July 4, 2013 as a faster-paced replacement for his previous website \"Total Fascism\"."
+}

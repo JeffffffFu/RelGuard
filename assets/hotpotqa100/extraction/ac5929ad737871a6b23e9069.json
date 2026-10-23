@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Coke Kahani": "TV Show",
+    "Mehreen Jabbar": "Director",
+    "Syed Mohammad Ahmed": "Writer",
+    "Yasir Rana": "Writer",
+    "Sonia Rehman": "Actor",
+    "Faisal Rehman": "Actor",
+    "Syra Yousuf": "Actor",
+    "Yasir Hussain": "Actor",
+    "Ahmed Zeb": "Actor",
+    "Shamim Hilali": "Actor"
+  },
+  "triples": [
+    {
+      "subject": "Coke Kahani",
+      "relation": "directed_by",
+      "object": "Mehreen Jabbar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Mehreen Jabbar"
+        }
+      ]
+    },
+    {
+      "subject": "Coke Kahani",
+      "relation": "written_by",
+      "object": "Syed Mohammad Ahmed",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Syed Mohammad Ahmed"
+        }
+      ]
+    },
+    {
+      "subject": "Coke Kahani",
+      "relation": "starring",
+      "object": "Sonia Rehman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Sonia Rehman"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Coke Kahani",
+        "written_by",
+        "Yasir Rana"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Coke Kahani",
+        "starring",
+        "Faisal Rehman"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Coke Kahani",
+        "starring",
+        "Syra Yousuf"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Coke Kahani",
+        "starring",
+        "Syed Mohammad Ahmed"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Coke Kahani",
+        "starring",
+        "Yasir Hussain"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Coke Kahani",
+        "starring",
+        "Ahmed Zeb"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Coke Kahani",
+        "starring",
+        "Shamim Hilali"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Coke Kahani",
+        "first_aired_on",
+        "3 November 2012"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Coke Kahani\nCoke Kahani (Urdu: کوک کہانی‎ ) is a 2012 Pakistani comedy drama sitcom directed by Mehreen Jabbar broadcasting on Broadcast syndication. Sitcom is written by Syed Mohammad Ahmed and Yasir Rana, starring Sonia Rehman, Faisal Rehman, Syra Yousuf, Syed Mohammad Ahmed, Yasir Hussain, Ahmed Zeb, Shamim Hilali. Sitcom was first aired on 3 November 2012."
+}

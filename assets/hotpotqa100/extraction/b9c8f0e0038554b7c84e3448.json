@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Pizza Inn": "ORG",
+    "The Colony": "GPE",
+    "Texas": "GPE",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Pizza Inn",
+      "relation": "based_in",
+      "object": "The Colony",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The company is based in the Dallas suburb of The Colony, Texas"
+        }
+      ]
+    },
+    {
+      "subject": "The Colony",
+      "relation": "located_in",
+      "object": "Texas",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The Colony, Texas"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pizza Inn",
+        "specializes_in",
+        "American-style pan pizza"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pizza Inn",
+        "is_a",
+        "American restaurant chain"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Pizza Inn\nPizza Inn is an American restaurant chain and international food franchise, specializing in American-style pan pizza and side dishes. The company is based in the Dallas suburb of The Colony, Texas."
+}

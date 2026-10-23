@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Cyril Holland": "Person",
+    "Cyril Wilde": "Person",
+    "Oscar Wilde": "Person",
+    "Constance Lloyd": "Person",
+    "Vyvyan Holland": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Cyril Holland",
+      "relation": "born_as",
+      "object": "Cyril Wilde",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Cyril Holland( born Cyril Wilde, 5 June 1885 – 9 May 1915)"
+        }
+      ]
+    },
+    {
+      "subject": "Cyril Holland",
+      "relation": "son_of",
+      "object": "Oscar Wilde",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the older of the two sons of Oscar Wilde"
+        }
+      ]
+    },
+    {
+      "subject": "Cyril Holland",
+      "relation": "brother_to",
+      "object": "Vyvyan Holland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and brother to Vyvyan Holland"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Cyril Holland",
+        "son_of",
+        "Constance Lloyd"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Cyril Holland\nCyril Holland( born Cyril Wilde, 5 June 1885 – 9 May 1915) was the older of the two sons of Oscar Wilde and Constance Lloyd and brother to Vyvyan Holland."
+}

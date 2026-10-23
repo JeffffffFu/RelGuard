@@ -1,0 +1,156 @@
+{
+  "entities": {
+    "Maria, Duchess of Guelders": "Person",
+    "Marie of Guelders": "Person",
+    "William": "Person",
+    "Reginald III of Guelders": "Person",
+    "Edward of Guelders": "Person",
+    "Mathilda": "Person",
+    "Frederik van Heeckeren van der Eze": "Person",
+    "Gijsbert V van Bronckhorst": "Person",
+    "Reginald II, Duke of Guelders": "Person",
+    "Sophie Berthout": "Person",
+    "William II, Duke of Jülich": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Marie of Guelders",
+      "relation": "claimed_on_behalf_of",
+      "object": "William",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on behalf of her son"
+        }
+      ]
+    },
+    {
+      "subject": "Reginald III of Guelders",
+      "relation": "brother_of",
+      "object": "Marie of Guelders",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "her brothers, Reginald III of Guelders"
+        }
+      ]
+    },
+    {
+      "subject": "Reginald III of Guelders",
+      "relation": "died_months_after",
+      "object": "Edward of Guelders",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Reginald, who was known as the fat, died months later"
+        }
+      ]
+    },
+    {
+      "subject": "Frederik van Heeckeren van der Eze",
+      "relation": "led",
+      "object": "Mathilda",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "were led by Frederik van Heeckeren van der Eze"
+        }
+      ]
+    },
+    {
+      "subject": "Gijsbert V van Bronckhorst",
+      "relation": "led",
+      "object": "Marie of Guelders",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "was led by Gijsbert V van Bronckhorst"
+        }
+      ]
+    },
+    {
+      "subject": "Marie of Guelders",
+      "relation": "daughter_of",
+      "object": "Reginald II, Duke of Guelders",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "Marie was daughter of Reginald II, Duke of Guelders"
+        }
+      ]
+    },
+    {
+      "subject": "Marie of Guelders",
+      "relation": "daughter_of",
+      "object": "Sophie Berthout",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "and Sophie Berthout, lady of Malines"
+        }
+      ]
+    },
+    {
+      "subject": "Marie of Guelders",
+      "relation": "married_to",
+      "object": "William II, Duke of Jülich",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "On December 25, 1362, she married William II, Duke of Jülich"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marie of Guelders",
+        "pretender_to",
+        "Duchess of Guelders"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Marie of Guelders",
+        "pretender_to",
+        "Countess of Zutphen"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Edward of Guelders",
+        "brother_of",
+        "Marie of Guelders"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Edward of Guelders",
+        "died_in",
+        "Battle of Baesweiler"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mathilda",
+        "sister_of",
+        "Marie of Guelders"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "William",
+        "received_title_of",
+        "Duke of Guelders"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Maria, Duchess of Guelders\nMarie of Guelders( † May 12, 1405) was one of two pretenders to the title of Duchess of Guelders and Countess of Zutphen on behalf of her son during the War of the Guelderian Succession from 1371 to 1379. The war began after the deaths of her brothers, Reginald III of Guelders and Edward of Guelders. Edward died from wounds received at the Battle of Baesweiler, and Reginald, who was known as the fat, died months later. Succession was also claimed by Marie's sister, Mathilda, whose side was called the\" Heeckerens\" and were led by Frederik van Heeckeren van der Eze( 1320- 1386). Her party was called the\" Bronckhorsters\" and was led by Gijsbert V van Bronckhorst( 1328- 1356). Upon victory of her party, the title of Duke of Guelders went to her son, William. Marie was daughter of Reginald II, Duke of Guelders and Sophie Berthout, lady of Malines. On December 25, 1362, she married William II, Duke of Jülich( † 1393). They had three children:"
+}

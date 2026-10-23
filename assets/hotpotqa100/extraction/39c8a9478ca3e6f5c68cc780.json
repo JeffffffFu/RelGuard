@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "Harry Emerson Wildes": "Person",
+    "William Penn": "Person",
+    "George Fox": "Person",
+    "Anthony Wayne": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Harry Emerson Wildes",
+      "relation": "best_known_for",
+      "object": "William Penn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his biographies of William Penn"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Harry Emerson Wildes",
+        "best_known_for",
+        "George Fox"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Harry Emerson Wildes",
+        "best_known_for",
+        "Anthony Wayne"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Harry Emerson Wildes\nHarry Emerson Wildes (April 3, 1890 in Philadelphia, Pennsylvania - 1982) an American sociologist, historian and writer who is best known for his biographies of William Penn, George Fox and Anthony Wayne."
+}

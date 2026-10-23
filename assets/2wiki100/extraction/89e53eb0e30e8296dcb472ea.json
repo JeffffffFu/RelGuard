@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "La Makina": "band",
+    "Fernando Colon": "person",
+    "Orlando Santana": "person",
+    "Los Sabrosos del Merengue": "band",
+    "Wilfrido Vargas": "person",
+    "Toño Rosario": "person",
+    "Hot Latin Songs": "chart",
+    "United States": "location",
+    "Tropical New Artist of the Year": "award",
+    "Lo Nuestro Awards": "award"
+  },
+  "triples": [
+    {
+      "subject": "Fernando Colon",
+      "relation": "worked_with",
+      "object": "Los Sabrosos del Merengue",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Fernando Colon( a former bassist for Los Sabrosos del Merengue)"
+        }
+      ]
+    },
+    {
+      "subject": "Orlando Santana",
+      "relation": "worked_with",
+      "object": "Wilfrido Vargas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Orlando Santana( who worked with Wilfrido Vargas and Toño Rosario)"
+        }
+      ]
+    },
+    {
+      "subject": "Orlando Santana",
+      "relation": "worked_with",
+      "object": "Toño Rosario",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Orlando Santana( who worked with Wilfrido Vargas and Toño Rosario)"
+        }
+      ]
+    },
+    {
+      "subject": "La Makina",
+      "relation": "ranked_on",
+      "object": "Hot Latin Songs",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Several of the group's songs have ranked on the Hot Latin Songs chart in the United States."
+        }
+      ]
+    },
+    {
+      "subject": "La Makina",
+      "relation": "received_nomination_for",
+      "object": "Tropical New Artist of the Year",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The band received a nomination for Tropical New Artist of the Year at the 1997 Lo Nuestro Awards."
+        }
+      ]
+    },
+    {
+      "subject": "Tropical New Artist of the Year",
+      "relation": "part_of",
+      "object": "Lo Nuestro Awards",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The band received a nomination for Tropical New Artist of the Year at the 1997 Lo Nuestro Awards."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "La Makina",
+        "formed_in",
+        "1990s"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "La Makina",
+        "organized_by",
+        "Fernando Colon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "La Makina",
+        "organized_by",
+        "Orlando Santana"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "La Makina\nLa Makina was a Dominican> ref></ ref> merengue band formed in the 1990s. The group was organized by Fernando Colon( a former bassist for Los Sabrosos del Merengue) and Orlando Santana( who worked with Wilfrido Vargas and Toño Rosario). Several of the group's songs have ranked on the Hot Latin Songs chart in the United States. The band received a nomination for Tropical New Artist of the Year at the 1997 Lo Nuestro Awards."
+}

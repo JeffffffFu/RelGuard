@@ -1,0 +1,61 @@
+{
+  "entities": {
+    "Invasion of the Neptune Men": "WORK_OF_ART",
+    "Japan": "GPE",
+    "United States": "GPE",
+    "Mystery Science Theater 3000": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Invasion of the Neptune Men",
+      "relation": "released_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was released in",
+          "line_start": 9,
+          "char_start": 37,
+          "ambiguous": false,
+          "relation_mention": "was released in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Invasion of the Neptune Men",
+      "relation": "released_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released in",
+          "line_start": 13,
+          "char_start": 41,
+          "ambiguous": true,
+          "relation_mention": "released in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Invasion of the Neptune Men",
+      "relation": "featured_on",
+      "object": "Mystery Science Theater 3000",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was featured on",
+          "line_start": 116,
+          "char_start": 144,
+          "ambiguous": false,
+          "relation_mention": "was featured on",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Invasion of the Neptune Men\nThe film was released in 1961 in Japan and was later released in the United States on television. In 1998, the film was featured on an episode of\" Mystery Science Theater 3000\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Invasion of the Neptune Men\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Japan\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Mystery Science Theater 3000\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Invasion of the Neptune Men\",\n      \"relation\": \"released_in\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was released in\"}\n      ]\n    },\n    {\n      \"subject\": \"Invasion of the Neptune Men\",\n      \"relation\": \"released_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released in\"}\n      ]\n    },\n    {\n      \"subject\": \"Invasion of the Neptune Men\",\n      \"relation\": \"featured_on\",\n      \"object\": \"Mystery Science Theater 3000\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was featured on\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,195 @@
+{
+  "entities": {
+    "Schenectady": "GPE",
+    "Schenectady County": "GPE",
+    "New York": "GPE",
+    "United States": "GPE",
+    "Mohawk River": "LOC",
+    "Dutch": "NORP",
+    "Albany": "GPE",
+    "Albany monopoly": "ORG",
+    "English": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Schenectady",
+      "relation": "located_in",
+      "object": "Schenectady County",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a city in",
+          "line_start": 16,
+          "char_start": 38,
+          "ambiguous": false,
+          "relation_mention": "is a city in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "New York",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "United States",
+          "line_start": 59,
+          "char_start": 81,
+          "ambiguous": false,
+          "relation_mention": "United States",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "line": 1,
+          "predicate": "Schenectady, New York",
+          "line_start": 0,
+          "char_start": 0,
+          "ambiguous": false,
+          "relation_mention": "Schenectady, New York",
+          "sentence_id": 1
+        },
+        {
+          "line": 2,
+          "predicate": "in Schenectady County, New York",
+          "line_start": 26,
+          "char_start": 48,
+          "ambiguous": false,
+          "relation_mention": "in Schenectady County, New York",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Schenectady County, New York, United States",
+          "line_start": 26,
+          "char_start": 48,
+          "ambiguous": false,
+          "relation_mention": "in Schenectady County, New York, United States",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady",
+      "relation": "located_in",
+      "object": "Mohawk River",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "on the south side of the Mohawk River",
+          "line_start": 282,
+          "char_start": 304,
+          "ambiguous": false,
+          "relation_mention": "on the south side of the Mohawk River",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Schenectady",
+      "relation": "founded",
+      "object": "Dutch",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded on the south side of the Mohawk River by Dutch colonists",
+          "line_start": 270,
+          "char_start": 292,
+          "ambiguous": false,
+          "relation_mention": "was founded on the south side of the Mohawk River by Dutch colonists",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Dutch",
+      "relation": "located_in",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "from the Albany area",
+          "line_start": 365,
+          "char_start": 387,
+          "ambiguous": false,
+          "relation_mention": "from the Albany area",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Albany monopoly",
+      "relation": "worked_for",
+      "object": "Albany",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Albany monopoly",
+          "line_start": 434,
+          "char_start": 456,
+          "ambiguous": false,
+          "relation_mention": "Albany monopoly",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Albany monopoly",
+      "relation": "prohibited",
+      "object": "Dutch",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "prohibited from the fur trade by the Albany monopoly",
+          "line_start": 397,
+          "char_start": 419,
+          "ambiguous": false,
+          "relation_mention": "prohibited from the fur trade by the Albany monopoly",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Albany monopoly",
+      "relation": "kept_control_after",
+      "object": "English",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "kept its control after the English takeover in 1664",
+          "line_start": 457,
+          "char_start": 479,
+          "ambiguous": false,
+          "relation_mention": "kept its control after the English takeover in 1664",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Schenectady County",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Schenectady, New York\nSchenectady ( ) is a city in Schenectady County, New York, United States, of which it is the county seat. As of the 2010 census, the city had a population of 66,135. The name \"Schenectady\" is derived from a Mohawk word \"skahnéhtati\" meaning \"beyond the pines\". The city was founded on the south side of the Mohawk River by Dutch colonists in the 17th century, many from the Albany area. They were prohibited from the fur trade by the Albany monopoly, which kept its control after the English takeover in 1664. Residents of the new village developed farms on strip plots along the river."
+}

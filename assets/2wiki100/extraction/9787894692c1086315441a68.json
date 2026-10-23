@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "College Lovers": "film",
+    "First National Pictures": "company",
+    "Warner Bros.": "company",
+    "John G. Adolfi": "person",
+    "Jack Whiting": "person",
+    "Marian Nixon": "person",
+    "Frank McHugh": "person",
+    "Guinn' Big Boy' Williams": "person",
+    "Earl Baldwin": "person"
+  },
+  "triples": [
+    {
+      "subject": "College Lovers",
+      "relation": "produced_by",
+      "object": "First National Pictures",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced and released by First National Pictures"
+        }
+      ]
+    },
+    {
+      "subject": "First National Pictures",
+      "relation": "subsidiary_of",
+      "object": "Warner Bros.",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a subsidiary of Warner Bros."
+        }
+      ]
+    },
+    {
+      "subject": "College Lovers",
+      "relation": "directed_by",
+      "object": "John G. Adolfi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by John G. Adolfi"
+        }
+      ]
+    },
+    {
+      "subject": "College Lovers",
+      "relation": "stars",
+      "object": "Jack Whiting",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The movie stars Jack Whiting"
+        }
+      ]
+    },
+    {
+      "subject": "College Lovers",
+      "relation": "based_on",
+      "object": "Earl Baldwin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on the story by Earl Baldwin"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "College Lovers",
+        "stars",
+        "Marian Nixon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "College Lovers",
+        "stars",
+        "Frank McHugh"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "College Lovers",
+        "stars",
+        "Guinn' Big Boy' Williams"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "College Lovers\nCollege Lovers is a 1930 early talkie Pre-Code comedy film produced and released by First National Pictures, a subsidiary of Warner Bros., and directed by John G. Adolfi. The movie stars Jack Whiting, Marian Nixon, Frank McHugh and Guinn' Big Boy' Williams. The film was based on the story by Earl Baldwin."
+}

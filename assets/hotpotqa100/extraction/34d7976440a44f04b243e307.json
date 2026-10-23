@@ -1,0 +1,126 @@
+{
+  "entities": {
+    "Vidant Medical Center": "Organization",
+    "Pitt County Memorial Hospital": "Organization",
+    "Greenville": "Location",
+    "North Carolina": "Location",
+    "East Carolina University": "Organization",
+    "Brody School of Medicine": "Organization",
+    "Vidant Health": "Organization",
+    "Level 1 Trauma Center": "Facility",
+    "Raleigh": "Location",
+    "Eastern North Carolina": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Vidant Medical Center",
+      "relation": "previously_known_as",
+      "object": "Pitt County Memorial Hospital",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Vidant Medical Center (previously, Pitt County Memorial Hospital)"
+        }
+      ]
+    },
+    {
+      "subject": "Vidant Medical Center",
+      "relation": "located_in",
+      "object": "Greenville",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in Greenville"
+        }
+      ]
+    },
+    {
+      "subject": "Vidant Medical Center",
+      "relation": "located_in",
+      "object": "North Carolina",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in Greenville, North Carolina"
+        }
+      ]
+    },
+    {
+      "subject": "Vidant Medical Center",
+      "relation": "primary_teaching_hospital_for",
+      "object": "East Carolina University",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the primary teaching hospital for East Carolina University's Brody School of Medicine"
+        }
+      ]
+    },
+    {
+      "subject": "Vidant Medical Center",
+      "relation": "flagship_medical_center_for",
+      "object": "Vidant Health",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the flagship medical center for Vidant Health"
+        }
+      ]
+    },
+    {
+      "subject": "Vidant Medical Center",
+      "relation": "is_a",
+      "object": "Level 1 Trauma Center",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Vidant is a Level 1 Trauma Center"
+        }
+      ]
+    },
+    {
+      "subject": "Vidant Medical Center",
+      "relation": "is_the_only",
+      "object": "Level 1 Trauma Center",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the only level I trauma center east of Raleigh"
+        }
+      ]
+    },
+    {
+      "subject": "Vidant Medical Center",
+      "relation": "largest_employer_in",
+      "object": "Eastern North Carolina",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the largest employer in Eastern North Carolina"
+        }
+      ]
+    },
+    {
+      "subject": "Vidant Medical Center",
+      "relation": "20th_overall_in",
+      "object": "North Carolina",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "20th overall in the state"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vidant Medical Center",
+        "hub_of_medical_care_for",
+        "over 2 million people"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Vidant Medical Center\nVidant Medical Center (previously, Pitt County Memorial Hospital) is a hospital located in Greenville, North Carolina. It is the primary teaching hospital for East Carolina University's Brody School of Medicine and is the flagship medical center for Vidant Health. Vidant is a Level 1 Trauma Center, one of 6 in the state of North Carolina. It is the only level I trauma center east of Raleigh, and thus is the hub of medical care for a broad and complicated rural region of over 2 million people. Vidant Medical Center is the largest employer in Eastern North Carolina and 20th overall in the state."
+}

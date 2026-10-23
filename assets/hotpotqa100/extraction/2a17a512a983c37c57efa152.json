@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Gino's Hamburgers": "ORG",
+    "Baltimore": "GPE",
+    "Maryland": "GPE",
+    "Gino Marchetti": "PERSON",
+    "Alan Ameche": "PERSON",
+    "Louis Fischer": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Gino's Hamburgers",
+      "relation": "founded",
+      "object": "Baltimore",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "founded in Baltimore"
+        }
+      ]
+    },
+    {
+      "subject": "Gino's Hamburgers",
+      "relation": "founded_by",
+      "object": "Gino Marchetti",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "founded in Baltimore, Maryland, by Baltimore Colts defensive end Gino Marchetti"
+        }
+      ]
+    },
+    {
+      "subject": "Gino's Hamburgers",
+      "relation": "founded_by",
+      "object": "Alan Ameche",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "founded in Baltimore, Maryland, by Baltimore Colts defensive end Gino Marchetti and running back Alan Ameche"
+        }
+      ]
+    },
+    {
+      "subject": "Gino's Hamburgers",
+      "relation": "founded_by",
+      "object": "Louis Fischer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "founded in Baltimore, Maryland, by Baltimore Colts defensive end Gino Marchetti and running back Alan Ameche, along with their close friend Louis Fischer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gino's Hamburgers",
+        "founded",
+        "Maryland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Gino's Hamburgers\nGino's Hamburgers was a fast-food restaurant chain founded in Baltimore, Maryland, by Baltimore Colts defensive end Gino Marchetti and running back Alan Ameche, along with their close friend Louis Fischer, in 1957. A new group of restaurants under the Gino's name involving some of the principals of the original chain was started in 2010."
+}

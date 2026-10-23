@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Admir Čavalić": "PERSON",
+    "Association \"Multi\"": "ORG",
+    "Bosnia and Herzegovina": "GPE",
+    "OPEN Fest": "EVENT",
+    "Faculty of Economics University of Tuzla": "ORG",
+    "Dženan Smajić": "PERSON",
+    "Islam and Free Market": "WORK_OF_ART",
+    "Economy": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Admir Čavalić",
+      "relation": "works_for",
+      "object": "Association \"Multi\"",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Admir Čavalić is the Director of Association \"Multi\""
+        }
+      ]
+    },
+    {
+      "subject": "Association \"Multi\"",
+      "relation": "located_in",
+      "object": "Bosnia and Herzegovina",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a non-profit organization dedicated to promoting libertarian ideals in Bosnia and Herzegovina"
+        }
+      ]
+    },
+    {
+      "subject": "Admir Čavalić",
+      "relation": "directed",
+      "object": "OPEN Fest",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Čavalić is the director of OPEN Fest"
+        }
+      ]
+    },
+    {
+      "subject": "Admir Čavalić",
+      "relation": "works_at",
+      "object": "Faculty of Economics University of Tuzla",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Čavalić also works at Faculty of Economics University of Tuzla"
+        }
+      ]
+    },
+    {
+      "subject": "Admir Čavalić",
+      "relation": "co_authored",
+      "object": "Islam and Free Market",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Čavalić with Dženan Smajić wrote \"Islam and Free Market\""
+        }
+      ]
+    },
+    {
+      "subject": "Admir Čavalić",
+      "relation": "created",
+      "object": "Economy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Čavalić made first bosnian documentary about economics, titled \"Economy\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "OPEN Fest",
+        "located_in",
+        "Europe"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Islam and Free Market",
+        "published_in",
+        "Bosnian"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Admir Čavalić\nAdmir Čavalić is the Director of Association \"Multi\", a non-profit organization dedicated to promoting libertarian ideals in Bosnia and Herzegovina. \"Multi\" is the first non-profit organization registered in Bosnia and Herzegovina that advocates libertarian ideas. Čavalić is the director of OPEN Fest, biggest libertarian festival in Europe. Čavalić also works at Faculty of Economics University of Tuzla, as an assistant teacher. Čavalić with Dženan Smajić wrote \"Islam and Free Market\" in 2014. The book, that was published in Bosnian, provides arguments for Islam's connection with the ideas of economic liberalism. Čavalić made first bosnian documentary about economics, titled \"Economy\"."
+}

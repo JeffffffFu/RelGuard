@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "Gill-man": "PERSON",
+    "The Creature": "PERSON",
+    "Creature from the Black Lagoon": "WORK_OF_ART",
+    "Revenge of the Creature": "WORK_OF_ART",
+    "The Creature Walks Among Us": "WORK_OF_ART",
+    "1954": "EVENT",
+    "1955": "EVENT",
+    "1956": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Gill-man",
+      "relation": "commonly_called",
+      "object": "The Creature",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Gill-man—commonly called The Creature"
+        }
+      ]
+    },
+    {
+      "subject": "Gill-man",
+      "relation": "is_lead_antagonist_of",
+      "object": "Creature from the Black Lagoon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the lead antagonist of the 1954 black-and-white science fiction film \"Creature from the Black Lagoon\""
+        }
+      ]
+    },
+    {
+      "subject": "Creature from the Black Lagoon",
+      "relation": "has_sequel",
+      "object": "Revenge of the Creature",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and its two sequels \"Revenge of the Creature\" (1955)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Creature from the Black Lagoon",
+        "has_sequel",
+        "The Creature Walks Among Us"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Gill-man\nGill-man—commonly called The Creature—is the lead antagonist of the 1954 black-and-white science fiction film \"Creature from the Black Lagoon\" and its two sequels \"Revenge of the Creature\" (1955) and \"The Creature Walks Among Us\" (1956)."
+}

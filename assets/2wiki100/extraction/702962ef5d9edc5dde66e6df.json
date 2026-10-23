@@ -1,0 +1,65 @@
+{
+  "entities": {
+    "Ali Akbar Isfahani": "Person",
+    "Shah Mosque": "Building",
+    "Shah Abbas": "Person",
+    "Badi' al- Zaman Yazdi": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Ali Akbar Isfahani",
+      "relation": "best_known_for",
+      "object": "Shah Mosque",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "best known for the Shah Mosque commissioned by Shah Abbas"
+        }
+      ]
+    },
+    {
+      "subject": "Shah Mosque",
+      "relation": "commissioned_by",
+      "object": "Shah Abbas",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "commissioned by Shah Abbas"
+        }
+      ]
+    },
+    {
+      "subject": "Ali Akbar Isfahani",
+      "relation": "pupil_of",
+      "object": "Badi' al- Zaman Yazdi",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "He was a pupil of Badi' al- Zaman Yazdi"
+        }
+      ]
+    },
+    {
+      "subject": "Badi' al- Zaman Yazdi",
+      "relation": "grand_architect_of",
+      "object": "Shah Abbas",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "the grand architect of Shah Abbas"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ali Akbar Isfahani",
+        "born_in",
+        "985 AH( 1577 AD)"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ali Akbar Isfahani\nAli Akbar Isfahani was a 17th century Persian architect of the Safavid era. He is best known for the Shah Mosque commissioned by Shah Abbas and built in 1611 – 1631. His name appears in an inscription in the mosque above the doorway of the entrance iwan complex of the mosque. Isfahani was born in 985 AH( 1577 AD). He was a pupil of Badi' al- Zaman Yazdi, the grand architect of Shah Abbas."
+}

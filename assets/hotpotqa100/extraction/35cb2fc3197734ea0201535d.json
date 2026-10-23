@@ -1,0 +1,112 @@
+{
+  "entities": {
+    "Wise Blood": "film",
+    "John Huston": "person",
+    "Flannery O'Connor": "person",
+    "Macon, Georgia": "location",
+    "Andalusia": "location",
+    "Baldwin County": "location",
+    "Alex North": "person",
+    "Der Ketzer": "film",
+    "Die Weisheit des Blutes": "film",
+    "Le Malin": "film"
+  },
+  "triples": [
+    {
+      "subject": "Wise Blood",
+      "relation": "directed_by",
+      "object": "John Huston",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by John Huston"
+        }
+      ]
+    },
+    {
+      "subject": "Wise Blood",
+      "relation": "based_on",
+      "object": "Flannery O'Connor",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on the 1952 novel \"Wise Blood\" by Flannery O'Connor"
+        }
+      ]
+    },
+    {
+      "subject": "Wise Blood",
+      "relation": "filmed_in",
+      "object": "Macon, Georgia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "filmed mostly in and around Macon, Georgia"
+        }
+      ]
+    },
+    {
+      "subject": "Flannery O'Connor",
+      "relation": "located_in",
+      "object": "Andalusia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "near O'Connor's home Andalusia"
+        }
+      ]
+    },
+    {
+      "subject": "Andalusia",
+      "relation": "located_in",
+      "object": "Baldwin County",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Baldwin County"
+        }
+      ]
+    },
+    {
+      "subject": "Wise Blood",
+      "relation": "composed_by",
+      "object": "Alex North",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The original music score was composed by Alex North"
+        }
+      ]
+    },
+    {
+      "subject": "Wise Blood",
+      "relation": "titled",
+      "object": "Der Ketzer",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "titled Der Ketzer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wise Blood",
+        "titled",
+        "Die Weisheit des Blutes"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wise Blood",
+        "titled",
+        "Le Malin"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Wise Blood (film)\nWise Blood is an American 1979 drama film directed by John Huston and based on the 1952 novel \"Wise Blood\" by Flannery O'Connor. It was filmed mostly in and around Macon, Georgia, near O'Connor's home Andalusia in Baldwin County, using many local residents as extras. Though largely faithful to O'Connor's novel, Huston reframes many scenes from the book as broad comedy accompanied by a bluegrass banjo score. The original music score was composed by Alex North. The film was titled Der Ketzer or Die Weisheit des Blutes when released in Germany, and Le Malin when released in France."
+}

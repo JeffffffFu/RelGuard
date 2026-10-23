@@ -1,0 +1,159 @@
+{
+  "entities": {
+    "Toyota Fortuner": "PRODUCT",
+    "Toyota SW4": "PRODUCT",
+    "Toyota": "ORG",
+    "Thailand": "GPE",
+    "Indonesia": "GPE",
+    "Toyota Hilux": "PRODUCT",
+    "Toyota's IMV project": "ORG",
+    "Kijang Innova": "PRODUCT",
+    "Toyota’s Thai operations": "ORG",
+    "Egypt": "GPE",
+    "Pakistan": "GPE",
+    "India": "GPE",
+    "Argentina": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Toyota Fortuner",
+      "relation": "also_known_as",
+      "object": "Toyota SW4",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also known as",
+          "line_start": 64,
+          "char_start": 80,
+          "ambiguous": false,
+          "relation_mention": "also known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Fortuner",
+      "relation": "manufactured_by",
+      "object": "Toyota",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "manufactured by",
+          "line_start": 112,
+          "char_start": 128,
+          "ambiguous": false,
+          "relation_mention": "manufactured by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Fortuner",
+      "relation": "originally_assembled_in",
+      "object": "Thailand",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "assembled only in",
+          "line_start": 147,
+          "char_start": 163,
+          "ambiguous": false,
+          "relation_mention": "assembled only in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Toyota Fortuner",
+        "assembled_in",
+        "Indonesia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Fortuner",
+        "built_on",
+        "Toyota Hilux"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Fortuner",
+        "part_of",
+        "Toyota's IMV project"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota's IMV project",
+        "includes",
+        "Toyota Hilux"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota's IMV project",
+        "includes",
+        "Kijang Innova"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Fortuner",
+        "developed_by",
+        "Toyota’s Thai operations"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Fortuner",
+        "built_in",
+        "Egypt"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Fortuner",
+        "built_in",
+        "Pakistan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Fortuner",
+        "built_in",
+        "India"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Fortuner",
+        "built_in",
+        "Argentina"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Fortuner",
+        "built_in",
+        "Indonesia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Toyota Fortuner\nThe Toyota Fortuner (Japanese: トヨタ フォーチュナー , Toyota fōchunā ) , also known as the Toyota SW4, is a mid-size SUV manufactured by Toyota. Originally assembled only in Thailand but later also in Indonesia and other countries, the Fortuner is built on the Toyota Hilux pickup truck platform. It features three rows of seats and is available in rear-wheel drive or four-wheel drive. The Fortuner is part of Toyota's IMV project in Thailand, which also includes the Toyota Hilux and the Kijang Innova (in Indonesia). Developed in large part by Toyota’s Thai operations, the Fortuner has piggybacked the success of the Hilux and is now built in a number of countries including Egypt, Pakistan, India, Argentina and Indonesia.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Toyota Fortuner\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Toyota SW4\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Toyota\", \"type\": \"ORG\"},\n    {\"name\": \"Thailand\", \"type\": \"GPE\"},\n    {\"name\": \"Indonesia\", \"type\": \"GPE\"},\n    {\"name\": \"Toyota Hilux\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Toyota's IMV project\", \"type\": \"ORG\"},\n    {\"name\": \"Kijang Innova\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Toyota’s Thai operations\", \"type\": \"ORG\"},\n    {\"name\": \"Egypt\", \"type\": \"GPE\"},\n    {\"name\": \"Pakistan\", \"type\": \"GPE\"},\n    {\"name\": \"India\", \"type\": \"GPE\"},\n    {\"name\": \"Argentina\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Toyota SW4\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"manufactured_by\",\n      \"object\": \"Toyota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"manufactured by\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"originally_assembled_in\",\n      \"object\": \"Thailand\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"assembled only in\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"assembled_in\",\n      \"object\": \"Indonesia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also in Indonesia\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"built_on\",\n      \"object\": \"Toyota Hilux\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"built on the Toyota Hilux\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"part_of\",\n      \"object\": \"Toyota's IMV project\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"part of Toyota's IMV project\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota's IMV project\",\n      \"relation\": \"includes\",\n      \"object\": \"Toyota Hilux\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"includes the Toyota Hilux\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota's IMV project\",\n      \"relation\": \"includes\",\n      \"object\": \"Kijang Innova\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and the Kijang Innova\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"developed_by\",\n      \"object\": \"Toyota’s Thai operations\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Developed in large part by Toyota’s Thai operations\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"built_in\",\n      \"object\": \"Egypt\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"built in a number of countries including Egypt\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"built_in\",\n      \"object\": \"Pakistan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"including Egypt, Pakistan\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"built_in\",\n      \"object\": \"India\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Pakistan, India\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"built_in\",\n      \"object\": \"Argentina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"India, Argentina and Indonesia\"}\n      ]\n    },\n    {\n      \"subject\": \"Toyota Fortuner\",\n      \"relation\": \"built_in\",\n      \"object\": \"Indonesia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Argentina and Indonesia\"}\n      ]\n    }\n  ]\n}"
+}

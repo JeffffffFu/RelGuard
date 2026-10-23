@@ -1,0 +1,65 @@
+{
+  "entities": {
+    "Jazz Boat": "Film",
+    "Ken Hughes": "Person",
+    "Anthony Newley": "Person",
+    "Anne Aubrey": "Person",
+    "Lionel Jeffries": "Person",
+    "Ted Heath": "Person",
+    "orchestra": "Group"
+  },
+  "triples": [
+    {
+      "subject": "Jazz Boat",
+      "relation": "directed_by",
+      "object": "Ken Hughes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Ken Hughes"
+        }
+      ]
+    },
+    {
+      "subject": "Jazz Boat",
+      "relation": "starring",
+      "object": "Anthony Newley",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Anthony Newley"
+        }
+      ]
+    },
+    {
+      "subject": "Ted Heath",
+      "relation": "leader_of",
+      "object": "orchestra",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "big band leader Ted Heath and his orchestra"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jazz Boat",
+        "starring",
+        "Anne Aubrey"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jazz Boat",
+        "starring",
+        "Lionel Jeffries"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Jazz Boat\nJazz Boat is a 1960 British musical comedy film directed by Ken Hughes and starring Anthony Newley, Anne Aubrey, Lionel Jeffries and big band leader Ted Heath and his orchestra."
+}

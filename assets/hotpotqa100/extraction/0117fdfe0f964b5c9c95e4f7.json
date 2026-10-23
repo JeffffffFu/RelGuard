@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Drangarnir": "location",
+    "Tindhólmur": "location",
+    "Vágar": "location",
+    "Stóri Drangur": "location",
+    "Lítli Drangur": "location",
+    "Faroe Islands": "location"
+  },
+  "triples": [
+    {
+      "subject": "Drangarnir",
+      "relation": "located_between",
+      "object": "Tindhólmur",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "between the islet Tindhólmur and the island Vágar"
+        }
+      ]
+    },
+    {
+      "subject": "Drangarnir",
+      "relation": "located_in",
+      "object": "Faroe Islands",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Faroe Islands"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Stóri Drangur",
+        "part_of",
+        "Drangarnir"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Lítli Drangur",
+        "part_of",
+        "Drangarnir"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Stóri Drangur",
+        "translated_as",
+        "Large cliff"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lítli Drangur",
+        "translated_as",
+        "Small cliff"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Drangarnir\nDrangarnir is the collective name for two sea stacks between the islet Tindhólmur and the island Vágar in the Faroe Islands. The individual names of the sea stacks are \"Stóri Drangur\" (en: Large cliff) and \"Lítli Drangur\" (en: Small cliff)."
+}

@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Remote Control Productions, Inc.": "ORG",
+    "Hans Zimmer": "PERSON",
+    "Santa Monica": "GPE",
+    "California": "GPE",
+    "Media Ventures": "WORK_OF_ART",
+    "Jay Rifkin": "PERSON",
+    "Remote Control": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Remote Control Productions, Inc.",
+      "relation": "run_by",
+      "object": "Hans Zimmer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "run by",
+          "line_start": 57,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "run by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Remote Control Productions, Inc.",
+      "relation": "based_in",
+      "object": "Santa Monica",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 89,
+          "char_start": 116,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Media Ventures",
+      "relation": "conceived_and_founded_by",
+      "object": "Jay Rifkin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "conceived and founded by",
+          "line_start": 174,
+          "char_start": 201,
+          "ambiguous": false,
+          "relation_mention": "conceived and founded by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Media Ventures",
+      "relation": "conceived_and_founded_by",
+      "object": "Hans Zimmer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "conceived and founded by",
+          "line_start": 174,
+          "char_start": 201,
+          "ambiguous": false,
+          "relation_mention": "conceived and founded by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Santa Monica",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Remote Control",
+        "is_home_to",
+        "Hans Zimmer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Remote Control Productions\nRemote Control Productions, Inc. is a film score company run by composer Hans Zimmer and based in Santa Monica, California. Originally known as \"\"Media Ventures,\"\" which was conceived and founded by Jay Rifkin and Hans Zimmer, the company changed its name after the partners both filed lawsuits against each other. Today, Remote Control is home to a large group of composers mentored by Zimmer, many of whom have had successful film scoring careers as part of the company or on their own.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Remote Control Productions, Inc.\", \"type\": \"ORG\"},\n    {\"name\": \"Hans Zimmer\", \"type\": \"PERSON\"},\n    {\"name\": \"Santa Monica\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"Media Ventures\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Jay Rifkin\", \"type\": \"PERSON\"},\n    {\"name\": \"Remote Control\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Remote Control Productions, Inc.\",\n      \"relation\": \"run_by\",\n      \"object\": \"Hans Zimmer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"run by\"}\n      ]\n    },\n    {\n      \"subject\": \"Remote Control Productions, Inc.\",\n      \"relation\": \"based_in\",\n      \"object\": \"Santa Monica\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Santa Monica\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"California\"}\n      ]\n    },\n    {\n      \"subject\": \"Media Ventures\",\n      \"relation\": \"conceived_and_founded_by\",\n      \"object\": \"Jay Rifkin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"conceived and founded by\"}\n      ]\n    },\n    {\n      \"subject\": \"Media Ventures\",\n      \"relation\": \"conceived_and_founded_by\",\n      \"object\": \"Hans Zimmer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"conceived and founded by\"}\n      ]\n    },\n    {\n      \"subject\": \"Remote Control\",\n      \"relation\": \"is_home_to\",\n      \"object\": \"Hans Zimmer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is home to\"}\n      ]\n    }\n  ]\n}"
+}

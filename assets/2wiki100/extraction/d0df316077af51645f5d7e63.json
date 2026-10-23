@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Patrik Lácha": "Person",
+    "FK Baník Most": "Organization",
+    "Teplice": "Organization",
+    "Czech Republic": "Location",
+    "2011 UEFA European Under-19 Football Championship": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Patrik Lácha",
+      "relation": "plays_for",
+      "object": "FK Baník Most",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently plays for FK Baník Most"
+        }
+      ]
+    },
+    {
+      "subject": "FK Baník Most",
+      "relation": "on_loan_from",
+      "object": "Teplice",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on loan from Teplice"
+        }
+      ]
+    },
+    {
+      "subject": "Patrik Lácha",
+      "relation": "represented",
+      "object": "Czech Republic",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "has represented his country"
+        }
+      ]
+    },
+    {
+      "subject": "Patrik Lácha",
+      "relation": "named_in_squad_for",
+      "object": "2011 UEFA European Under-19 Football Championship",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was named in his country's 18- man squad for the 2011 UEFA European Under- 19 Football Championship"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Patrik Lácha",
+        "born_on",
+        "20 January 1992"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Patrik Lácha\nPatrik Lácha( born 20 January 1992) is a Czech football player who currently plays for FK Baník Most on loan from Teplice. He has represented his country at youth international level. He was named in his country's 18- man squad for the 2011 UEFA European Under- 19 Football Championship."
+}

@@ -1,0 +1,57 @@
+{
+  "entities": {
+    "Recondita Armonia": "musical_piece",
+    "Tosca": "opera",
+    "Giacomo Puccini": "composer",
+    "Mario Cavaradossi": "character",
+    "Mary Magdalene": "character"
+  },
+  "triples": [
+    {
+      "subject": "Recondita Armonia",
+      "relation": "is_first_romanza_in",
+      "object": "Tosca",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "\"Recondita Armonia\" is the first romanza in the opera \" Tosca\""
+        }
+      ]
+    },
+    {
+      "subject": "Tosca",
+      "relation": "composed_by",
+      "object": "Giacomo Puccini",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the opera \" Tosca\", by Giacomo Puccini"
+        }
+      ]
+    },
+    {
+      "subject": "Mario Cavaradossi",
+      "relation": "sings",
+      "object": "Recondita Armonia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is sung by the painter Mario Cavaradossi"
+        }
+      ]
+    },
+    {
+      "subject": "Mario Cavaradossi",
+      "relation": "compares_love_to",
+      "object": "Mary Magdalene",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "when comparing his love, Tosca, to a portrait of Mary Magdalene"
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Recondita armonia\n\"Recondita Armonia\" is the first romanza in the opera \" Tosca\", by Giacomo Puccini. It is sung by the painter Mario Cavaradossi when comparing his love, Tosca, to a portrait of Mary Magdalene that he is painting."
+}

@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Jason Moore": "PERSON",
+    "American": "NORP",
+    "film": "WORK_OF_ART",
+    "theatre": "WORK_OF_ART",
+    "television": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Jason Moore",
+      "relation": "born_on",
+      "object": "Jason Moore",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born October 22, 1970",
+          "line_start": 13,
+          "char_start": 36,
+          "ambiguous": false,
+          "relation_mention": "born October 22, 1970",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Jason Moore",
+      "relation": "nationality",
+      "object": "American",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is an American",
+          "line_start": 36,
+          "char_start": 59,
+          "ambiguous": false,
+          "relation_mention": "is an American",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Jason Moore",
+      "relation": "directs",
+      "object": "film",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "director of film",
+          "line_start": 51,
+          "char_start": 74,
+          "ambiguous": false,
+          "relation_mention": "director of film",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Jason Moore",
+      "relation": "directs",
+      "object": "television",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "director of film, theatre and television",
+          "line_start": 51,
+          "char_start": 74,
+          "ambiguous": false,
+          "relation_mention": "director of film, theatre and television",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jason Moore",
+        "directs",
+        "theatre"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Jason Moore (director)\nJason Moore( born October 22, 1970) is an American director of film, theatre and television."
+}

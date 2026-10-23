@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Löwchen": "dog_breed",
+    "American Kennel Club": "organization"
+  },
+  "triples": [
+    {
+      "subject": "American Kennel Club",
+      "relation": "classifies",
+      "object": "Löwchen",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by the American Kennel Club as a non-sporting dog"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Löwchen",
+        "is_a",
+        "dog_breed"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Löwchen",
+        "considered_as",
+        "toy_dog"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Löwchen",
+        "considered_as",
+        "non_sporting_dog"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Löwchen\nThe Löwchen or Little Lion Dog (German: \"Löwchen\" \"little lion,\" French: \"Petit chien lion,\" \"little lion dog\") \"is a breed of dog. A small dog, they are considered by some registries as a toy dog and by the American Kennel Club as a non-sporting dog.\""
+}

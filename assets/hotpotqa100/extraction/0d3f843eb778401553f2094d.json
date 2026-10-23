@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "The Dangerous World of Butterflies": "book",
+    "Peter Laufer": "author",
+    "Forbidden Creatures": "book",
+    "No Animals Were Harmed": "book"
+  },
+  "triples": [
+    {
+      "subject": "The Dangerous World of Butterflies",
+      "relation": "written_by",
+      "object": "Peter Laufer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a 2009 book by Doctor of Philosophy Peter Laufer."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Dangerous World of Butterflies",
+        "part_of_trilogy",
+        "untitled animal trilogy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Dangerous World of Butterflies",
+        "precedes",
+        "Forbidden Creatures"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Forbidden Creatures",
+        "follows",
+        "The Dangerous World of Butterflies"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Dangerous World of Butterflies",
+        "precedes",
+        "No Animals Were Harmed"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "No Animals Were Harmed",
+        "follows",
+        "The Dangerous World of Butterflies"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Dangerous World of Butterflies\nThe Dangerous World of Butterflies: The Startling Subculture of Criminals, Collectors, and Conservationists is a 2009 book by Doctor of Philosophy Peter Laufer. It is the first book in his untitled animal trilogy, preceding \"Forbidden Creatures\" in 2010 and \"No Animals Were Harmed\" in 2011. The book explores the presence of the butterfly in the fields of organized crime, ecological devastation, species depletion, natural history museum integrity, and chaos theory."
+}

@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "EgyptAir Flight 990": "EVENT",
+    "Los Angeles International Airport": "FAC",
+    "United States": "GPE",
+    "Cairo International Airport": "FAC",
+    "Egypt": "GPE",
+    "John F. Kennedy International Airport": "FAC",
+    "New York City": "GPE",
+    "October 31, 1999": "EVENT",
+    "Boeing 767": "PRODUCT",
+    "Atlantic Ocean": "LOC",
+    "Nantucket Island": "LOC",
+    "Massachusetts": "GPE",
+    "relief first officer": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "EgyptAir Flight 990",
+        "was_a",
+        "regularly scheduled flight"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "EgyptAir Flight 990",
+        "operated_by",
+        "Boeing 767"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Boeing 767",
+        "crashed_into",
+        "Atlantic Ocean"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Atlantic Ocean",
+        "located_near",
+        "Nantucket Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Nantucket Island",
+        "located_in",
+        "Massachusetts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "EgyptAir Flight 990",
+        "killed",
+        "people"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "official probable cause of the crash",
+        "was",
+        "deliberate action by the relief first officer"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "EgyptAir Flight 990\nEgyptAir Flight 990 (MS990/MSR990) was a regularly scheduled flight from Los Angeles International Airport, United States, to Cairo International Airport, Egypt, with a stop at John F. Kennedy International Airport, New York City. On October 31, 1999, the Boeing 767 operating the route crashed into the Atlantic Ocean about 60 mi south of Nantucket Island, Massachusetts, killing all 217 people on board. The official probable cause of the crash was deliberate action by the relief first officer.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"EgyptAir Flight 990\", \"type\": \"EVENT\"},\n    {\"name\": \"Los Angeles International Airport\", \"type\": \"FAC\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Cairo International Airport\", \"type\": \"FAC\"},\n    {\"name\": \"Egypt\", \"type\": \"GPE\"},\n    {\"name\": \"John F. Kennedy International Airport\", \"type\": \"FAC\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"October 31, 1999\", \"type\": \"EVENT\"},\n    {\"name\": \"Boeing 767\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Atlantic Ocean\", \"type\": \"LOC\"},\n    {\"name\": \"Nantucket Island\", \"type\": \"LOC\"},\n    {\"name\": \"Massachusetts\", \"type\": \"GPE\"},\n    {\"name\": \"relief first officer\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"EgyptAir Flight 990\",\n      \"relation\": \"was_a\",\n      \"object\": \"regularly scheduled flight\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a regularly scheduled flight from Los Angeles International Airport, United States, to Cairo International Airport, Egypt, with a stop at John F. Kennedy International Airport, New York City.\"}\n      ]\n    },\n    {\n      \"subject\": \"EgyptAir Flight 990\",\n      \"relation\": \"operated_by\",\n      \"object\": \"Boeing 767\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Boeing 767 operating the route\"}\n      ]\n    },\n    {\n      \"subject\": \"Boeing 767\",\n      \"relation\": \"crashed_into\",\n      \"object\": \"Atlantic Ocean\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"crashed into the Atlantic Ocean\"}\n      ]\n    },\n    {\n      \"subject\": \"Atlantic Ocean\",\n      \"relation\": \"located_near\",\n      \"object\": \"Nantucket Island\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"about 60 mi south of Nantucket Island, Massachusetts\"}\n      ]\n    },\n    {\n      \"subject\": \"Nantucket Island\",\n      \"relation\": \"located_in\",\n      \"object\": \"Massachusetts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Nantucket Island, Massachusetts\"}\n      ]\n    },\n    {\n      \"subject\": \"EgyptAir Flight 990\",\n      \"relation\": \"killed\",\n      \"object\": \"people\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"killing all 217 people on board\"}\n      ]\n    },\n    {\n      \"subject\": \"official probable cause of the crash\",\n      \"relation\": \"was\",\n      \"object\": \"deliberate action by the relief first officer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The official probable cause of the crash was deliberate action by the relief first officer.\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,162 @@
+{
+  "entities": {
+    "Operation Woodrose": "EVENT",
+    "Indira Gandhi": "PERSON",
+    "Indian government": "ORG",
+    "Operation Blue Star": "EVENT",
+    "Punjab": "GPE",
+    "Akali Dal": "ORG",
+    "All India Sikh Students Federation": "ORG",
+    "Indian Army": "ORG",
+    "Sikh": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Operation Woodrose",
+      "relation": "carried_out_by",
+      "object": "Indian government",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "carried out by",
+          "line_start": 44,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "carried out by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Operation Woodrose",
+      "relation": "led_by",
+      "object": "Indira Gandhi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Indira Gandhi-led",
+          "line_start": 63,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "Indira Gandhi-led",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Operation Woodrose",
+      "relation": "occurred_after",
+      "object": "Operation Blue Star",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "after Operation Blue Star",
+          "line_start": 113,
+          "char_start": 132,
+          "ambiguous": false,
+          "relation_mention": "after Operation Blue Star",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Operation Woodrose",
+      "relation": "aimed_to_prevent",
+      "object": "Punjab",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "to \"prevent the outbreak of widespread public protest\" in the state of Punjab",
+          "line_start": 139,
+          "char_start": 158,
+          "ambiguous": false,
+          "relation_mention": "to \"prevent the outbreak of widespread public protest\" in the state of Punjab",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Indian government",
+      "relation": "arrested",
+      "object": "Akali Dal",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "arrested all prominent members of the largest Sikh political party, the Akali Dal",
+          "line_start": 233,
+          "char_start": 252,
+          "ambiguous": false,
+          "relation_mention": "arrested all prominent members of the largest Sikh political party, the Akali Dal",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Indian government",
+      "relation": "banned",
+      "object": "All India Sikh Students Federation",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "banned the All India Sikh Students Federation",
+          "line_start": 320,
+          "char_start": 339,
+          "ambiguous": false,
+          "relation_mention": "banned the All India Sikh Students Federation",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Indian Army",
+      "relation": "conducted_operations_in",
+      "object": "Punjab",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "conducted operations in the countryside",
+          "line_start": 421,
+          "char_start": 440,
+          "ambiguous": false,
+          "relation_mention": "conducted operations in the countryside",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Indian Army",
+      "relation": "detained",
+      "object": "Sikh",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were detained for interrogation",
+          "line_start": 520,
+          "char_start": 539,
+          "ambiguous": false,
+          "relation_mention": "were detained for interrogation",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Operation Woodrose",
+        "criticized_by",
+        "human-rights groups"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "central government",
+        "used",
+        "draconian legislation"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Operation Woodrose\nOperation Woodrose was a military operation carried out by the Indira Gandhi-led Indian government in the months after Operation Blue Star to \"prevent the outbreak of widespread public protest\" in the state of Punjab. The government arrested all prominent members of the largest Sikh political party, the Akali Dal, and banned the All India Sikh Students Federation, a large students' union. In addition, the Indian Army conducted operations in the countryside during which thousands of Sikhs, overwhelmingly young men, were detained for interrogation and subsequently tortured. Despite its purported success in controlling the armed insurgency in the Punjab region, the operation was criticized by human-rights groups for the suspension of civil liberties and habeas corpus, resulting in the disappearances of thousands of Sikh men. After the operation, the central government was criticized for using \"draconian legislation\" to repress a minority community."
+}

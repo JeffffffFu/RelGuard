@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Kabul Shahi": "dynasty",
+    "Kabul Valley": "location",
+    "Gandhara": "location",
+    "Kushan Empire": "empire",
+    "Buddhist Turk Shahi": "era",
+    "Hindu-Shahis": "era"
+  },
+  "triples": [
+    {
+      "subject": "Kabul Shahi",
+      "relation": "ruled",
+      "object": "Kabul Valley",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Kabul Shahi dynasties also called Shahiya ruled the Kabul Valley"
+        }
+      ]
+    },
+    {
+      "subject": "Kabul Shahi",
+      "relation": "split_into",
+      "object": "Buddhist Turk Shahi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "They are split into two eras: the Buddhist Turk Shahi"
+        }
+      ]
+    },
+    {
+      "subject": "Kushan Empire",
+      "relation": "declined",
+      "object": "Kabul Shahi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from the decline of the Kushan Empire in the 3rd century"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kabul Shahi",
+        "ruled",
+        "Gandhara"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kabul Shahi",
+        "split_into",
+        "Hindu-Shahis"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Kabul Shahi\nThe Kabul Shahi dynasties also called Shahiya ruled the Kabul Valley (in eastern Afghanistan) and the old province of Gandhara (northern Pakistan) during the Classical Period of India from the decline of the Kushan Empire in the 3rd century to the early 11th century. They are split into two eras: the Buddhist Turk Shahi and the later Hindu-Shahis with the change-over occurring around 870 CE."
+}

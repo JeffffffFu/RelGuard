@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Kaoru Hatoyama": "PERSON",
+    "Yukio Hatoyama": "PERSON",
+    "Kunio Hatoyama": "PERSON",
+    "Prime Minister Yukio Hatoyama": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Kaoru Hatoyama",
+        "grandmother_of",
+        "Prime Minister Yukio Hatoyama"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kaoru Hatoyama",
+        "grandmother_of",
+        "Kunio Hatoyama"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Yukio Hatoyama",
+        "same_as",
+        "Prime Minister Yukio Hatoyama"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kaoru Hatoyama\nAfter the elections of 2009, she became more widely known as the grandmother of Prime Minister Yukio Hatoyama and his politician brother Kunio Hatoyama.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kaoru Hatoyama\", \"type\": \"PERSON\"},\n    {\"name\": \"Yukio Hatoyama\", \"type\": \"PERSON\"},\n    {\"name\": \"Kunio Hatoyama\", \"type\": \"PERSON\"},\n    {\"name\": \"Prime Minister Yukio Hatoyama\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kaoru Hatoyama\",\n      \"relation\": \"grandmother_of\",\n      \"object\": \"Prime Minister Yukio Hatoyama\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"grandmother of\"}\n      ]\n    },\n    {\n      \"subject\": \"Kaoru Hatoyama\",\n      \"relation\": \"grandmother_of\",\n      \"object\": \"Kunio Hatoyama\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"grandmother of\"}\n      ]\n    },\n    {\n      \"subject\": \"Yukio Hatoyama\",\n      \"relation\": \"same_as\",\n      \"object\": \"Prime Minister Yukio Hatoyama\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Prime Minister Yukio Hatoyama\"}\n      ]\n    }\n  ]\n}"
+}

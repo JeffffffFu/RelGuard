@@ -1,0 +1,130 @@
+{
+  "entities": {
+    "Toyota Innova": "PRODUCT",
+    "Japanese": "NORP",
+    "Toyota": "ORG",
+    "Indonesia": "GPE",
+    "Toyota Astra Motor": "ORG",
+    "Kijang": "PRODUCT",
+    "IMV program": "ORG",
+    "Hilux": "PRODUCT",
+    "Fortuner": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Toyota Innova",
+      "relation": "manufactured_by",
+      "object": "Toyota",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "manufactured by",
+          "line_start": 77,
+          "char_start": 91,
+          "ambiguous": false,
+          "relation_mention": "manufactured by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Innova",
+      "relation": "produced_in",
+      "object": "Indonesia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced in",
+          "line_start": 130,
+          "char_start": 144,
+          "ambiguous": false,
+          "relation_mention": "produced in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Innova",
+      "relation": "replaced",
+      "object": "Kijang",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "replaced",
+          "line_start": 229,
+          "char_start": 243,
+          "ambiguous": false,
+          "relation_mention": "replaced",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Innova",
+      "relation": "part_of",
+      "object": "IMV program",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "part of",
+          "line_start": 317,
+          "char_start": 331,
+          "ambiguous": false,
+          "relation_mention": "part of",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "IMV program",
+      "relation": "includes",
+      "object": "Hilux",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "together with the Hilux pickup truck and the Fortuner SUV",
+          "line_start": 346,
+          "char_start": 360,
+          "ambiguous": false,
+          "relation_mention": "together with the Hilux pickup truck and the Fortuner SUV",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "IMV program",
+      "relation": "includes",
+      "object": "Fortuner",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "together with the Hilux pickup truck and the Fortuner SUV",
+          "line_start": 346,
+          "char_start": 360,
+          "ambiguous": false,
+          "relation_mention": "together with the Hilux pickup truck and the Fortuner SUV",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Toyota Innova",
+        "produced_by",
+        "Toyota Astra Motor"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Innova",
+        "official_name_in",
+        "Toyota Kijang Innova"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Toyota Innova\nThe Toyota Innova (Japanese: トヨタイノーバ \"Toyota Inōba\") is a compact MPV or MUV manufactured by the Japanese automaker Toyota. It is produced in Indonesia under supervision by Toyota Astra Motor since 2004. As with Kijang, which it replaced, the Innova is produced and first marketed in 2004 in Indonesia. The Innova is part of Toyota's IMV program together with the Hilux pickup truck and the Fortuner SUV. Its official name in Indonesia is Toyota Kijang Innova, while for other countries it is Innova."
+}

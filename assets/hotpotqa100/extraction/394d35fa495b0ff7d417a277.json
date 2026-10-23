@@ -1,0 +1,120 @@
+{
+  "entities": {
+    "Richard Haag": "Person",
+    "Gas Works Park": "Place",
+    "Bloedel Reserve": "Place",
+    "University of Washington": "Organization",
+    "Al Gore": "Person",
+    "An Inconvenient Truth": "Work"
+  },
+  "triples": [
+    {
+      "subject": "Richard Haag",
+      "relation": "famous_for",
+      "object": "Gas Works Park",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "He is famous for his work on Gas Works Park"
+        }
+      ]
+    },
+    {
+      "subject": "Richard Haag",
+      "relation": "famous_for",
+      "object": "Bloedel Reserve",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and on the Bloedel Reserve"
+        }
+      ]
+    },
+    {
+      "subject": "An Inconvenient Truth",
+      "relation": "evoked_ideals",
+      "object": "Richard Haag",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "the ideals evoked from the film are shown in his designs"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Richard Haag",
+        "born_on",
+        "October 23, 1923"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Richard Haag",
+        "is_a",
+        "landscape architect"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Richard Haag",
+        "founded",
+        "Landscape Architecture Program"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Landscape Architecture Program",
+        "located_in",
+        "University of Washington"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Richard Haag",
+        "held",
+        "multiple design awards"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Al Gore",
+        "created",
+        "An Inconvenient Truth"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Richard Haag",
+        "provided",
+        "sustainable design"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Richard Haag",
+        "set_tone_for",
+        "northwestern landscape design"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "northwestern landscape design",
+        "placed_on_road_towards",
+        "ecologically-minded design"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Richard Haag\nRichard Haag (born October 23, 1923) is a United States landscape architect. He is famous for his work on Gas Works Park in Seattle, Washington and on the Bloedel Reserve on Bainbridge Island. He is also noted for founding the Landscape Architecture Program at the University of Washington and for holding multiple design awards. His designs call to mind the current trend of being one with and improving the environment. Although Al Gore's \"An Inconvenient Truth\" is after Richard Haag's heyday, the ideals evoked from the film are shown in his designs. The social movement that created the hybrid car also demanded sustainable design, and Richard Haag provided it in the most distinctive and astounding ways. Richard Haag's modernist and minimalist ideals set the tone for northwestern landscape design and has placed the northwest on the road towards ecologically-minded design."
+}

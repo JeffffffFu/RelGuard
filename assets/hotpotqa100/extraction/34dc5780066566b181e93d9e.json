@@ -1,0 +1,152 @@
+{
+  "entities": {
+    "Roxy Hotel": "FAC",
+    "Tribeca Grand Hotel": "FAC",
+    "Avenue of the Americas": "FAC",
+    "Tribeca": "LOC",
+    "Lower Manhattan": "LOC",
+    "New York City": "GPE",
+    "Soho Grand Hotel": "FAC",
+    "Grand Life Hotels": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Roxy Hotel",
+      "relation": "formerly_named",
+      "object": "Tribeca Grand Hotel",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "formerly the Tribeca Grand Hotel",
+          "line_start": 16,
+          "char_start": 43,
+          "ambiguous": false,
+          "relation_mention": "formerly the Tribeca Grand Hotel",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Roxy Hotel",
+      "relation": "located_at",
+      "object": "Avenue of the Americas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located at 2 Avenue of the Americas",
+          "line_start": 61,
+          "char_start": 88,
+          "ambiguous": false,
+          "relation_mention": "located at 2 Avenue of the Americas",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Roxy Hotel",
+      "relation": "located_in",
+      "object": "Tribeca",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the Tribeca neighborhood",
+          "line_start": 130,
+          "char_start": 157,
+          "ambiguous": false,
+          "relation_mention": "in the Tribeca neighborhood",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Roxy Hotel",
+      "relation": "located_in",
+      "object": "Lower Manhattan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the Tribeca neighborhood of Lower Manhattan",
+          "line_start": 130,
+          "char_start": 157,
+          "ambiguous": false,
+          "relation_mention": "in the Tribeca neighborhood of Lower Manhattan",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Roxy Hotel",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the Tribeca neighborhood of Lower Manhattan, New York City",
+          "line_start": 130,
+          "char_start": 157,
+          "ambiguous": false,
+          "relation_mention": "in the Tribeca neighborhood of Lower Manhattan, New York City",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Roxy Hotel",
+      "relation": "sister_hotel_of",
+      "object": "Soho Grand Hotel",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "sister hotel of the Soho Grand Hotel",
+          "line_start": 203,
+          "char_start": 230,
+          "ambiguous": false,
+          "relation_mention": "sister hotel of the Soho Grand Hotel",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Soho Grand Hotel",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "which is located a few blocks away",
+          "line_start": 240,
+          "char_start": 267,
+          "ambiguous": false,
+          "relation_mention": "which is located a few blocks away",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Roxy Hotel",
+      "relation": "owned_and_operated_by",
+      "object": "Grand Life Hotels",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned and operated under Grand Life Hotels",
+          "line_start": 292,
+          "char_start": 319,
+          "ambiguous": false,
+          "relation_mention": "owned and operated under Grand Life Hotels",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "Walker Street (FAC)",
+        "White Street (FAC)"
+      ]
+    }
+  ],
+  "document": "Roxy Hotel (New York City)\nThe Roxy Hotel, formerly the Tribeca Grand Hotel, is a hotel located at 2 Avenue of the Americas between Walker and White Streets in the Tribeca neighborhood of Lower Manhattan, New York City. It is the sister hotel of the Soho Grand Hotel which is located a few blocks away. Both hotels are owned and operated under Grand Life Hotels. Tribeca Grand opened in 2000 and has 201 guest rooms. The hotel's event venues are often used for movie premiers, screenings, and social events. In September 2015 the hotel re-branded and changed its name to The Roxy Hotel."
+}

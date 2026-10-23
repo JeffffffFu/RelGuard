@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "I'm Not Alone": "EP",
+    "Patent Pending": "band",
+    "One Less Heart To Break": "song",
+    "Dance 'Til We Die": "song",
+    "Joe Ragosta": "person",
+    "Second Family": "album"
+  },
+  "triples": [
+    {
+      "subject": "I'm Not Alone",
+      "relation": "released",
+      "object": "Patent Pending",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "I'm Not Alone is an EP by American rock band Patent Pending released in 2010."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "I'm Not Alone",
+        "spawned",
+        "One Less Heart To Break"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "I'm Not Alone",
+        "spawned",
+        "Dance 'Til We Die"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Dance 'Til We Die",
+        "described_by",
+        "Joe Ragosta"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "One Less Heart To Break",
+        "re-used_as_bonus_track_on",
+        "Second Family"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Dance 'Til We Die",
+        "re-used_as_bonus_track_on",
+        "Second Family"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "I'm Not Alone (EP)\nI'm Not Alone is an EP by American rock band Patent Pending released in 2010. It spawned two music videos for the song \"One Less Heart To Break\", which is an anti-suicide rock song, and for \"Dance 'Til We Die\", a song that has been described by lead singer, Joe Ragosta, as Being about \"...zombies eating peoples brains\". Both of those songs were later re-used as bonus tracks on the band's next album \"Second Family"
+}

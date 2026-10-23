@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "Mark Javier": "PERSON",
+    "Mark Pinili Javier": "PERSON",
+    "Philippines": "GPE",
+    "Archery at the 2006 Asian Games": "EVENT",
+    "2006 Asian Games": "EVENT",
+    "Doha": "GPE",
+    "Qatar": "GPE",
+    "Im Dong Hyun": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Mark Pinili Javier",
+      "relation": "competed_in",
+      "object": "Archery at the 2006 Asian Games",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "competed in",
+          "line_start": 93,
+          "char_start": 105,
+          "ambiguous": false,
+          "relation_mention": "competed in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mark Pinili Javier",
+        "works_as",
+        "Archery at the 2006 Asian Games"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mark Pinili Javier",
+        "located_in",
+        "Philippines"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Archery at the 2006 Asian Games",
+        "located_in",
+        "Doha"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Doha",
+        "located_in",
+        "Qatar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Im Dong Hyun",
+        "defeated",
+        "Mark Pinili Javier"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Mark Javier\nMark Pinili Javier (born October 20, 1981) is a professional archer from the Philippines. He competed in Archery at the 2006 Asian Games in Doha, Qatar but was defeated by the Korean Im Dong Hyun 113-104 in the 1/16 Elimination Round. During the 2006 Asian Games he landed 9th place in the individual category.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Mark Javier\", \"type\": \"PERSON\"},\n    {\"name\": \"Mark Pinili Javier\", \"type\": \"PERSON\"},\n    {\"name\": \"Philippines\", \"type\": \"GPE\"},\n    {\"name\": \"Archery at the 2006 Asian Games\", \"type\": \"EVENT\"},\n    {\"name\": \"2006 Asian Games\", \"type\": \"EVENT\"},\n    {\"name\": \"Doha\", \"type\": \"GPE\"},\n    {\"name\": \"Qatar\", \"type\": \"GPE\"},\n    {\"name\": \"Im Dong Hyun\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Mark Pinili Javier\",\n      \"relation\": \"works_as\",\n      \"object\": \"Archery at the 2006 Asian Games\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a professional archer from\"}\n      ]\n    },\n    {\n      \"subject\": \"Mark Pinili Javier\",\n      \"relation\": \"located_in\",\n      \"object\": \"Philippines\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a professional archer from\"}\n      ]\n    },\n    {\n      \"subject\": \"Mark Pinili Javier\",\n      \"relation\": \"competed_in\",\n      \"object\": \"Archery at the 2006 Asian Games\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"competed in\"}\n      ]\n    },\n    {\n      \"subject\": \"Archery at the 2006 Asian Games\",\n      \"relation\": \"located_in\",\n      \"object\": \"Doha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Doha\",\n      \"relation\": \"located_in\",\n      \"object\": \"Qatar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Qatar\"}\n      ]\n    },\n    {\n      \"subject\": \"Im Dong Hyun\",\n      \"relation\": \"defeated\",\n      \"object\": \"Mark Pinili Javier\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was defeated by the Korean Im Dong Hyun\"}\n      ]\n    }\n  ]\n}"
+}

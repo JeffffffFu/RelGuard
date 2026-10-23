@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Sins of Madeleine": "Film",
+    "Henri Lepage": "Person",
+    "Madeleine Lebeau": "Person",
+    "Henri Vilbert": "Person",
+    "Yves Furet": "Person",
+    "Epinay Studios": "Location",
+    "Paris": "Location",
+    "Claude Bouxin": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Sins of Madeleine",
+      "relation": "directed_by",
+      "object": "Henri Lepage",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Henri Lepage"
+        }
+      ]
+    },
+    {
+      "subject": "Sins of Madeleine",
+      "relation": "starring",
+      "object": "Madeleine Lebeau",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Madeleine Lebeau"
+        }
+      ]
+    },
+    {
+      "subject": "Sins of Madeleine",
+      "relation": "shot_at",
+      "object": "Epinay Studios",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "shot at the Epinay Studios"
+        }
+      ]
+    },
+    {
+      "subject": "Epinay Studios",
+      "relation": "located_in",
+      "object": "Paris",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Paris"
+        }
+      ]
+    },
+    {
+      "subject": "Sins of Madeleine",
+      "relation": "designed_by",
+      "object": "Claude Bouxin",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "designed by the art director Claude Bouxin"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sins of Madeleine",
+        "starring",
+        "Henri Vilbert"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Sins of Madeleine",
+        "starring",
+        "Yves Furet"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Sins of Madeleine\nSins of Madeleine( French: Dupont Barbès) is a 1951 French drama film directed by Henri Lepage and starring Madeleine Lebeau, Henri Vilbert and Yves Furet. It was shot at the Epinay Studios in Paris. The film's sets were designed by the art director Claude Bouxin."
+}

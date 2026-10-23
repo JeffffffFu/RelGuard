@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Daying County": "Location",
+    "Sichuan province": "Location",
+    "Suining City": "Location",
+    "Chinese Dead Sea": "Attraction",
+    "G42 Shanghai–Chengdu Expressway": "Infrastructure",
+    "Dazhou–Chengdu Railway": "Infrastructure"
+  },
+  "triples": [
+    {
+      "subject": "Daying County",
+      "relation": "located_in",
+      "object": "Sichuan province",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a county of Sichuan province"
+        }
+      ]
+    },
+    {
+      "subject": "Daying County",
+      "relation": "administered_by",
+      "object": "Suining City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "under the administration of Suining City"
+        }
+      ]
+    },
+    {
+      "subject": "Daying County",
+      "relation": "traversed_by",
+      "object": "G42 Shanghai–Chengdu Expressway",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "traverses east–west through the entire length of the county"
+        }
+      ]
+    },
+    {
+      "subject": "Daying County",
+      "relation": "traversed_by",
+      "object": "Dazhou–Chengdu Railway",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "traverses east–west through the entire length of the county"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Daying County",
+        "has_population",
+        "520,000"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Daying County",
+        "has_area",
+        "703 km2"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Daying County",
+        "home_of",
+        "Chinese Dead Sea"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Chinese Dead Sea",
+        "based_on",
+        "salt lake"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chinese Dead Sea",
+        "has_salinity",
+        "9 times the salinity of the ocean"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chinese Dead Sea",
+        "constitutes",
+        "largest indoor water park in China"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Daying County\nDaying County () is a county of Sichuan province, China, under the administration of Suining City and in the central part of the Sichuan Basin. In 2002, it had a population of 520,000 residing in an area of 703 km2 . Daying is remarkable for being the home of the \"Chinese Dead Sea\", a tourist attraction that is based on a salt lake with 9 times the salinity of the ocean and which constitutes the largest indoor water park in China. The G42 Shanghai–Chengdu Expressway and Dazhou–Chengdu Railway (达成铁路) traverses east–west through the entire length of the county."
+}

@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Mars Nederland": "ORG",
+    "Mars Netherlands": "ORG",
+    "Mars, Incorporated": "ORG",
+    "Veghel": "GPE",
+    "North Brabant": "GPE",
+    "Oud-Beijerland": "GPE",
+    "South Holland": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Mars Nederland",
+      "relation": "has_production_site_in",
+      "object": "Oud-Beijerland",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is located in",
+          "line_start": 285,
+          "char_start": 300,
+          "ambiguous": false,
+          "relation_mention": "is located in",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mars Nederland",
+        "is_division_of",
+        "Mars, Incorporated"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mars Nederland",
+        "has_headquarters_in",
+        "Veghel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mars Nederland",
+        "has_main_production_site_in",
+        "Veghel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Veghel",
+        "located_in",
+        "North Brabant"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Oud-Beijerland",
+        "located_in",
+        "South Holland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "the chocolate factory in Veghel",
+        "owned_by",
+        "Mars, Incorporated"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mars Nederland\nMars Nederland (English: Mars Netherlands ) is the Dutch division of Mars, Incorporated, a privately held multi-national company in food, pet care products, and confectionery products. It has its headquarters and main production site in Veghel, North Brabant. A second production site is located in Oud-Beijerland, South Holland. The chocolate factory in Veghel is the largest production site owned by Mars, Incorporated, and is among the largest chocolate factories in the world.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Mars Nederland\", \"type\": \"ORG\"},\n    {\"name\": \"Mars Netherlands\", \"type\": \"ORG\"},\n    {\"name\": \"Mars, Incorporated\", \"type\": \"ORG\"},\n    {\"name\": \"Veghel\", \"type\": \"GPE\"},\n    {\"name\": \"North Brabant\", \"type\": \"GPE\"},\n    {\"name\": \"Oud-Beijerland\", \"type\": \"GPE\"},\n    {\"name\": \"South Holland\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Mars Nederland\",\n      \"relation\": \"is_division_of\",\n      \"object\": \"Mars, Incorporated\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the Dutch division of\"}\n      ]\n    },\n    {\n      \"subject\": \"Mars Nederland\",\n      \"relation\": \"has_headquarters_in\",\n      \"object\": \"Veghel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has its headquarters and main production site in\"}\n      ]\n    },\n    {\n      \"subject\": \"Mars Nederland\",\n      \"relation\": \"has_main_production_site_in\",\n      \"object\": \"Veghel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has its headquarters and main production site in\"}\n      ]\n    },\n    {\n      \"subject\": \"Mars Nederland\",\n      \"relation\": \"has_production_site_in\",\n      \"object\": \"Oud-Beijerland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Veghel\",\n      \"relation\": \"located_in\",\n      \"object\": \"North Brabant\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Oud-Beijerland\",\n      \"relation\": \"located_in\",\n      \"object\": \"South Holland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"the chocolate factory in Veghel\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Mars, Incorporated\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"owned by\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Kang Sung-yeon": "Person",
+    "Bobo": "Person",
+    "King and the Clown": "Film",
+    "MBC": "Organization",
+    "EBS Radio": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Kang Sung-yeon",
+      "relation": "debuted_in",
+      "object": "MBC",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Kang made her acting debut in 1996 through MBC's Open Recruitment"
+        }
+      ]
+    },
+    {
+      "subject": "Kang Sung-yeon",
+      "relation": "released",
+      "object": "Bobo",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "released two albums in 2001-2002 under the stage name Bobo"
+        }
+      ]
+    },
+    {
+      "subject": "Kang Sung-yeon",
+      "relation": "hosted",
+      "object": "EBS Radio",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "she hosted her own poetry reading program on EBS Radio"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kang Sung-yeon",
+        "born_on",
+        "July 21, 1976"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kang Sung-yeon",
+        "acted_in",
+        "King and the Clown"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Kang Sung-yeon\nKang Sung-yeon (born July 21, 1976) is a South Korean actress. Kang made her acting debut in 1996 through MBC's Open Recruitment. Although her main profession was acting, she also contributed songs to several soundtracks and released two albums in 2001-2002 under the stage name Bobo. Then in 2005, Kang rose to fame when she played Prince Yeonsan's concubine Jang Nok-su in \"King and the Clown\", a period film that drew 12.3 admissions, making it (at the time) the highest-grossing domestic film in Korean cinema history. Kang continued to star in television dramas such as \"Let's Get Married\" (2005), \"New Wise Mother, Good Wife\" (2007), \"Single Dad in Love\" (2008), \"Tazza\" (2008), and \"Wife Returns\" (2009). From 2012 to 2014, she hosted her own poetry reading program on EBS Radio."
+}

@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Jim Backus": "Person",
+    "Mr. Magoo": "Character",
+    "Hubert Updike III": "Character",
+    "The Alan Young Show": "Show",
+    "Joan Davis": "Person",
+    "James Dean": "Person",
+    "Rebel Without a Cause": "Film",
+    "Thurston Howell III": "Character",
+    "Gilligan's Island": "Show",
+    "The Jim Backus Show": "Show",
+    "Hot Off the Wire": "Show"
+  },
+  "triples": [
+    {
+      "subject": "Jim Backus",
+      "relation": "acted_as",
+      "object": "Mr. Magoo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the voice of nearsighted cartoon character Mr. Magoo"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jim Backus",
+        "acted_as",
+        "Hubert Updike III"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jim Backus",
+        "acted_as",
+        "Joan Davis' character's husband"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jim Backus",
+        "acted_as",
+        "James Dean's character's father"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jim Backus",
+        "acted_as",
+        "Thurston Howell III"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jim Backus",
+        "starred_in",
+        "The Jim Backus Show"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Jim Backus Show",
+        "also_known_as",
+        "Hot Off the Wire"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Jim Backus\nJames Gilmore Backus (February 25, 1913 – July 3, 1989) was an American radio, television, film, and voice actor. Among his most famous roles were the voice of nearsighted cartoon character Mr. Magoo, the rich Hubert Updike III on the radio version of \"The Alan Young Show\", Joan Davis' character's husband (a domestic court judge) on TV's \"I Married Joan\", James Dean's character's father in \"Rebel Without a Cause\", and Thurston Howell III, on the 1960s sitcom \"Gilligan's Island\". He also starred in his own show of one season, \"The Jim Backus Show\", also known as \"Hot Off the Wire\"."
+}

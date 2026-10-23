@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Tracey Prescott & Lonesome Daddy": "WORK_OF_ART",
+    "Columbia Records": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Tracey Prescott & Lonesome Daddy",
+      "relation": "released_by",
+      "object": "Columbia Records",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It was released by Columbia Records in 1992."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Tracey Prescott & Lonesome Daddy",
+        "located_in",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Tracey Prescott &amp; Lonesome Daddy (album)\nTracey Prescott & Lonesome Daddy is the debut studio album by Canadian country music trio Tracey Prescott & Lonesome Daddy. It was released by Columbia Records in 1992. It includes the top 10 single \"When You're Not Loving Me\"."
+}

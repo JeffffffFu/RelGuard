@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "It's in the Air": "film",
+    "Anthony Kimmins": "person",
+    "George Formby": "person",
+    "Polly Ward": "person",
+    "Jack Hobbs": "person"
+  },
+  "triples": [
+    {
+      "subject": "It's in the Air",
+      "relation": "written_and_directed_by",
+      "object": "Anthony Kimmins",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Anthony Kimmins"
+        }
+      ]
+    },
+    {
+      "subject": "It's in the Air",
+      "relation": "starring",
+      "object": "George Formby",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring George Formby"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "It's in the Air",
+        "starring",
+        "Polly Ward"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "It's in the Air",
+        "starring",
+        "Jack Hobbs"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "It's in the Air",
+        "released_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "It's in the Air",
+        "alternative_title",
+        "George Takes the Air"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "It's in the Air",
+        "released_in_year",
+        "1940"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "It's in the Air\nIt ’s in the Air is a 1938 British comedy film written and directed by Anthony Kimmins and starring George Formby, Polly Ward and Jack Hobbs. The film was released in the United States with the alternative title George Takes the Air in 1940. Although released in pre-war times, no mention of the imminent hostilities is in\" It's in the Air\"."
+}

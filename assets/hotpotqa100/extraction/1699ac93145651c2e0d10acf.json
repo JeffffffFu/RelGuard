@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Louis Charles Joseph Blériot": "PERSON",
+    "aircraft": "PRODUCT",
+    "English Channel": "LOC",
+    "Daily Mail": "ORG",
+    "monoplane": "PRODUCT",
+    "aircraft manufacturing company": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "France (GPE)",
+        "truck headlamp (PRODUCT)"
+      ]
+    },
+    {
+      "triple": [
+        "Louis Charles Joseph Blériot",
+        "nationality",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Louis Charles Joseph Blériot",
+        "developed",
+        "truck headlamp"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Louis Charles Joseph Blériot",
+        "founded",
+        "aircraft manufacturing company"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Louis Charles Joseph Blériot",
+        "made_flight_across",
+        "English Channel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Louis Charles Joseph Blériot",
+        "won_prize_from",
+        "Daily Mail"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Louis Charles Joseph Blériot",
+        "made",
+        "aircraft"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Louis Charles Joseph Blériot",
+        "first_to_make",
+        "monoplane"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Louis Blériot\nLouis Charles Joseph Blériot (1 July 1872 – 1 August 1936) was a French aviator, inventor and engineer. He developed the first practical headlamp for trucks and established a profitable business manufacturing them, using much of the money he made to finance his attempts to build a successful aircraft. In 1909 he became world-famous for making the first flight across the English Channel in a heavier than air aircraft, winning the prize of £1,000 offered by the \"Daily Mail\" newspaper. Blériot was also the first to make a working, powered, piloted monoplane and was the founder of a successful aircraft manufacturing company.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Louis Charles Joseph Blériot\", \"type\": \"PERSON\"},\n    {\"name\": \"France\", \"type\": \"GPE\"},\n    {\"name\": \"truck headlamp\", \"type\": \"PRODUCT\"},\n    {\"name\": \"aircraft\", \"type\": \"PRODUCT\"},\n    {\"name\": \"English Channel\", \"type\": \"LOC\"},\n    {\"name\": \"Daily Mail\", \"type\": \"ORG\"},\n    {\"name\": \"monoplane\", \"type\": \"PRODUCT\"},\n    {\"name\": \"aircraft manufacturing company\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Louis Charles Joseph Blériot\",\n      \"relation\": \"nationality\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a French\"}\n      ]\n    },\n    {\n      \"subject\": \"Louis Charles Joseph Blériot\",\n      \"relation\": \"developed\",\n      \"object\": \"truck headlamp\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"developed the first practical headlamp for trucks\"}\n      ]\n    },\n    {\n      \"subject\": \"Louis Charles Joseph Blériot\",\n      \"relation\": \"founded\",\n      \"object\": \"aircraft manufacturing company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the founder of a successful aircraft manufacturing company\"}\n      ]\n    },\n    {\n      \"subject\": \"Louis Charles Joseph Blériot\",\n      \"relation\": \"made_flight_across\",\n      \"object\": \"English Channel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"making the first flight across the English Channel\"}\n      ]\n    },\n    {\n      \"subject\": \"Louis Charles Joseph Blériot\",\n      \"relation\": \"won_prize_from\",\n      \"object\": \"Daily Mail\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"offered by the \\\"Daily Mail\\\" newspaper\"}\n      ]\n    },\n    {\n      \"subject\": \"Louis Charles Joseph Blériot\",\n      \"relation\": \"made\",\n      \"object\": \"aircraft\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the first flight across the English Channel in a heavier than air aircraft\"}\n      ]\n    },\n    {\n      \"subject\": \"Louis Charles Joseph Blériot\",\n      \"relation\": \"first_to_make\",\n      \"object\": \"monoplane\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the first to make a working, powered, piloted monoplane\"}\n      ]\n    }\n  ]\n}"
+}

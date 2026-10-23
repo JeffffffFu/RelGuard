@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "Kimo Williams": "Person",
+    "Kimotion": "Ensemble",
+    "Lt. Dan Band": "Ensemble",
+    "Gary Sinise": "Person",
+    "Henry O Flipper": "Person",
+    "West Point": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Kimo Williams",
+      "relation": "performed_with",
+      "object": "Kimotion",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "performed with a number of ensembles including his ensemble Kimotion"
+        }
+      ]
+    },
+    {
+      "subject": "Kimo Williams",
+      "relation": "co_founded",
+      "object": "Lt. Dan Band",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that he co-founded with film/TV actor Gary Sinise"
+        }
+      ]
+    },
+    {
+      "subject": "Henry O Flipper",
+      "relation": "graduated_from",
+      "object": "West Point",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first black graduate from West Point"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kimo Williams",
+        "performed_with",
+        "Lt. Dan Band"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kimo Williams",
+        "worked_on",
+        "award-winning photography"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kimo Williams",
+        "released",
+        "four CDs"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kimo Williams",
+        "wrote",
+        "stageplay"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kimo Williams",
+        "worked_on",
+        "opera based on the Courts Martial of Henry O Flipper"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kimo Williams",
+        "speaks_to",
+        "students"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kimo Williams\nKimo Williams is an American composer, musician and professor who has performed with a number of ensembles including his ensemble Kimotion and the Lt. Dan Band, that he co-founded with film/TV actor Gary Sinise. While he is perhaps best known for his work with the Lt. Dan Band, Williams has worked on a number of other projects including: award-winning photography, releasing four CDs, writing a stageplay and working on an opera based on the Courts Martial of Henry O Flipper, the first black graduate from West Point. Cognizant of the opportunities he had, as well as those he did not due to a childhood in which he moved often, Williams speaks to students about his history, their future and their need to combat mediocrity."
+}

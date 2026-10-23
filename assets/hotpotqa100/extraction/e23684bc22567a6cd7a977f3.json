@@ -1,0 +1,171 @@
+{
+  "entities": {
+    "Dana Brown": "PERSON",
+    "Dana Point": "GPE",
+    "California": "GPE",
+    "American": "NORP",
+    "Bruce Brown": "PERSON",
+    "The Endless Summer Revisited": "WORK_OF_ART",
+    "The Endless Summer": "WORK_OF_ART",
+    "The Endless Summer II": "WORK_OF_ART",
+    "Step Into Liquid": "WORK_OF_ART",
+    "Dust to Glory": "WORK_OF_ART",
+    "Highwater": "WORK_OF_ART",
+    "Santa Monica Pier": "FAC",
+    "North Shore": "LOC",
+    "Vans Triple Crown of Surfing": "EVENT",
+    "On Any Sunday, The Next Chapter": "WORK_OF_ART",
+    "On Any Sunday": "WORK_OF_ART",
+    "Academy Award for Documentary Feature": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "The Endless Summer Revisited",
+      "relation": "made_up_of",
+      "object": "The Endless Summer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made up of",
+          "line_start": 212,
+          "char_start": 223,
+          "ambiguous": false,
+          "relation_mention": "made up of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Endless Summer Revisited",
+      "relation": "made_up_of",
+      "object": "The Endless Summer II",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made up of",
+          "line_start": 212,
+          "char_start": 223,
+          "ambiguous": false,
+          "relation_mention": "made up of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Highwater",
+      "relation": "follows",
+      "object": "North Shore",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "follows",
+          "line_start": 620,
+          "char_start": 631,
+          "ambiguous": false,
+          "relation_mention": "follows",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "On Any Sunday",
+      "relation": "nominated_for",
+      "object": "Academy Award for Documentary Feature",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "nominated film",
+          "line_start": 880,
+          "char_start": 891,
+          "ambiguous": false,
+          "relation_mention": "nominated film",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Dana Brown",
+        "born_in",
+        "Dana Point"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dana Brown",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dana Brown",
+        "is_a",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dana Brown",
+        "works_for",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dana Brown",
+        "son_of",
+        "Bruce Brown"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Step Into Liquid",
+        "founded",
+        "Dana Brown"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dust to Glory",
+        "is_a",
+        "documentary"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Highwater",
+        "debuted_during",
+        "Santa Monica Pier"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Highwater",
+        "follows",
+        "Vans Triple Crown of Surfing"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "On Any Sunday, The Next Chapter",
+        "continues",
+        "On Any Sunday"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Dana Brown\nDana Brown (born December 11, 1959 in Dana Point, California) is an American surfer and filmmaker, and is the oldest son of filmmaker Bruce Brown. His films include \"The Endless Summer Revisited\" (2000) which is made up of unused footage from \"The Endless Summer\" (1964) and \"The Endless Summer II\" (1994), as well as some original interviews with the stars of those films. His first all-original film was \"Step Into Liquid\" (2003) followed by a documentary on the Baja 1000 titled \"Dust to Glory\" (2005). In 2009, he debuted a new film called \"Highwater\" during the 100th anniversary of the Santa Monica Pier; the film follows life on the North Shore and the surfers who compete in the Vans Triple Crown of Surfing. In 2014, the movie \"On Any Sunday, The Next Chapter\" continues the saga of motocross documentaries which began with the 1972 Academy Award for Documentary Feature nominated film \"On Any Sunday\" (1971).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Dana Brown\", \"type\": \"PERSON\"},\n    {\"name\": \"Dana Point\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Bruce Brown\", \"type\": \"PERSON\"},\n    {\"name\": \"The Endless Summer Revisited\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Endless Summer\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Endless Summer II\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Step Into Liquid\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Dust to Glory\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Highwater\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Santa Monica Pier\", \"type\": \"FAC\"},\n    {\"name\": \"North Shore\", \"type\": \"LOC\"},\n    {\"name\": \"Vans Triple Crown of Surfing\", \"type\": \"EVENT\"},\n    {\"name\": \"On Any Sunday, The Next Chapter\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"On Any Sunday\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Academy Award for Documentary Feature\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Dana Brown\",\n      \"relation\": \"born_in\",\n      \"object\": \"Dana Point\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born December 11, 1959 in\"}\n      ]\n    },\n    {\n      \"subject\": \"Dana Brown\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born December 11, 1959 in\"}\n      ]\n    },\n    {\n      \"subject\": \"Dana Brown\",\n      \"relation\": \"is_a\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an\"}\n      ]\n    },\n    {\n      \"subject\": \"Dana Brown\",\n      \"relation\": \"works_for\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an\"}\n      ]\n    },\n    {\n      \"subject\": \"Dana Brown\",\n      \"relation\": \"son_of\",\n      \"object\": \"Bruce Brown\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"oldest son of\"}\n      ]\n    },\n    {\n      \"subject\": \"The Endless Summer Revisited\",\n      \"relation\": \"made_up_of\",\n      \"object\": \"The Endless Summer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made up of\"}\n      ]\n    },\n    {\n      \"subject\": \"The Endless Summer Revisited\",\n      \"relation\": \"made_up_of\",\n      \"object\": \"The Endless Summer II\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made up of\"}\n      ]\n    },\n    {\n      \"subject\": \"Step Into Liquid\",\n      \"relation\": \"founded\",\n      \"object\": \"Dana Brown\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was\"}\n      ]\n    },\n    {\n      \"subject\": \"Dust to Glory\",\n      \"relation\": \"is_a\",\n      \"object\": \"documentary\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a documentary on\"}\n      ]\n    },\n    {\n      \"subject\": \"Highwater\",\n      \"relation\": \"debuted_during\",\n      \"object\": \"Santa Monica Pier\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"during the\"}\n      ]\n    },\n    {\n      \"subject\": \"Highwater\",\n      \"relation\": \"follows\",\n      \"object\": \"North Shore\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"follows\"}\n      ]\n    },\n    {\n      \"subject\": \"Highwater\",\n      \"relation\": \"follows\",\n      \"object\": \"Vans Triple Crown of Surfing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"compete in\"}\n      ]\n    },\n    {\n      \"subject\": \"On Any Sunday, The Next Chapter\",\n      \"relation\": \"continues\",\n      \"object\": \"On Any Sunday\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"continues the saga of motocross documentaries which began with the 1972 Academy Award for Documentary Feature nominated film\"}\n      ]\n    },\n    {\n      \"subject\": \"On Any Sunday\",\n      \"relation\": \"nominated_for\",\n      \"object\": \"Academy Award for Documentary Feature\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"nominated film\"}\n      ]\n    }\n  ]\n}"
+}

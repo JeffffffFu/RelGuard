@@ -1,0 +1,112 @@
+{
+  "entities": {
+    "Walt Disney Classics": "WORK_OF_ART",
+    "Walt Disney Home Video": "ORG",
+    "United States": "GPE",
+    "Canada": "GPE",
+    "The Fox and the Hound": "WORK_OF_ART",
+    "Snow White and the Seven Dwarfs": "WORK_OF_ART",
+    "Mary Poppins": "WORK_OF_ART",
+    "Pete's Dragon": "WORK_OF_ART",
+    "Walt Disney Meisterwerke": "WORK_OF_ART",
+    "Europe": "LOC",
+    "Special Collection": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Walt Disney Classics",
+      "relation": "used_by",
+      "object": "Walt Disney Home Video",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Walt Disney Classics was a brand name used by Walt Disney Home Video"
+        }
+      ]
+    },
+    {
+      "subject": "Walt Disney Classics",
+      "relation": "released_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the Classics line was canceled in the United States"
+        }
+      ]
+    },
+    {
+      "subject": "Walt Disney Classics",
+      "relation": "released_in",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the Classics line was canceled in the United States and Canada"
+        }
+      ]
+    },
+    {
+      "subject": "Walt Disney Classics",
+      "relation": "has_foreign_language_equivalents",
+      "object": "Walt Disney Meisterwerke",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "and its foreign language equivalents"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Walt Disney Classics",
+        "replaced_with",
+        "Masterpiece Collection"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Walt Disney Classics",
+        "became_popular_with",
+        "collectors"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Walt Disney Classics",
+        "continued_to_be_released_under",
+        "Walt Disney Classics"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Walt Disney Meisterwerke",
+        "is_equivalent_to",
+        "Walt Disney Classics"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Walt Disney Meisterwerke",
+        "is_still_in_operation_as_of",
+        "2010"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Walt Disney Classics",
+        "released_until",
+        "2007"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Walt Disney Classics\nWalt Disney Classics was a brand name used by Walt Disney Home Video on their American, Japanese, European, and Australian home video releases of List of Walt Disney Animation Studios features. The last title in the Classics line from 1984–1994 was \"The Fox and the Hound\". With the release of \"Snow White and the Seven Dwarfs\", all the existing titles in the Classics line were replaced with the Masterpiece Collection line and the Classics line was canceled in the United States and Canada. Cassette copies of the original Classics series became much sought-after, and are very popular with collectors, since most retailers had the first home video release for Disney animated features in their stores up to the time when the label was discontinued. Animated features and other films containing animation (such as \"Mary Poppins\" and \"Pete's Dragon\") continued to be released under the \"Walt Disney Classics\" label and its foreign language equivalents until around 2007 throughout Europe, and \"Walt Disney Meisterwerke\", the German equivalent series, is still in operation as of 2010 through its broader \"Special Collection\" range."
+}

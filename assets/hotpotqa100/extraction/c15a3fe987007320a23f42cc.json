@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "The Only Way Is Essex": "TV Show",
+    "series 8": "Series",
+    "Lydia Bright": "Person",
+    "ITV2": "Network"
+  },
+  "triples": [
+    {
+      "subject": "series 8",
+      "relation": "aired_on",
+      "object": "ITV2",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "began airing on 24 February 2013 on ITV2"
+        }
+      ]
+    },
+    {
+      "subject": "series 8",
+      "relation": "not_feature",
+      "object": "Lydia Bright",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the first series not to feature Lydia Bright"
+        }
+      ]
+    },
+    {
+      "subject": "Lydia Bright",
+      "relation": "departed_from",
+      "object": "series 8",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "after her departure from the series in December 2012"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "series 8",
+        "part_of",
+        "The Only Way Is Essex"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "series 8",
+        "consisted_of",
+        "12 episodes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "series 8",
+        "saw_departure_of",
+        "numerous supporting cast members"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "series 8",
+        "introduced",
+        "new supporting cast members"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Only Way Is Essex (series 8)\nThe eighth series of \"The Only Way Is Essex\", a British semi-reality television programme, began airing on 24 February 2013 on ITV2. The series consisted of 12 episodes. Series 8 marked the first series not to feature Lydia Bright, after her departure from the series in December 2012. The series also saw the departure of numerous supporting cast members and introduced new supporting cast members."
+}

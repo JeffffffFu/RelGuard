@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Ubangi River": "river",
+    "Congo River": "river",
+    "Central African Republic": "country",
+    "Democratic Republic of the Congo": "country",
+    "Republic of Congo": "country",
+    "Bangui": "city",
+    "Mbomou River": "river",
+    "Uele River": "river",
+    "Liranga": "location"
+  },
+  "triples": [
+    {
+      "subject": "Ubangi River",
+      "relation": "largest_right_bank_tributary_of",
+      "object": "Congo River",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the largest right-bank tributary of the Congo River"
+        }
+      ]
+    },
+    {
+      "subject": "Ubangi River",
+      "relation": "flows_through",
+      "object": "Bangui",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "passes through Bangui, the capital of CAF"
+        }
+      ]
+    },
+    {
+      "subject": "Ubangi River",
+      "relation": "forms_border_between",
+      "object": "Central African Republic",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "forming the border between Central African Republic (CAF)"
+        }
+      ]
+    },
+    {
+      "subject": "Ubangi River",
+      "relation": "forms_border_between",
+      "object": "Democratic Republic of the Congo",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "forming the border between Democratic Republic of the Congo and Republic of Congo"
+        }
+      ]
+    },
+    {
+      "subject": "Ubangi River",
+      "relation": "joins",
+      "object": "Congo River",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "finally joins the Congo River at Liranga"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ubangi River",
+        "begins_at",
+        "confluence of the Mbomou and Uele Rivers"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ubangi River\nThe Ubangi River ( or ), also spelled Oubangui, is the largest right-bank tributary of the Congo River in the region of Central Africa. It begins at the confluence of the Mbomou and Uele Rivers and flows west, forming the border between Central African Republic (CAF) and Democratic Republic of the Congo. Subsequently, the Ubangi bends to the southwest and passes through Bangui, the capital of CAF, after which it flows southforming the border between Democratic Republic of the Congo and Republic of Congo. The Ubangi finally joins the Congo River at Liranga."
+}

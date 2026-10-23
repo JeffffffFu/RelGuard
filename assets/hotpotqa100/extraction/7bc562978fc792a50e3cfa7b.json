@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "primer": "component",
+    "firearm ballistics": "field",
+    "pistol and rifle cartridges": "ammunition",
+    "shotgun shells": "ammunition",
+    "black powder": "material",
+    "ignition source": "device",
+    "slow match": "device",
+    "flintlock": "device",
+    "gun barrel": "part",
+    "main charge": "component"
+  },
+  "triples": [
+    {
+      "subject": "primer",
+      "relation": "is_a_component_of",
+      "object": "pistol and rifle cartridges",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the primer ( ) is a component of pistol and rifle cartridges"
+        }
+      ]
+    },
+    {
+      "subject": "black powder",
+      "relation": "was_used_in",
+      "object": "primer",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Early primers were simply the same black powder used to fire the weapon"
+        }
+      ]
+    },
+    {
+      "subject": "primer",
+      "relation": "connected_to",
+      "object": "ignition source",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "where it could be ignited by an ignition source such as a slow match or a flintlock"
+        }
+      ]
+    },
+    {
+      "subject": "gun barrel",
+      "relation": "led_to",
+      "object": "main charge",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "This external powder was connected through a small opening at the rear of the gun barrel that led to the main charge"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "primer",
+        "is_a_component_of",
+        "shotgun shells"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Primer (firearm)\nIn firearm ballistics, the primer ( ) is a component of pistol and rifle cartridges, as well as shotgun shells. Early primers were simply the same black powder used to fire the weapon but poured into an external flash pan where it could be ignited by an ignition source such as a slow match or a flintlock. This external powder was connected through a small opening at the rear of the gun barrel that led to the main charge. As powder will not burn when wet, this made it difficult, or even impossible, to fire these types of weapons in rainy or humid conditions."
+}

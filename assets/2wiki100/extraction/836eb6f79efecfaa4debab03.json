@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Aylwin": "WORK_OF_ART",
+    "Henry Edwards": "PERSON",
+    "Chrissie White": "PERSON",
+    "Gerald Ames": "PERSON",
+    "Theodore Watts-Dunton": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Aylwin",
+      "relation": "directed_by",
+      "object": "Henry Edwards",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Henry Edwards"
+        }
+      ]
+    },
+    {
+      "subject": "Aylwin",
+      "relation": "starring",
+      "object": "Henry Edwards",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Henry Edwards"
+        }
+      ]
+    },
+    {
+      "subject": "Aylwin",
+      "relation": "based_on",
+      "object": "Theodore Watts-Dunton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on Theodore Watts-Dunton's novel of the same name"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Aylwin",
+        "starring",
+        "Chrissie White"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Aylwin",
+        "starring",
+        "Gerald Ames"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Aylwin (film)\nAylwin is a 1920 British silent drama film directed by Henry Edwards and starring Henry Edwards, Chrissie White and Gerald Ames. It is based on Theodore Watts-Dunton's novel of the same name."
+}

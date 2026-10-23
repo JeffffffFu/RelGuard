@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Oklahoma Sooners men's basketball": "ORG",
+    "University of Oklahoma": "ORG",
+    "Big 12 Conference": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Oklahoma Sooners men's basketball",
+      "relation": "represents",
+      "object": "University of Oklahoma",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "represents",
+          "line_start": 43,
+          "char_start": 77,
+          "ambiguous": false,
+          "relation_mention": "represents",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Oklahoma Sooners men's basketball",
+        "plays_in",
+        "Big 12 Conference"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Oklahoma Sooners men's basketball\nThe Oklahoma Sooners men's basketball team represents the University of Oklahoma in men's NCAA Division I basketball. The Sooners play in the Big 12 Conference.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Oklahoma Sooners men's basketball\",\n      \"type\": \"ORG\"\n    },\n    {\n      \"name\": \"University of Oklahoma\",\n      \"type\": \"ORG\"\n    },\n    {\n      \"name\": \"Big 12 Conference\",\n      \"type\": \"ORG\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Oklahoma Sooners men's basketball\",\n      \"relation\": \"represents\",\n      \"object\": \"University of Oklahoma\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"represents\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Oklahoma Sooners men's basketball\",\n      \"relation\": \"plays_in\",\n      \"object\": \"Big 12 Conference\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"play in the\"\n        }\n      ]\n    }\n  ]\n}"
+}

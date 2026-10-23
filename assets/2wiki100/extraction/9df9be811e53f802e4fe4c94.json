@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "David Hackl": "PERSON",
+    "Toronto": "GPE",
+    "Ontario": "GPE",
+    "Canadian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "David Hackl",
+      "relation": "born_in",
+      "object": "Toronto",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born February 7, 1963 in",
+          "line_start": 13,
+          "char_start": 25,
+          "ambiguous": false,
+          "relation_mention": "born February 7, 1963 in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "David Hackl",
+      "relation": "born_in",
+      "object": "Ontario",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born February 7, 1963 in",
+          "line_start": 13,
+          "char_start": 25,
+          "ambiguous": false,
+          "relation_mention": "born February 7, 1963 in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "David Hackl",
+      "relation": "nationality",
+      "object": "Canadian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a Canadian",
+          "line_start": 56,
+          "char_start": 68,
+          "ambiguous": false,
+          "relation_mention": "is a Canadian",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Canadian",
+        "located_in",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "David Hackl",
+        "occupation",
+        "production designer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "David Hackl",
+        "occupation",
+        "film director"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "David Hackl\nDavid Hackl (born February 7, 1963 in Toronto, Ontario) is a Canadian film director and production designer."
+}

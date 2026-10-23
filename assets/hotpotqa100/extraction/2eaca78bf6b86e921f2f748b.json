@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "John Ormsby": "PERSON",
+    "Miguel de Cervantes": "PERSON",
+    "Don Quixote de la Mancha": "WORK_OF_ART",
+    "Samuel Putnam": "PERSON",
+    "British": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "John Ormsby",
+        "nationality",
+        "British"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Ormsby",
+        "translated",
+        "Don Quixote de la Mancha"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Don Quixote de la Mancha",
+        "written_by",
+        "Miguel de Cervantes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Samuel Putnam",
+        "published_translation_of",
+        "Don Quixote de la Mancha"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Samuel Putnam",
+        "criticized",
+        "John Ormsby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "John Ormsby (translator)\nJohn Ormsby (1829–1895) was a nineteenth-century British translator. He is most famous for his 1885 English translation of Miguel de Cervantes' \"Don Quixote de la Mancha\", perhaps the most scholarly and accurate English translation of the novel up to that time. It is so precise that Samuel Putnam, who published his own English translation of the novel in 1949, faults Ormsby for duplicating Cervantes' pronouns so closely that the meaning of the sentences sometimes becomes confusing.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"John Ormsby\", \"type\": \"PERSON\"},\n    {\"name\": \"Miguel de Cervantes\", \"type\": \"PERSON\"},\n    {\"name\": \"Don Quixote de la Mancha\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Samuel Putnam\", \"type\": \"PERSON\"},\n    {\"name\": \"British\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"John Ormsby\",\n      \"relation\": \"nationality\",\n      \"object\": \"British\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"British\"}\n      ]\n    },\n    {\n      \"subject\": \"John Ormsby\",\n      \"relation\": \"translated\",\n      \"object\": \"Don Quixote de la Mancha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"translation of Miguel de Cervantes' \\\"Don Quixote de la Mancha\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Don Quixote de la Mancha\",\n      \"relation\": \"written_by\",\n      \"object\": \"Miguel de Cervantes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Miguel de Cervantes' \\\"Don Quixote de la Mancha\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Samuel Putnam\",\n      \"relation\": \"published_translation_of\",\n      \"object\": \"Don Quixote de la Mancha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"published his own English translation of the novel in 1949\"}\n      ]\n    },\n    {\n      \"subject\": \"Samuel Putnam\",\n      \"relation\": \"criticized\",\n      \"object\": \"John Ormsby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"faults Ormsby for duplicating Cervantes' pronouns\"}\n      ]\n    }\n  ]\n}"
+}

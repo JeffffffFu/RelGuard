@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "So Alive": "WORK_OF_ART",
+    "Skepta": "PERSON",
+    "N-Dubz": "ORG",
+    "Doin' It Again": "WORK_OF_ART",
+    "Love.Live.Life": "WORK_OF_ART",
+    "UK": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "So Alive",
+      "relation": "created_by",
+      "object": "Skepta",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "a song by British MC Skepta"
+        }
+      ]
+    },
+    {
+      "subject": "So Alive",
+      "relation": "peaked_at",
+      "object": "UK",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The single peaked at #99 on the UK Singles Chart"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "So Alive",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "So Alive",
+        "created_by",
+        "N-Dubz"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Skepta",
+        "released",
+        "Doin' It Again"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "N-Dubz",
+        "released",
+        "Love.Live.Life"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "So Alive (Skepta and N-Dubz song)\n\"So Alive\" is a song by British MC Skepta and British trio, N-Dubz. It was released as an official single on 6 February 2011. It is the fourth single released Skepta's third album \"Doin' It Again\" and N-Dubz's third album \"Love.Live.Life\". The single peaked at #99 on the UK Singles Chart."
+}

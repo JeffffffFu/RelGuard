@@ -1,0 +1,44 @@
+{
+  "entities": {
+    "Yulia Yasenok": "PERSON",
+    "Belarusian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Yulia Yasenok",
+      "relation": "born_on",
+      "object": "Yulia Yasenok",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born July 9, 1983",
+          "line_start": 34,
+          "char_start": 48,
+          "ambiguous": false,
+          "relation_mention": "born July 9, 1983",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Yulia Yasenok",
+        "also_named",
+        "Yulia Yasenok"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Yulia Yasenok",
+        "is_a",
+        "Belarusian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Yulia Yasenok\nYulia Yasenok or Yuliya Yasionak( born July 9, 1983) is a Belarusian long track speed skater who participates in international competitions.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Yulia Yasenok\", \"type\": \"PERSON\"},\n    {\"name\": \"Belarusian\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Yulia Yasenok\",\n      \"relation\": \"also_named\",\n      \"object\": \"Yulia Yasenok\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"or Yuliya Yasionak(\"}\n      ]\n    },\n    {\n      \"subject\": \"Yulia Yasenok\",\n      \"relation\": \"born_on\",\n      \"object\": \"Yulia Yasenok\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born July 9, 1983\"}\n      ]\n    },\n    {\n      \"subject\": \"Yulia Yasenok\",\n      \"relation\": \"is_a\",\n      \"object\": \"Belarusian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Belarusian\"}\n      ]\n    }\n  ]\n}"
+}

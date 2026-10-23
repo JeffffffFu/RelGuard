@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Metallica": "ORG",
+    "Lars Ulrich": "PERSON",
+    "James Hetfield": "PERSON",
+    "Dave Mustaine": "PERSON",
+    "Ron McGovney": "PERSON",
+    "Cliff Burton": "PERSON",
+    "Jason Newsted": "PERSON",
+    "Robert Trujillo": "PERSON",
+    "Kirk Hammett": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Metallica",
+      "relation": "founded",
+      "object": "Lars Ulrich",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "founded in 1981 by drummer Lars Ulrich"
+        }
+      ]
+    },
+    {
+      "subject": "Metallica",
+      "relation": "included",
+      "object": "James Hetfield",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the original lineup for some of the 1982 concerts included James Hetfield"
+        }
+      ]
+    },
+    {
+      "subject": "Ron McGovney",
+      "relation": "replaced_by",
+      "object": "Cliff Burton",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Cliff Burton replaced McGovney in 1982"
+        }
+      ]
+    },
+    {
+      "subject": "Cliff Burton",
+      "relation": "played_with",
+      "object": "Metallica",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "played with the band until his death in 1986"
+        }
+      ]
+    },
+    {
+      "subject": "Metallica",
+      "relation": "took_role",
+      "object": "Kirk Hammett",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "the lead guitarist role was taken by Kirk Hammett (since 1983)"
+        }
+      ]
+    },
+    {
+      "subject": "Dave Mustaine",
+      "relation": "fired_from",
+      "object": "Metallica",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "after Dave Mustaine got fired from the band"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Metallica",
+        "included",
+        "Dave Mustaine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Metallica",
+        "included",
+        "Ron McGovney"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Metallica",
+        "recruited",
+        "Jason Newsted"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Metallica",
+        "recruited",
+        "Robert Trujillo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "List of Metallica concert tours\nMetallica is an American heavy metal band, founded in 1981 by drummer Lars Ulrich and rhythm guitarist James Hetfield. Aside from Ulrich, the original lineup for some of the 1982 concerts included James Hetfield (rhythm guitar and lead vocals), Dave Mustaine (lead guitar and backing vocals) and Ron McGovney (bass guitar). Cliff Burton replaced McGovney in 1982 and played with the band until his death in 1986. After his death, bassists Jason Newsted (1986–2001), and Robert Trujillo (since 2003) were recruited in the band. While the lead guitarist role was taken by Kirk Hammett (since 1983) after Dave Mustaine got fired from the band."
+}

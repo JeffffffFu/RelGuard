@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "RTCG": "organization",
+    "Montenegro": "location",
+    "Podgorica": "location",
+    "Radio Montenegro": "organization",
+    "Montenegro Television": "organization",
+    "European Broadcasting Union": "organization"
+  },
+  "triples": [
+    {
+      "subject": "RTCG",
+      "relation": "is_public_service_broadcaster_of",
+      "object": "Montenegro",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the public service broadcaster of Montenegro"
+        }
+      ]
+    },
+    {
+      "subject": "RTCG",
+      "relation": "has_headquarters_in",
+      "object": "Podgorica",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with its headquarters in Podgorica"
+        }
+      ]
+    },
+    {
+      "subject": "RTCG",
+      "relation": "is_made_up_of",
+      "object": "Radio Montenegro",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is made up of Radio Montenegro"
+        }
+      ]
+    },
+    {
+      "subject": "RTCG",
+      "relation": "became_joint_member_of",
+      "object": "European Broadcasting Union",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "RTCG became a joint member of the European Broadcasting Union"
+        }
+      ]
+    },
+    {
+      "subject": "RTCG",
+      "relation": "became_full_member_of",
+      "object": "European Broadcasting Union",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "became a full member of the EBU"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "RTCG",
+        "is_made_up_of",
+        "Montenegro Television"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "RTCG\nRadio and Television of Montenegro (Montenegrin: \"Radio i televizija Crne Gore\", Радио и телевизија Црне Горе - or RTCG, РТЦГ) is the public service broadcaster of Montenegro. A state-owned company with its headquarters in Podgorica, it is made up of Radio Montenegro (RCG - \"Radio Crne Gore\") and Montenegro Television (TVCG - \"Televizija Crne Gore\"). In July 2001, RTCG became a joint member of the European Broadcasting Union (EBU), and became a full member of the EBU upon the declaration of Montenegrin independence in 2006."
+}

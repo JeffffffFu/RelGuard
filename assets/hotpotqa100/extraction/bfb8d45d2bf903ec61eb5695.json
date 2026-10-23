@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "Gino's Pizza and Spaghetti": "ORG",
+    "Kenney Grant": "PERSON",
+    "West Virginia": "GPE",
+    "Ohio": "GPE",
+    "Kentucky": "GPE",
+    "Virginia": "GPE",
+    "Huntington": "GPE",
+    "Nitro": "GPE",
+    "Tudor's Biscuit World": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Gino's Pizza and Spaghetti",
+      "relation": "founded",
+      "object": "Kenney Grant",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The company was founded by Kenney Grant in 1961."
+        }
+      ]
+    },
+    {
+      "subject": "Gino's Pizza and Spaghetti",
+      "relation": "located_in",
+      "object": "West Virginia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "most of them within the U.S. state of West Virginia."
+        },
+        {
+          "sentence_id": 3,
+          "relation_mention": "although the Gino's brand is exclusive to West Virginia."
+        },
+        {
+          "sentence_id": 4,
+          "relation_mention": "Company headquarters are located in Huntington, West Virginia and Nitro, West Virginia."
+        }
+      ]
+    },
+    {
+      "subject": "Gino's Pizza and Spaghetti",
+      "relation": "located_in",
+      "object": "Ohio",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "There is one located in Ohio,"
+        }
+      ]
+    },
+    {
+      "subject": "Gino's Pizza and Spaghetti",
+      "relation": "shared_with",
+      "object": "Tudor's Biscuit World",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Many locations are shared with Tudor's Biscuit World"
+        }
+      ]
+    },
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "located_in",
+      "object": "Kentucky",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "stand alone Tudor's locations in eastern Kentucky,"
+        }
+      ]
+    },
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "located_in",
+      "object": "Ohio",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "southern Ohio"
+        }
+      ]
+    },
+    {
+      "subject": "Tudor's Biscuit World",
+      "relation": "located_in",
+      "object": "Virginia",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "southwest Virginia."
+        }
+      ]
+    },
+    {
+      "subject": "Gino's Pizza and Spaghetti",
+      "relation": "located_in",
+      "object": "Huntington",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Company headquarters are located in Huntington, West Virginia"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gino's Pizza and Spaghetti",
+        "located_in",
+        "Nitro"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Gino's Pizza and Spaghetti\nGino's Pizza and Spaghetti is a restaurant chain with 40 locations, most of them within the U.S. state of West Virginia. The company was founded by Kenney Grant in 1961. Many locations are shared with Tudor's Biscuit World although the Gino's brand is exclusive to West Virginia. There is one located in Ohio, while there are stand alone Tudor's locations in eastern Kentucky, southern Ohio and southwest Virginia. Gino's serves pizza, spaghetti, sandwiches, and more. Company headquarters are located in Huntington, West Virginia and Nitro, West Virginia."
+}

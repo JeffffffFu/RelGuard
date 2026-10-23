@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Prince Lorenz of Belgium": "Person",
+    "Princess Astrid of Belgium": "Person",
+    "House of Austria-Este": "Organization",
+    "Belgian royal family": "Organization",
+    "Imperial Austrian House of Habsburg-Lorraine": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Prince Lorenz of Belgium",
+      "relation": "married_to",
+      "object": "Princess Astrid of Belgium",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by his marriage with Princess Astrid of Belgium"
+        }
+      ]
+    },
+    {
+      "subject": "Prince Lorenz of Belgium",
+      "relation": "member_of",
+      "object": "Belgian royal family",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a member of the Belgian royal family"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Prince Lorenz of Belgium",
+        "head_of",
+        "House of Austria-Este"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "House of Austria-Este",
+        "cadet_branch_of",
+        "Imperial Austrian House of Habsburg-Lorraine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Prince Lorenz of Belgium, Archduke of Austria-Este\nPrince Lorenz of Belgium, Archduke of Austria- Este( born 16 December 1955) is a member of the Belgian royal family by his marriage with Princess Astrid of Belgium. Since 1996 he is also head of the House of Austria- Este, a cadet branch of the former Imperial Austrian House of Habsburg- Lorraine."
+}

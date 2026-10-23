@@ -1,0 +1,129 @@
+{
+  "entities": {
+    "Al Gore": "PERSON",
+    "Albert Arnold Gore Jr.": "PERSON",
+    "United States": "GPE",
+    "Bill Clinton": "PERSON",
+    "President Clinton": "PERSON",
+    "Democratic": "NORP",
+    "IPCC": "ORG",
+    "Nobel Peace Prize": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Albert Arnold Gore Jr.",
+      "relation": "born",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is an American",
+          "line_start": 45,
+          "char_start": 53,
+          "ambiguous": false,
+          "relation_mention": "is an American",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Al Gore",
+      "relation": "was_running_mate_of",
+      "object": "Bill Clinton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was Bill Clinton's running mate",
+          "line_start": 175,
+          "char_start": 183,
+          "ambiguous": false,
+          "relation_mention": "was Bill Clinton's running mate",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Al Gore",
+      "relation": "was_selected_as",
+      "object": "Democratic",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was selected as the Democratic nominee",
+          "line_start": 337,
+          "char_start": 345,
+          "ambiguous": false,
+          "relation_mention": "was selected as the Democratic nominee",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Al Gore",
+      "relation": "received",
+      "object": "Nobel Peace Prize",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "earned him (jointly with the IPCC) the Nobel Peace Prize",
+          "line_start": 592,
+          "char_start": 600,
+          "ambiguous": false,
+          "relation_mention": "earned him (jointly with the IPCC) the Nobel Peace Prize",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Nobel Peace Prize",
+      "relation": "jointly_awarded_with",
+      "object": "IPCC",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "(jointly with the IPCC)",
+          "line_start": 603,
+          "char_start": 611,
+          "ambiguous": false,
+          "relation_mention": "(jointly with the IPCC)",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Bill Clinton",
+      "relation": "is",
+      "object": "President Clinton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "President Clinton",
+          "line_start": 299,
+          "char_start": 307,
+          "ambiguous": false,
+          "relation_mention": "President Clinton",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Albert Arnold Gore Jr.",
+        "is_a",
+        "Al Gore"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Albert Arnold Gore Jr.",
+        "served_as",
+        "Vice President of the United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Al Gore\nAlbert Arnold Gore Jr. (born March 31, 1948) is an American politician and environmentalist who served as the 45th Vice President of the United States from 1993 to 2001. Gore was Bill Clinton's running mate in their successful campaign in 1992, and the pair were re-elected in 1996. Near the end of President Clinton's second term, Gore was selected as the Democratic nominee for the 2000 presidential election but did not win the election. After his term as vice-president ended in 2001, Gore remained prominent as an author and environmental activist, whose work in climate change activism earned him (jointly with the IPCC) the Nobel Peace Prize in 2007."
+}

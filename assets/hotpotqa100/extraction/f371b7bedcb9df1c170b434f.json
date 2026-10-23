@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Pakistan": "GPE",
+    "Pakistan Muslim League (Q)": "ORG",
+    "Raja Pervez Ashraf": "PERSON",
+    "Pakistan Peoples Party": "ORG",
+    "Chaudhry Pervaiz Elahi": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Pakistan",
+      "relation": "created_by",
+      "object": "Raja Pervez Ashraf",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was created by the Prime Minister of Pakistan"
+        }
+      ]
+    },
+    {
+      "subject": "Pakistan Peoples Party",
+      "relation": "shared_ministries_with",
+      "object": "Pakistan Muslim League (Q)",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "an agreement between the ruling Pakistan Peoples Party (PPP) and the PML-Q to share ministries"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pakistan Muslim League (Q)",
+        "demanded",
+        "Deputy Prime Minister of Pakistan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chaudhry Pervaiz Elahi",
+        "was_made",
+        "Deputy Prime Minister of Pakistan"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Deputy Prime Minister of Pakistan\nThe office of the Deputy Prime Minister of Pakistan (Urdu: ‎ ) was created by the Prime Minister of Pakistan on 25 June 2012. The main coalition party, Pakistan Muslim League (Q) (PML-Q), demanded to make a post of Deputy Prime Minister which was accomplished by the newly elected Prime Minister Raja Pervez Ashraf. The main purpose of the post was to give a backup to the government in the absence of the Prime Minister. As a result of an agreement between the ruling Pakistan Peoples Party (PPP) and the PML-Q to share ministries in the federal cabinet, Chaudhry Pervaiz Elahi was made the first Deputy Prime Minister of Pakistan."
+}

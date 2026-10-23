@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "So Alive": "WORK_OF_ART",
+    "Skepta": "PERSON",
+    "N-Dubz": "ORG",
+    "Doin' It Again": "WORK_OF_ART",
+    "Love.Live.Life": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "So Alive",
+      "relation": "performed_by",
+      "object": "Skepta",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "by British MC Skepta",
+          "line_start": 21,
+          "char_start": 55,
+          "ambiguous": false,
+          "relation_mention": "by British MC Skepta",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "So Alive",
+      "relation": "performed_by",
+      "object": "N-Dubz",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "by British MC Skepta and British trio, N-Dubz",
+          "line_start": 21,
+          "char_start": 55,
+          "ambiguous": false,
+          "relation_mention": "by British MC Skepta and British trio, N-Dubz",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "So Alive",
+      "relation": "released_as",
+      "object": "Doin' It Again",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released Skepta's third album \"Doin' It Again\"",
+          "line_start": 150,
+          "char_start": 184,
+          "ambiguous": false,
+          "relation_mention": "released Skepta's third album \"Doin' It Again\"",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "So Alive",
+      "relation": "released_as",
+      "object": "Love.Live.Life",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and N-Dubz's third album \"Love.Live.Life\"",
+          "line_start": 197,
+          "char_start": 231,
+          "ambiguous": false,
+          "relation_mention": "and N-Dubz's third album \"Love.Live.Life\"",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United Kingdom (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "So Alive",
+        "peaked_on_chart_in",
+        "United Kingdom"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "So Alive (Skepta and N-Dubz song)\n\"So Alive\" is a song by British MC Skepta and British trio, N-Dubz. It was released as an official single on 6 February 2011. It is the fourth single released Skepta's third album \"Doin' It Again\" and N-Dubz's third album \"Love.Live.Life\". The single peaked at #99 on the UK Singles Chart."
+}

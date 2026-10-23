@@ -1,0 +1,65 @@
+{
+  "entities": {
+    "Morocco 2026 FIFA World Cup bid": "event",
+    "North America 2026 FIFA World Cup bid": "event",
+    "Canada": "location",
+    "Mexico": "location",
+    "United States": "location",
+    "Royal Moroccan Football Federation": "organization",
+    "2026 FIFA World Cup": "event"
+  },
+  "triples": [
+    {
+      "subject": "Morocco 2026 FIFA World Cup bid",
+      "relation": "competing_with",
+      "object": "North America 2026 FIFA World Cup bid",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is competing with the North America 2026 FIFA World Cup bid"
+        }
+      ]
+    },
+    {
+      "subject": "North America 2026 FIFA World Cup bid",
+      "relation": "joint_bid_between",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a joint bid between Canada"
+        }
+      ]
+    },
+    {
+      "subject": "Royal Moroccan Football Federation",
+      "relation": "announced",
+      "object": "Morocco 2026 FIFA World Cup bid",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the Royal Moroccan Football Federation announced that it would submit a bid for the 2026 FIFA World Cup"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "North America 2026 FIFA World Cup bid",
+        "joint_bid_between",
+        "Mexico"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "North America 2026 FIFA World Cup bid",
+        "joint_bid_between",
+        "United States"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Morocco 2026 FIFA World Cup bid\nThe Morocco 2026 FIFA World Cup bid is Morocco's bid to host the 2026 FIFA World Cup. It is competing with the North America 2026 FIFA World Cup bid, a joint bid between Canada, Mexico and the United States for hosting rights. On 11 August 2017, the Royal Moroccan Football Federation announced that it would submit a bid for the 2026 FIFA World Cup."
+}

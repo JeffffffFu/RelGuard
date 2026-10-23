@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Nikos Anastopoulos": "PERSON",
+    "Greek": "NORP",
+    "Greek national football team": "ORG",
+    "Olympiacos": "ORG",
+    "Europe": "LOC",
+    "Aris F.C.": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Nikos Anastopoulos",
+        "has_nationality",
+        "Greek"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Nikos Anastopoulos",
+        "is_a",
+        "PERSON"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nikos Anastopoulos",
+        "is_top_scorer_for",
+        "Greek national football team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Nikos Anastopoulos",
+        "scored_goals_for",
+        "Olympiacos"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Nikos Anastopoulos",
+        "won",
+        "Bronze Boot"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bronze Boot",
+        "located_in",
+        "Europe"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nikos Anastopoulos",
+        "works_for",
+        "Aris F.C."
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Nikos Anastopoulos\nNikolaos \"Nikos\" Anastopoulos (Greek: Νικόλαος \"Νίκος\" Αναστόπουλος ) is a Greek former football player, one of the most prolific strikers in the Greek league during the 1980s and widely regarded as one of the best strikers in the history of Greek football. With 29 goals he is the all-time top scorer for the Greek national football team. He is considered as one of the greatest players in Olympiacos history, where he scored 159 goals in 291 official games for the Greek powerhouse and won the Bronze Boot as the third scorer in Europe in the 1982–83 season. Since retiring as a player he has become a football manager, currently coaching Aris F.C..",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Nikos Anastopoulos\", \"type\": \"PERSON\"},\n    {\"name\": \"Greek\", \"type\": \"NORP\"},\n    {\"name\": \"Greek national football team\", \"type\": \"ORG\"},\n    {\"name\": \"Olympiacos\", \"type\": \"ORG\"},\n    {\"name\": \"Europe\", \"type\": \"LOC\"},\n    {\"name\": \"Aris F.C.\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Nikos Anastopoulos\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"Greek\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Greek\"}\n      ]\n    },\n    {\n      \"subject\": \"Nikos Anastopoulos\",\n      \"relation\": \"is_a\",\n      \"object\": \"PERSON\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Greek former football player\"}\n      ]\n    },\n    {\n      \"subject\": \"Nikos Anastopoulos\",\n      \"relation\": \"is_top_scorer_for\",\n      \"object\": \"Greek national football team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the all-time top scorer for the Greek national football team\"}\n      ]\n    },\n    {\n      \"subject\": \"Nikos Anastopoulos\",\n      \"relation\": \"scored_goals_for\",\n      \"object\": \"Olympiacos\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"scored 159 goals in 291 official games for the Greek powerhouse\"}\n      ]\n    },\n    {\n      \"subject\": \"Nikos Anastopoulos\",\n      \"relation\": \"won\",\n      \"object\": \"Bronze Boot\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the Bronze Boot as the third scorer in Europe in the 1982–83 season\"}\n      ]\n    },\n    {\n      \"subject\": \"Bronze Boot\",\n      \"relation\": \"located_in\",\n      \"object\": \"Europe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Europe\"}\n      ]\n    },\n    {\n      \"subject\": \"Nikos Anastopoulos\",\n      \"relation\": \"works_for\",\n      \"object\": \"Aris F.C.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"coaching Aris F.C.\"}\n      ]\n    }\n  ]\n}"
+}

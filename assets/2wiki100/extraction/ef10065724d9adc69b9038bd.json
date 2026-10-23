@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Stefan Walz": "PERSON",
+    "Sigmund Jähn": "PERSON",
+    "Good Bye, Lenin!": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Stefan Walz",
+      "relation": "played",
+      "object": "Sigmund Jähn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known role is as Sigmund Jähn"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Switzerland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Stefan Walz",
+        "born_in",
+        "Switzerland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Stefan Walz",
+        "starred_in",
+        "Good Bye, Lenin!"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Stefan Walz\nStefan Walz( born 1963) is a Swiss actor. His best known role is as Sigmund Jähn in the film\" Good Bye, Lenin!\"."
+}

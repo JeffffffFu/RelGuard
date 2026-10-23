@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Kuno Becker": "Person",
+    "Ruben Berrizabal": "Character",
+    "Soñadoras": "TV Show",
+    "Santiago Muñez": "Character",
+    "Goal!": "Movie"
+  },
+  "triples": [
+    {
+      "subject": "Kuno Becker",
+      "relation": "portrayed",
+      "object": "Ruben Berrizabal",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his portrayal of Ruben Berrizabal"
+        }
+      ]
+    },
+    {
+      "subject": "Kuno Becker",
+      "relation": "worked_in",
+      "object": "Soñadoras",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "worked in telenovelas, Mexican cinema and U.S. cinema"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kuno Becker",
+        "portrayed",
+        "Santiago Muñez"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kuno Becker",
+        "worked_in",
+        "Goal!"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Kuno Becker\nEduardo Kuno Becker Paz (born January 14, 1978) is a Mexican actor who has worked in telenovelas, Mexican cinema and U.S. cinema, but is best known for his portrayal of Ruben Berrizabal in \"Soñadoras\" and Santiago Muñez in the football movie \"Goal!\" and following sequels."
+}

@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Cand.med.vet.": "degree",
+    "Candidatus/candidata medicinae veterinariae": "degree_full_name",
+    "Scandinavian countries": "location",
+    "veterinary medical school": "education",
+    "DVM": "degree",
+    "VDM": "degree",
+    "BVSc": "degree",
+    "BVM&S": "degree",
+    "veterinarian": "profession"
+  },
+  "triples": [
+    {
+      "subject": "Cand.med.vet.",
+      "relation": "equivalent_with",
+      "object": "Candidatus/candidata medicinae veterinariae",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Cand.med.vet (Candidatus/candidata (male/female) medicinae veterinariae)"
+        }
+      ]
+    },
+    {
+      "subject": "Cand.med.vet.",
+      "relation": "awarded_in",
+      "object": "Scandinavian countries",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an academic degree awarded in Scandinavian countries"
+        }
+      ]
+    },
+    {
+      "subject": "Cand.med.vet.",
+      "relation": "follows",
+      "object": "veterinary medical school",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "following a 5,5 to 6 year veterinary medical school education"
+        }
+      ]
+    },
+    {
+      "subject": "Cand.med.vet.",
+      "relation": "opens_for",
+      "object": "veterinarian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which also opens for authorization as a veterinarian"
+        }
+      ]
+    },
+    {
+      "subject": "Cand.med.vet.",
+      "relation": "equivalent_with",
+      "object": "DVM",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is equivalent with the same kind of degrees given in other countries, like: DVM"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Cand.med.vet.",
+        "equivalent_with",
+        "VDM"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Cand.med.vet.",
+        "equivalent_with",
+        "BVSc"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Cand.med.vet.",
+        "equivalent_with",
+        "BVM&S"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Cand.med.vet.\nCand.med.vet (Candidatus/candidata (male/female) medicinae veterinariae) or \"candidate of veterinary medicine\" is an academic degree awarded in Scandinavian countries following a 5,5 to 6 year veterinary medical school education. It is equivalent with the same kind of degrees given in other countries, like: DVM, VDM, BVSc, BVM&S etc., which also opens for authorization as a veterinarian."
+}

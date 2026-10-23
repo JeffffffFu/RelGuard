@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "Lubaland": "Location",
+    "Luba people": "Ethnic Group",
+    "Democratic Republic of the Congo": "Country",
+    "Leopold II": "Person",
+    "Congo Free State": "Political Entity",
+    "Lwembe river": "River",
+    "Upemba Depression": "Geographical Feature"
+  },
+  "triples": [
+    {
+      "subject": "Lubaland",
+      "relation": "located_in",
+      "object": "Democratic Republic of the Congo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "now the southeastern portion of the Democratic Republic of the Congo."
+        }
+      ]
+    },
+    {
+      "subject": "Lubaland",
+      "relation": "inhabited_by",
+      "object": "Luba people",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "where the Luba people live"
+        }
+      ]
+    },
+    {
+      "subject": "Leopold II",
+      "relation": "made_part_of",
+      "object": "Congo Free State",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who made it part of his Congo Free State."
+        }
+      ]
+    },
+    {
+      "subject": "Lubaland",
+      "relation": "stretches_from",
+      "object": "Lwembe river",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Lubaland stretches from the Lwembe river"
+        }
+      ]
+    },
+    {
+      "subject": "Lubaland",
+      "relation": "excludes",
+      "object": "Upemba Depression",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "except Upemba Depression."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Luba people",
+        "united_to_form",
+        "kingdom"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "kingdom",
+        "taken_over_by",
+        "Leopold II"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lubaland",
+        "stretches_to",
+        "Congo River"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lubaland",
+        "located_between",
+        "6°30′ and 10°00′ S"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lubaland",
+        "is_a",
+        "savanah"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lubaland\nLubaland refers to the savanah grassland south of the Congo River where the Luba people live; now the southeastern portion of the Democratic Republic of the Congo. Around 1500 CE Lubas united to form a kingdom which was ultimately taken over in 1885 by Leopold II, King of Belgium, who made it part of his Congo Free State. Lubaland stretches from the Lwembe river to about 50 kilometers east of the Congo River, between 6°30′ and 10°00′ S in north-central Shaba. The area is a savanah except Upemba Depression."
+}

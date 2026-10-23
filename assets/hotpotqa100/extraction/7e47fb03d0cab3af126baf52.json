@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Arnold Schwarzenegger": "Person",
+    "AC/DC": "Music Band",
+    "Bon Jovi": "Music Band",
+    "Guns N' Roses": "Music Band"
+  },
+  "triples": [
+    {
+      "subject": "Arnold Schwarzenegger",
+      "relation": "credited_with",
+      "object": "Arnold Schwarzenegger",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was credited with his birth name thereafter"
+        }
+      ]
+    },
+    {
+      "subject": "Arnold Schwarzenegger",
+      "relation": "appeared_in",
+      "object": "AC/DC",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "music videos for AC/DC"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Arnold Schwarzenegger",
+        "appeared_in",
+        "films"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Arnold Schwarzenegger",
+        "ventured_into",
+        "directing"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Arnold Schwarzenegger",
+        "ventured_into",
+        "producing"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Arnold Schwarzenegger",
+        "credited_as",
+        "Arnold Strong"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Arnold Schwarzenegger",
+        "appeared_in",
+        "action films"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Arnold Schwarzenegger",
+        "appeared_in",
+        "comedy films"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Arnold Schwarzenegger",
+        "appeared_in",
+        "music videos"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Arnold Schwarzenegger",
+        "appeared_in",
+        "Bon Jovi"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Arnold Schwarzenegger",
+        "appeared_in",
+        "Guns N' Roses"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Arnold Schwarzenegger filmography\nArnold Schwarzenegger is an actor who has appeared in over 30 films, and has also ventured into directing and producing. He began his acting career primarily with small roles in film and television. For his first film role, he was credited as \"Arnold Strong\", but was credited with his birth name thereafter. He has appeared mainly in action, and comedy films. In addition to films and television, he has appeared in music videos for AC/DC, Bon Jovi, and Guns N' Roses."
+}

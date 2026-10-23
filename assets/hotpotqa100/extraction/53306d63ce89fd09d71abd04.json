@@ -1,0 +1,47 @@
+{
+  "entities": {
+    "Hakuna Matata": "WORK_OF_ART",
+    "Disney": "ORG",
+    "The Lion King": "WORK_OF_ART",
+    "Timon and Pumbaa": "PERSON",
+    "Hakuna matata": "LANGUAGE",
+    "Swahili": "LANGUAGE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Hakuna Matata",
+        "is_a_song_from",
+        "The Lion King"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hakuna Matata",
+        "is_from_org",
+        "Disney"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hakuna Matata",
+        "is_based_on",
+        "Timon and Pumbaa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hakuna matata",
+        "is_a_phrase_in",
+        "Swahili"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Hakuna Matata (song)\n\"Hakuna Matata\" is a song from Disney's 32nd animated feature \"The Lion King\". The song is based on Timon and Pumbaa's catchphrase in the movie, \"Hakuna matata\", which is a Swahili phrase; it means 'no worries'. It is characterized by its simple 4/4 time, upbeat message and catchy lyrics.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Hakuna Matata\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Disney\", \"type\": \"ORG\"},\n    {\"name\": \"The Lion King\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Timon and Pumbaa\", \"type\": \"PERSON\"},\n    {\"name\": \"Hakuna matata\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Swahili\", \"type\": \"LANGUAGE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Hakuna Matata\",\n      \"relation\": \"is_a_song_from\",\n      \"object\": \"The Lion King\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a song from Disney's 32nd animated feature \\\"The Lion King\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Hakuna Matata\",\n      \"relation\": \"is_from_org\",\n      \"object\": \"Disney\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a song from Disney's 32nd animated feature \\\"The Lion King\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Hakuna Matata\",\n      \"relation\": \"is_based_on\",\n      \"object\": \"Timon and Pumbaa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is based on Timon and Pumbaa's catchphrase in the movie\"}\n      ]\n    },\n    {\n      \"subject\": \"Hakuna matata\",\n      \"relation\": \"is_a_phrase_in\",\n      \"object\": \"Swahili\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"which is a Swahili phrase\"}\n      ]\n    }\n  ]\n}"
+}

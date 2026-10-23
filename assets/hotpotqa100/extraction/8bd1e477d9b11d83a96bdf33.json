@@ -1,0 +1,173 @@
+{
+  "entities": {
+    "Toyota Hilux": "PRODUCT",
+    "Toyota": "ORG",
+    "North America": "LOC",
+    "SR5": "PRODUCT",
+    "Corolla": "PRODUCT",
+    "Toyota Trekker": "PRODUCT",
+    "4Runner": "PRODUCT",
+    "Hilux Surf": "PRODUCT",
+    "Japan": "GPE",
+    "Tacoma": "PRODUCT",
+    "Australia": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Toyota Hilux",
+      "relation": "produced_and_marketed_by",
+      "object": "Toyota",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced and marketed by",
+          "line_start": 110,
+          "char_start": 123,
+          "ambiguous": false,
+          "relation_mention": "produced and marketed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Hilux",
+      "relation": "sold_as",
+      "object": "Corolla",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was also used on",
+          "line_start": 656,
+          "char_start": 669,
+          "ambiguous": false,
+          "relation_mention": "was also used on",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "SR5",
+      "relation": "used_on",
+      "object": "Corolla",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was also used on",
+          "line_start": 656,
+          "char_start": 669,
+          "ambiguous": false,
+          "relation_mention": "was also used on",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "4Runner",
+      "relation": "renamed_from",
+      "object": "Toyota Trekker",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "renamed as the",
+          "line_start": 790,
+          "char_start": 803,
+          "ambiguous": false,
+          "relation_mention": "renamed as the",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "4Runner",
+      "relation": "renamed_from",
+      "object": "Toyota Trekker",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "renamed as the",
+          "line_start": 790,
+          "char_start": 803,
+          "ambiguous": false,
+          "relation_mention": "renamed as the",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hilux Surf",
+        "located_in",
+        "Japan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "4Runner",
+        "renamed_in",
+        "North America"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "4Runner",
+        "renamed_in",
+        "Australia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hilux Surf",
+        "renamed_in",
+        "Japan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota",
+        "introduced",
+        "Tacoma"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tacoma",
+        "introduced_in",
+        "North America"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tacoma",
+        "discontinued",
+        "Toyota Hilux"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Toyota Hilux",
+        "had_name_retired_in",
+        "North America"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "SR5",
+        "was_option_package_for",
+        "Toyota Hilux"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Toyota Hilux\nThe Toyota Hilux (also stylized as HiLux and historically as Hi-Lux) is a series of light commercial vehicles produced and marketed by the Japanese manufacturer Toyota. The majority of these vehicles were sold as pickup truck or cab chassis variants although they could be configured in a variety of body styles. Most countries used the Hilux name for the entire life of the series but in North America, the Hilux name was retired in 1976 in favor of \"Truck\", \"Pickup Truck\", or \"Compact Truck\". In North America the popular option package, the SR5 (Sport Rally 5-Speed), was colloquially used as a model name for the truck, even though the option package was also used on other Toyota models like the 1972 to 1979 Corolla. In 1984, the Toyota Trekker, the camper version of the Hilux, was renamed as the 4Runner in Australia and North America, and as the Hilux Surf in Japan. In 1995, Toyota introduced a new pickup model, the Tacoma in North America, discontinuing the Hilux/Pickup there. The 4Runner is now a full SUV, and the more recent models do not resemble the Tacoma.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Toyota Hilux\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Toyota\", \"type\": \"ORG\"},\n    {\"name\": \"North America\", \"type\": \"LOC\"},\n    {\"name\": \"SR5\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Corolla\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Toyota Trekker\", \"type\": \"PRODUCT\"},\n    {\"name\": \"4Runner\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Hilux Surf\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Japan\", \"type\": \"GPE\"},\n    {\"name\": \"Tacoma\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Toyota Hilux\",\n      \"relation\": \"produced_and_marketed_by\",\n      \"object\": \"Toyota\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"produced and marketed by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Toyota Hilux\",\n      \"relation\": \"sold_as\",\n      \"object\": \"Corolla\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was also used on\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"SR5\",\n      \"relation\": \"used_on\",\n      \"object\": \"Corolla\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was also used on\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Hilux Surf\",\n      \"relation\": \"located_in\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in Japan\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"4Runner\",\n      \"relation\": \"renamed_from\",\n      \"object\": \"Toyota Trekker\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"renamed as the\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"4Runner\",\n      \"relation\": \"renamed_from\",\n      \"object\": \"Toyota Trekker\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"renamed as the\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"4Runner\",\n      \"relation\": \"renamed_in\",\n      \"object\": \"North America\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in Australia and North America\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"4Runner\",\n      \"relation\": \"renamed_in\",\n      \"object\": \"Australia\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in Australia and North America\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Hilux Surf\",\n      \"relation\": \"renamed_in\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in Japan\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Toyota\",\n      \"relation\": \"introduced\",\n      \"object\": \"Tacoma\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"introduced a new pickup model, the Tacoma\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Tacoma\",\n      \"relation\": \"introduced_in\",\n      \"object\": \"North America\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"introduced a new pickup model, the Tacoma in North America\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Tacoma\",\n      \"relation\": \"discontinued\",\n      \"object\": \"Toyota Hilux\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"discontinuing the Hilux/Pickup there\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Toyota Hilux\",\n      \"relation\": \"had_name_retired_in\",\n      \"object\": \"North America\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was retired in 1976 in favor of\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"SR5\",\n      \"relation\": \"was_option_package_for\",\n      \"object\": \"Toyota Hilux\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was colloquially used as a model name for the truck\"\n        }\n      ]\n    }\n  ]\n}"
+}

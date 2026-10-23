@@ -1,0 +1,144 @@
+{
+  "entities": {
+    "Jon Bokenkamp": "PERSON",
+    "American": "NORP",
+    "Taking LivesThe Call": "WORK_OF_ART",
+    "The Blacklist": "WORK_OF_ART",
+    "Todd Nelson": "PERSON",
+    "Nebraska Coast Connection": "ORG",
+    "Exorcist": "WORK_OF_ART",
+    "William Friedkin": "PERSON",
+    "World Theater": "FAC",
+    "Kearney": "GPE",
+    "Nebraska": "GPE",
+    "University of Nebraska Kearney": "ORG",
+    "2013 Hub Freedom Award": "WORK_OF_ART",
+    "Honorary Doctorate in Musical Arts": "WORK_OF_ART",
+    "May, 2019": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Jon Bokenkamp",
+      "relation": "is_a",
+      "object": "American",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an American writer and producer"
+        }
+      ]
+    },
+    {
+      "subject": "Todd Nelson",
+      "relation": "is_a_friend_of",
+      "object": "Jon Bokenkamp",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "by friend and fellow Nebraskan, Todd Nelson"
+        }
+      ]
+    },
+    {
+      "subject": "Todd Nelson",
+      "relation": "created",
+      "object": "Nebraska Coast Connection",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "creator of the Nebraska Coast Connection"
+        }
+      ]
+    },
+    {
+      "subject": "Jon Bokenkamp",
+      "relation": "earned",
+      "object": "2013 Hub Freedom Award",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "earned the 2013 Hub Freedom Award for his work restoring the historic World Theater"
+        }
+      ]
+    },
+    {
+      "subject": "Jon Bokenkamp",
+      "relation": "restored",
+      "object": "World Theater",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "for his work restoring the historic World Theater in downtown Kearney, Nebraska"
+        }
+      ]
+    },
+    {
+      "subject": "World Theater",
+      "relation": "located_in",
+      "object": "Kearney",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "in downtown Kearney, Nebraska"
+        }
+      ]
+    },
+    {
+      "subject": "Jon Bokenkamp",
+      "relation": "was_awarded",
+      "object": "Honorary Doctorate in Musical Arts",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "was awarded with an Honorary Doctorate in Musical Arts from University of Nebraska Kearney"
+        }
+      ]
+    },
+    {
+      "subject": "University of Nebraska Kearney",
+      "relation": "awarded",
+      "object": "Honorary Doctorate in Musical Arts",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "from University of Nebraska Kearney"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jon Bokenkamp",
+        "wrote",
+        "Taking LivesThe Call"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jon Bokenkamp",
+        "created",
+        "The Blacklist"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jon Bokenkamp",
+        "rewrote",
+        "horror film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "William Friedkin",
+        "directed",
+        "Exorcist"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Jon Bokenkamp\nJon Bokenkamp is an American writer and producer best known for his role in writing the screenplay for \"Taking LivesThe Call\", and creating the NBC series \"The Blacklist\" along with . Bokenkamp was encouraged to enter a script writing competition by friend and fellow Nebraskan, Todd Nelson, creator of the Nebraska Coast Connection. After winning the competition, Jon landed an agent and his first paid assignment, rewriting a horror film for \"Exorcist\" director William Friedkin. Success allowed Bokenkamp to return to his hometown where he earned the 2013 Hub Freedom Award for his work restoring the historic World Theater in downtown Kearney, Nebraska. Bokemkamp was awarded with an Honorary Doctorate in Musical Arts from University of Nebraska Kearney May, 2019."
+}

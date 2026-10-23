@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Remote Control Productions": "Organization",
+    "Hans Zimmer": "Person",
+    "Santa Monica": "Location",
+    "California": "Location",
+    "Media Ventures": "Organization",
+    "Jay Rifkin": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Remote Control Productions",
+      "relation": "run_by",
+      "object": "Hans Zimmer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a film score company run by composer Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "subject": "Remote Control Productions",
+      "relation": "located_in",
+      "object": "Santa Monica",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Santa Monica, California"
+        }
+      ]
+    },
+    {
+      "subject": "Santa Monica",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Santa Monica, California"
+        }
+      ]
+    },
+    {
+      "subject": "Hans Zimmer",
+      "relation": "mentors",
+      "object": "Remote Control Productions",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is home to a large group of composers mentored by Zimmer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Remote Control Productions",
+        "founded",
+        "Media Ventures"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Remote Control Productions\nRemote Control Productions, Inc. is a film score company run by composer Hans Zimmer and based in Santa Monica, California. Originally known as \"\"Media Ventures,\"\" which was conceived and founded by Jay Rifkin and Hans Zimmer, the company changed its name after the partners both filed lawsuits against each other. Today, Remote Control is home to a large group of composers mentored by Zimmer, many of whom have had successful film scoring careers as part of the company or on their own."
+}

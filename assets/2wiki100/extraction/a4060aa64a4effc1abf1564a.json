@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Yella Beezy": "Person",
+    "Deandre Conway": "Person",
+    "Dallas, Texas": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Deandre Conway",
+      "relation": "known_by_stage_name",
+      "object": "Yella Beezy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Deandre Conway, known by the stage name Yella Beezy"
+        }
+      ]
+    },
+    {
+      "subject": "Yella Beezy",
+      "relation": "from",
+      "object": "Dallas, Texas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Dallas, Texas"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Yella Beezy",
+        "is_a",
+        "Person"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Yella Beezy\nDeandre Conway, known by the stage name Yella Beezy, is an American rapper and songwriter from Dallas, Texas. He is best known for the songs\" That's On MeBacc at It AgainUp One\", and\" Goin Through Some Thangs\"."
+}

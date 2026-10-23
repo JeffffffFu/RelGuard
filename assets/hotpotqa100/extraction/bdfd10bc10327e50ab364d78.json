@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "Liberty Square": "Location",
+    "Taipei": "Location",
+    "Zhongzheng District": "Location",
+    "Taiwan": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Liberty Square",
+      "relation": "located_in",
+      "object": "Taipei",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Liberty Square (Taipei)"
+        }
+      ]
+    },
+    {
+      "subject": "Liberty Square",
+      "relation": "located_in",
+      "object": "Zhongzheng District",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Zhongzheng District of Taipei"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Liberty Square",
+        "located_in",
+        "Taiwan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Liberty Square",
+        "served_as",
+        "public gathering place"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Liberty Square",
+        "played_role_in",
+        "Taiwan's transition to modern democracy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Liberty Square (Taipei)\nLiberty Square (also Freedom Square) is a public plaza covering over 240,000 square meters in the Zhongzheng District of Taipei, Taiwan. It has served as the public gathering place of choice since its completion in the late 1970s. The name of the square recalls the important historical role it played in Taiwan's transition from one-party rule to modern democracy in the 1990s."
+}

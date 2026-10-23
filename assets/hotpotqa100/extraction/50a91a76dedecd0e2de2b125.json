@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Bavette": "PRODUCT",
+    "tagliatelle": "PRODUCT",
+    "spaghetti": "PRODUCT",
+    "Genoa": "GPE",
+    "Ligurian": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Bavette",
+      "relation": "is_a_narrower_version_of",
+      "object": "tagliatelle",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "a narrower version of",
+          "line_start": 30,
+          "char_start": 46,
+          "ambiguous": false,
+          "relation_mention": "a narrower version of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Bavette",
+      "relation": "is_similar_to",
+      "object": "spaghetti",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "similar to",
+          "line_start": 88,
+          "char_start": 104,
+          "ambiguous": false,
+          "relation_mention": "similar to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Bavette",
+      "relation": "originates_in",
+      "object": "Genoa",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "originates in",
+          "line_start": 182,
+          "char_start": 198,
+          "ambiguous": false,
+          "relation_mention": "originates in",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Bavette",
+      "relation": "is_typical_type_of",
+      "object": "Ligurian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "typical type of",
+          "line_start": 219,
+          "char_start": 235,
+          "ambiguous": false,
+          "relation_mention": "typical type of",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bavette",
+        "is_a_type_of",
+        "pasta"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bavette (pasta)\nBavette ] is a type of pasta, a narrower version of tagliatelle. It is a ribbon noodle, similar to spaghetti, that has a flat section and a slightly convex shape. This type of pasta originates in Genoa and are the most typical type of Ligurian pasta cut. Although it can be disputed, Bavette is one of the more ancient types of long pasta."
+}

@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "CIO-Plus": "WORK_OF_ART",
+    "Peter High": "PERSON",
+    "Forbes": "ORG",
+    "World Class IT": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "CIO-Plus",
+      "relation": "coined_by",
+      "object": "Peter High",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is coined by",
+          "line_start": 29,
+          "char_start": 38,
+          "ambiguous": false,
+          "relation_mention": "is coined by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Peter High",
+        "works_for",
+        "Forbes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Peter High",
+        "authored",
+        "World Class IT"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "CIO-plus\nCIO-Plus is a movement which is coined by Peter High, a columnist for Forbes and author of the book World Class IT, which signifies the growing trend that chief information officers, usually the heads of the IT function of companies, are increasingly taking on titles in addition to \"chief information officer\", such as \"chief innovation officer\", \"chief improvement officer\", \"head of business transformation\" and \"Senior Vice President – Technology, Logistics and Customer Service\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"CIO-Plus\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Peter High\", \"type\": \"PERSON\"},\n    {\"name\": \"Forbes\", \"type\": \"ORG\"},\n    {\"name\": \"World Class IT\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"CIO-Plus\",\n      \"relation\": \"coined_by\",\n      \"object\": \"Peter High\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is coined by\"}\n      ]\n    },\n    {\n      \"subject\": \"Peter High\",\n      \"relation\": \"works_for\",\n      \"object\": \"Forbes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a columnist for\"}\n      ]\n    },\n    {\n      \"subject\": \"Peter High\",\n      \"relation\": \"authored\",\n      \"object\": \"World Class IT\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"author of the book\"}\n      ]\n    }\n  ]\n}"
+}

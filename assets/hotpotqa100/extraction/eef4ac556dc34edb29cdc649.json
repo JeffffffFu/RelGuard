@@ -1,0 +1,132 @@
+{
+  "entities": {
+    "Al Ahsa": "GPE",
+    "Saudi Arabia": "GPE",
+    "Eastern Province": "GPE",
+    "Al-Ahsa oasis": "LOC",
+    "Hofuf": "GPE",
+    "Persian Gulf": "LOC",
+    "Al-Hasa": "LOC",
+    "Empty Quarter": "LOC",
+    "Qatar": "GPE",
+    "Oman": "GPE",
+    "Bahrain": "GPE",
+    "Qatif": "GPE",
+    "Bahrain islands": "LOC"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United Arab Emirates (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Al Ahsa",
+        "located_in",
+        "Eastern Province"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Al Ahsa",
+        "named_after",
+        "Al-Ahsa oasis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hofuf",
+        "is_named",
+        "Al Ahsa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Al-Ahsa oasis",
+        "located_in",
+        "Persian Gulf"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "All urban areas",
+        "located_in",
+        "Al-Hasa"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Al Ahsa",
+        "includes",
+        "Empty Quarter"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Empty Quarter",
+        "connects",
+        "Qatar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Empty Quarter",
+        "connects",
+        "United Arab Emirates"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Empty Quarter",
+        "connects",
+        "Oman"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Empty Quarter",
+        "has",
+        "world's largest oil fields"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Al Ahsa",
+        "belonged_to",
+        "Bahrain"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bahrain",
+        "included",
+        "Qatif"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bahrain",
+        "included",
+        "Bahrain islands"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Al-Ahsa Governorate\nAl Ahsa (Arabic: الأحساء‎ ‎ \" al-Aḥsāʾ\", locally pronounced \"al-Ḥasāʾ\") is the largest governorate in Saudi Arabia's Eastern Province, named after the Al-Ahsa oasis. The name Al-Ahsa is also given to the biggest city in the governorate, Hofuf. In Classical Arabic, Ahsa means the sound of water underground. It has one of the largest oases in the world with Date Palms known to be the best in the world, the oasis is located about 60 km inland from the Persian Gulf. All urban areas are located in the traditional oasis of Al-Hasa. In addition to the oasis, the county also includes the giant Empty Quarter desert, making it the largest governorate in Saudi Arabia in terms of area. The Empty Quarter has the world's largest oil fields and connects Saudi Arabia to Qatar, the UAE, and Oman. The Governorate's population is over 908,366 (2005 estimate ).In the past, Al-Ahsa belonged to the historical region known as Bahrain, along with Qatif and the present-day Bahrain islands.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Al Ahsa\", \"type\": \"GPE\"},\n    {\"name\": \"Saudi Arabia\", \"type\": \"GPE\"},\n    {\"name\": \"Eastern Province\", \"type\": \"GPE\"},\n    {\"name\": \"Al-Ahsa oasis\", \"type\": \"LOC\"},\n    {\"name\": \"Hofuf\", \"type\": \"GPE\"},\n    {\"name\": \"Persian Gulf\", \"type\": \"LOC\"},\n    {\"name\": \"Al-Hasa\", \"type\": \"LOC\"},\n    {\"name\": \"Empty Quarter\", \"type\": \"LOC\"},\n    {\"name\": \"Qatar\", \"type\": \"GPE\"},\n    {\"name\": \"United Arab Emirates\", \"type\": \"GPE\"},\n    {\"name\": \"Oman\", \"type\": \"GPE\"},\n    {\"name\": \"Bahrain\", \"type\": \"GPE\"},\n    {\"name\": \"Qatif\", \"type\": \"GPE\"},\n    {\"name\": \"Bahrain islands\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Al Ahsa\",\n      \"relation\": \"located_in\",\n      \"object\": \"Eastern Province\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Saudi Arabia's Eastern Province\"}\n      ]\n    },\n    {\n      \"subject\": \"Al Ahsa\",\n      \"relation\": \"named_after\",\n      \"object\": \"Al-Ahsa oasis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"named after the Al-Ahsa oasis\"}\n      ]\n    },\n    {\n      \"subject\": \"Hofuf\",\n      \"relation\": \"is_named\",\n      \"object\": \"Al Ahsa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The name Al-Ahsa is also given to the biggest city in the governorate, Hofuf\"}\n      ]\n    },\n    {\n      \"subject\": \"Al-Ahsa oasis\",\n      \"relation\": \"located_in\",\n      \"object\": \"Persian Gulf\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located about 60 km inland from the Persian Gulf\"}\n      ]\n    },\n    {\n      \"subject\": \"All urban areas\",\n      \"relation\": \"located_in\",\n      \"object\": \"Al-Hasa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are located in the traditional oasis of Al-Hasa\"}\n      ]\n    },\n    {\n      \"subject\": \"Al Ahsa\",\n      \"relation\": \"includes\",\n      \"object\": \"Empty Quarter\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also includes the giant Empty Quarter desert\"}\n      ]\n    },\n    {\n      \"subject\": \"Empty Quarter\",\n      \"relation\": \"connects\",\n      \"object\": \"Qatar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"connects Saudi Arabia to Qatar, the UAE, and Oman\"}\n      ]\n    },\n    {\n      \"subject\": \"Empty Quarter\",\n      \"relation\": \"connects\",\n      \"object\": \"United Arab Emirates\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"connects Saudi Arabia to Qatar, the UAE, and Oman\"}\n      ]\n    },\n    {\n      \"subject\": \"Empty Quarter\",\n      \"relation\": \"connects\",\n      \"object\": \"Oman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"connects Saudi Arabia to Qatar, the UAE, and Oman\"}\n      ]\n    },\n    {\n      \"subject\": \"Empty Quarter\",\n      \"relation\": \"has\",\n      \"object\": \"world's largest oil fields\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The Empty Quarter has the world's largest oil fields\"}\n      ]\n    },\n    {\n      \"subject\": \"Al Ahsa\",\n      \"relation\": \"belonged_to\",\n      \"object\": \"Bahrain\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Al-Ahsa belonged to the historical region known as Bahrain\"}\n      ]\n    },\n    {\n      \"subject\": \"Bahrain\",\n      \"relation\": \"included\",\n      \"object\": \"Qatif\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"along with Qatif and the present-day Bahrain islands\"}\n      ]\n    },\n    {\n      \"subject\": \"Bahrain\",\n      \"relation\": \"included\",\n      \"object\": \"Bahrain islands\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"along with Qatif and the present-day Bahrain islands\"}\n      ]\n    }\n  ]\n}"
+}

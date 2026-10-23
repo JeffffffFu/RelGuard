@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Before I Disappear": "film",
+    "Shawn Christensen": "person",
+    "Curfew": "film",
+    "IFC Films": "company",
+    "South by Southwest Film": "event"
+  },
+  "triples": [
+    {
+      "subject": "Before I Disappear",
+      "relation": "directed_by",
+      "object": "Shawn Christensen",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Shawn Christensen"
+        }
+      ]
+    },
+    {
+      "subject": "Before I Disappear",
+      "relation": "premiered_at",
+      "object": "South by Southwest Film",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "world premiere at South by Southwest Film"
+        }
+      ]
+    },
+    {
+      "subject": "Before I Disappear",
+      "relation": "acquired_by",
+      "object": "IFC Films",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "acquired for distribution by IFC Films"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Before I Disappear",
+        "adaptation_of",
+        "Curfew"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Before I Disappear\nBefore I Disappear is a 2014 American drama film directed by Shawn Christensen. The film is a feature- length adaptation of his 2012 Oscar- winning short film,\" Curfew\". The film had its world premiere at South by Southwest Film on March 10, 2014. The film was acquired for distribution by IFC Films on August 5, 2014 and released on November 28, 2014."
+}

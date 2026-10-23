@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Bichunmoo": "Film",
+    "Kim Young-jun": "Person",
+    "Kim Hee-sun": "Person",
+    "Shin Hyun-joon": "Person",
+    "Musa": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Bichunmoo",
+      "relation": "written_and_directed_by",
+      "object": "Kim Young-jun",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Kim Young-jun"
+        }
+      ]
+    },
+    {
+      "subject": "Bichunmoo",
+      "relation": "featuring",
+      "object": "Kim Hee-sun",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "featuring Kim Hee-sun"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bichunmoo",
+        "featuring",
+        "Shin Hyun-joon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bichunmoo",
+        "released_in",
+        "2000"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bichunmoo",
+        "most_expensive_film_in",
+        "Korean history"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bichunmoo",
+        "lost_to",
+        "Musa"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Bichunmoo\nBichunmoo is a South Korean martial arts film written and directed by Kim Young-jun featuring Kim Hee-sun and Shin Hyun-joon. Originally released in 2000, it was at the time the most expensive film in Korean history (an honor it soon lost to \"Musa\")."
+}

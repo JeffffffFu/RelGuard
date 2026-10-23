@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Hood Museum of Art": "ORG",
+    "Hanover": "GPE",
+    "New Hampshire": "GPE",
+    "United States": "GPE",
+    "Dartmouth College": "ORG",
+    "Charles Willard Moore": "PERSON",
+    "Chad Floyd": "PERSON",
+    "American": "NORP",
+    "Native American": "NORP",
+    "European": "NORP",
+    "African": "NORP",
+    "Melanesian": "NORP",
+    "indigenous Australian": "NORP",
+    "photojournalism": "WORK_OF_ART",
+    "Assyrian reliefs": "WORK_OF_ART",
+    "The Epic of American Civilization": "WORK_OF_ART",
+    "José Clemente Orozco": "PERSON",
+    "Baker Memorial Library": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Hood Museum of Art",
+      "relation": "works_for",
+      "object": "Dartmouth College",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned and operated by",
+          "line_start": 112,
+          "char_start": 131,
+          "ambiguous": false,
+          "relation_mention": "owned and operated by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Epic of American Civilization",
+      "relation": "located_in",
+      "object": "Baker Memorial Library",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 716,
+          "char_start": 735,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 7
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hood Museum of Art",
+        "located_in",
+        "Hanover"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hanover",
+        "located_in",
+        "New Hampshire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "New Hampshire",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "current building",
+        "designed_by",
+        "Charles Willard Moore"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "current building",
+        "designed_by",
+        "Chad Floyd"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Epic of American Civilization",
+        "directed_by",
+        "José Clemente Orozco"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hood Museum of Art",
+        "houses",
+        "Assyrian reliefs"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Hood Museum of Art\nThe Hood Museum of Art is a museum in Hanover, New Hampshire, United States. Dating back to 1772, the museum is owned and operated by Dartmouth College. The current building, designed by Charles Willard Moore and Chad Floyd, opened in the fall of 1985. It houses both permanent collections and visiting exhibitions. The collection encompasses important holdings of American, Native American, European, African, and Melanesian art, including a significant collection of indigenous Australian contemporary art and a major archive of photojournalism. Among the collection's greatest treasures are Assyrian reliefs and the fresco mural cycle \"The Epic of American Civilization\", by José Clemente Orozco. (The murals are located in nearby Baker Memorial Library.)",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Hood Museum of Art\", \"type\": \"ORG\"},\n    {\"name\": \"Hanover\", \"type\": \"GPE\"},\n    {\"name\": \"New Hampshire\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Dartmouth College\", \"type\": \"ORG\"},\n    {\"name\": \"Charles Willard Moore\", \"type\": \"PERSON\"},\n    {\"name\": \"Chad Floyd\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Native American\", \"type\": \"NORP\"},\n    {\"name\": \"European\", \"type\": \"NORP\"},\n    {\"name\": \"African\", \"type\": \"NORP\"},\n    {\"name\": \"Melanesian\", \"type\": \"NORP\"},\n    {\"name\": \"indigenous Australian\", \"type\": \"NORP\"},\n    {\"name\": \"photojournalism\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Assyrian reliefs\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Epic of American Civilization\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"José Clemente Orozco\", \"type\": \"PERSON\"},\n    {\"name\": \"Baker Memorial Library\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Hood Museum of Art\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hanover\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Hanover\",\n      \"relation\": \"located_in\",\n      \"object\": \"New Hampshire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \",\"}\n      ]\n    },\n    {\n      \"subject\": \"New Hampshire\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Hood Museum of Art\",\n      \"relation\": \"works_for\",\n      \"object\": \"Dartmouth College\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned and operated by\"}\n      ]\n    },\n    {\n      \"subject\": \"current building\",\n      \"relation\": \"designed_by\",\n      \"object\": \"Charles Willard Moore\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"designed by\"}\n      ]\n    },\n    {\n      \"subject\": \"current building\",\n      \"relation\": \"designed_by\",\n      \"object\": \"Chad Floyd\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"designed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Epic of American Civilization\",\n      \"relation\": \"directed_by\",\n      \"object\": \"José Clemente Orozco\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Epic of American Civilization\",\n      \"relation\": \"located_in\",\n      \"object\": \"Baker Memorial Library\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Hood Museum of Art\",\n      \"relation\": \"houses\",\n      \"object\": \"Assyrian reliefs\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"houses\"}\n      ]\n    }\n  ]\n}"
+}

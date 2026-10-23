@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Kemmerer": "GPE",
+    "Wyoming": "GPE",
+    "Lincoln County": "GPE",
+    "United States": "GPE",
+    "Lincoln County Courthouse": "FAC"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Kemmerer",
+        "located_in",
+        "Wyoming"
+      ],
+      "why": "2 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kemmerer",
+        "located_in",
+        "Lincoln County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kemmerer",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kemmerer",
+        "located_in",
+        "Lincoln County Courthouse"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lincoln County Courthouse",
+        "located_in",
+        "Lincoln County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kemmerer, Wyoming\nKemmerer is the largest city in and the county seat of Lincoln County, Wyoming, United States. The population was 2,656 at the 2010 census. As the county seat of Lincoln County, Kemmerer is the location of the Lincoln County Courthouse.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kemmerer\", \"type\": \"GPE\"},\n    {\"name\": \"Wyoming\", \"type\": \"GPE\"},\n    {\"name\": \"Lincoln County\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Lincoln County Courthouse\", \"type\": \"FAC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kemmerer\",\n      \"relation\": \"located_in\",\n      \"object\": \"Wyoming\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"\"},\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemmerer\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lincoln County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemmerer\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Kemmerer\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lincoln County Courthouse\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the location of\"}\n      ]\n    },\n    {\n      \"subject\": \"Lincoln County Courthouse\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lincoln County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Betty Boo": "PERSON",
+    "Alison Moira Clarkson": "PERSON",
+    "Kensington": "GPE",
+    "London": "GPE",
+    "The Beatmasters": "ORG",
+    "Doin' the Do": "WORK_OF_ART",
+    "English": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Alison Moira Clarkson",
+      "relation": "also_known_as",
+      "object": "Betty Boo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "better known as",
+          "line_start": 64,
+          "char_start": 74,
+          "ambiguous": false,
+          "relation_mention": "better known as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Alison Moira Clarkson",
+        "born_in",
+        "Kensington"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kensington",
+        "located_in",
+        "London"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Betty Boo",
+        "nationality",
+        "English"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Betty Boo",
+        "collaborated_with",
+        "The Beatmasters"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Betty Boo",
+        "created",
+        "Doin' the Do"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Betty Boo\nAlison Moira Clarkson (born 6 March 1970 in Kensington, London) better known as Betty Boo, is an English singer, songwriter and pop rap artist. She first came to mainstream prominence in the late 1980s and early 1990s following a collaboration with The Beatmasters and her subsequent solo career, which spawned a number of chart-placing singles, most notably in 1990 with \"Doin' the Do\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Betty Boo\", \"type\": \"PERSON\"},\n    {\"name\": \"Alison Moira Clarkson\", \"type\": \"PERSON\"},\n    {\"name\": \"Kensington\", \"type\": \"GPE\"},\n    {\"name\": \"London\", \"type\": \"GPE\"},\n    {\"name\": \"The Beatmasters\", \"type\": \"ORG\"},\n    {\"name\": \"Doin' the Do\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"English\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Alison Moira Clarkson\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Betty Boo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"better known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Alison Moira Clarkson\",\n      \"relation\": \"born_in\",\n      \"object\": \"Kensington\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born 6 March 1970 in\"}\n      ]\n    },\n    {\n      \"subject\": \"Kensington\",\n      \"relation\": \"located_in\",\n      \"object\": \"London\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Kensington, London\"}\n      ]\n    },\n    {\n      \"subject\": \"Betty Boo\",\n      \"relation\": \"nationality\",\n      \"object\": \"English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an English\"}\n      ]\n    },\n    {\n      \"subject\": \"Betty Boo\",\n      \"relation\": \"collaborated_with\",\n      \"object\": \"The Beatmasters\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a collaboration with\"}\n      ]\n    },\n    {\n      \"subject\": \"Betty Boo\",\n      \"relation\": \"created\",\n      \"object\": \"Doin' the Do\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with \\\"Doin' the Do\\\"\"}\n      ]\n    }\n  ]\n}"
+}

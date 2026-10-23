@@ -1,0 +1,126 @@
+{
+  "entities": {
+    "CNN International": "organization",
+    "Turner Broadcasting System": "organization",
+    "Time Warner": "organization",
+    "CNN": "organization",
+    "New York City": "location",
+    "Atlanta": "location",
+    "London": "location",
+    "Mumbai": "location",
+    "Hong Kong": "location",
+    "Abu Dhabi": "location"
+  },
+  "triples": [
+    {
+      "subject": "CNN International",
+      "relation": "owned_by",
+      "object": "Turner Broadcasting System",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is owned by the Turner Broadcasting System division of Time Warner."
+        }
+      ]
+    },
+    {
+      "subject": "Turner Broadcasting System",
+      "relation": "part_of",
+      "object": "Time Warner",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "owned by the Turner Broadcasting System division of Time Warner."
+        }
+      ]
+    },
+    {
+      "subject": "CNN International",
+      "relation": "cooperates_with",
+      "object": "CNN",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "it cooperates with parent network CNN's national and international news bureaus."
+        }
+      ]
+    },
+    {
+      "subject": "CNN International",
+      "relation": "broadcast_from",
+      "object": "London",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "mostly broadcast from studios outside the US, in London, Mumbai, Hong Kong and Abu Dhabi."
+        }
+      ]
+    },
+    {
+      "subject": "CNN International",
+      "relation": "broadcast_from",
+      "object": "Mumbai",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "mostly broadcast from studios outside the US, in London, Mumbai, Hong Kong and Abu Dhabi."
+        }
+      ]
+    },
+    {
+      "subject": "CNN International",
+      "relation": "broadcast_from",
+      "object": "Hong Kong",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "mostly broadcast from studios outside the US, in London, Mumbai, Hong Kong and Abu Dhabi."
+        }
+      ]
+    },
+    {
+      "subject": "CNN International",
+      "relation": "broadcast_from",
+      "object": "Abu Dhabi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "mostly broadcast from studios outside the US, in London, Mumbai, Hong Kong and Abu Dhabi."
+        }
+      ]
+    },
+    {
+      "subject": "CNN",
+      "relation": "broadcast_from",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which is mostly broadcast from CNN studios at the Time Warner Center in New York City on weekdays"
+        }
+      ]
+    },
+    {
+      "subject": "CNN",
+      "relation": "broadcast_from",
+      "object": "Atlanta",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "CNN Center in Atlanta, Georgia at the weekend"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "CNN International",
+        "carries",
+        "news"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "CNN International\nCNN International (CNNI), simply referred to on the channel as CNN, is an international 24-hour English language cable, satellite, IPTV and digital terrestrial television channel that is owned by the Turner Broadcasting System division of Time Warner. The channel carries news, current affairs, politics, sports, opinions, features and business programming worldwide; it cooperates with parent network CNN's national and international news bureaus. Unlike its sister channel, CNN, a US-only cable TV service which is mostly broadcast from CNN studios at the Time Warner Center in New York City on weekdays and CNN Center in Atlanta, Georgia at the weekend, CNN International is carried on a variety of TV platforms across the world, and mostly broadcast from studios outside the US, in London, Mumbai, Hong Kong and Abu Dhabi."
+}

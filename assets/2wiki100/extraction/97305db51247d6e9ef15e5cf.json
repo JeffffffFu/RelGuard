@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "John Farrell": "PERSON",
+    "YouTube": "ORG",
+    "Latin America": "LOC"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "John Farrell",
+        "works_for",
+        "YouTube"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John Farrell",
+        "located_in",
+        "Latin America"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "John Farrell (businessman)\nJohn Farrell is the director of YouTube in Latin America.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"John Farrell\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"YouTube\",\n      \"type\": \"ORG\"\n    },\n    {\n      \"name\": \"Latin America\",\n      \"type\": \"LOC\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"John Farrell\",\n      \"relation\": \"works_for\",\n      \"object\": \"YouTube\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is the director of\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"John Farrell\",\n      \"relation\": \"located_in\",\n      \"object\": \"Latin America\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in\"\n        }\n      ]\n    }\n  ]\n}"
+}

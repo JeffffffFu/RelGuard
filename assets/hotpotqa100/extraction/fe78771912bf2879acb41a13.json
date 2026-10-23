@@ -1,0 +1,118 @@
+{
+  "entities": {
+    "Ferrari N.V.": "ORG",
+    "Maranello": "GPE",
+    "Enzo Ferrari": "PERSON",
+    "Alfa Romeo": "ORG",
+    "Auto Avio Costruzioni": "ORG",
+    "Ferrari": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Ferrari N.V.",
+      "relation": "located_in",
+      "object": "Maranello",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 56,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ferrari N.V.",
+      "relation": "founded",
+      "object": "Auto Avio Costruzioni",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Founded by",
+          "line_start": 76,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "Founded by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Auto Avio Costruzioni",
+      "relation": "founded",
+      "object": "Ferrari N.V.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Founded by",
+          "line_start": 76,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "Founded by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Enzo Ferrari",
+      "relation": "founded",
+      "object": "Auto Avio Costruzioni",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Founded by",
+          "line_start": 76,
+          "char_start": 84,
+          "ambiguous": false,
+          "relation_mention": "Founded by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Ferrari N.V.",
+        "located_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Auto Avio Costruzioni",
+        "founded",
+        "Ferrari"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alfa Romeo",
+        "works_for",
+        "Auto Avio Costruzioni"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ferrari",
+        "founded",
+        "Ferrari N.V."
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Ferrari\nFerrari N.V. (] ) is an Italian sports car manufacturer based in Maranello. Founded by Enzo Ferrari in 1939 out of Alfa Romeo's race division as \"Auto Avio Costruzioni\", the company built its first car in 1940. However the company's inception as an auto manufacturer is usually recognized in 1947, when the first Ferrari-badged car was completed.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Ferrari N.V.\", \"type\": \"ORG\"},\n    {\"name\": \"Italy\", \"type\": \"GPE\"},\n    {\"name\": \"Maranello\", \"type\": \"GPE\"},\n    {\"name\": \"Enzo Ferrari\", \"type\": \"PERSON\"},\n    {\"name\": \"Alfa Romeo\", \"type\": \"ORG\"},\n    {\"name\": \"Auto Avio Costruzioni\", \"type\": \"ORG\"},\n    {\"name\": \"Ferrari\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Ferrari N.V.\",\n      \"relation\": \"located_in\",\n      \"object\": \"Maranello\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"based in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Ferrari N.V.\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is an Italian\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Ferrari N.V.\",\n      \"relation\": \"founded\",\n      \"object\": \"Auto Avio Costruzioni\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Founded by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Auto Avio Costruzioni\",\n      \"relation\": \"founded\",\n      \"object\": \"Ferrari N.V.\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Founded by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Enzo Ferrari\",\n      \"relation\": \"founded\",\n      \"object\": \"Auto Avio Costruzioni\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Founded by\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Auto Avio Costruzioni\",\n      \"relation\": \"founded\",\n      \"object\": \"Ferrari\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"as \\\"Auto Avio Costruzioni\\\"\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Alfa Romeo\",\n      \"relation\": \"works_for\",\n      \"object\": \"Auto Avio Costruzioni\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"out of Alfa Romeo's race division\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Ferrari\",\n      \"relation\": \"founded\",\n      \"object\": \"Ferrari N.V.\",\n      \"occurrences\": [\n        {\n          \"line\": 1,\n          \"predicate\": \"\"\n        }\n      ]\n    }\n  ]\n}"
+}

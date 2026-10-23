@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "As the City Sleeps": "album",
+    "Mary and the Black Lamb": "band",
+    "Lindz Riot": "person",
+    "Matt Kelly": "person",
+    "Nixon": "person"
+  },
+  "triples": [
+    {
+      "subject": "As the City Sleeps",
+      "relation": "debut_album_by",
+      "object": "Mary and the Black Lamb",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "As the City Sleeps is the debut album by gothic rock band Mary and the Black Lamb."
+        }
+      ]
+    },
+    {
+      "subject": "As the City Sleeps",
+      "relation": "written_by",
+      "object": "Lindz Riot",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "All the songs on the album were written by Lindz Riot"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "As the City Sleeps",
+        "about",
+        "experiences"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Stranger",
+        "helped_write_and_arrange",
+        "Matt Kelly"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Silence",
+        "helped_write",
+        "Nixon"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "As the City Sleeps\nAs the City Sleeps is the debut album by gothic rock band Mary and the Black Lamb. The album is about different experiences the band members have gone through. Most of which are based on true stories. All the songs on the album were written by Lindz Riot with the exception of, Stranger where Matt Kelly helped write and arrange it, and Silence which Nixon helped write."
+}

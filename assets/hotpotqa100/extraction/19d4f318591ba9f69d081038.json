@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Central Information Commission": "ORG",
+    "Right to Information Act": "LAW",
+    "Government of India": "ORG",
+    "Central Public Information Officer": "PERSON",
+    "State Public Information Officer": "PERSON",
+    "Central Assistant Public Information Officer": "PERSON",
+    "State Assistant Public Information Officer": "PERSON",
+    "RTI Act": "LAW",
+    "President of India": "PERSON",
+    "Pranab Mukherjee": "PERSON",
+    "8th Annual Convention of Central Information Commission (CIC)": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Central Information Commission",
+      "relation": "set_up_under",
+      "object": "Right to Information Act",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "set up under",
+          "line_start": 41,
+          "char_start": 72,
+          "ambiguous": false,
+          "relation_mention": "set up under",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "President of India",
+      "relation": "inaugurated",
+      "object": "8th Annual Convention of Central Information Commission (CIC)",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "inaugurated",
+          "line_start": 613,
+          "char_start": 644,
+          "ambiguous": false,
+          "relation_mention": "inaugurated",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Pranab Mukherjee",
+      "relation": "inaugurated",
+      "object": "8th Annual Convention of Central Information Commission (CIC)",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "inaugurated",
+          "line_start": 613,
+          "char_start": 644,
+          "ambiguous": false,
+          "relation_mention": "inaugurated",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Central Information Commission",
+        "is_authorised_body_under",
+        "Government of India"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "RTI Act",
+        "same_as",
+        "Right to Information Act"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Central Information Commission\nThe Central Information Commission (CIC) set up under the Right to Information Act is the authorised body, established in 2005, under the Government of India to act upon complaints from those individuals who have not been able to submit information requests to a Central Public Information Officer or State Public Information Officer due to either the officer not have been appointed, or because the respective Central Assistant Public Information Officer or State Assistant Public Information Officer refused to receive the application for information under the RTI Act. The President of India, Pranab Mukherjee inaugurated the 8th Annual Convention of Central Information Commission (CIC) on 2 September 2013.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Central Information Commission\", \"type\": \"ORG\"},\n    {\"name\": \"Right to Information Act\", \"type\": \"LAW\"},\n    {\"name\": \"Government of India\", \"type\": \"ORG\"},\n    {\"name\": \"Central Public Information Officer\", \"type\": \"PERSON\"},\n    {\"name\": \"State Public Information Officer\", \"type\": \"PERSON\"},\n    {\"name\": \"Central Assistant Public Information Officer\", \"type\": \"PERSON\"},\n    {\"name\": \"State Assistant Public Information Officer\", \"type\": \"PERSON\"},\n    {\"name\": \"RTI Act\", \"type\": \"LAW\"},\n    {\"name\": \"President of India\", \"type\": \"PERSON\"},\n    {\"name\": \"Pranab Mukherjee\", \"type\": \"PERSON\"},\n    {\"name\": \"8th Annual Convention of Central Information Commission (CIC)\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Central Information Commission\",\n      \"relation\": \"set_up_under\",\n      \"object\": \"Right to Information Act\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"set up under\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Central Information Commission\",\n      \"relation\": \"is_authorised_body_under\",\n      \"object\": \"Government of India\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"under the Government of India\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"President of India\",\n      \"relation\": \"inaugurated\",\n      \"object\": \"8th Annual Convention of Central Information Commission (CIC)\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"inaugurated\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Pranab Mukherjee\",\n      \"relation\": \"inaugurated\",\n      \"object\": \"8th Annual Convention of Central Information Commission (CIC)\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"inaugurated\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"RTI Act\",\n      \"relation\": \"same_as\",\n      \"object\": \"Right to Information Act\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"RTI Act\"\n        }\n      ]\n    }\n  ]\n}"
+}

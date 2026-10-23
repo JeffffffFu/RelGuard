@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "KQIP-LP": "ORG",
+    "Chico": "GPE",
+    "California": "GPE",
+    "United States": "GPE",
+    "Calvary Chapel of Chico": "ORG",
+    "Pastor Sam Allen": "PERSON",
+    "The Calvary Road Radio Broadcast": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "KQIP-LP",
+      "relation": "licensed_to",
+      "object": "Chico",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "licensed to Chico"
+        }
+      ]
+    },
+    {
+      "subject": "KQIP-LP",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "licensed to Chico, California"
+        }
+      ]
+    },
+    {
+      "subject": "KQIP-LP",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "licensed to Chico, California, United States"
+        }
+      ]
+    },
+    {
+      "subject": "KQIP-LP",
+      "relation": "serves",
+      "object": "Chico",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the station serves the Chico area"
+        }
+      ]
+    },
+    {
+      "subject": "KQIP-LP",
+      "relation": "owned_by",
+      "object": "Calvary Chapel of Chico",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently owned by Calvary Chapel of Chico"
+        }
+      ]
+    },
+    {
+      "subject": "KQIP-LP",
+      "relation": "airs",
+      "object": "Pastor Sam Allen",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "airs Pastor Sam Allen from Calvary Chapel Chico"
+        }
+      ]
+    },
+    {
+      "subject": "Pastor Sam Allen",
+      "relation": "featured_in",
+      "object": "The Calvary Road Radio Broadcast",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "on The Calvary Road Radio Broadcast"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "KQIP-LP",
+        "airs",
+        "Bible studies"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "KQIP-LP",
+        "airs",
+        "Christian music"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "KQIP-LP\nKQIP-LP (107.1 FM) is a radio station licensed to Chico, California, United States, the station serves the Chico area. The station is currently owned by Calvary Chapel of Chico. KQIP 107.1 FM is a low power FM radio station in Chico, California however it also broadcasts online. The radio station airs Bible studies from several Calvary Chapel pastors, as well as a small selection of Christian music. The radio station also airs Pastor Sam Allen from Calvary Chapel Chico on The Calvary Road Radio Broadcast, a weekday radio program. Listen Live at: http://ccchico.com/KQIP"
+}

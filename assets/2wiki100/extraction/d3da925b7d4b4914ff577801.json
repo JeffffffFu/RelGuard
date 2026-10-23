@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Fred Roy Krug": "PERSON",
+    "Fred R. Krug": "PERSON",
+    "American": "NORP",
+    "Bern": "GPE",
+    "Switzerland": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Fred R. Krug",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fred R. Krug",
+        "born_in",
+        "Bern"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bern",
+        "located_in",
+        "Switzerland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fred Roy Krug",
+        "same_as",
+        "Fred R. Krug"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Fred Roy Krug\nFred R. Krug is an American film and television producer- director born in Bern, Switzerland.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Fred Roy Krug\", \"type\": \"PERSON\"},\n    {\"name\": \"Fred R. Krug\", \"type\": \"PERSON\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Bern\", \"type\": \"GPE\"},\n    {\"name\": \"Switzerland\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Fred R. Krug\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Fred R. Krug\",\n      \"relation\": \"born_in\",\n      \"object\": \"Bern\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born in Bern\"}\n      ]\n    },\n    {\n      \"subject\": \"Bern\",\n      \"relation\": \"located_in\",\n      \"object\": \"Switzerland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Bern, Switzerland\"}\n      ]\n    },\n    {\n      \"subject\": \"Fred Roy Krug\",\n      \"relation\": \"same_as\",\n      \"object\": \"Fred R. Krug\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Fred Roy Krug\"}\n      ]\n    }\n  ]\n}"
+}

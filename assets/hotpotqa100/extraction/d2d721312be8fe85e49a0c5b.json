@@ -1,0 +1,104 @@
+{
+  "entities": {
+    "Pakistani English literature": "literature",
+    "Pakistan": "country",
+    "Urdu": "language",
+    "British Raj": "historical_event",
+    "Dr. Alamgir Hashmi": "person",
+    "Pakistani Literature: The Contemporary English Writers": "book",
+    "New York": "city",
+    "Islamabad": "city",
+    "1970's": "time_period"
+  },
+  "triples": [
+    {
+      "subject": "Pakistani Literature: The Contemporary English Writers",
+      "relation": "was_written_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "(New York, 1978; Islamabad, 1987)"
+        }
+      ]
+    },
+    {
+      "subject": "Pakistani Literature: The Contemporary English Writers",
+      "relation": "was_written_in",
+      "object": "Islamabad",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "(New York, 1978; Islamabad, 1987)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pakistani English literature",
+        "refers_to",
+        "English literature"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "English",
+        "is_one_of_the_official_languages_of",
+        "Pakistan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "British Raj",
+        "has_a_history_in",
+        "South Asia"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pakistani English",
+        "is_known_as",
+        "national_dialect"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dr. Alamgir Hashmi",
+        "introduced",
+        "Pakistani Literature: The Contemporary English Writers"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pakistani English literature",
+        "occupies_part_in",
+        "modern Pakistani literature"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dr. Alamgir Hashmi",
+        "taught_in",
+        "many universities"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pakistani English literature",
+        "was_established_as",
+        "academic discipline"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Pakistani English literature\nPakistani English literature refers to English literature that has been developed and evolved in Pakistan, as well as by members of the Pakistani diaspora who write in the English language. English is one of the official languages of Pakistan (the other being Urdu) and has a history going back to the British colonial rule in South Asia (the British Raj); the national dialect spoken in the country is known as Pakistani English. Today, it occupies an important and integral part in modern Pakistani literature. Dr. Alamgir Hashmi introduced the term \"Pakistani Literature [originally written] in English\" with his \"Preface\" to his pioneering book \"Pakistani Literature: The Contemporary English Writers\" (New York, 1978; Islamabad, 1987) as well as through his other scholarly work and the seminars and courses taught by him in many universities since 1970's. It was established as an academic discipline in the world following his lead and further work by other scholars, and it is now a widely popular field of study."
+}

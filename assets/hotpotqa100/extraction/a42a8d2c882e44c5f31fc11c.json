@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Orenda OE600": "PRODUCT",
+    "Orenda Aerospace": "ORG",
+    "Pratt & Whitney Canada PT6": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Orenda OE600",
+      "relation": "intended_to_re-introduce",
+      "object": "Pratt & Whitney Canada PT6",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "intended to re-introduce",
+          "line_start": 84,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "intended to re-introduce",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Orenda OE600",
+      "relation": "offers",
+      "object": "Orenda Aerospace",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "offers",
+          "line_start": 221,
+          "char_start": 234,
+          "ambiguous": false,
+          "relation_mention": "offers",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Orenda Aerospace",
+      "relation": "canceled",
+      "object": "Orenda OE600",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "being canceled",
+          "line_start": 461,
+          "char_start": 474,
+          "ambiguous": false,
+          "relation_mention": "being canceled",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Orenda OE600",
+        "is_a",
+        "PRODUCT"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Orenda Aerospace",
+        "felt_would_be_attractive_for",
+        "older aircraft"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Orenda OE600\nThe Orenda OE600 is a 600 hp-class liquid-cooled 8-cylinder V-block aircraft engine intended to re-introduce piston power to aircraft normally powered by the famous Pratt & Whitney Canada PT6 turboprop. The piston engine offers much better fuel economy, which Orenda Aerospace felt would be attractive for older aircraft whose engines were reaching the end of their lifespan. However, changes in Orenda's business in the post-9/11 time frame led to the project being canceled."
+}

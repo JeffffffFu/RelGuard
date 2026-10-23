@@ -1,0 +1,159 @@
+{
+  "entities": {
+    "Jaime Fernández Reyes": "PERSON",
+    "Silver Ariel": "WORK_OF_ART",
+    "Oscar": "WORK_OF_ART",
+    "Friday": "PERSON",
+    "Luis Buñuel": "PERSON",
+    "Robinson Crusoe": "WORK_OF_ART",
+    "Mexican actors' union": "ORG",
+    "Emilio Fernández": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Jaime Fernández Reyes",
+      "relation": "won",
+      "object": "Silver Ariel",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "won 3 Silver Ariel awards",
+          "line_start": 99,
+          "char_start": 123,
+          "ambiguous": false,
+          "relation_mention": "won 3 Silver Ariel awards",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Silver Ariel",
+      "relation": "equivalent_of",
+      "object": "Oscar",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the Mexican equivalent of the Oscar",
+          "line_start": 127,
+          "char_start": 151,
+          "ambiguous": false,
+          "relation_mention": "the Mexican equivalent of the Oscar",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jaime Fernández Reyes",
+      "relation": "played",
+      "object": "Friday",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "playing Friday",
+          "line_start": 221,
+          "char_start": 245,
+          "ambiguous": false,
+          "relation_mention": "playing Friday",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Friday",
+      "relation": "character_in",
+      "object": "Robinson Crusoe",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Luis Buñuel's \"Robinson Crusoe\"",
+          "line_start": 236,
+          "char_start": 260,
+          "ambiguous": false,
+          "relation_mention": "in Luis Buñuel's \"Robinson Crusoe\"",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Robinson Crusoe",
+      "relation": "directed_by",
+      "object": "Luis Buñuel",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Luis Buñuel's",
+          "line_start": 239,
+          "char_start": 263,
+          "ambiguous": false,
+          "relation_mention": "Luis Buñuel's",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jaime Fernández Reyes",
+      "relation": "appeared_in",
+      "object": "Robinson Crusoe",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "playing Friday in Luis Buñuel's \"Robinson Crusoe\"",
+          "line_start": 221,
+          "char_start": 245,
+          "ambiguous": false,
+          "relation_mention": "playing Friday in Luis Buñuel's \"Robinson Crusoe\"",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jaime Fernández Reyes",
+      "relation": "served_as",
+      "object": "Mexican actors' union",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "served as the General Secretary of the Mexican actors' union",
+          "line_start": 306,
+          "char_start": 330,
+          "ambiguous": false,
+          "relation_mention": "served as the General Secretary of the Mexican actors' union",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Emilio Fernández",
+      "relation": "sibling_of",
+      "object": "Jaime Fernández Reyes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "His older brother was actor/director Emilio Fernández",
+          "line_start": 381,
+          "char_start": 405,
+          "ambiguous": false,
+          "relation_mention": "His older brother was actor/director Emilio Fernández",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Mexico (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Jaime Fernández Reyes",
+        "born_in_country_or_nationality",
+        "Mexico"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jaime Fernández (actor)\nJaime Fernández Reyes (December 6, 1937 – April 15, 2005) was a Mexican actor. Over his career, he won 3 Silver Ariel awards - the Mexican equivalent of the Oscar - including one for what is arguably his best-known role, playing Friday in Luis Buñuel's \"Robinson Crusoe\". He appeared in over 200 films and served as the General Secretary of the Mexican actors' union for 11 years. His older brother was actor/director Emilio Fernández."
+}

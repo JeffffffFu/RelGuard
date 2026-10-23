@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Noose": "WORK_OF_ART",
+    "Wojciech Jerzy Has": "PERSON",
+    "Gustaw Holoubek": "PERSON",
+    "Marek Hłasko": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Noose",
+      "relation": "directed_by",
+      "object": "Wojciech Jerzy Has",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Wojciech Jerzy Has"
+        }
+      ]
+    },
+    {
+      "subject": "Noose",
+      "relation": "starring",
+      "object": "Gustaw Holoubek",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Gustaw Holoubek"
+        }
+      ]
+    },
+    {
+      "subject": "Noose",
+      "relation": "adaptation_of",
+      "object": "Marek Hłasko",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "an adaptation of a short story by Marek Hłasko"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Poland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Noose",
+        "released_in",
+        "Poland"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Noose (1958 film)\nThe Noose  is a Polish film released in 1958, directed by Wojciech Jerzy Has, and starring Gustaw Holoubek. The film is an adaptation of a short story by Marek Hłasko, and follows a day in the life of an alcoholic."
+}

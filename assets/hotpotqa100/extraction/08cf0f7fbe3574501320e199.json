@@ -1,0 +1,121 @@
+{
+  "entities": {
+    "La Tosca": "play",
+    "Rome": "location",
+    "Floria Tosca": "character",
+    "Mario Cavaradossi": "character",
+    "Baron Scarpia": "character",
+    "Castel Sant'Angelo": "location"
+  },
+  "triples": [
+    {
+      "subject": "La Tosca",
+      "relation": "set_in",
+      "object": "Rome",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "\"La Tosca\" is set in Rome"
+        }
+      ]
+    },
+    {
+      "subject": "Baron Scarpia",
+      "relation": "arrests",
+      "object": "Mario Cavaradossi",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Scarpia arrests Cavaradossi"
+        }
+      ]
+    },
+    {
+      "subject": "Baron Scarpia",
+      "relation": "sentences_to_death",
+      "object": "Mario Cavaradossi",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "sentences him to death"
+        }
+      ]
+    },
+    {
+      "subject": "Baron Scarpia",
+      "relation": "offers_to_spare",
+      "object": "Mario Cavaradossi",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "offers to spare her lover if Tosca will yield to his sexual desire"
+        }
+      ]
+    },
+    {
+      "subject": "Floria Tosca",
+      "relation": "stabs",
+      "object": "Baron Scarpia",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "she stabs him to death"
+        }
+      ]
+    },
+    {
+      "subject": "Floria Tosca",
+      "relation": "commits_suicide",
+      "object": "Castel Sant'Angelo",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "Tosca commits suicide by throwing herself from the castle's parapets"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "La Tosca",
+        "takes_place_on",
+        "17 June 1800"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "La Tosca",
+        "takes_place_over",
+        "eighteen-hour period"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Floria Tosca",
+        "is_a",
+        "character"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Mario Cavaradossi",
+        "is_a",
+        "character"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baron Scarpia",
+        "is_a",
+        "character"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "La Tosca\n\"La Tosca\" is set in Rome on 17 June 1800 following the French victory in the Battle of Marengo. The action takes place over an eighteen-hour period, ending at dawn on 18 June 1800. Its melodramatic plot centers on Floria Tosca, a celebrated opera singer; her lover, Mario Cavaradossi, an artist and Napoleon sympathiser; and Baron Scarpia, Rome's ruthless Regent of Police. By the end of the play, all three are dead. Scarpia arrests Cavaradossi and sentences him to death in the Castel Sant'Angelo. He then offers to spare her lover if Tosca will yield to his sexual desire. She appears to acquiesce, but as soon as Scarpia gives the order for the firing squad to use blanks, she stabs him to death. On discovering that Cavaradossi's execution had in fact been a real one, Tosca commits suicide by throwing herself from the castle's parapets."
+}

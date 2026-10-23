@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "David Beckham's Soccer USA": "show",
+    "Tim Lovejoy": "person",
+    "Five": "organization",
+    "Los Angeles Galaxy": "organization",
+    "Natalie Pinkham": "person",
+    "Fox Soccer Channel": "organization",
+    "Major League Soccer": "league"
+  },
+  "triples": [
+    {
+      "subject": "David Beckham's Soccer USA",
+      "relation": "presented_by",
+      "object": "Tim Lovejoy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "presented by Tim Lovejoy"
+        }
+      ]
+    },
+    {
+      "subject": "David Beckham's Soccer USA",
+      "relation": "produced_by",
+      "object": "Five",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced and broadcast in the United Kingdom by Five"
+        }
+      ]
+    },
+    {
+      "subject": "David Beckham's Soccer USA",
+      "relation": "began_following",
+      "object": "Los Angeles Galaxy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "following David Beckham's move to Los Angeles Galaxy"
+        }
+      ]
+    },
+    {
+      "subject": "David Beckham's Soccer USA",
+      "relation": "broadcast_in",
+      "object": "Fox Soccer Channel",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was broadcast in the USA on Fox Soccer Channel"
+        }
+      ]
+    },
+    {
+      "subject": "David Beckham's Soccer USA",
+      "relation": "hosted_by",
+      "object": "Natalie Pinkham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "A slightly different version of the show hosted by Natalie Pinkham"
+        }
+      ]
+    },
+    {
+      "subject": "Tim Lovejoy",
+      "relation": "views_on",
+      "object": "Major League Soccer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "their views on Major League Soccer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "David Beckham's Soccer USA",
+        "contributes_to",
+        "Interviews"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "David Beckham's Soccer USA",
+        "has_special_guest",
+        "British sports personality"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tim Lovejoy",
+        "chatted_with",
+        "British sports personality"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "David Beckham's Soccer USA",
+        "devoid_of_content_from",
+        "British studio footage"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "David Beckham's Soccer USA\nDavid Beckham's Soccer USA was a football highlights and general discussion show presented by Tim Lovejoy and produced and broadcast in the United Kingdom by Five. The show began following David Beckham's move to Los Angeles Galaxy, and Beckham often contributes to the show in the form of Interviews. Each week there was a special guest in the studio, usually a British sports personality, to whom Lovejoy chatted about their career and their views on Major League Soccer. A slightly different version of the show hosted by Natalie Pinkham and completely devoid of any content derived from British studio footage was broadcast in the USA on Fox Soccer Channel."
+}

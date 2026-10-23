@@ -1,0 +1,178 @@
+{
+  "entities": {
+    "Benny Ciaramello": "Person",
+    "Steven Spielberg": "Person",
+    "Dita Von Teese": "Person",
+    "Ashton Kutcher": "Person",
+    "Kevin Costner": "Person",
+    "Isabella Rossellini": "Person",
+    "Ron Nyswaner": "Person",
+    "Neil Meron": "Person",
+    "Craig Zadan": "Person",
+    "Philadelphia": "Film",
+    "Friday Night Lights": "TV Show",
+    "ABC": "Organization",
+    "Secrets and Lies": "TV Show",
+    "Juliette Lewis": "Person",
+    "Ryan Phillippe": "Person",
+    "Live By Night": "Film",
+    "Paulo Bartolo": "Character",
+    "Ben Affleck": "Person",
+    "Chris Messina": "Person",
+    "Leonardo DiCaprio": "Person",
+    "Warner Brothers": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Benny Ciaramello",
+      "relation": "signed_with",
+      "object": "ABC",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he signed a deal with ABC"
+        }
+      ]
+    },
+    {
+      "subject": "Live By Night",
+      "relation": "directed_by",
+      "object": "Ben Affleck",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film will be directed by Affleck"
+        }
+      ]
+    },
+    {
+      "subject": "Live By Night",
+      "relation": "produced_by",
+      "object": "Leonardo DiCaprio",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Leonardo DiCaprio and Warner Brothers"
+        }
+      ]
+    },
+    {
+      "subject": "Live By Night",
+      "relation": "produced_by",
+      "object": "Warner Brothers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Leonardo DiCaprio and Warner Brothers"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Benny Ciaramello",
+        "born_on",
+        "April 4, 1981"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Benny Ciaramello",
+        "acted_in",
+        "War of the Worlds"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "War of the Worlds",
+        "directed_by",
+        "Steven Spielberg"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Benny Ciaramello",
+        "acted_in",
+        "Saint Francis"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Benny Ciaramello",
+        "acted_in",
+        "The Guardian"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Benny Ciaramello",
+        "starred_in",
+        "Filthy Gorgeous"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Filthy Gorgeous",
+        "written_by",
+        "Ron Nyswaner"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Philadelphia",
+        "produced_by",
+        "Neil Meron"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Philadelphia",
+        "produced_by",
+        "Craig Zadan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Benny Ciaramello",
+        "known_for",
+        "Santiago Herrera"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Santiago Herrera",
+        "appeared_in",
+        "Friday Night Lights"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Benny Ciaramello",
+        "guest_starred_in",
+        "Secrets and Lies"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Benny Ciaramello",
+        "cast_in",
+        "Live By Night"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Benny Ciaramello\nBenjamin \"Benny\" Ciaramello\"' (born April 4, 1981) is an American actor. He first appeared in the blockbuster remake of \"War of the Worlds\" directed by Steven Spielberg in 2005, next in the independent film \"Saint Francis\" alongside Dita Von Teese, and then later that same year in \"The Guardian\" alongside Ashton Kutcher and Kevin Costner. He would continue on next to star opposite Isabella Rossellini in the showtime pilot \"Filthy Gorgeous\" written by Ron Nyswaner the Academy Award nominated writer of the film \"Philadelphia\" and produced by Neil Meron and Craig Zadan the Academy Award-winning producing team of \"Chicago\". However, it wasn't until two years later that he became most known to the public for his role as Santiago Herrera, the troubled delinquent in season 2 of the Emmy Award-winning \"Friday Night Lights\". Shortly after, he signed a deal with ABC in which he guest starred on multiple programs for the network including his recent work as Scott Murphy in the ABC series \"Secrets and Lies\" opposite Juliette Lewis and Ryan Phillippe in 2015. He has recently been cast in the 1920s crime film \"Live By Night\" as Paulo Bartolo alongside Ben Affleck and Chris Messina. The film will be directed by Affleck, produced by Leonardo DiCaprio and Warner Brothers, and is set to be released in October 2017."
+}

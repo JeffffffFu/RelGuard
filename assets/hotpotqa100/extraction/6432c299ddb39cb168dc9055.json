@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "KVKI-FM": "ORG",
+    "Shreveport": "GPE",
+    "Louisiana": "GPE",
+    "United States": "GPE",
+    "Townsquare Media": "ORG",
+    "Shreveport Regional Airport": "FAC",
+    "Blanchard": "GPE",
+    "Dallas": "GPE",
+    "Texas": "GPE",
+    "KBCL": "ORG",
+    "KEPT": "ORG",
+    "KVIL": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "KVKI-FM",
+      "relation": "licensed_to",
+      "object": "Shreveport",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Licensed to Shreveport, Louisiana, United States"
+        }
+      ]
+    },
+    {
+      "subject": "KVKI-FM",
+      "relation": "located_in",
+      "object": "Shreveport",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the station serves the Shreveport area"
+        }
+      ]
+    },
+    {
+      "subject": "KVKI-FM",
+      "relation": "transmitter_location",
+      "object": "Blanchard",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the transmitter is in Blanchard, Louisiana"
+        }
+      ]
+    },
+    {
+      "subject": "KVKI-FM",
+      "relation": "originally_called",
+      "object": "KBCL",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The call letters were originally KBCL"
+        }
+      ]
+    },
+    {
+      "subject": "KBCL",
+      "relation": "later_became",
+      "object": "KEPT",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "later became religious station KEPT"
+        }
+      ]
+    },
+    {
+      "subject": "KVIL",
+      "relation": "located_in",
+      "object": "Dallas",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "of the popular KVIL radio station in Dallas, Texas"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "KVKI-FM",
+        "owned_by",
+        "Townsquare Media"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "KVKI-FM",
+        "has_studio_in",
+        "West Shreveport"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "KEPT",
+        "renamed_to",
+        "KVKI"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "KVKI",
+        "similar_to",
+        "KVIL"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "KVKI-FM\nKVKI-FM (96.5 FM) is a radio station broadcasting an adult contemporary music format. Licensed to Shreveport, Louisiana, United States, the station serves the Shreveport area. The station is currently owned by Townsquare Media. Its studios are shared with its other five sister stations in West Shreveport (one mile west of Shreveport Regional Airport), and the transmitter is in Blanchard, Louisiana. The call letters were originally KBCL, and later became religious station KEPT, before the call letters were changed to KVKI to be similar to the call letters of the popular KVIL radio station in Dallas, Texas."
+}

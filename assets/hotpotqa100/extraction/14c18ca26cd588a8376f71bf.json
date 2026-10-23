@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Coney Island USA": "organization",
+    "Coney Island": "location",
+    "Borough of Brooklyn": "location",
+    "New York City": "location",
+    "Sideshows by the Seashore": "event",
+    "Coney Island Museum": "organization",
+    "Coney Island Mermaid Parade": "event"
+  },
+  "triples": [
+    {
+      "subject": "Coney Island USA",
+      "relation": "located_in",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Coney Island neighborhood of the Borough of Brooklyn in New York City"
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island USA",
+      "relation": "organizer_of",
+      "object": "Coney Island Mermaid Parade",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "notable as the organizer of the annual Coney Island Mermaid Parade"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Coney Island USA",
+        "founded",
+        "1980"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Coney Island USA",
+        "dedicated_to",
+        "cultural and economic revitalization of the Coney Island neighborhood"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Coney Island USA",
+        "houses",
+        "Coney Island Museum"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Coney Island Mermaid Parade",
+        "first_took_place_in",
+        "1983"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Coney Island USA",
+        "presents",
+        "Sideshows by the Seashore"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Coney Island USA\nConey Island USA is a 501(c)(3) not-for-profit arts organization founded in 1980 that is dedicated to the cultural and economic revitalization of the Coney Island neighborhood of the Borough of Brooklyn in New York City. Its landmark building in the heart Coney Island's amusement district houses a theater in which the organization presents \"Sideshows by the Seashore\", a showcase for performers with unusual talents that runs continuously during the warmer months, as well as the Coney Island Museum. It is also notable as the organizer of the annual Coney Island Mermaid Parade, the first of which took place in 1983."
+}

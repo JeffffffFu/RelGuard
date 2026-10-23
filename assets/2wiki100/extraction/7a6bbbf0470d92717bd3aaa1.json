@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "Niko von Glasow": "PERSON",
+    "Palladio Film": "ORG",
+    "Rainer Werner Fassbinder": "PERSON",
+    "Georg Stefan Troller": "PERSON",
+    "Hellmuth Costard": "PERSON",
+    "Alexander Kluge": "PERSON",
+    "Peter Zadek": "PERSON",
+    "Jean-Jacques Annaud": "PERSON",
+    "New York University": "ORG",
+    "National Film School in Łódź": "ORG",
+    "NoBody's Perfect": "WORK_OF_ART",
+    "German Film Award": "EVENT",
+    "Deutscher Filmpreis": "EVENT",
+    "Thalidomide": "PRODUCT",
+    "Germany": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Niko von Glasow",
+      "relation": "founded",
+      "object": "Palladio Film",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The founder and Artistic Director of Palladio Film"
+        }
+      ]
+    },
+    {
+      "subject": "Niko von Glasow",
+      "relation": "studied_at",
+      "object": "New York University",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "going on to study film at New York University"
+        }
+      ]
+    },
+    {
+      "subject": "Niko von Glasow",
+      "relation": "studied_at",
+      "object": "National Film School in Łódź",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and at the National Film School in Łódź, Poland"
+        }
+      ]
+    },
+    {
+      "subject": "NoBody's Perfect",
+      "relation": "won",
+      "object": "German Film Award",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film won the German Film Award for Best Documentary"
+        }
+      ]
+    },
+    {
+      "subject": "NoBody's Perfect",
+      "relation": "won",
+      "object": "Deutscher Filmpreis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the Deutscher Filmpreis in 2009"
+        }
+      ]
+    },
+    {
+      "subject": "Thalidomide",
+      "relation": "affected",
+      "object": "Niko von Glasow",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who, like him, were born disabled due to the disastrous side-effects of thalidomide"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Niko von Glasow",
+        "produced",
+        "NoBody's Perfect"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Thalidomide",
+        "affected",
+        "2,700 surviving victims"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Germany",
+        "decided",
+        "raise monthly compensation"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Niko von Glasow\nNiko von Glasow (\"né\" Brücher, 1960) is a German film director and producer. The founder and Artistic Director of Palladio Film, von Glasow began his training with Rainer Werner Fassbinder and then worked for a number of film directors including Georg Stefan Troller, Hellmuth Costard, Alexander Kluge, Peter Zadek and Jean-Jacques Annaud before going on to study film at New York University and at the National Film School in Łódź, Poland. In 2008 he produced and directed the feature documentary \"NoBody's Perfect\". With a darkly humorous touch and no deference to political correctness, \"NoBody's Perfect\" follows Niko von Glasow as he looks for eleven people who, like him, were born disabled due to the disastrous side-effects of thalidomide, and who are prepared to pose nude for a calendar of photos. The film won the German Film Award for Best Documentary at the Deutscher Filmpreis in 2009 and went on to receive worldwide acclaim. Through the film's worldwide success, Niko was able to meet with various politicians and journalists. An effective campaign resulted in the German government’s decision to raise monthly compensation (which will amount to over €2.7billion over the next 30 years) for the 2,700 surviving victims of Thalidomide in Germany."
+}

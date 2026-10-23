@@ -1,0 +1,27 @@
+{
+  "entities": {
+    "Controlling interest": "ORG",
+    "corporation": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Controlling interest",
+        "is_an",
+        "ownership interest"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Controlling interest",
+        "in",
+        "corporation"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Controlling interest\nA controlling interest is an ownership interest in a corporation with enough voting stock shares to prevail in any stockholders' motion. A majority of voting shares (over 50%) is always a controlling interest. When a party holds less than the majority of the voting shares, other present circumstances can be considered to determine whether that party is still considered to hold a controlling ownership interest.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Controlling interest\",\n      \"type\": \"ORG\"\n    },\n    {\n      \"name\": \"corporation\",\n      \"type\": \"ORG\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Controlling interest\",\n      \"relation\": \"is_an\",\n      \"object\": \"ownership interest\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is an\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Controlling interest\",\n      \"relation\": \"in\",\n      \"object\": \"corporation\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in\"\n        }\n      ]\n    }\n  ]\n}"
+}

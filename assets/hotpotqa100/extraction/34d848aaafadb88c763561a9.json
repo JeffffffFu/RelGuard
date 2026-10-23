@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Quai Louis-Blériot": "FAC",
+    "Seine": "LOC",
+    "16th arrondissement of Paris": "GPE",
+    "Paris": "GPE",
+    "France": "GPE",
+    "Quai d'Auteuil": "FAC",
+    "Louis Blériot": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Quai Louis-Blériot",
+      "relation": "founded",
+      "object": "Quai d'Auteuil",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was known as",
+          "line_start": 101,
+          "char_start": 120,
+          "ambiguous": false,
+          "relation_mention": "was known as",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Quai Louis-Blériot",
+      "relation": "renamed_in_honour_of",
+      "object": "Louis Blériot",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "renamed in honour of",
+          "line_start": 146,
+          "char_start": 165,
+          "ambiguous": false,
+          "relation_mention": "renamed in honour of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Quai Louis-Blériot",
+        "located_in",
+        "Seine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Quai Louis-Blériot",
+        "located_in",
+        "16th arrondissement of Paris"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "16th arrondissement of Paris",
+        "located_in",
+        "Paris"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Paris",
+        "located_in",
+        "France"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Quai Louis-Blériot\nThe Quai Louis-Blériot is a quay alongside the Seine in the 16th arrondissement of Paris, France. It was known as the Quai d'Auteuil until it was renamed in honour of French aviator Louis Blériot in 1937.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Quai Louis-Blériot\", \"type\": \"FAC\"},\n    {\"name\": \"Seine\", \"type\": \"LOC\"},\n    {\"name\": \"16th arrondissement of Paris\", \"type\": \"GPE\"},\n    {\"name\": \"Paris\", \"type\": \"GPE\"},\n    {\"name\": \"France\", \"type\": \"GPE\"},\n    {\"name\": \"Quai d'Auteuil\", \"type\": \"FAC\"},\n    {\"name\": \"Louis Blériot\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Quai Louis-Blériot\",\n      \"relation\": \"located_in\",\n      \"object\": \"Seine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a quay alongside\"}\n      ]\n    },\n    {\n      \"subject\": \"Quai Louis-Blériot\",\n      \"relation\": \"located_in\",\n      \"object\": \"16th arrondissement of Paris\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the 16th arrondissement of Paris\"}\n      ]\n    },\n    {\n      \"subject\": \"16th arrondissement of Paris\",\n      \"relation\": \"located_in\",\n      \"object\": \"Paris\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Paris\"}\n      ]\n    },\n    {\n      \"subject\": \"Paris\",\n      \"relation\": \"located_in\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Paris, France\"}\n      ]\n    },\n    {\n      \"subject\": \"Quai Louis-Blériot\",\n      \"relation\": \"founded\",\n      \"object\": \"Quai d'Auteuil\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Quai Louis-Blériot\",\n      \"relation\": \"renamed_in_honour_of\",\n      \"object\": \"Louis Blériot\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"renamed in honour of\"}\n      ]\n    }\n  ]\n}"
+}

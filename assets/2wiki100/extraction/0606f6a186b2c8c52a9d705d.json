@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Felix Schuster": "Person",
+    "British banker": "Occupation",
+    "financier": "Occupation",
+    "Liberal politician": "Occupation"
+  },
+  "triples": [
+    {
+      "subject": "Felix Schuster",
+      "relation": "has_occupation",
+      "object": "British banker",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a British banker"
+        }
+      ]
+    },
+    {
+      "subject": "Felix Schuster",
+      "relation": "has_occupation",
+      "object": "Liberal politician",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and Liberal politician"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Felix Schuster",
+        "has_occupation",
+        "financier"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Felix Schuster\nSir Felix Schuster, 1st Baronet( 21 April 1854 — 13 May 1936) was a British banker, financier and Liberal politician."
+}

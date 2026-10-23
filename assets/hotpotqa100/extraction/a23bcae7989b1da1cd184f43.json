@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "Black Lagoon": "WORK_OF_ART",
+    "Rei Hiroe": "PERSON",
+    "Sunao Katabuchi": "PERSON",
+    "Madhouse": "ORG",
+    "Shogakukan": "ORG",
+    "Black Lagoon: The Second Barrage": "WORK_OF_ART",
+    "Black Lagoon: Roberta's Blood Trail": "WORK_OF_ART",
+    "Rokuro \"Rock\" Okajima": "PERSON",
+    "Lagoon Company": "ORG",
+    "Japanese": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Black Lagoon",
+      "relation": "adapted_from",
+      "object": "Rei Hiroe",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "adapted from",
+          "line_start": 34,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "adapted from",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Black Lagoon",
+      "relation": "directed_by",
+      "object": "Sunao Katabuchi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Directed by",
+          "line_start": 86,
+          "char_start": 116,
+          "ambiguous": false,
+          "relation_mention": "Directed by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Black Lagoon",
+      "relation": "produced_by",
+      "object": "Madhouse",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 118,
+          "char_start": 148,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Black Lagoon",
+        "co_produced_by",
+        "Shogakukan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Black Lagoon: Roberta's Blood Trail",
+        "is_part_of",
+        "Black Lagoon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rokuro \"Rock\" Okajima",
+        "has_nationality",
+        "Japanese"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rokuro \"Rock\" Okajima",
+        "joins",
+        "Lagoon Company"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "List of Black Lagoon episodes\n\"Black Lagoon\" is an anime series adapted from the titular manga series by Rei Hiroe. Directed by Sunao Katabuchi and produced by Madhouse, it consists of two seasons produced for television, and one in original video animation format. The two seasons, each twelve episodes in length, are titled \"Black Lagoon\"— which was co-produced by Shogakukan—and \"Black Lagoon: The Second Barrage\". The OVA, titled \"Black Lagoon: Roberta's Blood Trail\", consists of only five episodes. The series follows the adventures of Rokuro \"Rock\" Okajima, a Japanese businessman who is abducted by, and eventually joins a group of outlaws known as the \"Lagoon Company\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Black Lagoon\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Rei Hiroe\", \"type\": \"PERSON\"},\n    {\"name\": \"Sunao Katabuchi\", \"type\": \"PERSON\"},\n    {\"name\": \"Madhouse\", \"type\": \"ORG\"},\n    {\"name\": \"Shogakukan\", \"type\": \"ORG\"},\n    {\"name\": \"Black Lagoon: The Second Barrage\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Black Lagoon: Roberta's Blood Trail\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Rokuro \\\"Rock\\\" Okajima\", \"type\": \"PERSON\"},\n    {\"name\": \"Lagoon Company\", \"type\": \"ORG\"},\n    {\"name\": \"Japanese\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Black Lagoon\",\n      \"relation\": \"adapted_from\",\n      \"object\": \"Rei Hiroe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"adapted from\"}\n      ]\n    },\n    {\n      \"subject\": \"Black Lagoon\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Sunao Katabuchi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Black Lagoon\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Madhouse\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Black Lagoon\",\n      \"relation\": \"co_produced_by\",\n      \"object\": \"Shogakukan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Black Lagoon: Roberta's Blood Trail\",\n      \"relation\": \"is_part_of\",\n      \"object\": \"Black Lagoon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The OVA, titled \\\"Black Lagoon: Roberta's Blood Trail\\\", consists of only five episodes\"}\n      ]\n    },\n    {\n      \"subject\": \"Rokuro \\\"Rock\\\" Okajima\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"Japanese\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a Japanese businessman\"}\n      ]\n    },\n    {\n      \"subject\": \"Rokuro \\\"Rock\\\" Okajima\",\n      \"relation\": \"joins\",\n      \"object\": \"Lagoon Company\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"joins a group of outlaws known as the \\\"Lagoon Company\\\"\"}\n      ]\n    }\n  ]\n}"
+}

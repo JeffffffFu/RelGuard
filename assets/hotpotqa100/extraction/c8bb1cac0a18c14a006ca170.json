@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "Haleiwa": "Location",
+    "Hawaii": "Location",
+    "Waialua District": "Location",
+    "Oʻahu": "Location",
+    "City and County of Honolulu": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Haleiwa",
+      "relation": "located_in",
+      "object": "Hawaii",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Haleiwa, Hawaii"
+        }
+      ]
+    },
+    {
+      "subject": "Haleiwa",
+      "relation": "located_in",
+      "object": "Waialua District",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in the Waialua District"
+        }
+      ]
+    },
+    {
+      "subject": "Waialua District",
+      "relation": "located_on",
+      "object": "Oʻahu",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the island of Oʻ ahu"
+        }
+      ]
+    },
+    {
+      "subject": "Haleiwa",
+      "relation": "located_in",
+      "object": "City and County of Honolulu",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "City and County of Honolulu"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Haleiwa",
+        "is_a",
+        "North Shore community"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Haleiwa",
+        "is_a",
+        "census-designated place (CDP)"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Haleiwa, Hawaii\nHaleʻ iwa is a North Shore community and census-designated place (CDP) in the Waialua District of the island of Oʻ ahu, City and County of Honolulu."
+}

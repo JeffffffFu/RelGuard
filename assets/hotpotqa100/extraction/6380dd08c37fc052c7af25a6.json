@@ -1,0 +1,125 @@
+{
+  "entities": {
+    "West End Line": "transit_line",
+    "Brooklyn": "location",
+    "New Utrecht Avenue Line": "transit_line",
+    "New York City": "location",
+    "United States": "location",
+    "Coney Island": "location",
+    "Sunset Park": "location",
+    "Brooklyn, Bath and Coney Island Railroad": "company",
+    "BMT West End Line": "transit_line",
+    "Bath Beach": "location",
+    "B64": "bus_route",
+    "86th Street Line": "transit_line"
+  },
+  "triples": [
+    {
+      "subject": "West End Line",
+      "relation": "also_known_as",
+      "object": "New Utrecht Avenue Line",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The West End Line or New Utrecht Avenue Line"
+        }
+      ]
+    },
+    {
+      "subject": "West End Line",
+      "relation": "located_in",
+      "object": "Brooklyn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a surface transit line in Brooklyn"
+        }
+      ]
+    },
+    {
+      "subject": "West End Line",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Brooklyn, New York City"
+        }
+      ]
+    },
+    {
+      "subject": "West End Line",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Brooklyn, New York City, United States"
+        }
+      ]
+    },
+    {
+      "subject": "West End Line",
+      "relation": "runs_between",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "running along New Utrecht Avenue and other streets between Coney Island"
+        }
+      ]
+    },
+    {
+      "subject": "West End Line",
+      "relation": "built_by",
+      "object": "Brooklyn, Bath and Coney Island Railroad",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Built by the Brooklyn, Bath and Coney Island Railroad"
+        }
+      ]
+    },
+    {
+      "subject": "B64",
+      "relation": "replaced",
+      "object": "86th Street Line",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "which replaced the 86th Street Line trolleys"
+        }
+      ]
+    },
+    {
+      "subject": "B64",
+      "relation": "restored",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "the B64 route to Coney Island was restored"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "West End Line",
+        "runs_between",
+        "Sunset Park"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "West End Line",
+        "became",
+        "trolley line"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "West End Line (Brooklyn surface)\nThe West End Line or New Utrecht Avenue Line was a surface transit line in Brooklyn, New York City, United States, running along New Utrecht Avenue and other streets between Coney Island and Sunset Park. Built by the Brooklyn, Bath and Coney Island Railroad as a steam line, it became a trolley line, along which elevated trains ran until the new elevated BMT West End Line opened. This route is no longer part of any bus line; its southern part (south of Bath Beach) was part of a bus route - the B64, which replaced the 86th Street Line trolleys, until 2010. In 2013, the B64 route to Coney Island was restored."
+}

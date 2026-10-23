@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Jan van de Graaff": "PERSON",
+    "Marius Klumperbeek": "PERSON",
+    "Lex Mullink": "PERSON",
+    "Bobbie van de Graaf": "PERSON",
+    "Freek van de Graaff": "PERSON",
+    "1966 World Rowing Championships": "EVENT",
+    "1964 Summer Olympics": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Jan van de Graaff",
+      "relation": "won",
+      "object": "1966 World Rowing Championships",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He won the world title in the coxed pair at the 1966 World Rowing Championships"
+        }
+      ]
+    },
+    {
+      "subject": "Jan van de Graaff",
+      "relation": "teammates_with",
+      "object": "Marius Klumperbeek",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "his team mates were Marius Klumperbeek (cox)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Netherlands (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Jan van de Graaff",
+        "won",
+        "bronze medal"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jan van de Graaff",
+        "located_in",
+        "Netherlands"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jan van de Graaff",
+        "teammates_with",
+        "Lex Mullink"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jan van de Graaff",
+        "teammates_with",
+        "Bobbie van de Graaf"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jan van de Graaff",
+        "teammates_with",
+        "Freek van de Graaff"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Jan van de Graaff\nJan van de Graaff (born 24 September 1944) is a retired Dutch rower. He won the world title in the coxed pair at the 1966 World Rowing Championships and a bronze medal in the coxed fours at the 1964 Summer Olympics. At the 1964 Olympics his team mates were Marius Klumperbeek (cox), Lex Mullink, Bobbie van de Graaf and Freek van de Graaff. The three \"van de Graaf(f)s\" were all born in 1944."
+}

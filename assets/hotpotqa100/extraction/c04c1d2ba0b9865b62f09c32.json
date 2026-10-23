@@ -1,0 +1,126 @@
+{
+  "entities": {
+    "Japan": "GPE",
+    "2022 FIFA World Cup": "EVENT",
+    "Japan Football Association": "ORG",
+    "JFA": "ORG",
+    "World Cup Finals": "EVENT",
+    "2002 FIFA World Cup": "EVENT",
+    "South Korea": "GPE",
+    "Italy": "GPE",
+    "France": "GPE",
+    "Mexico": "GPE",
+    "Brazil": "GPE",
+    "West Germany": "GPE",
+    "Japanese Football Association Bid team": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Japan",
+      "relation": "bid_for",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 1,
+          "predicate": "2022 FIFA World Cup bid",
+          "line_start": 6,
+          "char_start": 6,
+          "ambiguous": false,
+          "relation_mention": "2022 FIFA World Cup bid",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Japan Football Association",
+      "relation": "aka",
+      "object": "JFA",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "or the JFA",
+          "line_start": 97,
+          "char_start": 127,
+          "ambiguous": false,
+          "relation_mention": "or the JFA",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Japan",
+      "relation": "would_have_hosted",
+      "object": "World Cup Finals",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "been hosting",
+          "line_start": 156,
+          "char_start": 186,
+          "ambiguous": false,
+          "relation_mention": "been hosting",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Japan",
+      "relation": "hosted",
+      "object": "2002 FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "shared the 2002 FIFA World Cup",
+          "line_start": 258,
+          "char_start": 288,
+          "ambiguous": false,
+          "relation_mention": "shared the 2002 FIFA World Cup",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Japan",
+      "relation": "shared_with",
+      "object": "South Korea",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "shared the 2002 FIFA World Cup with other co-host South Korea",
+          "line_start": 258,
+          "char_start": 288,
+          "ambiguous": false,
+          "relation_mention": "shared the 2002 FIFA World Cup with other co-host South Korea",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Japanese Football Association Bid team",
+      "relation": "decided_to_concentrate_on",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "decided to concentrate solely on winning the right to host the 2022 FIFA World Cup",
+          "line_start": 492,
+          "char_start": 522,
+          "ambiguous": false,
+          "relation_mention": "decided to concentrate solely on winning the right to host the 2022 FIFA World Cup",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Japan",
+        "would_have_become",
+        "GPE"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Japan 2022 FIFA World Cup bid\nThe Japan 2022 FIFA World Cup bid is the second official bid from the Japan Football Association or the JFA. Had this bid been successful, Japan would have been hosting their second World Cup Finals and it would have been their first solo hosting since they shared the 2002 FIFA World Cup with other co-host South Korea, becoming the sixth nation to host the tournament twice, after Italy, France, Mexico, Brazil and (West) Germany. On May 4, 2010, the Japanese Football Association Bid team decided to concentrate solely on winning the right to host the 2022 FIFA World Cup."
+}

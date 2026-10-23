@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Kamran Rasheed Khan": "Person",
+    "United States of America national cricket team": "Team",
+    "Lahore cricket team": "Team",
+    "Pakistan Railways cricket team": "Team",
+    "Punjab University cricket team": "Team",
+    "United States of America Cricket Association": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Kamran Rasheed Khan",
+      "relation": "plays_for",
+      "object": "United States of America national cricket team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who played for United States of America national cricket team from 1979 to 1990"
+        }
+      ]
+    },
+    {
+      "subject": "Kamran Rasheed Khan",
+      "relation": "plays_for",
+      "object": "Lahore cricket team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as well as played domestic cricket for Lahore cricket team"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kamran Rasheed Khan",
+        "born_in",
+        "1949"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kamran Rasheed Khan",
+        "plays_for",
+        "Pakistan Railways cricket team"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kamran Rasheed Khan",
+        "plays_for",
+        "Punjab University cricket team"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Kamran Rasheed Khan",
+        "held_position",
+        "President of United States of America Cricket Association"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kamran Rasheed\nKamran Rasheed Khan (born 1949) is a Pakistani American first-class cricketer as well cricket administrator who played for United States of America national cricket team from 1979 to 1990 as well as played domestic cricket for Lahore cricket team, Pakistan Railways cricket team, Punjab University cricket team from 1964/65 to 1970/71 as a wicket-keeper. He was also the President of United States of America Cricket Association for brief period of time 1999 to 2000."
+}

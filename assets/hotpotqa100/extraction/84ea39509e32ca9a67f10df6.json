@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Harjinder Singh Jinda": "Person",
+    "Khalistan Commando Force": "Organization",
+    "Arun Vaidya": "Person",
+    "Operation Blue Star": "Event",
+    "Arjan Dass": "Person",
+    "Lalit Maken": "Person",
+    "Gen. Vaidya": "Person",
+    "Punjab National Bank": "Organization",
+    "Miller Gunj branch": "Location",
+    "Ludhiana": "Location",
+    "Khalistan": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Harjinder Singh Jinda",
+      "relation": "member_of",
+      "object": "Khalistan Commando Force",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a member of a Sikh organisation Khalistan Commando Force"
+        }
+      ]
+    },
+    {
+      "subject": "Harjinder Singh Jinda",
+      "relation": "assassin_of",
+      "object": "Arun Vaidya",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one of the two assassins of Arun Vaidya"
+        }
+      ]
+    },
+    {
+      "subject": "Harjinder Singh Jinda",
+      "relation": "responsible_for",
+      "object": "Arjan Dass",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "responsible for three high-profile killings; Arjan Dass"
+        }
+      ]
+    },
+    {
+      "subject": "Punjab National Bank",
+      "relation": "has_branch_in",
+      "object": "Miller Gunj branch",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Punjab National Bank, Miller Gunj branch"
+        }
+      ]
+    },
+    {
+      "subject": "Miller Gunj branch",
+      "relation": "located_in",
+      "object": "Ludhiana",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Punjab National Bank, Miller Gunj branch, Ludhiana"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Harjinder Singh Jinda",
+        "responsible_for",
+        "Lalit Maken"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Harjinder Singh Jinda",
+        "responsible_for",
+        "Gen. Vaidya"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Harjinder Singh Jinda",
+        "participated_in",
+        "Indian history's biggest bank robbery"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Indian history's biggest bank robbery",
+        "financed_by",
+        "Khalistan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Indian history's biggest bank robbery",
+        "conducted_at",
+        "Punjab National Bank"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Harjinder Singh Jinda\nHarjinder Singh Jinda was a member of a Sikh organisation Khalistan Commando Force and one of the two assassins of Arun Vaidya (the Chief of Indian army at the time of Operation Blue Star and architect of Operation Blue Star). He was responsible for three high-profile killings; Arjan Dass, Lalit Maken and Gen. Vaidya. He along with other members of Khalistan Commando Force participated in Indian history's biggest bank robbery of Rs.57.0 million ($4.5 million) from Punjab National Bank, Miller Gunj branch, Ludhiana to finance the campaign for a separate Sikh state of Khalistan."
+}

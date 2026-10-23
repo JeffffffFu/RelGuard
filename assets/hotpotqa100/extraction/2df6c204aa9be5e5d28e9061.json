@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Follow the Sun": "concept",
+    "globally distributed software engineering": "concept",
+    "global knowledge workflow": "concept",
+    "production site": "entity",
+    "timezone": "concept"
+  },
+  "triples": [
+    {
+      "subject": "Follow the Sun",
+      "relation": "is_a",
+      "object": "globally distributed software engineering",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a sub-field of globally distributed software engineering"
+        }
+      ]
+    },
+    {
+      "subject": "Follow the Sun",
+      "relation": "is_a",
+      "object": "global knowledge workflow",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a type of global knowledge workflow"
+        }
+      ]
+    },
+    {
+      "subject": "production site",
+      "relation": "is_owned_by",
+      "object": "Follow the Sun",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the knowledge product is owned and advanced by a production site"
+        }
+      ]
+    },
+    {
+      "subject": "production site",
+      "relation": "hands_off_to",
+      "object": "production site",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "handed off at the end of their work day to the next production site"
+        }
+      ]
+    },
+    {
+      "subject": "production site",
+      "relation": "located_in",
+      "object": "timezone",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in one timezone"
+        }
+      ]
+    },
+    {
+      "subject": "production site",
+      "relation": "located_in",
+      "object": "timezone",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that is several time zones west"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "global knowledge workflow",
+        "designed_to",
+        "reduce the time to market"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Follow-the-sun\nFollow the Sun (FTS), a sub-field of globally distributed software engineering (GDSE), is a type of global knowledge workflow designed in order to reduce the time to market, in which the knowledge product is owned and advanced by a production site in one timezone and handed off at the end of their work day to the next production site that is several time zones west to continue that work. Ideally, the work days in these time zones overlap such that when one site ends their day, the next one starts."
+}

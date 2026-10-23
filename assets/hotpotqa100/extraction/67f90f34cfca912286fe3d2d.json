@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "The Bionic Vet": "WORK_OF_ART",
+    "BBC": "ORG",
+    "Noel Fitzpatrick": "PERSON",
+    "Surrey": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "The Bionic Vet",
+        "produced_by",
+        "BBC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Bionic Vet",
+        "follows",
+        "Noel Fitzpatrick"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Noel Fitzpatrick",
+        "works_at",
+        "Surrey"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Bionic Vet\nThe Bionic Vet is a BBC documentary television series following the work of veterinarian Noel Fitzpatrick at his veterinary practice in Surrey. Fitzpatrick and his team of over 100 vets, nurses and support staff find new methods and techniques to help pets within more unique problems that would often leave euthanasia as the only option.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Bionic Vet\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"BBC\", \"type\": \"ORG\"},\n    {\"name\": \"Noel Fitzpatrick\", \"type\": \"PERSON\"},\n    {\"name\": \"Surrey\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Bionic Vet\",\n      \"relation\": \"produced_by\",\n      \"object\": \"BBC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a BBC documentary television series\"}\n      ]\n    },\n    {\n      \"subject\": \"The Bionic Vet\",\n      \"relation\": \"follows\",\n      \"object\": \"Noel Fitzpatrick\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"following the work of veterinarian Noel Fitzpatrick\"}\n      ]\n    },\n    {\n      \"subject\": \"Noel Fitzpatrick\",\n      \"relation\": \"works_at\",\n      \"object\": \"Surrey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at his veterinary practice in Surrey\"}\n      ]\n    }\n  ]\n}"
+}

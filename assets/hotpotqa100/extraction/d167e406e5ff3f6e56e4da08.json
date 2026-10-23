@@ -1,0 +1,134 @@
+{
+  "entities": {
+    "Boulevard Solitude": "WORK_OF_ART",
+    "Hans Werner Henze": "PERSON",
+    "Grete Weil": "PERSON",
+    "Walter Jockisch": "PERSON",
+    "François Prévost": "PERSON",
+    "Manon Lescaut": "WORK_OF_ART",
+    "Auber": "PERSON",
+    "Massenet": "PERSON",
+    "Puccini": "PERSON",
+    "Paris": "GPE",
+    "Second World War": "EVENT",
+    "Grove": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Manon Lescaut",
+      "relation": "adapted_by",
+      "object": "Auber",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "adapted operatically by",
+          "line_start": 299,
+          "char_start": 318,
+          "ambiguous": false,
+          "relation_mention": "adapted operatically by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Manon Lescaut",
+      "relation": "adapted_by",
+      "object": "Massenet",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "adapted operatically by",
+          "line_start": 299,
+          "char_start": 318,
+          "ambiguous": false,
+          "relation_mention": "adapted operatically by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Manon Lescaut",
+      "relation": "adapted_by",
+      "object": "Puccini",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "adapted operatically by",
+          "line_start": 299,
+          "char_start": 318,
+          "ambiguous": false,
+          "relation_mention": "adapted operatically by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Boulevard Solitude",
+        "works_for",
+        "Hans Werner Henze"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Boulevard Solitude",
+        "has_libretto_by",
+        "Grete Weil"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Grete Weil",
+        "based_on",
+        "Walter Jockisch"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Walter Jockisch",
+        "based_on",
+        "François Prévost"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Boulevard Solitude",
+        "is_reworking_of",
+        "Manon Lescaut"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Boulevard Solitude",
+        "located_in",
+        "Paris"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Boulevard Solitude",
+        "located_in",
+        "Second World War"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Grove",
+        "notes",
+        "Boulevard Solitude"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Boulevard Solitude\nBoulevard Solitude is a \"Lyrisches Drama \" (lyric drama) or opera in one act by Hans Werner Henze to a German libretto by Grete Weil after the play by Walter Jockisch, in its turn a modern retelling of François Prévost's \"Manon Lescaut\". The piece is a reworking of the Manon Lescaut story, already adapted operatically by Auber, Massenet and Puccini, and here relocated to Paris after the Second World War where, as is noted in Grove, the focus of the story moves away from Manon and towards Armand des Grieux. It became Henze’s first fully-fledged opera. The work stands out for its strong jazz influences, from a composer who had hitherto been associated with twelve tone technique.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Boulevard Solitude\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Hans Werner Henze\", \"type\": \"PERSON\"},\n    {\"name\": \"Grete Weil\", \"type\": \"PERSON\"},\n    {\"name\": \"Walter Jockisch\", \"type\": \"PERSON\"},\n    {\"name\": \"François Prévost\", \"type\": \"PERSON\"},\n    {\"name\": \"Manon Lescaut\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Auber\", \"type\": \"PERSON\"},\n    {\"name\": \"Massenet\", \"type\": \"PERSON\"},\n    {\"name\": \"Puccini\", \"type\": \"PERSON\"},\n    {\"name\": \"Paris\", \"type\": \"GPE\"},\n    {\"name\": \"Second World War\", \"type\": \"EVENT\"},\n    {\"name\": \"Grove\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Boulevard Solitude\",\n      \"relation\": \"works_for\",\n      \"object\": \"Hans Werner Henze\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    },\n    {\n      \"subject\": \"Boulevard Solitude\",\n      \"relation\": \"has_libretto_by\",\n      \"object\": \"Grete Weil\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to a German libretto by\"}\n      ]\n    },\n    {\n      \"subject\": \"Grete Weil\",\n      \"relation\": \"based_on\",\n      \"object\": \"Walter Jockisch\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"after the play by\"}\n      ]\n    },\n    {\n      \"subject\": \"Walter Jockisch\",\n      \"relation\": \"based_on\",\n      \"object\": \"François Prévost\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a modern retelling of\"}\n      ]\n    },\n    {\n      \"subject\": \"Boulevard Solitude\",\n      \"relation\": \"is_reworking_of\",\n      \"object\": \"Manon Lescaut\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a \\\"Lyrisches Drama \\\" (lyric drama) or opera in one act by Hans Werner Henze to a German libretto by Grete Weil after the play by Walter Jockisch, in its turn a modern retelling of\"}\n      ]\n    },\n    {\n      \"subject\": \"Manon Lescaut\",\n      \"relation\": \"adapted_by\",\n      \"object\": \"Auber\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"adapted operatically by\"}\n      ]\n    },\n    {\n      \"subject\": \"Manon Lescaut\",\n      \"relation\": \"adapted_by\",\n      \"object\": \"Massenet\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"adapted operatically by\"}\n      ]\n    },\n    {\n      \"subject\": \"Manon Lescaut\",\n      \"relation\": \"adapted_by\",\n      \"object\": \"Puccini\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"adapted operatically by\"}\n      ]\n    },\n    {\n      \"subject\": \"Boulevard Solitude\",\n      \"relation\": \"located_in\",\n      \"object\": \"Paris\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"relocated to Paris\"}\n      ]\n    },\n    {\n      \"subject\": \"Boulevard Solitude\",\n      \"relation\": \"located_in\",\n      \"object\": \"Second World War\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"after the Second World War\"}\n      ]\n    },\n    {\n      \"subject\": \"Grove\",\n      \"relation\": \"notes\",\n      \"object\": \"Boulevard Solitude\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as is noted in Grove\"}\n      ]\n    }\n  ]\n}"
+}

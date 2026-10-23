@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Arnulf III": "Person",
+    "Arnulf II": "Person",
+    "Boulogne": "Place"
+  },
+  "triples": [
+    {
+      "subject": "Arnulf III",
+      "relation": "son_of",
+      "object": "Arnulf II",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a son of Arnulf II"
+        }
+      ]
+    },
+    {
+      "subject": "Arnulf III",
+      "relation": "succeeded",
+      "object": "Arnulf II",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He succeeded his father as count of Boulogne"
+        }
+      ]
+    },
+    {
+      "subject": "Arnulf III",
+      "relation": "located_in",
+      "object": "Boulogne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as count of Boulogne"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Arnulf III",
+        "ruled_from",
+        "972"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Arnulf III",
+        "died_in",
+        "990"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Arnulf III",
+        "divided_lands_between",
+        "his three sons"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Arnulf III, Count of Boulogne\nArnulf III of Boulogne( † 990) was a son of Arnulf II, Count of Boulogne. He succeeded his father as count of Boulogne from 972 to 990. On his death his lands were divided between his three sons:"
+}

@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "Henri Larrivée": "PERSON",
+    "Lyon": "GPE",
+    "Paris Opéra": "ORG",
+    "Rebel": "PERSON",
+    "Rameau": "PERSON",
+    "Castor et Pollux": "WORK_OF_ART",
+    "Christoph Willibald von Gluck": "PERSON",
+    "Gluck": "PERSON",
+    "Niccolò Piccinni": "PERSON",
+    "Roland": "WORK_OF_ART",
+    "Fétis": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Henri Larrivée",
+      "relation": "born_in",
+      "object": "Lyon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born in",
+          "line_start": 78,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "was born in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Henri Larrivée",
+      "relation": "works_for",
+      "object": "Paris Opéra",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "hired him as a chorus member",
+          "line_start": 305,
+          "char_start": 320,
+          "ambiguous": false,
+          "relation_mention": "hired him as a chorus member",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rebel",
+        "works_for",
+        "Paris Opéra"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henri Larrivée",
+        "first_solo_appearance_in",
+        "Castor et Pollux"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henri Larrivée",
+        "associated_with",
+        "Christoph Willibald von Gluck"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henri Larrivée",
+        "helped_establish",
+        "Christoph Willibald von Gluck"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henri Larrivée",
+        "worked_with",
+        "Niccolò Piccinni"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Niccolò Piccinni",
+        "has_work",
+        "Roland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Henri Larrivée",
+        "mentioned_by",
+        "Fétis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Henri Larrivée\nHenri Larrivée (9 January 1737 – 7 August 1802) was a French opera singer. He was born in Lyon. His voice range was \"basse-taille\" (equivalent to baritone). According to Fétis, Larrivée was working as an apprentice to a wigmaker when the head of the Paris Opéra, Rebel, noticed his talent for singing and hired him as a chorus member. He made his first solo appearance as a high priest in a 1755 revival of Rameau's \"Castor et Pollux\". He was particularly associated with the works of Christoph Willibald von Gluck, helping Gluck establish his \"reform operas\" in France. He found Gluck's rival, Niccolò Piccinni, less congenial but still worked with him on the premieres of operas including \"Roland\" (1778).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Henri Larrivée\", \"type\": \"PERSON\"},\n    {\"name\": \"Lyon\", \"type\": \"GPE\"},\n    {\"name\": \"Paris Opéra\", \"type\": \"ORG\"},\n    {\"name\": \"Rebel\", \"type\": \"PERSON\"},\n    {\"name\": \"Rameau\", \"type\": \"PERSON\"},\n    {\"name\": \"Castor et Pollux\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Christoph Willibald von Gluck\", \"type\": \"PERSON\"},\n    {\"name\": \"Gluck\", \"type\": \"PERSON\"},\n    {\"name\": \"Niccolò Piccinni\", \"type\": \"PERSON\"},\n    {\"name\": \"Roland\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Fétis\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Henri Larrivée\",\n      \"relation\": \"born_in\",\n      \"object\": \"Lyon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Henri Larrivée\",\n      \"relation\": \"works_for\",\n      \"object\": \"Paris Opéra\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"hired him as a chorus member\"}\n      ]\n    },\n    {\n      \"subject\": \"Rebel\",\n      \"relation\": \"works_for\",\n      \"object\": \"Paris Opéra\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the head of the Paris Opéra, Rebel,\"}\n      ]\n    },\n    {\n      \"subject\": \"Henri Larrivée\",\n      \"relation\": \"first_solo_appearance_in\",\n      \"object\": \"Castor et Pollux\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made his first solo appearance as a high priest in a 1755 revival of Rameau's \\\"Castor et Pollux\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Henri Larrivée\",\n      \"relation\": \"associated_with\",\n      \"object\": \"Christoph Willibald von Gluck\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was particularly associated with the works of Christoph Willibald von Gluck\"}\n      ]\n    },\n    {\n      \"subject\": \"Henri Larrivée\",\n      \"relation\": \"helped_establish\",\n      \"object\": \"Christoph Willibald von Gluck\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"helping Gluck establish his \\\"reform operas\\\" in France\"}\n      ]\n    },\n    {\n      \"subject\": \"Henri Larrivée\",\n      \"relation\": \"worked_with\",\n      \"object\": \"Niccolò Piccinni\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"still worked with him on the premieres of operas including \\\"Roland\\\" (1778)\"}\n      ]\n    },\n    {\n      \"subject\": \"Niccolò Piccinni\",\n      \"relation\": \"has_work\",\n      \"object\": \"Roland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"premieres of operas including \\\"Roland\\\" (1778)\"}\n      ]\n    },\n    {\n      \"subject\": \"Henri Larrivée\",\n      \"relation\": \"mentioned_by\",\n      \"object\": \"Fétis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"According to Fétis, Larrivée was working as an apprentice to a wigmaker\"}\n      ]\n    }\n  ]\n}"
+}

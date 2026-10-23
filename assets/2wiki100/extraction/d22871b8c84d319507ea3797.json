@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "Phoolwari": "WORK_OF_ART",
+    "Chaturbhuj Doshi": "PERSON",
+    "Ranjit Studios": "ORG",
+    "Motilal": "PERSON",
+    "Hansraj Behl": "PERSON",
+    "Pandit Indra": "PERSON",
+    "Khursheed": "PERSON",
+    "Madhubala": "PERSON",
+    "Dixit": "PERSON",
+    "Nazira": "PERSON",
+    "Tiwari": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Phoolwari",
+      "relation": "directed_by",
+      "object": "Chaturbhuj Doshi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 123,
+          "char_start": 133,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Phoolwari",
+      "relation": "music_composed_by",
+      "object": "Hansraj Behl",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "composed by",
+          "line_start": 242,
+          "char_start": 252,
+          "ambiguous": false,
+          "relation_mention": "composed by",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "India (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Phoolwari",
+        "located_in",
+        "India"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chaturbhuj Doshi",
+        "works_for",
+        "Ranjit Studios"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Phoolwari",
+        "works_for",
+        "Ranjit Studios"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Phoolwari",
+        "featured",
+        "Motilal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Phoolwari",
+        "lyricist",
+        "Pandit Indra"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Motilal",
+        "co_star_with",
+        "Khursheed"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Motilal",
+        "co_star_with",
+        "Madhubala"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Motilal",
+        "co_star_with",
+        "Dixit"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Motilal",
+        "co_star_with",
+        "Nazira"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Motilal",
+        "co_star_with",
+        "Tiwari"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Phoolwari\nPhoolwari( The Bower) is a 1946 Indian Bollywood film. It was the third highest grossing Indian film of 1946. The film was directed by Chaturbhuj Doshi for Ranjit Studios and is cited as one of the important films of actor Motilal. Music was composed by Hansraj Behl, while the lyricist was Pandit Indra. Motilal's co-stars in the film were Khursheed, Madhubala, Dixit, Nazira and Tiwari.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Phoolwari\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"India\", \"type\": \"GPE\"},\n    {\"name\": \"Chaturbhuj Doshi\", \"type\": \"PERSON\"},\n    {\"name\": \"Ranjit Studios\", \"type\": \"ORG\"},\n    {\"name\": \"Motilal\", \"type\": \"PERSON\"},\n    {\"name\": \"Hansraj Behl\", \"type\": \"PERSON\"},\n    {\"name\": \"Pandit Indra\", \"type\": \"PERSON\"},\n    {\"name\": \"Khursheed\", \"type\": \"PERSON\"},\n    {\"name\": \"Madhubala\", \"type\": \"PERSON\"},\n    {\"name\": \"Dixit\", \"type\": \"PERSON\"},\n    {\"name\": \"Nazira\", \"type\": \"PERSON\"},\n    {\"name\": \"Tiwari\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Phoolwari\",\n      \"relation\": \"located_in\",\n      \"object\": \"India\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Indian\"}\n      ]\n    },\n    {\n      \"subject\": \"Phoolwari\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Chaturbhuj Doshi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Chaturbhuj Doshi\",\n      \"relation\": \"works_for\",\n      \"object\": \"Ranjit Studios\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for\"}\n      ]\n    },\n    {\n      \"subject\": \"Phoolwari\",\n      \"relation\": \"works_for\",\n      \"object\": \"Ranjit Studios\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for Ranjit Studios\"}\n      ]\n    },\n    {\n      \"subject\": \"Phoolwari\",\n      \"relation\": \"featured\",\n      \"object\": \"Motilal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"actor Motilal\"}\n      ]\n    },\n    {\n      \"subject\": \"Phoolwari\",\n      \"relation\": \"music_composed_by\",\n      \"object\": \"Hansraj Behl\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"composed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Phoolwari\",\n      \"relation\": \"lyricist\",\n      \"object\": \"Pandit Indra\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was Pandit Indra\"}\n      ]\n    },\n    {\n      \"subject\": \"Motilal\",\n      \"relation\": \"co_star_with\",\n      \"object\": \"Khursheed\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-stars in the film were\"}\n      ]\n    },\n    {\n      \"subject\": \"Motilal\",\n      \"relation\": \"co_star_with\",\n      \"object\": \"Madhubala\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-stars in the film were\"}\n      ]\n    },\n    {\n      \"subject\": \"Motilal\",\n      \"relation\": \"co_star_with\",\n      \"object\": \"Dixit\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-stars in the film were\"}\n      ]\n    },\n    {\n      \"subject\": \"Motilal\",\n      \"relation\": \"co_star_with\",\n      \"object\": \"Nazira\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-stars in the film were\"}\n      ]\n    },\n    {\n      \"subject\": \"Motilal\",\n      \"relation\": \"co_star_with\",\n      \"object\": \"Tiwari\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-stars in the film were\"}\n      ]\n    }\n  ]\n}"
+}

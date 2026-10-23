@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "United States": "GPE",
+    "Forty-five states": "GPE",
+    "District of Columbia": "GPE",
+    "Puerto Rico": "GPE",
+    "Guam": "GPE",
+    "states": "ORG",
+    "local governments": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "sales tax",
+        "governed_at",
+        "state level"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Forty-five states",
+        "impose",
+        "general sales taxes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "District of Columbia",
+        "impose",
+        "general sales taxes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Puerto Rico",
+        "impose",
+        "general sales taxes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Guam",
+        "impose",
+        "general sales taxes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "states",
+        "may_levy",
+        "selective sales taxes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "States",
+        "delegate_to",
+        "local governments"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "local governments",
+        "impose",
+        "additional general or selective sales taxes"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sales taxes in the United States\nSales taxes in the United States are taxes placed on the sale or lease of goods and services in the United States. In the United States, sales tax is governed at the state level and no national general sales tax exists. Forty-five states, the District of Columbia, Puerto Rico, and Guam impose general sales taxes that apply to the sale or lease of most goods and some services, and states also may levy selective sales taxes on the sale or lease of particular goods or services. States may also delegate to local governments the authority to impose additional general or selective sales taxes.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Forty-five states\", \"type\": \"GPE\"},\n    {\"name\": \"District of Columbia\", \"type\": \"GPE\"},\n    {\"name\": \"Puerto Rico\", \"type\": \"GPE\"},\n    {\"name\": \"Guam\", \"type\": \"GPE\"},\n    {\"name\": \"states\", \"type\": \"ORG\"},\n    {\"name\": \"local governments\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"sales tax\",\n      \"relation\": \"governed_at\",\n      \"object\": \"state level\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is governed at the state level\"}\n      ]\n    },\n    {\n      \"subject\": \"Forty-five states\",\n      \"relation\": \"impose\",\n      \"object\": \"general sales taxes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"impose general sales taxes\"}\n      ]\n    },\n    {\n      \"subject\": \"District of Columbia\",\n      \"relation\": \"impose\",\n      \"object\": \"general sales taxes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"impose general sales taxes\"}\n      ]\n    },\n    {\n      \"subject\": \"Puerto Rico\",\n      \"relation\": \"impose\",\n      \"object\": \"general sales taxes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"impose general sales taxes\"}\n      ]\n    },\n    {\n      \"subject\": \"Guam\",\n      \"relation\": \"impose\",\n      \"object\": \"general sales taxes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"impose general sales taxes\"}\n      ]\n    },\n    {\n      \"subject\": \"states\",\n      \"relation\": \"may_levy\",\n      \"object\": \"selective sales taxes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"may levy selective sales taxes\"}\n      ]\n    },\n    {\n      \"subject\": \"States\",\n      \"relation\": \"delegate_to\",\n      \"object\": \"local governments\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"delegate to local governments\"}\n      ]\n    },\n    {\n      \"subject\": \"local governments\",\n      \"relation\": \"impose\",\n      \"object\": \"additional general or selective sales taxes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"impose additional general or selective sales taxes\"}\n      ]\n    }\n  ]\n}"
+}

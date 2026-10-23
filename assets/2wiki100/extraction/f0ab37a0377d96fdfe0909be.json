@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Guai ai vinti": "WORK_OF_ART",
+    "Raffaello Matarazzo": "PERSON",
+    "Vae Victis": "WORK_OF_ART",
+    "Annie Vivanti": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Guai ai vinti",
+      "relation": "directed_by",
+      "object": "Raffaello Matarazzo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Raffaello Matarazzo"
+        }
+      ]
+    },
+    {
+      "subject": "Vae Victis",
+      "relation": "written_by",
+      "object": "Annie Vivanti",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Annie Vivanti"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Guai ai vinti",
+        "based_on",
+        "Vae Victis"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Guai ai vinti\nGuai ai vinti (\"Woe to the Vanquished Ones\") is a 1954 Italian melodrama film directed by Raffaello Matarazzo. It is based on the novel \"Vae Victis\" by Annie Vivanti."
+}

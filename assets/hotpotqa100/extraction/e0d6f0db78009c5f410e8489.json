@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Donald Duck": "character",
+    "Walt Disney Productions": "company",
+    "Mickey Mouse": "character",
+    "TV Guide": "publication"
+  },
+  "triples": [
+    {
+      "subject": "Donald Duck",
+      "relation": "created_by",
+      "object": "Walt Disney Productions",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "created in 1934 at Walt Disney Productions"
+        }
+      ]
+    },
+    {
+      "subject": "Donald Duck",
+      "relation": "is_friends_with",
+      "object": "Mickey Mouse",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Along with his friend Mickey Mouse"
+        }
+      ]
+    },
+    {
+      "subject": "Donald Duck",
+      "relation": "included_in",
+      "object": "TV Guide",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "was included in TV Guide's list of the 50 greatest cartoon characters"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Donald Duck",
+        "is_a",
+        "character"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Donald Duck",
+        "is_famous_for",
+        "semi-intelligible speech"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Donald Duck",
+        "appeared_in_more_films_than",
+        "any other Disney character"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Donald Duck",
+        "is_most_published_character_in",
+        "the world outside of the superhero genre"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Donald Duck\nDonald Duck is a cartoon character created in 1934 at Walt Disney Productions. Donald is an anthropomorphic white duck with a yellow-orange bill, legs, and feet. He typically wears a sailor shirt and cap with a bow tie. Donald is most famous for his semi-intelligible speech and his mischievous and temperamental personality. Along with his friend Mickey Mouse, Donald is one of the most popular Disney characters and was included in TV Guide's list of the 50 greatest cartoon characters of all time in 2002. He has appeared in more films than any other Disney character, and is the most published comic book character in the world outside of the superhero genre."
+}

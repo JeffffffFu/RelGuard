@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Holden-Keating Gang": "ORG",
+    "Thomas James Holden": "PERSON",
+    "Francis Keating": "PERSON",
+    "Midwestern United States": "LOC",
+    "FBI": "ORG",
+    "Top Ten Most Wanted List": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Holden-Keating Gang",
+      "relation": "led_by",
+      "object": "Thomas James Holden",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "led by",
+          "line_start": 49,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "led by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Holden-Keating Gang",
+      "relation": "led_by",
+      "object": "Francis Keating",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "led by",
+          "line_start": 49,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "led by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Thomas James Holden",
+      "relation": "described_by",
+      "object": "FBI",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "described by",
+          "line_start": 216,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "described by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Thomas James Holden",
+      "relation": "listed_on",
+      "object": "Top Ten Most Wanted List",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "listed on",
+          "line_start": 352,
+          "char_start": 372,
+          "ambiguous": false,
+          "relation_mention": "listed on",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Holden-Keating Gang",
+        "active_in",
+        "Midwestern United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Holden-Keating Gang\nThe Holden-Keating Gang was a bank robbing team, led by Thomas James Holden (1896–1953) and Francis Keating (1899–July 25, 1978), which was active in the Midwestern United States during the 1925 and 1939. Holden was described by a spokesman for the FBI as \"a menace to every man, woman and child in America\" and was the first fugitive to be officially listed on the FBI's Top Ten Most Wanted List in 1950.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Holden-Keating Gang\", \"type\": \"ORG\"},\n    {\"name\": \"Thomas James Holden\", \"type\": \"PERSON\"},\n    {\"name\": \"Francis Keating\", \"type\": \"PERSON\"},\n    {\"name\": \"Midwestern United States\", \"type\": \"LOC\"},\n    {\"name\": \"FBI\", \"type\": \"ORG\"},\n    {\"name\": \"Top Ten Most Wanted List\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Holden-Keating Gang\",\n      \"relation\": \"led_by\",\n      \"object\": \"Thomas James Holden\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"led by\"}\n      ]\n    },\n    {\n      \"subject\": \"Holden-Keating Gang\",\n      \"relation\": \"led_by\",\n      \"object\": \"Francis Keating\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"led by\"}\n      ]\n    },\n    {\n      \"subject\": \"Holden-Keating Gang\",\n      \"relation\": \"active_in\",\n      \"object\": \"Midwestern United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"active in\"}\n      ]\n    },\n    {\n      \"subject\": \"Thomas James Holden\",\n      \"relation\": \"described_by\",\n      \"object\": \"FBI\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"described by\"}\n      ]\n    },\n    {\n      \"subject\": \"Thomas James Holden\",\n      \"relation\": \"listed_on\",\n      \"object\": \"Top Ten Most Wanted List\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"listed on\"}\n      ]\n    }\n  ]\n}"
+}

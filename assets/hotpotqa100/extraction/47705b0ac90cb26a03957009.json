@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "British Rail Class 87": "PRODUCT",
+    "British Rail Engineering Limited": "ORG",
+    "West Coast Main Line": "FAC",
+    "British Rail": "ORG",
+    "Virgin Trains": "ORG",
+    "Class 390": "PRODUCT",
+    "AC Locomotive Group": "ORG",
+    "86101": "PRODUCT",
+    "Bulgaria": "GPE",
+    "Serco": "ORG",
+    "Caledonian Sleeper": "PRODUCT",
+    "87002": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "British Rail Class 87",
+      "relation": "built_by",
+      "object": "British Rail Engineering Limited",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "built in 1973–75 by British Rail Engineering Limited"
+        }
+      ]
+    },
+    {
+      "subject": "British Rail Class 87",
+      "relation": "works_on",
+      "object": "West Coast Main Line",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "work passenger services over the West Coast Main Line (WCML)"
+        }
+      ]
+    },
+    {
+      "subject": "87002",
+      "relation": "owned_by",
+      "object": "AC Locomotive Group",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "87002, owned by the AC Locomotive Group"
+        }
+      ]
+    },
+    {
+      "subject": "87002",
+      "relation": "hired_by",
+      "object": "Serco",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "87002 is currently hired by Serco"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "British Rail",
+        "privatised_to",
+        "Virgin Trains"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "87002",
+        "used_for",
+        "Caledonian Sleeper"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "British Rail Class 87",
+        "exported_to",
+        "Bulgaria"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "British Rail Class 87\nThe British Rail Class 87 is a type of electric locomotive built in 1973–75 by British Rail Engineering Limited. Thirty-six of these locomotives were built to work passenger services over the West Coast Main Line (WCML). They were the flagships of British Rail's electric locomotive fleet until the late 1980s, when the Class 90s started to come on stream. The privatisation of British Rail saw all but one of the fleet transferred to Virgin Trains. They continued their duties until the advent of the new Class 390 \"Pendolinos\", when they were transferred to other operators or withdrawn. There is only one Class 87 still in use in Britain, 87002, owned by the AC Locomotive Group and solely used alongside 86101 for the occasional charter train. A large proportion of the fleet have now been exported to Bulgaria. 87002 is currently hired by Serco to work the empty coaching stock of the \"Caledonian Sleeper\" services."
+}

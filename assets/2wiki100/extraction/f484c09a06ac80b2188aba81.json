@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Coney Island Baby": "WORK_OF_ART",
+    "Amy Hobby": "PERSON",
+    "Karl Geary": "PERSON",
+    "Tanya Ryno": "PERSON",
+    "Ryan Shore": "PERSON",
+    "Sligo": "GPE",
+    "Ireland": "GPE",
+    "Newport International Film Festival": "EVENT",
+    "Sundance Channel": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Amy Hobby",
+      "relation": "directorial_debut_in",
+      "object": "Coney Island Baby",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made her directorial debut",
+          "line_start": 75,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "made her directorial debut",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Karl Geary",
+      "relation": "wrote",
+      "object": "Coney Island Baby",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "wrote the film",
+          "line_start": 114,
+          "char_start": 139,
+          "ambiguous": false,
+          "relation_mention": "wrote the film",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ryan Shore",
+      "relation": "composed_music_for",
+      "object": "Coney Island Baby",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "The music was composed by",
+          "line_start": 169,
+          "char_start": 194,
+          "ambiguous": false,
+          "relation_mention": "The music was composed by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tanya Ryno",
+        "produced",
+        "Coney Island Baby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coney Island Baby",
+        "shot_in",
+        "Sligo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sligo",
+        "located_in",
+        "Ireland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coney Island Baby",
+        "screened_at",
+        "Newport International Film Festival"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Amy Hobby",
+        "won_award",
+        "Jury Award for\" Best First Time Director\""
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Coney Island Baby",
+        "premiered_on",
+        "Sundance Channel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Coney Island Baby (film)\nConey Island Baby is a 2003 comedy- drama in which film producer Amy Hobby made her directorial debut. Karl Geary wrote the film and Tanya Ryno was the film's producer. The music was composed by Ryan Shore. The film was shot in Sligo, Ireland, which is known locally as\" Coney Island\". The film was screened at the Newport International Film Festival. Hobby won the Jury Award for\" Best First Time Director\". The film made its premiere television broadcast on the Sundance Channel.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Coney Island Baby\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Amy Hobby\", \"type\": \"PERSON\"},\n    {\"name\": \"Karl Geary\", \"type\": \"PERSON\"},\n    {\"name\": \"Tanya Ryno\", \"type\": \"PERSON\"},\n    {\"name\": \"Ryan Shore\", \"type\": \"PERSON\"},\n    {\"name\": \"Sligo\", \"type\": \"GPE\"},\n    {\"name\": \"Ireland\", \"type\": \"GPE\"},\n    {\"name\": \"Newport International Film Festival\", \"type\": \"EVENT\"},\n    {\"name\": \"Sundance Channel\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Amy Hobby\",\n      \"relation\": \"directorial_debut_in\",\n      \"object\": \"Coney Island Baby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made her directorial debut\"}\n      ]\n    },\n    {\n      \"subject\": \"Karl Geary\",\n      \"relation\": \"wrote\",\n      \"object\": \"Coney Island Baby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"wrote the film\"}\n      ]\n    },\n    {\n      \"subject\": \"Tanya Ryno\",\n      \"relation\": \"produced\",\n      \"object\": \"Coney Island Baby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the film's producer\"}\n      ]\n    },\n    {\n      \"subject\": \"Ryan Shore\",\n      \"relation\": \"composed_music_for\",\n      \"object\": \"Coney Island Baby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The music was composed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Coney Island Baby\",\n      \"relation\": \"shot_in\",\n      \"object\": \"Sligo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was shot in Sligo\"}\n      ]\n    },\n    {\n      \"subject\": \"Sligo\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ireland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Sligo, Ireland\"}\n      ]\n    },\n    {\n      \"subject\": \"Coney Island Baby\",\n      \"relation\": \"screened_at\",\n      \"object\": \"Newport International Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was screened at the Newport International Film Festival\"}\n      ]\n    },\n    {\n      \"subject\": \"Amy Hobby\",\n      \"relation\": \"won_award\",\n      \"object\": \"Jury Award for\\\" Best First Time Director\\\"\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won the Jury Award for\\\" Best First Time Director\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Coney Island Baby\",\n      \"relation\": \"premiered_on\",\n      \"object\": \"Sundance Channel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made its premiere television broadcast on the Sundance Channel\"}\n      ]\n    }\n  ]\n}"
+}

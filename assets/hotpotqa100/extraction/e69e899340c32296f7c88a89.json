@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Vegepet": "PRODUCT",
+    "Harbingers of a New Age": "ORG",
+    "Troy": "GPE",
+    "Montana": "GPE",
+    "United States": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Harbingers of a New Age",
+      "relation": "located_in",
+      "object": "Troy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 85,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Troy",
+      "relation": "located_in",
+      "object": "Montana",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 85,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Montana",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 85,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vegepet",
+        "works_for",
+        "Harbingers of a New Age"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Vegepet\nVegepet is the brand of a line of vegan dog and cat food by Harbingers of a New Age, based in Troy, Montana, United States."
+}

@@ -1,0 +1,154 @@
+{
+  "entities": {
+    "KWXL-LP": "ORG",
+    "Tucson": "GPE",
+    "Arizona": "GPE",
+    "United States": "GPE",
+    "Tucson Unified School District": "ORG",
+    "Pueblo High Magnet School": "ORG",
+    "Sarah Walson": "PERSON",
+    "Douglas Potter": "PERSON",
+    "iTunes": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "KWXL-LP",
+      "relation": "located_in",
+      "object": "Tucson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Licensed to",
+          "line_start": 80,
+          "char_start": 88,
+          "ambiguous": false,
+          "relation_mention": "Licensed to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tucson",
+      "relation": "located_in",
+      "object": "Arizona",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Tucson, Arizona",
+          "line_start": 92,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "Tucson, Arizona",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Arizona",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Arizona, United States",
+          "line_start": 100,
+          "char_start": 108,
+          "ambiguous": false,
+          "relation_mention": "Arizona, United States",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "KWXL-LP",
+      "relation": "works_for",
+      "object": "Tucson Unified School District",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is currently owned by",
+          "line_start": 172,
+          "char_start": 180,
+          "ambiguous": false,
+          "relation_mention": "is currently owned by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "KWXL-LP",
+      "relation": "works_for",
+      "object": "Pueblo High Magnet School",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is also a news radio station for",
+          "line_start": 285,
+          "char_start": 293,
+          "ambiguous": false,
+          "relation_mention": "is also a news radio station for",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Douglas Potter",
+      "relation": "founded",
+      "object": "KWXL-LP",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "started by",
+          "line_start": 512,
+          "char_start": 520,
+          "ambiguous": false,
+          "relation_mention": "started by",
+          "sentence_id": 7
+        }
+      ]
+    },
+    {
+      "subject": "KWXL-LP",
+      "relation": "located_in",
+      "object": "iTunes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "find FM 98.7, KWXL on",
+          "line_start": 579,
+          "char_start": 587,
+          "ambiguous": false,
+          "relation_mention": "find FM 98.7, KWXL on",
+          "sentence_id": 8
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Students broadcasting over the radio station",
+        "works_for",
+        "KWXL-LP"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Students broadcasting over the radio station",
+        "works_for",
+        "Pueblo High Magnet School"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Students broadcasting over the radio station",
+        "works_for",
+        "Sarah Walson"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "KWXL-LP\nKWXL-LP (98.7 FM) is a high school radio station broadcasting a variety format. Licensed to Tucson, Arizona, United States, the station serves the Tucson area. The station is currently owned by the Tucson Unified School District. KWXL-LP is Tucson's only high school radio station. It is also a news radio station for students who attend Pueblo High Magnet School. Students broadcasting over the radio station are enrolled in a \"Writing/Reporting for Broadcasting\" class with instructor Sarah Walson. Originally started by Douglas Potter, who retired in 2006. Listeners can also find FM 98.7, KWXL on iTunes."
+}

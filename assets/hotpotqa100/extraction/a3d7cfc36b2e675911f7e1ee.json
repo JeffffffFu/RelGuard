@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Inner Mongolia Medical University": "ORG",
+    "Inner Mongolia": "GPE",
+    "China": "GPE",
+    "Autonomous Region government": "ORG",
+    "Hohhot": "GPE",
+    "Inner Mongolia Autonomous Region": "GPE",
+    "Inner Mongolia Medical College": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Inner Mongolia Medical University",
+        "located_in",
+        "Inner Mongolia"
+      ],
+      "why": "2 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia Medical University",
+        "located_in",
+        "China"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia Medical University",
+        "works_for",
+        "Autonomous Region government"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia Medical University",
+        "located_in",
+        "Hohhot"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hohhot",
+        "located_in",
+        "Inner Mongolia Autonomous Region"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inner Mongolia Medical University",
+        "founded",
+        "Inner Mongolia Medical College"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Inner Mongolia Medical University\nInner Mongolia Medical University (内蒙古医科大学) is a university in Inner Mongolia, China under the authority of the Autonomous Region government. It is located in Hohhot, the capital city of Inner Mongolia Autonomous Region. It was renamed from Inner Mongolia Medical College in 2012.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Inner Mongolia Medical University\", \"type\": \"ORG\"},\n    {\"name\": \"Inner Mongolia\", \"type\": \"GPE\"},\n    {\"name\": \"China\", \"type\": \"GPE\"},\n    {\"name\": \"Autonomous Region government\", \"type\": \"ORG\"},\n    {\"name\": \"Hohhot\", \"type\": \"GPE\"},\n    {\"name\": \"Inner Mongolia Autonomous Region\", \"type\": \"GPE\"},\n    {\"name\": \"Inner Mongolia Medical College\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Inner Mongolia Medical University\",\n      \"relation\": \"located_in\",\n      \"object\": \"Inner Mongolia\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Inner Mongolia Medical University\"},\n        {\"line\": 2, \"predicate\": \"in Inner Mongolia, China\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia Medical University\",\n      \"relation\": \"located_in\",\n      \"object\": \"China\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Inner Mongolia, China\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia Medical University\",\n      \"relation\": \"works_for\",\n      \"object\": \"Autonomous Region government\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"under the authority of the Autonomous Region government\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia Medical University\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hohhot\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Hohhot\"}\n      ]\n    },\n    {\n      \"subject\": \"Hohhot\",\n      \"relation\": \"located_in\",\n      \"object\": \"Inner Mongolia Autonomous Region\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the capital city of Inner Mongolia Autonomous Region\"}\n      ]\n    },\n    {\n      \"subject\": \"Inner Mongolia Medical University\",\n      \"relation\": \"founded\",\n      \"object\": \"Inner Mongolia Medical College\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"renamed from Inner Mongolia Medical College\"}\n      ]\n    }\n  ]\n}"
+}

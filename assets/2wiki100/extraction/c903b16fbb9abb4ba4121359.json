@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Claire's Knee": "WORK_OF_ART",
+    "Éric Rohmer": "PERSON",
+    "Six Moral Tales": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Claire's Knee",
+      "relation": "directed_by",
+      "object": "Éric Rohmer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Éric Rohmer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "France (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Claire's Knee",
+        "part_of_series",
+        "Six Moral Tales"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Claire's Knee",
+        "set_in",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Claire's Knee\nClaire's Knee is a 1970 French drama film directed by Éric Rohmer. It is the fifth movie in the series of the\" Six Moral Tales\"."
+}

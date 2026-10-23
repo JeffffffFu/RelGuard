@@ -1,0 +1,133 @@
+{
+  "entities": {
+    "Louisiana Tech Bulldogs football team": "ORG",
+    "Louisiana Tech University": "ORG",
+    "NCAA Division I FBS": "ORG",
+    "Western Athletic Conference": "ORG",
+    "Joe Aillet Stadium": "FAC",
+    "Ruston": "GPE",
+    "Louisiana": "GPE",
+    "Derek Dooley": "PERSON",
+    "Mississippi State": "ORG",
+    "Independence Bowl": "EVENT",
+    "Northern Illinois": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Louisiana Tech Bulldogs football team",
+      "relation": "represented",
+      "object": "Louisiana Tech University",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "represented",
+          "line_start": 47,
+          "char_start": 90,
+          "ambiguous": false,
+          "relation_mention": "represented",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Louisiana Tech Bulldogs football team",
+      "relation": "competed_in",
+      "object": "NCAA Division I FBS",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "competed in",
+          "line_start": 149,
+          "char_start": 192,
+          "ambiguous": false,
+          "relation_mention": "competed in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Louisiana Tech Bulldogs football team",
+      "relation": "played_home_games_at",
+      "object": "Joe Aillet Stadium",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played their home games at",
+          "line_start": 202,
+          "char_start": 245,
+          "ambiguous": false,
+          "relation_mention": "played their home games at",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Louisiana Tech Bulldogs football team",
+      "relation": "coached_by",
+      "object": "Derek Dooley",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "coached by",
+          "line_start": 283,
+          "char_start": 326,
+          "ambiguous": false,
+          "relation_mention": "coached by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Louisiana Tech Bulldogs football team",
+        "competed_in",
+        "Western Athletic Conference"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Joe Aillet Stadium",
+        "located_in",
+        "Ruston"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ruston",
+        "located_in",
+        "Louisiana"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Louisiana Tech Bulldogs football team",
+        "kicked_off_with_victory_over",
+        "Mississippi State"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Louisiana Tech Bulldogs football team",
+        "capped_off_year_with_victory_over",
+        "Northern Illinois"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Independence Bowl",
+        "involved_team",
+        "Northern Illinois"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "2008 Louisiana Tech Bulldogs football team\nThe 2008 Louisiana Tech Bulldogs football team represented Louisiana Tech University in the 2008 NCAA Division I FBS football season. Louisiana Tech competed in the Western Athletic Conference (WAC)and played their home games at Joe Aillet Stadium in Ruston, Louisiana. The team was coached by Derek Dooley, who was in his second year with the program. Dooley's Dawgs entered the season after finishing 5–7 (4–4 WAC) in 2007. LA Tech kicked off the season with a victory over Mississippi State, finished tied for second place in the WAC, and capped off the year with an Independence Bowl victory over Northern Illinois.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Louisiana Tech Bulldogs football team\", \"type\": \"ORG\"},\n    {\"name\": \"Louisiana Tech University\", \"type\": \"ORG\"},\n    {\"name\": \"NCAA Division I FBS\", \"type\": \"ORG\"},\n    {\"name\": \"Western Athletic Conference\", \"type\": \"ORG\"},\n    {\"name\": \"Joe Aillet Stadium\", \"type\": \"FAC\"},\n    {\"name\": \"Ruston\", \"type\": \"GPE\"},\n    {\"name\": \"Louisiana\", \"type\": \"GPE\"},\n    {\"name\": \"Derek Dooley\", \"type\": \"PERSON\"},\n    {\"name\": \"Mississippi State\", \"type\": \"ORG\"},\n    {\"name\": \"Independence Bowl\", \"type\": \"EVENT\"},\n    {\"name\": \"Northern Illinois\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Louisiana Tech Bulldogs football team\",\n      \"relation\": \"represented\",\n      \"object\": \"Louisiana Tech University\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"represented\"}\n      ]\n    },\n    {\n      \"subject\": \"Louisiana Tech Bulldogs football team\",\n      \"relation\": \"competed_in\",\n      \"object\": \"NCAA Division I FBS\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"competed in\"}\n      ]\n    },\n    {\n      \"subject\": \"Louisiana Tech Bulldogs football team\",\n      \"relation\": \"competed_in\",\n      \"object\": \"Western Athletic Conference\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"competed in the Western Athletic Conference (WAC)and played\"}\n      ]\n    },\n    {\n      \"subject\": \"Louisiana Tech Bulldogs football team\",\n      \"relation\": \"played_home_games_at\",\n      \"object\": \"Joe Aillet Stadium\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played their home games at\"}\n      ]\n    },\n    {\n      \"subject\": \"Joe Aillet Stadium\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ruston\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Ruston\"}\n      ]\n    },\n    {\n      \"subject\": \"Ruston\",\n      \"relation\": \"located_in\",\n      \"object\": \"Louisiana\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Ruston, Louisiana\"}\n      ]\n    },\n    {\n      \"subject\": \"Louisiana Tech Bulldogs football team\",\n      \"relation\": \"coached_by\",\n      \"object\": \"Derek Dooley\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"coached by\"}\n      ]\n    },\n    {\n      \"subject\": \"Louisiana Tech Bulldogs football team\",\n      \"relation\": \"kicked_off_with_victory_over\",\n      \"object\": \"Mississippi State\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"kicked off the season with a victory over\"}\n      ]\n    },\n    {\n      \"subject\": \"Louisiana Tech Bulldogs football team\",\n      \"relation\": \"capped_off_year_with_victory_over\",\n      \"object\": \"Northern Illinois\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"capped off the year with an Independence Bowl victory over\"}\n      ]\n    },\n    {\n      \"subject\": \"Independence Bowl\",\n      \"relation\": \"involved_team\",\n      \"object\": \"Northern Illinois\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Independence Bowl victory over Northern Illinois\"}\n      ]\n    }\n  ]\n}"
+}

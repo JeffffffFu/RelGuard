@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Yamata": "WORK_OF_ART",
+    "Alexander Korda": "PERSON",
+    "Emil Fenyvessy": "PERSON",
+    "Ila Lóth": "PERSON",
+    "Gábor Rajnay": "PERSON",
+    "Hungarian": "NORP",
+    "Hungarian Soviet Republic": "ORG",
+    "Hungary": "GPE",
+    "White Terror": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Yamata",
+      "relation": "directed_by",
+      "object": "Alexander Korda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Alexander Korda"
+        }
+      ]
+    },
+    {
+      "subject": "Yamata",
+      "relation": "starring",
+      "object": "Emil Fenyvessy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Emil Fenyvessy"
+        }
+      ]
+    },
+    {
+      "subject": "Hungarian Soviet Republic",
+      "relation": "concerns",
+      "object": "Yamata",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "during the Hungarian Soviet Republic, and concerns a black slave's revolt against his master"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "arrested_during",
+      "object": "White Terror",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "led to Korda's arrest once the Soviet Republic collapsed and he fled Hungary in 1919 during the White Terror"
+        }
+      ]
+    },
+    {
+      "subject": "Alexander Korda",
+      "relation": "fled",
+      "object": "Hungary",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "he fled Hungary in 1919 during the White Terror"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Yamata",
+        "starring",
+        "Ila Lóth"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Yamata",
+        "starring",
+        "Gábor Rajnay"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Yamata",
+        "produced_for",
+        "Hungarian film industry"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Yamata\nYamata is a 1919 Hungarian silent drama film directed by Alexander Korda and starring Emil Fenyvessy, Ila Lóth and Gábor Rajnay. The film was made for the state-owned Hungarian film industry during the Hungarian Soviet Republic, and concerns a black slave's revolt against his master. The film's apparent political leftism, along with that of \"Ave Caesar!\" (1919), led to Korda's arrest once the Soviet Republic collapsed and he fled Hungary in 1919 during the White Terror."
+}

@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "South Korea 2022 FIFA World Cup bid": "EVENT",
+    "Korea Football Association": "ORG",
+    "KFA": "ORG",
+    "Korea": "GPE",
+    "World Cup Finals": "EVENT",
+    "2002 FIFA World Cup": "EVENT",
+    "Japan": "GPE",
+    "Han Sung-joo": "PERSON",
+    "bid committee": "ORG",
+    "North Korea": "GPE",
+    "South Korea": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Korea",
+      "relation": "would_have_hosted",
+      "object": "World Cup Finals",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "would have been hosting",
+          "line_start": 144,
+          "char_start": 180,
+          "ambiguous": false,
+          "relation_mention": "would have been hosting",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Han Sung-joo",
+      "relation": "hoped_to_involve",
+      "object": "North Korea",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "hoped to involve",
+          "line_start": 383,
+          "char_start": 419,
+          "ambiguous": false,
+          "relation_mention": "hoped to involve",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "South Korea 2022 FIFA World Cup bid",
+        "was_official_bid_from",
+        "Korea Football Association"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KFA",
+        "alias_of",
+        "Korea Football Association"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Korea",
+        "shared_hosting_with",
+        "Japan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "2002 FIFA World Cup",
+        "was_shared_with",
+        "Japan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Han Sung-joo",
+        "was_chairman_of",
+        "bid committee"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "bid committee",
+        "was_of",
+        "South Korea 2022 FIFA World Cup bid"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "North Korea",
+        "would_be_involved_if",
+        "South Korea"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "South Korea 2022 FIFA World Cup bid\nThe Korea 2022 FIFA World Cup bid was the second official bid from the Korea Football Association or the KFA. If this bid was successful, Korea would have been hosting their second World Cup Finals and it would have been their first solo hosting since they shared the 2002 FIFA World Cup with other co-host Japan. Despite recent tensions, Han Sung-joo, chairman of the bid committee hoped to involve North Korea if South Korea received the bid.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"South Korea 2022 FIFA World Cup bid\", \"type\": \"EVENT\"},\n    {\"name\": \"Korea Football Association\", \"type\": \"ORG\"},\n    {\"name\": \"KFA\", \"type\": \"ORG\"},\n    {\"name\": \"Korea\", \"type\": \"GPE\"},\n    {\"name\": \"World Cup Finals\", \"type\": \"EVENT\"},\n    {\"name\": \"2002 FIFA World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"Japan\", \"type\": \"GPE\"},\n    {\"name\": \"Han Sung-joo\", \"type\": \"PERSON\"},\n    {\"name\": \"bid committee\", \"type\": \"ORG\"},\n    {\"name\": \"North Korea\", \"type\": \"GPE\"},\n    {\"name\": \"South Korea\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"South Korea 2022 FIFA World Cup bid\",\n      \"relation\": \"was_official_bid_from\",\n      \"object\": \"Korea Football Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the second official bid from\"}\n      ]\n    },\n    {\n      \"subject\": \"KFA\",\n      \"relation\": \"alias_of\",\n      \"object\": \"Korea Football Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"or the KFA\"}\n      ]\n    },\n    {\n      \"subject\": \"Korea\",\n      \"relation\": \"would_have_hosted\",\n      \"object\": \"World Cup Finals\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"would have been hosting\"}\n      ]\n    },\n    {\n      \"subject\": \"Korea\",\n      \"relation\": \"shared_hosting_with\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"shared the 2002 FIFA World Cup with\"}\n      ]\n    },\n    {\n      \"subject\": \"2002 FIFA World Cup\",\n      \"relation\": \"was_shared_with\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"shared the 2002 FIFA World Cup with\"}\n      ]\n    },\n    {\n      \"subject\": \"Han Sung-joo\",\n      \"relation\": \"was_chairman_of\",\n      \"object\": \"bid committee\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"chairman of the bid committee\"}\n      ]\n    },\n    {\n      \"subject\": \"Han Sung-joo\",\n      \"relation\": \"hoped_to_involve\",\n      \"object\": \"North Korea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"hoped to involve\"}\n      ]\n    },\n    {\n      \"subject\": \"bid committee\",\n      \"relation\": \"was_of\",\n      \"object\": \"South Korea 2022 FIFA World Cup bid\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the bid committee\"}\n      ]\n    },\n    {\n      \"subject\": \"North Korea\",\n      \"relation\": \"would_be_involved_if\",\n      \"object\": \"South Korea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"if South Korea received the bid\"}\n      ]\n    }\n  ]\n}"
+}

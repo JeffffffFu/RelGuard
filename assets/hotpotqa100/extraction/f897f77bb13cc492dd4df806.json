@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Brian Billick": "Person",
+    "Baltimore Ravens": "Team",
+    "New York Giants": "Team",
+    "Super Bowl XXXV": "Event",
+    "Minnesota Vikings": "Team"
+  },
+  "triples": [
+    {
+      "subject": "Brian Billick",
+      "relation": "coached",
+      "object": "Baltimore Ravens",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "head coach of the Baltimore Ravens"
+        }
+      ]
+    },
+    {
+      "subject": "Brian Billick",
+      "relation": "led_to_victory",
+      "object": "New York Giants",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "led the Ravens to a 34–7 victory over the New York Giants"
+        }
+      ]
+    },
+    {
+      "subject": "Baltimore Ravens",
+      "relation": "participated_in",
+      "object": "Super Bowl XXXV",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the franchise's first Super Bowl appearance"
+        }
+      ]
+    },
+    {
+      "subject": "Brian Billick",
+      "relation": "was_offensive_coordinator_for",
+      "object": "Minnesota Vikings",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "offensive coordinator for the Minnesota Vikings"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Minnesota Vikings",
+        "broke_scoring_record_in",
+        "1998 season"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Brian Billick\nBrian Harold Billick (born February 28, 1954) is a former National Football League coach and commentator. Billick spent nine seasons as head coach of the Baltimore Ravens from January 19, 1999 to December 31, 2007; he led the Ravens to a 34–7 victory over the New York Giants in Super Bowl XXXV, the franchise's first Super Bowl appearance. He was also the offensive coordinator for the Minnesota Vikings (1994–1998) when they broke the scoring record in the 1998 season."
+}

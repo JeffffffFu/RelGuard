@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Schenectady County": "GPE",
+    "New York": "GPE",
+    "Schenectady": "GPE",
+    "Mohawk": "NORP",
+    "Albany": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Schenectady County",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 35,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Schenectady County",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Schenectady",
+        "works_for",
+        "Schenectady County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Schenectady County",
+        "name_from",
+        "Mohawk"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mohawk",
+        "applied_to",
+        "Albany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Schenectady County, New York\nSchenectady County ( ) is a county located in the U.S. state of New York. As of the 2010 census, the population was 154,727. The county seat is Schenectady. The name is from a Mohawk language word meaning \"on the other side of the pine lands,\" a term that originally applied to Albany.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Schenectady County\", \"type\": \"GPE\"},\n    {\"name\": \"New York\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Schenectady\", \"type\": \"GPE\"},\n    {\"name\": \"Mohawk\", \"type\": \"NORP\"},\n    {\"name\": \"Albany\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Schenectady County\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady County\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in the U.S. state of\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady\",\n      \"relation\": \"works_for\",\n      \"object\": \"Schenectady County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"The county seat is\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady County\",\n      \"relation\": \"name_from\",\n      \"object\": \"Mohawk\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is from a Mohawk language word\"}\n      ]\n    },\n    {\n      \"subject\": \"Mohawk\",\n      \"relation\": \"applied_to\",\n      \"object\": \"Albany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"applied to Albany\"}\n      ]\n    }\n  ]\n}"
+}

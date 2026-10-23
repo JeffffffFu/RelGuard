@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Through Fire and Water": "Film",
+    "Thomas Bentley": "Person",
+    "Clive Brook": "Person",
+    "Flora le Breton": "Person",
+    "Lawford Davidson": "Person",
+    "Greensea Island": "Novel",
+    "Victor Bridges": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Through Fire and Water",
+      "relation": "directed_by",
+      "object": "Thomas Bentley",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Thomas Bentley"
+        }
+      ]
+    },
+    {
+      "subject": "Through Fire and Water",
+      "relation": "starring",
+      "object": "Clive Brook",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Clive Brook"
+        }
+      ]
+    },
+    {
+      "subject": "Greensea Island",
+      "relation": "written_by",
+      "object": "Victor Bridges",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Victor Bridges"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Through Fire and Water",
+        "starring",
+        "Flora le Breton"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Through Fire and Water",
+        "starring",
+        "Lawford Davidson"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Through Fire and Water",
+        "based_on",
+        "Greensea Island"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Through Fire and Water\nThrough Fire and Water is a 1923 British silent adventure film directed by Thomas Bentley and starring Clive Brook, Flora le Breton and Lawford Davidson. It was based on the novel\" Greensea Island\" by Victor Bridges."
+}

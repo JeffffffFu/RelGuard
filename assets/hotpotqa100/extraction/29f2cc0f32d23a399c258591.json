@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Honda S660": "PRODUCT",
+    "Kei": "NORP",
+    "Honda": "ORG",
+    "CVT": "PRODUCT",
+    "Tokyo Motor Show": "EVENT",
+    "Honda Beat": "PRODUCT",
+    "Honda S500": "PRODUCT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Japan (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Honda S660",
+        "located_in",
+        "Kei"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Honda S660",
+        "manufactured_by",
+        "Honda"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Honda",
+        "located_in",
+        "Japan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Honda S660",
+        "weighs_with",
+        "CVT"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Honda S660",
+        "shown_at",
+        "Tokyo Motor Show"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Honda S660",
+        "successor_of",
+        "Honda Beat"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Honda S660",
+        "naming_convention_related_to",
+        "Honda S500"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Honda S660\nThe Honda S660 is a two-seat sports car which fits in the very small Kei car category. It is manufactured by the Japanese manufacturer Honda. The car weighs approx 830kg with manual transmission and 850kg with CVT auto. A prototype was shown at the November 2013 Tokyo Motor Show, the major Japanese auto show event. It is the successor to the Honda Beat. The naming convention of using the letter \"S\" followed by the engine displacement is a long held Honda tradition going back to Honda's first production car, the Honda S500.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Honda S660\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Kei\", \"type\": \"NORP\"},\n    {\"name\": \"Honda\", \"type\": \"ORG\"},\n    {\"name\": \"Japan\", \"type\": \"GPE\"},\n    {\"name\": \"CVT\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Tokyo Motor Show\", \"type\": \"EVENT\"},\n    {\"name\": \"Honda Beat\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Honda S500\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Honda S660\",\n      \"relation\": \"located_in\",\n      \"object\": \"Kei\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"fits in the very small Kei car category\"}\n      ]\n    },\n    {\n      \"subject\": \"Honda S660\",\n      \"relation\": \"manufactured_by\",\n      \"object\": \"Honda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is manufactured by the Japanese manufacturer Honda\"}\n      ]\n    },\n    {\n      \"subject\": \"Honda\",\n      \"relation\": \"located_in\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Japanese manufacturer Honda\"}\n      ]\n    },\n    {\n      \"subject\": \"Honda S660\",\n      \"relation\": \"weighs_with\",\n      \"object\": \"CVT\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"850kg with CVT auto\"}\n      ]\n    },\n    {\n      \"subject\": \"Honda S660\",\n      \"relation\": \"shown_at\",\n      \"object\": \"Tokyo Motor Show\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"shown at the November 2013 Tokyo Motor Show\"}\n      ]\n    },\n    {\n      \"subject\": \"Honda S660\",\n      \"relation\": \"successor_of\",\n      \"object\": \"Honda Beat\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"It is the successor to the Honda Beat\"}\n      ]\n    },\n    {\n      \"subject\": \"Honda S660\",\n      \"relation\": \"naming_convention_related_to\",\n      \"object\": \"Honda S500\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"going back to Honda's first production car, the Honda S500\"}\n      ]\n    }\n  ]\n}"
+}

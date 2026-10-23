@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "Apasionadamente": "WORK_OF_ART",
+    "Luis César Amadori": "PERSON",
+    "Enrique Vico Carré": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Apasionadamente",
+      "relation": "directed_by",
+      "object": "Luis César Amadori",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Luis César Amadori"
+        }
+      ]
+    },
+    {
+      "subject": "Apasionadamente",
+      "relation": "written_by",
+      "object": "Enrique Vico Carré",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Enrique Vico Carré"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Argentina (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Apasionadamente",
+        "located_in",
+        "Argentina"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Apasionadamente\nApasionadamente( English language:Passionately) is a 1944 Argentine romantic comedy film directed by Luis César Amadori and written by Enrique Vico Carré."
+}

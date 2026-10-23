@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Scott Lewis Young": "PERSON",
+    "Philadelphia Eagles": "ORG",
+    "2005 NFL Draft": "EVENT",
+    "Brigham Young": "ORG",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Scott Lewis Young",
+      "relation": "works_for",
+      "object": "Philadelphia Eagles",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "drafted by",
+          "line_start": 84,
+          "char_start": 116,
+          "ambiguous": false,
+          "relation_mention": "drafted by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Scott Lewis Young",
+      "relation": "played_for",
+      "object": "Brigham Young",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played college football at",
+          "line_start": 164,
+          "char_start": 196,
+          "ambiguous": false,
+          "relation_mention": "played college football at",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Scott Lewis Young",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Scott Lewis Young",
+        "participated_in",
+        "2005 NFL Draft"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Scott Young (American football)\nScott Lewis Young (born July 15, 1981) is a retired American football guard. He was drafted by the Philadelphia Eagles in the fifth round of the 2005 NFL Draft. He played college football at Brigham Young.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Scott Lewis Young\", \"type\": \"PERSON\"},\n    {\"name\": \"Philadelphia Eagles\", \"type\": \"ORG\"},\n    {\"name\": \"2005 NFL Draft\", \"type\": \"EVENT\"},\n    {\"name\": \"Brigham Young\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Scott Lewis Young\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    },\n    {\n      \"subject\": \"Scott Lewis Young\",\n      \"relation\": \"works_for\",\n      \"object\": \"Philadelphia Eagles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"drafted by\"}\n      ]\n    },\n    {\n      \"subject\": \"Scott Lewis Young\",\n      \"relation\": \"participated_in\",\n      \"object\": \"2005 NFL Draft\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the 2005 NFL Draft\"}\n      ]\n    },\n    {\n      \"subject\": \"Scott Lewis Young\",\n      \"relation\": \"played_for\",\n      \"object\": \"Brigham Young\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played college football at\"}\n      ]\n    }\n  ]\n}"
+}

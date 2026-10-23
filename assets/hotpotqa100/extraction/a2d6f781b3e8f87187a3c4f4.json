@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Bachelor of Veterinary Science": "WORK_OF_ART",
+    "United Kingdom": "GPE",
+    "American Veterinary Medical Association": "ORG",
+    "North American Veterinary Licensing Examination": "EVENT",
+    "US": "GPE",
+    "Canada": "GPE",
+    "DVM/VMD degrees": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Bachelor of Veterinary Science",
+      "relation": "located_in",
+      "object": "United Kingdom",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the United Kingdom and some other countries"
+        }
+      ]
+    },
+    {
+      "subject": "Bachelor of Veterinary Science",
+      "relation": "accredited_by",
+      "object": "American Veterinary Medical Association",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "if the degree is conferred from an American Veterinary Medical Association (AVMA) accredited school"
+        }
+      ]
+    },
+    {
+      "subject": "Bachelor of Veterinary Science",
+      "relation": "passes",
+      "object": "North American Veterinary Licensing Examination",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the candidate passes the North American Veterinary Licensing Examination (NAVLE)"
+        }
+      ]
+    },
+    {
+      "subject": "Bachelor of Veterinary Science",
+      "relation": "equivalent_to",
+      "object": "DVM/VMD degrees",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "They are the UK's equivalent to DVM/VMD degrees"
+        }
+      ]
+    },
+    {
+      "subject": "Bachelor of Veterinary Science",
+      "relation": "located_in",
+      "object": "US",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the US"
+        }
+      ]
+    },
+    {
+      "subject": "Bachelor of Veterinary Science",
+      "relation": "located_in",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "any other US and Canada graduate"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bachelor of Veterinary Science",
+        "qualified_to_practice_as",
+        "veterinarian"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bachelor of Veterinary Science\nThe Bachelor of Veterinary Science (BVSc or BVSC; Latin Baccalaureus Veterinariae Scientiae),\"Bachelor of Veterinary Medicine\" (BVetMed), or \"Bachelor of Veterinary Medicine and Surgery\" (\"BVM&S\" or \"BVMS\") is a degree for studies in veterinary medicine in the United Kingdom and some other countries. These degrees qualify one to practice as a veterinarian in the US if the degree is conferred from an American Veterinary Medical Association (AVMA) accredited school and the candidate passes the North American Veterinary Licensing Examination (NAVLE), just as any other US and Canada graduate. They are the UK's equivalent to DVM/VMD degrees; the main equalizer being licensure in the US."
+}

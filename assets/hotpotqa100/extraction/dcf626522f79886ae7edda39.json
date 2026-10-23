@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Bapi": "Person",
+    "Tutul": "Person",
+    "Bapi–Tutul": "Group",
+    "Sarkar": "Film",
+    "Sarkar Raj": "Film",
+    "Khosla Ka Ghosla": "Film",
+    "Chal Pichchur Banate Hain": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Bapi–Tutul",
+      "relation": "consists_of",
+      "object": "Bapi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bapi Tutul are a Hindi film composer duo consisting of Bapi and his younger brother Tutul."
+        }
+      ]
+    },
+    {
+      "subject": "Bapi–Tutul",
+      "relation": "consists_of",
+      "object": "Tutul",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bapi Tutul are a Hindi film composer duo consisting of Bapi and his younger brother Tutul."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bapi–Tutul",
+        "composed_for",
+        "Sarkar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bapi–Tutul",
+        "composed_for",
+        "Sarkar Raj"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bapi–Tutul",
+        "composed_for",
+        "Khosla Ka Ghosla"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bapi–Tutul",
+        "composed_for",
+        "Chal Pichchur Banate Hain"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Bapi–Tutul\nBapi Tutul are a Hindi film composer duo consisting of Bapi and his younger brother Tutul. They have written the scores for films such as \"Sarkar \"Sarkar Raj\", \"Khosla Ka Ghosla\", \"and\" \"Chal Pichchur Banate Hain\"."
+}

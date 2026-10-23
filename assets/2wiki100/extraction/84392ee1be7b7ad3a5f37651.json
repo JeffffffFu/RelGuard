@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Richard Boleslawski": "PERSON",
+    "Richard Boleslavsky": "PERSON",
+    "theatre": "WORK_OF_ART",
+    "film": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Poland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Richard Boleslavsky",
+        "also_named",
+        "Richard Boleslawski"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Richard Boleslavsky",
+        "was_a",
+        "Poland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Richard Boleslavsky",
+        "directed",
+        "theatre"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Richard Boleslavsky",
+        "directed",
+        "film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Richard Boleslawski\nRichard Boleslavsky or Richard Boleslawski (February 4, 1889 – January 17, 1937) was a Polish theatre and film director, actor and teacher of acting.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Richard Boleslawski\", \"type\": \"PERSON\"},\n    {\"name\": \"Richard Boleslavsky\", \"type\": \"PERSON\"},\n    {\"name\": \"Poland\", \"type\": \"GPE\"},\n    {\"name\": \"theatre\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"film\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Richard Boleslavsky\",\n      \"relation\": \"also_named\",\n      \"object\": \"Richard Boleslawski\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"or\"}\n      ]\n    },\n    {\n      \"subject\": \"Richard Boleslavsky\",\n      \"relation\": \"was_a\",\n      \"object\": \"Poland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a Polish\"}\n      ]\n    },\n    {\n      \"subject\": \"Richard Boleslavsky\",\n      \"relation\": \"directed\",\n      \"object\": \"theatre\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"theatre and film director\"}\n      ]\n    },\n    {\n      \"subject\": \"Richard Boleslavsky\",\n      \"relation\": \"directed\",\n      \"object\": \"film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"theatre and film director\"}\n      ]\n    }\n  ]\n}"
+}

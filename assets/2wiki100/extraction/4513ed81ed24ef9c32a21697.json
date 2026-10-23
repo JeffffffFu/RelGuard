@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Royal Tramp II": "WORK_OF_ART",
+    "1992": "EVENT",
+    "Hong Kong": "GPE",
+    "Louis Cha": "PERSON",
+    "The Deer and the Cauldron": "WORK_OF_ART",
+    "Royal Tramp": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Royal Tramp II",
+      "relation": "based_on",
+      "object": "The Deer and the Cauldron",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 40,
+          "char_start": 55,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Royal Tramp II",
+        "released_in",
+        "1992"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Royal Tramp II",
+        "located_in",
+        "Hong Kong"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Deer and the Cauldron",
+        "written_by",
+        "Louis Cha"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Royal Tramp II",
+        "is_sequel_to",
+        "Royal Tramp"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Royal Tramp II\nRoyal Tramp II is a 1992 Hong Kong film based on Louis Cha's novel\" The Deer and the Cauldron\". The film is a sequel to\" Royal Tramp\", which was released earlier in the same year.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Royal Tramp II\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"1992\", \"type\": \"EVENT\"},\n    {\"name\": \"Hong Kong\", \"type\": \"GPE\"},\n    {\"name\": \"Louis Cha\", \"type\": \"PERSON\"},\n    {\"name\": \"The Deer and the Cauldron\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Royal Tramp\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Royal Tramp II\",\n      \"relation\": \"based_on\",\n      \"object\": \"The Deer and the Cauldron\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on\"}\n      ]\n    },\n    {\n      \"subject\": \"Royal Tramp II\",\n      \"relation\": \"released_in\",\n      \"object\": \"1992\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a 1992 Hong Kong film\"}\n      ]\n    },\n    {\n      \"subject\": \"Royal Tramp II\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hong Kong\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Hong Kong\"}\n      ]\n    },\n    {\n      \"subject\": \"The Deer and the Cauldron\",\n      \"relation\": \"written_by\",\n      \"object\": \"Louis Cha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Louis Cha's\"}\n      ]\n    },\n    {\n      \"subject\": \"Royal Tramp II\",\n      \"relation\": \"is_sequel_to\",\n      \"object\": \"Royal Tramp\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a sequel to\"}\n      ]\n    }\n  ]\n}"
+}

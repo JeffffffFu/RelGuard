@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Gmelina leichhardtii": "species",
+    "white beech": "common_name",
+    "grey teak": "common_name",
+    "eastern Australia": "location",
+    "Illawarra district": "location",
+    "New South Wales": "location",
+    "Proserpine": "location",
+    "Queensland": "location",
+    "Australian red cedar": "species"
+  },
+  "triples": [
+    {
+      "subject": "Gmelina leichhardtii",
+      "relation": "commonly_known_as",
+      "object": "white beech",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Gmelina leichhardtii, commonly known as the white beech"
+        }
+      ]
+    },
+    {
+      "subject": "Gmelina leichhardtii",
+      "relation": "located_in",
+      "object": "eastern Australia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a rainforest tree of eastern Australia"
+        }
+      ]
+    },
+    {
+      "subject": "Gmelina leichhardtii",
+      "relation": "compared_to",
+      "object": "Australian red cedar",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Unlike the Australian red cedar, the white beech has not recovered particularly well"
+        }
+      ]
+    },
+    {
+      "subject": "Illawarra district",
+      "relation": "located_in",
+      "object": "New South Wales",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from the Illawarra district of New South Wales"
+        }
+      ]
+    },
+    {
+      "subject": "Proserpine",
+      "relation": "located_in",
+      "object": "Queensland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to near Proserpine in tropical Queensland"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gmelina leichhardtii",
+        "grows_in",
+        "Australian rainforests"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gmelina leichhardtii",
+        "grows_on",
+        "volcanic and alluvial soils"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gmelina leichhardtii",
+        "grows_on",
+        "poorer sedimentary soils"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gmelina leichhardtii",
+        "status",
+        "uncommon"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gmelina leichhardtii",
+        "not_recovered_well_after",
+        "logging"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Gmelina leichhardtii\nGmelina leichhardtii, commonly known as the white beech is a rainforest tree of eastern Australia. Scattered individuals or small groups of trees naturally occur from the Illawarra district of New South Wales (34½° S) to near Proserpine in tropical Queensland. The white beech or grey teak is a fast-growing tree, growing on volcanic and alluvial soils in areas of moderate to high rainfall. It also grows on poorer sedimentary soils in fire free areas. White beech may occasionally be seen in Australian rainforests, their status is considered \"uncommon\". Unlike the Australian red cedar, the white beech has not recovered particularly well after logging in the 19th and 20th centuries."
+}

@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Yasuhito Endō": "PERSON",
+    "Akihiro": "PERSON",
+    "Gamba Osaka": "ORG",
+    "Japan National Football Team": "ORG",
+    "Japan": "GPE",
+    "Sakurajima": "GPE",
+    "Kagoshima Prefecture": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Yasuhito Endō",
+      "relation": "born_in",
+      "object": "Sakurajima",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born 28 January 1980 in Sakurajima"
+        }
+      ]
+    },
+    {
+      "subject": "Yasuhito Endō",
+      "relation": "plays_for",
+      "object": "Gamba Osaka",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently plays for the J. League team Gamba Osaka"
+        }
+      ]
+    },
+    {
+      "subject": "Akihiro",
+      "relation": "plays_for",
+      "object": "Japan National Football Team",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was selected as one of Japan under-23 national football team members"
+        }
+      ]
+    },
+    {
+      "subject": "Yasuhito Endō",
+      "relation": "plays_for",
+      "object": "Japan National Football Team",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "is considered a cult hero at Gamba Osaka and the Japan National Football Team"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Akihiro",
+        "retired_in",
+        "2008"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Yasuhito Endō",
+        "considered_as",
+        "cult hero"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Yasuhito Endō\nYasuhito Endō (遠藤 保仁 , Endō Yasuhito , born 28 January 1980 in Sakurajima in Kagoshima Prefecture) is a Japanese footballer, who currently plays for the J. League team Gamba Osaka. His older brother Akihiro, who retired in 2008, is also a former professional footballer, and was selected as one of Japan under-23 national football team members played at 1996 Olympics. He is considered a cult hero at Gamba Osaka and the Japan National Football Team. It is because he has formidable passing ability, leadership, and goal scoring ability. He is also known for his excellent accuracy on free kicks and is revered as one of Japan's most creative midfielders as well as one of the most talented Japanese footballers of his generation, despite only playing domestically in his home country."
+}

@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "Gibraltar Point": "LOC",
+    "Gibraltar Point national nature reserve": "LOC",
+    "Lincolnshire": "GPE",
+    "England": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Gibraltar Point national nature reserve",
+        "located_in",
+        "Lincolnshire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gibraltar Point national nature reserve",
+        "located_in",
+        "England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Gibraltar Point\nGibraltar Point national nature reserve is an area of approximately 4.3 km2 in Lincolnshire, England.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Gibraltar Point\", \"type\": \"LOC\"},\n    {\"name\": \"Gibraltar Point national nature reserve\", \"type\": \"LOC\"},\n    {\"name\": \"Lincolnshire\", \"type\": \"GPE\"},\n    {\"name\": \"England\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Gibraltar Point national nature reserve\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lincolnshire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Lincolnshire\"}\n      ]\n    },\n    {\n      \"subject\": \"Gibraltar Point national nature reserve\",\n      \"relation\": \"located_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Lincolnshire, England\"}\n      ]\n    }\n  ]\n}"
+}

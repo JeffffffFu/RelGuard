@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Sales taxes": "Concept",
+    "United States": "Location",
+    "Forty-five states": "Location",
+    "District of Columbia": "Location",
+    "Puerto Rico": "Location",
+    "Guam": "Location",
+    "local governments": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Sales taxes",
+      "relation": "governed_at",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "governed at the state level"
+        }
+      ]
+    },
+    {
+      "subject": "Sales taxes",
+      "relation": "imposed_by",
+      "object": "Forty-five states",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Forty-five states, the District of Columbia, Puerto Rico, and Guam impose general sales taxes"
+        }
+      ]
+    },
+    {
+      "subject": "Sales taxes",
+      "relation": "imposed_by",
+      "object": "District of Columbia",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Forty-five states, the District of Columbia, Puerto Rico, and Guam impose general sales taxes"
+        }
+      ]
+    },
+    {
+      "subject": "Sales taxes",
+      "relation": "imposed_by",
+      "object": "Puerto Rico",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Forty-five states, the District of Columbia, Puerto Rico, and Guam impose general sales taxes"
+        }
+      ]
+    },
+    {
+      "subject": "Sales taxes",
+      "relation": "imposed_by",
+      "object": "Guam",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Forty-five states, the District of Columbia, Puerto Rico, and Guam impose general sales taxes"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "States",
+        "delegate_to",
+        "local governments"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sales taxes in the United States\nSales taxes in the United States are taxes placed on the sale or lease of goods and services in the United States. In the United States, sales tax is governed at the state level and no national general sales tax exists. Forty-five states, the District of Columbia, Puerto Rico, and Guam impose general sales taxes that apply to the sale or lease of most goods and some services, and states also may levy selective sales taxes on the sale or lease of particular goods or services. States may also delegate to local governments the authority to impose additional general or selective sales taxes."
+}

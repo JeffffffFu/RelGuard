@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Jaime Fernández": "Person",
+    "Emilio Fernández": "Person",
+    "Luis Buñuel": "Person",
+    "Mexican actors' union": "Organization",
+    "Silver Ariel awards": "Award",
+    "Robinson Crusoe": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Jaime Fernández",
+      "relation": "won",
+      "object": "Silver Ariel awards",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "he won 3 Silver Ariel awards"
+        }
+      ]
+    },
+    {
+      "subject": "Jaime Fernández",
+      "relation": "brother_of",
+      "object": "Emilio Fernández",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "His older brother was actor/director Emilio Fernández"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jaime Fernández",
+        "best_known_role",
+        "Robinson Crusoe"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jaime Fernández",
+        "appeared_in",
+        "Film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jaime Fernández",
+        "served_as",
+        "General Secretary of the Mexican actors' union"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Luis Buñuel",
+        "directed",
+        "Robinson Crusoe"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Jaime Fernández (actor)\nJaime Fernández Reyes (December 6, 1937 – April 15, 2005) was a Mexican actor. Over his career, he won 3 Silver Ariel awards - the Mexican equivalent of the Oscar - including one for what is arguably his best-known role, playing Friday in Luis Buñuel's \"Robinson Crusoe\". He appeared in over 200 films and served as the General Secretary of the Mexican actors' union for 11 years. His older brother was actor/director Emilio Fernández."
+}

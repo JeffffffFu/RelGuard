@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Ann Rice O'Hanlon": "PERSON",
+    "University of Kentucky": "ORG",
+    "Memorial Hall": "FAC",
+    "Treasury Relief Art Project": "ORG",
+    "central Kentucky": "LOC",
+    "African American": "NORP",
+    "Eli Capilouto": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Ann Rice O'Hanlon",
+        "painted",
+        "fresco"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fresco",
+        "located_in",
+        "Memorial Hall"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fresco",
+        "created_for",
+        "Treasury Relief Art Project"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fresco",
+        "depicts",
+        "central Kentucky"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fresco",
+        "depicts",
+        "African American"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Eli Capilouto",
+        "works_for",
+        "University of Kentucky"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eli Capilouto",
+        "had",
+        "wall shrouded"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ann Rice O'Hanlon\nAnn Louise Rice O'Hanlon (June 21, 1908 – 1998) was a 20th-century American visual artist who painted murals. O'Hanlon is best known for a fresco painted on the wall of Memorial Hall at the University of Kentucky in 1934 for the Treasury Relief Art Project. The fresco depicts the history of central Kentucky from the time of settlement through the 19th Century. The fresco has repeatedly attracted negative attention for its romanticized depiction of African American slaves. In November 2015 the President of the University of Kentucky, Eli Capilouto, had the wall shrouded until the university community comes to a permanent decision about how to deal with the fresco.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Ann Rice O'Hanlon\", \"type\": \"PERSON\"},\n    {\"name\": \"University of Kentucky\", \"type\": \"ORG\"},\n    {\"name\": \"Memorial Hall\", \"type\": \"FAC\"},\n    {\"name\": \"Treasury Relief Art Project\", \"type\": \"ORG\"},\n    {\"name\": \"central Kentucky\", \"type\": \"LOC\"},\n    {\"name\": \"African American\", \"type\": \"NORP\"},\n    {\"name\": \"Eli Capilouto\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Ann Rice O'Hanlon\",\n      \"relation\": \"painted\",\n      \"object\": \"fresco\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"painted\"}\n      ]\n    },\n    {\n      \"subject\": \"fresco\",\n      \"relation\": \"located_in\",\n      \"object\": \"Memorial Hall\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the wall of Memorial Hall\"}\n      ]\n    },\n    {\n      \"subject\": \"fresco\",\n      \"relation\": \"created_for\",\n      \"object\": \"Treasury Relief Art Project\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for the Treasury Relief Art Project\"}\n      ]\n    },\n    {\n      \"subject\": \"fresco\",\n      \"relation\": \"depicts\",\n      \"object\": \"central Kentucky\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"depicts the history of central Kentucky\"}\n      ]\n    },\n    {\n      \"subject\": \"fresco\",\n      \"relation\": \"depicts\",\n      \"object\": \"African American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"depiction of African American slaves\"}\n      ]\n    },\n    {\n      \"subject\": \"Eli Capilouto\",\n      \"relation\": \"works_for\",\n      \"object\": \"University of Kentucky\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the President of the University of Kentucky, Eli Capilouto\"}\n      ]\n    },\n    {\n      \"subject\": \"Eli Capilouto\",\n      \"relation\": \"had\",\n      \"object\": \"wall shrouded\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"had the wall shrouded\"}\n      ]\n    }\n  ]\n}"
+}

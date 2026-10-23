@@ -1,0 +1,127 @@
+{
+  "entities": {
+    "Florence Jaugey": "PERSON",
+    "Nicaragua": "GPE",
+    "Frank Pineda": "PERSON",
+    "Camila Films": "ORG",
+    "Managua": "GPE",
+    "Cinema Alcázar": "WORK_OF_ART",
+    "Silver Bear": "WORK_OF_ART",
+    "Berlin International Film Festival Berlinale": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Florence Jaugey",
+      "relation": "lives_in",
+      "object": "Nicaragua",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "lives in Nicaragua",
+          "line_start": 104,
+          "char_start": 120,
+          "ambiguous": false,
+          "relation_mention": "lives in Nicaragua",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Florence Jaugey",
+      "relation": "cofounded",
+      "object": "Camila Films",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "co-founded with her partner and Nicaraguan filmmaker Frank Pineda, Camila Films (Nicaragua),",
+          "line_start": 139,
+          "char_start": 155,
+          "ambiguous": false,
+          "relation_mention": "co-founded with her partner and Nicaraguan filmmaker Frank Pineda, Camila Films (Nicaragua),",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Frank Pineda",
+      "relation": "cofounded",
+      "object": "Camila Films",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "co-founded with her partner and Nicaraguan filmmaker Frank Pineda, Camila Films (Nicaragua),",
+          "line_start": 139,
+          "char_start": 155,
+          "ambiguous": false,
+          "relation_mention": "co-founded with her partner and Nicaraguan filmmaker Frank Pineda, Camila Films (Nicaragua),",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Camila Films",
+      "relation": "located_in",
+      "object": "Managua",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in Managua",
+          "line_start": 271,
+          "char_start": 287,
+          "ambiguous": false,
+          "relation_mention": "based in Managua",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Cinema Alcázar",
+      "relation": "won_award",
+      "object": "Silver Bear",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "won the Silver Bear award",
+          "line_start": 325,
+          "char_start": 341,
+          "ambiguous": false,
+          "relation_mention": "won the Silver Bear award",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Silver Bear",
+      "relation": "awarded_at",
+      "object": "Berlin International Film Festival Berlinale",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "at the Berlin International Film Festival Berlinale",
+          "line_start": 351,
+          "char_start": 367,
+          "ambiguous": false,
+          "relation_mention": "at the Berlin International Film Festival Berlinale",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "France (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Florence Jaugey",
+        "born_in_country",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Florence Jaugey\nFlorence Jaugey (born 22 June 1959) is a French movie director, actress, producer, and screenwriter who lives in Nicaragua. In 1989 Jaugey co-founded with her partner and Nicaraguan filmmaker Frank Pineda, Camila Films (Nicaragua), an independent film production company based in Managua. In 1998, her film \"Cinema Alcázar\", won the Silver Bear award at the Berlin International Film Festival Berlinale."
+}

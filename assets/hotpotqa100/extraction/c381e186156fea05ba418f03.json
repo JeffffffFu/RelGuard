@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Jimmy Weldon": "Person",
+    "Yakky Doodle": "Character",
+    "The Webster Webfoot Show": "Television Show"
+  },
+  "triples": [
+    {
+      "subject": "Jimmy Weldon",
+      "relation": "is_best_known_as",
+      "object": "Yakky Doodle",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known as the voice of the Hanna-Barbera cartoon character Yakky Doodle"
+        }
+      ]
+    },
+    {
+      "subject": "Yakky Doodle",
+      "relation": "is_character_in",
+      "object": "The Webster Webfoot Show",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the voice of the Hanna-Barbera cartoon character Yakky Doodle the little Duck"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jimmy Weldon",
+        "born_on",
+        "September 23, 1923"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jimmy Weldon",
+        "hosted",
+        "The Webster Webfoot Show"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Jimmy Weldon\nJimmy Weldon (born September 23, 1923) is an American voice actor, ventriloquist, and former television host. He is best known as the voice of the Hanna-Barbera cartoon character Yakky Doodle the little Duck and the host and ventriloquist in the locally produced television series \"The Webster Webfoot Show.\""
+}

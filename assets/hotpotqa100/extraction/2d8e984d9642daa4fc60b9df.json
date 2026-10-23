@@ -1,0 +1,132 @@
+{
+  "entities": {
+    "Aurelio Valle": "PERSON",
+    "New York, New York": "GPE",
+    "Chicago, Illinois": "GPE",
+    "Kingsville, Texas": "GPE",
+    "CALLA": "ORG",
+    "New York City": "GPE",
+    "Brooklyn, New York": "GPE",
+    "Wayne Magruder": "PERSON",
+    "Sean Donovan": "PERSON",
+    "Peter Gannon": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Aurelio Valle",
+      "relation": "born_in",
+      "object": "Chicago, Illinois",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 103,
+          "char_start": 117,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Aurelio Valle",
+      "relation": "raised_in",
+      "object": "Kingsville, Texas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "raised in",
+          "line_start": 133,
+          "char_start": 147,
+          "ambiguous": false,
+          "relation_mention": "raised in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Aurelio Valle",
+      "relation": "is_a_founding_member_of",
+      "object": "CALLA",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founding member of",
+          "line_start": 170,
+          "char_start": 184,
+          "ambiguous": false,
+          "relation_mention": "founding member of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Aurelio Valle",
+        "residing_in",
+        "New York, New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CALLA",
+        "located_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CALLA",
+        "located_in",
+        "Brooklyn, New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CALLA",
+        "formed_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CALLA",
+        "formed_in_year",
+        "1997"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "CALLA",
+        "formed_along_with",
+        "Wayne Magruder"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CALLA",
+        "formed_along_with",
+        "Sean Donovan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "CALLA",
+        "later_added_member",
+        "Peter Gannon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Aurelio Valle\nAurelio Valle is an American singer, guitarist, composer and visual art residing in New York, New York born in Chicago, Illinois and raised in Kingsville, Texas. He is a founding member of the experimental rock group CALLA from New York City/Brooklyn, New York and is best known for his work with that group. The band was formed in New York City in 1997 along with Wayne Magruder and Sean Donovan, later adding member Peter Gannon.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Aurelio Valle\", \"type\": \"PERSON\"},\n    {\"name\": \"New York, New York\", \"type\": \"GPE\"},\n    {\"name\": \"Chicago, Illinois\", \"type\": \"GPE\"},\n    {\"name\": \"Kingsville, Texas\", \"type\": \"GPE\"},\n    {\"name\": \"CALLA\", \"type\": \"ORG\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"Brooklyn, New York\", \"type\": \"GPE\"},\n    {\"name\": \"Wayne Magruder\", \"type\": \"PERSON\"},\n    {\"name\": \"Sean Donovan\", \"type\": \"PERSON\"},\n    {\"name\": \"Peter Gannon\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Aurelio Valle\",\n      \"relation\": \"residing_in\",\n      \"object\": \"New York, New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"residing in\"}\n      ]\n    },\n    {\n      \"subject\": \"Aurelio Valle\",\n      \"relation\": \"born_in\",\n      \"object\": \"Chicago, Illinois\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Aurelio Valle\",\n      \"relation\": \"raised_in\",\n      \"object\": \"Kingsville, Texas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"raised in\"}\n      ]\n    },\n    {\n      \"subject\": \"Aurelio Valle\",\n      \"relation\": \"is_a_founding_member_of\",\n      \"object\": \"CALLA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founding member of\"}\n      ]\n    },\n    {\n      \"subject\": \"CALLA\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from New York City\"}\n      ]\n    },\n    {\n      \"subject\": \"CALLA\",\n      \"relation\": \"located_in\",\n      \"object\": \"Brooklyn, New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"New York City/Brooklyn, New York\"}\n      ]\n    },\n    {\n      \"subject\": \"CALLA\",\n      \"relation\": \"formed_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"formed in New York City\"}\n      ]\n    },\n    {\n      \"subject\": \"CALLA\",\n      \"relation\": \"formed_in_year\",\n      \"object\": \"1997\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"in 1997\"}\n      ]\n    },\n    {\n      \"subject\": \"CALLA\",\n      \"relation\": \"formed_along_with\",\n      \"object\": \"Wayne Magruder\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"along with Wayne Magruder\"}\n      ]\n    },\n    {\n      \"subject\": \"CALLA\",\n      \"relation\": \"formed_along_with\",\n      \"object\": \"Sean Donovan\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"along with Wayne Magruder and Sean Donovan\"}\n      ]\n    },\n    {\n      \"subject\": \"CALLA\",\n      \"relation\": \"later_added_member\",\n      \"object\": \"Peter Gannon\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"later adding member Peter Gannon\"}\n      ]\n    }\n  ]\n}"
+}

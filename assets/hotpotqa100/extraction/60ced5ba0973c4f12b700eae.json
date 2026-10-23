@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Curtis Carlson": "Person",
+    "SRI International": "Organization",
+    "Siri": "Organization",
+    "Steve Jobs": "Person",
+    "Apple": "Organization",
+    "David Ladd": "Person",
+    "Mayfield Ventures": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Curtis Carlson",
+      "relation": "was_president_and_ceo_of",
+      "object": "SRI International",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was president and CEO of SRI International from 1998 to 2014"
+        }
+      ]
+    },
+    {
+      "subject": "SRI International",
+      "relation": "developed",
+      "object": "Siri",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "such as through Siri, an SRI spin-off company"
+        }
+      ]
+    },
+    {
+      "subject": "Steve Jobs",
+      "relation": "bought",
+      "object": "Siri",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was bought by Steve Jobs at Apple"
+        }
+      ]
+    },
+    {
+      "subject": "Curtis Carlson",
+      "relation": "was_ceo_of",
+      "object": "Mayfield Ventures",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "While Carlson was CEO Mayfield Ventures partner"
+        }
+      ]
+    },
+    {
+      "subject": "David Ladd",
+      "relation": "said",
+      "object": "SRI International",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "David Ladd, said, “SRI is now the best enterprise at turning its technology into economic value.”"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "SRI International",
+        "tripled_revenue_to",
+        "$550 million"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "SRI International",
+        "created_marketplace_value",
+        "tens of billions of dollars"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Curtis Carlson\nCurtis Raymond Carlson (born May 22, 1945) was president and CEO of SRI International from 1998 to 2014 and is a prominent technologist and pioneer in developing and using innovation best practices. While CEO of SRI International, revenue tripled to $550 million per year and tens of billions of dollars of new marketplace value was created, such as through Siri, an SRI spin-off company that was bought by Steve Jobs at Apple. While Carlson was CEO Mayfield Ventures partner, David Ladd, said, “SRI is now the best enterprise at turning its technology into economic value.”"
+}

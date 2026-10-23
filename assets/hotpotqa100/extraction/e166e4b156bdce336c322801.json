@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "The Only Way Is Essex": "WORK_OF_ART",
+    "Series 8": "EVENT",
+    "Lydia Bright": "PERSON",
+    "ITV2": "ORG",
+    "British": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Series 8",
+      "relation": "began_airing_on",
+      "object": "ITV2",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "began airing on",
+          "line_start": 91,
+          "char_start": 124,
+          "ambiguous": false,
+          "relation_mention": "began airing on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Series 8",
+      "relation": "did_not_feature",
+      "object": "Lydia Bright",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "not to feature",
+          "line_start": 203,
+          "char_start": 236,
+          "ambiguous": false,
+          "relation_mention": "not to feature",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Series 8",
+        "is_part_of",
+        "The Only Way Is Essex"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Only Way Is Essex",
+        "has_origin",
+        "British"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Only Way Is Essex (series 8)\nThe eighth series of \"The Only Way Is Essex\", a British semi-reality television programme, began airing on 24 February 2013 on ITV2. The series consisted of 12 episodes. Series 8 marked the first series not to feature Lydia Bright, after her departure from the series in December 2012. The series also saw the departure of numerous supporting cast members and introduced new supporting cast members.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Only Way Is Essex\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Series 8\", \"type\": \"EVENT\"},\n    {\"name\": \"Lydia Bright\", \"type\": \"PERSON\"},\n    {\"name\": \"ITV2\", \"type\": \"ORG\"},\n    {\"name\": \"British\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Series 8\",\n      \"relation\": \"is_part_of\",\n      \"object\": \"The Only Way Is Essex\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"The Only Way Is Essex (series 8)\"}\n      ]\n    },\n    {\n      \"subject\": \"Series 8\",\n      \"relation\": \"began_airing_on\",\n      \"object\": \"ITV2\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"began airing on\"}\n      ]\n    },\n    {\n      \"subject\": \"The Only Way Is Essex\",\n      \"relation\": \"has_origin\",\n      \"object\": \"British\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a British\"}\n      ]\n    },\n    {\n      \"subject\": \"Series 8\",\n      \"relation\": \"did_not_feature\",\n      \"object\": \"Lydia Bright\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"not to feature\"}\n      ]\n    }\n  ]\n}"
+}

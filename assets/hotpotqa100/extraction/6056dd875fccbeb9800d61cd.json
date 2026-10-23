@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Aati Kya Khandala": "song",
+    "Aamir Khan": "person",
+    "Alka Yagnik": "person",
+    "Jatin–Lalit": "music_composer",
+    "Ghulam": "film",
+    "Nitin Raikwar": "person"
+  },
+  "triples": [
+    {
+      "subject": "Aati Kya Khandala",
+      "relation": "sung_by",
+      "object": "Aamir Khan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "sung by Indian actor Aamir Khan"
+        }
+      ]
+    },
+    {
+      "subject": "Aati Kya Khandala",
+      "relation": "composed_by",
+      "object": "Jatin–Lalit",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "composed by Jatin–Lalit"
+        }
+      ]
+    },
+    {
+      "subject": "Ghulam",
+      "relation": "written_by",
+      "object": "Nitin Raikwar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The lyrics were written by Nitin Raikwar"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Aati Kya Khandala",
+        "sung_by",
+        "Alka Yagnik"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Aati Kya Khandala",
+        "part_of",
+        "Ghulam"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Aati Kya Khandala\nAati Kya Khandala (Hindi: आती क्या खंडाला, Urdu: آتی کیا کھنڈالا) is a Hindi song sung by Indian actor Aamir Khan & playback singer Alka Yagnik and composed by Jatin–Lalit. It was a part of the soundtrack of the 1998 Hindi film \"Ghulam\". The lyrics were written by Nitin Raikwar."
+}

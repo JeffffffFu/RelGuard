@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Greg A. Hill": "artist",
+    "Kanyen'kehaka": "ethnic_group",
+    "Six Nations of the Grand River Territory": "location",
+    "Ontario": "location"
+  },
+  "triples": [
+    {
+      "subject": "Greg A. Hill",
+      "relation": "is_from",
+      "object": "Kanyen'kehaka",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He is Kanyen'kehaka, from Six Nations of the Grand River Territory, Ontario."
+        }
+      ]
+    },
+    {
+      "subject": "Greg A. Hill",
+      "relation": "located_in",
+      "object": "Six Nations of the Grand River Territory",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He is Kanyen'kehaka, from Six Nations of the Grand River Territory, Ontario."
+        }
+      ]
+    },
+    {
+      "subject": "Six Nations of the Grand River Territory",
+      "relation": "located_in",
+      "object": "Ontario",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He is Kanyen'kehaka, from Six Nations of the Grand River Territory, Ontario."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Greg A. Hill",
+        "is",
+        "artist"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Greg A. Hill (artist)\nGreg A. Hill is a Canadian- born First Nations artist and curator. He is Kanyen'kehaka, from Six Nations of the Grand River Territory, Ontario."
+}

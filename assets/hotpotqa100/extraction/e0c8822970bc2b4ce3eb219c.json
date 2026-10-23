@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "People's Prize": "WORK_OF_ART",
+    "North Korea": "GPE",
+    "People's Prize Awarding Commission": "ORG",
+    "Cabinet of North Korea": "ORG",
+    "North Korean cinema": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "People's Prize",
+      "relation": "located_in",
+      "object": "North Korea",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a North Korean",
+          "line_start": 34,
+          "char_start": 49,
+          "ambiguous": false,
+          "relation_mention": "is a North Korean",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "People's Prize",
+      "relation": "awarded_by",
+      "object": "People's Prize Awarding Commission",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is awarded by the People's Prize Awarding Commission",
+          "line_start": 80,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "is awarded by the People's Prize Awarding Commission",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "People's Prize Awarding Commission",
+      "relation": "works_under",
+      "object": "Cabinet of North Korea",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "working directly under the Cabinet of North Korea",
+          "line_start": 143,
+          "char_start": 158,
+          "ambiguous": false,
+          "relation_mention": "working directly under the Cabinet of North Korea",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "People's Prize",
+      "relation": "granted_to",
+      "object": "People's Prize",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "can be granted to works of art or people",
+          "line_start": 204,
+          "char_start": 219,
+          "ambiguous": false,
+          "relation_mention": "can be granted to works of art or people",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "People's Prize",
+      "relation": "important_in",
+      "object": "North Korean cinema",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has been an important award in the field of North Korean cinema",
+          "line_start": 261,
+          "char_start": 276,
+          "ambiguous": false,
+          "relation_mention": "has been an important award in the field of North Korean cinema",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "인민상 (WORK_OF_ART)"
+      ]
+    }
+  ],
+  "document": "People's Prize\nThe People's Prize (Korean: 인민상 ) is a North Korean arts and sciences award. It is awarded by the People's Prize Awarding Commission, which is working directly under the Cabinet of North Korea. The prize can be granted to works of art or people. People's Prize has been an important award in the field of North Korean cinema."
+}

@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "A Day for Lionhearts": "WORK_OF_ART",
+    "Nanni Loy": "PERSON",
+    "Italian": "NORP",
+    "Second World War": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "A Day for Lionhearts",
+      "relation": "directed_by",
+      "object": "Nanni Loy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 104,
+          "char_start": 125,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Un giorno da leoni",
+        "alias_of",
+        "A Day for Lionhearts"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "A Day for Lionhearts",
+        "located_in",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A Day for Lionhearts",
+        "describes",
+        "Second World War"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "A Day for Lionhearts\nUn giorno da leoni( internationally released as A Day for Lionhearts) is a 1961 Italian war- drama film directed by Nanni Loy. The film describes the gradual evolution towards anti-fascism of Italian people during the Second World War.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"A Day for Lionhearts\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Nanni Loy\", \"type\": \"PERSON\"},\n    {\"name\": \"Italian\", \"type\": \"NORP\"},\n    {\"name\": \"Second World War\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Un giorno da leoni\",\n      \"relation\": \"alias_of\",\n      \"object\": \"A Day for Lionhearts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"( internationally released as\"}\n      ]\n    },\n    {\n      \"subject\": \"A Day for Lionhearts\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Nanni Loy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"A Day for Lionhearts\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Italian\"}\n      ]\n    },\n    {\n      \"subject\": \"A Day for Lionhearts\",\n      \"relation\": \"describes\",\n      \"object\": \"Second World War\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"describes\"}\n      ]\n    }\n  ]\n}"
+}

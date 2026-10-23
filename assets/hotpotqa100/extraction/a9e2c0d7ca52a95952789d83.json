@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "United States Senate": "ORG",
+    "Oklahoma": "GPE",
+    "Don Nickles": "PERSON",
+    "Tom Coburn": "PERSON",
+    "United States House of Representatives": "ORG",
+    "presidential election": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "United States Senate",
+      "relation": "held_election_in",
+      "object": "Oklahoma",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "United States Senate election in Oklahoma, 2004"
+        }
+      ]
+    },
+    {
+      "subject": "Don Nickles",
+      "relation": "decided_to_retire",
+      "object": "United States Senate",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Incumbent Republican U.S. Senator Don Nickles decided to retire"
+        }
+      ]
+    },
+    {
+      "subject": "United States Senate",
+      "relation": "concurrent_with",
+      "object": "United States House of Representatives",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The election was concurrent with elections to the United States House of Representatives"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tom Coburn",
+        "won",
+        "open seat"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "United States Senate",
+        "concurrent_with",
+        "presidential election"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "United States Senate election in Oklahoma, 2004\nThe 2004 United States Senate election in Oklahoma took place on November 2, 2004. The election was concurrent with elections to the United States House of Representatives and the presidential election. Incumbent Republican U.S. Senator Don Nickles decided to retire instead of seeking a fifth term. Republican nominee Tom Coburn won the open seat."
+}

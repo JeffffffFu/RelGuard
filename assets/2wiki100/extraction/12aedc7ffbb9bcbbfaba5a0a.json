@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Alexia Portal": "PERSON",
+    "French": "NORP",
+    "Béatrice Romand": "PERSON",
+    "Autumn Tale": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Alexia Portal",
+        "nationality",
+        "French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexia Portal",
+        "acted_in",
+        "Autumn Tale"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Alexia Portal",
+        "played_role_related_to",
+        "Béatrice Romand"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Alexia Portal\nAlexia Portal is a French actress best known for her role as Béatrice Romand's son's girlfriend in the 1998 film\" Autumn Tale\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Alexia Portal\", \"type\": \"PERSON\"},\n    {\"name\": \"French\", \"type\": \"NORP\"},\n    {\"name\": \"Béatrice Romand\", \"type\": \"PERSON\"},\n    {\"name\": \"Autumn Tale\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Alexia Portal\",\n      \"relation\": \"nationality\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a French\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexia Portal\",\n      \"relation\": \"acted_in\",\n      \"object\": \"Autumn Tale\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the 1998 film\\\" Autumn Tale\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Alexia Portal\",\n      \"relation\": \"played_role_related_to\",\n      \"object\": \"Béatrice Romand\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as Béatrice Romand's son's girlfriend\"}\n      ]\n    }\n  ]\n}"
+}

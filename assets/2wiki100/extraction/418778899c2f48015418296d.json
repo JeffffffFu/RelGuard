@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Ravina": "Person",
+    "Dhallywood": "Location",
+    "Praner Cheye Priyo": "Film",
+    "Riaz": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Ravina",
+      "relation": "acted_in",
+      "object": "Praner Cheye Priyo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "acted in\" Praner Cheye Priyo\""
+        }
+      ]
+    },
+    {
+      "subject": "Ravina",
+      "relation": "located_in",
+      "object": "Dhallywood",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Indian actress who acted in Dhallywood movies"
+        }
+      ]
+    },
+    {
+      "subject": "Riaz",
+      "relation": "has_career_turning_point",
+      "object": "Praner Cheye Priyo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "turning point of the career of Riaz"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Praner Cheye Priyo",
+        "considered_as",
+        "turning point"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ravina (actress)\nRavina is an Indian actress who acted in Dhallywood movies. She acted in\" Praner Cheye Priyo\" which film is considered as turning point of the career of Riaz."
+}

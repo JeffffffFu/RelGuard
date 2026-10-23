@@ -1,0 +1,109 @@
+{
+  "entities": {
+    "Honda S660": "PRODUCT",
+    "Kei car": "PRODUCT",
+    "Honda": "ORG",
+    "Tokyo Motor Show": "EVENT",
+    "Honda Beat": "PRODUCT",
+    "Honda S500": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Honda S660",
+      "relation": "located_in",
+      "object": "Kei car",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "fits in",
+          "line_start": 46,
+          "char_start": 57,
+          "ambiguous": false,
+          "relation_mention": "fits in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Honda S660",
+      "relation": "manufactured_by",
+      "object": "Honda",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "manufactured by",
+          "line_start": 93,
+          "char_start": 104,
+          "ambiguous": false,
+          "relation_mention": "manufactured by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Honda S660",
+      "relation": "was_shown_at",
+      "object": "Tokyo Motor Show",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "shown at",
+          "line_start": 236,
+          "char_start": 247,
+          "ambiguous": false,
+          "relation_mention": "shown at",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Honda S660",
+      "relation": "is_successor_to",
+      "object": "Honda Beat",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "successor to",
+          "line_start": 327,
+          "char_start": 338,
+          "ambiguous": false,
+          "relation_mention": "successor to",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Honda S660",
+      "relation": "naming_convention_goes_back_to",
+      "object": "Honda S500",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "going back to",
+          "line_start": 469,
+          "char_start": 480,
+          "ambiguous": false,
+          "relation_mention": "going back to",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Japan (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Honda",
+        "located_in",
+        "Japan"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Honda S660\nThe Honda S660 is a two-seat sports car which fits in the very small Kei car category. It is manufactured by the Japanese manufacturer Honda. The car weighs approx 830kg with manual transmission and 850kg with CVT auto. A prototype was shown at the November 2013 Tokyo Motor Show, the major Japanese auto show event. It is the successor to the Honda Beat. The naming convention of using the letter \"S\" followed by the engine displacement is a long held Honda tradition going back to Honda's first production car, the Honda S500."
+}

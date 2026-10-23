@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "Gino's East": "ORG",
+    "Chicago": "GPE",
+    "Chicago-style pizza": "PRODUCT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Gino's East",
+        "located_in",
+        "Chicago"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gino's East",
+        "produces",
+        "Chicago-style pizza"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Gino's East\nGino's East is a Chicago-based restaurant chain, notable for its deep-dish pizza (sometimes called Chicago-style pizza), and for its interior walls, which patrons have covered in graffiti and etchings. The restaurant features deep-dish pizza baked in cast-iron pans, as well as sandwiches, soups and salads.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Gino's East\", \"type\": \"ORG\"},\n    {\"name\": \"Chicago\", \"type\": \"GPE\"},\n    {\"name\": \"Chicago-style pizza\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Gino's East\",\n      \"relation\": \"located_in\",\n      \"object\": \"Chicago\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Chicago-based\"}\n      ]\n    },\n    {\n      \"subject\": \"Gino's East\",\n      \"relation\": \"produces\",\n      \"object\": \"Chicago-style pizza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Chicago-style pizza\"}\n      ]\n    }\n  ]\n}"
+}

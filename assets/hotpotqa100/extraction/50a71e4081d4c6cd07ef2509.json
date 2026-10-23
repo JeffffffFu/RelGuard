@@ -1,0 +1,112 @@
+{
+  "entities": {
+    "Luna Park": "FAC",
+    "Coney Island": "LOC",
+    "Brooklyn": "GPE",
+    "New York City": "GPE",
+    "Astroland": "FAC",
+    "Luna Park (1903)": "FAC",
+    "1000 Surf Avenue": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Luna Park",
+      "relation": "located_in",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the neighborhood of",
+          "line_start": 43,
+          "char_start": 74,
+          "ambiguous": false,
+          "relation_mention": "in the neighborhood of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Luna Park",
+      "relation": "founded",
+      "object": "Astroland",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "at the former site of",
+          "line_start": 134,
+          "char_start": 165,
+          "ambiguous": false,
+          "relation_mention": "at the former site of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Astroland",
+      "relation": "located_in",
+      "object": "1000 Surf Avenue",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "site just north of the current park's 1000 Surf Avenue location",
+          "line_start": 303,
+          "char_start": 334,
+          "ambiguous": false,
+          "relation_mention": "site just north of the current park's 1000 Surf Avenue location",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Luna Park (1903)",
+      "relation": "located_in",
+      "object": "1000 Surf Avenue",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "on a site just north of the current park's 1000 Surf Avenue location",
+          "line_start": 298,
+          "char_start": 329,
+          "ambiguous": false,
+          "relation_mention": "on a site just north of the current park's 1000 Surf Avenue location",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Luna Park",
+      "relation": "named",
+      "object": "Luna Park (1903)",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "It was named after the original 1903 Luna Park",
+          "line_start": 226,
+          "char_start": 257,
+          "ambiguous": false,
+          "relation_mention": "It was named after the original 1903 Luna Park",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Coney Island",
+        "located_in",
+        "Brooklyn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Brooklyn",
+        "located_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Luna Park, Coney Island (2010)\nLuna Park is the name of an amusement park in the neighborhood of Coney Island, Brooklyn in New York City that opened on May 29, 2010 at the former site of Astroland, an amusement park that had been in operation for 46 years. It was named after the original 1903 Luna Park which existed until 1944 on a site just north of the current park's 1000 Surf Avenue location."
+}

@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Jeremy Theobald": "PERSON",
+    "British": "NORP",
+    "The Young Man": "WORK_OF_ART",
+    "Christopher Nolan": "PERSON",
+    "Following": "WORK_OF_ART",
+    "New Statesman": "WORK_OF_ART",
+    "Jonathan Romney": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Jeremy Theobald",
+      "relation": "is_best_known_for",
+      "object": "The Young Man",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his portrayal of \"The Young Man\""
+        }
+      ]
+    },
+    {
+      "subject": "Jeremy Theobald",
+      "relation": "is_best_known_for",
+      "object": "Following",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "for which Theobald was also a producer"
+        }
+      ]
+    },
+    {
+      "subject": "Christopher Nolan",
+      "relation": "directed",
+      "object": "Following",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Christopher Nolan's 1998 major picture debut \"Following\""
+        }
+      ]
+    },
+    {
+      "subject": "Jonathan Romney",
+      "relation": "wrote",
+      "object": "New Statesman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "writing in the \"New Statesman\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nolan",
+        "is_associated_with",
+        "Jeremy Theobald"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jeremy Theobald\nJeremy Theobald is a British actor best known for his portrayal of \"The Young Man\", the main character in Christopher Nolan's 1998 major picture debut \"Following\", and for which Theobald was also a producer, Filming was scheduled around their day jobs. Jonathan Romney, writing in the \"New Statesman\", noted that \"Nolan and his cast are terrific finds: I wouldn't normally say this to struggling artists, but they might want to give up their day jobs.\""
+}

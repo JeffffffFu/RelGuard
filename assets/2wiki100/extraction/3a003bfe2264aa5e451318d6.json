@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Royal Tramp II": "WORK_OF_ART",
+    "1992": "EVENT",
+    "Hong Kong": "GPE",
+    "Louis Cha": "PERSON",
+    "The Deer and the Cauldron": "WORK_OF_ART",
+    "Royal Tramp": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Royal Tramp II",
+      "relation": "is_based_on",
+      "object": "The Deer and the Cauldron",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based on",
+          "line_start": 40,
+          "char_start": 55,
+          "ambiguous": false,
+          "relation_mention": "based on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Royal Tramp II",
+      "relation": "located_in",
+      "object": "Hong Kong",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Hong Kong",
+          "line_start": 25,
+          "char_start": 40,
+          "ambiguous": false,
+          "relation_mention": "Hong Kong",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Deer and the Cauldron",
+      "relation": "written_by",
+      "object": "Louis Cha",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Louis Cha's",
+          "line_start": 49,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "Louis Cha's",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Royal Tramp II",
+      "relation": "is_sequel_to",
+      "object": "Royal Tramp",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "a sequel to",
+          "line_start": 108,
+          "char_start": 123,
+          "ambiguous": false,
+          "relation_mention": "a sequel to",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Royal Tramp II",
+        "released_in_year",
+        "1992"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Royal Tramp II\nRoyal Tramp II is a 1992 Hong Kong film based on Louis Cha's novel\" The Deer and the Cauldron\". The film is a sequel to\" Royal Tramp\", which was released earlier in the same year."
+}

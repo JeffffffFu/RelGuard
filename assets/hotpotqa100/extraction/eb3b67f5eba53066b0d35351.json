@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Give a Man a Job": "WORK_OF_ART",
+    "National Recovery Administration": "ORG",
+    "Jimmy Durante": "PERSON",
+    "Moe Howard": "PERSON",
+    "NRA": "ORG",
+    "President Franklin Roosevelt": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Give a Man a Job",
+      "relation": "featured",
+      "object": "Jimmy Durante",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "featured Jimmy Durante",
+          "line_start": 228,
+          "char_start": 245,
+          "ambiguous": false,
+          "relation_mention": "featured Jimmy Durante",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Moe Howard",
+      "relation": "suggests",
+      "object": "NRA",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "suggesting that NRA stands for",
+          "line_start": 537,
+          "char_start": 554,
+          "ambiguous": false,
+          "relation_mention": "suggesting that NRA stands for",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Give a Man a Job",
+      "relation": "closes_with_image_of",
+      "object": "President Franklin Roosevelt",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "closes with an image of President Franklin Roosevelt",
+          "line_start": 596,
+          "char_start": 613,
+          "ambiguous": false,
+          "relation_mention": "closes with an image of President Franklin Roosevelt",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Give a Man a Job",
+        "produced_in_conjunction_with",
+        "National Recovery Administration"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jimmy Durante",
+        "explaining_to",
+        "an audience"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jimmy Durante",
+        "sang_to",
+        "an audience"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jimmy Durante",
+        "suggests_hire",
+        "a chauffeur"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Moe Howard",
+        "playing",
+        "an exterminator"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Give a Man a Job\nGive a Man a Job is a short film produced in 1933 in conjunction with the National Recovery Administration in which audience members were encouraged to offer jobs to the unemployed in the midst of the Great Depression. The film featured Jimmy Durante explaining to an audience through a comic song how they could generate employment. Upon learning that a banker drives his own car, Durante suggests that he \"hire a chauffeur / And keep a good man from becoming a loafer.\" He also has an exchange with Moe Howard playing an exterminator, suggesting that NRA stands for \"No Rats Allowed.\" The film closes with an image of President Franklin Roosevelt and the words \"If the old name of Roosevelt / Makes your old heart throb / Then take this message, straight from the President / And give a man a job!\""
+}

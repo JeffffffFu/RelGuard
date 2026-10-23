@@ -1,0 +1,124 @@
+{
+  "entities": {
+    "Carloman of Bavaria": "Person",
+    "Louis the German": "Person",
+    "Hemma": "Person",
+    "Bavarian count": "Person",
+    "King Louis II of Italy": "Person",
+    "Charles the Bald": "Person",
+    "Louis the Younger": "Person",
+    "Charles the Fat": "Person",
+    "Pannonia": "Location",
+    "Bavaria": "Location",
+    "Kingdom of Italy": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Carloman of Bavaria",
+      "relation": "son_of",
+      "object": "Louis the German",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "eldest son of Louis the German"
+        }
+      ]
+    },
+    {
+      "subject": "Carloman of Bavaria",
+      "relation": "daughter_of",
+      "object": "Hemma",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "daughter of a Bavarian count"
+        }
+      ]
+    },
+    {
+      "subject": "Louis the German",
+      "relation": "appointed",
+      "object": "Carloman of Bavaria",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "His father appointed him margrave of Pannonia"
+        }
+      ]
+    },
+    {
+      "subject": "Carloman of Bavaria",
+      "relation": "became_king_of",
+      "object": "Bavaria",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "he became King of Bavaria"
+        }
+      ]
+    },
+    {
+      "subject": "King Louis II of Italy",
+      "relation": "appointed",
+      "object": "Carloman of Bavaria",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "appointed by King Louis II of Italy as his successor"
+        }
+      ]
+    },
+    {
+      "subject": "Kingdom of Italy",
+      "relation": "taken_by",
+      "object": "Charles the Bald",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the Kingdom of Italy was taken by his uncle Charles the Bald"
+        }
+      ]
+    },
+    {
+      "subject": "Carloman of Bavaria",
+      "relation": "conquered",
+      "object": "Kingdom of Italy",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Carloman only conquered it in 877"
+        }
+      ]
+    },
+    {
+      "subject": "Carloman of Bavaria",
+      "relation": "abdicated",
+      "object": "Bavaria",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "abdicated his domains in favour of his younger brothers: Bavaria to Louis the Younger"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Carloman of Bavaria",
+        "incapacitated_by",
+        "stroke"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Carloman of Bavaria",
+        "abdicated",
+        "Kingdom of Italy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Carloman of Bavaria\nCarloman (c. 830 – 22 March 880) was a Frankish king of the Carolingian dynasty. He was the eldest son of Louis the German, king of East Francia, and Hemma, daughter of a Bavarian count. His father appointed him margrave of Pannonia in 856, and upon his father's death in 876 he became King of Bavaria. He was appointed by King Louis II of Italy as his successor, but the Kingdom of Italy was taken by his uncle Charles the Bald in 875. Carloman only conquered it in 877. In 879 he was incapacitated, perhaps by a stroke, and abdicated his domains in favour of his younger brothers: Bavaria to Louis the Younger and Italy to Charles the Fat."
+}

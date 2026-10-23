@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Francisco António": "PERSON",
+    "D. Francisco Antonio of Braganza": "PERSON",
+    "D. João Maria": "PERSON",
+    "D. Carlota Joaquina": "PERSON",
+    "Prince of Beira": "WORK_OF_ART",
+    "Duke of Barcelos": "WORK_OF_ART",
+    "Portugal": "GPE",
+    "Infante D. Pedro de Alcântara": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "D. Francisco Antonio of Braganza",
+      "relation": "son_of",
+      "object": "D. João Maria",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the first son of D. João Maria"
+        }
+      ]
+    },
+    {
+      "subject": "D. Francisco Antonio of Braganza",
+      "relation": "titled",
+      "object": "Prince of Beira",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was titled the Prince of Beira"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "D. Francisco Antonio of Braganza",
+        "son_of",
+        "D. Carlota Joaquina"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "D. Francisco Antonio of Braganza",
+        "titled",
+        "Duke of Barcelos"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "D. Francisco Antonio of Braganza",
+        "heir_apparent_to",
+        "throne of Portugal"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "D. Francisco Antonio of Braganza",
+        "died",
+        "Infante D. Pedro de Alcântara"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Francisco António, Prince of Beira\nD. Francisco Antonio of Braganza, Prince of Beira( 21 March 1795 – 11 June 1801) was the first son of D. João Maria and D. Carlota Joaquina, the Prince and Princess of Brazil. The Prince was born on 21 March 1795, and was titled the Prince of Beira and the Duke of Barcelos, as heir- apparent to the heir- apparent of the throne of Portugal. Antonio Francisco died on 11 June 1801, at the age of six, passing his title as\" Prince of Beira\" to his younger brother, the Infante D. Pedro de Alcântara."
+}

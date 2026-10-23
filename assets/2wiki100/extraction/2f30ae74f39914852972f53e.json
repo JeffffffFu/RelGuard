@@ -1,0 +1,131 @@
+{
+  "entities": {
+    "Aas Ka Panchhi": "WORK_OF_ART",
+    "Hindi": "LANGUAGE",
+    "J. Om Prakash": "PERSON",
+    "Mohan Kumar": "PERSON",
+    "Rajinder Singh Bedi": "PERSON",
+    "Rajendra Kumar": "PERSON",
+    "Vyjayanthimala": "PERSON",
+    "Leela Chitnis": "PERSON",
+    "Shankar Jaikishan": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Aas Ka Panchhi",
+      "relation": "produced_by",
+      "object": "J. Om Prakash",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 37,
+          "char_start": 52,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Aas Ka Panchhi",
+      "relation": "written_by",
+      "object": "Mohan Kumar",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 70,
+          "char_start": 85,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Aas Ka Panchhi",
+      "relation": "written_by",
+      "object": "Rajinder Singh Bedi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 70,
+          "char_start": 85,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Aas Ka Panchhi",
+      "relation": "directed_by",
+      "object": "Mohan Kumar",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 121,
+          "char_start": 136,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Aas Ka Panchhi",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Aas Ka Panchhi",
+        "in_language",
+        "Hindi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Aas Ka Panchhi",
+        "stars",
+        "Rajendra Kumar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Aas Ka Panchhi",
+        "stars",
+        "Vyjayanthimala"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Aas Ka Panchhi",
+        "stars",
+        "Leela Chitnis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Aas Ka Panchhi",
+        "music_by",
+        "Shankar Jaikishan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Aas Ka Panchhi\nAas Ka Panchhi is a 1961 Hindi movie produced by J. Om Prakash. It is written by Mohan Kumar and Rajinder Singh Bedi and directed by Mohan Kumar. The film stars Rajendra Kumar, Vyjayanthimala and Leela Chitnis. The films music is by Shankar Jaikishan. The film became a box office hit.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Aas Ka Panchhi\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Hindi\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"J. Om Prakash\", \"type\": \"PERSON\"},\n    {\"name\": \"Mohan Kumar\", \"type\": \"PERSON\"},\n    {\"name\": \"Rajinder Singh Bedi\", \"type\": \"PERSON\"},\n    {\"name\": \"Rajendra Kumar\", \"type\": \"PERSON\"},\n    {\"name\": \"Vyjayanthimala\", \"type\": \"PERSON\"},\n    {\"name\": \"Leela Chitnis\", \"type\": \"PERSON\"},\n    {\"name\": \"Shankar Jaikishan\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Aas Ka Panchhi\",\n      \"relation\": \"is_a\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a 1961 Hindi movie\"}\n      ]\n    },\n    {\n      \"subject\": \"Aas Ka Panchhi\",\n      \"relation\": \"in_language\",\n      \"object\": \"Hindi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"1961 Hindi movie\"}\n      ]\n    },\n    {\n      \"subject\": \"Aas Ka Panchhi\",\n      \"relation\": \"produced_by\",\n      \"object\": \"J. Om Prakash\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Aas Ka Panchhi\",\n      \"relation\": \"written_by\",\n      \"object\": \"Mohan Kumar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Aas Ka Panchhi\",\n      \"relation\": \"written_by\",\n      \"object\": \"Rajinder Singh Bedi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Aas Ka Panchhi\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Mohan Kumar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Aas Ka Panchhi\",\n      \"relation\": \"stars\",\n      \"object\": \"Rajendra Kumar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Aas Ka Panchhi\",\n      \"relation\": \"stars\",\n      \"object\": \"Vyjayanthimala\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Aas Ka Panchhi\",\n      \"relation\": \"stars\",\n      \"object\": \"Leela Chitnis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Aas Ka Panchhi\",\n      \"relation\": \"music_by\",\n      \"object\": \"Shankar Jaikishan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"music is by\"}\n      ]\n    }\n  ]\n}"
+}

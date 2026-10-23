@@ -1,0 +1,174 @@
+{
+  "entities": {
+    "A Chrysanthemum Bursts in Cincoesquinas": "WORK_OF_ART",
+    "Un crisantemo estalla en cinco esquinas": "WORK_OF_ART",
+    "1998": "EVENT",
+    "Daniel Burman": "PERSON",
+    "Diego Dubcovsky": "PERSON",
+    "José Luis Alfonzo": "PERSON",
+    "Pastora Vega": "PERSON",
+    "Martin Kalwill": "PERSON",
+    "Anthony Kaufman": "PERSON",
+    "indieWIRE": "ORG",
+    "New Argentine Cinema": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "A Chrysanthemum Bursts in Cincoesquinas",
+      "relation": "written_by",
+      "object": "Daniel Burman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written",
+          "line_start": 111,
+          "char_start": 151,
+          "ambiguous": false,
+          "relation_mention": "written",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Chrysanthemum Bursts in Cincoesquinas",
+      "relation": "directed_by",
+      "object": "Daniel Burman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 123,
+          "char_start": 163,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Chrysanthemum Bursts in Cincoesquinas",
+      "relation": "produced_by",
+      "object": "Diego Dubcovsky",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 180,
+          "char_start": 220,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "4 entities not in the document",
+      "entities": [
+        "Argentina (GPE)",
+        "Brazil (GPE)",
+        "France (GPE)",
+        "Spain (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Un crisantemo estalla en cinco esquinas",
+        "is_a",
+        "A Chrysanthemum Bursts in Cincoesquinas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "dated",
+        "1998"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "located_in",
+        "Argentina"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "located_in",
+        "Brazil"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "located_in",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "located_in",
+        "Spain"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "stars",
+        "José Luis Alfonzo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "stars",
+        "Pastora Vega"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "stars",
+        "Martin Kalwill"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anthony Kaufman",
+        "writes_for",
+        "indieWIRE"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anthony Kaufman",
+        "said_about",
+        "A Chrysanthemum Bursts in Cincoesquinas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "cited_as",
+        "New Argentine Cinema"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "A Chrysanthemum Bursts in Cincoesquinas\nUn crisantemo estalla en cinco esquinas  is a 1998 Argentine, Brazilian, French, and Spanish comedy drama film written and directed by Daniel Burman, in feature film debut. It was produced by Diego Dubcovsky. It stars José Luis Alfonzo, Pastora Vega and Martin Kalwill, among others. Film critic Anthony Kaufman, writing for \"indieWIRE\", an online community of independent filmmakers and aficionados, said Burman's \"A Chrysanthemum Burst in Cincoesquinas\" (1998) has been cited as the beginning of the \"New Argentine Cinema\" wave.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"A Chrysanthemum Bursts in Cincoesquinas\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Un crisantemo estalla en cinco esquinas\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"1998\", \"type\": \"EVENT\"},\n    {\"name\": \"Argentina\", \"type\": \"GPE\"},\n    {\"name\": \"Brazil\", \"type\": \"GPE\"},\n    {\"name\": \"France\", \"type\": \"GPE\"},\n    {\"name\": \"Spain\", \"type\": \"GPE\"},\n    {\"name\": \"Daniel Burman\", \"type\": \"PERSON\"},\n    {\"name\": \"Diego Dubcovsky\", \"type\": \"PERSON\"},\n    {\"name\": \"José Luis Alfonzo\", \"type\": \"PERSON\"},\n    {\"name\": \"Pastora Vega\", \"type\": \"PERSON\"},\n    {\"name\": \"Martin Kalwill\", \"type\": \"PERSON\"},\n    {\"name\": \"Anthony Kaufman\", \"type\": \"PERSON\"},\n    {\"name\": \"indieWIRE\", \"type\": \"ORG\"},\n    {\"name\": \"New Argentine Cinema\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Un crisantemo estalla en cinco esquinas\",\n      \"relation\": \"is_a\",\n      \"object\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"dated\",\n      \"object\": \"1998\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"1998\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"located_in\",\n      \"object\": \"Argentina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Argentine\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"located_in\",\n      \"object\": \"Brazil\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Brazilian\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"located_in\",\n      \"object\": \"France\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"French\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"located_in\",\n      \"object\": \"Spain\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Spanish\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"written_by\",\n      \"object\": \"Daniel Burman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Daniel Burman\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Diego Dubcovsky\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"stars\",\n      \"object\": \"José Luis Alfonzo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"stars\",\n      \"object\": \"Pastora Vega\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"stars\",\n      \"object\": \"Martin Kalwill\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Anthony Kaufman\",\n      \"relation\": \"writes_for\",\n      \"object\": \"indieWIRE\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"writing for \\\"indieWIRE\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Anthony Kaufman\",\n      \"relation\": \"said_about\",\n      \"object\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"said Burman's \\\"A Chrysanthemum Burst in Cincoesquinas\\\" (1998) has been cited as the beginning of the \\\"New Argentine Cinema\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"A Chrysanthemum Bursts in Cincoesquinas\",\n      \"relation\": \"cited_as\",\n      \"object\": \"New Argentine Cinema\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has been cited as the beginning of the \\\"New Argentine Cinema\\\"\"}\n      ]\n    }\n  ]\n}"
+}

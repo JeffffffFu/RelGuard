@@ -1,0 +1,145 @@
+{
+  "entities": {
+    "Commitment": "WORK_OF_ART",
+    "Tony Colton": "PERSON",
+    "Tony Marty": "PERSON",
+    "Bobby Wood": "PERSON",
+    "LeAnn Rimes": "PERSON",
+    "Sittin' on Top of the World": "WORK_OF_ART",
+    "Greatest Hits": "WORK_OF_ART",
+    "The Best of LeAnn Rimes": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Commitment",
+      "relation": "written_by",
+      "object": "Tony Colton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 23,
+          "char_start": 41,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Commitment",
+      "relation": "written_by",
+      "object": "Tony Marty",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 23,
+          "char_start": 41,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Commitment",
+      "relation": "written_by",
+      "object": "Bobby Wood",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 23,
+          "char_start": 41,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Commitment",
+      "relation": "recorded_by",
+      "object": "LeAnn Rimes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "recorded by",
+          "line_start": 78,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "recorded by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Commitment",
+      "relation": "featured_on",
+      "object": "Greatest Hits",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "featured on",
+          "line_start": 316,
+          "char_start": 334,
+          "ambiguous": false,
+          "relation_mention": "featured on",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Commitment",
+      "relation": "featured_on",
+      "object": "The Best of LeAnn Rimes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "featured on",
+          "line_start": 316,
+          "char_start": 334,
+          "ambiguous": false,
+          "relation_mention": "featured on",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "United States (GPE)",
+        "United Kingdom (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Commitment",
+        "released_as_lead_single_from",
+        "Sittin' on Top of the World"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Commitment",
+        "placed_on_chart_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Commitment",
+        "placed_on_chart_in",
+        "United Kingdom"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Commitment (song)\n\"Commitment\" is a song written by Tony Colton, Tony Marty and Bobby Wood, and recorded by American country music artist LeAnn Rimes. It was released in April 1998 as the lead single from her album \"Sittin' on Top of the World\". The song placed at number 4 on the US country charts, number 38 in the UK. It was later featured on Rimes' \"Greatest Hits\" and its international version, \"The Best of LeAnn Rimes\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Commitment\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Tony Colton\", \"type\": \"PERSON\"},\n    {\"name\": \"Tony Marty\", \"type\": \"PERSON\"},\n    {\"name\": \"Bobby Wood\", \"type\": \"PERSON\"},\n    {\"name\": \"LeAnn Rimes\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"United Kingdom\", \"type\": \"GPE\"},\n    {\"name\": \"Sittin' on Top of the World\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Greatest Hits\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Best of LeAnn Rimes\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Commitment\",\n      \"relation\": \"written_by\",\n      \"object\": \"Tony Colton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Commitment\",\n      \"relation\": \"written_by\",\n      \"object\": \"Tony Marty\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Commitment\",\n      \"relation\": \"written_by\",\n      \"object\": \"Bobby Wood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Commitment\",\n      \"relation\": \"recorded_by\",\n      \"object\": \"LeAnn Rimes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"recorded by\"}\n      ]\n    },\n    {\n      \"subject\": \"Commitment\",\n      \"relation\": \"released_as_lead_single_from\",\n      \"object\": \"Sittin' on Top of the World\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"lead single from\"}\n      ]\n    },\n    {\n      \"subject\": \"Commitment\",\n      \"relation\": \"placed_on_chart_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the US country charts\"}\n      ]\n    },\n    {\n      \"subject\": \"Commitment\",\n      \"relation\": \"placed_on_chart_in\",\n      \"object\": \"United Kingdom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the UK\"}\n      ]\n    },\n    {\n      \"subject\": \"Commitment\",\n      \"relation\": \"featured_on\",\n      \"object\": \"Greatest Hits\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"featured on\"}\n      ]\n    },\n    {\n      \"subject\": \"Commitment\",\n      \"relation\": \"featured_on\",\n      \"object\": \"The Best of LeAnn Rimes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"featured on\"}\n      ]\n    }\n  ]\n}"
+}

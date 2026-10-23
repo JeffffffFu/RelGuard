@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Anja Salomonowitz": "PERSON",
+    "Vienna": "GPE",
+    "film director": "PERSON",
+    "screenwriter": "PERSON",
+    "documentary films": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Anja Salomonowitz",
+      "relation": "born_in",
+      "object": "Vienna",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 19,
+          "char_start": 37,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anja Salomonowitz",
+      "relation": "works_as",
+      "object": "film director",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is an Austrian film director",
+          "line_start": 35,
+          "char_start": 53,
+          "ambiguous": false,
+          "relation_mention": "is an Austrian film director",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anja Salomonowitz",
+      "relation": "works_as",
+      "object": "screenwriter",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and screenwriter",
+          "line_start": 64,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "and screenwriter",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anja Salomonowitz",
+      "relation": "specialised_in",
+      "object": "documentary films",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "specialised on documentary films",
+          "line_start": 82,
+          "char_start": 100,
+          "ambiguous": false,
+          "relation_mention": "specialised on documentary films",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Austria (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Anja Salomonowitz",
+        "nationality",
+        "Austria"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Anja Salomonowitz\nAnja Salomonowitz (born in Vienna) is an Austrian film director and screenwriter, specialised on documentary films with political or social background."
+}

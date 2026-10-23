@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Sadok Sassi": "PERSON",
+    "Tunis": "GPE",
+    "Club Africain": "ORG",
+    "Tunisian national team": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Sadok Sassi",
+      "relation": "played_for",
+      "object": "Club Africain",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played for",
+          "line_start": 149,
+          "char_start": 161,
+          "ambiguous": false,
+          "relation_mention": "played for",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sadok Sassi",
+      "relation": "played_for",
+      "object": "Tunisian national team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played for",
+          "line_start": 149,
+          "char_start": 161,
+          "ambiguous": false,
+          "relation_mention": "played for",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Tunisia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Sadok Sassi",
+        "born_in",
+        "Tunis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sadok Sassi",
+        "nationality",
+        "Tunisia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sadok Sassi\nSadok Sassi (Arabic: الصادق ساسي‎ ‎ ), nicknamed \"Attouga\" (born 15 November 1945 in Tunis) is a former Tunisian footballer. He was a goalkeeper and played for Club Africain and the Tunisian national team.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Sadok Sassi\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Tunis\",\n      \"type\": \"GPE\"\n    },\n    {\n      \"name\": \"Tunisia\",\n      \"type\": \"GPE\"\n    },\n    {\n      \"name\": \"Club Africain\",\n      \"type\": \"ORG\"\n    },\n    {\n      \"name\": \"Tunisian national team\",\n      \"type\": \"ORG\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Sadok Sassi\",\n      \"relation\": \"born_in\",\n      \"object\": \"Tunis\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"born 15 November 1945 in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Sadok Sassi\",\n      \"relation\": \"nationality\",\n      \"object\": \"Tunisia\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Tunisian\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Sadok Sassi\",\n      \"relation\": \"played_for\",\n      \"object\": \"Club Africain\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"played for\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Sadok Sassi\",\n      \"relation\": \"played_for\",\n      \"object\": \"Tunisian national team\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"played for\"\n        }\n      ]\n    }\n  ]\n}"
+}

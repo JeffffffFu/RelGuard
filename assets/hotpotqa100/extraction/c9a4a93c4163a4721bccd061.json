@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Earl Talbot": "Vessel",
+    "British East India Company": "Company",
+    "EIC": "Company",
+    "Earls Talbot": "Noble Title"
+  },
+  "triples": [
+    {
+      "subject": "Earl Talbot",
+      "relation": "works_for",
+      "object": "British East India Company",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "for the British East India Company (EIC)"
+        }
+      ]
+    },
+    {
+      "subject": "EIC",
+      "relation": "is_alias_of",
+      "object": "British East India Company",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "(EIC)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Earl Talbot",
+        "served_as",
+        "East Indiaman"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Earl Talbot (East Indiaman)\nThree vessels named Earl Talbot for one of the Earls Talbot served in the 18th and 19th centuries as East Indiamen for the British East India Company (EIC):"
+}

@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "Littlerock": "film",
+    "Mike Ott": "director",
+    "San Francisco International Film Festival": "film festival",
+    "AFI Fest": "film festival",
+    "Viennale": "film festival",
+    "Cairo International Film Festival": "film festival",
+    "Warsaw International Film Festival": "film festival",
+    "Reykjavik International Film Festival": "film festival",
+    "Thessaloniki International Film Festival": "film festival",
+    "Hong Kong International Film Festival": "film festival"
+  },
+  "triples": [
+    {
+      "subject": "Littlerock",
+      "relation": "directed_by",
+      "object": "Mike Ott",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Mike Ott"
+        }
+      ]
+    },
+    {
+      "subject": "Littlerock",
+      "relation": "debuted_at",
+      "object": "San Francisco International Film Festival",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "debuted at the 2010 San Francisco International Film Festival"
+        }
+      ]
+    },
+    {
+      "subject": "Littlerock",
+      "relation": "played_at",
+      "object": "AFI Fest",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played at over 40 film festivals including AFI Fest"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Littlerock",
+        "played_at",
+        "Viennale"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Littlerock",
+        "played_at",
+        "Cairo International Film Festival"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Littlerock",
+        "played_at",
+        "Warsaw International Film Festival"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Littlerock",
+        "played_at",
+        "Reykjavik International Film Festival"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Littlerock",
+        "played_at",
+        "Thessaloniki International Film Festival"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Littlerock",
+        "played_at",
+        "Hong Kong International Film Festival"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Littlerock",
+        "theatrical_release_date",
+        "August 12, 2011"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Littlerock (film)\nLittlerock is a 2010 film directed by Mike Ott. It debuted at the 2010 San Francisco International Film Festival, and played at over 40 film festivals including AFI Fest, Viennale, Cairo International Film Festival, Warsaw International Film Festival, Reykjavik International Film Festival, Thessaloniki International Film Festival, and Hong Kong International Film Festival before its U.S. theatrical release on August 12, 2011."
+}

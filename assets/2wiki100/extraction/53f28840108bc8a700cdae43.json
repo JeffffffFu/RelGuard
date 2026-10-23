@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Muchachas que estudian": "Film",
+    "Manuel Romero": "Person",
+    "Sofía Bozán": "Person",
+    "Enrique Serrano": "Person",
+    "Delia Garcés": "Person",
+    "Buenos Aires": "Location",
+    "September 6, 1939": "Date"
+  },
+  "triples": [
+    {
+      "subject": "Muchachas que estudian",
+      "relation": "directed_by",
+      "object": "Manuel Romero",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed and written by Manuel Romero"
+        }
+      ]
+    },
+    {
+      "subject": "Muchachas que estudian",
+      "relation": "premiered_on",
+      "object": "September 6, 1939",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "premiered on September 6, 1939"
+        }
+      ]
+    },
+    {
+      "subject": "Muchachas que estudian",
+      "relation": "located_in",
+      "object": "Buenos Aires",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Buenos Aires"
+        }
+      ]
+    },
+    {
+      "subject": "Muchachas que estudian",
+      "relation": "starred",
+      "object": "Sofía Bozán",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starred Sofía Bozán"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Muchachas que estudian",
+        "starred",
+        "Enrique Serrano"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Muchachas que estudian",
+        "starred",
+        "Delia Garcés"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Muchachas que estudian\nMuchachas que estudian is a Argentine comedy film directed and written by Manuel Romero. The film premiered on September 6, 1939 in Buenos Aires and starred Sofía Bozán, Enrique Serrano and Delia Garcés."
+}

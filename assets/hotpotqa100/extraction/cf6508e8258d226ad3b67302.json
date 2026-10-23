@@ -1,0 +1,146 @@
+{
+  "entities": {
+    "Minato stable": "ORG",
+    "Tokitsukaze ichimon": "ORG",
+    "Yutakayama": "PERSON",
+    "Tokitsukaze stable": "ORG",
+    "Minato Oyakata": "PERSON",
+    "Tokyo University of Agriculture": "ORG",
+    "Ichinojō": "PERSON",
+    "Minatofuji": "PERSON",
+    "Tatsutagawa": "PERSON",
+    "Nakanokuni": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Minato stable",
+      "relation": "founded",
+      "object": "Yutakayama",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded in 1982 by",
+          "line_start": 122,
+          "char_start": 136,
+          "ambiguous": false,
+          "relation_mention": "was founded in 1982 by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Yutakayama",
+      "relation": "branched_off_from",
+      "object": "Tokitsukaze stable",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "branched off from",
+          "line_start": 177,
+          "char_start": 191,
+          "ambiguous": false,
+          "relation_mention": "branched off from",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Minato Oyakata",
+      "relation": "studied_at",
+      "object": "Tokyo University of Agriculture",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "studied at",
+          "line_start": 230,
+          "char_start": 244,
+          "ambiguous": false,
+          "relation_mention": "studied at",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Minatofuji",
+      "relation": "produced_by",
+      "object": "Minato stable",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced",
+          "line_start": 425,
+          "char_start": 439,
+          "ambiguous": false,
+          "relation_mention": "produced",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "China (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Minato stable",
+        "part_of",
+        "Tokitsukaze ichimon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Minato stable",
+        "introduced",
+        "Tokyo University of Agriculture"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Minatofuji",
+        "reached_rank",
+        "maegashira 2"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Minatofuji",
+        "became",
+        "Tatsutagawa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Minato",
+        "swapped_roles_with",
+        "Tatsutagawa"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nakanokuni",
+        "earned_promotion_to",
+        "juryo division"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nakanokuni",
+        "nationality",
+        "China"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Minato stable\nMinato stable (湊部屋 , Minato-beya ) is a stable of sumo wrestlers, part of the Tokitsukaze ichimon or group of stables. It was founded in 1982 by former komusubi Yutakayama, who branched off from Tokitsukaze stable. Minato Oyakata studied at the Tokyo University of Agriculture, and due to his interest in academia his stable was the first to introduce a library on its premises. Until the arrival of Ichinojō, the stable had produced just one makuuchi division wrestler, Minatofuji, who reached a highest rank of maegashira 2 in 1995 and later became a coach at the stable under the name Tatsutagawa. In July 2010 Minato and Tatsutagawa swapped roles. In the same month the Chinese wrestler Nakanokuni earned promotion to the juryo division.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Minato stable\", \"type\": \"ORG\"},\n    {\"name\": \"Tokitsukaze ichimon\", \"type\": \"ORG\"},\n    {\"name\": \"Yutakayama\", \"type\": \"PERSON\"},\n    {\"name\": \"Tokitsukaze stable\", \"type\": \"ORG\"},\n    {\"name\": \"Minato Oyakata\", \"type\": \"PERSON\"},\n    {\"name\": \"Tokyo University of Agriculture\", \"type\": \"ORG\"},\n    {\"name\": \"Ichinojō\", \"type\": \"PERSON\"},\n    {\"name\": \"Minatofuji\", \"type\": \"PERSON\"},\n    {\"name\": \"Tatsutagawa\", \"type\": \"PERSON\"},\n    {\"name\": \"Nakanokuni\", \"type\": \"PERSON\"},\n    {\"name\": \"China\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Minato stable\",\n      \"relation\": \"part_of\",\n      \"object\": \"Tokitsukaze ichimon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"part of\"}\n      ]\n    },\n    {\n      \"subject\": \"Minato stable\",\n      \"relation\": \"founded\",\n      \"object\": \"Yutakayama\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was founded in 1982 by\"}\n      ]\n    },\n    {\n      \"subject\": \"Yutakayama\",\n      \"relation\": \"branched_off_from\",\n      \"object\": \"Tokitsukaze stable\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"branched off from\"}\n      ]\n    },\n    {\n      \"subject\": \"Minato Oyakata\",\n      \"relation\": \"studied_at\",\n      \"object\": \"Tokyo University of Agriculture\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"studied at\"}\n      ]\n    },\n    {\n      \"subject\": \"Minato stable\",\n      \"relation\": \"introduced\",\n      \"object\": \"Tokyo University of Agriculture\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"introduce\"}\n      ]\n    },\n    {\n      \"subject\": \"Minatofuji\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Minato stable\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced\"}\n      ]\n    },\n    {\n      \"subject\": \"Minatofuji\",\n      \"relation\": \"reached_rank\",\n      \"object\": \"maegashira 2\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"reached a highest rank of\"}\n      ]\n    },\n    {\n      \"subject\": \"Minatofuji\",\n      \"relation\": \"became\",\n      \"object\": \"Tatsutagawa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"became a coach at the stable under the name\"}\n      ]\n    },\n    {\n      \"subject\": \"Minato\",\n      \"relation\": \"swapped_roles_with\",\n      \"object\": \"Tatsutagawa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"swapped roles\"}\n      ]\n    },\n    {\n      \"subject\": \"Nakanokuni\",\n      \"relation\": \"earned_promotion_to\",\n      \"object\": \"juryo division\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"earned promotion to the juryo division\"}\n      ]\n    },\n    {\n      \"subject\": \"Nakanokuni\",\n      \"relation\": \"nationality\",\n      \"object\": \"China\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Chinese\"}\n      ]\n    }\n  ]\n}"
+}

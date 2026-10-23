@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Papa Gino's": "ORG",
+    "Papa Gino's, Inc.": "ORG",
+    "Dedham": "GPE",
+    "Massachusetts": "GPE",
+    "Connecticut": "GPE",
+    "Maine": "GPE",
+    "New Hampshire": "GPE",
+    "Rhode Island": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Papa Gino's, Inc.",
+      "relation": "located_in",
+      "object": "Dedham",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Dedham, Massachusetts"
+        }
+      ]
+    },
+    {
+      "subject": "Papa Gino's",
+      "relation": "located_in",
+      "object": "Connecticut",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "over 150 Papa Gino's locations in Connecticut"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Papa Gino's, Inc.",
+        "specializes_in",
+        "American-style pizza"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Papa Gino's",
+        "located_in",
+        "Maine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Papa Gino's",
+        "located_in",
+        "Massachusetts"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Papa Gino's",
+        "located_in",
+        "New Hampshire"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Papa Gino's",
+        "located_in",
+        "Rhode Island"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Papa Gino's\nPapa Gino's, Inc. is a restaurant chain based in Dedham, Massachusetts specializing in American-style pizza along with pasta, subs, salads, and a variety of appetizers. There are over 150 Papa Gino's locations in Connecticut, Maine, Massachusetts, New Hampshire, and Rhode Island."
+}

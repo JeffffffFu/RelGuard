@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Keep Safe Distance": "film",
+    "Rama Mehra": "director",
+    "Vishnu Dhanraj Sharma": "producer",
+    "Mahesh Sharma": "producer",
+    "Rama Dhanraj Production": "production_company",
+    "Damodar Raao": "composer"
+  },
+  "triples": [
+    {
+      "subject": "Keep Safe Distance",
+      "relation": "directed_by",
+      "object": "Rama Mehra",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Rama Mehra"
+        }
+      ]
+    },
+    {
+      "subject": "Keep Safe Distance",
+      "relation": "produced_by",
+      "object": "Vishnu Dhanraj Sharma",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Vishnu Dhanraj Sharma"
+        }
+      ]
+    },
+    {
+      "subject": "Keep Safe Distance",
+      "relation": "produced_under",
+      "object": "Rama Dhanraj Production",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Vishnu Dhanraj Sharma and mahesh sharma under the Rama Dhanraj Production"
+        }
+      ]
+    },
+    {
+      "subject": "Keep Safe Distance",
+      "relation": "composed_by",
+      "object": "Damodar Raao",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Damodar Raao is composing soundtrack of the film"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Keep Safe Distance",
+        "produced_by",
+        "Mahesh Sharma"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Keep Safe Distance\nKeep Safe Distance is an upcoming Indian thriller film directed by Rama Mehra and produced by Vishnu Dhanraj Sharma and mahesh sharma under the Rama Dhanraj Production.Damodar Raao is composing soundtrack of the film."
+}

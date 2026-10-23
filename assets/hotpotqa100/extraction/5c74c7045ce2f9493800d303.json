@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Schenectady": "GPE",
+    "Schenectady County": "GPE",
+    "New York": "GPE",
+    "United States": "GPE",
+    "Mohawk": "NORP",
+    "Mohawk River": "LOC",
+    "Dutch": "NORP",
+    "Albany": "GPE",
+    "English": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Schenectady",
+        "located_in",
+        "Schenectady County"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Schenectady County",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Schenectady",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Schenectady",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Schenectady",
+        "derived_from",
+        "Mohawk"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Schenectady",
+        "founded_on",
+        "Mohawk River"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Schenectady",
+        "founded_by",
+        "Dutch"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dutch",
+        "from",
+        "Albany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Albany",
+        "had",
+        "Albany monopoly"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Albany monopoly",
+        "prohibited",
+        "Dutch"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Albany monopoly",
+        "kept_control_after",
+        "English"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Schenectady, New York\nSchenectady ( ) is a city in Schenectady County, New York, United States, of which it is the county seat. As of the 2010 census, the city had a population of 66,135. The name \"Schenectady\" is derived from a Mohawk word \"skahnéhtati\" meaning \"beyond the pines\". The city was founded on the south side of the Mohawk River by Dutch colonists in the 17th century, many from the Albany area. They were prohibited from the fur trade by the Albany monopoly, which kept its control after the English takeover in 1664. Residents of the new village developed farms on strip plots along the river.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Schenectady\", \"type\": \"GPE\"},\n    {\"name\": \"Schenectady County\", \"type\": \"GPE\"},\n    {\"name\": \"New York\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Mohawk\", \"type\": \"NORP\"},\n    {\"name\": \"Mohawk River\", \"type\": \"LOC\"},\n    {\"name\": \"Dutch\", \"type\": \"NORP\"},\n    {\"name\": \"Albany\", \"type\": \"GPE\"},\n    {\"name\": \"English\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Schenectady\",\n      \"relation\": \"located_in\",\n      \"object\": \"Schenectady County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a city in\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady County\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Schenectady County, New York, United States, of which it is the county seat\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a city in\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a city in Schenectady County, New York, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady\",\n      \"relation\": \"derived_from\",\n      \"object\": \"Mohawk\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is derived from a Mohawk word\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady\",\n      \"relation\": \"founded_on\",\n      \"object\": \"Mohawk River\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded on the south side of the Mohawk River\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady\",\n      \"relation\": \"founded_by\",\n      \"object\": \"Dutch\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded on the south side of the Mohawk River by Dutch colonists\"}\n      ]\n    },\n    {\n      \"subject\": \"Dutch\",\n      \"relation\": \"from\",\n      \"object\": \"Albany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"many from the Albany area\"}\n      ]\n    },\n    {\n      \"subject\": \"Albany\",\n      \"relation\": \"had\",\n      \"object\": \"Albany monopoly\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Albany monopoly, which kept its control after the English takeover in 1664\"}\n      ]\n    },\n    {\n      \"subject\": \"Albany monopoly\",\n      \"relation\": \"prohibited\",\n      \"object\": \"Dutch\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"They were prohibited from the fur trade by the Albany monopoly\"}\n      ]\n    },\n    {\n      \"subject\": \"Albany monopoly\",\n      \"relation\": \"kept_control_after\",\n      \"object\": \"English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"kept its control after the English takeover\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Russia": "GPE",
+    "FIFA World Cup": "EVENT",
+    "Vladimir Putin": "PERSON",
+    "Vitaly Mutko": "PERSON",
+    "Russian Football Union": "ORG",
+    "Alexey Sorokin": "PERSON",
+    "Alexander Djordjadze": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Russia",
+      "relation": "announced_intent_to_bid_for",
+      "object": "FIFA World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Russia announced its intent to bid for the FIFA World Cup in early 2009"
+        }
+      ]
+    },
+    {
+      "subject": "Russia",
+      "relation": "submitted_request_to",
+      "object": "FIFA World Cup",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "submitted its request to FIFA in time"
+        }
+      ]
+    },
+    {
+      "subject": "Vladimir Putin",
+      "relation": "ordered",
+      "object": "Vitaly Mutko",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Vladimir Putin has taken a keen interest in the bid and has gone so far as ordering Vitaly Mutko"
+        }
+      ]
+    },
+    {
+      "subject": "Russian Football Union",
+      "relation": "includes",
+      "object": "Alexey Sorokin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The bid committee also includes RFU CEO Alexey Sorokin"
+        }
+      ]
+    },
+    {
+      "subject": "Russian Football Union",
+      "relation": "includes",
+      "object": "Alexander Djordjadze",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and Alexander Djordjadze as the Director of Bid Planning and Operations"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Vitaly Mutko",
+        "prepared_bid_for",
+        "Russia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Vitaly Mutko",
+        "served_as",
+        "President of the Russian Football Union"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Russia",
+        "pulled_out_of_race_to_host",
+        "2022 FIFA World Cup"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Russia",
+        "chosen_as_host_country_for",
+        "2018 FIFA World Cup"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Russia 2018 FIFA World Cup bid\nRussia announced its intent to bid for the FIFA World Cup in early 2009, and submitted its request to FIFA in time. Russia's President Vladimir Putin has taken a keen interest in the bid and has gone so far as ordering Vitaly Mutko, the Minister of Sports, to \"prepare a bid for Russia to hold the 2018 World Cup\". According to a report earlier submitted by Vitaly Mutko, who also served that time as President of the Russian Football Union (RFU), the country is ready to spend some $10 billion on the tournament. The bid committee also includes RFU CEO Alexey Sorokin and Alexander Djordjadze as the Director of Bid Planning and Operations. In October 2010, Russia formally pulled out of the race to host the 2022 FIFA World Cup. On December 2, 2010 Russia was chosen as the host country for the 2018 FIFA World Cup."
+}

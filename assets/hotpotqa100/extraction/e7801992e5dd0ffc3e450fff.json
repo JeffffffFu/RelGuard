@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "The Toast": "WORK_OF_ART",
+    "American": "NORP",
+    "Nicole Cliffe": "PERSON",
+    "Mallory Ortberg": "PERSON",
+    "Nicholas Pavich": "PERSON",
+    "British Royal Navy": "ORG",
+    "Ortberg": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "The Toast",
+      "relation": "founded",
+      "object": "Nicole Cliffe",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded",
+          "line_start": 72,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "founded",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Toast",
+      "relation": "founded",
+      "object": "Mallory Ortberg",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded",
+          "line_start": 72,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "founded",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Toast",
+      "relation": "founded",
+      "object": "Nicholas Pavich",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded",
+          "line_start": 72,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "founded",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Mallory Ortberg",
+      "relation": "described",
+      "object": "The Toast",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has described",
+          "line_start": 251,
+          "char_start": 261,
+          "ambiguous": false,
+          "relation_mention": "has described",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Toast",
+        "located_in",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Toast",
+        "name_originates_from",
+        "British Royal Navy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Toast\nThe Toast is an American anthology, humor and feminist writing website, founded in 2013 by editors Nicole Cliffe and Mallory Ortberg and publisher Nicholas Pavich. The website is known for its parodic reworkings of classic literature and art. Ortberg has described its target market as 'librarians'. The \"Toast\" has also published on feminism and ethnicity-related topics, including a lengthy series on adoption. Its name originates from the toast of the British Royal Navy hoping for \"a willing foe, and sea room\", which was used as its slogan.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Toast\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Nicole Cliffe\", \"type\": \"PERSON\"},\n    {\"name\": \"Mallory Ortberg\", \"type\": \"PERSON\"},\n    {\"name\": \"Nicholas Pavich\", \"type\": \"PERSON\"},\n    {\"name\": \"British Royal Navy\", \"type\": \"ORG\"},\n    {\"name\": \"Ortberg\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Toast\",\n      \"relation\": \"founded\",\n      \"object\": \"Nicole Cliffe\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded\"}\n      ]\n    },\n    {\n      \"subject\": \"The Toast\",\n      \"relation\": \"founded\",\n      \"object\": \"Mallory Ortberg\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded\"}\n      ]\n    },\n    {\n      \"subject\": \"The Toast\",\n      \"relation\": \"founded\",\n      \"object\": \"Nicholas Pavich\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded\"}\n      ]\n    },\n    {\n      \"subject\": \"The Toast\",\n      \"relation\": \"located_in\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an\"}\n      ]\n    },\n    {\n      \"subject\": \"The Toast\",\n      \"relation\": \"name_originates_from\",\n      \"object\": \"British Royal Navy\",\n      \"occurrences\": [\n        {\"line\": 6, \"predicate\": \"originates from\"}\n      ]\n    },\n    {\n      \"subject\": \"Mallory Ortberg\",\n      \"relation\": \"described\",\n      \"object\": \"The Toast\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"has described\"}\n      ]\n    }\n  ]\n}"
+}

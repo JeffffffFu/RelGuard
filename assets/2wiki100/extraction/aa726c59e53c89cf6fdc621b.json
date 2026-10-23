@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Eric Dupont": "Person",
+    "Incognito films": "Organization",
+    "Ave Maria": "Film",
+    "Academy Award for Best Live Action Short Film": "Award",
+    "88th Academy Awards": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Eric Dupont",
+      "relation": "works_for",
+      "object": "Incognito films",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a French producer for Incognito films"
+        }
+      ]
+    },
+    {
+      "subject": "Ave Maria",
+      "relation": "nominated_for",
+      "object": "Academy Award for Best Live Action Short Film",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that earned him Academy Award for Best Live Action Short Film nomination"
+        }
+      ]
+    },
+    {
+      "subject": "Academy Award for Best Live Action Short Film",
+      "relation": "awarded_at",
+      "object": "88th Academy Awards",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the 88th Academy Awards"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eric Dupont",
+        "produced",
+        "Ave Maria"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Eric Dupont (producer)\nEric Dupont is a French producer for Incognito films, best known for producing short- film\" Ave Maria\" that earned him Academy Award for Best Live Action Short Film nomination at the 88th Academy Awards."
+}

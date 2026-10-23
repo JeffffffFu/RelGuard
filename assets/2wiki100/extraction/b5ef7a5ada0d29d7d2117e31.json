@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Kriminal": "WORK_OF_ART",
+    "Umberto Lenzi": "PERSON",
+    "Glenn Saxson": "PERSON",
+    "Inspector Milton": "PERSON",
+    "Andrea Bosic": "PERSON",
+    "Il marchio di Kriminal": "WORK_OF_ART",
+    "The Mark of Kriminal": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Kriminal",
+      "relation": "written_by",
+      "object": "Umberto Lenzi",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 43,
+          "char_start": 59,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kriminal",
+        "directed_by",
+        "Umberto Lenzi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kriminal",
+        "about",
+        "Glenn Saxson"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kriminal",
+        "about",
+        "Inspector Milton"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Inspector Milton",
+        "portrayed_by",
+        "Andrea Bosic"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kriminal",
+        "received_sequel",
+        "Il marchio di Kriminal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Il marchio di Kriminal",
+        "aka",
+        "The Mark of Kriminal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kriminal (film)\nKriminal is a 1966 crime film directed and written by Umberto Lenzi. The film is about a thief and murderer called Kriminal( Glenn Saxson) who escapes from a prison and is chased after by Inspector Milton( Andrea Bosic). It received a sequel titled\" Il marchio di Kriminal\"( The Mark of Kriminal).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kriminal\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Umberto Lenzi\", \"type\": \"PERSON\"},\n    {\"name\": \"Glenn Saxson\", \"type\": \"PERSON\"},\n    {\"name\": \"Inspector Milton\", \"type\": \"PERSON\"},\n    {\"name\": \"Andrea Bosic\", \"type\": \"PERSON\"},\n    {\"name\": \"Il marchio di Kriminal\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Mark of Kriminal\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kriminal\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Umberto Lenzi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Kriminal\",\n      \"relation\": \"written_by\",\n      \"object\": \"Umberto Lenzi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Kriminal\",\n      \"relation\": \"about\",\n      \"object\": \"Glenn Saxson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"called Kriminal( Glenn Saxson) who\"}\n      ]\n    },\n    {\n      \"subject\": \"Kriminal\",\n      \"relation\": \"about\",\n      \"object\": \"Inspector Milton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and is chased after by Inspector Milton( Andrea Bosic)\"}\n      ]\n    },\n    {\n      \"subject\": \"Inspector Milton\",\n      \"relation\": \"portrayed_by\",\n      \"object\": \"Andrea Bosic\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Inspector Milton( Andrea Bosic)\"}\n      ]\n    },\n    {\n      \"subject\": \"Kriminal\",\n      \"relation\": \"received_sequel\",\n      \"object\": \"Il marchio di Kriminal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"received a sequel titled\\\" Il marchio di Kriminal\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Il marchio di Kriminal\",\n      \"relation\": \"aka\",\n      \"object\": \"The Mark of Kriminal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Il marchio di Kriminal\\\"( The Mark of Kriminal)\"}\n      ]\n    }\n  ]\n}"
+}

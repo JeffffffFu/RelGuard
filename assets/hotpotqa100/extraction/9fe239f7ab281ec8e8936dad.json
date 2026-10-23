@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Simba": "PERSON",
+    "Disney": "ORG",
+    "The Lion King": "WORK_OF_ART",
+    "Walt Disney Animation": "ORG",
+    "The Lion King 1½": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Simba",
+      "relation": "appears_in",
+      "object": "The Lion King",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "appears in",
+          "line_start": 35,
+          "char_start": 41,
+          "ambiguous": false,
+          "relation_mention": "appears in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Simba",
+      "relation": "appears_in",
+      "object": "The Lion King 1½",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "appears in",
+          "line_start": 35,
+          "char_start": 41,
+          "ambiguous": false,
+          "relation_mention": "appears in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Lion King",
+        "produced_by",
+        "Walt Disney Animation"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Lion King",
+        "associated_with",
+        "Disney"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Simba\nSimba is a fictional character who appears in Disney's \"The Lion King\" franchise. Introduced in Walt Disney Animation's 32nd animated feature film \"The Lion King\" (1994), the character subsequently appears in its sequels \"\" (1998) and \"The Lion King 1½\" (2004).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Simba\", \"type\": \"PERSON\"},\n    {\"name\": \"Disney\", \"type\": \"ORG\"},\n    {\"name\": \"The Lion King\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Walt Disney Animation\", \"type\": \"ORG\"},\n    {\"name\": \"The Lion King 1½\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Simba\",\n      \"relation\": \"appears_in\",\n      \"object\": \"The Lion King\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"appears in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Simba\",\n      \"relation\": \"appears_in\",\n      \"object\": \"The Lion King 1½\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"appears in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"The Lion King\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Walt Disney Animation\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Walt Disney Animation's\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"The Lion King\",\n      \"relation\": \"associated_with\",\n      \"object\": \"Disney\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Disney's\"\n        }\n      ]\n    }\n  ]\n}"
+}

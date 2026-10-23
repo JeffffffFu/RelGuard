@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Brad Knowles": "PERSON",
+    "Bradley Knowles- Tagg": "PERSON",
+    "Sheffield Eagles": "ORG",
+    "Betfred Championship": "EVENT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Brad Knowles",
+        "alias_of",
+        "Bradley Knowles- Tagg"
+      ],
+      "why": "2 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Brad Knowles",
+        "works_for",
+        "Sheffield Eagles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sheffield Eagles",
+        "located_in",
+        "Betfred Championship"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Brad Knowles (rugby league)\nBradley Knowles- Tagg or Brad Knowles( born 31 July 1993) is a rugby league footballer who plays as a second row forward or winger for the Sheffield Eagles in the Betfred Championship.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Brad Knowles\", \"type\": \"PERSON\"},\n    {\"name\": \"Bradley Knowles- Tagg\", \"type\": \"PERSON\"},\n    {\"name\": \"Sheffield Eagles\", \"type\": \"ORG\"},\n    {\"name\": \"Betfred Championship\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Brad Knowles\",\n      \"relation\": \"alias_of\",\n      \"object\": \"Bradley Knowles- Tagg\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Brad Knowles (rugby league)\"},\n        {\"line\": 2, \"predicate\": \"Bradley Knowles- Tagg or Brad Knowles( born 31 July 1993)\"}\n      ]\n    },\n    {\n      \"subject\": \"Brad Knowles\",\n      \"relation\": \"works_for\",\n      \"object\": \"Sheffield Eagles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"plays as a second row forward or winger for the Sheffield Eagles\"}\n      ]\n    },\n    {\n      \"subject\": \"Sheffield Eagles\",\n      \"relation\": \"located_in\",\n      \"object\": \"Betfred Championship\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Betfred Championship\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Snarleyow": "poem",
+    "Rudyard Kipling": "author",
+    "Staff Sergeant Nathaniel W. Bancroft": "person",
+    "Bengal Horse Artillery": "military_unit",
+    "Royal Horse Artillery": "military_unit",
+    "G. F. Cobb": "person"
+  },
+  "triples": [
+    {
+      "subject": "Snarleyow",
+      "relation": "written_by",
+      "object": "Rudyard Kipling",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Snarleyow is a poem by Rudyard Kipling"
+        }
+      ]
+    },
+    {
+      "subject": "Snarleyow",
+      "relation": "based_on",
+      "object": "Staff Sergeant Nathaniel W. Bancroft",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "this one is based on an incident in the life of Staff Sergeant Nathaniel W. Bancroft"
+        }
+      ]
+    },
+    {
+      "subject": "Staff Sergeant Nathaniel W. Bancroft",
+      "relation": "part_of",
+      "object": "Bengal Horse Artillery",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "of the old Bengal Horse Artillery"
+        }
+      ]
+    },
+    {
+      "subject": "Staff Sergeant Nathaniel W. Bancroft",
+      "relation": "part_of",
+      "object": "Royal Horse Artillery",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and later the Royal Horse Artillery"
+        }
+      ]
+    },
+    {
+      "subject": "Snarleyow",
+      "relation": "set_to_song_by",
+      "object": "G. F. Cobb",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the many Kipling poems set to song by G. F. Cobb"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Snarleyow",
+        "published_in",
+        "late 1890"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Snarleyow\nSnarleyow is a poem by Rudyard Kipling, published in late 1890. The title character was a horse that was part of a team pulling a gun. The poem is one of many Kipling wrote depicting the life of soldiers in the British army. It appears that this one is based on an incident in the life of Staff Sergeant Nathaniel W. Bancroft, of the old Bengal Horse Artillery and later the Royal Horse Artillery. The poem was one of the many Kipling poems set to song by G. F. Cobb."
+}

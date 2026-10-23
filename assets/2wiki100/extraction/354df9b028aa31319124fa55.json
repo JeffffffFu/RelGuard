@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Stefan Walz": "PERSON",
+    "Sigmund Jähn": "PERSON",
+    "Good Bye, Lenin!": "WORK_OF_ART",
+    "Swiss": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Stefan Walz",
+      "relation": "nationality",
+      "object": "Swiss",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a Swiss",
+          "line_start": 24,
+          "char_start": 36,
+          "ambiguous": false,
+          "relation_mention": "is a Swiss",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Stefan Walz",
+      "relation": "played_role",
+      "object": "Sigmund Jähn",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "role is as Sigmund Jähn",
+          "line_start": 57,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "role is as Sigmund Jähn",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sigmund Jähn",
+      "relation": "appears_in",
+      "object": "Good Bye, Lenin!",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the film\" Good Bye, Lenin!\"",
+          "line_start": 81,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "in the film\" Good Bye, Lenin!\"",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Stefan Walz",
+        "born_in_year",
+        "1963"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Stefan Walz\nStefan Walz( born 1963) is a Swiss actor. His best known role is as Sigmund Jähn in the film\" Good Bye, Lenin!\"."
+}

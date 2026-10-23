@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "George Young": "PERSON",
+    "Rangers": "ORG",
+    "Scotland national team": "ORG",
+    "Scotland": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "George Young",
+        "works_for",
+        "Rangers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "George Young",
+        "works_for",
+        "Scotland national team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Scotland national team",
+        "located_in",
+        "Scotland"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "George Young (Scottish footballer)\nGeorge Lewis Young (27 October 1922 – 10 January 1997) was a Scottish footballer, best remembered for his association with Rangers and for being the first player to receive more than 50 caps for the Scotland national team.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"George Young\", \"type\": \"PERSON\"},\n    {\"name\": \"Rangers\", \"type\": \"ORG\"},\n    {\"name\": \"Scotland national team\", \"type\": \"ORG\"},\n    {\"name\": \"Scotland\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"George Young\",\n      \"relation\": \"works_for\",\n      \"object\": \"Rangers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"association with\"}\n      ]\n    },\n    {\n      \"subject\": \"George Young\",\n      \"relation\": \"works_for\",\n      \"object\": \"Scotland national team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for the Scotland national team\"}\n      ]\n    },\n    {\n      \"subject\": \"Scotland national team\",\n      \"relation\": \"located_in\",\n      \"object\": \"Scotland\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Scotland national team\"}\n      ]\n    }\n  ]\n}"
+}

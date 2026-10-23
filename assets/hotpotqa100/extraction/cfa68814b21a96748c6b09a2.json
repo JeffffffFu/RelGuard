@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Chlidanthus": "genus",
+    "South America": "location",
+    "Andes": "location"
+  },
+  "triples": [
+    {
+      "subject": "Chlidanthus",
+      "relation": "native_to",
+      "object": "South America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "natives to the Andes"
+        }
+      ]
+    },
+    {
+      "subject": "Chlidanthus",
+      "relation": "located_in",
+      "object": "Andes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "natives to the Andes"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Chlidanthus",
+        "consists_of",
+        "10 species"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Chlidanthus\nChlidanthus is a genus that consists of 10 species of tender bulbs from tropical South America, mostly natives to the Andes. The botanical name comes from the Greek, meaning \"delicate flower\". The plants have large spherical bulbs with gray-green, strap-shaped leaves 30cm long arising from the base. In late spring to early summer, clusters of 3-4 large, strong citrus-scented fragrant, funnel-shaped flowers 10-13cm long held terminally on stalks 25cm high, colored in yellow, pink or red."
+}

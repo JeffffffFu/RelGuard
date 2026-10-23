@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Subfunctionalization": "EVENT",
+    "Stoltzfus": "PERSON",
+    "Force et al.": "PERSON",
+    "gene duplication": "EVENT",
+    "paralogs": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Subfunctionalization",
+      "relation": "was_proposed_by",
+      "object": "Stoltzfus",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was proposed by",
+          "line_start": 21,
+          "char_start": 42,
+          "ambiguous": false,
+          "relation_mention": "was proposed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Subfunctionalization",
+      "relation": "was_proposed_by",
+      "object": "Force et al.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was proposed by",
+          "line_start": 21,
+          "char_start": 42,
+          "ambiguous": false,
+          "relation_mention": "was proposed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Subfunctionalization",
+      "relation": "occurs_after",
+      "object": "gene duplication",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "occurs after",
+          "line_start": 140,
+          "char_start": 161,
+          "ambiguous": false,
+          "relation_mention": "occurs after",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "paralogs",
+      "relation": "originate_from",
+      "object": "gene duplication",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "originate from",
+          "line_start": 208,
+          "char_start": 229,
+          "ambiguous": false,
+          "relation_mention": "originate from",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "paralogs",
+        "take_on",
+        "separate functions"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Subfunctionalization\nSubfunctionalization was proposed by Stoltzfus (1999) and Force et al. (1999) as one of the possible outcomes of functional divergence that occurs after a gene duplication event, in which pairs of genes that originate from duplication, or paralogs, take on separate functions. Subfunctionalization is a neutral mutation process; meaning that no new adaptations are formed. During the process of gene duplication paralogs simply undergo a division of labor by retaining different parts (subfunctions) of their original ancestral function. This partitioning event occurs because of segmental gene silencing leading to the formation of paralogs that are no longer duplicates, because each gene only retains a single function. It is important to note that the ancestral gene was capable of performing both functions and the descendant duplicate genes can now only perform one of the original ancestral functions."
+}

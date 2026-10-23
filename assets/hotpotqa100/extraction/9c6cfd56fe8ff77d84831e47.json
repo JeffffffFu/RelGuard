@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "John F. Kennedy": "Person",
+    "Lee Harvey Oswald": "Person",
+    "Jacqueline": "Person",
+    "John Connally": "Person",
+    "Nellie": "Person",
+    "Warren Commission": "Organization",
+    "Jack Ruby": "Person",
+    "Lyndon B. Johnson": "Person",
+    "Dallas": "Location",
+    "Dealey Plaza": "Location",
+    "Texas": "Location",
+    "United States": "Location"
+  },
+  "triples": [
+    {
+      "subject": "John F. Kennedy",
+      "relation": "fatally_shot_by",
+      "object": "Lee Harvey Oswald",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Kennedy was fatally shot by a former U.S Marine, Lee Harvey Oswald"
+        }
+      ]
+    },
+    {
+      "subject": "Lee Harvey Oswald",
+      "relation": "acted_alone_in_shooting",
+      "object": "John F. Kennedy",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Oswald acted alone in shooting Kennedy"
+        }
+      ]
+    },
+    {
+      "subject": "Jack Ruby",
+      "relation": "killed",
+      "object": "Lee Harvey Oswald",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Jack Ruby also acted alone when he killed Oswald"
+        }
+      ]
+    },
+    {
+      "subject": "Warren Commission",
+      "relation": "investigated",
+      "object": "John F. Kennedy",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "A ten-month investigation by the Warren Commission from November 1963 to September 1964"
+        }
+      ]
+    },
+    {
+      "subject": "Lyndon B. Johnson",
+      "relation": "became_President_upon",
+      "object": "John F. Kennedy",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Vice President Lyndon B. Johnson became President upon Kennedy's death"
+        }
+      ]
+    },
+    {
+      "subject": "John F. Kennedy",
+      "relation": "was_the_35th_President_of",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "John F. Kennedy, the 35th President of the United States"
+        }
+      ]
+    },
+    {
+      "subject": "John Connally",
+      "relation": "was_with",
+      "object": "John F. Kennedy",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "while he was riding with his wife, Jacqueline, Texas Governor John Connally"
+        }
+      ]
+    },
+    {
+      "subject": "Nellie",
+      "relation": "was_with",
+      "object": "John F. Kennedy",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and Connally's wife, Nellie, in a presidential motorcade"
+        }
+      ]
+    },
+    {
+      "subject": "Dallas",
+      "relation": "located_in",
+      "object": "Texas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Dallas, Texas"
+        }
+      ]
+    },
+    {
+      "subject": "Dealey Plaza",
+      "relation": "located_in",
+      "object": "Dallas",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Dealey Plaza"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John F. Kennedy",
+        "assassinated_in",
+        "Dallas"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Assassination of John F. Kennedy\nJohn F. Kennedy, the 35th President of the United States, was assassinated on Friday, November 22, 1963 at 12:30 p.m. Central Standard Time in Dallas, Texas while riding in a motorcade in Dealey Plaza. Kennedy was fatally shot by a former U.S Marine, Lee Harvey Oswald, while he was riding with his wife, Jacqueline, Texas Governor John Connally, and Connally's wife, Nellie, in a presidential motorcade. A ten-month investigation by the Warren Commission from November 1963 to September 1964 concluded that Oswald acted alone in shooting Kennedy, and that Jack Ruby also acted alone when he killed Oswald before he could stand trial. Kennedy's death marked the fourth (following Lincoln, Garfield, and McKinley) and most recent assassination of an American President. Vice President Lyndon B. Johnson became President upon Kennedy's death."
+}

@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Congo–Ocean Railway": "infrastructure",
+    "Pointe-Noire": "location",
+    "Republic of Congo": "location",
+    "Brazzaville": "location",
+    "Congo River": "river",
+    "Oubangui River": "river",
+    "Bangui": "location"
+  },
+  "triples": [
+    {
+      "subject": "Congo–Ocean Railway",
+      "relation": "links",
+      "object": "Pointe-Noire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "links the Atlantic port of Pointe-Noire"
+        }
+      ]
+    },
+    {
+      "subject": "Pointe-Noire",
+      "relation": "located_in",
+      "object": "Republic of Congo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "(now in the Republic of Congo)"
+        }
+      ]
+    },
+    {
+      "subject": "Brazzaville",
+      "relation": "bypasses",
+      "object": "Congo River",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It bypasses the rapids on the lower Congo River"
+        }
+      ]
+    },
+    {
+      "subject": "Brazzaville",
+      "relation": "ascend",
+      "object": "Congo River",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Brazzaville river boats are able to ascend the Congo River"
+        }
+      ]
+    },
+    {
+      "subject": "Congo River",
+      "relation": "has_tributary",
+      "object": "Oubangui River",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and its major tributaries, including the Oubangui River"
+        }
+      ]
+    },
+    {
+      "subject": "Oubangui River",
+      "relation": "leads_to",
+      "object": "Bangui",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "to Bangui"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Congo–Ocean Railway",
+        "links",
+        "Brazzaville"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Congo–Ocean Railway\nThe Congo–Ocean Railway (COR; French: \"Chemin de fer Congo-Océan\" , CFCO ) links the Atlantic port of Pointe-Noire (now in the Republic of Congo) with Brazzaville, a distance of 502 km . It bypasses the rapids on the lower Congo River; from Brazzaville river boats are able to ascend the Congo River and its major tributaries, including the Oubangui River to Bangui."
+}

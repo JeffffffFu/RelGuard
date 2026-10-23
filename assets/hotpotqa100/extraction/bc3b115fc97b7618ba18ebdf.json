@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "1991 Ms. Olympia": "EVENT",
+    "IFBB": "ORG",
+    "Shrine Auditorium": "FAC",
+    "Los Angeles": "GPE",
+    "California": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "1991 Ms. Olympia",
+        "was_an",
+        "IFBB"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "1991 Ms. Olympia",
+        "was_held_at",
+        "Shrine Auditorium"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Shrine Auditorium",
+        "located_in",
+        "Los Angeles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Los Angeles",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "1991 Ms. Olympia\nThe 1991 Ms. Olympia contest was an IFBB professional bodybuilding competition was held on October 12 and 13, 1991 at the Shrine Auditorium in Los Angeles, California. It was the 12th Ms. Olympia competition held.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"1991 Ms. Olympia\", \"type\": \"EVENT\"},\n    {\"name\": \"IFBB\", \"type\": \"ORG\"},\n    {\"name\": \"Shrine Auditorium\", \"type\": \"FAC\"},\n    {\"name\": \"Los Angeles\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"1991 Ms. Olympia\",\n      \"relation\": \"was_an\",\n      \"object\": \"IFBB\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was an IFBB professional bodybuilding competition\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"1991 Ms. Olympia\",\n      \"relation\": \"was_held_at\",\n      \"object\": \"Shrine Auditorium\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"at the Shrine Auditorium\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Shrine Auditorium\",\n      \"relation\": \"located_in\",\n      \"object\": \"Los Angeles\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in Los Angeles\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Los Angeles\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Los Angeles, California\"\n        }\n      ]\n    }\n  ]\n}"
+}

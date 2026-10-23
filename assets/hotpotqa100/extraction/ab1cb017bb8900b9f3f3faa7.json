@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Alexander Baird Burt": "Person",
+    "Scottish team": "Team",
+    "John Burt": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Alexander Baird Burt",
+      "relation": "competed_in",
+      "object": "Scottish team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who competed in the 1908 Summer Olympics as a member of the Scottish team"
+        }
+      ]
+    },
+    {
+      "subject": "John Burt",
+      "relation": "was_a_member_of",
+      "object": "Scottish team",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "His brother, John, also was a member of the Scottish team"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Scottish team",
+        "won",
+        "bronze medal"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Alexander Burt\nAlexander Baird Burt (9 April 1884 – 1967) was a Scottish field hockey player who competed in the 1908 Summer Olympics as a member of the Scottish team, which won the bronze medal. His brother, John, also was a member of the Scottish team."
+}

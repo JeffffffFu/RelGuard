@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Creature from the Black Lagoon (pinball)": "WORK_OF_ART",
+    "John Trudeau": "PERSON",
+    "Midway": "ORG",
+    "Bally": "ORG",
+    "Universal Studios": "ORG",
+    "Creature from the Black Lagoon": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Creature from the Black Lagoon (pinball)",
+      "relation": "designed_by",
+      "object": "John Trudeau",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed by",
+          "line_start": 52,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "designed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Creature from the Black Lagoon (pinball)",
+      "relation": "released_by",
+      "object": "Midway",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released by",
+          "line_start": 95,
+          "char_start": 136,
+          "ambiguous": false,
+          "relation_mention": "released by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Midway",
+        "operates_under_brand",
+        "Bally"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Creature from the Black Lagoon (pinball)",
+        "based_on",
+        "Creature from the Black Lagoon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Creature from the Black Lagoon (pinball)",
+        "licensed_from",
+        "Universal Studios"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Creature from the Black Lagoon (pinball)",
+        "licensed_by",
+        "Bally"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Creature from the Black Lagoon (pinball)\nCreature from the Black Lagoon is a pinball machine designed by John Trudeau (\"Dr. Flash\") and released by Midway (under the \"Bally\" brand name). It is loosely based on the movie of the same name. The game's theme is 1950's drive-in theater. The pinball machine was licensed from Universal Studios by Bally so that the backglass artwork, the cabinet artwork, and the creature looked like the original movie actors and monsters.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Creature from the Black Lagoon (pinball)\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"John Trudeau\", \"type\": \"PERSON\"},\n    {\"name\": \"Midway\", \"type\": \"ORG\"},\n    {\"name\": \"Bally\", \"type\": \"ORG\"},\n    {\"name\": \"Universal Studios\", \"type\": \"ORG\"},\n    {\"name\": \"Creature from the Black Lagoon\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Creature from the Black Lagoon (pinball)\",\n      \"relation\": \"designed_by\",\n      \"object\": \"John Trudeau\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon (pinball)\",\n      \"relation\": \"released_by\",\n      \"object\": \"Midway\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released by\"}\n      ]\n    },\n    {\n      \"subject\": \"Midway\",\n      \"relation\": \"operates_under_brand\",\n      \"object\": \"Bally\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"under the \\\"Bally\\\" brand name\"}\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon (pinball)\",\n      \"relation\": \"based_on\",\n      \"object\": \"Creature from the Black Lagoon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based on the movie of the same name\"}\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon (pinball)\",\n      \"relation\": \"licensed_from\",\n      \"object\": \"Universal Studios\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"licensed from Universal Studios\"}\n      ]\n    },\n    {\n      \"subject\": \"Creature from the Black Lagoon (pinball)\",\n      \"relation\": \"licensed_by\",\n      \"object\": \"Bally\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"licensed from Universal Studios by Bally\"}\n      ]\n    }\n  ]\n}"
+}

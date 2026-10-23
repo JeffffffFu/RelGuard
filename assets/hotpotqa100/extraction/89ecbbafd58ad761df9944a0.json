@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Giornata": "WORK_OF_ART",
+    "Italian": "LANGUAGE",
+    "Buon fresco": "WORK_OF_ART",
+    "fresco painter": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Giornata",
+      "relation": "originating_from_language",
+      "object": "Italian",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "originating from an Italian word",
+          "line_start": 25,
+          "char_start": 34,
+          "ambiguous": false,
+          "relation_mention": "originating from an Italian word",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Giornata",
+      "relation": "is_used_in",
+      "object": "Buon fresco",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "The term is used in Buon fresco mural painting",
+          "line_start": 86,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "The term is used in Buon fresco mural painting",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "fresco painter",
+      "relation": "uses_technique",
+      "object": "Buon fresco",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the Buon fresco technique",
+          "line_start": 258,
+          "char_start": 267,
+          "ambiguous": false,
+          "relation_mention": "in the Buon fresco technique",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Giornata",
+        "is_an",
+        "art term"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fresco painter",
+        "applies",
+        "watercolor paint"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "watercolor paint",
+        "is_applied_to",
+        "wet lime plaster"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Giornata\nGiornata is an art term, originating from an Italian word which means \"a day's work.\" The term is used in Buon fresco mural painting and describes how much painting can be done in a single day of painting. Knowing how much can be painted in a day is crucial in the Buon fresco technique, because in this technique a watercolor paint, without binder, is applied to wet lime plaster which binds the paint into the surface of the plaster when it dries, making for an extremely durable painting. An experienced fresco painter knows how much surface can be painted in a day, and wet plaster is applied to the wall in the right amount needed for each day's work. That amount is the \"giornata\". Generally the plaster is applied in a way that will conform to the outline of a figure, or object, in a painting, so that the daily segments will not show, but it is occasionally visible as different sections in a work where the artist may not have been able to replicate a pigment exactly the next day, or where restoration has altered or made apparent the changes in pigment between the sections."
+}

@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Grey: Fifty Shades of Grey as Told by Christian": "WORK_OF_ART",
+    "Grey": "WORK_OF_ART",
+    "E. L. James": "PERSON",
+    "British": "NORP",
+    "Fifty Shades": "WORK_OF_ART",
+    "fanfiction": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Grey: Fifty Shades of Grey as Told by Christian",
+      "relation": "also_referred_to_as",
+      "object": "Grey",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also referred to as",
+          "line_start": 49,
+          "char_start": 97,
+          "ambiguous": false,
+          "relation_mention": "also referred to as",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Grey: Fifty Shades of Grey as Told by Christian",
+        "written_by",
+        "E. L. James"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "E. L. James",
+        "nationality",
+        "British"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Grey: Fifty Shades of Grey as Told by Christian",
+        "is_part_of_series",
+        "Fifty Shades"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Fifty Shades",
+        "started_as",
+        "fanfiction"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Grey: Fifty Shades of Grey as Told by Christian\nGrey: Fifty Shades of Grey As Told by Christian, also referred to as Grey, is a 2015 erotic romance by British author E. L. James. It is the fourth installment in the \"Fifty Shades\" series, which had its start as fanfiction.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Grey: Fifty Shades of Grey as Told by Christian\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Grey\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"E. L. James\", \"type\": \"PERSON\"},\n    {\"name\": \"British\", \"type\": \"NORP\"},\n    {\"name\": \"Fifty Shades\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"fanfiction\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Grey: Fifty Shades of Grey as Told by Christian\",\n      \"relation\": \"also_referred_to_as\",\n      \"object\": \"Grey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also referred to as\"}\n      ]\n    },\n    {\n      \"subject\": \"Grey: Fifty Shades of Grey as Told by Christian\",\n      \"relation\": \"written_by\",\n      \"object\": \"E. L. James\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by\"}\n      ]\n    },\n    {\n      \"subject\": \"E. L. James\",\n      \"relation\": \"nationality\",\n      \"object\": \"British\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"British\"}\n      ]\n    },\n    {\n      \"subject\": \"Grey: Fifty Shades of Grey as Told by Christian\",\n      \"relation\": \"is_part_of_series\",\n      \"object\": \"Fifty Shades\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the \\\"Fifty Shades\\\" series\"}\n      ]\n    },\n    {\n      \"subject\": \"Fifty Shades\",\n      \"relation\": \"started_as\",\n      \"object\": \"fanfiction\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"had its start as\"}\n      ]\n    }\n  ]\n}"
+}

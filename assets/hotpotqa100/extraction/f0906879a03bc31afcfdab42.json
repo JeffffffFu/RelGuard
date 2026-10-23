@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Danes Moss Nature Reserve": "Location",
+    "Macclesfield": "Location",
+    "Cheshire": "Location",
+    "England": "Location",
+    "Cheshire Wildlife Trust": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Danes Moss Nature Reserve",
+      "relation": "located_in",
+      "object": "Cheshire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "south of Macclesfield, Cheshire, England"
+        }
+      ]
+    },
+    {
+      "subject": "Danes Moss Nature Reserve",
+      "relation": "managed_by",
+      "object": "Cheshire Wildlife Trust",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "it is managed by the Cheshire Wildlife Trust"
+        }
+      ]
+    },
+    {
+      "subject": "Danes Moss Nature Reserve",
+      "relation": "located_in",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "south of Macclesfield, Cheshire, England"
+        }
+      ]
+    },
+    {
+      "subject": "Cheshire",
+      "relation": "part_of",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "south of Macclesfield, Cheshire, England"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Danes Moss Nature Reserve",
+        "has_area",
+        "13.4 ha"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Danes Moss Nature Reserve\nDanes Moss Nature Reserve is a 13.4 ha nature reserve south of Macclesfield, Cheshire, England. A Site of Special Scientific Interest, it is managed by the Cheshire Wildlife Trust."
+}

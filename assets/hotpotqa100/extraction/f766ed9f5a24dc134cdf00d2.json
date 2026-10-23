@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Boneland": "novel",
+    "Alan Garner": "author",
+    "The Weirdstone of Brisingamen": "novel",
+    "The Moon of Gomrath": "novel",
+    "Colin": "character",
+    "Alderley Edge": "location",
+    "Jodrell Bank Observatory": "location",
+    "A Bergli": "building",
+    "psychotherapist": "profession",
+    "twin sister": "character"
+  },
+  "triples": [
+    {
+      "subject": "Boneland",
+      "relation": "written_by",
+      "object": "Alan Garner",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Boneland is a 2012 novel by Alan Garner"
+        }
+      ]
+    },
+    {
+      "subject": "Colin",
+      "relation": "lives_near",
+      "object": "Alderley Edge",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "still living near the top of Alderley Edge"
+        }
+      ]
+    },
+    {
+      "subject": "Colin",
+      "relation": "works_at",
+      "object": "Jodrell Bank Observatory",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "now a Professor working at the nearby Jodrell Bank Observatory"
+        }
+      ]
+    },
+    {
+      "subject": "Colin",
+      "relation": "has_twin_sister",
+      "object": "twin sister",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "including his twin sister"
+        }
+      ]
+    },
+    {
+      "subject": "Colin",
+      "relation": "visits",
+      "object": "psychotherapist",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "He visits a psychotherapist"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Boneland",
+        "sequel_to",
+        "The Weirdstone of Brisingamen"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Boneland",
+        "sequel_to",
+        "The Moon of Gomrath"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Colin",
+        "has_home",
+        "A Bergli"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Colin",
+        "has_condition",
+        "amnesia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Boneland\nBoneland is a 2012 novel by Alan Garner, a sequel to \"The Weirdstone of Brisingamen\" and \"The Moon of Gomrath\". The boy Colin from the earlier novels is now an adult, still living near the top of Alderley Edge but now a Professor working at the nearby Jodrell Bank Observatory. His solitary home is a kit-built hut (\"A Bergli\") in a quarry. He has a form of amnesia which means he remembers nothing from before the age of 13, including his twin sister and his childhood adventures. He visits a psychotherapist and the gradual uncovering of his past forms the main story."
+}

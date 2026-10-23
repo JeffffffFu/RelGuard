@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Pacific Heights": "film",
+    "John Schlesinger": "person",
+    "Daniel Pyne": "person",
+    "Melanie Griffith": "person",
+    "Matthew Modine": "person",
+    "Michael Keaton": "person",
+    "Hans Zimmer": "person"
+  },
+  "triples": [
+    {
+      "subject": "Pacific Heights",
+      "relation": "directed_by",
+      "object": "John Schlesinger",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by John Schlesinger"
+        }
+      ]
+    },
+    {
+      "subject": "Pacific Heights",
+      "relation": "written_by",
+      "object": "Daniel Pyne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Daniel Pyne"
+        }
+      ]
+    },
+    {
+      "subject": "Pacific Heights",
+      "relation": "starring",
+      "object": "Melanie Griffith",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Melanie Griffith"
+        }
+      ]
+    },
+    {
+      "subject": "Pacific Heights",
+      "relation": "composed_by",
+      "object": "Hans Zimmer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "composed by Hans Zimmer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pacific Heights",
+        "starring",
+        "Matthew Modine"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pacific Heights",
+        "starring",
+        "Michael Keaton"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pacific Heights (film)\nPacific Heights is a 1990 psychological thriller film directed by John Schlesinger, written by Daniel Pyne, and starring Melanie Griffith, Matthew Modine, and Michael Keaton. The original music score was composed by Hans Zimmer. The film's tagline is: \"It seemed like the perfect house. He seemed like the perfect tenant. Until they asked him to leave.\""
+}

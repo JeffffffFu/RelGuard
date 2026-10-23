@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Salaryman": "WORK_OF_ART",
+    "Anglophone": "NORP",
+    "Japanese": "NORP",
+    "career woman": "PERSON",
+    "office lady": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Salaryman",
+      "relation": "refers_to",
+      "object": "Japanese",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "for a Japanese white-collar worker or businessman",
+          "line_start": 207,
+          "char_start": 217,
+          "ambiguous": false,
+          "relation_mention": "for a Japanese white-collar worker or businessman",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Salaryman",
+      "relation": "has_sense_in",
+      "object": "Anglophone",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has gradually become accepted in Anglophone countries as a noun for a Japanese white-collar worker or businessman",
+          "line_start": 143,
+          "char_start": 153,
+          "ambiguous": false,
+          "relation_mention": "has gradually become accepted in Anglophone countries as a noun for a Japanese white-collar worker or businessman",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Salaryman",
+      "relation": "alternatively_used_for",
+      "object": "career woman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "for women the term career woman",
+          "line_start": 304,
+          "char_start": 314,
+          "ambiguous": false,
+          "relation_mention": "for women the term career woman",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Salaryman",
+      "relation": "alternatively_used_for",
+      "object": "office lady",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "or, for lower prestige jobs, office lady is used",
+          "line_start": 336,
+          "char_start": 346,
+          "ambiguous": false,
+          "relation_mention": "or, for lower prestige jobs, office lady is used",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Salaryman",
+        "refers_exclusively_to",
+        "PERSON"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Salaryman\nSalaryman (サラリーマン, , \"Sararīman\" , salaried man) refers to a man whose income is salary based, particularly those working for corporations. It has gradually become accepted in Anglophone countries as a noun for a Japanese white-collar worker or businessman. The term salaryman refers exclusively to men; for women the term career woman or, for lower prestige jobs, office lady is used."
+}

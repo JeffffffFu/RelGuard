@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Pravachakan": "WORK_OF_ART",
+    "P. G. Viswambharan": "PERSON",
+    "Mukesh": "PERSON",
+    "Rajan P. Dev": "PERSON",
+    "Siddique": "PERSON",
+    "Narendra Prasad": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Pravachakan",
+      "relation": "directed_by",
+      "object": "P. G. Viswambharan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "under the direction of P. G. Viswambharan"
+        }
+      ]
+    },
+    {
+      "subject": "Pravachakan",
+      "relation": "has_actor",
+      "object": "Mukesh",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "notable actors like Mukesh"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pravachakan",
+        "released_in",
+        "1993"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pravachakan",
+        "has_actor",
+        "Rajan P. Dev"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pravachakan",
+        "has_actor",
+        "Siddique"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pravachakan",
+        "has_actor",
+        "Narendra Prasad"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pravachakan\nPravachakan is a Malayalam movie released in 1993 under the direction of P. G. Viswambharan. The films has notable actors like Mukesh, Rajan P. Dev, Siddique and Narendra Prasad."
+}

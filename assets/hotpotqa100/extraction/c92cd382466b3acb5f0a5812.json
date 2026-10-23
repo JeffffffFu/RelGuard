@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Rudyard Kipling": "PERSON",
+    "The Jungle Book": "WORK_OF_ART",
+    "Stephen Sommers": "PERSON",
+    "Edward S. Feldman": "PERSON",
+    "Raju Patel": "PERSON",
+    "Ronald Yanover": "PERSON",
+    "Mark Geldman": "PERSON",
+    "The Walt Disney Company": "ORG",
+    "The Second Jungle Book": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Rudyard Kipling",
+      "relation": "wrote",
+      "object": "The Jungle Book",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Rudyard Kipling's The Jungle Book"
+        }
+      ]
+    },
+    {
+      "subject": "The Jungle Book",
+      "relation": "adapted_by",
+      "object": "Stephen Sommers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "co-written and directed by Stephen Sommers"
+        }
+      ]
+    },
+    {
+      "subject": "The Jungle Book",
+      "relation": "produced_by",
+      "object": "Edward S. Feldman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Edward S. Feldman"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Jungle Book",
+        "adapted_by",
+        "The Walt Disney Company"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Jungle Book",
+        "produced_by",
+        "Raju Patel"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Jungle Book",
+        "based_on",
+        "The Second Jungle Book"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Jungle Book",
+        "based_on",
+        "Rudyard Kipling"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Second Jungle Book",
+        "based_on",
+        "Rudyard Kipling"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Jungle Book (1994 film)\nRudyard Kipling's The Jungle Book is a 1994 live-action American adventure film co-written and directed by Stephen Sommers, produced by Edward S. Feldman and Raju Patel, from a story by Ronald Yanover and Mark Geldman. It is the second film adaptation by The Walt Disney Company of the Mowgli stories from \"The Jungle Book\" and \"The Second Jungle Book\" by Rudyard Kipling."
+}

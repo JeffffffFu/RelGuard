@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "The Jungle Book": "WORK_OF_ART",
+    "Rudyard Kipling": "PERSON",
+    "Mowgli": "PERSON",
+    "Shere Khan": "PERSON",
+    "Baloo": "PERSON",
+    "the jungle": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "The Jungle Book",
+      "relation": "written_by",
+      "object": "Rudyard Kipling",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a collection of stories by English author Rudyard Kipling"
+        }
+      ]
+    },
+    {
+      "subject": "Mowgli",
+      "relation": "raised_in",
+      "object": "the jungle",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "who is raised in the jungle by wolves"
+        }
+      ]
+    },
+    {
+      "subject": "Shere Khan",
+      "relation": "character_in",
+      "object": "The Jungle Book",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Other characters include Shere Khan the tiger"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mowgli",
+        "character_in",
+        "The Jungle Book"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Baloo",
+        "character_in",
+        "The Jungle Book"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Jungle Book\nThe Jungle Book (1894) is a collection of stories by English author Rudyard Kipling. The stories are fables, using animals in an anthropomorphic manner to give moral lessons. A principal character is the boy or \"man-cub\" Mowgli, who is raised in the jungle by wolves. Other characters include Shere Khan the tiger and Baloo the bear. The book has been adapted many times for film and other media."
+}

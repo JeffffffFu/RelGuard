@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Big 12 Conference": "ORG",
+    "NCAA Division I": "ORG",
+    "West Virginia": "GPE",
+    "Big Eight Conference": "ORG",
+    "Southwest Conference": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Big 12 Conference",
+        "works_for",
+        "NCAA Division I"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "founded",
+        "1994"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "located_in",
+        "Big Eight Conference"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "located_in",
+        "Southwest Conference"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Big 12 Conference men's basketball\nThe Big 12 Conference is a group of 10 (originally 12) universities which compete in the NCAA Division I level. The conference was formed in 1994 but did not begin conference play until the fall of 1996. The schools that compose the Big 12 Conference, except West Virginia, were members of either the Big Eight Conference or the Southwest Conference, and have won five national titles including one titles since the inception of the Big 12 Conference.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Big 12 Conference\", \"type\": \"ORG\"},\n    {\"name\": \"NCAA Division I\", \"type\": \"ORG\"},\n    {\"name\": \"West Virginia\", \"type\": \"GPE\"},\n    {\"name\": \"Big Eight Conference\", \"type\": \"ORG\"},\n    {\"name\": \"Southwest Conference\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Big 12 Conference\",\n      \"relation\": \"works_for\",\n      \"object\": \"NCAA Division I\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"compete in the\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Conference\",\n      \"relation\": \"founded\",\n      \"object\": \"1994\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was formed in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Conference\",\n      \"relation\": \"located_in\",\n      \"object\": \"Big Eight Conference\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"were members of either the\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Conference\",\n      \"relation\": \"located_in\",\n      \"object\": \"Southwest Conference\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"were members of either the\"\n        }\n      ]\n    }\n  ]\n}"
+}

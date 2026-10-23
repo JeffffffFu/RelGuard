@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Al Iafrate": "PERSON",
+    "Albert Anthony Iafrate": "PERSON",
+    "National Hockey League": "ORG",
+    "NHL Skills Competition": "EVENT",
+    "Zdeno Chára": "PERSON",
+    "Boston Bruins": "ORG",
+    "Montreal": "GPE",
+    "Dearborn": "GPE",
+    "Livonia": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Albert Anthony Iafrate",
+      "relation": "works_for",
+      "object": "National Hockey League",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played in",
+          "line_start": 109,
+          "char_start": 120,
+          "ambiguous": false,
+          "relation_mention": "played in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Albert Anthony Iafrate",
+      "relation": "born_in",
+      "object": "Dearborn",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born in",
+          "line_start": 468,
+          "char_start": 479,
+          "ambiguous": false,
+          "relation_mention": "was born in",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Albert Anthony Iafrate",
+      "relation": "grew_up_in",
+      "object": "Livonia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "grew up in",
+          "line_start": 504,
+          "char_start": 515,
+          "ambiguous": false,
+          "relation_mention": "grew up in",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Albert Anthony Iafrate",
+        "set_record_at",
+        "NHL Skills Competition"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Zdeno Chára",
+        "works_for",
+        "Boston Bruins"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Zdeno Chára",
+        "performed_at",
+        "Montreal"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Al Iafrate",
+        "same_as",
+        "Albert Anthony Iafrate"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Al Iafrate\nAlbert Anthony Iafrate ( ; born March 21, 1966) is a retired American professional ice hockey defenseman who played in the National Hockey League between 1984 and 1998. He is perhaps most famous for his extremely hard slap shot. He set a record for velocity during the NHL Skills Competition of 1993, a record which stood for 16 years, at 105.2 mph . The record was broken in 2009 by Zdeno Chára of the Boston Bruins with a slap shot at 105.4 mph in Montreal. Iafrate was born in Dearborn, Michigan, but grew up in Livonia, Michigan.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Al Iafrate\", \"type\": \"PERSON\"},\n    {\"name\": \"Albert Anthony Iafrate\", \"type\": \"PERSON\"},\n    {\"name\": \"National Hockey League\", \"type\": \"ORG\"},\n    {\"name\": \"NHL Skills Competition\", \"type\": \"EVENT\"},\n    {\"name\": \"Zdeno Chára\", \"type\": \"PERSON\"},\n    {\"name\": \"Boston Bruins\", \"type\": \"ORG\"},\n    {\"name\": \"Montreal\", \"type\": \"GPE\"},\n    {\"name\": \"Dearborn\", \"type\": \"GPE\"},\n    {\"name\": \"Livonia\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Albert Anthony Iafrate\",\n      \"relation\": \"works_for\",\n      \"object\": \"National Hockey League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played in\"}\n      ]\n    },\n    {\n      \"subject\": \"Albert Anthony Iafrate\",\n      \"relation\": \"set_record_at\",\n      \"object\": \"NHL Skills Competition\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"set a record for velocity during the NHL Skills Competition\"}\n      ]\n    },\n    {\n      \"subject\": \"Zdeno Chára\",\n      \"relation\": \"works_for\",\n      \"object\": \"Boston Bruins\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the Boston Bruins\"}\n      ]\n    },\n    {\n      \"subject\": \"Zdeno Chára\",\n      \"relation\": \"performed_at\",\n      \"object\": \"Montreal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Montreal\"}\n      ]\n    },\n    {\n      \"subject\": \"Albert Anthony Iafrate\",\n      \"relation\": \"born_in\",\n      \"object\": \"Dearborn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Albert Anthony Iafrate\",\n      \"relation\": \"grew_up_in\",\n      \"object\": \"Livonia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"grew up in\"}\n      ]\n    },\n    {\n      \"subject\": \"Al Iafrate\",\n      \"relation\": \"same_as\",\n      \"object\": \"Albert Anthony Iafrate\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"\"}\n      ]\n    }\n  ]\n}"
+}

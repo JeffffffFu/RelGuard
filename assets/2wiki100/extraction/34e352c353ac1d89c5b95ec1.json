@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Rumbi Katedza": "Person",
+    "Zimbabwe": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Rumbi Katedza",
+      "relation": "located_in",
+      "object": "Zimbabwe",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a Zimbabwean Film Producer and Director"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rumbi Katedza",
+        "born_on",
+        "17 January 1974"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rumbi Katedza",
+        "works_as",
+        "Film Producer"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rumbi Katedza",
+        "works_as",
+        "Director"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Rumbi Katedza\nRumbi Katedza is a Zimbabwean Film Producer and Director who was born on 17 January 1974."
+}

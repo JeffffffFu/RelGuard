@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Cigar store Indian": "WORK_OF_ART",
+    "wooden Indian": "WORK_OF_ART",
+    "Native American": "NORP",
+    "tobacconists": "ORG",
+    "African-American lawn jockey": "WORK_OF_ART",
+    "Native American community": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Cigar store Indian",
+        "also_known_as",
+        "wooden Indian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cigar store Indian",
+        "used_to_represent",
+        "tobacconists"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cigar store Indian",
+        "in_the_likeness_of",
+        "Native American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "People within the Native American community",
+        "view_as",
+        "Cigar store Indian"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "People within the Native American community",
+        "draw_analogy_to",
+        "African-American lawn jockey"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Cigar store Indian\nThe cigar store Indian or wooden Indian is an advertisement figure, in the likeness of a Native American, used to represent tobacconists. The figures are often three-dimensional wooden sculptures several feet tall – up to life-sized. They are still occasionally used for their original advertising purpose, but are more often seen as decorations or advertising collectibles, with some pieces drawing sales prices of up to $500,000. People within the Native American community often view such likenesses as a caricature or as depictions that perpetuate stereotypes, drawing an analogy to the African-American lawn jockey.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Cigar store Indian\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"wooden Indian\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Native American\", \"type\": \"NORP\"},\n    {\"name\": \"tobacconists\", \"type\": \"ORG\"},\n    {\"name\": \"African-American lawn jockey\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Native American community\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Cigar store Indian\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"wooden Indian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"or wooden Indian\"}\n      ]\n    },\n    {\n      \"subject\": \"Cigar store Indian\",\n      \"relation\": \"used_to_represent\",\n      \"object\": \"tobacconists\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"used to represent tobacconists\"}\n      ]\n    },\n    {\n      \"subject\": \"Cigar store Indian\",\n      \"relation\": \"in_the_likeness_of\",\n      \"object\": \"Native American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the likeness of a Native American\"}\n      ]\n    },\n    {\n      \"subject\": \"People within the Native American community\",\n      \"relation\": \"view_as\",\n      \"object\": \"Cigar store Indian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"view such likenesses as a caricature or as depictions that perpetuate stereotypes\"}\n      ]\n    },\n    {\n      \"subject\": \"People within the Native American community\",\n      \"relation\": \"draw_analogy_to\",\n      \"object\": \"African-American lawn jockey\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"drawing an analogy to the African-American lawn jockey\"}\n      ]\n    }\n  ]\n}"
+}

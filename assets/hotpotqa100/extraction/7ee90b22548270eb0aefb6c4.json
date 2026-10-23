@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "2016 Blancpain GT Series Endurance Cup": "Event",
+    "Blancpain": "Organization",
+    "SRO": "Organization",
+    "Monza": "Location",
+    "Nürburgring": "Location",
+    "24 Hours of Spa": "Event",
+    "1000 km Paul Ricard": "Event"
+  },
+  "triples": [
+    {
+      "subject": "2016 Blancpain GT Series Endurance Cup",
+      "relation": "started_on",
+      "object": "Monza",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The season started on 24 April at Monza"
+        }
+      ]
+    },
+    {
+      "subject": "2016 Blancpain GT Series Endurance Cup",
+      "relation": "ended_on",
+      "object": "Nürburgring",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and ended on 18 September at the Nürburgring"
+        }
+      ]
+    },
+    {
+      "subject": "2016 Blancpain GT Series Endurance Cup",
+      "relation": "featured",
+      "object": "24 Hours of Spa",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "besides the 24 Hours of Spa"
+        }
+      ]
+    },
+    {
+      "subject": "Blancpain",
+      "relation": "partnered_with",
+      "object": "SRO",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "After developing their partnership, Blancpain and the SRO"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "2016 Blancpain GT Series Endurance Cup",
+        "is_season_of",
+        "Blancpain GT Series Endurance Cup"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "2016 Blancpain GT Series Endurance Cup",
+        "featured",
+        "1000 km Paul Ricard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Blancpain GT Series Endurance Cup",
+        "changed_name_to",
+        "Blancpain Endurance Series"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "2016 Blancpain GT Series Endurance Cup\nThe 2016 Blancpain GT Series Endurance Cup was the sixth season of the Blancpain GT Series Endurance Cup. The season started on 24 April at Monza and ended on 18 September at the Nürburgring. The season featured five rounds, with each race lasting for a duration of three hours besides the 24 Hours of Spa and the 1000 km Paul Ricard events. After developing their partnership, Blancpain and the SRO decided that 2016 would see both the Sprint and Endurance Series further integrated into the Blancpain GT Series, putting the emphasis on the prestigious overall drivers' and manufacturers' titles causing the Endurance Series name to change from Blancpain Endurance Series to Blancpain GT Series Endurance Cup."
+}

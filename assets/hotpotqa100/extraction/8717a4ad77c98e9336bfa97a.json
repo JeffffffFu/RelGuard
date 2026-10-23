@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "Triple Crown Trophy": "PRODUCT",
+    "United States Triple Crown of Thoroughbred Racing": "EVENT",
+    "Thoroughbred Racing Association": "ORG",
+    "Cartier Jewelry Company": "ORG",
+    "Kentucky Derby": "EVENT",
+    "Preakness Stakes": "EVENT",
+    "Belmont Stakes": "EVENT",
+    "Citation": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Triple Crown Trophy",
+      "relation": "awarded_to",
+      "object": "United States Triple Crown of Thoroughbred Racing",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "awarded to",
+          "line_start": 43,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "awarded to",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Cartier Jewelry Company",
+      "relation": "charged_with_creating",
+      "object": "Triple Crown Trophy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were charged with creating",
+          "line_start": 324,
+          "char_start": 344,
+          "ambiguous": false,
+          "relation_mention": "were charged with creating",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Triple Crown Trophy",
+      "relation": "engraved_with",
+      "object": "Kentucky Derby",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "are engraved with",
+          "line_start": 594,
+          "char_start": 614,
+          "ambiguous": false,
+          "relation_mention": "are engraved with",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Triple Crown Trophy",
+      "relation": "engraved_with",
+      "object": "Preakness Stakes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "are engraved with",
+          "line_start": 594,
+          "char_start": 614,
+          "ambiguous": false,
+          "relation_mention": "are engraved with",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Triple Crown Trophy",
+      "relation": "engraved_with",
+      "object": "Belmont Stakes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "are engraved with",
+          "line_start": 594,
+          "char_start": 614,
+          "ambiguous": false,
+          "relation_mention": "are engraved with",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Triple Crown Trophy",
+        "commissioned_by",
+        "Thoroughbred Racing Association"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Triple Crown Trophy",
+        "represents",
+        "pinnacle achievement in horseracing"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Triple Crown Trophy",
+        "awarded_to",
+        "Citation"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Triple Crown Trophy\nThe Triple Crown Trophy is a silver trophy awarded to the winner of the United States Triple Crown of Thoroughbred Racing. The Triple Crown trophy has come to represent the pinnacle achievement in horseracing. Commissioned in 1950 by the Thoroughbred Racing Association, artisans at the world-famous Cartier Jewelry Company were charged with creating not just a trophy, but a true work of art. The result was a three-sided vase, each face equally representing the three jewels of the crown, intending to capture the spirit of horseracing's most sought after, and rarest, honor. The three sides are engraved with specific information from each of the three races; the Kentucky Derby, the Preakness Stakes and the Belmont Stakes. Upon completion of the first trophy it was awarded to the 1948 Triple Crown Winner Citation. Each year thereafter, retroactive trophies were presented to the first eight winners of the Triple Crown in reverse order until all of the previous winners or their heirs were awarded.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Triple Crown Trophy\", \"type\": \"PRODUCT\"},\n    {\"name\": \"United States Triple Crown of Thoroughbred Racing\", \"type\": \"EVENT\"},\n    {\"name\": \"Thoroughbred Racing Association\", \"type\": \"ORG\"},\n    {\"name\": \"Cartier Jewelry Company\", \"type\": \"ORG\"},\n    {\"name\": \"Kentucky Derby\", \"type\": \"EVENT\"},\n    {\"name\": \"Preakness Stakes\", \"type\": \"EVENT\"},\n    {\"name\": \"Belmont Stakes\", \"type\": \"EVENT\"},\n    {\"name\": \"Citation\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Triple Crown Trophy\",\n      \"relation\": \"awarded_to\",\n      \"object\": \"United States Triple Crown of Thoroughbred Racing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"awarded to\"}\n      ]\n    },\n    {\n      \"subject\": \"Triple Crown Trophy\",\n      \"relation\": \"commissioned_by\",\n      \"object\": \"Thoroughbred Racing Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Commissioned in 1950 by the Thoroughbred Racing Association\"}\n      ]\n    },\n    {\n      \"subject\": \"Cartier Jewelry Company\",\n      \"relation\": \"charged_with_creating\",\n      \"object\": \"Triple Crown Trophy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were charged with creating\"}\n      ]\n    },\n    {\n      \"subject\": \"Triple Crown Trophy\",\n      \"relation\": \"represents\",\n      \"object\": \"pinnacle achievement in horseracing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has come to represent\"}\n      ]\n    },\n    {\n      \"subject\": \"Triple Crown Trophy\",\n      \"relation\": \"engraved_with\",\n      \"object\": \"Kentucky Derby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are engraved with\"}\n      ]\n    },\n    {\n      \"subject\": \"Triple Crown Trophy\",\n      \"relation\": \"engraved_with\",\n      \"object\": \"Preakness Stakes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are engraved with\"}\n      ]\n    },\n    {\n      \"subject\": \"Triple Crown Trophy\",\n      \"relation\": \"engraved_with\",\n      \"object\": \"Belmont Stakes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"are engraved with\"}\n      ]\n    },\n    {\n      \"subject\": \"Triple Crown Trophy\",\n      \"relation\": \"awarded_to\",\n      \"object\": \"Citation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"it was awarded to the 1948 Triple Crown Winner Citation\"}\n      ]\n    }\n  ]\n}"
+}

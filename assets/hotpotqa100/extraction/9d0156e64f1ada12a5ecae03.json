@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "People's Prize": "WORK_OF_ART",
+    "People's Prize Awarding Commission": "ORG",
+    "Cabinet of North Korea": "ORG",
+    "North Korea": "GPE",
+    "Korean": "LANGUAGE",
+    "North Korean cinema": "LOC"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "People's Prize",
+        "is_a",
+        "North Korean arts and sciences award"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "People's Prize",
+        "awarded_by",
+        "People's Prize Awarding Commission"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "People's Prize Awarding Commission",
+        "works_under",
+        "Cabinet of North Korea"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "People's Prize",
+        "can_be_granted_to",
+        "works of art"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "People's Prize",
+        "can_be_granted_to",
+        "people"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "People's Prize",
+        "has_been_important_in",
+        "North Korean cinema"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "People's Prize",
+        "has_name_in_language",
+        "Korean"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "People's Prize",
+        "located_in",
+        "North Korea"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "People's Prize\nThe People's Prize (Korean: 인민상 ) is a North Korean arts and sciences award. It is awarded by the People's Prize Awarding Commission, which is working directly under the Cabinet of North Korea. The prize can be granted to works of art or people. People's Prize has been an important award in the field of North Korean cinema.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"People's Prize\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"People's Prize Awarding Commission\", \"type\": \"ORG\"},\n    {\"name\": \"Cabinet of North Korea\", \"type\": \"ORG\"},\n    {\"name\": \"North Korea\", \"type\": \"GPE\"},\n    {\"name\": \"Korean\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"North Korean cinema\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"People's Prize\",\n      \"relation\": \"is_a\",\n      \"object\": \"North Korean arts and sciences award\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a North Korean arts and sciences award\"}\n      ]\n    },\n    {\n      \"subject\": \"People's Prize\",\n      \"relation\": \"awarded_by\",\n      \"object\": \"People's Prize Awarding Commission\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is awarded by the People's Prize Awarding Commission\"}\n      ]\n    },\n    {\n      \"subject\": \"People's Prize Awarding Commission\",\n      \"relation\": \"works_under\",\n      \"object\": \"Cabinet of North Korea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is working directly under the Cabinet of North Korea\"}\n      ]\n    },\n    {\n      \"subject\": \"People's Prize\",\n      \"relation\": \"can_be_granted_to\",\n      \"object\": \"works of art\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"can be granted to works of art\"}\n      ]\n    },\n    {\n      \"subject\": \"People's Prize\",\n      \"relation\": \"can_be_granted_to\",\n      \"object\": \"people\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"can be granted to works of art or people\"}\n      ]\n    },\n    {\n      \"subject\": \"People's Prize\",\n      \"relation\": \"has_been_important_in\",\n      \"object\": \"North Korean cinema\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"has been an important award in the field of North Korean cinema\"}\n      ]\n    },\n    {\n      \"subject\": \"People's Prize\",\n      \"relation\": \"has_name_in_language\",\n      \"object\": \"Korean\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(Korean: 인민상 )\"}\n      ]\n    },\n    {\n      \"subject\": \"People's Prize\",\n      \"relation\": \"located_in\",\n      \"object\": \"North Korea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a North Korean arts and sciences award\"}\n      ]\n    }\n  ]\n}"
+}

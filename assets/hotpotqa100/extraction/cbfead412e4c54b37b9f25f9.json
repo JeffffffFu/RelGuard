@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "Hawthorne Smoke Shop": "FAC",
+    "Ship": "FAC",
+    "Al Capone": "PERSON",
+    "Frankie Pope": "PERSON",
+    "Pete Penovich": "PERSON",
+    "Cicero": "GPE",
+    "Illinois": "GPE",
+    "Chicago": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Hawthorne Smoke Shop",
+      "relation": "owned_by",
+      "object": "Al Capone",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owned by",
+          "line_start": 73,
+          "char_start": 94,
+          "ambiguous": false,
+          "relation_mention": "owned by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hawthorne Smoke Shop",
+      "relation": "run_by",
+      "object": "Frankie Pope",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "run by",
+          "line_start": 114,
+          "char_start": 135,
+          "ambiguous": false,
+          "relation_mention": "run by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hawthorne Smoke Shop",
+      "relation": "run_by",
+      "object": "Pete Penovich",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "run by",
+          "line_start": 114,
+          "char_start": 135,
+          "ambiguous": false,
+          "relation_mention": "run by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hawthorne Smoke Shop",
+      "relation": "located_in",
+      "object": "Cicero",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 177,
+          "char_start": 198,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Al Capone",
+      "relation": "fled_to_escape",
+      "object": "Cicero",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "had fled to escape",
+          "line_start": 219,
+          "char_start": 240,
+          "ambiguous": false,
+          "relation_mention": "had fled to escape",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hawthorne Smoke Shop",
+        "also_known_as",
+        "Ship"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Cicero",
+        "located_in",
+        "Illinois"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Al Capone",
+        "fled_to_escape",
+        "Chicago"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Hawthorne Smoke Shop\nThe Hawthorne Smoke Shop (later known as the Ship) was a gambling casino owned by American gangster Al Capone and run by fellow gangsters Frankie Pope and Pete Penovich. It was located in Cicero, Illinois, where Capone had fled to escape Chicago police. Although shut down temporarily by raids several times during its existence, it provided a significant amount of revenue, earning half a million dollars in a two-year period. The profits from the Hawthorne Smoke Shop were one piece of evidence used against Capone at his trial in 1931.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Hawthorne Smoke Shop\", \"type\": \"FAC\"},\n    {\"name\": \"Ship\", \"type\": \"FAC\"},\n    {\"name\": \"Al Capone\", \"type\": \"PERSON\"},\n    {\"name\": \"Frankie Pope\", \"type\": \"PERSON\"},\n    {\"name\": \"Pete Penovich\", \"type\": \"PERSON\"},\n    {\"name\": \"Cicero\", \"type\": \"GPE\"},\n    {\"name\": \"Illinois\", \"type\": \"GPE\"},\n    {\"name\": \"Chicago\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Hawthorne Smoke Shop\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Ship\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(later known as the Ship)\"}\n      ]\n    },\n    {\n      \"subject\": \"Hawthorne Smoke Shop\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Al Capone\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"Hawthorne Smoke Shop\",\n      \"relation\": \"run_by\",\n      \"object\": \"Frankie Pope\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"run by\"}\n      ]\n    },\n    {\n      \"subject\": \"Hawthorne Smoke Shop\",\n      \"relation\": \"run_by\",\n      \"object\": \"Pete Penovich\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"run by\"}\n      ]\n    },\n    {\n      \"subject\": \"Hawthorne Smoke Shop\",\n      \"relation\": \"located_in\",\n      \"object\": \"Cicero\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Cicero\",\n      \"relation\": \"located_in\",\n      \"object\": \"Illinois\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Cicero, Illinois\"}\n      ]\n    },\n    {\n      \"subject\": \"Al Capone\",\n      \"relation\": \"fled_to_escape\",\n      \"object\": \"Cicero\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"had fled to escape\"}\n      ]\n    },\n    {\n      \"subject\": \"Al Capone\",\n      \"relation\": \"fled_to_escape\",\n      \"object\": \"Chicago\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"had fled to escape Chicago police\"}\n      ]\n    }\n  ]\n}"
+}

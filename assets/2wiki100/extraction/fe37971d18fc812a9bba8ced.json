@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Before I Disappear": "WORK_OF_ART",
+    "Shawn Christensen": "PERSON",
+    "Curfew": "WORK_OF_ART",
+    "South by Southwest Film": "EVENT",
+    "IFC Films": "ORG",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Before I Disappear",
+      "relation": "directed_by",
+      "object": "Shawn Christensen",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 49,
+          "char_start": 68,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Before I Disappear",
+      "relation": "acquired_for_distribution_by",
+      "object": "IFC Films",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "acquired for distribution by",
+          "line_start": 261,
+          "char_start": 280,
+          "ambiguous": false,
+          "relation_mention": "acquired for distribution by",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Before I Disappear",
+        "adaptation_of",
+        "Curfew"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Before I Disappear",
+        "premiered_at",
+        "South by Southwest Film"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Before I Disappear",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Before I Disappear\nBefore I Disappear is a 2014 American drama film directed by Shawn Christensen. The film is a feature- length adaptation of his 2012 Oscar- winning short film,\" Curfew\". The film had its world premiere at South by Southwest Film on March 10, 2014. The film was acquired for distribution by IFC Films on August 5, 2014 and released on November 28, 2014.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Before I Disappear\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Shawn Christensen\", \"type\": \"PERSON\"},\n    {\"name\": \"Curfew\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"South by Southwest Film\", \"type\": \"EVENT\"},\n    {\"name\": \"IFC Films\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Before I Disappear\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Shawn Christensen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Before I Disappear\",\n      \"relation\": \"adaptation_of\",\n      \"object\": \"Curfew\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"adaptation of\"}\n      ]\n    },\n    {\n      \"subject\": \"Before I Disappear\",\n      \"relation\": \"premiered_at\",\n      \"object\": \"South by Southwest Film\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"premiere at\"}\n      ]\n    },\n    {\n      \"subject\": \"Before I Disappear\",\n      \"relation\": \"acquired_for_distribution_by\",\n      \"object\": \"IFC Films\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"acquired for distribution by\"}\n      ]\n    },\n    {\n      \"subject\": \"Before I Disappear\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    }\n  ]\n}"
+}

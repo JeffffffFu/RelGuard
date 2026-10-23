@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Veterinary education": "Concept",
+    "veterinarian": "Profession",
+    "veterinary degree": "Degree"
+  },
+  "triples": [
+    {
+      "subject": "veterinarian",
+      "relation": "requires",
+      "object": "veterinary degree",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "To become a veterinarian, one must first complete a veterinary degree (DVM, VMD, BVS, BVSc, BVMS, BVM, cand.med.vet)."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Veterinary education",
+        "is_a",
+        "Concept"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Veterinary education\nVeterinary education is the tertiary education of veterinarians. To become a veterinarian, one must first complete a veterinary degree (DVM, VMD, BVS, BVSc, BVMS, BVM, cand.med.vet)."
+}

@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "APB": "ORG",
+    "Franz Ferdinand": "ORG",
+    "The Rapture": "ORG",
+    "Red Hot Chili Peppers": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "APB",
+      "relation": "influenced",
+      "object": "Franz Ferdinand",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "their influence can be heard in the sound of such current bands as Franz Ferdinand"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Scotland (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "APB",
+        "formed_in",
+        "Scotland"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "APB",
+        "influenced",
+        "The Rapture"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "APB",
+        "influenced",
+        "Red Hot Chili Peppers"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "APB (band)\nAPB was a Scottish post-punk band, formed in 1979, that blended funk rock, punk rock and new wave music. The group had only modest success during its brief run, yet their influence can be heard in the sound of such current bands as Franz Ferdinand, The Rapture, and Red Hot Chili Peppers."
+}

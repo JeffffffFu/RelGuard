@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Almonte": "GPE",
+    "Ontario": "GPE",
+    "Lanark County": "GPE",
+    "Canada": "GPE",
+    "Mississippi Mills": "GPE",
+    "Ottawa": "GPE",
+    "Ramsay": "GPE",
+    "Pakenham": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Almonte",
+      "relation": "located_in",
+      "object": "Lanark County",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 118,
+          "char_start": 135,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Almonte",
+        "located_in",
+        "Ontario"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Almonte",
+        "located_in",
+        "Canada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Almonte",
+        "works_for",
+        "Mississippi Mills"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mississippi Mills",
+        "founded",
+        "Almonte"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mississippi Mills",
+        "founded",
+        "Ramsay"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Mississippi Mills",
+        "founded",
+        "Pakenham"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Almonte",
+        "located_in",
+        "Ottawa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Almonte, Ontario\nAlmonte (pronounced \"AL-mont\" as opposed to the original Spanish pronunciation of \"al-MON-tay\") is a former mill town located in Lanark County, in the eastern portion of Ontario, Canada. Formerly a separate municipality, Almonte is now a ward of the town of Mississippi Mills, which was created on January 1, 1998 by the merging of Almonte with Ramsay and Pakenham townships. Almonte is located 46 km south-west of downtown Ottawa. Its population as of 2013 is about 5,000.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Almonte\", \"type\": \"GPE\"},\n    {\"name\": \"Ontario\", \"type\": \"GPE\"},\n    {\"name\": \"Lanark County\", \"type\": \"GPE\"},\n    {\"name\": \"Canada\", \"type\": \"GPE\"},\n    {\"name\": \"Mississippi Mills\", \"type\": \"GPE\"},\n    {\"name\": \"Ottawa\", \"type\": \"GPE\"},\n    {\"name\": \"Ramsay\", \"type\": \"GPE\"},\n    {\"name\": \"Pakenham\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Almonte\",\n      \"relation\": \"located_in\",\n      \"object\": \"Lanark County\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Almonte\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ontario\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the eastern portion of Ontario\"}\n      ]\n    },\n    {\n      \"subject\": \"Almonte\",\n      \"relation\": \"located_in\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Ontario, Canada\"}\n      ]\n    },\n    {\n      \"subject\": \"Almonte\",\n      \"relation\": \"works_for\",\n      \"object\": \"Mississippi Mills\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is now a ward of the town of Mississippi Mills\"}\n      ]\n    },\n    {\n      \"subject\": \"Mississippi Mills\",\n      \"relation\": \"founded\",\n      \"object\": \"Almonte\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by the merging of Almonte\"}\n      ]\n    },\n    {\n      \"subject\": \"Mississippi Mills\",\n      \"relation\": \"founded\",\n      \"object\": \"Ramsay\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by the merging of Almonte with Ramsay\"}\n      ]\n    },\n    {\n      \"subject\": \"Mississippi Mills\",\n      \"relation\": \"founded\",\n      \"object\": \"Pakenham\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by the merging of Almonte with Ramsay and Pakenham townships\"}\n      ]\n    },\n    {\n      \"subject\": \"Almonte\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ottawa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located 46 km south-west of downtown Ottawa\"}\n      ]\n    }\n  ]\n}"
+}

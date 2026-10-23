@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Bolton": "GPE",
+    "Greater Manchester": "GPE",
+    "North West England": "LOC",
+    "Flemish": "NORP",
+    "Industrial Revolution": "EVENT",
+    "British cotton industry": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Bolton",
+      "relation": "located_in",
+      "object": "Greater Manchester",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a town in",
+          "line_start": 24,
+          "char_start": 31,
+          "ambiguous": false,
+          "relation_mention": "is a town in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Flemish",
+      "relation": "settled_in",
+      "object": "Bolton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "settled in",
+          "line_start": 170,
+          "char_start": 177,
+          "ambiguous": false,
+          "relation_mention": "settled in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Bolton",
+      "relation": "coincided_with",
+      "object": "Industrial Revolution",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "coincided with",
+          "line_start": 313,
+          "char_start": 320,
+          "ambiguous": false,
+          "relation_mention": "coincided with",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bolton",
+        "located_in",
+        "North West England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bolton",
+        "was_production_centre_for",
+        "textiles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bolton",
+        "was",
+        "19th-century boomtown"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bolton",
+        "had_cotton_manufacture_cease_in",
+        "1980s"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "British cotton industry",
+        "declined_after",
+        "First World War"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bolton\nBolton ( or locally ] ) is a town in Greater Manchester in North West England. A former mill town, Bolton has been a production centre for textiles since Flemish weavers settled in the area in the 14th century, introducing a wool and cotton-weaving tradition. The urbanisation and development of the town largely coincided with the introduction of textile manufacture during the Industrial Revolution. Bolton was a 19th-century boomtown, and at its zenith in 1929 its 216 cotton mills and 26 bleaching and dyeing works made it one of the largest and most productive centres of cotton spinning in the world. The British cotton industry declined sharply after the First World War, and by the 1980s cotton manufacture had virtually ceased in Bolton."
+}

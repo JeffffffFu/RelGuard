@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Mangareva Statue": "artifact",
+    "British Museum": "institution",
+    "Mangareva": "location",
+    "French Polynesia": "location",
+    "English missionaries": "group"
+  },
+  "triples": [
+    {
+      "subject": "Mangareva Statue",
+      "relation": "located_in",
+      "object": "Mangareva",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "made on the Pacific island of Mangareva"
+        }
+      ]
+    },
+    {
+      "subject": "Mangareva Statue",
+      "relation": "located_in",
+      "object": "French Polynesia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on the Pacific island of Mangareva in French Polynesia"
+        }
+      ]
+    },
+    {
+      "subject": "Mangareva Statue",
+      "relation": "given_to",
+      "object": "English missionaries",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "given to English missionaries"
+        }
+      ]
+    },
+    {
+      "subject": "Mangareva Statue",
+      "relation": "bought_by",
+      "object": "British Museum",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was eventually bought by the British Museum in 1911"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "English missionaries",
+        "converted_to",
+        "Christianity"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mangareva Statue\nThe Mangareva Statue or \"Deity Figure from Mangareva\" is an important wooden sculpture of a male god that was made on the Pacific island of Mangareva in French Polynesia. The idol was given to English missionaries in the early nineteenth century as the local population converted to Christianity. It was eventually bought by the British Museum in 1911."
+}

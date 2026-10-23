@@ -1,0 +1,101 @@
+{
+  "entities": {
+    "Herman Arvie": "Person",
+    "Cleveland Browns": "Team",
+    "Baltimore Ravens": "Team",
+    "Grambling State University": "University",
+    "NFL Draft": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Herman Arvie",
+      "relation": "played_for",
+      "object": "Cleveland Browns",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who played four seasons in the National Football League as an offensive tackle with the Cleveland Browns"
+        }
+      ]
+    },
+    {
+      "subject": "Herman Arvie",
+      "relation": "played_for",
+      "object": "Baltimore Ravens",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and Baltimore Ravens."
+        }
+      ]
+    },
+    {
+      "subject": "Herman Arvie",
+      "relation": "drafted_by",
+      "object": "Cleveland Browns",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Arvie was drafted by the Browns out of Grambling State University in the fifth round of the 1993 NFL Draft."
+        }
+      ]
+    },
+    {
+      "subject": "Herman Arvie",
+      "relation": "attended",
+      "object": "Grambling State University",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "out of Grambling State University"
+        }
+      ]
+    },
+    {
+      "subject": "Cleveland Browns",
+      "relation": "moved_to",
+      "object": "Baltimore Ravens",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "before the franchise moved to Baltimore and became the Baltimore Ravens."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Herman Arvie",
+        "born_on",
+        "October 12, 1970"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Herman Arvie",
+        "retired_from",
+        "football"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Herman Arvie",
+        "scored_on",
+        "one-yard reception"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "NFL Draft",
+        "occurred_in",
+        "1993"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Herman Arvie\nHerman Joseph Arvie (born October 12, 1970) is a retired American professional football player who played four seasons in the National Football League as an offensive tackle with the Cleveland Browns and Baltimore Ravens. Arvie was drafted by the Browns out of Grambling State University in the fifth round of the 1993 NFL Draft. Arvie played three seasons with the Browns before the franchise moved to Baltimore and became the Baltimore Ravens. With the Ravens in 1996, Arvie scored his only touchdown, scoring on a one-yard reception. After the 1996 season, Arvie retired from football."
+}

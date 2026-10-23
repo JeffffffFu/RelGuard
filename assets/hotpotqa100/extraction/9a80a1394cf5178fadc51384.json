@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "His Chance in Life": "WORK_OF_ART",
+    "Rudyard Kipling": "PERSON",
+    "Plain Tales from the Hills": "WORK_OF_ART",
+    "Kipling Society": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "His Chance in Life",
+        "written_by",
+        "Rudyard Kipling"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "His Chance in Life",
+        "included_in",
+        "Plain Tales from the Hills"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "His Chance in Life",
+        "discussed_by",
+        "Kipling Society"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        ":Rudyard Kipling",
+        "mentioned_as",
+        "Kipling Society"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "His Chance in Life\n\"His Chance in Life\" is a short story by Rudyard Kipling. It was first published in the first Indian edition of \"Plain Tales from the Hills\" (1888), and in subsequent editions of that collection. The story is illuminating about Kipling's attitudes to race, which are less cut-and-dried than is often thought. Kipling is interesting, if not very detailed, on people of mixed race and the snobberies involved. (For some detail, see the Kipling Society notes.)",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"His Chance in Life\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Rudyard Kipling\", \"type\": \"PERSON\"},\n    {\"name\": \"Plain Tales from the Hills\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Kipling Society\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"His Chance in Life\",\n      \"relation\": \"written_by\",\n      \"object\": \"Rudyard Kipling\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a short story by\"}\n      ]\n    },\n    {\n      \"subject\": \"His Chance in Life\",\n      \"relation\": \"included_in\",\n      \"object\": \"Plain Tales from the Hills\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the first Indian edition of\"}\n      ]\n    },\n    {\n      \"subject\": \"His Chance in Life\",\n      \"relation\": \"discussed_by\",\n      \"object\": \"Kipling Society\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"see the Kipling Society notes\"}\n      ]\n    },\n    {\n      \"subject\":\":Rudyard Kipling\",\n      \"relation\":\"mentioned_as\",\n      \"object\":\"Kipling Society\",\n      \"occurrences\":[\n        {\"line\":2,\"predicate\":\"see the Kipling Society notes\"}\n      ]\n    }\n  ]\n}"
+}

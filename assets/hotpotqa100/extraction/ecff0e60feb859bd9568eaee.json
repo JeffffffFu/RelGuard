@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "The Hollow": "WORK_OF_ART",
+    "Miles Doleac": "PERSON",
+    "Long Island International Film Expo": "EVENT",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "The Hollow",
+      "relation": "written_by",
+      "object": "Miles Doleac",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 55,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Hollow",
+        "directed_by",
+        "Miles Doleac"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Hollow",
+        "won_award_at",
+        "Long Island International Film Expo"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Hollow",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Hollow (2016 film)\nThe Hollow is a 2016 American crime film, directed and written by Miles Doleac. The film won 3 awards (Best Actor, Supporting Actor, and Cinematography) at the 2016 Long Island International Film Expo.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Hollow\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Miles Doleac\", \"type\": \"PERSON\"},\n    {\"name\": \"Long Island International Film Expo\", \"type\": \"EVENT\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Hollow\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Miles Doleac\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Hollow\",\n      \"relation\": \"written_by\",\n      \"object\": \"Miles Doleac\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Hollow\",\n      \"relation\": \"won_award_at\",\n      \"object\": \"Long Island International Film Expo\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"won 3 awards (Best Actor, Supporting Actor, and Cinematography) at the 2016 Long Island International Film Expo\"}\n      ]\n    },\n    {\n      \"subject\": \"The Hollow\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    }\n  ]\n}"
+}

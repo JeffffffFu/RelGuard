@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Harold Becker": "PERSON",
+    "New York": "GPE",
+    "Mercury Rising": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Harold Becker",
+      "relation": "born_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from New York"
+        }
+      ]
+    },
+    {
+      "subject": "Harold Becker",
+      "relation": "best_known_for",
+      "object": "Mercury Rising",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "best known for his work in the thriller genre"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "6 entities not in the document",
+      "entities": [
+        "The Onion Field (WORK_OF_ART)",
+        "Taps (WORK_OF_ART)",
+        "The Boost (WORK_OF_ART)",
+        "Sea of Love (WORK_OF_ART)",
+        "Malice (WORK_OF_ART)",
+        "City Hall (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "best_known_for",
+        "The Onion Field"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "best_known_for",
+        "Taps"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "best_known_for",
+        "The Boost"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "best_known_for",
+        "Sea of Love"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "best_known_for",
+        "Malice"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "best_known_for",
+        "City Hall"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Harold Becker\nHarold Becker( born September 25, 1928) is an American film and television director, producer, and photographer from New York, associated with the New Hollywood movement and best known for his work in the thriller genre. His body of work includes films like\" The Onion FieldTaps The BoostSea of LoveMaliceCity Hall\" and\" Mercury Rising\"."
+}

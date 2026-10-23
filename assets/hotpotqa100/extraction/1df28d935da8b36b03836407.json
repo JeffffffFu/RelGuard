@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Sylvia": "WORK_OF_ART",
+    "Sylvia, ou La nymphe de Diane": "WORK_OF_ART",
+    "Louis Mérante": "PERSON",
+    "Léo Delibes": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Sylvia",
+      "relation": "choreographed_by",
+      "object": "Louis Mérante",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "choreographed by",
+          "line_start": 102,
+          "char_start": 118,
+          "ambiguous": false,
+          "relation_mention": "choreographed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Arcadia (LOC)"
+      ]
+    },
+    {
+      "triple": [
+        "Sylvia",
+        "also_known_as",
+        "Sylvia, ou La nymphe de Diane"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sylvia",
+        "music_by",
+        "Léo Delibes"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sylvia",
+        "located_in",
+        "Arcadia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sylvia (ballet)\nSylvia, originally Sylvia, ou La nymphe de Diane, is a full-length ballet in two or three acts, first choreographed by Louis Mérante to music by Léo Delibes in 1876. \"Sylvia\" is a typical classical ballet in many respects, yet it has many interesting features that make it unique. \"Sylvia\" is notable for its mythological Arcadian setting, creative choreographies, expansive sets and, above all, its remarkable score.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Sylvia\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Sylvia, ou La nymphe de Diane\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Louis Mérante\", \"type\": \"PERSON\"},\n    {\"name\": \"Léo Delibes\", \"type\": \"PERSON\"},\n    {\"name\": \"Arcadia\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Sylvia\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Sylvia, ou La nymphe de Diane\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"originally Sylvia, ou La nymphe de Diane\"}\n      ]\n    },\n    {\n      \"subject\": \"Sylvia\",\n      \"relation\": \"choreographed_by\",\n      \"object\": \"Louis Mérante\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"choreographed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Sylvia\",\n      \"relation\": \"music_by\",\n      \"object\": \"Léo Delibes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to music by\"}\n      ]\n    },\n    {\n      \"subject\": \"Sylvia\",\n      \"relation\": \"located_in\",\n      \"object\": \"Arcadia\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"Arcadian setting\"}\n      ]\n    }\n  ]\n}"
+}

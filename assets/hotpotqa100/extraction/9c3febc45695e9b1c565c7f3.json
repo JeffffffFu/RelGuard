@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Coney Island USA": "ORG",
+    "Coney Island": "LOC",
+    "Borough of Brooklyn": "GPE",
+    "New York City": "GPE",
+    "Coney Island Museum": "ORG",
+    "Coney Island Mermaid Parade": "EVENT",
+    "Sideshows by the Seashore": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Coney Island USA",
+      "relation": "founded",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in",
+          "line_start": 65,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "founded in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Coney Island USA",
+        "located_in",
+        "Coney Island"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coney Island USA",
+        "located_in",
+        "Borough of Brooklyn"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coney Island USA",
+        "located_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coney Island USA",
+        "houses",
+        "Coney Island Museum"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coney Island USA",
+        "presents",
+        "Sideshows by the Seashore"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coney Island USA",
+        "organizes",
+        "Coney Island Mermaid Parade"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Coney Island Mermaid Parade",
+        "first_took_place_in",
+        "Coney Island USA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Coney Island USA\nConey Island USA is a 501(c)(3) not-for-profit arts organization founded in 1980 that is dedicated to the cultural and economic revitalization of the Coney Island neighborhood of the Borough of Brooklyn in New York City. Its landmark building in the heart Coney Island's amusement district houses a theater in which the organization presents \"Sideshows by the Seashore\", a showcase for performers with unusual talents that runs continuously during the warmer months, as well as the Coney Island Museum. It is also notable as the organizer of the annual Coney Island Mermaid Parade, the first of which took place in 1983.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Coney Island USA\", \"type\": \"ORG\"},\n    {\"name\": \"Coney Island\", \"type\": \"LOC\"},\n    {\"name\": \"Borough of Brooklyn\", \"type\": \"GPE\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"Coney Island Museum\", \"type\": \"ORG\"},\n    {\"name\": \"Coney Island Mermaid Parade\", \"type\": \"EVENT\"},\n    {\"name\": \"Sideshows by the Seashore\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Coney Island USA\",\n      \"relation\": \"founded\",\n      \"object\": \"Coney Island\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"founded in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Coney Island USA\",\n      \"relation\": \"located_in\",\n      \"object\": \"Coney Island\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"of the Coney Island neighborhood\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Coney Island USA\",\n      \"relation\": \"located_in\",\n      \"object\": \"Borough of Brooklyn\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"of the Coney Island neighborhood of the Borough of Brooklyn\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Coney Island USA\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in New York City\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Coney Island USA\",\n      \"relation\": \"houses\",\n      \"object\": \"Coney Island Museum\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"houses a theater in which the organization presents \\\"Sideshows by the Seashore\\\", a showcase for performers with unusual talents that runs continuously during the warmer months, as well as the Coney Island Museum\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Coney Island USA\",\n      \"relation\": \"presents\",\n      \"object\": \"Sideshows by the Seashore\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"presents \\\"Sideshows by the Seashore\\\"\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Coney Island USA\",\n      \"relation\": \"organizes\",\n      \"object\": \"Coney Island Mermaid Parade\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"organizer of the annual Coney Island Mermaid Parade\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Coney Island Mermaid Parade\",\n      \"relation\": \"first_took_place_in\",\n      \"object\": \"Coney Island USA\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"the first of which took place in 1983\"\n        }\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "Pyar Ka Karz": "film",
+    "K. Bapaiah": "director",
+    "Mithun Chakraborty": "actor",
+    "Dharmendra": "actor",
+    "Shakti Kapoor": "actor"
+  },
+  "triples": [
+    {
+      "subject": "Pyar Ka Karz",
+      "relation": "directed_by",
+      "object": "K. Bapaiah",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by K. Bapaiah"
+        }
+      ]
+    },
+    {
+      "subject": "Pyar Ka Karz",
+      "relation": "starring",
+      "object": "Mithun Chakraborty",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Mithun Chakraborty"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pyar Ka Karz",
+        "starring",
+        "Dharmendra"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pyar Ka Karz",
+        "starring",
+        "Shakti Kapoor"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Pyar Ka Karz\nPyar Ka Karz is a 1990 Hindi- language Indian feature film directed by K. Bapaiah, starring Mithun Chakraborty, Dharmendra and Shakti Kapoor."
+}

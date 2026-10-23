@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Reggie Jackson": "Person",
+    "Kansas City / Oakland Athletics": "Team",
+    "Baltimore Orioles": "Team",
+    "New York Yankees": "Team",
+    "California Angels": "Team",
+    "Major League Baseball": "Organization",
+    "National Baseball Hall of Fame": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Reggie Jackson",
+      "relation": "played_for",
+      "object": "Kansas City / Oakland Athletics",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who played 21 seasons for the Kansas City / Oakland Athletics"
+        }
+      ]
+    },
+    {
+      "subject": "Reggie Jackson",
+      "relation": "inducted_into",
+      "object": "National Baseball Hall of Fame",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was inducted into the National Baseball Hall of Fame in 1993"
+        }
+      ]
+    },
+    {
+      "subject": "Reggie Jackson",
+      "relation": "associated_with",
+      "object": "Major League Baseball",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of Major League Baseball (MLB)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Reggie Jackson",
+        "played_for",
+        "Baltimore Orioles"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Reggie Jackson",
+        "played_for",
+        "New York Yankees"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Reggie Jackson",
+        "played_for",
+        "California Angels"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Reggie Jackson\nReginald Martinez \"Reggie\" Jackson (born May 18, 1946) is an American former professional baseball right fielder who played 21 seasons for the Kansas City / Oakland Athletics, Baltimore Orioles, New York Yankees, and California Angels of Major League Baseball (MLB). Jackson was inducted into the National Baseball Hall of Fame in 1993."
+}

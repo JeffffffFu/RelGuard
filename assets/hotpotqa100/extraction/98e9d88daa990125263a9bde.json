@@ -1,0 +1,155 @@
+{
+  "entities": {
+    "The Interview": "WORK_OF_ART",
+    "Seth Rogen": "PERSON",
+    "Evan Goldberg": "PERSON",
+    "This Is the End": "WORK_OF_ART",
+    "Dan Sterling": "PERSON",
+    "Seth Rogen and Evan Goldberg": "ORG",
+    "James Franco": "PERSON",
+    "Kim Jong-un": "PERSON",
+    "Randall Park": "PERSON",
+    "CIA": "ORG",
+    "Vice": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "The Interview",
+      "relation": "directed_by",
+      "object": "Seth Rogen",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 52,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Interview",
+      "relation": "directed_by",
+      "object": "Evan Goldberg",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 52,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "The Interview",
+      "relation": "follows",
+      "object": "This Is the End",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "following",
+          "line_start": 131,
+          "char_start": 145,
+          "ambiguous": false,
+          "relation_mention": "following",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "North Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "The Interview",
+        "screenplay_by",
+        "Dan Sterling"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Dan Sterling",
+        "coauthored_with",
+        "Seth Rogen and Evan Goldberg"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Interview",
+        "stars",
+        "Seth Rogen"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Interview",
+        "stars",
+        "James Franco"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "James Franco",
+        "portrays",
+        "journalists"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Seth Rogen",
+        "portrays",
+        "journalists"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Interview",
+        "features_character",
+        "Kim Jong-un"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kim Jong-un",
+        "portrayed_by",
+        "Randall Park"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Interview",
+        "involves_recruitment_by",
+        "CIA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Interview",
+        "inspired_by",
+        "Vice"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Interview\nThe Interview is a 2014 American action comedy film directed by Seth Rogen and Evan Goldberg. It is their second directorial work, following \"This Is the End\" (2013). The screenplay is by Dan Sterling, based upon a story he co-authored with Rogen and Goldberg. The film stars Rogen and James Franco as journalists who set up an interview with North Korean leader Kim Jong-un (Randall Park), and are recruited by the CIA to assassinate him. The film is also heavily inspired by a Vice documentary which was shot in 2012.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"The Interview\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Seth Rogen\", \"type\": \"PERSON\"},\n    {\"name\": \"Evan Goldberg\", \"type\": \"PERSON\"},\n    {\"name\": \"This Is the End\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Dan Sterling\", \"type\": \"PERSON\"},\n    {\"name\": \"Seth Rogen and Evan Goldberg\", \"type\": \"ORG\"},\n    {\"name\": \"James Franco\", \"type\": \"PERSON\"},\n    {\"name\": \"North Korea\", \"type\": \"GPE\"},\n    {\"name\": \"Kim Jong-un\", \"type\": \"PERSON\"},\n    {\"name\": \"Randall Park\", \"type\": \"PERSON\"},\n    {\"name\": \"CIA\", \"type\": \"ORG\"},\n    {\"name\": \"Vice\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"The Interview\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Seth Rogen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Interview\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Evan Goldberg\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"The Interview\",\n      \"relation\": \"follows\",\n      \"object\": \"This Is the End\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"following\"}\n      ]\n    },\n    {\n      \"subject\": \"The Interview\",\n      \"relation\": \"screenplay_by\",\n      \"object\": \"Dan Sterling\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is by\"}\n      ]\n    },\n    {\n      \"subject\": \"Dan Sterling\",\n      \"relation\": \"coauthored_with\",\n      \"object\": \"Seth Rogen and Evan Goldberg\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-authored with\"}\n      ]\n    },\n    {\n      \"subject\": \"The Interview\",\n      \"relation\": \"stars\",\n      \"object\": \"Seth Rogen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"The Interview\",\n      \"relation\": \"stars\",\n      \"object\": \"James Franco\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"James Franco\",\n      \"relation\": \"portrays\",\n      \"object\": \"journalists\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as\"}\n      ]\n    },\n    {\n      \"subject\": \"Seth Rogen\",\n      \"relation\": \"portrays\",\n      \"object\": \"journalists\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as\"}\n      ]\n    },\n    {\n      \"subject\": \"The Interview\",\n      \"relation\": \"features_character\",\n      \"object\": \"Kim Jong-un\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Kim Jong-un\"}\n      ]\n    },\n    {\n      \"subject\": \"Kim Jong-un\",\n      \"relation\": \"portrayed_by\",\n      \"object\": \"Randall Park\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(Randall Park)\"}\n      ]\n    },\n    {\n      \"subject\": \"The Interview\",\n      \"relation\": \"involves_recruitment_by\",\n      \"object\": \"CIA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"recruited by the CIA\"}\n      ]\n    },\n    {\n      \"subject\": \"The Interview\",\n      \"relation\": \"inspired_by\",\n      \"object\": \"Vice\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"inspired by a Vice\"}\n      ]\n    }\n  ]\n}"
+}

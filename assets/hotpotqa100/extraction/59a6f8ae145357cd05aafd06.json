@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "Noé Murayama": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Mexico (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Noé Murayama",
+        "born_in_country",
+        "Mexico"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Noé Murayama\nNoé Murayama (July 4, 1930 – August 25, 1997) was a Mexican actor, who starred in numerous Mexican films.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Noé Murayama\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Mexico\",\n      \"type\": \"GPE\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Noé Murayama\",\n      \"relation\": \"born_in_country\",\n      \"object\": \"Mexico\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was a Mexican\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Noé Murayama\",\n      \"relation\": \"occupation\",\n      \"object\": \"Noé Murayama\",\n      \"occurrences\": []\n    }\n  ]\n}"
+}

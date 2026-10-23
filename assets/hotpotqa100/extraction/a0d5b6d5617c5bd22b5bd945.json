@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Jim Hanna": "person",
+    "James Andrew Hanna": "person",
+    "Red Setter": "alias",
+    "Ulster Volunteer Force": "organization",
+    "Joe Tiernan": "person",
+    "Kevin Myers": "person",
+    "British Army Intelligence Corps": "organization",
+    "Lisburn": "location"
+  },
+  "triples": [
+    {
+      "subject": "James Andrew Hanna",
+      "relation": "also_known_as",
+      "object": "Red Setter",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "also known as Red Setter"
+        }
+      ]
+    },
+    {
+      "subject": "James Andrew Hanna",
+      "relation": "member_of",
+      "object": "Ulster Volunteer Force",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "senior member of the Northern Irish loyalist paramilitary organisation, the Ulster Volunteer Force"
+        }
+      ]
+    },
+    {
+      "subject": "Joe Tiernan",
+      "relation": "described_as",
+      "object": "James Andrew Hanna",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "described him as having been the senior military leader of the UVF"
+        }
+      ]
+    },
+    {
+      "subject": "James Andrew Hanna",
+      "relation": "controlled_by",
+      "object": "British Army Intelligence Corps",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was controlled by four British Army Intelligence Corps officers"
+        }
+      ]
+    },
+    {
+      "subject": "British Army Intelligence Corps",
+      "relation": "visited",
+      "object": "Lisburn",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "who frequently visited his home in Lisburn"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James Andrew Hanna",
+        "shot_dead_by",
+        "fellow members"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Tiernan",
+        "suggested_that",
+        "James Andrew Hanna"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jim Hanna (loyalist)\nJames Andrew Hanna (c. 1947 – 1 April 1974), also known as Red Setter, was a senior member of the Northern Irish loyalist paramilitary organisation, the Ulster Volunteer Force (UVF) until he was shot dead by fellow members, for being an alleged informer. Journalists Joe Tiernan and Kevin Myers described him as having been the senior military leader of the UVF. Tiernan also suggested that he was part of a UVF unit that planted car bombs in Dublin in December 1972 and January 1973 which left three people dead and 145 injured. Tiernan claimed that Hanna was controlled by four British Army Intelligence Corps officers who frequently visited his home in Lisburn."
+}

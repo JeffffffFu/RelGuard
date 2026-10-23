@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Faith Goldy": "PERSON",
+    "Faith Julia Goldy": "PERSON",
+    "The Rebel Media": "ORG",
+    "On The Hunt with Faith Goldy": "WORK_OF_ART",
+    "Unite the Right rally": "EVENT",
+    "Charlottesville": "GPE",
+    "Virginia": "GPE",
+    "The Rebel": "ORG",
+    "August 17, 2017": "EVENT",
+    "The Krypto Report": "WORK_OF_ART",
+    "The Daily Stormer": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Faith Julia Goldy",
+        "is_a",
+        "Faith Goldy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Faith Julia Goldy",
+        "located_in",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Faith Goldy",
+        "worked_for",
+        "The Rebel Media"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Faith Goldy",
+        "hosted",
+        "On The Hunt with Faith Goldy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Faith Goldy",
+        "covered",
+        "Unite the Right rally"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Unite the Right rally",
+        "located_in",
+        "Charlottesville"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Charlottesville",
+        "located_in",
+        "Virginia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Faith Goldy",
+        "was_fired_from",
+        "The Rebel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Faith Goldy",
+        "was_fired_on",
+        "August 17, 2017"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Krypto Report",
+        "produced_by",
+        "The Daily Stormer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Faith Goldy\nFaith Julia Goldy (born 1989) is a Canadian right-wing writer and commentator. She has been noted for her sympathetic coverage of the alt-right for The Rebel Media, particularly on her former programme \"On The Hunt with Faith Goldy\", and her live coverage of events surrounding the 2017 Unite the Right rally in Charlottesville, Virginia. She was fired from The Rebel on August 17, 2017, in response to an interview she gave on \"The Krypto Report\", a podcast produced by the white supremacist site \"The Daily Stormer\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Faith Goldy\", \"type\": \"PERSON\"},\n    {\"name\": \"Faith Julia Goldy\", \"type\": \"PERSON\"},\n    {\"name\": \"Canada\", \"type\": \"GPE\"},\n    {\"name\": \"The Rebel Media\", \"type\": \"ORG\"},\n    {\"name\": \"On The Hunt with Faith Goldy\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Unite the Right rally\", \"type\": \"EVENT\"},\n    {\"name\": \"Charlottesville\", \"type\": \"GPE\"},\n    {\"name\": \"Virginia\", \"type\": \"GPE\"},\n    {\"name\": \"The Rebel\", \"type\": \"ORG\"},\n    {\"name\": \"August 17, 2017\", \"type\": \"EVENT\"},\n    {\"name\": \"The Krypto Report\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"The Daily Stormer\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Faith Julia Goldy\",\n      \"relation\": \"is_a\",\n      \"object\": \"Faith Goldy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Faith Julia Goldy (born 1989) is a Canadian right-wing writer and commentator.\"}\n      ]\n    },\n    {\n      \"subject\": \"Faith Julia Goldy\",\n      \"relation\": \"located_in\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Canadian\"}\n      ]\n    },\n    {\n      \"subject\": \"Faith Goldy\",\n      \"relation\": \"worked_for\",\n      \"object\": \"The Rebel Media\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for The Rebel Media\"}\n      ]\n    },\n    {\n      \"subject\": \"Faith Goldy\",\n      \"relation\": \"hosted\",\n      \"object\": \"On The Hunt with Faith Goldy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on her former programme \\\"On The Hunt with Faith Goldy\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Faith Goldy\",\n      \"relation\": \"covered\",\n      \"object\": \"Unite the Right rally\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"live coverage of events surrounding the 2017 Unite the Right rally\"}\n      ]\n    },\n    {\n      \"subject\": \"Unite the Right rally\",\n      \"relation\": \"located_in\",\n      \"object\": \"Charlottesville\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Charlottesville\"}\n      ]\n    },\n    {\n      \"subject\": \"Charlottesville\",\n      \"relation\": \"located_in\",\n      \"object\": \"Virginia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Charlottesville, Virginia\"}\n      ]\n    },\n    {\n      \"subject\": \"Faith Goldy\",\n      \"relation\": \"was_fired_from\",\n      \"object\": \"The Rebel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"She was fired from The Rebel\"}\n      ]\n    },\n    {\n      \"subject\": \"Faith Goldy\",\n      \"relation\": \"was_fired_on\",\n      \"object\": \"August 17, 2017\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on August 17, 2017\"}\n      ]\n    },\n    {\n      \"subject\": \"The Krypto Report\",\n      \"relation\": \"produced_by\",\n      \"object\": \"The Daily Stormer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a podcast produced by the white supremacist site \\\"The Daily Stormer\\\"\"}\n      ]\n    }\n  ]\n}"
+}

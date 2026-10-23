@@ -1,0 +1,41 @@
+{
+  "entities": {
+    "Jules White": "PERSON",
+    "The Three Stooges": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "Hungary (GPE)",
+        "America (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Jules White",
+        "born_in",
+        "Hungary"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jules White",
+        "known_for",
+        "The Three Stooges"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Jules White",
+        "located_in",
+        "America"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Jules White\nJules White( born Julius Weiss; 17 September 190030 April 1985) was a Hungarian- born American film director and producer best known for his short- subject comedies starring The Three Stooges."
+}

@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Love Story": "song",
+    "Taylor Swift": "person",
+    "Nathan Chapman": "person",
+    "Big Machine Records": "company",
+    "Fearless": "album",
+    "William Shakespeare": "person",
+    "Romeo and Juliet": "play"
+  },
+  "triples": [
+    {
+      "subject": "Love Story",
+      "relation": "performed_by",
+      "object": "Taylor Swift",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a song performed by American singer-songwriter Taylor Swift."
+        }
+      ]
+    },
+    {
+      "subject": "Love Story",
+      "relation": "written_by",
+      "object": "Taylor Swift",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The song was written by Swift"
+        }
+      ]
+    },
+    {
+      "subject": "Love Story",
+      "relation": "produced_by",
+      "object": "Nathan Chapman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Nathan Chapman"
+        }
+      ]
+    },
+    {
+      "subject": "Love Story",
+      "relation": "released_by",
+      "object": "Big Machine Records",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "released on September 12, 2008 by Big Machine Records"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Love Story",
+        "part_of",
+        "Fearless"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Love Story",
+        "inspired_by",
+        "Romeo and Juliet"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Love Story",
+        "inspired_by",
+        "William Shakespeare"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Love Story (Taylor Swift song)\n\"Love Story\" is a song performed by American singer-songwriter Taylor Swift. The song was written by Swift and produced by Nathan Chapman, alongside Swift. It was released on September 12, 2008 by Big Machine Records, as the lead single from Swift's second studio album \"Fearless\" (2008). The song was written about a love interest of Swift's who was not popular among Swift's family and friends. Because of the scenario, Swift related to the plot of William Shakespeare's \"Romeo and Juliet\" (1597) and used it as a source of inspiration to compose the song. However, she replaced \"Romeo and Juliet\"' s original tragic conclusion with a happy ending. It is a midtempo song with a dreamy soprano voice, while the melody continually builds. The lyrics are from the perspective of Juliet."
+}

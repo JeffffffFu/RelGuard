@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Ohlala Couple": "television series",
+    "Kim Jung-eun": "actor",
+    "Shin Hyun-joon": "actor",
+    "Han Jae-suk": "actor",
+    "Han Chae-ah": "actor",
+    "KBS2": "television network"
+  },
+  "triples": [
+    {
+      "subject": "Ohlala Couple",
+      "relation": "starring",
+      "object": "Kim Jung-eun",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Kim Jung-eun"
+        }
+      ]
+    },
+    {
+      "subject": "Ohlala Couple",
+      "relation": "aired_on",
+      "object": "KBS2",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It aired on KBS2"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ohlala Couple",
+        "starring",
+        "Shin Hyun-joon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ohlala Couple",
+        "starring",
+        "Han Jae-suk"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ohlala Couple",
+        "starring",
+        "Han Chae-ah"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ohlala Couple",
+        "aired_from",
+        "October 1 to November 27, 2012"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ohlala Couple",
+        "has_episodes",
+        "18 episodes"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ohlala Couple\nOhlala Couple () is a 2012 South Korean romantic comedy gender bender television series starring Kim Jung-eun, Shin Hyun-joon, Han Jae-suk and Han Chae-ah. It aired on KBS2 from October 1 to November 27, 2012 on Mondays and Tuesdays at 21:55 for 18 episodes."
+}

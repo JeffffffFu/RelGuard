@@ -1,0 +1,161 @@
+{
+  "entities": {
+    "Hall Barn": "FAC",
+    "Parish of Beaconsfield": "GPE",
+    "County of Buckingham": "GPE",
+    "Peerage of the United Kingdom": "ORG",
+    "United Kingdom": "GPE",
+    "Sir Edward Levy-Lawson": "PERSON",
+    "Daily Telegraph": "WORK_OF_ART",
+    "Baronetage of the United Kingdom": "ORG",
+    "Joseph Moses Levy": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Sir Edward Levy-Lawson",
+      "relation": "owner_of",
+      "object": "Daily Telegraph",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "owner of the \"Daily Telegraph\"",
+          "line_start": 234,
+          "char_start": 248,
+          "ambiguous": false,
+          "relation_mention": "owner of the \"Daily Telegraph\"",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sir Edward Levy-Lawson",
+      "relation": "son_of",
+      "object": "Joseph Moses Levy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was the son of Joseph Moses Levy",
+          "line_start": 438,
+          "char_start": 452,
+          "ambiguous": false,
+          "relation_mention": "was the son of Joseph Moses Levy",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Joseph Moses Levy",
+      "relation": "acquired",
+      "object": "Daily Telegraph",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "acquired the \"Daily Telegraph\"",
+          "line_start": 476,
+          "char_start": 490,
+          "ambiguous": false,
+          "relation_mention": "acquired the \"Daily Telegraph\"",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities outside the eleven types",
+      "entities": [
+        "Baron Burnham (TITLE)",
+        "Baronet (TITLE)"
+      ]
+    },
+    {
+      "triple": [
+        "Baron Burnham",
+        "located_in",
+        "Hall Barn"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baron Burnham",
+        "located_in",
+        "Parish of Beaconsfield"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baron Burnham",
+        "located_in",
+        "County of Buckingham"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baron Burnham",
+        "is_a",
+        "title"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baron Burnham",
+        "in_the",
+        "Peerage of the United Kingdom"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baron Burnham",
+        "created_in_year",
+        "1903"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baron Burnham",
+        "created_for",
+        "Sir Edward Levy-Lawson"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sir Edward Levy-Lawson",
+        "created_as",
+        "Baronet"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baronet",
+        "of",
+        "Hall Barn"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baronet",
+        "in_the",
+        "Baronetage of the United Kingdom"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baronet",
+        "created_in_year",
+        "1892"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Baron Burnham\nBaron Burnham, of Hall Barn in the Parish of Beaconsfield in the County of Buckingham, is a title in the Peerage of the United Kingdom. It was created in 1903 for the influential newspaper magnate Sir Edward Levy-Lawson, 1st Baronet, owner of the \"Daily Telegraph\". He had already been created a Baronet, of Hall Barn in The Parish of Beaconsfield in the County of Buckingham, in the Baronetage of the United Kingdom in 1892. Levy-Lawson was the son of Joseph Moses Levy, who acquired the \"Daily Telegraph\" only months after its founding."
+}

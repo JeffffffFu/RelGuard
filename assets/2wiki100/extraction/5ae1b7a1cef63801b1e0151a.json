@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "We Make Music": "Film",
+    "Helmut Käutner": "Person",
+    "Ilse Werner": "Person",
+    "Viktor de Kowa": "Person",
+    "Edith Oß": "Person"
+  },
+  "triples": [
+    {
+      "subject": "We Make Music",
+      "relation": "directed_by",
+      "object": "Helmut Käutner",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Helmut Käutner"
+        }
+      ]
+    },
+    {
+      "subject": "We Make Music",
+      "relation": "starring",
+      "object": "Ilse Werner",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Ilse Werner"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "We Make Music",
+        "starring",
+        "Viktor de Kowa"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "We Make Music",
+        "starring",
+        "Edith Oß"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "We Make Music\nWe Make Music is a 1942 German musical comedy film directed by Helmut Käutner, starring Ilse Werner, Viktor de Kowa and Edith Oß."
+}

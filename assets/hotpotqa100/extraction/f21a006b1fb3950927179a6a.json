@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Liberty Square": "Location",
+    "Tolyatti": "City",
+    "Liberty Street": "Street",
+    "Youth Street": "Street",
+    "Karl Marx Street": "Street"
+  },
+  "triples": [
+    {
+      "subject": "Liberty Square",
+      "relation": "located_in",
+      "object": "Tolyatti",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a park in the Russian city of Tolyatti."
+        }
+      ]
+    },
+    {
+      "subject": "Liberty Square",
+      "relation": "bounded_by",
+      "object": "Liberty Street",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is bounded by Liberty Street, Youth Street (on two sides), and Karl Marx Street."
+        }
+      ]
+    },
+    {
+      "subject": "Liberty Square",
+      "relation": "bounded_by",
+      "object": "Youth Street",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is bounded by Liberty Street, Youth Street (on two sides), and Karl Marx Street."
+        }
+      ]
+    },
+    {
+      "subject": "Liberty Square",
+      "relation": "bounded_by",
+      "object": "Karl Marx Street",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is bounded by Liberty Street, Youth Street (on two sides), and Karl Marx Street."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Liberty Square",
+        "used_for",
+        "neighborhood"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Liberty Square (Tolyatti)\nLiberty Square (Russian: Площадь Свободы ) is a park in the Russian city of Tolyatti. It is bounded by Liberty Street, Youth Street (on two sides), and Karl Marx Street. It is also, by extension, the name used for the neighborhood around the park. Monuments of cultural and historical interest in or around Liberty Square include:"
+}

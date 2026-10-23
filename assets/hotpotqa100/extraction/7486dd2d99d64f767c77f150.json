@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Tyler Ulis": "PERSON",
+    "Phoenix Suns": "ORG",
+    "National Basketball Association": "ORG",
+    "Kentucky Wildcats": "ORG",
+    "Kentucky": "GPE",
+    "Wisconsin": "GPE",
+    "2015 NCAA Men's Division I Basketball Tournament": "EVENT",
+    "Southeastern Conference Men's Basketball Player of the Year": "WORK_OF_ART",
+    "Southeastern Conference Men's Basketball Defensive Player of the Year": "WORK_OF_ART",
+    "Consensus first team All-American": "WORK_OF_ART",
+    "SEC All-Freshman Team": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Tyler Ulis",
+      "relation": "played_for",
+      "object": "Kentucky Wildcats",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played college basketball for",
+          "line_start": 150,
+          "char_start": 161,
+          "ambiguous": false,
+          "relation_mention": "played college basketball for",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Kentucky Wildcats",
+      "relation": "lost_to",
+      "object": "Wisconsin",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "losing to",
+          "line_start": 360,
+          "char_start": 371,
+          "ambiguous": false,
+          "relation_mention": "losing to",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tyler Ulis",
+        "works_for",
+        "Phoenix Suns"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Phoenix Suns",
+        "works_for",
+        "National Basketball Association"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kentucky Wildcats",
+        "located_in",
+        "Kentucky"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kentucky Wildcats",
+        "participated_in",
+        "2015 NCAA Men's Division I Basketball Tournament"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tyler Ulis",
+        "earned",
+        "Consensus first team All-American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tyler Ulis",
+        "earned",
+        "Southeastern Conference Men's Basketball Player of the Year"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tyler Ulis",
+        "earned",
+        "Southeastern Conference Men's Basketball Defensive Player of the Year"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tyler Ulis",
+        "made",
+        "SEC All-Freshman Team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Tyler Ulis\nTyler Ulis (born January 5, 1996) is an American professional basketball player for the Phoenix Suns of the National Basketball Association (NBA). He played college basketball for the Kentucky Wildcats. At Kentucky in 2015, he led his team in assists, he made the 2015 SEC All-Freshman Team and led the 2014–15 Kentucky team that won its first 38 games before losing to Wisconsin in the final four of the 2015 NCAA Men's Division I Basketball Tournament. As a sophomore, Ulis was a Consensus first team All-American and earned the Southeastern Conference Men's Basketball Player of the Year and the Southeastern Conference Men's Basketball Defensive Player of the Year recognition.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Tyler Ulis\", \"type\": \"PERSON\"},\n    {\"name\": \"Phoenix Suns\", \"type\": \"ORG\"},\n    {\"name\": \"National Basketball Association\", \"type\": \"ORG\"},\n    {\"name\": \"Kentucky Wildcats\", \"type\": \"ORG\"},\n    {\"name\": \"Kentucky\", \"type\": \"GPE\"},\n    {\"name\": \"Wisconsin\", \"type\": \"GPE\"},\n    {\"name\": \"2015 NCAA Men's Division I Basketball Tournament\", \"type\": \"EVENT\"},\n    {\"name\": \"Southeastern Conference Men's Basketball Player of the Year\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Southeastern Conference Men's Basketball Defensive Player of the Year\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Consensus first team All-American\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"SEC All-Freshman Team\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Tyler Ulis\",\n      \"relation\": \"works_for\",\n      \"object\": \"Phoenix Suns\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"player for\"}\n      ]\n    },\n    {\n      \"subject\": \"Phoenix Suns\",\n      \"relation\": \"works_for\",\n      \"object\": \"National Basketball Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the\"}\n      ]\n    },\n    {\n      \"subject\": \"Tyler Ulis\",\n      \"relation\": \"played_for\",\n      \"object\": \"Kentucky Wildcats\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played college basketball for\"}\n      ]\n    },\n    {\n      \"subject\": \"Kentucky Wildcats\",\n      \"relation\": \"located_in\",\n      \"object\": \"Kentucky\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"At Kentucky\"}\n      ]\n    },\n    {\n      \"subject\": \"Kentucky Wildcats\",\n      \"relation\": \"lost_to\",\n      \"object\": \"Wisconsin\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"losing to\"}\n      ]\n    },\n    {\n      \"subject\": \"Kentucky Wildcats\",\n      \"relation\": \"participated_in\",\n      \"object\": \"2015 NCAA Men's Division I Basketball Tournament\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the 2015 NCAA Men's Division I Basketball Tournament\"}\n      ]\n    },\n    {\n      \"subject\": \"Tyler Ulis\",\n      \"relation\": \"earned\",\n      \"object\": \"Consensus first team All-American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a Consensus first team All-American\"}\n      ]\n    },\n    {\n      \"subject\": \"Tyler Ulis\",\n      \"relation\": \"earned\",\n      \"object\": \"Southeastern Conference Men's Basketball Player of the Year\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"earned the Southeastern Conference Men's Basketball Player of the Year\"}\n      ]\n    },\n    {\n      \"subject\": \"Tyler Ulis\",\n      \"relation\": \"earned\",\n      \"object\": \"Southeastern Conference Men's Basketball Defensive Player of the Year\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and the Southeastern Conference Men's Basketball Defensive Player of the Year recognition\"}\n      ]\n    },\n    {\n      \"subject\": \"Tyler Ulis\",\n      \"relation\": \"made\",\n      \"object\": \"SEC All-Freshman Team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"he made the 2015 SEC All-Freshman Team\"}\n      ]\n    }\n  ]\n}"
+}

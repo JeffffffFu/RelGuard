@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Big 12 Conference": "ORG",
+    "West Virginia": "GPE",
+    "Big Eight Conference": "ORG",
+    "Southwest Conference": "ORG",
+    "National Collegiate Athletic Association": "ORG",
+    "Division I Football Bowl Subdivision": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Big 12 Conference",
+      "relation": "founded",
+      "object": "Big 12 Conference",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was formed",
+          "line_start": 203,
+          "char_start": 230,
+          "ambiguous": false,
+          "relation_mention": "was formed",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Big 12 Conference",
+        "participates_in",
+        "Division I Football Bowl Subdivision"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "participates_in",
+        "National Collegiate Athletic Association"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "has_member_from",
+        "Big Eight Conference"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "has_member_from",
+        "Southwest Conference"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Big 12 Conference",
+        "excludes_member",
+        "West Virginia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Big 12 Conference football\nThe Big 12 Conference is a conference of 10 (originally 12) universities which participate in the National Collegiate Athletic Association's Division I Football Bowl Subdivision football. The conference was formed in 1994 but did not begin conference play until the fall of 1996. The schools that compose the Big 12 Conference, except West Virginia, were members of either the Big Eight Conference or the Southwest Conference, and have won 21 national titles including 3 titles since the inception of the Big 12 Conference.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Big 12 Conference\", \"type\": \"ORG\"},\n    {\"name\": \"West Virginia\", \"type\": \"GPE\"},\n    {\"name\": \"Big Eight Conference\", \"type\": \"ORG\"},\n    {\"name\": \"Southwest Conference\", \"type\": \"ORG\"},\n    {\"name\": \"National Collegiate Athletic Association\", \"type\": \"ORG\"},\n    {\"name\": \"Division I Football Bowl Subdivision\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Big 12 Conference\",\n      \"relation\": \"participates_in\",\n      \"object\": \"Division I Football Bowl Subdivision\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"participate in\"}\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Conference\",\n      \"relation\": \"participates_in\",\n      \"object\": \"National Collegiate Athletic Association\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"participate in the National Collegiate Athletic Association's\"}\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Conference\",\n      \"relation\": \"founded\",\n      \"object\": \"Big 12 Conference\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was formed\"}\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Conference\",\n      \"relation\": \"has_member_from\",\n      \"object\": \"Big Eight Conference\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were members of either the Big Eight Conference\"}\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Conference\",\n      \"relation\": \"has_member_from\",\n      \"object\": \"Southwest Conference\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were members of either the Big Eight Conference or the Southwest Conference\"}\n      ]\n    },\n    {\n      \"subject\": \"Big 12 Conference\",\n      \"relation\": \"excludes_member\",\n      \"object\": \"West Virginia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"except West Virginia\"}\n      ]\n    }\n  ]\n}"
+}

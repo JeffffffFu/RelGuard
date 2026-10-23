@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Talesa": "PERSON",
+    "Aragon": "GPE",
+    "Jiménez dynasty": "ORG",
+    "Sancho Ramírez": "PERSON",
+    "Ribagorza": "GPE",
+    "King Sancho Ramírez": "PERSON",
+    "Navarre": "GPE",
+    "Gaston IV of Béarn": "PERSON",
+    "Béarn": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Talesa",
+      "relation": "daughter_of",
+      "object": "Sancho Ramírez",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "She was the daughter of Sancho Ramírez"
+        }
+      ]
+    },
+    {
+      "subject": "Talesa",
+      "relation": "relative_of",
+      "object": "Jiménez dynasty",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "relative of the royal Jiménez dynasty"
+        }
+      ]
+    },
+    {
+      "subject": "Sancho Ramírez",
+      "relation": "brother_of",
+      "object": "King Sancho Ramírez",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "natural brother of King Sancho Ramírez"
+        }
+      ]
+    },
+    {
+      "subject": "Talesa",
+      "relation": "married_to",
+      "object": "Gaston IV of Béarn",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "She married Gaston IV of Béarn"
+        }
+      ]
+    },
+    {
+      "subject": "Talesa",
+      "relation": "acted_as_regent_of",
+      "object": "Béarn",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "acted as regent of the viscounty of Béarn"
+        }
+      ]
+    },
+    {
+      "subject": "Talesa",
+      "relation": "regent_for",
+      "object": "Gaston IV of Béarn",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and after his death for their son"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gaston IV of Béarn",
+        "absent_on",
+        "Crusade"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Talesa of Aragon\nTalesa, Talèse, Talèze, or Ataresa( died after 1136) was an Aragonese noblewoman and relative of the royal Jiménez dynasty. She was the daughter of Sancho Ramírez, Count of Ribagorza, natural brother of King Sancho Ramírez of Aragon and Navarre. She married Gaston IV of Béarn and acted as regent of the viscounty of Béarn during his absences on Crusade in 1096- 1101, and after his death for their son in 1131- 1134."
+}

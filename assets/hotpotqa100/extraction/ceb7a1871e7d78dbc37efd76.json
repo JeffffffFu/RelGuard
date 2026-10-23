@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "Veterinary specialties": "WORK_OF_ART",
+    "veterinary specialist": "PERSON",
+    "veterinarian": "PERSON",
+    "veterinary medicine": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "veterinary specialist",
+        "is_a",
+        "veterinarian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "veterinary specialist",
+        "specializes_in",
+        "veterinary medicine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Veterinary specialties\nA veterinary specialist is a veterinarian who specializes in a clinical field of veterinary medicine.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Veterinary specialties\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"veterinary specialist\", \"type\": \"PERSON\"},\n    {\"name\": \"veterinarian\", \"type\": \"PERSON\"},\n    {\"name\": \"veterinary medicine\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"veterinary specialist\",\n      \"relation\": \"is_a\",\n      \"object\": \"veterinarian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a\"}\n      ]\n    },\n    {\n      \"subject\": \"veterinary specialist\",\n      \"relation\": \"specializes_in\",\n      \"object\": \"veterinary medicine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"specializes in\"}\n      ]\n    }\n  ]\n}"
+}

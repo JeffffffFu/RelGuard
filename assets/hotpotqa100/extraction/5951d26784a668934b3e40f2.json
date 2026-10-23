@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Al Ahsa": "GPE",
+    "Saudi Arabia": "GPE",
+    "Hofuf": "GPE",
+    "Persian Gulf": "LOC",
+    "Empty Quarter": "LOC",
+    "Qatif": "GPE",
+    "Bahrain": "GPE",
+    "UAE": "GPE",
+    "Oman": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Al Ahsa",
+      "relation": "located_in",
+      "object": "Saudi Arabia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the largest governorate in Saudi Arabia's Eastern Province, named after the Al-Ahsa oasis."
+        }
+      ]
+    },
+    {
+      "subject": "Al Ahsa",
+      "relation": "includes",
+      "object": "Hofuf",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The name Al-Ahsa is also given to the biggest city in the governorate, Hofuf."
+        }
+      ]
+    },
+    {
+      "subject": "Al Ahsa",
+      "relation": "includes",
+      "object": "Empty Quarter",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the county also includes the giant Empty Quarter desert"
+        }
+      ]
+    },
+    {
+      "subject": "Empty Quarter",
+      "relation": "connects",
+      "object": "Saudi Arabia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Empty Quarter has the world's largest oil fields and connects Saudi Arabia to Qatar, the UAE, and Oman."
+        }
+      ]
+    },
+    {
+      "subject": "Al Ahsa",
+      "relation": "belonged_to",
+      "object": "Bahrain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "In the past, Al-Ahsa belonged to the historical region known as Bahrain"
+        }
+      ]
+    },
+    {
+      "subject": "Bahrain",
+      "relation": "includes",
+      "object": "Qatif",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "along with Qatif and the present-day Bahrain islands."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Al Ahsa",
+        "located_in",
+        "Persian Gulf"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Al-Ahsa Governorate\nAl Ahsa (Arabic: الأحساء‎ ‎ \" al-Aḥsāʾ\", locally pronounced \"al-Ḥasāʾ\") is the largest governorate in Saudi Arabia's Eastern Province, named after the Al-Ahsa oasis. The name Al-Ahsa is also given to the biggest city in the governorate, Hofuf. In Classical Arabic, Ahsa means the sound of water underground. It has one of the largest oases in the world with Date Palms known to be the best in the world, the oasis is located about 60 km inland from the Persian Gulf. All urban areas are located in the traditional oasis of Al-Hasa. In addition to the oasis, the county also includes the giant Empty Quarter desert, making it the largest governorate in Saudi Arabia in terms of area. The Empty Quarter has the world's largest oil fields and connects Saudi Arabia to Qatar, the UAE, and Oman. The Governorate's population is over 908,366 (2005 estimate ).In the past, Al-Ahsa belonged to the historical region known as Bahrain, along with Qatif and the present-day Bahrain islands."
+}

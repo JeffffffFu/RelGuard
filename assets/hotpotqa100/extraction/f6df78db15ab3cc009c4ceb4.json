@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Scotch Collie": "breed",
+    "Scotland": "location",
+    "Rough Collie": "breed",
+    "Smooth Collie": "breed",
+    "Roman Cattle Dogs": "dog",
+    "Native Celtic Dogs": "dog",
+    "Viking Herding Spitzes": "dog",
+    "Gordon Setter": "dog",
+    "Irish Setter": "dog"
+  },
+  "triples": [
+    {
+      "subject": "Scotch Collie",
+      "relation": "originated_from",
+      "object": "Scotland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which originated from the highland regions of Scotland"
+        }
+      ]
+    },
+    {
+      "subject": "Scotch Collie",
+      "relation": "consisted_of",
+      "object": "Rough Collie",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The breed consisted of both the long-haired (now known as Rough) Collie"
+        }
+      ]
+    },
+    {
+      "subject": "Scotch Collie",
+      "relation": "descended_from",
+      "object": "Roman Cattle Dogs",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It is generally believed to have descended from a variety of ancient herding dogs, some dating back to the Roman occupation, which may have included Roman Cattle Dogs"
+        }
+      ]
+    },
+    {
+      "subject": "Scotch Collie",
+      "relation": "ancestors_include",
+      "object": "Gordon Setter",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Other ancestors include the Gordon and Irish Setters"
+        }
+      ]
+    },
+    {
+      "subject": "Scotch Collie",
+      "relation": "ancestors_include",
+      "object": "Irish Setter",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Other ancestors include the Gordon and Irish Setters"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Scotch Collie",
+        "consisted_of",
+        "Smooth Collie"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Scotch Collie",
+        "descended_from",
+        "Native Celtic Dogs"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Scotch Collie",
+        "descended_from",
+        "Viking Herding Spitzes"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Scotch Collie\nThe Scotch Collie is a landrace breed of dog which originated from the highland regions of Scotland. The breed consisted of both the long-haired (now known as Rough) Collie and the short-haired (now known as Smooth) Collie. It is generally believed to have descended from a variety of ancient herding dogs, some dating back to the Roman occupation, which may have included Roman Cattle Dogs, Native Celtic Dogs and Viking Herding Spitzes. Other ancestors include the Gordon and Irish Setters."
+}

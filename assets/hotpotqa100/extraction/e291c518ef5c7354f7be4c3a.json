@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Universal life insurance": "insurance_type",
+    "United States of America": "location",
+    "Indexed Universal Life": "insurance_type",
+    "whole life policy": "insurance_type",
+    "irrevocable life insurance trusts": "financial_instrument"
+  },
+  "triples": [
+    {
+      "subject": "Universal life insurance",
+      "relation": "sold_in",
+      "object": "United States of America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "sold primarily in the United States of America"
+        }
+      ]
+    },
+    {
+      "subject": "Universal life insurance",
+      "relation": "lower_cost_than",
+      "object": "whole life policy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at substantially lower premium cost than an equivalent whole life policy at first"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Universal life insurance",
+        "credited_to",
+        "cash value of the policy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "cash value of the policy",
+        "credited_with",
+        "interest"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "cash value of the policy",
+        "debited_by",
+        "cost of insurance charge"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Universal life insurance",
+        "pegged_to",
+        "financial index"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Universal life insurance",
+        "offers_advantage_of",
+        "guaranteed level premiums"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "cash value of the policy",
+        "works_well_in",
+        "irrevocable life insurance trusts"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Universal life insurance\nUniversal life insurance (often shortened to UL) is a type of cash value life insurance, sold primarily in the United States of America. Under the terms of the policy, the excess of premium payments above the current cost of insurance is credited to the cash value of the policy. The cash value is credited each month with interest, and the policy is debited each month by a cost of insurance (COI) charge, as well as any other policy charges and fees drawn from the cash value, even if no premium payment is made that month. Interest credited to the account is determined by the insurer, but has a contractual minimum rate (often 2%). When an earnings rate is pegged to a financial index such as a stock, bond or other interest rate index, the policy is an \"Indexed Universal Life\" contract. These types of policies offer the advantage of guaranteed level premiums throughout the insured's lifetime at substantially lower premium cost than an equivalent whole life policy at first; the cost of insurance is always increasing as found on the cost index table (usually p. 3 of a contract). This not only allows for easy comparison of costs between carriers, but also works well in irrevocable life insurance trusts (ILIT's) since cash is of no consequence."
+}

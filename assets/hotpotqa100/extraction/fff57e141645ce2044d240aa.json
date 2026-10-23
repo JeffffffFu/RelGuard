@@ -1,0 +1,141 @@
+{
+  "entities": {
+    "Pineapple Express": "WORK_OF_ART",
+    "2008": "WORK_OF_ART",
+    "American": "NORP",
+    "David Gordon Green": "PERSON",
+    "Seth Rogen": "PERSON",
+    "Evan Goldberg": "PERSON",
+    "James Franco": "PERSON",
+    "Judd Apatow": "PERSON",
+    "Knocked Up": "WORK_OF_ART",
+    "Superbad": "WORK_OF_ART",
+    "This is the End": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Pineapple Express",
+      "relation": "directed_by",
+      "object": "David Gordon Green",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 63,
+          "char_start": 88,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pineapple Express",
+      "relation": "written_by",
+      "object": "Seth Rogen",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 95,
+          "char_start": 120,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pineapple Express",
+      "relation": "written_by",
+      "object": "Evan Goldberg",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 95,
+          "char_start": 120,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Judd Apatow",
+      "relation": "assisted_in_developing",
+      "object": "Pineapple Express",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "assisted in developing the story",
+          "line_start": 434,
+          "char_start": 459,
+          "ambiguous": false,
+          "relation_mention": "assisted in developing the story",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "This is the End",
+      "relation": "features",
+      "object": "Pineapple Express",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "make a fake parody sequel",
+          "line_start": 579,
+          "char_start": 604,
+          "ambiguous": false,
+          "relation_mention": "make a fake parody sequel",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pineapple Express",
+        "starring",
+        "Seth Rogen"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pineapple Express",
+        "starring",
+        "James Franco"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pineapple Express",
+        "produced_by",
+        "Judd Apatow"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Judd Apatow",
+        "worked_with",
+        "Seth Rogen"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Judd Apatow",
+        "worked_with",
+        "Evan Goldberg"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Pineapple Express (film)\nPineapple Express is a 2008 American stoner action comedy film directed by David Gordon Green, written by Seth Rogen and Evan Goldberg and starring Rogen and James Franco. The plot concerns a process server and his marijuana dealer friend forced to flee from hitmen and a corrupt police officer after witnessing them commit a murder. Producer Judd Apatow, who previously worked with Rogen and Goldberg on \"Knocked Up\" and \"Superbad\", assisted in developing the story, which was partially inspired by the bromantic comedy subgenre. In the (2013) comedy \"This is the End\" the cast make a fake parody sequel.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Pineapple Express\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"2008\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"David Gordon Green\", \"type\": \"PERSON\"},\n    {\"name\": \"Seth Rogen\", \"type\": \"PERSON\"},\n    {\"name\": \"Evan Goldberg\", \"type\": \"PERSON\"},\n    {\"name\": \"James Franco\", \"type\": \"PERSON\"},\n    {\"name\": \"Judd Apatow\", \"type\": \"PERSON\"},\n    {\"name\": \"Knocked Up\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Superbad\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"This is the End\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Pineapple Express\",\n      \"relation\": \"directed_by\",\n      \"object\": \"David Gordon Green\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Pineapple Express\",\n      \"relation\": \"written_by\",\n      \"object\": \"Seth Rogen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Pineapple Express\",\n      \"relation\": \"written_by\",\n      \"object\": \"Evan Goldberg\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Pineapple Express\",\n      \"relation\": \"starring\",\n      \"object\": \"Seth Rogen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Rogen\"}\n      ]\n    },\n    {\n      \"subject\": \"Pineapple Express\",\n      \"relation\": \"starring\",\n      \"object\": \"James Franco\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Rogen and James Franco\"}\n      ]\n    },\n    {\n      \"subject\": \"Pineapple Express\",\n      \"relation\": \"produced_by\",\n      \"object\": \"Judd Apatow\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Producer Judd Apatow\"}\n      ]\n    },\n    {\n      \"subject\": \"Judd Apatow\",\n      \"relation\": \"worked_with\",\n      \"object\": \"Seth Rogen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"worked with Rogen\"}\n      ]\n    },\n    {\n      \"subject\": \"Judd Apatow\",\n      \"relation\": \"worked_with\",\n      \"object\": \"Evan Goldberg\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"worked with Rogen and Goldberg\"}\n      ]\n    },\n    {\n      \"subject\": \"Judd Apatow\",\n      \"relation\": \"assisted_in_developing\",\n      \"object\": \"Pineapple Express\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"assisted in developing the story\"}\n      ]\n    },\n    {\n      \"subject\": \"This is the End\",\n      \"relation\": \"features\",\n      \"object\": \"Pineapple Express\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"make a fake parody sequel\"}\n      ]\n    }\n  ]\n}"
+}

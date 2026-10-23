@@ -1,0 +1,120 @@
+{
+  "entities": {
+    "Coney Island USA": "ORG",
+    "Coney Island": "LOC",
+    "Borough of Brooklyn": "GPE",
+    "New York City": "GPE",
+    "Coney Island Museum": "ORG",
+    "Coney Island Mermaid Parade": "EVENT",
+    "Sideshows by the Seashore": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Coney Island USA",
+      "relation": "founded",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in 1980",
+          "line_start": 65,
+          "char_start": 82,
+          "ambiguous": false,
+          "relation_mention": "founded in 1980",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island USA",
+      "relation": "located_in",
+      "object": "Coney Island",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "of the Coney Island neighborhood",
+          "line_start": 143,
+          "char_start": 160,
+          "ambiguous": false,
+          "relation_mention": "of the Coney Island neighborhood",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Borough of Brooklyn",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in New York City",
+          "line_start": 203,
+          "char_start": 220,
+          "ambiguous": false,
+          "relation_mention": "in New York City",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island USA",
+      "relation": "houses",
+      "object": "Coney Island Museum",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "houses a theater in which the organization presents \"Sideshows by the Seashore\", a showcase for performers with unusual talents that runs continuously during the warmer months, as well as the Coney Island Museum",
+          "line_start": 290,
+          "char_start": 307,
+          "ambiguous": false,
+          "relation_mention": "houses a theater in which the organization presents \"Sideshows by the Seashore\", a showcase for performers with unusual talents that runs continuously during the warmer months, as well as the Coney Island Museum",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island USA",
+      "relation": "presents",
+      "object": "Sideshows by the Seashore",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "presents \"Sideshows by the Seashore\"",
+          "line_start": 333,
+          "char_start": 350,
+          "ambiguous": false,
+          "relation_mention": "presents \"Sideshows by the Seashore\"",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island USA",
+      "relation": "organizes",
+      "object": "Coney Island Mermaid Parade",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "organizer of the annual Coney Island Mermaid Parade",
+          "line_start": 529,
+          "char_start": 546,
+          "ambiguous": false,
+          "relation_mention": "organizer of the annual Coney Island Mermaid Parade",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Coney Island neighborhood",
+        "located_in",
+        "Borough of Brooklyn"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Coney Island USA\nConey Island USA is a 501(c)(3) not-for-profit arts organization founded in 1980 that is dedicated to the cultural and economic revitalization of the Coney Island neighborhood of the Borough of Brooklyn in New York City. Its landmark building in the heart Coney Island's amusement district houses a theater in which the organization presents \"Sideshows by the Seashore\", a showcase for performers with unusual talents that runs continuously during the warmer months, as well as the Coney Island Museum. It is also notable as the organizer of the annual Coney Island Mermaid Parade, the first of which took place in 1983."
+}

@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Toyota Probox": "Vehicle",
+    "Toyota": "Company",
+    "Japan": "Country",
+    "2002": "Date",
+    "2009": "Date",
+    "Paris Motor Show": "Event"
+  },
+  "triples": [
+    {
+      "subject": "Toyota Probox",
+      "relation": "produced_by",
+      "object": "Toyota",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Toyota"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Probox",
+      "relation": "went_on_sale_in",
+      "object": "Japan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "first went on sale in Japan"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Probox",
+      "relation": "debuted_at",
+      "object": "2009",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "European sales debuted at the 2009 Paris Motor Show"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Probox",
+      "relation": "debuted_at_event",
+      "object": "Paris Motor Show",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "European sales debuted at the 2009 Paris Motor Show"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Toyota Probox",
+        "first_sold_in",
+        "2002"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Toyota Probox\nThe Toyota Probox is a 5-door, 4-seater Light commercial vehicle produced by Toyota, first went on sale in Japan in July 2002, which European sales debuted at the 2009 Paris Motor Show."
+}

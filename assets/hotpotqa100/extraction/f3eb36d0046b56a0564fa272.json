@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Rwanda": "GPE",
+    "Tutsi": "NORP",
+    "Hutu": "NORP",
+    "Rwandan Patriotic Front": "ORG",
+    "Paul Kagame": "PERSON",
+    "Pygmy Batwa": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Tutsi",
+      "relation": "killed_by",
+      "object": "Hutu",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "genocidal mass slaughter of Tutsi in Rwanda by members of the Hutu majority government"
+        }
+      ]
+    },
+    {
+      "subject": "Rwandan Patriotic Front",
+      "relation": "led_by",
+      "object": "Paul Kagame",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Tutsi-backed and heavily armed Rwandan Patriotic Front (RPF) led by Paul Kagame"
+        }
+      ]
+    },
+    {
+      "subject": "Rwandan Patriotic Front",
+      "relation": "took_control_of",
+      "object": "Rwanda",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Rwandan Patriotic Front (RPF) led by Paul Kagame took control of the country"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rwanda",
+        "killed",
+        "Rwandans"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hutu",
+        "displaced",
+        "Rwandans"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Rwandan genocide\nThe Rwandan genocide, also known as the genocide against the Tutsi, was a genocidal mass slaughter of Tutsi in Rwanda by members of the Hutu majority government. An estimated 500,000–1,000,000 Rwandans were killed during the 100-day period from April 7 to mid-July 1994, constituting as many as 70% of the Tutsi population. Additionally, 30% of the Pygmy Batwa were killed. The genocide and widespread slaughter of Rwandans ended when the Tutsi-backed and heavily armed Rwandan Patriotic Front (RPF) led by Paul Kagame took control of the country. An estimated 2,000,000 Rwandans, mostly Hutus, were displaced and became refugees."
+}

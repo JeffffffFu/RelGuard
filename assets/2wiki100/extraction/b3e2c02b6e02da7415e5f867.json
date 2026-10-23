@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "Single Video Theory": "document",
+    "Mark Pellington": "person",
+    "Yield": "album",
+    "Pearl Jam": "band"
+  },
+  "triples": [
+    {
+      "subject": "Single Video Theory",
+      "relation": "directed_by",
+      "object": "Mark Pellington",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Mark Pellington"
+        }
+      ]
+    },
+    {
+      "subject": "Yield",
+      "relation": "fifth_album_by",
+      "object": "Pearl Jam",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the fifth album by the American alternative rock band Pearl Jam"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Single Video Theory",
+        "follows",
+        "Yield"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Single Video Theory",
+        "released_on",
+        "August 4, 1998"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Single Video Theory",
+        "released_on",
+        "November 24, 1998"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Single Video Theory\nSingle Video Theory is a music documentary directed by Mark Pellington that follows the making of \"Yield\", the fifth album by the American alternative rock band Pearl Jam. It was released first on VHS on August 4, 1998, and then on DVD on November 24, 1998."
+}

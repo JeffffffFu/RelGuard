@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Battle of Yongju": "EVENT",
+    "United Nations": "ORG",
+    "Yalu River": "LOC",
+    "North Korean forces": "NORP",
+    "South Korea": "GPE",
+    "Korean War": "EVENT",
+    "27th British Commonwealth Brigade": "ORG",
+    "North Korean 239th Regiment": "ORG",
+    "US 187th Airborne Regimental Combat Team": "ORG",
+    "Sukchon": "GPE",
+    "Sunchon": "GPE",
+    "Pyongyang": "GPE",
+    "Korean Peninsula": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Battle of Yongju",
+      "relation": "part_of",
+      "object": "Korean War",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "took place as part of the United Nations (UN) offensive towards the Yalu River, against the North Korean forces which had invaded South Korea during the Korean War."
+        }
+      ]
+    },
+    {
+      "subject": "United Nations",
+      "relation": "offensive_towards",
+      "object": "Yalu River",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "took place as part of the United Nations (UN) offensive towards the Yalu River"
+        }
+      ]
+    },
+    {
+      "subject": "North Korean forces",
+      "relation": "invaded",
+      "object": "South Korea",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "against the North Korean forces which had invaded South Korea"
+        }
+      ]
+    },
+    {
+      "subject": "27th British Commonwealth Brigade",
+      "relation": "fought_between",
+      "object": "North Korean 239th Regiment",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The battle was fought between the 27th British Commonwealth Brigade and the North Korean 239th Regiment"
+        }
+      ]
+    },
+    {
+      "subject": "US 187th Airborne Regimental Combat Team",
+      "relation": "attacked_by",
+      "object": "North Korean 239th Regiment",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Americans came under heavy attack from the North Korean 239th Regiment"
+        }
+      ]
+    },
+    {
+      "subject": "US 187th Airborne Regimental Combat Team",
+      "relation": "parachuted_ahead_of",
+      "object": "United Nations",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "On 20 October US 187 RCT had parachuted ahead of the advancing UN spearheads"
+        }
+      ]
+    },
+    {
+      "subject": "North Korean forces",
+      "relation": "withdrawing_up",
+      "object": "Korean Peninsula",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that were withdrawing up the west coast of the Korean Peninsula"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "North Korean 239th Regiment",
+        "encircled_east_of",
+        "Yongju"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "US 187th Airborne Regimental Combat Team",
+        "had_objectives_of",
+        "cutting off the retreating North Korean forces"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Battle of Yongju\nThe Battle of Yongju (21–22 October 1950), also known as the Battle of the Apple Orchard, took place as part of the United Nations (UN) offensive towards the Yalu River, against the North Korean forces which had invaded South Korea during the Korean War. The battle was fought between the 27th British Commonwealth Brigade and the North Korean 239th Regiment which was encircled east of Yongju, where it was attacking the US 187th Airborne Regimental Combat Team (US 187 RCT). On 20 October US 187 RCT had parachuted ahead of the advancing UN spearheads into drop zones in Sukchon and Sunchon, 40 km north of the capital Pyongyang, with the objectives of cutting off the retreating North Korean forces that were withdrawing up the west coast of the Korean Peninsula and releasing American and South Korean prisoners of war. Although the airborne drop itself was a success, the operation came too late to intercept any significant North Korean elements and the American landings initially met little resistance. However, on 21 October as US 187 RCT began to advance south to the clear the Sukchon to Yongju road towards Pyongyang the Americans came under heavy attack from the North Korean 239th Regiment, and requested assistance."
+}

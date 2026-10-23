@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Jimmy Pegg": "Person",
+    "James Kenneth Pegg": "Person",
+    "Manchester United": "Organization",
+    "Torquay United": "Organization",
+    "York City": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Jimmy Pegg",
+      "relation": "known_as",
+      "object": "James Kenneth Pegg",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "known as Jimmy Pegg or Ken Pegg"
+        }
+      ]
+    },
+    {
+      "subject": "James Kenneth Pegg",
+      "relation": "played_for",
+      "object": "Manchester United",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who played as a goalkeeper in the Football League for Manchester United"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James Kenneth Pegg",
+        "born_on",
+        "4 January 1926"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James Kenneth Pegg",
+        "died_on",
+        "25 August 1999"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James Kenneth Pegg",
+        "played_for",
+        "Torquay United"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "James Kenneth Pegg",
+        "played_for",
+        "York City"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Jimmy Pegg\nJames Kenneth Pegg( 4 January 1926 – 25 August 1999), known as Jimmy Pegg or Ken Pegg, was an English professional footballer who played as a goalkeeper in the Football League for Manchester United, Torquay United and York City."
+}

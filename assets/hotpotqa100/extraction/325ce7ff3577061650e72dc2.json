@@ -1,0 +1,135 @@
+{
+  "entities": {
+    "Civilian Public Service": "program",
+    "United States government": "organization",
+    "World War II": "event",
+    "CPS camps": "location",
+    "U.S. Forest Service": "organization",
+    "Soil Conservation Service": "organization",
+    "National Park Service": "organization",
+    "draftees": "group",
+    "historic peace churches": "group",
+    "Puerto Rico": "location"
+  },
+  "triples": [
+    {
+      "subject": "Civilian Public Service",
+      "relation": "operated_during",
+      "object": "World War II",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "during World War II"
+        }
+      ]
+    },
+    {
+      "subject": "CPS camps",
+      "relation": "located_in",
+      "object": "Puerto Rico",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "throughout the United States and Puerto Rico"
+        }
+      ]
+    },
+    {
+      "subject": "draftees",
+      "relation": "supervised_by",
+      "object": "U.S. Forest Service",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "under the supervision of such agencies as the U.S. Forest Service"
+        }
+      ]
+    },
+    {
+      "subject": "draftees",
+      "relation": "from",
+      "object": "historic peace churches",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Draftees from the historic peace churches and other faiths"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Civilian Public Service",
+        "was_a",
+        "program"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Civilian Public Service",
+        "provided",
+        "conscientious objectors"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "draftees",
+        "accepted_assignments_in",
+        "CPS camps"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "CPS camps",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "draftees",
+        "worked_in",
+        "areas of national importance"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "draftees",
+        "supervised_by",
+        "Soil Conservation Service"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "draftees",
+        "supervised_by",
+        "National Park Service"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "draftees",
+        "helped_provide",
+        "social services"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "draftees",
+        "helped_provide",
+        "mental health services"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Civilian Public Service\nThe Civilian Public Service (CPS) was a program of the United States government that provided conscientious objectors with an alternative to military service during World War II. From 1941 to 1947, nearly 12,000 draftees, willing to serve their country in some capacity but unwilling to perform any type of military service, accepted assignments in \"work of national importance\" in 152 CPS camps throughout the United States and Puerto Rico. Draftees from the historic peace churches and other faiths worked in areas such as soil conservation, forestry, fire fighting, agriculture, under the supervision of such agencies as the U.S. Forest Service, the Soil Conservation Service, and the National Park Service. Others helped provide social services and mental health services."
+}

@@ -1,0 +1,137 @@
+{
+  "entities": {
+    "Wong Fei-hung Memorial Hall": "Location",
+    "Wong Fei-hung": "Person",
+    "Xinwen Street": "Location",
+    "Zumiao Road": "Location",
+    "Chancheng District": "Location",
+    "Foshan City": "Location",
+    "Foshan Ancestral Temple": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Wong Fei-hung Memorial Hall",
+      "relation": "located_in",
+      "object": "Xinwen Street",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in Xinwen Street"
+        }
+      ]
+    },
+    {
+      "subject": "Wong Fei-hung Memorial Hall",
+      "relation": "located_in",
+      "object": "Chancheng District",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Chancheng District"
+        }
+      ]
+    },
+    {
+      "subject": "Wong Fei-hung Memorial Hall",
+      "relation": "located_north_of",
+      "object": "Foshan Ancestral Temple",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "north of the Foshan Ancestral Temple"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wong Fei-hung Memorial Hall",
+        "located_in",
+        "Zumiao Road"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wong Fei-hung Memorial Hall",
+        "located_in",
+        "Foshan City"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wong Fei-hung Memorial Hall",
+        "completed_on",
+        "January 14, 2001"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wong Fei-hung Memorial Hall",
+        "has_architecture_style",
+        "imitation Qing Dynasty style"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wong Fei-hung Memorial Hall",
+        "includes",
+        "exhibition hall"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wong Fei-hung Memorial Hall",
+        "includes",
+        "auditorium"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wong Fei-hung Memorial Hall",
+        "includes",
+        "martial arts hall"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wong Fei-hung Memorial Hall",
+        "includes",
+        "martial arts courtyards"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wong Fei-hung Memorial Hall",
+        "introduces",
+        "Wong Fei-hung's life story"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wong Fei-hung Memorial Hall",
+        "has_display_of",
+        "literary and artistic works"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wong Fei-hung Memorial Hall",
+        "has_display_of",
+        "cultural relics relating to Wong Fei-hung"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Wong Fei-hung Memorial Hall\nWong Fei-hung or Huang Feihong Memorial Hall is a museum in memory of Wong Fei-hung, located in Xinwen Street, Zumiao Road in the Chancheng District, Foshan City, north of the Foshan Ancestral Temple, covering an area of more than 5,000 m2 . The completion ceremony for the Wong Fei-hung Memorial Hall was held on January14, 2001. Its architecture is imitation Qing Dynasty (16441911) style, and includes an exhibition hall, auditorium, martial arts hall, and martial arts courtyards. In the exhibition hall, apart from introducing Wong Fei-hung's life story, there is also a comprehensive display of a variety of literary, artistic works as well as thousands of cultural relics relating to Wong Fei-hung."
+}

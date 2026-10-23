@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Oliver Drake": "PERSON",
+    "Clarence Oliver Drake": "PERSON",
+    "Western": "WORK_OF_ART",
+    "Today I Hang": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Clarence Oliver Drake",
+        "born_as",
+        "Oliver Drake"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Clarence Oliver Drake",
+        "was",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Clarence Oliver Drake",
+        "worked_in_genre",
+        "Western"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Clarence Oliver Drake",
+        "wrote",
+        "Today I Hang"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Oliver Drake (filmmaker)\nClarence Oliver Drake( May 28, 1903 – August 19, 1991) was an American film director, screenwriter, producer and actor who was most active in the Western genre. Though Drake began his career as an actor, he is best known as a prolific screenwriter and director of low- budget Western films( sometimes referred to as B- Westerns). Drake was most active in the 1930s and 1940s, although he continued writing and directing films until 1974. His films include\" Today I Hang\"( 1942).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Oliver Drake\", \"type\": \"PERSON\"},\n    {\"name\": \"Clarence Oliver Drake\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Western\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Today I Hang\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Clarence Oliver Drake\",\n      \"relation\": \"born_as\",\n      \"object\": \"Oliver Drake\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"\"}\n      ]\n    },\n    {\n      \"subject\": \"Clarence Oliver Drake\",\n      \"relation\": \"was\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was an American\"}\n      ]\n    },\n    {\n      \"subject\": \"Clarence Oliver Drake\",\n      \"relation\": \"worked_in_genre\",\n      \"object\": \"Western\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Western genre\"}\n      ]\n    },\n    {\n      \"subject\": \"Clarence Oliver Drake\",\n      \"relation\": \"wrote\",\n      \"object\": \"Today I Hang\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"include\\\" Today I Hang\\\"\"}\n      ]\n    }\n  ]\n}"
+}

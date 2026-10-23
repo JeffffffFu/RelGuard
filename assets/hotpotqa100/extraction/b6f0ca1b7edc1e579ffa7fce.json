@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Toyota Innova": "PRODUCT",
+    "Toyota": "ORG",
+    "Toyota Astra Motor": "ORG",
+    "Indonesia": "GPE",
+    "Kijang": "PRODUCT",
+    "Hilux": "PRODUCT",
+    "Fortuner": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Toyota Innova",
+      "relation": "manufactured_by",
+      "object": "Toyota",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "manufactured by the Japanese automaker Toyota"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Innova",
+      "relation": "produced_in",
+      "object": "Indonesia",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "produced in Indonesia"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Innova",
+      "relation": "produced_by",
+      "object": "Toyota Astra Motor",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "under supervision by Toyota Astra Motor"
+        }
+      ]
+    },
+    {
+      "subject": "Toyota Innova",
+      "relation": "replaced",
+      "object": "Kijang",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "As with Kijang, which it replaced"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Toyota Innova",
+        "part_of",
+        "Toyota's IMV program"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Toyota's IMV program",
+        "includes",
+        "Hilux"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Toyota's IMV program",
+        "includes",
+        "Fortuner"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Toyota Innova\nThe Toyota Innova (Japanese: トヨタイノーバ \"Toyota Inōba\") is a compact MPV or MUV manufactured by the Japanese automaker Toyota. It is produced in Indonesia under supervision by Toyota Astra Motor since 2004. As with Kijang, which it replaced, the Innova is produced and first marketed in 2004 in Indonesia. The Innova is part of Toyota's IMV program together with the Hilux pickup truck and the Fortuner SUV. Its official name in Indonesia is Toyota Kijang Innova, while for other countries it is Innova."
+}

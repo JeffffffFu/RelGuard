@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "British Royal Train": "vehicle",
+    "United Kingdom": "location",
+    "British Royal Family": "organization",
+    "Royal Household": "organization",
+    "Great Britain": "location",
+    "Queen Victoria": "person",
+    "National Railway Museum": "organization",
+    "York": "location"
+  },
+  "triples": [
+    {
+      "subject": "British Royal Train",
+      "relation": "used_to_convey",
+      "object": "British Royal Family",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the Royal Train is used to convey senior members of the British Royal Family"
+        }
+      ]
+    },
+    {
+      "subject": "British Royal Train",
+      "relation": "located_in",
+      "object": "Great Britain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "around the railway network of Great Britain"
+        }
+      ]
+    },
+    {
+      "subject": "British Royal Train",
+      "relation": "has_royal_coaches",
+      "object": "Queen Victoria",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The earliest royal coaches date back to the mid-19th Century in the reign of Queen Victoria"
+        }
+      ]
+    },
+    {
+      "subject": "National Railway Museum",
+      "relation": "located_in",
+      "object": "York",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the National Railway Museum in York"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "British Royal Train",
+        "used_to_convey",
+        "Royal Household"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "British Royal Train",
+        "dates_from",
+        "1977-1987"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "British Royal Train",
+        "has_exhibition",
+        "royal themed exhibition"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "British Royal Train\nIn the United Kingdom, the Royal Train is used to convey senior members of the British Royal Family and associated staff of the Royal Household around the railway network of Great Britain. It is formed from a dedicated set of claret liveried sleeper, dining and lounge carriages. The current stock dates from 1977-1987. They are arranged according to requirements, and stored when not in use. The earliest royal coaches date back to the mid-19th Century in the reign of Queen Victoria; until an upgrade in 1977 there were multiple sets based in different regions, a legacy of the pre-nationalisation era of railways in Britain. Many are now in museums or on heritage railways; the National Railway Museum in York has a royal themed exhibition. Dedicated locomotives have never traditionally been part of the Royal Train, first appearing in special livery only in the 1990s, but also seeing use on other trains since 2003. In the 21st Century, various preserved (and one new build) steam locomotives have also hauled the train on special occasions. Although regularly cited by critics as one of the unnecessary luxuries of the Royal Family, which has led to an increase in the alternate use of normal scheduled services where possible, supporters argue the current arrangement emphasizes utility over luxury, and is still often the most practical and secure mode of travel to fit the required itinerary and avoid disruption to the public."
+}

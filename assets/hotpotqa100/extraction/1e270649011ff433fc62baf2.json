@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Chewin' the Fat": "show",
+    "Ford Kiernan": "person",
+    "Greg Hemphill": "person",
+    "Karen Dunbar": "person",
+    "Paul Riley": "person",
+    "Mark Cox": "person",
+    "Gregor Fisher": "person",
+    "Tom Urie": "person"
+  },
+  "triples": [
+    {
+      "subject": "Chewin' the Fat",
+      "relation": "starring",
+      "object": "Ford Kiernan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Ford Kiernan"
+        }
+      ]
+    },
+    {
+      "subject": "Chewin' the Fat",
+      "relation": "appeared_regularly_on",
+      "object": "Paul Riley",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Paul Riley and Mark Cox also appeared regularly on the show"
+        }
+      ]
+    },
+    {
+      "subject": "Chewin' the Fat",
+      "relation": "appeared_regularly_on",
+      "object": "Mark Cox",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Paul Riley and Mark Cox also appeared regularly on the show"
+        }
+      ]
+    },
+    {
+      "subject": "Chewin' the Fat",
+      "relation": "appeared_regularly_on",
+      "object": "Gregor Fisher",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "among other actors such as Gregor Fisher"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Chewin' the Fat",
+        "starring",
+        "Greg Hemphill"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Chewin' the Fat",
+        "starring",
+        "Karen Dunbar"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Chewin' the Fat",
+        "appeared_regularly_on",
+        "Tom Urie"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Chewin' the Fat\nChewin' the Fat is a Scottish comedy sketch show, starring Ford Kiernan, Greg Hemphill and Karen Dunbar. Comedians Paul Riley and Mark Cox also appeared regularly on the show among other actors such as Gregor Fisher and Tom Urie."
+}

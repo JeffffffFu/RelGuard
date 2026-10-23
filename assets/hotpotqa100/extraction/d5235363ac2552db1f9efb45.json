@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Mitridate, re di Ponto": "opera",
+    "Wolfgang Amadeus Mozart": "composer",
+    "Giuseppe Parini": "librettist",
+    "Jean Racine": "playwright"
+  },
+  "triples": [
+    {
+      "subject": "Mitridate, re di Ponto",
+      "relation": "composed_by",
+      "object": "Wolfgang Amadeus Mozart",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Wolfgang Amadeus Mozart"
+        }
+      ]
+    },
+    {
+      "subject": "Mitridate, re di Ponto",
+      "relation": "libretto_by",
+      "object": "Giuseppe Parini",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The libretto is by after Giuseppe Parini's Italian translation"
+        }
+      ]
+    },
+    {
+      "subject": "Giuseppe Parini",
+      "relation": "translated",
+      "object": "Jean Racine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "after Giuseppe Parini's Italian translation of Jean Racine's play"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Mitridate, re di Ponto",
+        "is_a",
+        "opera"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mitridate, re di Ponto\nMitridate, re di Ponto (\"Mithridates, King of Pontus\"), K. 87 (74a), is an early opera seria in three acts by Wolfgang Amadeus Mozart. The libretto is by after Giuseppe Parini's Italian translation of Jean Racine's play \"Mithridate\"."
+}

@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Unchained Memories": "WORK_OF_ART",
+    "HBO": "ORG",
+    "Ed Bell": "PERSON",
+    "Thomas Lennon": "PERSON",
+    "Federal Writers' Project": "ORG",
+    "WPA Slave Narrative Collection": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Unchained Memories",
+      "relation": "directed_by",
+      "object": "Ed Bell",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 232,
+          "char_start": 251,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Unchained Memories",
+      "relation": "directed_by",
+      "object": "Thomas Lennon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 232,
+          "char_start": 251,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Unchained Memories",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Unchained Memories",
+        "works_for",
+        "HBO"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "stories of former slaves interviewed during the 1930s",
+        "preserved_in",
+        "WPA Slave Narrative Collection"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "stories of former slaves interviewed during the 1930s",
+        "part_of",
+        "Federal Writers' Project"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Unchained Memories\nUnchained Memories is a 2003 documentary film about the stories of former slaves interviewed during the 1930s as part of the Federal Writers' Project and preserved in the WPA Slave Narrative Collection. This HBO film interpretation directed by Ed Bell and Thomas Lennon is a compilation of slave narratives, narrated by actors, emulating the original conversation with the interviewer. The slave narratives may be the most accurate in terms of the everyday activities of the enslaved, serving as personal memoirs of more than two thousand former slaves. The documentary depicts the emotions of the slaves and what they endured. The \"Master\" had the opportunity to sell, trade, or kill the enslaved, for retribution should one slave not obey.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Unchained Memories\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"HBO\", \"type\": \"ORG\"},\n    {\"name\": \"Ed Bell\", \"type\": \"PERSON\"},\n    {\"name\": \"Thomas Lennon\", \"type\": \"PERSON\"},\n    {\"name\": \"Federal Writers' Project\", \"type\": \"ORG\"},\n    {\"name\": \"WPA Slave Narrative Collection\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Unchained Memories\",\n      \"relation\": \"is_a\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Unchained Memories\"}\n      ]\n    },\n    {\n      \"subject\": \"Unchained Memories\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Ed Bell\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Unchained Memories\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Thomas Lennon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Unchained Memories\",\n      \"relation\": \"works_for\",\n      \"object\": \"HBO\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"HBO film interpretation\"}\n      ]\n    },\n    {\n      \"subject\": \"stories of former slaves interviewed during the 1930s\",\n      \"relation\": \"preserved_in\",\n      \"object\": \"WPA Slave Narrative Collection\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"preserved in\"}\n      ]\n    },\n    {\n      \"subject\": \"stories of former slaves interviewed during the 1930s\",\n      \"relation\": \"part_of\",\n      \"object\": \"Federal Writers' Project\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as part of\"}\n      ]\n    }\n  ]\n}"
+}

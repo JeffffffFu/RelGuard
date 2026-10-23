@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "The Original Jam Sessions 1969": "WORK_OF_ART",
+    "Quincy Jones": "PERSON",
+    "Bill Cosby": "PERSON",
+    "The Bill Cosby Show": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "The Original Jam Sessions 1969",
+      "relation": "recorded_as_backing_music_for",
+      "object": "The Bill Cosby Show",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "recorded as backing music for \"The Bill Cosby Show\""
+        }
+      ]
+    },
+    {
+      "subject": "The Original Jam Sessions 1969",
+      "relation": "performed_by",
+      "object": "Quincy Jones",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by Quincy Jones"
+        }
+      ]
+    },
+    {
+      "subject": "The Original Jam Sessions 1969",
+      "relation": "performed_by",
+      "object": "Bill Cosby",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and Bill Cosby"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Original Jam Sessions 1969",
+        "released",
+        "2004"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Original Jam Sessions 1969\nThe Original Jam Sessions 1969 is a 2004 released album by Quincy Jones and Bill Cosby recorded as backing music for \"The Bill Cosby Show\" in 1969."
+}

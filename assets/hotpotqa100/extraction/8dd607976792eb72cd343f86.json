@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Bill Cosby": "PERSON",
+    "Bill Cosby: Himself": "WORK_OF_ART",
+    "Hamilton Place Theatre": "FAC",
+    "Hamilton": "GPE",
+    "Ontario": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Bill Cosby: Himself",
+      "relation": "features",
+      "object": "Bill Cosby",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "featuring",
+          "line_start": 51,
+          "char_start": 71,
+          "ambiguous": false,
+          "relation_mention": "featuring",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Bill Cosby: Himself",
+      "relation": "filmed_at",
+      "object": "Hamilton Place Theatre",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Filmed before",
+          "line_start": 73,
+          "char_start": 93,
+          "ambiguous": false,
+          "relation_mention": "Filmed before",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hamilton Place Theatre",
+        "located_in",
+        "Hamilton"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hamilton",
+        "located_in",
+        "Ontario"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Bill Cosby: Himself\nBill Cosby: Himself is a 1983 stand-up comedy film featuring Bill Cosby. Filmed before a live audience at the Hamilton Place Theatre, in Hamilton, Ontario, Cosby gives the audience his views ranging from marriage to parenthood. The film also showcases Cosby's trademark conversational style of stand-up comedy. For most of the performance, Cosby is seated at the center of the stage, only getting up to emphasize a joke.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bill Cosby\", \"type\": \"PERSON\"},\n    {\"name\": \"Bill Cosby: Himself\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Hamilton Place Theatre\", \"type\": \"FAC\"},\n    {\"name\": \"Hamilton\", \"type\": \"GPE\"},\n    {\"name\": \"Ontario\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bill Cosby: Himself\",\n      \"relation\": \"features\",\n      \"object\": \"Bill Cosby\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"featuring\"}\n      ]\n    },\n    {\n      \"subject\": \"Bill Cosby: Himself\",\n      \"relation\": \"filmed_at\",\n      \"object\": \"Hamilton Place Theatre\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Filmed before\"}\n      ]\n    },\n    {\n      \"subject\": \"Hamilton Place Theatre\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hamilton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Hamilton, Ontario\"}\n      ]\n    },\n    {\n      \"subject\": \"Hamilton\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ontario\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Hamilton, Ontario\"}\n      ]\n    }\n  ]\n}"
+}

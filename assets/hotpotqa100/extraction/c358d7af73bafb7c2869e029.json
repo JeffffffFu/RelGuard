@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Slasher.com": "Film",
+    "Chip Gubera": "Director",
+    "Jewel Shepard": "Actor",
+    "R.A. Mihailoff": "Actor",
+    "Delious Kennedy": "Actor",
+    "Ben Kaplan": "Actor",
+    "Morgan Carter": "Actor"
+  },
+  "triples": [
+    {
+      "subject": "Slasher.com",
+      "relation": "directed_by",
+      "object": "Chip Gubera",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Chip Gubera"
+        }
+      ]
+    },
+    {
+      "subject": "Slasher.com",
+      "relation": "starring",
+      "object": "Jewel Shepard",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Jewel Shepard"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Slasher.com",
+        "starring",
+        "R.A. Mihailoff"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Slasher.com",
+        "starring",
+        "Delious Kennedy"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Slasher.com",
+        "starring",
+        "Ben Kaplan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Slasher.com",
+        "starring",
+        "Morgan Carter"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Slasher.com\n\"Slasher.com\" is a 2017 horror feature film directed by Chip Gubera starring Jewel Shepard, R.A. Mihailoff, All-4-One's Delious Kennedy, Ben Kaplan, and Morgan Carter."
+}

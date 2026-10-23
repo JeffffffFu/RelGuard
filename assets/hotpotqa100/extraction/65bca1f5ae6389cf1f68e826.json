@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Schenectady County Historical Society": "ORG",
+    "Schenectady": "GPE",
+    "New York": "GPE",
+    "State of New York": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Schenectady County Historical Society",
+      "relation": "located_in",
+      "object": "Schenectady",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in",
+          "line_start": 43,
+          "char_start": 81,
+          "ambiguous": false,
+          "relation_mention": "located in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Schenectady County Historical Society",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Schenectady County Historical Society",
+        "located_in",
+        "State of New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Schenectady County Historical Society\nThe Schenectady County Historical Society, located in Schenectady, New York, was established on July 14, 1905, under the Membership Corporation Laws of the State of New York. The Society is an independent not-for-profit corporation, not a unit of government. Its stated mission as embodied in its constitution was, and remains, “to promote and encourage original historical research; to disseminate a greater knowledge of the history of the State of New York and particularly of Schenectady County; to gather, preserve, display, and make available for study artifacts, books, manuscripts, papers, photographs and other records and materials relating to the early and current history of Schenectady County, New York and of the surrounding area; to encourage the suitable marking of places of historic interest; to acquire by purchase, gifts, devise, or otherwise the title to or the custody and control of historic sites and structures.”",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Schenectady County Historical Society\", \"type\": \"ORG\"},\n    {\"name\": \"Schenectady\", \"type\": \"GPE\"},\n    {\"name\": \"New York\", \"type\": \"GPE\"},\n    {\"name\": \"State of New York\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Schenectady County Historical Society\",\n      \"relation\": \"located_in\",\n      \"object\": \"Schenectady\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady County Historical Society\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in Schenectady, New York\"}\n      ]\n    },\n    {\n      \"subject\": \"Schenectady County Historical Society\",\n      \"relation\": \"located_in\",\n      \"object\": \"State of New York\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the State of New York\"}\n      ]\n    }\n  ]\n}"
+}

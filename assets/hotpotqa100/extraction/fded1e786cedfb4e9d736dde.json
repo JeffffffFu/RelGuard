@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Maine Legislature": "Legislature",
+    "Maine House of Representatives": "Legislative Body",
+    "Maine Senate": "Legislative Body",
+    "State House": "Building",
+    "Augusta": "City",
+    "Maine": "State"
+  },
+  "triples": [
+    {
+      "subject": "Maine Legislature",
+      "relation": "is_state_legislature_of",
+      "object": "Maine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Maine Legislature is the state legislature of the U.S. state of Maine."
+        }
+      ]
+    },
+    {
+      "subject": "Maine Legislature",
+      "relation": "composed_of",
+      "object": "Maine House of Representatives",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is a bicameral body composed of the lower house Maine House of Representatives and the upper house Maine Senate."
+        }
+      ]
+    },
+    {
+      "subject": "Maine Legislature",
+      "relation": "composed_of",
+      "object": "Maine Senate",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is a bicameral body composed of the lower house Maine House of Representatives and the upper house Maine Senate."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Maine Legislature",
+        "convenes_at",
+        "State House"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "State House",
+        "located_in",
+        "Augusta"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Maine Legislature",
+        "has_met_since",
+        "1832"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Maine Legislature\nThe Maine Legislature is the state legislature of the U.S. state of Maine. It is a bicameral body composed of the lower house Maine House of Representatives and the upper house Maine Senate. The Legislature convenes at the State House in Augusta, where it has met since 1832."
+}

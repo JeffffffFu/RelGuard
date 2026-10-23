@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "Star Search": "EVENT",
+    "Singapore": "GPE",
+    "Malaysia": "GPE",
+    "China": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Star Search",
+      "relation": "located_in",
+      "object": "Singapore",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Star Search 2003 began its 3-nationwide talent search for individuals with star potential in Singapore"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Star Search",
+        "located_in",
+        "Malaysia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Star Search",
+        "located_in",
+        "China"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Star Search",
+        "competes_at",
+        "Grand Finals"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Star Search (Singapore season 8)\nFrom March 2003, Star Search 2003 began its 3-nationwide talent search for individuals with star potential in Singapore, Malaysia and China. Auditions have been carried out in each of the 3 countries and training for the shortlisted star wannabes are ongoing. Each of the 3 countries will then select 4 Star Search contestants (2 male, 2 female) to compete at the Grand Finals on June 29 in Singapore."
+}

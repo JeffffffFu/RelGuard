@@ -1,0 +1,33 @@
+{
+  "entities": {
+    "A Rose for Everyone": "WORK_OF_ART",
+    "Claudia Cardinale": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "A Rose for Everyone",
+        "located_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "A Rose for Everyone",
+        "stars",
+        "Claudia Cardinale"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "A Rose for Everyone\nA Rose for Everyone is a 1967 Italian film. It stars Claudia Cardinale.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"A Rose for Everyone\",\n      \"type\": \"WORK_OF_ART\"\n    },\n    {\n      \"name\": \"Italy\",\n      \"type\": \"GPE\"\n    },\n    {\n      \"name\": \"Claudia Cardinale\",\n      \"type\": \"PERSON\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"A Rose for Everyone\",\n      \"relation\": \"located_in\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Italian\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"A Rose for Everyone\",\n      \"relation\": \"stars\",\n      \"object\": \"Claudia Cardinale\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"stars\"\n        }\n      ]\n    }\n  ]\n}"
+}

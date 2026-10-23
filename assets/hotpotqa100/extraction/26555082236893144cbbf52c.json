@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Gary Sinise": "PERSON",
+    "American": "NORP",
+    "Emmy Award": "WORK_OF_ART",
+    "Golden Globe Award": "WORK_OF_ART",
+    "Hollywood Walk of Fame": "FAC",
+    "Academy Award": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Gary Sinise",
+      "relation": "is",
+      "object": "American",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an American actor, director, and musician."
+        }
+      ]
+    },
+    {
+      "subject": "Gary Sinise",
+      "relation": "won",
+      "object": "Emmy Award",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he has won an Emmy Award"
+        }
+      ]
+    },
+    {
+      "subject": "Gary Sinise",
+      "relation": "nominated_for",
+      "object": "Academy Award",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "has been nominated for an Academy Award"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gary Sinise",
+        "won",
+        "Golden Globe Award"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Gary Sinise",
+        "has_star_on",
+        "Hollywood Walk of Fame"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Gary Sinise\nGary Alan Sinise ( ; born March 17, 1955) is an American actor, director, and musician. Among other awards, he has won an Emmy Award, a Golden Globe Award, a star on Hollywood Walk of Fame and has been nominated for an Academy Award."
+}

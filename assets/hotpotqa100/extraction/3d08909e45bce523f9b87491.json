@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Shrine Auditorium": "FAC",
+    "Los Angeles": "GPE",
+    "California": "GPE",
+    "Al Malaikah Temple": "ORG",
+    "Shriners": "ORG",
+    "Los Angeles Historic-Cultural Monument": "LAW"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Shrine Auditorium",
+        "located_in",
+        "Los Angeles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Shrine Auditorium",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Shrine Auditorium",
+        "works_for",
+        "Al Malaikah Temple"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Al Malaikah Temple",
+        "founded",
+        "Shriners"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Shrine Auditorium",
+        "located_in",
+        "Los Angeles Historic-Cultural Monument"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Shrine Auditorium\nThe Shrine Auditorium is a landmark large-event venue in Los Angeles, California. It is also the headquarters of the Al Malaikah Temple, a division of the Shriners. It was designated a Los Angeles Historic-Cultural Monument (No. 139) in 1975.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Shrine Auditorium\", \"type\": \"FAC\"},\n    {\"name\": \"Los Angeles\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"Al Malaikah Temple\", \"type\": \"ORG\"},\n    {\"name\": \"Shriners\", \"type\": \"ORG\"},\n    {\"name\": \"Los Angeles Historic-Cultural Monument\", \"type\": \"LAW\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Shrine Auditorium\",\n      \"relation\": \"located_in\",\n      \"object\": \"Los Angeles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Los Angeles\"}\n      ]\n    },\n    {\n      \"subject\": \"Shrine Auditorium\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Los Angeles, California\"}\n      ]\n    },\n    {\n      \"subject\": \"Shrine Auditorium\",\n      \"relation\": \"works_for\",\n      \"object\": \"Al Malaikah Temple\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the headquarters of the Al Malaikah Temple\"}\n      ]\n    },\n    {\n      \"subject\": \"Al Malaikah Temple\",\n      \"relation\": \"founded\",\n      \"object\": \"Shriners\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a division of the Shriners\"}\n      ]\n    },\n    {\n      \"subject\": \"Shrine Auditorium\",\n      \"relation\": \"located_in\",\n      \"object\": \"Los Angeles Historic-Cultural Monument\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designated a Los Angeles Historic-Cultural Monument\"}\n      ]\n    }\n  ]\n}"
+}

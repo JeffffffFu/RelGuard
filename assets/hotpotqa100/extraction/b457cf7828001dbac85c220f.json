@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Merrill": "GPE",
+    "Lincoln County": "GPE",
+    "Wisconsin": "GPE",
+    "United States": "GPE",
+    "Wausau": "GPE",
+    "Marathon County": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Merrill",
+      "relation": "located_in",
+      "object": "Lincoln County",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Merrill is a city in and the county seat of Lincoln County"
+        }
+      ]
+    },
+    {
+      "subject": "Merrill",
+      "relation": "located_in",
+      "object": "Wisconsin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Merrill is a city in and the county seat of Lincoln County, Wisconsin"
+        }
+      ]
+    },
+    {
+      "subject": "Merrill",
+      "relation": "part_of",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Merrill is a city in and the county seat of Lincoln County, Wisconsin, United States"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Merrill",
+        "part_of",
+        "Merrill MSA"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Lincoln County",
+        "part_of",
+        "Merrill MSA"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wausau MSA",
+        "part_of",
+        "Wausau-Merrill CSA"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Marathon County",
+        "part_of",
+        "Wausau MSA"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Merrill, Wisconsin\nMerrill is a city in and the county seat of Lincoln County, Wisconsin, United States. It is located to the south of and adjacent to the Town of Merrill. The population was 9,661, according to the 2010 census. Merrill is part of the United States Census Bureau's Merrill MSA, which includes all of Lincoln County. Together with the Wausau MSA, which includes all of Marathon County, it forms the Wausau-Merrill CSA."
+}

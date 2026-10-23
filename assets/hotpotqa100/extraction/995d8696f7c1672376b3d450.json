@@ -1,0 +1,149 @@
+{
+  "entities": {
+    "Argentina": "GPE",
+    "FIFA World Cup": "EVENT",
+    "Brazil": "GPE",
+    "Italy": "GPE",
+    "Germany": "GPE",
+    "Copa América": "EVENT",
+    "Uruguay": "GPE",
+    "Confederations Cup": "EVENT",
+    "Olympic football tournament": "EVENT",
+    "FIFA U-20 World Cup": "EVENT",
+    "FIFA U-17 World Cup": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Argentina",
+      "relation": "won",
+      "object": "FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "having won",
+          "line_start": 141,
+          "char_start": 173,
+          "ambiguous": false,
+          "relation_mention": "having won",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Argentina",
+      "relation": "won",
+      "object": "Copa América",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has also won",
+          "line_start": 389,
+          "char_start": 421,
+          "ambiguous": false,
+          "relation_mention": "has also won",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Argentina",
+      "relation": "won",
+      "object": "Confederations Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has also won",
+          "line_start": 389,
+          "char_start": 421,
+          "ambiguous": false,
+          "relation_mention": "has also won",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Argentina",
+      "relation": "won",
+      "object": "Olympic football tournament",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has also won",
+          "line_start": 389,
+          "char_start": 421,
+          "ambiguous": false,
+          "relation_mention": "has also won",
+          "sentence_id": 5
+        }
+      ]
+    },
+    {
+      "subject": "Argentina",
+      "relation": "won",
+      "object": "FIFA U-20 World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has won",
+          "line_start": 730,
+          "char_start": 762,
+          "ambiguous": false,
+          "relation_mention": "has won",
+          "sentence_id": 8
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Argentina",
+        "participates_in",
+        "FIFA World Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Argentina",
+        "runners_up_in",
+        "FIFA World Cup"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Argentina",
+        "behind_in_number_of_appearances",
+        "Brazil"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Argentina",
+        "behind_in_number_of_appearances",
+        "Italy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Argentina",
+        "behind_in_number_of_appearances",
+        "Germany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FIFA U-17 World Cup",
+        "not_obtained_by",
+        "Argentina"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Argentina at the FIFA World Cup\nThis is a record of Argentina's results at the FIFA World Cup. Argentina is one of the most successful national football teams in the world, having won 2 World Cups in 1978 and 1986. Argentina has been runners up three times in the 1930, 1990 and 2014. The team was present in all but four of the World Cups, being behind only Brazil, Italy and Germany in number of appearances. Argentina has also won the Copa América 14 times, one less than Uruguay. Moreover, Argentina has also won the Confederations Cup and the gold medal at the Olympic football tournament in 2004 and 2008. Prior to that occasion Argentina had obtained two silver medals in the 1928 and 1996 editions. On other levels of international competition Argentina has won the FIFA U-20 World Cup a record six times. The FIFA U-17 World Cup is the only FIFA international competition yet to be obtained.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Argentina\", \"type\": \"GPE\"},\n    {\"name\": \"FIFA World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"Brazil\", \"type\": \"GPE\"},\n    {\"name\": \"Italy\", \"type\": \"GPE\"},\n    {\"name\": \"Germany\", \"type\": \"GPE\"},\n    {\"name\": \"Copa América\", \"type\": \"EVENT\"},\n    {\"name\": \"Uruguay\", \"type\": \"GPE\"},\n    {\"name\": \"Confederations Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"Olympic football tournament\", \"type\": \"EVENT\"},\n    {\"name\": \"FIFA U-20 World Cup\", \"type\": \"EVENT\"},\n    {\"name\": \"FIFA U-17 World Cup\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Argentina\",\n      \"relation\": \"participates_in\",\n      \"object\": \"FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"results at\"}\n      ]\n    },\n    {\n      \"subject\": \"Argentina\",\n      \"relation\": \"won\",\n      \"object\": \"FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"having won\"}\n      ]\n    },\n    {\n      \"subject\": \"Argentina\",\n      \"relation\": \"runners_up_in\",\n      \"object\": \"FIFA World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has been runners up\"}\n      ]\n    },\n    {\n      \"subject\": \"Argentina\",\n      \"relation\": \"behind_in_number_of_appearances\",\n      \"object\": \"Brazil\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"being behind only\"}\n      ]\n    },\n    {\n      \"subject\": \"Argentina\",\n      \"relation\": \"behind_in_number_of_appearances\",\n      \"object\": \"Italy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"being behind only\"}\n      ]\n    },\n    {\n      \"subject\": \"Argentina\",\n      \"relation\": \"behind_in_number_of_appearances\",\n      \"object\": \"Germany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"being behind only\"}\n      ]\n    },\n    {\n      \"subject\": \"Argentina\",\n      \"relation\": \"won\",\n      \"object\": \"Copa América\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has also won\"}\n      ]\n    },\n    {\n      \"subject\": \"Argentina\",\n      \"relation\": \"won\",\n      \"object\": \"Confederations Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has also won\"}\n      ]\n    },\n    {\n      \"subject\": \"Argentina\",\n      \"relation\": \"won\",\n      \"object\": \"Olympic football tournament\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has also won\"}\n      ]\n    },\n    {\n      \"subject\": \"Argentina\",\n      \"relation\": \"won\",\n      \"object\": \"FIFA U-20 World Cup\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has won\"}\n      ]\n    },\n    {\n      \"subject\": \"FIFA U-17 World Cup\",\n      \"relation\": \"not_obtained_by\",\n      \"object\": \"Argentina\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the only FIFA international competition yet to be obtained\"}\n      ]\n    }\n  ]\n}"
+}

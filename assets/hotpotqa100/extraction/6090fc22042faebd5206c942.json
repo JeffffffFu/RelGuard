@@ -1,0 +1,135 @@
+{
+  "entities": {
+    "Scotch Collie": "WORK_OF_ART",
+    "Scotland": "GPE",
+    "Rough Collie": "WORK_OF_ART",
+    "Smooth Collie": "WORK_OF_ART",
+    "Roman Cattle Dogs": "WORK_OF_ART",
+    "Native Celtic Dogs": "WORK_OF_ART",
+    "Viking Herding Spitzes": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Scotch Collie",
+      "relation": "located_in",
+      "object": "Scotland",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "originated from",
+          "line_start": 51,
+          "char_start": 65,
+          "ambiguous": false,
+          "relation_mention": "originated from",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Scotch Collie",
+      "relation": "has_variant",
+      "object": "Rough Collie",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "consisted of",
+          "line_start": 111,
+          "char_start": 125,
+          "ambiguous": false,
+          "relation_mention": "consisted of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Scotch Collie",
+      "relation": "has_variant",
+      "object": "Smooth Collie",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "consisted of",
+          "line_start": 111,
+          "char_start": 125,
+          "ambiguous": false,
+          "relation_mention": "consisted of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Scotch Collie",
+      "relation": "descended_from",
+      "object": "Roman Cattle Dogs",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "descended from",
+          "line_start": 257,
+          "char_start": 271,
+          "ambiguous": false,
+          "relation_mention": "descended from",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Scotch Collie",
+      "relation": "descended_from",
+      "object": "Native Celtic Dogs",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "descended from",
+          "line_start": 257,
+          "char_start": 271,
+          "ambiguous": false,
+          "relation_mention": "descended from",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Scotch Collie",
+      "relation": "descended_from",
+      "object": "Viking Herding Spitzes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "descended from",
+          "line_start": 257,
+          "char_start": 271,
+          "ambiguous": false,
+          "relation_mention": "descended from",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "Gordon Setter (WORK_OF_ART)",
+        "Irish Setter (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "Scotch Collie",
+        "has_ancestor",
+        "Gordon Setter"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Scotch Collie",
+        "has_ancestor",
+        "Irish Setter"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Scotch Collie\nThe Scotch Collie is a landrace breed of dog which originated from the highland regions of Scotland. The breed consisted of both the long-haired (now known as Rough) Collie and the short-haired (now known as Smooth) Collie. It is generally believed to have descended from a variety of ancient herding dogs, some dating back to the Roman occupation, which may have included Roman Cattle Dogs, Native Celtic Dogs and Viking Herding Spitzes. Other ancestors include the Gordon and Irish Setters."
+}

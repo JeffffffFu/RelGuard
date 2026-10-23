@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Toyota": "ORG",
+    "IMV platform": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Toyota",
+      "relation": "produces",
+      "object": "IMV platform",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Toyota IMV platform is an automobile platform for SUVs, pickups/light trucks and passenger cars from Toyota."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "IMV platform",
+        "stands_for",
+        "Innovative International Multi-purpose Vehicle"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Toyota IMV platform\nThe Toyota IMV platform is an automobile platform for SUVs, pickups/light trucks and passenger cars from Toyota. \"IMV\" stands for \"Innovative International Multi-purpose Vehicle\"."
+}

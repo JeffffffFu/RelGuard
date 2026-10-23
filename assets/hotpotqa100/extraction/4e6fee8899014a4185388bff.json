@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "straw purchase": "concept",
+    "agent": "role",
+    "ultimate receiver": "role",
+    "goods or services": "object",
+    "ultimate possessor": "role",
+    "jurisdictions": "concept"
+  },
+  "triples": [
+    {
+      "subject": "agent",
+      "relation": "transfers",
+      "object": "goods or services",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the agent transfers the goods or services to that person after purchasing them"
+        }
+      ]
+    },
+    {
+      "subject": "ultimate receiver",
+      "relation": "uses",
+      "object": "goods or services",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the ultimate receiver of goods or services uses those goods or services in the commission of a crime"
+        }
+      ]
+    },
+    {
+      "subject": "ultimate receiver",
+      "relation": "is_not_legally_able_to_purchase",
+      "object": "goods or services",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the end user is not legally able to purchase the good or service himself or herself"
+        }
+      ]
+    },
+    {
+      "subject": "jurisdictions",
+      "relation": "allows",
+      "object": "straw purchase",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "In some jurisdictions, straw purchases are legal"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "straw purchase",
+        "is_a",
+        "concept"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Straw purchase\nA straw purchase or nominee purchase is any purchase wherein an agent agrees to acquire a good or service for someone who is unable or unwilling to purchase the good or service themselves, and the agent transfers the goods or services to that person after purchasing them. In general, straw purchases are legal except in cases where the ultimate receiver of goods or services uses those goods or services in the commission of a crime with the prior knowledge of the straw purchaser, or if the ultimate possessor is not legally able to purchase the goods or services. In some jurisdictions, straw purchases are legal although the end user is not legally able to purchase the good or service himself or herself."
+}

@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Single Video Theory": "WORK_OF_ART",
+    "Mark Pellington": "PERSON",
+    "Yield": "WORK_OF_ART",
+    "Pearl Jam": "ORG",
+    "American": "NORP",
+    "VHS": "PRODUCT",
+    "DVD": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Single Video Theory",
+      "relation": "directed_by",
+      "object": "Mark Pellington",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 43,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Single Video Theory",
+      "relation": "follows_the_making_of",
+      "object": "Yield",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "follows the making of",
+          "line_start": 76,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "follows the making of",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Yield",
+        "is_album_by",
+        "Pearl Jam"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pearl Jam",
+        "has_norp",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Single Video Theory",
+        "released_on",
+        "VHS"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Single Video Theory",
+        "released_on",
+        "DVD"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Single Video Theory\nSingle Video Theory is a music documentary directed by Mark Pellington that follows the making of \"Yield\", the fifth album by the American alternative rock band Pearl Jam. It was released first on VHS on August 4, 1998, and then on DVD on November 24, 1998.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Single Video Theory\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Mark Pellington\", \"type\": \"PERSON\"},\n    {\"name\": \"Yield\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Pearl Jam\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"VHS\", \"type\": \"PRODUCT\"},\n    {\"name\": \"DVD\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Single Video Theory\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Mark Pellington\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Single Video Theory\",\n      \"relation\": \"follows_the_making_of\",\n      \"object\": \"Yield\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"follows the making of\"}\n      ]\n    },\n    {\n      \"subject\": \"Yield\",\n      \"relation\": \"is_album_by\",\n      \"object\": \"Pearl Jam\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by the American alternative rock band Pearl Jam\"}\n      ]\n    },\n    {\n      \"subject\": \"Pearl Jam\",\n      \"relation\": \"has_norp\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    },\n    {\n      \"subject\": \"Single Video Theory\",\n      \"relation\": \"released_on\",\n      \"object\": \"VHS\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on VHS\"}\n      ]\n    },\n    {\n      \"subject\": \"Single Video Theory\",\n      \"relation\": \"released_on\",\n      \"object\": \"DVD\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on DVD\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Christina Tosi": "PERSON",
+    "Momofuku Milk Bar": "ORG",
+    "Momofuku": "ORG",
+    "New York City": "GPE",
+    "Toronto": "GPE",
+    "Washington, D.C.": "GPE",
+    "Cosmopolitan of Las Vegas": "FAC",
+    "Nevada": "GPE",
+    "Brooklyn": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Christina Tosi",
+      "relation": "founded",
+      "object": "Momofuku Milk Bar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "She is the chef, founder, and owner of Momofuku Milk Bar"
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "located_in",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "five retail outlets in New York City"
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "located_in",
+      "object": "Toronto",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "a sixth location in Toronto, Canada"
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "supplied_by",
+      "object": "Brooklyn",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "if the Nevada branch would also be supplied by the Brooklyn-based central bakery"
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "located_in",
+      "object": "Washington, D.C.",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "A seventh location was originally planned to open in Washington, D.C."
+        }
+      ]
+    },
+    {
+      "subject": "Momofuku Milk Bar",
+      "relation": "located_in",
+      "object": "Cosmopolitan of Las Vegas",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "an eighth location was planned to open at the Cosmopolitan of Las Vegas in Nevada"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Momofuku Milk Bar",
+        "opened_in",
+        "December 2016"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Christina Tosi\nChristina Tosi (born 1981 ) is an American chef, author, and television personality. She is the chef, founder, and owner of Momofuku Milk Bar, the sister bakery to the Momofuku restaurant group. Milk Bar consists of a central bakery that produces baked goods daily for five retail outlets in New York City and a sixth location in Toronto, Canada. A seventh location was originally planned to open in Washington, D.C. during summer 2015, and finally opened in October 2015. The central bakery also provides baked goods for other restaurants in the Momofuku group and individuals by shipping nationally and internationally. In February 2016, it was announced that an eighth location was planned to open at the Cosmopolitan of Las Vegas in Nevada. At the time of the announcement, it was unclear if the Nevada branch would also be supplied by the Brooklyn-based central bakery. After a long delay, the Las Vegas location opened in December 2016."
+}

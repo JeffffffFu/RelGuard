@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "The Dixie Flyer": "Film",
+    "Charles J. Hunt": "Person",
+    "Cullen Landis": "Person",
+    "Eva Novak": "Person",
+    "Ferdinand Munier": "Person"
+  },
+  "triples": [
+    {
+      "subject": "The Dixie Flyer",
+      "relation": "directed_by",
+      "object": "Charles J. Hunt",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Charles J. Hunt"
+        }
+      ]
+    },
+    {
+      "subject": "The Dixie Flyer",
+      "relation": "starring",
+      "object": "Cullen Landis",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Cullen Landis"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Dixie Flyer",
+        "starring",
+        "Eva Novak"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Dixie Flyer",
+        "starring",
+        "Ferdinand Munier"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Dixie Flyer\nThe Dixie Flyer is a 1926 American silent action film directed by Charles J. Hunt and starring Cullen Landis, Eva Novak and Ferdinand Munier."
+}

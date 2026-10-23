@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Harry Emerson Fosdick": "Person",
+    "First Presbyterian Church": "Organization",
+    "Riverside Church": "Organization",
+    "New York City": "Location",
+    "Manhattan": "Location",
+    "American Protestantism": "Concept"
+  },
+  "triples": [
+    {
+      "subject": "Harry Emerson Fosdick",
+      "relation": "served_as",
+      "object": "First Presbyterian Church",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "called to serve as pastor, in New York City, at First Presbyterian Church in Manhattan's West Village"
+        }
+      ]
+    },
+    {
+      "subject": "Harry Emerson Fosdick",
+      "relation": "served_as",
+      "object": "Riverside Church",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "then at the historic, inter-denominational Riverside Church in Morningside Heights, Manhattan"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Harry Emerson Fosdick",
+        "was_a",
+        "American Protestantism"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Harry Emerson Fosdick\nHarry Emerson Fosdick (May 24, 1878 – October 5, 1969) was an American pastor. Fosdick became a central figure in the \"Fundamentalist–Modernist Controversy\" within American Protestantism in the 1920s and 1930s and was one of the most prominent liberal ministers of the early 20th century. Although a Baptist, he was called to serve as pastor, in New York City, at First Presbyterian Church in Manhattan's West Village, and then at the historic, inter-denominational Riverside Church in Morningside Heights, Manhattan."
+}

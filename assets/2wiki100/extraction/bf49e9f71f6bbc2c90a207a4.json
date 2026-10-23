@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Amresh Ganesh": "Person",
+    "Jayachitra": "Person",
+    "Pudhiya Raagam": "Film",
+    "Naane Ennul Illai": "Film"
+  },
+  "triples": [
+    {
+      "subject": "Amresh Ganesh",
+      "relation": "son_of",
+      "object": "Jayachitra",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The son of actress Jayachitra"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Amresh Ganesh",
+        "is_a",
+        "Indian actor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Amresh Ganesh",
+        "works_in",
+        "Tamil language films"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Amresh Ganesh",
+        "appeared_in",
+        "Pudhiya Raagam"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Amresh Ganesh",
+        "appeared_in",
+        "Naane Ennul Illai"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Amresh Ganesh",
+        "worked_as",
+        "music composer"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Amresh Ganesh\nAmresh Ganesh is an Indian actor, film composer and singer, who has worked in Tamil language films. The son of actress Jayachitra, Amresh appeared as an actor in his mother's productions\" Pudhiya Raagam\"( 1991) and then in\" Naane Ennul Illai\"( 2010), before working as a music composer in the late 2010s."
+}

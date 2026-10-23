@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "Birthplace of Adlai E. Stevenson II": "FAC",
+    "Los Angeles Historic-Cultural Monument": "ORG",
+    "West Adams": "LOC",
+    "Los Angeles": "GPE",
+    "California": "GPE",
+    "Adlai E. Stevenson II": "PERSON",
+    "C.W. Wedgewood": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "C.W. Wedgewood",
+      "relation": "designed",
+      "object": "Birthplace of Adlai E. Stevenson II",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed by",
+          "line_start": 291,
+          "char_start": 327,
+          "ambiguous": false,
+          "relation_mention": "designed by",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Birthplace of Adlai E. Stevenson II",
+        "is_a",
+        "Los Angeles Historic-Cultural Monument"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Birthplace of Adlai E. Stevenson II",
+        "located_in",
+        "West Adams"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "West Adams",
+        "located_in",
+        "Los Angeles"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Los Angeles",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Birthplace of Adlai E. Stevenson II",
+        "was_birthplace_of",
+        "Adlai E. Stevenson II"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Birthplace of Adlai E. Stevenson II\nBirthplace of Adlai E. Stevenson II is a Los Angeles Historic-Cultural Monument (No. 35) in the West Adams neighborhood of Los Angeles, California. The site was the birthplace of two-time US Presidential candidate Adlai E. Stevenson II, who was born there on February 5, 1900. The house was designed by C.W. Wedgewood and built in approximately 1894. When Stevenson died in 1965, the site was declared a Historic-Cultural Monument.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Birthplace of Adlai E. Stevenson II\", \"type\": \"FAC\"},\n    {\"name\": \"Los Angeles Historic-Cultural Monument\", \"type\": \"ORG\"},\n    {\"name\": \"West Adams\", \"type\": \"LOC\"},\n    {\"name\": \"Los Angeles\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"Adlai E. Stevenson II\", \"type\": \"PERSON\"},\n    {\"name\": \"C.W. Wedgewood\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Birthplace of Adlai E. Stevenson II\",\n      \"relation\": \"is_a\",\n      \"object\": \"Los Angeles Historic-Cultural Monument\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Los Angeles Historic-Cultural Monument\"}\n      ]\n    },\n    {\n      \"subject\": \"Birthplace of Adlai E. Stevenson II\",\n      \"relation\": \"located_in\",\n      \"object\": \"West Adams\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the West Adams neighborhood\"}\n      ]\n    },\n    {\n      \"subject\": \"West Adams\",\n      \"relation\": \"located_in\",\n      \"object\": \"Los Angeles\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"neighborhood of Los Angeles\"}\n      ]\n    },\n    {\n      \"subject\": \"Los Angeles\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Los Angeles, California\"}\n      ]\n    },\n    {\n      \"subject\": \"Birthplace of Adlai E. Stevenson II\",\n      \"relation\": \"was_birthplace_of\",\n      \"object\": \"Adlai E. Stevenson II\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was the birthplace of\"}\n      ]\n    },\n    {\n      \"subject\": \"C.W. Wedgewood\",\n      \"relation\": \"designed\",\n      \"object\": \"Birthplace of Adlai E. Stevenson II\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designed by\"}\n      ]\n    }\n  ]\n}"
+}

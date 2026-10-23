@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Harry Conor": "PERSON",
+    "American": "NORP",
+    "Welland Strong": "PERSON",
+    "A Trip to Chinatown": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Harry Conor",
+      "relation": "played_role",
+      "object": "Welland Strong",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "playing the role of",
+          "line_start": 79,
+          "char_start": 91,
+          "ambiguous": false,
+          "relation_mention": "playing the role of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Harry Conor",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Welland Strong",
+        "character_in",
+        "A Trip to Chinatown"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Harry Conor\nHarry Conor( c. 1856 – April 1931) was an American comic actor, best known for playing the role of Welland Strong in\" A Trip to Chinatown\".",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Harry Conor\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"American\",\n      \"type\": \"NORP\"\n    },\n    {\n      \"name\": \"Welland Strong\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"A Trip to Chinatown\",\n      \"type\": \"WORK_OF_ART\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Harry Conor\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"was an American\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Harry Conor\",\n      \"relation\": \"played_role\",\n      \"object\": \"Welland Strong\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"playing the role of\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Welland Strong\",\n      \"relation\": \"character_in\",\n      \"object\": \"A Trip to Chinatown\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in\\\" A Trip to Chinatown\\\"\"\n        }\n      ]\n    }\n  ]\n}"
+}

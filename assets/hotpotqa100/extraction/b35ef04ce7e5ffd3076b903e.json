@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Tom Coburn": "PERSON",
+    "Republican Party": "ORG",
+    "United States": "GPE",
+    "Oklahoma": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Tom Coburn",
+        "works_for",
+        "Republican Party"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tom Coburn",
+        "was_senator_from",
+        "Oklahoma"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Tom Coburn",
+        "was_senator_of",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Tom Coburn\nThomas Allen \"Tom\" Coburn (born March 14, 1948) is an American politician and medical doctor. A member of the Republican Party, he was the junior United States Senator from Oklahoma.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Tom Coburn\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"Republican Party\",\n      \"type\": \"ORG\"\n    },\n    {\n      \"name\": \"United States\",\n      \"type\": \"GPE\"\n    },\n    {\n      \"name\": \"Oklahoma\",\n      \"type\": \"GPE\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Tom Coburn\",\n      \"relation\": \"works_for\",\n      \"object\": \"Republican Party\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"A member of the Republican Party\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Tom Coburn\",\n      \"relation\": \"was_senator_from\",\n      \"object\": \"Oklahoma\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"the junior United States Senator from Oklahoma\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Tom Coburn\",\n      \"relation\": \"was_senator_of\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"the junior United States Senator\"\n        }\n      ]\n    }\n  ]\n}"
+}

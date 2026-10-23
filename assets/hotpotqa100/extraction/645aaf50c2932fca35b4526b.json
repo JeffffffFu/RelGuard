@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "The Last King of Scotland": "film",
+    "Giles Foden": "author",
+    "Peter Morgan": "screenwriter",
+    "Jeremy Brock": "screenwriter",
+    "Kevin Macdonald": "director",
+    "United Kingdom": "country",
+    "Germany": "country"
+  },
+  "triples": [
+    {
+      "subject": "The Last King of Scotland",
+      "relation": "based_on",
+      "object": "Giles Foden",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based on Giles Foden's novel"
+        }
+      ]
+    },
+    {
+      "subject": "The Last King of Scotland",
+      "relation": "adapted_by",
+      "object": "Peter Morgan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "adapted by screenwriters Peter Morgan"
+        }
+      ]
+    },
+    {
+      "subject": "The Last King of Scotland",
+      "relation": "directed_by",
+      "object": "Kevin Macdonald",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Kevin Macdonald"
+        }
+      ]
+    },
+    {
+      "subject": "The Last King of Scotland",
+      "relation": "co_production_between",
+      "object": "United Kingdom",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a co-production between companies from the United Kingdom"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Last King of Scotland",
+        "adapted_by",
+        "Jeremy Brock"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Last King of Scotland",
+        "co_production_between",
+        "Germany"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Last King of Scotland (film)\nThe Last King of Scotland is a 2006 historical drama film based on Giles Foden's novel \"The Last King of Scotland\" (1998), adapted by screenwriters Peter Morgan and Jeremy Brock, and directed by Kevin Macdonald. The film was a co-production between companies from the United Kingdom and Germany."
+}

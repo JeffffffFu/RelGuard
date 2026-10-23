@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Operation River Falcon": "EVENT",
+    "Iraq War": "EVENT",
+    "United States Army 2nd Brigade Combat Team, 4th Infantry Division": "ORG",
+    "2nd Battalion, 8th Infantry Regiment": "ORG",
+    "1st Battalion, 10th Cavalry Regiment": "ORG",
+    "Sayifiyeh": "GPE",
+    "Iraq": "GPE",
+    "Coalition": "NORP",
+    "Iraqi Security Forces": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "United States Army 2nd Brigade Combat Team, 4th Infantry Division",
+      "relation": "conducted",
+      "object": "Operation River Falcon",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "conducted",
+          "line_start": 280,
+          "char_start": 303,
+          "ambiguous": false,
+          "relation_mention": "conducted",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "2nd Battalion, 8th Infantry Regiment",
+      "relation": "including_elements_of",
+      "object": "United States Army 2nd Brigade Combat Team, 4th Infantry Division",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "including elements of",
+          "line_start": 170,
+          "char_start": 193,
+          "ambiguous": false,
+          "relation_mention": "including elements of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "1st Battalion, 10th Cavalry Regiment",
+      "relation": "including_elements_of",
+      "object": "United States Army 2nd Brigade Combat Team, 4th Infantry Division",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "including elements of",
+          "line_start": 170,
+          "char_start": 193,
+          "ambiguous": false,
+          "relation_mention": "including elements of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Operation River Falcon",
+        "was_a",
+        "Iraq War"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Operation River Falcon",
+        "conducted_in_and_around",
+        "Sayifiyeh"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sayifiyeh",
+        "located_in",
+        "Iraq"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Operation River Falcon",
+        "aimed_at_denying",
+        "Coalition"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Operation River Falcon",
+        "aimed_at_disrupting",
+        "Iraqi Security Forces"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Operation River Falcon\nOperation River Falcon was a military operation in the Iraq War. From 25–27 July 2006, elements of the United States Army 2nd Brigade Combat Team, 4th Infantry Division (including elements of the 2nd Battalion, 8th Infantry Regiment, and the 1st Battalion, 10th Cavalry Regiment) conducted Operation River Falcon in and around the town of Sayifiyeh in Iraq. The operation was aimed at denying terrorists the use of the town as a safe haven, disrupting insurgent attacks on Coalition and Iraqi Security Forces, and on collecting and destroying insurgent munitions.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Operation River Falcon\", \"type\": \"EVENT\"},\n    {\"name\": \"Iraq War\", \"type\": \"EVENT\"},\n    {\"name\": \"United States Army 2nd Brigade Combat Team, 4th Infantry Division\", \"type\": \"ORG\"},\n    {\"name\": \"2nd Battalion, 8th Infantry Regiment\", \"type\": \"ORG\"},\n    {\"name\": \"1st Battalion, 10th Cavalry Regiment\", \"type\": \"ORG\"},\n    {\"name\": \"Sayifiyeh\", \"type\": \"GPE\"},\n    {\"name\": \"Iraq\", \"type\": \"GPE\"},\n    {\"name\": \"Coalition\", \"type\": \"NORP\"},\n    {\"name\": \"Iraqi Security Forces\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Operation River Falcon\",\n      \"relation\": \"was_a\",\n      \"object\": \"Iraq War\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a military operation in the Iraq War\"}\n      ]\n    },\n    {\n      \"subject\": \"United States Army 2nd Brigade Combat Team, 4th Infantry Division\",\n      \"relation\": \"conducted\",\n      \"object\": \"Operation River Falcon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"conducted\"}\n      ]\n    },\n    {\n      \"subject\": \"2nd Battalion, 8th Infantry Regiment\",\n      \"relation\": \"including_elements_of\",\n      \"object\": \"United States Army 2nd Brigade Combat Team, 4th Infantry Division\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"including elements of\"}\n      ]\n    },\n    {\n      \"subject\": \"1st Battalion, 10th Cavalry Regiment\",\n      \"relation\": \"including_elements_of\",\n      \"object\": \"United States Army 2nd Brigade Combat Team, 4th Infantry Division\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"including elements of\"}\n      ]\n    },\n    {\n      \"subject\": \"Operation River Falcon\",\n      \"relation\": \"conducted_in_and_around\",\n      \"object\": \"Sayifiyeh\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in and around the town of Sayifiyeh\"}\n      ]\n    },\n    {\n      \"subject\": \"Sayifiyeh\",\n      \"relation\": \"located_in\",\n      \"object\": \"Iraq\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Iraq\"}\n      ]\n    },\n    {\n      \"subject\": \"Operation River Falcon\",\n      \"relation\": \"aimed_at_denying\",\n      \"object\": \"Coalition\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"denying terrorists the use of the town as a safe haven, disrupting insurgent attacks on Coalition\"}\n      ]\n    },\n    {\n      \"subject\": \"Operation River Falcon\",\n      \"relation\": \"aimed_at_disrupting\",\n      \"object\": \"Iraqi Security Forces\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"disrupting insurgent attacks on Coalition and Iraqi Security Forces\"}\n      ]\n    }\n  ]\n}"
+}

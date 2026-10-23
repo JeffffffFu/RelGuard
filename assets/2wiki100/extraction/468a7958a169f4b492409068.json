@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Hitler's Folly": "Film",
+    "Bill Plympton": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Hitler's Folly",
+      "relation": "directed_by",
+      "object": "Bill Plympton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed, written, designed and animated by filmmaker Bill Plympton"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hitler's Folly",
+        "released_in",
+        "2016"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Hitler's Folly\nHitler's Folly is a 2016 American mockumentary directed, written, designed and animated by filmmaker Bill Plympton."
+}

@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Operation Blue Hearts": "EVENT",
+    "Korean War": "EVENT",
+    "Pohang": "GPE",
+    "First Cavalry Division": "ORG",
+    "American units": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "North Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Operation Blue Hearts",
+        "occurred_during",
+        "Korean War"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Operation Blue Hearts",
+        "conducted_at",
+        "Pohang"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Operation Blue Hearts",
+        "conducted_by",
+        "First Cavalry Division"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "North Korea",
+        "advanced_into",
+        "Pohang"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "American units",
+        "joined",
+        "defenders"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Operation Blue Hearts\nDuring the Korean War, Operation Bluehearts was the American amphibious landing conducted at Pohang on 18 July 1950 by the First Cavalry Division. The town was still in friendly hands, but was in the path of the rapid North Korean advance. The American units quickly joined the defenders.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Operation Blue Hearts\", \"type\": \"EVENT\"},\n    {\"name\": \"Korean War\", \"type\": \"EVENT\"},\n    {\"name\": \"Pohang\", \"type\": \"GPE\"},\n    {\"name\": \"First Cavalry Division\", \"type\": \"ORG\"},\n    {\"name\": \"North Korea\", \"type\": \"GPE\"},\n    {\"name\": \"American units\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Operation Blue Hearts\",\n      \"relation\": \"occurred_during\",\n      \"object\": \"Korean War\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"During the Korean War\"}\n      ]\n    },\n    {\n      \"subject\": \"Operation Blue Hearts\",\n      \"relation\": \"conducted_at\",\n      \"object\": \"Pohang\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"conducted at Pohang\"}\n      ]\n    },\n    {\n      \"subject\": \"Operation Blue Hearts\",\n      \"relation\": \"conducted_by\",\n      \"object\": \"First Cavalry Division\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by the First Cavalry Division\"}\n      ]\n    },\n    {\n      \"subject\": \"North Korea\",\n      \"relation\": \"advanced_into\",\n      \"object\": \"Pohang\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"North Korean advance\"}\n      ]\n    },\n    {\n      \"subject\": \"American units\",\n      \"relation\": \"joined\",\n      \"object\": \"defenders\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"joined the defenders\"}\n      ]\n    }\n  ]\n}"
+}

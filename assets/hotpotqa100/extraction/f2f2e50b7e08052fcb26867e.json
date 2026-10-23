@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Warpaint Live": "album",
+    "The Black Crowes": "band",
+    "April 28, 2009": "date",
+    "2006": "date",
+    "Warpaint": "album",
+    "March 20, 2008": "date",
+    "The Wiltern": "venue",
+    "Los Angeles, CA": "location",
+    "2009": "date"
+  },
+  "triples": [
+    {
+      "subject": "Warpaint Live",
+      "relation": "released_on",
+      "object": "April 28, 2009",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released on April 28, 2009"
+        }
+      ]
+    },
+    {
+      "subject": "Warpaint Live",
+      "relation": "recorded_on",
+      "object": "March 20, 2008",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Recorded live on March 20, 2008"
+        }
+      ]
+    },
+    {
+      "subject": "Warpaint Live",
+      "relation": "recorded_at",
+      "object": "The Wiltern",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "at The Wiltern"
+        }
+      ]
+    },
+    {
+      "subject": "The Wiltern",
+      "relation": "located_in",
+      "object": "Los Angeles, CA",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "at The Wiltern in Los Angeles, CA"
+        }
+      ]
+    },
+    {
+      "subject": "Warpaint Live",
+      "relation": "precedes",
+      "object": "2009",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The double CD precedes the release of the live concert DVD later in 2009"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Warpaint Live",
+        "is_a",
+        "album"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Black Crowes",
+        "is_a",
+        "band"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Warpaint Live",
+        "features",
+        "Warpaint"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Warpaint Live\nWarpaint Live is a live album by American southern rock band The Black Crowes, released on April 28, 2009. This is the first Black Crowes live album since \"\" in 2006 and it features live versions of the whole \"Warpaint\" album. Recorded live on March 20, 2008 at The Wiltern in Los Angeles, CA. The double CD precedes the release of the live concert DVD later in 2009."
+}

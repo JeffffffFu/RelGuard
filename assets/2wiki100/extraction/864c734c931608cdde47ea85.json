@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Fred Niblo": "Person",
+    "Frederick Liedtke": "Person",
+    "American": "Nationality",
+    "film actor": "Profession",
+    "director": "Profession",
+    "producer": "Profession"
+  },
+  "triples": [
+    {
+      "subject": "Fred Niblo",
+      "relation": "born_as",
+      "object": "Frederick Liedtke",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born Frederick Liedtke"
+        }
+      ]
+    },
+    {
+      "subject": "Fred Niblo",
+      "relation": "nationality",
+      "object": "American",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "American"
+        }
+      ]
+    },
+    {
+      "subject": "Fred Niblo",
+      "relation": "profession",
+      "object": "film actor",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "pioneer film actor"
+        }
+      ]
+    },
+    {
+      "subject": "Fred Niblo",
+      "relation": "profession",
+      "object": "director",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "director"
+        }
+      ]
+    },
+    {
+      "subject": "Fred Niblo",
+      "relation": "profession",
+      "object": "producer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "producer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Fred Niblo",
+        "date_of_birth",
+        "January 6, 1874"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fred Niblo",
+        "date_of_death",
+        "November 11, 1948"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Fred Niblo\nFred Niblo( born Frederick Liedtke; January 6, 1874 – November 11, 1948) was an American pioneer film actor, director and producer."
+}

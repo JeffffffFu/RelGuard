@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "John's Incredible Pizza Company": "ORG",
+    "John Parlet": "PERSON",
+    "United States": "GPE",
+    "Rancho Santa Margarita": "GPE",
+    "California": "GPE",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "John's Incredible Pizza Company",
+      "relation": "founded_by",
+      "object": "John Parlet",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded by",
+          "line_start": 108,
+          "char_start": 140,
+          "ambiguous": false,
+          "relation_mention": "founded by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "John's Incredible Pizza Company",
+      "relation": "has_corporate_office_in",
+      "object": "Rancho Santa Margarita",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is located in",
+          "line_start": 223,
+          "char_start": 255,
+          "ambiguous": false,
+          "relation_mention": "is located in",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John's Incredible Pizza Company",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rancho Santa Margarita",
+        "located_in",
+        "California"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "John's Incredible Pizza Company",
+        "has_national_character",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "John's Incredible Pizza Company\nJohn’s Incredible Pizza Company is an American all-you-can-eat buffet restaurant and entertainment business founded by John Parlet in 1997. The company has 11 locations on the United States West Coast. Its corporate office is located in Rancho Santa Margarita, California.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"John's Incredible Pizza Company\", \"type\": \"ORG\"},\n    {\"name\": \"John Parlet\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Rancho Santa Margarita\", \"type\": \"GPE\"},\n    {\"name\": \"California\", \"type\": \"GPE\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"John's Incredible Pizza Company\",\n      \"relation\": \"founded_by\",\n      \"object\": \"John Parlet\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded by\"}\n      ]\n    },\n    {\n      \"subject\": \"John's Incredible Pizza Company\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the United States West Coast\"}\n      ]\n    },\n    {\n      \"subject\": \"John's Incredible Pizza Company\",\n      \"relation\": \"has_corporate_office_in\",\n      \"object\": \"Rancho Santa Margarita\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is located in\"}\n      ]\n    },\n    {\n      \"subject\": \"Rancho Santa Margarita\",\n      \"relation\": \"located_in\",\n      \"object\": \"California\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Rancho Santa Margarita, California\"}\n      ]\n    },\n    {\n      \"subject\": \"John's Incredible Pizza Company\",\n      \"relation\": \"has_national_character\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an American\"}\n      ]\n    }\n  ]\n}"
+}

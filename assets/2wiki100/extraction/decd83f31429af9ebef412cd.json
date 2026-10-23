@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Tom Dickinson": "Person",
+    "Thomas Eastwood Dickinson": "Person",
+    "Lancashire": "Team",
+    "Somerset": "Team",
+    "Parramatta": "Location",
+    "Sydney": "Location",
+    "Australia": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Tom Dickinson",
+      "relation": "also_known_as",
+      "object": "Thomas Eastwood Dickinson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Thomas Eastwood Dickinson( 11 January 1931 – 25 June 2018)"
+        }
+      ]
+    },
+    {
+      "subject": "Tom Dickinson",
+      "relation": "born_in",
+      "object": "Parramatta",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He was born in Parramatta, Sydney, Australia."
+        }
+      ]
+    },
+    {
+      "subject": "Tom Dickinson",
+      "relation": "played_for",
+      "object": "Lancashire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "first- class cricket player for Lancashire in 1950 and 1951"
+        }
+      ]
+    },
+    {
+      "subject": "Parramatta",
+      "relation": "located_in",
+      "object": "Sydney",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Parramatta, Sydney, Australia"
+        }
+      ]
+    },
+    {
+      "subject": "Sydney",
+      "relation": "located_in",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Parramatta, Sydney, Australia"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Tom Dickinson",
+        "played_for",
+        "Somerset"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Tom Dickinson",
+        "became",
+        "schoolmaster"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Tom Dickinson\nThomas Eastwood Dickinson( 11 January 1931 – 25 June 2018) was an Australian- born first- class cricket player for Lancashire in 1950 and 1951 and for Somerset in 1957. But he decided against a full- time cricket career and became a schoolmaster. He was born in Parramatta, Sydney, Australia."
+}

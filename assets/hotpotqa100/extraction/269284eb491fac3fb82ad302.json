@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Human Touch": "film",
+    "Paul Cox": "person",
+    "Jacqueline McKenzie": "person",
+    "Chris Haywood": "person",
+    "Aaron Blabey": "person",
+    "Anna": "person",
+    "China": "location"
+  },
+  "triples": [
+    {
+      "subject": "Human Touch",
+      "relation": "directed_by",
+      "object": "Paul Cox",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Paul Cox"
+        }
+      ]
+    },
+    {
+      "subject": "Human Touch",
+      "relation": "starring",
+      "object": "Jacqueline McKenzie",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Jacqueline McKenzie"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Human Touch",
+        "starring",
+        "Chris Haywood"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Human Touch",
+        "starring",
+        "Aaron Blabey"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Anna",
+        "trying_to_raise_money_for",
+        "choir's trip to China"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anna",
+        "posing_nude_for",
+        "ageing artist"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Anna",
+        "goes_on_a_journey_of",
+        "self-discovery"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "choir's trip to China",
+        "located_in",
+        "China"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Human Touch (film)\nHuman Touch is a 2004 film directed by Paul Cox and starring Jacqueline McKenzie, Chris Haywood and Aaron Blabey. The plot follows the story of Anna who is a singer trying to raise money for her choir's trip to China. She does this by posing nude for an ageing artist and upon seeing the finished results goes on a journey of self-discovery."
+}

@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Al Gore": "PERSON",
+    "Albert Arnold Gore Jr.": "PERSON",
+    "United States": "GPE",
+    "Bill Clinton": "PERSON",
+    "President Clinton": "PERSON",
+    "IPCC": "ORG",
+    "Nobel Peace Prize": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Albert Arnold Gore Jr.",
+      "relation": "earned",
+      "object": "Nobel Peace Prize",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "earned him",
+          "line_start": 592,
+          "char_start": 600,
+          "ambiguous": false,
+          "relation_mention": "earned him",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Albert Arnold Gore Jr.",
+        "born_on",
+        "Al Gore"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Albert Arnold Gore Jr.",
+        "is_a",
+        "American"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Albert Arnold Gore Jr.",
+        "served_as",
+        "Vice President of the United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Albert Arnold Gore Jr.",
+        "was_running_mate_of",
+        "Bill Clinton"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Albert Arnold Gore Jr.",
+        "was_selected_as",
+        "Democratic nominee"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nobel Peace Prize",
+        "was_awarded_with",
+        "IPCC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Al Gore\nAlbert Arnold Gore Jr. (born March 31, 1948) is an American politician and environmentalist who served as the 45th Vice President of the United States from 1993 to 2001. Gore was Bill Clinton's running mate in their successful campaign in 1992, and the pair were re-elected in 1996. Near the end of President Clinton's second term, Gore was selected as the Democratic nominee for the 2000 presidential election but did not win the election. After his term as vice-president ended in 2001, Gore remained prominent as an author and environmental activist, whose work in climate change activism earned him (jointly with the IPCC) the Nobel Peace Prize in 2007.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Al Gore\", \"type\": \"PERSON\"},\n    {\"name\": \"Albert Arnold Gore Jr.\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Bill Clinton\", \"type\": \"PERSON\"},\n    {\"name\": \"President Clinton\", \"type\": \"PERSON\"},\n    {\"name\": \"IPCC\", \"type\": \"ORG\"},\n    {\"name\": \"Nobel Peace Prize\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Albert Arnold Gore Jr.\",\n      \"relation\": \"born_on\",\n      \"object\": \"Al Gore\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"\"}\n      ]\n    },\n    {\n      \"subject\": \"Albert Arnold Gore Jr.\",\n      \"relation\": \"is_a\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\"}\n      ]\n    },\n    {\n      \"subject\": \"Albert Arnold Gore Jr.\",\n      \"relation\": \"served_as\",\n      \"object\": \"Vice President of the United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served as\"}\n      ]\n    },\n    {\n      \"subject\": \"Albert Arnold Gore Jr.\",\n      \"relation\": \"was_running_mate_of\",\n      \"object\": \"Bill Clinton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was Bill Clinton's running mate\"}\n      ]\n    },\n    {\n      \"subject\": \"Albert Arnold Gore Jr.\",\n      \"relation\": \"was_selected_as\",\n      \"object\": \"Democratic nominee\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was selected as\"}\n      ]\n    },\n    {\n      \"subject\": \"Albert Arnold Gore Jr.\",\n      \"relation\": \"earned\",\n      \"object\": \"Nobel Peace Prize\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"earned him\"}\n      ]\n    },\n    {\n      \"subject\": \"Nobel Peace Prize\",\n      \"relation\": \"was_awarded_with\",\n      \"object\": \"IPCC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(jointly with the IPCC)\"}\n      ]\n    }\n  ]\n}"
+}

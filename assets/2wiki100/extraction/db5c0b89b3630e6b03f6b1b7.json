@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Nearly a Deserter": "WORK_OF_ART",
+    "United States Motion Picture Corporation": "ORG",
+    "Black Diamond Comedy": "ORG",
+    "Paramount Pictures": "ORG",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Nearly a Deserter",
+      "relation": "produced_by",
+      "object": "United States Motion Picture Corporation",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 62,
+          "char_start": 80,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Nearly a Deserter",
+      "relation": "distributed_by",
+      "object": "Paramount Pictures",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "distributed by",
+          "line_start": 200,
+          "char_start": 218,
+          "ambiguous": false,
+          "relation_mention": "distributed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nearly a Deserter",
+        "produced_under_name",
+        "Black Diamond Comedy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Nearly a Deserter",
+        "nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Nearly a Deserter\nNearly a Deserter is a 1916 American short silent comedy film produced by the United States Motion Picture Corporation under the Black Diamond Comedy name. The film was the first Black Diamond Comedy distributed by the Paramount Pictures.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Nearly a Deserter\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"United States Motion Picture Corporation\", \"type\": \"ORG\"},\n    {\"name\": \"Black Diamond Comedy\", \"type\": \"ORG\"},\n    {\"name\": \"Paramount Pictures\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Nearly a Deserter\",\n      \"relation\": \"produced_by\",\n      \"object\": \"United States Motion Picture Corporation\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Nearly a Deserter\",\n      \"relation\": \"produced_under_name\",\n      \"object\": \"Black Diamond Comedy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"under the Black Diamond Comedy name\"}\n      ]\n    },\n    {\n      \"subject\": \"Nearly a Deserter\",\n      \"relation\": \"distributed_by\",\n      \"object\": \"Paramount Pictures\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"distributed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Nearly a Deserter\",\n      \"relation\": \"nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    }\n  ]\n}"
+}

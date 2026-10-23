@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Daniel Eugene Tyler": "Person",
+    "Adele": "Person",
+    "Bobbie Sue": "Song",
+    "Modern Day Romance": "Song",
+    "Twenty Years Ago": "Song",
+    "Somebody's Doin' Me Right": "Song",
+    "The Light In Your Eyes": "Song"
+  },
+  "triples": [
+    {
+      "subject": "Daniel Eugene Tyler",
+      "relation": "co_wrote",
+      "object": "Bobbie Sue",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "co-written with his wife, Adele"
+        }
+      ]
+    },
+    {
+      "subject": "Daniel Eugene Tyler",
+      "relation": "best_known_song",
+      "object": "Bobbie Sue",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Among his best known songs are \"Bobbie Sue\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Daniel Eugene Tyler",
+        "best_known_song",
+        "Modern Day Romance"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Daniel Eugene Tyler",
+        "best_known_song",
+        "Twenty Years Ago"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Daniel Eugene Tyler",
+        "best_known_song",
+        "Somebody's Doin' Me Right"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Daniel Eugene Tyler",
+        "best_known_song",
+        "The Light In Your Eyes"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Dan Tyler\nDaniel Eugene Tyler (born 1950) is an American songwriter. Among his best known songs are \"Bobbie Sue\" (co-written with his wife, Adele), \"Modern Day Romance\", \"Twenty Years Ago\", \"Somebody's Doin' Me Right\", and \"The Light In Your Eyes\"."
+}

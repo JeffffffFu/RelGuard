@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Sharon Tiller": "Person",
+    "Lowell Bergman": "Person",
+    "WGBH-TV": "Organization",
+    "Frontline": "Television Series"
+  },
+  "triples": [
+    {
+      "subject": "Sharon Tiller",
+      "relation": "joined",
+      "object": "Frontline",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which she first joined in 1995 as a senior producer for special projects"
+        }
+      ]
+    },
+    {
+      "subject": "Sharon Tiller",
+      "relation": "married_to",
+      "object": "Lowell Bergman",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "She is married to journalist and news producer Lowell Bergman"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sharon Tiller",
+        "works_for",
+        "WGBH-TV"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Sharon Tiller\nSharon Tiller is an American film maker who has numerous film and television credits as a writer, director, and producer. She is the WGBH-TV executive-in-charge for the American documentary television series \"Frontline\", which she first joined in 1995 as a senior producer for special projects. She is married to journalist and news producer Lowell Bergman."
+}

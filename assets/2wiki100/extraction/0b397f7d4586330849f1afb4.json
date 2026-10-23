@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Lawrence Huntington": "PERSON",
+    "London": "GPE",
+    "After Many Years": "WORK_OF_ART",
+    "British": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Lawrence Huntington",
+      "relation": "born_in",
+      "object": "London",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born in",
+          "line_start": 99,
+          "char_start": 119,
+          "ambiguous": false,
+          "relation_mention": "was born in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lawrence Huntington",
+        "nationality",
+        "British"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lawrence Huntington",
+        "debut_feature",
+        "After Many Years"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Lawrence Huntington\nLawrence Huntington (1900–1968) was a British film director, screenwriter and producer. Huntington was born in London on 9 March 1900, he directed more than thirty films following his debut feature \"After Many Years\" (1930). He later worked in television before his death in 1968.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Lawrence Huntington\", \"type\": \"PERSON\"},\n    {\"name\": \"London\", \"type\": \"GPE\"},\n    {\"name\": \"After Many Years\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"British\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Lawrence Huntington\",\n      \"relation\": \"born_in\",\n      \"object\": \"London\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was born in\"}\n      ]\n    },\n    {\n      \"subject\": \"Lawrence Huntington\",\n      \"relation\": \"nationality\",\n      \"object\": \"British\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a British\"}\n      ]\n    },\n    {\n      \"subject\": \"Lawrence Huntington\",\n      \"relation\": \"debut_feature\",\n      \"object\": \"After Many Years\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"debut feature\"}\n      ]\n    }\n  ]\n}"
+}

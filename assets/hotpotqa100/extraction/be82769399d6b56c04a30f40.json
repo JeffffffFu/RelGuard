@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "Circular flow of income": "WORK_OF_ART",
+    "circular flow": "WORK_OF_ART",
+    "the economy": "LOC",
+    "the circular flow analysis": "WORK_OF_ART",
+    "national accounts": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Circular flow of income",
+      "relation": "is_a",
+      "object": "circular flow",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "or circular flow is a model",
+          "line_start": 28,
+          "char_start": 52,
+          "ambiguous": false,
+          "relation_mention": "or circular flow is a model",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "circular flow",
+      "relation": "model_of",
+      "object": "the economy",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "model of the economy",
+          "line_start": 50,
+          "char_start": 74,
+          "ambiguous": false,
+          "relation_mention": "model of the economy",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "the circular flow analysis",
+      "relation": "is_basis_of",
+      "object": "national accounts",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is the basis of national accounts",
+          "line_start": 327,
+          "char_start": 351,
+          "ambiguous": false,
+          "relation_mention": "is the basis of national accounts",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities outside the eleven types",
+      "entities": [
+        "macroeconomics (FIELD)"
+      ]
+    },
+    {
+      "triple": [
+        "the circular flow analysis",
+        "is_basis_of",
+        "macroeconomics"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Circular flow of income\nThe circular flow of income or circular flow is a model of the economy in which the major exchanges are represented as flows of money, goods and services, etc. between economic agents. The flows of money and goods exchanged in a closed circuit correspond in value, but run in the opposite direction. The circular flow analysis is the basis of national accounts and hence of macroeconomics."
+}

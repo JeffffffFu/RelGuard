@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "Captain Apache": "Film",
+    "Alexander Singer": "Person",
+    "Lee Van Cleef": "Person",
+    "Carroll Baker": "Person",
+    "Stuart Whitman": "Person",
+    "Milton Sperling": "Person",
+    "Philip Yordan": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Captain Apache",
+      "relation": "directed_by",
+      "object": "Alexander Singer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Alexander Singer"
+        }
+      ]
+    },
+    {
+      "subject": "Captain Apache",
+      "relation": "starring",
+      "object": "Lee Van Cleef",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Lee Van Cleef"
+        }
+      ]
+    },
+    {
+      "subject": "Captain Apache",
+      "relation": "written_by",
+      "object": "Milton Sperling",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and produced by Milton Sperling"
+        }
+      ]
+    },
+    {
+      "subject": "Captain Apache",
+      "relation": "performed_by",
+      "object": "Lee Van Cleef",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The vocals of the opening and credits song were performed by Van Cleef"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Captain Apache",
+        "starring",
+        "Carroll Baker"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Captain Apache",
+        "starring",
+        "Stuart Whitman"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Captain Apache",
+        "written_by",
+        "Philip Yordan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Captain Apache\nCaptain Apache is a 1971 Spanish- British acid western film directed by Alexander Singer and starring Lee Van Cleef, Carroll Baker and Stuart Whitman. It was written and produced by Milton Sperling and Philip Yordan. The vocals of the opening and credits song were performed by Van Cleef."
+}

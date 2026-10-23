@@ -1,0 +1,133 @@
+{
+  "entities": {
+    "Colgan Air Flight 9446": "WORK_OF_ART",
+    "Colgan Air": "ORG",
+    "US Airways Express": "ORG",
+    "Beech 1900D": "PRODUCT",
+    "Yarmouth": "GPE",
+    "Massachusetts": "GPE",
+    "United States": "GPE",
+    "Barnstable Municipal Airport": "FAC",
+    "Scott Knabe": "PERSON",
+    "Steven Dean": "PERSON",
+    "Albany": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Colgan Air Flight 9446",
+      "relation": "operated_by",
+      "object": "Colgan Air",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "operated by",
+          "line_start": 50,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "operated by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Beech 1900D",
+      "relation": "took_off_from",
+      "object": "Barnstable Municipal Airport",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "taking off from",
+          "line_start": 226,
+          "char_start": 249,
+          "ambiguous": false,
+          "relation_mention": "taking off from",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Scott Knabe",
+      "relation": "died",
+      "object": "Colgan Air Flight 9446",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died",
+          "line_start": 334,
+          "char_start": 357,
+          "ambiguous": false,
+          "relation_mention": "died",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Steven Dean",
+      "relation": "died",
+      "object": "Colgan Air Flight 9446",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died",
+          "line_start": 334,
+          "char_start": 357,
+          "ambiguous": false,
+          "relation_mention": "died",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Colgan Air Flight 9446",
+        "operated_for",
+        "US Airways Express"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Beech 1900D",
+        "crashed_into",
+        "water"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Beech 1900D",
+        "crashed_offshore_of",
+        "Yarmouth"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Yarmouth",
+        "located_in",
+        "Massachusetts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Massachusetts",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Colgan Air Flight 9446",
+        "bound_for",
+        "Albany"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Colgan Air Flight 9446\nColgan Air Flight 9446 was a repositioning flight operated by Colgan Air for US Airways Express. On August 26, 2003 a Beech 1900D crashed into water 100 yards offshore from Yarmouth, Massachusetts, United States shortly after taking off from Barnstable Municipal Airport in Yarmouth. Captain Scott Knabe and First Officer Steven Dean died. The plane was bound for Albany, New York, U.S.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Colgan Air Flight 9446\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Colgan Air\", \"type\": \"ORG\"},\n    {\"name\": \"US Airways Express\", \"type\": \"ORG\"},\n    {\"name\": \"Beech 1900D\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Yarmouth\", \"type\": \"GPE\"},\n    {\"name\": \"Massachusetts\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Barnstable Municipal Airport\", \"type\": \"FAC\"},\n    {\"name\": \"Scott Knabe\", \"type\": \"PERSON\"},\n    {\"name\": \"Steven Dean\", \"type\": \"PERSON\"},\n    {\"name\": \"Albany\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Colgan Air Flight 9446\",\n      \"relation\": \"operated_by\",\n      \"object\": \"Colgan Air\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"operated by\"}\n      ]\n    },\n    {\n      \"subject\": \"Colgan Air Flight 9446\",\n      \"relation\": \"operated_for\",\n      \"object\": \"US Airways Express\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for\"}\n      ]\n    },\n    {\n      \"subject\": \"Beech 1900D\",\n      \"relation\": \"crashed_into\",\n      \"object\": \"water\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"crashed into\"}\n      ]\n    },\n    {\n      \"subject\": \"Beech 1900D\",\n      \"relation\": \"crashed_offshore_of\",\n      \"object\": \"Yarmouth\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"offshore from\"}\n      ]\n    },\n    {\n      \"subject\": \"Yarmouth\",\n      \"relation\": \"located_in\",\n      \"object\": \"Massachusetts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Yarmouth, Massachusetts\"}\n      ]\n    },\n    {\n      \"subject\": \"Massachusetts\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Beech 1900D\",\n      \"relation\": \"took_off_from\",\n      \"object\": \"Barnstable Municipal Airport\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"taking off from\"}\n      ]\n    },\n    {\n      \"subject\": \"Scott Knabe\",\n      \"relation\": \"died\",\n      \"object\": \"Colgan Air Flight 9446\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"died\"}\n      ]\n    },\n    {\n      \"subject\": \"Steven Dean\",\n      \"relation\": \"died\",\n      \"object\": \"Colgan Air Flight 9446\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"died\"}\n      ]\n    },\n    {\n      \"subject\": \"Colgan Air Flight 9446\",\n      \"relation\": \"bound_for\",\n      \"object\": \"Albany\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"bound for\"}\n      ]\n    }\n  ]\n}"
+}

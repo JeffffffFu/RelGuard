@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Josep Raich": "PERSON",
+    "Joventut FC": "ORG",
+    "CE Júpiter": "ORG",
+    "FC Barcelona": "ORG",
+    "FC Sète": "ORG",
+    "Troyes AC": "ORG",
+    "Spain": "GPE",
+    "France": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Josep Raich",
+      "relation": "played_for",
+      "object": "Joventut FC",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played for Joventut FC"
+        }
+      ]
+    },
+    {
+      "subject": "Josep Raich",
+      "relation": "represented",
+      "object": "Spain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "played once for Spain"
+        }
+      ]
+    },
+    {
+      "subject": "FC Sète",
+      "relation": "located_in",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in France"
+        }
+      ]
+    },
+    {
+      "subject": "Josep Raich",
+      "relation": "located_in",
+      "object": "Spain",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Spain"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Josep Raich",
+        "played_for",
+        "CE Júpiter"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Josep Raich",
+        "played_for",
+        "FC Barcelona"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Josep Raich",
+        "played_for",
+        "FC Sète"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Josep Raich",
+        "played_for",
+        "Troyes AC"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Josep Raich\nJosep Raich Garriga (August 28, 1913 - 25 July 1988) is a former Spanish footballer of Catalan ethnicity who played for Joventut FC, CE Júpiter and FC Barcelona in Spain and FC Sète and Troyes AC in France. He played once for Spain in 1941."
+}

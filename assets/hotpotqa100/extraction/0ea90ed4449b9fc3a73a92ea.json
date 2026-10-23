@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Wayne Rooney": "Person",
+    "Everton": "Club",
+    "England national team": "Team",
+    "Manchester United": "Club",
+    "Michael Carrick": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Wayne Rooney",
+      "relation": "plays_for",
+      "object": "Everton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who plays for Premier League club Everton"
+        }
+      ]
+    },
+    {
+      "subject": "Wayne Rooney",
+      "relation": "record_goalscorer_for",
+      "object": "England national team",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He is the record goalscorer for the England national team"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Wayne Rooney",
+        "record_goalscorer_for",
+        "Manchester United"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Wayne Rooney",
+        "won",
+        "every honour available in English, Continental and European football"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wayne Rooney",
+        "won",
+        "European Super Cup"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wayne Rooney",
+        "won",
+        "Premier League"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wayne Rooney",
+        "won",
+        "FA Cup"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wayne Rooney",
+        "won",
+        "UEFA Champions League"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wayne Rooney",
+        "won",
+        "League Cup"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wayne Rooney",
+        "won",
+        "UEFA Europa League"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wayne Rooney",
+        "won",
+        "FIFA Club World Cup"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wayne Rooney",
+        "is_only_english_player_with",
+        "Michael Carrick"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Wayne Rooney\nWayne Mark Rooney ( ; born 24 October 1985) is an English professional footballer who plays for Premier League club Everton. He has played much of his career as a forward, and he has also been used in various midfield roles. He is the record goalscorer for the England national team and for Manchester United. At club level, he has won every honour available in English, Continental and European football, with the exception of the European Super Cup. Along with Michael Carrick, he is the only English player to win the Premier League, FA Cup, UEFA Champions League, League Cup, UEFA Europa League and FIFA Club World Cup."
+}

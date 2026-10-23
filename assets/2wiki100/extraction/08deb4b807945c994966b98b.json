@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "Life Classes": "WORK_OF_ART",
+    "William D. MacGillivray": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Life Classes",
+      "relation": "directed_by",
+      "object": "William D. MacGillivray",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 43,
+          "char_start": 56,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Canada (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Life Classes",
+        "located_in",
+        "Canada"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Life Classes\nLife Classes is a 1987 Canadian drama film directed by William D. MacGillivray.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Life Classes\",\n      \"type\": \"WORK_OF_ART\"\n    },\n    {\n      \"name\": \"Canada\",\n      \"type\": \"GPE\"\n    },\n    {\n      \"name\": \"William D. MacGillivray\",\n      \"type\": \"PERSON\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Life Classes\",\n      \"relation\": \"located_in\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"Canadian\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Life Classes\",\n      \"relation\": \"directed_by\",\n      \"object\": \"William D. MacGillivray\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"directed by\"\n        }\n      ]\n    }\n  ]\n}"
+}

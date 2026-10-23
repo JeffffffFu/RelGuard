@@ -1,0 +1,173 @@
+{
+  "entities": {
+    "European Union": "GPE",
+    "Australia": "GPE",
+    "New Zealand": "GPE",
+    "Canada": "GPE",
+    "Ireland": "GPE",
+    "Commercial Van": "PRODUCT",
+    "light commercial vehicle": "PRODUCT",
+    "commercial carrier vehicle": "PRODUCT",
+    "light goods vehicle": "PRODUCT",
+    "Large goods vehicle": "PRODUCT",
+    "EU": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "light commercial vehicle",
+      "relation": "used_within",
+      "object": "European Union",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "used within",
+          "line_start": 48,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "used within",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "light commercial vehicle",
+      "relation": "used_within",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "used within",
+          "line_start": 48,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "used within",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "light commercial vehicle",
+      "relation": "used_within",
+      "object": "New Zealand",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "used within",
+          "line_start": 48,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "used within",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "light commercial vehicle",
+      "relation": "used_within",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "used within",
+          "line_start": 48,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "used within",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "light commercial vehicle",
+      "relation": "used_within",
+      "object": "Ireland",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "used within",
+          "line_start": 48,
+          "char_start": 73,
+          "ambiguous": false,
+          "relation_mention": "used within",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Commercial Van",
+      "relation": "more_frequently_used_in",
+      "object": "Ireland",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "more frequently used",
+          "line_start": 173,
+          "char_start": 198,
+          "ambiguous": false,
+          "relation_mention": "more frequently used",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "light commercial vehicle",
+      "relation": "may_also_be_used_as",
+      "object": "light goods vehicle",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "may also be used",
+          "line_start": 320,
+          "char_start": 345,
+          "ambiguous": false,
+          "relation_mention": "may also be used",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "light commercial vehicle",
+        "is_term_for",
+        "commercial carrier vehicle"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Large goods vehicle",
+        "is_official_term_for",
+        "vehicle with a gross vehicle weight of over 3.5 tonnes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Large goods vehicle",
+        "also_called",
+        "LGV"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "light goods vehicle",
+        "also_called",
+        "LGV"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Large goods vehicle",
+        "associated_with",
+        "EU"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Light commercial vehicle\nA light commercial vehicle is the official term used within the European Union, Australia, New Zealand, and occasionally in both Canada and Ireland (where Commercial Van is more frequently used) for a commercial carrier vehicle with a gross vehicle weight of not more than 3.5 tonnes; the term light goods vehicle (LGV) may also be used by member countries which can be confused with Large goods vehicle (also 'LGV') which is the official EU term for a vehicle with a gross vehicle weight of over 3.5 tonnes.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"European Union\", \"type\": \"GPE\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"},\n    {\"name\": \"New Zealand\", \"type\": \"GPE\"},\n    {\"name\": \"Canada\", \"type\": \"GPE\"},\n    {\"name\": \"Ireland\", \"type\": \"GPE\"},\n    {\"name\": \"Commercial Van\", \"type\": \"PRODUCT\"},\n    {\"name\": \"light commercial vehicle\", \"type\": \"PRODUCT\"},\n    {\"name\": \"commercial carrier vehicle\", \"type\": \"PRODUCT\"},\n    {\"name\": \"light goods vehicle\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Large goods vehicle\", \"type\": \"PRODUCT\"},\n    {\"name\": \"EU\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"light commercial vehicle\",\n      \"relation\": \"used_within\",\n      \"object\": \"European Union\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"used within\"}]\n    },\n    {\n      \"subject\": \"light commercial vehicle\",\n      \"relation\": \"used_within\",\n      \"object\": \"Australia\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"used within\"}]\n    },\n    {\n      \"subject\": \"light commercial vehicle\",\n      \"relation\": \"used_within\",\n      \"object\": \"New Zealand\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"used within\"}]\n    },\n    {\n      \"subject\": \"light commercial vehicle\",\n      \"relation\": \"used_within\",\n      \"object\": \"Canada\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"used within\"}]\n    },\n    {\n      \"subject\": \"light commercial vehicle\",\n      \"relation\": \"used_within\",\n      \"object\": \"Ireland\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"used within\"}]\n    },\n    {\n      \"subject\": \"Commercial Van\",\n      \"relation\": \"more_frequently_used_in\",\n      \"object\": \"Ireland\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"more frequently used\"}]\n    },\n    {\n      \"subject\": \"light commercial vehicle\",\n      \"relation\": \"is_term_for\",\n      \"object\": \"commercial carrier vehicle\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"for a commercial carrier vehicle\"}]\n    },\n    {\n      \"subject\": \"light commercial vehicle\",\n      \"relation\": \"may_also_be_used_as\",\n      \"object\": \"light goods vehicle\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"may also be used\"}]\n    },\n    {\n      \"subject\": \"Large goods vehicle\",\n      \"relation\": \"is_official_term_for\",\n      \"object\": \"vehicle with a gross vehicle weight of over 3.5 tonnes\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"is the official EU term for\"}]\n    },\n    {\n      \"subject\": \"Large goods vehicle\",\n      \"relation\": \"also_called\",\n      \"object\": \"LGV\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"also 'LGV'\"}]\n    },\n    {\n      \"subject\": \"light goods vehicle\",\n      \"relation\": \"also_called\",\n      \"object\": \"LGV\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"LGV\"}]\n    },\n    {\n      \"subject\": \"Large goods vehicle\",\n      \"relation\": \"associated_with\",\n      \"object\": \"EU\",\n      \"occurrences\": [{\"line\": 2, \"predicate\": \"official EU term for\"}]\n    }\n  ]\n}"
+}

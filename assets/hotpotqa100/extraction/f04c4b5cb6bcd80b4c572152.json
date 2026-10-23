@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Air Tahoma Flight 185": "EVENT",
+    "Memphis": "GPE",
+    "Cincinnati/Northern Kentucky International Airport": "FAC",
+    "Air Tahoma": "ORG",
+    "DHL": "ORG",
+    "August 13, 2004": "EVENT",
+    "Convair 580": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Air Tahoma Flight 185",
+      "relation": "conducted_by",
+      "object": "Air Tahoma",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "conducted by",
+          "line_start": 122,
+          "char_start": 144,
+          "ambiguous": false,
+          "relation_mention": "conducted by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Air Tahoma Flight 185",
+        "was_a_scheduled_cargo_flight_from",
+        "Memphis"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Air Tahoma Flight 185",
+        "was_a_scheduled_cargo_flight_to",
+        "Cincinnati/Northern Kentucky International Airport"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Air Tahoma Flight 185",
+        "freighted_parcels_for",
+        "DHL"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Air Tahoma Flight 185",
+        "crashed_on",
+        "August 13, 2004"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Air Tahoma Flight 185",
+        "crashed_during",
+        "approach to landing"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Convair 580",
+        "was_destroyed_upon",
+        "impact"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Air Tahoma Flight 185\nAir Tahoma Flight 185 was a scheduled cargo flight from Memphis to the Cincinnati/Northern Kentucky International Airport conducted by Air Tahoma as part of a contract to freight parcels for courier firm DHL. On August 13, 2004, the flight crashed during approach to landing just one mile short of the runway. The Convair 580, which is a twin engine turboprop, was destroyed upon impact. The first officer was killed and the captain received minor injuries.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Air Tahoma Flight 185\", \"type\": \"EVENT\"},\n    {\"name\": \"Memphis\", \"type\": \"GPE\"},\n    {\"name\": \"Cincinnati/Northern Kentucky International Airport\", \"type\": \"FAC\"},\n    {\"name\": \"Air Tahoma\", \"type\": \"ORG\"},\n    {\"name\": \"DHL\", \"type\": \"ORG\"},\n    {\"name\": \"August 13, 2004\", \"type\": \"EVENT\"},\n    {\"name\": \"Convair 580\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Air Tahoma Flight 185\",\n      \"relation\": \"was_a_scheduled_cargo_flight_from\",\n      \"object\": \"Memphis\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a scheduled cargo flight from\"}\n      ]\n    },\n    {\n      \"subject\": \"Air Tahoma Flight 185\",\n      \"relation\": \"was_a_scheduled_cargo_flight_to\",\n      \"object\": \"Cincinnati/Northern Kentucky International Airport\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a scheduled cargo flight from Memphis to the Cincinnati/Northern Kentucky International Airport\"}\n      ]\n    },\n    {\n      \"subject\": \"Air Tahoma Flight 185\",\n      \"relation\": \"conducted_by\",\n      \"object\": \"Air Tahoma\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"conducted by\"}\n      ]\n    },\n    {\n      \"subject\": \"Air Tahoma Flight 185\",\n      \"relation\": \"freighted_parcels_for\",\n      \"object\": \"DHL\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to freight parcels for\"}\n      ]\n    },\n    {\n      \"subject\": \"Air Tahoma Flight 185\",\n      \"relation\": \"crashed_on\",\n      \"object\": \"August 13, 2004\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"On August 13, 2004, the flight crashed\"}\n      ]\n    },\n    {\n      \"subject\": \"Air Tahoma Flight 185\",\n      \"relation\": \"crashed_during\",\n      \"object\": \"approach to landing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"crashed during approach to landing\"}\n      ]\n    },\n    {\n      \"subject\": \"Convair 580\",\n      \"relation\": \"was_destroyed_upon\",\n      \"object\": \"impact\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was destroyed upon impact\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Revenge of the Creature": "WORK_OF_ART",
+    "Return of the Creature": "WORK_OF_ART",
+    "Return of the Creature from the Black Lagoon": "WORK_OF_ART",
+    "Creature from the Black Lagoon": "WORK_OF_ART",
+    "Jack Arnold": "PERSON",
+    "John Agar": "PERSON",
+    "Lori Nelson": "PERSON",
+    "Clint Eastwood": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Revenge of the Creature",
+      "relation": "directed_by",
+      "object": "Jack Arnold",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Directed by",
+          "line_start": 289,
+          "char_start": 313,
+          "ambiguous": false,
+          "relation_mention": "Directed by",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Revenge of the Creature",
+        "aka",
+        "Return of the Creature"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Revenge of the Creature",
+        "aka",
+        "Return of the Creature from the Black Lagoon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Revenge of the Creature",
+        "sequel_to",
+        "Creature from the Black Lagoon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Revenge of the Creature",
+        "stars",
+        "John Agar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Revenge of the Creature",
+        "stars",
+        "Lori Nelson"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Revenge of the Creature",
+        "film_debut_of",
+        "Clint Eastwood"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Revenge of the Creature\nRevenge of the Creature (also known as Return of the Creature and Return of the Creature from the Black Lagoon) is the first sequel to \"Creature from the Black Lagoon\", being the only 3-D film released in 1955 and the only 3-D sequel to a 3-D film released during \"the golden age of 3-D\". Directed by Jack Arnold, the film stars John Agar and Lori Nelson. This was Clint Eastwood's film debut.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Revenge of the Creature\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Return of the Creature\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Return of the Creature from the Black Lagoon\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Creature from the Black Lagoon\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Jack Arnold\", \"type\": \"PERSON\"},\n    {\"name\": \"John Agar\", \"type\": \"PERSON\"},\n    {\"name\": \"Lori Nelson\", \"type\": \"PERSON\"},\n    {\"name\": \"Clint Eastwood\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Revenge of the Creature\",\n      \"relation\": \"aka\",\n      \"object\": \"Return of the Creature\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Revenge of the Creature\",\n      \"relation\": \"aka\",\n      \"object\": \"Return of the Creature from the Black Lagoon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Revenge of the Creature\",\n      \"relation\": \"sequel_to\",\n      \"object\": \"Creature from the Black Lagoon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the first sequel to\"}\n      ]\n    },\n    {\n      \"subject\": \"Revenge of the Creature\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Jack Arnold\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Revenge of the Creature\",\n      \"relation\": \"stars\",\n      \"object\": \"John Agar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Revenge of the Creature\",\n      \"relation\": \"stars\",\n      \"object\": \"Lori Nelson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Revenge of the Creature\",\n      \"relation\": \"film_debut_of\",\n      \"object\": \"Clint Eastwood\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"film debut\"}\n      ]\n    }\n  ]\n}"
+}

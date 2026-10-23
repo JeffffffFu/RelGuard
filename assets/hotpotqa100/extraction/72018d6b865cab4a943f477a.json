@@ -1,0 +1,172 @@
+{
+  "entities": {
+    "Landford": "GPE",
+    "County of Southampton": "GPE",
+    "Peerage of the United Kingdom": "ORG",
+    "United Kingdom": "GPE",
+    "Sir Alfred Mond": "PERSON",
+    "Imperial Chemical Industries": "ORG",
+    "First Commissioner of Works": "ORG",
+    "Minister of Health": "ORG",
+    "Hartford Hill": "LOC",
+    "Great Budworth": "GPE",
+    "County of Chester": "GPE",
+    "James Callaghan": "PERSON",
+    "Greenpeace UK": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Sir Alfred Mond",
+      "relation": "was_chairman_of",
+      "object": "Imperial Chemical Industries",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Chairman of Imperial Chemical Industries",
+          "line_start": 171,
+          "char_start": 186,
+          "ambiguous": false,
+          "relation_mention": "Chairman of Imperial Chemical Industries",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sir Alfred Mond",
+      "relation": "held_position",
+      "object": "First Commissioner of Works",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "First Commissioner of Works",
+          "line_start": 225,
+          "char_start": 240,
+          "ambiguous": false,
+          "relation_mention": "First Commissioner of Works",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sir Alfred Mond",
+      "relation": "held_position",
+      "object": "Minister of Health",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Minister of Health",
+          "line_start": 257,
+          "char_start": 272,
+          "ambiguous": false,
+          "relation_mention": "Minister of Health",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sir Alfred Mond",
+      "relation": "was_created_as",
+      "object": "Hartford Hill",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "created a Baronet, of Hartford Hill",
+          "line_start": 297,
+          "char_start": 312,
+          "ambiguous": false,
+          "relation_mention": "created a Baronet, of Hartford Hill",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Hartford Hill",
+      "relation": "located_in",
+      "object": "Great Budworth",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in Great Budworth",
+          "line_start": 333,
+          "char_start": 348,
+          "ambiguous": false,
+          "relation_mention": "in Great Budworth",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Great Budworth",
+      "relation": "located_in",
+      "object": "County of Chester",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the County of Chester",
+          "line_start": 351,
+          "char_start": 366,
+          "ambiguous": false,
+          "relation_mention": "in the County of Chester",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities outside the eleven types",
+      "entities": [
+        "Baron Melchett (TITLE)"
+      ]
+    },
+    {
+      "triple": [
+        "Baron Melchett",
+        "located_in",
+        "Landford"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baron Melchett",
+        "located_in",
+        "County of Southampton"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Baron Melchett",
+        "is_a",
+        "Peerage of the United Kingdom"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sir Alfred Mond",
+        "was_created_for",
+        "Baron Melchett"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fourth Baron",
+        "held_position",
+        "Executive Director of Greenpeace UK"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "fourth Baron",
+        "held_political_office_under",
+        "James Callaghan"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Baron Melchett\nBaron Melchett, of Landford in the County of Southampton, is a title in the Peerage of the United Kingdom. It was created on 5 June 1928 for Sir Alfred Mond, 1st Baronet, Chairman of Imperial Chemical Industries and a former First Commissioner of Works and Minister of Health. He had already been created a Baronet, of Hartford Hill in Great Budworth in the County of Chester, on 8 July 1910. He was succeeded by his only son, the second Baron. He was also a politician and businessman. His second but only surviving son, the third Baron, was a businessman. s of 2010 the titles are held by the latter's son, the fourth Baron, who succeeded in 1973. He held political office under James Callaghan in the late 1970s and was later Executive Director of Greenpeace UK."
+}

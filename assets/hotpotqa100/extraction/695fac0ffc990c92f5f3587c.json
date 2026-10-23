@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Nothing but the Truth": "WORK_OF_ART",
+    "Rod Lurie": "PERSON",
+    "Judith Miller": "PERSON",
+    "Valerie Plame": "PERSON",
+    "CIA": "ORG",
+    "DVD": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Nothing but the Truth",
+      "relation": "directed_by",
+      "object": "Rod Lurie",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written and directed by",
+          "line_start": 52,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "written and directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Nothing but the Truth",
+      "relation": "works_for",
+      "object": "Rod Lurie",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written and directed by",
+          "line_start": 52,
+          "char_start": 95,
+          "ambiguous": false,
+          "relation_mention": "written and directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Valerie Plame",
+        "works_for",
+        "CIA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Truth Hurts",
+        "located_in",
+        "DVD"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Nothing but the Truth (2008 American film)\nNothing but the Truth is a 2008 American drama film written and directed by Rod Lurie. According to comments made by Lurie in \"The Truth Hurts\", a bonus feature on the DVD release, his inspiration for the screenplay was the case of journalist Judith Miller, who in July 2005 was jailed for contempt of court for refusing to testify before a federal grand jury investigating a leak naming Valerie Plame as a covert CIA operative, but this was merely a starting point for what is primarily a fictional story. In an April 2009 interview, Lurie stressed: \"I should say that the film is about neither of these women although certainly their stories as reported in the press went into the creation of their characters and the situation they find themselves in.\"",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Nothing but the Truth\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Rod Lurie\", \"type\": \"PERSON\"},\n    {\"name\": \"Judith Miller\", \"type\": \"PERSON\"},\n    {\"name\": \"Valerie Plame\", \"type\": \"PERSON\"},\n    {\"name\": \"CIA\", \"type\": \"ORG\"},\n    {\"name\": \"DVD\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Nothing but the Truth\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Rod Lurie\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Nothing but the Truth\",\n      \"relation\": \"works_for\",\n      \"object\": \"Rod Lurie\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written and directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Judith Miller\",\n      \"relation\": \"jailed_for\",\n      \"object\": \"Nothing but the Truth\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Judith Miller\",\n      \"relation\": \"jailed_for\",\n      \"object\": \"Rod Lurie\",\n      \"occurrences\": []\n    },\n    {\n      \"subject\": \"Valerie Plame\",\n      \"relation\": \"works_for\",\n      \"object\": \"CIA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"covert CIA operative\"}\n      ]\n    },\n    {\n      \"subject\": \"The Truth Hurts\",\n      \"relation\": \"located_in\",\n      \"object\": \"DVD\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the DVD release\"}\n      ]\n    }\n  ]\n}"
+}

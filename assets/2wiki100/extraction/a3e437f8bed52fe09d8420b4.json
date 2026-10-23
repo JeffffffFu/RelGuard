@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Ida Bagus Nyoman Rai": "Person",
+    "Sanur": "Location",
+    "Denpasar": "Location",
+    "Bali": "Location",
+    "Indonesia": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Ida Bagus Nyoman Rai",
+      "relation": "located_in",
+      "object": "Sanur",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Sanur, a beach resort near Denpasar, Bali, Indonesia"
+        }
+      ]
+    },
+    {
+      "subject": "Sanur",
+      "relation": "near",
+      "object": "Denpasar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Sanur, a beach resort near Denpasar"
+        }
+      ]
+    },
+    {
+      "subject": "Sanur",
+      "relation": "located_in",
+      "object": "Bali",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Sanur, a beach resort near Denpasar, Bali, Indonesia"
+        }
+      ]
+    },
+    {
+      "subject": "Denpasar",
+      "relation": "located_in",
+      "object": "Bali",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "near Denpasar, Bali, Indonesia"
+        }
+      ]
+    },
+    {
+      "subject": "Bali",
+      "relation": "located_in",
+      "object": "Indonesia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bali, Indonesia"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ida Bagus Nyoman Rai",
+        "known_as",
+        "I Bagus Nyoman Rai Tengkeng"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ida Bagus Nyoman Rai",
+        "known_as",
+        "Ida Bagus Nyoman Rai Klingking"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ida Bagus Nyoman Rai",
+        "was_a",
+        "traditional Balinese painter"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ida Bagus Nyoman Rai\nIda Bagus Nyoman Rai( ~1915-2000) was a traditional Balinese painter from Sanur, a beach resort near Denpasar, Bali, Indonesia. He was also known as I Bagus Nyoman Rai Tengkeng or Ida Bagus Nyoman Rai Klingking"
+}

@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Bone marrow": "PRODUCT",
+    "red blood cells": "PRODUCT",
+    "white blood cells": "PRODUCT",
+    "platelets": "PRODUCT",
+    "the body": "LOC",
+    "a wound": "EVENT"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Bone marrow",
+        "contains",
+        "platelets"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "red blood cells",
+        "transport",
+        "the body"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "platelets",
+        "trigger",
+        "clotting"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "platelets",
+        "help_stop",
+        "the body"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "white blood cells",
+        "fight_off",
+        "infections"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bone marrow failure\nBone marrow failure occurs in individuals who produce an insufficient amount of red blood cells, white blood cells or platelets. Red blood cells transport oxygen to be distributed throughout the body’s tissue. White blood cells fight off infections that enter the body. Bone marrow also contains platelets, which trigger clotting, and thus help stop the blood flow when a wound occurs.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bone marrow\", \"type\": \"PRODUCT\"},\n    {\"name\": \"red blood cells\", \"type\": \"PRODUCT\"},\n    {\"name\": \"white blood cells\", \"type\": \"PRODUCT\"},\n    {\"name\": \"platelets\", \"type\": \"PRODUCT\"},\n    {\"name\": \"the body\", \"type\": \"LOC\"},\n    {\"name\": \"a wound\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bone marrow\",\n      \"relation\": \"contains\",\n      \"object\": \"platelets\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"contains\"}\n      ]\n    },\n    {\n      \"subject\": \"red blood cells\",\n      \"relation\": \"transport\",\n      \"object\": \"the body\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"transport\"}\n      ]\n    },\n    {\n      \"subject\": \"platelets\",\n      \"relation\": \"trigger\",\n      \"object\": \"clotting\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"trigger clotting\"}\n      ]\n    },\n    {\n      \"subject\": \"platelets\",\n      \"relation\": \"help_stop\",\n      \"object\": \"the body\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"help stop the blood flow when a wound occurs\"}\n      ]\n    },\n    {\n      \"subject\": \"white blood cells\",\n      \"relation\": \"fight_off\",\n      \"object\": \"infections\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"fight off\"}\n      ]\n    }\n  ]\n}"
+}

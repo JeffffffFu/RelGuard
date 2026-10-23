@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Sancho Ramírez": "PERSON",
+    "Sancho V": "PERSON",
+    "Ramiro I": "PERSON",
+    "Ermesinda of Bigorre": "PERSON",
+    "Sancho III of Pamplona": "PERSON",
+    "Navarrese noblemen": "NORP",
+    "Sancho IV": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "2 entities not in the document",
+      "entities": [
+        "Kingdom of Aragon (GPE)",
+        "Kingdom of Pamplona (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "was_king_of",
+        "Kingdom of Aragon"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "was_king_of",
+        "Kingdom of Pamplona"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "also_known_as",
+        "Sancho V"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "child_of",
+        "Ramiro I"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "child_of",
+        "Ermesinda of Bigorre"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ramiro I",
+        "was_king_of",
+        "Kingdom of Aragon"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ramiro I",
+        "child_of",
+        "Sancho III of Pamplona"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "inherited_from",
+        "Ramiro I"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sancho Ramírez",
+        "was_chosen_by",
+        "Navarrese noblemen"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sancho IV",
+        "was_murdered_by",
+        "Sancho Ramírez"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Sancho Ramírez\nSancho Ramírez (1042 – 4 June, 1094) was King of Aragon from 1063 until 1094 and King of Pamplona from 1076 under the name of Sancho V . He was the eldest son of Ramiro I and Ermesinda of Bigorre. His father was the first king of Aragon and an illegitimate son of Sancho III of Pamplona. He inherited the Aragonese crown from his father in 1063. Sancho Ramírez was chosen king of Pamplona by Navarrese noblemen after Sancho IV was murdered by his siblings.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Sancho Ramírez\", \"type\": \"PERSON\"},\n    {\"name\": \"Kingdom of Aragon\", \"type\": \"GPE\"},\n    {\"name\": \"Kingdom of Pamplona\", \"type\": \"GPE\"},\n    {\"name\": \"Sancho V\", \"type\": \"PERSON\"},\n    {\"name\": \"Ramiro I\", \"type\": \"PERSON\"},\n    {\"name\": \"Ermesinda of Bigorre\", \"type\": \"PERSON\"},\n    {\"name\": \"Sancho III of Pamplona\", \"type\": \"PERSON\"},\n    {\"name\": \"Navarrese noblemen\", \"type\": \"NORP\"},\n    {\"name\": \"Sancho IV\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Sancho Ramírez\",\n      \"relation\": \"was_king_of\",\n      \"object\": \"Kingdom of Aragon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was King of Aragon\"}\n      ]\n    },\n    {\n      \"subject\": \"Sancho Ramírez\",\n      \"relation\": \"was_king_of\",\n      \"object\": \"Kingdom of Pamplona\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and King of Pamplona\"}\n      ]\n    },\n    {\n      \"subject\": \"Sancho Ramírez\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"Sancho V\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"under the name of Sancho V\"}\n      ]\n    },\n    {\n      \"subject\": \"Sancho Ramírez\",\n      \"relation\": \"child_of\",\n      \"object\": \"Ramiro I\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"eldest son of Ramiro I\"}\n      ]\n    },\n    {\n      \"subject\": \"Sancho Ramírez\",\n      \"relation\": \"child_of\",\n      \"object\": \"Ermesinda of Bigorre\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"eldest son of Ramiro I and Ermesinda of Bigorre\"}\n      ]\n    },\n    {\n      \"subject\": \"Ramiro I\",\n      \"relation\": \"was_king_of\",\n      \"object\": \"Kingdom of Aragon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"first king of Aragon\"}\n      ]\n    },\n    {\n      \"subject\": \"Ramiro I\",\n      \"relation\": \"child_of\",\n      \"object\": \"Sancho III of Pamplona\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"an illegitimate son of Sancho III of Pamplona\"}\n      ]\n    },\n    {\n      \"subject\": \"Sancho Ramírez\",\n      \"relation\": \"inherited_from\",\n      \"object\": \"Ramiro I\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"inherited the Aragonese crown from his father\"}\n      ]\n    },\n    {\n      \"subject\": \"Sancho Ramírez\",\n      \"relation\": \"was_chosen_by\",\n      \"object\": \"Navarrese noblemen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was chosen king of Pamplona by Navarrese noblemen\"}\n      ]\n    },\n    {\n      \"subject\": \"Sancho IV\",\n      \"relation\": \"was_murdered_by\",\n      \"object\": \"Sancho Ramírez\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"after Sancho IV was murdered by his siblings\"}\n      ]\n    }\n  ]\n}"
+}

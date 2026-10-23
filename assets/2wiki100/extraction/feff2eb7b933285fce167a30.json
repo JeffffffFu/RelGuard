@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Tom Dickinson": "PERSON",
+    "Thomas Eastwood Dickinson": "PERSON",
+    "Lancashire": "ORG",
+    "Somerset": "ORG",
+    "Parramatta": "GPE",
+    "Sydney": "GPE",
+    "Australia": "GPE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Thomas Eastwood Dickinson",
+        "aka",
+        "Tom Dickinson"
+      ],
+      "why": "2 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thomas Eastwood Dickinson",
+        "played_for",
+        "Lancashire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thomas Eastwood Dickinson",
+        "played_for",
+        "Somerset"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Thomas Eastwood Dickinson",
+        "born_in",
+        "Parramatta"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Parramatta",
+        "located_in",
+        "Sydney"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sydney",
+        "located_in",
+        "Australia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Tom Dickinson\nThomas Eastwood Dickinson( 11 January 1931 – 25 June 2018) was an Australian- born first- class cricket player for Lancashire in 1950 and 1951 and for Somerset in 1957. But he decided against a full- time cricket career and became a schoolmaster. He was born in Parramatta, Sydney, Australia.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Tom Dickinson\", \"type\": \"PERSON\"},\n    {\"name\": \"Thomas Eastwood Dickinson\", \"type\": \"PERSON\"},\n    {\"name\": \"Lancashire\", \"type\": \"ORG\"},\n    {\"name\": \"Somerset\", \"type\": \"ORG\"},\n    {\"name\": \"Parramatta\", \"type\": \"GPE\"},\n    {\"name\": \"Sydney\", \"type\": \"GPE\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Thomas Eastwood Dickinson\",\n      \"relation\": \"aka\",\n      \"object\": \"Tom Dickinson\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"Tom Dickinson\"},\n        {\"line\": 2, \"predicate\": \"Thomas Eastwood Dickinson(\"}\n      ]\n    },\n    {\n      \"subject\": \"Thomas Eastwood Dickinson\",\n      \"relation\": \"played_for\",\n      \"object\": \"Lancashire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for Lancashire\"}\n      ]\n    },\n    {\n      \"subject\": \"Thomas Eastwood Dickinson\",\n      \"relation\": \"played_for\",\n      \"object\": \"Somerset\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for Somerset\"}\n      ]\n    },\n    {\n      \"subject\": \"Thomas Eastwood Dickinson\",\n      \"relation\": \"born_in\",\n      \"object\": \"Parramatta\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born in Parramatta\"}\n      ]\n    },\n    {\n      \"subject\": \"Parramatta\",\n      \"relation\": \"located_in\",\n      \"object\": \"Sydney\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Parramatta, Sydney\"}\n      ]\n    },\n    {\n      \"subject\": \"Sydney\",\n      \"relation\": \"located_in\",\n      \"object\": \"Australia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Sydney, Australia\"}\n      ]\n    }\n  ]\n}"
+}

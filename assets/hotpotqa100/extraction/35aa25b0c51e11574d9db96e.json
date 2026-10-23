@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "Newcastle Airport": "Airport",
+    "New South Wales": "Location",
+    "Port Stephens": "Location",
+    "RAAF Base Williamtown": "Military Base",
+    "Australia": "Country"
+  },
+  "triples": [
+    {
+      "subject": "Newcastle Airport",
+      "relation": "located_in",
+      "object": "New South Wales",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Newcastle Airport (IATA: NTL, ICAO: YWLM) is 8 NM north of Newcastle, New South Wales"
+        }
+      ]
+    },
+    {
+      "subject": "Newcastle Airport",
+      "relation": "located_in",
+      "object": "Port Stephens",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Port Stephens"
+        }
+      ]
+    },
+    {
+      "subject": "Newcastle Airport",
+      "relation": "located_on_border_of",
+      "object": "RAAF Base Williamtown",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on the southern border of RAAF Base Williamtown"
+        }
+      ]
+    },
+    {
+      "subject": "Newcastle Airport",
+      "relation": "is_busiest_airport_in",
+      "object": "Australia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the 12th busiest airport in Australia"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Newcastle Airport",
+        "has_passengers",
+        "1.25 million"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Newcastle Airport",
+        "increased_by",
+        "6.6%"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Newcastle Airport",
+        "occupies",
+        "28 ha site"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Newcastle Airport (New South Wales)\nThe Newcastle Airport (IATA: NTL, ICAO: YWLM) is 8 NM north of Newcastle, New South Wales (27 km by road) in Port Stephens. It is the 12th busiest airport in Australia, handling over 1.25 million passengers in the year ended 30 June 2017, an increase of 6.6% on the previous year. The airport occupies a 28 ha site on the southern border of RAAF Base Williamtown."
+}

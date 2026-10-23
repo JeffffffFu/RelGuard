@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Pulgasari": "WORK_OF_ART",
+    "Shin Sang-ok": "PERSON",
+    "Chong Gon Jo": "PERSON",
+    "Chang Son Hui": "PERSON",
+    "Pak Sung Ho": "PERSON",
+    "Duk Ho Kim": "PERSON",
+    "Teruyoshi Nakano": "PERSON",
+    "Kim Jong-il": "PERSON",
+    "Kim Il-sung": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Pulgasari",
+      "relation": "directed_by",
+      "object": "Shin Sang-ok",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Shin Sang-ok"
+        }
+      ]
+    },
+    {
+      "subject": "Pulgasari",
+      "relation": "directed_by",
+      "object": "Chong Gon Jo",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Shin Sang-ok and Chong Gon Jo"
+        }
+      ]
+    },
+    {
+      "subject": "Pulgasari",
+      "relation": "starred",
+      "object": "Chang Son Hui",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film starred Chang Son Hui"
+        }
+      ]
+    },
+    {
+      "subject": "Pulgasari",
+      "relation": "featured_special_effects_by",
+      "object": "Duk Ho Kim",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "featured special effects by Duk Ho Kim"
+        }
+      ]
+    },
+    {
+      "subject": "Pulgasari",
+      "relation": "supervised_by",
+      "object": "Teruyoshi Nakano",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "supervised by Teruyoshi Nakano"
+        }
+      ]
+    },
+    {
+      "subject": "Kim Jong-il",
+      "relation": "ordered",
+      "object": "Shin Sang-ok",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "on the orders of Kim Jong-il"
+        }
+      ]
+    },
+    {
+      "subject": "Kim Jong-il",
+      "relation": "son_of",
+      "object": "Kim Il-sung",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "son of the then-ruling Kim Il-sung"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "North Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Pulgasari",
+        "starred",
+        "Pak Sung Ho"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Shin Sang-ok",
+        "kidnapped_by",
+        "North Korea"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Pulgasari\nPulgasari (Chosŏn'gŭl: 불가사리 ; RR: \"Bulgasari \" ) is a 1985 North Korean dark fantasy-action monster film directed by Shin Sang-ok and Chong Gon Jo. The film starred Chang Son Hui and Pak Sung Ho and featured special effects by Duk Ho Kim, supervised by Teruyoshi Nakano. The film was loosely based on the legend of the Bulgasari. Director Shin had been kidnapped in 1978 by North Korean intelligence on the orders of Kim Jong-il, son of the then-ruling Kim Il-sung."
+}

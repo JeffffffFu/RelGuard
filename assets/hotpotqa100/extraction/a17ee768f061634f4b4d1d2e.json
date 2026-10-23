@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Bill McCutcheon": "PERSON",
+    "James William McCutcheon": "PERSON",
+    "American": "NORP",
+    "Emmy": "WORK_OF_ART",
+    "Tony": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "James William McCutcheon",
+      "relation": "is_a",
+      "object": "Bill McCutcheon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bill McCutcheon"
+        }
+      ]
+    },
+    {
+      "subject": "James William McCutcheon",
+      "relation": "is_known_for",
+      "object": "American",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was an American character actor"
+        }
+      ]
+    },
+    {
+      "subject": "James William McCutcheon",
+      "relation": "won",
+      "object": "Emmy",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "several of which won him Emmy"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "James William McCutcheon",
+        "won",
+        "Tony"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Bill McCutcheon\nJames William McCutcheon (May 23, 1924 – January 9, 2002) was an American character actor known for his roles in film, television, and theatre, several of which won him Emmy and Tony awards."
+}

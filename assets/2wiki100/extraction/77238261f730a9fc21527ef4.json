@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "Flags and Waves": "WORK_OF_ART",
+    "Bill Reeves": "PERSON",
+    "Alain Fournier": "PERSON",
+    "Pixar": "ORG",
+    "John Lasseter": "PERSON",
+    "SIGGRAPH": "EVENT",
+    "Dallas": "GPE",
+    "Luxo Jr.": "WORK_OF_ART",
+    "Beach Chair": "WORK_OF_ART",
+    "Eben Ostby": "PERSON",
+    "Finding Nemo": "WORK_OF_ART",
+    "Pixar Short Films Collection – Volume 1": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Flags and Waves",
+      "relation": "created_by",
+      "object": "Bill Reeves",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "created by",
+          "line_start": 56,
+          "char_start": 72,
+          "ambiguous": false,
+          "relation_mention": "created by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Flags and Waves",
+      "relation": "created_by",
+      "object": "Alain Fournier",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "created by",
+          "line_start": 56,
+          "char_start": 72,
+          "ambiguous": false,
+          "relation_mention": "created by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Flags and Waves",
+        "created_for",
+        "Pixar"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Reeves and Fournier",
+        "made",
+        "the project"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Reeves and Fournier",
+        "worked_with_feedback_of",
+        "John Lasseter"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Flags and Waves",
+        "exhibited_at",
+        "SIGGRAPH"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "SIGGRAPH",
+        "located_in",
+        "Dallas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Flags and Waves",
+        "exhibited_along_with",
+        "Luxo Jr."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Flags and Waves",
+        "exhibited_along_with",
+        "Beach Chair"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Beach Chair",
+        "created_by",
+        "Eben Ostby"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "methods developed during the creation of Flags and Waves",
+        "were_basis_of",
+        "Finding Nemo"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Flags and Waves",
+        "based_on",
+        "an oceanographic model of ocean waves"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Flags and Waves",
+        "included_in",
+        "Pixar Short Films Collection – Volume 1"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Flags and Waves\nFlags and Waves is a short computer animation test clip created by animator Bill Reeves and Alain Fournier for Pixar in 1986. The clip included waves reflecting a sunset and lapping against the shore. Reeves and Fournier made the project, with the feedback of John Lasseter, to work out details of rendering water and waves realistically including lighting, motion, and shading. It was exhibited at SIGGRAPH in Dallas in 1986, along with Lasseter's landmark computer-animated short \"Luxo Jr.\" and another test project, \"Beach Chair\" by Eben Ostby. The methods developed during the creation of this project were the basis of the water in Finding Nemo. It's based off an oceanographic model of ocean waves Fournier dug out of the literature from the 19th century. \"Flags and Waves\" can also be found as an Easter egg in \"Pixar Short Films Collection – Volume 1\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Flags and Waves\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Bill Reeves\", \"type\": \"PERSON\"},\n    {\"name\": \"Alain Fournier\", \"type\": \"PERSON\"},\n    {\"name\": \"Pixar\", \"type\": \"ORG\"},\n    {\"name\": \"John Lasseter\", \"type\": \"PERSON\"},\n    {\"name\": \"SIGGRAPH\", \"type\": \"EVENT\"},\n    {\"name\": \"Dallas\", \"type\": \"GPE\"},\n    {\"name\": \"Luxo Jr.\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Beach Chair\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Eben Ostby\", \"type\": \"PERSON\"},\n    {\"name\": \"Finding Nemo\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Pixar Short Films Collection – Volume 1\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Flags and Waves\",\n      \"relation\": \"created_by\",\n      \"object\": \"Bill Reeves\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"created by\"}\n      ]\n    },\n    {\n      \"subject\": \"Flags and Waves\",\n      \"relation\": \"created_by\",\n      \"object\": \"Alain Fournier\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"created by\"}\n      ]\n    },\n    {\n      \"subject\": \"Flags and Waves\",\n      \"relation\": \"created_for\",\n      \"object\": \"Pixar\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"for Pixar\"}\n      ]\n    },\n    {\n      \"subject\": \"Reeves and Fournier\",\n      \"relation\": \"made\",\n      \"object\": \"the project\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"made the project\"}\n      ]\n    },\n    {\n      \"subject\": \"Reeves and Fournier\",\n      \"relation\": \"worked_with_feedback_of\",\n      \"object\": \"John Lasseter\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"with the feedback of John Lasseter\"}\n      ]\n    },\n    {\n      \"subject\": \"Flags and Waves\",\n      \"relation\": \"exhibited_at\",\n      \"object\": \"SIGGRAPH\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"exhibited at SIGGRAPH\"}\n      ]\n    },\n    {\n      \"subject\": \"SIGGRAPH\",\n      \"relation\": \"located_in\",\n      \"object\": \"Dallas\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"in Dallas\"}\n      ]\n    },\n    {\n      \"subject\": \"Flags and Waves\",\n      \"relation\": \"exhibited_along_with\",\n      \"object\": \"Luxo Jr.\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"along with Lasseter's landmark computer-animated short \\\"Luxo Jr.\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Flags and Waves\",\n      \"relation\": \"exhibited_along_with\",\n      \"object\": \"Beach Chair\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"and another test project, \\\"Beach Chair\\\" by Eben Ostby\"}\n      ]\n    },\n    {\n      \"subject\": \"Beach Chair\",\n      \"relation\": \"created_by\",\n      \"object\": \"Eben Ostby\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"\\\"Beach Chair\\\" by Eben Ostby\"}\n      ]\n    },\n    {\n      \"subject\": \"methods developed during the creation of Flags and Waves\",\n      \"relation\": \"were_basis_of\",\n      \"object\": \"Finding Nemo\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"were the basis of the water in Finding Nemo\"}\n      ]\n    },\n    {\n      \"subject\": \"Flags and Waves\",\n      \"relation\": \"based_on\",\n      \"object\": \"an oceanographic model of ocean waves\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"based off an oceanographic model of ocean waves\"}\n      ]\n    },\n    {\n      \"subject\": \"Flags and Waves\",\n      \"relation\": \"included_in\",\n      \"object\": \"Pixar Short Films Collection – Volume 1\",\n      \"occurrences\": [\n        {\"line\": 5, \"predicate\": \"found as an Easter egg in \\\"Pixar Short Films Collection – Volume 1\\\"\"}\n      ]\n    }\n  ]\n}"
+}

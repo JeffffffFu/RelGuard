@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Paganini Horror": "film",
+    "Luigi Cozzi": "director",
+    "Niccolò Paganini": "composer",
+    "rock band": "musical group"
+  },
+  "triples": [
+    {
+      "subject": "Paganini Horror",
+      "relation": "directed_by",
+      "object": "Luigi Cozzi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Luigi Cozzi"
+        }
+      ]
+    },
+    {
+      "subject": "Paganini Horror",
+      "relation": "awakened_spirit_of",
+      "object": "Niccolò Paganini",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "it awakens the spirit of the deceased composer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "rock band",
+        "acquired",
+        "unpublished score"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "rock band",
+        "decided_to_record",
+        "unpublished score"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "rock band",
+        "filmed",
+        "music video"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Paganini Horror",
+        "unlocks",
+        "portal to Hell"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Paganini Horror\nPaganini Horror is a 1989 Italian horror film directed by Luigi Cozzi. The film tells the story of a largely female rock band who acquires an unpublished score by composer Niccolò Paganini and decides to record it. When the band films a music video for the song in Paganini's ancient home, it awakens the spirit of the deceased composer and unlocks a portal to Hell."
+}

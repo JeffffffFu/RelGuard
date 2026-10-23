@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Gyara Hazar Ladkian": "WORK_OF_ART",
+    "Hindi": "LANGUAGE",
+    "K. A. Abbas": "PERSON",
+    "Ali Sardar Jafri": "PERSON",
+    "Abbas": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Gyara Hazar Ladkian",
+      "relation": "directed_by",
+      "object": "K. A. Abbas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 88,
+          "char_start": 108,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Gyara Hazar Ladkian",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gyara Hazar Ladkian",
+        "language",
+        "Hindi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gyara Hazar Ladkian",
+        "co_produced_by",
+        "Ali Sardar Jafri"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Ali Sardar Jafri",
+        "co_wrote_story_with",
+        "Abbas"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Gyara Hazar Ladkian\nGyara Hazar Ladkian (Eleven Thousand Girls ) is a 1962 Hindi romantic social drama film directed by K. A. Abbas. The film was co-produced by the poet Ali Sardar Jafri, who also helped co-write the story with Abbas.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Gyara Hazar Ladkian\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Hindi\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"K. A. Abbas\", \"type\": \"PERSON\"},\n    {\"name\": \"Ali Sardar Jafri\", \"type\": \"PERSON\"},\n    {\"name\": \"Abbas\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Gyara Hazar Ladkian\",\n      \"relation\": \"is_a\",\n      \"object\": \"WORK_OF_ART\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a 1962 Hindi romantic social drama film\"}\n      ]\n    },\n    {\n      \"subject\": \"Gyara Hazar Ladkian\",\n      \"relation\": \"language\",\n      \"object\": \"Hindi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Hindi\"}\n      ]\n    },\n    {\n      \"subject\": \"Gyara Hazar Ladkian\",\n      \"relation\": \"directed_by\",\n      \"object\": \"K. A. Abbas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Gyara Hazar Ladkian\",\n      \"relation\": \"co_produced_by\",\n      \"object\": \"Ali Sardar Jafri\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-produced by\"}\n      ]\n    },\n    {\n      \"subject\": \"Ali Sardar Jafri\",\n      \"relation\": \"co_wrote_story_with\",\n      \"object\": \"Abbas\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-write the story with\"}\n      ]\n    }\n  ]\n}"
+}

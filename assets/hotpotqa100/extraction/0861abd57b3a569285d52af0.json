@@ -1,0 +1,99 @@
+{
+  "entities": {
+    "Lynx Software Technologies": "ORG",
+    "LynuxWorks": "ORG",
+    "San Jose": "GPE",
+    "California": "GPE",
+    "ISDCorp": "ORG",
+    "Lynx Real-Time Systems": "ORG",
+    "LynxOS": "PRODUCT",
+    "LynxSecure": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Lynx Software Technologies",
+      "relation": "located_in",
+      "object": "San Jose",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a San Jose, California software company"
+        }
+      ]
+    },
+    {
+      "subject": "Lynx Software Technologies",
+      "relation": "changed_name_to",
+      "object": "LynuxWorks",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "changed its name to LynuxWorks"
+        }
+      ]
+    },
+    {
+      "subject": "LynuxWorks",
+      "relation": "acquired",
+      "object": "ISDCorp",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "after acquiring, and merging with, ISDCorp"
+        }
+      ]
+    },
+    {
+      "subject": "LynuxWorks",
+      "relation": "changed_name_to",
+      "object": "Lynx Software Technologies",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the company changed its name to Lynx Software Technologies"
+        }
+      ]
+    },
+    {
+      "subject": "Lynx Software Technologies",
+      "relation": "produces",
+      "object": "LynxOS",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "as the LynxOS RTOS family of products"
+        }
+      ]
+    },
+    {
+      "subject": "Lynx Software Technologies",
+      "relation": "produces",
+      "object": "LynxSecure",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and the LynxSecure hypervisor"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lynx Software Technologies",
+        "founded",
+        "1988"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "ISDCorp",
+        "specializes_in",
+        "Linux"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lynx Software Technologies\nLynx Software Technologies, Inc. (formerly LynuxWorks) is a San Jose, California software company founded in 1988. Lynx Software Technologies specializes in secure virtualization and open and reliable real-time operating system (RTOS). Originally known as Lynx Real-Time Systems, the company changed its name to LynuxWorks in 2000 after acquiring, and merging with, ISDCorp (Integrated Software & Devices Corporation) a nine-year-old embedded systems company with a strong Linux background. In May 2014, the company changed its name to Lynx Software Technologies as a representation of the company’s forward direction as the LynxOS RTOS family of products and the LynxSecure hypervisor continued to gain increased traction both with current customers and markets, and with the new Internet connected embedded world."
+}

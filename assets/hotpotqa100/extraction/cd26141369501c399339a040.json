@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Caladium": "ORG",
+    "Araceae": "ORG",
+    "elephant ear": "WORK_OF_ART",
+    "Alocasia": "ORG",
+    "Colocasia": "ORG",
+    "Xanthosoma": "ORG",
+    "Heart of Jesus": "WORK_OF_ART",
+    "Angel Wings": "WORK_OF_ART",
+    "Caladium bicolor": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Caladium",
+      "relation": "known_by",
+      "object": "elephant ear",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known by the common name",
+          "line_start": 78,
+          "char_start": 87,
+          "ambiguous": false,
+          "relation_mention": "known by the common name",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Caladium",
+      "relation": "known_by",
+      "object": "Heart of Jesus",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known by the common name",
+          "line_start": 78,
+          "char_start": 87,
+          "ambiguous": false,
+          "relation_mention": "known by the common name",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Caladium",
+      "relation": "known_by",
+      "object": "Angel Wings",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "known by the common name",
+          "line_start": 78,
+          "char_start": 87,
+          "ambiguous": false,
+          "relation_mention": "known by the common name",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "South America (LOC)"
+      ]
+    },
+    {
+      "triple": [
+        "Caladium",
+        "located_in",
+        "Araceae"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Caladium",
+        "shares_common_name_with",
+        "Alocasia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Caladium",
+        "shares_common_name_with",
+        "Colocasia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Caladium",
+        "shares_common_name_with",
+        "Xanthosoma"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Caladium bicolor",
+        "originated_in",
+        "South America"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Caladium\nCaladium is a genus of flowering plants in the family Araceae. They are often known by the common name elephant ear (which they share with the closely related genera \"Alocasia\", \"Colocasia\", and \"Xanthosoma\"), Heart of Jesus, and Angel Wings. There are over 1000 named cultivars of \"Caladium bicolor\" from the original South American plant.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Caladium\", \"type\": \"ORG\"},\n    {\"name\": \"Araceae\", \"type\": \"ORG\"},\n    {\"name\": \"elephant ear\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Alocasia\", \"type\": \"ORG\"},\n    {\"name\": \"Colocasia\", \"type\": \"ORG\"},\n    {\"name\": \"Xanthosoma\", \"type\": \"ORG\"},\n    {\"name\": \"Heart of Jesus\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Angel Wings\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Caladium bicolor\", \"type\": \"PRODUCT\"},\n    {\"name\": \"South America\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Caladium\",\n      \"relation\": \"located_in\",\n      \"object\": \"Araceae\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the family\"}\n      ]\n    },\n    {\n      \"subject\": \"Caladium\",\n      \"relation\": \"known_by\",\n      \"object\": \"elephant ear\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known by the common name\"}\n      ]\n    },\n    {\n      \"subject\": \"Caladium\",\n      \"relation\": \"known_by\",\n      \"object\": \"Heart of Jesus\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known by the common name\"}\n      ]\n    },\n    {\n      \"subject\": \"Caladium\",\n      \"relation\": \"known_by\",\n      \"object\": \"Angel Wings\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"known by the common name\"}\n      ]\n    },\n    {\n      \"subject\": \"Caladium\",\n      \"relation\": \"shares_common_name_with\",\n      \"object\": \"Alocasia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"share with the closely related genera\"}\n      ]\n    },\n    {\n      \"subject\": \"Caladium\",\n      \"relation\": \"shares_common_name_with\",\n      \"object\": \"Colocasia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"share with the closely related genera\"}\n      ]\n    },\n    {\n      \"subject\": \"Caladium\",\n      \"relation\": \"shares_common_name_with\",\n      \"object\": \"Xanthosoma\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"share with the closely related genera\"}\n      ]\n    },\n    {\n      \"subject\": \"Caladium bicolor\",\n      \"relation\": \"originated_in\",\n      \"object\": \"South America\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"South American\"}\n      ]\n    }\n  ]\n}"
+}

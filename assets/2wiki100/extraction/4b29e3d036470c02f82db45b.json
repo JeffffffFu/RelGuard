@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Bhaji on the Beach": "WORK_OF_ART",
+    "Gurinder Chadha": "PERSON",
+    "Meera Syal": "PERSON",
+    "British": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Bhaji on the Beach",
+      "relation": "directed_by",
+      "object": "Gurinder Chadha",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 79,
+          "char_start": 98,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Bhaji on the Beach",
+      "relation": "written_by",
+      "object": "Meera Syal",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written by",
+          "line_start": 111,
+          "char_start": 130,
+          "ambiguous": false,
+          "relation_mention": "written by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bhaji on the Beach",
+        "nationality",
+        "British"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Bhaji on the Beach\nBhaji on the Beach( Hindi: भाजी ऑन द बीच) is a 1993 British comedy- drama film directed by Gurinder Chadha and written by Meera Syal.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bhaji on the Beach\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Gurinder Chadha\", \"type\": \"PERSON\"},\n    {\"name\": \"Meera Syal\", \"type\": \"PERSON\"},\n    {\"name\": \"British\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bhaji on the Beach\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Gurinder Chadha\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Bhaji on the Beach\",\n      \"relation\": \"written_by\",\n      \"object\": \"Meera Syal\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written by\"}\n      ]\n    },\n    {\n      \"subject\": \"Bhaji on the Beach\",\n      \"relation\": \"nationality\",\n      \"object\": \"British\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"British\"}\n      ]\n    }\n  ]\n}"
+}

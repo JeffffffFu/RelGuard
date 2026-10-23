@@ -1,0 +1,126 @@
+{
+  "entities": {
+    "Hawthorne Smoke Shop": "Location",
+    "Ship": "Location",
+    "Al Capone": "Person",
+    "Frankie Pope": "Person",
+    "Pete Penovich": "Person",
+    "Cicero, Illinois": "Location",
+    "Chicago police": "Organization",
+    "1931": "Date"
+  },
+  "triples": [
+    {
+      "subject": "Hawthorne Smoke Shop",
+      "relation": "later_known_as",
+      "object": "Ship",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "(later known as the Ship)"
+        }
+      ]
+    },
+    {
+      "subject": "Hawthorne Smoke Shop",
+      "relation": "owned_by",
+      "object": "Al Capone",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "owned by American gangster Al Capone"
+        }
+      ]
+    },
+    {
+      "subject": "Hawthorne Smoke Shop",
+      "relation": "run_by",
+      "object": "Frankie Pope",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "run by fellow gangsters Frankie Pope"
+        }
+      ]
+    },
+    {
+      "subject": "Hawthorne Smoke Shop",
+      "relation": "located_in",
+      "object": "Cicero, Illinois",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was located in Cicero, Illinois"
+        }
+      ]
+    },
+    {
+      "subject": "Al Capone",
+      "relation": "fled_to",
+      "object": "Cicero, Illinois",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "where Capone had fled to escape Chicago police"
+        }
+      ]
+    },
+    {
+      "subject": "Hawthorne Smoke Shop",
+      "relation": "used_as_evidence_against",
+      "object": "Al Capone",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The profits from the Hawthorne Smoke Shop were one piece of evidence used against Capone at his trial in 1931"
+        }
+      ]
+    },
+    {
+      "subject": "Al Capone",
+      "relation": "tried_in",
+      "object": "1931",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at his trial in 1931"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hawthorne Smoke Shop",
+        "run_by",
+        "Pete Penovich"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Hawthorne Smoke Shop",
+        "provided",
+        "revenue"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hawthorne Smoke Shop",
+        "earned",
+        "half a million dollars"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hawthorne Smoke Shop",
+        "shut_down_by",
+        "raids"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Hawthorne Smoke Shop\nThe Hawthorne Smoke Shop (later known as the Ship) was a gambling casino owned by American gangster Al Capone and run by fellow gangsters Frankie Pope and Pete Penovich. It was located in Cicero, Illinois, where Capone had fled to escape Chicago police. Although shut down temporarily by raids several times during its existence, it provided a significant amount of revenue, earning half a million dollars in a two-year period. The profits from the Hawthorne Smoke Shop were one piece of evidence used against Capone at his trial in 1931."
+}

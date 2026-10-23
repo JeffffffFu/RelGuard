@@ -1,0 +1,110 @@
+{
+  "entities": {
+    "Robert P. Kerr": "PERSON",
+    "Burlington": "GPE",
+    "Colorado": "GPE",
+    "Porterville": "GPE",
+    "California": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Robert P. Kerr",
+      "relation": "born_in",
+      "object": "Burlington",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born in",
+          "line_start": 155,
+          "char_start": 170,
+          "ambiguous": false,
+          "relation_mention": "was born in",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Burlington",
+      "relation": "located_in",
+      "object": "Colorado",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Burlington, Colorado",
+          "line_start": 167,
+          "char_start": 182,
+          "ambiguous": false,
+          "relation_mention": "Burlington, Colorado",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Robert P. Kerr",
+      "relation": "died_in",
+      "object": "Porterville",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "died in",
+          "line_start": 192,
+          "char_start": 207,
+          "ambiguous": false,
+          "relation_mention": "died in",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Porterville",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Porterville, California",
+          "line_start": 200,
+          "char_start": 215,
+          "ambiguous": false,
+          "relation_mention": "Porterville, California",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Robert P. Kerr",
+        "nationality",
+        "American"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Robert P. Kerr",
+        "occupation",
+        "film director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Robert P. Kerr",
+        "occupation",
+        "actor"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Robert P. Kerr",
+        "occupation",
+        "screenwriter"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Robert P. Kerr\nRobert P. Kerr (October 9, 1892 – September 5, 1960) was an American film director, actor and screenwriter. He directed 41 films between 1917 and 1928. He was born in Burlington, Colorado and died in Porterville, California from a heart attack."
+}

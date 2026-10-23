@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "An Inconvenient Truth": "book",
+    "Al Gore": "person",
+    "Rodale Press": "organization",
+    "Emmaus": "location",
+    "Pennsylvania": "location",
+    "United States": "location"
+  },
+  "triples": [
+    {
+      "subject": "An Inconvenient Truth",
+      "relation": "released_in_conjunction_with",
+      "object": "An Inconvenient Truth",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "released in conjunction with the film \"An Inconvenient Truth\""
+        }
+      ]
+    },
+    {
+      "subject": "An Inconvenient Truth",
+      "relation": "published_by",
+      "object": "Rodale Press",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "published by Rodale Press"
+        }
+      ]
+    },
+    {
+      "subject": "Rodale Press",
+      "relation": "located_in",
+      "object": "Emmaus",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Emmaus"
+        }
+      ]
+    },
+    {
+      "subject": "Pennsylvania",
+      "relation": "located_in",
+      "object": "United States",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the United States"
+        }
+      ]
+    },
+    {
+      "subject": "Al Gore",
+      "relation": "authored",
+      "object": "An Inconvenient Truth",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a 2006 book by Al Gore"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Emmaus",
+        "located_in",
+        "Pennsylvania"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "An Inconvenient Truth",
+        "founded",
+        "2006"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "An Inconvenient Truth (book)\nAn Inconvenient Truth: The Planetary Emergency of Global Warming and What We Can Do About It is a 2006 book by Al Gore released in conjunction with the film \"An Inconvenient Truth\". It is published by Rodale Press in Emmaus, Pennsylvania, in the United States."
+}

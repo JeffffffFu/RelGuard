@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Bert Grund": "Person",
+    "Germany": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Bert Grund",
+      "relation": "born_in",
+      "object": "Germany",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bert Grund( 1920–1992) was a German composer of film scores."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bert Grund",
+        "was_a",
+        "German composer"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bert Grund\nBert Grund( 1920–1992) was a German composer of film scores."
+}

@@ -1,0 +1,155 @@
+{
+  "entities": {
+    "Vanda & Young": "ORG",
+    "Harry Vanda": "PERSON",
+    "George Young": "PERSON",
+    "The Easybeats": "ORG",
+    "Malcolm Young": "PERSON",
+    "Angus Young": "PERSON",
+    "AC/DC": "ORG",
+    "Friday on My Mind": "WORK_OF_ART",
+    "Dirty Deeds Done Dirt Cheap": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Vanda & Young",
+      "relation": "composed_of",
+      "object": "Harry Vanda",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "composed of",
+          "line_start": 47,
+          "char_start": 65,
+          "ambiguous": false,
+          "relation_mention": "composed of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Vanda & Young",
+      "relation": "composed_of",
+      "object": "George Young",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "composed of",
+          "line_start": 47,
+          "char_start": 65,
+          "ambiguous": false,
+          "relation_mention": "composed of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Harry Vanda",
+      "relation": "performed_as_member_of",
+      "object": "The Easybeats",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "performed as members of",
+          "line_start": 94,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "performed as members of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "George Young",
+      "relation": "performed_as_member_of",
+      "object": "The Easybeats",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "performed as members of",
+          "line_start": 94,
+          "char_start": 112,
+          "ambiguous": false,
+          "relation_mention": "performed as members of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Harry Vanda",
+        "was_role_of",
+        "The Easybeats"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "George Young",
+        "was_role_of",
+        "The Easybeats"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vanda & Young",
+        "co_wrote",
+        "Friday on My Mind"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Vanda & Young",
+        "were_record_producers_for",
+        "The Easybeats"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "George Young",
+        "is_sibling_of",
+        "Malcolm Young"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "George Young",
+        "is_sibling_of",
+        "Angus Young"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Malcolm Young",
+        "is_member_of",
+        "AC/DC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Angus Young",
+        "is_member_of",
+        "AC/DC"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "George Young",
+        "was_record_producer_behind",
+        "Dirty Deeds Done Dirt Cheap"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Vanda &amp; Young\nVanda & Young were a songwriting/producing duo composed of Harry Vanda and George Young. They performed as members of 1960s Australian rock group The Easybeats where Vanda was their lead guitarist and backing singer and Young was their rhythm guitarist and backing singer. Vanda & Young co-wrote most of The Easybeats later hits including their international hit \"Friday on My Mind\" and they were the record producers for the group from 1967. Young is the older brother of Malcolm and Angus Young of the hard rock band AC/DC, being the record producer behind several of the band's biggest albums (such as 1976's \"Dirty Deeds Done Dirt Cheap\").",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Vanda & Young\", \"type\": \"ORG\"},\n    {\"name\": \"Harry Vanda\", \"type\": \"PERSON\"},\n    {\"name\": \"George Young\", \"type\": \"PERSON\"},\n    {\"name\": \"The Easybeats\", \"type\": \"ORG\"},\n    {\"name\": \"Malcolm Young\", \"type\": \"PERSON\"},\n    {\"name\": \"Angus Young\", \"type\": \"PERSON\"},\n    {\"name\": \"AC/DC\", \"type\": \"ORG\"},\n    {\"name\": \"Friday on My Mind\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Dirty Deeds Done Dirt Cheap\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Vanda & Young\",\n      \"relation\": \"composed_of\",\n      \"object\": \"Harry Vanda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"composed of\"}\n      ]\n    },\n    {\n      \"subject\": \"Vanda & Young\",\n      \"relation\": \"composed_of\",\n      \"object\": \"George Young\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"composed of\"}\n      ]\n    },\n    {\n      \"subject\": \"Harry Vanda\",\n      \"relation\": \"performed_as_member_of\",\n      \"object\": \"The Easybeats\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"performed as members of\"}\n      ]\n    },\n    {\n      \"subject\": \"George Young\",\n      \"relation\": \"performed_as_member_of\",\n      \"object\": \"The Easybeats\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"performed as members of\"}\n      ]\n    },\n    {\n      \"subject\": \"Harry Vanda\",\n      \"relation\": \"was_role_of\",\n      \"object\": \"The Easybeats\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was their lead guitarist and backing singer\"}\n      ]\n    },\n    {\n      \"subject\": \"George Young\",\n      \"relation\": \"was_role_of\",\n      \"object\": \"The Easybeats\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was their rhythm guitarist and backing singer\"}\n      ]\n    },\n    {\n      \"subject\": \"Vanda & Young\",\n      \"relation\": \"co_wrote\",\n      \"object\": \"Friday on My Mind\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"co-wrote most of The Easybeats later hits including their international hit \\\"Friday on My Mind\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Vanda & Young\",\n      \"relation\": \"were_record_producers_for\",\n      \"object\": \"The Easybeats\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were the record producers for the group\"}\n      ]\n    },\n    {\n      \"subject\": \"George Young\",\n      \"relation\": \"is_sibling_of\",\n      \"object\": \"Malcolm Young\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the older brother of Malcolm\"}\n      ]\n    },\n    {\n      \"subject\": \"George Young\",\n      \"relation\": \"is_sibling_of\",\n      \"object\": \"Angus Young\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the older brother of Malcolm and Angus Young\"}\n      ]\n    },\n    {\n      \"subject\": \"Malcolm Young\",\n      \"relation\": \"is_member_of\",\n      \"object\": \"AC/DC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the hard rock band AC/DC\"}\n      ]\n    },\n    {\n      \"subject\": \"Angus Young\",\n      \"relation\": \"is_member_of\",\n      \"object\": \"AC/DC\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the hard rock band AC/DC\"}\n      ]\n    },\n    {\n      \"subject\": \"George Young\",\n      \"relation\": \"was_record_producer_behind\",\n      \"object\": \"Dirty Deeds Done Dirt Cheap\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"being the record producer behind several of the band's biggest albums (such as 1976's \\\"Dirty Deeds Done Dirt Cheap\\\")\"}\n      ]\n    }\n  ]\n}"
+}

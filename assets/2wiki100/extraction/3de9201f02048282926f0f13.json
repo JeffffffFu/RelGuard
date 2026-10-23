@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "Ferdinand Wilhelm Ernst": "Person",
+    "Solms-Braunfels": "Place",
+    "Frederick William": "Person",
+    "Princess Magdalena Henrietta": "Person",
+    "Nassau-Weilburg": "Place"
+  },
+  "triples": [
+    {
+      "subject": "Ferdinand Wilhelm Ernst",
+      "relation": "was_prince_of",
+      "object": "Solms-Braunfels",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the second Prince of Solms- Braunfels"
+        }
+      ]
+    },
+    {
+      "subject": "Frederick William",
+      "relation": "father_of",
+      "object": "Ferdinand Wilhelm Ernst",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "He was the son of Frederick William, Prince of Solms- Braunfels"
+        }
+      ]
+    },
+    {
+      "subject": "Princess Magdalena Henrietta",
+      "relation": "mother_of",
+      "object": "Ferdinand Wilhelm Ernst",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by his first wife Princess Magdalena Henrietta of Nassau- Weilburg"
+        }
+      ]
+    },
+    {
+      "subject": "Princess Magdalena Henrietta",
+      "relation": "located_in",
+      "object": "Nassau-Weilburg",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Princess Magdalena Henrietta of Nassau- Weilburg"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Ferdinand Wilhelm Ernst",
+        "born_on",
+        "8 February 1721"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Ferdinand Wilhelm Ernst",
+        "died_on",
+        "2 October 1783"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Frederick William",
+        "born_on",
+        "1696"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Frederick William",
+        "died_on",
+        "1761"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Princess Magdalena Henrietta",
+        "born_on",
+        "1691"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Princess Magdalena Henrietta",
+        "died_on",
+        "1725"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Ferdinand, Prince of Solms-Braunfels\nFerdinand Wilhelm Ernst, 2nd Prince of Solms- Braunfels( 8 February 1721 in Braunfels – 2 October 1783, ibid.) was the second Prince of Solms- Braunfels. He was the son of Frederick William, Prince of Solms- Braunfels( 1696 – 1761) by his first wife Princess Magdalena Henrietta of Nassau- Weilburg( 1691 – 1725)."
+}

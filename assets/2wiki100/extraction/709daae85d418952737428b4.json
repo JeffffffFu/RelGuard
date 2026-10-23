@@ -1,0 +1,149 @@
+{
+  "entities": {
+    "Bugsy": "WORK_OF_ART",
+    "Barry Levinson": "PERSON",
+    "Bugsy Siegel": "PERSON",
+    "Virginia Hill": "PERSON",
+    "Warren Beatty": "PERSON",
+    "Annette Bening": "PERSON",
+    "Harvey Keitel": "PERSON",
+    "Ben Kingsley": "PERSON",
+    "Elliott Gould": "PERSON",
+    "Bebe Neuwirth": "PERSON",
+    "Joe Mantegna": "PERSON",
+    "James Toback": "PERSON",
+    "Dean Jennings": "PERSON",
+    "We Only Kill Each Other": "WORK_OF_ART",
+    "Roger Ebert": "PERSON",
+    "64th Academy Awards": "EVENT",
+    "Best Art Direction- Set Decoration": "WORK_OF_ART",
+    "Best Costume Design": "WORK_OF_ART",
+    "DVD": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Bugsy",
+      "relation": "directed_by",
+      "object": "Barry Levinson",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 55,
+          "char_start": 61,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Bugsy",
+      "relation": "nominated_for",
+      "object": "64th Academy Awards",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "nominated for",
+          "line_start": 510,
+          "char_start": 516,
+          "ambiguous": false,
+          "relation_mention": "nominated for",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bugsy",
+        "tells_story_of",
+        "Bugsy Siegel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bugsy",
+        "tells_story_of",
+        "Virginia Hill"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Warren Beatty",
+        "portrays",
+        "Bugsy Siegel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Annette Bening",
+        "portrays",
+        "Virginia Hill"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The screenplay",
+        "written_by",
+        "James Toback"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "James Toback",
+        "based_on",
+        "We Only Kill Each Other"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "We Only Kill Each Other",
+        "written_by",
+        "Dean Jennings"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bugsy",
+        "received_acclaim_from",
+        "Roger Ebert"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bugsy",
+        "won_award",
+        "Best Art Direction- Set Decoration"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bugsy",
+        "won_award",
+        "Best Costume Design"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A director's cut",
+        "released_on",
+        "DVD"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bugsy\nBugsy is a 1991 American biographical crime drama film directed by Barry Levinson which tells the story of mobster Bugsy Siegel and his relationship with Virginia Hill. It stars Warren Beatty as Siegel and Annette Bening as Hill, as well as Harvey Keitel, Ben Kingsley, Elliott Gould, Bebe Neuwirth, and Joe Mantegna. The screenplay was written by James Toback from research material by Dean Jennings' 1967 book\" We Only Kill Each Other\". The film received acclaim from critics, including Roger Ebert, and was nominated for ten Oscars at the 64th Academy Awards, winning two for Best Art Direction- Set Decoration and Best Costume Design. A director's cut was released on DVD, containing an additional 13 minutes not seen in the theatrical version.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Bugsy\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Barry Levinson\", \"type\": \"PERSON\"},\n    {\"name\": \"Bugsy Siegel\", \"type\": \"PERSON\"},\n    {\"name\": \"Virginia Hill\", \"type\": \"PERSON\"},\n    {\"name\": \"Warren Beatty\", \"type\": \"PERSON\"},\n    {\"name\": \"Annette Bening\", \"type\": \"PERSON\"},\n    {\"name\": \"Harvey Keitel\", \"type\": \"PERSON\"},\n    {\"name\": \"Ben Kingsley\", \"type\": \"PERSON\"},\n    {\"name\": \"Elliott Gould\", \"type\": \"PERSON\"},\n    {\"name\": \"Bebe Neuwirth\", \"type\": \"PERSON\"},\n    {\"name\": \"Joe Mantegna\", \"type\": \"PERSON\"},\n    {\"name\": \"James Toback\", \"type\": \"PERSON\"},\n    {\"name\": \"Dean Jennings\", \"type\": \"PERSON\"},\n    {\"name\": \"We Only Kill Each Other\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Roger Ebert\", \"type\": \"PERSON\"},\n    {\"name\": \"64th Academy Awards\", \"type\": \"EVENT\"},\n    {\"name\": \"Best Art Direction- Set Decoration\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Best Costume Design\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"DVD\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Bugsy\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Barry Levinson\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Bugsy\",\n      \"relation\": \"tells_story_of\",\n      \"object\": \"Bugsy Siegel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"tells the story of\"}\n      ]\n    },\n    {\n      \"subject\": \"Bugsy\",\n      \"relation\": \"tells_story_of\",\n      \"object\": \"Virginia Hill\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"tells the story of\"}\n      ]\n    },\n    {\n      \"subject\": \"Warren Beatty\",\n      \"relation\": \"portrays\",\n      \"object\": \"Bugsy Siegel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as Siegel\"}\n      ]\n    },\n    {\n      \"subject\": \"Annette Bening\",\n      \"relation\": \"portrays\",\n      \"object\": \"Virginia Hill\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as Hill\"}\n      ]\n    },\n    {\n      \"subject\": \"The screenplay\",\n      \"relation\": \"written_by\",\n      \"object\": \"James Toback\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was written by\"}\n      ]\n    },\n    {\n      \"subject\": \"James Toback\",\n      \"relation\": \"based_on\",\n      \"object\": \"We Only Kill Each Other\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from research material by\"}\n      ]\n    },\n    {\n      \"subject\": \"We Only Kill Each Other\",\n      \"relation\": \"written_by\",\n      \"object\": \"Dean Jennings\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Dean Jennings' 1967 book\\\" We Only Kill Each Other\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Bugsy\",\n      \"relation\": \"received_acclaim_from\",\n      \"object\": \"Roger Ebert\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"including Roger Ebert\"}\n      ]\n    },\n    {\n      \"subject\": \"Bugsy\",\n      \"relation\": \"nominated_for\",\n      \"object\": \"64th Academy Awards\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"nominated for\"}\n      ]\n    },\n    {\n      \"subject\": \"Bugsy\",\n      \"relation\": \"won_award\",\n      \"object\": \"Best Art Direction- Set Decoration\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"winning two for Best Art Direction- Set Decoration and Best Costume Design\"}\n      ]\n    },\n    {\n      \"subject\": \"Bugsy\",\n      \"relation\": \"won_award\",\n      \"object\": \"Best Costume Design\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"winning two for Best Art Direction- Set Decoration and Best Costume Design\"}\n      ]\n    },\n    {\n      \"subject\": \"A director's cut\",\n      \"relation\": \"released_on\",\n      \"object\": \"DVD\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released on DVD\"}\n      ]\n    }\n  ]\n}"
+}

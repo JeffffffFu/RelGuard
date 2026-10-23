@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "Peppes Pizza": "ORG",
+    "Norway": "GPE",
+    "Scandinavia": "LOC",
+    "Louis Jordan": "PERSON",
+    "Anne": "PERSON",
+    "Hartford": "GPE",
+    "Umoe Catering As": "ORG",
+    "Burger King": "ORG",
+    "TGI Fridays": "ORG",
+    "La Baguette": "ORG",
+    "Cafe Opus": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Peppes Pizza",
+      "relation": "founded",
+      "object": "Louis Jordan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded by",
+          "line_start": 157,
+          "char_start": 170,
+          "ambiguous": false,
+          "relation_mention": "was founded by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Peppes Pizza",
+      "relation": "founded",
+      "object": "Anne",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was founded by",
+          "line_start": 157,
+          "char_start": 170,
+          "ambiguous": false,
+          "relation_mention": "was founded by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Peppes Pizza",
+        "located_in",
+        "Norway"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Peppes Pizza",
+        "located_in",
+        "Scandinavia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Anne",
+        "located_in",
+        "Hartford"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Peppes Pizza",
+        "works_for",
+        "Umoe Catering As"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Umoe Catering As",
+        "has_member",
+        "Burger King"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Umoe Catering As",
+        "has_member",
+        "TGI Fridays"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Umoe Catering As",
+        "has_member",
+        "La Baguette"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Umoe Catering As",
+        "has_member",
+        "Cafe Opus"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Peppes Pizza\nPeppes Pizza is a Norwegian pizza chain that serves American style and Italian style pizza. Peppes is the largest pizza chain in Scandinavia. The restaurant was founded by two Americans, Louis Jordan and his wife Anne from Hartford, Connecticut. The restaurant chain is part of Umoe Catering As which consists of restaurants such as Burger King, TGI Fridays, La Baguette and Cafe Opus. Peppes Pizza is one of the first restaurants that brought foreign food to Norway. 9 million pizzas are served by Peppes each year with deliveries in 11 cities in Norway. Their menu was first put online in March 1995. The servings have been described as enough for two people and that the pizza chain is \"a cut above the rest\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Peppes Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"Norway\", \"type\": \"GPE\"},\n    {\"name\": \"Scandinavia\", \"type\": \"LOC\"},\n    {\"name\": \"Louis Jordan\", \"type\": \"PERSON\"},\n    {\"name\": \"Anne\", \"type\": \"PERSON\"},\n    {\"name\": \"Hartford\", \"type\": \"GPE\"},\n    {\"name\": \"Umoe Catering As\", \"type\": \"ORG\"},\n    {\"name\": \"Burger King\", \"type\": \"ORG\"},\n    {\"name\": \"TGI Fridays\", \"type\": \"ORG\"},\n    {\"name\": \"La Baguette\", \"type\": \"ORG\"},\n    {\"name\": \"Cafe Opus\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Peppes Pizza\",\n      \"relation\": \"located_in\",\n      \"object\": \"Norway\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Norwegian pizza chain that serves American style and Italian style pizza\"}\n      ]\n    },\n    {\n      \"subject\": \"Peppes Pizza\",\n      \"relation\": \"located_in\",\n      \"object\": \"Scandinavia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the largest pizza chain in Scandinavia\"}\n      ]\n    },\n    {\n      \"subject\": \"Peppes Pizza\",\n      \"relation\": \"founded\",\n      \"object\": \"Louis Jordan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was founded by\"}\n      ]\n    },\n    {\n      \"subject\": \"Peppes Pizza\",\n      \"relation\": \"founded\",\n      \"object\": \"Anne\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was founded by\"}\n      ]\n    },\n    {\n      \"subject\": \"Anne\",\n      \"relation\": \"located_in\",\n      \"object\": \"Hartford\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"from Hartford, Connecticut\"}\n      ]\n    },\n    {\n      \"subject\": \"Peppes Pizza\",\n      \"relation\": \"works_for\",\n      \"object\": \"Umoe Catering As\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is part of Umoe Catering As\"}\n      ]\n    },\n    {\n      \"subject\": \"Umoe Catering As\",\n      \"relation\": \"has_member\",\n      \"object\": \"Burger King\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"consists of restaurants such as Burger King\"}\n      ]\n    },\n    {\n      \"subject\": \"Umoe Catering As\",\n      \"relation\": \"has_member\",\n      \"object\": \"TGI Fridays\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"consists of restaurants such as Burger King, TGI Fridays\"}\n      ]\n    },\n    {\n      \"subject\": \"Umoe Catering As\",\n      \"relation\": \"has_member\",\n      \"object\": \"La Baguette\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"consists of restaurants such as Burger King, TGI Fridays, La Baguette\"}\n      ]\n    },\n    {\n      \"subject\": \"Umoe Catering As\",\n      \"relation\": \"has_member\",\n      \"object\": \"Cafe Opus\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"consists of restaurants such as Burger King, TGI Fridays, La Baguette and Cafe Opus\"}\n      ]\n    }\n  ]\n}"
+}

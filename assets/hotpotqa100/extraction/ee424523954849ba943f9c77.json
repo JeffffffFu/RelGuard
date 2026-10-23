@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "English vocabulary": "concept",
+    "French origin": "concept",
+    "Anglo-Norman": "language",
+    "upper classes": "social_class",
+    "England": "location",
+    "Norman Conquest": "historical_event",
+    "Modern English": "language",
+    "English words of French origin": "concept",
+    "art": "word",
+    "competition": "word",
+    "force": "word",
+    "machine": "word",
+    "money": "word",
+    "police": "word",
+    "publicity": "word",
+    "role": "word",
+    "routine": "word",
+    "table": "word",
+    "English speakers": "group"
+  },
+  "triples": [
+    {
+      "subject": "English vocabulary",
+      "relation": "of_french_origin",
+      "object": "French origin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Around 45% of English vocabulary is of French origin"
+        }
+      ]
+    },
+    {
+      "subject": "French origin",
+      "relation": "coming_from",
+      "object": "Anglo-Norman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "most coming from the Anglo-Norman spoken by the upper classes in England"
+        }
+      ]
+    },
+    {
+      "subject": "Anglo-Norman",
+      "relation": "spoken_by",
+      "object": "upper classes",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "spoken by the upper classes in England"
+        }
+      ]
+    },
+    {
+      "subject": "upper classes",
+      "relation": "in",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "upper classes in England"
+        }
+      ]
+    },
+    {
+      "subject": "English words of French origin",
+      "relation": "are_commonly_used_by",
+      "object": "English speakers",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "are commonly used by English speakers"
+        }
+      ]
+    },
+    {
+      "subject": "English words of French origin",
+      "relation": "without_consciousness_of",
+      "object": "French origin",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "without any consciousness of their French origin"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "English words of French origin",
+        "are_pronounced_according_to",
+        "English rules of phonology"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Glossary of French expressions in English\nAround 45% of English vocabulary is of French origin, most coming from the Anglo-Norman spoken by the upper classes in England for several hundred years after the Norman Conquest, before the language settled into what became Modern English. Thoroughly English words of French origin, such as \"art\", \"competition\", \"force\", \"machine\", \"money\", \"police\", \"publicity\", \"role\", \"routine\" and \"table\", are pronounced according to English rules of phonology, rather than French, and are commonly used by English speakers without any consciousness of their French origin."
+}

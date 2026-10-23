@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Witch Story": "WORK_OF_ART",
+    "Italian": "NORP",
+    "Alessandro Capone": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Witch Story",
+      "relation": "directed_by",
+      "object": "Alessandro Capone",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 42,
+          "char_start": 54,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Witch Story",
+        "dated_as",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Witch Story\nWitch Story is a 1989 Italian horror film directed by Alessandro Capone.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Witch Story\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Italian\", \"type\": \"NORP\"},\n    {\"name\": \"Alessandro Capone\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Witch Story\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Alessandro Capone\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Witch Story\",\n      \"relation\": \"dated_as\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Italian\"}\n      ]\n    }\n  ]\n}"
+}

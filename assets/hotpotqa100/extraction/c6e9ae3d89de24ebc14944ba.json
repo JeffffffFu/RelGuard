@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "Missing": "WORK_OF_ART",
+    "Saknad": "WORK_OF_ART",
+    "Karin Alvtegen": "PERSON",
+    "Sweden": "GPE",
+    "Ian Madden": "PERSON",
+    "Joanne Frogatt": "PERSON",
+    "Gregor Fisher": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Missing",
+      "relation": "set_in",
+      "object": "Sweden",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is set in",
+          "line_start": 118,
+          "char_start": 143,
+          "ambiguous": false,
+          "relation_mention": "is set in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Missing",
+      "relation": "translated_into",
+      "object": "Saknad",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "translated into English",
+          "line_start": 252,
+          "char_start": 277,
+          "ambiguous": false,
+          "relation_mention": "translated into English",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Missing",
+      "relation": "directed_by",
+      "object": "Ian Madden",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 335,
+          "char_start": 360,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities outside the eleven types",
+      "entities": [
+        "Glass Key (AWARD)"
+      ]
+    },
+    {
+      "triple": [
+        "Missing",
+        "written_by",
+        "Karin Alvtegen"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Missing",
+        "has_alternate_title",
+        "Saknad"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Missing",
+        "received",
+        "Glass Key"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Missing",
+        "adapted_as",
+        "Missing"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Missing",
+        "stars",
+        "Joanne Frogatt"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Missing",
+        "stars",
+        "Gregor Fisher"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Missing (Alvtegen novel)\nMissing (Swedish: Saknad ) is a 2000 crime fiction novel by Swedish author Karin Alvtegen. The psychological thriller is set in Alvtegen's native Sweden. It received the 2001 Glass Key, the Nordic literature award for best crime fiction. The story was translated into English in 2003, and later adapted for television as a 2006 movie, directed by Ian Madden and starring Joanne Frogatt and Gregor Fisher.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Missing\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Saknad\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Karin Alvtegen\", \"type\": \"PERSON\"},\n    {\"name\": \"Sweden\", \"type\": \"GPE\"},\n    {\"name\": \"Glass Key\", \"type\": \"AWARD\"},\n    {\"name\": \"Ian Madden\", \"type\": \"PERSON\"},\n    {\"name\": \"Joanne Frogatt\", \"type\": \"PERSON\"},\n    {\"name\": \"Gregor Fisher\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"written_by\",\n      \"object\": \"Karin Alvtegen\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"by Swedish author\"}\n      ]\n    },\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"has_alternate_title\",\n      \"object\": \"Saknad\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(Swedish: Saknad )\"}\n      ]\n    },\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"set_in\",\n      \"object\": \"Sweden\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is set in\"}\n      ]\n    },\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"received\",\n      \"object\": \"Glass Key\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"received the 2001 Glass Key\"}\n      ]\n    },\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"translated_into\",\n      \"object\": \"Saknad\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"translated into English\"}\n      ]\n    },\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"adapted_as\",\n      \"object\": \"Missing\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"adapted for television as a 2006 movie\"}\n      ]\n    },\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Ian Madden\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"stars\",\n      \"object\": \"Joanne Frogatt\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"starring Joanne Frogatt\"}\n      ]\n    },\n    {\n      \"subject\": \"Missing\",\n      \"relation\": \"stars\",\n      \"object\": \"Gregor Fisher\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Gregor Fisher\"}\n      ]\n    }\n  ]\n}"
+}

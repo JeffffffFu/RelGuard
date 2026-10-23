@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "Elkay Apartments": "Building",
+    "Richard Neutra": "Architect",
+    "Louis Kievman": "Person",
+    "Karen Bruderlin": "Person",
+    "Kelton Apartments": "Building",
+    "City of Los Angeles": "City"
+  },
+  "triples": [
+    {
+      "subject": "Elkay Apartments",
+      "relation": "completed_for",
+      "object": "Louis Kievman",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "it was completed in 1948 for noted violist Louis Kievman"
+        }
+      ]
+    },
+    {
+      "subject": "Elkay Apartments",
+      "relation": "owned_by",
+      "object": "Karen Bruderlin",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The building is owned today by his daughter Karen Bruderlin"
+        }
+      ]
+    },
+    {
+      "subject": "Kelton Apartments",
+      "relation": "designed_by",
+      "object": "Richard Neutra",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "next door to the Kelton Apartments designed by Neutra"
+        }
+      ]
+    },
+    {
+      "subject": "Kelton Apartments",
+      "relation": "completed_for",
+      "object": "Richard Neutra",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "designed by Neutra in 1941 for himself"
+        }
+      ]
+    },
+    {
+      "subject": "City of Los Angeles",
+      "relation": "designated",
+      "object": "Elkay Apartments",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "the City of Los Angeles designated the building"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Elkay Apartments",
+        "located_at",
+        "638-642 Kelton Avenue"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Elkay Apartments",
+        "designed_by",
+        "Richard Neutra"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Louis Kievman",
+        "has_initials",
+        "Elkay"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Elkay Apartments",
+        "designated_as",
+        "Los Angeles Historic-Cultural Monument"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Elkay Apartments\nThe Elkay Apartments is an historic five-unit two-story multi-family building located at 638-642 Kelton Avenue, in the Westwood neighborhood of Los Angeles, California. Designed in 1948 in the international or modernistic style of architecture by noted Los Angeles architect Richard Neutra, it was completed in 1948 for noted violist Louis Kievman. The name Elkay is derived from his initials. The building is owned today by his daughter Karen Bruderlin It is next door to the Kelton Apartments designed by Neutra in 1941 for himself. Despite objections from the owners of the Elkay Apartments, on June 21, 1988, the City of Los Angeles designated the building a Los Angeles Historic-Cultural Monument."
+}

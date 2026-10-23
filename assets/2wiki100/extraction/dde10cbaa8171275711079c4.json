@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "Hitler's Folly": "WORK_OF_ART",
+    "2016": "EVENT",
+    "American": "NORP",
+    "Bill Plympton": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Hitler's Folly",
+      "relation": "directed_by",
+      "object": "Bill Plympton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed",
+          "line_start": 47,
+          "char_start": 62,
+          "ambiguous": false,
+          "relation_mention": "directed",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hitler's Folly",
+      "relation": "written_by",
+      "object": "Bill Plympton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "written",
+          "line_start": 57,
+          "char_start": 72,
+          "ambiguous": false,
+          "relation_mention": "written",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hitler's Folly",
+      "relation": "designed_by",
+      "object": "Bill Plympton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed",
+          "line_start": 66,
+          "char_start": 81,
+          "ambiguous": false,
+          "relation_mention": "designed",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hitler's Folly",
+      "relation": "animated_by",
+      "object": "Bill Plympton",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "animated",
+          "line_start": 79,
+          "char_start": 94,
+          "ambiguous": false,
+          "relation_mention": "animated",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hitler's Folly",
+        "located_in",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Hitler's Folly",
+        "founded",
+        "2016"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Hitler's Folly\nHitler's Folly is a 2016 American mockumentary directed, written, designed and animated by filmmaker Bill Plympton.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Hitler's Folly\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"2016\", \"type\": \"EVENT\"},\n    {\"name\": \"American\", \"type\": \"NORP\"},\n    {\"name\": \"Bill Plympton\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Hitler's Folly\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Bill Plympton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed\"}\n      ]\n    },\n    {\n      \"subject\": \"Hitler's Folly\",\n      \"relation\": \"written_by\",\n      \"object\": \"Bill Plympton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"written\"}\n      ]\n    },\n    {\n      \"subject\": \"Hitler's Folly\",\n      \"relation\": \"designed_by\",\n      \"object\": \"Bill Plympton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designed\"}\n      ]\n    },\n    {\n      \"subject\": \"Hitler's Folly\",\n      \"relation\": \"animated_by\",\n      \"object\": \"Bill Plympton\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"animated\"}\n      ]\n    },\n    {\n      \"subject\": \"Hitler's Folly\",\n      \"relation\": \"located_in\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"American\"}\n      ]\n    },\n    {\n      \"subject\": \"Hitler's Folly\",\n      \"relation\": \"founded\",\n      \"object\": \"2016\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"2016\"}\n      ]\n    }\n  ]\n}"
+}

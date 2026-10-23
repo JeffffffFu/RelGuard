@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "Kai Rabe": "PERSON",
+    "Vatikankiller": "WORK_OF_ART",
+    "Thomas Jahn": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Kai Rabe",
+      "relation": "directed_by",
+      "object": "Thomas Jahn",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Thomas Jahn"
+        }
+      ]
+    },
+    {
+      "subject": "Kai Rabe",
+      "relation": "is_a",
+      "object": "Vatikankiller",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Kai Rabe gegen die Vatikankiller"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Germany (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Vatikankiller",
+        "set_in",
+        "Germany"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kai Rabe gegen die Vatikankiller\nKai Rabe gegen die Vatikankiller(\" Kai Rabe vs. the Vatican Killers\") is a 1998 German comedy film directed by Thomas Jahn."
+}

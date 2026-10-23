@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Pee Dee Light Artillery": "military_unit",
+    "Darlington Guards": "military_unit",
+    "South Carolina": "location",
+    "Captain F.F. Warley": "person",
+    "Lieutenant David Gregg McIntosh": "person",
+    "Pee Dee Rifles": "military_unit",
+    "Confederate States of America": "organization",
+    "Virginia": "location",
+    "Charleston, South Carolina": "location",
+    "First South Carolina Volunteers": "military_unit",
+    "First South Carolina Regiment": "military_unit"
+  },
+  "triples": [
+    {
+      "subject": "Darlington Guards",
+      "relation": "volunteered_service_to",
+      "object": "South Carolina",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The Darlington Guards volunteered their service to South Carolina on January 4, 1861, for a period of six months."
+        }
+      ]
+    },
+    {
+      "subject": "Pee Dee Light Artillery",
+      "relation": "reformed_from",
+      "object": "Darlington Guards",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "Half the unit remained with Captain Warley and served the remainder of the war as the Darlington Guards. The other half reformed in Darlington, South Carolina, under McIntosh."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pee Dee Light Artillery",
+        "was_a",
+        "military_unit"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Darlington Guards",
+        "became",
+        "Company B, First South Carolina Volunteers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Company B, First South Carolina Volunteers",
+        "commanded_by",
+        "Captain F.F. Warley"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Company B, First South Carolina Volunteers",
+        "commanded_by",
+        "Lieutenant David Gregg McIntosh"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Pee Dee Rifles",
+        "rendered_service_to",
+        "Confederate States of America"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Pee Dee Light Artillery",
+        "was_reorganized_as",
+        "Company D, First South Carolina Regiment"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Pee Dee Light Artillery\nThe Pee Dee Light Artillery was a distinguished Confederate light artillery battery during the American Civil War. The origins of the battery began as the Darlington Guards, a local militia of Darlington, South Carolina. The Darlington Guards volunteered their service to South Carolina on January 4, 1861, for a period of six months. These men were the very first soldiers to volunteer to fight in Civil War. They became Company B, First South Carolina Volunteers, commanded by Captain F.F. Warley and Lieutenant David Gregg McIntosh. After six months on the Charleston, South Carolina, coast and a short campaign in Virginia, the unit was released. Half the unit remained with Captain Warley and served the remainder of the war as the Darlington Guards. The other half reformed in Darlington, South Carolina, under McIntosh. The unit called themselves the Pee Dee Rifles and in August 1861 rendered their service as an infantry unit to the Confederate States of America for the duration of the war. While in training in Suffolk, Virginia, in the winter of 1861-62, the unit was reorganized as Company D, First South Carolina Regiment, a light artillery battery, and became the Pee Dee Light Artillery."
+}

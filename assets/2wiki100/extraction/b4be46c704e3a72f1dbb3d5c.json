@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "Un giorno speciale": "WORK_OF_ART",
+    "A Special Day": "WORK_OF_ART",
+    "Italian": "NORP",
+    "Francesca Comencini": "PERSON",
+    "Golden Lion": "EVENT",
+    "Venice International Film Festival": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Un giorno speciale",
+      "relation": "also_known_as",
+      "object": "A Special Day",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also known as",
+          "line_start": 20,
+          "char_start": 39,
+          "ambiguous": false,
+          "relation_mention": "also known as",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Un giorno speciale",
+      "relation": "directed_by",
+      "object": "Francesca Comencini",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 80,
+          "char_start": 99,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Un giorno speciale",
+      "relation": "selected_to_compete_for",
+      "object": "Golden Lion",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "selected to compete for",
+          "line_start": 126,
+          "char_start": 145,
+          "ambiguous": false,
+          "relation_mention": "selected to compete for",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Un giorno speciale",
+        "is_a",
+        "Italian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Golden Lion",
+        "at_event",
+        "Venice International Film Festival"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Un giorno speciale\nUn giorno speciale( also known as\" A Special Day\") is a 2012 Italian drama film directed by Francesca Comencini. The film was selected to compete for the Golden Lion at the 69th Venice International Film Festival.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Un giorno speciale\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"A Special Day\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Italian\", \"type\": \"NORP\"},\n    {\"name\": \"Francesca Comencini\", \"type\": \"PERSON\"},\n    {\"name\": \"Golden Lion\", \"type\": \"EVENT\"},\n    {\"name\": \"Venice International Film Festival\", \"type\": \"EVENT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Un giorno speciale\",\n      \"relation\": \"also_known_as\",\n      \"object\": \"A Special Day\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"also known as\"}\n      ]\n    },\n    {\n      \"subject\": \"Un giorno speciale\",\n      \"relation\": \"is_a\",\n      \"object\": \"Italian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Italian\"}\n      ]\n    },\n    {\n      \"subject\": \"Un giorno speciale\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Francesca Comencini\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Un giorno speciale\",\n      \"relation\": \"selected_to_compete_for\",\n      \"object\": \"Golden Lion\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"selected to compete for\"}\n      ]\n    },\n    {\n      \"subject\": \"Golden Lion\",\n      \"relation\": \"at_event\",\n      \"object\": \"Venice International Film Festival\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"at the\"}\n      ]\n    }\n  ]\n}"
+}

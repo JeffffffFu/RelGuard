@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Sepideh Farsi": "PERSON",
+    "Iranian": "NORP",
+    "Tehran": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Sepideh Farsi",
+      "relation": "born_in",
+      "object": "Tehran",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born in",
+          "line_start": 43,
+          "char_start": 57,
+          "ambiguous": false,
+          "relation_mention": "born in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sepideh Farsi",
+        "works_as",
+        "Iranian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Sepideh Farsi",
+        "directed",
+        "film director"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Sepideh Farsi\nSepideh Farsi is an Iranian film director, born in Tehran in 1965.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Sepideh Farsi\", \"type\": \"PERSON\"},\n    {\"name\": \"Iranian\", \"type\": \"NORP\"},\n    {\"name\": \"Tehran\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Sepideh Farsi\",\n      \"relation\": \"works_as\",\n      \"object\": \"Iranian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an Iranian\"}\n      ]\n    },\n    {\n      \"subject\": \"Sepideh Farsi\",\n      \"relation\": \"directed\",\n      \"object\": \"film director\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"film director\"}\n      ]\n    },\n    {\n      \"subject\": \"Sepideh Farsi\",\n      \"relation\": \"born_in\",\n      \"object\": \"Tehran\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born in\"}\n      ]\n    }\n  ]\n}"
+}

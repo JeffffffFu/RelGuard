@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "André Cayatte": "PERSON",
+    "Carcassonne": "GPE",
+    "Paris": "GPE",
+    "Continental Films": "ORG",
+    "Nous sommes tous des assassins": "WORK_OF_ART",
+    "Il n'y a pas de fumée sans feu": "WORK_OF_ART",
+    "Berlin International Film Festival": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "André Cayatte",
+      "relation": "born_in",
+      "object": "Carcassonne",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Carcassonne"
+        }
+      ]
+    },
+    {
+      "subject": "André Cayatte",
+      "relation": "died_in",
+      "object": "Paris",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Paris"
+        }
+      ]
+    },
+    {
+      "subject": "Il n'y a pas de fumée sans feu",
+      "relation": "featured_in",
+      "object": "Berlin International Film Festival",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "at the 23rd Berlin International Film Festival"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "4 entities not in the document",
+      "entities": [
+        "Justice est faite (WORK_OF_ART)",
+        "Le passage du Rhin (WORK_OF_ART)",
+        "Jean- Marc ou La vie conjugale (WORK_OF_ART)",
+        "Françoise ou La vie conjugale (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "André Cayatte",
+        "directed",
+        "Continental Films"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "André Cayatte",
+        "directed",
+        "Justice est faite"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "André Cayatte",
+        "directed",
+        "Nous sommes tous des assassins"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "André Cayatte",
+        "directed",
+        "Le passage du Rhin"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "André Cayatte",
+        "directed",
+        "Jean- Marc ou La vie conjugale"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "André Cayatte",
+        "directed",
+        "Françoise ou La vie conjugale"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Il n'y a pas de fumée sans feu",
+        "won",
+        "Silver Bear Special Jury Prize"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "André Cayatte\nAndré Cayatte( 3 February 1909, in Carcassonne – 6 February 1989, in Paris) was a French filmmaker and lawyer, who became known for his films centering on themes of crime, justice, and moral responsibility. Cayatte began his directoral career at the German- controlled Continental Films during the French occupation. Some of Cayatte's earlier films that addressed his characteristic themes include\" Justice est faiteJustice is Done\"; 1950),\" Nous sommes tous des assassins We Are All Murderers\"; 1952), and\" Le passage du RhinTomorrow Is My Turn\"; 1960). In 1963, he undertook a bold experiment in film narrative with a set of two films:\" Jean- Marc ou La vie conjugaleAnatomy of a Marriage: My Days with Jean- Marc\") and\" Françoise ou La vie conjugaleAnatomy of a Marriage: My Days with Françoise\"). These two films tell the same story from two different points of view. His 1973 film,\" Il n'y a pas de fumée sans feu\", won the Silver Bear Special Jury Prize at the 23rd Berlin International Film Festival."
+}

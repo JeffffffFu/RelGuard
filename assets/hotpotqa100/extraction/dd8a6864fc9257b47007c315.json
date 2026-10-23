@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Bill Cosby": "Person",
+    "Bill's Best Friend": "Album",
+    "Himself": "Film",
+    "Fat Albert": "Character",
+    "Charlie Waynes": "Person",
+    "1941 Mercury": "Car",
+    "1942 DeSoto": "Car",
+    "Capitol Records": "Record Label",
+    "The Bill Cosby Collection": "Album",
+    "Australia": "Location",
+    "1992": "Date"
+  },
+  "triples": [
+    {
+      "subject": "Bill's Best Friend",
+      "relation": "is_album_by",
+      "object": "Bill Cosby",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bill's Best Friend is the 17th comedy album by Bill Cosby."
+        }
+      ]
+    },
+    {
+      "subject": "Fat Albert",
+      "relation": "has_car",
+      "object": "1941 Mercury",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The car in the Fat Albert sketch was a 1941 Mercury."
+        }
+      ]
+    },
+    {
+      "subject": "Bill's Best Friend",
+      "relation": "has_car",
+      "object": "1942 DeSoto",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The car on this album is a 1942 DeSoto."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bill's Best Friend",
+        "recycled_in",
+        "Himself"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Fat Albert",
+        "attributed_story_to",
+        "Charlie Waynes"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Bill's Best Friend",
+        "repackaged_in",
+        "Australia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Bill Cosby Collection",
+        "released_in",
+        "1992"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Bill's Best Friend\nBill's Best Friend is the 17th comedy album by Bill Cosby. Much of the material was recycled in the film and accompanying album \"Himself\". The story of the car with the airplane engine was previously attributed to Fat Albert, while on this album the owner is referred to as \"Charlie Waynes\". The car in the Fat Albert sketch was a 1941 Mercury. The car on this album is a 1942 DeSoto. This album and his previous Capitol Records album were repackaged in Australia as a two-CD set in 1992 called \"The Bill Cosby Collection\"."
+}

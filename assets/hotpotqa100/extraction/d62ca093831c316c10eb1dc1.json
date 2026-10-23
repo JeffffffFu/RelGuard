@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "The Jungle Book": "Book",
+    "Rudyard Kipling": "Author",
+    "Mowgli": "Character",
+    "Shere Khan": "Character",
+    "Baloo": "Character",
+    "wolves": "Animal",
+    "jungle": "Location"
+  },
+  "triples": [
+    {
+      "subject": "The Jungle Book",
+      "relation": "written_by",
+      "object": "Rudyard Kipling",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by English author Rudyard Kipling"
+        }
+      ]
+    },
+    {
+      "subject": "Mowgli",
+      "relation": "raised_by",
+      "object": "wolves",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "who is raised in the jungle by wolves"
+        }
+      ]
+    },
+    {
+      "subject": "The Jungle Book",
+      "relation": "features_character",
+      "object": "Shere Khan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Other characters include Shere Khan the tiger"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Jungle Book",
+        "features_character",
+        "Mowgli"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Jungle Book",
+        "features_character",
+        "Baloo"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Jungle Book",
+        "adapted_for",
+        "film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The Jungle Book",
+        "adapted_for",
+        "other media"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Jungle Book\nThe Jungle Book (1894) is a collection of stories by English author Rudyard Kipling. The stories are fables, using animals in an anthropomorphic manner to give moral lessons. A principal character is the boy or \"man-cub\" Mowgli, who is raised in the jungle by wolves. Other characters include Shere Khan the tiger and Baloo the bear. The book has been adapted many times for film and other media."
+}

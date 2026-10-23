@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "Skelly Oil Company": "Company",
+    "William Grove (Bill) Skelly": "Person",
+    "Chesley Coleman Herndon": "Person",
+    "Frederick A. Pielsticker": "Person",
+    "J. Paul Getty": "Person",
+    "Getty Oil Company": "Company",
+    "Mission Oil Company": "Company",
+    "Tidewater Oil Company": "Company",
+    "Nimmons-Joliet Development Corp.": "Company",
+    "Tulsa, Oklahoma": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Skelly Oil Company",
+      "relation": "founded",
+      "object": "William Grove (Bill) Skelly",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "founded in 1919 by William Grove (Bill) Skelly"
+        }
+      ]
+    },
+    {
+      "subject": "J. Paul Getty",
+      "relation": "acquired_control_of",
+      "object": "Skelly Oil Company",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "acquired control of the company during the 1930s"
+        }
+      ]
+    },
+    {
+      "subject": "Skelly Oil Company",
+      "relation": "became_part_of",
+      "object": "Getty Oil Company",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Skelly Oil became part of Getty Oil Company"
+        }
+      ]
+    },
+    {
+      "subject": "Skelly Oil Company",
+      "relation": "absorbed_by",
+      "object": "Getty Oil Company",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "became defunct when absorbed by Getty Oil Company"
+        }
+      ]
+    },
+    {
+      "subject": "Skelly Oil Company",
+      "relation": "located_in",
+      "object": "Tulsa, Oklahoma",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Tulsa, Oklahoma"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Skelly Oil Company",
+        "founded",
+        "Chesley Coleman Herndon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Skelly Oil Company",
+        "founded",
+        "Frederick A. Pielsticker"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Skelly Oil Company",
+        "became_part_of",
+        "Mission Oil Company"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Skelly Oil Company",
+        "became_part_of",
+        "Tidewater Oil Company"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Nimmons-Joliet Development Corp.",
+        "revived",
+        "Skelly brand logo"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Skelly Oil\nSkelly Oil Company was a medium-sized oil company founded in 1919 by William Grove (Bill) Skelly, Chesley Coleman Herndon and Frederick A. Pielsticker in Tulsa, Oklahoma. J. Paul Getty acquired control of the company during the 1930s. Skelly Oil became part of Getty Oil Company, Mission Oil Company, Tidewater Oil Company. It became defunct when absorbed by Getty Oil Company in 1974, and the abandoned Skelly brand logo was revived by Nimmons-Joliet Development Corp. in 2012."
+}

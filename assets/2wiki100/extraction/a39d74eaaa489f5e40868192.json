@@ -1,0 +1,35 @@
+{
+  "entities": {
+    "Thomas Jahn": "PERSON",
+    "German": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Thomas Jahn",
+        "born_in_year",
+        "1965"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Thomas Jahn",
+        "is_a",
+        "film and television director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Thomas Jahn",
+        "nationality",
+        "German"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Thomas Jahn\nThomas Jahn( born 9 July 1965) is a German film and television director.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Thomas Jahn\",\n      \"type\": \"PERSON\"\n    },\n    {\n      \"name\": \"German\",\n      \"type\": \"NORP\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Thomas Jahn\",\n      \"relation\": \"born_in_year\",\n      \"object\": \"1965\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"born 9 July 1965\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Thomas Jahn\",\n      \"relation\": \"is_a\",\n      \"object\": \"film and television director\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a German film and television director\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Thomas Jahn\",\n      \"relation\": \"nationality\",\n      \"object\": \"German\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a German\"\n        }\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Witch Story": "WORK_OF_ART",
+    "Alessandro Capone": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Witch Story",
+      "relation": "directed_by",
+      "object": "Alessandro Capone",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Alessandro Capone"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Witch Story",
+        "located_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Witch Story\nWitch Story is a 1989 Italian horror film directed by Alessandro Capone."
+}

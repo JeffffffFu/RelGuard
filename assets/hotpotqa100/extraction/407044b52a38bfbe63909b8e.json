@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Kuznetsov NK-12": "PRODUCT",
+    "Soviet": "NORP",
+    "Kuznetsov design bureau": "ORG",
+    "NK-12MA": "PRODUCT",
+    "NK-12MV": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Kuznetsov NK-12",
+      "relation": "designed_by",
+      "object": "Kuznetsov design bureau",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "designed by",
+          "line_start": 63,
+          "char_start": 79,
+          "ambiguous": false,
+          "relation_mention": "designed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kuznetsov NK-12",
+        "is_a",
+        "Soviet"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kuznetsov NK-12",
+        "has_variant",
+        "NK-12MA"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Kuznetsov NK-12",
+        "has_variant",
+        "NK-12MV"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Kuznetsov NK-12\nThe Kuznetsov NK-12 is a Soviet turboprop engine of the 1950s, designed by the Kuznetsov design bureau. It drives two large four-bladed (eight per engine) contra-rotating propellers, 5.6 m (18 ft 4.5 in) in diameter, and 6.2 m (20 ft 4.1 in) in the NK-12MA and NK-12MV. It is the most powerful turboprop engine ever built.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Kuznetsov NK-12\", \"type\": \"PRODUCT\"},\n    {\"name\": \"Soviet\", \"type\": \"NORP\"},\n    {\"name\": \"Kuznetsov design bureau\", \"type\": \"ORG\"},\n    {\"name\": \"NK-12MA\", \"type\": \"PRODUCT\"},\n    {\"name\": \"NK-12MV\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Kuznetsov NK-12\",\n      \"relation\": \"designed_by\",\n      \"object\": \"Kuznetsov design bureau\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"designed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Kuznetsov NK-12\",\n      \"relation\": \"is_a\",\n      \"object\": \"Soviet\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Soviet turboprop engine\"}\n      ]\n    },\n    {\n      \"subject\": \"Kuznetsov NK-12\",\n      \"relation\": \"has_variant\",\n      \"object\": \"NK-12MA\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the NK-12MA\"}\n      ]\n    },\n    {\n      \"subject\": \"Kuznetsov NK-12\",\n      \"relation\": \"has_variant\",\n      \"object\": \"NK-12MV\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"NK-12MV\"}\n      ]\n    }\n  ]\n}"
+}

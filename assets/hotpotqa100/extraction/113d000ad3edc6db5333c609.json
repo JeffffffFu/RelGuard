@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Papa Murphy's": "ORG",
+    "Vancouver, Washington, United States": "GPE",
+    "United States": "GPE",
+    "Papa Aldo's Pizza": "ORG",
+    "Murphy's Pizza": "ORG",
+    "Canada": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Papa Murphy's",
+      "relation": "located_in",
+      "object": "Vancouver, Washington, United States",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in",
+          "line_start": 26,
+          "char_start": 40,
+          "ambiguous": false,
+          "relation_mention": "based in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Papa Murphy's",
+        "founded",
+        "Papa Aldo's Pizza"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Papa Murphy's",
+        "founded",
+        "Murphy's Pizza"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Papa Murphy's",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Papa Murphy's",
+        "located_in",
+        "Canada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Papa Murphy's\nPapa Murphy's, a business based in Vancouver, Washington, United States, is a take-and-bake pizza company. It began in 1995 as the merger of two take-and-bake pizza companies: Papa Aldo's Pizza (founded in 1981) and Murphy's Pizza (founded in 1981). The company and its franchisees operate more than 1,300 outlets in the United States and Canada. Papa Murphy's is the fifth-largest pizza chain in the United States.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Papa Murphy's\", \"type\": \"ORG\"},\n    {\"name\": \"Vancouver, Washington, United States\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Papa Aldo's Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"Murphy's Pizza\", \"type\": \"ORG\"},\n    {\"name\": \"Canada\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Papa Murphy's\",\n      \"relation\": \"located_in\",\n      \"object\": \"Vancouver, Washington, United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"based in\"}\n      ]\n    },\n    {\n      \"subject\": \"Papa Murphy's\",\n      \"relation\": \"founded\",\n      \"object\": \"Papa Aldo's Pizza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"merger of\"}\n      ]\n    },\n    {\n      \"subject\": \"Papa Murphy's\",\n      \"relation\": \"founded\",\n      \"object\": \"Murphy's Pizza\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"merger of\"}\n      ]\n    },\n    {\n      \"subject\": \"Papa Murphy's\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the United States\"}\n      ]\n    },\n    {\n      \"subject\": \"Papa Murphy's\",\n      \"relation\": \"located_in\",\n      \"object\": \"Canada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Canada\"}\n      ]\n    }\n  ]\n}"
+}

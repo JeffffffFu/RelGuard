@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Claire's Knee": "WORK_OF_ART",
+    "Éric Rohmer": "PERSON",
+    "Six Moral Tales": "WORK_OF_ART",
+    "French": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Claire's Knee",
+      "relation": "directed_by",
+      "object": "Éric Rohmer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 42,
+          "char_start": 56,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Claire's Knee",
+        "located_in",
+        "French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Claire's Knee",
+        "part_of_series",
+        "Six Moral Tales"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Claire's Knee\nClaire's Knee is a 1970 French drama film directed by Éric Rohmer. It is the fifth movie in the series of the\" Six Moral Tales\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Claire's Knee\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Éric Rohmer\", \"type\": \"PERSON\"},\n    {\"name\": \"Six Moral Tales\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"French\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Claire's Knee\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Éric Rohmer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Claire's Knee\",\n      \"relation\": \"located_in\",\n      \"object\": \"French\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"French\"}\n      ]\n    },\n    {\n      \"subject\": \"Claire's Knee\",\n      \"relation\": \"part_of_series\",\n      \"object\": \"Six Moral Tales\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the\\\" Six Moral Tales\"}\n      ]\n    }\n  ]\n}"
+}

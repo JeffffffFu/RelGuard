@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "WVNH": "ORG",
+    "Concord": "GPE",
+    "New Hampshire": "GPE",
+    "United States": "GPE",
+    "New Hampshire Gospel Radio, Inc.": "ORG",
+    "WANH": "ORG",
+    "Meredith": "GPE",
+    "Lakes Region": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "WVNH",
+      "relation": "licensed_to",
+      "object": "Concord",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Licensed to",
+          "line_start": 73,
+          "char_start": 78,
+          "ambiguous": false,
+          "relation_mention": "Licensed to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "WVNH",
+      "relation": "owned_by",
+      "object": "New Hampshire Gospel Radio, Inc.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is currently owned by",
+          "line_start": 173,
+          "char_start": 178,
+          "ambiguous": false,
+          "relation_mention": "is currently owned by",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Concord",
+        "located_in",
+        "New Hampshire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "New Hampshire",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "WVNH",
+        "serves",
+        "Concord"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "WVNH",
+        "programming_simulcast_on",
+        "WANH"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "WANH",
+        "licensed_to",
+        "Meredith"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "WANH",
+        "serves",
+        "Lakes Region"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "WVNH\nWVNH (91.1 FM) is a radio station broadcasting a Christian radio format. Licensed to Concord, New Hampshire, United States, the station serves the Concord area. The station is currently owned by New Hampshire Gospel Radio, Inc. Programming is simulcast on WANH (91.5 FM) in Meredith, serving the Lakes Region.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"WVNH\", \"type\": \"ORG\"},\n    {\"name\": \"Concord\", \"type\": \"GPE\"},\n    {\"name\": \"New Hampshire\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"New Hampshire Gospel Radio, Inc.\", \"type\": \"ORG\"},\n    {\"name\": \"WANH\", \"type\": \"ORG\"},\n    {\"name\": \"Meredith\", \"type\": \"GPE\"},\n    {\"name\": \"Lakes Region\", \"type\": \"LOC\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"WVNH\",\n      \"relation\": \"licensed_to\",\n      \"object\": \"Concord\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Licensed to\"}\n      ]\n    },\n    {\n      \"subject\": \"Concord\",\n      \"relation\": \"located_in\",\n      \"object\": \"New Hampshire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Concord, New Hampshire\"}\n      ]\n    },\n    {\n      \"subject\": \"New Hampshire\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"New Hampshire, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"WVNH\",\n      \"relation\": \"serves\",\n      \"object\": \"Concord\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves the Concord area\"}\n      ]\n    },\n    {\n      \"subject\": \"WVNH\",\n      \"relation\": \"owned_by\",\n      \"object\": \"New Hampshire Gospel Radio, Inc.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is currently owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"WVNH\",\n      \"relation\": \"programming_simulcast_on\",\n      \"object\": \"WANH\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"simulcast on\"}\n      ]\n    },\n    {\n      \"subject\": \"WANH\",\n      \"relation\": \"licensed_to\",\n      \"object\": \"Meredith\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Meredith\"}\n      ]\n    },\n    {\n      \"subject\": \"WANH\",\n      \"relation\": \"serves\",\n      \"object\": \"Lakes Region\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serving the Lakes Region\"}\n      ]\n    }\n  ]\n}"
+}

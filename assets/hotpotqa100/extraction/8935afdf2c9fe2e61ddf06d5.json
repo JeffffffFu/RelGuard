@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "Toppers Pizza": "restaurant",
+    "Scott Gittrich": "person",
+    "Champaign": "city",
+    "Illinois": "state",
+    "Wisconsin": "state",
+    "Whitewater": "city",
+    "Eau Claire": "city"
+  },
+  "triples": [
+    {
+      "subject": "Toppers Pizza",
+      "relation": "founded_by",
+      "object": "Scott Gittrich",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "founded by Scott Gittrich"
+        }
+      ]
+    },
+    {
+      "subject": "Toppers Pizza",
+      "relation": "opened_in",
+      "object": "Whitewater",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "The first Toppers Pizza location in Wisconsin opened in Whitewater"
+        }
+      ]
+    },
+    {
+      "subject": "Toppers Pizza",
+      "relation": "headquartered_in",
+      "object": "Whitewater",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "The company is headquartered in Whitewater"
+        }
+      ]
+    },
+    {
+      "subject": "Toppers Pizza",
+      "relation": "opened_in",
+      "object": "Eau Claire",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "The first official franchise store opened in Eau Claire, WI"
+        }
+      ]
+    },
+    {
+      "subject": "Toppers Pizza",
+      "relation": "located_in",
+      "object": "Wisconsin",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "in Wisconsin"
+        },
+        {
+          "sentence_id": 4,
+          "relation_mention": "in Whitewater, Wisconsin"
+        }
+      ]
+    },
+    {
+      "subject": "Champaign",
+      "relation": "located_in",
+      "object": "Illinois",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in Champaign, Illinois"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Toppers Pizza",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Toppers Pizza (American restaurant)\nToppers Pizza is a chain of pizzerias in the United States. The chain was founded by Scott Gittrich in 1991 in Champaign, Illinois, but the original location closed in the mid-1990s. The first Toppers Pizza location in Wisconsin opened in Whitewater in 1993. The company is headquartered in Whitewater, Wisconsin. The first official franchise store opened in Eau Claire, WI in 1997."
+}

@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Gülbahar Hatun": "PERSON",
+    "Mehmed II": "PERSON",
+    "Bayezid II": "PERSON",
+    "Ottoman Empire": "GPE",
+    "Selim I": "PERSON"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Gülbahar Hatun",
+        "works_for",
+        "Mehmed II"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gülbahar Hatun",
+        "mother_of",
+        "Bayezid II"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bayezid II",
+        "located_in",
+        "Ottoman Empire"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gülbahar Hatun",
+        "grandmother_of",
+        "Selim I"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Gülbahar Hatun (wife of Mehmed II)\nGülbahar Hatun( 1432 – 1492) was the consort of Sultan Mehmed II, and mother of Sultan Bayezid II of the Ottoman Empire and the grandmother of Selim I.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Gülbahar Hatun\", \"type\": \"PERSON\"},\n    {\"name\": \"Mehmed II\", \"type\": \"PERSON\"},\n    {\"name\": \"Bayezid II\", \"type\": \"PERSON\"},\n    {\"name\": \"Ottoman Empire\", \"type\": \"GPE\"},\n    {\"name\": \"Selim I\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Gülbahar Hatun\",\n      \"relation\": \"works_for\",\n      \"object\": \"Mehmed II\",\n      \"occurrences\": [\n        {\"line\": 1, \"predicate\": \"(wife of\"}\n      ]\n    },\n    {\n      \"subject\": \"Gülbahar Hatun\",\n      \"relation\": \"mother_of\",\n      \"object\": \"Bayezid II\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"mother of\"}\n      ]\n    },\n    {\n      \"subject\": \"Bayezid II\",\n      \"relation\": \"located_in\",\n      \"object\": \"Ottoman Empire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the Ottoman Empire\"}\n      ]\n    },\n    {\n      \"subject\": \"Gülbahar Hatun\",\n      \"relation\": \"grandmother_of\",\n      \"object\": \"Selim I\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"grandmother of\"}\n      ]\n    }\n  ]\n}"
+}

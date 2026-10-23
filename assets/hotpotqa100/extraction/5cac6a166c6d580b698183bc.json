@@ -1,0 +1,44 @@
+{
+  "entities": {
+    "Car Wars: The Card Game": "Game",
+    "Steve Jackson Games": "Company",
+    "Players": "Group",
+    "attack cards": "Card Type",
+    "armor and maneuver cards": "Card Type"
+  },
+  "triples": [
+    {
+      "subject": "Players",
+      "relation": "have",
+      "object": "attack cards",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Players have a card in front of them to represent the car that they're using to battle other players."
+        }
+      ]
+    },
+    {
+      "subject": "Players",
+      "relation": "respond_with",
+      "object": "armor and maneuver cards",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the other players respond with armor and maneuver cards to avoid the damage."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Car Wars: The Card Game",
+        "is_a_version_of",
+        "Car Wars miniatures game"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Car Wars The Card Game\nCar Wars: The Card Game is a card game version of Steve Jackson Games' Car Wars miniatures game. Players have a card in front of them to represent the car that they're using to battle other players. In turn, each player plays attack cards to try to do damage to the other players' cars, and the other players respond with armor and maneuver cards to avoid the damage. The object of the game is to make sure your car is the last one functional."
+}

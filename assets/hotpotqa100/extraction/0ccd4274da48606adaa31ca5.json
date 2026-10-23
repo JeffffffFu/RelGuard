@@ -1,0 +1,211 @@
+{
+  "entities": {
+    "Rita Sangalli": "Person",
+    "Antegnate": "Location",
+    "Asti": "Location",
+    "Piacenza": "Location",
+    "Turin": "Location",
+    "Milan": "Location",
+    "La Scala": "Organization",
+    "Paul Taglioni": "Person",
+    "Her Majesty's Theatre": "Organization",
+    "Paris Opera Ballet": "Organization",
+    "Sylvia": "Performance",
+    "Yedda": "Performance",
+    "Namouna": "Performance",
+    "The Black Crook": "Performance",
+    "Flick Flock": "Performance",
+    "Marie Bonfanti": "Person",
+    "Metropolitan Opera House": "Organization",
+    "New York City": "Location",
+    "Carpesino d'Arcellasco": "Location",
+    "Italy": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Rita Sangalli",
+      "relation": "born_in",
+      "object": "Antegnate",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Born in Antegnate"
+        }
+      ]
+    },
+    {
+      "subject": "Rita Sangalli",
+      "relation": "danced_in",
+      "object": "Asti",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "danced in the Italian provinces of Asti"
+        }
+      ]
+    },
+    {
+      "subject": "Rita Sangalli",
+      "relation": "made_debut_at",
+      "object": "La Scala",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "making her 1865 debut at Milan's La Scala"
+        }
+      ]
+    },
+    {
+      "subject": "Rita Sangalli",
+      "relation": "hired_for",
+      "object": "Her Majesty's Theatre",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "before being hired for the opera at Her Majesty's Theatre in London"
+        }
+      ]
+    },
+    {
+      "subject": "Rita Sangalli",
+      "relation": "joined",
+      "object": "Paris Opera Ballet",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "she joined the Paris Opera Ballet"
+        }
+      ]
+    },
+    {
+      "subject": "Rita Sangalli",
+      "relation": "retired_from",
+      "object": "Paris Opera Ballet",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "She retired from the company"
+        }
+      ]
+    },
+    {
+      "subject": "Rita Sangalli",
+      "relation": "performed_with",
+      "object": "Marie Bonfanti",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Sangali and Marie Bonfanti performed at the Metropolitan Opera House"
+        }
+      ]
+    },
+    {
+      "subject": "Marie Bonfanti",
+      "relation": "performed_at",
+      "object": "Metropolitan Opera House",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Marie Bonfanti performed at the Metropolitan Opera House"
+        }
+      ]
+    },
+    {
+      "subject": "Rita Sangalli",
+      "relation": "died_in",
+      "object": "Carpesino d'Arcellasco",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "She died in Carpesino d'Arcellasco, Italy"
+        }
+      ]
+    },
+    {
+      "subject": "Carpesino d'Arcellasco",
+      "relation": "located_in",
+      "object": "Italy",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "Carpesino d'Arcellasco, Italy"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rita Sangalli",
+        "danced_in",
+        "Piacenza"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rita Sangalli",
+        "danced_in",
+        "Turin"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rita Sangalli",
+        "danced_in",
+        "La source"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rita Sangalli",
+        "performed_in",
+        "Sylvia"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rita Sangalli",
+        "performed_in",
+        "Yedda"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rita Sangalli",
+        "performed_in",
+        "Namouna"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rita Sangalli",
+        "toured",
+        "America"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Rita Sangalli",
+        "performed_in",
+        "The Black Crook"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rita Sangalli",
+        "performed_in",
+        "Flick Flock"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Rita Sangalli\nRita Sangalli (20 August 1849 – 3 November 1909) was an Italian ballet dancer. Born in Antegnate, she danced in the Italian provinces of Asti, Piacenza, and Turin, making her 1865 debut at Milan's La Scala in Paul Taglioni's (1808-1884) \"Flik and Flok\", before being hired for the opera at Her Majesty's Theatre in London. In 1872, she danced the principal role in \"La source\" at its successful revival. In the same year, she joined the Paris Opera Ballet, where she performed in numerous premieres, including in the role of \"Sylvia\" (14 June 1876), \"Yedda\" (1879), and \"Namouna\" (6 March 1882). She retired from the company in 1884. Sangalli toured America where she performed in \"The Black Crook\" and \"Flick Flock\". In August 1901, Sangali and Marie Bonfanti performed at the Metropolitan Opera House, during the inaugural season of ballet at the New York City venue. She died in Carpesino d'Arcellasco, Italy."
+}

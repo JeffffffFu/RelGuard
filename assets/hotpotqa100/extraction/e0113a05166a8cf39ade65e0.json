@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Bondi Vet": "TV Series",
+    "Chris Brown": "Person",
+    "Bondi Junction Veterinary Hospital": "Location",
+    "Lisa Chimes": "Person",
+    "Small Animal Specialist Hospital": "Location",
+    "North Ryde": "Location",
+    "Sydney": "Location",
+    "Bondi Beach": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Chris Brown",
+      "relation": "works_at",
+      "object": "Bondi Junction Veterinary Hospital",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It follows the lives of veterinary surgeon Chris Brown at the Bondi Junction Veterinary Hospital (near Bondi Beach)"
+        }
+      ]
+    },
+    {
+      "subject": "Lisa Chimes",
+      "relation": "works_at",
+      "object": "Small Animal Specialist Hospital",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and emergency veterinarian Lisa Chimes at the Small Animal Specialist Hospital (SASH)"
+        }
+      ]
+    },
+    {
+      "subject": "Bondi Junction Veterinary Hospital",
+      "relation": "located_in",
+      "object": "North Ryde",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the Bondi Junction Veterinary Hospital (near Bondi Beach), and emergency veterinarian Lisa Chimes at the Small Animal Specialist Hospital (SASH), in the Sydney suburb of North Ryde."
+        }
+      ]
+    },
+    {
+      "subject": "Small Animal Specialist Hospital",
+      "relation": "located_in",
+      "object": "North Ryde",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the Small Animal Specialist Hospital (SASH), in the Sydney suburb of North Ryde."
+        }
+      ]
+    },
+    {
+      "subject": "North Ryde",
+      "relation": "part_of",
+      "object": "Sydney",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Sydney suburb of North Ryde."
+        }
+      ]
+    },
+    {
+      "subject": "Bondi Junction Veterinary Hospital",
+      "relation": "near",
+      "object": "Bondi Beach",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at the Bondi Junction Veterinary Hospital (near Bondi Beach)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bondi Vet",
+        "is_a",
+        "TV Series"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bondi Vet\nBondi Vet is an Australian factual television series. It follows the lives of veterinary surgeon Chris Brown at the Bondi Junction Veterinary Hospital (near Bondi Beach), and emergency veterinarian Lisa Chimes at the Small Animal Specialist Hospital (SASH), in the Sydney suburb of North Ryde."
+}

@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Nayelly Hernández": "Person",
+    "Chris Walker": "Person",
+    "Mexico": "Location",
+    "Trinity College": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Nayelly Hernández",
+      "relation": "represented",
+      "object": "Mexico",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "represented Mexico internationally"
+        }
+      ]
+    },
+    {
+      "subject": "Nayelly Hernández",
+      "relation": "joined",
+      "object": "Trinity College",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "joined the Trinity College in 2008"
+        }
+      ]
+    },
+    {
+      "subject": "Nayelly Hernández",
+      "relation": "graduated_from",
+      "object": "Trinity College",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "graduated in 2010"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nayelly Hernández",
+        "born_on",
+        "23 February 1986"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nayelly Hernández",
+        "is_a",
+        "former Mexican female professional squash player"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nayelly Hernández",
+        "achieved_highest_ranking",
+        "57"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chris Walker",
+        "is_a",
+        "professional squash player"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Chris Walker",
+        "has_nationality",
+        "English"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Nayelly Hernández\nNayelly Hernández( born 23 February 1986) is a former Mexican female professional squash player. She has represented Mexico internationally in several international competitions including the Central American and Caribbean Games, Pan American Games, Women's World Team Squash Championships. Nayelly achieved her highest career ranking of 57 in October 2011 during the 2011 PSA World Tour. Her husband Chris Walker whose nationality is English is also a professional squash player. She joined the Trinity College in 2008 as the first Mexican female to join a US college for squash and graduated in 2010."
+}

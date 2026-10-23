@@ -1,0 +1,107 @@
+{
+  "entities": {
+    "Pacific Tigers": "ORG",
+    "University of the Pacific": "ORG",
+    "NCAA Division I": "ORG",
+    "Alex G. Spanos Center": "FAC",
+    "West Coast Conference": "ORG",
+    "Damon Stoudamire": "PERSON",
+    "Pepperdine": "ORG",
+    "WCC Tournament": "EVENT",
+    "Gonzaga": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Pacific Tigers",
+      "relation": "represented",
+      "object": "University of the Pacific",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "represented",
+          "line_start": 49,
+          "char_start": 94,
+          "ambiguous": false,
+          "relation_mention": "represented",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pacific Tigers",
+      "relation": "played_home_games_at",
+      "object": "Alex G. Spanos Center",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played their home games at",
+          "line_start": 156,
+          "char_start": 201,
+          "ambiguous": false,
+          "relation_mention": "played their home games at",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Pacific Tigers",
+      "relation": "led_by",
+      "object": "Damon Stoudamire",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "led by",
+          "line_start": 266,
+          "char_start": 311,
+          "ambiguous": false,
+          "relation_mention": "led by",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Pacific Tigers",
+        "members_of",
+        "West Coast Conference"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pacific Tigers",
+        "defeated",
+        "Pepperdine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pacific Tigers",
+        "advanced_to",
+        "WCC Tournament"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pacific Tigers",
+        "lost_to",
+        "Gonzaga"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Pacific Tigers",
+        "participated_in",
+        "NCAA Division I"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "2016–17 Pacific Tigers men's basketball team\nThe 2016–17 Pacific Tigers men's basketball team represented the University of the Pacific during the 2016–17 NCAA Division I men's basketball season. They played their home games at the Alex G. Spanos Center as members of the West Coast Conference. The Tigers were led by first-year head coach Damon Stoudamire. They finished the season 11–22, 4–14 in WCC play to finish in ninth place. They defeated Pepperdine in the first round of the WCC Tournament to advance to the quarterfinals where they lost to Gonzaga.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Pacific Tigers\", \"type\": \"ORG\"},\n    {\"name\": \"University of the Pacific\", \"type\": \"ORG\"},\n    {\"name\": \"NCAA Division I\", \"type\": \"ORG\"},\n    {\"name\": \"Alex G. Spanos Center\", \"type\": \"FAC\"},\n    {\"name\": \"West Coast Conference\", \"type\": \"ORG\"},\n    {\"name\": \"Damon Stoudamire\", \"type\": \"PERSON\"},\n    {\"name\": \"Pepperdine\", \"type\": \"ORG\"},\n    {\"name\": \"WCC Tournament\", \"type\": \"EVENT\"},\n    {\"name\": \"Gonzaga\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Pacific Tigers\",\n      \"relation\": \"represented\",\n      \"object\": \"University of the Pacific\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"represented\"}\n      ]\n    },\n    {\n      \"subject\": \"Pacific Tigers\",\n      \"relation\": \"played_home_games_at\",\n      \"object\": \"Alex G. Spanos Center\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played their home games at\"}\n      ]\n    },\n    {\n      \"subject\": \"Pacific Tigers\",\n      \"relation\": \"members_of\",\n      \"object\": \"West Coast Conference\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"as members of the\"}\n      ]\n    },\n    {\n      \"subject\": \"Pacific Tigers\",\n      \"relation\": \"led_by\",\n      \"object\": \"Damon Stoudamire\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"led by\"}\n      ]\n    },\n    {\n      \"subject\": \"Pacific Tigers\",\n      \"relation\": \"defeated\",\n      \"object\": \"Pepperdine\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"defeated Pepperdine\"}\n      ]\n    },\n    {\n      \"subject\": \"Pacific Tigers\",\n      \"relation\": \"advanced_to\",\n      \"object\": \"WCC Tournament\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"advance to the\"}\n      ]\n    },\n    {\n      \"subject\": \"Pacific Tigers\",\n      \"relation\": \"lost_to\",\n      \"object\": \"Gonzaga\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"lost to Gonzaga\"}\n      ]\n    },\n    {\n      \"subject\": \"Pacific Tigers\",\n      \"relation\": \"participated_in\",\n      \"object\": \"NCAA Division I\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the 2016–17 NCAA Division I\"}\n      ]\n    }\n  ]\n}"
+}

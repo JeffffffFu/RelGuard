@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "Victor Zelman": "PERSON",
+    "Alberto Zelman (senior)": "PERSON",
+    "Alberto Zelman": "PERSON",
+    "Melbourne Symphony Orchestra": "ORG",
+    "Melbourne": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Victor Zelman",
+      "relation": "born_in",
+      "object": "Melbourne",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was born in",
+          "line_start": 67,
+          "char_start": 81,
+          "ambiguous": false,
+          "relation_mention": "was born in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Victor Zelman",
+      "relation": "child_of",
+      "object": "Alberto Zelman (senior)",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was the son of",
+          "line_start": 93,
+          "char_start": 107,
+          "ambiguous": false,
+          "relation_mention": "was the son of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Victor Zelman",
+      "relation": "sibling_of",
+      "object": "Alberto Zelman",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the brother of",
+          "line_start": 136,
+          "char_start": 150,
+          "ambiguous": false,
+          "relation_mention": "the brother of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Alberto Zelman",
+      "relation": "founded",
+      "object": "Melbourne Symphony Orchestra",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the founder of",
+          "line_start": 167,
+          "char_start": 181,
+          "ambiguous": false,
+          "relation_mention": "the founder of",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Australia (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Victor Zelman",
+        "nationality",
+        "Australia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Victor Zelman\nVictor Zelman( 1877–1960) was an Australian painter and etcher. He was born in Melbourne and was the son of Alberto Zelman( senior) and the brother of Alberto Zelman, the founder of the Melbourne Symphony Orchestra."
+}

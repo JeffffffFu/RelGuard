@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "KRBT": "ORG",
+    "Eveleth": "GPE",
+    "Minnesota": "GPE",
+    "United States": "GPE",
+    "Iron Range": "LOC",
+    "Range Broadcasting, Inc.": "ORG",
+    "Red Zone Radio Network": "ORG",
+    "WEVE": "ORG",
+    "WEVE-FM": "ORG",
+    "Lew Latto": "PERSON",
+    "Iron Range Broadcasting, Inc.": "ORG",
+    "Red Rock Radio": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "KRBT",
+      "relation": "licensed_to",
+      "object": "Eveleth",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Licensed to",
+          "line_start": 64,
+          "char_start": 69,
+          "ambiguous": false,
+          "relation_mention": "Licensed to",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "KRBT",
+      "relation": "works_for",
+      "object": "Range Broadcasting, Inc.",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is currently owned by",
+          "line_start": 163,
+          "char_start": 168,
+          "ambiguous": false,
+          "relation_mention": "is currently owned by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "KRBT",
+      "relation": "features_programming_from",
+      "object": "Red Zone Radio Network",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "features programming from",
+          "line_start": 215,
+          "char_start": 220,
+          "ambiguous": false,
+          "relation_mention": "features programming from",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eveleth",
+        "located_in",
+        "Minnesota"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Minnesota",
+        "located_in",
+        "United States"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KRBT",
+        "serves",
+        "Iron Range"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KRBT",
+        "formerly_named",
+        "WEVE"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KRBT",
+        "simulcast_with",
+        "WEVE-FM"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KRBT",
+        "changed_call_letters_to",
+        "KRBT"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Lew Latto",
+        "was_president_of",
+        "Iron Range Broadcasting, Inc."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KRBT",
+        "sold_to",
+        "Red Rock Radio"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "KRBT",
+        "owned_by",
+        "Range Broadcasting, Inc."
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "KRBT\nKRBT (1340 AM) is a radio station broadcasting a sports format. Licensed to Eveleth, Minnesota, United States, the station serves the Iron Range area. The station is currently owned by Range Broadcasting, Inc., and features programming from the Red Zone Radio Network. Originally a stand alone music station with call letters WEVE, then a simulcast music station with WEVE-FM, the station changed it's call letters to KRBT for \"Range's Best Talk\" in June of 1998 and discontinued simulcast with WEVE-FM to become a talk station. The format change to sports/talk was made following the death of previous owner, Lew Latto, Iron Range Broadcasting, Inc. President on August, 24 2011 and subsequent sale to Red Rock Radio in March 2012, and has been retained by the new owner as of July 2017, Range Broadcasting, Inc.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"KRBT\", \"type\": \"ORG\"},\n    {\"name\": \"Eveleth\", \"type\": \"GPE\"},\n    {\"name\": \"Minnesota\", \"type\": \"GPE\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Iron Range\", \"type\": \"LOC\"},\n    {\"name\": \"Range Broadcasting, Inc.\", \"type\": \"ORG\"},\n    {\"name\": \"Red Zone Radio Network\", \"type\": \"ORG\"},\n    {\"name\": \"WEVE\", \"type\": \"ORG\"},\n    {\"name\": \"WEVE-FM\", \"type\": \"ORG\"},\n    {\"name\": \"Lew Latto\", \"type\": \"PERSON\"},\n    {\"name\": \"Iron Range Broadcasting, Inc.\", \"type\": \"ORG\"},\n    {\"name\": \"Red Rock Radio\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"KRBT\",\n      \"relation\": \"licensed_to\",\n      \"object\": \"Eveleth\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Licensed to\"}\n      ]\n    },\n    {\n      \"subject\": \"Eveleth\",\n      \"relation\": \"located_in\",\n      \"object\": \"Minnesota\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Eveleth, Minnesota\"}\n      ]\n    },\n    {\n      \"subject\": \"Minnesota\",\n      \"relation\": \"located_in\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Minnesota, United States\"}\n      ]\n    },\n    {\n      \"subject\": \"KRBT\",\n      \"relation\": \"serves\",\n      \"object\": \"Iron Range\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"serves the Iron Range area\"}\n      ]\n    },\n    {\n      \"subject\": \"KRBT\",\n      \"relation\": \"works_for\",\n      \"object\": \"Range Broadcasting, Inc.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is currently owned by\"}\n      ]\n    },\n    {\n      \"subject\": \"KRBT\",\n      \"relation\": \"features_programming_from\",\n      \"object\": \"Red Zone Radio Network\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"features programming from\"}\n      ]\n    },\n    {\n      \"subject\": \"KRBT\",\n      \"relation\": \"formerly_named\",\n      \"object\": \"WEVE\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"call letters WEVE\"}\n      ]\n    },\n    {\n      \"subject\": \"KRBT\",\n      \"relation\": \"simulcast_with\",\n      \"object\": \"WEVE-FM\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"simulcast music station with WEVE-FM\"}\n      ]\n    },\n    {\n      \"subject\": \"KRBT\",\n      \"relation\": \"changed_call_letters_to\",\n      \"object\": \"KRBT\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"changed it's call letters to KRBT\"}\n      ]\n    },\n    {\n      \"subject\": \"Lew Latto\",\n      \"relation\": \"was_president_of\",\n      \"object\": \"Iron Range Broadcasting, Inc.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Iron Range Broadcasting, Inc. President\"}\n      ]\n    },\n    {\n      \"subject\": \"KRBT\",\n      \"relation\": \"sold_to\",\n      \"object\": \"Red Rock Radio\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"sale to Red Rock Radio\"}\n      ]\n    },\n    {\n      \"subject\": \"KRBT\",\n      \"relation\": \"owned_by\",\n      \"object\": \"Range Broadcasting, Inc.\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"retained by the new owner as of July 2017, Range Broadcasting, Inc.\"}\n      ]\n    }\n  ]\n}"
+}

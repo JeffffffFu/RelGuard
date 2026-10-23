@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Robert Lewandowski": "PERSON",
+    "Polish": "NORP",
+    "Bundesliga": "ORG",
+    "Bayern Munich": "ORG",
+    "Poland national team": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Robert Lewandowski",
+        "nationality",
+        "Polish"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert Lewandowski",
+        "plays_for",
+        "Bayern Munich"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert Lewandowski",
+        "plays_in_league",
+        "Bundesliga"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Robert Lewandowski",
+        "captains",
+        "Poland national team"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Robert Lewandowski\nRobert Lewandowski (] ; born 21 August 1988) is a Polish professional footballer who plays as a striker for Bundesliga club Bayern Munich, and captains the Poland national team.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Robert Lewandowski\", \"type\": \"PERSON\"},\n    {\"name\": \"Polish\", \"type\": \"NORP\"},\n    {\"name\": \"Bundesliga\", \"type\": \"ORG\"},\n    {\"name\": \"Bayern Munich\", \"type\": \"ORG\"},\n    {\"name\": \"Poland national team\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Robert Lewandowski\",\n      \"relation\": \"nationality\",\n      \"object\": \"Polish\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a Polish\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Lewandowski\",\n      \"relation\": \"plays_for\",\n      \"object\": \"Bayern Munich\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"plays as a striker for Bundesliga club Bayern Munich\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Lewandowski\",\n      \"relation\": \"plays_in_league\",\n      \"object\": \"Bundesliga\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"plays as a striker for Bundesliga club\"}\n      ]\n    },\n    {\n      \"subject\": \"Robert Lewandowski\",\n      \"relation\": \"captains\",\n      \"object\": \"Poland national team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"captains the Poland national team\"}\n      ]\n    }\n  ]\n}"
+}

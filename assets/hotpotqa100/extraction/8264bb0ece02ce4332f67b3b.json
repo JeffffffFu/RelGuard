@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Stalky & Co.": "novel",
+    "Rudyard Kipling": "author",
+    "the College": "school",
+    "the Coll.": "school",
+    "United Services College": "school",
+    "Beetle": "character",
+    "Stalky": "character",
+    "Lionel Dunsterville": "character",
+    "M'Turk": "character",
+    "George Charles Beresford": "character",
+    "Mr King": "character",
+    "William Carr Crofts": "character",
+    "Mr. Bates": "character",
+    "Cormell Price": "character"
+  },
+  "triples": [
+    {
+      "subject": "Stalky & Co.",
+      "relation": "written_by",
+      "object": "Rudyard Kipling",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Stalky & Co. is a novel by Rudyard Kipling"
+        }
+      ]
+    },
+    {
+      "subject": "the College",
+      "relation": "based_on",
+      "object": "United Services College",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "which is based on the United Services College in Devon"
+        }
+      ]
+    },
+    {
+      "subject": "Stalky",
+      "relation": "based_on",
+      "object": "Lionel Dunsterville",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "the charismatic character Stalky is based on Lionel Dunsterville"
+        }
+      ]
+    },
+    {
+      "subject": "M'Turk",
+      "relation": "based_on",
+      "object": "George Charles Beresford",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "M'Turk is based on George Charles Beresford"
+        }
+      ]
+    },
+    {
+      "subject": "Mr King",
+      "relation": "based_on",
+      "object": "William Carr Crofts",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "Mr King is based on William Carr Crofts"
+        }
+      ]
+    },
+    {
+      "subject": "Mr. Bates",
+      "relation": "based_on",
+      "object": "Cormell Price",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "the school Head, Mr. Bates, is based on Cormell Price"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Stalky & Co.",
+        "published_in",
+        "1899"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Stalky & Co.",
+        "set_at",
+        "the College"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Beetle",
+        "based_on",
+        "Rudyard Kipling"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Stalky &amp; Co.\nStalky & Co. is a novel by Rudyard Kipling about adolescent boys at a British boarding school. It is a collection of school stories whose juvenile protagonists display a know-it-all, cynical outlook on patriotism and authority. According to his family, Kipling enjoyed reading aloud stories from \"Stalky & Co.\" to them and often went into spasms of laughter over his own jokes. It was first published in 1899 (following serialisation in the \"Windsor Magazine\"). Reflecting its origins, the novel is episodic in nature, with self-contained chapters. It is set at an unnamed school referred to as \"the College\" or \"the Coll.\", which is based on the United Services College in Devon, which Kipling attended. The character Beetle, one of the main trio, is partly based on Kipling himself, while the charismatic character Stalky is based on Lionel Dunsterville, M'Turk is based on George Charles Beresford, Mr King is based on William Carr Crofts, and the school Head, Mr. Bates, is based on Cormell Price."
+}

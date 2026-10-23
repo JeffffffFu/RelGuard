@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "Eric Dupont": "PERSON",
+    "French": "NORP",
+    "Incognito films": "ORG",
+    "Ave Maria": "WORK_OF_ART",
+    "Academy Award for Best Live Action Short Film": "WORK_OF_ART",
+    "88th Academy Awards": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Eric Dupont",
+      "relation": "produced",
+      "object": "Ave Maria",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "producing",
+          "line_start": 69,
+          "char_start": 92,
+          "ambiguous": false,
+          "relation_mention": "producing",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Ave Maria",
+      "relation": "earned",
+      "object": "Academy Award for Best Live Action Short Film",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "earned",
+          "line_start": 108,
+          "char_start": 131,
+          "ambiguous": false,
+          "relation_mention": "earned",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Eric Dupont",
+        "nationality",
+        "French"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Eric Dupont",
+        "works_for",
+        "Incognito films"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Academy Award for Best Live Action Short Film",
+        "nominated_at",
+        "88th Academy Awards"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Eric Dupont (producer)\nEric Dupont is a French producer for Incognito films, best known for producing short- film\" Ave Maria\" that earned him Academy Award for Best Live Action Short Film nomination at the 88th Academy Awards."
+}

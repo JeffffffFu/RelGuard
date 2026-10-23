@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "Arizona State Legislature": "Legislature",
+    "House of Representatives": "Legislative Body",
+    "Senate": "Legislative Body",
+    "Capitol Complex": "Location",
+    "Phoenix": "City",
+    "Arizona": "State",
+    "Arizona Constitution": "Document"
+  },
+  "triples": [
+    {
+      "subject": "Arizona State Legislature",
+      "relation": "is_the_state_legislature_of",
+      "object": "Arizona",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the state legislature of the U.S. state of Arizona."
+        }
+      ]
+    },
+    {
+      "subject": "Arizona State Legislature",
+      "relation": "consists_of",
+      "object": "House of Representatives",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "consists of a lower house, the House of Representatives, and an upper house, the Senate."
+        }
+      ]
+    },
+    {
+      "subject": "Arizona State Legislature",
+      "relation": "consists_of",
+      "object": "Senate",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "consists of a lower house, the House of Representatives, and an upper house, the Senate."
+        }
+      ]
+    },
+    {
+      "subject": "Arizona State Legislature",
+      "relation": "meets_in",
+      "object": "Capitol Complex",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "meets in the Capitol Complex in the state capital of Phoenix, Arizona."
+        }
+      ]
+    },
+    {
+      "subject": "Capitol Complex",
+      "relation": "located_in",
+      "object": "Phoenix",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in the state capital of Phoenix, Arizona."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Arizona State Legislature",
+        "created_by",
+        "Arizona Constitution"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Arizona State Legislature",
+        "met_biennially_until",
+        "1950"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Arizona State Legislature",
+        "meets_annually",
+        "Today"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Arizona State Legislature\nThe Arizona State Legislature is the state legislature of the U.S. state of Arizona. It is a bicameral legislature that consists of a lower house, the House of Representatives, and an upper house, the Senate. Composed of 90 legislators, the state legislature meets in the Capitol Complex in the state capital of Phoenix, Arizona. Created by the Arizona Constitution upon statehood in 1912, the Arizona State Legislature met biennially until 1950. Today, they meet annually."
+}

@@ -1,0 +1,33 @@
+{
+  "entities": {
+    "veterinary specialist": "PERSON",
+    "veterinarian": "PERSON",
+    "veterinary medicine": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "veterinary specialist",
+      "relation": "specializes_in",
+      "object": "veterinary medicine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who specializes in a clinical field of veterinary medicine"
+        }
+      ]
+    },
+    {
+      "subject": "veterinary specialist",
+      "relation": "is_a",
+      "object": "veterinarian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "A veterinary specialist is a veterinarian"
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "document": "Veterinary specialties\nA veterinary specialist is a veterinarian who specializes in a clinical field of veterinary medicine."
+}

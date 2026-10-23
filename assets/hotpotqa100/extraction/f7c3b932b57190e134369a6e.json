@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "The Ben Maller Show": "WORK_OF_ART",
+    "Fox Sports Radio": "ORG",
+    "Ben Maller": "PERSON",
+    "JT The Brick": "PERSON",
+    "Eddie Garcia": "PERSON",
+    "Justin Cooper": "PERSON",
+    "Danny G.": "PERSON",
+    "Brian Noe": "PERSON",
+    "The Noe Show": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "The Ben Maller Show",
+      "relation": "hosted_by",
+      "object": "Ben Maller",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is hosted by",
+          "line_start": 135,
+          "char_start": 155,
+          "ambiguous": false,
+          "relation_mention": "is hosted by",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Ben Maller Show",
+        "works_for",
+        "Fox Sports Radio"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Ben Maller Show",
+        "has_cast_member",
+        "Eddie Garcia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Ben Maller Show",
+        "has_cast_member",
+        "Justin Cooper"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "The Ben Maller Show",
+        "has_cast_member",
+        "Danny G."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Justin Cooper",
+        "works_for",
+        "The Ben Maller Show"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "The Ben Maller Show\nThe Ben Maller Show is a sports radio talk show that currently airs on Fox Sports Radio during the hours of 2:00 AM to 6:00 AM ET that is hosted by the Legendary Ben Maller. The current edition of the Ben Maller Show debuted on January 6, 2014, after the announcement of a shake-up in the on-air broadcasting lineup. It was announced that with JT The Brick's promotion, the supporting cast of his former slot would be staying on the time slot and thus joining Maller. The supporting cast consists of Eddie Garcia (update anchor/sidekick), Justin Cooper (Coopa-loop) (executive producer) and Danny G. (technical producer). Maller's previous producer Justin Cooper would be staying with Maller's old slot and thus working with Brian Noe and \"The Noe Show\" which currently airs in Maller's time slot during the weekend.",
+  "raw": "{\"entities\": [{\"name\": \"The Ben Maller Show\", \"type\": \"WORK_OF_ART\"}, {\"name\": \"Fox Sports Radio\", \"type\": \"ORG\"}, {\"name\": \"Ben Maller\", \"type\": \"PERSON\"}, {\"name\": \"JT The Brick\", \"type\": \"PERSON\"}, {\"name\": \"Eddie Garcia\", \"type\": \"PERSON\"}, {\"name\": \"Justin Cooper\", \"type\": \"PERSON\"}, {\"name\": \"Danny G.\", \"type\": \"PERSON\"}, {\"name\": \"Brian Noe\", \"type\": \"PERSON\"}, {\"name\": \"The Noe Show\", \"type\": \"WORK_OF_ART\"}], \"triples\": [{\"subject\": \"The Ben Maller Show\", \"relation\": \"works_for\", \"object\": \"Fox Sports Radio\", \"occurrences\": [{\"line\": 2, \"predicate\": \"airs on\"}]},{\"subject\": \"The Ben Maller Show\", \"relation\": \"hosted_by\", \"object\": \"Ben Maller\", \"occurrences\": [{\"line\": 2, \"predicate\": \"is hosted by\"}]},{\"subject\": \"The Ben Maller Show\", \"relation\": \"has_cast_member\", \"object\": \"Eddie Garcia\", \"occurrences\": [{\"line\": 2, \"predicate\": \"consists of Eddie Garcia\"}]},{\"subject\": \"The Ben Maller Show\", \"relation\": \"has_cast_member\", \"object\": \"Justin Cooper\", \"occurrences\": [{\"line\": 2, \"predicate\": \"consists of Eddie Garcia (update anchor/sidekick), Justin Cooper\"}]},{\"subject\": \"The Ben Maller Show\", \"relation\": \"has_cast_member\", \"object\": \"Danny G.\", \"occurrences\": [{\"line\": 2, \"predicate\": \"and Danny G. (technical producer)\"}]},{\"subject\": \"Justin Cooper\", \"relation\": \"works_for\", \"object\": \"The Ben Maller Show\", \"occurrences\": [{\"line\": 2, \"predicate\": \"would be staying with Maller's old slot and thus working with Brian Noe and \\\"The Noe Show\\\" which currently airs in Maller's time slot during the weekend.\"}]}]}"
+}

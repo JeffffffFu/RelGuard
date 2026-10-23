@@ -1,0 +1,121 @@
+{
+  "entities": {
+    "Coney Island Cyclone": "roller_coaster",
+    "Astroland Park": "amusement_park",
+    "New York City": "city",
+    "Carol Hill Albert": "person",
+    "Cyclone Coasters": "company",
+    "Luna Park": "amusement_park"
+  },
+  "triples": [
+    {
+      "subject": "Astroland Park",
+      "relation": "refurbished",
+      "object": "Coney Island Cyclone",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the roller coaster was refurbished"
+        }
+      ]
+    },
+    {
+      "subject": "Astroland Park",
+      "relation": "invested_in",
+      "object": "Coney Island Cyclone",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "continued to invest millions over the years in the upkeep of the Cyclone"
+        }
+      ]
+    },
+    {
+      "subject": "Carol Hill Albert",
+      "relation": "president_of",
+      "object": "Cyclone Coasters",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "president of Cyclone Coasters"
+        }
+      ]
+    },
+    {
+      "subject": "Carol Hill Albert",
+      "relation": "continued_to_operate",
+      "object": "Coney Island Cyclone",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "continued to operate it under a lease agreement with the city"
+        }
+      ]
+    },
+    {
+      "subject": "Luna Park",
+      "relation": "took_over_operation_of",
+      "object": "Coney Island Cyclone",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "Luna Park took over operation of the Cyclone"
+        }
+      ]
+    },
+    {
+      "subject": "Coney Island Cyclone",
+      "relation": "declared_as_landmark",
+      "object": "New York City",
+      "occurrences": [
+        {
+          "sentence_id": 7,
+          "relation_mention": "was declared a New York City landmark"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Coney Island Cyclone",
+        "opened_on",
+        "June 26, 1927"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Coney Island Cyclone",
+        "located_in",
+        "Coney Island"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dewey and Jerome Albert",
+        "owners_of",
+        "Astroland Park"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Dewey and Jerome Albert",
+        "entered_into_agreement_with",
+        "New York City"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Coney Island Cyclone",
+        "placed_on",
+        "National Register of Historic Places"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Coney Island Cyclone\nThe Coney Island Cyclone (better known as simply the Cyclone) is a historic wooden roller coaster that opened on June 26, 1927, in the Coney Island section of Brooklyn, New York City. On June 18, 1975, Dewey and Jerome Albert – owners of Astroland Park – entered into an agreement with New York City to operate the ride. Despite original plans by the city to scrap the ride in the early 1970s, the roller coaster was refurbished in the 1974 off-season and reopened on July 3, 1975. Astroland Park continued to invest millions over the years in the upkeep of the Cyclone. After Astroland closed in 2008, Carol Hill Albert, president of Cyclone Coasters, continued to operate it under a lease agreement with the city. In 2011, Luna Park took over operation of the Cyclone. It was declared a New York City landmark on July 12, 1988, and was placed on the National Register of Historic Places on June 26, 1991."
+}

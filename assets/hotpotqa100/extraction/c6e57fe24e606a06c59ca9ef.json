@@ -1,0 +1,184 @@
+{
+  "entities": {
+    "Secret Garden": "WORK_OF_ART",
+    "Apink": "ORG",
+    "Unee Anee": "WORK_OF_ART",
+    "Hush": "WORK_OF_ART",
+    "Bubibu": "WORK_OF_ART",
+    "Mnet": "ORG",
+    "M! Countdown": "EVENT",
+    "NoNoNo": "WORK_OF_ART",
+    "Shinsadong Tiger": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Secret Garden",
+      "relation": "works_for",
+      "object": "Apink",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is the third mini-album by",
+          "line_start": 14,
+          "char_start": 33,
+          "ambiguous": false,
+          "relation_mention": "is the third mini-album by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Apink",
+      "relation": "released",
+      "object": "Secret Garden",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is the third mini-album by",
+          "line_start": 14,
+          "char_start": 33,
+          "ambiguous": false,
+          "relation_mention": "is the third mini-album by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Unee Anee",
+      "relation": "worked_on_with",
+      "object": "Apink",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "their last album \"Unee Anee\" with",
+          "line_start": 214,
+          "char_start": 233,
+          "ambiguous": false,
+          "relation_mention": "their last album \"Unee Anee\" with",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Hush",
+      "relation": "worked_on_with",
+      "object": "Apink",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "\"Unee Anee\" with \"Hush\" and \"Bubibu\"",
+          "line_start": 231,
+          "char_start": 250,
+          "ambiguous": false,
+          "relation_mention": "\"Unee Anee\" with \"Hush\" and \"Bubibu\"",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Bubibu",
+      "relation": "worked_on_with",
+      "object": "Apink",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "\"Unee Anee\" with \"Hush\" and \"Bubibu\"",
+          "line_start": 231,
+          "char_start": 250,
+          "ambiguous": false,
+          "relation_mention": "\"Unee Anee\" with \"Hush\" and \"Bubibu\"",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Apink",
+      "relation": "performed_on",
+      "object": "M! Countdown",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "made first comeback stage on",
+          "line_start": 286,
+          "char_start": 305,
+          "ambiguous": false,
+          "relation_mention": "made first comeback stage on",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "M! Countdown",
+      "relation": "works_for",
+      "object": "Mnet",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "on Mnet’s “M! Countdown\"",
+          "line_start": 312,
+          "char_start": 331,
+          "ambiguous": false,
+          "relation_mention": "on Mnet’s “M! Countdown\"",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "NoNoNo",
+      "relation": "produced_by",
+      "object": "Shinsadong Tiger",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produced by",
+          "line_start": 534,
+          "char_start": 553,
+          "ambiguous": false,
+          "relation_mention": "produced by",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "Secret Garden",
+      "relation": "contains",
+      "object": "NoNoNo",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "including the title track “NoNoNo”",
+          "line_start": 499,
+          "char_start": 518,
+          "ambiguous": false,
+          "relation_mention": "including the title track “NoNoNo”",
+          "sentence_id": 6
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "South Korea (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Apink",
+        "located_in",
+        "South Korea"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Secret Garden",
+        "released_on",
+        "July 5, 2013"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Secret Garden (EP)\nSecret Garden is the third mini-album by South Korean girl group Apink, released on July 5, 2013. This is their first official release as six-member group and they returned after 14 months since they last promoted their last album \"Unee Anee\" with \"Hush\" and \"Bubibu\" in May 2012. They made first comeback stage on Mnet’s “M! Countdown\" one day before the official release. The theme of the album is healing, aim to that will soothe the listeners’ eyes and ears. The album consist of five new songs including the title track “NoNoNo” produced by Shinsadong Tiger."
+}

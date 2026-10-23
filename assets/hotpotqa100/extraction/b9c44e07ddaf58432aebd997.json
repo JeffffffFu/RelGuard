@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Forbidden Creatures: Inside the World of Animal Smuggling and Exotic Pets": "WORK_OF_ART",
+    "Peter Laufer": "PERSON",
+    "The Dangerous World of Butterflies": "WORK_OF_ART",
+    "No Animals Were Harmed": "WORK_OF_ART",
+    "Travis": "PERSON",
+    "Charla Nash": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Forbidden Creatures: Inside the World of Animal Smuggling and Exotic Pets",
+      "relation": "precedes",
+      "object": "No Animals Were Harmed",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "preceding",
+          "line_start": 240,
+          "char_start": 260,
+          "ambiguous": false,
+          "relation_mention": "preceding",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "The Dangerous World of Butterflies",
+      "relation": "precedes",
+      "object": "Forbidden Creatures: Inside the World of Animal Smuggling and Exotic Pets",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "following",
+          "line_start": 181,
+          "char_start": 201,
+          "ambiguous": false,
+          "relation_mention": "following",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Travis",
+      "relation": "attacked",
+      "object": "Charla Nash",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "attacked",
+          "line_start": 454,
+          "char_start": 474,
+          "ambiguous": false,
+          "relation_mention": "attacked",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Forbidden Creatures: Inside the World of Animal Smuggling and Exotic Pets",
+        "authored_by",
+        "Peter Laufer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Forbidden Creatures\nForbidden Creatures: Inside the World of Animal Smuggling and Exotic Pets is a 2010 book by Doctor of Philosophy Peter Laufer. It is the second book in his untitled animal trilogy, following \"The Dangerous World of Butterflies\" in 2009 and preceding \"No Animals Were Harmed\" in 2011. The book explores the lives of those that either own exotic animals or have been captured for illegally smuggling them, with a strong focus on Travis, the chimpanzee who attacked Charla Nash in 2009.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Forbidden Creatures: Inside the World of Animal Smuggling and Exotic Pets\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Peter Laufer\", \"type\": \"PERSON\"},\n    {\"name\": \"The Dangerous World of Butterflies\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"No Animals Were Harmed\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Travis\", \"type\": \"PERSON\"},\n    {\"name\": \"Charla Nash\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Forbidden Creatures: Inside the World of Animal Smuggling and Exotic Pets\",\n      \"relation\": \"authored_by\",\n      \"object\": \"Peter Laufer\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a 2010 book by\"}\n      ]\n    },\n    {\n      \"subject\": \"Forbidden Creatures: Inside the World of Animal Smuggling and Exotic Pets\",\n      \"relation\": \"precedes\",\n      \"object\": \"No Animals Were Harmed\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"preceding\"}\n      ]\n    },\n    {\n      \"subject\": \"The Dangerous World of Butterflies\",\n      \"relation\": \"precedes\",\n      \"object\": \"Forbidden Creatures: Inside the World of Animal Smuggling and Exotic Pets\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"following\"}\n      ]\n    },\n    {\n      \"subject\": \"Travis\",\n      \"relation\": \"attacked\",\n      \"object\": \"Charla Nash\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"attacked\"}\n      ]\n    }\n  ]\n}"
+}

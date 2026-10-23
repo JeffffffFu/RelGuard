@@ -1,0 +1,155 @@
+{
+  "entities": {
+    "Kris Cinkovich": "PERSON",
+    "University of Idaho": "ORG",
+    "Arkansas Razorbacks": "ORG",
+    "University of Arkansas": "ORG",
+    "University of Nevada, Las Vegas": "ORG",
+    "UNLV Rebels": "ORG",
+    "Las Vegas High School": "ORG",
+    "Las Vegas": "GPE",
+    "Nevada": "GPE",
+    "Joan": "PERSON",
+    "Carly": "PERSON",
+    "Stephanie": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Kris Cinkovich",
+      "relation": "works_for",
+      "object": "University of Idaho",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "assistant head coach, offensive coordinator and offensive line coach at the University of Idaho"
+        }
+      ]
+    },
+    {
+      "subject": "Kris Cinkovich",
+      "relation": "previously_coached_for",
+      "object": "Arkansas Razorbacks",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "wide receivers coach for the Arkansas Razorbacks football team"
+        }
+      ]
+    },
+    {
+      "subject": "Arkansas Razorbacks",
+      "relation": "located_in",
+      "object": "University of Arkansas",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "at the University of Arkansas"
+        }
+      ]
+    },
+    {
+      "subject": "Kris Cinkovich",
+      "relation": "previously_coached_for",
+      "object": "University of Nevada, Las Vegas",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "employed at the University of Nevada, Las Vegas"
+        }
+      ]
+    },
+    {
+      "subject": "Kris Cinkovich",
+      "relation": "coached_for",
+      "object": "UNLV Rebels",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "wide receivers coach for UNLV Rebels football"
+        }
+      ]
+    },
+    {
+      "subject": "Kris Cinkovich",
+      "relation": "coached_for",
+      "object": "Las Vegas High School",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "head football coach at Las Vegas High School"
+        }
+      ]
+    },
+    {
+      "subject": "Las Vegas High School",
+      "relation": "located_in",
+      "object": "Las Vegas",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "at Las Vegas High School in Las Vegas"
+        }
+      ]
+    },
+    {
+      "subject": "Las Vegas",
+      "relation": "located_in",
+      "object": "Nevada",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "in Las Vegas, Nevada"
+        }
+      ]
+    },
+    {
+      "subject": "Kris Cinkovich",
+      "relation": "has_spouse",
+      "object": "Joan",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "He and his wife, Joan"
+        }
+      ]
+    },
+    {
+      "subject": "Kris Cinkovich",
+      "relation": "has_child",
+      "object": "Carly",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "have two daughters, Carly"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kris Cinkovich",
+        "born_on",
+        "September 30, 1960"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kris Cinkovich",
+        "won",
+        "Nevada State Championships"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Kris Cinkovich",
+        "has_child",
+        "Stephanie"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Kris Cinkovich\nKris Cinkovich (born September 30, 1960) is an American football coach and former player. He is currently the assistant head coach, offensive coordinator and offensive line coach at the University of Idaho, a position he has held since March 2013. Cinkovich has previously been the wide receivers coach for the Arkansas Razorbacks football team at the University of Arkansas from 2010 to 2012. He was also employed at the University of Nevada, Las Vegas, as the wide receivers coach for UNLV Rebels football, and won the Nevada State Championships in 2001 as the head football coach at Las Vegas High School in Las Vegas, Nevada. He and his wife, Joan, have two daughters, Carly and Stephanie."
+}

@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Elsad Zverotić": "Person",
+    "FC Sion": "Organization",
+    "Montenegro national team": "Organization",
+    "Montenegro": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Elsad Zverotić",
+      "relation": "plays_for",
+      "object": "FC Sion",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "plays for Swiss club FC Sion"
+        }
+      ]
+    },
+    {
+      "subject": "Elsad Zverotić",
+      "relation": "most_capped_player_of",
+      "object": "Montenegro",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Montenegro's most-capped player of all time"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Elsad Zverotić",
+        "plays_for",
+        "Montenegro national team"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Elsad Zverotić\nElsad Zverotić (Montenegrin Cyrillic: Eлcaд Звepoтић, born 31 October 1986) is a Montenegrin professional footballer who plays for Swiss club FC Sion and the Montenegro national team as a defender or right midfielder. He is Montenegro's most-capped player of all time, with 59 caps since his debut in 2008."
+}

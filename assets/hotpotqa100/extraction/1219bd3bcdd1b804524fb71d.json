@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "KAND": "radio station",
+    "New Century Broadcasting": "company",
+    "Corsicana High School Tigers": "sports team",
+    "Navarro College Bulldogs": "sports team",
+    "Texas State Network News": "news organization",
+    "CBS News": "news organization",
+    "KWPW": "radio station"
+  },
+  "triples": [
+    {
+      "subject": "KAND",
+      "relation": "owned_by",
+      "object": "New Century Broadcasting",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is owned by New Century Broadcasting"
+        }
+      ]
+    },
+    {
+      "subject": "KAND",
+      "relation": "home_of",
+      "object": "Corsicana High School Tigers",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is also the home of Corsicana High School Tigers"
+        }
+      ]
+    },
+    {
+      "subject": "KAND",
+      "relation": "provides_news_from",
+      "object": "Texas State Network News",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the latest news from the Texas State Network News"
+        }
+      ]
+    },
+    {
+      "subject": "KAND",
+      "relation": "was_assigned_to",
+      "object": "KWPW",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the KAND call sign was assigned to the station now called KWPW"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "KAND",
+        "serves_area",
+        "Corsicana - Ennis - Waxahachie"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "KAND",
+        "runs_format",
+        "country music"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "KAND",
+        "home_of",
+        "Navarro College Bulldogs"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "KAND",
+        "airs_programming_from",
+        "Fox Sports Radio"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "KAND",
+        "provides_news_from",
+        "CBS News"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "KAND\nKAND (1340 AM) is a radio station that serves the Corsicana - Ennis - Waxahachie area, and is owned by New Century Broadcasting. This station runs a country music format, and is also the home of Corsicana High School Tigers and Navarro College Bulldogs football games, and the latest news from the Texas State Network News, and CBS News. As of July 11, 2008, it airs sports programming from Fox Sports Radio during overnights and weekends. For many years, the KAND call sign was assigned to the station now called KWPW."
+}

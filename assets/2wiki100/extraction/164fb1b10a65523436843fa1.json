@@ -1,0 +1,136 @@
+{
+  "entities": {
+    "The Marseille Contract": "film",
+    "Robert Parrish": "director",
+    "Roy Budd": "composer",
+    "Michael Caine": "actor",
+    "Anthony Quinn": "actor",
+    "James Mason": "actor",
+    "The Destructors": "film",
+    "France": "location",
+    "Quinn": "character",
+    "Mason": "character",
+    "Caine": "character",
+    "Lucienne": "character",
+    "Deray": "character",
+    "Porsche 911 S": "vehicle",
+    "Alfa Romeo Montreal": "vehicle"
+  },
+  "triples": [
+    {
+      "subject": "The Marseille Contract",
+      "relation": "directed_by",
+      "object": "Robert Parrish",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Robert Parrish"
+        }
+      ]
+    },
+    {
+      "subject": "The Marseille Contract",
+      "relation": "scored_by",
+      "object": "Roy Budd",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "scored by Roy Budd"
+        }
+      ]
+    },
+    {
+      "subject": "The Marseille Contract",
+      "relation": "stars",
+      "object": "Michael Caine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars Michael Caine"
+        }
+      ]
+    },
+    {
+      "subject": "The Marseille Contract",
+      "relation": "set_in",
+      "object": "France",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Set in France"
+        }
+      ]
+    },
+    {
+      "subject": "Quinn",
+      "relation": "attempting_to_bring_down",
+      "object": "Mason",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "an American agent( Quinn) attempting to bring down a French drug baron( Mason)"
+        }
+      ]
+    },
+    {
+      "subject": "Caine",
+      "relation": "hired_by",
+      "object": "Quinn",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "hiring an assassin( Caine)"
+        }
+      ]
+    },
+    {
+      "subject": "Caine",
+      "relation": "old_friend_of",
+      "object": "Quinn",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "who turns out to be an old friend"
+        }
+      ]
+    },
+    {
+      "subject": "Lucienne",
+      "relation": "competing_with",
+      "object": "Deray",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "the competition between Lucienne in a Porsche 911 S and Deray in an Alfa Romeo Montreal"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The Marseille Contract",
+        "stars",
+        "Anthony Quinn"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Marseille Contract",
+        "stars",
+        "James Mason"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Marseille Contract",
+        "released_as",
+        "The Destructors"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "The Marseille Contract\nThe Marseille Contract is a 1974 British thriller film directed by Robert Parrish and scored by Roy Budd. It stars Michael Caine, Anthony Quinn and James Mason. The film was released in the USA as\" The Destructors\". Set in France, the story concerns an American agent( Quinn) attempting to bring down a French drug baron( Mason) by hiring an assassin( Caine) who turns out to be an old friend. The highlight of the film is the competition between Lucienne in a Porsche 911 S and Deray in an Alfa Romeo Montreal."
+}

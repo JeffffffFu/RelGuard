@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Catherine I of Russia": "Person",
+    "Peter the Great": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Catherine I of Russia",
+      "relation": "was_wife_of",
+      "object": "Peter the Great",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was the second wife of Peter the Great"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Catherine I of Russia",
+        "empress_of",
+        "Russia"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Catherine I of Russia\nCatherine I( born, later known as Marta Samuilovna Skavronskaya; –) was the second wife of Peter the Great and Empress of Russia from 1725 until her death."
+}

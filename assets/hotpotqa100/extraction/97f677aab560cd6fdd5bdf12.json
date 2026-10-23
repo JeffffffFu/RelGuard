@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Anvil Stacks": "Geographical Feature",
+    "Elephant Cove": "Geographical Feature",
+    "South Georgia": "Geographical Location",
+    "Elephant Bay Islands": "Geographical Feature",
+    "South Georgia Survey": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Anvil Stacks",
+      "relation": "located_near",
+      "object": "Elephant Cove",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which lie close south of the entrance to Elephant Cove"
+        }
+      ]
+    },
+    {
+      "subject": "Anvil Stacks",
+      "relation": "located_in",
+      "object": "South Georgia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "off the south coast and near the west end of South Georgia"
+        }
+      ]
+    },
+    {
+      "subject": "Elephant Bay Islands",
+      "relation": "derived_from",
+      "object": "Elephant Cove",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "derived from nearby Elephant Cove (formerly Elephant Bay)"
+        }
+      ]
+    },
+    {
+      "subject": "Anvil Stacks",
+      "relation": "suggested_by",
+      "object": "South Georgia Survey",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "was suggested by the South Georgia Survey following their survey in 1951–52"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Elephant Bay Islands",
+        "used_by",
+        "South Georgia sealers"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Anvil Stacks\nThe Anvil Stacks ( ) are two conspicuous sea stacks which lie close south of the entrance to Elephant Cove, off the south coast and near the west end of South Georgia. The name Elephant Bay Islands, derived from nearby Elephant Cove (formerly Elephant Bay), has been used locally for this feature by some South Georgia sealers. The descriptive name Anvil Stacks, a less cumbersome name, was suggested by the South Georgia Survey following their survey in 1951–52."
+}

@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "Khunyang Chhish": "Mountain",
+    "Hispar Muztagh": "Mountain Range",
+    "Karakoram": "Mountain Range",
+    "Pakistan": "Country"
+  },
+  "triples": [
+    {
+      "subject": "Khunyang Chhish",
+      "relation": "located_in",
+      "object": "Hispar Muztagh",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Hispar Muztagh, a subrange of the Karakoram mountains of Pakistan"
+        }
+      ]
+    },
+    {
+      "subject": "Khunyang Chhish",
+      "relation": "located_in",
+      "object": "Pakistan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the Hispar Muztagh, a subrange of the Karakoram mountains of Pakistan"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Khunyang Chhish",
+        "is_a",
+        "Mountain"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Hispar Muztagh",
+        "is_a",
+        "Mountain Range"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Karakoram",
+        "is_a",
+        "Mountain Range"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Khunyang Chhish\nKhunyang Chhish or Kunyang Chhish (Urdu: ‎ )is the second-highest mountain in the Hispar Muztagh, a subrange of the Karakoram mountains of Pakistan. Alternate variations of the name include Kunyang Kish and Khiangyang Kish, among others. Its height, also sometimes given as 7823 m , is ranked 21st in the world and 8th in Pakistan."
+}

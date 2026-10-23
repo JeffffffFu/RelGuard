@@ -1,0 +1,137 @@
+{
+  "entities": {
+    "Contra-rotating": "technique",
+    "aircraft propellers": "example",
+    "piston engine": "example",
+    "turboprop engine": "example",
+    "marine transmission systems": "example",
+    "speed boats": "example",
+    "planing hulls": "example",
+    "power": "concept",
+    "planetary gear transmission": "mechanism",
+    "helicopter designs": "example",
+    "coaxial rotors": "example"
+  },
+  "triples": [
+    {
+      "subject": "Contra-rotating",
+      "relation": "includes",
+      "object": "aircraft propellers",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Examples include some aircraft propellers"
+        }
+      ]
+    },
+    {
+      "subject": "Contra-rotating",
+      "relation": "is_common_in",
+      "object": "marine transmission systems",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "Contra-rotating propellers are also common in some marine transmission systems"
+        }
+      ]
+    },
+    {
+      "subject": "marine transmission systems",
+      "relation": "is_for",
+      "object": "speed boats",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "in particular for large speed boats with planing hulls"
+        }
+      ]
+    },
+    {
+      "subject": "speed boats",
+      "relation": "have",
+      "object": "planing hulls",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "large speed boats with planing hulls"
+        }
+      ]
+    },
+    {
+      "subject": "power",
+      "relation": "is_transferred_via",
+      "object": "planetary gear transmission",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "power is transferred from the engine via planetary gear transmission"
+        }
+      ]
+    },
+    {
+      "subject": "Contra-rotating",
+      "relation": "is_used_in",
+      "object": "helicopter designs",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "The configuration can also be used in helicopter designs"
+        }
+      ]
+    },
+    {
+      "subject": "helicopter designs",
+      "relation": "are_term",
+      "object": "coaxial rotors",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "termed coaxial rotors"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Contra-rotating",
+        "is_a",
+        "technique"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Contra-rotating",
+        "minimises",
+        "effect of torque"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "piston engine",
+        "drives",
+        "propellers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "turboprop engine",
+        "drives",
+        "propellers"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "coaxial rotors",
+        "have",
+        "issues and principles of torque"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Contra-rotating\nContra-rotating, also referred to as coaxial contra-rotating, is a technique whereby parts of a mechanism rotate in opposite directions about a common axis, usually to minimise the effect of torque. Examples include some aircraft propellers, resulting in the maximum power of a single piston or turboprop engine to drive two propellers in opposite rotation. Contra-rotating propellers are also common in some marine transmission systems, in particular for large speed boats with planing hulls. Two propellers are arranged one behind the other, and power is transferred from the engine via planetary gear transmission. The configuration can also be used in helicopter designs termed coaxial rotors, where similar issues and principles of torque apply."
+}

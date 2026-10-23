@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "Georges Méliès": "PERSON",
+    "Marie- Georges- Jean Méliès": "PERSON",
+    "French": "NORP",
+    "A Trip to the Moon": "WORK_OF_ART",
+    "The Impossible Voyage": "WORK_OF_ART",
+    "Jules Verne": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Marie- Georges- Jean Méliès",
+      "relation": "also_known_as",
+      "object": "Georges Méliès",
+      "occurrences": [
+        {
+          "line": 1,
+          "predicate": "Georges Méliès",
+          "line_start": 0,
+          "char_start": 0,
+          "ambiguous": false,
+          "relation_mention": "Georges Méliès",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Marie- Georges- Jean Méliès",
+      "relation": "nationality",
+      "object": "French",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was a French",
+          "line_start": 65,
+          "char_start": 80,
+          "ambiguous": false,
+          "relation_mention": "was a French",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "A Trip to the Moon",
+      "relation": "in_style_of",
+      "object": "Jules Verne",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "in the style of Jules Verne",
+          "line_start": 573,
+          "char_start": 588,
+          "ambiguous": false,
+          "relation_mention": "in the style of Jules Verne",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Marie- Georges- Jean Méliès",
+        "was_a",
+        "film director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Marie- Georges- Jean Méliès",
+        "was_a",
+        "illusionist"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "His films include\" A Trip to the Moon\"",
+        "includes_work",
+        "A Trip to the Moon"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "His films include\" A Trip to the Moon\"",
+        "includes_work",
+        "The Impossible Voyage"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Georges Méliès\nMarie- Georges- Jean Méliès( 8 December 1861 – 21 January 1938), was a French illusionist and film director who led many technical and narrative developments in the earliest days of cinema. Méliès was well- known for the use of special effects, popularizing such techniques as substitution splices, multiple exposures, time- lapse photography, dissolves, and hand- painted colour. He was also one of the first filmmakers to use storyboards. His films include\" A Trip to the Moon\"( 1902) and\" The Impossible Voyage\"( 1904), both involving strange, surreal journeys somewhat in the style of Jules Verne, and are considered among the most important early science fiction films, though their approach is closer to fantasy."
+}

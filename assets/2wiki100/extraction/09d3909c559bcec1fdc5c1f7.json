@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Gurinder Chadha": "PERSON",
+    "England": "GPE",
+    "Bhaji on the Beach": "WORK_OF_ART",
+    "Bend It Like Beckham": "WORK_OF_ART",
+    "Bride and Prejudice": "WORK_OF_ART",
+    "Angus, Thongs and Perfect Snogging": "WORK_OF_ART",
+    "It's a Wonderful Afterlife": "WORK_OF_ART",
+    "Viceroy's House": "WORK_OF_ART",
+    "Blinded by the Light": "WORK_OF_ART",
+    "Beecham House": "WORK_OF_ART"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "India (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Gurinder Chadha",
+        "works_as",
+        "film director"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gurinder Chadha",
+        "located_in",
+        "England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gurinder Chadha",
+        "originates_from",
+        "India"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Gurinder Chadha",
+        "known_for",
+        "Bhaji on the Beach"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gurinder Chadha",
+        "known_for",
+        "Bend It Like Beckham"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gurinder Chadha",
+        "known_for",
+        "Bride and Prejudice"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gurinder Chadha",
+        "known_for",
+        "Angus, Thongs and Perfect Snogging"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gurinder Chadha",
+        "known_for",
+        "It's a Wonderful Afterlife"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gurinder Chadha",
+        "known_for",
+        "Viceroy's House"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gurinder Chadha",
+        "created",
+        "Blinded by the Light"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Gurinder Chadha",
+        "created",
+        "Beecham House"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Gurinder Chadha\nGurinder Chadha,( born 10 January 1960) is an English film director of Indian origin. Most of her films explore the lives of Indians living in England. The common theme among her work showcases the trials of Indian women living in England and how they must reconcile their converging traditional and modern cultures. Although many of her films seem like simple quirky comedies about Indian women, they actually address many social and emotional issues, especially ones faced by immigrants caught between two worlds. Much of her work also consists of adaptations from book to film, but with a different flair. She is best known for the hit films\" Bhaji on the Beach\"( 1993),\" Bend It Like Beckham\"( 2002),\" Bride and Prejudice\"( 2004),\" Angus, Thongs and Perfect Snogging\"( 2008),\" It's a Wonderful Afterlife\"( 2010) and\" Viceroy's House\"( 2017). Her latest features are the biographical musical comedy- drama\" Blinded by the Light\" and the television show\" Beecham House\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Gurinder Chadha\", \"type\": \"PERSON\"},\n    {\"name\": \"England\", \"type\": \"GPE\"},\n    {\"name\": \"India\", \"type\": \"GPE\"},\n    {\"name\": \"Bhaji on the Beach\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Bend It Like Beckham\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Bride and Prejudice\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Angus, Thongs and Perfect Snogging\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"It's a Wonderful Afterlife\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Viceroy's House\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Blinded by the Light\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Beecham House\", \"type\": \"WORK_OF_ART\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Gurinder Chadha\",\n      \"relation\": \"works_as\",\n      \"object\": \"film director\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an English film director\"}\n      ]\n    },\n    {\n      \"subject\": \"Gurinder Chadha\",\n      \"relation\": \"located_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"living in England\"}\n      ]\n    },\n    {\n      \"subject\": \"Gurinder Chadha\",\n      \"relation\": \"originates_from\",\n      \"object\": \"India\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Indian origin\"}\n      ]\n    },\n    {\n      \"subject\": \"Gurinder Chadha\",\n      \"relation\": \"known_for\",\n      \"object\": \"Bhaji on the Beach\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"best known for the hit films\\\" Bhaji on the Beach\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Gurinder Chadha\",\n      \"relation\": \"known_for\",\n      \"object\": \"Bend It Like Beckham\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"best known for the hit films\\\" Bhaji on the Beach\\\"( 1993),\\\" Bend It Like Beckham\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Gurinder Chadha\",\n      \"relation\": \"known_for\",\n      \"object\": \"Bride and Prejudice\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\" Bride and Prejudice\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Gurinder Chadha\",\n      \"relation\": \"known_for\",\n      \"object\": \"Angus, Thongs and Perfect Snogging\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\" Angus, Thongs and Perfect Snogging\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Gurinder Chadha\",\n      \"relation\": \"known_for\",\n      \"object\": \"It's a Wonderful Afterlife\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\" It's a Wonderful Afterlife\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Gurinder Chadha\",\n      \"relation\": \"known_for\",\n      \"object\": \"Viceroy's House\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\" Viceroy's House\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Gurinder Chadha\",\n      \"relation\": \"created\",\n      \"object\": \"Blinded by the Light\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"\\\" Blinded by the Light\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"Gurinder Chadha\",\n      \"relation\": \"created\",\n      \"object\": \"Beecham House\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the television show\\\" Beecham House\\\"\"}\n      ]\n    }\n  ]\n}"
+}

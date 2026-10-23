@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Lahore Qalandars": "Team",
+    "Lahore": "City",
+    "Pakistan Super League": "Tournament",
+    "Azhar Ali": "Person",
+    "Umar Akmal": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Lahore Qalandars",
+      "relation": "represents",
+      "object": "Lahore",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that represents Lahore in the Pakistan Super League"
+        }
+      ]
+    },
+    {
+      "subject": "Lahore Qalandars",
+      "relation": "competed_in",
+      "object": "Pakistan Super League",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "had a competition in the 2016 Pakistan Super League"
+        }
+      ]
+    },
+    {
+      "subject": "Lahore Qalandars",
+      "relation": "captained_by",
+      "object": "Azhar Ali",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The team was captained by Azhar Ali"
+        }
+      ]
+    },
+    {
+      "subject": "Umar Akmal",
+      "relation": "leading_run_scorer_of",
+      "object": "Pakistan Super League",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was leading run scorer of the tournament"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lahore Qalandars",
+        "eliminated_in",
+        "group stage"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Lahore Qalandars in 2016\nThe Lahore Qalandars is a franchise cricket team that represents Lahore in the Pakistan Super League. They are one of the five teams that had a competition in the 2016 Pakistan Super League. The team was captained by Azhar Ali, and they stand on fifth position after winning just two matches from their eight matches in the PSL 2016, as a result they were eliminated in group stage. Umar Akmal with 335 runs in 7 matches was leading run scorer of the tournament."
+}

@@ -1,0 +1,144 @@
+{
+  "entities": {
+    "Harold Becker": "PERSON",
+    "New York": "GPE",
+    "New Hollywood": "NORP",
+    "Mercury Rising": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "Harold Becker",
+      "relation": "born_on",
+      "object": "Harold Becker",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born",
+          "line_start": 15,
+          "char_start": 29,
+          "ambiguous": false,
+          "relation_mention": "born",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Harold Becker",
+      "relation": "located_in",
+      "object": "New York",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "from New York",
+          "line_start": 112,
+          "char_start": 126,
+          "ambiguous": false,
+          "relation_mention": "from New York",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Harold Becker",
+      "relation": "associated_with",
+      "object": "New Hollywood",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "associated with the New Hollywood movement",
+          "line_start": 127,
+          "char_start": 141,
+          "ambiguous": false,
+          "relation_mention": "associated with the New Hollywood movement",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Harold Becker",
+      "relation": "created",
+      "object": "Mercury Rising",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "and\" Mercury Rising",
+          "line_start": 316,
+          "char_start": 330,
+          "ambiguous": false,
+          "relation_mention": "and\" Mercury Rising",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "6 entities not in the document",
+      "entities": [
+        "The Onion Field (WORK_OF_ART)",
+        "Taps (WORK_OF_ART)",
+        "The Boost (WORK_OF_ART)",
+        "Sea of Love (WORK_OF_ART)",
+        "Malice (WORK_OF_ART)",
+        "City Hall (WORK_OF_ART)"
+      ]
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "known_for",
+        "thriller genre"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "The Onion Field"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "Taps"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "The Boost"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "Sea of Love"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "Malice"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Harold Becker",
+        "created",
+        "City Hall"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Harold Becker\nHarold Becker( born September 25, 1928) is an American film and television director, producer, and photographer from New York, associated with the New Hollywood movement and best known for his work in the thriller genre. His body of work includes films like\" The Onion FieldTaps The BoostSea of LoveMaliceCity Hall\" and\" Mercury Rising\"."
+}

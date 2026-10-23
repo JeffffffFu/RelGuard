@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "Quattro rose rosse": "Film",
+    "Four red roses": "Film",
+    "1951": "Year",
+    "Italian": "Nationality"
+  },
+  "triples": [
+    {
+      "subject": "Quattro rose rosse",
+      "relation": "also_known_as",
+      "object": "Four red roses",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Quattro rose rosse ( Italian:\" Four red roses\")"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Quattro rose rosse",
+        "is_a",
+        "Film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Quattro rose rosse",
+        "released_in",
+        "1951"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Quattro rose rosse",
+        "produced_in",
+        "Italian"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Quattro rose rosse\nQuattro rose rosse ( Italian:\" Four red roses\") is a 1951 Italian film."
+}

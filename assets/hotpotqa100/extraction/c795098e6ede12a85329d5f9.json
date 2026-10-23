@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Adam Taggart": "PERSON",
+    "Perth Glory": "ORG",
+    "Australia national team": "ORG",
+    "Nike A-League Golden Boot": "WORK_OF_ART",
+    "Jets": "ORG",
+    "A-League": "ORG",
+    "Australia": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Adam Taggart",
+      "relation": "works_for",
+      "object": "Perth Glory",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is currently signed to",
+          "line_start": 83,
+          "char_start": 96,
+          "ambiguous": false,
+          "relation_mention": "is currently signed to",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Adam Taggart",
+      "relation": "played_for",
+      "object": "Australia national team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "has played for",
+          "line_start": 126,
+          "char_start": 139,
+          "ambiguous": false,
+          "relation_mention": "has played for",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Adam Taggart",
+        "plays_as",
+        "Jets"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Adam Taggart",
+        "holds_award",
+        "Nike A-League Golden Boot"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Nike A-League Golden Boot",
+        "related_to",
+        "A-League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Jets",
+        "plays_in",
+        "A-League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Adam Taggart",
+        "nationality",
+        "Australia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Adam Taggart\nAdam Jake Taggart (born 2 June 1993) is an Australian football (soccer) player who is currently signed to Perth Glory and who has played for the Australia national team. Taggart is a striker and is a former holder of the Nike A-League Golden Boot award, scoring 16 goals in 25 appearances for the Jets during the 2013–14 A-League season.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Adam Taggart\", \"type\": \"PERSON\"},\n    {\"name\": \"Perth Glory\", \"type\": \"ORG\"},\n    {\"name\": \"Australia national team\", \"type\": \"ORG\"},\n    {\"name\": \"Nike A-League Golden Boot\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Jets\", \"type\": \"ORG\"},\n    {\"name\": \"A-League\", \"type\": \"ORG\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Adam Taggart\",\n      \"relation\": \"works_for\",\n      \"object\": \"Perth Glory\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is currently signed to\"}\n      ]\n    },\n    {\n      \"subject\": \"Adam Taggart\",\n      \"relation\": \"played_for\",\n      \"object\": \"Australia national team\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"has played for\"}\n      ]\n    },\n    {\n      \"subject\": \"Adam Taggart\",\n      \"relation\": \"plays_as\",\n      \"object\": \"Jets\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a striker and is a former holder of the Nike A-League Golden Boot award, scoring 16 goals in 25 appearances for the Jets during the 2013–14 A-League season\"}\n      ]\n    },\n    {\n      \"subject\": \"Adam Taggart\",\n      \"relation\": \"holds_award\",\n      \"object\": \"Nike A-League Golden Boot\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a striker and is a former holder of the Nike A-League Golden Boot award\"}\n      ]\n    },\n    {\n      \"subject\": \"Nike A-League Golden Boot\",\n      \"relation\": \"related_to\",\n      \"object\": \"A-League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Nike A-League Golden Boot\"}\n      ]\n    },\n    {\n      \"subject\": \"Jets\",\n      \"relation\": \"plays_in\",\n      \"object\": \"A-League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"2013–14 A-League season\"}\n      ]\n    },\n    {\n      \"subject\": \"Adam Taggart\",\n      \"relation\": \"nationality\",\n      \"object\": \"Australia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is an Australian\"}\n      ]\n    }\n  ]\n}"
+}

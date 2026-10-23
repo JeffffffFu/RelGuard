@@ -1,0 +1,77 @@
+{
+  "entities": {
+    "Collinsville City Hall": "FAC",
+    "Fire Station": "FAC",
+    "Collinsville": "GPE",
+    "Illinois": "GPE",
+    "Charles L. Oatman": "PERSON",
+    "Civil War monument": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Collinsville City Hall",
+      "relation": "located_in",
+      "object": "Collinsville",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located at 125 Center St. in Collinsville"
+        }
+      ]
+    },
+    {
+      "subject": "Fire Station",
+      "relation": "located_in",
+      "object": "Collinsville",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located at 125 Center St. in Collinsville"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Collinsville City Hall",
+        "built_in",
+        "1885"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Fire Station",
+        "built_in",
+        "1910"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Charles L. Oatman",
+        "defeated_in",
+        "next election"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Civil War monument",
+        "dedicated_in",
+        "1926"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Civil War monument",
+        "moved_to",
+        "current location"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Collinsville City Hall and Fire Station\nThe Collinsville City Hall and Fire Station are two connected buildings located at 125 Center St. in Collinsville, Illinois. The Italianate City Hall was built in 1885. It was Collinsville's first dedicated city hall; prior to its completion, government meetings were held at the mayor's house. The new city hall, along with several other public works projects, created a large debt which contributed to mayor Charles L. Oatman's defeat in the next election. The Romanesque Revival fire station was built next to City Hall in 1910. Additions in 1972 and 1994 connected the two buildings. A Civil War monument on the southeast corner the property was dedicated in 1926; while it was originally located between the two buildings, it moved to its current location when the fire station expanded in 1956."
+}

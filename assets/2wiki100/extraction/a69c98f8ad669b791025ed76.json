@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Kriminal": "film",
+    "Umberto Lenzi": "person",
+    "Glenn Saxson": "person",
+    "Inspector Milton": "person",
+    "Andrea Bosic": "person",
+    "Il marchio di Kriminal": "film"
+  },
+  "triples": [
+    {
+      "subject": "Kriminal",
+      "relation": "directed_by",
+      "object": "Umberto Lenzi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed and written by Umberto Lenzi"
+        }
+      ]
+    },
+    {
+      "subject": "Kriminal",
+      "relation": "about",
+      "object": "Glenn Saxson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "about a thief and murderer called Kriminal( Glenn Saxson)"
+        }
+      ]
+    },
+    {
+      "subject": "Inspector Milton",
+      "relation": "chased_after_by",
+      "object": "Glenn Saxson",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is chased after by Inspector Milton( Andrea Bosic)"
+        }
+      ]
+    },
+    {
+      "subject": "Kriminal",
+      "relation": "received_sequel",
+      "object": "Il marchio di Kriminal",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It received a sequel titled\" Il marchio di Kriminal\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Glenn Saxson",
+        "escaped_from",
+        "prison"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kriminal (film)\nKriminal is a 1966 crime film directed and written by Umberto Lenzi. The film is about a thief and murderer called Kriminal( Glenn Saxson) who escapes from a prison and is chased after by Inspector Milton( Andrea Bosic). It received a sequel titled\" Il marchio di Kriminal\"( The Mark of Kriminal)."
+}

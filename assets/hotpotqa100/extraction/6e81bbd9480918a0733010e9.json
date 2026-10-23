@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "Stank Hall": "FAC",
+    "Beeston": "GPE",
+    "Leeds": "GPE",
+    "England": "GPE",
+    "Beeston family": "ORG",
+    "Hodgson family": "ORG",
+    "Leeds City Council": "ORG",
+    "Friends of Stank Hall Barn": "ORG",
+    "English Heritage": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Stank Hall",
+      "relation": "located_in",
+      "object": "Beeston",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Stank Hall is a historic building in Beeston"
+        }
+      ]
+    },
+    {
+      "subject": "Beeston",
+      "relation": "located_in",
+      "object": "Leeds",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "a suburb of Leeds"
+        }
+      ]
+    },
+    {
+      "subject": "Leeds",
+      "relation": "located_in",
+      "object": "England",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in England"
+        }
+      ]
+    },
+    {
+      "subject": "Stank Hall",
+      "relation": "built_for",
+      "object": "Beeston family",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was built in the late 15th century for the Beeston family"
+        }
+      ]
+    },
+    {
+      "subject": "Stank Hall",
+      "relation": "listed_by",
+      "object": "English Heritage",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It has been listed as Grade II by English Heritage"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "barn",
+        "built_for",
+        "Beeston family"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "barn",
+        "acquired_by",
+        "Hodgson family"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "barn",
+        "acquired_from",
+        "Leeds City Council"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "barn",
+        "restored_by",
+        "Friends of Stank Hall Barn"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Stank Hall\nStank Hall is a historic building in Beeston, a suburb of Leeds in England. It was built in the late 15th century for the Beeston family. It has been listed as Grade II by English Heritage since 19 October 1951. Immediately to the north stands a Grade II*–listed barn of the late 15th – early 16th century that was also built for the Beeston family and was acquired by the Hodgson family in the 17th century. In 2014, the barn was acquired from the Leeds City Council by the Friends of Stank Hall Barn, with the intent of restoring it."
+}

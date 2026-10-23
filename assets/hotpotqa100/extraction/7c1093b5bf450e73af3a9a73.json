@@ -1,0 +1,41 @@
+{
+  "entities": {
+    "Terry Halvorsen": "PERSON",
+    "Department of the Navy": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States Department of Defense (ORG)"
+      ]
+    },
+    {
+      "triple": [
+        "Terry Halvorsen",
+        "works_for",
+        "United States Department of Defense"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Terry Halvorsen",
+        "works_for",
+        "United States Department of Defense"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Terry Halvorsen",
+        "works_for",
+        "Department of the Navy"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Terry Halvorsen\nTerry Halvorsen is a retired American military officer who is a former Chief Information Officer at the US Department of Defense. He previously served as the Acting Department of Defense Chief Information Officer and the Department of the Navy Chief Information Officer.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Terry Halvorsen\", \"type\": \"PERSON\"},\n    {\"name\": \"United States Department of Defense\", \"type\": \"ORG\"},\n    {\"name\": \"Department of the Navy\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Terry Halvorsen\",\n      \"relation\": \"works_for\",\n      \"object\": \"United States Department of Defense\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is a former Chief Information Officer at the US Department of Defense\"}\n      ]\n    },\n    {\n      \"subject\": \"Terry Halvorsen\",\n      \"relation\": \"works_for\",\n      \"object\": \"United States Department of Defense\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"served as the Acting Department of Defense Chief Information Officer\"}\n      ]\n    },\n    {\n      \"subject\": \"Terry Halvorsen\",\n      \"relation\": \"works_for\",\n      \"object\": \"Department of the Navy\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"the Department of the Navy Chief Information Officer\"}\n      ]\n    }\n  ]\n}"
+}

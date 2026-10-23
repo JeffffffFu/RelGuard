@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Going the Distance": "film",
+    "Mark Griffiths": "person",
+    "Eric Goodman": "person",
+    "Kelly Senecal": "person",
+    "Canada": "location",
+    "National Lampoon's Going the Distance": "film"
+  },
+  "triples": [
+    {
+      "subject": "Going the Distance",
+      "relation": "directed_by",
+      "object": "Mark Griffiths",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Mark Griffiths"
+        }
+      ]
+    },
+    {
+      "subject": "Going the Distance",
+      "relation": "written_by",
+      "object": "Eric Goodman",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written by Eric Goodman"
+        }
+      ]
+    },
+    {
+      "subject": "Going the Distance",
+      "relation": "set_across",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "set across Canada"
+        }
+      ]
+    },
+    {
+      "subject": "Going the Distance",
+      "relation": "released_in",
+      "object": "Canada",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "was released in Canada"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Going the Distance",
+        "written_by",
+        "Kelly Senecal"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Going the Distance",
+        "expanded_title",
+        "National Lampoon's Going the Distance"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "National Lampoon's Going the Distance",
+        "retains_title",
+        "Going the Distance"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Going the Distance (2004 film)\nGoing the Distance is a 2004 Canadian teen/comedy film directed by Mark Griffiths, and written by Eric Goodman and Kelly Senecal. A road movie set across Canada, its tagline was \"They came. They saw. They came.\" The film was released in Canada as \"Going the Distance\", but for American release the film's title was expanded to \"National Lampoon's Going the Distance\". The Canadian DVD release retains its original release title."
+}

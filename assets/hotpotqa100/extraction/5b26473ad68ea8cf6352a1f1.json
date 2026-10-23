@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "Whisky Galore!": "WORK_OF_ART",
+    "Gillies MacKinnon": "PERSON",
+    "Gregor Fisher": "PERSON",
+    "Eddie Izzard": "PERSON",
+    "Sean Biggerstaff": "PERSON",
+    "Naomi Battrick": "PERSON",
+    "Edinburgh": "GPE",
+    "UK": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Whisky Galore!",
+      "relation": "directed_by",
+      "object": "Gillies MacKinnon",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was directed by Gillies MacKinnon"
+        }
+      ]
+    },
+    {
+      "subject": "Whisky Galore!",
+      "relation": "stars",
+      "object": "Gregor Fisher",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "stars Gregor Fisher"
+        }
+      ]
+    },
+    {
+      "subject": "Whisky Galore!",
+      "relation": "premiered_at",
+      "object": "Edinburgh",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film premiered at the 2016 Edinburgh Film Festival"
+        }
+      ]
+    },
+    {
+      "subject": "Whisky Galore!",
+      "relation": "located_in",
+      "object": "UK",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "will get general release in the UK"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Whisky Galore!",
+        "stars",
+        "Eddie Izzard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Whisky Galore!",
+        "stars",
+        "Sean Biggerstaff"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Whisky Galore!",
+        "stars",
+        "Naomi Battrick"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Whisky Galore! (2016 film)\nWhisky Galore! is a 2016 British film, a remake of the 1949 Ealing Comedy of the same name. It was directed by Gillies MacKinnon and stars Gregor Fisher, Eddie Izzard, Sean Biggerstaff and Naomi Battrick. The film premiered at the 2016 Edinburgh Film Festival and will get general release in the UK in May 2017."
+}

@@ -1,0 +1,148 @@
+{
+  "entities": {
+    "Stank Hall": "FAC",
+    "Beeston": "GPE",
+    "Leeds": "GPE",
+    "England": "GPE",
+    "Beeston family": "NORP",
+    "English Heritage": "ORG",
+    "barn of the late 15th – early 16th century": "FAC",
+    "Hodgson family": "NORP",
+    "Leeds City Council": "ORG",
+    "Friends of Stank Hall Barn": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Stank Hall",
+      "relation": "listed_by",
+      "object": "English Heritage",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "listed as Grade II by",
+          "line_start": 150,
+          "char_start": 161,
+          "ambiguous": false,
+          "relation_mention": "listed as Grade II by",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "barn of the late 15th – early 16th century",
+      "relation": "founded",
+      "object": "Beeston family",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was also built for",
+          "line_start": 311,
+          "char_start": 322,
+          "ambiguous": false,
+          "relation_mention": "was also built for",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "barn of the late 15th – early 16th century",
+      "relation": "acquired_by",
+      "object": "Hodgson family",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was acquired by",
+          "line_start": 353,
+          "char_start": 364,
+          "ambiguous": false,
+          "relation_mention": "was acquired by",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "barn of the late 15th – early 16th century",
+      "relation": "acquired_from_by",
+      "object": "Friends of Stank Hall Barn",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "stands a Grade II*–listed barn",
+          "line_start": 237,
+          "char_start": 248,
+          "ambiguous": false,
+          "relation_mention": "stands a Grade II*–listed barn",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "barn of the late 15th – early 16th century",
+      "relation": "acquired_from_by",
+      "object": "Leeds City Council",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was acquired from",
+          "line_start": 427,
+          "char_start": 438,
+          "ambiguous": false,
+          "relation_mention": "was acquired from",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Stank Hall",
+        "located_in",
+        "Beeston"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Beeston",
+        "located_in",
+        "Leeds"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Leeds",
+        "located_in",
+        "England"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Stank Hall",
+        "founded",
+        "Beeston family"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "barn of the late 15th – early 16th century",
+        "located_in",
+        "north"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Friends of Stank Hall Barn",
+        "acquired",
+        "barn of the late 15th – early 16th century"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Stank Hall\nStank Hall is a historic building in Beeston, a suburb of Leeds in England. It was built in the late 15th century for the Beeston family. It has been listed as Grade II by English Heritage since 19 October 1951. Immediately to the north stands a Grade II*–listed barn of the late 15th – early 16th century that was also built for the Beeston family and was acquired by the Hodgson family in the 17th century. In 2014, the barn was acquired from the Leeds City Council by the Friends of Stank Hall Barn, with the intent of restoring it.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Stank Hall\", \"type\": \"FAC\"},\n    {\"name\": \"Beeston\", \"type\": \"GPE\"},\n    {\"name\": \"Leeds\", \"type\": \"GPE\"},\n    {\"name\": \"England\", \"type\": \"GPE\"},\n    {\"name\": \"Beeston family\", \"type\": \"NORP\"},\n    {\"name\": \"English Heritage\", \"type\": \"ORG\"},\n    {\"name\": \"barn of the late 15th – early 16th century\", \"type\": \"FAC\"},\n    {\"name\": \"Hodgson family\", \"type\": \"NORP\"},\n    {\"name\": \"Leeds City Council\", \"type\": \"ORG\"},\n    {\"name\": \"Friends of Stank Hall Barn\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Stank Hall\",\n      \"relation\": \"located_in\",\n      \"object\": \"Beeston\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Beeston\",\n      \"relation\": \"located_in\",\n      \"object\": \"Leeds\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"a suburb of\"}\n      ]\n    },\n    {\n      \"subject\": \"Leeds\",\n      \"relation\": \"located_in\",\n      \"object\": \"England\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Stank Hall\",\n      \"relation\": \"founded\",\n      \"object\": \"Beeston family\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was built for\"}\n      ]\n    },\n    {\n      \"subject\": \"Stank Hall\",\n      \"relation\": \"listed_by\",\n      \"object\": \"English Heritage\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"listed as Grade II by\"}\n      ]\n    },\n    {\n      \"subject\": \"barn of the late 15th – early 16th century\",\n      \"relation\": \"located_in\",\n      \"object\": \"north\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"to the north stands\"}\n      ]\n    },\n    {\n      \"subject\": \"barn of the late 15th – early 16th century\",\n      \"relation\": \"founded\",\n      \"object\": \"Beeston family\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was also built for\"}\n      ]\n    },\n    {\n      \"subject\": \"barn of the late 15th – early 16th century\",\n      \"relation\": \"acquired_by\",\n      \"object\": \"Hodgson family\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was acquired by\"}\n      ]\n    },\n    {\n      \"subject\": \"barn of the late 15th – early 16th century\",\n      \"relation\": \"acquired_from_by\",\n      \"object\": \"Friends of Stank Hall Barn\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stands a Grade II*–listed barn\"}\n      ]\n    },\n    {\n      \"subject\": \"barn of the late 15th – early 16th century\",\n      \"relation\": \"acquired_from_by\",\n      \"object\": \"Leeds City Council\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"was acquired from\"}\n      ]\n    },\n    {\n      \"subject\": \"Friends of Stank Hall Barn\",\n      \"relation\": \"acquired\",\n      \"object\": \"barn of the late 15th – early 16th century\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"acquired from the Leeds City Council by the Friends of Stank Hall Barn\"}\n      ]\n    }\n  ]\n}"
+}

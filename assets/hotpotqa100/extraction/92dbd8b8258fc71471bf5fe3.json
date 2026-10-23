@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "Whisky Galore!": "film",
+    "Gillies MacKinnon": "director",
+    "Gregor Fisher": "actor",
+    "Eddie Izzard": "actor",
+    "Sean Biggerstaff": "actor",
+    "Naomi Battrick": "actor",
+    "2016 Edinburgh Film Festival": "event",
+    "UK": "location",
+    "May 2017": "date"
+  },
+  "triples": [
+    {
+      "subject": "Whisky Galore!",
+      "relation": "directed_by",
+      "object": "Gillies MacKinnon",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "directed by Gillies MacKinnon"
+        }
+      ]
+    },
+    {
+      "subject": "Whisky Galore!",
+      "relation": "stars",
+      "object": "Gregor Fisher",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "stars Gregor Fisher"
+        }
+      ]
+    },
+    {
+      "subject": "Whisky Galore!",
+      "relation": "premiered_at",
+      "object": "2016 Edinburgh Film Festival",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "premiered at the 2016 Edinburgh Film Festival"
+        }
+      ]
+    },
+    {
+      "subject": "Whisky Galore!",
+      "relation": "will_get_general_release_in",
+      "object": "UK",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "will get general release in the UK"
+        }
+      ]
+    },
+    {
+      "subject": "Whisky Galore!",
+      "relation": "scheduled_for_release_in",
+      "object": "May 2017",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "in May 2017"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Whisky Galore!",
+        "is_a_remake_of",
+        "1949 Ealing Comedy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Whisky Galore!",
+        "stars",
+        "Eddie Izzard"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Whisky Galore!",
+        "stars",
+        "Sean Biggerstaff"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Whisky Galore!",
+        "stars",
+        "Naomi Battrick"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Whisky Galore! (2016 film)\nWhisky Galore! is a 2016 British film, a remake of the 1949 Ealing Comedy of the same name. It was directed by Gillies MacKinnon and stars Gregor Fisher, Eddie Izzard, Sean Biggerstaff and Naomi Battrick. The film premiered at the 2016 Edinburgh Film Festival and will get general release in the UK in May 2017."
+}

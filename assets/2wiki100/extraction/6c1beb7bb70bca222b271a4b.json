@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "C. Nanda Mathew": "Person",
+    "Uva Province": "Location",
+    "Sri Lanka": "Location",
+    "Cyril Mathew": "Person"
+  },
+  "triples": [
+    {
+      "subject": "C. Nanda Mathew",
+      "relation": "former_governor_of",
+      "object": "Uva Province",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the former Governor of Uva Province"
+        }
+      ]
+    },
+    {
+      "subject": "C. Nanda Mathew",
+      "relation": "son_of",
+      "object": "Cyril Mathew",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "He is the son of Cyril Mathew"
+        }
+      ]
+    },
+    {
+      "subject": "Uva Province",
+      "relation": "located_in",
+      "object": "Sri Lanka",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Uva Province in Sri Lanka"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "C. Nanda Mathew",
+        "held_office_from",
+        "2003 to 2015"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Nanda Mathew\nC. Nanda Mathew is the former Governor of Uva Province in Sri Lanka. He held the office from 2003 to 2015. He is the son of Cyril Mathew."
+}

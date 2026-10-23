@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Cinestill": "ORG",
+    "Kodak": "ORG",
+    "C-41": "PRODUCT",
+    "Eastman Color Negative": "PRODUCT",
+    "800Tungsten Xpro C-41": "PRODUCT",
+    "Vision 3 5219": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "Cinestill",
+      "relation": "uses",
+      "object": "Kodak",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Cinestill Film uses a modified version of Kodak motion picture cinema film, allowing it to be developed with the C-41 process rather than the Eastman Color Negative process."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Cinestill",
+        "creates",
+        "photographic film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Cinestill",
+        "began_beta_testing",
+        "800Tungsten Xpro C-41"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "800Tungsten Xpro C-41",
+        "based_on",
+        "Vision 3 5219"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Vision 3 5219",
+        "rated_for",
+        "500ISO"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Vision 3 5219",
+        "allows_rating",
+        "800ISO"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Cinestill\nCinestill Film creates photographic film for still cameras from Kodak's motion picture cinema film. Cinestill Film uses a modified version of Kodak motion picture cinema film, allowing it to be developed with the C-41 process rather than the Eastman Color Negative process. Beta testing of Cinestill Film's \"800Tungsten Xpro C-41\" began in late 2012, the film is based on Kodak's \"Vision 3 5219\" motion picture cinema film. Although the \"Vision 3 5219\" film is normally rated for 500ISO, the conversion to C-41 processing allows the film to be rated at 800ISO."
+}

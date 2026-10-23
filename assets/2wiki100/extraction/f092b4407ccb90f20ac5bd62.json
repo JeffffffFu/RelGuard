@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Thorsten Barg": "Person",
+    "Benjamin Barg": "Person",
+    "TSG Wörsdorf": "Organization"
+  },
+  "triples": [
+    {
+      "subject": "Thorsten Barg",
+      "relation": "plays_for",
+      "object": "TSG Wörsdorf",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "currently is playing for TSG Wörsdorf"
+        }
+      ]
+    },
+    {
+      "subject": "Thorsten Barg",
+      "relation": "has_brother",
+      "object": "Benjamin Barg",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "His brother is Benjamin Barg"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Thorsten Barg",
+        "born_on",
+        "25 August 1986"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Thorsten Barg",
+        "located_in",
+        "Herrenberg"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Thorsten Barg",
+        "is_a",
+        "football player"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Thorsten Barg",
+        "is_a",
+        "playing-coach"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Thorsten Barg\nThorsten Barg( born 25 August 1986 in Herrenberg) is a German football player, who currently is playing for TSG Wörsdorf as a playing- coach. His brother is Benjamin Barg."
+}

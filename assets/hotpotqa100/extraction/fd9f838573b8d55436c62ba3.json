@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Nicholas Barnewall": "Person",
+    "3rd Viscount Barnewall": "Title",
+    "Ireland": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Nicholas Barnewall",
+      "relation": "held_title",
+      "object": "3rd Viscount Barnewall",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Nicholas Barnewall, 3rd Viscount Barnewall"
+        }
+      ]
+    },
+    {
+      "subject": "Nicholas Barnewall",
+      "relation": "was_nobleman_in",
+      "object": "Ireland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was an Irish nobleman"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Nicholas Barnewall",
+        "born_on",
+        "15 April 1668"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Nicholas Barnewall",
+        "died_on",
+        "14 June 1725"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Nicholas Barnewall, 3rd Viscount Barnewall\nNicholas Barnewall, 3rd Viscount Barnewall (15 April 1668 – 14 June 1725) was an Irish nobleman."
+}

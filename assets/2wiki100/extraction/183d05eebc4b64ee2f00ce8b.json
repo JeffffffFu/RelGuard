@@ -1,0 +1,126 @@
+{
+  "entities": {
+    "Phoolwari": "WORK_OF_ART",
+    "Chaturbhuj Doshi": "PERSON",
+    "Ranjit Studios": "ORG",
+    "Motilal": "PERSON",
+    "Hansraj Behl": "PERSON",
+    "Pandit Indra": "PERSON",
+    "Khursheed": "PERSON",
+    "Madhubala": "PERSON",
+    "Dixit": "PERSON",
+    "Nazira": "PERSON",
+    "Tiwari": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Phoolwari",
+      "relation": "directed_by",
+      "object": "Chaturbhuj Doshi",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film was directed by Chaturbhuj Doshi for Ranjit Studios"
+        }
+      ]
+    },
+    {
+      "subject": "Phoolwari",
+      "relation": "produced_by",
+      "object": "Ranjit Studios",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film was directed by Chaturbhuj Doshi for Ranjit Studios"
+        }
+      ]
+    },
+    {
+      "subject": "Phoolwari",
+      "relation": "features",
+      "object": "Motilal",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is cited as one of the important films of actor Motilal."
+        }
+      ]
+    },
+    {
+      "subject": "Phoolwari",
+      "relation": "composed_by",
+      "object": "Hansraj Behl",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Music was composed by Hansraj Behl"
+        }
+      ]
+    },
+    {
+      "subject": "Phoolwari",
+      "relation": "lyricist",
+      "object": "Pandit Indra",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the lyricist was Pandit Indra."
+        }
+      ]
+    },
+    {
+      "subject": "Phoolwari",
+      "relation": "co_stars",
+      "object": "Khursheed",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Motilal's co-stars in the film were Khursheed"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Phoolwari",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Phoolwari",
+        "co_stars",
+        "Madhubala"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Phoolwari",
+        "co_stars",
+        "Dixit"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Phoolwari",
+        "co_stars",
+        "Nazira"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Phoolwari",
+        "co_stars",
+        "Tiwari"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Phoolwari\nPhoolwari( The Bower) is a 1946 Indian Bollywood film. It was the third highest grossing Indian film of 1946. The film was directed by Chaturbhuj Doshi for Ranjit Studios and is cited as one of the important films of actor Motilal. Music was composed by Hansraj Behl, while the lyricist was Pandit Indra. Motilal's co-stars in the film were Khursheed, Madhubala, Dixit, Nazira and Tiwari."
+}

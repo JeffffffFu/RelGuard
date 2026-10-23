@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Fired Up": "TV series",
+    "NBC": "Network",
+    "Grammnet Productions": "Production Company",
+    "Sharon Lawrence": "Person",
+    "Leah Remini": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Fired Up",
+      "relation": "aired_on",
+      "object": "NBC",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "that aired on NBC"
+        }
+      ]
+    },
+    {
+      "subject": "Fired Up",
+      "relation": "produced_by",
+      "object": "Grammnet Productions",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first from Grammnet Productions"
+        }
+      ]
+    },
+    {
+      "subject": "Fired Up",
+      "relation": "starred",
+      "object": "Sharon Lawrence",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starred Sharon Lawrence as a self-centered promotions executive"
+        }
+      ]
+    },
+    {
+      "subject": "Sharon Lawrence",
+      "relation": "worked_with",
+      "object": "Leah Remini",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the pair got fired from their jobs"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Fired Up",
+        "starred",
+        "Leah Remini"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Fired Up (TV series)\nFired Up is an American sitcom that aired on NBC for two seasons and 28 episodes. The series, the first from Grammnet Productions, starred Sharon Lawrence as a self-centered promotions executive and Leah Remini as her mouthy assistant. When the pair got fired from their jobs, they teamed up to create a business as equal partners. The tagline of the series was \"\"First she got fired, then she got fired up.\"\""
+}

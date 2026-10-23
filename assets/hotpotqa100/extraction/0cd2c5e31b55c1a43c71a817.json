@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Thomas Kolb": "Person",
+    "Columbia University College of Physicians and Surgeons": "Organization",
+    "Albert Einstein College of Medicine": "Organization",
+    "Columbia-Presbyterian Medical Center": "Organization",
+    "Bronx, New York": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Thomas Kolb",
+      "relation": "works_for",
+      "object": "Columbia University College of Physicians and Surgeons",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "assistant clinical professor of Radiology at Columbia University College of Physicians and Surgeons"
+        }
+      ]
+    },
+    {
+      "subject": "Thomas Kolb",
+      "relation": "trained_at",
+      "object": "Albert Einstein College of Medicine",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "received his training in pediatrics at the Albert Einstein College of Medicine"
+        }
+      ]
+    },
+    {
+      "subject": "Thomas Kolb",
+      "relation": "trained_at",
+      "object": "Columbia-Presbyterian Medical Center",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "in diagnostic radiology at the Columbia-Presbyterian Medical Center"
+        }
+      ]
+    },
+    {
+      "subject": "Albert Einstein College of Medicine",
+      "relation": "located_in",
+      "object": "Bronx, New York",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "at the Albert Einstein College of Medicine in Bronx, New York"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Thomas Kolb",
+        "specializes_in",
+        "breast cancer"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Thomas Kolb\nThomas M. Kolb, M.D., is an American radiologist specializing in the detection and diagnosis of breast cancer in young, predominantly hi-risk premenopausal women. He has serves as an assistant clinical professor of Radiology at Columbia University College of Physicians and Surgeons from 1994-2010. Dr. Kolb is double board certified, having received his training in pediatrics at the Albert Einstein College of Medicine in Bronx, New York, and in diagnostic radiology at the Columbia-Presbyterian Medical Center in New York."
+}

@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Richard Pottier": "PERSON",
+    "Austro-Hungarian Empire": "GPE",
+    "Ernst Deutsch": "PERSON",
+    "Graz": "GPE",
+    "Le Plessis-Bouchard": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Richard Pottier",
+      "relation": "born_in",
+      "object": "Austro-Hungarian Empire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "born in the Austro-Hungarian Empire"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "France (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Richard Pottier",
+        "also_known_as",
+        "Ernst Deutsch"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Richard Pottier",
+        "nationality",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Graz",
+        "located_in",
+        "Austria"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Le Plessis-Bouchard",
+        "located_in",
+        "France"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Richard Pottier\nRichard Pottier (6 June 1906, Graz – 2 November 1994, Le Plessis-Bouchard) was an Austrian-born French film director. He was born in the Austro-Hungarian Empire as Ernst Deutsch."
+}

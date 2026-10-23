@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "George Wallace": "film",
+    "Gary Sinise": "actor",
+    "John Frankenheimer": "director",
+    "Mare Winningham": "actor",
+    "Alabama": "location",
+    "Marshall Frady": "author"
+  },
+  "triples": [
+    {
+      "subject": "George Wallace",
+      "relation": "starring",
+      "object": "Gary Sinise",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Gary Sinise as George Wallace"
+        }
+      ]
+    },
+    {
+      "subject": "George Wallace",
+      "relation": "directed_by",
+      "object": "John Frankenheimer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It was directed by John Frankenheimer"
+        }
+      ]
+    },
+    {
+      "subject": "George Wallace",
+      "relation": "co_written_by",
+      "object": "Marshall Frady",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who also co-wrote the teleplay"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "John Frankenheimer",
+        "won",
+        "Emmy award"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "George Wallace",
+        "won",
+        "Emmys"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "George Wallace",
+        "based_on",
+        "Wallace : The Classic Portrait of Alabama Governor George Wallace"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Wallace : The Classic Portrait of Alabama Governor George Wallace",
+        "written_by",
+        "Marshall Frady"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "George Wallace (film)\nGeorge Wallace is a 1997 television film starring Gary Sinise as George Wallace, the former Governor of Alabama. It was directed by John Frankenheimer, who won an Emmy award for it; Sinise and Mare Winningham also won Emmys for their performances. The film was based on the 1996 biography \"Wallace : The Classic Portrait of Alabama Governor George Wallace\" by Marshall Frady, who also co-wrote the teleplay."
+}

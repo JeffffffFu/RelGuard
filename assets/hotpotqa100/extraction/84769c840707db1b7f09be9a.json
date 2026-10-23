@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Lee Valley Lions": "Team",
+    "Leyton": "Location",
+    "London": "Location",
+    "Lee Valley Ice Centre": "Venue",
+    "London Raiders": "Team",
+    "Lee Valley Junior Ice Hockey Club": "Team",
+    "Eastern Stars": "Team",
+    "London Devils": "Team",
+    "University of London Ice Hockey Club": "Team"
+  },
+  "triples": [
+    {
+      "subject": "Lee Valley Lions",
+      "relation": "located_in",
+      "object": "Leyton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "based in Leyton, east London"
+        }
+      ]
+    },
+    {
+      "subject": "Lee Valley Lions",
+      "relation": "plays_at",
+      "object": "Lee Valley Ice Centre",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "where they play at the Lee Valley Ice Centre"
+        }
+      ]
+    },
+    {
+      "subject": "Lee Valley Lions",
+      "relation": "shares_with",
+      "object": "London Raiders",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "which they share with the London Raiders"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "shares_with",
+        "Lee Valley Junior Ice Hockey Club"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "shares_with",
+        "Eastern Stars"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "shares_with",
+        "London Devils"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Lee Valley Lions",
+        "shares_with",
+        "University of London Ice Hockey Club"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Lee Valley Lions\nThe Lee Valley Lions are an ice hockey team based in Leyton, east London where they play at the Lee Valley Ice Centre. They are the senior Ice Hockey team at the rink which they share with the London Raiders, Lee Valley Junior Ice Hockey Club, Eastern Stars and London Devils recreational teams and, the University of London Ice hockey Club."
+}

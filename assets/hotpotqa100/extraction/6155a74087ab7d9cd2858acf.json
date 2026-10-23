@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "Linda Linda Linda": "WORK_OF_ART",
+    "Nobuhiro Yamashita": "PERSON",
+    "Bae Doona": "PERSON",
+    "Aki Maeda": "PERSON",
+    "Yu Kashii": "PERSON",
+    "Shiori Sekine": "PERSON",
+    "Base Ball Bear": "ORG",
+    "the Blue Hearts": "ORG",
+    "Paranmaum": "ORG",
+    "We Are Paranmaum": "WORK_OF_ART",
+    "Japan": "GPE",
+    "Korea": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Linda Linda Linda",
+      "relation": "directed_by",
+      "object": "Nobuhiro Yamashita",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "directed by",
+          "line_start": 57,
+          "char_start": 75,
+          "ambiguous": false,
+          "relation_mention": "directed by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Paranmaum",
+      "relation": "released",
+      "object": "We Are Paranmaum",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "released a CD single",
+          "line_start": 437,
+          "char_start": 455,
+          "ambiguous": false,
+          "relation_mention": "released a CD single",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Linda Linda Linda",
+        "stars",
+        "Bae Doona"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Linda Linda Linda",
+        "stars",
+        "Aki Maeda"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Linda Linda Linda",
+        "stars",
+        "Yu Kashii"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Linda Linda Linda",
+        "stars",
+        "Shiori Sekine"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Shiori Sekine",
+        "works_for",
+        "Base Ball Bear"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Linda Linda Linda",
+        "covers_songs_by",
+        "the Blue Hearts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "the Blue Hearts",
+        "has_song",
+        "Linda Linda Linda"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "A subtitled DVD",
+        "released_in",
+        "Japan"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Paranmaum",
+        "located_in",
+        "Japan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Paranmaum",
+        "located_in",
+        "Korea"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Paranmaum",
+        "means",
+        "the Blue Hearts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Linda Linda Linda\nLinda Linda Linda (リンダ リンダ リンダ ) is a 2005 Japanese film directed by Nobuhiro Yamashita. It stars Bae Doona, Aki Maeda, Yu Kashii, and Shiori Sekine (of the band Base Ball Bear) as teenagers who form a band to cover songs by the Japanese punk rock band the Blue Hearts; the film's title comes from the hit Blue Hearts song \"\"Linda Linda\"\". A subtitled DVD was released on May 8, 2007. The band, Paranmaum (Korean for \"the Blue Hearts\"), released a CD single in Japan and Korea titled \"We Are Paranmaum\".",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Linda Linda Linda\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Nobuhiro Yamashita\", \"type\": \"PERSON\"},\n    {\"name\": \"Bae Doona\", \"type\": \"PERSON\"},\n    {\"name\": \"Aki Maeda\", \"type\": \"PERSON\"},\n    {\"name\": \"Yu Kashii\", \"type\": \"PERSON\"},\n    {\"name\": \"Shiori Sekine\", \"type\": \"PERSON\"},\n    {\"name\": \"Base Ball Bear\", \"type\": \"ORG\"},\n    {\"name\": \"the Blue Hearts\", \"type\": \"ORG\"},\n    {\"name\": \"Paranmaum\", \"type\": \"ORG\"},\n    {\"name\": \"We Are Paranmaum\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Japan\", \"type\": \"GPE\"},\n    {\"name\": \"Korea\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Linda Linda Linda\",\n      \"relation\": \"directed_by\",\n      \"object\": \"Nobuhiro Yamashita\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"directed by\"}\n      ]\n    },\n    {\n      \"subject\": \"Linda Linda Linda\",\n      \"relation\": \"stars\",\n      \"object\": \"Bae Doona\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Linda Linda Linda\",\n      \"relation\": \"stars\",\n      \"object\": \"Aki Maeda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Linda Linda Linda\",\n      \"relation\": \"stars\",\n      \"object\": \"Yu Kashii\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Linda Linda Linda\",\n      \"relation\": \"stars\",\n      \"object\": \"Shiori Sekine\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"stars\"}\n      ]\n    },\n    {\n      \"subject\": \"Shiori Sekine\",\n      \"relation\": \"works_for\",\n      \"object\": \"Base Ball Bear\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of the band\"}\n      ]\n    },\n    {\n      \"subject\": \"Linda Linda Linda\",\n      \"relation\": \"covers_songs_by\",\n      \"object\": \"the Blue Hearts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"cover songs by\"}\n      ]\n    },\n    {\n      \"subject\": \"the Blue Hearts\",\n      \"relation\": \"has_song\",\n      \"object\": \"Linda Linda Linda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"song \\\"\\\"Linda Linda\\\"\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"A subtitled DVD\",\n      \"relation\": \"released_in\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released on\"}\n      ]\n    },\n    {\n      \"subject\": \"Paranmaum\",\n      \"relation\": \"released\",\n      \"object\": \"We Are Paranmaum\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"released a CD single\"}\n      ]\n    },\n    {\n      \"subject\": \"Paranmaum\",\n      \"relation\": \"located_in\",\n      \"object\": \"Japan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Japan\"}\n      ]\n    },\n    {\n      \"subject\": \"Paranmaum\",\n      \"relation\": \"located_in\",\n      \"object\": \"Korea\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and Korea\"}\n      ]\n    },\n    {\n      \"subject\": \"Paranmaum\",\n      \"relation\": \"means\",\n      \"object\": \"the Blue Hearts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"(Korean for \\\"the Blue Hearts\\\")\"}\n      ]\n    }\n  ]\n}"
+}

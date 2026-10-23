@@ -1,0 +1,125 @@
+{
+  "entities": {
+    "FAW-GM Light Duty Commercial Vehicle": "ORG",
+    "FAW Group": "ORG",
+    "General Motors": "ORG",
+    "Changchun": "GPE",
+    "China": "GPE",
+    "Harbin Light Vehicle factory": "FAC",
+    "FAW Hongta Yunnan Automobile Co Ltd": "ORG",
+    "FAW Harbin Light Duty Vehicle Co.": "ORG",
+    "FAW-GM Hongta Yunnan Automobile Manufacturing Co., Ltd.": "ORG",
+    "Changchun Plant": "FAC",
+    "Jie Fang": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "FAW-GM Light Duty Commercial Vehicle",
+      "relation": "located_in",
+      "object": "Changchun",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "headquartered in",
+          "line_start": 92,
+          "char_start": 99,
+          "ambiguous": false,
+          "relation_mention": "headquartered in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "FAW-GM Light Duty Commercial Vehicle",
+      "relation": "founded",
+      "object": "FAW-GM Light Duty Commercial Vehicle",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in",
+          "line_start": 198,
+          "char_start": 205,
+          "ambiguous": false,
+          "relation_mention": "founded in",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Changchun",
+        "located_in",
+        "China"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FAW-GM Light Duty Commercial Vehicle",
+        "works_for",
+        "FAW Group"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FAW-GM Light Duty Commercial Vehicle",
+        "works_for",
+        "General Motors"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FAW-GM Light Duty Commercial Vehicle",
+        "has_part",
+        "Harbin Light Vehicle factory"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FAW-GM Light Duty Commercial Vehicle",
+        "has_part",
+        "FAW Hongta Yunnan Automobile Co Ltd"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FAW-GM Light Duty Commercial Vehicle",
+        "has_part",
+        "FAW Harbin Light Duty Vehicle Co."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FAW-GM Light Duty Commercial Vehicle",
+        "has_part",
+        "FAW-GM Hongta Yunnan Automobile Manufacturing Co., Ltd."
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FAW-GM Light Duty Commercial Vehicle",
+        "has_part",
+        "Changchun Plant"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "FAW-GM Light Duty Commercial Vehicle",
+        "produces",
+        "Jie Fang"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "FAW-GM\nFAW-GM Light Duty Commercial Vehicle (FAW-GM) is a commercial vehicle manufacturing company headquartered in Changchun, China, and a 50:50 joint venture between FAW Group and General Motors. It was founded in 2009 and its activities include the Harbin Light Vehicle factory and FAW Hongta Yunnan Automobile Co Ltd. The plants were named as \"FAW Harbin Light Duty Vehicle Co.\", \"FAW-GM Hongta Yunnan Automobile Manufacturing Co., Ltd.\" and \"Changchun Plant\". The company builds \"Jie Fang\" pickups and light commercial vehicles, with the possibility of building models for GM to sell under their marques.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"FAW-GM Light Duty Commercial Vehicle\", \"type\": \"ORG\"},\n    {\"name\": \"FAW Group\", \"type\": \"ORG\"},\n    {\"name\": \"General Motors\", \"type\": \"ORG\"},\n    {\"name\": \"Changchun\", \"type\": \"GPE\"},\n    {\"name\": \"China\", \"type\": \"GPE\"},\n    {\"name\": \"Harbin Light Vehicle factory\", \"type\": \"FAC\"},\n    {\"name\": \"FAW Hongta Yunnan Automobile Co Ltd\", \"type\": \"ORG\"},\n    {\"name\": \"FAW Harbin Light Duty Vehicle Co.\", \"type\": \"ORG\"},\n    {\"name\": \"FAW-GM Hongta Yunnan Automobile Manufacturing Co., Ltd.\", \"type\": \"ORG\"},\n    {\"name\": \"Changchun Plant\", \"type\": \"FAC\"},\n    {\"name\": \"Jie Fang\", \"type\": \"PRODUCT\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"FAW-GM Light Duty Commercial Vehicle\",\n      \"relation\": \"located_in\",\n      \"object\": \"Changchun\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"headquartered in\"}\n      ]\n    },\n    {\n      \"subject\": \"Changchun\",\n      \"relation\": \"located_in\",\n      \"object\": \"China\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Changchun, China\"}\n      ]\n    },\n    {\n      \"subject\": \"FAW-GM Light Duty Commercial Vehicle\",\n      \"relation\": \"works_for\",\n      \"object\": \"FAW Group\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"between FAW Group and General Motors\"}\n      ]\n    },\n    {\n      \"subject\": \"FAW-GM Light Duty Commercial Vehicle\",\n      \"relation\": \"works_for\",\n      \"object\": \"General Motors\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"between FAW Group and General Motors\"}\n      ]\n    },\n    {\n      \"subject\": \"FAW-GM Light Duty Commercial Vehicle\",\n      \"relation\": \"founded\",\n      \"object\": \"FAW-GM Light Duty Commercial Vehicle\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in\"}\n      ]\n    },\n    {\n      \"subject\": \"FAW-GM Light Duty Commercial Vehicle\",\n      \"relation\": \"has_part\",\n      \"object\": \"Harbin Light Vehicle factory\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"include the Harbin Light Vehicle factory\"}\n      ]\n    },\n    {\n      \"subject\": \"FAW-GM Light Duty Commercial Vehicle\",\n      \"relation\": \"has_part\",\n      \"object\": \"FAW Hongta Yunnan Automobile Co Ltd\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"and FAW Hongta Yunnan Automobile Co Ltd\"}\n      ]\n    },\n    {\n      \"subject\": \"FAW-GM Light Duty Commercial Vehicle\",\n      \"relation\": \"has_part\",\n      \"object\": \"FAW Harbin Light Duty Vehicle Co.\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"named as \\\"FAW Harbin Light Duty Vehicle Co.\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"FAW-GM Light Duty Commercial Vehicle\",\n      \"relation\": \"has_part\",\n      \"object\": \"FAW-GM Hongta Yunnan Automobile Manufacturing Co., Ltd.\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"\\\"FAW-GM Hongta Yunnan Automobile Manufacturing Co., Ltd.\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"FAW-GM Light Duty Commercial Vehicle\",\n      \"relation\": \"has_part\",\n      \"object\": \"Changchun Plant\",\n      \"occurrences\": [\n        {\"line\": 3, \"predicate\": \"\\\"Changchun Plant\\\"\"}\n      ]\n    },\n    {\n      \"subject\": \"FAW-GM Light Duty Commercial Vehicle\",\n      \"relation\": \"produces\",\n      \"object\": \"Jie Fang\",\n      \"occurrences\": [\n        {\"line\": 4, \"predicate\": \"builds \\\"Jie Fang\\\" pickups\"}\n      ]\n    }\n  ]\n}"
+}

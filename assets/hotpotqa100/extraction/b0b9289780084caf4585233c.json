@@ -1,0 +1,74 @@
+{
+  "entities": {
+    "Kevin Ogle": "Person",
+    "KFOR-TV": "Organization",
+    "Linda Cavanaugh": "Person",
+    "KAUT-TV": "Organization",
+    "Mike Turpen": "Person",
+    "Kirk Humphreys": "Person",
+    "Oklahoma City": "Location",
+    "Oklahoma": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Kevin Ogle",
+      "relation": "works_for",
+      "object": "KFOR-TV",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a news anchor for KFOR-TV (channel 4), the NBC affiliate in Oklahoma City, Oklahoma."
+        }
+      ]
+    },
+    {
+      "subject": "Kevin Ogle",
+      "relation": "anchors",
+      "object": "KFOR-TV",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Kevin anchors the station's weeknight 6 and 10 p.m. newscasts"
+        }
+      ]
+    },
+    {
+      "subject": "Kevin Ogle",
+      "relation": "fills_in_as_anchor",
+      "object": "KAUT-TV",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "occasionally fills in as anchor of the 9 p.m. newscast on Independent station KAUT-TV."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Kevin Ogle",
+        "serves_as_moderator",
+        "Flashpoint"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Flashpoint",
+        "has_panelists",
+        "Mike Turpen"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Flashpoint",
+        "has_panelists",
+        "Kirk Humphreys"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Kevin Ogle\nKevin Ogle is a news anchor for KFOR-TV (channel 4), the NBC affiliate in Oklahoma City, Oklahoma. Kevin anchors the station's weeknight 6 and 10 p.m. newscasts with Linda Cavanaugh, does occasional reports including the \"Bottom Line\" financial segments seen during the station's 6:30 p.m. newscast, and occasionally fills in as anchor of the 9 p.m. newscast on Independent station KAUT-TV. Ogle also serves as moderator of the locally-produced Sunday morning political affairs talk show \"Flashpoint\", alongside panelists Mike Turpen and former Oklahoma City mayor Kirk Humphreys."
+}

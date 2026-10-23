@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Cinema of Korea": "WORK_OF_ART",
+    "North Korea": "GPE",
+    "South Korea": "GPE",
+    "Korean War": "EVENT",
+    "Joseon dynasty": "EVENT"
+  },
+  "triples": [
+    {
+      "subject": "Cinema of Korea",
+      "relation": "encompasses",
+      "object": "North Korea",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The term \"Cinema of Korea\" (or \"Korean cinema\") encompasses the motion picture industries of North and South Korea."
+        }
+      ]
+    },
+    {
+      "subject": "Cinema of Korea",
+      "relation": "encompasses",
+      "object": "South Korea",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The term \"Cinema of Korea\" (or \"Korean cinema\") encompasses the motion picture industries of North and South Korea."
+        }
+      ]
+    },
+    {
+      "subject": "Korean War",
+      "relation": "is_related_to",
+      "object": "Joseon dynasty",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "from the late Joseon dynasty to the Korean War"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "North Korea",
+        "portrays",
+        "communist themes"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "South Korea",
+        "achieved",
+        "wide international acclaim"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Cinema of Korea\nThe term \"Cinema of Korea\" (or \"Korean cinema\") encompasses the motion picture industries of North and South Korea. As with all aspects of Korean life during the past century, the film industry has often been at the mercy of political events, from the late Joseon dynasty to the Korean War to domestic governmental interference. While both countries have relatively robust film industries today, only South Korean films have achieved wide international acclaim. North Korean films tend to portray their communist or revolutionary themes."
+}

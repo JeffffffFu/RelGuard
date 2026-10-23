@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Walter Bernard": "PERSON",
+    "National Football League": "ORG",
+    "University of New Mexico": "ORG",
+    "San Diego Chargers": "ORG",
+    "Indianapolis Colts": "ORG",
+    "Seattle Seahawks": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Walter Bernard",
+      "relation": "played_for_college",
+      "object": "University of New Mexico",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "played college football for",
+          "line_start": 163,
+          "char_start": 178,
+          "ambiguous": false,
+          "relation_mention": "played college football for",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Walter Bernard",
+        "played_in_league",
+        "National Football League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Walter Bernard",
+        "signed_by",
+        "San Diego Chargers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Walter Bernard",
+        "played_for",
+        "San Diego Chargers"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Walter Bernard",
+        "played_for",
+        "Indianapolis Colts"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Walter Bernard",
+        "played_for",
+        "Seattle Seahawks"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Walter Bernard\nWalter Bernard (born May 3, 1978) is a former American college and professional football player who was a defensive back in the National Football League (NFL). He played college football for the University of New Mexico. He played professionally from 2001 to 2005. He was signed by the San Diego Chargers as an undrafted free agent in 2001. He played professionally for the Chargers, Indianapolis Colts and Seattle Seahawks of the NFL.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Walter Bernard\", \"type\": \"PERSON\"},\n    {\"name\": \"National Football League\", \"type\": \"ORG\"},\n    {\"name\": \"University of New Mexico\", \"type\": \"ORG\"},\n    {\"name\": \"San Diego Chargers\", \"type\": \"ORG\"},\n    {\"name\": \"Indianapolis Colts\", \"type\": \"ORG\"},\n    {\"name\": \"Seattle Seahawks\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Walter Bernard\",\n      \"relation\": \"played_for_college\",\n      \"object\": \"University of New Mexico\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played college football for\"}\n      ]\n    },\n    {\n      \"subject\": \"Walter Bernard\",\n      \"relation\": \"played_in_league\",\n      \"object\": \"National Football League\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was a defensive back in the National Football League (NFL)\"}\n      ]\n    },\n    {\n      \"subject\": \"Walter Bernard\",\n      \"relation\": \"signed_by\",\n      \"object\": \"San Diego Chargers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was signed by the San Diego Chargers\"}\n      ]\n    },\n    {\n      \"subject\": \"Walter Bernard\",\n      \"relation\": \"played_for\",\n      \"object\": \"San Diego Chargers\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played professionally for the Chargers\"}\n      ]\n    },\n    {\n      \"subject\": \"Walter Bernard\",\n      \"relation\": \"played_for\",\n      \"object\": \"Indianapolis Colts\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played professionally for the Chargers, Indianapolis Colts\"}\n      ]\n    },\n    {\n      \"subject\": \"Walter Bernard\",\n      \"relation\": \"played_for\",\n      \"object\": \"Seattle Seahawks\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"played professionally for the Chargers, Indianapolis Colts and Seattle Seahawks\"}\n      ]\n    }\n  ]\n}"
+}

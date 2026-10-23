@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "Inner Mongolia First Machinery Group Corporation": "ORG",
+    "China": "GPE",
+    "PLA Army": "ORG",
+    "Inner Mongolia": "GPE",
+    "Factory 617": "FAC",
+    "Baotou Tank Plant": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Inner Mongolia First Machinery Group Corporation",
+      "relation": "located_in",
+      "object": "Inner Mongolia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is a facility in Inner Mongolia"
+        }
+      ]
+    },
+    {
+      "subject": "Inner Mongolia First Machinery Group Corporation",
+      "relation": "supplies",
+      "object": "PLA Army",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "supplier of various military equipment to the PLA Army"
+        }
+      ]
+    },
+    {
+      "subject": "Inner Mongolia First Machinery Group Corporation",
+      "relation": "known_as",
+      "object": "Factory 617",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "has also been known as Factory 617"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Inner Mongolia First Machinery Group Corporation",
+        "known_as",
+        "Baotou Tank Plant"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Inner Mongolia First Machinery Group Corporation",
+        "previously_known_as",
+        "First Inner Mongolia Machinery Factory"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Inner Mongolia First Machinery Group Corporation\nInner Mongolia First Machinery Group Corporation (内蒙古第一机械集团有限公司, abbrev. 一机), previously First Inner Mongolia Machinery Factory, is a military manufacturing company in China. It is a facility in Inner Mongolia and supplier of various military equipment to the PLA Army. It has also been known as Factory 617 (六一七厂) and the Baotou Tank Plant."
+}

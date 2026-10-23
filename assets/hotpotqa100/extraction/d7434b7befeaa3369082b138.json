@@ -1,0 +1,131 @@
+{
+  "entities": {
+    "Operation Woodrose": "EVENT",
+    "Indira Gandhi": "PERSON",
+    "Indian government": "ORG",
+    "Operation Blue Star": "EVENT",
+    "Punjab": "GPE",
+    "Akali Dal": "ORG",
+    "All India Sikh Students Federation": "ORG",
+    "Indian Army": "ORG",
+    "Sikhs": "NORP",
+    "Punjab region": "LOC",
+    "human-rights groups": "ORG",
+    "civil liberties": "LAW",
+    "habeas corpus": "LAW"
+  },
+  "triples": [
+    {
+      "subject": "Operation Woodrose",
+      "relation": "carried_out_by",
+      "object": "Indian government",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "was a military operation carried out by the Indira Gandhi-led Indian government"
+        }
+      ]
+    },
+    {
+      "subject": "Operation Woodrose",
+      "relation": "after",
+      "object": "Operation Blue Star",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the months after Operation Blue Star"
+        }
+      ]
+    },
+    {
+      "subject": "Indian government",
+      "relation": "located_in",
+      "object": "Punjab",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in the state of Punjab"
+        }
+      ]
+    },
+    {
+      "subject": "Indian government",
+      "relation": "arrested",
+      "object": "Akali Dal",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The government arrested all prominent members of the largest Sikh political party, the Akali Dal"
+        }
+      ]
+    },
+    {
+      "subject": "Indian government",
+      "relation": "banned",
+      "object": "All India Sikh Students Federation",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "and banned the All India Sikh Students Federation"
+        }
+      ]
+    },
+    {
+      "subject": "Indian Army",
+      "relation": "conducted_operations_in",
+      "object": "Punjab region",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the Indian Army conducted operations in the countryside"
+        }
+      ]
+    },
+    {
+      "subject": "Operation Woodrose",
+      "relation": "criticized_by",
+      "object": "human-rights groups",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "the operation was criticized by human-rights groups"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Sikhs",
+        "detained_for",
+        "interrogation"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Operation Woodrose",
+        "resulted_in",
+        "disappearances of thousands of Sikh men"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "central government",
+        "criticized_for",
+        "draconian legislation"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "draconian legislation",
+        "to_repress",
+        "minority community"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Operation Woodrose\nOperation Woodrose was a military operation carried out by the Indira Gandhi-led Indian government in the months after Operation Blue Star to \"prevent the outbreak of widespread public protest\" in the state of Punjab. The government arrested all prominent members of the largest Sikh political party, the Akali Dal, and banned the All India Sikh Students Federation, a large students' union. In addition, the Indian Army conducted operations in the countryside during which thousands of Sikhs, overwhelmingly young men, were detained for interrogation and subsequently tortured. Despite its purported success in controlling the armed insurgency in the Punjab region, the operation was criticized by human-rights groups for the suspension of civil liberties and habeas corpus, resulting in the disappearances of thousands of Sikh men. After the operation, the central government was criticized for using \"draconian legislation\" to repress a minority community."
+}

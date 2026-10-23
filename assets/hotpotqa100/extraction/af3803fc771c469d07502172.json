@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Bolton": "town",
+    "Greater Manchester": "region",
+    "Flemish weavers": "group",
+    "Industrial Revolution": "event",
+    "British cotton industry": "industry"
+  },
+  "triples": [
+    {
+      "subject": "Bolton",
+      "relation": "located_in",
+      "object": "Greater Manchester",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Bolton ( or locally ] ) is a town in Greater Manchester in North West England."
+        }
+      ]
+    },
+    {
+      "subject": "Flemish weavers",
+      "relation": "settled_in",
+      "object": "Bolton",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "since Flemish weavers settled in the area in the 14th century"
+        }
+      ]
+    },
+    {
+      "subject": "Bolton",
+      "relation": "coincided_with",
+      "object": "Industrial Revolution",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "The urbanisation and development of the town largely coincided with the introduction of textile manufacture during the Industrial Revolution."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bolton",
+        "has_been_a",
+        "production centre for textiles"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bolton",
+        "was_a",
+        "19th-century boomtown"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Bolton",
+        "made_it_one_of",
+        "largest and most productive centres of cotton spinning in the world"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "British cotton industry",
+        "declined_after",
+        "First World War"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "cotton manufacture",
+        "ceased_in",
+        "Bolton"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bolton\nBolton ( or locally ] ) is a town in Greater Manchester in North West England. A former mill town, Bolton has been a production centre for textiles since Flemish weavers settled in the area in the 14th century, introducing a wool and cotton-weaving tradition. The urbanisation and development of the town largely coincided with the introduction of textile manufacture during the Industrial Revolution. Bolton was a 19th-century boomtown, and at its zenith in 1929 its 216 cotton mills and 26 bleaching and dyeing works made it one of the largest and most productive centres of cotton spinning in the world. The British cotton industry declined sharply after the First World War, and by the 1980s cotton manufacture had virtually ceased in Bolton."
+}

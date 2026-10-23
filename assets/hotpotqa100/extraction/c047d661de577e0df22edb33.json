@@ -1,0 +1,208 @@
+{
+  "entities": {
+    "Braathens SAFE": "ORG",
+    "European Economic Area": "LOC",
+    "Scandinavian Airlines System": "ORG",
+    "Oslo Stock Exchange": "ORG",
+    "Oslo Airport, Fornebu": "FAC",
+    "Bodø": "GPE",
+    "Harstad/Narvik": "GPE",
+    "Tromsø": "GPE",
+    "Bergen": "GPE",
+    "Rome": "GPE",
+    "Nice": "GPE",
+    "Jersey": "GPE",
+    "Transwede": "ORG",
+    "Stockholm": "GPE",
+    "KLM": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "Braathens SAFE",
+      "relation": "was_deregulated_on",
+      "object": "European Economic Area",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was deregulated on",
+          "line_start": 33,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "was deregulated on",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Braathens SAFE",
+      "relation": "rejected",
+      "object": "Scandinavian Airlines System",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "rejected a proposal from the main competitor Scandinavian Airlines System (SAS) for a merger",
+          "line_start": 190,
+          "char_start": 223,
+          "ambiguous": false,
+          "relation_mention": "rejected a proposal from the main competitor Scandinavian Airlines System (SAS) for a merger",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Braathens SAFE",
+      "relation": "bought",
+      "object": "Transwede",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "bought Sweden's second-largest airline, Transwede",
+          "line_start": 609,
+          "char_start": 642,
+          "ambiguous": false,
+          "relation_mention": "bought Sweden's second-largest airline, Transwede",
+          "sentence_id": 6
+        }
+      ]
+    },
+    {
+      "subject": "Transwede",
+      "relation": "was_merged_into",
+      "object": "Braathens SAFE",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was merged into Braathens SAFE",
+          "line_start": 770,
+          "char_start": 803,
+          "ambiguous": false,
+          "relation_mention": "was merged into Braathens SAFE",
+          "sentence_id": 7
+        }
+      ]
+    },
+    {
+      "subject": "KLM",
+      "relation": "bought",
+      "object": "Braathens SAFE",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "bought 30% of Braathens SAFE",
+          "line_start": 821,
+          "char_start": 854,
+          "ambiguous": false,
+          "relation_mention": "bought 30% of Braathens SAFE",
+          "sentence_id": 8
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "any airline within the European Economic Area",
+        "free_to_operate",
+        "domestic or international route"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "the helicopter division",
+        "was_sold",
+        "the company"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "the company",
+        "listed_on",
+        "Oslo Stock Exchange"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "New routes",
+        "were_opened_from",
+        "Oslo Airport, Fornebu"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "New routes",
+        "served",
+        "Bodø"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "New routes",
+        "served",
+        "Harstad/Narvik"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "New routes",
+        "served",
+        "Tromsø"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "the routes from Bergen",
+        "were_terminated",
+        "these cities"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "International routes",
+        "were_introduced_to",
+        "Rome"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "International routes",
+        "were_introduced_to",
+        "Nice"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "International routes",
+        "were_introduced_to",
+        "Jersey"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Braathens SAFE",
+        "started_flying_on",
+        "Oslo–Stockholm route"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "the airlines",
+        "started",
+        "a partnership"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "History of Braathens (1994–2004)\nBraathens SAFE's domestic market was deregulated on 1 April 1994. Since then, any airline within the European Economic Area is free to operate any domestic or international route. Braathens rejected a proposal from the main competitor Scandinavian Airlines System (SAS) for a merger; instead the helicopter division was sold and the company listed on the Oslo Stock Exchange. New routes were opened from Oslo Airport, Fornebu to Bodø, Harstad/Narvik and Tromsø, but the routes from Bergen to these cities were terminated. International routes to Rome, Nice and Jersey were introduced. In 1996, Braathens SAFE bought Sweden's second-largest airline, Transwede, and started flying on the Oslo–Stockholm route. The following year, Transwede, with its five domestic routes, was merged into Braathens SAFE. The same year, KLM bought 30% of Braathens SAFE and the airlines started a partnership."
+}

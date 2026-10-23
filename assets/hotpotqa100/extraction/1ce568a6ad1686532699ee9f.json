@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Maianthemum": "genus",
+    "North America": "region",
+    "Europe": "region",
+    "Asia": "region"
+  },
+  "triples": [
+    {
+      "subject": "Maianthemum",
+      "relation": "native_to",
+      "object": "North America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is widespread across much of North America, Europe and Asia."
+        }
+      ]
+    },
+    {
+      "subject": "Maianthemum",
+      "relation": "native_to",
+      "object": "Europe",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is widespread across much of North America, Europe and Asia."
+        }
+      ]
+    },
+    {
+      "subject": "Maianthemum",
+      "relation": "native_to",
+      "object": "Asia",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It is widespread across much of North America, Europe and Asia."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Maianthemum",
+        "is_a",
+        "genus"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Maianthemum\nMaianthemum (Latin \"Māia \" \"May\" and Greek \"ánthemon \" \"flower\"; including former \"Smilacina\") is a genus of rhizomatous, herbaceous, perennial flowering plants, native to the understory of woodlands. It is widespread across much of North America, Europe and Asia."
+}

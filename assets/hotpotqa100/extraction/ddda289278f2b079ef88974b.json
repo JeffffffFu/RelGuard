@@ -1,0 +1,122 @@
+{
+  "entities": {
+    "CIO-Plus": "WORK_OF_ART",
+    "Peter High": "PERSON",
+    "Forbes": "ORG",
+    "World Class IT": "WORK_OF_ART",
+    "chief information officer": "PERSON",
+    "chief innovation officer": "PERSON",
+    "chief improvement officer": "PERSON",
+    "head of business transformation": "PERSON",
+    "Senior Vice President – Technology, Logistics and Customer Service": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "CIO-Plus",
+      "relation": "coined_by",
+      "object": "Peter High",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is coined by",
+          "line_start": 29,
+          "char_start": 38,
+          "ambiguous": false,
+          "relation_mention": "is coined by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Peter High",
+      "relation": "works_for",
+      "object": "Forbes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "a columnist for",
+          "line_start": 54,
+          "char_start": 63,
+          "ambiguous": false,
+          "relation_mention": "a columnist for",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Peter High",
+      "relation": "authored",
+      "object": "World Class IT",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "author of the book",
+          "line_start": 81,
+          "char_start": 90,
+          "ambiguous": false,
+          "relation_mention": "author of the book",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "CIO-Plus",
+      "relation": "signifies",
+      "object": "chief information officer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "signifies the growing trend that chief information officers",
+          "line_start": 122,
+          "char_start": 131,
+          "ambiguous": false,
+          "relation_mention": "signifies the growing trend that chief information officers",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "chief information officer",
+      "relation": "also_known_as",
+      "object": "chief innovation officer",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "such as \"chief innovation officer\"",
+          "line_start": 312,
+          "char_start": 321,
+          "ambiguous": false,
+          "relation_mention": "such as \"chief innovation officer\"",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "chief information officer",
+        "also_known_as",
+        "chief improvement officer"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "chief information officer",
+        "also_known_as",
+        "head of business transformation"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "chief information officer",
+        "also_known_as",
+        "Senior Vice President – Technology, Logistics and Customer Service"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "CIO-plus\nCIO-Plus is a movement which is coined by Peter High, a columnist for Forbes and author of the book World Class IT, which signifies the growing trend that chief information officers, usually the heads of the IT function of companies, are increasingly taking on titles in addition to \"chief information officer\", such as \"chief innovation officer\", \"chief improvement officer\", \"head of business transformation\" and \"Senior Vice President – Technology, Logistics and Customer Service\"."
+}

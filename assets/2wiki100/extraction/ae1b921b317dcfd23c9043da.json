@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Hubba bint Hulail": "Person",
+    "Hashim ibn Abd Manaf": "Person",
+    "Muhammad ibn Abdullah": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Hubba bint Hulail",
+      "relation": "grandmother_of",
+      "object": "Hashim ibn Abd Manaf",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Hubba bint Hulail was the grandmother of Hashim ibn' Abd Manaf"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Hashim ibn Abd Manaf",
+        "great_great_great_grandfather_of",
+        "Muhammad ibn Abdullah"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Hubba bint Hulail\nHubba bint Hulail was the grandmother of Hashim ibn' Abd Manaf, thus the great- great- great- grandmother of the Islamic\" Nabī\"( Prophet) Muhammad ibn Abdullah."
+}

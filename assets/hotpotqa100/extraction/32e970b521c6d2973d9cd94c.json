@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "Main Street Bridge": "structure",
+    "Charles City": "location",
+    "Iowa": "location",
+    "Cedar River": "river",
+    "Floyd County Board of Supervisors": "organization",
+    "Advance Construction Company": "organization",
+    "Waukesha": "location",
+    "G.W. Miller": "person",
+    "National Register of Historic Places": "organization"
+  },
+  "triples": [
+    {
+      "subject": "Main Street Bridge",
+      "relation": "located_in",
+      "object": "Charles City",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in Charles City, Iowa, United States"
+        }
+      ]
+    },
+    {
+      "subject": "Main Street Bridge",
+      "relation": "spans",
+      "object": "Cedar River",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "spans the Cedar River"
+        }
+      ]
+    },
+    {
+      "subject": "Main Street Bridge",
+      "relation": "listed_on",
+      "object": "National Register of Historic Places",
+      "occurrences": [
+        {
+          "sentence_id": 10,
+          "relation_mention": "was listed on the National Register of Historic Places in 1999"
+        }
+      ]
+    },
+    {
+      "subject": "Advance Construction Company",
+      "relation": "located_in",
+      "object": "Waukesha",
+      "occurrences": [
+        {
+          "sentence_id": 8,
+          "relation_mention": "Advance Construction Company of Waukesha, Wisconsin"
+        }
+      ]
+    },
+    {
+      "subject": "Main Street Bridge",
+      "relation": "designed_by",
+      "object": "G.W. Miller",
+      "occurrences": [
+        {
+          "sentence_id": 8,
+          "relation_mention": "was designed by their designing engineer G.W. Miller"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Main Street Bridge",
+        "completed_in",
+        "1910"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Floyd County Board of Supervisors",
+        "approved",
+        "replacement bridge"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Advance Construction Company",
+        "awarded_contract",
+        "contract"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Main Street Bridge (Charles City, Iowa)\nThe Main Street Bridge is a historic structure located in Charles City, Iowa, United States. It spans the Cedar River for 248 ft . Before a bridge was built at this location local citizens would cross the river by way of a ferry, at a ford in summer, and across the ice in winter. The first bridge at this location was washed away in a flood while it was under construction in 1858. The second bridge was completed in 1864, and it was destroyed in a flood two years later. A temporary bridge was completed in 1867, and it was replaced by a truss bridge in 1870. It was used for 40 years despite an engineer's study in 1892 that suggested it be condemned. The Floyd County Board of Supervisors approved a replacement bridge in 1908. The old bridge was moved to a new spot five blocks downstream, but contract problems delayed construction of the new bridge. Advance Construction Company of Waukesha, Wisconsin was finally awarded a contract in March 1909. The three span concrete filled spandrel arch bridge was designed by their designing engineer G.W. Miller. It was completed in 1910 for about $40,000, which was paid for by the county and the city. The bridge was listed on the National Register of Historic Places in 1999."
+}

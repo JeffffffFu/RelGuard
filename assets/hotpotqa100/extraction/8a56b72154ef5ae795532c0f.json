@@ -1,0 +1,227 @@
+{
+  "entities": {
+    "MrJims.Pizza": "ORG",
+    "Farmers Branch": "GPE",
+    "Texas": "GPE",
+    "Jim Johnson": "PERSON",
+    "Detroit": "GPE",
+    "Michigan": "GPE",
+    "Louisiana": "GPE",
+    "North Carolina": "GPE",
+    "Nevada": "GPE",
+    "Wyoming": "GPE",
+    "northern Texas": "LOC",
+    "Nacho Stix": "PRODUCT"
+  },
+  "triples": [
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "located_in",
+      "object": "Farmers Branch",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is a U.S. chain of pizza restaurants based in",
+          "line_start": 13,
+          "char_start": 29,
+          "ambiguous": false,
+          "relation_mention": "is a U.S. chain of pizza restaurants based in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Farmers Branch",
+      "relation": "located_in",
+      "object": "Texas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "based in Farmers Branch, Texas",
+          "line_start": 50,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "based in Farmers Branch, Texas",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jim Johnson",
+      "relation": "founded",
+      "object": "MrJims.Pizza",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "opened the first restaurant in",
+          "line_start": 94,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "opened the first restaurant in",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Jim Johnson",
+      "relation": "located_in",
+      "object": "Detroit",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "opened the first restaurant in Detroit",
+          "line_start": 94,
+          "char_start": 110,
+          "ambiguous": false,
+          "relation_mention": "opened the first restaurant in Detroit",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Detroit",
+      "relation": "located_in",
+      "object": "Michigan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "Detroit, Michigan",
+          "line_start": 125,
+          "char_start": 141,
+          "ambiguous": false,
+          "relation_mention": "Detroit, Michigan",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "located_in",
+      "object": "Louisiana",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "locations in Louisiana, Texas, North Carolina, Nevada and Wyoming",
+          "line_start": 175,
+          "char_start": 191,
+          "ambiguous": false,
+          "relation_mention": "locations in Louisiana, Texas, North Carolina, Nevada and Wyoming",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "located_in",
+      "object": "Texas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "locations in Louisiana, Texas, North Carolina, Nevada and Wyoming",
+          "line_start": 175,
+          "char_start": 191,
+          "ambiguous": false,
+          "relation_mention": "locations in Louisiana, Texas, North Carolina, Nevada and Wyoming",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "located_in",
+      "object": "North Carolina",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "locations in Louisiana, Texas, North Carolina, Nevada and Wyoming",
+          "line_start": 175,
+          "char_start": 191,
+          "ambiguous": false,
+          "relation_mention": "locations in Louisiana, Texas, North Carolina, Nevada and Wyoming",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "located_in",
+      "object": "Nevada",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "locations in Louisiana, Texas, North Carolina, Nevada and Wyoming",
+          "line_start": 175,
+          "char_start": 191,
+          "ambiguous": false,
+          "relation_mention": "locations in Louisiana, Texas, North Carolina, Nevada and Wyoming",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "located_in",
+      "object": "Wyoming",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "locations in Louisiana, Texas, North Carolina, Nevada and Wyoming",
+          "line_start": 175,
+          "char_start": 191,
+          "ambiguous": false,
+          "relation_mention": "locations in Louisiana, Texas, North Carolina, Nevada and Wyoming",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "located_in",
+      "object": "northern Texas",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in northern Texas",
+          "line_start": 260,
+          "char_start": 276,
+          "ambiguous": false,
+          "relation_mention": "located in northern Texas",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "MrJims.Pizza",
+      "relation": "produces",
+      "object": "Nacho Stix",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "introduced a unique new item, Nacho Stix, to their menu",
+          "line_start": 532,
+          "char_start": 548,
+          "ambiguous": false,
+          "relation_mention": "introduced a unique new item, Nacho Stix, to their menu",
+          "sentence_id": 8
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "MrJims.Pizza",
+        "located_in",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Mr. Jim's Pizza\nMrJims.Pizza is a U.S. chain of pizza restaurants based in Farmers Branch, Texas. Jim Johnson opened the first restaurant in Detroit, Michigan in 1975. There are currently 42 locations in Louisiana, Texas, North Carolina, Nevada and Wyoming, with the majority located in northern Texas. MrJims.Pizza is widely known for their crust. Their hand stretched pizza dough is made fresh in the store daily from flour containing 100% spring wheat. Every single MrJims.Pizza franchise has online ordering capabilities. In 2006, MrJims.Pizza introduced a unique new item, Nacho Stix, to their menu. It quickly became one of their bestsellers, and lead to a resurgence in the popularity of MrJims."
+}

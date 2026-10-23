@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Alf Clausen": "PERSON",
+    "The Simpsons": "WORK_OF_ART",
+    "Moonlighting": "WORK_OF_ART",
+    "The Naked Gun": "WORK_OF_ART",
+    "ALF": "WORK_OF_ART",
+    "Ferris Bueller's Day Off": "WORK_OF_ART",
+    "American": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Alf Clausen",
+      "relation": "born_in",
+      "object": "American",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an American film and television composer."
+        }
+      ]
+    },
+    {
+      "subject": "The Simpsons",
+      "relation": "has_composer",
+      "object": "Alf Clausen",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "of which he had been the sole composer between 1990 and 2017."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Alf Clausen",
+        "composed_for",
+        "The Simpsons"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alf Clausen",
+        "composed_for",
+        "Moonlighting"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alf Clausen",
+        "composed_for",
+        "The Naked Gun"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alf Clausen",
+        "composed_for",
+        "ALF"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Alf Clausen",
+        "composed_for",
+        "Ferris Bueller's Day Off"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Alf Clausen\nAlf Heiberg Clausen (born March 28, 1941) is an American film and television composer. He is best known for his work scoring many episodes of \"The Simpsons\", of which he had been the sole composer between 1990 and 2017. Clausen has scored or orchestrated music for more than 30 films and television shows, including \"Moonlighting\", \"The Naked Gun\", \"ALF\" and \"Ferris Bueller's Day Off\"."
+}

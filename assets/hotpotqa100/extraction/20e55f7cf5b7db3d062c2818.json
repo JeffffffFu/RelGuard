@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "Veterinary physician": "PERSON",
+    "vet": "PERSON",
+    "veterinarian": "PERSON",
+    "veterinary surgeon": "PERSON",
+    "American English": "LANGUAGE",
+    "Australian English": "LANGUAGE",
+    "British English": "LANGUAGE"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Veterinary physician",
+        "also_called",
+        "vet"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "vet",
+        "shortened_from",
+        "veterinarian"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "vet",
+        "shortened_from",
+        "veterinary surgeon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "veterinarian",
+        "associated_with",
+        "American English"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "veterinarian",
+        "associated_with",
+        "Australian English"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "veterinary surgeon",
+        "associated_with",
+        "British English"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Veterinary physician",
+        "practices",
+        "veterinary surgeon"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Veterinary physician\nA veterinary physician, is usually called a vet, which is shortened from veterinarian (American English, Australian English) or veterinary surgeon (British English), which is a professional who practices veterinary medicine by treating diseases, disorders, and injuries in animals.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Veterinary physician\", \"type\": \"PERSON\"},\n    {\"name\": \"vet\", \"type\": \"PERSON\"},\n    {\"name\": \"veterinarian\", \"type\": \"PERSON\"},\n    {\"name\": \"veterinary surgeon\", \"type\": \"PERSON\"},\n    {\"name\": \"American English\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"Australian English\", \"type\": \"LANGUAGE\"},\n    {\"name\": \"British English\", \"type\": \"LANGUAGE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Veterinary physician\",\n      \"relation\": \"also_called\",\n      \"object\": \"vet\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is usually called a vet\"}\n      ]\n    },\n    {\n      \"subject\": \"vet\",\n      \"relation\": \"shortened_from\",\n      \"object\": \"veterinarian\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"which is shortened from veterinarian\"}\n      ]\n    },\n    {\n      \"subject\": \"vet\",\n      \"relation\": \"shortened_from\",\n      \"object\": \"veterinary surgeon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"which is shortened from veterinarian (American English, Australian English) or veterinary surgeon (British English)\"}\n      ]\n    },\n    {\n      \"subject\": \"veterinarian\",\n      \"relation\": \"associated_with\",\n      \"object\": \"American English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"veterinarian (American English\"}\n      ]\n    },\n    {\n      \"subject\": \"veterinarian\",\n      \"relation\": \"associated_with\",\n      \"object\": \"Australian English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"veterinarian (American English, Australian English\"}\n      ]\n    },\n    {\n      \"subject\": \"veterinary surgeon\",\n      \"relation\": \"associated_with\",\n      \"object\": \"British English\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"veterinary surgeon (British English)\"}\n      ]\n    },\n    {\n      \"subject\": \"Veterinary physician\",\n      \"relation\": \"practices\",\n      \"object\": \"veterinary surgeon\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"practices veterinary medicine\"}\n      ]\n    }\n  ]\n}"
+}

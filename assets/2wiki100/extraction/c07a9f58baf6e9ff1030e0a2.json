@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Il sogno di un giorno": "WORK_OF_ART",
+    "Augusto Genina": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "Il sogno di un giorno",
+      "relation": "directed_by",
+      "object": "Augusto Genina",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "directed by Augusto Genina"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Italy (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Il sogno di un giorno",
+        "located_in",
+        "Italy"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Il sogno di un giorno\nIl sogno di un giorno is a 1916 Italian film directed by Augusto Genina."
+}

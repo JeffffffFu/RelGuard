@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Phillip J. Roth": "Person",
+    "Unified Film Organization": "Organization",
+    "America": "Location",
+    "Bulgaria": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Phillip J. Roth",
+      "relation": "works_for",
+      "object": "Unified Film Organization",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is the founder of the Unified Film Organization"
+        }
+      ]
+    },
+    {
+      "subject": "Unified Film Organization",
+      "relation": "located_in",
+      "object": "America",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in America"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Phillip J. Roth",
+        "born_on",
+        "June 10, 1959"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Unified Film Organization",
+        "located_in",
+        "Bulgaria"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Phillip J. Roth\nPhillip J. Roth( born June 10, 1959) is an American film producer, director and screenwriter who is known for making low- budget films. He is the founder of the Unified Film Organization( UFO) in America and Bulgaria, which have released various action and science fiction films for television and home video markets."
+}

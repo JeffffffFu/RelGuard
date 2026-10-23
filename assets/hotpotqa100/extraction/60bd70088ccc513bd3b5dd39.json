@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "Masayoshi \"Masa\" Takayama": "PERSON",
+    "Kuroiso": "GPE",
+    "Tochigi": "GPE",
+    "Japan": "GPE",
+    "Masa": "ORG",
+    "Manhattan": "GPE",
+    "New York City": "GPE",
+    "Bar Masa": "ORG",
+    "Aria Resort & Casino": "FAC",
+    "Las Vegas Strip": "LOC",
+    "Paradise": "GPE",
+    "Nevada": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Masayoshi \"Masa\" Takayama",
+      "relation": "born_in",
+      "object": "Kuroiso",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "born 1 May 1954 in",
+          "line_start": 57,
+          "char_start": 71,
+          "ambiguous": false,
+          "relation_mention": "born 1 May 1954 in",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Masayoshi \"Masa\" Takayama",
+        "owner_of",
+        "Masa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Masa",
+        "located_in",
+        "Manhattan"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Masa",
+        "located_in",
+        "New York City"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Masayoshi \"Masa\" Takayama",
+        "owner_of",
+        "Bar Masa"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Bar Masa",
+        "located_in",
+        "Aria Resort & Casino"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Aria Resort & Casino",
+        "located_in",
+        "Las Vegas Strip"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Las Vegas Strip",
+        "located_in",
+        "Paradise"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Paradise",
+        "located_in",
+        "Nevada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Masa Takayama\nMasayoshi \"Masa\" Takayama (高山 雅氏 , Takayama Masayoshi ) (born 1 May 1954 in Kuroiso, Tochigi, Japan) is the chef and owner of Masa, a three-Michelin-starred Japanese and sushi restaurant in Manhattan, New York City. He is also owner of Bar Masa, with two locations: one adjacent to his New York City restaurant, and one in the Aria Resort & Casino on the Las Vegas Strip in Paradise, Nevada.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Masayoshi \\\"Masa\\\" Takayama\", \"type\": \"PERSON\"},\n    {\"name\": \"Kuroiso\", \"type\": \"GPE\"},\n    {\"name\": \"Tochigi\", \"type\": \"GPE\"},\n    {\"name\": \"Japan\", \"type\": \"GPE\"},\n    {\"name\": \"Masa\", \"type\": \"ORG\"},\n    {\"name\": \"Manhattan\", \"type\": \"GPE\"},\n    {\"name\": \"New York City\", \"type\": \"GPE\"},\n    {\"name\": \"Bar Masa\", \"type\": \"ORG\"},\n    {\"name\": \"Aria Resort & Casino\", \"type\": \"FAC\"},\n    {\"name\": \"Las Vegas Strip\", \"type\": \"LOC\"},\n    {\"name\": \"Paradise\", \"type\": \"GPE\"},\n    {\"name\": \"Nevada\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Masayoshi \\\"Masa\\\" Takayama\",\n      \"relation\": \"born_in\",\n      \"object\": \"Kuroiso\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"born 1 May 1954 in\"}\n      ]\n    },\n    {\n      \"subject\": \"Masayoshi \\\"Masa\\\" Takayama\",\n      \"relation\": \"owner_of\",\n      \"object\": \"Masa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owner of\"}\n      ]\n    },\n    {\n      \"subject\": \"Masa\",\n      \"relation\": \"located_in\",\n      \"object\": \"Manhattan\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in\"}\n      ]\n    },\n    {\n      \"subject\": \"Masa\",\n      \"relation\": \"located_in\",\n      \"object\": \"New York City\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Manhattan, New York City\"}\n      ]\n    },\n    {\n      \"subject\": \"Masayoshi \\\"Masa\\\" Takayama\",\n      \"relation\": \"owner_of\",\n      \"object\": \"Bar Masa\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"owner of\"}\n      ]\n    },\n    {\n      \"subject\": \"Bar Masa\",\n      \"relation\": \"located_in\",\n      \"object\": \"Aria Resort & Casino\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in the Aria Resort & Casino\"}\n      ]\n    },\n    {\n      \"subject\": \"Aria Resort & Casino\",\n      \"relation\": \"located_in\",\n      \"object\": \"Las Vegas Strip\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"on the Las Vegas Strip\"}\n      ]\n    },\n    {\n      \"subject\": \"Las Vegas Strip\",\n      \"relation\": \"located_in\",\n      \"object\": \"Paradise\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Paradise, Nevada\"}\n      ]\n    },\n    {\n      \"subject\": \"Paradise\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nevada\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Paradise, Nevada\"}\n      ]\n    }\n  ]\n}"
+}

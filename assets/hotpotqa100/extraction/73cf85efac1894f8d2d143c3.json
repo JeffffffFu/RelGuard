@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "Life Goes On": "WORK_OF_ART",
+    "Twisted Angel": "WORK_OF_ART",
+    "LeAnn Rimes": "PERSON",
+    "Billboard Hot Adult Contemporary Tracks": "WORK_OF_ART",
+    "Australia": "GPE",
+    "Netherlands": "GPE",
+    "Sweden": "GPE",
+    "New Zealand": "GPE",
+    "United Kingdom": "GPE",
+    "Norway": "GPE",
+    "New Orleans": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Life Goes On",
+      "relation": "recorded_and_released_by",
+      "object": "LeAnn Rimes",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "recorded and released by",
+          "line_start": 67,
+          "char_start": 99,
+          "ambiguous": false,
+          "relation_mention": "recorded and released by",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Life Goes On",
+      "relation": "peaked_at_position_in",
+      "object": "New Zealand",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "peaking at number 4",
+          "line_start": 392,
+          "char_start": 424,
+          "ambiguous": false,
+          "relation_mention": "peaking at number 4",
+          "sentence_id": 3
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "United States (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "Life Goes On",
+        "is_from_album",
+        "Twisted Angel"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Life Goes On",
+        "did_not_make_it_into_chart",
+        "United States"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Life Goes On",
+        "reached_position_on_chart",
+        "Billboard Hot Adult Contemporary Tracks"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Life Goes On",
+        "reached_top_10_in",
+        "Australia"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Life Goes On",
+        "reached_top_10_in",
+        "Netherlands"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Life Goes On",
+        "reached_top_10_in",
+        "Sweden"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Life Goes On",
+        "broke_top_5_in",
+        "New Zealand"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Life Goes On",
+        "peaked_within_top_20_in",
+        "United Kingdom"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Life Goes On",
+        "peaked_within_top_20_in",
+        "Norway"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Life Goes On",
+        "video_shot_in",
+        "New Orleans"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Life Goes On (LeAnn Rimes song)\n\"Life Goes On\" is the first single from the album \"Twisted Angel\", recorded and released by country singer LeAnn Rimes. The song did not make it into the Hot 100 in the US, but it did make number 9 on the \"Billboard\" Hot Adult Contemporary Tracks chart, and was a bigger hit outside America. It reached the top 10 in Australia, the Netherlands and Sweden, and broke the top 5 in New Zealand, peaking at number 4. It peaked within the top 20 in the United Kingdom and Norway. The video for the song was shot in New Orleans and received criticism because of Rimes' sexual clothing and moves. Fans were also against the song because it had a huge pop sound instead of the country music Rimes used to record. The song is about moving on and letting go of the past.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Life Goes On\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Twisted Angel\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"LeAnn Rimes\", \"type\": \"PERSON\"},\n    {\"name\": \"United States\", \"type\": \"GPE\"},\n    {\"name\": \"Billboard Hot Adult Contemporary Tracks\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Australia\", \"type\": \"GPE\"},\n    {\"name\": \"Netherlands\", \"type\": \"GPE\"},\n    {\"name\": \"Sweden\", \"type\": \"GPE\"},\n    {\"name\": \"New Zealand\", \"type\": \"GPE\"},\n    {\"name\": \"United Kingdom\", \"type\": \"GPE\"},\n    {\"name\": \"Norway\", \"type\": \"GPE\"},\n    {\"name\": \"New Orleans\", \"type\": \"GPE\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"is_from_album\",\n      \"object\": \"Twisted Angel\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"is the first single from the album\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"recorded_and_released_by\",\n      \"object\": \"LeAnn Rimes\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"recorded and released by\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"did_not_make_it_into_chart\",\n      \"object\": \"United States\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"did not make it into the Hot 100 in the US\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"reached_position_on_chart\",\n      \"object\": \"Billboard Hot Adult Contemporary Tracks\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"did make number 9 on the \\\"Billboard\\\" Hot Adult Contemporary Tracks chart\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"reached_top_10_in\",\n      \"object\": \"Australia\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"reached the top 10 in Australia\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"reached_top_10_in\",\n      \"object\": \"Netherlands\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"reached the top 10 in Australia, the Netherlands and Sweden\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"reached_top_10_in\",\n      \"object\": \"Sweden\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"reached the top 10 in Australia, the Netherlands and Sweden\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"broke_top_5_in\",\n      \"object\": \"New Zealand\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"broke the top 5 in New Zealand\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"peaked_at_position_in\",\n      \"object\": \"New Zealand\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"peaking at number 4\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"peaked_within_top_20_in\",\n      \"object\": \"United Kingdom\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"peaked within the top 20 in the United Kingdom\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"peaked_within_top_20_in\",\n      \"object\": \"Norway\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"peaked within the top 20 in the United Kingdom and Norway\"}\n      ]\n    },\n    {\n      \"subject\": \"Life Goes On\",\n      \"relation\": \"video_shot_in\",\n      \"object\": \"New Orleans\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was shot in New Orleans\"}\n      ]\n    }\n  ]\n}"
+}

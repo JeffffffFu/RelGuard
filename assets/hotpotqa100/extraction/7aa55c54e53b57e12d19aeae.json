@@ -1,0 +1,80 @@
+{
+  "entities": {
+    "No Animals Were Harmed": "WORK_OF_ART",
+    "Peter Laufer": "PERSON",
+    "Forbidden Creatures": "WORK_OF_ART",
+    "The Dangerous World of Butterflies": "WORK_OF_ART"
+  },
+  "triples": [
+    {
+      "subject": "No Animals Were Harmed",
+      "relation": "written_by",
+      "object": "Peter Laufer",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is a 2011 book by Peter Laufer"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "No Animals Were Harmed",
+        "is_a",
+        "book"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "No Animals Were Harmed",
+        "part_of",
+        "untitled animal trilogy"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "No Animals Were Harmed",
+        "follows",
+        "Forbidden Creatures"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Forbidden Creatures",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "No Animals Were Harmed",
+        "follows",
+        "The Dangerous World of Butterflies"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Dangerous World of Butterflies",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Peter Laufer",
+        "talks_to",
+        "different people"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "No Animals Were Harmed (book)\nNo Animals Were Harmed: The Controversial Line Between Entertainment and Abuse is a 2011 book by Peter Laufer. It is the third book in his untitled animal trilogy, following \"Forbidden Creatures\" in 2010 and \"The Dangerous World of Butterflies\" in 2009. The book explores what those who work with animals believe to be the line between using animals for entertainment purposes and abusing them. Meanwhile, the author recounts how his own opinions changed about that line when he talks to the different people about their beliefs."
+}

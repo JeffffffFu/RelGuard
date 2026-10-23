@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Atma Ram": "PERSON",
+    "Afghanistan": "GPE",
+    "India": "GPE",
+    "Turan": "LOC",
+    "Hindu": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Atma Ram",
+      "relation": "minister_in",
+      "object": "Afghanistan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "minister in",
+          "line_start": 21,
+          "char_start": 30,
+          "ambiguous": false,
+          "relation_mention": "minister in",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Atma Ram",
+      "relation": "dominated_trade_between",
+      "object": "India",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "dominated trade between",
+          "line_start": 96,
+          "char_start": 105,
+          "ambiguous": false,
+          "relation_mention": "dominated trade between",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Atma Ram",
+      "relation": "dominated_trade_between",
+      "object": "Turan",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "dominated trade between",
+          "line_start": 96,
+          "char_start": 105,
+          "ambiguous": false,
+          "relation_mention": "dominated trade between",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Atma Ram",
+        "was_a",
+        "Hindu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Atma Ram\nAtma Ram was a Hindu minister in Afghanistan during the early 19th century. He was said to have dominated trade between India and Turan in this period."
+}

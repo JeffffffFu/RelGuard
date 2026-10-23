@@ -1,0 +1,118 @@
+{
+  "entities": {
+    "National Theater and Concert Hall": "venue",
+    "Liberty Square": "location",
+    "Zhongzheng District": "location",
+    "Taipei": "location",
+    "Taiwan": "location",
+    "Chiang Kai-shek Memorial Hall": "landmark",
+    "Ketagalan Boulevard": "location",
+    "Presidential Office Building": "building",
+    "National Central Library": "building",
+    "National Taiwan Museum": "museum",
+    "228 Peace Memorial Park": "park"
+  },
+  "triples": [
+    {
+      "subject": "National Theater and Concert Hall",
+      "relation": "located_in",
+      "object": "Liberty Square",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "are twin performing arts venues at Liberty Square"
+        }
+      ]
+    },
+    {
+      "subject": "Liberty Square",
+      "relation": "located_in",
+      "object": "Zhongzheng District",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "at Liberty Square in Zhongzheng District"
+        }
+      ]
+    },
+    {
+      "subject": "Zhongzheng District",
+      "relation": "located_in",
+      "object": "Taipei",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Zhongzheng District, Taipei"
+        }
+      ]
+    },
+    {
+      "subject": "National Theater and Concert Hall",
+      "relation": "located_near",
+      "object": "Chiang Kai-shek Memorial Hall",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "with Chiang Kai-shek Memorial Hall to the east"
+        }
+      ]
+    },
+    {
+      "subject": "Liberty Square",
+      "relation": "located_near",
+      "object": "Ketagalan Boulevard",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The square itself sits near Ketagalan Boulevard"
+        }
+      ]
+    },
+    {
+      "subject": "Ketagalan Boulevard",
+      "relation": "located_near",
+      "object": "Presidential Office Building",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "site of the Presidential Office Building"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Taipei",
+        "located_in",
+        "Taiwan"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ketagalan Boulevard",
+        "located_near",
+        "National Central Library"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ketagalan Boulevard",
+        "located_near",
+        "National Taiwan Museum"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Ketagalan Boulevard",
+        "located_near",
+        "228 Peace Memorial Park"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "National Theater and Concert Hall, Taipei\nThe National Theater () and National Concert Hall () are twin performing arts venues at Liberty Square in Zhongzheng District, Taipei, Taiwan. Completed in 1987, the landmarks stand on the south and north sides of the square with Chiang Kai-shek Memorial Hall to the east. Together the venues are referred to by the abbreviation \"NTCH\". The square itself sits near Ketagalan Boulevard, site of the Presidential Office Building, the National Central Library, the National Taiwan Museum, and the 228 Peace Memorial Park."
+}

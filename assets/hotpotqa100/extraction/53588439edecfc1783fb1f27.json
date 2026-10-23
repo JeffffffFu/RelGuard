@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Azorina": "WORK_OF_ART",
+    "Azorina vidalii": "WORK_OF_ART",
+    "Azores": "GPE"
+  },
+  "triples": [
+    {
+      "subject": "Azorina vidalii",
+      "relation": "belongs_to",
+      "object": "Azorina",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is endemic to the Azores",
+          "line_start": 123,
+          "char_start": 131,
+          "ambiguous": false,
+          "relation_mention": "is endemic to the Azores",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Azorina vidalii",
+      "relation": "endemic_to",
+      "object": "Azores",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "is endemic to the Azores",
+          "line_start": 123,
+          "char_start": 131,
+          "ambiguous": false,
+          "relation_mention": "is endemic to the Azores",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities outside the eleven types",
+      "entities": [
+        "Campanulaceae (ORGANIZATION)"
+      ]
+    },
+    {
+      "triple": [
+        "Azorina",
+        "is_a",
+        "WORK_OF_ART"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Azorina",
+        "within_family",
+        "Campanulaceae"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Azorina\nAzorina is a monotypic genus of flowering plants within the family Campanulaceae, whose sole species, the Azorina vidalii, is endemic to the Azores. Its fragmented population is made up of fewer than 1000 mature plants limited to the coastlines of several of the islands."
+}

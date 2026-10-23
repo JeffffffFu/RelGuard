@@ -1,0 +1,132 @@
+{
+  "entities": {
+    "Noble Huston": "Person",
+    "First Presbyterian Church": "Organization",
+    "Ballynahinch": "Location",
+    "County Down": "Location",
+    "Irish Red and White Setter": "Dog Breed",
+    "Anna Redlich": "Person",
+    "The Dogs of Ireland": "Book",
+    "Dundalgan Press": "Organization",
+    "Gyp": "Dog",
+    "Johnnie": "Dog",
+    "Glen of Rossmore": "Dog"
+  },
+  "triples": [
+    {
+      "subject": "Noble Huston",
+      "relation": "minister_of",
+      "object": "First Presbyterian Church",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the minister of the First Presbyterian Church"
+        }
+      ]
+    },
+    {
+      "subject": "Noble Huston",
+      "relation": "located_in",
+      "object": "Ballynahinch",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Ballynahinch"
+        }
+      ]
+    },
+    {
+      "subject": "Ballynahinch",
+      "relation": "located_in",
+      "object": "County Down",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "in Ballynahinch, County Down"
+        }
+      ]
+    },
+    {
+      "subject": "Noble Huston",
+      "relation": "mated",
+      "object": "Gyp",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "mated his half red and half red and white bitch Gyp"
+        }
+      ]
+    },
+    {
+      "subject": "Gyp",
+      "relation": "mated_with",
+      "object": "Johnnie",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "mated his half red and half red and white bitch Gyp to Johnnie"
+        }
+      ]
+    },
+    {
+      "subject": "Gyp",
+      "relation": "mated_with",
+      "object": "Glen of Rossmore",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "later on to Glen of Rossmore"
+        }
+      ]
+    },
+    {
+      "subject": "Anna Redlich",
+      "relation": "wrote",
+      "object": "The Dogs of Ireland",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "According to Anna Redlich in “The Dogs of Ireland”"
+        }
+      ]
+    },
+    {
+      "subject": "The Dogs of Ireland",
+      "relation": "published_by",
+      "object": "Dundalgan Press",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "(Dundalgan Press 1949)"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Noble Huston",
+        "died",
+        "1944"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Noble Huston",
+        "credited_with",
+        "saving the Irish Red and White Setter from extinction"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Noble Huston",
+        "managed_to_build_up",
+        "a kennel of Red and White Setters"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Noble Huston\nThe Reverend Noble Huston (died 1944), was the minister of the First Presbyterian Church in Ballynahinch, County Down and a breeder of dogs, credited with saving the Irish Red and White Setter from extinction in the early the twentieth century. According to Anna Redlich in “The Dogs of Ireland” (Dundalgan Press 1949), he \" mated his half red and half red and white bitch Gyp to Johnnie, and later on to Glen of Rossmore ... Thus in due time and by judicious selection , he managed to build up a kennel of Red and White Setters...\""
+}

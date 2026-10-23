@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "Forthmann Carriage House": "Building",
+    "Los Angeles": "City",
+    "Angelino Heights": "Neighborhood",
+    "California": "State",
+    "Burgess J. Reeve": "Person",
+    "Barbara Behm": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Forthmann Carriage House",
+      "relation": "located_in",
+      "object": "Angelino Heights",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "located in Angelino Heights"
+        }
+      ]
+    },
+    {
+      "subject": "Forthmann Carriage House",
+      "relation": "located_in",
+      "object": "California",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Los Angeles, California"
+        }
+      ]
+    },
+    {
+      "subject": "Forthmann Carriage House",
+      "relation": "designed_by",
+      "object": "Burgess J. Reeve",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "designed by Burgess J. Reeve"
+        }
+      ]
+    },
+    {
+      "subject": "Barbara Behm",
+      "relation": "restored",
+      "object": "Forthmann Carriage House",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "who restored many properties in Angeleno Heights"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Forthmann Carriage House",
+        "located_in",
+        "Los Angeles"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Forthmann Carriage House",
+        "built",
+        "1882"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Forthmann Carriage House",
+        "relocated_to",
+        "812 E Edgeware Rd."
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Forthmann Carriage House",
+        "relocated_from",
+        "629 West 18th Street"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Forthmann Carriage House\nThe Forthmann Carriage House, is a Los Angeles Historic-Cultural Monument (No. 103) located in Angelino Heights, Los Angeles, California. It is a 1,000 sq. ft. Victorian style carriage house built 1882, designed by Burgess J. Reeve. It was relocated in March 2006 from its original location at 629 West 18th Street. Los Angeles, California to its current location at 812 E Edgeware Rd. Los Angeles, California. The relocation was made possible thanks to the efforts of Barbara Behm, an independent developer who restored many properties in Angeleno Heights."
+}

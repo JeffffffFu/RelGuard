@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "I fu mie": "dish",
+    "yi fu mein": "dish",
+    "Chinese Indonesian cuisine": "cuisine",
+    "yi mein": "noodle",
+    "mie kering": "noodle",
+    "Makassar": "location"
+  },
+  "triples": [
+    {
+      "subject": "I fu mie",
+      "relation": "is_popular_in",
+      "object": "Chinese Indonesian cuisine",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "one of the most popular noodle dishes in Chinese Indonesian cuisine"
+        }
+      ]
+    },
+    {
+      "subject": "mie kering",
+      "relation": "is_from",
+      "object": "Makassar",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Makassar"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "I fu mie",
+        "is_a",
+        "dish"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "yi fu mein",
+        "is_a",
+        "dish"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "I fu mie",
+        "served_in",
+        "thick savoury sauce"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "I fu mie",
+        "contains",
+        "pieces of meat or seafood and vegetables"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "yi mein",
+        "is_type_of",
+        "noodle"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "yi mein",
+        "is_similar_to",
+        "mie kering"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "I fu mie\nI fu mie or yi fu mein is a crispy deep fried thick noodle dish served in a thick savoury sauce with pieces of meat or seafood and vegetables. The dishes are to be served hot while the noodles are still crisp until the noodles are softened by the sauce and are ready to be eaten. The dish is one of the most popular noodle dishes in Chinese Indonesian cuisine. The type of noodle being used in this dish is the thick \"yi mein\" noodle, hence the origin of its name. It is quite similar to \"mie kering\" noodles from Makassar."
+}

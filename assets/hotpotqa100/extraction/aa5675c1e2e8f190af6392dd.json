@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "MEO Rip Curl Pro Portugal": "EVENT",
+    "Moche Rip Curl Pro Portugal": "EVENT",
+    "Rip Curl Pro Portugal": "EVENT",
+    "ASP World Tour": "ORG",
+    "Supertubos beach": "LOC",
+    "Peniche": "GPE",
+    "John John Florence": "PERSON",
+    "WSL": "ORG"
+  },
+  "triples": [
+    {
+      "subject": "MEO Rip Curl Pro Portugal",
+      "relation": "formerly_known_as",
+      "object": "Moche Rip Curl Pro Portugal",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "formerly known as \"Moche Rip Curl Pro Portugal\""
+        }
+      ]
+    },
+    {
+      "subject": "MEO Rip Curl Pro Portugal",
+      "relation": "held_at",
+      "object": "Supertubos beach",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "held every year in October at the Supertubos beach"
+        }
+      ]
+    },
+    {
+      "subject": "MEO Rip Curl Pro Portugal",
+      "relation": "held_in",
+      "object": "Peniche",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "held every year in October at the Supertubos beach in Peniche"
+        }
+      ]
+    },
+    {
+      "subject": "MEO Rip Curl Pro Portugal",
+      "relation": "won_by",
+      "object": "John John Florence",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "who won the event in 2016"
+        }
+      ]
+    },
+    {
+      "subject": "John John Florence",
+      "relation": "champion_of",
+      "object": "WSL",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the 2016 WSL champion"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "MEO Rip Curl Pro Portugal",
+        "formerly_known_as",
+        "Rip Curl Pro Portugal"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "MEO Rip Curl Pro Portugal",
+        "is_a",
+        "professional surfing competition"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "MEO Rip Curl Pro Portugal",
+        "founded",
+        "2009"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "MEO Rip Curl Pro Portugal\nMEO Rip Curl Pro Portugal formerly known as \"Moche Rip Curl Pro Portugal\" or \"Rip Curl Pro Portugal\" is a professional surfing competition of the ASP World Tour held every year in October at the Supertubos beach in Peniche, Portugal. The event was first founded in 2009 as \"Rip Curl Search Portugal\". The defending champion is the 2016 WSL champion, John John Florence who won the event in 2016."
+}

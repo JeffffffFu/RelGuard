@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "Rwandan genocide": "EVENT",
+    "Tutsi": "NORP",
+    "Rwanda": "GPE",
+    "Hutu": "NORP",
+    "Pygmy Batwa": "NORP",
+    "Rwandan Patriotic Front": "ORG",
+    "Paul Kagame": "PERSON",
+    "Rwandans": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Tutsi",
+      "relation": "killed_during",
+      "object": "Rwandan genocide",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were killed during the 100-day period",
+          "line_start": 202,
+          "char_start": 219,
+          "ambiguous": false,
+          "relation_mention": "were killed during the 100-day period",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Pygmy Batwa",
+      "relation": "killed_during",
+      "object": "Rwandan genocide",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were killed",
+          "line_start": 202,
+          "char_start": 219,
+          "ambiguous": false,
+          "relation_mention": "were killed",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Rwandan Patriotic Front",
+      "relation": "took_control_of",
+      "object": "Rwanda",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "took control of the country",
+          "line_start": 519,
+          "char_start": 536,
+          "ambiguous": false,
+          "relation_mention": "took control of the country",
+          "sentence_id": 4
+        }
+      ]
+    },
+    {
+      "subject": "Rwandans",
+      "relation": "were_displaced",
+      "object": "Rwandan genocide",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "were displaced",
+          "line_start": 595,
+          "char_start": 612,
+          "ambiguous": false,
+          "relation_mention": "were displaced",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Rwandan genocide",
+        "was_against",
+        "Tutsi"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rwandan genocide",
+        "occurred_in",
+        "Rwanda"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rwandan Patriotic Front",
+        "led_by",
+        "Paul Kagame"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rwandans",
+        "included",
+        "Hutu"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Rwandan genocide\nThe Rwandan genocide, also known as the genocide against the Tutsi, was a genocidal mass slaughter of Tutsi in Rwanda by members of the Hutu majority government. An estimated 500,000–1,000,000 Rwandans were killed during the 100-day period from April 7 to mid-July 1994, constituting as many as 70% of the Tutsi population. Additionally, 30% of the Pygmy Batwa were killed. The genocide and widespread slaughter of Rwandans ended when the Tutsi-backed and heavily armed Rwandan Patriotic Front (RPF) led by Paul Kagame took control of the country. An estimated 2,000,000 Rwandans, mostly Hutus, were displaced and became refugees.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Rwandan genocide\", \"type\": \"EVENT\"},\n    {\"name\": \"Tutsi\", \"type\": \"NORP\"},\n    {\"name\": \"Rwanda\", \"type\": \"GPE\"},\n    {\"name\": \"Hutu\", \"type\": \"NORP\"},\n    {\"name\": \"Pygmy Batwa\", \"type\": \"NORP\"},\n    {\"name\": \"Rwandan Patriotic Front\", \"type\": \"ORG\"},\n    {\"name\": \"Paul Kagame\", \"type\": \"PERSON\"},\n    {\"name\": \"Rwandans\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Rwandan genocide\",\n      \"relation\": \"was_against\",\n      \"object\": \"Tutsi\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"genocide against the Tutsi\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwandan genocide\",\n      \"relation\": \"occurred_in\",\n      \"object\": \"Rwanda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"in Rwanda\"}\n      ]\n    },\n    {\n      \"subject\": \"Tutsi\",\n      \"relation\": \"killed_during\",\n      \"object\": \"Rwandan genocide\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were killed during the 100-day period\"}\n      ]\n    },\n    {\n      \"subject\": \"Pygmy Batwa\",\n      \"relation\": \"killed_during\",\n      \"object\": \"Rwandan genocide\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were killed\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwandan Patriotic Front\",\n      \"relation\": \"led_by\",\n      \"object\": \"Paul Kagame\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"led by Paul Kagame\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwandan Patriotic Front\",\n      \"relation\": \"took_control_of\",\n      \"object\": \"Rwanda\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"took control of the country\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwandans\",\n      \"relation\": \"were_displaced\",\n      \"object\": \"Rwandan genocide\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"were displaced\"}\n      ]\n    },\n    {\n      \"subject\": \"Rwandans\",\n      \"relation\": \"included\",\n      \"object\": \"Hutu\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"mostly Hutus\"}\n      ]\n    }\n  ]\n}"
+}

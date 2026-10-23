@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Irish Setter": "WORK_OF_ART",
+    "Irish": "NORP",
+    "American Kennel Club": "ORG",
+    "Field Dog Stud Book": "ORG"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Irish Setter",
+        "named_in_language",
+        "Irish"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Irish Setter",
+        "recognized_by",
+        "American Kennel Club"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Red Setter",
+        "recognized_by",
+        "Field Dog Stud Book"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Irish Setter\nThe Irish Setter (Irish: \"sotar rua\" , literally \"red setter\") is a setter, a breed of gundog, and family dog. The term \"Irish Setter\" is commonly used to encompass the show-bred dog recognised by the American Kennel Club as well as the field-bred Red Setter recognised by the Field Dog Stud Book.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Irish Setter\", \"type\": \"WORK_OF_ART\"},\n    {\"name\": \"Irish\", \"type\": \"NORP\"},\n    {\"name\": \"American Kennel Club\", \"type\": \"ORG\"},\n    {\"name\": \"Field Dog Stud Book\", \"type\": \"ORG\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Irish Setter\",\n      \"relation\": \"named_in_language\",\n      \"object\": \"Irish\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"Irish:\"}\n      ]\n    },\n    {\n      \"subject\": \"Irish Setter\",\n      \"relation\": \"recognized_by\",\n      \"object\": \"American Kennel Club\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"recognised by the American Kennel Club\"}\n      ]\n    },\n    {\n      \"subject\": \"Red Setter\",\n      \"relation\": \"recognized_by\",\n      \"object\": \"Field Dog Stud Book\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"recognised by the Field Dog Stud Book\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Jerry Warren": "Person",
+    "Los Angeles, California": "Location",
+    "Man Beast": "Film",
+    "John Carradine": "Person",
+    "Katherine Victor": "Person",
+    "Jacques Lecoutier": "Person"
+  },
+  "triples": [
+    {
+      "subject": "Jerry Warren",
+      "relation": "grew_up_in",
+      "object": "Los Angeles, California",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Warren grew up wanting to get into the film business in Los Angeles, California."
+        }
+      ]
+    },
+    {
+      "subject": "Jerry Warren",
+      "relation": "directed",
+      "object": "Man Beast",
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "relation_mention": "Warren took on his first film as a director and producer with\" Man Beast\" in 1956."
+        }
+      ]
+    },
+    {
+      "subject": "Jerry Warren",
+      "relation": "acted_with",
+      "object": "John Carradine",
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "relation_mention": "new footage which he shot with American actors such as John Carradine"
+        }
+      ]
+    },
+    {
+      "subject": "Jerry Warren",
+      "relation": "wrote_under",
+      "object": "Jacques Lecoutier",
+      "occurrences": [
+        {
+          "sentence_id": 6,
+          "relation_mention": "Warren even wrote some screenplays for his films under the\" nom de plumeJacques Lecoutier\""
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Jerry Warren",
+        "born_on",
+        "March 10, 1925"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jerry Warren",
+        "died_on",
+        "August 21, 1988"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jerry Warren",
+        "acted_with",
+        "Katherine Victor"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Jerry Warren\nJerry Warren( March 10, 1925 – August 21, 1988) was an American film director, producer, editor, screenwriter, cinematographer, and actor. Warren grew up wanting to get into the film business in Los Angeles, California. He appeared in small parts in a few 1940s films such as\" Ghost CatchersAnchors Aweigh\", and\" Unconquered\". After meeting with producers, Warren took on his first film as a director and producer with\" Man Beast\" in 1956. He initially created his own films, although relying heavily on stock footage. Later, he would just buy foreign films that already existed and re-edit them, dubbing some scenes in English and inserting new footage which he shot with American actors such as John Carradine and Katherine Victor. Warren even wrote some screenplays for his films under the\" nom de plumeJacques Lecoutier\", which he sometimes misspelled in the credits."
+}

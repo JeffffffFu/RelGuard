@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Fifty Shades of Grey": "book",
+    "E. L. James": "author",
+    "Anastasia Steele": "character",
+    "Christian Grey": "character",
+    "Vintage Books": "publisher"
+  },
+  "triples": [
+    {
+      "subject": "Fifty Shades of Grey",
+      "relation": "written_by",
+      "object": "E. L. James",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "by British author E. L. James"
+        }
+      ]
+    },
+    {
+      "subject": "Anastasia Steele",
+      "relation": "in_relationship_with",
+      "object": "Christian Grey",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey"
+        }
+      ]
+    },
+    {
+      "subject": "Fifty Shades of Grey",
+      "relation": "published_by",
+      "object": "Vintage Books",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "publishing rights were acquired by Vintage Books"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Fifty Shades of Grey",
+        "part_of_trilogy",
+        "Fifty Shades"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Fifty Shades of Grey\nFifty Shades of Grey is a 2011 erotic romance novel by British author E. L. James. It is the first instalment in the \"Fifty Shades\" trilogy that traces the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey. It is notable for its explicitly erotic scenes featuring elements of sexual practices involving bondage/discipline, dominance/submission, and sadism/masochism (BDSM). Originally self-published as an ebook and a print-on-demand, publishing rights were acquired by Vintage Books in March 2012."
+}

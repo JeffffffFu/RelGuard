@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Don Manoukian": "Person",
+    "Donald J. Manoukian": "Person",
+    "Reno, Nevada": "Location",
+    "American football guard": "Occupation",
+    "professional wrestler": "Occupation",
+    "Armenian descent": "Ethnicity"
+  },
+  "triples": [
+    {
+      "subject": "Don Manoukian",
+      "relation": "also_known_as",
+      "object": "Donald J. Manoukian",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Donald J. Manoukian"
+        }
+      ]
+    },
+    {
+      "subject": "Don Manoukian",
+      "relation": "has_occupation",
+      "object": "American football guard",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "American football guard"
+        }
+      ]
+    },
+    {
+      "subject": "Don Manoukian",
+      "relation": "has_occupation",
+      "object": "professional wrestler",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "professional wrestler"
+        }
+      ]
+    },
+    {
+      "subject": "Don Manoukian",
+      "relation": "has_ethnicity",
+      "object": "Armenian descent",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "of Armenian descent"
+        }
+      ]
+    },
+    {
+      "subject": "Don Manoukian",
+      "relation": "located_in",
+      "object": "Reno, Nevada",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "from Reno, Nevada"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Don Manoukian",
+        "born_on",
+        "June 9, 1934"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Don Manoukian",
+        "died_on",
+        "September 23, 2014"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Don Manoukian\nDonald J. Manoukian (June 9, 1934 – September 23, 2014) was an American football guard and professional wrestler of Armenian descent from Reno, Nevada."
+}

@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Seacroft": "Settlement",
+    "Lincolnshire": "Region",
+    "East Lindsey": "District",
+    "Skegness": "Settlement",
+    "Seacroft Esplanade": "Road",
+    "Gibraltar Point": "Nature Reserve"
+  },
+  "triples": [
+    {
+      "subject": "Seacroft",
+      "relation": "located_in",
+      "object": "Lincolnshire",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Seacroft is a linear settlement in the East Lindsey district of Lincolnshire, England."
+        }
+      ]
+    },
+    {
+      "subject": "Seacroft",
+      "relation": "part_of",
+      "object": "East Lindsey",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Seacroft is a linear settlement in the East Lindsey district of Lincolnshire, England."
+        }
+      ]
+    },
+    {
+      "subject": "Seacroft",
+      "relation": "conjoined_to",
+      "object": "Skegness",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "It lies at the south of, and is conjoined to, Skegness"
+        }
+      ]
+    },
+    {
+      "subject": "Seacroft",
+      "relation": "comprises",
+      "object": "Seacroft Esplanade",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "and comprises the less than half-mile long residential road, Seacroft Esplanade"
+        }
+      ]
+    },
+    {
+      "subject": "Seacroft",
+      "relation": "located_near",
+      "object": "Gibraltar Point",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "Farther south is Gibraltar Point nature reserve."
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Seacroft",
+        "has_a",
+        "golf course"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Seacroft, Lincolnshire\nSeacroft is a linear settlement in the East Lindsey district of Lincolnshire, England. It lies at the south of, and is conjoined to, Skegness , and comprises the less than half-mile long residential road, Seacroft Esplanade, and a golf course at its south. Farther south is Gibraltar Point nature reserve."
+}

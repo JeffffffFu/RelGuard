@@ -1,0 +1,163 @@
+{
+  "entities": {
+    "Archbold Gymnasium": "FAC",
+    "Syracuse University": "ORG",
+    "Syracuse": "GPE",
+    "New York": "GPE",
+    "John Dustin Archbold": "PERSON",
+    "Archbold Stadium": "FAC",
+    "Carrier Dome": "FAC",
+    "men's basketball team": "ORG",
+    "Manley Field House": "FAC",
+    "Flanagan Gymnasium": "FAC"
+  },
+  "triples": [
+    {
+      "subject": "Archbold Gymnasium",
+      "relation": "located_in",
+      "object": "Syracuse University",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located on the campus of",
+          "line_start": 34,
+          "char_start": 53,
+          "ambiguous": false,
+          "relation_mention": "located on the campus of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Archbold Gymnasium",
+      "relation": "built_with_money_donated_by",
+      "object": "John Dustin Archbold",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "with money donated by",
+          "line_start": 123,
+          "char_start": 142,
+          "ambiguous": false,
+          "relation_mention": "with money donated by",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "John Dustin Archbold",
+      "relation": "funded",
+      "object": "Archbold Stadium",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "also funded the building of",
+          "line_start": 209,
+          "char_start": 228,
+          "ambiguous": false,
+          "relation_mention": "also funded the building of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Archbold Stadium",
+      "relation": "located_in",
+      "object": "Archbold Gymnasium",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "just to the west of",
+          "line_start": 255,
+          "char_start": 274,
+          "ambiguous": false,
+          "relation_mention": "just to the west of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Carrier Dome",
+      "relation": "located_in",
+      "object": "Archbold Stadium",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "now the site of",
+          "line_start": 290,
+          "char_start": 309,
+          "ambiguous": false,
+          "relation_mention": "now the site of",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "Archbold Gymnasium",
+      "relation": "served_as_home_to",
+      "object": "men's basketball team",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "served as the home to",
+          "line_start": 328,
+          "char_start": 347,
+          "ambiguous": false,
+          "relation_mention": "served as the home to",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "men's basketball team",
+      "relation": "relocated_to",
+      "object": "Manley Field House",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "until the building of",
+          "line_start": 376,
+          "char_start": 395,
+          "ambiguous": false,
+          "relation_mention": "until the building of",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Flanagan Gymnasium",
+      "relation": "neighboring",
+      "object": "Archbold Gymnasium",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "a neighboring gymnasium",
+          "line_start": 650,
+          "char_start": 669,
+          "ambiguous": false,
+          "relation_mention": "a neighboring gymnasium",
+          "sentence_id": 5
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Syracuse University",
+        "located_in",
+        "Syracuse"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Syracuse",
+        "located_in",
+        "New York"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Archbold Gymnasium\nArchbold Gymnasium is a gymnasium located on the campus of Syracuse University in Syracuse, New York. It was built in 1908 with money donated by John Dustin Archbold, a major benefactor of the university, who also funded the building of Archbold Stadium, just to the west of the gymnasium (now the site of the Carrier Dome). It served as the home to the men's basketball team until the building of the Manley Field House in 1962, with the exception of the time from January, 1947 to 1949. This was due to a large fire which gutted most of the building. The building was rebuilt from 1948 to 1949, and a southern addition was made in 1952, as well as a neighboring gymnasium (Flanagan Gymnasium), which was built in 1989. The building now houses the school's ROTC programs, men's and women's rowing indoor facilities, as well as the bursar, financial aid services, aerospace studies and undergraduate processing."
+}

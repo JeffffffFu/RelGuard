@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Get a Horse!": "film",
+    "Walt Disney Animation Studios": "organization",
+    "Mickey Mouse": "character",
+    "Walt Disney": "person",
+    "Oswald the Lucky Rabbit": "character"
+  },
+  "triples": [
+    {
+      "subject": "Get a Horse!",
+      "relation": "produced_by",
+      "object": "Walt Disney Animation Studios",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "produced by Walt Disney Animation Studios"
+        }
+      ]
+    },
+    {
+      "subject": "Walt Disney",
+      "relation": "role_as",
+      "object": "Mickey Mouse",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "features archival recordings of Walt Disney in his posthumous role as Mickey Mouse"
+        }
+      ]
+    },
+    {
+      "subject": "Get a Horse!",
+      "relation": "first_original",
+      "object": "Mickey Mouse",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first original Mickey Mouse theatrical animated short"
+        }
+      ]
+    },
+    {
+      "subject": "Oswald the Lucky Rabbit",
+      "relation": "first_appearance_in",
+      "object": "Get a Horse!",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "the first appearance of Oswald the Lucky Rabbit in a Disney animated production in 85 years"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Get a Horse!",
+        "features",
+        "Mickey Mouse"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Get a Horse!\nGet a Horse! is a 2013 American 3D animated slapstick comedy short film, produced by Walt Disney Animation Studios. Combining black-and-white hand-drawn animation and color CGI animation, the short features the characters of the late 1920s \"Mickey Mouse\" cartoons, and features archival recordings of Walt Disney in his posthumous role as Mickey Mouse. It is the first original Mickey Mouse theatrical animated short since \"Runaway Brain\" (1995), and the first appearance of Oswald the Lucky Rabbit in a Disney animated production in 85 years."
+}

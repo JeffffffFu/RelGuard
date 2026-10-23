@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Qatar": "GPE",
+    "2022 FIFA World Cup": "EVENT",
+    "FBI": "ORG",
+    "FIFA": "ORG",
+    "Sepp Blatter": "PERSON",
+    "Arab": "NORP"
+  },
+  "triples": [
+    {
+      "subject": "Qatar",
+      "relation": "bid_for",
+      "object": "2022 FIFA World Cup",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was a bid by Qatar to host",
+          "line_start": 34,
+          "char_start": 64,
+          "ambiguous": false,
+          "relation_mention": "was a bid by Qatar to host",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Qatar",
+      "relation": "will_be_first_of",
+      "object": "Arab",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "the first Arab state to host the World Cup",
+          "line_start": 267,
+          "char_start": 297,
+          "ambiguous": false,
+          "relation_mention": "the first Arab state to host the World Cup",
+          "sentence_id": 3
+        }
+      ]
+    },
+    {
+      "subject": "Sepp Blatter",
+      "relation": "works_for",
+      "object": "FIFA",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "FIFA President Sepp Blatter",
+          "line_start": 185,
+          "char_start": 215,
+          "ambiguous": false,
+          "relation_mention": "FIFA President Sepp Blatter",
+          "sentence_id": 2
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "The bid",
+        "under_investigation_by",
+        "FBI"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "The bid",
+        "led_to_resignation_of",
+        "Sepp Blatter"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Qatar 2022 FIFA World Cup bid\nThe Qatar 2022 FIFA World Cup bid was a bid by Qatar to host the 2022 FIFA World Cup. The bid has come under FBI investigation for bribery and corruption, leading to the resignation of FIFA President Sepp Blatter. With a population of 2 million people, Qatar will be the first Arab state to host the World Cup."
+}

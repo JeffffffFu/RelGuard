@@ -1,0 +1,57 @@
+{
+  "entities": {
+    "The Last Paradises: On the Track of Rare Animals": "WORK_OF_ART",
+    "Die letzen Paradiese": "WORK_OF_ART",
+    "Eugen Schuhmacher": "PERSON",
+    "Helmuth Barth": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "The Last Paradises: On the Track of Rare Animals",
+      "relation": "has_title",
+      "object": "Die letzen Paradiese",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The Last Paradises: On the Track of Rare Animals (in German Die letzen Paradiese)"
+        }
+      ]
+    },
+    {
+      "subject": "The Last Paradises: On the Track of Rare Animals",
+      "relation": "filmed_by",
+      "object": "Eugen Schuhmacher",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "It was filmed by Eugen Schuhmacher"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "why": "1 entities not in the document",
+      "entities": [
+        "Germany (GPE)"
+      ]
+    },
+    {
+      "triple": [
+        "The Last Paradises: On the Track of Rare Animals",
+        "filmed_by",
+        "Helmuth Barth"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "The Last Paradises: On the Track of Rare Animals",
+        "located_in",
+        "Germany"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "The Last Paradises: On the Track of Rare Animals\nThe Last Paradises: On the Track of Rare Animals (in German Die letzen Paradiese) is the title of a German nature documentary from 1967. It was filmed by Eugen Schuhmacher and Helmuth Barth."
+}

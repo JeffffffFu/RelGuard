@@ -1,0 +1,115 @@
+{
+  "entities": {
+    "Once Upon a Time in China V": "film",
+    "Tsui Hark": "person",
+    "Vincent Zhao": "person",
+    "Wong Fei-hung": "character",
+    "Jet Li": "person",
+    "Once Upon a Time in China IV": "film",
+    "Rosamund Kwan": "person",
+    "13th Aunt": "character"
+  },
+  "triples": [
+    {
+      "subject": "Once Upon a Time in China V",
+      "relation": "written_and_directed_by",
+      "object": "Tsui Hark",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "written and directed by Tsui Hark"
+        }
+      ]
+    },
+    {
+      "subject": "Vincent Zhao",
+      "relation": "reprised_role_as",
+      "object": "Wong Fei-hung",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Vincent Zhao reprising his role as Chinese folk hero Wong Fei-hung"
+        }
+      ]
+    },
+    {
+      "subject": "Wong Fei-hung",
+      "relation": "taken_over_by",
+      "object": "Vincent Zhao",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "taking over the character from Jet Li"
+        }
+      ]
+    },
+    {
+      "subject": "Once Upon a Time in China IV",
+      "relation": "co_written_and_produced_by",
+      "object": "Tsui Hark",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "he only co-wrote and produced the fourth film"
+        }
+      ]
+    },
+    {
+      "subject": "Once Upon a Time in China V",
+      "relation": "saw_return_of",
+      "object": "Rosamund Kwan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "The film also saw the return of Hark as director"
+        }
+      ]
+    },
+    {
+      "subject": "Rosamund Kwan",
+      "relation": "was_absent_in",
+      "object": "Once Upon a Time in China IV",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "who was absent in the fourth film"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Once Upon a Time in China V",
+        "is_a",
+        "film"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Once Upon a Time in China V",
+        "is_installment_of",
+        "Once Upon a Time in China"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Jet Li",
+        "was_in",
+        "Once Upon a Time in China IV"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Rosamund Kwan",
+        "played",
+        "13th Aunt"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Once Upon a Time in China V\nOnce Upon a Time in China V is a 1994 Hong Kong martial arts action film written and directed by Tsui Hark. The film is the fifth installment in the \"Once Upon a Time in China\" film series, with Vincent Zhao reprising his role as Chinese folk hero Wong Fei-hung, since taking over the character from Jet Li in \"Once Upon a Time in China IV\". The film also saw the return of Hark as director (he only co-wrote and produced the fourth film) and of Rosamund Kwan as \"13th Aunt\", who was absent in the fourth film."
+}

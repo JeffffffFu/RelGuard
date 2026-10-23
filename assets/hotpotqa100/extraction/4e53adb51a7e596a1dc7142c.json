@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Derek Dooley": "PERSON",
+    "Dallas Cowboys": "ORG",
+    "National Football League": "ORG",
+    "American": "NORP"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Derek Dooley",
+        "works_for",
+        "Dallas Cowboys"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Derek Dooley",
+        "works_for",
+        "National Football League"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Derek Dooley",
+        "has_nationality",
+        "American"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Derek Dooley (American football)\nDerek Dooley (born June 10, 1968) is an American football coach and former player. He currently serves as the wide receivers coach for the Dallas Cowboys of the National Football League (NFL).",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"Derek Dooley\", \"type\": \"PERSON\"},\n    {\"name\": \"Dallas Cowboys\", \"type\": \"ORG\"},\n    {\"name\": \"National Football League\", \"type\": \"ORG\"},\n    {\"name\": \"American\", \"type\": \"NORP\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Derek Dooley\",\n      \"relation\": \"works_for\",\n      \"object\": \"Dallas Cowboys\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"serves as the wide receivers coach for the\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Derek Dooley\",\n      \"relation\": \"works_for\",\n      \"object\": \"National Football League\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"of the National Football League (NFL)\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Derek Dooley\",\n      \"relation\": \"has_nationality\",\n      \"object\": \"American\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is an American\"\n        }\n      ]\n    }\n  ]\n}"
+}

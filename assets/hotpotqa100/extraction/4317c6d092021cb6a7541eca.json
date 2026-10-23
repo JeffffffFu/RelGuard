@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "National Library of Nicaragua Rubén Darío": "FAC",
+    "Nicaragua": "GPE",
+    "Managua": "GPE",
+    "Rubén Darío": "PERSON"
+  },
+  "triples": [
+    {
+      "subject": "National Library of Nicaragua Rubén Darío",
+      "relation": "located_in",
+      "object": "Managua",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "located in the city of",
+          "line_start": 84,
+          "char_start": 126,
+          "ambiguous": false,
+          "relation_mention": "located in the city of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "National Library of Nicaragua Rubén Darío",
+      "relation": "founded",
+      "object": "Nicaragua",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "founded in",
+          "line_start": 123,
+          "char_start": 165,
+          "ambiguous": false,
+          "relation_mention": "founded in",
+          "sentence_id": 2
+        }
+      ]
+    },
+    {
+      "subject": "National Library of Nicaragua Rubén Darío",
+      "relation": "named_after",
+      "object": "Rubén Darío",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "was renamed",
+          "line_start": 321,
+          "char_start": 363,
+          "ambiguous": false,
+          "relation_mention": "was renamed",
+          "sentence_id": 4
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "National Library of Nicaragua Rubén Darío",
+        "located_in",
+        "Nicaragua"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Rubén Darío",
+        "worked_as",
+        "National Library of Nicaragua Rubén Darío"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "National Library of Nicaragua Rubén Darío\nThe National Library of Nicaragua Rubén Darío is the national library of Nicaragua, located in the city of Managua. It was founded in 1880, and damaged in the 1931 earthquake. Another earthquake in 1972 caused further damage, furthermore, it was looted. One of its librarians was the poet Rubén Darío, in whose honour it was renamed.",
+  "raw": "{\n  \"entities\": [\n    {\"name\": \"National Library of Nicaragua Rubén Darío\", \"type\": \"FAC\"},\n    {\"name\": \"Nicaragua\", \"type\": \"GPE\"},\n    {\"name\": \"Managua\", \"type\": \"GPE\"},\n    {\"name\": \"Rubén Darío\", \"type\": \"PERSON\"}\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"National Library of Nicaragua Rubén Darío\",\n      \"relation\": \"located_in\",\n      \"object\": \"Managua\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"located in the city of\"}\n      ]\n    },\n    {\n      \"subject\": \"National Library of Nicaragua Rubén Darío\",\n      \"relation\": \"located_in\",\n      \"object\": \"Nicaragua\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"of Nicaragua\"}\n      ]\n    },\n    {\n      \"subject\": \"National Library of Nicaragua Rubén Darío\",\n      \"relation\": \"founded\",\n      \"object\": \"Nicaragua\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"founded in\"}\n      ]\n    },\n    {\n      \"subject\": \"Rubén Darío\",\n      \"relation\": \"worked_as\", \n      \"object\": \"National Library of Nicaragua Rubén Darío\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"One of its librarians was\"}\n      ]\n    },\n    {\n      \"subject\": \"National Library of Nicaragua Rubén Darío\",\n      \"relation\": \"named_after\",\n      \"object\": \"Rubén Darío\",\n      \"occurrences\": [\n        {\"line\": 2, \"predicate\": \"was renamed\"}\n      ]\n    }\n  ]\n}"
+}

@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "Greco Pizza Restaurant": "ORG",
+    "Eastern Canada": "LOC",
+    "Atlantic Canada": "LOC"
+  },
+  "triples": [],
+  "problems": [
+    {
+      "triple": [
+        "Greco Pizza Restaurant",
+        "located_in",
+        "Eastern Canada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Greco Pizza Restaurant",
+        "located_in",
+        "Atlantic Canada"
+      ],
+      "why": "1 predicate(s) not locatable"
+    },
+    {
+      "triple": [
+        "Greco Pizza Restaurant",
+        "works_for",
+        "Greco Pizza Restaurant"
+      ],
+      "why": "1 predicate(s) not locatable"
+    }
+  ],
+  "document": "Greco Pizza Restaurant\nGreco Pizza Restaurant is a franchise restaurant chain consisting of over 100 outlets in Eastern Canada. The restaurants also deliver pizza. Greco bills itself as the largest pizza chain in Atlantic Canada.",
+  "raw": "{\n  \"entities\": [\n    {\n      \"name\": \"Greco Pizza Restaurant\",\n      \"type\": \"ORG\"\n    },\n    {\n      \"name\": \"Eastern Canada\",\n      \"type\": \"LOC\"\n    },\n    {\n      \"name\": \"Atlantic Canada\",\n      \"type\": \"LOC\"\n    }\n  ],\n  \"triples\": [\n    {\n      \"subject\": \"Greco Pizza Restaurant\",\n      \"relation\": \"located_in\",\n      \"object\": \"Eastern Canada\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Greco Pizza Restaurant\",\n      \"relation\": \"located_in\",\n      \"object\": \"Atlantic Canada\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"in\"\n        }\n      ]\n    },\n    {\n      \"subject\": \"Greco Pizza Restaurant\",\n      \"relation\": \"works_for\",\n      \"object\": \"Greco Pizza Restaurant\",\n      \"occurrences\": [\n        {\n          \"line\": 2,\n          \"predicate\": \"is a franchise restaurant chain consisting of over 100 outlets in Eastern Canada\"\n        }\n      ]\n    }\n  ]\n}"
+}

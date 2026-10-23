@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "Khalid al-Habib": "Person",
+    "Al-Qaeda": "Organization",
+    "Afghanistan": "Location",
+    "Damadola": "Location",
+    "Pakistan": "Location",
+    "Egypt": "Location",
+    "Morocco": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Khalid al-Habib",
+      "relation": "overseen_operations_in",
+      "object": "Al-Qaeda",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "is an Al- Qaeda leader who has overseen Al- Qaeda operations in Afghanistan"
+        }
+      ]
+    },
+    {
+      "subject": "Khalid al-Habib",
+      "relation": "died_in",
+      "object": "Damadola",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "al- Habib died in a US missile strike on the Pakistani village of Damadola"
+        }
+      ]
+    },
+    {
+      "subject": "Khalid al-Habib",
+      "relation": "nationality_claimed_as",
+      "object": "Egypt",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "with sources claiming he may be Egyptian"
+        }
+      ]
+    },
+    {
+      "subject": "Khalid al-Habib",
+      "relation": "located_in",
+      "object": "Pakistan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "in the attack"
+        }
+      ]
+    },
+    {
+      "subject": "Al-Qaeda",
+      "relation": "located_in",
+      "object": "Afghanistan",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "Al- Qaeda operations in Afghanistan"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Khalid al-Habib",
+        "believed_to_use",
+        "Khalid al Harbi"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Khalid al-Habib",
+        "nationality_claimed_as",
+        "Morocco"
+      ],
+      "why": "1 mention(s) not literal in document"
+    }
+  ],
+  "document": "Khalid al-Habib\nKhalid al- Habib also believed to use the nom de guerre Khalid al Harbi is an Al- Qaeda leader who has overseen Al- Qaeda operations in Afghanistan. In 2005 it was reported that al- Habib died in a US missile strike on the Pakistani village of Damadola though it is unclear whether this is the case as Pakistani officials have claimed that no Al- Qaeda leaders died in the attack. al- Habib's nationality is not clear with sources claiming he may be Egyptian or Moroccan."
+}

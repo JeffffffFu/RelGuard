@@ -1,0 +1,110 @@
+{
+  "entities": {
+    "Bone marrow failure": "EVENT",
+    "red blood cells": "PRODUCT",
+    "white blood cells": "PRODUCT",
+    "platelets": "PRODUCT",
+    "the body": "LOC"
+  },
+  "triples": [
+    {
+      "subject": "Bone marrow failure",
+      "relation": "causes_insufficient_production_of",
+      "object": "red blood cells",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produce an insufficient amount of",
+          "line_start": 46,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "produce an insufficient amount of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Bone marrow failure",
+      "relation": "causes_insufficient_production_of",
+      "object": "white blood cells",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produce an insufficient amount of",
+          "line_start": 46,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "produce an insufficient amount of",
+          "sentence_id": 1
+        }
+      ]
+    },
+    {
+      "subject": "Bone marrow failure",
+      "relation": "causes_insufficient_production_of",
+      "object": "platelets",
+      "occurrences": [
+        {
+          "line": 2,
+          "predicate": "produce an insufficient amount of",
+          "line_start": 46,
+          "char_start": 66,
+          "ambiguous": false,
+          "relation_mention": "produce an insufficient amount of",
+          "sentence_id": 1
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Bone marrow failure",
+        "occurs_in",
+        "individuals"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Red blood cells",
+        "transport",
+        "oxygen"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Red blood cells",
+        "transport_to",
+        "the body"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "White blood cells",
+        "fight_off",
+        "infections"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "platelets",
+        "trigger",
+        "clotting"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "platelets",
+        "help_stop",
+        "the blood flow"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Bone marrow failure\nBone marrow failure occurs in individuals who produce an insufficient amount of red blood cells, white blood cells or platelets. Red blood cells transport oxygen to be distributed throughout the body’s tissue. White blood cells fight off infections that enter the body. Bone marrow also contains platelets, which trigger clotting, and thus help stop the blood flow when a wound occurs."
+}

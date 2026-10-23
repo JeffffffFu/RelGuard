@@ -1,0 +1,130 @@
+{
+  "entities": {
+    "Shadowless Sword": "Film",
+    "Lee Seo-jin": "Person",
+    "Yoon So-yi": "Person",
+    "Shin Hyun-joon": "Person",
+    "Balhae Kingdom": "Kingdom",
+    "Khitan": "Entity",
+    "New Line Cinema": "Company",
+    "North America": "Location",
+    "United Kingdom": "Location",
+    "Ireland": "Location"
+  },
+  "triples": [
+    {
+      "subject": "Shadowless Sword",
+      "relation": "released_in",
+      "object": "North America",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "It was released in North America"
+        }
+      ]
+    },
+    {
+      "subject": "Shadowless Sword",
+      "relation": "starring",
+      "object": "Lee Seo-jin",
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "relation_mention": "starring Lee Seo-jin"
+        }
+      ]
+    },
+    {
+      "subject": "Shadowless Sword",
+      "relation": "follows",
+      "object": "Balhae Kingdom",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "follows the exploits of the last prince of the Balhae Kingdom"
+        }
+      ]
+    },
+    {
+      "subject": "Balhae Kingdom",
+      "relation": "battles",
+      "object": "Khitan",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "called to battle invaders from Khitan"
+        }
+      ]
+    },
+    {
+      "subject": "Shadowless Sword",
+      "relation": "distributed_by",
+      "object": "New Line Cinema",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "released in North America, the United Kingdom and Ireland by New Line Cinema"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Shadowless Sword",
+        "released_in",
+        "United Kingdom"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Shadowless Sword",
+        "released_in",
+        "Ireland"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Shadowless Sword",
+        "starring",
+        "Yoon So-yi"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Shadowless Sword",
+        "starring",
+        "Shin Hyun-joon"
+      ],
+      "why": "1 mention(s) not literal in document"
+    },
+    {
+      "triple": [
+        "Shadowless Sword",
+        "filmed_in",
+        "China"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Balhae Kingdom",
+        "hides_identity_in",
+        "small village"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Shadowless Sword",
+        "released_as",
+        "The Legend of the Shadowless Sword"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Shadowless Sword\nShadowless Sword () is a 2005 South Korean film starring Lee Seo-jin, Yoon So-yi, and Shin Hyun-joon. A martial arts epic filmed in China, the film follows the exploits of the last prince of the Balhae Kingdom, who hides his identity in a small village until he is called to battle invaders from Khitan. It was released in North America, the United Kingdom and Ireland by New Line Cinema on DVD as The Legend of the Shadowless Sword."
+}

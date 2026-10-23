@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Larry Gatlin": "Person",
+    "Steve Gatlin": "Person",
+    "Rudy Gatlin": "Person",
+    "Larry Gatlin & the Gatlin Brothers": "Group"
+  },
+  "triples": [
+    {
+      "subject": "Larry Gatlin",
+      "relation": "part_of",
+      "object": "Larry Gatlin & the Gatlin Brothers",
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "relation_mention": "As part of a trio with his younger brothers Steve and Rudy"
+        }
+      ]
+    },
+    {
+      "subject": "Larry Gatlin & the Gatlin Brothers",
+      "relation": "became_known_as",
+      "object": "Larry Gatlin & the Gatlin Brothers",
+      "occurrences": [
+        {
+          "sentence_id": 3,
+          "relation_mention": "the band became known as Larry Gatlin & the Gatlin Brothers"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "triple": [
+        "Larry Gatlin",
+        "born_on",
+        "May 2, 1948"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Larry Gatlin",
+        "is_a",
+        "American country and Southern gospel singer and songwriter"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Larry Gatlin & the Gatlin Brothers",
+        "achieved_success_in",
+        "country music genre"
+      ],
+      "why": "endpoint not in entities"
+    },
+    {
+      "triple": [
+        "Larry Gatlin & the Gatlin Brothers",
+        "performed_on",
+        "thirty-three Top 40 singles"
+      ],
+      "why": "endpoint not in entities"
+    }
+  ],
+  "document": "Larry Gatlin\nLarry Wayne Gatlin (born May 2, 1948) is an American country and Southern gospel singer and songwriter. As part of a trio with his younger brothers Steve and Rudy, he achieved considerable success within the country music genre, performing on thirty-three Top 40 singles (combining his solo recordings and those with his brothers). As their fame grew, the band became known as Larry Gatlin & the Gatlin Brothers."
+}
