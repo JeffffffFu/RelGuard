@@ -280,13 +280,33 @@ def results() -> dict:
                      "identity_inplace": "identity (privacy baseline)"}.get(corpus, corpus)
             print(f"{'':10}{label:22}{cell(g and g['naive']):>12}{cell(g and g['rtype']):>12}"
                   f"{cell(s_ and s_['naive']):>10}{cell(s_ and s_['rtype']):>10}{cell(q):>8}")
-    out = os.path.join(ROOT, "runs", f"results_{C.SCOPE}{reader_tag()}.json")
-    os.makedirs(os.path.dirname(out), exist_ok=True)
+    stem = os.path.join(ROOT, "runs", f"results_{C.SCOPE}{reader_tag()}")
+    os.makedirs(os.path.dirname(stem), exist_ok=True)
     json.dump({"scope": C.SCOPE, "reader": C.READER, "seed": C.SEED,
                "epsilons": C.EPSILONS,
                "cells": {f"{v}|{c}": r for (v, c), r in table.items()}},
-              open(out, "w", encoding="utf-8"), indent=2)
-    print(f"\n-> {out}")
+              open(stem + ".json", "w", encoding="utf-8"), indent=2)
+    # the same table as a sheet: one row per (victim, corpus), blanks for
+    # cells not on disk, no formulas
+    import openpyxl
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.title = "results"
+    ws.append(["victim", "corpus", "GRASP Naive F1", "GRASP RType F1",
+               "GraphSteal Naive F1", "GraphSteal RType F1", "QA F1"])
+    for (v, c), r in table.items():
+        g, s_ = r["grasp"], r["graphsteal"]
+        ws.append([v, c, g and round(g["naive"], 2), g and round(g["rtype"], 2),
+                   s_ and round(s_["naive"], 2), s_ and round(s_["rtype"], 2),
+                   r["qa_f1"] and round(r["qa_f1"], 2)])
+    ws.append([])
+    ws.append([f"scope {C.SCOPE}, reader {C.READER}, seed {C.SEED}. Privacy "
+               "rows: identity is the no-DP baseline; Naive/RType F1 are "
+               "F1-of-macro over the targets, padded to the full target list. "
+               "Utility rows: original is the no-DP baseline; QA F1 is token "
+               "F1 over the hundred questions."])
+    wb.save(stem + ".xlsx")
+    print(f"\n-> {stem}.json\n-> {stem}.xlsx")
     return table
 
 

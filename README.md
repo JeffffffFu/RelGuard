@@ -1,156 +1,190 @@
 # RelGuard
 
-Differential privacy for the relation semantics of a GraphRAG knowledge graph
-(the code name of the pipeline is DP-GraphRAG; paths and scopes use it).
+Differential privacy for the relation semantics of a GraphRAG knowledge graph.
+Each extracted fact (subject, relation, object) carries a type pair; the type
+pair carries a candidate pool generated from the types alone; the relation is
+resampled from that pool by a metric exponential mechanism, or withheld, which
+deletes the sentence. The released relation is written back in place of the
+predicate's own words, the rewritten corpus is indexed by an unmodified GraphRAG
+system, and the result is measured from both sides: what reconstruction attacks
+recover from the deployment (privacy), and what a QA benchmark loses (utility).
+The GRASP paper's defenses are included as baselines on the same victims.
 
-Each extracted fact (subject, relation, object) carries a type pair, the type
-pair carries a candidate pool generated from the types alone, and the relation
-is resampled from that pool by a metric exponential mechanism -- or withheld,
-which deletes the sentence. The released relation is written back in place of
-the predicate's own words, the rewritten corpus is indexed by an unmodified
-GraphRAG system, and the result is measured from both sides: what three
-reconstruction attacks recover from the deployment, and what a QA benchmark
-loses.
+## Installation
 
-## Setup
+```bash
+git clone --recursive https://github.com/JeffffffFu/RelGuard.git
+cd RelGuard
+conda env create -f environment.yml     # creates `relguard`: Python 3.10, every version pinned
+conda activate relguard
+cp .env.example .env                    # fill in OPENAI_API_KEY; OPENAI_BASE_URL for an OpenAI-compatible gateway
+```
 
-    git clone --recursive https://github.com/JeffffffFu/RelGuard.git
-    cd RelGuard
-    conda env create -f environment.yml      # creates `relguard`; see Environment below
-    conda activate relguard
-    cp .env.example .env                     # OPENAI_API_KEY, optionally OPENAI_BASE_URL
-    python scripts/fetch_data.py             # datasets/ and workspace/ from the submodule and assets/
+`environment.yml` is a full `conda env export`, so the versions are the ones
+the reported numbers were produced with. Two things worth knowing:
 
-### Environment
+- **No GPU is needed.** The only local model is the relation encoder
+  (`sentence-transformers/nli-roberta-base-v2`), run with the CPU build of
+  torch, which the file pulls from PyTorch's own index. Everything else is an
+  API call through the `openai` client.
+- **The three victims are not installed, they are imported from the
+  repository**: the patched LightRAG from `LightRAG-v1.0.3/`, PathRAG from
+  `baselines/PathRAG/`, HippoRAG 2 from the `baselines/HippoRAG/` submodule.
+  If you cloned without `--recursive`, run `git submodule update --init`.
 
-One conda environment, `relguard`, from `environment.yml`: Python 3.10 and
-every package pinned to the version the reported numbers were produced with
-(the file is a full `conda env export`, not a hand-written list). What it
-contains and why:
+**Note:** run every command from the repository root with the `relguard`
+environment active. `main.py` launches each stage with the interpreter it
+runs under.
 
-- `torch==2.14.1+cpu` and `sentence-transformers==6.1.0` run the relation
-  encoder locally; the CPU wheel comes from PyTorch's own index, which the
-  file names. A GPU is not needed anywhere in the pipeline. The encoder's Hub
-  revision is pinned separately in `config.EMBEDDER_REVISION`, because the
-  mechanism's draws are a function of the vectors.
-- `openai` is the client for every model call; `OPENAI_BASE_URL` in `.env`
-  points it at any OpenAI-compatible gateway (the reported runs went through
-  one), `OPENAI_API_KEY` is read from the same file.
-- The three victims are imported from the repository, not installed: the
-  patched LightRAG from `LightRAG-v1.0.3/`, PathRAG from `baselines/PathRAG/`,
-  HippoRAG 2 from the `baselines/HippoRAG/` submodule (`--recursive`, or
-  `git submodule update --init`). Their own dependencies (`nano-vectordb`,
-  `networkx`, `igraph`, `dspy`, `tiktoken`, ...) are in the file.
-- `openpyxl` writes the tables; `tenacity` is what the victims retry with.
+## Datasets
 
-Everything is run from the repository root with that environment's
-interpreter; `main.py` launches each stage with `sys.executable`, so
-activating the environment is the only step. To rebuild the file after
-changing a dependency: `conda env export -n relguard --no-builds`, drop the
-`prefix:` line, and keep the `--extra-index-url` line under `pip:`.
+### Fetched automatically
 
-`fetch_data.py` builds `datasets/` from the HotpotQA and 2WikiMultiHopQA
-samples HippoRAG 2 publishes (the submodule), and copies into `workspace/` the
-per-corpus artefacts the reported numbers depend on: the extraction, the
-candidate pools, their verbalisations, the predicate spans and the frozen gold
-filter. These were produced by model calls and would not come back identical
-if regenerated.
+```bash
+python scripts/fetch_data.py
+```
 
-## Running
+| What | From | Lands in |
+|---|---|---|
+| HotpotQA, 1,000-question sample and its 9,811 passages | HippoRAG 2's reproduction set (the submodule) | `datasets/hotpotqa/` |
+| 2WikiMultiHopQA, 1,000 questions and 6,119 passages | the same | `datasets/2wiki/` |
+| the hundred-question subsets and the fifteen attack targets | `assets/subsets/` | `datasets/subsets/` |
+| the per-corpus artefacts of the method: extraction, candidate pools, verbalisations, predicate spans, frozen gold filter | `assets/<scope>/` | `workspace/dp_<scope>/` |
 
-Two methods, each needing the corpus and the target model; everything else
-defaults from `config.py`.
+The artefacts under `assets/` were produced by model calls and would not come
+back identical if regenerated; shipping them is what makes a run here
+comparable with the reported numbers. `extract` and `pools` (below) rebuild
+them from scratch for a new corpus.
 
-    python main.py ours      --scope 2wiki100 --model gpt-4o-mini --eps 1 5
-    python main.py baselines --scope 2wiki100 --model gpt-4o-mini
+### Optional
 
-`ours` runs the mechanism end to end at each epsilon -- perturb, rewrite,
-inject, build the three victims' indexes, answer the hundred questions, run
-GRASP and GraphSteal -- and prints the results: per victim, privacy F1 for
-identity (no DP) and each epsilon under both attacks, and QA F1 for the
-original corpus and each epsilon. `results` prints that table again from
-what is on disk. `baselines` runs the GRASP paper's defenses and GraphSteal's
-protective prompt on the same corpus and model, three independent rounds,
-and prints the defense table.
+```bash
+python scripts/fetch_data.py --trex     # KILT T-REx parquet from the Hugging Face hub, ~550 MB
+```
 
-`--model` is the victim's reader on the attack side and the QA side; the
-attacker and the judge stay at `config.ATTACKER`, so a delta between target
-models is attributable. Any config value can be overridden for one run with
-`--set KEY=VALUE`; `--dry` prints the commands without running them. Every
-stage resumes over what exists, so an interrupted command is rerun as is.
+Only needed to rebuild the entity-type inventory (`dp.entity_types --build`,
+`dp.signature --build`); the files those produce are already in `assets/kilt/`.
 
-Single stages, for a partial rerun:
+## Code structure
 
-    python main.py stage perturb --scope 2wiki100
-    python main.py stage attack  --scope 2wiki100 --model gpt-4o-mini --eps 1
+- `main.py` -- the entry point: `ours`, `baselines`, `results`, and the single stages.
+- `config.py` -- every parameter of a run; `--set KEY=VALUE` overrides one.
+- `scripts/fetch_data.py` -- puts the datasets and the shipped artefacts in place.
+- `assets/` -- the artefacts a run must share with the reported numbers (see Datasets).
+- `dp/` -- the mechanism, in pipeline order:
+  `extract.py` (entities with types, triples with where they are said),
+  `entity_types.py` / `typemap.py` / `signature.py` (the eleven OntoNotes
+  classes the pools are keyed on), `relation_pool.py` (a candidate pool per
+  ordered type pair), `verbalize.py` (a relation as a sentence, so the
+  distance is between meanings), `mechanism.py` (the metric exponential
+  mechanism over pool + null), `spans.py` / `inplace.py` (the released relation
+  substituted where the predicate stood), `graph_inject.py` (the typed
+  relations an index should carry).
+- `benchmark/` -- the loaders (`benchmarks.py`), the QA scorer
+  (`score_hotpot.py`), the LightRAG runner (`run_bench.py`), the attacks
+  (`grasp_simple.py`, `agea.py`, `graphsteal.py`, `score_graphsteal.py`), the
+  defenses (`defenses.py`, `defenses_hipporag.py`, `attack_defended.py`), the
+  sweeps (`sweep_defenses.sh`, `sweep_graphsteal.sh`) and the defense table
+  (`defense_table.py`). See `benchmark/README.md`.
+- `baselines/` -- `run_pathrag.py` and `run_hipporag.py`, the other two
+  victims' runners; `PathRAG/` vendored with its changes recorded;
+  `HippoRAG/` as a submodule, unmodified.
+- `LightRAG-v1.0.3/` -- the third victim: upstream v1.0.3 plus
+  `dp-graphrag.patch` (`UPSTREAM_COMMIT.txt` names the base).
+- `datasets/`, `workspace/`, `runs/`, `results/`, `logs/` -- generated; gitignored.
 
-`extract` and `pools` regenerate the shipped artefacts from scratch, for a new
-corpus; do not run them when comparing against the paper.
+## Demo experiments
 
-## Layout
+Two methods, each needing the corpus (`--scope`: `2wiki100` or `hotpotqa100`)
+and the target model (`--model`: the victim's reader, on both the attack side
+and the QA side). Everything else defaults from `config.py`.
 
-    main.py                  `ours`, `baselines`, `results`, and the single stages
-    config.py                every parameter of a run
-    scripts/fetch_data.py    datasets/ and workspace/ from the submodule and assets/
-    assets/                  the artefacts a run must share with the paper (see Setup)
+### Our method
 
-    dp/                      the mechanism, in pipeline order
-      extract.py             entities with types, triples with where they are said
-      entity_types.py        the eleven OntoNotes classes the pools are keyed on
-      typemap.py             extracted type strings onto those classes
-      signature.py           type signatures and the pools they imply
-      relation_pool.py       a candidate pool per ordered type pair, generated
-      verbalize.py           a relation as a sentence, so the distance is between meanings
-      mechanism.py           the metric exponential mechanism over pool + null
-      spans.py               the shortest substring of a sentence that states a relation
-      inplace.py             the released relation substituted where the predicate stood
-      graph_inject.py        the typed relations an index should carry
+```bash
+python main.py ours --scope 2wiki100 --model gpt-4o-mini --eps 1 5
+```
 
-    benchmark/               loaders, the QA scorer, three attacks, the defenses,
-                             the sweeps and the table -- see benchmark/README.md
-    baselines/
-      run_pathrag.py         PathRAG utility runner      (baselines/PathRAG/, vendored with its changes recorded)
-      run_hipporag.py        HippoRAG 2 utility runner   (baselines/HippoRAG/, submodule, unmodified)
-    LightRAG-v1.0.3/         the third victim: upstream v1.0.3 plus dp-graphrag.patch
+Runs the mechanism end to end at each epsilon: perturb, rewrite, inject,
+build the three victims' indexes, answer the hundred questions, run GRASP and
+GraphSteal, and print the results -- per victim, Naive and RType F1 under
+both attacks for identity and each epsilon, and QA F1 for the original corpus
+and each epsilon. `--eps` is the method's parameter.
 
-    datasets/ workspace/ results/ runs/ logs/    generated by fetch_data.py and the stages; gitignored
+```bash
+python main.py results --scope 2wiki100 --model gpt-4o-mini     # print the table again, from disk
+```
 
-## Victims and attacks
+### Baseline defenses
 
-Three GraphRAG systems are attacked as deployments: LightRAG, PathRAG and
-HippoRAG 2. Three attacks reconstruct the graph through their query interface
--- GRASP, AGEA and GraphSteal -- and are scored on the same fifteen targets
-against a frozen gold extraction. Naive counts an entity pair recovered; RType
-also requires the relation.
+```bash
+python main.py baselines --scope 2wiki100 --model gpt-4o-mini
+```
 
-## Baselines, fixed
+Runs the GRASP paper's defenses (Abstractive, Extractive, ID Alignment,
+Decoy) and GraphSteal's protective prompt on the same corpus and target
+model, three independent rounds, and prints the defense table.
 
-A row standing for "no DP" or "no defense" in a privacy table is the identity
-rewrite: the corpus passed through the write-back with every relation released
-unchanged, which isolates the mechanism's noise from the rewrite's
-canonicalisation. A utility table's baseline is the original corpus. The sweep
-scripts and `defense_table.py` encode both.
+### Single stages
 
-## What reproduces exactly, and what does not
+```bash
+python main.py stage perturb --scope 2wiki100
+python main.py stage index   --scope 2wiki100 --model gpt-4o-mini --eps 1
+python main.py stage attack  --scope 2wiki100 --model gpt-4o-mini --eps 1
+```
 
-With the shipped artefacts, the pinned environment and the pinned embedder
-revision (`config.EMBEDDER_REVISION`), `perturb`, `rewrite` and `inject`
-reproduce the paper's traces, rewritten corpora and injected relations byte
-for byte -- this was checked. Everything downstream calls a model: building
-an index, answering questions, attacking, judging. Those numbers reproduce
-within the run-to-run spread the paper reports (three independent runs of
-one cell move RType F1 by up to 9-12 points on these victims), not exactly,
-so a delta is read with its paired confidence interval and not its mean.
+Stages: `extract pools perturb rewrite inject index attack defenses table`.
+Add `--dry` to any command to print what it would run without running it.
+Every stage resumes over what exists -- an index is built once, a scored
+target or a checkpointed attack is not repeated -- so an interrupted command
+is simply rerun.
 
-## Metrics worth knowing the shape of
+**Note:** do not run `extract` or `pools` when comparing against the reported
+numbers; they call a model and replace the shipped artefacts.
 
-**HotpotQA / 2Wiki: EM and token F1**, deterministic. EM reads the whole
-reply and gold answers run to two words, so the answer shape matters;
-`ANSWER_SHAPE` in `run_bench.py` holds one instruction per question type.
+### Where the results land
 
-**Attack metrics** are macro over targets, padded to the full target list: a
-target the attack recovered nothing for is a zero, not a target to drop.
+| File | Content |
+|---|---|
+| `runs/results_<scope>[_vm-<model>].json` | one entry per (victim, corpus): `grasp` and `graphsteal` as `{naive, rtype}` F1, `qa_f1`; `null` where not on disk |
+| `runs/results_<scope>[_vm-<model>].xlsx` | the same table as a sheet |
+| `runs/defense_3run_mean[_vm-<model>].xlsx` | the defense table: per victim and benchmark, six settings, both attacks' Naive/RType F1 and QA F1, mean of three rounds; a Runs sheet with every round |
+
+Corpora are named `original`, `identity_inplace` and `eps<e>_seed<s>_inplace`.
+Behind every number is its run:
+
+| Path | Content |
+|---|---|
+| `runs/_u_<scope>[_vm-<model>]/.../predictions_*.json` | one record per question: question, gold, the reader's answer, the retrieval context; `benchmark/score_hotpot.py <file>` scores it by question type |
+| `runs/_grasp/<scope>_<victim>_<corpus>[_vm-<model>]/` | `naive_rtype.json` (one row per target: P, R, F1, hits), `turns_<i>.jsonl` (every query and reply), `judge.json` |
+| `runs/_graphsteal/<scope>_<victim>_<corpus>[_vm-<model>]/` | the same, plus `state_*.json` (the recovered graph and frontier) |
+| `runs/_defense/sweep[_vm-<model>]/rep<r>/<cell>/`, `runs/_graphsteal/defense[_vm-<model>]/rep<r>/<cell>/` | the defense cells, laid out as above |
+| `workspace/dp_<scope>/perturbed/`, `sanitized/`, `inject/` | the mechanism's trace per fact, the rewritten corpus, the typed relations handed to each index |
+| `workspace/u_<scope>_<lr\|pr\|hp>_<corpus>/` | the victims' indexes |
+
+## Notes on defaults
+
+All in `config.py`; override any for one run with `--set KEY=VALUE`.
+
+| Parameter | Default | Remark |
+|---|---|---|
+| `EPSILONS` | `[0.1, 1, 5, 10]` | `--eps` on the command line |
+| `SEED` | `0` | the mechanism's draws and the decoy endpoints |
+| `POOL_SIZE` | `10` | candidate relations per ordered type pair |
+| `NULL_DISTANCE` | `1.0` | where null sits in the metric; `>= 0.357` keeps it a metric |
+| `WITH_NULL` | `True` | `False` never deletes a sentence (ablation) |
+| `EMBEDDER` / `EMBEDDER_REVISION` | `nli-roberta-base-v2`, pinned | the relation encoder and its Hub revision |
+| `READER` | `gpt-4o-mini` | `--model`; the victim's reader on both sides |
+| `ATTACKER` | `gpt-4o-mini` | the attacker's own LLM and the typed judge; fixed across target models |
+| `INDEX_MODEL` | `gpt-4o-mini` | what every index is built with; HippoRAG keys its store on it |
+| `VICTIMS` | `lightrag, pathrag, hipporag` | |
+| `TOP_K` | `10, 10, 5` | retrieval budget per victim (HippoRAG's own default) |
+| `GRASP_QUERIES` | `5` | per target |
+| `GRAPHSTEAL` | `75` turns, `predicate`, `degree`, top_k `40` | the targeted configuration |
+| `DEFENSES` / `ROUNDS` | all six settings, `3` | the baseline sweep |
+| `CONCURRENCY` | `8` | parallel questions while answering |
 
 ## License
 
-MIT; third-party code under its own license in its directory (see LICENSE).
+MIT. Third-party code under its own license in its directory: LightRAG
+(HKUDS), PathRAG, HippoRAG (OSU-NLP-Group); see `LICENSE`.
